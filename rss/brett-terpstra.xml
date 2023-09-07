@@ -10,9 +10,7 @@
 <link>https://brett.trpstra.net/link/535/16338321/timing-automatic-time-tracking-for-mac-and-ios-sponsor</link>
 <guid>https://brett.trpstra.net/link/535/16338321/timing-automatic-time-tracking-for-mac-and-ios-sponsor</guid>
 <content:encoded><![CDATA[
-<div> Timing, time tracking, app, automatic, productivity
-<br /><br />总结:
-这篇文章介绍了Timing这款时间追踪应用的各种功能和优势。Timing能自动追踪用户使用的应用、文档和网站的时间，并且可以自动分类。它还可以导入iPhone和iPad的使用记录，显示完整的设备使用情况。此外，Timing还可以导入iPhone的电话记录和日历中的会议，确保所有时间都得到记录。该应用具有可选和可配置的功能，帮助用户更好地了解自己的时间去向，而且维护成本较低。总的来说，Timing帮助用户更好地管理时间，提高生产力。 <div>
+<div> Timing, a time-tracking app, is being sponsored by BrettTerpstra.com. The app automatically records how long you use each app, document, and website without the need for start/stop timers. It can also categorize the time based on rules for easy tracking. Additionally, Timing imports data from Screen Time on iPhones and iPads to provide a complete picture of device usage. Phone calls and calendar events are also automatically recorded, ensuring no time goes untracked. The app even prompts users to record what they did during breaks. The new vertical timeline view makes it easier to see time usage at a glance. Timing offers a comprehensive overview of where your time goes, requiring less maintenance compared to other time trackers. Brett Terpstra, the author of the article, is a fan of Timing and finds it helps him be more productive. Readers of his blog can get a 10% discount for the first year of using Timing.<br /><br />Summary:<br />Timing是一款时间跟踪应用，由BrettTerpstra.com赞助。该应用自动记录您使用每个应用、文档和网站的时间，无需启动/停止定时器。它还可以根据规则自动对时间进行分类，便于跟踪。此外，Timing还导入来自iPhone和iPad的屏幕使用时间数据，提供完整的设备使用情况。电话和日历事件也会被自动记录，确保不会遗漏任何时间。该应用还会提示用户记录休息期间所做的事情。全新的垂直时间轴视图使一目了然地查看时间使用情况更加容易。Timing提供了关于您的时间去向的全面概述，与其他时间跟踪器相比，维护工作量更小。文章作者Brett Terpstra是Timing的粉丝，并认为它帮助他提高了工作效率。他的博客读者在使用Timing时可以获得首年折扣10%的优惠。 <div>
 <p>Thanks to Timing for sponsoring BrettTerpstra.com this week! I’ve loved Timing for years, and the new vertical timeline view is an awesome upgrade to one of my most-used apps.</p>
 
 <p><a href="https://timingapp.com/brett2023" rel="nofollow">
@@ -61,9 +59,6 @@ Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the
 <link>https://brett.trpstra.net/link/535/16338322/important-journal-cli-updates</link>
 <guid>https://brett.trpstra.net/link/535/16338322/important-journal-cli-updates</guid>
 <content:encoded><![CDATA[
-<div> 关键词：更新，数据格式，点语法，键重复，自定义文件夹
-
-总结：<br /><br />更新了数据格式，修复了键重复时的问题，现在会将重复的键与父键合并而不是嵌套。还添加了自定义文件夹的选项，可以为每个日志定义不同的保存位置。这些改进增加了工具的实用性，对数据格式的更改在早期进行会更好。请参阅文档了解更多详情。 <div>
 <p>Just a couple quick updates to the <a href="https://brettterpstra.com/projects/journal-cli/">Journal CLI</a> I <a href="https://brettterpstra.com/2023/09/06/journal-a-cli-for-journaling/">published yesterday</a> that I wanted everyone who was trying it out to know about before they have too much data in it.</p>
 
 <p>First, if keys were nested using dot syntax, e.g. <code class="language-plaintext highlighter-rouge">health.rating</code> and <code class="language-plaintext highlighter-rouge">health.sleep</code>, it would create a hash like:</p>
@@ -96,7 +91,6 @@ Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the
 <link>https://brett.trpstra.net/link/535/16334303/journal-a-cli-for-journaling</link>
 <guid>https://brett.trpstra.net/link/535/16334303/journal-a-cli-for-journaling</guid>
 <content:encoded><![CDATA[
-<div> journal-cli, neurodivergence, data collection, couple's therapy, command-line tool.<br /><br />总结: 这篇文章介绍了一个叫journal-cli的命令行工具，用于帮助对于神经非典型性的情侣在夫妻治疗中进行数据收集。作者通过这个工具来记录日记、回答问题，并将答案以JSON格式存储，还可以选择生成Day One和Markdown格式的条目。该工具支持处理数值、字符串和多行输入，并自动记录每个条目的天气。目前，工具已经能够生成格式良好的Day One条目，以便作者可以更好地了解自己的情绪和日记。作者还计划未来开发数据查询部分，以便进行统计分析和跟踪。这个工具对于需要进行数据收集和分析的人群是非常有用的。 <div>
 <p>I recently started couple’s therapy to try and improve the often-complicated relationship between myself (ADHD, bipolar) and my partner (autistic) and all of the unique problems that combination of neurodivergence presents. As part of this, I was asked to keep a journal containing certain data points. I started off journaling in Day One, but immediately realized that I was collecting some numeric data that I wouldn’t be able to do anything with unless it was stored in a database format of some kind. So I wrote a tool.</p>
 
 <p><a href="https://brettterpstra.com//projects/journal-cli/">Journal</a> is a command-line tool that takes a configuration of journals, sections, and questions, presents the questions on the command line, and records the answers to JSON, as well as optionally creating Day One and Markdown versions of the entries. It can handle numeric data, string and multiline input, as well as automatically recording the daily weather for each entry.</p>
@@ -120,9 +114,6 @@ Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the
 <link>https://brett.trpstra.net/link/535/16322833/a-bit-more-na-work</link>
 <guid>https://brett.trpstra.net/link/535/16322833/a-bit-more-na-work</guid>
 <content:encoded><![CDATA[
-<div> Minneapolis, friends, food, coding, changes<br />
-<br />
-总结: 本文是作者回顾他周末在明尼阿波利斯的旅行的经历。作者见到了一些好朋友，享受了美食，并在酒店的早晨进行了一些编程活动。作者通过编写代码来打发时间，将主要的二进制文件进行了拆分，以便更容易进行维护。作者还对更新命令进行了改进，增加了一些新的功能，如--restore标志，并通过添加分页功能使输出更加方便。此外，作者还添加了一些新的命令，并对已有的命令进行了更新和改进。最后，作者提到了自己的网站，以及对读者的感谢和支持。 <div>
 <p>I went on a trip to Minneapolis this weekend. It went really well; I saw some 
 great friends, ate some great food, and spent some early mornings coding at the hotel. I was just coding to kill time when I couldn’t sleep, and playing with <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com"><code class="language-plaintext highlighter-rouge">na</code></a> seemed like the perfect way to do it.</p>
 
@@ -160,9 +151,6 @@ great friends, ate some great food, and spent some early mornings coding at the 
 <link>https://brett.trpstra.net/link/535/16311855/stem-the-tide-of-unread-emails-with-sanebox-digest-from-sanebox-sponsor</link>
 <guid>https://brett.trpstra.net/link/535/16311855/stem-the-tide-of-unread-emails-with-sanebox-digest-from-sanebox-sponsor</guid>
 <content:encoded><![CDATA[
-<div> SaneBox, sponsorship, email overview, SaneBox Digest, email activity, concise summary, important emails, unimportant emails, email control, clutter.
-
-总结:<br /><br />SaneBox是一款帮助管理邮箱的工具，其特色功能SaneBox Digest能够以简洁的概述方式展示用户的邮件活动。Digest每天或每周发送一封邮件，列出未读邮件并总结其内容，帮助用户快速找到重要的邮件。它就像是个人的新闻播放器，过滤掉了噪音，凸显重要信息，让你能够对邮件进行有效管理，保持关注而无需被杂乱邮件困扰。这篇文章是BrettTerpstra.com为感谢SaneBox赞助而写的推荐文章。 <div>
 <p>Thanks to SaneBox for sponsoring BrettTerpstra.com again this week! I rely on my SaneBox Digest to get an overview of all the emails that (thankfully) skipped my inbox without having to wade through them all. Highly recommend!</p>
 
 <p><a href="https://try.sanebox.com/be2h3q" rel="nofollow">
@@ -193,11 +181,6 @@ great friends, ate some great food, and spent some early mornings coding at the 
 <link>https://brett.trpstra.net/link/535/16308395/some-na-updates-and-new-commands</link>
 <guid>https://brett.trpstra.net/link/535/16308395/some-na-updates-and-new-commands</guid>
 <content:encoded><![CDATA[
-<div> 更新内容：增加了归档和完成命令，方便对已完成的任务进行归档和标记。归档命令可以通过搜索字符串和--done选项一次性归档所有已完成的任务。完成命令可以通过搜索字符串和--all选项标记匹配的任务为已完成，并可以添加备注。同时，还可以使用--archive选项将任务标记为已完成并移到归档文件夹中。文章还提到了na工具的一些其他用法和功能，并鼓励用户提出功能建议。
-
-关键词：更新内容、归档命令、完成命令、na工具、功能建议
-
-总结：<br /><br />更新内容中，增加了两个命令：归档命令和完成命令，使得对已完成的任务进行归档和标记变得简单。归档命令可以一次性归档所有完成的任务，而完成命令可以方便地将匹配的任务标记为已完成，并可以添加备注。此外，还鼓励用户提出功能建议。 <div>
 <p>I’ve updated <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com">na</a> with some new stuff I thought I’d share.</p>
 
 <p>First off, I wanted an easy way to archive all @done actions in one swoop without having to use a lot of flags and switches to locate them and move them. So I added an <code class="language-plaintext highlighter-rouge">archive</code> command, which takes a search string as an argument, but also has a <code class="language-plaintext highlighter-rouge">--done</code> switch that will archive all @done tasks. So you can just run <code class="language-plaintext highlighter-rouge">na archive --done</code>, select the file to affect if there are multiple available, and presto, “archive all finished” is done, just like in TaskPaper.</p>
@@ -272,7 +255,6 @@ EXAMPLES
 <link>https://brett.trpstra.net/link/535/16306720/convert-regexrx-native-files-to-markdown-snippets</link>
 <guid>https://brett.trpstra.net/link/535/16306720/convert-regexrx-native-files-to-markdown-snippets</guid>
 <content:encoded><![CDATA[
-<div> 正则表达式工具，RegExRX，转换 .regexrx 文件为 Markdown 文件，Gem 安装 regexrx2md 工具，转换文件或目录，附带选项，有用的工具。总结：文章介绍了使用RegExRX工具来测试正则表达式的功能，并提供了转换.regexrx文件为Markdown文件的工具regexrx2md，方便用户使用。 <div>
 <p>I <em>love</em> <a href="https://apps.apple.com/us/app/regexrx/id498370702?mt=12&amp;uo=4&amp;at=10l4tL&amp;ct=searchlink">RegExRX</a> for testing regular expressions. It has all the features I could want from such an app, including the ability to copy a working regex out prepared for a range of languages. It’s what I’ve stuck with for years.</p>
 
 <p>As I experiment with my regexes, I’ll save them in RegExRX, creating a <code class="language-plaintext highlighter-rouge">.regexrx</code> file in my Snippets folder (where <a href="https://brettterpstra.com//projects/snibbets/">Snibbets</a> works). In order to make these searchable with Snibbets, I use a script to convert the XML-based <code class="language-plaintext highlighter-rouge">.regexrx</code> file to a Markdown file with the flags, search string, and the replace string and test text if they exist. I <a href="https://brettterpstra.com//projects/regexrx2md/">turned this into a gem</a> for anyone who should happen to run into such a need.</p>
@@ -1595,103 +1577,6 @@ page</a> for more details.</p>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16023155.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-03-14T12:37:00-05:00</pubDate>
-</item>
-<item>
-<title>Howzit with named variables</title>
-<link>https://brett.trpstra.net/link/535/16008829/howzit-with-named-variables</link>
-<guid>https://brett.trpstra.net/link/535/16008829/howzit-with-named-variables</guid>
-<content:encoded><![CDATA[
-<noscript class="loading-lazy">
-                <source media="(max-width: 640px)" />
-                <source type="image/webp" />
-                <source />
-                <img alt="Howzit Banner" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/03/howzitdeploy2-rb.jpg" title="Howzit Banner" width="800" />
-              </noscript>
-            
-
-<p>I had a sleepless morning and decided to flesh out a <a href="https://brettterpstra.com/projects/howzit/" title="howzit">Howzit</a> feature I’ve been meaning to get around to. In case you’ve missed it, Howzit is my “Markdown makefile” tool that allows you to keep track of project notes, specs, and scripts in a convenient Markdown file that can be searched and neatly displayed, and can contain directives to execute project-related commands conveniently.</p>
-
-<p>As of version 2.1.0, you can now define and name positional variables when creating a topic in your build notes. For example:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code># My Project
-
-## First Topic (var1, var2)
-
-@run(cp "${var1}" "${var2}")</code></pre></div></div>
-
-<!--more-->
-
-<h3 id="defining-named-variables">Defining Named Variables</h3>
-
-<p>As you can see above, you define the names in parenthesis after the topic title, and can then refer to them using <code class="language-plaintext highlighter-rouge">${NAME}</code>. Then you can call <code class="language-plaintext highlighter-rouge">howzit -r First Topic -- "changelog.md" "wiki/changelog.md"</code> (arguments are passed after <code class="language-plaintext highlighter-rouge">--</code>, everything before that is a topic search string). Stupid example as it would take longer to type that out than a simple copy command is worth, but it’s very handy in larger scripts.</p>
-
-<h3 id="using-with-include">Using With @include()</h3>
-
-<p>Variables can be passed between topics when using <code class="language-plaintext highlighter-rouge">@include()</code> directives by adding square brackets at the end of the include topic title. So if I were going to call the above example from within another topic, I would use <code class="language-plaintext highlighter-rouge">@include(First Topic [file1, file2])</code>. Arguments are separated by commas. You can also use variables within the square brackets, so if the parent topic had already defined a variable (or set it in front matter), you could use <code class="language-plaintext highlighter-rouge">@include(First Topic [${myvar1}, ${myvar2}])</code>.</p>
-
-<p>This is a change in behavior. Before arguments were only positional, and if the command line contained one or more arguments, they would be <code class="language-plaintext highlighter-rouge">$1</code>, <code class="language-plaintext highlighter-rouge">$2</code>, etc. for every topic. This new method allows a parent topic to take specific arguments and provide them as needed to included subtopics in the order that the included topic requires.</p>
-
-<p>A big thing that this allows is the creation of reusable topics that perform a specific function which can be included by multiple parent topics. Changing the parameters of the <code class="language-plaintext highlighter-rouge">@include</code> directive within the parent topic will change the behavior of the nested snippet.</p>
-
-<h3 id="providing-default-values-optional-arguments">Providing Default Values (Optional Arguments)</h3>
-
-<p>You can add default values to any variable, making it optional, with <code class="language-plaintext highlighter-rouge">var_name:DEFAULT VALUE</code>. This works when defining variables in topic titles, e.g. <code class="language-plaintext highlighter-rouge">## TITLE (var1:changelog.md)</code>, or in a placeholder, e.g. <code class="language-plaintext highlighter-rouge">${var1:changelog.md}</code>. The value after the colon can contain spaces, but there should be no spaces around the colon.</p>
-
-<p>By the way, if you <a href="https://github.com/ttscoff/howzit/wiki/Templates-and-metadata">define metadata</a> at the top of a build note, you would usually access the values with the <code class="language-plaintext highlighter-rouge">[%key_name]</code> syntax. Metadata values also become available as variables with the <code class="language-plaintext highlighter-rouge">${key_name}</code> syntax and are populated before any command line arguments, so if they have the same name as a variable, they’ll serve as fallbacks if no argument is given (but only when using the <code class="language-plaintext highlighter-rouge">${key_name}</code> syntax; command line arguments have no effect on the <code class="language-plaintext highlighter-rouge">[%key_name]</code> template rendering).</p>
-
-<p>I detailed all of this <a href="https://github.com/ttscoff/howzit/wiki/Variables">on the wiki</a> as well. Enjoy!</p>
-
-<p>If you’ve already installed, just use <code class="language-plaintext highlighter-rouge">gem update howzit</code> (or <code class="language-plaintext highlighter-rouge">brew gem update howzit</code> if you’re using Homebrew’s brew-gem). If you haven’t started yet, <a href="https://brettterpstra.com/projects/howzit/" title="howzit">check the project page</a>, or the <a href="https://github.com/ttscoff/howzit/wiki/Getting-Started">Getting Started</a> wiki page for installation instructions.</p>
-
-<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F07%2Fhowzit-with-named-variables%2F&amp;text=Howzit+with+named+variables&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F07%2Fhowzit-with-named-variables%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
-    <hr style="margin: 40px 0;" />
-<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
-<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
-<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16008829.gif" width="1" />
-]]></content:encoded>
-<pubDate>2023-03-07T11:32:00-06:00</pubDate>
-</item>
-<item>
-<title>Web Excursions for March 06, 2023</title>
-<link>https://brett.trpstra.net/link/535/16007176/web-excursions-for-march-06-2023</link>
-<guid>https://brett.trpstra.net/link/535/16007176/web-excursions-for-march-06-2023</guid>
-<content:encoded><![CDATA[
-<noscript class="loading-lazy">
-                <source media="(max-width: 640px)" />
-                <source type="image/webp" />
-                <source />
-                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
-              </noscript>
-            
-
-<p>Web excursions brought to you in partnership with Setapp. <a href="https://go.setapp.com/stp44">Get access to hundreds of Mac and iOS apps for one low monthly subscription fee.</a></p>
-
-<p>This roundup got a little ChatGPT heavy, but with the release of the API
-on March 1st and the promise of a free-to-use version moving forward,
-seems like a good time to start exploring integrations.</p>
-
-<dl>
-  <dt><a href="https://github.com/shapehq/slack-chatgpt">shapehq/slack-chatgpt</a></dt>
-  <dd>Integrate ChatGPT into Slack using Cloudflare Workers. Nice proof of concept, and totally usable.</dd>
-  <dt><a href="https://scribblediffusion.com/">Scribble Diffusion</a></dt>
-  <dd>Turn your sketch into a refined image using AI. This is actually a really cool way to generate very specific AI images, using a rough sketch and a short description to get results closer to what I’m imagining (I’m not great at prompts). Fast sketch-to-image render times, too.</dd>
-  <dt><a href="https://www.macstadium.com/blog/first-look-mac-mini-with-m2-pro">First look: Mac mini with M2 Pro</a></dt>
-  <dd>MacStadium’s Brian Stucki gives a first look at (and teardown of) the Mac mini with M2 Pro.</dd>
-  <dt><a href="https://folivora.ai/blog/post/13300">Using ChatGPT with BetterTouchTool</a></dt>
-  <dd>Andreas offers some ways to integrate ChatGPT and OpenAI into your system using BetterTouchTool. I swear that app can do anything.</dd>
-  <dt><a href="https://forums.getdrafts.com/t/chatgpt-conversation-action/14042">Drafts ChatGPT Conversation Action</a></dt>
-  <dd>Use ChatGPT in Drafts.</dd>
-</dl>
-
-<p><a href="https://go.setapp.com/stp44">Check out Setapp</a> today and get access to the best Mac and iOS apps out there.</p>
-
-<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F06%2Fweb-excursions-for-march-06-2023%2F&amp;text=Web+Excursions+for+March+06%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F06%2Fweb-excursions-for-march-06-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
-    <hr style="margin: 40px 0;" />
-<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
-<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
-<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16007176.gif" width="1" />
-]]></content:encoded>
-<pubDate>2023-03-06T14:56:00-06:00</pubDate>
 </item>
 </channel>
 </rss>

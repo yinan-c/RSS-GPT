@@ -1,5 +1,5 @@
 ------------------------------------------------------
-Started: 2023-09-07 13:52:54.097926
+Started: 2023-09-07 19:27:24.646318
 Existing_entries: 0
 Fetching from https://meta.appinn.net/tag/chrome.rss
 Append: [请教 uBlock Origin 怎么屏蔽泛用于 淘宝所有店铺 用手机逛本店](https://meta.appinn.net/t/topic/47185)
@@ -33,6 +33,7 @@ Append: [推荐两个小工具吧](https://meta.appinn.net/t/topic/16176)
 Append: [请教一个并不稀奇但却迟迟没有的chrome功能](https://meta.appinn.net/t/topic/45950)
 Append: [有什么能让人用得顺手的浏览器浏览进程管理](https://meta.appinn.net/t/topic/39735)
 Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [超高速背单词 APP 【嗯背单词】更新 1.2.2 版本，新增词根词缀，自由导入词书等功能](https://meta.appinn.net/t/topic/47211)
 Append: [Sorted3 多端同步方案讨论帖](https://meta.appinn.net/t/topic/47180)
 Append: [电子书阅读软件](https://meta.appinn.net/t/topic/39974)
 Append: [MarkdownMind - 限时免费到30号](https://meta.appinn.net/t/topic/46314)
@@ -61,7 +62,6 @@ Append: [网络黄页——日记笔记类软件App](https://meta.appinn.net/t/t
 Append: [日本航空的壁纸](https://meta.appinn.net/t/topic/45796)
 Append: [音乐播放管理软件](https://meta.appinn.net/t/topic/40654)
 Append: [每日状态(DayStatus)-ios软件【限时免费】](https://meta.appinn.net/t/topic/45594)
-Append: [警示录-ios小组件-限时免费](https://meta.appinn.net/t/topic/45596)
 Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [[自荐] 🎙️ MemoAI：颜值还行，支持 GPU 的离线语音转文字、字幕翻译工具，还有播客、YouTube 一键下载转录](https://meta.appinn.net/t/topic/47125)
 Append: [【自荐】即时工具-独立开发的全能型工具箱客户端上线（送兑换码）](https://meta.appinn.net/t/topic/46304)
@@ -84,69 +84,12 @@ Append: [ThunderBird的UI大改、大版本更新之Supernova版](https://meta.a
 Append: [Mac M 系列芯片 profile 工具](https://meta.appinn.net/t/topic/45941)
 Append: [一堆PDF报告如何用chatgpt解读？](https://meta.appinn.net/t/topic/45356)
 append_entries: 79
-Finish: 2023-09-07 13:52:56.400753
+Finish: 2023-09-07 19:27:26.814955
 ------------------------------------------------------
-Started: 2023-09-07 13:55:41.516316
+Started: 2023-09-07 19:28:59.034622
 Existing_entries: 79
 Fetching from https://meta.appinn.net/tag/chrome.rss
 Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
-Finish: 2023-09-07 13:55:43.726882
-------------------------------------------------------
-Started: 2023-09-07 13:57:35.689866
-Existing_entries: 79
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 0
-Finish: 2023-09-07 13:57:37.864959
-------------------------------------------------------
-Started: 2023-09-07 13:05:52.116335
-Existing_entries: 79
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 0
-Finish: 2023-09-07 13:05:55.445992
-------------------------------------------------------
-Started: 2023-09-07 14:02:20.225995
-Existing_entries: 79
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Append: [超高速背单词 APP 【嗯背单词】更新 1.2.2 版本，新增词根词缀，自由导入词书等功能](https://meta.appinn.net/t/topic/47211)
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 1
-Finish: 2023-09-07 14:02:23.212825
-------------------------------------------------------
-Started: 2023-09-07 16:06:25.988460
-Existing_entries: 80
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 0
-Finish: 2023-09-07 16:06:29.794111
-------------------------------------------------------
-Started: 2023-09-07 19:00:48.654325
-Existing_entries: 80
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 0
-Finish: 2023-09-07 19:00:50.712677
-------------------------------------------------------
-Started: 2023-09-07 19:02:26.675132
-Existing_entries: 80
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 0
-Finish: 2023-09-07 19:02:28.686217
-------------------------------------------------------
-Started: 2023-09-07 18:06:54.806097
-Existing_entries: 80
-Fetching from https://meta.appinn.net/tag/chrome.rss
-Fetching from https://meta.appinn.net/tag/ios.rss
-Fetching from https://meta.appinn.net/tag/macos.rss
-append_entries: 0
-Finish: 2023-09-07 18:06:59.098086
+Finish: 2023-09-07 19:29:01.139735

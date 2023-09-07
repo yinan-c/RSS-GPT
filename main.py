@@ -110,18 +110,25 @@ def truncate_entries(entries, max_entries):
         entries = entries[:max_entries]
     return entries
 
-def gpt_summary(query,model):
-    chat = ChatCompletion.create(
-        model=model,
-        api_key=OPENAI_API_KEY,
-        messages=[
+def gpt_summary(query,model,language):
+    if language == "zh":
+        messages = [
             {"role": "user", "content": query},
             {"role": "assistant", "content": f"请用中文总结这篇文章，先提取出{keyword_length}个关键词，在同一行内输出，然后换行，用中文在{summary_length}字内写一个简短总结，包含全部要点，按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，输出时必须保留2个，并且必须在'总结:'二字之前"}
         ]
+    else:
+        messages = [
+            {"role": "user", "content": query},
+            {"role": f"assistant", "content": f"Please summarize this article in English, first extract {keyword_length} keywords, output them in the same line like 'keyword1, keyword2, keyword3 ...'. Then write a short summary in {summary_length} words, including all the key points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and it must be before the word 'Summary:', then translate keywords and summary into {language}, keeping the same HTML format"}
+        ]
+    chat = ChatCompletion.create(
+        model=model,
+        api_key=OPENAI_API_KEY,
+        messages=messages,
     )
     return chat["choices"][0]["message"]["content"]
 
-def output(sec):
+def output(sec, language):
     """ output
     This function is used to output the summary of the RSS feed.
 
@@ -218,19 +225,19 @@ def output(sec):
             else:
                 token_length = len(cleaned_article)
                 if token_length > 16000:
-                    entry.summary = gpt_summary(cleaned_article[:16000],model="gpt-3.5-turbo-16k")
+                    entry.summary = gpt_summary(cleaned_article[:16000],model="gpt-3.5-turbo-16k", language=language)
                     with open(log_file, 'a') as f:
                         f.write(f"Token length: {token_length}\n")
                         f.write(f"Truncate to 16k token length\n")
                         f.write(f"Summarized using GPT-3.5-turbo-16k\n")
                 else:
                     try:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo")
+                        entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo", language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
                             f.write(f"Summarized using GPT-3.5-turbo\n")
                     except:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-16k")
+                        entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-16k", language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
                             f.write(f"Summarized using GPT-3.5-turbo-16k\n")
@@ -264,6 +271,7 @@ OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
 summary_length = int(get_cfg('cfg', 'summary_length'))
+language = get_cfg('cfg', 'language')
 
 try:
     os.mkdir(BASE)
@@ -275,7 +283,7 @@ feeds = []
 links = []
 with open(os.path.join(BASE, 'index.html'), 'w') as f:
     for x in secs[1:]:
-        output(x)
+        output(x, language=language)
         feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
         feeds.append(feed)
         links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan.me/RSS-GPT/rss/" + feed['name'] + ".xml\n")
