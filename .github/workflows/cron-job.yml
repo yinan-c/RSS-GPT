@@ -52,7 +52,7 @@ jobs:
           git add rss/*
           git add README.md
           export TZ='Europe/London'
-          git commit -m "Github RSS Summary Auto Builder at `date +"%Y-%m-%d %H:%M"`"
+          git commit -m "Github Auto Build at `date +"%Y-%m-%d %H:%M"`"
         
           echo "======git push===="
           git push
