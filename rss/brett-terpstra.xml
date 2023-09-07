@@ -4,6 +4,94 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Timing -- automatic time tracking for Mac AND iOS [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16338321/timing-automatic-time-tracking-for-mac-and-ios-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16338321/timing-automatic-time-tracking-for-mac-and-ios-sponsor</guid>
+<content:encoded><![CDATA[
+<div> Timing, time tracking, app, automatic, productivity
+<br><br>总结:
+这篇文章介绍了Timing这款时间追踪应用的各种功能和优势。Timing能自动追踪用户使用的应用、文档和网站的时间，并且可以自动分类。它还可以导入iPhone和iPad的使用记录，显示完整的设备使用情况。此外，Timing还可以导入iPhone的电话记录和日历中的会议，确保所有时间都得到记录。该应用具有可选和可配置的功能，帮助用户更好地了解自己的时间去向，而且维护成本较低。总的来说，Timing帮助用户更好地管理时间，提高生产力。 <div>
+<p>Thanks to Timing for sponsoring BrettTerpstra.com this week! I’ve loved Timing for years, and the new vertical timeline view is an awesome upgrade to one of my most-used apps.</p>
+
+<p><a href="https://timingapp.com/brett2023" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Timing Vertical Timeline" class="aligncenter" height="477" src="https://cdn3.brettterpstra.com/uploads/2023/09/timeline_beta-800.jpg" title="Timing Vertical Timeline" width="800" />
+              </noscript>
+            </a></p>
+
+<p><strong>Time is your most precious resource.</strong> You <em>need</em> to know how you are spending it.</p>
+
+<p><strong>But time tracking is no fun.</strong></p>
+
+<p><strong><a href="https://timingapp.com/brett2030">Timing</a> fixes that.</strong><br />
+It <em>automatically</em> tracks <em>all</em> your time, without you lifting a finger:</p>
+
+<ul>
+  <li>Timing records how long you use each app, document, and website — without start/stop timers. <strong>These timmes can also be automatically categorized using rules, so you don’t have to do it manually.</strong></li>
+  <li>It <strong>imports your iPhone and iPad usage</strong> from Screen Time, giving you a complete picture of all your device usage. No other time tracking app for Mac does this!</li>
+  <li>In addition, Timing will also import <strong>phone calls from your iPhone</strong>, so those don’t get lost.</li>
+  <li>The same goes for meetings you attend: Timing will automatically <strong>show events from your calendar</strong>, so you never forget to record time spent in meetings again.</li>
+  <li>But even when a meeting isn’t on your calendar, Timing automatically <strong>recognizes when a call ends</strong> and lets you record time for it, so that no meeting goes untracked.</li>
+  <li>Similarly, when you return to your Mac after a break, Timing will <strong>ask you what you did</strong> during your time away.</li>
+</ul>
+
+<p>All of these features are <em>optional</em> and configurable, of course. And its <strong>brand-new vertical timeline</strong> makes it even easier to see what you did at a glance.</p>
+
+<p>Timing is the one time-tracking app that will <em>really</em> give you <strong>a complete picture of where your time goes,</strong> all while <em>taking</em> you <strong>much less time to maintain</strong> than other time trackers.</p>
+
+<p>Not convinced yet? <a href="https://www.macstories.net/reviews/timing-2-makes-time-tracking-on-your-mac-a-pleasure/" rel="nofollow">Read what Brett himself has to say about Timing.</a><br />
+(Spoiler alert: He likes it, and it helps him be more productive.)<br />
+Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the free 30-day trial today</strong></a> and get 10% off for the first year! And if you had tried Timing before and would like to give it another shot, <a href="https://timingapp.com/contact">feel free to reach out</a> and we’ll send you a new trial.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F07%2Ftiming-automatic-time-tracking-for-mac-and-ios-sponsor%2F&amp;text=Timing+--+automatic+time+tracking+for+Mac+AND+iOS+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F07%2Ftiming-automatic-time-tracking-for-mac-and-ios-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16338321.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-07T08:00:00-05:00</pubDate>
+<updated>2023-09-07T08:00:00-05:00</updated>
+</item>
+<item>
+<title>Important Journal CLI updates</title>
+<link>https://brett.trpstra.net/link/535/16338322/important-journal-cli-updates</link>
+<guid>https://brett.trpstra.net/link/535/16338322/important-journal-cli-updates</guid>
+<content:encoded><![CDATA[
+<div> 关键词：更新，数据格式，点语法，键重复，自定义文件夹
+
+总结：<br><br>更新了数据格式，修复了键重复时的问题，现在会将重复的键与父键合并而不是嵌套。还添加了自定义文件夹的选项，可以为每个日志定义不同的保存位置。这些改进增加了工具的实用性，对数据格式的更改在早期进行会更好。请参阅文档了解更多详情。 <div>
+<p>Just a couple quick updates to the <a href="https://brettterpstra.com/projects/journal-cli/">Journal CLI</a> I <a href="https://brettterpstra.com/2023/09/06/journal-a-cli-for-journaling/">published yesterday</a> that I wanted everyone who was trying it out to know about before they have too much data in it.</p>
+
+<p>First, if keys were nested using dot syntax, e.g. <code class="language-plaintext highlighter-rouge">health.rating</code> and <code class="language-plaintext highlighter-rouge">health.sleep</code>, it would create a hash like:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="p">{</span><span class="w"> 
+  </span><span class="nl">"health"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"health"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"rating"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> 
+      </span><span class="nl">"sleep"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w"> 
+   </span><span class="p">}</span><span class="w">  
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>As you can see, the “health” key got doubled and nested inside of the section key. This isn’t the way it was supposed to work with the dot syntax. Version 1.0.15 fixes this, if a key is repeated it’s merged with the parent key instead of nesting.</p>
+
+<p>I also added options for defining custom folders to save entries in. At the top level you can include <code class="language-plaintext highlighter-rouge">entries_folder</code> with a path to any folder on your system. Journals will all save to that folder with subdirectories for each of their keys. You can instead define <code class="language-plaintext highlighter-rouge">entries_folder</code> within a journal definition, allowing each journal to have a custom location. JSON and Markdown will be written to these folders based on settings.</p>
+
+<p>That should help make this tool a bit more useful, sorry for changing the data format, but better sooner than later. Check out the <a href="https://brettterpstra.com/projects/journal-cli/">project page</a> for more details.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F07%2Fimportant-journal-cli-updates%2F&amp;text=Important+Journal+CLI+updates&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F07%2Fimportant-journal-cli-updates%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16338322.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-07T08:00:00-05:00</pubDate>
+<updated>2023-09-07T08:00:00-05:00</updated>
+</item>
 
 <item>
 <title>Journal, a CLI for journaling</title>
