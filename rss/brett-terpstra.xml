@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
+<link>https://brettterpstra.com/</link>
+
+
+<item>
+<title>Journal, a CLI for journaling</title>
+<link>https://brett.trpstra.net/link/535/16334303/journal-a-cli-for-journaling</link>
+<guid>https://brett.trpstra.net/link/535/16334303/journal-a-cli-for-journaling</guid>
+<content:encoded><![CDATA[
+<div> journal-cli, neurodivergence, data collection, couple's therapy, command-line tool.<br /><br />总结: 这篇文章介绍了一个叫journal-cli的命令行工具，用于帮助对于神经非典型性的情侣在夫妻治疗中进行数据收集。作者通过这个工具来记录日记、回答问题，并将答案以JSON格式存储，还可以选择生成Day One和Markdown格式的条目。该工具支持处理数值、字符串和多行输入，并自动记录每个条目的天气。目前，工具已经能够生成格式良好的Day One条目，以便作者可以更好地了解自己的情绪和日记。作者还计划未来开发数据查询部分，以便进行统计分析和跟踪。这个工具对于需要进行数据收集和分析的人群是非常有用的。 <div>
+<p>I recently started couple’s therapy to try and improve the often-complicated relationship between myself (ADHD, bipolar) and my partner (autistic) and all of the unique problems that combination of neurodivergence presents. As part of this, I was asked to keep a journal containing certain data points. I started off journaling in Day One, but immediately realized that I was collecting some numeric data that I wouldn’t be able to do anything with unless it was stored in a database format of some kind. So I wrote a tool.</p>
+
+<p><a href="https://brettterpstra.com//projects/journal-cli/">Journal</a> is a command-line tool that takes a configuration of journals, sections, and questions, presents the questions on the command line, and records the answers to JSON, as well as optionally creating Day One and Markdown versions of the entries. It can handle numeric data, string and multiline input, as well as automatically recording the daily weather for each entry.</p>
+
+<p>To use it you need <a href="https://github.com/charmbracelet/gum">Gum</a> installed (<code class="language-plaintext highlighter-rouge">brew install gum</code>). If you want to use the Day One integration, you’ll also need to <a href="https://dayoneapp.com/guides/tips-and-tutorials/command-line-interface-cli/">install the Day One CLI</a>. Those are the only prerequisites. You can just use <code class="language-plaintext highlighter-rouge">gem install journal-cli</code> to get the <code class="language-plaintext highlighter-rouge">journal</code> command set up. It can handle multiple journal configurations and multiple output formats. It takes some configuration, but it’s very flexible (and will probably get more flexible as new needs arise).</p>
+
+<p>I haven’t written the part of this that can query the datasets created yet. That’s going to be pretty individualized based on your needs, but I think everything should be there in the JSON to allow tracking and correlations with a little statistical analysis work. I’ll dig into it more once I’ve collected enough data. In the meantime, it’s also creating nicely-formatted Day One entries so I can get an overview of my moods and journals.</p>
+
+<p>See the <a href="https://brettterpstra.com//projects/journal-cli/">project page</a> for details on setup and configuration. Hopefully others will find this useful, too!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111018862459299585" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F06%2Fjournal-a-cli-for-journaling%2F&amp;text=Journal%2C+a+CLI+for+journaling&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F06%2Fjournal-a-cli-for-journaling%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16334303.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-06T00:00:00-05:00</pubDate>
+</item>
+<item>
+<title>A bit more na work</title>
+<link>https://brett.trpstra.net/link/535/16322833/a-bit-more-na-work</link>
+<guid>https://brett.trpstra.net/link/535/16322833/a-bit-more-na-work</guid>
+<content:encoded><![CDATA[
+<div> Minneapolis, friends, food, coding, changes<br />
+<br />
+总结: 本文是作者回顾他周末在明尼阿波利斯的旅行的经历。作者见到了一些好朋友，享受了美食，并在酒店的早晨进行了一些编程活动。作者通过编写代码来打发时间，将主要的二进制文件进行了拆分，以便更容易进行维护。作者还对更新命令进行了改进，增加了一些新的功能，如--restore标志，并通过添加分页功能使输出更加方便。此外，作者还添加了一些新的命令，并对已有的命令进行了更新和改进。最后，作者提到了自己的网站，以及对读者的感谢和支持。 <div>
+<p>I went on a trip to Minneapolis this weekend. It went really well; I saw some 
+great friends, ate some great food, and spent some early mornings coding at the hotel. I was just coding to kill time when I couldn’t sleep, and playing with <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com"><code class="language-plaintext highlighter-rouge">na</code></a> seemed like the perfect way to do it.</p>
+
+<p>The first thing I did was take a second stab at “decomposing” the main binary so that each command had its own file, just to make maintenance easier. Finally got that working properly. It won’t change anything for the user, but it’s so much nicer <a href="https://github.com/ttscoff/na_gem/tree/main/bin/commands">to look at</a>.</p>
+
+<p>In addition to the <code class="language-plaintext highlighter-rouge">complete</code> and <code class="language-plaintext highlighter-rouge">archive</code> commands I <a href="https://brettterpstra.com/2023/08/22/some-na-updates-and-new-commands/">added last week</a>, the <code class="language-plaintext highlighter-rouge">update</code> command now has a <code class="language-plaintext highlighter-rouge">--restore</code> flag that can be used to remove the @done tag from an action or actions. It’s the same as using <code class="language-plaintext highlighter-rouge">--remove done</code>, but I find it just a little more intuitive. This flag is mirrored as an <code class="language-plaintext highlighter-rouge">na restore [SEARCH]</code> (or <code class="language-plaintext highlighter-rouge">na unfinish [SEARCH]</code>) command.</p>
+
+<p>I also added pagination, so for output that is longer than your screen, it will now pause using <code class="language-plaintext highlighter-rouge">less</code> or <code class="language-plaintext highlighter-rouge">more</code> if available, letting you page through with shortcut keys. This also applies to the <code class="language-plaintext highlighter-rouge">help</code> command, so it’s easier to wade through the extensive documentation that the command provides. You can disable this with <code class="language-plaintext highlighter-rouge">na --no-pager [COMMAND]</code>, a setting which can be saved to your config.</p>
+
+<p>I added an <code class="language-plaintext highlighter-rouge">na completed</code> command to view @done actions. It accepts <code class="language-plaintext highlighter-rouge">--before</code>, <code class="language-plaintext highlighter-rouge">--on</code>, and <code class="language-plaintext highlighter-rouge">--after</code> flags that recognize natural language dates and can be combined. You can also use <code class="language-plaintext highlighter-rouge">--tagged TAG</code> to find actions tagged with any combination of tags (use comma separated list or use the flag multiple times, include a <code class="language-plaintext highlighter-rouge">+</code> to make a tag mandatory, <code class="language-plaintext highlighter-rouge">!</code> to negate). Any arguments passed to the command will function as a tokenized text search. And, of course, you can run it with <code class="language-plaintext highlighter-rouge">--save [NAME]</code> to save a complex search for later use with the <code class="language-plaintext highlighter-rouge">na saved</code> command.</p>
+
+<p>Speaking of saved searches, I also changed the <code class="language-plaintext highlighter-rouge">saved</code> command to allow multiple saved searches to run at once. So now if you have a saved search for low priority and one for medium priority, you can run them both together with <code class="language-plaintext highlighter-rouge">na saved lowprio medprio</code> and get combined results.</p>
+
+<p>Also:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">--done</code> flag not working on <code class="language-plaintext highlighter-rouge">na next</code></li>
+  <li>Missing descriptions in help examples</li>
+  <li>When replacing a priority tag, remove any space before it the action text</li>
+  <li>Detect @tags in search strings and convert them to tag search with comparisons</li>
+</ul>
+
+<p>Check out <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com">the project page</a> for installation and usage details.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110979727602644649" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F30%2Fa-bit-more-na-work%2F&amp;text=A+bit+more+na+work&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F30%2Fa-bit-more-na-work%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16322833.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-30T12:02:00-05:00</pubDate>
+</item>
+<item>
+<title>Stem the tide of unread emails with SaneBox Digest from SaneBox [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16311855/stem-the-tide-of-unread-emails-with-sanebox-digest-from-sanebox-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16311855/stem-the-tide-of-unread-emails-with-sanebox-digest-from-sanebox-sponsor</guid>
+<content:encoded><![CDATA[
+<div> SaneBox, sponsorship, email overview, SaneBox Digest, email activity, concise summary, important emails, unimportant emails, email control, clutter.
+
+总结:<br /><br />SaneBox是一款帮助管理邮箱的工具，其特色功能SaneBox Digest能够以简洁的概述方式展示用户的邮件活动。Digest每天或每周发送一封邮件，列出未读邮件并总结其内容，帮助用户快速找到重要的邮件。它就像是个人的新闻播放器，过滤掉了噪音，凸显重要信息，让你能够对邮件进行有效管理，保持关注而无需被杂乱邮件困扰。这篇文章是BrettTerpstra.com为感谢SaneBox赞助而写的推荐文章。 <div>
+<p>Thanks to SaneBox for sponsoring BrettTerpstra.com again this week! I rely on my SaneBox Digest to get an overview of all the emails that (thankfully) skipped my inbox without having to wade through them all. Highly recommend!</p>
+
+<p><a href="https://try.sanebox.com/be2h3q" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="sanebox-aug.jpg" class="aligncenter" height="540" src="https://cdn3.brettterpstra.com/uploads/2023/08/sanebox-aug.jpg" title="sanebox-aug.jpg" width="960" />
+              </noscript>
+            </a></p>
+
+<p>Drowning in a deluge of daily emails and struggling to keep up with the significant ones? Enter SaneBox Digest, an exceptional feature of SaneBox that offers you a concise summary of your email activity. Instead of constantly wading through piles of unimportant emails, the Digest provides you with a neat overview of your day’s communications at a glance.</p>
+
+<p>More than just a quick recap, the Digest integrates flawlessly into your SaneBox journey. It delivers a daily or weekly email that lists your unread messages and summarizes their content, enabling you to pinpoint crucial communications without being overwhelmed by the inconsequential ones. Think of it as your inbox’s personal news broadcaster, highlighting the headlines while filtering out the noise. With the Digest, you’re empowered to take control of your emails and ensure you’re always in the loop without the unnecessary clutter.</p>
+
+<p><a href="https://try.sanebox.com/be2h3q" rel="nofollow">Check out SaneBox today and save $25!</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110944752920511066" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F24%2Fstem-the-tide-of-unread-emails-with-sanebox-digest-from-sanebox-sponsor%2F&amp;text=Stem+the+tide+of+unread+emails+with+SaneBox+Digest+from+SaneBox+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F24%2Fstem-the-tide-of-unread-emails-with-sanebox-digest-from-sanebox-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16311855.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-24T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Some na updates and new commands</title>
+<link>https://brett.trpstra.net/link/535/16308395/some-na-updates-and-new-commands</link>
+<guid>https://brett.trpstra.net/link/535/16308395/some-na-updates-and-new-commands</guid>
+<content:encoded><![CDATA[
+<div> 更新内容：增加了归档和完成命令，方便对已完成的任务进行归档和标记。归档命令可以通过搜索字符串和--done选项一次性归档所有已完成的任务。完成命令可以通过搜索字符串和--all选项标记匹配的任务为已完成，并可以添加备注。同时，还可以使用--archive选项将任务标记为已完成并移到归档文件夹中。文章还提到了na工具的一些其他用法和功能，并鼓励用户提出功能建议。
+
+关键词：更新内容、归档命令、完成命令、na工具、功能建议
+
+总结：<br /><br />更新内容中，增加了两个命令：归档命令和完成命令，使得对已完成的任务进行归档和标记变得简单。归档命令可以一次性归档所有完成的任务，而完成命令可以方便地将匹配的任务标记为已完成，并可以添加备注。此外，还鼓励用户提出功能建议。 <div>
+<p>I’ve updated <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com">na</a> with some new stuff I thought I’d share.</p>
+
+<p>First off, I wanted an easy way to archive all @done actions in one swoop without having to use a lot of flags and switches to locate them and move them. So I added an <code class="language-plaintext highlighter-rouge">archive</code> command, which takes a search string as an argument, but also has a <code class="language-plaintext highlighter-rouge">--done</code> switch that will archive all @done tasks. So you can just run <code class="language-plaintext highlighter-rouge">na archive --done</code>, select the file to affect if there are multiple available, and presto, “archive all finished” is done, just like in TaskPaper.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>NAME
+    archive - Mark an action as @done and archive
+
+SYNOPSIS
+
+    na [global options] archive [command options] ACTION
+
+COMMAND OPTIONS
+    --all             - Act on all matches immediately (no menu)
+    -d, --depth=DEPTH - Search for files X directories deep (default: 1)
+    --done            - Archive all done tasks
+    -e, --regex       - Interpret search pattern as regular expression
+    --file=PATH       - Specify the file to search for the task (default: none)
+    -n, --note        - Prompt for additional notes. Input will be appended to any existing note. If STDIN input (piped) is detected, it
+                        will be used as a note.
+    -o, --overwrite   - Overwrite note instead of appending
+    --tagged=TAG      - Match actions containing tag. Allows value comparisons (may be used more than once, default: none)
+    -x, --exact       - Match pattern exactly
+
+EXAMPLE
+
+    # Find "An existing task", mark @done if needed, and move to archive
+    na archive "An existing task"</code></pre></div></div>
+
+<p>I also added a <code class="language-plaintext highlighter-rouge">complete</code> command that will add a @done tag to whatever action matches your search (menu provided for multiple results), or all matches using the <code class="language-plaintext highlighter-rouge">--all</code> switch. It’s basically a shortcut for <code class="language-plaintext highlighter-rouge">na update --finish SEARCH_STRING</code>. It’s aliased as <code class="language-plaintext highlighter-rouge">finish</code> as well. Both the <code class="language-plaintext highlighter-rouge">archive</code> and <code class="language-plaintext highlighter-rouge">complete</code> commands have a <code class="language-plaintext highlighter-rouge">--note</code> switch that allows you to add a note (prompted if there’s nothing piped to it). All of the matching options from the <code class="language-plaintext highlighter-rouge">update</code> command are available, including <code class="language-plaintext highlighter-rouge">--tagged</code> for searching by tag and <code class="language-plaintext highlighter-rouge">--regex</code> for doing a regular expression search. <code class="language-plaintext highlighter-rouge">complete</code> has a <code class="language-plaintext highlighter-rouge">--archive</code> switch that will simultaneously add a @done tag and move the action to the Archive.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>NAME
+    complete - Find and mark an action as @done
+
+SYNOPSIS
+
+    na [global options] complete [command options] ACTION
+
+COMMAND OPTIONS
+    -a, --archive     - Add a @done tag to action and move to Archive
+    --all             - Act on all matches immediately (no menu)
+    -d, --depth=DEPTH - Search for files X directories deep (default: 1)
+    -e, --regex       - Interpret search pattern as regular expression
+    --file=PATH       - Specify the file to search for the task (default: none)
+    -n, --note        - Prompt for additional notes. Input will be appended to any existing note. If STDIN input (piped) is detected, it
+                        will be used as a note.
+    -o, --overwrite   - Overwrite note instead of appending
+    --tagged=TAG      - Match actions containing tag. Allows value comparisons (may be used more than once, default: none)
+    -x, --exact       - Match pattern exactly
+
+EXAMPLES
+
+    # Find "An existing task" and mark @done
+    na complete "An existing task"
+
+    # Alias for complete
+    na finish "An existing task"</code></pre></div></div>
+
+<p>I know of a few people making extensive use of <code class="language-plaintext highlighter-rouge">na</code>. If you’re among them and have a feature request, don’t be shy about <a href="https://github.com/ttscoff/na_gem/issues">posting an issue</a> or <a href="https://brettterpstra.com/contact/">contacting me directly</a>.</p>
+
+<p>Check out <a href="https://brettterpstra.com/projects/na/">the project page</a> for more info.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110933426181208075" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F22%2Fsome-na-updates-and-new-commands%2F&amp;text=Some+na+updates+and+new+commands&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F22%2Fsome-na-updates-and-new-commands%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16308395.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-22T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Convert RegExRX native files to Markdown snippets</title>
+<link>https://brett.trpstra.net/link/535/16306720/convert-regexrx-native-files-to-markdown-snippets</link>
+<guid>https://brett.trpstra.net/link/535/16306720/convert-regexrx-native-files-to-markdown-snippets</guid>
+<content:encoded><![CDATA[
+<div> 正则表达式工具，RegExRX，转换 .regexrx 文件为 Markdown 文件，Gem 安装 regexrx2md 工具，转换文件或目录，附带选项，有用的工具。总结：文章介绍了使用RegExRX工具来测试正则表达式的功能，并提供了转换.regexrx文件为Markdown文件的工具regexrx2md，方便用户使用。 <div>
+<p>I <em>love</em> <a href="https://apps.apple.com/us/app/regexrx/id498370702?mt=12&amp;uo=4&amp;at=10l4tL&amp;ct=searchlink">RegExRX</a> for testing regular expressions. It has all the features I could want from such an app, including the ability to copy a working regex out prepared for a range of languages. It’s what I’ve stuck with for years.</p>
+
+<p>As I experiment with my regexes, I’ll save them in RegExRX, creating a <code class="language-plaintext highlighter-rouge">.regexrx</code> file in my Snippets folder (where <a href="https://brettterpstra.com//projects/snibbets/">Snibbets</a> works). In order to make these searchable with Snibbets, I use a script to convert the XML-based <code class="language-plaintext highlighter-rouge">.regexrx</code> file to a Markdown file with the flags, search string, and the replace string and test text if they exist. I <a href="https://brettterpstra.com//projects/regexrx2md/">turned this into a gem</a> for anyone who should happen to run into such a need.</p>
+
+<p>You can install the tool with <code class="language-plaintext highlighter-rouge">gem install regexrx2md</code>. Once installed, just use <code class="language-plaintext highlighter-rouge">regexrx2md -o MARKDOWN_DIRECTORY SOURCE_DIRECTORY</code> to output a bunch of Markdown files from a directory of <code class="language-plaintext highlighter-rouge">.regexrx</code> files. You can also convert a single file just by providing a file link as the argument instead of a directory.</p>
+
+<p>There are options for manipulating the filename, the Markdown template, and the output directory. See <a href="https://brettterpstra.com//projects/regexrx2md/">the docs</a> for more info. While I hope this is useful to someone, it was something I useful enough to me to invest the time in, so it’s already paid off sufficiently. I just thought I’d share… just in case.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110927763613775387" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F21%2Fconvert-regexrx-native-files-to-markdown-snippets%2F&amp;text=Convert+RegExRX+native+files+to+Markdown+snippets&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F21%2Fconvert-regexrx-native-files-to-markdown-snippets%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16306720.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-21T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Kaleidoscope 4.1: Now with Git File History (and a special coupon) [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16300740/kaleidoscope-4-dot-1-now-with-git-file-history-and-a-special-coupon-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16300740/kaleidoscope-4-dot-1-now-with-git-file-history-and-a-special-coupon-sponsor</guid>
+<content:encoded><![CDATA[
+<p>Thanks to Kaleidoscope for sponsoring BrettTerpstra.com again this week! The addition of Git History diffing is excellent, and I’m excited to share it with everybody.</p>
+
+<p><a href="https://kaleidoscope.app/" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="kaledoscope-git.jpeg" class="aligncenter" height="450" src="https://cdn3.brettterpstra.com/uploads/2023/08/kaledoscope-git.jpeg" title="kaledoscope-git.jpeg" width="800" />
+              </noscript>
+            </a></p>
+
+<p>Review versions of text and image files — and even folders full of files — with the world’s most powerful file comparison app. Kaleidoscope gives you powerful tools to use at each stage of the development cycle.</p>
+
+<p>Now with version 4.1, Kaleidoscope continues to innovate by directly integrating with Git to show you a history for a single file. This makes it incredibly easy to track changes to a file over time. <a href="https://blog.kaleidoscope.app/2023/08/08/kaleidoscope-4-1-and-git/" rel="nofollow">Check out this blog post</a> for a detailed overview of how you can use this powerful new integration.</p>
+
+<p>As Michael Tsai wrote: “… Kaleidoscope makes some of these tasks really easy. There are many ways to get it to open a single file, and then it automatically loads the history (and even the previous version, if you want). It’s easy to navigate the history to pick which versions you want to compare.  I’ve seen many different apps implement this type of interface, and Kaleidoscope’s version may be the best.”</p>
+
+<p>Dave Verwer: “The UI of clicking through the history of a file with A and B buttons is simple and brilliant.”</p>
+
+<p>In case you missed it, here are some of the most exciting features we added to Kaleidoscope with version 4:</p>
+
+<ul>
+  <li>Syntax coloring, with multiple built-in themes.</li>
+  <li>Transform any comparison into a merge document that can be edited inline.</li>
+  <li>Text filters to clean up diffs by removing irrelevant data, such as time stamps, object addresses and unique identifiers.</li>
+  <li>Kaleidoscope Prism, a new helper app in the menu bar to quickly launch comparisons even if Kaleidoscope is not running.</li>
+  <li>Debugger integration for Python developers.</li>
+  <li>File properties show metadata, including size, file type, dates, and encoding.</li>
+  <li>A welcome window that speeds up the processes of creating new comparisons or finding recent ones.</li>
+</ul>
+
+<p>Subscriptions start at $8 per month for a yearly plan. Use the coupon code <code class="language-plaintext highlighter-rouge">TERPSTRA</code> (valid until August 31, 2023) to get 20% off for the first year. <a href="https://kaleidoscope.app/" rel="nofollow">Check it out today!</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110905116127737428" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F17%2Fkaleidoscope-4-dot-1-now-with-git-file-history-and-a-special-coupon-sponsor%2F&amp;text=Kaleidoscope+4.1%3A+Now+with+Git+File+History+%28and+a+special+coupon%29+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F17%2Fkaleidoscope-4-dot-1-now-with-git-file-history-and-a-special-coupon-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16300740.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-17T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for August 14, 2023</title>
+<link>https://brett.trpstra.net/link/535/16296073/web-excursions-for-august-14-2023</link>
+<guid>https://brett.trpstra.net/link/535/16296073/web-excursions-for-august-14-2023</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with <a href="https://macpaw.7eer.net/c/228914/82479/1733">CleanMyMac X</a>, all the tools to speed up your Mac, in one app.</p>
+
+<dl>
+  <dt><a href="https://zmd.ee/?ref=producthunt">zmd: Access Handy Utilities and Services in CLI</a></dt>
+  <dd>zmd (zmd.ee) is an experiment by Mighil. It hosts a bunch of handy ulities and services you can access in CLI via curl.</dd>
+  <dt><a href="https://www.batchphoto.com/blog/batchphoto-5/">BatchPhoto 5</a></dt>
+  <dd>Batch photo processing app BatchPhoto just released version 5, updated for modern platforms and OSs, and adding SFTP upload and hot folders.</dd>
+  <dt><a href="https://boldbeancoffee.com/collections/instant-coffee">Instant Coffee – Bold Bean Coffee Roasters</a></dt>
+  <dd>I’ve been using this instant coffee when traveling for years. It won’t beat a cup from your favorite brewing setup, but it beats the pants off of most coffees they offer in hotel rooms. Just add hot water and stir.</dd>
+  <dt><a href="https://www.youtube.com/@KellyRMinter">Kelly R. Minter (Ask a Therapist) - YouTube</a></dt>
+  <dd>Another great resource for CPTSD and RTS, with special interest in LGBTQ+ folks.</dd>
+  <dt><a href="https://www.youtube.com/@AngelDeSantis">Angel DeSantis - YouTube</a></dt>
+  <dd>Angel is a YouTuber who grew up in an apocalyptic christian cult and offers tips on dealing with Religious Trauma Syndrome and Complex PTSD. I’ve found her very helpful lately.</dd>
+</dl>
+
+<p><a href="https://brettterpstra.com///macpaw.7eer.net/c/228914/82479/1733"><img alt="CleanMyMac X" border="0" height="90" src="https://brettterpstra.com///a.impactradius-go.com/display-ad/1733-82479" width="728" /></a><img border="0" height="0" src="https://brettterpstra.com///macpaw.7eer.net/i/228914/82479/1733" width="0" /></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110888864716411816" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F14%2Fweb-excursions-for-august-14-2023%2F&amp;text=Web+Excursions+for+August+14%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F14%2Fweb-excursions-for-august-14-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16296073.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-14T11:05:00-05:00</pubDate>
+</item>
+<item>
+<title>Orchard Resales: get yourself a Mac mini, cheap [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16281370/orchard-resales-get-yourself-a-mac-mini-cheap-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16281370/orchard-resales-get-yourself-a-mac-mini-cheap-sponsor</guid>
+<content:encoded><![CDATA[
+<p>Thanks to Orchard Resales for sponsoring BrettTerpstra.com this week! If you’re looking for an older Mac mini to use as a server or entertainment center, you can pick up used 2012/2014 models <em>dirt</em> cheap!</p>
+
+<p><a href="https://orchardresales.com/collections/all" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Oodles of Mac minis in a box" class="aligncenter" height="601" src="https://cdn3.brettterpstra.com/uploads/2023/08/orchard-800.jpeg" title="Oodles of Mac minis in a box" width="800" />
+              </noscript>
+            </a></p>
+
+<p>I use a 2012 Mac mini as a basement server, running headless (no keyboard or monitor) and controlled over screen sharing. It runs Docker (and a few containers that give me things like network speed charts and VPN tunneling), Plex, and all of my home automation with all of my controllers hooked up to its USB ports. I also have a Synology, but you can easily set up file storage and serving with a Mac mini and a big external RAID drive. The one I run in my basement is a 2012 with a 500GB SSD and 16GB RAM. I’ve never needed to upgrade it any further to get everything I need out of it.</p>
+
+<p>Want to set up your own, or have another use in mind for an old mini? Well, thanks to Orchard Resales you can pick one up for as little as $50 US. Deck one out with 16GB of RAM and an SSD and you’ll come out around $100. For a whole server, and it’s as easy to set up as using a Mac. And if you need spare parts, you can get non-functional Mac minis starting at just $15.</p>
+
+<p>No, these can’t run the latest macOS, but for 99% of uses, they don’t need to, and if you’re really into it, you can use <a href="https://dortania.github.io/OpenCore-Legacy-Patcher/">OpenCore Legacy Patcher</a> to get all the functionality you need.</p>
+
+<p>Check out <a href="https://orchardresales.com/collections/all" rel="nofollow">Orchard Resales</a> today and get started with your own server! Or buy a bunch and make a server farm!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110825840408222860" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F03%2Forchard-resales-get-yourself-a-mac-mini-cheap-sponsor%2F&amp;text=Orchard+Resales%3A+get+yourself+a+Mac+mini%2C+cheap+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F03%2Forchard-resales-get-yourself-a-mac-mini-cheap-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16281370.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-03T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Sanebox: your email lifesaver [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16278141/sanebox-your-email-lifesaver</link>
+<guid>https://brett.trpstra.net/link/535/16278141/sanebox-your-email-lifesaver</guid>
+<content:encoded><![CDATA[
+<p>Thanks to Sanebox for sponsoring BrettTerpstra.com again this week! I’ve been using it for years and I can’t imagine my email inbox without it.</p>
+
+<p><a href="https://try.sanebox.com/be2h3q" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Sanebox Banner" class="aligncenter" height="265" src="https://cdn3.brettterpstra.com/uploads/2023/08/sanebox-july.jpg" title="Sanebox Banner" width="800" />
+              </noscript>
+            </a></p>
+
+<p>Drowning in emails? Enter SaneBox — your lifesaver. It’s a VIP service that sifts through your inbox, separates the important from the trivial, and serves up a neat digest. It works with any email provider, saving you 12+ precious hours every month.</p>
+
+<p>But that’s not all. Fed up with pesky marketers? SaneBlackHole sends them packing with one click. Worried about forgotten follow-ups? SaneReminders has got your back. Too many non-urgent emails? Just hit the SaneSnooze button. And those countless attachments? SaneAttachments organizes them in your Dropbox, Evernote, Box - you name it.</p>
+
+<p>TechCrunch, Forbes, The New York Times, all vouch for it. <a href="https://try.sanebox.com/be2h3q" rel="nofollow">Sign up today and save $25</a> on any subscription. It’s about time we tamed our inboxes.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110814972397846653" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F01%2Fsanebox-your-email-lifesaver%2F&amp;text=Sanebox%3A+your+email+lifesaver+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F08%2F01%2Fsanebox-your-email-lifesaver%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16278141.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-08-01T09:45:00-05:00</pubDate>
+</item>
+<item>
+<title>Personal update: CPTSD edition</title>
+<link>https://brett.trpstra.net/link/535/16275514/personal-update-cptsd-edition</link>
+<guid>https://brett.trpstra.net/link/535/16275514/personal-update-cptsd-edition</guid>
+<content:encoded><![CDATA[
+<p>I’m afraid you’ve been seeing a lot of sponsored posts and not enough posts from me lately, so I thought I’d try to explain why.</p>
+
+<p>After a relationship in my life was destabilized and I had an outsized reaction to it, I started trying to figure out what was going on with me. I was pointed toward <a href="https://en.wikipedia.org/wiki/Complex_post-traumatic_stress_disorder">Complex PTSD</a> and from there I discovered that <a href="https://en.wikipedia.org/wiki/Religious_trauma_syndrome">Religious Trauma Syndrome</a>, while not a part of the DSM, was a recognized thing, and that the causes and symptoms fit me perfectly.</p>
+
+<p>I’ve spent the last couple of weeks trying to unpack what this means for me. So much of the me I’ve come to know is explained by this: my attention issues, my memory problems, my emotional dysregulation, my drug addictions, and even my Bipolar Disorder can all be tied to RTS and CPTSD.</p>
+
+<p>I grew up as a “different” kid in a fundamentalist church. As a young child I had urges and thoughts that I constantly feared would send me to hell. When I wasn’t worried about my eternal soul, I was worried about my non-Christian friends and <em>their</em> eternal souls. By the time I was in Middle School I was drinking and trying to cope with what amounts to a <em>constant</em> fight or flight response, in addition to grief.</p>
+
+<p>Being neurodivergent, queer, and highly sensitive was not a good combination for me in the church I grew up in. And I was taught to put all of my value, all credit for my successes, and all forms of attachment into God, not earthly things. So when I decided the church wasn’t good for me (or, in my mind, for anyone), I had the secondary trauma of leaving. Becoming emotionally estranged from my family, losing my Christian friends, and losing a god, the one thing that I had ever believed could save me. I still have a lot to learn about attachment theory, but it’s safe to say that I never felt securely attached to any people in my life, from my earliest memories. Which, to be fair, are very sparse, because a symptom of CPTSD is amnesia, if I understand it correctly. I’ve always wondered why everyone else remembered so many things from their younger years and I only had occasional memories of moments. Not events, not periods, nothing substantial, only snippets. I couldn’t remember who was there, how I felt about them, only whether I felt safe or scared in that moment. And most of what I remember is feeling scared.</p>
+
+<p>I started therapy with a new counselor last week. She actually has a psychology PhD and does trauma-informed therapy, and I think she’ll be much more helpful than my last therapist. I have high hopes. All I know is that if it doesn’t work out I absolutely have to keep working to find a good fit, because this shit is more than I know how to deal with on my own, and I can’t expect the people in my life to deal with it for me. All of my insecurities have been laid bare, I’m reacting to the world from a raw and frightened place non-stop, and it’s exhausting. I need to learn how to find security, validation, and love within myself and not depend on external sources just to exist. And that’s something I never learned how to do as a Christian. It’s been 30 years since I stopped believing, and I’m still not a whole person.</p>
+
+<p>I’m an atheist these days, and it was a hard fought battle against my ingrained thoughts. I declared myself agnostic in my late teens, but it seriously took 20 years for me to stop looking over my shoulder and wondering if I was making a serious mistake that would <em>definitely</em> doom me to eternity in Hell. I’m over that now, I think, but I still watch anti-theist YouTube all the time, and it makes me wonder if part of me is still scared. I don’t have any interest in the god of the Bible — he’s a real asshole. And I was raised to believe that any other version of God was heresy — even other sects of Christians were going to hell. If you didn’t worship the specific version of God that was defined by my church, you were going to burn. So if I can’t accept that religion, then there’s no religion that would calm my nervous system. It was trained into me as a child. I’m constitutionally incapable of having Faith (capital F), and I was taught that without Faith you’re doomed, and now I’m just trying to put it all behind me. I’m flailing a bit.</p>
+
+<p>I had to tell my parents I couldn’t see them for Saturday morning breakfast for a while. They’ve always been kind to me. They (and their friends) have prayed for my eternal soul. They raised me the way they were raised and I don’t blame them for repeating the trauma. But every time I see them I’m re-traumatized and I didn’t realize what was happening until now. I’ve been to the hospital multiple times with heart problems, and guess what? It was almost always within 24 hours of having breakfast with my parents. I’ve decided that’s not a coincidence. They were very understanding, and I really believe they want the best for me, I just can’t disassociate them from my childhood trauma. Hopefully I can let go of that and reestablish a relationship with my parents.</p>
+
+<p>So that’s why I haven’t been writing. I’ve been trying to grapple with 45 years of fear I had successfully avoided until now. I’ll be back. I’m reading, I’m going to therapy, I’m working to understand and develop tools for moving forward. I’m going to be stronger for having all of this laid bare and being forced to deal with it.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110804880389455890" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F07%2F30%2Fpersonal-update-cptsd-edition%2F&amp;text=Personal+update%3A+CPTSD+edition&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F07%2F30%2Fpersonal-update-cptsd-edition%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16275514.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-07-30T15:04:00-05:00</pubDate>
+</item>
+<item>
+<title>BetterTouchTool: Introducing floating menus [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16251230/bettertouchtool-introducing-floating-menus-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16251230/bettertouchtool-introducing-floating-menus-sponsor</guid>
+<content:encoded><![CDATA[
+<p>Thanks to BetterTouchTool for sponsoring BrettTerpstra.com this week! I am a <em>huge</em> fan of BetterTouchTool and use it all day every day on my Mac. I wouldn’t know what to do without it. From customizing my keyboard shortcuts to adding infinite gestures to my trackpad to running my entire Stream Deck setup, there’s nothing this little utility can’t do.</p>
+
+<p><a href="https://folivora.ai" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Floating Menus in BetterTouchTool" class="aligncenter" height="400" src="https://cdn3.brettterpstra.com/uploads/2023/07/floatingmenus.jpg" title="Floating Menus in BetterTouchTool" width="800" />
+              </noscript>
+            </a></p>
+
+<p>I think BetterTouchTool is well known to readers of this blog (thanks Brett!), so I won’t go into the details of the many things you can do with it. Instead I want to promote a powerful new feature that has been added to BTT recently and is currently in beta phase: Floating Menus.</p>
+
+<p>Imagine them as highly flexible, widget-like menus that you can place virtually anywhere on your screen.  You can attach them to specific positions in specific windows, to specific screens, the current mouse position and many more. You can specify whether they float on top, stick them to your desktop or have them behave like normal windows (and more). </p>
+
+<p>They can always be visible, expand on mouse hover or be shown/hidden via any trigger in BTT.</p>
+
+<p>A Floating Menu contains either standard buttons, or widgets like sliders or even web view items. Their appearance is completely customizable. All items are fully scriptable via AppleScript or Javascript, and soon there will be a plugin system to load custom widgets.</p>
+
+<p>The Floating Menus will soon become the basis for numerous existing BetterTouchTool features, such as Stream Deck and Notch Bar support and several predefined actions. These will gradually transition to utilize the Floating Menu rendering and scripting engine making them more flexible and robust by streamlining maintenance &amp; future development.</p>
+
+<p>Additionally, the upcoming (entirely new) version of the iOS BTT Remote app will be capable of rendering your custom Floating Menus on your iPhone or iPad. </p>
+
+<p>You can find various Floating Menu examples on <a href="https://share.folivora.ai" rel="nofollow">share.folivora.ai</a>. For example have a look at the Notch menu, which is invisible by default but expands from your Macbook’s Notch on hover. Another nice example is the “Mini Emoji Menu” preset: it places a little transparent dot on the left edge of the active window, which, when hovered, shows multiple custom emoji which you can insert by clicking.</p>
+
+<p>The <a href="http://docs.folivora.ai/docs/1600_floating_menus.html" rel="nofollow">documentation for this new feature</a> is already available, and you can always come to <a href="https://community.folivora.ai/c/floatingmenus/18" rel="nofollow">the community site</a> to discuss or request features. Now that I have a solid working base, I can easily built on it, so please report any bugs and request any feature you can think of!</p>
+
+<p><a href="https://folivora.ai" rel="nofollow">Try BetterTouchTool now</a> (45 day free trial) or go and purchase a license with this 20% coupon code: <code class="language-plaintext highlighter-rouge">BTBTT2023</code>.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110746566313138162" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F07%2F20%2Fbettertouchtool-introducing-floating-menus-sponsor%2F&amp;text=BetterTouchTool%3A+Introducing+floating+menus+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F07%2F20%2Fbettertouchtool-introducing-floating-menus-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16251230.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-07-20T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for June 29, 2023</title>
+<link>https://brett.trpstra.net/link/535/16214159/web-excursions-for-june-29-2023</link>
+<guid>https://brett.trpstra.net/link/535/16214159/web-excursions-for-june-29-2023</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with Setapp. <a href="https://go.setapp.com/stp44">Get access to hundreds of Mac and iOS apps for one low monthly subscription fee.</a></p>
+
+<dl>
+  <dt><a href="https://mjtsai.com/blog/2023/05/15/post-twitter-diaspora-options/">Post-Twitter Diaspora Options</a></dt>
+  <dd>Some opinions on Mastodon and Bluesky. Personally I wish ill of Bluesky and have high hopes for Mastodon. But I’m certain it won’t pan out like that.</dd>
+  <dt><a href="https://mjtsai.com/blog/2023/05/01/brave-search-no-longer-using-bing/">Brave Search No Longer Using Bing</a></dt>
+  <dd>A Michael Tsai two-fer this week.</dd>
+  <dd>
+    <blockquote>
+      <p>Their own index, based on Tailcat, is working better than DuckDuckGo/Bing for me now. Hopefully, Apple will add built-in support to Safari. Worth testing out, even if Brave isn’t going to be my primary browser…</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://xnapper.com/">Xnapper</a></dt>
+  <dd>I’m still a die-hard <a href="https://cleanshot.com/">CleanShot</a> fan, but this little tool makes some gorgeous screenshots ready for social sharing, with tools for auto-balancing, changing backgrounds, and redacting email addresses and other text. Simple and beautiful.</dd>
+  <dt><a href="https://pixabay.com/">Pixabay</a></dt>
+  <dd>A large collection of excellent royalty-free photos and audio tracks.</dd>
+  <dt><a href="https://github.com/Ptujec/LaunchBar/tree/master/Ask-ChatGPT">LaunchBar/Ask-ChatGPT</a></dt>
+  <dd>A ChatGPT LaunchBar action. Allows continuing conversation, predefined prompts, clipboard interaction, and can open results as a Markdown file ready for use.</dd>
+</dl>
+
+<p><a href="https://go.setapp.com/stp44">Check out Setapp</a> today and get access to the best Mac and iOS apps out there.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110628600655968987" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F29%2Fweb-excursions-for-june-29-2023%2F&amp;text=Web+Excursions+for+June+29%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F29%2Fweb-excursions-for-june-29-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16214159.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-06-29T11:58:00-05:00</pubDate>
+</item>
+<item>
+<title>Sanebox, your email concierge [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16213929/sanebox-your-email-concierge-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16213929/sanebox-your-email-concierge-sponsor</guid>
+<content:encoded><![CDATA[
+<p>As I’ve said before, I’m a long time user and lover of Sanebox. Thanks to them for sponsoring again this week. Here’s a user story from Thomas Yuan.</p>
+
+<p><a href="https://try.sanebox.com/be2h3q" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="sanebox_banner_june.jpg" class="aligncenter" height="265" src="https://cdn3.brettterpstra.com/uploads/2023/06/sanebox_banner_june_2.jpg" title="sanebox_banner_june.jpg" width="800" />
+              </noscript>
+            </a></p>
+
+<p>Well, here’s a funny thing: I started using SaneBox because my email was an utter disaster, and I needed something to save me from the deluge. Little did I know that I was stepping into a world where email isn’t just manageable, it’s… well, sane. I know, I know…</p>
+
+<p>SaneBox is like having your own personal email concierge. It’s not just a filter - oh no, that’s underselling it. It’s like a highly-trained butler who goes through your mail, knows what’s important, and presents you with only the choicest pieces of correspondence.</p>
+
+<p>Everything else? Neatly sorted away, out of sight, out of mind.</p>
+
+<p>Setting up SaneBox is as easy as pie. And I’m not talking about some complicated lattice-top apple pie here. I mean one of those simple, comforting pumpkin pies. You just connect your email account, and voila, SaneBox starts its magic. It learns from your actions, your patterns, tailoring its sorting to your specific needs.</p>
+
+<p>Now, the main feature here is the @SaneLater folder. It’s like a second inbox, except it’s where all the non-urgent emails go to hang out. Newsletter from that one store you bought socks from 3 years ago? That’s a @SaneLater item. Automated system alert about a software update? You bet that’s going in @SaneLater.</p>
+
+<p>What’s more, you can customize it to your heart’s content. There’s @SaneBlackHole for those pesky emails you never want to see again, and @SaneNews for newsletters and the like. You can even create your own folders, and SaneBox will learn to sort your emails accordingly.</p>
+
+<p>And don’t get me started on @SaneReminders. Ever sent an email and needed a reminder if nobody replies? Just CC or BCC to 1week@sanebox.com, and if there’s no reply in a week, it pops back up in your inbox. It’s like a boomerang made out of pure organizational power.</p>
+
+<p>Sure, there are other email management tools out there. But SaneBox stands out for its simplicity, its flexibility, and, most of all, its effectiveness. It’s like it took my unruly, wild-west email inbox and turned it into a sleek, streamlined, email-answering machine. And, in a world where every spare minute counts, who wouldn’t want that?</p>
+
+<p>So, if you’ve got an email inbox that’s more like a black hole, give SaneBox a whirl. I promise you, you won’t be disappointed. It’s affordable, efficient, and pretty darn fun to use.</p>
+
+<p>And here’s a pro tip: if you’re ever unsure about a feature, just explore their help center. It’s packed with useful guides and tips. It’s like the cherry on top of the SaneBox sundae.</p>
+
+<p>SaneBox isn’t just a tool, it’s a lifestyle change. It’s a way to take back control of your inbox and, by extension, your digital life. It’s helped me, and I’m pretty sure it’ll help you too. So why wait? Start living the sane way today.</p>
+
+<p>Sanebox is an inexpensive choice. You can get a free trial to experience the difference in email management without any commitment. Plus, the app offers flexible monthly plans starting at just $7.</p>
+
+<p><a href="https://try.sanebox.com/be2h3q" rel="nofollow">Check out SaneBox today</a>, sign up and save $25 on your subscription.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110627731492116068" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F29%2Fsanebox-your-email-concierge-sponsor%2F&amp;text=Sanebox%2C+your+email+concierge+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F29%2Fsanebox-your-email-concierge-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16213929.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-06-29T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Remembering Yeti</title>
+<link>https://brett.trpstra.net/link/535/16210634/remembering-yeti</link>
+<guid>https://brett.trpstra.net/link/535/16210634/remembering-yeti</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Yeti the cat" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/06/yetiheader-rb.jpg" title="Yeti the cat" width="800" />
+              </noscript>
+            
+
+<p>My cat died a couple weeks ago. I had him for 20 years and he’s left a large hole in my life. I know not everybody gets cats the way cat people do, but he was honestly one of my closest friends. I just wanted to write a bit about him now that the grief is a bit less raw and just remember him for the legend he was.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Yeti as a kitten" class="zoom alignright" height="300" src="https://cdn3.brettterpstra.com/uploads/2023/06/yeti-kitten-400.jpeg" title="Yeti as a kitten" width="400" />
+              </noscript>
+            
+<p>My ex and I were around when Yeti’s mom had her litter. She had health problems and sadly had to be euthanized shortly after Yeti and his siblings were weaned. I had my pick of the litter. I had recently lost a tuxedo cat (Trouble) to a pit bull attack, and thought I’d take the one tuxedo in the litter. Aditi’s mom suggested I also take this one bashful kitten who had a hairline similar to mine. I agreed. Jezebel (the Tuxedo) became Aditi’s cat, and Yeti almost immediately became very bonded to me. I’ve always been thankful I was talked into taking him.</p>
+
+<!--more-->
+
+<figure class="zoom alignright">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Going to visit Aditi with Yeti and Jezebel in my coat pockets" height="400" src="https://cdn3.brettterpstra.com/uploads/2023/06/yeti-pocket-400.jpeg" title="Yeti and Jezebel" width="300" />
+                </noscript>
+              
+              <figcaption>Yeti and Jezebel</figcaption>
+            </figure>
+<p>Both Yeti and Jezebel were polydactyl, and Yeti’s front paws had six toes each. I almost named him Big Foot, but given his long, thick white hair, “Yeti” seemed more apropos.</p>
+
+<p>Yeti displayed what can only be anthropomorphized as “empathy.” He always understood when I was sad or sick and would lay by me, placing one paw on my thigh, or curl up on the couch behind me and put his paw on my shoulder. And when I was happy or comfortable, he would be in my lap. He loved to sit facing me with his paws on my chest and give me nose bumps. He learned very young that licking my nose repeatedly was a bit painful, and would just give one lick or tap and then stop.</p>
+
+<p>Speaking of understanding pain, Yeti learned at a very young age that his claws and teeth hurt me, and after he got past the part of his life where he would try to climb my leg with his sharp little kitten claws, he never bit or scratched anybody, ever. I once held him while a urinary crystal was removed through his urethra; he held onto my arm and yowled, but never clawed or bit, which was impressive. I think if someone was squeezing a rock through my private bits I would probably try to bite the nearest arm I could.</p>
+
+<figure class="zoom alignright">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Yeti resting his paw on my shoulder" height="300" src="https://cdn3.brettterpstra.com/uploads/2023/06/yeti-shoulder-400.jpeg" title="Yeti resting his paw on my shoulder" width="400" />
+                </noscript>
+              
+              <figcaption>Yeti resting his paw on my shoulder</figcaption>
+            </figure>
+
+<p>Jezebel passed away under the care of Aditi a few years back. We honestly never expected Yeti to outlive her, but he lived to 19 years and 9 months and I enjoyed every minute of it. I’ve spent more time with Yeti than with any human in my entire life. He was always around. I never even saw my parents that much from 0-18. And I’ve never had a romantic relationship longer than about 13 years. So Yeti was my longest relationship and the “partner” I’ve spent the most of my life with. I appreciate humans and all, but Yeti and I never had a fight or even a misunderstanding. He was just always there for me. I gave him all my love, and he returned it.</p>
+
+<figure class="zoom alignright">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Yeti and Elle" height="300" src="https://cdn3.brettterpstra.com/uploads/2023/06/yeti-elle-400.jpeg" title="Yeti crawling into Elle&apos;s shirt" width="400" />
+                </noscript>
+              
+              <figcaption>Yeti crawling into Elle&apos;s shirt</figcaption>
+            </figure>
+<p>Yeti has been living with my partner Elle and I for about 5 years now. It took him a while, but he eventually accepted Elle as his other person. He worked his way into her heart and Elle loved him as much as I did. He helped pull our little “family” together, and I know she’s missing him right now, too.</p>
+
+<p>The last couple years have been full of health scares. He went from 20 pounds to 6 pounds at the end. He had a bout of pancreatitis, and then kidney failure. We’d been expecting him to die for quite a while now, so we had plenty of time to prepare for this. And he gave me the best ending I could imagine…</p>
+
+<figure class="zoom alignright">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Yeti saying goodbye" height="300" src="https://cdn3.brettterpstra.com/uploads/2023/06/yeti-goodbye-400.jpg" title="Yeti saying goodbye" width="400" />
+                </noscript>
+              
+              <figcaption>Yeti saying goodbye</figcaption>
+            </figure>
+<p>He was energetic and loving on Thursday, and then at 2am on Friday he crawled under my covers and fell asleep. That was the last time he moved on his own. He spent the day with me Friday, with his paw in my hand or on my leg. I would place him in the middle of the couch and then work on my laptop on the side, and he would pull himself over to me to put his paw on me or bury his head in my thigh. I took him to bed with me that night. On Saturday at 5:15am, I rolled over and put my hand on him. He took two deep breaths and then exhaled his last. Man, he waited until I woke up to say goodbye. Seriously, he was the most caring cat you’ll ever meet.</p>
+
+<p>I will always miss Yeti, but he gave me a great 20 years in the prime of my life. I’m not nearly as devastated as I thought I’d be. It was all so peaceful. He stayed by me all the way to the end, and I’ll be eternally grateful that he passed peacefully at home and I didn’t have to make the decision to end his life in a cold vet’s office. I’ve done that with beloved pets a dozen times over the years, and it’s a horrible thing to go through. Yeti gave me a fairy tale of an ending.</p>
+
+<p>I made a video out of 20 years’ worth of pictures. It’s too long, but if you want to enjoy it and have the patience for it, consider it my tribute to the best cat ever.</p>
+
+<figure class="bt-video-container" style="padding-bottom: 75.00%;"><a class="youtube" href="https://www.youtube.com/watch?v=ZC1oxrp6aDo">YouTube Video</a></figure>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110617136939457631" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F27%2Fremembering-yeti%2F&amp;text=Remembering+Yeti&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F27%2Fremembering-yeti%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16210634.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-06-27T11:19:00-05:00</pubDate>
+</item>
+<item>
+<title>Snibbets 2.0.34</title>
+<link>https://brett.trpstra.net/link/535/16195268/snibbets-2-dot-0-34</link>
+<guid>https://brett.trpstra.net/link/535/16195268/snibbets-2-dot-0-34</guid>
+<content:encoded><![CDATA[
+<p>I released a new version of
+<a href="https://brettterpstra.com/projects/snibbets/">Snibbets</a> this morning that solves one
+peculiarity: if you have multiple snippets in one file but any of them
+don’t contain code blocks, then the titles and display would get weird.</p>
+
+<p>Now you can have sections of a snippet file (separated by ATX headers)
+that contain just notes. If a section contains just notes and no code,
+then the notes will be output for that section, even when not using
+<code class="language-plaintext highlighter-rouge">--notes</code> or having <code class="language-plaintext highlighter-rouge">all_notes: true</code> set in config.</p>
+
+<p>This just allows for uses of Snibbets as both a note reference and a
+snippet manager. It probably won’t effect people who are using it “as
+intended,” but opens up new use cases.</p>
+
+<p>To get the latest version, use <code class="language-plaintext highlighter-rouge">gem install snibbets</code>. See the <a href="https://brettterpstra.com/projects/snibbets/">project
+page</a> for more details.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110560176144679841" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F17%2Fsnibbets-2-dot-0-34%2F&amp;text=Snibbets+2.0.34&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F17%2Fsnibbets-2-dot-0-34%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16195268.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-06-17T09:43:00-05:00</pubDate>
+</item>
+<item>
+<title>Doing with multiple sections</title>
+<link>https://brett.trpstra.net/link/535/16160573/doing-with-multiple-sections</link>
+<guid>https://brett.trpstra.net/link/535/16160573/doing-with-multiple-sections</guid>
+<content:encoded><![CDATA[
+<p>Funny story: I got a feature request for <a href="https://brettterpstra.com/projects/mdless/" title="mdless">mdless</a> to allow multiple sections to be specified in the output, but I misread the notification as a request for <a href="https://brettterpstra.com/projects/doing/" title="doing - BrettTerpstra.com">Doing</a>. So I spent a couple hours adding multiple section handling to an array of Doing commands and happily reported the result to the user, who was very confused by the version number I gave him. I apologized and have now added multiple section handling to mdless, which was a <em>lot</em> less work than adding it to Doing. So I might as well write a blog post about the Doing feature nobody asked for, I guess.</p>
+
+<p>Most of Doing’s many commands allow for the specification of a particular section, e.g. the <code class="language-plaintext highlighter-rouge">show</code> command can limit its results to just one section, or the <code class="language-plaintext highlighter-rouge">tag</code> command can tag the last X entries from a given section. Now, almost all of these commands can take multiple sections, either specified as <code class="language-plaintext highlighter-rouge">-s section1,section2</code> or by using multiple <code class="language-plaintext highlighter-rouge">-s</code> flags in the same command, e.g. <code class="language-plaintext highlighter-rouge">doing show -s currently -s later</code>.</p>
+
+<p>This allows a little more flexibility, especially for display commands. It also means you can perform actions on a more limited set of entries without limiting it to just a single set. It (obviously) doesn’t apply to the <code class="language-plaintext highlighter-rouge">now</code> command or other entry commands because an entry can only be in one section.</p>
+
+<p>By the way, section names are fuzzy matched, so you can specify that you want results from both Currently and Later (assuming you have such sections) with <code class="language-plaintext highlighter-rouge">-s curr,lat</code>.</p>
+
+<p>If I expand this further, I’ll allow negative arguments as well, such as <code class="language-plaintext highlighter-rouge">doing show -s -archive</code> to exclude the Archive section. But for now it’s just multiple sections.</p>
+
+<p>That’s all for now, just figured I’d mention it since I put the effort into it. You can update to the latest with <code class="language-plaintext highlighter-rouge">gem install doing</code> (which might require <code class="language-plaintext highlighter-rouge">sudo</code>, depending on your setup).</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110481359736486109" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F03%2Fdoing-with-multiple-sections%2F&amp;text=Doing+with+multiple+sections&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F06%2F03%2Fdoing-with-multiple-sections%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16160573.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-06-03T11:54:00-05:00</pubDate>
+</item>
+<item>
+<title>Some Ultimate Hacking Keyboard configuration tips</title>
+<link>https://brett.trpstra.net/link/535/16150699/some-ultimate-hacking-keyboard-configuration-tips</link>
+<guid>https://brett.trpstra.net/link/535/16150699/some-ultimate-hacking-keyboard-configuration-tips</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="uhk-key-cluster-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/05/uhk-key-cluster-rb.jpg" title="uhk-key-cluster-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>This post will only be of interest to those using the <a href="https://ultimatehackingkeyboard.com/" title="Ultimate Hacking Keyboard-The keyboard. For professionals.">Ultimate Hacking Keyboard</a> (<abbr title="Ultimate Hacking Keyboard">UHK</abbr>), specifically with the lefthand <a href="https://ultimatehackingkeyboard.com/product/keycluster">key cluster module</a>. I recently added some customizations I thought might be worth mentioning to those who happen to have this setup. For those who don’t, maybe read on and be tempted by the possibilities…</p>
+
+<!--more-->
+
+<p>The latest version of the <a href="https://github.com/UltimateHackingKeyboard/agent">Agent software</a> for the <abbr title="Ultimate Hacking Keyboard">UHK</abbr> allows the definition of up to four additional Function layers, or sets of keys that are mapped when a modifier is held down. You’re probably used to the Mod layer, which is how you turn I/J/K/L into arrow keys, etc. when you hold the Mod key, and the Fn layer, which turns 1 into F1 when you hold the Fn key. By clicking the down arrow on the layer bar, you can now check boxes next to Fn2-Fn5 layers to enable them. Then you can assign keys to trigger them, which is where the key cluster module comes in.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="enable-layers-800.jpg" class="aligncenter" height="315" src="https://cdn3.brettterpstra.com/uploads/2023/05/enable-layers-800.jpg" title="enable-layers-800.jpg" width="800" />
+              </noscript>
+            
+
+<p>The key cluster module provides 3 extra keys to the right of your B key and Space key (by default it’s the Mod key, but I swap my Mod and Space keys). I initially assigned these to <span class="keycombo combined" title="Command-R"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">R</kbd></span> on the top (<span class="keycombo combined" title="Command-B"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">B</kbd></span> when Mod is held, creating Run and Build buttons in Xcode and other IDEs, and a Refresh button in most other apps), and Enter and Backspace on the bottom two keys (Numpad Return and Forward Delete when Mod or Fn is held). But then I realized they could further function as triggers for other layers.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="secondary-role.jpg" class="aligncenter" height="422" src="https://cdn3.brettterpstra.com/uploads/2023/05/secondary-role.jpg" title="secondary-role.jpg" width="650" />
+              </noscript>
+            
+
+<p>You can assign a secondary function to any key, which is an action that’s performed when it’s held while another key is pressed. For example, I change the default Mouse key into Caps Lock (which becomes my <a href="https://brettterpstra.com/2015/12/18/a-hyper-key-that-can-still-yell/" title="A Hyper Key that can still YELL">Hyper key</a> along with <a href="https://karabiner-elements.pqrs.org/" title="Karabiner-Elements">Karabiner Elements</a>), and use the secondary function on the Tab key so that when it’s held in combination with other keys, it triggers the Mouse layer.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="tab-mouse.jpg" class="aligncenter" height="426" src="https://cdn3.brettterpstra.com/uploads/2023/05/tab-mouse.jpg" title="tab-mouse.jpg" width="689" />
+              </noscript>
+            
+
+<p>The bottom left key of the module is a very natural reach for the left thumb, and was the first layer I created. I added a Fn2 layer, and then assigned the secondary function of that key to trigger the Fn2 layer when held. Now I can map anything on the right side, and on the left side I can map anything easily reached by my remaining fingers when my left thumb is holding the module key down.</p>
+
+<p>I assigned A-G (home row) keys to F20-F24, which I then use with BetterTouchTool to trigger actions. I also assigned the block of keys from Y-O down to N-. on the right side to produce characters I commonly use in coding, such as curly/square/angle brackets. It took a while to get used to using those instead of reaching for the actual keys, but it does speed things up with a little practice.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="fn2keymap-800.jpg" class="aligncenter" height="396" src="https://cdn3.brettterpstra.com/uploads/2023/05/fn2keymap-800.jpg" title="fn2keymap-800.jpg" width="800" />
+              </noscript>
+            
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="scroll.jpg" class="alignright" height="311" src="https://cdn3.brettterpstra.com/uploads/2023/05/scroll.jpg" title="scroll.jpg" width="376" />
+              </noscript>
+            
+<p>Then I added a Fn3 layer, and made it so that when the right bottom button of the module was held, the other two buttons turn into PgUp and PgDown, and B and Space turn into Home and End. This is essentially the same as holding down my (repositioned) right Mod key and using the arrow cluster on my right hand, but gives me easy one-handed left-handed scrolling while my right hand is on the trackpad. I haven’t added anything else to that layer yet.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="fwd-back.jpg" class="alignright" height="229" src="https://cdn3.brettterpstra.com/uploads/2023/05/fwd-back.jpg" title="fwd-back.jpg" width="272" />
+              </noscript>
+            
+<p>The top key on the module triggers the Fn4 layer, which simply turns the bottom two keys into <span class="keycombo combined" title="Command-["><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">[</kbd></span> and <span class="keycombo combined" title="Command-]"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">]</kbd></span> for forward back navigation.</p>
+
+<p>I’ll expand the Fn3/4 keymaps as I find needs for them, but one step at a time. I’ve made the mistake of programming complex layers (and entire other keymaps) and then having to make extensive cheat sheets to remember where everything is until I develop muscle memory for them.</p>
+
+<p>Bonus tip: The Fn layer by default only affects the number keys, so there’s a whole lot of room for mapping other functions to letter keys. I turn a block of keys on the right to be media controls:</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="media-keys.jpg" class="aligncenter" height="351" src="https://cdn3.brettterpstra.com/uploads/2023/05/media-keys.jpg" title="media-keys.jpg" width="459" />
+              </noscript>
+            
+
+<p>I hope that provides some interesting ideas for your own customizations. If you’re interested in this kind of thing but haven’t looked into the <abbr title="Ultimate Hacking Keyboard">UHK</abbr>, I highly recommend <a href="https://ultimatehackingkeyboard.com/" title="Ultimate Hacking Keyboard-The keyboard. For professionals.">checking it out</a>. Splurge on the wrist wrests and the key module!</p>
+
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110441823737923978" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F05%2F27%2Fsome-ultimate-hacking-keyboard-configuration-tips%2F&amp;text=Some+Ultimate+Hacking+Keyboard+configuration+tips&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F05%2F27%2Fsome-ultimate-hacking-keyboard-configuration-tips%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16150699.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-05-27T12:20:00-05:00</pubDate>
+</item>
+<item>
+<title>Never let your email inbox exceed its quota again [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16132268/never-let-your-email-inbox-exceed-its-quota-again-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16132268/never-let-your-email-inbox-exceed-its-quota-again-sponsor</guid>
+<content:encoded><![CDATA[
+<p>Thanks to Sanebox for sponsoring BrettTerpstra.com this week! Sanebox has just introduced a new feature called Deep Clean, a way to reclaim your storage quota with smart batch deletes of old emails. Check it out for free and save yourself the headache of running out of space.</p>
+
+<p><a href="https://try.sanebox.com/deepclean_ttscoff" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="sanebox.jpg" class="aligncenter" height="267" src="https://cdn3.brettterpstra.com/uploads/2023/04/sanebox.jpg" title="sanebox.jpg" width="800" />
+              </noscript>
+            </a></p>
+
+<p>Is your email close to going over its storage limit? With our new free tool Deep Clean, you’ll never have to worry again. Use Deep Clean to quickly sort and delete unnecessary emails in bulk so you never have to pay for extra storage again. The best part? It’s free.</p>
+
+<p><a href="https://try.sanebox.com/deepclean_ttscoff" rel="nofollow">Get It for Free</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110390477689228635" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F05%2F18%2Fnever-let-your-email-inbox-exceed-its-quota-again-sponsor%2F&amp;text=Never+let+your+email+inbox+exceed+its+quota+again+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F05%2F18%2Fnever-let-your-email-inbox-exceed-its-quota-again-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16132268.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-05-18T10:40:00-05:00</pubDate>
+</item>
+<item>
+<title>NiftyMenu update for Ventura</title>
+<link>https://brett.trpstra.net/link/535/16105972/niftymenu-update-for-ventura</link>
+<guid>https://brett.trpstra.net/link/535/16105972/niftymenu-update-for-ventura</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="niftymenuheader-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/05/niftymenuheader-rb.jpg" title="niftymenuheader-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>Not so long ago I wrote a little script that would generate an HTML playground of any MacOS app’s menu bar, primarily for the purpose of generating screenshots. It has a full automation API and you can script screenshots with fuzzy name matching, meaning menu items names and positions can change and your automated screenshots will still work. It’s a very specific use case, but I shared it because it took way too much time and I would love it if it helped even one other person.</p>
+
+<p>Yesterday I updated the menu styling to match Ventura, which uses new submenu indicators, slightly smaller font sizes by default, and slight changes to background opacity and hue. The results should look like a passable rendition of the latest operating system now. You can <a href="https://ttscoff.github.io/niftymenu/Pages.html">check out the demo here</a>.</p>
+
+<p>NiftyMenu also got <a href="https://brettterpstra.com//projects/niftymenu">its own project page</a> on this site, with full documentation and installation instructions.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110310781748085868" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F05%2F04%2Fniftymenu-update-for-ventura%2F&amp;text=NiftyMenu+update+for+Ventura&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F05%2F04%2Fniftymenu-update-for-ventura%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16105972.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-05-04T08:51:00-05:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for April 29, 2023</title>
+<link>https://brett.trpstra.net/link/535/16097178/web-excursions-for-april-29-2023</link>
+<guid>https://brett.trpstra.net/link/535/16097178/web-excursions-for-april-29-2023</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with Backblaze. <a href="https://secure.backblaze.com/r/00dszk">Back up everything.</a></p>
+
+<dl>
+  <dt><a href="https://slate.com/technology/2023/04/blue-check-funeral.html?via=rss">Everything wrong with Twitter’s new verification system.</a></dt>
+  <dd>I lost my blue checkmark in April, and by the time it happened, I was grateful to have it gone. It used to actually mean something, now it’s just a badge of support for Musk and his leadership.</dd>
+  <dt><a href="https://www.stclairsoft.com/blog/default-folder-x-6-new-features/">Default Folder X 6.0: A tour of what’s new</a></dt>
+  <dd>Love the Quick Search idea. Beta is available for download if you’re a registered DFX user.</dd>
+  <dt><a href="https://www.pixelmator.com/blog/2023/04/12/pixelmator-photo-gets-ai-powered-selective-adjustments-and-a-new-name-photomator/">Pixelmator Photo gets AI-powered selective adjustments and a new</a></dt>
+  <dd>Pixelmator is now Photomator, and comes with AI selection tools that are very tempting.</dd>
+  <dt><a href="https://hackaday.com/2023/04/28/auto-tape-wrapping-machine-is-amazing-for-cable-management/">Auto Tape Wrapping Machine Is Amazing For Cable Management</a></dt>
+  <dd>I wish I was handier (and had a lot more tools), this is exactly the kind of hack I would love to build on a whim.</dd>
+  <dt><a href="https://what-the-chef.com/">What the Chef!?</a></dt>
+  <dd>Enter your available ingredients, get a recipe to use them. In my experimentation, it actually did a great job without requiring a grocery store trip for additional ingredients.</dd>
+</dl>
+
+<p>Backblaze securely backs up your entire computer to the cloud, affordably and reliably. I trust it with all my data. <a href="https://secure.backblaze.com/r/00dszk">Check it out today.</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110282795928613768" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F29%2Fweb-excursions-for-april-29-2023%2F&amp;text=Web+Excursions+for+April+29%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F29%2Fweb-excursions-for-april-29-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16097178.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-29T10:15:00-05:00</pubDate>
+</item>
+<item>
+<title>SaneBox could be your secret weapon against email overload [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16094378/sanebox-could-be-your-secret-weapon-against-email-overload-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16094378/sanebox-could-be-your-secret-weapon-against-email-overload-sponsor</guid>
+<content:encoded><![CDATA[
+<p>Thanks to SaneBox for sponsoring BrettTerpstra.com again this week! I don’t know what I would do without it.</p>
+
+<p><a href="https://sanebox.grsm.io/ttscoff" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="sanebox.jpg" class="aligncenter" height="267" src="https://cdn3.brettterpstra.com/uploads/2023/04/sanebox.jpg" title="sanebox.jpg" width="800" />
+              </noscript>
+            </a></p>
+
+<p>Ever feel like you’re drowning in a sea of emails? You’re not alone. We know the struggle of managing important emails while fighting spam messages with flashy sales. For every 10 emails from sources you don’t even remember subscribing to, you get one important one. When you find it, it feels like you’ve already finished a long task, doesn’t it?</p>
+
+<p>Finding important messages shouldn’t feel like a battle between you and your inbox. In fact, why do you have to sort through all these unimportant files in the first place?</p>
+
+<p>In a world of relentless digital communication, email overload is a common struggle. But SaneBox can help you to conquer your inbox once and for all! Using AI, SaneBox learns your email habits and sorts incoming messages precisely, so you can achieve the ultimate victory: a perfectly organized inbox.</p>
+
+<p>Let’s explore this service in a quick overview!</p>
+
+<h3 id="why-sanebox-stands-out">Why SaneBox Stands Out</h3>
+
+<ul>
+  <li><strong>AI-Powered:</strong> SaneBox’s algorithms learn your email behavior and customize your inbox management experience. So, if you want to see your favorite brand’s discounts in the same inbox as your collaborator’s messages, you’ve got it!</li>
+  <li><strong>Personalized Prioritization:</strong> High-priority emails stay in your main inbox, while lower-priority messages move to a separate folder for later review.</li>
+  <li><strong>Focus-Driven Features:</strong> With tools like Do Not Disturb, you can pause incoming emails and concentrate on your tasks without distractions. You can come back to them whenever you’re ready.</li>
+  <li><strong>Universal Compatibility:</strong> SaneBox works with any email service. So whether you’re using Gmail, Yahoo, or Outlook, you can tame that inbox.</li>
+</ul>
+
+<h3 id="key-sanebox-features">Key SaneBox Features</h3>
+
+<ul>
+  <li><strong>Smart Filtering:</strong> Automatically sorts emails based on your habits and priorities as soon as they reach your inbox. It’s like having a personal assistant to filter your inbox (but without the awkward daily interactions).</li>
+  <li><strong>SaneNoReplies:</strong> Tracks messages you’ve sent without a response, making it easy to follow up.</li>
+  <li><strong>Customizable Folders:</strong> Organize your emails effortlessly with custom-made folders for all your categories and priorities.</li>
+</ul>
+
+<p>When it comes to pricing, Sanebox is an inexpensive choice. You can get a free trial to experience the difference in email management without any commitment. Plus, the app offers flexible monthly plans starting at just $7. It’s really that affordable!</p>
+
+<p><a href="https://sanebox.grsm.io/ttscoff" rel="nofollow">Check out SaneBox today</a>, sign up today and save $25 on your subscription.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110270929786395006" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F27%2Fsanebox-could-be-your-secret-weapon-against-email-overload-sponsor%2F&amp;text=SaneBox+could+be+your+secret+weapon+against+email+overload+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F27%2Fsanebox-could-be-your-secret-weapon-against-email-overload-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16094378.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-27T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for April 25, 2023</title>
+<link>https://brett.trpstra.net/link/535/16091472/web-excursions-for-april-25-2023</link>
+<guid>https://brett.trpstra.net/link/535/16091472/web-excursions-for-april-25-2023</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with Backblaze. <a href="https://secure.backblaze.com/r/00dszk">Back up everything.</a></p>
+
+<dl>
+  <dt><a href="https://www.swellai.com/">Swell AI: Automate writing podcast shownotes &amp; articles</a></dt>
+  <dd>
+    <blockquote>
+      <p>Swell AI automates writing articles, summaries, social posts, time-stamped show notes and more for your podcasts and videos.</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://www.luciole-vision.com/luciole-en.html">Luciole - Typeface</a></dt>
+  <dd>
+    <blockquote>
+      <p>Luciole (French for “firefly”) is a new typeface developed explicitly for visually impaired people.</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://letsask.ai/">LetsAsk.AI</a></dt>
+  <dd>Another way to build a chatbot for a website, using your own data. Tested it out with the Marked help website, did a pretty good job. Not good enough to include the chatbot in the help yet, but I see potential.</dd>
+  <dt><a href="https://github.com/kudoai/duckduckgpt">kudoai/duckduckgpt</a></dt>
+  <dd>
+    <blockquote>
+      <p>DuckDuckGo add-on that brings the magic of ChatGPT to search results.</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://trackify.am/">Trackify</a></dt>
+  <dd>Analytics for Spotify. If you like seeing your music listening quantified in various ways, this is an intriguing service for just that.</dd>
+</dl>
+
+<p>Backblaze securely backs up your entire computer to the cloud, affordably and reliably. I trust it with all my data. <a href="https://secure.backblaze.com/r/00dszk">Check it out today.</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110260775197449936" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F25%2Fweb-excursions-for-april-25-2023%2F&amp;text=Web+Excursions+for+April+25%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F25%2Fweb-excursions-for-april-25-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16091472.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-25T12:48:00-05:00</pubDate>
+</item>
+<item>
+<title>Static blogs and Mastodon</title>
+<link>https://brett.trpstra.net/link/535/16087044/static-blogs-and-mastodon</link>
+<guid>https://brett.trpstra.net/link/535/16087044/static-blogs-and-mastodon</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="mastodon-rss-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/04/mastodon-rss-rb.jpg" title="mastodon-rss-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>I use <a href="https://feedpress.it">FeedPress</a> to handle this blog’s RSS feeds. It reads my statically-generated RSS feed and gives me subscriber stats, as well as the ability to send new posts to social media endpoints. But it lacks Mastodon integration, and I’m spending most of my time on Mastodon lately (find me at <a href="https://nojack.easydns.ca/@ttscoff" title="Mastodon/ttscoff@nojack.easydns.ca">@ttscoff@nojack.easydns.ca</a>). So I wanted my new posts on this blog to automatically post to Mastodon. The <a href="https://gist.github.com/ttscoff/3f545a4e74b46cc80eca2b887ee364a6">script in this post</a> could be used with any blog that generates an RSS feed, but is mostly geared toward static blogs.</p>
+
+<p>I got started with a post from Dr. Drang called <a href="https://leancrew.com/all-this/2022/11/announcing-new-posts-on-mastodon/">“Announcing New Posts on Mastodon”</a>. It included a Python script that I referenced to create a Ruby script for my needs. Thanks to the Doc for getting me started!</p>
+
+<p>You can find the script <a href="https://gist.github.com/ttscoff/3f545a4e74b46cc80eca2b887ee364a6">here</a>. See below for configuration and usage.</p>
+
+<!--more-->
+
+<h3 id="configuration">Configuration</h3>
+
+<p>To configure the script, at minimum, you need your Mastodon endpoint and an auth key. Your endpoint is generally your Mastodon instance URL with <code class="language-plaintext highlighter-rouge">/api/v1/statuses</code> appended to it, e.g. <code class="language-plaintext highlighter-rouge">https://mastodon.social/api/v1/statuses</code>. I’m not sure if this is ever not the case. The auth key can be generated by going to your Mastodon homepage, clicking the Settings gear icon, and choosing Development. Create a new application with any name, your blog url as the website, and leave the Redirect URI as is. Make sure it at least has permission to <code class="language-plaintext highlighter-rouge">write:statuses</code>. You’ll then see a client key, a client secret, and an access token. All you need is the access token for this script.</p>
+
+<p>Set up the script by updating <code class="language-plaintext highlighter-rouge">MASTODON_ENDPOINT</code> (as described above) and <code class="language-plaintext highlighter-rouge">MASTODON_AUTH</code> (with your access token).</p>
+
+<p>You’ll also need to configure the RSS feed. The script can parse JSON or XML feeds of your blog (local files or URLs) to find the latest post. If you want to use a JSON feed, set <code class="language-plaintext highlighter-rouge">JSON_FEED</code> to either a local JSON file (<code class="language-plaintext highlighter-rouge">~</code> is fine for your HOME directory) or a JSON feed url. If you’re using an XML feed, set <code class="language-plaintext highlighter-rouge">JSON_FEED</code> to <code class="language-plaintext highlighter-rouge">nil</code>, and set <code class="language-plaintext highlighter-rouge">RSS_FEED</code> to either a local file or url. With FeedPress, my JSON is generated from my XML and both feeds can take a few minutes to update, and the most immediate list of posts I have is the local <code class="language-plaintext highlighter-rouge">atom.xml</code> file generated with my site, so that’s what I have mine set to. That way I can run this script immediately after a new deploy and still get the latest post.</p>
+
+<p>The rest of the settings in the script are the template used for the status (<code class="language-plaintext highlighter-rouge">POST_TEMPLATE</code>), an optional query string that can be appended to the URL for campaign tracking, etc. (<code class="language-plaintext highlighter-rouge">QUERY_STRING</code>), and then a few options for updating front matter. I imagine most people won’t need the front matter bit, but the options are commented if you need them.</p>
+
+<p>It records what it posts to a local JSON file (location set with <code class="language-plaintext highlighter-rouge">TOOTS_DB</code>), so it won’t post the same thing twice. Optionally, it can go back and add a <code class="language-plaintext highlighter-rouge">mastodon: [TOOT_URL]</code> key to the original Markdown for the post. I’m using this to render a Mastodon link on each post that links to the toot so that people can reply/share it from their Mastodon account (since Mastodon doesn’t/can’t offer a “Toot This” link the way Twitter can, as far as I know)<sup id="fnref:js"><a class="footnote" href="https://brettterpstra.com#fn:js" rel="footnote">1</a></sup>. For most people this step is probably unnecessary, and can be disabled entirely by setting the <code class="language-plaintext highlighter-rouge">ADD_FRONT_MATTER</code> constant at the top of the script to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<h3 id="usage">Usage</h3>
+
+<p>All of the necessary config is commented, should be pretty easy to get running. Rather than rely on Ruby’s Net/HTTP library, it just uses <code class="language-plaintext highlighter-rouge">curl</code> to make the call, so you need a <code class="language-plaintext highlighter-rouge">curl</code> binary available (this is default on most systems).</p>
+
+<p>To use the script, save it as <code class="language-plaintext highlighter-rouge">toot.rb</code> and run <code class="language-plaintext highlighter-rouge">chmod a+x toot.rb</code> on it. If properly configured, you can just run <code class="language-plaintext highlighter-rouge">./toot.rb</code> to toot the latest post from your feed. If you want to test, use <code class="language-plaintext highlighter-rouge">--debug</code> (or just <code class="language-plaintext highlighter-rouge">-d</code>), and it will set the <code class="language-plaintext highlighter-rouge">visibility=direct</code> parameter that will make the resulting Mastodon post show up only for you (private).</p>
+
+<p>You can run <code class="language-plaintext highlighter-rouge">./toot.rb --last-ten</code> to toot the last 10 posts. Use <code class="language-plaintext highlighter-rouge">./toot.rb -h</code> to see available options.</p>
+
+<p>By default, when the script creates a new toot, it will notify you on STDERR. It will also output <code class="language-plaintext highlighter-rouge">NEW_TOOT: [TOOT_URI]</code> to STDOUT, which is what I use to detect whether a new toot was created and trigger a rebuild. You can disable all output with <code class="language-plaintext highlighter-rouge">--silent</code> (or <code class="language-plaintext highlighter-rouge">-s</code>).</p>
+
+<h3 id="updating-front-matter">Updating Front Matter</h3>
+
+<p>If you want to use the front matter updating “as is” in the script, it requires that your blog posts be named to match the url. It takes the url path, substitutes slashes for dashes, and removes <code class="language-plaintext highlighter-rouge">index.html</code> and any trailing slash from the url to create the slug, then adds <code class="language-plaintext highlighter-rouge">.md</code>. So if your post is at <code class="language-plaintext highlighter-rouge">https://brettterpstra.com/2023/04/21/im-on-shrooms-like-right-now/</code>, the resulting file it will look for is <code class="language-plaintext highlighter-rouge">2023-04-21-im-on-shrooms-like-right-now.md</code>. If your naming scheme is anything else, it would require manual editing to work.</p>
+
+<p>For reference, I have this script run as part of my Rakefile <code class="language-plaintext highlighter-rouge">:deploy</code> task. Once the site is fully deployed, it runs <code class="language-plaintext highlighter-rouge">toot.rb</code> and toots the latest post. If the script returns <code class="language-plaintext highlighter-rouge">NEW_TOOT</code> on STDOUT (meaning the post has never been tooted before and the front matter for the tooted post has been updated), it will re-render and deploy the site again so that the Mastodon link on the newest post goes live. Presumably, although that’s about to be tested when I publish this post. It’s a bit of a hacky workaround, but I can’t toot it until the post is live, and I can’t get the Mastodon link until it’s tooted, so it takes twice to get it right. It will only ever toot a post once, so updates and re-renders won’t be doubled.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="n">task</span> <span class="ss">:generate_deploy</span> <span class="k">do</span>
+  <span class="c1"># [Deploy tasks...]</span>
+  <span class="n">toot</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">toot</span>
+  <span class="n">exe</span> <span class="o">=</span> <span class="no">File</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="n">__dir__</span><span class="p">,</span> <span class="s1">'toot.rb'</span><span class="p">)</span>
+  <span class="n">res</span> <span class="o">=</span> <span class="sb">`</span><span class="si">#{</span><span class="n">exe</span><span class="si">}</span><span class="sb">`</span><span class="p">.</span><span class="nf">strip</span>
+  <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="p">[</span><span class="ss">:generate_deploy</span><span class="p">].</span><span class="nf">invoke</span> <span class="k">if</span> <span class="n">res</span> <span class="o">=~</span> <span class="sr">/^NEW_TOOT/</span>
+<span class="k">end</span></code></pre></div></div>
+
+<h3 id="in-closing">In Closing</h3>
+
+<p>I hope that FeedPress eventually adds Mastodon sharing to its social services, but my current setup really likes having the actual URL for the associated Mastodon post available, so that wouldn’t do much good in this scenario anyway. I hope this script is helpful to other people using static blog setups and wanting Mastodon integration.</p>
+
+<p>If you do generate your own RSS feed and don’t currently get statistics from it, I do recommend checking out <a href="https://feedpress.it">FeedPress</a>. It’s affordable, and great for blogs and podcasts.</p>
+
+<p>Again, you can <a href="https://gist.github.com/ttscoff/3f545a4e74b46cc80eca2b887ee364a6">find the script in this gist</a>.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:js">
+      <p>I considered just using JavaScript to load the JSON record that this script creates and inject a Mastodon link on the front end (avoiding multiple renders), but for a few reasons decided I’d rather add a hardcoded link at render time. <a class="reversefootnote" href="https://brettterpstra.com#fnref:js">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110238102194362440" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F21%2Fstatic-blogs-and-mastodon%2F&amp;text=Static+blogs+and+Mastodon&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F21%2Fstatic-blogs-and-mastodon%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16087044.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-21T12:49:00-05:00</pubDate>
+</item>
+<item>
+<title>Markdown to Bike conversion</title>
+<link>https://brett.trpstra.net/link/535/16078222/markdown-to-bike-conversion</link>
+<guid>https://brett.trpstra.net/link/535/16078222/markdown-to-bike-conversion</guid>
+<content:encoded><![CDATA[
+<p>I’m liking outlining in Jesse Grossjean’s latest app, <a href="https://www.hogbaysoftware.com/bike/">Bike</a>, for my outlining needs. It’s a simple outliner that can save the content of its outlines to Bike files, OPML documents, or plain text. And its native document format is plain HTML that’s easy to work with.</p>
+
+<p>As an aside, Jesse just released Shortcut actions for Bike, making it possible to do some automation of Bike and Bike documents. I haven’t played around with it much yet, but if you’re into Shortcuts, <a href="https://www.hogbaysoftware.com/posts/bike-automate-with-shortcuts/">check out what’s available</a>.</p>
+
+<p>One thing that Bike lacks is an easy way to convert Markdown lists to Bike outlines. It can actually read indented plain text just fine, but the list markers are included in the node text, and blank lines become empty nodes instead of being compressed. Running a list through a Markdown processor and saving as <code class="language-plaintext highlighter-rouge">.bike</code> can often create an invalid file, as Bike requires every list item to contain a paragraph tag, not bare text.</p>
+
+<!--more-->
+
+<p>I initially played around with running Markdown through a Markdown processor and then manipulating the output, but ultimately went with a much simpler version that compresses newlines and removes list markers, putting the resulting indented text in your clipboard. Pasting the result into a Bike document should almost always yield the expected result.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="md_to_bike-800.jpg" class="aligncenter" height="304" src="https://cdn3.brettterpstra.com/uploads/2023/04/md_to_bike-800.jpg" title="md_to_bike-800.jpg" width="800" />
+              </noscript>
+            
+
+<p>Save the script below as <code class="language-plaintext highlighter-rouge">md_to_bike</code> in your PATH and run <code class="language-plaintext highlighter-rouge">chmod a+x path/to/md_to_bike</code>. It can be called as a pipe or on a file. To call it as a pipe, run <code class="language-plaintext highlighter-rouge">cat myfile.md | md_to_bike</code>. To call it on a file, just provide the path to the file as an argument: <code class="language-plaintext highlighter-rouge">mmd_to_bike path/to/myfile.md</code>. The results will be placed in your clipboard, ready to paste into a Bike document.</p>
+
+<figure class="code">
+<figcaption><span>md_to_bike.rb</span><a href="https://gist.githubusercontent.com/ttscoff/1fdae1289206d6947dde5970137615ae/raw/6219fe41881f7b854aa77e7498e091f3d8b0fd15/md_to_bike.rb">raw</a></figcaption>"
+<div class="highlight"><pre><code class="ruby"><span class="line"><span></span><span class="ch">#!/usr/bin/env ruby</span>
+</span><span class="line"><span class="c1"># frozen_string_literal: true</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># This script takes simple Markdown lists and converts them for use in</span>
+</span><span class="line"><span class="c1"># Bike (https://www.hogbaysoftware.com/bike/), a Mac outliner app from</span>
+</span><span class="line"><span class="c1"># Hog Bay Software.</span>
+</span><span class="line"><span class="c1">#</span>
+</span><span class="line"><span class="c1"># It doesn't handle nested code blocks or any non-list Markdown. It just</span>
+</span><span class="line"><span class="c1"># turns simple lists into text Bike will recognize when it's pasted into</span>
+</span><span class="line"><span class="c1"># a Bike document. Multiple paragraphs in a list item become additional</span>
+</span><span class="line"><span class="c1"># nodes at the same level.</span>
+</span><span class="line">
+</span><span class="line"><span class="nb">require</span> <span class="s1">'shellwords'</span>
+</span><span class="line"><span class="nb">require</span> <span class="s1">'fcntl'</span>
+</span><span class="line">
+</span><span class="line"><span class="n">stdin</span> <span class="o">=</span> <span class="vg">$stdin</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">strip</span> <span class="k">if</span> <span class="vg">$stdin</span><span class="o">.</span><span class="n">stat</span><span class="o">.</span><span class="n">size</span><span class="o">.</span><span class="n">positive?</span> <span class="o">||</span> <span class="vg">$stdin</span><span class="o">.</span><span class="n">fcntl</span><span class="p">(</span><span class="no">Fcntl</span><span class="o">::</span><span class="no">F_GETFL</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">zero?</span>
+</span><span class="line">
+</span><span class="line"><span class="k">if</span> <span class="o">!</span><span class="n">stdin</span> <span class="o">&amp;&amp;</span> <span class="no">ARGV</span><span class="o">.</span><span class="n">count</span> <span class="o">!=</span> <span class="mi">1</span>
+</span><span class="line">  <span class="n">exe</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">)</span>
+</span><span class="line">  <span class="nb">puts</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">exe</span><span class="si">}</span><span class="s2"> requires one argument&quot;</span>
+</span><span class="line">  <span class="nb">puts</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">exe</span><span class="si">}</span><span class="s2"> [markdown file]&quot;</span>
+</span><span class="line">  <span class="no">Process</span><span class="o">.</span><span class="n">exit</span> <span class="mi">1</span>
+</span><span class="line"><span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="n">source</span> <span class="o">=</span> <span class="no">ARGV</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Read input file</span>
+</span><span class="line"><span class="n">content</span> <span class="o">=</span> <span class="n">stdin</span> <span class="p">?</span> <span class="n">stdin</span> <span class="p">:</span> <span class="no">IO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">source</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span>
+</span><span class="line"><span class="c1"># Remove spaces from empty lines</span>
+</span><span class="line"><span class="n">content</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="sr">/^\s*\n/</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</span><span class="line"><span class="c1"># Replace consecutive empty lines with a single newline</span>
+</span><span class="line"><span class="n">content</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="sr">/\n+/</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Replace 2 or 4 spaces with tabs (based on detected indentation)</span>
+</span><span class="line"><span class="n">m</span> <span class="o">=</span> <span class="n">content</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/^ {2,4}/</span><span class="p">)</span> <span class="c1"># find first indentation</span>
+</span><span class="line"><span class="n">indentation</span> <span class="o">=</span> <span class="n">m</span> <span class="p">?</span> <span class="n">m</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="n">length</span> <span class="p">:</span> <span class="mi">1</span> <span class="c1"># determine whether first indent is 2 or 4 spaces</span>
+</span><span class="line"><span class="n">content</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="sr">/^( {</span><span class="si">#{</span><span class="n">indentation</span><span class="si">}</span><span class="sr">})+(?=\S)/</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">m</span><span class="o">|</span> <span class="c1"># Replace leading spaces with tabs</span>
+</span><span class="line">  <span class="n">mtch</span> <span class="o">=</span> <span class="no">Regexp</span><span class="o">.</span><span class="n">last_match</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</span><span class="line">  <span class="n">mtch</span> <span class="p">?</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span> <span class="o">*</span> <span class="p">(</span><span class="n">mtch</span><span class="o">.</span><span class="n">length</span> <span class="o">/</span> <span class="n">indentation</span><span class="p">)</span> <span class="p">:</span> <span class="n">m</span> <span class="c1"># tab * detected indent / detected indentation</span>
+</span><span class="line"><span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Replace markdown list markers</span>
+</span><span class="line"><span class="n">content</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="sr">/(\s*)[+*\-] /</span><span class="p">,</span> <span class="s1">'</span><span class="se">\1</span><span class="s1">'</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Copy result to clibpoard</span>
+</span><span class="line"><span class="sb">`echo </span><span class="si">#{</span><span class="no">Shellwords</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">content</span><span class="p">)</span><span class="si">}</span><span class="sb"> | pbcopy`</span>
+</span><span class="line">
+</span><span class="line"><span class="nb">puts</span> <span class="s2">&quot;Results in clipboard. Paste into a Bike document.&quot;</span>
+</span></code></pre></div>
+</figure>
+
+<p>Hope that’s of use to somebody.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110237655989758923" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F18%2Fmarkdown-to-bike-conversion%2F&amp;text=Markdown+to+Bike+conversion&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F18%2Fmarkdown-to-bike-conversion%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16078222.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-18T13:09:00-05:00</pubDate>
+</item>
+<item>
+<title>Snibbets plain text code snippet manager reborn</title>
+<link>https://brett.trpstra.net/link/535/16073537/snibbets-plain-text-code-snippet-manager-reborn</link>
+<guid>https://brett.trpstra.net/link/535/16073537/snibbets-plain-text-code-snippet-manager-reborn</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Snibbets banner" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/04/snibbets-header-rb.jpg" title="Snibbets banner" width="800" />
+              </noscript>
+            
+
+<p>Over 20 years of writing scripts and apps I’ve collected a lot of “snippets” of code that I save whenever I solve a problem and think I’ll want the solution again in the future. I like these snippets to include notes and links, and I need to be able to easily search them and grab the code when I need it without much effort. That’s why I wrote Snibbets <a href="https://brettterpstra.com/2020/04/29/markdown-and-code-snippet-management/">back in 2020</a>.</p>
+
+<p>I’ve now refactored Snibbets as a gem and vastly improved its capabilities. I wanted the simplicity of creating snippets in nvUltra and searching them quickly from the command line, getting just the code I need with a few keystrokes. I keep iTerm in Visor mode, so it’s a hotkey away, and just as convenient as any quick find panel in a dedicated snippet management app.</p>
+
+<p>Snibbets now has <a href="https://brettterpstra.com/projects/snibbets/">its own project page</a> where you can read all about its features and options. You can also see all the code, file bug reports, and make feature requests <a href="https://github.com/ttscoff/snibbets">on GitHub</a>.</p>
+
+<!--more-->
+
+<p>Here’s a quick overview, though.</p>
+
+<h3 id="snippets-are-markdown-files">Snippets Are Markdown Files</h3>
+
+<p>A snippet is just a Markdown file, where the filename becomes the title, optionally with additional extensions that help the syntax highlighter, e.g. <code class="language-plaintext highlighter-rouge">symbolize hash keys.rb.md</code>. The document can contain tags in MultiMarkdown metadata format, titles as <code class="language-plaintext highlighter-rouge">#</code> headlines, additional notes, and the code snippet either indented or fenced with optional language specifier. A single document can contain multiple snippets, separated with headlines as titles for each one.</p>
+
+<p>Snippets all go into one folder. You don’t need to organize them into directories, that would defeat the purpose of the full text search in Snibbets. You can open that directory in any app that can handle it, such as nvUltra or Obsidian, and have full access for editing and creating new snippets.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 46.33%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/04/snibbets.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/04/snibbets.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/04/snibbets.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<h3 id="searching-your-snippets">Searching Your Snippets</h3>
+
+<p>To search your snippets, just run <code class="language-plaintext highlighter-rouge">snibbets SEARCH TERMS</code>. It will use a combination of Spotlight, <code class="language-plaintext highlighter-rouge">find</code>, and <code class="language-plaintext highlighter-rouge">grep</code> to find matches. If there’s more than one match, you’ll get a menu, and if the selected file contains more than one snippet, you’ll get a second menu. The code from the snippet is output to the console without any accompanying notes.</p>
+
+<p>You can run with <code class="language-plaintext highlighter-rouge">--edit</code> to open the selected snippet in your editor to see all of the notes or update the code. You can also use <code class="language-plaintext highlighter-rouge">--nvultra</code> to open the snippet in nvUltra, assuming you’re on the beta. You can also run with <code class="language-plaintext highlighter-rouge">--copy</code> to copy just the code to your clipboard in addition to displaying it in the console. Run <code class="language-plaintext highlighter-rouge">snibbets -h</code> to see all available options.</p>
+
+<h3 id="filtering">Filtering</h3>
+
+<p>When multiple results/snippets are detected, a menu is generated. If you have <a href="https://github.com/junegunn/fzf" title="junegunn/fzf:A command-line fuzzy finder">fzf</a> installed, it will be used for the menu, allowing fuzzy searching to narrow results. If you don’t have fzf but do have <a href="https://github.com/charmbracelet/gum" title="charmbracelet/gum:A tool for glamorous shell scripts 🎀">gum</a> installed, that will be used and is almost as good for this purpose. Failing that, Snibbets will generate its own menu and you’ll have to enter a number to get the snippet. fzf and gum are far superior, so I recommend installing one or the other.</p>
+
+<h3 id="syntax-highlighting">Syntax Highlighting</h3>
+
+<p>I put a lot of time into syntax highlighting. You can use either Pygments or Skylighting (separate installations), and you can configure the theme. Syntax definitions are picked up from the filename and from language specifiers on fenced code blocks. It looks really great using Skylighting and the Nord theme (as shown in the video above). To enable this, edit your config (<code class="language-plaintext highlighter-rouge">snibbets --configure</code>) to include:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="na">highlight</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">highlighter</span><span class="pi">:</span> <span class="s">skylighting</span>
+<span class="na">highlight_theme</span><span class="pi">:</span> <span class="s">nord</span></code></pre></div></div>
+
+<p>Snibbets will avoid highlighting anything going to the clipboard or being piped or redirected to other commands. Keeps things tidy.</p>
+
+<p>It’s a simple tool<sup id="fnref:simple"><a class="footnote" href="https://brettterpstra.com#fn:simple" rel="footnote">1</a></sup>, but it makes it feasible for me to store all of my code snippets in a way that allows nvUltra to become my main code snippet manager, and gives me instant access to any snippet from the command line. Just what I needed.</p>
+
+<p>Check out <a href="https://brettterpstra.com/projects/snibbets/">the project page</a> or <a href="https://github.com/ttscoff/snibbets">see it on GitHub</a>.</p>
+
+<p>Support Brett's work <a href="https://brettterpstra.com/donate/?ppid=A9KK2MTU7QSJU&amp;submit=" title="Make a donation">with a donation</a>, or <a href="https://github.com/sponsors/ttscoff?o=esb" title="Sponsor ttscoff on GitHub">sponsor me on GitHub!</a>
+<div class="footnotes">
+  <ol>
+    <li id="fn:simple">
+      <p>though you wouldn’t know it based on the number of hours I’ve put into it lately. <a class="reversefootnote" href="https://brettterpstra.com#fnref:simple">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232636151069197" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F16%2Fsnibbets-plain-text-code-snippet-manager-reborn%2F&amp;text=Snibbets+plain+text+code+snippet+manager+reborn&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F16%2Fsnibbets-plain-text-code-snippet-manager-reborn%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16073537.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-16T10:33:00-05:00</pubDate>
+</item>
+<item>
+<title>Syntax highlighting is fun, and you won't believe this one weird trick</title>
+<link>https://brett.trpstra.net/link/535/16071938/syntax-highlighting-is-fun-and-you-wont-believe-this-one-weird-trick</link>
+<guid>https://brett.trpstra.net/link/535/16071938/syntax-highlighting-is-fun-and-you-wont-believe-this-one-weird-trick</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="highlighted code screenshot" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/04/lexers-rb.jpg" title="highlighted code screenshot" width="800" />
+              </noscript>
+            
+
+<p>Over the last couple of days I got obsessed with wrangling my code snippet collection, once again. It’s not healthy, but it is what it is. I dug back into Snibbets, a tool for managing code snippets as plain text Markdown files that <a href="https://brettterpstra.com/2020/04/29/markdown-and-code-snippet-management/">I started back in 2020</a>. I actually got it to a really good point today, but I’m realizing that it’s getting bloated enough that it needs to become a gem before I’m ready to hype it up. The current version and mostly-up-to-date documentation are <a href="https://github.com/ttscoff/snibbets">up on GitHub</a>, though, so feel free to peek in the meantime.</p>
+
+<p>But that’s not what I’m here to tell you about. In the process of working on Snibbets, I wrote a little routine that could turn a file extension into a programming language name for tagging purposes, and vice versa. It seemed ripe for making a little one-off utility, so I’ve <a href="https://gist.github.com/ttscoff/14560a71b86a48b4d895087d3700f516">posted a standalone version to GitHub</a>. I’m going to be using it when I’m doing technical writing and including code samples in languages I don’t usually work with. When you create a fenced code block, you can add a “lexer” to the opening fence, e.g. <code class="language-plaintext highlighter-rouge">~~~ruby</code>, which helps most platforms with properly syntax highlighting it. But then I find myself working on someone else’s Terraform code and I’m unsure whether that’s a supported language for syntax highlighting. Now I can just run <code class="language-plaintext highlighter-rouge">lexers.rb terraform</code> or <code class="language-plaintext highlighter-rouge">lexers.rb tf</code> and it will tell me all about it. What the available lexers are, what common extensions are associated with it, you know, the works.</p>
+
+<p>I built this by taking the output of <code class="language-plaintext highlighter-rouge">pygmentize -L lexers</code> and running it through a few regular expressions to make a parseable data set. Then I took the output of <code class="language-plaintext highlighter-rouge">skylighting -l</code> to add a few more lexers (though those don’t have extensions listed and I don’t know many of the more obscure ones, so that data serves to search for a valid lexer, but nothing else). The script itself just builds a queryable object out of the data and offers a few different ways to get at the data (you can see the whole set at the bottom of the script). The easiest way to use it is like I mentioned above: just pass a file extension or language name to it as an argument and it will give you back the info you need. There’s more documentation in the comments of the script.</p>
+
+<p>Just thought I’d share it! <a href="https://gist.github.com/ttscoff/14560a71b86a48b4d895087d3700f516">Check out the gist</a> if you’re interested.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232636121637987" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F14%2Fsyntax-highlighting-is-fun-and-you-wont-believe-this-one-weird-trick%2F&amp;text=Syntax+highlighting+is+fun%2C+and+you+won%27t+believe+this+one+weird+trick&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F14%2Fsyntax-highlighting-is-fun-and-you-wont-believe-this-one-weird-trick%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16071938.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-14T15:40:00-05:00</pubDate>
+</item>
+<item>
+<title>I forgot about the Titlecase API</title>
+<link>https://brett.trpstra.net/link/535/16070204/i-forgot-about-the-titlecase-api</link>
+<guid>https://brett.trpstra.net/link/535/16070204/i-forgot-about-the-titlecase-api</guid>
+<content:encoded><![CDATA[
+<p>I made a little web service back in 2015 and somewhere in the following 7 years I forgot about it. I’ve been adding title-casing to various projects and plugins and keep writing new code for it… which was the whole reason I built the API to begin with.</p>
+
+<p>It just accepts a text string and returns an AP titlecased version as plain text. That’s it. No bells or whistles, but if you need to incorporate title casing into a script or a Shortcut or anything else that can make a quick call to the web, it’s a great answer.</p>
+
+<p>Just make a call to <code class="language-plaintext highlighter-rouge">https://brettterpstra.com/titlecase/?title=the%20text%20to%20titlecase</code>, where <code class="language-plaintext highlighter-rouge">title=</code> contains the url encoded string you want to title case. You can play with it <a href="https://brettterpstra.com/titlecase/test">on the test page</a>, which will also show you the url to use to get the same result.</p>
+
+<p>That’s all. It’s a silly little thing, but if I’ve forgotten about it, I bet everyone else did, too, and it might just be handy for someone.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232636089866272" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F13%2Fi-forgot-about-the-titlecase-api%2F&amp;text=I+forgot+about+the+Titlecase+API&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F13%2Fi-forgot-about-the-titlecase-api%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16070204.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-13T14:32:00-05:00</pubDate>
+</item>
+<item>
+<title>Just checking in</title>
+<link>https://brett.trpstra.net/link/535/16068629/just-checking-in</link>
+<guid>https://brett.trpstra.net/link/535/16068629/just-checking-in</guid>
+<content:encoded><![CDATA[
+<p>I haven’t been posting much besides sponsored posts and web excursions for a while now. I figured it was time for a checkin for the sake of those who check this blog regularly, and especially for the benefit of those who <a href="https://brettterpstra.com/support/">offer financial support</a> to me and all my projects.</p>
+
+<p>As you probably know, I have bipolar disorder. Most of my project releases and blogging spurts correlate with manic episodes. And manic episodes are bad for me — they result in a severe sleep deficit that is shortening my life. But I’ve been remarkably stable lately, the downside of which is no late night coding/creating binges or the inescapable bursting of ideas that I just have to share with the world. It means I do my job, I maintain and support my commercial software, I fix reported bugs in my free projects, and I go to bed. It doesn’t lead to a lot of fun software releases, blog posts, or new ideas in general. Sleep is good, stagnation kills me.</p>
+
+<p>I’ve recently been realizing that my version of “stable” is more akin to depression. The thing is, I can’t take antidepressants without risking triggering a manic phase, which leaves me in a position where I either have to be depressed, or deal with the life-shortening effects of constant mood fluctuation. But I think I have a potential solution…</p>
+
+<hr />
+
+<blockquote class="warn">
+  <p>I removed the meat of this post because it was causing friction with my loved ones. I don’t want my activities to cause any undue harm, so I’ll save further sharing on this topic until everything is… decriminalized.</p>
+</blockquote>
+
+<hr />
+
+<p>So that’s my check-in for now. You can hear more up-to-the-minute updates on my progress (as well as Jeff and Christina’s) by tuning into the Mental Health Corner on <a href="https://overtiredpod.com/">Overtired</a>. I appreciate all of the support (monetary, pull requests, and even just kind emails) that you all have continued to provide for me. It really helps me stay motivated to maintain my 100+ projects and create new stuff!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232636031913863" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F12%2Fjust-checking-in%2F&amp;text=Just+checking+in&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F12%2Fjust-checking-in%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16068629.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-12T15:41:00-05:00</pubDate>
+</item>
+<item>
+<title>Keep your software up-to-date effortlessly with MacUpdater [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16060213/keep-your-software-up-to-date-effortlessly-with-macupdater-sponsor</link>
+<guid>https://brett.trpstra.net/link/535/16060213/keep-your-software-up-to-date-effortlessly-with-macupdater-sponsor</guid>
+<content:encoded><![CDATA[
+<p>Thanks to MacUpdater for sponsoring BrettTerpstra.com this week! I’m a dedicated user and swear by this app for keeping my system updated. The latest version just makes everything even easier.</p>
+
+<p><a href="https://corecode.io/macupdater/index.html?utm_source=bt_sa" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="MacUpdater Screenshot" class="aligncenter" height="450" src="https://cdn3.brettterpstra.com/uploads/2023/04/macupdater.jpg" title="MacUpdater Screenshot" width="780" />
+              </noscript>
+            </a></p>
+
+<p><a href="https://corecode.io/macupdater/index.html?utm_source=bt_sa" rel="nofollow">MacUpdater</a> scans and displays all installed software on your Mac — see at a glance which apps or plugins are out of date, and click to automatically update them!</p>
+
+<ul>
+  <li>MacUpdater provides version information for over 60,000 apps (and growing) and over 6,000 of the most popular apps can be updated directly from within MacUpdater with a single click</li>
+  <li>MacUpdater also now supports automatic, zero-click PKG installs</li>
+  <li>The Pro edition adds support for audio and media plugins</li>
+  <li>MacUpdater is flexible — you can control MacUpdater from the main app, the menubar, or the command line</li>
+  <li>It’s a universal build and fully compatible with Apple Silicon</li>
+</ul>
+
+<h3 id="whats-new-in-macupdater-3">What’s new in MacUpdater 3</h3>
+
+<ul>
+  <li>Optional zero-click, fully-automatic, scheduled app updates (PRO)</li>
+  <li>Added Apple-silicon migration assistant to help move to new Macs
+    <ul>
+      <li>Find out which of your Rosetta-based apps could be ‘Apple Silicon’-native if you update or upgrade to the latest version</li>
+      <li>Find out which of your ‘Rosetta’ based apps could be Silicon-native if you reinstall them</li>
+    </ul>
+  </li>
+  <li>Track supported branches other than the ‘Latest Version’
+    <ul>
+      <li>When an app vendor also supports an old branch of an app with further updates, users have the choice of either using the latest version or tracking the updates to the major version which they are using</li>
+      <li>You can see a list of apps that currently <a href="https://www.corecode.io/macupdater/list_of_apps_with_multiple_supported_branches.html">support this feature</a> (more will be added based on user requests)</li>
+    </ul>
+  </li>
+  <li>Select how apps should be updated (auto, custom updater, manual update)</li>
+  <li>
+    <p>Attach and display Finder-compatible tags and comments to your apps, and support custom homepages or updater apps via clickable comments</p>
+
+    
+            <noscript class="loading-lazy">
+              <source media="(max-width: 640px)" />
+              <source type="image/webp" />
+              <source />
+              <img alt="MacUpdater Tags" class="aligncenter" height="390" src="https://cdn3.brettterpstra.com/uploads/2023/04/macupdater-tags.jpg" title="MacUpdater Tags" width="790" />
+            </noscript>
+          
+  </li>
+</ul>
+
+<p>Save 15% on MacUpdater with code <code class="language-plaintext highlighter-rouge">BRETTTERPSTRAQ1</code>. <a href="https://corecode.io/macupdater/index.html?utm_source=bt_sa" rel="nofollow">Check it out today!</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232636000811034" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F06%2Fkeep-your-software-up-to-date-effortlessly-with-macupdater-sponsor%2F&amp;text=Keep+your+software+up-to-date+effortlessly+with+MacUpdater+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F06%2Fkeep-your-software-up-to-date-effortlessly-with-macupdater-sponsor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16060213.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-06T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Find which of your favorite apps are on Setapp, revisited</title>
+<link>https://brett.trpstra.net/link/535/16056931/find-which-of-your-favorite-apps-are-on-setapp-revisited</link>
+<guid>https://brett.trpstra.net/link/535/16056931/find-which-of-your-favorite-apps-are-on-setapp-revisited</guid>
+<content:encoded><![CDATA[
+<p>Back in 2019 I <a href="https://brettterpstra.com/2019/04/22/so-you-got-setapp-dot-dot-dot-make-the-most-of-it/">wrote a little script</a> that would parse your Applications folder and tell you which of your apps were available on <a href="https://go.setapp.com/stp44">Setapp</a>. The goal was to help you figure out which apps you were already using that were also on Setapp, so you could use the Setapp version and direct a little of your subscription fee to your favorite developers.</p>
+
+<p>The script parses the setapps/apps page to see what apps are available, and the markup has changed since I originally wrote the script. Thankfully, <a href="https://mastodon.social/@cplater/110138170935239070#.">Chuck Plater</a> updated the script <a href="https://gist.github.com/caplater/96467af7041f34367895b7b1170f5589">in a fork</a> to work with the current markup. I’ve implemented his changes in <a href="https://gist.github.com/ttscoff/70f6dec1fa12d96c8af3f8b5b3b7e14b">the original script</a> and it’s once again working fine.</p>
+
+<p>To use the script, save it to a text file called <code class="language-plaintext highlighter-rouge">onsetapp.rb</code>, then run <code class="language-plaintext highlighter-rouge">chmod a+x onsetapp.rb</code> on it. Once you’ve done that, you should be able to execute <code class="language-plaintext highlighter-rouge">./onsetapp.rb</code> and get a list of applications you use that are also available on Setapp.</p>
+
+<p>Thanks to Chuck for the fix. I hope all Setapp subscribers will go to the trouble of using the Setapp version of apps they already own, it really does help the developers (and this script makes it easy). If you’re not already a Setapp user, <a href="https://go.setapp.com/stp44">here’s my affiliate link</a> to start using hundreds of apps for $10 a month.</p>
+
+<figure class="code">
+<figcaption><span>onsetapp.rb</span><a href="https://gist.githubusercontent.com/ttscoff/70f6dec1fa12d96c8af3f8b5b3b7e14b/raw/7e80ce385a2fdd1b7aec46545724b3ed2218f015/onsetapp.rb">raw</a></figcaption>"
+<div class="highlight"><pre><code class="ruby"><span class="line"><span></span><span class="ch">#!/usr/bin/env ruby</span>
+</span><span class="line"><span class="c1"># encoding: utf-8</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Read /Applications/Setapp to get apps already installed</span>
+</span><span class="line"><span class="n">installed_setapp_apps</span> <span class="o">=</span> <span class="no">Dir</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s1">'/Applications/Setapp/*.app'</span><span class="p">)</span>
+</span><span class="line"><span class="n">installed_setapp_apps</span><span class="o">.</span><span class="n">map!</span> <span class="p">{</span><span class="o">|</span><span class="n">app</span><span class="o">|</span>
+</span><span class="line">  <span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">app</span><span class="p">,</span><span class="s1">'.app'</span><span class="p">)</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Grab the All Apps page from Setapp to get all available apps</span>
+</span><span class="line"><span class="n">apps_page</span> <span class="o">=</span> <span class="sb">`curl -SsL https://setapp.com/apps`</span>
+</span><span class="line"><span class="n">setapp_apps</span> <span class="o">=</span> <span class="n">apps_page</span><span class="o">.</span><span class="n">force_encoding</span><span class="p">(</span><span class="s1">'utf-8'</span><span class="p">)</span><span class="o">.</span><span class="n">scan</span><span class="p">(</span><span class="sr">/&lt;app-details\s*name=\&quot;(.*?)\&quot;/m</span><span class="p">)</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span><span class="o">|</span><span class="n">match</span><span class="o">|</span>
+</span><span class="line">  <span class="n">match</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="c1"># Read /Applications for non-Setapp apps on the system</span>
+</span><span class="line"><span class="n">apps</span> <span class="o">=</span> <span class="no">Dir</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s1">'/Applications/*.app'</span><span class="p">)</span>
+</span><span class="line"><span class="n">apps</span><span class="o">.</span><span class="n">map!</span> <span class="p">{</span><span class="o">|</span><span class="n">app</span><span class="o">|</span>
+</span><span class="line">  <span class="n">basename</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">app</span><span class="p">,</span><span class="s1">'.app'</span><span class="p">)</span>
+</span><span class="line">  <span class="c1"># Setapp disallows version numbers in app names. Strip them from</span>
+</span><span class="line">  <span class="c1"># /Application apps for consistency in matching</span>
+</span><span class="line">  <span class="n">basename</span><span class="o">.</span><span class="n">sub!</span><span class="p">(</span><span class="sr">/\s*\d+$/</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span>
+</span><span class="line">  <span class="n">basename</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="n">setapp_apps</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">uniq</span><span class="o">.</span><span class="n">each</span> <span class="p">{</span><span class="o">|</span><span class="n">app</span><span class="o">|</span>
+</span><span class="line">  <span class="k">if</span> <span class="n">apps</span><span class="o">.</span><span class="n">include?</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
+</span><span class="line">    <span class="c1"># App is on Setapp</span>
+</span><span class="line">    <span class="n">out</span> <span class="o">=</span> <span class="s2">&quot;Setapp has: </span><span class="si">#{</span><span class="n">app</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class="line">    <span class="k">if</span> <span class="n">installed_setapp_apps</span><span class="o">.</span><span class="n">include?</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
+</span><span class="line">      <span class="c1"># Setapp version is installed (or at least proxied)</span>
+</span><span class="line">      <span class="n">out</span> <span class="o">+=</span> <span class="s2">&quot; (Installed)&quot;</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">    <span class="vg">$stdout</span><span class="o">.</span><span class="n">puts</span> <span class="n">out</span>
+</span><span class="line">  <span class="k">end</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></div>
+</figure>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232635971412616" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F04%2Ffind-which-of-your-favorite-apps-are-on-setapp-revisited%2F&amp;text=Find+which+of+your+favorite+apps+are+on+Setapp%2C+revisited&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F04%2F04%2Ffind-which-of-your-favorite-apps-are-on-setapp-revisited%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16056931.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-04-04T16:58:00-05:00</pubDate>
+</item>
+<item>
+<title>Curio 25 with Smart Collections [Sponsor]</title>
+<link>https://brett.trpstra.net/link/535/16026152/curio-25-with-smart-collections</link>
+<guid>https://brett.trpstra.net/link/535/16026152/curio-25-with-smart-collections</guid>
+<content:encoded><![CDATA[
+<p>Thanks to Curio for sponsoring BrettTerpstra.com this week!</p>
+
+<p><a href="https://zengobi.com" rel="nofollow">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Curio Screenshot" class="aligncenter" height="340" src="https://cdn3.brettterpstra.com/uploads/2023/03/curio25.jpg" title="Curio Screenshot" width="800" />
+              </noscript>
+            </a></p>
+
+<p>What if your digital notebook allowed you to create at-a-glance dashboards and checklists using queries to pull in and consolidate information from all across your project into lists, mind maps, or Kanban collections?</p>
+
+<p>We call them <em>Smart Collections</em> and that’s what we’re introducing in <a href="https://zengobi.com" rel="nofollow">Curio 25 Professional</a>, the latest release of our flagship note-taking and brainstorming app for macOS.</p>
+
+<p>Create a new list, mind map, or Kanban stack then specify a query expression. Immediately it will dynamically fill itself with matching figures from across your notebook. A query can be as simple as <code class="language-plaintext highlighter-rouge">starts soon</code> or <code class="language-plaintext highlighter-rouge">#remind</code> or as sophisticated as <code class="language-plaintext highlighter-rouge">(@george priority&gt;4) or due&lt;2w or #active group:priority</code>.</p>
+
+<p>Even better, these dynamic collections contain <em>live</em> instances of the original figures. Edit an item’s text or change dates, tags, or other meta attributes, and those changes are instantly reflected back to the original figures.</p>
+
+<p>In addition to <em>Smart Collections</em>, Curio 25’s Search shelf has been completely overhauled to support this powerful query language. And the query language itself, also used by Curio’s instant <em>Quick Find</em> feature, has been greatly extended with even more functionality to help you find exactly what you’re looking for.</p>
+
+<p><a href="https://zengobi.com" rel="nofollow">Curio</a>, first introduced almost 20 years ago, is the most advanced notebook application for note-taking, brainstorming, and research. It provides all the tools and functionality you need to be more productive and get stuff done.</p>
+
+<p>New traditional license purchasers can save 20% using the code <code class="language-plaintext highlighter-rouge">TERPSTRA</code>. <a href="https://zengobi.com" rel="nofollow">Visit zengobi.com to learn more today!</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232635941767460" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F16%2Fcurio-25-with-smart-collections%2F&amp;text=Curio+25+with+Smart+Collections+%5BSponsor%5D&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F16%2Fcurio-25-with-smart-collections%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16026152.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-03-16T08:00:00-05:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for March 14, 2023</title>
+<link>https://brett.trpstra.net/link/535/16023155/web-excursions-for-march-14-2023</link>
+<guid>https://brett.trpstra.net/link/535/16023155/web-excursions-for-march-14-2023</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with <a href="https://macpaw.7eer.net/c/228914/82479/1733">CleanMyMac X</a>, all the tools to speed up your Mac, in one app.</p>
+
+<dl>
+  <dt><a href="https://www.swiftgpt.app/">swiftGPT.app - The native macOS app for ChatGPT</a></dt>
+  <dd>I’ve tried a few of these, and this one is my favorite for a native chat-like experience for ChatGPT on macOS. Includes cost tracking and chat history.</dd>
+  <dt><a href="https://github.com/di-sukharev/opencommit">di-sukharev/opencommit</a></dt>
+  <dd>GPT CLI to auto-generate impressive commits in 1 second. My commit messages are pretty specifically geared toward auto-generating changelogs, but for non-changelog commits, this is pretty cool</dd>
+  <dt><a href="https://modernfontstacks.com/">Modern Font Stacks</a></dt>
+  <dd>
+    <blockquote>
+      <p>System font stack CSS organized by typeface classification for every modern OS. The fastest fonts available. No downloading, no layout shifts, no flashes — just instant renders.</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://chrome.google.com/webstore/detail/inline/aifjpngbegpnahbmnajckckddcgfnodk?hl=en&amp;authuser=0&amp;ref=producthunt">Inline</a></dt>
+  <dd>See a web page with a font style you want to steal? Here’s the Chrome extension to do it…</dd>
+  <dt><a href="https://mottle.com/">Mottle: Build your own chatbot using just a .txt file</a></dt>
+  <dd>I want to make an “Ask Brett” chatbot by uploading the entire contents of BrettTerpstra.com to this service.</dd>
+</dl>
+
+<p><a href="https://brettterpstra.com///macpaw.7eer.net/c/228914/82479/1733"><img alt="CleanMyMac X" border="0" height="90" src="https://brettterpstra.com///a.impactradius-go.com/display-ad/1733-82479" width="728" /></a><img border="0" height="0" src="https://brettterpstra.com///macpaw.7eer.net/i/228914/82479/1733" width="0" /></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/110232635909757101" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F14%2Fweb-excursions-for-march-14-2023%2F&amp;text=Web+Excursions+for+March+14%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F14%2Fweb-excursions-for-march-14-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16023155.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-03-14T12:37:00-05:00</pubDate>
+</item>
+<item>
+<title>Howzit with named variables</title>
+<link>https://brett.trpstra.net/link/535/16008829/howzit-with-named-variables</link>
+<guid>https://brett.trpstra.net/link/535/16008829/howzit-with-named-variables</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Howzit Banner" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/03/howzitdeploy2-rb.jpg" title="Howzit Banner" width="800" />
+              </noscript>
+            
+
+<p>I had a sleepless morning and decided to flesh out a <a href="https://brettterpstra.com/projects/howzit/" title="howzit">Howzit</a> feature I’ve been meaning to get around to. In case you’ve missed it, Howzit is my “Markdown makefile” tool that allows you to keep track of project notes, specs, and scripts in a convenient Markdown file that can be searched and neatly displayed, and can contain directives to execute project-related commands conveniently.</p>
+
+<p>As of version 2.1.0, you can now define and name positional variables when creating a topic in your build notes. For example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code># My Project
+
+## First Topic (var1, var2)
+
+@run(cp "${var1}" "${var2}")</code></pre></div></div>
+
+<!--more-->
+
+<h3 id="defining-named-variables">Defining Named Variables</h3>
+
+<p>As you can see above, you define the names in parenthesis after the topic title, and can then refer to them using <code class="language-plaintext highlighter-rouge">${NAME}</code>. Then you can call <code class="language-plaintext highlighter-rouge">howzit -r First Topic -- "changelog.md" "wiki/changelog.md"</code> (arguments are passed after <code class="language-plaintext highlighter-rouge">--</code>, everything before that is a topic search string). Stupid example as it would take longer to type that out than a simple copy command is worth, but it’s very handy in larger scripts.</p>
+
+<h3 id="using-with-include">Using With @include()</h3>
+
+<p>Variables can be passed between topics when using <code class="language-plaintext highlighter-rouge">@include()</code> directives by adding square brackets at the end of the include topic title. So if I were going to call the above example from within another topic, I would use <code class="language-plaintext highlighter-rouge">@include(First Topic [file1, file2])</code>. Arguments are separated by commas. You can also use variables within the square brackets, so if the parent topic had already defined a variable (or set it in front matter), you could use <code class="language-plaintext highlighter-rouge">@include(First Topic [${myvar1}, ${myvar2}])</code>.</p>
+
+<p>This is a change in behavior. Before arguments were only positional, and if the command line contained one or more arguments, they would be <code class="language-plaintext highlighter-rouge">$1</code>, <code class="language-plaintext highlighter-rouge">$2</code>, etc. for every topic. This new method allows a parent topic to take specific arguments and provide them as needed to included subtopics in the order that the included topic requires.</p>
+
+<p>A big thing that this allows is the creation of reusable topics that perform a specific function which can be included by multiple parent topics. Changing the parameters of the <code class="language-plaintext highlighter-rouge">@include</code> directive within the parent topic will change the behavior of the nested snippet.</p>
+
+<h3 id="providing-default-values-optional-arguments">Providing Default Values (Optional Arguments)</h3>
+
+<p>You can add default values to any variable, making it optional, with <code class="language-plaintext highlighter-rouge">var_name:DEFAULT VALUE</code>. This works when defining variables in topic titles, e.g. <code class="language-plaintext highlighter-rouge">## TITLE (var1:changelog.md)</code>, or in a placeholder, e.g. <code class="language-plaintext highlighter-rouge">${var1:changelog.md}</code>. The value after the colon can contain spaces, but there should be no spaces around the colon.</p>
+
+<p>By the way, if you <a href="https://github.com/ttscoff/howzit/wiki/Templates-and-metadata">define metadata</a> at the top of a build note, you would usually access the values with the <code class="language-plaintext highlighter-rouge">[%key_name]</code> syntax. Metadata values also become available as variables with the <code class="language-plaintext highlighter-rouge">${key_name}</code> syntax and are populated before any command line arguments, so if they have the same name as a variable, they’ll serve as fallbacks if no argument is given (but only when using the <code class="language-plaintext highlighter-rouge">${key_name}</code> syntax; command line arguments have no effect on the <code class="language-plaintext highlighter-rouge">[%key_name]</code> template rendering).</p>
+
+<p>I detailed all of this <a href="https://github.com/ttscoff/howzit/wiki/Variables">on the wiki</a> as well. Enjoy!</p>
+
+<p>If you’ve already installed, just use <code class="language-plaintext highlighter-rouge">gem update howzit</code> (or <code class="language-plaintext highlighter-rouge">brew gem update howzit</code> if you’re using Homebrew’s brew-gem). If you haven’t started yet, <a href="https://brettterpstra.com/projects/howzit/" title="howzit">check the project page</a>, or the <a href="https://github.com/ttscoff/howzit/wiki/Getting-Started">Getting Started</a> wiki page for installation instructions.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F07%2Fhowzit-with-named-variables%2F&amp;text=Howzit+with+named+variables&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F07%2Fhowzit-with-named-variables%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16008829.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-03-07T11:32:00-06:00</pubDate>
+</item>
+<item>
+<title>Web Excursions for March 06, 2023</title>
+<link>https://brett.trpstra.net/link/535/16007176/web-excursions-for-march-06-2023</link>
+<guid>https://brett.trpstra.net/link/535/16007176/web-excursions-for-march-06-2023</guid>
+<content:encoded><![CDATA[
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with Setapp. <a href="https://go.setapp.com/stp44">Get access to hundreds of Mac and iOS apps for one low monthly subscription fee.</a></p>
+
+<p>This roundup got a little ChatGPT heavy, but with the release of the API
+on March 1st and the promise of a free-to-use version moving forward,
+seems like a good time to start exploring integrations.</p>
+
+<dl>
+  <dt><a href="https://github.com/shapehq/slack-chatgpt">shapehq/slack-chatgpt</a></dt>
+  <dd>Integrate ChatGPT into Slack using Cloudflare Workers. Nice proof of concept, and totally usable.</dd>
+  <dt><a href="https://scribblediffusion.com/">Scribble Diffusion</a></dt>
+  <dd>Turn your sketch into a refined image using AI. This is actually a really cool way to generate very specific AI images, using a rough sketch and a short description to get results closer to what I’m imagining (I’m not great at prompts). Fast sketch-to-image render times, too.</dd>
+  <dt><a href="https://www.macstadium.com/blog/first-look-mac-mini-with-m2-pro">First look: Mac mini with M2 Pro</a></dt>
+  <dd>MacStadium’s Brian Stucki gives a first look at (and teardown of) the Mac mini with M2 Pro.</dd>
+  <dt><a href="https://folivora.ai/blog/post/13300">Using ChatGPT with BetterTouchTool</a></dt>
+  <dd>Andreas offers some ways to integrate ChatGPT and OpenAI into your system using BetterTouchTool. I swear that app can do anything.</dd>
+  <dt><a href="https://forums.getdrafts.com/t/chatgpt-conversation-action/14042">Drafts ChatGPT Conversation Action</a></dt>
+  <dd>Use ChatGPT in Drafts.</dd>
+</dl>
+
+<p><a href="https://go.setapp.com/stp44">Check out Setapp</a> today and get access to the best Mac and iOS apps out there.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F06%2Fweb-excursions-for-march-06-2023%2F&amp;text=Web+Excursions+for+March+06%2C+2023&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F03%2F06%2Fweb-excursions-for-march-06-2023%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16007176.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-03-06T14:56:00-06:00</pubDate>
+</item>
+</channel>
+</rss>
