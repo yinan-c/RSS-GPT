@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Timing -- automatic time tracking for Mac AND iOS [Sponsor]</title>
 <link>https://brett.trpstra.net/link/535/16338321/timing-automatic-time-tracking-for-mac-and-ios-sponsor</link>
 <guid>https://brett.trpstra.net/link/535/16338321/timing-automatic-time-tracking-for-mac-and-ios-sponsor</guid>
 <content:encoded><![CDATA[
 <div> Timing, time tracking, app, automatic, productivity
-<br><br>总结:
+<br /><br />总结:
 这篇文章介绍了Timing这款时间追踪应用的各种功能和优势。Timing能自动追踪用户使用的应用、文档和网站的时间，并且可以自动分类。它还可以导入iPhone和iPad的使用记录，显示完整的设备使用情况。此外，Timing还可以导入iPhone的电话记录和日历中的会议，确保所有时间都得到记录。该应用具有可选和可配置的功能，帮助用户更好地了解自己的时间去向，而且维护成本较低。总的来说，Timing帮助用户更好地管理时间，提高生产力。 <div>
 <p>Thanks to Timing for sponsoring BrettTerpstra.com this week! I’ve loved Timing for years, and the new vertical timeline view is an awesome upgrade to one of my most-used apps.</p>
 
@@ -54,7 +55,6 @@ Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16338321.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-09-07T08:00:00-05:00</pubDate>
-<updated>2023-09-07T08:00:00-05:00</updated>
 </item>
 <item>
 <title>Important Journal CLI updates</title>
@@ -63,7 +63,7 @@ Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the
 <content:encoded><![CDATA[
 <div> 关键词：更新，数据格式，点语法，键重复，自定义文件夹
 
-总结：<br><br>更新了数据格式，修复了键重复时的问题，现在会将重复的键与父键合并而不是嵌套。还添加了自定义文件夹的选项，可以为每个日志定义不同的保存位置。这些改进增加了工具的实用性，对数据格式的更改在早期进行会更好。请参阅文档了解更多详情。 <div>
+总结：<br /><br />更新了数据格式，修复了键重复时的问题，现在会将重复的键与父键合并而不是嵌套。还添加了自定义文件夹的选项，可以为每个日志定义不同的保存位置。这些改进增加了工具的实用性，对数据格式的更改在早期进行会更好。请参阅文档了解更多详情。 <div>
 <p>Just a couple quick updates to the <a href="https://brettterpstra.com/projects/journal-cli/">Journal CLI</a> I <a href="https://brettterpstra.com/2023/09/06/journal-a-cli-for-journaling/">published yesterday</a> that I wanted everyone who was trying it out to know about before they have too much data in it.</p>
 
 <p>First, if keys were nested using dot syntax, e.g. <code class="language-plaintext highlighter-rouge">health.rating</code> and <code class="language-plaintext highlighter-rouge">health.sleep</code>, it would create a hash like:</p>
@@ -90,9 +90,7 @@ Or <a href="https://timingapp.com/brett2023" rel="nofollow"><strong>download the
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16338322.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-09-07T08:00:00-05:00</pubDate>
-<updated>2023-09-07T08:00:00-05:00</updated>
 </item>
-
 <item>
 <title>Journal, a CLI for journaling</title>
 <link>https://brett.trpstra.net/link/535/16334303/journal-a-cli-for-journaling</link>
