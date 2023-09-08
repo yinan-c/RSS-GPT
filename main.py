@@ -119,7 +119,7 @@ def gpt_summary(query,model,language):
     else:
         messages = [
             {"role": "user", "content": query},
-            {"role": f"assistant", "content": f"Please summarize this article in English, first extract {keyword_length} keywords, output them in the same line like 'keyword1, keyword2, keyword3 ...'. Then write a short summary in {summary_length} words, including all the key points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and it must be before the word 'Summary:', then translate keywords and summary into {language}, keeping the same HTML format"}
+            {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output them in the same line like 'keyword1, keyword2, keyword3 ...'. Then write a short summary in {summary_length} words, and output in the following format '<br><br>Summary:' in target language {language} , <br> is the line break of HTML, 2 must be retained when output, and it must be before the word 'Summary:'"}
         ]
     chat = ChatCompletion.create(
         model=model,
