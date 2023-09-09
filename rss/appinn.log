@@ -229,3 +229,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-09 02:10:07.839223
+------------------------------------------------------
+Started: 2023-09-09 04:04:30.166757
+Existing_entries: 79
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [[0.8 深色模式优化] [Firefox / Chrome 附加元件] 烟·红 | 在新标签页看你的 RSS 订阅](https://meta.appinn.net/t/topic/39632)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-09-09 04:04:33.554901
