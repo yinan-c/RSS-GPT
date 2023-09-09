@@ -137,3 +137,12 @@ Existing_entries: 23
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-09 00:24:26.879558
+------------------------------------------------------
+Started: 2023-09-09 02:09:43.140938
+Existing_entries: 23
+Fetching from https://www.ifanr.com/feed
+Append: [早报｜华为 Mate60 Pro+ 开售 / 李彦宏马斯克上榜全球百大 AI 人物 / iPhone 15 全系机模上手 | 未来周报](https://www.ifanr.com/1561580?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 5960
+Summarized using GPT-3.5-turbo-16k
+append_entries: 1
+Finish: 2023-09-09 02:10:02.258420
