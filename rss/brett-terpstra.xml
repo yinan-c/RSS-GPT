@@ -4,6 +4,91 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>More na updates</title>
+<link>https://brett.trpstra.net/link/535/16340947/more-na-updates</link>
+<guid>https://brett.trpstra.net/link/535/16340947/more-na-updates</guid>
+<content:encoded><![CDATA[
+<div> 命令行工具，主题，颜色，搜索和替换，命令修改
+新增功能：全局选项，标签命令，保存查询，编辑todos数据库，主题文件修改颜色，撤销操作，搜索和替换命令
+优化改进：显示长宽度的动作，显示注释，添加项目选项，删除保存搜索，输入请求重构，通配符处理，错误消息优化，标签处理，移动到特定项目，恢复操作，显示受影响的动作等
+修复问题：颜色问题，新建项目错误，未写入last_modified.txt错误，空指针错误，日期标签搜索错误，模板问题，环境变量错误，无色代码问题，转义搜索标记问题
+
+Summary:
+本文介绍了一个名为"na"的命令行工具的最新版本和更新内容。新增功能包括主题设置、标签命令、保存查询、编辑todos数据库、撤销操作、搜索和替换命令等。通过设置主题文件，用户可以控制动作的颜色输出。此外，还有一些优化改进，如显示长宽度的动作、显示注释、添加项目选项、删除保存的搜索等。同时，还修复了一些问题，如颜色问题、新建项目错误、空指针错误等。该命令行工具提供了一种方便的方式来读取和修改项目中的TaskPaper文件。 <div>
+<p>I’ve put some more time into both <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">Journal</a> and <code class="language-plaintext highlighter-rouge">na</code>. The latest version of <code class="language-plaintext highlighter-rouge">na</code> represents quite a few hours of tinkering. See the <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com">na project page</a> for full details. In case you’ve missed in previously, <code class="language-plaintext highlighter-rouge">na</code> is my command line tool for reading and modifying TaskPaper files in your projects.</p>
+
+<p>I think the biggest thing I’ve added is theming. You can now control the colorized output of your actions using a file at <code class="language-plaintext highlighter-rouge">~/.local/share/na/theme.yaml</code>. That file is automatically written by na if it runs and it doesn’t exist, and once it’s there, it should be pretty self explanatory. You can use <code class="language-plaintext highlighter-rouge">{y}</code> type placeholders (that would make the following text yellow, a full list of color abbreviations is at the top of the file), and you can also use <code class="language-plaintext highlighter-rouge">{#RGB}</code> and <code class="language-plaintext highlighter-rouge">{#RRGGBB}</code> codes to get specific colors outside of the usual ANSI coloring.</p>
+
+<p>I’ve added new commands like <code class="language-plaintext highlighter-rouge">tag</code> (see <code class="language-plaintext highlighter-rouge">na help tag</code>), and a new <code class="language-plaintext highlighter-rouge">--restore</code> option to several commands for removing the @done tag from actions. There’s also a <code class="language-plaintext highlighter-rouge">--replace</code> flag you can tie into <code class="language-plaintext highlighter-rouge">na update --search SEARCH_STRING --replace REPLACE_STRING</code> to perform (wildcard-compatible) search and replace. Add <code class="language-plaintext highlighter-rouge">--regex</code> to do a regex search and replace.</p>
+
+<p>There’s a bunch of other new stuff, so I’ll just post the collected changelog.</p>
+
+<h4 id="new">NEW</h4>
+
+<ul>
+  <li>Global option <code class="language-plaintext highlighter-rouge">--include_ext</code> can be configured to use full extension when displaying filenames, allowing for command-clicking to open in compatible terminals</li>
+  <li>Tag command</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">--save NAME</code> to <code class="language-plaintext highlighter-rouge">na next</code> to save more complex queries and run with <code class="language-plaintext highlighter-rouge">na saved NAME</code> (or just <code class="language-plaintext highlighter-rouge">na NAME</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">na saved --select</code> flag to allow interactive selection of search(es)</li>
+  <li>Open the todos database in an editor with <code class="language-plaintext highlighter-rouge">na todos --edit</code></li>
+  <li>A theme file is written to ~/.local/share/na/theme.yaml where you can modify the colors used for all displays</li>
+  <li>Allow TAG=~PATTERN comparison for regex matching in <code class="language-plaintext highlighter-rouge">na tagged</code></li>
+  <li><code class="language-plaintext highlighter-rouge">na undo</code> command to undo last change or last change to file specified in arguments</li>
+  <li><code class="language-plaintext highlighter-rouge">na update --search OLD_TEXT --replace NEW_TEXT</code> (added –replace)</li>
+</ul>
+
+<h4 id="improved">IMPROVED</h4>
+
+<ul>
+  <li>When displaying actions wider than the screen, wrap at words and indent 2 spaces from start of action (after prefix)</li>
+  <li>When not showing notes, add an asterisk at the end of an action</li>
+  <li>When showing notes, indent to the beginning of the action</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">--project</code> to archive, complete, and update to move a modified action to a new project when saving</li>
+  <li>Allow <code class="language-plaintext highlighter-rouge">na saved --delete</code> to handle multiple arguments</li>
+  <li>Allow wildcards when deleting saved searches</li>
+  <li>Refactor request for input, no change to user experience</li>
+  <li>Refined wildcard (?*) handling</li>
+  <li>Better error message for <code class="language-plaintext highlighter-rouge">na next</code> when no todo is matched</li>
+  <li>If STDOUT isn’t a TTY, don’t enable pagination, regardless of global setting</li>
+  <li>Disable pagination when using –omnifocus</li>
+  <li>Allow –find or –grep as synonyms for –search</li>
+  <li><code class="language-plaintext highlighter-rouge">--in TODO</code> option for <code class="language-plaintext highlighter-rouge">na complete</code></li>
+  <li>If a search string contains @tags and –exact or –regex isn’t specified, the @tags will be extracted and passed as a –tagged search.</li>
+  <li>Tag handling (including values and comparisons) in tags extracted from search strings</li>
+  <li><code class="language-plaintext highlighter-rouge">na complete --project PROJ</code> flag to move to a specific project</li>
+  <li><code class="language-plaintext highlighter-rouge">na restore --project PROJ</code> flag to move restored action to</li>
+  <li>Exit gracefully if tagged command is run with invalid arguments</li>
+  <li>Display action affected when using update command</li>
+</ul>
+
+<h4 id="fixed">FIXED</h4>
+
+<ul>
+  <li>Change default :dirname coloring to fix an occasional highlighting issue</li>
+  <li>Error when creating new project in todo file</li>
+  <li>Error when last_modified.txt hasn’t been written yet</li>
+  <li>Nil error in action.pretty</li>
+  <li>Date tags containing hyphens triggered OR searches because they were initially interpreted as negative tag searches</li>
+  <li>Templating irregularities</li>
+  <li>Error thrown when running without $EDITOR variable defined in environment</li>
+  <li>New project not being added when requested</li>
+  <li>Error when <code class="language-plaintext highlighter-rouge">na add --to PROJECT</code> was a project that didn’t exist</li>
+  <li><code class="language-plaintext highlighter-rouge">--no-color</code> wasn’t stripping templated hex codes</li>
+  <li>Escape search for tokens to allow parenthesis and other reserved characters</li>
+</ul>
+
+<p>More details <a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com">on the project page</a>!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F09%2Fmore-na-updates%2F&amp;text=More+na+updates&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F09%2Fmore-na-updates%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16340947.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-09T09:00:00-05:00</pubDate>
+<updated>2023-09-09T09:00:00-05:00</updated>
+</item>
 
 <item>
 <title>Timing -- automatic time tracking for Mac AND iOS [Sponsor]</title>
