@@ -254,3 +254,12 @@ Existing_entries: 26
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-10 12:08:03.330557
+------------------------------------------------------
+Started: 2023-09-10 14:01:49.294223
+Existing_entries: 26
+Fetching from https://www.ifanr.com/feed
+Append: [小米汽车被曝已开始生产，我们找到了小米造车现成的参考](https://www.ifanr.com/1560534?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 3774
+Summarized using GPT-3.5-turbo-16k
+append_entries: 1
+Finish: 2023-09-10 14:02:04.161924
