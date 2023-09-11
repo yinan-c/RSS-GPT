@@ -37,6 +37,6 @@
 
 也可以参考更详细的[中文教程](https://yinan.me/rss-gpt-manual-zh.html), 
 
-本项目有自托管的订阅源在我的 GitHub Pages 以及 在本项目 rss/ 文件夹内，欢迎订阅。
+本项目有自托管的订阅源在我的 [GitHub Pages](https://yinan.me/RSS-GPT/rss/) 以及 在本项目 rss/ 文件夹内，欢迎订阅。
 如果有任何问题或有关于 rss feeds 的建议，欢迎邮件联系我。
 如果你觉得本项目有帮助，欢迎 star。
