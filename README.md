@@ -1,7 +1,7 @@
 # RSS-GPT
 
 [![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/cron-job.yml?label=cron-job)](https://github.com/yinan-c/RSS-GPT/actions/workflows/cron-job.yml)
-[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/jekyll-gh-pages.yml?label=GitHub%20pages)](https://github.com/yinan-c/RSS-GPT/actions/workflows/jekyll-gh-pages.yml)
+[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/jekyll-gh-pages.yml?label=GitHub%20Pages)](https://github.com/yinan-c/RSS-GPT/actions/workflows/jekyll-gh-pages.yml)
 
 
 [Get started](https://yinan.me/RSS-GPT-manual-en.html) | [中文教程](https://yinan.me/RSS-GPT-manual-zh.html) | [中文介绍](README-zh.md)
@@ -23,7 +23,7 @@
     - WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope
     - OPENAI_API_KEY: your OpenAI API key, get it from [here](https://platform.openai.com/account/api-keys)
 
-- Enable GitHub Actions to access Pages in repo settings
+- Enable GitHub Actions to deploy GitHub Pages in repo settings
 
 - Configure your RSS feeds in config.ini
 
