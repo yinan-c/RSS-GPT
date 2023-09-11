@@ -294,7 +294,7 @@ with open(os.path.join(BASE, 'index.html'), 'w') as f:
 
 f = open(readme, "r+", encoding="UTF-8")
 list1 = f.readlines()
-list1= list1[:30] + links
+list1= list1[:32] + links
 
 f = open(readme, "w+", encoding="UTF-8")
 f.writelines(list1)
