@@ -1,6 +1,10 @@
 # RSS-GPT
 
-[中文](README-zh.md)
+[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/cron-job.yml?label=cron-job)](https://github.com/yinan-c/RSS-GPT/actions/workflows/cron-job.yml)
+[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/jekyll-gh-pages.yml?label=GitHub%20pages)](https://github.com/yinan-c/RSS-GPT/actions/workflows/jekyll-gh-pages.yml)
+
+
+[Get started](https://yinan.me/RSS-GPT-manual-en.html) | [中文教程](https://yinan.me/RSS-GPT-manual-zh.html) | [中文介绍](README-zh.md)
 
 ## Features
 - Host your own RSS feeds on GitHub repo and GitHub Pages.
@@ -22,7 +26,6 @@
 - Enable GitHub Actions to access Pages in repo settings
 
 - Configure your RSS feeds in config.ini
-There is a step-by-step [manual](https://yinan.me/RSS-GPT-manual-en/).
 
 - Change the links in 'main.py' to your own GitHub pages.
 

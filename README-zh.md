@@ -1,6 +1,9 @@
 # RSS-GPT
 
-[English](README.md)
+[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/cron-job.yml?label=cron-job)](https://github.com/yinan-c/RSS-GPT/actions/workflows/cron_job.yml)
+[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/jekyll-gh-pages.yml?label=GitHub%20pages)](https://github.com/yinan-c/RSS-GPT/actions/workflow/jekyll-gh-pages.yml)
+
+[中文教程](https://yinan.me/RSS-GPT-manual-zh.html) | [中文介绍](https://yinan.me/rss-gpt.html)
 
 ## 功能
 
@@ -32,4 +35,4 @@
 
 - 把'main.py'中的链接改成你自己的GitHub Pages链接。
 
-也可以参考更详细的[教程](https://yinan.me/RSS-GPT-manual-zh/)。
+也可以参考更详细的[中文教程](https://yinan.me/RSS-GPT-manual-zh/)。
