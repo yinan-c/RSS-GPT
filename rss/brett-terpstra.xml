@@ -4,12 +4,13 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Journal and integrations</title>
 <link>https://brett.trpstra.net/link/535/16342944/journal-and-integrations</link>
 <guid>https://brett.trpstra.net/link/535/16342944/journal-and-integrations</guid>
 <content:encoded><![CDATA[
-<div> 功能增强, 日期类型, 字典类型, 集成应用, Obsidian<br><br>总结: 本文介绍了对 Journal CLI 的功能进行的改进，新增了日期类型和字典类型，方便记录和管理数据。同时，还增加了与应用程序（如 Obsidian）的集成能力，可以将数字和日期作为 YAML 元数据存储在 Markdown 文件中，方便使用其他工具分析和处理数据。 <div>
+<div> 功能增强, 日期类型, 字典类型, 集成应用, Obsidian<br /><br />总结: 本文介绍了对 Journal CLI 的功能进行的改进，新增了日期类型和字典类型，方便记录和管理数据。同时，还增加了与应用程序（如 Obsidian）的集成能力，可以将数字和日期作为 YAML 元数据存储在 Markdown 文件中，方便使用其他工具分析和处理数据。 <div>
 <p>I’ve made some changes to <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">Journal</a> (I didn’t mess with the data format this time) that add some functionality and will maybe help with integrating with some apps like Obisidian.</p>
 
 <p>First, you can now define a <code class="language-plaintext highlighter-rouge">date</code> type. Date entries will be parsed from natural language into date objects, so on the command line you can enter something like “yesterday 5pm” or “july 20 12pm” and get a proper date object added to your JSON and Markdown entries. Great for things like logging book review dates, workout days, etc.</p>
@@ -61,9 +62,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16342944.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-09-11T11:10:00-05:00</pubDate>
-<updated>2023-09-11T11:10:00-05:00</updated>
 </item>
-
 <item>
 <title>More na updates</title>
 <link>https://brett.trpstra.net/link/535/16340947/more-na-updates</link>
