@@ -4,6 +4,65 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Journal and integrations</title>
+<link>https://brett.trpstra.net/link/535/16342944/journal-and-integrations</link>
+<guid>https://brett.trpstra.net/link/535/16342944/journal-and-integrations</guid>
+<content:encoded><![CDATA[
+<div> 功能增强, 日期类型, 字典类型, 集成应用, Obsidian<br><br>总结: 本文介绍了对 Journal CLI 的功能进行的改进，新增了日期类型和字典类型，方便记录和管理数据。同时，还增加了与应用程序（如 Obsidian）的集成能力，可以将数字和日期作为 YAML 元数据存储在 Markdown 文件中，方便使用其他工具分析和处理数据。 <div>
+<p>I’ve made some changes to <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">Journal</a> (I didn’t mess with the data format this time) that add some functionality and will maybe help with integrating with some apps like Obisidian.</p>
+
+<p>First, you can now define a <code class="language-plaintext highlighter-rouge">date</code> type. Date entries will be parsed from natural language into date objects, so on the command line you can enter something like “yesterday 5pm” or “july 20 12pm” and get a proper date object added to your JSON and Markdown entries. Great for things like logging book review dates, workout days, etc.</p>
+
+<p>You can also now define a <code class="language-plaintext highlighter-rouge">dictionary</code> type for a question, which along with a <code class="language-plaintext highlighter-rouge">key</code> definition creates a nested data set with any dot notation keys that match. So you can define the following:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="na">mood</span><span class="pi">:</span>
+  <span class="na">sections</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Status"</span>
+    <span class="na">key</span><span class="pi">:</span> <span class="s">status</span>
+    <span class="na">questions</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">key</span><span class="pi">:</span> <span class="s">health</span>
+        <span class="na">type</span><span class="pi">:</span> <span class="s">dictionary</span>
+      <span class="pi">-</span> <span class="na">key</span><span class="pi">:</span> <span class="s">health.rating</span>
+        <span class="na">type</span><span class="pi">:</span> <span class="s">numeric</span>
+        <span class="na">prompt</span><span class="pi">:</span> <span class="s">Health Rating</span>
+        <span class="na">min</span><span class="pi">:</span> <span class="m">1</span>
+        <span class="na">max</span><span class="pi">:</span> <span class="m">10</span>
+      <span class="pi">-</span> <span class="na">key</span><span class="pi">:</span> <span class="s">health.notes</span>
+  <span class="na">    type</span><span class="pi">:</span> <span class="s">multiline</span>
+        <span class="s">prompt</span><span class="err">:</span> <span class="s">Health Notes</span></code></pre></div></div>
+
+<p>The data that gets output will include this format in the JSON:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"mood"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"status"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"health"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"rating"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"notes"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Just some notes on my health"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This allows for more control over the structured data. It won’t be a big deal for most people as answers were already nested within section keys and could be grouped using dot syntax, this just allows the structure to go one level deeper which may help with building analytics tools.</p>
+
+<p>The big change that will allow more integrations with apps like Obsidian is that all numeric and date answers are now included as YAML front matter in any individual Markdown files created. This will allow integration with existing tools like <a href="https://github.com/blacksmithgu/obsidian-dataview">Obsidian Dataview</a>, which allows you to create data views based on YAML data in your Obsidian notes. By pointing Journal to your Vault folder, you can have journal entries added to your vault and queryable with Dataview. I haven’t tested this, I just noted that it should be possible with the addition of the YAML data. For the time being I’m not including any string responses in the YAML, as that seems redundant since they’re also included in the body text and available to search.</p>
+
+<p>This update won’t affect data saved to single Markdown files or added to Day One. If you have any ideas about how this could be made more useful, please let me know! Either via the <a href="https://github.com/ttscoff/journal-cli/discussions">Discussions</a> or by <a href="https://brettterpstra.com/contact/">contacting me directly</a>.</p>
+
+<p>Version 1.0.19 is out now, just install or upgrade with <code class="language-plaintext highlighter-rouge">gem install journal-cli</code>. See the <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">project page</a> for more details.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111047431140034725" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F11%2Fjournal-and-integrations%2F&amp;text=Journal+and+integrations&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F11%2Fjournal-and-integrations%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16342944.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-11T11:10:00-05:00</pubDate>
+<updated>2023-09-11T11:10:00-05:00</updated>
+</item>
 
 <item>
 <title>More na updates</title>
