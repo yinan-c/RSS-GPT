@@ -286,7 +286,7 @@ with open(os.path.join(BASE, 'index.html'), 'w') as f:
         output(x, language=language)
         feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
         feeds.append(feed)
-        links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan.me/RSS-GPT/rss/" + feed['name'] + ".xml\n")
+        links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan-c.github.io/RSS-GPT/rss/" + feed['name'] + ".xml\n")
 
     template = Template(open('template.html').read())
     html = template.render(update_time=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), feeds=feeds)
