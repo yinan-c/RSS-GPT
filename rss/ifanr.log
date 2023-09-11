@@ -296,3 +296,12 @@ Existing_entries: 28
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-11 00:26:05.104444
+------------------------------------------------------
+Started: 2023-09-11 02:13:40.657790
+Existing_entries: 28
+Fetching from https://www.ifanr.com/feed
+Append: [早报 | 消息称华为计划全面回归全球手机市场 / iPhone15 系列重量曝光 / 俞敏洪就「切片带货」事件致歉](https://www.ifanr.com/1561710?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 5822
+Summarized using GPT-3.5-turbo-16k
+append_entries: 1
+Finish: 2023-09-11 02:14:04.111416
