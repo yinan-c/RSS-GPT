@@ -14,23 +14,22 @@
 
 ## 配置
 
-### 1. Fork这个仓库
+- Fork这个仓库
 
-### 2. 添加仓库Secrets
+- 添加仓库Secrets
 
-- U_NAME: 你的GitHub用户名
+    - U_NAME: 你的GitHub用户名
 
-- U_EMAIL: 你的GitHub邮箱
+    - U_EMAIL: 你的GitHub邮箱
 
-- WORK_TOKEN: 你的GitHub个人访问令牌,需要有`repo`和`workflow`权限
+    - WORK_TOKEN: 你的GitHub个人访问令牌,需要有`repo`和`workflow`权限
 
-- OPENAI_API_KEY: 你的OpenAI API密钥,在[这里](https://platform.openai.com/account/api-keys)获取
+    - OPENAI_API_KEY: 你的OpenAI API密钥,在[这里](https://platform.openai.com/account/api-keys)获取
 
-### 3. 在仓库设置中启用GitHub Actions访问Pages
+- 在仓库设置中启用GitHub Actions访问Pages
 
-### 4. 在config.ini中配置你的RSS订阅源
+- 在config.ini中配置你的RSS订阅源
 
-有一份详细的[手册](https://yinan.me/RSS-GPT-manual-zh/)。
+- 把'main.py'中的链接改成你自己的GitHub Pages链接。
 
-### 5. 把'main.py'中的链接改成你自己的GitHub Pages链接。
-
+也可以参考更详细的[教程](https://yinan.me/RSS-GPT-manual-zh/)。

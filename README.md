@@ -10,21 +10,21 @@
 
 ## Configuration
 
-### 1. Fork this repo
+- Fork this repo
 
-### 2. Add Repository Secrets
+- Add Repository Secrets
 
-- U_NAME: your GitHub username
-- U_EMAIL: your GitHub email
-- WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope
-- OPENAI_API_KEY: your OpenAI API key, get it from [here](https://platform.openai.com/account/api-keys)
+    - U_NAME: your GitHub username
+    - U_EMAIL: your GitHub email
+    - WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope
+    - OPENAI_API_KEY: your OpenAI API key, get it from [here](https://platform.openai.com/account/api-keys)
 
-### 3. Enable GitHub Actions to access Pages in repo settings
+- Enable GitHub Actions to access Pages in repo settings
 
-### 4. Configure your RSS feeds in config.ini
+- Configure your RSS feeds in config.ini
 There is a step-by-step [manual](https://yinan.me/RSS-GPT-manual-en/).
 
-### 5. Change the links in 'main.py' to your own GitHub pages.
+- Change the links in 'main.py' to your own GitHub pages.
 
 ## Hosted RSS Feeds in this repo, feel free to subscribe
 
