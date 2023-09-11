@@ -114,12 +114,12 @@ def gpt_summary(query,model,language):
     if language == "zh":
         messages = [
             {"role": "user", "content": query},
-            {"role": "assistant", "content": f"请用中文总结这篇文章，先提取出{keyword_length}个关键词，在同一行内输出，然后换行，用中文在{summary_length}字内写一个简短总结，包含全部要点，按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，输出时必须保留2个，并且必须在'总结:'二字之前"}
+            {"role": "assistant", "content": f"请用中文总结这篇文章，先提取出{keyword_length}个关键词，在同一行内输出，然后换行，用中文在{summary_length}字内写一个简短总结，按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，输出时必须保留2个，并且必须在'总结:'二字之前"}
         ]
     else:
         messages = [
             {"role": "user", "content": query},
-            {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output them in the same line like 'keyword1, keyword2, keyword3 ...'. Then write a short summary in {summary_length} words, and output in the following format '<br><br>Summary:' in target language {language} , <br> is the line break of HTML, 2 must be retained when output, and it must be before the word 'Summary:'"}
+            {"role": "assistant", "content": f"Please summarize this article in {language} language, no longer than {summary_length} words, and output after the word 'Summary:' in target {language} language:"}
         ]
     chat = ChatCompletion.create(
         model=model,
@@ -294,7 +294,7 @@ with open(os.path.join(BASE, 'index.html'), 'w') as f:
 
 f = open(readme, "r+", encoding="UTF-8")
 list1 = f.readlines()
-list1= list1[:29] + links
+list1= list1[:30] + links
 
 f = open(readme, "w+", encoding="UTF-8")
 f.writelines(list1)
