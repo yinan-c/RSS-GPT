@@ -27,7 +27,7 @@
 
 You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more detailed configuration guide.
 
-## Hosted RSS Feeds, feel free subscribe in your favorite RSS reader
+## Hosted RSS Feeds, feel free to subscribe in your favorite RSS reader
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or there are any suggestions.
 - https://www.ifanr.com/feed -> https://yinan-c.github.io/RSS-GPT/rss/ifanr.xml
