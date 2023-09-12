@@ -561,3 +561,11 @@ Append: [iPhone 8 换到 iPhone 12 后，之前用的好好的新闻 app 不推�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-09-12 12:09:46.994401
+------------------------------------------------------
+Started: 2023-09-12 14:02:19.101615
+Existing_entries: 83
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-12 14:02:22.817631

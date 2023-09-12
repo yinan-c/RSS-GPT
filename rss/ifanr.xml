@@ -5,12 +5,54 @@
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
 <item>
+<title>Thunderbolt 5 ：创作者和游戏玩家的出色解决方案</title>
+<link>https://www.ifanr.com/1561776?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1561776?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> 雷雳 5, 带宽, 显示器, 数据传输, 增强性能<br><br>总结: 英特尔推出雷雳 5 技术标准，提升带宽至120Gbps，支持多台高分辨率显示器和高速数据传输，适用于专业场景和游戏体验，为用户带来更丰富的可能性和优化的使用体验。 <div>
+<p><img alt="" class="alignnone size-full wp-image-1561781" height="758" src="https://s3.ifanr.com/wp-content/uploads/2023/09/5-6.jpeg" width="1268" /></p>
+<p>Thunderbolt，网友通常会用「雷电」来称呼它，而苹果中国则将其译作「雷雳」。</p>
+<p>考虑到这个标准是英特尔和苹果合作而打造的一个连接标准，所以我们也习惯于把它称之为雷雳接口。</p>
+<p>时至今日，它是旗舰款电脑产品的一个必选项。某种程度上，雷雳接口的数量，也能反映出电脑的性能表现和专业性关联度——雷雳口越多，性能越强。</p>
+<p>按照官方的设想，雷雳接口需要满足供电、传输信号和数据的三合一功能，所以在雷雳 4 身上，自然而然就有了 40Gb/s 的双向带宽、100W 的充电功率、菊花链技术等特性。</p>
+<p>简而言之，雷雳的目标就是「一线连所有」。</p>
+<p>今天， Intel 正式公布了雷雳 4 的下一代技术标准——Thunderbolt 5（雷雳 5）。</p>
+<p>用一句话总结的话，雷雳 5 再度提高了带宽上限，从而带来了高达 120Gbps 的双向速率。</p>
+<p><img alt="" class="alignnone size-full wp-image-1561778" height="1104" src="https://s3.ifanr.com/wp-content/uploads/2023/09/2-5.png" width="2022" /></p>
+<p>雷雳 4 最多支持同时输出两台 4K 60Hz 的显示器画面，这对于普通用户来说可能已经足够了，但碰到更专业的场景时，显示面积可以说是多多益善。雷雳 5 支持同时输出最多三台 4K 144Hz 的显示器画面，可以很好满足用户更专业场景的需要。</p>
+<p>除了专业场景，雷雳 5 自然不会落下游戏场景，我们都知道要想要流畅的游戏体验，顺滑的显示效果是其中的要素之一，此次雷雳 5 将支持 500Hz 刷新率的显示器，虽然目前市面上这类产品不多且偏贵，但至少 Intel 给用户提供了这个可能性。同时只要安装了相应的驱动，雷雳 5 将支持所有类型的显卡。</p>
+<p>雷雳 5 将支持动态带宽技术，简单来说，搭载雷雳 5 协议的产品在连接线缆时，会根据使用场景动态调整带宽分配，如果用户使用的显示器带宽要求较高，那么产品会分配更多带宽给视频传输，保证良好的显示效果。而在显示器要求没那么高的时候，产品会均衡分配带宽给视频传输和数据传输，提供均衡的使用体验。</p>
+<p>视频传输能力提升了，数据传输的能力当然也会相应的提升。从官方的演示视频来看，搭载雷雳 5 协议的产品读取速度和写入速度分别是 6223 MB/s 和 5383MB/s，比上代提升了两倍多，写入速度甚至提升了接近三倍。参数上的提升代表了工作效率的提升，搭载雷雳 5 协议的产品将能够在一分钟内传输近 250G 大小的数据。</p>
+<p><img alt="" class="alignnone size-full wp-image-1561780" height="335" src="https://s3.ifanr.com/wp-content/uploads/2023/09/4-5.png" width="808" /></p>
+<p>Intel 在带来参数巨幅提升的同时，也在思考如何控制成本。毕竟新技术普及最重要的一点，就是确保消费者都能消费得起。</p>
+<p>雷雳 5 将搭载和 USB4*2 相同的信号技术—— PAM-3 ，这项信号技术相较于 PAM-4 信号技术来说，设计难度减小，便于厂商控制成本。当然最大的好处就是 PAM-3 技术的兼容性更强，减少消费者换新的成本。</p>
+<p><img alt="" class="alignnone size-full wp-image-1561779" height="844" src="https://s3.ifanr.com/wp-content/uploads/2023/09/3-6.png" width="1840" /></p>
+<p>雷雳 5 同样支持各种各样的 Thunderbolt 配件，从扩展坞到外置显卡或存储设备等。且由于带宽提升，搭载雷雳 5 协议的产品可以更好的支持外接 AI 加速器，这算是一个迎合科技行业时代趋势的更新点。但可惜的是，雷雳 5 的线材只支持 1m 以内的被动式线缆， 1m 以上长度的主动式线缆目前仍在开发中（成本预计也会倍增）。</p>
+<p><img alt="" class="alignnone size-full wp-image-1561777" height="1076" src="https://s3.ifanr.com/wp-content/uploads/2023/09/1-4.png" width="1992" /></p>
+<p>另一方面， Intel 也提到，虽然说雷雳 5 是雷雳 4 的换代产品，但 Intel 目前没有让前者代替后者的打算，雷雳 5 的定位是更专业的使用场景。毕竟并非所有用户都有接入多台高规格显示器或短时间传输大数据的需要，所以雷雳 5 和雷雳 4 将会并行发展。</p>
+<p>雷雳 5 协议的推出，给消费者带来了更丰富的可能性和更广泛的使用场景，同时也提升了用户工作或游戏体验，只要价格合理，这是一项会让消费者喜闻乐见的更新。而随着技术进步，这些创新优势也会逐步下放。</p>
+<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1561776">原文链接</a> ·
+<a href="https://www.ifanr.com/1561776#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Tue, 12 Sep 2023 13:00:15 +0000</pubDate>
+<updated>Tue, 12 Sep 2023 13:00:15 +0000</updated>
+</item>
+
+<item>
 <title>苹果 5G 芯片延期，与高通多年「爱恨情仇」未完结</title>
 <link>https://www.ifanr.com/1561783?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 <guid>https://www.ifanr.com/1561783?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
 <content:encoded><![CDATA[
 <div> 苹果, 高通, 合作关系, 专利费, 法律诉讼
-<br><br>总结:
+<br /><br />总结:
 本文介绍了苹果与高通的合作关系以及双方的法律诉讼历程。起初，苹果对高通的专利费不满，但因为高通拥有关键技术专利，被迫与其合作。随着时间的推移，双方的合作关系逐渐破裂，并在全球范围内展开了激烈的法律斗争。最终，双方达成和解并继续合作，苹果也计划自研调制解调器芯片。这对苹果来说是缓兵之计，但由于目前市场上只有高通能够满足其要求，苹果选择了继续合作。未来，苹果有望推出自研芯片，提高设备续航和降低成本。总体而言，苹果对自研芯片的重视程度不断增加，以保持对产品话事权。 <div>
 <p><img alt="" class="alignnone size-full wp-image-1561788" height="910" src="https://s3.ifanr.com/wp-content/uploads/2023/09/5-7.jpeg" width="1364" /></p>
 <p>2017 年，苹果对高通的一纸诉状，打破了双方长达六年的合作关系。</p>
@@ -50,9 +92,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Tue, 12 Sep 2023 11:44:31 +0000</pubDate>
-<updated>Tue, 12 Sep 2023 11:44:31 +0000</updated>
 </item>
-
 <item>
 <title>新款 Model 3，终于摘掉了「毛坯房」的帽子</title>
 <link>https://www.ifanr.com/1561740?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
