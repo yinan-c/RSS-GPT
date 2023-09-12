@@ -374,3 +374,15 @@ Existing_entries: 30
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-12 00:24:07.293706
+------------------------------------------------------
+Started: 2023-09-12 02:11:59.721894
+Existing_entries: 30
+Fetching from https://www.ifanr.com/feed
+Append: [新款 Model 3，终于摘掉了「毛坯房」的帽子](https://www.ifanr.com/1561740?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 3019
+Summarized using GPT-3.5-turbo
+Append: [早报 | 李佳琦含泪道歉，一天掉粉百万 / 飞机上打华为卫星电话属违规 / 高通继续为 iPhone 提供 5G 基带芯片](https://www.ifanr.com/1561764?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 4644
+Summarized using GPT-3.5-turbo-16k
+append_entries: 2
+Finish: 2023-09-12 02:12:15.182013
