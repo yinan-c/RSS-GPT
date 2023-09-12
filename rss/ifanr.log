@@ -410,3 +410,12 @@ Existing_entries: 32
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-12 10:02:45.538390
+------------------------------------------------------
+Started: 2023-09-12 12:09:25.826595
+Existing_entries: 32
+Fetching from https://www.ifanr.com/feed
+Append: [苹果 5G 芯片延期，与高通多年「爱恨情仇」未完结](https://www.ifanr.com/1561783?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 2155
+Summarized using GPT-3.5-turbo
+append_entries: 1
+Finish: 2023-09-12 12:09:41.311466
