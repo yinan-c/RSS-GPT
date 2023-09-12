@@ -519,3 +519,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-12 02:12:19.298578
+------------------------------------------------------
+Started: 2023-09-12 04:04:18.479069
+Existing_entries: 81
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【开发者自荐】小巧工具箱iOS - 高效实用全能的小工具合集](https://meta.appinn.net/t/topic/47323)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-09-12 04:04:22.784398
