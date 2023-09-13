@@ -265,9 +265,7 @@ secs = config.sections()
 # Maxnumber of entries to in a feed.xml file
 max_entries = 1000
 
-
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
-
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
 summary_length = int(get_cfg('cfg', 'summary_length'))
@@ -281,21 +279,23 @@ except:
 readme ="README.md"
 feeds = []
 links = []
-with open(os.path.join(BASE, 'index.html'), 'w') as f:
-    for x in secs[1:]:
-        output(x, language=language)
-        feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
-        feeds.append(feed)
-        links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan-c.github.io/RSS-GPT/rss/" + feed['name'] + ".xml\n")
+with open(readme, 'r') as f:
+    readme_lines = f.readlines()
 
+for x in secs[1:]:
+    output(x, language=language)
+    feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
+    feeds.append(feed)  # for rendering index.html
+    links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan-c.github.io/RSS-GPT/rss/" + feed['name'] + ".xml\n")
+    readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
+
+readme_lines = readme_lines + links
+with open(readme, 'w') as f:
+    f.writelines(readme_lines)
+
+# Rendering index.html used in my GitHub page, delete this if you don't need it.
+# Modify template.html to change the style
+with open(os.path.join(BASE, 'index.html'), 'w') as f:
     template = Template(open('template.html').read())
     html = template.render(update_time=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), feeds=feeds)
     f.write(html)
-
-f = open(readme, "r+", encoding="UTF-8")
-list1 = f.readlines()
-list1= list1[:32] + links
-
-f = open(readme, "w+", encoding="UTF-8")
-f.writelines(list1)
-f.close()
