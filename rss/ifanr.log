@@ -511,3 +511,12 @@ Existing_entries: 36
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-13 12:16:13.332553
+------------------------------------------------------
+Started: 2023-09-13 13:12:00.236162
+Existing_entries: 36
+Fetching from https://www.ifanr.com/feed
+Append: [iPhone 15 系列选购指南：4 款新机怎么选？30 秒不纠结](https://www.ifanr.com/1562067?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 2598
+Summarized using GPT-3.5-turbo
+append_entries: 1
+Finish: 2023-09-13 13:12:08.708534
