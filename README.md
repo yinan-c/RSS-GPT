@@ -27,9 +27,9 @@
 
 You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more detailed configuration guide.
 
-## Hosted RSS Feeds, feel free to subscribe in your favorite RSS reader
+## Example feeds being processed
 
-These feeds on hosted in the rss/ directory of the repo and on my [GitHub Pages](https://yinan.me/RSS-GPT/rss/). 
+These feeds on hosted in the rss/ directory of the repo and on my [GitHub Pages](https://yinan.me/RSS-GPT/rss/). Feel free to subscribe in your favorite RSS reader.
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
 
