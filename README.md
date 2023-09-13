@@ -29,6 +29,8 @@ You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more det
 
 ## Hosted RSS Feeds, feel free to subscribe in your favorite RSS reader
 
+I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
+
 - https://www.ifanr.com/feed -> https://yinan-c.github.io/RSS-GPT/rss/ifanr.xml
 - https://brett.trpstra.net/brettterpstra -> https://yinan-c.github.io/RSS-GPT/rss/brett-terpstra.xml
 - https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/rss/appinn.xml
