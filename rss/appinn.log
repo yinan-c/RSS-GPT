@@ -759,3 +759,11 @@ Append: [ThunderBird的UI大改、大版本更新之Supernova版](https://meta.a
 Append: [Mac M 系列芯片 profile 工具](https://meta.appinn.net/t/topic/45941)
 append_entries: 78
 Finish: 2023-09-13 14:13:55.678589
+------------------------------------------------------
+Started: 2023-09-13 14:08:26.473602
+Existing_entries: 78
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-13 14:08:30.307447
