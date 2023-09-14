@@ -2235,3 +2235,9 @@ Token length: 6813
 Summarized using GPT-3.5-turbo-16k
 append_entries: 1
 Finish: 2023-09-14 06:11:46.317014
+------------------------------------------------------
+Started: 2023-09-14 07:08:29.787539
+Existing_entries: 12
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-09-14 07:08:29.952263
