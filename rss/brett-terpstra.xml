@@ -4,6 +4,32 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>A silly Jekyll plugin and a big Marked sale</title>
+<link>https://brett.trpstra.net/link/535/16349238/a-silly-jekyll-plugin-and-a-big-marked-sale</link>
+<guid>https://brett.trpstra.net/link/535/16349238/a-silly-jekyll-plugin-and-a-big-marked-sale</guid>
+<content:encoded><![CDATA[
+<div> Jekyll plugin, countdown, 40% off sale, coupon, September 16th,
+<br><br>
+总结: 这篇文章介绍了一个Jekyll插件，可以用来实现倒计时功能。作者通过插件创建了一个倒计时，用于促销活动。文章中提到了一个40%折扣销售，截止日期是9月16日，使用特定的优惠码可以享受折扣优惠。 <div>
+<p>So, a long time ago I wrote this Jekyll plugin that does countdowns and I don’t think I ever really used it. You just give it an end date and it inserts a countdown into the post. But I needed something to count down to, so I’m running a 40% off <a href="https://marked2app.com">Marked</a> sale using the coupon <code class="language-plaintext highlighter-rouge">COOLPLUGINBRO</code> until Saturday, September 16th. Here’s your countdown:</p>
+
+<div class="btcountdownwrapper">
+            <p class="btcountdowncaption">Sale ends in...</p>
+            <div class="btcountdown"><time datetime="2023-09-16T23:59:00-05:00"></time></div>
+            </div>
+
+<p>Did it work? I hope so. Use <a href="http://pay.paddle.com/checkout/489454?coupon=COOLPLUGINBRO">this link to apply the coupon directly</a>, or enter <code class="language-plaintext highlighter-rouge">COOLPLUGINBRO</code> at checkout. Learn more about Marked at <a href="https://marked2app.com">marked2app.com</a>.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F14%2Fa-silly-jekyll-plugin-and-a-big-marked-sale%2F&amp;text=A+silly+Jekyll+plugin+and+a+big+Marked+sale&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F14%2Fa-silly-jekyll-plugin-and-a-big-marked-sale%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16349238.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-14T13:14:00-05:00</pubDate>
+<updated>2023-09-14T13:14:00-05:00</updated>
+</item>
 
 <item>
 <title>So you think you know productivity? [Sponsor]</title>
