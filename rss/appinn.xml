@@ -4,6 +4,50 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>《随便扫》更新，支持用户自定义跳转规则，打造专属扫码跳转工具</title>
+<link>https://meta.appinn.net/t/topic/47405</link>
+<guid>https://meta.appinn.net/t/topic/47405</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>《随便扫》简介</h2>
+<p>随便扫，一个智能二维码扫描跳转工具，根据扫描的二维码结果，跳转打开匹配的应用。</p>
+<p>[极速扫描] 二维码一扫就开，无需等待。</p>
+<p>[历史记录] 记录历史扫码记录。</p>
+<p>[自定义配置] 用户可自定义链接跳转规则，自行配置 URL Scheme 跳转指定 App 页面。</p>
+<p>[丰富支持] 支持跳转微信、支付宝、淘宝、抖音、美团、知乎、京东、QQ 、微博、云闪付、百度等常见应用。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>更新内容</h2>
+<p>随便扫今天更新了一个大版本到 1.4.0，从更新内容就能看出，这个版本我憋了很久。目前除了华为还在审核，其他平台都已经审核通过。更新内容如下：</p>
+<ol>
+<li>新增自定义跳转规则</li>
+<li>新增自定义匹配规则</li>
+<li>新增多个匹配规则出现弹窗让用户选择</li>
+<li>优化历史记录</li>
+<li>优化底部按钮点击震动</li>
+<li>新增用户自定义默认扫码方案</li>
+<li>新增优酷、爱奇艺、脉脉、滴滴青桔、豆瓣跳转</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>新增自定义跳转规则</h2>
+<p>之前的版本只能跳转内置 URL Scheme 规则，然而现实生活中的 App 数不胜数，总有不能覆盖到的地方。因此开放了用户自定义跳转 URL Scheme 的能力，让用户自定义跳转能力。</p>
+<p>起初，我以为这个能力应该是很少人会使用到，没想到今天刚更新，还没来得及写文章宣传更新内容，就已经有用户用起来，并在 QQ 群反馈问题。我直接一个好家伙，真不能小看这群用户。</p>
+<p><strong>自定义跳转规则操作路径如下：</strong></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/b/2b889f3c0d95b4e6dd93fdf6fc9141ea91bbd867.jpeg" title="1"><img alt="1" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/b/2b889f3c0d95b4e6dd93fdf6fc9141ea91bbd867_2_226x500.jpeg" width="226" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/5/1556411c83f24bdaddc65e29c05ab4e431856bf7.jpeg" title="2"><img alt="2" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/5/1556411c83f24bdaddc65e29c05ab4e431856bf7_2_226x500.jpeg" width="226" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>新增自定义匹配规则</h2>
+<p>之前的版本链接跳转匹配规则都是内置在 App，然而现实生活中很多场景是一个链接有多个匹配 App，比如一些聚合支付，微信、支付宝和云闪付都可以扫码跳转，App 不能简单给用户跳转到其中一个，而是应该让用户自己选择跳转的 App。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/2/82a0ccb1546801ee273b5e2239e9ad009ccdacfb.jpeg" title="3"><img alt="3" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/2/82a0ccb1546801ee273b5e2239e9ad009ccdacfb_2_226x500.jpeg" width="226" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/a/fa3437812720125bd087df6d063f6971e13f2ffb.jpeg" title="4"><img alt="4" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/a/fa3437812720125bd087df6d063f6971e13f2ffb_2_226x500.jpeg" width="226" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>多个匹配规则出现弹窗让用户选择</h2>
+<p>之前的版本只能匹配一个跳转路径，新版本在匹配到多个跳转规则时，弹出弹窗让用户自行选择，三秒后不选择则跳转第一个路径。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/a/2a27e2ed4e60fd23b6c0072ea20951d912e72bfb.jpeg" title="5"><img alt="5" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/a/2a27e2ed4e60fd23b6c0072ea20951d912e72bfb_2_226x500.jpeg" width="226" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>最后</h2>
+<p>其他的更新内容就不一一列举了，更新 App 体验下就知道了。总之，新版《随便扫》用户自定义能力更强了，适用场景也更多，希望喜欢用的人也越来越多。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47405">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 14 Sep 2023 03:35:56 +0000</pubDate>
+<updated>Thu, 14 Sep 2023 03:35:56 +0000</updated>
+</item>
 
 <item>
 <title>关闭标签页时，激活当前窗口中最后一个使用的标签页（而不是左边或右边的）</title>
