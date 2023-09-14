@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>A silly Jekyll plugin and a big Marked sale</title>
 <link>https://brett.trpstra.net/link/535/16349238/a-silly-jekyll-plugin-and-a-big-marked-sale</link>
 <guid>https://brett.trpstra.net/link/535/16349238/a-silly-jekyll-plugin-and-a-big-marked-sale</guid>
 <content:encoded><![CDATA[
 <div> Jekyll plugin, countdown, 40% off sale, coupon, September 16th,
-<br><br>
+<br /><br />
 总结: 这篇文章介绍了一个Jekyll插件，可以用来实现倒计时功能。作者通过插件创建了一个倒计时，用于促销活动。文章中提到了一个40%折扣销售，截止日期是9月16日，使用特定的优惠码可以享受折扣优惠。 <div>
 <p>So, a long time ago I wrote this Jekyll plugin that does countdowns and I don’t think I ever really used it. You just give it an end date and it inserts a countdown into the post. But I needed something to count down to, so I’m running a 40% off <a href="https://marked2app.com">Marked</a> sale using the coupon <code class="language-plaintext highlighter-rouge">COOLPLUGINBRO</code> until Saturday, September 16th. Here’s your countdown:</p>
 
@@ -28,9 +29,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16349238.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-09-14T13:14:00-05:00</pubDate>
-<updated>2023-09-14T13:14:00-05:00</updated>
 </item>
-
 <item>
 <title>So you think you know productivity? [Sponsor]</title>
 <link>https://brett.trpstra.net/link/535/16348948/so-you-think-you-know-productivity</link>
