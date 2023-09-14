@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>《随便扫》更新，支持用户自定义跳转规则，打造专属扫码跳转工具</title>
 <link>https://meta.appinn.net/t/topic/47405</link>
 <guid>https://meta.appinn.net/t/topic/47405</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>《随便扫》简介</h2>
 <p>随便扫，一个智能二维码扫描跳转工具，根据扫描的二维码结果，跳转打开匹配的应用。</p>
 <p>[极速扫描] 二维码一扫就开，无需等待。</p>
@@ -46,9 +46,7 @@
             <p><a href="https://meta.appinn.net/t/topic/47405">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 14 Sep 2023 03:35:56 +0000</pubDate>
-<updated>Thu, 14 Sep 2023 03:35:56 +0000</updated>
 </item>
-
 <item>
 <title>关闭标签页时，激活当前窗口中最后一个使用的标签页（而不是左边或右边的）</title>
 <link>https://meta.appinn.net/t/topic/47145</link>
