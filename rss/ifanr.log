@@ -586,3 +586,12 @@ Existing_entries: 37
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-13 23:08:39.257024
+------------------------------------------------------
+Started: 2023-09-14 00:38:34.426809
+Existing_entries: 37
+Fetching from https://www.ifanr.com/feed
+Append: [早报｜华为小米达成全球专利交叉许可协议 / 苹果回应法国宣布禁售 iPhone 12 / 全新问界 M7 上市](https://www.ifanr.com/1562072?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 5699
+Summarized using GPT-3.5-turbo-16k
+append_entries: 1
+Finish: 2023-09-14 00:38:47.173026
