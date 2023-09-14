@@ -2199,3 +2199,12 @@ Existing_entries: 10
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-14 01:41:26.625024
+------------------------------------------------------
+Started: 2023-09-14 02:15:05.868719
+Existing_entries: 10
+Fetching from https://rsshub.app/sspai/index
+Append: [派早报：Unity 引擎调整收费模式、华为和小米达成交叉专利许可等](https://sspai.com/post/82930)
+Token length: 1438
+Summarized using GPT-3.5-turbo
+append_entries: 1
+Finish: 2023-09-14 02:15:20.454050
