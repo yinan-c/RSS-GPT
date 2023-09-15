@@ -4,6 +4,100 @@
 <title>爱范儿</title>
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
+<item>
+<title>对话苹果软件工程高级副总裁 Craig Federighi：最好的安全就像安全气囊</title>
+<link>https://www.ifanr.com/1562124?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1562124?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> 录音、隐私、苹果、安全、芯片<br><br>总结: 苹果公司一直将隐私和安全作为设计产品的核心原则，通过在硬件和软件层面上综合解决安全问题，例如通过安全隔区隔离各个子系统。苹果坚持将技术部署在本地，优先调用本地芯片的算力来解决问题。同时，苹果采用数据最小化的原则来保护用户隐私，对用户数据进行模糊处理和差分隐私算法保护。苹果的特立独行在于其依托硬件销售的商业模式，将用户的安全和隐私放在首位。 <div>
+<p><img alt="" class="aligncenter size-full wp-image-1562128" height="1000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/craig-wwdc-2021-privacy.png" width="1600" /></p>
+<blockquote><p>为了提升服务质量，本次通话将会被录音。</p></blockquote>
+<p>每一个拨打过企业客服的人，想必对于这句话都耳熟能详。但「如果不同意录音，请按 1 。」这句，你只会从苹果客服电话中听到。</p>
+<p>在 iOS 17 琳琅满目的一众新功能里，隐私的升级似乎是最不起眼的那个，但在苹果内部，它是被奉为圭臬不可撼动的信条。</p>
+<p>在今年秋季发布会结束后，我与苹果公司软件工程高级副总裁 Craig Federighi 进行了一场简短的对话。尽管对话主题围绕隐私和安全，但涉及产品面之广却在意料之外。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1562170" height="3027" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_7481_polarr.jpg" width="3024" /></p>
+<p>Craig 聚焦在软件工程开发工作，但他却认为，安全绝不仅仅关乎软件层面。</p>
+<blockquote><p>只有通过在每个层面上以一种综合的方式解决问题，从芯片一直到软件，你才能制造出市场上最安全的产品。</p></blockquote>
+<p>苹果设立了一只专门负责隐私和安全的团队，Craig 说团队从设计之初就会围绕隐私和安全，而不是等一切就绪最后才去添加。因为很多隐私问题的重点，是硬件工程师和软件工程师无法单独解决的。</p>
+<p>比如说最早的 TouchID，通过指纹识别为 iPhone 构筑了第一层的防护。事实上，所有指纹识别的信息，只是存储在 SoC 芯片上一个子系统上。</p>
+<p>这种方式被 Craig 称为「安全隔区」，通过组件化的方式将安全的各个子系统区隔出来，分别在硬件和软件上进行单独的隔离，即使攻击者能够攻破其中一个层级，也无法进入其他层级。</p>
+<blockquote><p>这就好比一个拥有层层防护的银行，你必须首先乘坐电梯下到地下 100 层，经过重重隔离，才有办法进入金库里。</p></blockquote>
+<p>与其他巨头兴大兴土木建设数据中心不同，苹果倾向于将技术部署在本地，优先调用本地芯片的算力解决。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1562129" height="400" src="https://s3.ifanr.com/wp-content/uploads/2023/09/appleai.jpeg" width="720" /></p>
+<div class="editor-image-source">
+<p>▲ 苹果通过设备端 Transformer 模型的优化实现输入预测</p>
+</div>
+<p>效率和成本自然是一方面，但安全是更重要的考量。</p>
+<p>比如今年大火的 ChatGPT，几乎吃掉了微软 Azure 云计算中心的算力资源，因为全球数以亿计的问题，都要经过网络服务器的传输和推演。</p>
+<p>安全这件事，如果你只能信任一个人，那唯有自己，而不是标榜安全却在冗长的用户协议里留有后门的商业公司。</p>
+<p>「你对 Siri 说的话，其实跟你的 Apple ID 没有关联」，隐私团队告诉我，音频永远不会离开设备（Audio never leaves device），当用户启用 Siri 的时候，设备系统会产生一个随机的身份识别码，单独进行管理，所有的指令都只是运行在设备端。</p>
+<p>同理，这也可以解释：为什么当你拿到一台新 iPhone，总要重新录入一遍指纹或者面部信息。</p>
+<p>这种坚持也反哺在苹果造芯事业上，近两年 A 系列、M 系列芯片，Neural Engine 与 CPU、GPU 一样，也被视为最重要的性能指标。</p>
+<p>对于苹果而言，芯片的性能不仅仅是跑分多高、体验多流畅，也包括它能否构筑一个足够安全的围墙。</p>
+<p>至于一些不可或缺的信息，苹果会遵循「数据最小化」的原则：</p>
+<p>比如当用户进行搜索地理位置时，地图 app 会采用一种「模糊处理」的方式：24 小时后，用户搜索的精确地点会模糊为一个大致区域。</p>
+<p>早些年，苹果还引入了一种名叫「差分隐私」（Differential Privacy）的算法保障安全。这种算法会把个人隐私数据打乱，然后与其他数百万的数据混合在一起，即便是苹果自己也无法从中得出针对特定个人的数据，但这些整体的数据却可以帮助苹果找出最受欢迎的表情符号、最佳的快速输入建议。</p>
+<p>时至今日，iOS 是唯一一个从未发生过大规模恶意软件攻击的系统。</p>
+<p><img alt="" class="aligncenter wp-image-1562130" height="833" src="https://s3.ifanr.com/wp-content/uploads/2023/09/ios-16-iphone-13-pro-settings-privacy-security-lockdown-mode-turn-on.png" width="412" /></p>
+<p>Craig 说，苹果不会因为体验而让用户让渡隐私，反之也不会为了安全设置重重障碍。因此，团队采用了各种方式，让安全防护隐于无形。</p>
+<blockquote><p>就像你的汽车上的安全气囊一样，你可能不知道它们是如何工作的，你甚至不知道它们的存在，但它们就在那里保护着你。我觉得这就是最最好的安全。</p></blockquote>
+<p>如今的互联网巨头的商业模式基本上建立在利益交换的基础上：你交出个人信息，换取个性化服务。那些在你知情不知情下收集的隐私信息，一方面让商业公司预测到你未来的行为，同时也让你成为精准广告的投递对象。</p>
+<p>人类简史的作者赫拉利这样形容隐私的丧失：</p>
+<blockquote><p>这就像非洲和美洲的原住民，不经意间就把整个国家卖给了欧洲某国，换来各种颜色的珠子和廉价饰品。</p></blockquote>
+<p>几年前，Cambridge Analytica 丑闻，把忽略「隐私」带来的恶果赤裸裸地摆在世人面前：任何一家拥有亿万量级用户的公司，如果数据被滥用，它的力量足以影响世界格局。</p>
+<p>计算机科学家亚隆·兰尼尔（Jaron Lanier）把技术和算法的负面归咎于免费的商业模式。</p>
+<blockquote><p>当计算机变得越加聪明、算法更加精准，一切都是为了让你看更多广告而运作的时候，一切似乎都乱套了，我不称他们为社交网络了，我现在称它们为行为改造帝国。</p></blockquote>
+<p><img alt="" class="aligncenter size-full wp-image-1562131" height="900" src="https://s3.ifanr.com/wp-content/uploads/2023/09/106219299-1572636962284gettyimages-1078782258.jpeg" width="1600" /></p>
+<p>同为巨头科技公司，苹果的特立独行，归根结底在于它是一家依托于硬件销售的公司，它的上帝是普罗大众的消费者，而不是广告商。</p>
+<p>但做好安全，并不来自口号和标榜，它关乎软硬结合的艺术，关乎核心元器件和操作系统的把控力，更关乎对于技术背后人性的理解。</p>
+  <div id="ifanr_profile" style="border: 1px solid #ccc; font-size: 14px; margin: 27px auto; font-family: Arial;">
+    <div style="overflow: hidden;"><a href="https://www.ifanr.com/author/hezongcheng" style="color: #000; text-decoration: none;" target="_blank"></a>
+
+      <div style="text-align: left; line-height: 23px; margin-left: 80px;">
+        <div style="padding: 10px 10px 10px 0;">
+          <div style="margin: 0; font-size: 14px;"><strong><a href="https://www.ifanr.com/author/hezongcheng" style="color: #000; text-decoration: none;" target="_blank">何宗丞 (Jonathan Ho)</a></strong>
+          </div>
+          <div style="font-size: 13px; line-height: 20px;">热爱 News Feed 与 Menu，正在努力让每天处理的信息量超过脂肪摄入量。</div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: right; border-top: 1px dotted #ccc; padding: 2px 10px; font-size: 12px;">
+      <div>
+                                <a href="mailto:jonathan@ifanr.com" style="margin-right: 14px; text-decoration: none;" target="_blank">邮箱</a>
+
+          
+                                  <a href="http://twitter.com/hezongcheng" style="margin-right: 14px; text-decoration: none;" target="_blank">Twitter</a>
+
+          
+                                  <a href="https://www.flickr.com/photos/hezongcheng/" style="margin-right: 14px; text-decoration: none;" target="_blank">Flickr</a>
+
+          
+                                  <a href="http://weibo.com/hezongcheng" style="margin-right: 14px; text-decoration: none;" target="_blank">新浪微博</a>
+
+          
+                                  <a href="https://plus.google.com/118051041556695317207" style="margin-right: 14px; text-decoration: none;" target="_blank">Google+</a>
+
+          
+                                  <a href="https://www.ifanr.com/1" style="margin-right: 14px; text-decoration: none;" target="_blank">9</a>
+
+          
+                </div>
+    </div>
+  </div>
+  <p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1562124">原文链接</a> ·
+<a href="https://www.ifanr.com/1562124#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Fri, 15 Sep 2023 04:31:19 +0000</pubDate>
+<updated>Fri, 15 Sep 2023 04:31:19 +0000</updated>
+</item>
 
 <item>
 <title>买辆车，你就清楚我是什么人了？</title>

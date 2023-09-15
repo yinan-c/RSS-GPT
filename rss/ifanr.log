@@ -772,3 +772,12 @@ Existing_entries: 41
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-15 04:10:17.766851
+------------------------------------------------------
+Started: 2023-09-15 05:08:23.704648
+Existing_entries: 41
+Fetching from https://www.ifanr.com/feed
+Append: [对话苹果软件工程高级副总裁 Craig Federighi：最好的安全就像安全气囊](https://www.ifanr.com/1562124?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 2177
+Summarized using GPT-3.5-turbo
+append_entries: 1
+Finish: 2023-09-15 05:08:34.410110
