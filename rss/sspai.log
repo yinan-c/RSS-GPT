@@ -2439,3 +2439,21 @@ Existing_entries: 18
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-15 13:15:40.448731
+------------------------------------------------------
+Started: 2023-09-15 19:47:47.535396
+Existing_entries: 18
+Fetching from https://rsshub.app/sspai/index
+Append: [本周看什么 | 最近值得一看的 9 部作品](https://sspai.com/post/82969)
+------------------------------------------------------
+Started: 2023-09-15 19:49:28.272482
+Existing_entries: 18
+Fetching from https://rsshub.app/sspai/index
+Append: [本周看什么 | 最近值得一看的 9 部作品](https://sspai.com/post/82969)
+------------------------------------------------------
+Started: 2023-09-15 19:52:15.956587
+Existing_entries: 18
+Fetching from https://rsshub.app/sspai/index
+Append: [本周看什么 | 最近值得一看的 9 部作品](https://sspai.com/post/82969)
+Summarized failed
+append_entries: 1
+Finish: 2023-09-15 19:52:17.255747

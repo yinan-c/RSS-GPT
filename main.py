@@ -237,10 +237,15 @@ def output(sec, language):
                             f.write(f"Token length: {token_length}\n")
                             f.write(f"Summarized using GPT-3.5-turbo\n")
                     except:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-16k", language=language)
-                        with open(log_file, 'a') as f:
-                            f.write(f"Token length: {token_length}\n")
-                            f.write(f"Summarized using GPT-3.5-turbo-16k\n")
+                        try:
+                            entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-16k", language=language)
+                            with open(log_file, 'a') as f:
+                                f.write(f"Token length: {token_length}\n")
+                                f.write(f"Summarized using GPT-3.5-turbo-16k\n")
+                        except:
+                            entry.summary = None
+                            with open(log_file, 'a') as f:
+                                f.write(f"Summarized failed\n")
             append_entries.append(entry)
 
     with open(log_file, 'a') as f:

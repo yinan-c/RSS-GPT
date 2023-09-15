@@ -1147,3 +1147,27 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-15 13:15:40.154258
+------------------------------------------------------
+Started: 2023-09-15 19:47:45.242320
+Existing_entries: 82
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-15 19:47:47.489868
+------------------------------------------------------
+Started: 2023-09-15 19:49:26.051558
+Existing_entries: 82
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-15 19:49:28.224632
+------------------------------------------------------
+Started: 2023-09-15 19:52:13.558188
+Existing_entries: 82
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-15 19:52:15.909275
