@@ -853,3 +853,9 @@ Existing_entries: 42
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-15 19:07:04.222666
+------------------------------------------------------
+Started: 2023-09-15 20:37:37.001811
+Existing_entries: 42
+Fetching from https://www.ifanr.com/feed
+append_entries: 0
+Finish: 2023-09-15 20:37:39.493631

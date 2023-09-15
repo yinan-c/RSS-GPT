@@ -223,11 +223,17 @@ def output(sec, language):
             elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
                 if token_length > 16000:
-                    entry.summary = gpt_summary(cleaned_article[:16000],model="gpt-3.5-turbo-16k", language=language)
-                    with open(log_file, 'a') as f:
-                        f.write(f"Token length: {token_length}\n")
-                        f.write(f"Truncate to 16k token length\n")
-                        f.write(f"Summarized using GPT-3.5-turbo-16k\n")
+                    try:
+                        entry.summary = gpt_summary(cleaned_article[:16000],model="gpt-3.5-turbo-16k", language=language)
+                        with open(log_file, 'a') as f:
+                            f.write(f"Token length: {token_length}\n")
+                            f.write(f"Truncate to 16k token length\n")
+                            f.write(f"Summarized using GPT-3.5-turbo-16k\n")
+                    except Exception as e:
+                        entry.summary = None
+                        with open(log_file, 'a') as f:
+                            f.write(f"Summarization failed, append the original article\n")
+                            f.write(f"error: {e}\n")
                 else:
                     try:
                         entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo", language=language)
@@ -240,10 +246,12 @@ def output(sec, language):
                             with open(log_file, 'a') as f:
                                 f.write(f"Token length: {token_length}\n")
                                 f.write(f"Summarized using GPT-3.5-turbo-16k\n")
-                        except:
+                        except Exception as e:
                             entry.summary = None
                             with open(log_file, 'a') as f:
                                 f.write(f"Summarization failed, append the original article\n")
+                                f.write(f"error: {e}\n")
+
             append_entries.append(entry)
             with open(log_file, 'a') as f:
                 f.write(f"Append: [{entry.title}]({entry.link})\n")
