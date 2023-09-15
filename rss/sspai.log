@@ -2412,3 +2412,12 @@ Token length: 4680
 Summarized using GPT-3.5-turbo-16k
 append_entries: 1
 Finish: 2023-09-15 09:09:13.751579
+------------------------------------------------------
+Started: 2023-09-15 10:09:29.417168
+Existing_entries: 17
+Fetching from https://rsshub.app/sspai/index
+Append: [Matrix Talk | 你的新手机和它们更搭：少数派的作者们爱用哪些手机配件？](https://sspai.com/post/82916)
+Token length: 6854
+Summarized using GPT-3.5-turbo-16k
+append_entries: 1
+Finish: 2023-09-15 10:09:41.471334
