@@ -2388,3 +2388,12 @@ Existing_entries: 15
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-15 06:11:54.464947
+------------------------------------------------------
+Started: 2023-09-15 07:08:21.209691
+Existing_entries: 15
+Fetching from https://rsshub.app/sspai/index
+Append: [用 obsidian 两年多，现在我怎么同步和使用？](https://sspai.com/post/82501)
+Token length: 4392
+Summarized using GPT-3.5-turbo-16k
+append_entries: 1
+Finish: 2023-09-15 07:08:32.320445
