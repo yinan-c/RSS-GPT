@@ -1130,3 +1130,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-15 11:07:29.320885
+------------------------------------------------------
+Started: 2023-09-15 12:15:51.990021
+Existing_entries: 81
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [谁能推荐一个试卷翻新工具](https://meta.appinn.net/t/topic/47460)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-09-15 12:15:56.917900
