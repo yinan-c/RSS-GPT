@@ -210,8 +210,6 @@ def output(sec, language):
                     f.write(f"Filter: [{entry.title}]({entry.link})\n")
                 continue
 
-            with open(log_file, 'a') as f:
-                f.write(f"Append: [{entry.title}]({entry.link})\n")
 
 #            # format to Thu, 27 Jul 2023 13:13:42 +0000
 #            if 'updated' in entry:
@@ -245,8 +243,10 @@ def output(sec, language):
                         except:
                             entry.summary = None
                             with open(log_file, 'a') as f:
-                                f.write(f"Summarized failed\n")
+                                f.write(f"Summarization failed, append the original article\n")
             append_entries.append(entry)
+            with open(log_file, 'a') as f:
+                f.write(f"Append: [{entry.title}]({entry.link})\n")
 
     with open(log_file, 'a') as f:
         f.write(f'append_entries: {len(append_entries)}\n')
