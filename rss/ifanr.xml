@@ -4,12 +4,13 @@
 <title>爱范儿</title>
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
+
 <item>
 <title>对话苹果软件工程高级副总裁 Craig Federighi：最好的安全就像安全气囊</title>
 <link>https://www.ifanr.com/1562124?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 <guid>https://www.ifanr.com/1562124?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
 <content:encoded><![CDATA[
-<div> 录音、隐私、苹果、安全、芯片<br><br>总结: 苹果公司一直将隐私和安全作为设计产品的核心原则，通过在硬件和软件层面上综合解决安全问题，例如通过安全隔区隔离各个子系统。苹果坚持将技术部署在本地，优先调用本地芯片的算力来解决问题。同时，苹果采用数据最小化的原则来保护用户隐私，对用户数据进行模糊处理和差分隐私算法保护。苹果的特立独行在于其依托硬件销售的商业模式，将用户的安全和隐私放在首位。 <div>
+<div> 录音、隐私、苹果、安全、芯片<br /><br />总结: 苹果公司一直将隐私和安全作为设计产品的核心原则，通过在硬件和软件层面上综合解决安全问题，例如通过安全隔区隔离各个子系统。苹果坚持将技术部署在本地，优先调用本地芯片的算力来解决问题。同时，苹果采用数据最小化的原则来保护用户隐私，对用户数据进行模糊处理和差分隐私算法保护。苹果的特立独行在于其依托硬件销售的商业模式，将用户的安全和隐私放在首位。 <div>
 <p><img alt="" class="aligncenter size-full wp-image-1562128" height="1000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/craig-wwdc-2021-privacy.png" width="1600" /></p>
 <blockquote><p>为了提升服务质量，本次通话将会被录音。</p></blockquote>
 <p>每一个拨打过企业客服的人，想必对于这句话都耳熟能详。但「如果不同意录音，请按 1 。」这句，你只会从苹果客服电话中听到。</p>
@@ -96,9 +97,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Fri, 15 Sep 2023 04:31:19 +0000</pubDate>
-<updated>Fri, 15 Sep 2023 04:31:19 +0000</updated>
 </item>
-
 <item>
 <title>买辆车，你就清楚我是什么人了？</title>
 <link>https://www.ifanr.com/1562089?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
