@@ -222,7 +222,7 @@ def output(sec, language):
             cnt += 1
             if cnt > max_items:
                 entry.summary = None
-            else:
+            elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
                 if token_length > 16000:
                     entry.summary = gpt_summary(cleaned_article[:16000],model="gpt-3.5-turbo-16k", language=language)
