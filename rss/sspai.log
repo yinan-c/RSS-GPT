@@ -2349,3 +2349,12 @@ Existing_entries: 14
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-15 00:39:08.780091
+------------------------------------------------------
+Started: 2023-09-15 01:43:41.110591
+Existing_entries: 14
+Fetching from https://rsshub.app/sspai/index
+Append: [派早报：网信办依法查处 QQ 危害未成年人身心健康违法案件等](https://sspai.com/post/82957)
+Token length: 1746
+Summarized using GPT-3.5-turbo
+append_entries: 1
+Finish: 2023-09-15 01:43:50.334565
