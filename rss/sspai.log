@@ -2574,3 +2574,12 @@ Existing_entries: 20
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-16 12:14:10.582923
+------------------------------------------------------
+Started: 2023-09-16 13:08:34.080188
+Existing_entries: 20
+Fetching from https://rsshub.app/sspai/index
+Token length: 4373
+Summarized using GPT-3.5-turbo-16k
+Append: [处理器简史｜PowerPC 08：否极泰来 以弱胜强（下）](https://sspai.com/post/82006)
+append_entries: 1
+Finish: 2023-09-16 13:08:42.665509

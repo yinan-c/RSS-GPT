@@ -4,6 +4,97 @@
 <title>少数派 -- 首页</title>
 <link>https://sspai.com</link>
 
+<item>
+<title>处理器简史｜PowerPC 08：否极泰来 以弱胜强（下）</title>
+<link>https://sspai.com/post/82006</link>
+<guid>https://sspai.com/post/82006</guid>
+<content:encoded><![CDATA[
+<div> 苹果公司, PowerPC 处理器, Mac OS, BeOS, NeXT, Power Computing, 苹果授权, PowerPC G3 芯片, 英特尔, 奔腾 II 芯片,<br><br>总结：本文讲述了苹果公司在乔布斯回归后面临的困境以及其采取的措施。乔布斯在接管苹果后，先是剿灭了克隆机厂商，收回了市场份额，并以PowerPC G3芯片为核心，与英特尔的奔腾II芯片进行竞争。尽管在过去几年中PowerPC的市场份额一直很低，但G3芯片以其强大的性能优势为苹果在市场中逆风翻盘提供了希望。 <div>
+<p><strong>前情提要：</strong>在苹果公司 CEO 吉尔·阿梅利奥的领导下，PowerPC 处理器看到了新的机会。阿梅利奥考虑了几个操作系统来替代老化的 Mac OS，其中之一是 BeOS，但 4.5 亿美元的价格太高了。乔布斯随后向阿梅利奥提出了来自 NeXT、价格更合理的 NeXTSTEP。1997 年，苹果收购了 NeXT，乔布斯回归，并带来了最终拯救苹果的新的 OS X 系统。然而，在这个过渡期间，质量问题继续困扰着苹果。</p>
+<p>在苹果日薄西山的同时，此时 PowerPC 正一路披荆斩棘、势如破竹；尽管英特尔仍在后面紧追不舍，但 PowerPC 又有了新的进展：300MHz 大关告破，PowerPC 4xx 和 PowerQUICC 系列大举进军嵌入式市场。</p>
+<h2>超人归来</h2>
+<p>时间到了 1997 年 6 月。一年多过去，阿梅里奥治理下的苹果内部并没有像他保证的那样盈利，甚至还有着继续衰退的趋势。一次次的亏损已然耗尽了董事会的耐心，尤其是董事长爱德嘉·伍拉德对他意见颇多。</p>
+<blockquote>
+    <p>我确实听到了董事会强烈的不满声「吉尔，你说过现在就能赚钱了。可实际上呢？咱们之间还有没有信誉可言？要是你这人言而无信，那如何领导别人？」有谁尝过夹缝中求生存的滋味！</p>
+</blockquote>
+<p>而对外，乔布斯的好友拉里·埃里森对其虎视眈眈，<a href="https://www.wired.com/1997/03/apple-whets-ellisons-appetite/">声称</a>要收购苹果，使得苹果股价一降再降；乔布斯也乘势直接违约，大规模抛售持有的股票，让股价降到了冰点。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/7dd5de5e9b9555e9ac2767fba6ebfa3c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>Ed Woolard「左」与 Larry Ellison「右」前者是请回乔布斯的关键人物，后者在乔布斯夺权时发挥了巨大作用</figcaption>
+</figure>
+<p>媒体对阿梅里奥也是失望透顶。<i>Wired</i> 杂志上刊登了一篇题为《101 种拯救苹果办法》的<a href="https://www.wired.com/1997/06/apple-3/">文章</a>，其中一条甚至认为：鉴于 PowerPC 如此强劲的势头，苹果干脆让自己被 Motorola 买下，成为其一个部⻔，专门做 PowerPC 系列产品。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/deffeb4f6706672987a7dc1454f7bde3.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>101 种拯救苹果的方法文章</figcaption>
+</figure>
+<p><i>The Red Herring </i>则写了一篇《阿梅里奥，请辞职》，大肆抨击了阿梅里奥改革的失败，并暗示乔布斯尽快重新掌权苹果。</p>
+<blockquote>
+    <p>请辞职。用垒球的行话来说，你是位可敬的中场，但现在比赛快结束了。苹果公司需要一个有技术眼光、市场营销能力和热情洋溢的人来使公司扭亏为盈。对不起，这方面你不行。</p>
+</blockquote>
+<p>此时早就坐不住的伍拉德听取了作为顾问的乔布斯的意见，在 7 月 5 日，美国国庆节假日之时，将阿梅里奥<a href="https://archive.nytimes.com/www.nytimes.com/library/cyber/week/070997apple.html">辞退</a>，任命乔布斯为临时 CEO。而乔布斯也在即位后迅速翻脸，将之前称为伙伴的阿梅里奥视为笨，将他称为慈父的迈克·马库拉<a href="https://www.cnet.com/tech/tech-industry/jobs-names-new-apple-board/">赶出</a>董事会，并逼走一大批老员工。</p>
+<p>来自 NeXT 的高管掌控了整个公司，开启新政。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/cccb97f09ee8bd8f34cbad38180c190b.JPEG?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>Steve Jobs 在 1997 年 8 月在波士顿 Macworld 上的演讲以及 NeXT 创始人之一 Jim Hummel 为其画的漫画</figcaption>
+</figure>
+<p>乔布斯上台后，面对极低的股价和危机四伏的 Mac 市场，要求重新评估股价以使其稳定，恢复期权有效性来激励士气。他还选择迅速与微软的 CEO 比尔·盖茨<a href="https://www.youtube.com/watch?v=IOs6hnTI4lw&amp;t=1579s">和好</a>，以预装 IE 浏览器的代价，换来了其为苹果开发新版 Office 软件的承诺、1.5 亿美元的投资，外加作为之前专利诉讼调解费的 1 亿美元，使苹果能挺过这段艰难时光。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/c6c6aea6e76267bf448cc32d329493ec.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>尽管 Macworld 大会上这一幕堪称灾难，但比尔·盖茨的确在关键时刻帮了苹果一把</figcaption>
+</figure>
+<p>一系列举措下，Macworld 大会后苹果股价涨幅 33%，是阿梅里奥辞职当天股价的两倍，暂时度过了危机。而对乔布斯而言，下一步就是对 Mac 克隆厂商的尽数驱逐。</p>
+<h2>剿杀 Mac 克隆</h2>
+<p>前面提到，早在阿梅里奥准备更改操作系统编号以提高许可证价格时，CFO 弗雷德·安德森就坚持要与克隆商重开谈判，最好将其全部消灭。</p>
+<p>此时 1997 年过半，Mac 克隆已经从苹果口中夺走了 20% 的市场份额，其中绝大多数都是高性能、高利润的台式机，而 Mac 的整体市场份额却已<a href="https://www.cnet.com/tech/tech-industry/apple-market-share-sinks-again/">跌到</a>了 3.8%。</p>
+<p>乔布斯刚重返苹果公司，便宣布将基于 NeXTSTEP 开发新系统，并在 WWDC <a href="https://www.youtube.com/watch?v=yQ16_YxLbB8&amp;t=2158s">回答</a>记者问题时，将 Mac 克隆称为「吸血虫」。乔布斯上位之后，于 7 月 26 日推出了的期待已久的 Mac OS 8。媒体发现，苹果并未随之公布任何新的许可协议，摆明了乔布斯不希望继续授权第三方。这让各大克隆厂商惴惴不安。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/8d9816c4e55565024a2ceb3626076be2.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>Macworld 杂志对此事的插图</figcaption>
+</figure>
+<p>乔布斯在波士顿 Macworld 上演讲<a href="https://www.wired.com/1997/08/thats-great-steve-but-whos-the-ceo/">之前</a>，Power Computing 代表就已站在附近的交通十字路口，身穿黑色连身衣、分发着标语牌，上面写着「我们要求选择」字样；其总裁乔尔·科赫更是怒不可遏，在大会上面对 700 名观众激烈发言：</p>
+<blockquote>
+    <p>他展示了头一批搭载 PowerPC G3 的笔电模型，「嘿，这可真是一个杰作！」观众发出一片赞同之声，「喂，不要鼓掌！猜猜会怎样？你们得不到！」科赫忿忿不平地继续说道「我不相信你会看到它，因为苹果还没有授权 PowerBook 的设计！」他警告称，整个克隆项目已处于危机之中。</p>
+</blockquote>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/18165f022d7193eee10001eaca455b85.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>Joel Kocher，乔布斯在清理 Mac 克隆时最大的敌人</figcaption>
+</figure>
+<p>在 Macworld 大会结束的一周后，苹果正式宣布：不会接受任何 Mac 克隆。同一时间，在苹果提交给美国证券交易委员会的文件中也暗示道：向克隆厂商开放市场的优势可能会被竞争中固有的劣势所抵消。</p>
+<p>恼怒的科赫试图说服 Power Computing 董事会对苹果发起诉讼，但其创始人史蒂夫·康却清醒地认识到：尽管现在公司销售额一路高歌，已达 4 亿美元之巨，但却并没赚多少钱；若是与苹果陷入一场无休无止的诉讼战，这将彻底拖垮整个公司。科赫<a href="https://www.wired.com/1997/08/power-computing-rank-and-file-grow-restless/">愤而辞职</a>。苹果不久后以价值 1 亿多美金的股票与 1000 万现金收购 Power Computing 的大部分资产以及部分员工，彻底终结了该公司的 Mac 克隆生涯。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/344824bb6ff70db1d4c3da9f285bc787.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>在苹果的打压下，Power Computing 丢失了许可证</figcaption>
+</figure>
+<p>其他克隆厂商见此阵仗，也都纷纷献城而降，表示不再生产克隆机。而酝酿中的 PowerPC 平台<sup class="ss-footnote" href="" title="即 PPCP：前文提到的通用硬件参考平台 CHRP 的改名">1</sup>连第一款产品都还没面世就已然夭折，加上微软于 2 月初<a href="https://www.itprotoday.com/windows-78/windows-nt-powerpc-no-more">终结</a>了对 PowerPC 的支持，从此 PowerPC 桌面端真就只有苹果一人还在孤军奋战了。</p>
+<p>至此，Mac 克隆走进了历史长河，失去苹果认证的 Power Computing 试图制造 PC 克隆，却遭到了供应商的诉讼，于 12 月<a href="https://archive.nytimes.com/www.nytimes.com/library/cyber/week/013098power.html">破产</a>，来年 1 月其所有实物资产被尽数拍卖，它的辉煌时代已然过去。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/9b9fdc5b5e3b0bfdd306bdfe8e29acf6.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>Power Computing 最后的告别，象征着一个时代的结束</figcaption>
+</figure>
+<h2>生死决战</h2>
+<p>在将 Mac 克隆赶尽杀绝后，乔布斯终于再次掌控全局。阿梅里奥离任前也留下了一个不差的底子：产品质量问题基本解决、新一代 PowerBook 正在有条不紊地生产，银行内的 15 亿美元也能让其一展拳脚。</p>
+<p>而对此时苹果最重要的，是即将到来的 PowerPC G3 芯片，其性能高低几乎决定了苹果这家公司的命运：在软件孱弱、产品设计欠佳的大背景下，强大的性能优势将是 1997 年圣诞季苹果能逆风翻盘的唯一机会。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/dae2ca84c8d4a28590ec3dedfdb2b195.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>A very different chip，是乔布斯 51 天扭亏为盈的首要条件</figcaption>
+</figure>
+<p>而另一边，已经占据绝对优势地位的英特尔也在 P6 架构基础上推出了奔腾 II 芯片。</p>
+<p>在 1997 年的这个冬天，决定苹果存亡的战役即将打响。</p>
+<p>此时 PowerPC 阵营的形势并不乐观。四年前在 Comdex 大会上，苹果向微软和英特尔宣战之时，公司上至高管下至员工，都曾无比相信未来掌握在他们手中：Wintel 联盟崩溃在即，就连行业分析师也纷纷预测 PowerPC 将赢得至少 20% 的市场份额。</p>
+<p>可如今，随着苹果的衰微，PowerPC 的市场份额只有可怜的个位数，每年收入仅 4 亿美元；抛去 2 亿多的生产成本，以及设计中心萨默塞特近 1 亿美金的运营费用，已几无盈利空间。同时，IBM 与 Motorola 还需每年投入大量资金继续与英特尔对抗。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/f5e034d3ff1120508e09ddc502a478b2.PNG?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>1997 至 1998 年个人电脑领域的芯片市场份额图</figcaption>
+</figure>
+<p>外界也早已心灰意冷。<i>Byte</i> 杂志在 1996 年末就曾悲观地<a href="https://halfhill.com/byte/1996-11_powerpc.html">预测</a>：1997 年将是 PowerPC 最后的辉煌时刻；在《微处理器报告》中，有篇名为《萨默塞特已然过时》的文章更是指出：IBM 和 Motorola 之间不可调和的矛盾正一步步将萨默塞特带入深渊。</p>
+<blockquote>
+    <p>在这两者中，Motorola 的处境最差：消息人士称，苹果从 IBM 购买的芯片比 Motorola 多，随着 Windows NT 逐步放弃对 PowerPC 的支持以及 Mac 克隆的终止，Motorola 已没有其他客户能向其销售 PowerPC，而 IBM 专注于服务器市场，却仍可以赚取大量利润。</p>
+    <p>由于缺乏利润，Motorola 继续资助萨默塞特开发台式机 PowerPC 已毫无意义，其应更加专注于嵌入式领域。相反 IBM 应全部承担开发新 PowerPC 的成本：这些芯片将只被苹果和 IBM 使用。</p>
+</blockquote>
+<p>反观英特尔，虽然仍在与宿敌 AMD <a href="https://sspai.com/prime/story/sv-anecdotes-05">明争暗斗</a>，但得益于 Windows 江山的日益稳固，公司 <a href="https://www.intc.com/filings-reports/annual-reports/content/0000050863-98-000031/0000050863-98-000031.pdf">事业</a>正蒸蒸日上：整个 1997 年，其净收入高达 250 亿美元，继续保持着 20% 的增速，与苹果的 10 亿年<a href="https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_1997.pdf">亏损</a>形成了鲜明对比。</p>
+<p>见此大好形势，英特尔更在研发上不遗余力：相比 1994 年的 11 亿美元，其 1997 年在半导体方面的投入又翻了两倍多，达 23 亿美元。</p>
+<p>而 PowerPC 的未来，就在这外界延绵不绝的质疑声中、对手日益强盛的阴霾下，继续跌跌撞撞地行进。</p>
+<h3>PowerPC 750「G3」</h3>
+<p>万幸的是，萨默塞特杰出的工程师们不负众望，早在 PowerPC G2 力压英特尔奔腾之时，就已经开始设计下一代产品 PowerPC 613，后来改名为 PowerPC 750，简称为 PowerPC G3，代号 Arthur。</p>
+<p>PowerPC G3 基于 603e 改进而来，外表看，其 Die 面积为 67mm²，比后者还少 15%，却集成了前代 2.5 倍的晶体管数量，达到 640 万，甚至高于 G2 时代最强 604e 近 25%。这是得益于最新的 Motorola 250nm 工艺<sup class="ss-footnote" href="" title="原先 Motorola 与 IBM 计划用 350nm 工艺进行生产，运行在 200MHz 下；最后超预期地用了 250nm 工艺，Motorola 将之称为 PPC3，在 366MHz 下运行。">2</sup>。先进工艺的到来也令单个晶体管价格暴跌，G3 的制造成本相比 603e 上浮很小，仅从 30 升至 40 美元。</p>
+<figure class="image ss-img-wrapper"><img src="https://cdn.sspai.com/2023/08/03/9f186f118c03bbd0fd12111d6207943c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" />
+    <figcaption>PowerPC 750 及其 Die shot</figcaption>
+</figure>
+<p>与在 Power Macintosh 成型之前就已设计完成的 PowerPC 601、603、604 不同，PowerPC G3 的架构设计从头至尾都是为了优化 Mac OS 性能。萨默塞特的工程师们花费大量精力，分析了各种软件在 Mac OS 上的运行表现，并针对弱点进行改进。</p>
+]]></content:encoded>
+<pubDate>Sat, 16 Sep 2023 10:13:25 GMT</pubDate>
+<updated>Sat, 16 Sep 2023 10:13:25 GMT</updated>
+</item>
 
 <item>
 <title>Eagle 的隐藏用法：批量导入并管理 Zotero 的标注图片</title>
