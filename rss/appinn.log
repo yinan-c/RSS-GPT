@@ -1315,3 +1315,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-16 11:06:18.823411
+------------------------------------------------------
+Started: 2023-09-16 12:14:06.859684
+Existing_entries: 82
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [「只读 - 稍后阅读」macOS应用已上架App Store，欢迎下载试用](https://meta.appinn.net/t/topic/47483)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-09-16 12:14:10.277476
