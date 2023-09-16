@@ -4,12 +4,13 @@
 <title>少数派 -- 首页</title>
 <link>https://sspai.com</link>
 
+
 <item>
 <title>处理器简史｜PowerPC 08：否极泰来 以弱胜强（下）</title>
 <link>https://sspai.com/post/82006</link>
 <guid>https://sspai.com/post/82006</guid>
 <content:encoded><![CDATA[
-<div> 苹果公司, PowerPC 处理器, Mac OS, BeOS, NeXT, Power Computing, 苹果授权, PowerPC G3 芯片, 英特尔, 奔腾 II 芯片,<br><br>总结：本文讲述了苹果公司在乔布斯回归后面临的困境以及其采取的措施。乔布斯在接管苹果后，先是剿灭了克隆机厂商，收回了市场份额，并以PowerPC G3芯片为核心，与英特尔的奔腾II芯片进行竞争。尽管在过去几年中PowerPC的市场份额一直很低，但G3芯片以其强大的性能优势为苹果在市场中逆风翻盘提供了希望。 <div>
+<div> 苹果公司, PowerPC 处理器, Mac OS, BeOS, NeXT, Power Computing, 苹果授权, PowerPC G3 芯片, 英特尔, 奔腾 II 芯片,<br /><br />总结：本文讲述了苹果公司在乔布斯回归后面临的困境以及其采取的措施。乔布斯在接管苹果后，先是剿灭了克隆机厂商，收回了市场份额，并以PowerPC G3芯片为核心，与英特尔的奔腾II芯片进行竞争。尽管在过去几年中PowerPC的市场份额一直很低，但G3芯片以其强大的性能优势为苹果在市场中逆风翻盘提供了希望。 <div>
 <p><strong>前情提要：</strong>在苹果公司 CEO 吉尔·阿梅利奥的领导下，PowerPC 处理器看到了新的机会。阿梅利奥考虑了几个操作系统来替代老化的 Mac OS，其中之一是 BeOS，但 4.5 亿美元的价格太高了。乔布斯随后向阿梅利奥提出了来自 NeXT、价格更合理的 NeXTSTEP。1997 年，苹果收购了 NeXT，乔布斯回归，并带来了最终拯救苹果的新的 OS X 系统。然而，在这个过渡期间，质量问题继续困扰着苹果。</p>
 <p>在苹果日薄西山的同时，此时 PowerPC 正一路披荆斩棘、势如破竹；尽管英特尔仍在后面紧追不舍，但 PowerPC 又有了新的进展：300MHz 大关告破，PowerPC 4xx 和 PowerQUICC 系列大举进军嵌入式市场。</p>
 <h2>超人归来</h2>
@@ -93,9 +94,7 @@
 <p>与在 Power Macintosh 成型之前就已设计完成的 PowerPC 601、603、604 不同，PowerPC G3 的架构设计从头至尾都是为了优化 Mac OS 性能。萨默塞特的工程师们花费大量精力，分析了各种软件在 Mac OS 上的运行表现，并针对弱点进行改进。</p>
 ]]></content:encoded>
 <pubDate>Sat, 16 Sep 2023 10:13:25 GMT</pubDate>
-<updated>Sat, 16 Sep 2023 10:13:25 GMT</updated>
 </item>
-
 <item>
 <title>Eagle 的隐藏用法：批量导入并管理 Zotero 的标注图片</title>
 <link>https://sspai.com/post/82791</link>
