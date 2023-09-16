@@ -940,3 +940,12 @@ Existing_entries: 43
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-16 08:09:53.039600
+------------------------------------------------------
+Started: 2023-09-16 09:07:28.968231
+Existing_entries: 43
+Fetching from https://www.ifanr.com/feed
+Summarization failed, append the original article
+error: You exceeded your current quota, please check your plan and billing details.
+Append: [蔚来新 EC6 售价揭晓，灵境紫的绝美线条，让李斌不再遗憾](https://www.ifanr.com/1562187?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-09-16 09:07:30.778512
