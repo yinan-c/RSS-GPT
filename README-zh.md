@@ -5,6 +5,13 @@
 
 [中文教程](https://yinan.me/rss-gpt-manual-zh.html) | [中文介绍](https://yinan.me/rss-gpt.html) | [README](README.md)
 
+# 更新
+
+- 2023-09-15:
+  - 如果你没有提供 OPENAI API，仍然可以使用这个脚本来聚合和过滤你的 RSS 订阅源，但是无法使用 AI 摘要功能。（你可以在仓库设置中删除或者随机设置一个字符串作为 OPENAI_API_KEY secret，或者在 config.ini 中设置 `max_items=0`）
+  - 当 OPENAI API 调用出现问题时，脚本仍然会运行并从 RSS 订阅源中获取新文章，只是无法提供 AI 摘要。
+  - 当你发现你的订阅源没有摘要时，你可以检查 rss/ 目录中的日志，看看是否有来自 OPENAI 的错误信息，常见问题比如说账单问题等。
+
 ## 功能
 
 - 在 GitHub 仓库和 GitHub Pages 上自托管 RSS 订阅源。

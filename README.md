@@ -20,6 +20,8 @@
 
   - Also, whenever there is a problem with OPENAI API calling, the script will still run and fetch new articles from the RSS feeds, just without AI summaries.
 
+  - When you find your feeds does not contain summaries, you can check the log in rss/ directory to see if there is any error message from OPENAI, common problems include billing issues etc.
+
 ## Configuration
 
 - Fork this repo
