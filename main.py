@@ -163,6 +163,8 @@ def output(sec, language):
 
     # Max number of items to summarize
     max_items = int(get_cfg(sec, 'max_items'))
+    if not max_items:
+        max_items = 0
     cnt = 0
     existing_entries = read_entry_from_file(sec)
     with open(log_file, 'a') as f:
