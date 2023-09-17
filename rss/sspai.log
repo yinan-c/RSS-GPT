@@ -2679,3 +2679,12 @@ Existing_entries: 21
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-17 05:08:02.163726
+------------------------------------------------------
+Started: 2023-09-17 06:10:22.368906
+Existing_entries: 21
+Fetching from https://rsshub.app/sspai/index
+Token length: 9726
+Summarized using GPT-3.5-turbo-16k
+Append: [开学季 | 值得关注的官翻渠道汇总 (2023)](https://sspai.com/post/82996)
+append_entries: 1
+Finish: 2023-09-17 06:10:33.094884
