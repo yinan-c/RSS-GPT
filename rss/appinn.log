@@ -1517,3 +1517,11 @@ Append: [Vimlike - Safari 扩展](https://meta.appinn.net/t/topic/37081)
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-09-17 12:14:23.926020
+------------------------------------------------------
+Started: 2023-09-17 13:08:18.609305
+Existing_entries: 84
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-17 13:08:22.510981
