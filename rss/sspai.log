@@ -2814,3 +2814,12 @@ Existing_entries: 22
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-18 03:09:32.584833
+------------------------------------------------------
+Started: 2023-09-18 04:10:32.515206
+Existing_entries: 22
+Fetching from https://rsshub.app/sspai/index
+Token length: 3938
+Summarized using GPT-3.5-turbo
+Append: [派早报：苹果更新 iPhone 12 软件以符合法国射频规定，最高检阐释人人影视案](https://sspai.com/post/83006)
+append_entries: 1
+Finish: 2023-09-18 04:10:37.717952
