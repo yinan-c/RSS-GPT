@@ -2850,3 +2850,12 @@ Existing_entries: 24
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-18 08:12:06.936940
+------------------------------------------------------
+Started: 2023-09-18 09:09:17.378882
+Existing_entries: 24
+Fetching from https://rsshub.app/sspai/index
+Token length: 2171
+Summarized using GPT-3.5-turbo
+Append: [iPhone 15 发布会上没有告诉你的那些事](https://sspai.com/post/82987)
+append_entries: 1
+Finish: 2023-09-18 09:09:27.369893
