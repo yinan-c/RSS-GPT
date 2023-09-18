@@ -1255,3 +1255,15 @@ Existing_entries: 46
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-18 10:09:39.978441
+------------------------------------------------------
+Started: 2023-09-18 11:07:25.375905
+Existing_entries: 46
+Fetching from https://www.ifanr.com/feed
+Token length: 4113
+Summarized using GPT-3.5-turbo
+Append: [独家对话苹果技术副总裁 Kevin Lynch：Apple Watch 软件如何在方寸之间雕花？](https://www.ifanr.com/1553925?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 1832
+Summarized using GPT-3.5-turbo
+Append: [惠普推出最薄笔记本，还有项友商没有的功能](https://www.ifanr.com/1562422?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-09-18 11:07:45.820620

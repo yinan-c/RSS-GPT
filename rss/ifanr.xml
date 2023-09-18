@@ -4,6 +4,239 @@
 <title>爱范儿</title>
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
+<item>
+<title>独家对话苹果技术副总裁 Kevin Lynch：Apple Watch 软件如何在方寸之间雕花？</title>
+<link>https://www.ifanr.com/1553925?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1553925?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> Apple Watch, watchOS, Kevin Lynch, 创新, 用户体验<br><br>总结:这篇文章谈到了苹果公司的Apple Watch产品以及其背后的故事。文章指出Apple Watch在可穿戴设备市场上崛起，经历了功能改进和用户反馈的影响。团队通过不断迭代和精心设计，将社交功能转变为控制中心，并在交互响应速度、信息展示和设计上进行优化。文章强调Apple Watch的关键是它在用户无触碰的情况下始终监控用户，从而实现了一种看护的功能。最后，文章提出了watchOS迭代的三个问题，并展望了Apple Watch的发展方向。 <div>
+<div><img alt="" class="aligncenter size-full wp-image-1553930" height="1412" src="https://s3.ifanr.com/wp-content/uploads/2023/06/Kevin-Lynch.jpg" width="2414" /></div>
+<div></div>
+<div class="ace-line ace-line old-record-id-XI3FdFH4oo5wbqxaUTHcV5yZn3b">
+<p>没有竞品分析，不做用户调研，凭借着对于产品的构想和人性的洞察，苹果在过去四十年，带来了 Macintosh、iPod、iPhone 等一众青史留名的产品。</p>
+</div>
+<div class="ace-line ace-line old-record-id-XI3FdFH4oo5wbqxaUTHcV5yZn3b">
+<p>Apple Watch 的故事，并不如这些传奇前辈们特立独行：它作为库克时代的第一款产品，诞生于可穿戴设备的风口之上，却崛起于智能手表退潮之时。</p>
+<p>起初它功能繁杂，像是一台腕部的迷你 iPhone，经历了南辕北辙推敲取舍，才逐渐成为智能手表的标杆之作。</p>
+<p>不久前发布的 watchOS 10 赋予了 Apple Watch 新的生命：你能感受到那种推倒重来的魄力，也能窥见一丝当年产品定义的初心。</p>
+</div>
+<div class="ace-line ace-line old-record-id-XI3FdFH4oo5wbqxaUTHcV5yZn3b">
+<blockquote><p>我们花了很长时间，了解到人们如何与手表互动。</p></blockquote>
+</div>
+<div></div>
+<div class="ace-line ace-line old-record-id-XI3FdFH4oo5wbqxaUTHcV5yZn3b">在接受爱范儿的独家专访时，苹果技术副总裁 Kevin Lynch 直言不讳 Apple Watch 经历过一些「教训」。作为 Apple Watch 软件的技术负责人，Kevin 第一次向外界分享八年来 watchOS 的点滴思考。</div>
+<div></div>
+<div class="ace-line ace-line old-record-id-Gibld8cFWon3QdxVyX2cot2NnKh"><img alt="" class="aligncenter size-full wp-image-1553935" height="1086" src="https://s3.ifanr.com/wp-content/uploads/2023/06/lynch.jpg" width="1846" /></div>
+<div></div>
+<div style="text-align: center;">
+<div class="editor-image-source">
+<p>▲ Kevin Lynch 在初代 Apple Watch 发布会上</p>
+</div>
+</div>
+<div>
+<blockquote><p>当我们第一次开发 Apple Watch 的时候，我们思考的是这个产品的灵魂是什么，但除了团队本身，我们找不到任何先例参考，就像一张白纸，但这也意味着可能性无限，令人兴奋。</p></blockquote>
+</div>
+<div class="ace-line ace-line old-record-id-T9sCdPZkUoTKE0xSjLXcqy8anqc"><img alt="" class="aligncenter size-full wp-image-1553936" height="1170" src="https://s3.ifanr.com/wp-content/uploads/2023/06/apple-watch-.jpg" width="2616" /></div>
+<div></div>
+<div style="text-align: center;">
+<div class="editor-image-source">
+<p>▲ Apple Watch 最初的定位：精准的腕表、亲密而及时的通信设备、完备的健康与健身伙伴</p>
+</div>
+</div>
+<div>团队只能摸着石头过河。Kevin 说，团队首先确定了大家对于 Apple Watch 的共识——社交、活动、健康，以及操控现实世界的能力，后者在内部被称为「通往世界的钥匙」。</div>
+<div class="ace-line ace-line old-record-id-Iq9Td5XYnonAROxGyf5cK1rln2g"></div>
+<h3>通讯的变化：从「挑人」到被动响应</h3>
+<p>社交通讯一度是 Apple Watch 的三大功能之一，绑定在最常用的按键上，按一下侧边按钮，你就可以找到你想联系的人，给他们发送心跳、涂鸦。</p>
+<p>Kevin 把这个过程形容成——挑人（People picker），他们认为这是社交的起点，但事实证明，他们可能错了。</p>
+<p>通过匿名收集的用户数据，团队可以了解到用户在每个按钮的使用频率、功能的使用频次以及花费时间，这些成为功能改进的重要依据。</p>
+<p>Kevin 说并没有那么多人使用这个功能，用户更多是使用 Apple Watch 在通知上快速回复消息。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1554013" height="345" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_CLsfOm.gif" width="658" /></p>
+<p>信息的传递需要考虑信息输入、输出、时效性和信息量，和用户肌肤之亲的 Apple Watch 从接收到获取信息的时间更短，信息输出效率更高，但劣势也很明显，无法进行富文本的输入。</p>
+<p>今天，「社交」已经让位于「控制中心」，不再霸占着 Apple Watch 仅有的两个按键之一，而苹果也已经不太去提「亲密而及时的通讯设备」这个最初的定位，Digital Touch 的功能虽然依然藏身于 iMessage app 里，但 Apple Watch 的通讯更多以被动响应的方式，给用户提供 iPhone 之外锦上添花的便利。</p>
+<h3>三环背后的用户心理满足机制</h3>
+<div class="ace-line ace-line old-record-id-Ee2ZdZCz9ocH5IxgIWlcuz3Lnbg"><img alt="" class="aligncenter size-full wp-image-1554004" height="363" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_TRXljI.gif" width="645" /></div>
+<div></div>
+<div class="ace-line ace-line old-record-id-AFzFdLOHJoMmOKxdlStcLlbHnWg">
+<p>当然，也有一些经典隽永的设计，经受了时间的考验。</p>
+<p>作为 Apple Watch 标志性的 UI 设计，「三环」一直为 Kevin 津津乐道。借助红绿蓝三环，苹果把「健身运动」量化为三个关键性指标——活动消耗、锻炼时间以及站立时间。哪怕透过 Apple Store 硕大的玻璃，三环也是路人甲无法忽略的金字招牌。</p>
+<p>Kevin 说，圆环设计既提供了丰富的信息，也满足了交互的效率。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1554011" height="417" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_jnP6z8.gif" width="960" /></p>
+<p>但效率并不仅仅是视觉层面，Kevin 认为这个设计切中了用户心理。</p>
+<blockquote><p>人们喜欢封闭，喜欢有个结局，完成任务后带来的成就感，这种感觉天生就能激励人们去完成任务。</p></blockquote>
+<p>Kevin 说他们花了很多心思在这个圆环上，比如利用动效可以强化这种积极的心理反馈，给用户激励。</p>
+<blockquote><p>如果你超额完成了目标，圆环就会环绕多几圈。你会得到这个非常有趣的动画，像是获得了小奖励一般。</p></blockquote>
+<h3>从 10 秒到两秒</h3>
+<p>从一开始，Apple Watch 团队就很清楚，用户不会像沉迷于 iPhone 一样盯着一个绑在腕上的设备，Apple Watch 的交互必须在短时间内完成。</p>
+<p>在开发者网站，苹果将 Apple Watch Moment 作为产品开发的首要原则，建议开发者要将体验的重心缩小到一个 moment。</p>
+<p>如果非要给这个 moment 加一个时间，Kevin 说是 10 秒，用户所有的交互应该控制在 10 秒以内，但后来，这个目标被提高到了 2 秒。</p>
+<p>在 Apple Watch 前两代，苹果采用了一种复杂的机制，手表 app 实际上安装在 iPhone 上，所有的数据通过蓝牙传送到手表上，蓝牙并不是高速传输的理想方案，「转菊花」成为 Apple Watch 老用户的独特记忆。</p>
+<p>在接下来的几年时间里，「两秒任务」成为 watchOS 迭代的核心。</p>
+<p>在 watchOS 2，手表已经可以直接运行 app，而到了 watchOS3，苹果已经可以把常用应用常驻于内存里。</p>
+<p>为了提升交互响应，团队开发了「可操作通知」的功能，用户可以在接收消息的同时快捷回复。</p>
+<p>Kevin 透露，为了进一步提升交互的响应速度，团队还提出了「先发制人」的思路——让表盘上复杂功能的数据提前更新，等到用户抬腕查看的时候，这些数据已经在那里等着了。</p>
+</div>
+<h3>Watch is watching out for you</h3>
+<p>Kevin 并没有手表的交互设计侃侃而谈，而是一语双关地道出了 Apple Watch 的本质：</p>
+<blockquote><p>Watch is watching out for you.</p></blockquote>
+<p>与所有的移动设备不同，即便用户没有触碰手表，手表也一直在默默关注用户。Kevin 认为，Apple Watch 的交互，常常隐于无形，这是 Apple Watch 的灵魂。</p>
+<p>不过分打扰用户是团队的一个原则。Kevin 举例说，如果用户久坐了一个小时，Apple Watch 就会提示用户站起来一分钟，如果用户照做，Apple watch 会给用户一个反馈。但如果用户没有，手表就不会继续打扰。</p>
+<h3>智能叠放，专属于 watch 的一瞥</h3>
+<div class="ace-line ace-line old-record-id-R3NKdVrp6o7k6QxK2Amc6z7OnMb"><img alt="" class="aligncenter size-full wp-image-1554003" height="285" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_cbUxKV.gif" width="506" /></div>
+<div></div>
+<div class="ace-line ace-line old-record-id-L6TydqQPNo9uByxyGMecBgBpntf">
+<p>如果说 watchOS 10 是历代软件版本中的王冠，那「智能叠放」功能就是皇冠上的明珠。</p>
+<p>在任何表盘界面，用户只需转动数码表冠，就可以一目了然地浏览当下所需要的各类信息卡片。在新的一天开始时，天气 app 就会显示天气预报和日程，如果你身在机场，智能叠放会显示钱包 app 中的登机牌信息。</p>
+<p>老用户想必能看到八年前  Glance 的影子。</p>
+<p>Kevin 同意「智能叠放」继承了 Glance 的理念，用户需要 Apple Watch 快速获取信息，不过智能叠放与众不同的点在于，它是通过小组件、模块化的方式呈现，相比 Glance 平铺直叙，智能叠放页可以智能地根据用户场景去动态调整。</p>
+</div>
+<h3 class="heading-3 ace-line old-record-id-NhwpdVq5ooAuvex02YGckgqKnCc">watchOS 10，在方寸之间雕花</h3>
+<div class="ace-line ace-line old-record-id-U7nXdhti7ogXbOxxLXkcJvX7noh"><img alt="" class="aligncenter wp-image-1553941 size-full" height="769" src="https://s3.ifanr.com/wp-content/uploads/2023/06/Apple-WWDC23-watchOS-10-5up-230605_big.jpg.large_2x-e1687924260261.jpg" width="1959" /></div>
+<div></div>
+<div class="ace-line ace-line old-record-id-GUf8d2ALToDGZOxltUpckQecnlc">
+<p>从空间布局到标签大小、从颜色到材质，watchOS 10 的方方面面，堪称八年来最大的一次变化。</p>
+<p>软件系统的打造，不亚于硬件的工程制造，只是粗暴地把 iOS 塞进一块小屏幕的逻辑是行不通的。</p>
+</div>
+<div></div>
+<div><img alt="" class="aligncenter size-full wp-image-1553939" height="882" src="https://s3.ifanr.com/wp-content/uploads/2023/06/watch.jpg" width="3062" /></div>
+<div class="ace-line ace-line old-record-id-B8B7dRXw8oOcM4x1zFEcHNfqnSf">
+<div class="editor-image-source">
+<p>▲ Apple Watch 屏幕越来越圆</p>
+</div>
+</div>
+<div></div>
+<div class="ace-line ace-line old-record-id-PIfbdsQe3oVp7Jx6YlxcYPWgnJc">小屏幕天生劣势，无法承载海量的内容，在方寸之间，要考虑的问题非常多：如何浓缩信息？如何如何针对信息进行优先级排序？如何兼容历代机型不同的圆角？</div>
+<div></div>
+<div><img alt="" class="aligncenter size-full wp-image-1553944" height="303" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_1iv9hQ.gif" width="542" /></div>
+<div class="ace-line ace-line old-record-id-UtFTdZgjXoOi1AxfLPPc1J7nnih"></div>
+<div class="ace-line ace-line old-record-id-L9tMdZRHcobGJ4xtvaDc0dO2nId">团队为 Apple Watch 开发了一套网格系统，定义了控件、标签和内容的大小和位置。团队甚至利用数学方法确定每一个元素的大小和位置，把布局网格精确到每一个像素。</div>
+<div class="ace-line ace-line old-record-id-VojIddL6rohcW6xtMBrcgBpjnHe"></div>
+<div class="ace-line ace-line old-record-id-P1sMdr5r3oSzPMxM3umcQaWAn8f"><img alt="" class="aligncenter size-full wp-image-1553932" height="1544" src="https://s3.ifanr.com/wp-content/uploads/2023/06/shitu.jpg" width="3018" /></div>
+<div></div>
+<div class="ace-line ace-line old-record-id-NkQedR9jooDdpKxvEokc0iaLnVf" style="text-align: center;">
+<div class="editor-image-source">
+<p>▲ 三种基础布局：拨号视图、信息图视图和列表</p>
+</div>
+</div>
+<div class="ace-line ace-line old-record-id-AU4AdCfvCoGoQgxIrAGchiNInMh"></div>
+<div class="ace-line ace-line old-record-id-H1lWdeuN8oGsuMx94EOcB1kvn5c">为了实现多层级的信息显示，苹果引入了一个全新的导航模式：垂直分页。</div>
+<div></div>
+<div><img alt="" class="aligncenter wp-image-1553931 size-full" height="419" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_qeaFl7.gif" width="257" /></div>
+<div class="ace-line ace-line old-record-id-M7evdCTjMoHwaJxmT3Tc5snVn6d"></div>
+<div class="ace-line ace-line old-record-id-AFJ3d7OmQoIRwAxuJcJcVgQqnKd">
+<p>以健身记录 app 为例，苹果需要为用户提供四个信息页面，三环的总览，和活动、锻炼、站立的详细视图。当滚动运动选项卡时，你会看到活动环缩放到左上角，如同 Keynote 里的「神奇效果」。</p>
+<p>垂直卡片交互、大量的动效以及背景色，构成了 watchOS 10 的核心体验。Kevin 告诉我，早年 Apple Watch 需要克服全天候续航的挑战，系统尽可能采用暗色的背景。而随着 Apple Watch 硬件配置的提升，把丰富的色彩带到 Apple Watch 已经成为现实。</p>
+</div>
+<div></div>
+<div><img alt="" class="size-full wp-image-1554000 aligncenter" height="392" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_Xrm2mA.gif" width="399" /></div>
+<div class="ace-line ace-line old-record-id-RvYodDzWBocAS5xrLnAcVkIanmg"></div>
+<blockquote>
+<div class="ace-line ace-line old-record-id-EDOudmzXtowBamxKnUbccDFmn2B">我们增加了更多的透明度和半透明效果。你可以在屏幕顶部看到它，那里是状态栏。当您滚动浏览内容时，它需要更强大的运算能力才能实现的透明层下面。在早期的版本中，我们无法做到这一点。</div>
+</blockquote>
+<div class="ace-line ace-line old-record-id-TAgLd6PpgooEFNx4bRKcVM8Jndd"><img alt="" class="size-full wp-image-1554001 aligncenter" height="328" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_x0vd3B.gif" width="359" /></div>
+<div></div>
+<div class="ace-line ace-line old-record-id-UE3QdxDsdoh6C1x8zbkckbbnnVh">全屏幕颜色不仅可以区分功能性，还传达出一种基调。比如「睡眠」app 采用了平静的蓝色背景，而在世界时钟里，可以使用冷暖色渐变区分一天中的不同时段。</div>
+<div class="ace-line ace-line old-record-id-W1zYd96X5o88afx1KY1c65Klnif"></div>
+<div><img alt="" class="aligncenter size-full wp-image-1554002" height="379" src="https://s3.ifanr.com/wp-content/uploads/2023/06/IMB_umDQOi.gif" width="671" /></div>
+<div></div>
+<div>
+<p>从借鉴「表冠」设计打造小屏交互，到利用「复杂功能」改造复古表盘，从 iOS 的小组件，到 watchOS 10 的智能叠放，Apple Watch 尊重和继承钟表文化，构建出一套数字时代的钟表美学，成为一种用现代思路重现经典的典范。</p>
+</div>
+<p>今天 watchOS 的版本号，恰好就是 Kevin Lynch 在苹果的工作年头。2013 年入职苹果后，他并没有被赋予特定的岗位，而是被告知要去寻找他理想的项目。一项名为「穿戴式设备项目」的概念引起了他的兴趣。这就是后来的 Apple Watch。</p>
+<blockquote><p>我们现在 Apple Watch 上所做的事情，已经远远超出了我们在开始这个项目时所能想象的。所以能够参与这个产品的开发，是一种荣幸和愉悦。</p></blockquote>
+<div>
+<p>我问 watchOS 迭代的方向是什么，Kevin 抛出了三个常常自我拷问的问题：</p>
+<ul>
+<li>我们如何帮助与他人建立联系？</li>
+<li>我们如何让人们过上更健康的生活？</li>
+<li>如何让手表成为通往世界的钥匙？</li>
+</ul>
+</div>
+  <div id="ifanr_profile" style="border: 1px solid #ccc; font-size: 14px; margin: 27px auto; font-family: Arial;">
+    <div style="overflow: hidden;"><a href="https://www.ifanr.com/author/hezongcheng" style="color: #000; text-decoration: none;" target="_blank"></a>
+
+      <div style="text-align: left; line-height: 23px; margin-left: 80px;">
+        <div style="padding: 10px 10px 10px 0;">
+          <div style="margin: 0; font-size: 14px;"><strong><a href="https://www.ifanr.com/author/hezongcheng" style="color: #000; text-decoration: none;" target="_blank">何宗丞 (Jonathan Ho)</a></strong>
+          </div>
+          <div style="font-size: 13px; line-height: 20px;">热爱 News Feed 与 Menu，正在努力让每天处理的信息量超过脂肪摄入量。</div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: right; border-top: 1px dotted #ccc; padding: 2px 10px; font-size: 12px;">
+      <div>
+                                <a href="mailto:jonathan@ifanr.com" style="margin-right: 14px; text-decoration: none;" target="_blank">邮箱</a>
+
+          
+                                  <a href="http://twitter.com/hezongcheng" style="margin-right: 14px; text-decoration: none;" target="_blank">Twitter</a>
+
+          
+                                  <a href="https://www.flickr.com/photos/hezongcheng/" style="margin-right: 14px; text-decoration: none;" target="_blank">Flickr</a>
+
+          
+                                  <a href="http://weibo.com/hezongcheng" style="margin-right: 14px; text-decoration: none;" target="_blank">新浪微博</a>
+
+          
+                                  <a href="https://plus.google.com/118051041556695317207" style="margin-right: 14px; text-decoration: none;" target="_blank">Google+</a>
+
+          
+                                  <a href="https://www.ifanr.com/1" style="margin-right: 14px; text-decoration: none;" target="_blank">9</a>
+
+          
+                </div>
+    </div>
+  </div>
+  <p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1553925">原文链接</a> ·
+<a href="https://www.ifanr.com/1553925#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Mon, 18 Sep 2023 10:16:59 +0000</pubDate>
+<updated>Mon, 18 Sep 2023 10:16:59 +0000</updated>
+</item>
+<item>
+<title>惠普推出最薄笔记本，还有项友商没有的功能</title>
+<link>https://www.ifanr.com/1562422?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1562422?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> 折叠屏、笔记本、华硕、惠普、价格
+<br><br>总结:
+折叠屏技术在手机市场获得成功后，不少电脑厂商也纷纷推出折叠屏笔记本。虽然折叠屏带来了更大的显示面积和便携性，但高昂的价格和散热问题限制了消费者的接受度。华硕和惠普推出的折叠屏笔记本尝试解决了一些问题，但与普通笔记本相比，仍存在用户体验不足的问题。折叠屏笔记本还处于初级阶段，需要时间和市场的检验来验证其发展前景。 <div>
+<p><img alt="" class="alignnone size-full wp-image-1562427" height="675" src="https://s3.ifanr.com/wp-content/uploads/2023/09/1-10.jpg" width="1200" /></p>
+<p>折叠屏是近些年来手机产品的另一个发展技术方向，动作快的厂商目前已经更新了四代折叠屏产品，折叠屏手机从小众走向大众也证明了折叠技术的可能性。看到这个潜在市场的电脑厂商们各个摩拳擦掌跃跃欲试。</p>
+<p>折叠屏技术在笔记本市场中仍处于起步阶段，近几年有个别厂商推出过折叠屏电脑产品，但还没形成规模。 ThinkPad X1 Fold 是首台采用折叠屏技术的消费级笔记本电脑，以折叠屏的角度来说它无疑是成功的，作为第一款将折叠屏带入消费级市场的产品，它让笔记本电脑这一品类有了更多可能性，同时也提供消费者更丰富的使用场景。</p>
+<p>但是以笔记本的角度来看，这是一款不太成熟的产品。过小的尺寸和过粗的黑边，让这款产品虽有折叠屏的形态却丢了折叠屏的优点。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562424" height="1300" src="https://s3.ifanr.com/wp-content/uploads/2023/09/2-7.jpg" width="2000" /></p>
+<p>2022 年华硕推出的 Zen book 17 Fold 很大程度吸取了「前辈」的教训，也让这款产品显得更加成熟。17 英寸的大小让其不管展开折叠都能满足用户日常使用，也正因为屏幕够大， Zen book 17 Fold 拥有和 12.5 英寸笔记本电脑尺寸相同的键盘。让其体验上不再像「带键盘的平板」，而是一款真正可用的折叠屏笔记本。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562425" height="1080" src="https://s3.ifanr.com/wp-content/uploads/2023/09/3-4.jpeg" width="1620" /></p>
+<p>同为电脑厂商巨头的惠普，自然也要赶上折叠屏电脑这一新品类的风口。 惠普昨天发布了名为 HP Spectre Fold 的新一代折叠屏电脑，惠普称「这是世界上最薄、最小的 17 英寸可折叠电脑」。同时， HP Spectre Fold 包含键盘的重量为 1.6 千克，只比苹果最新的 15 寸 MacBook Air 重 0.1 千克。</p>
+<p>除了「最薄、最小」外，惠普还称其是「世界上第一款内置 AI 的可折叠电脑」，从目前新闻稿透露的消息来看，内置的 AI 将赋予该折叠屏笔记本监测用户隐私安全和健康的功能。比如通过机器学习为用户定制的屏幕时间提醒，和「免触摸内容控制」（touch-free content control），或者当用户暂时离开电脑时自动锁屏。</p>
+<p>Spectre Fold 将配备 Intel 酷睿 i7-1250U、16GB 运存和 1 TB 存储空间。屏幕则是 1920 x 2560 的 OLED 屏幕， 惠普的 Spectre 系列笔记本向来以优秀的屏幕著称，所以这款 Spectre Fold 的屏幕素质很让人期待。虽说惠普在宣传时又是说「首款」又是说「最薄」，但就折叠屏形态来说， Spectre Fold 和友商们的体验相差无几。同样是一款产品兼具平板、笔记本和台式三种形态，唯一值得称道的一点是， Spectre Fold 内置了一个支架，用户在横屏使用时不再需要使用额外的支架了。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562426" height="675" src="https://s3.ifanr.com/wp-content/uploads/2023/09/4-4.jpeg" width="1200" /></p>
+<p>目前市面上折叠屏笔记本越来越多，但其始终无法普及。折叠屏的优点很明显，通过可折叠的机身，在提供更大显示面积的同时兼顾便携性。它无法普及的原因同样明显，联想 Thinkpad Pad X1 Fold 售价 2499 美元（约 18000 人民币），华硕 Zen book 17 Fold 售价 3499 美元（约 25400 人民币），而惠普最新的 Spectre Fold 则把售价拉到了顶峰—— 4999.99 美元（约 36300 人民币）。</p>
+<p>贵不是产品的缺点，是我的缺点。但消费者用高昂的价格买到的折叠屏电脑产品，除了折叠外，其余体验无法与同等价位的普通笔记本相提并论，甚至比不过价格更低的普通笔记本。和高昂价格一起的，还有算不上优秀的用户体验。</p>
+<p>大屏和重量是普通电脑很难兼顾的痛点，折叠屏电脑的出现虽解决了这一痛点，同时也带来了新的痛点。首当其冲就是散热，正是因为其轻薄的特性，厂商们很难在折叠屏电脑中加入主动散热系统，散热的缺失也带来了性能不足的问题，让这一品类只能满足轻量的工作需求。那么问题又绕回到了价格，有多少消费者会愿意购买上万的笔记本来完成一些简单的工作呢。</p>
+<p>当然普通笔记本和折叠屏笔记本不可同日而语，前者发展至今接近 40 年，早已经历数轮技术更新，这些技术更新作用于普通笔记本上，才有了今天如此成熟且有众多细分市场的普通笔记本产品。而后者发展至今不过数年，与其说是起步阶段，不如说是仍处于在被市场检验的阶段。</p>
+<p>至于折叠屏电脑是否和弹出式摄像头一样昙花一现，还是和折叠屏手机一样正确把握未来方向，所有的答案只能留给时间和市场来印证了。</p>
+<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1562422">原文链接</a> ·
+<a href="https://www.ifanr.com/1562422#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Mon, 18 Sep 2023 10:16:33 +0000</pubDate>
+<updated>Mon, 18 Sep 2023 10:16:33 +0000</updated>
+</item>
 
 <item>
 <title>11.58 万元起，吉利刚发布的银河 L6，没把比亚迪秦 Plus 当对手</title>
