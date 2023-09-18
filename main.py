@@ -197,7 +197,7 @@ def output(sec, language):
                     f.write(f"Skip from: [{entry.title}]({entry.link})\n")
                 break
 
-            if entry.link.includes('v2ex') and entry.link.includes('#reply'):
+            if entry.link.find('#replay') and entry.link.find('v2ex'):
                 entry.link = entry.link.split('#')[0]
 
             if entry.link in [x.link for x in existing_entries]:
