@@ -2880,3 +2880,9 @@ Summarized using GPT-3.5-turbo-16k
 Append: [派评 | 近期值得关注的 App](https://sspai.com/post/83027)
 append_entries: 1
 Finish: 2023-09-18 11:08:00.862331
+------------------------------------------------------
+Started: 2023-09-18 12:16:41.586237
+Existing_entries: 26
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-09-18 12:16:41.820419
