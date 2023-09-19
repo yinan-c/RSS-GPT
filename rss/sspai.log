@@ -3030,3 +3030,15 @@ Existing_entries: 30
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-19 10:09:29.565372
+------------------------------------------------------
+Started: 2023-09-19 11:07:23.358412
+Existing_entries: 30
+Fetching from https://rsshub.app/sspai/index
+Token length: 7227
+Summarized using GPT-3.5-turbo-16k
+Append: [一步步做个最适合自己的键盘固件：QMK 固件制作全解](https://sspai.com/post/81941)
+Token length: 4206
+Summarized using GPT-3.5-turbo-16k
+Append: [社区速递013 | 浏览器书签的 99 条用法和漫画迷的数据库](https://sspai.com/post/83052)
+append_entries: 2
+Finish: 2023-09-19 11:07:42.155506
