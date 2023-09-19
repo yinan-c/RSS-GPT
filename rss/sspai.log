@@ -3000,3 +3000,12 @@ Existing_entries: 28
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-19 06:12:03.782946
+------------------------------------------------------
+Started: 2023-09-19 07:08:27.451601
+Existing_entries: 28
+Fetching from https://rsshub.app/sspai/index
+Token length: 7480
+Summarized using GPT-3.5-turbo-16k
+Append: [iOS 17 正式版来了，升级后先试试这些新功能](https://sspai.com/post/83015)
+append_entries: 1
+Finish: 2023-09-19 07:08:51.698611
