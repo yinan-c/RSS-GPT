@@ -33,8 +33,9 @@ You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more det
 
 ## Example feeds being processed
 
-These feeds on hosted in the rss/ directory of the [auto-commit branch](https://github.com/yinan-c/RSS-GPT/tree/auto-commit) of this repo in order to separate the manually committed content from the automatically committed content. You can check out the [CHANGELOG.md](CHANGELOG.md) for more details on this change.
+These feeds on hosted in the rss/ directory of the [auto-commit branch](https://github.com/yinan-c/RSS-GPT/tree/auto-commit) of this repo in order to separate the manually committed content from the automatically committed content for easier checking and merging updates to your repo.
+You can check out the [CHANGELOG.md](CHANGELOG.md) for more details about this update on 2023-09-19.
 
-The feeds are also on my [GitHub Pages](https://yinan.me/RSS-GPT/rss/). Feel free to subscribe in your favorite RSS reader.
+The feeds are also on my [GitHub Pages](https://yinan.me/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
