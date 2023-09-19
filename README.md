@@ -13,14 +13,9 @@
 - Aggregate multiple RSS feeds into one.
 - Add filters to your own personalized RSS feeds.
 
-## Updates
+## ChangeLog
 
-- 2023-09-15:
-  - Now if you don't have an OPENAI API, you can still use the script to aggregate and filter your RSS feeds, but without the summarization feature. (You can do this by removing or setting a random string in the OPENAI_API_KEY secret in your repo setting. Alternatively, you can just set `max_items=0` or remove `max_items` in config.ini)
-
-  - Also, whenever there is a problem with OPENAI API calling, the script will still run and fetch new articles from the RSS feeds, just without AI summaries.
-
-  - When you find your feeds does not contain summaries, you can check the log in rss/ directory to see if there is any error message from OPENAI, common problems include billing issues etc.
+Check out the [CHANGELOG.md](CHANGELOG.md) for the latest changes.
 
 ## Configuration
 
