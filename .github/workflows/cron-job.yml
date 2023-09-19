@@ -2,9 +2,9 @@ name: cron_job
 
 # Controls when the workflow will run
 on:
-  # cron job every 1 hours
+  # cron job every 2 hours
   schedule:
-   - cron: '0 */1 * * *'
+   - cron: '0 */2 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -12,6 +12,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    if: ${{ github.ref == 'refs/heads/auto-commit' }}
     # The type of runner that the job will run on
     runs-on: ubuntu-20.04
 

@@ -2,9 +2,9 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the auto-commit branch
   push:
-    branches: ["main"]
+    branches: ["auto-commit"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,6 +24,7 @@ concurrency:
 jobs:
   # Build job
   build:
+    if: ${{ github.ref == 'refs/heads/auto-commit' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
