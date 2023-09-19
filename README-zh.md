@@ -15,7 +15,7 @@
 
 - 为 RSS 订阅源添加基于标题，内容，URL 的关键词过滤器。
 
-# 更新日志
+## 更新日志
 
 查看 [CHANGELOG.md](CHANGELOG-zh.md) 查看最新更新。
 
