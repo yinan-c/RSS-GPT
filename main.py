@@ -306,7 +306,7 @@ for x in secs[1:]:
     output(x, language=language)
     feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
     feeds.append(feed)  # for rendering index.html
-    links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan-c.github.io/RSS-GPT/" + feed['name'] + ".xml\n")
+    links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan-c.github.io/RSS-GPT/rss/" + feed['name'] + ".xml\n")
     if readme_lines[-1].startswith("- "):
         readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
 
