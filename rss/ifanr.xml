@@ -4,6 +4,194 @@
 <title>爱范儿</title>
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
+<item>
+<title>被 TWS 耳机剪掉的耳机线，什么时候还给我？</title>
+<link>https://www.ifanr.com/1562385?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1562385?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> 无线音频编解码标准、华为 FreeBuds Pro 3、音质、降噪、真无损音质<br><br>总结: 这篇文章介绍了华为 FreeBuds Pro 3 在无线音频领域的创新，包括采用L2HC 3.0无线音频编解码标准实现高保真音质传输，并通过多通道DNN通话降噪算法提供优质通话质量。华为的产品团队希望通过这些技术突破，重拾有线耳机的无损音质体验，并将L2HC协议开放给其他厂商和开发者共同发展。这些创新展示了TWS耳机在音质和降噪方面的进步，满足了消费者对高品质音频的需求。 <div>
+<p><img alt="" class="alignnone size-full wp-image-1562408" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_8579.jpg" width="3000" /></p>
+<blockquote><p>智能手机的 Hi-Fi 就像燎原的野火一般，从智能手机的草原上匆匆掠过，烧得猛烈，也落得悲凉。</p></blockquote>
+<p>如果要寻求手机 Hi-Fi 突然走向下坡路的时间点，想必是 2016 年的 9 月 7 日。在那一天，苹果发布了畅销全球的 iPhone 7 和 iPhone 7 Plus，并且直接取消了机身上的 3.5mm 耳机接口。此举无疑给当时热火朝天地推进「手机 Hi-Fi」的一众音乐手机们，迎头泼了一盆冷水。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562387" height="613" src="https://s3.ifanr.com/wp-content/uploads/2023/09/a2a9acbf748f4bf3aab92cd1013d248a_th.jpeg" width="920" /></p>
+<p>属于手机 Hi-Fi 的那个时代，在一夜之间突然黯然落幕。</p>
+<p>取而代之的，是苹果的首款 TWS 真无线耳机 AirPods。在剪掉耳机线之后，它成为了苹果有史以来最受欢迎的一个配件，也随之掀起了真无线耳机在全球范围内的普及。大多数的智能手机厂商也顺势而为，在极短的时间里取消了 3.5mm 耳机孔，悉数拥抱 TWS 真无线耳机。 <img alt="" class="alignnone size-full wp-image-1562390" height="911" src="https://s3.ifanr.com/wp-content/uploads/2023/09/cce4ed1d4e16cff.jpeg" width="1600" /></p>
+<p>剪掉耳机线，用上看似先进但码率极低的无线蓝牙，虽说是对便利的追求，其实也是对音质的一种妥协。</p>
+<p>在 2023 年的社交媒体上，使用有线耳机去听音乐这种行为，俨然成为了一种特立独行的复古潮流。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562391" height="905" src="https://s3.ifanr.com/wp-content/uploads/2023/09/1679281459146083887.jpg" width="1080" /></p>
+<div class="editor-image-source">
+<p>▲ 有线耳机复古潮. 图片来自：TikTok、Instagram、小红书</p>
+</div>
+<p>但很多时候，与其说我们想念有线耳机和「极其先进」的 3.5mm 耳机接口，倒不如说我们还惦记着有线耳机的高保真音质。</p>
+<p>爱范儿一直都认为，音质，应是真无线耳机的必修课。在卷完轻巧无线的佩戴体验，以及小巧体积的长效续航之后，真无线耳机也是时候追本溯源，重拾音质这门必修课了。</p>
+<h3>无线胜有线的前提，是要有媲美无损的传输</h3>
+<p>手机上开着昂贵的流媒体音乐会员，下载着文件体积更大的无损音源文件，但此时 TWS 耳机播放着的，依然是经过大幅压缩的「有损」声音。</p>
+<p>对于 TWS 耳机来说，音频传输协议就相当于连接耳机和手机之间的那根线。如果将蓝牙音频解码比作高速公路的话，传输码率的数字越高，意味着道路更宽敞更平坦，速度上限也更高。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562407" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC00204.jpg" width="3000" /></p>
+<p>它作为一个可以被精确量化的标准，直接地影响着 TWS 耳机的音质表现。</p>
+<p>但相较于 TWS 耳机的普及速度，蓝牙音频协议的发展未免显得过于缓慢，这也让 TWS 耳机的这根「隐形音频线」一直无法以虚为实，发展多年的蓝牙传输速率仍然未能彻底解锁无损音质。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562393" height="666" src="https://s3.ifanr.com/wp-content/uploads/2023/09/Bluetooth-Audio-Codecs-1000x666.jpeg" width="1000" /></p>
+<div class="editor-image-source">
+<p>▲ 图片来自 Android Authority</p>
+</div>
+<p>被广泛采用的 SBC 和 AAC 音频编码的码率最高也只有 320kbps 左右，它相当于图片中的 jpg 格式，属于高效压缩的有损产物。</p>
+<p>由高通主导的 aptX 家族，是比 SBC 和 AAC 更加高规格一些的音频编码，广泛地被 Android 机型所使用。支持传输 48kHz/16bit 的音频，最高码率为 352kbps。后来还进化出 aptX HD、aptX-adaptive 等不同规格版本，速率提升至 576kbps，进入了高清音频解码的范畴。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562395" height="942" src="https://s3.ifanr.com/wp-content/uploads/2023/09/Screen-Shot-2016-05-01-at-11.13.59-PM.png" width="1846" /></p>
+<p>比较广为人知的 LDAC 编码是由索尼主导，并于 2017 年加入到 Android 8.0 的开源项目里，它的蓝牙无线传输速率可达 990kbps，相较 328kbps 的 SBC 有了 3 倍的提升，基本满足了无线传输 Hi-Res 音频的需要。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562392" height="1356" src="https://s3.ifanr.com/wp-content/uploads/2023/09/LHDC.jpg" width="2478" /></p>
+<p>与 LDAC 表现相近的 LHDC 编码也在近两年开始普及，支持传输 24bit/96KHz 的高分辨率音频，最高传输速率达 1000Kbps。</p>
+<p>即便 LDAC 和 LHDC 的诞生都贴着「无损」的标签，但它们依然只能达到 CD 质量比特率 1411.2kbps 的三分之二，实际上还是难以保障 CD 级音乐无损传输的需要。</p>
+<p><strong>为了实现真正无损的高清音频传输，无线音频编解码标准上限亟待刷新。</strong></p>
+<p>于是，作为我国首个高清无线音频编解码标准的 L2HC ，首次将传输码率覆盖到 64~1920kbps，配合更强的无线传输能力，可支持 96kHz/24bit 高清音频传输。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562452" height="1261" src="https://s3.ifanr.com/wp-content/uploads/2023/09/L2HC-max.png" width="2150" /></p>
+<p>这意味着 L2HC 理论最高可以达到 1920kbps 的速率，超过了 CD 无损所需的 1411.2kbps 临界点，也是目前唯一超越 CD 无损音质传输码率要求的无线音频编解码标准。在速率层面上，L2HC 的确称得上是「遥遥领先」于 LDAC 和 LHDC。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562406" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC00300.jpg" width="3000" /></p>
+<p>有了更高速率的无线音频编解码标准，就需要终端厂商来完成硬件产品的落地和闭环。要知道多年来都特别擅长于做好「连接」这件事情的华为，不单是 L2HC 的核心贡献者，而且 L2HC 最早也是华为自主研发出来的一个高清音频编解码格式。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562398" height="2002" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC03740.jpg" width="3000" /></p>
+<p>所以毫不意外地，已经开启预售的华为 FreeBuds Pro 3 便顺理成章地成为了首发搭载 L2HC 3.0 无线音频编解码的产品。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562397" height="2001" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC03688.jpg" width="3000" /><img alt="" class="alignnone size-full wp-image-1562453" height="5349" src="https://s3.ifanr.com/wp-content/uploads/2023/09/duibi.png" width="8001" /></p>
+<p>从参数上看，华为 FreeBuds Pro 3 的音频最高传输速率从上代的 990kbps 直接提升至 1.5Mbps，直接超过 CD 级品质音乐无损传输的码率需求。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562408" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_8579.jpg" width="3000" /></p>
+<p>除了提升音源传输的信息量，华为 FreeBuds Pro 3 还首次采用了星闪连接核心技术——暨 Polar 码技术，将抗干扰能力提升 2 倍，让那条无形的耳机线变得更加粗壮。这意味着，用户戴上华为 FreeBuds Pro 3 能在更多时间里享受到超越 CD 品质的音乐聆听体验。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562455" height="1298" src="https://s3.ifanr.com/wp-content/uploads/2023/09/nearlink.png" width="1950" /></p>
+<p>可以说，华为独有的 Polar 码技术把「无线胜有线」这个故事描绘得更加完满且令人信服。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562399" height="3084" src="https://s3.ifanr.com/wp-content/uploads/2023/09/denys-nevozhai-6ULy3pxuxL8-unsplash.jpg" width="4997" /></p>
+<div class="editor-image-source">
+<p>▲ 图片来自：Denys Nevozhai on Unsplash</p>
+</div>
+<p>此前，在全球最繁忙的日本涉谷十字路口过马路，在广州地铁体育西路站进行换乘，乃至在上海迪士尼乐园的城堡前过万游客一起观看投影灯光烟花表演等人群如山似海的情境下，我都体会过 TWS 耳机因为信号受到干扰，而出现短暂断连以及存在杂音的情况。</p>
+<p>实际上，若 LDAC 在「连接优先 Best effort」模式下，会视环境情况在 330kbps/660kbps/990kbps 码率之间切换，为求在信号复杂的情景下也能保持相对稳定的连接，只不过音频质量也会有相对明显的下降。</p>
+<p>另一方面，即便我们打开「音质优先 · Sound quality preferred」，LDAC 也不一定能够始终保持 990kbps 的高码率传输，受限于移动过程中的信号干扰等因素，码率下降的同时也会带来卡顿的体验。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562401" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC00297.jpg" width="3000" /></p>
+<p>经过一段时间的体验，我发现在一些人比较多，信号环境比较复杂的场景里，华为 FreeBudsPro 3 的确能保持 CD 级无损的高码率稳定传输，不但在无损的传输状态下不会感知到音频量感的变化，而且也不会出现声音延迟或断连的情况，实现媲美有线耳机般稳定且无干扰的听音体验。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562409" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_8575.jpg" width="3000" /></p>
+<p><img alt="" class="alignnone size-full wp-image-1562458" height="966" src="https://s3.ifanr.com/wp-content/uploads/2023/09/rate2.png" width="1948" /></p>
+<p>这样看来，华为 FreeBuds Pro 3 能够在当下已成主流听音习惯的 TWS 真无线形态上，解决以往无法提供高保真无损音频传输的难题。鱼（便携）与熊掌（音质），二者皆可得兼。</p>
+<h3>降噪普及的终局之战，是通话降噪</h3>
+<p>在强调音质的同时，降噪也是 TWS 耳机品类相当重要的一项考评标准。但就在降噪深度即将卷至人耳极限的同时，一个很容易被人忽略，但其实早已成为痛点的，其实是真无线耳机的通话质量。</p>
+<p>对于体积小巧的真无线耳机来说，要保证较好的通话质量，将清晰的人声透过麦克风传达到电话的另一头，</p>
+<p><img alt="" class="alignnone size-full wp-image-1562400" height="2002" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC03728.jpg" width="3000" /></p>
+<p>正如我们上面所提及过的涉谷十字路口、广州体育西路地铁站、上海迪士尼乐园这一类人海如潮的嘈杂场景，想要用 TWS 耳机来接听/拨打电话在以往是一件相当困难的事情，身边的环境音或许会被放大传至对方的听筒，而你说话的人声却被噪音淹没。</p>
+<p>所以说，降噪竞赛的终局，并不是峰值深度，而是通话降噪。于是，要做好通话降噪，需依赖更强的算力和更先进的算法。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562402" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_8574.jpg" width="3000" /></p>
+<p>基于上一代单通道 DNN 通话降噪算法，FreeBuds Pro 3 升级为多通道 DNN 算法，简单类比的话，就像手机的后置单摄模组，进化成多摄模组，针对不同的场景去应用不同的焦段并协同工作。</p>
+<p>具体来说，多通道 DNN 通话降噪算法可基于 VPU 与拾音三麦克风拾取到的多路信息进行分频段降噪，同时结合 AI 动态融合技术，让分频段降噪更加精准，可以保留更多的人声细节，在高铁、地铁、机场等嘈杂环境下通话抗噪能力提升 5dB。</p>
+<p>这 5dB 的提升，直接将我们通话双方的距离，拉近了许多。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562403" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_8573.jpg" width="3000" /></p>
+<p>华为 FreeBuds Pro 3 为了实现这套「静谧通话 2.0」功能，内里用上了一块暂未透露具体型号，但据说这已是 TWS 领域里算力最强的芯片，从而才能让华为 FreeBuds Pro 3 在嘈杂环境下，亦能将人声真切传达。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562412" height="2002" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC03733.jpg" width="3000" /></p>
+<p>经过体验之后我们意识到，这应该是一个随时随地都可以参与在线会议的「神器」，相较于上一代的 FreeBuds Pro 2，Pro 3 的噪音滤除更精准了，在电话那头的人声听起来也更亲切自然，基本可以忽略大多数时候环境噪音的影响。</p>
+<p>也许，华为的产品研发是基于华为员工日常有着大量迫切的开会需求而研发出来的。就像我们之前体验过的鸿蒙车机与 PC 协同之后，可以在车上开会演示 PPT 一样。</p>
+<p><img class="alignnone size-full" height="2001" src="https://s3.ifanr.com/wp-content/uploads/2023/04/DSC08183.jpg" width="3000" /></p>
+<div class="editor-image-source">
+<p>▲ <a href="https://www.ifanr.com/1543377">「这是只有华为才想得到的功能吧！」</a></p>
+</div>
+<p>值得一提的是，华为 FreeBuds Pro 3 的通话降噪是基于端侧实现，不会受限于系统平台或者特定机型，同时也能支持绝大部分第三方软件，包括微信、畅连、QQ、腾讯会议、Zoom 等主流软件。</p>
+<h3>真无线耳机做真无损音质，是一件难而正确的事情</h3>
+<p>以往，真无线的普及，是立足于便利而忽视了音质。在便利的「真刚需」面前，音质反倒成为了「假刚需」。但我们认为，能被称之为「旗舰耳机」的产品，音质不但不可缺位，也理应放在靠前的优先级。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562413" height="2002" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC03719.jpg" width="3000" /></p>
+<p>毕竟市场需要百元级的真无线耳机，去满足入门尝鲜的需要；同样也需要千元级的旗舰产品，满足极致的听音需求。</p>
+<p>在《2022 音频产品使用现状调研报告》里，接近 6 成的受访者都希望能获得高解析度和无损音质；并且超过 6 成消费者认定无损音质会决定他们的购买行为，甚至愿意为无损音质支付更多的费用。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562404" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_8572.jpg" width="3000" /></p>
+<p>消费者的行为也在发生着转变，如今我们可以清晰地判断，TWS 未来的进化方向是沿着音质和降噪两大赛道，持续突破上限，目的是满足消费者在观看视频、玩游戏、移动办公和听音乐时日益苛刻的聆听需求。「无损」的无线传输，无疑是一个重要的破局点。</p>
+<p>华为 FreeBuds Pro 3 带来了业界首发的 1.5Mbps 无损音质，这不仅刷新了真无线蓝牙耳机的码率新高，而且也将引领无线音频产业从「高清」走向「无损」。用余承东的话来说，这无疑是「遥遥领先」的。</p>
+<p>华为决意推高无线音频编解码标准的举动，就像是在努力「接回」AirPods 剪断的那根线，也像是在给 TWS 耳机行业造一座更加宽敞通畅的跨海大桥，试图在真无线耳机形态上，重拾有线耳机那般的无损音质。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562405" height="2000" src="https://s3.ifanr.com/wp-content/uploads/2023/09/DSC00304.jpg" width="3000" /></p>
+<p>当然，华为造桥，也不是只为独自过桥。在体验 Freebuds Pro 3 的过程中，华为的产品团队向爱范儿透露，新一代的 L2HC 将和 LDAC 一样，走上一条兼容并包的开放道路，未来这一套无线传输协议将向其他厂商和开发者们开放。同时他们也希望，会有更多的行业伙伴愿意共渡此桥。</p>
+<p>只不过这座桥完工通车的同时，可以看到那个高喊「遥遥领先」的华为，率先跑在了最前头。</p>
+<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1562385">原文链接</a> ·
+<a href="https://www.ifanr.com/1562385#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Tue, 19 Sep 2023 04:00:57 +0000</pubDate>
+<updated>Tue, 19 Sep 2023 04:00:57 +0000</updated>
+</item>
+<item>
+<title>iOS 17 正式版来了！我们给你总结了 8 个好玩又实用的新功能</title>
+<link>https://www.ifanr.com/1562464?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1562464?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> WWDC23, iOS 17, 通话海报, Standby, 贴纸 <br><br>总结: 在WWDC23大会上，苹果官方公布了iOS 17的8大更新亮点，包括个性化的来电显示、智能屏幕、贴纸功能、AirDrop的拓展和Siri的改进。iOS 17着重于改进细节，提高用户体验，而不是引入颠覆性的新功能。整体来看，iOS 17的实际表现还不错。 <div>
+<p><img alt="" class="alignnone size-full wp-image-1562487" height="737" src="https://s3.ifanr.com/wp-content/uploads/2023/09/8888.png" width="1280" /></p>
+<p>在今年万众瞩目的 WWDC23 大会上，苹果官方「剧透」了 iOS 17 的革新版本。</p>
+<p>伴随着秋季发布会落下帷幕，iOS 17 正式版今日正式推送。</p>
+<p>我们也特地给各位小伙伴总结了 iOS 17 八大更新亮点，看看到底值不值得升级？</p>
+<h3>通话海报，最个性化的来电显示</h3>
+<p>电话本身只传递声音信息，视觉元素较为匮乏，iOS 17 新增来电显示海报，你可以创建一个包含昵称、拟人头像、动态表情等元素的通话海报。</p>
+<p>来电时，个性化海报焕然一新，这既是你展示自我个性的机会，也是双方增进视觉印象的方式。当你设置了通话海报，对方的通讯录也会同步更新你的最新形象。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562469" height="1164" src="https://s3.ifanr.com/wp-content/uploads/2023/09/100.png" width="832" /></p>
+<p>当你在开车或开会无法接听来电时，来电者可以直接通过语音留言与你沟通，iOS 17 会自动转录这个留言，你可以边看文字边选择是否接听，再也不需要忐忑等待留言结束才能得知对方要表达的意图。</p>
+<p>iOS 17 在电话方面的贴心还不止于此，最近来电列表扩展到更多记录、通话界面重新优化、未知来电直接进入留言、双卡用户使用独立铃声等等，都让 iPhone 的通话体验更加个性化。</p>
+<h3>Standby，iPhone 变成智能屏</h3>
+<p>当 iPhone 横置充电时，Standby 界面将自动激活，将你的锁屏转变成一个具备多种实用信息的智能屏幕，非常适合放在桌子、床头柜或厨房柜台上。</p>
+<p>Standby 支持 5 种时钟样式，可以为你的房间设置最符合风格的时钟，亦或者自动播放你最喜爱的照片集或者特定相册，让 iPhone 化身你的数字相框。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562468" height="468" src="https://s3.ifanr.com/wp-content/uploads/2023/09/101.png" width="832" /></p>
+<p>MagSafe Standby 还能够记住你的首选视图，为每个 MagSafe 充电位置提供个性化体验。你可以在客厅享受家庭照片，或者在床边轻松查看时钟，无需重新设置。</p>
+<p>除了装饰，你也可以添加日历、智能家居控制等小组件，获取各类实用信息，让 iPhone 屏幕不再是一块冷冰冰的玻璃，而是一个智能的生活助手兼艺术装置。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562467" height="719" src="https://s3.ifanr.com/wp-content/uploads/2023/09/102-1.jpg" width="1280" /></p>
+<p>利用 iOS 17 的新特性，你还可以轻松管理智能家居设备，全新的 HomeKit 架构让管理变得更加直观，不同房间的设备现在会自动分类归类，添加新设备也比以前简单。</p>
+<p>此外，HomeKit 现在允许远程管理设备，即使不在家也可以控制，这对于出差在外的用户尤其方便。</p>
+<h3>Check in，一键报平安</h3>
+<p>iMessage 更新了很多新功能，包括语音转文字、直接发送定位、往右滑动回复消息等等，最值得关注的功能莫过于—— Check in。</p>
+<p>如果你深夜打车，担心出行安全，不妨尝试一下此次上线的「平安到达」功能，该功能可以在导航结束时自动给联系人发送 iMessage 短信，提醒对方你已经平安到达目的地。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562466" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/09/103-1.jpg" width="914" /></p>
+<p>如果没有如期到达，亦或者中途方向发生了变更，且 iPhone 迟迟等不到你的回应，则及时会通知你的联系人，并分享你的当前位置、手机信号、电池状态等信息。</p>
+<h3>贴纸，表情生动，创意无限</h3>
+<p>在这个表情包泛滥的时代，贴纸不再局限于文字之外，而是成为一种具备独特表现力的媒介。</p>
+<p>iOS 17 的动态贴纸功能，利用人工智能技术自动精准地识别照片中人脸或物品，生成动图贴纸。动态贴纸还支持添加发光、涂鸦等特效，你可以自由地对贴纸进行创意编辑。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562470" height="640" src="https://s3.ifanr.com/wp-content/uploads/2023/09/sticker.gif" width="640" /></p>
+<p>iOS 17 的表情贴纸种类也得到了极大的丰富，跟以往不同的是，我们不仅可以使用苹果提供的丰富贴纸，还可以更方便地搜索、管理和使用来自第三方的贴纸包。</p>
+<h3>AirDrop，贴一贴，乐分享</h3>
+<p>AirDrop 作为 iOS 设备间最快捷的文件分享方式，在 iOS 17 中也迎来了功能拓展 NameDrop。</p>
+<p>当你要和新朋友交换联系方式，手机贴一贴就能互 Drop 手机号码、邮箱以及联系海报，当然， Apple Watch 也能用。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562472" height="360" src="https://s3.ifanr.com/wp-content/uploads/2023/09/NAMEDROP.gif" width="640" /></p>
+<p>而当你超出范围时，AirDrop 传输也可以通过互联网继续进行。即使你不在彼此身边，你和朋友仍可以继续共享文件和照片。</p>
+<h3>无需多言，「Siri」即可</h3>
+<p>iOS 17 的 Siri 激活方式更加自然，以前你需要说「Hey Siri」来激活助手，而现在只需说「Siri」即可。</p>
+<p>一旦你激活 Siri，就可以连续发出多个命令，而无需重新激活。如果你想要覆盖之前的命令，只需要在发出新命令前简单地说「Siri」即可，减少了许多不必要的操作。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562481" height="405" src="https://s3.ifanr.com/wp-content/uploads/2023/09/108.png" width="720" /></p>
+<p>Siri 经过全新的设计，拥有更紧凑的 CarPlay 界面，让你可以轻松参考屏幕上的信息，同时通过语音无缝完成其他任务。</p>
+<p>此外，通过引入的 SharePlay 功能，即使车内的后座乘客没有订阅 Apple Music ，也可以在 CarPlay 中控制 Apple Music ，每个人都有机会播放自己喜欢的音乐。</p>
+<h3>Journal，你的日记，只属于你</h3>
+<p>iOS 17 还推出了全新的应用程序 Journal，让你能够记录生活中的日常生活时刻和特殊事件。</p>
+<p>你的 iPhone 可以根据照片、位置、音乐、运动等信息，生成值得记住和描述的个性化时刻建议，每条建议都包含一个写作提示，例如或「这些经历背后有什么故事？」等。</p>
+<p>你可以将建议保存到日记中，按时间顺序滚动浏览所有条目，还能筛选出你标记为稍后再访问的条目。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562480" height="1828" src="https://s3.ifanr.com/wp-content/uploads/2023/09/109.jpg" width="1306" /></p>
+<p>值得注意的是，Journal 具有锁定应用程序、使用设备上处理和端到端加密的能力。苹果承诺，除了你自己之外，任何人都无法访问你的日记，你的日记时间，只属于你。</p>
+<h3>识别再进化，工作生活两不误</h3>
+<p>智能化是 iOS 的另一核心优势，iOS 17 的智能将更深入辅助用户生活和工作。</p>
+<p>无论是乱七八糟的手写字，还是风格各异的印刷字体，只要出现在摄像头取景框中，都可以被 Live Text 识别并提取。而 iOS 17 新增了对竖排文字的识别，让更多场景下的文字为你所用。</p>
+<p>iOS 17 还将实时翻译功能直接内嵌到相机中，假如你是学生，看着眼前英文的阅读理解挠头抓腮时，只需要将镜头对准英文，就可以在画面上直接查看中文翻译结果，可谓是相当实用。</p>
+<p>现如今，Visual Look UP 现在还可以在暂停的视频帧使用，从照片和视频的背景中提取单个或多个主题，轻松识别食品、店面、标志和符号，化身你的「百科全书」。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562479" height="1828" src="https://s3.ifanr.com/wp-content/uploads/2023/09/200.png" width="1306" /></p>
+<p>很多主人会将宠物视为家庭成员，并和它拍摄大量合照。iOS 17 使用机器学习技术，能够自动识别用户宠物，并像朋友或家人一样出现在「人物」相册中，充满了浓浓的人文关怀。</p>
+<p>其他细节方面，例如 Safari 浏览器现在支持一次性验证码的自动填充，以及多设备之间的近距离登录功能。健康应用程序也新增了心理健康功能，为用户提供更全面的关注。</p>
+<p>此次更新还引入了自动更正的 Transformer 语言模型，使用户的文字输入更加流畅和准确。这些功能都为用户提供了更加便捷和精确的体验，使得 iOS 17 在细节方面也有一定的可取之处。</p>
+<p>iOS 17 需要运行 A12 Bionic 及后续芯片机型，这意味着 iPhone 8，iPhone 8 Plus 和 iPhone X 无缘获得升级。</p>
+<p><img alt="" class="alignnone size-full wp-image-1562482" height="612" src="https://s3.ifanr.com/wp-content/uploads/2023/09/104-1.jpg" width="1280" /></p>
+<p>相对来说，iOS 17 更侧重于细节创新，苹果似乎更愿意集中精力改进现有功能，提高用户体验，而不是引入颠覆性的新功能。</p>
+<p>但正是这些逐渐积累的微小细节，最终汇聚成创新的洪流。或许若干年后，回过头来看，iOS 17 的实际表现还不错。</p>
+<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1562464">原文链接</a> ·
+<a href="https://www.ifanr.com/1562464#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Tue, 19 Sep 2023 03:40:55 +0000</pubDate>
+<updated>Tue, 19 Sep 2023 03:40:55 +0000</updated>
+</item>
 
 <item>
 <title>早报｜iOS 17 正式版推送，引入「待机显示」/ 微信新增多语言翻译功能 / 蔚来手机通过中国 3C 认证</title>

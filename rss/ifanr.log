@@ -1370,3 +1370,15 @@ Existing_entries: 50
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-19 03:09:32.790146
+------------------------------------------------------
+Started: 2023-09-19 04:10:23.126291
+Existing_entries: 50
+Fetching from https://www.ifanr.com/feed
+Token length: 4619
+Summarized using GPT-3.5-turbo-16k
+Append: [被 TWS 耳机剪掉的耳机线，什么时候还给我？](https://www.ifanr.com/1562385?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 3006
+Summarized using GPT-3.5-turbo
+Append: [iOS 17 正式版来了！我们给你总结了 8 个好玩又实用的新功能](https://www.ifanr.com/1562464?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-09-19 04:10:37.601735
