@@ -41,7 +41,12 @@
 
 也可以参考更详细的[中文教程](https://yinan.me/rss-gpt-manual-zh.html)。
 
-本项目有自托管的订阅源在我的 [GitHub Pages](https://yinan.me/RSS-GPT/rss/) 以及 在本项目 rss/ 文件夹内，欢迎订阅。
+## 分享几条本项目处理后的 RSS 订阅源
+
+我自己用此脚本总结的一些 RSS订阅源托管在本项目[auto-commit分支](https://github.com/yinan-c/RSS-GPT/tree/auto-commit)的 `rss/` 目录下，这样做的目的是把对脚本的手动更新和 GitHub Workflow 自动提交的内容分开。你可以查看[CHANGELOG.md](CHANGELOG.md)查看更多细节。
+
+这些订阅源也可以在我的 [GitHub Pages](https://yinan.me/RSS-GPT/rss/)上找到。欢迎在你的 RSS 阅读器中订阅。
+
 如果有任何问题或有关于 rss feeds 的建议，欢迎邮件联系我。
 
 如果你觉得本项目有帮助，欢迎 star。
