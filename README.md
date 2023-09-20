@@ -19,12 +19,12 @@ Check out the [CHANGELOG.md](CHANGELOG.md) for the latest changes.
 
 ## Configuration
 
-- Fork this repo
+- Fork this repo，uncheck the “only copy the main branch” option to fork both branches.
 - Add Repository Secrets
     - U_NAME: your GitHub username
     - U_EMAIL: your GitHub email
-    - WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope
-    - OPENAI_API_KEY: your OpenAI API key, get it from [here](https://platform.openai.com/account/api-keys)
+    - WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
+    - OPENAI_API_KEY: your OpenAI API key, get it from [OpenAI website](https://platform.openai.com/account/api-keys)
 - Enable GitHub Actions to deploy GitHub Pages in repo settings
 - Configure your RSS feeds in config.ini
 

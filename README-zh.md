@@ -21,7 +21,7 @@
 
 ## 配置
 
-- Fork 这个仓库
+- Fork 这个仓库中，取消勾选 “only copy the main branch” 选项来 fork 所有分支。
 
 - 添加仓库 Secrets
 
@@ -29,9 +29,9 @@
 
     - U_EMAIL: 你的 GitHub 邮箱
 
-    - WORK_TOKEN: 你的GitHub个人访问令牌,需要有 `repo` 和 `workflow` 权限
+    - WORK_TOKEN: 你的 GitHub 个人访问令牌, 需要有 `repo` 和 `workflow` 权限。在 [GitHub 设置](https://github.com/settings/tokens/new)获取
 
-    - OPENAI_API_KEY: 你的 OpenAI API 密钥,在[这里](https://platform.openai.com/account/api-keys)获取
+    - OPENAI_API_KEY: 你的 OpenAI API 密钥, 在 [OPENAI 网站](https://platform.openai.com/account/api-keys)获取
 
 - 在仓库设置中启用 GitHub Actions 部署 GitHub Pages
 
