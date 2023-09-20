@@ -3081,3 +3081,21 @@ Existing_entries: 33
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-19 17:08:01.966525
+------------------------------------------------------
+Started: 2023-09-20 14:11:52.844478
+Existing_entries: 33
+Fetching from https://rsshub.app/sspai/index
+Token length: 2779
+Summarized using GPT-3.5-turbo
+Append: [双轨歌词、动态封面：我是如何用 mpv 听歌的](https://sspai.com/post/82744)
+Token length: 2832
+Summarized using GPT-3.5-turbo
+Append: [出行锦囊 | 如何买到一张价格合理的机票](https://sspai.com/post/83081)
+Token length: 5084
+Summarized using GPT-3.5-turbo-16k
+Append: [更有本事， 更显你本色：iPadOS 17 中值得关注的新特性](https://sspai.com/post/83079)
+Token length: 1976
+Summarized using GPT-3.5-turbo
+Append: [派早报：2024 款小鹏 G9 上市、Panos Panay 从微软离职等](https://sspai.com/post/83076)
+append_entries: 4
+Finish: 2023-09-20 14:12:22.749520

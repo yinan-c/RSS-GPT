@@ -37,3 +37,7 @@ You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more det
 These feeds on hosted in the [`doc/` subdirectory](https://github.com/yinan-c/RSS-GPT/tree/main/docs) in this repo as well as on my [GitHub Pages](https://yinan.me/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
+- https://www.ifanr.com/feed -> https://yinan-c.github.io/RSS-GPT/ifanr.xml
+- https://brett.trpstra.net/brettterpstra -> https://yinan-c.github.io/RSS-GPT/brett-terpstra.xml
+- https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/appinn.xml
+- https://rsshub.app/sspai/index -> https://yinan-c.github.io/RSS-GPT/sspai.xml
