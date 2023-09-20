@@ -1,7 +1,8 @@
 # RSS-GPT
 
-[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/cron-job.yml?label=cron-job)](https://github.com/yinan-c/RSS-GPT/actions/workflows/cron_job.yml)
-[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/jekyll-gh-pages.yml?label=GitHub%20Pages)](https://github.com/yinan-c/RSS-GPT/actions/workflow/jekyll-gh-pages.yml)
+![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=updated)
+[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/cron-job.yml?label=cron-job)](https://github.com/yinan-c/RSS-GPT/actions/workflows/cron-job.yml)
+![](https://img.shields.io/github/stars/yinan-c/RSS-GPT)
 
 [中文教程](https://yinan.me/rss-gpt-manual-zh.html) | [中文介绍](https://yinan.me/rss-gpt.html) | [README](README.md)
 
