@@ -4,6 +4,41 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Journal updates with weather types and conditional questions</title>
+<link>https://brett.trpstra.net/link/535/16357253/journal-updates-with-weather-types-and-conditional-questions</link>
+<guid>https://brett.trpstra.net/link/535/16357253/journal-updates-with-weather-types-and-conditional-questions</guid>
+<content:encoded><![CDATA[
+<div> journal-cli, 更新, 特性, 条件, bug fixes.<br><br>总结: 这篇文章介绍了 journal-cli 的更新内容，包括新特性和 bug 修复。用户现在可以根据指定的条件来确定是否提问，并且可以添加不同类型的天气数据。还提到了一些 bug 修复和一些使用上的注意事项。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Journal Screenshot" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/09/journal-header-rb.jpg" title="Journal Screenshot" width="800" />
+              </noscript>
+            
+
+<p>In case you missed it, I recently released <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal CLI">Journal</a>, a CLI for keeping a journal with structured data that can be queried and analyzed. An update is live with a couple of nifty new features.</p>
+
+<p>First, instead of just a type of <code class="language-plaintext highlighter-rouge">weather</code> for a question (which inserts the current condition and daily forecast), you can now specify sub-types of <code class="language-plaintext highlighter-rouge">weather.current</code> and/or <code class="language-plaintext highlighter-rouge">weather.forecast</code>. This outputs separate data entries to the JSON, and creates individual answers in the Markdown/Day One versions. You can still just use <code class="language-plaintext highlighter-rouge">weather</code> as the type to insert all data.</p>
+
+<p>Second, you can now apply conditions to questions to determine whether they’ll be asked or not when creating an entry. Right now only time-based conditions are implemented, but I plan to add some functionality around basing a question’s appearance on the answer to a previous question, like “if health rating is less than 5, display the health notes question.” But for now you can add <code class="language-plaintext highlighter-rouge">condition: before noon</code> or <code class="language-plaintext highlighter-rouge">condition: &gt; 2pm</code> to any question or section to only display the question(s) at certain times of day.</p>
+
+<p>I needed these conditions because I like to create a mood entry in the morning with data about sleep and coffee, and in the evening I don’t want to repeat that data, but do want to ask some different questions about how the day went. I could create two separate journals for these, but this way I can compile all of my data in one file. Questions that are skipped get a null entry in the JSON, so when I’m parsing I just test for nil and skip entries that don’t contain the information I’m trying to output. Unanswered questions don’t get added to the Markdown/Day One entries at all.</p>
+
+<p>This release includes a couple of bug fixes as well. I recently removed the requirement for the <code class="language-plaintext highlighter-rouge">gum</code> CLI, if it doesn’t exist it will now just use Readline for input. When using the <code class="language-plaintext highlighter-rouge">gum</code> inputs, you can’t CTRL-c to cancel an entry, which I’m trying to figure out a way around right now.</p>
+
+<p>Update using <code class="language-plaintext highlighter-rouge">gem install journal-cli</code>. Visit the <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal CLI">project page</a> for more info and installation instructions.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F20%2Fjournal-updates-with-weather-types-and-conditional-questions%2F&amp;text=Journal+updates+with+weather+types+and+conditional+questions&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F20%2Fjournal-updates-with-weather-types-and-conditional-questions%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16357253.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-20T09:46:00-05:00</pubDate>
+<updated>2023-09-20T09:46:00-05:00</updated>
+</item>
 
 <item>
 <title>Tap Forms for Mac giveaway!</title>
