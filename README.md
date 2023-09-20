@@ -14,28 +14,26 @@
 - Aggregate multiple RSS feeds into one.
 - Add filters to your own personalized RSS feeds.
 
-## ChangeLog
-
-Check out the [CHANGELOG.md](CHANGELOG.md) for the latest changes.
-
 ## Configuration
 
-- Fork this repo，uncheck the “only copy the main branch” option to fork both branches.
+- Fork this repo
 - Add Repository Secrets
     - U_NAME: your GitHub username
     - U_EMAIL: your GitHub email
     - WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
     - OPENAI_API_KEY: your OpenAI API key, get it from [OpenAI website](https://platform.openai.com/account/api-keys)
-- Enable GitHub Pages in repo settings, choose the `auto-commit` branch `/docs` folder as source.
+- Enable GitHub Pages in repo settings, choose GitHub Actions as the source
 - Configure your RSS feeds in config.ini
 
 You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more detailed configuration guide.
 
+## ChangeLog and updates
+
+- There is a [`dev` branch](https://github.com/yinan-c/RSS-GPT/tree/dev) for manual updates on the script, auto commits will no longer be pushed to this `dev` branch. The purpose of doing this is to separate the manual updates and auto commits, so that it is easier to check the updates and pull to your repo.
+- Check out the [CHANGELOG.md](CHANGELOG.md).
+
 ## Example feeds being processed
 
-These feeds on hosted in the rss/ directory of the [auto-commit branch](https://github.com/yinan-c/RSS-GPT/tree/auto-commit) of this repo in order to separate the manually committed content from the automatically committed content for easier checking and merging updates to your repo.
-You can check out the [CHANGELOG.md](CHANGELOG.md) for more details about this update on 2023-09-19.
-
-The feeds are also on my [GitHub Pages](https://yinan.me/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
+These feeds on hosted in the [`doc/` subdirectory](https://github.com/yinan-c/RSS-GPT/tree/main/docs) in this repo as well as on my [GitHub Pages](https://yinan.me/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
