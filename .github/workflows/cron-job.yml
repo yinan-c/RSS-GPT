@@ -12,7 +12,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    if: ${{ github.ref == 'refs/heads/auto-commit' }}
     # The type of runner that the job will run on
     runs-on: ubuntu-20.04
 
