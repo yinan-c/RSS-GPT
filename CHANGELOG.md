@@ -1,5 +1,8 @@
 # CHANGELOG
 
+- 2023-09-20:
+  - GitHub Pages destination url is no longer needed to be set manually in `main.py`. Instead, the script directly get the username from repo secrets and concatenate it to `https://username.github.io/repo_name/`. You will still need to manually change the repo name used in the script if you forked this repo and renamed it.
+
 - 2023-09-19:
   - I have created a new branch and put all auto commits in that branch. You can check it out [here](https://github.com/yinan-c/RSS-GPT/tree/auto-commit). The main branch will only contain manual commits from now on, so that you can easily check out the changes of the script and merge it to your repo.
   - Updated the GitHub Pages destination url from `./_site/rss/` to `./_site/` in the workflow file. The feeds are now hosted in the `your_path/RSS-GPT` instead of the `rss/` subdirectory. Updated the feeds links in README.

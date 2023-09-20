@@ -37,8 +37,6 @@
 
 - 在 `config.ini` 中配置你的RSS订阅源
 
-- 把 `main.py` 中的链接改成你自己的 GitHub Pages 链接。
-
 也可以参考更详细的[中文教程](https://yinan.me/rss-gpt-manual-zh.html)。
 
 ## 分享几条本项目处理后的 RSS 订阅源

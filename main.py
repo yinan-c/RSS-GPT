@@ -286,6 +286,8 @@ secs = config.sections()
 max_entries = 1000
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+U_NAME = os.environ.get('U_NAME')
+deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
 summary_length = int(get_cfg('cfg', 'summary_length'))
@@ -306,7 +308,7 @@ for x in secs[1:]:
     output(x, language=language)
     feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
     feeds.append(feed)  # for rendering index.html
-    links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> https://yinan-c.github.io/RSS-GPT/" + feed['name'] + ".xml\n")
+    links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> " + deployment_url + feed['name'] + ".xml\n")
     if readme_lines[-1].startswith("- "):
         readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
 
