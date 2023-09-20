@@ -38,6 +38,7 @@ jobs:
           ls -al docs/
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          U_NAME: ${{ secrets.U_NAME }}
              
       - name: PUSH
         env:
