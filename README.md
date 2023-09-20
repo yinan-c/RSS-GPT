@@ -1,14 +1,17 @@
 # RSS-GPT
 
-![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/dev?label=updated)
-[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/cron-job.yml?label=cron-job)](https://github.com/yinan-c/RSS-GPT/actions/workflows/cron-job.yml)
-[![](https://img.shields.io/github/actions/workflow/status/yinan-c/RSS-GPT/jekyll-gh-pages.yml?label=GitHub%20Pages)](https://github.com/yinan-c/RSS-GPT/actions/workflows/jekyll-gh-pages.yml)
-![](https://img.shields.io/github/stars/yinan-c/RSS-GPT)
+[![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/dev?label=updated)](https://github.com/yinan-c/RSS-GPT/tree/dev)
+[![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=feeds%20refreshed)](https://yinan-c.github.io/RSS-GPT/)
+[![](https://img.shields.io/github/license/yinan-c/RSS-GPT)](https://github.com/yinan-c/RSS-GPT/blob/master/LICENSE)
 
 
-[Configuration Guide](https://yinan-c.github.io/rss-gpt-manual-en.html) | [中文介绍](README-zh.md) | [中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html)
+## What is this?
 
-## Features
+[Configuration Guide](https://yinan-c.github.io/rss-gpt-manual-en.html) | [中文简介](README-zh.md) | [中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html)
+
+Using GitHub workflow to run a simple Python script repeatly, Calling OpenAI API to generate summaries for RSS feeds, and then push the generated feeds to GitHub Pages. Easy to configure, no server needed.
+
+### Features
 
 - Use ChatGPT to summarize RSS feeds, and attach summaries to the original articles, support custom summary length and target language.
 - Aggregate multiple RSS feeds into one, remove duplicate articles, subscribe with a single address.
