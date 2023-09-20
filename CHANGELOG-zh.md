@@ -1,6 +1,7 @@
 # 更新日志
 - 2023-09-20:
   - GitHub Pages 地址不再需要手动在 `main.py` 中设置，而是直接从 repo secrets 中获取用户名，然后拼接成 `https://username.github.io/repo_name/` 的形式。如果你 fork 了本项目并重命名了仓库，你仍然需要手动修改 url 中的仓库名。
+  - 我移除了 GitHub workflow 部署 GitHub Pages 的部分，改为直接从某个分支部署，因为 GitHub workflow 部署可能会出报错，可能是因为部署分支不是默认分支的原因。
 
 - 2023-09-19:
   - 我创建了一个新的分支，把所有自动提交的内容放在那个分支里。你可以在[这里](https://github.com/yinan-c/RSS-GPT/tree/auto-commit)查看。主分支从现在开始只包含手动提交的内容，这样可以更容易地查看脚本更新并 merge 到你的仓库中。

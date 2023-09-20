@@ -25,7 +25,7 @@ Check out the [CHANGELOG.md](CHANGELOG.md) for the latest changes.
     - U_EMAIL: your GitHub email
     - WORK_TOKEN: your GitHub personal access with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
     - OPENAI_API_KEY: your OpenAI API key, get it from [OpenAI website](https://platform.openai.com/account/api-keys)
-- Enable GitHub Actions to deploy GitHub Pages in repo settings
+- Enable GitHub Pages in repo settings, choose the `auto-commit` branch `/docs` folder as source.
 - Configure your RSS feeds in config.ini
 
 You can check out [here](https://yinan.me/rss-gpt-manual-en.html) for a more detailed configuration guide.

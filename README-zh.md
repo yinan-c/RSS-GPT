@@ -26,14 +26,11 @@
 - 添加仓库 Secrets
 
     - U_NAME: 你的 GitHub 用户名
-
     - U_EMAIL: 你的 GitHub 邮箱
-
     - WORK_TOKEN: 你的 GitHub 个人访问令牌, 需要有 `repo` 和 `workflow` 权限。在 [GitHub 设置](https://github.com/settings/tokens/new)获取
-
     - OPENAI_API_KEY: 你的 OpenAI API 密钥, 在 [OPENAI 网站](https://platform.openai.com/account/api-keys)获取
 
-- 在仓库设置中启用 GitHub Actions 部署 GitHub Pages
+- 在仓库设置中启用 GitHub Pages, 选择 `auto-commit` 分支 `/docs` 文件夹作为源。
 
 - 在 `config.ini` 中配置你的RSS订阅源
 
