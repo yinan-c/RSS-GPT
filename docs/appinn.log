@@ -2014,3 +2014,11 @@ Append: [SVP登录iOS](https://meta.appinn.net/t/topic/47636)
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-09-21 04:12:52.536265
+------------------------------------------------------
+Started: 2023-09-21 06:14:23.269301
+Existing_entries: 85
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-21 06:14:27.466055

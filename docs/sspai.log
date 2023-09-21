@@ -3144,3 +3144,12 @@ Existing_entries: 38
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-21 04:12:52.956306
+------------------------------------------------------
+Started: 2023-09-21 06:14:27.784486
+Existing_entries: 38
+Fetching from https://rsshub.app/sspai/index
+Token length: 10821
+Summarized using GPT-3.5-turbo-16k
+Append: [图标设计知往鉴今：致敬 Apple 初代设计师 Susan Kare](https://sspai.com/post/82739)
+append_entries: 1
+Finish: 2023-09-21 06:14:37.536589
