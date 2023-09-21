@@ -2057,3 +2057,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【自荐】一款树状管理计划和清单的软件：一树清单](https://meta.appinn.net/t/topic/42966)
 append_entries: 1
 Finish: 2023-09-21 14:10:33.020170
+------------------------------------------------------
+Started: 2023-09-21 16:13:00.776542
+Existing_entries: 88
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-09-21 16:13:04.623360
