@@ -5,11 +5,34 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>P2P 下载软件</title>
+<link>https://meta.appinn.net/t/topic/41076</link>
+<guid>https://meta.appinn.net/t/topic/41076</guid>
+<content:encoded><![CDATA[
+
+<p>我从真正接触 P2P 下载几乎只用过 <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/">qBittorrent-EE</a> 和 <a href="https://f-droid.org/packages/org.proninyaroslav.libretorrent/">libretorrent</a> 两款BT软件，大家在什么设备上使用什么软件呢？</p>
+<p>推荐模板：</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
+<ul>
+<li>软件or源码网址：</li>
+<li>开源&amp;付费情况：</li>
+<li>应用平台：Linux，Windows，MacOS，iOS，Android，BSD，etc.</li>
+<li>特色简介：标签系统、扫描指定目录、轻量快速、RSS订阅、自动化、反吸血，etc.</li>
+<li>（选）本论坛中过去提到该软件的讨论链接</li>
+</ul>
+            <p><small>10 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41076">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 26 Feb 2023 15:09:49 +0000</pubDate>
+<updated>Sun, 26 Feb 2023 15:09:49 +0000</updated>
+</item>
+
+<item>
 <title>【开源工具推荐】Heroic Games Launcher：开源第三方Epic、GOG和Amazon 游戏启动器，支持 Linux、Windows和 macOS 平台</title>
 <link>https://meta.appinn.net/t/topic/47648</link>
 <guid>https://meta.appinn.net/t/topic/47648</guid>
 <content:encoded><![CDATA[
-
 <h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
 <p>Heroic Games Launcher</p>
 <h1><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h1>
@@ -49,9 +72,7 @@
             <p><a href="https://meta.appinn.net/t/topic/47648">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 21 Sep 2023 08:09:05 +0000</pubDate>
-<updated>Thu, 21 Sep 2023 08:09:05 +0000</updated>
 </item>
-
 <item>
 <title>SVP登录iOS</title>
 <link>https://meta.appinn.net/t/topic/47636</link>

@@ -1541,3 +1541,12 @@ Existing_entries: 59
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-21 08:14:22.550987
+------------------------------------------------------
+Started: 2023-09-21 10:11:46.897688
+Existing_entries: 59
+Fetching from https://www.ifanr.com/feed
+Token length: 5127
+Summarized using GPT-3.5-turbo-16k
+Append: [蔚来手机 NIO Phone 发布，不能换电成最大缺点](https://www.ifanr.com/1562811?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-09-21 10:12:00.884638
