@@ -4,6 +4,49 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】一款树状管理计划和清单的软件：一树清单</title>
+<link>https://meta.appinn.net/t/topic/42966</link>
+<guid>https://meta.appinn.net/t/topic/42966</guid>
+<content:encoded><![CDATA[
+
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>一树清单</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Windows / macOS / Linux</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句话简介</h2>
+<p>一树清单是一款简单方便的清单类软件，通过用树状管理的方式，用树形结构管理清单或者计划，方便操作与整理。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>虽然现在计划/清单类软件已经够多了，目前市面上真的很少有软件用树形管理计划或清单什么的，基本上都只是一个列表，但是对于比较复杂的计划，例如整个人生的计划，我认为必须用树形结构才能够理清所有计划的关系，因此我就做了这么一个软件，一树清单。目前我完成了Windows+MacOS+Linux平台，手机端还没做，后面会做的。<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/6/f6c230175b56ba92dc4b57a991cfca4a15d78fd6.png" title="image"><img alt="image" height="499" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f6c230175b56ba92dc4b57a991cfca4a15d78fd6_2_387x499.png" width="387" /></a></div><br />
+这个软件怎么用呢，首先你在“未完成清单”这里新建一个清单：<br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/3/c3eaa001d35934dcf19be4fc64673652508859ec.jpeg" title="image"><img alt="image" height="315" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/3/c3eaa001d35934dcf19be4fc64673652508859ec_2_690x315.jpeg" width="690" /></a></div><br />
+然后你编辑这个清单，写什么都行，但一定都是人生清单的子清单或者子子清单，这里是有我的哲学考虑的，因为你做的每一件事都是你人生清单里的一部分，如果一个计划不在你的人生计划里，那么你为什么要做这个计划呢？对吧。<p></p>
+<p>然后你可以任意编辑这个条目，可以设定日期，添加进度，对勾按钮表示这个计划以完成，将自动归属到“已结束计划”，叉号代表这个计划不做了，也同样会被转移到“已结束计划”。</p>
+<p>如果你想重点做某一个计划，你可以点击火焰图标，然后这个计划将加上一个红色的火焰标识，并自动移动到“热点计划”：<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/6/f6c213ef27f059e96a42aa3f709dacacb5984570.jpeg" title="image"><img alt="image" height="395" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f6c213ef27f059e96a42aa3f709dacacb5984570_2_690x395.jpeg" width="690" /></a></div><br />
+然后你就可以开开心心的执行计划了，注意这里虽然能设定时间（就是那个日历图标按钮），但是我并没有将该软件设计成按天执行的，即每天都必须做完什么，这也是出于我的哲学考虑，在我们执行计划的时候，总会出现过快做完或者遇到什么阻碍导致延期，我们只要在截止期限前做完即可，每天必须做完什么只会给我们徒增焦虑烦恼，因此我设计了一个“热点计划”而不是“每日计划”，我认为以“每天”为单位拆分任务不太好，以“子任务”拆分任务就足够了。<p></p>
+<p>另外，我在软件右边添加了一个“方法栏”，执行计划肯定是需要方法的，例如学习外语的时候总结的背单词的方法什么的。我自己也总结过许多方法，但是我发现一个问题，那就是易忘，把方法总结在文档里，或者笔记软件里，我不会主动去看它，久而久之就被遗忘了，然后我又从头写新方法。。。因此我在软件右边加了这个计划框，写进去的文字都会自动保存，这样每当看计划的时候，都能顺便瞟一眼方法，这也是出于我的使用考虑吧。</p>
+<p>目前软件还相当简陋，如果你感觉不错的话，欢迎试用，可以从这个<img alt=":point_down:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/point_down.png?v=12" title=":point_down:" width="20" />网址下载。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>官方网站</h2>
+<p><a href="http://xopenbeta.com/project/%E4%B8%80%E6%A0%91%E6%B8%85%E5%8D%95" rel="noopener nofollow ugc">一树清单 (xopenbeta.com)</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>联系方式</h2>
+<p>有什么问题可以加QQ群：754279610</p>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/42966">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 20 Apr 2023 16:28:24 +0000</pubDate>
+<updated>Thu, 20 Apr 2023 16:28:24 +0000</updated>
+</item>
 
 <item>
 <title>P2P 下载软件</title>
