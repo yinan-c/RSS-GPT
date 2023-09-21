@@ -2005,3 +2005,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-21 02:16:31.967637
+------------------------------------------------------
+Started: 2023-09-21 04:12:48.707374
+Existing_entries: 84
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [SVP登录iOS](https://meta.appinn.net/t/topic/47636)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-09-21 04:12:52.536265
