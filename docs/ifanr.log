@@ -1595,3 +1595,12 @@ Existing_entries: 61
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-22 00:49:01.944807
+------------------------------------------------------
+Started: 2023-09-22 02:17:33.233769
+Existing_entries: 61
+Fetching from https://www.ifanr.com/feed
+Token length: 5199
+Summarized using GPT-3.5-turbo-16k
+Append: [早报｜余承东升任华为车 BU 董事长 / 苹果自研调制解调器受挫 / 蔚来 NIO Phone 手机 6499 元起](https://www.ifanr.com/1562882?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-09-22 02:17:41.497827
