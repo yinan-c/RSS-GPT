@@ -1604,3 +1604,15 @@ Summarized using GPT-3.5-turbo-16k
 Append: [早报｜余承东升任华为车 BU 董事长 / 苹果自研调制解调器受挫 / 蔚来 NIO Phone 手机 6499 元起](https://www.ifanr.com/1562882?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-09-22 02:17:41.497827
+------------------------------------------------------
+Started: 2023-09-22 04:12:34.101319
+Existing_entries: 62
+Fetching from https://www.ifanr.com/feed
+Token length: 1576
+Summarized using GPT-3.5-turbo
+Append: [这家公司聘请了人类历史上第一位 AI CEO](https://www.ifanr.com/1562888?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 2992
+Summarized using GPT-3.5-turbo
+Append: [仰望 U8 售价公布：109.8 万元，给你纯电时代的「V12」](https://www.ifanr.com/1562787?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-09-22 04:12:50.730298
