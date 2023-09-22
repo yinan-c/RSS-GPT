@@ -3241,3 +3241,21 @@ Fetching from https://rsshub.app/sspai/index
 Feed error: 404
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2023-09-22 10:12:06.634772
+Existing_entries: 40
+Fetching from https://rsshub.app/sspai/index
+Token length: 2757
+Summarized using GPT-3.5-turbo
+Append: [全盘改造，「表」现大不同：watchOS 10 值得关注的新特性](https://sspai.com/post/83143)
+Token length: 5075
+Summarized using GPT-3.5-turbo-16k
+Append: [好想大声说「AI」它：Adobe Firefly 使用体验与指南](https://sspai.com/post/83138)
+Token length: 6052
+Summarized using GPT-3.5-turbo-16k
+Append: [派早报：微软发布多款新品等](https://sspai.com/post/83137)
+Token length: 4926
+Summarized using GPT-3.5-turbo-16k
+Append: [奥本海默没看够？这 8 部人物传记电影让你更了解他们](https://sspai.com/post/83098)
+append_entries: 4
+Finish: 2023-09-22 10:12:47.589516
