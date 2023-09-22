@@ -3259,3 +3259,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [奥本海默没看够？这 8 部人物传记电影让你更了解他们](https://sspai.com/post/83098)
 append_entries: 4
 Finish: 2023-09-22 10:12:47.589516
+------------------------------------------------------
+Started: 2023-09-22 12:20:18.368082
+Existing_entries: 44
+Fetching from https://rsshub.app/sspai/index
+Token length: 8029
+Summarized using GPT-3.5-turbo-16k
+Append: [本周看什么 | 最近值得一看的一大匣作品](https://sspai.com/post/83155)
+append_entries: 1
+Finish: 2023-09-22 12:20:29.967786
