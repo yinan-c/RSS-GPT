@@ -4,6 +4,53 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【浏览器扩展】哔哩哔哩字幕列表，高效获取视频文本信息</title>
+<link>https://meta.appinn.net/t/topic/39462</link>
+<guid>https://meta.appinn.net/t/topic/39462</guid>
+<content:encoded><![CDATA[
+
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>开源地址</h2>
+<p><a href="https://github.com/IndieKKY/bilibili-subtitle" rel="noopener nofollow ugc">github 开源地址</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>介绍</h2>
+<p>众所周知，从视频中获取信息的效率很低，而阅读文字则更加高效可控，因此做了这个浏览器扩展。</p>
+<p>它可以显示视频对应的字幕列表，点击可跳转视频对应位置，比较适合知识学习类的视频。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>常见问题</h2>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-1-4" name="h-1-4"></a>1. 显示在哪里？</h3>
+<p>显示在屏幕右侧弹幕列表上方，多了字幕列表。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-2-5" name="h-2-5"></a>2. 哪些视频可以显示字幕？</h3>
+<p>大部分视频(视频地址类似 <a href="https://www.bilibili.com/video/BV1YP4y1Q7nZ" rel="noopener nofollow ugc">https://www.bilibili.com/video/BV1YP4y1Q7nZ</a> )都可以显示字幕。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-3-6" name="h-3-6"></a>3. 字幕来源？</h3>
+<p>字幕是视频自带的，少数视频未带有字幕，就无法显示。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>下载</h2>
+<ol>
+<li><a href="https://chrome.google.com/webstore/detail/bciglihaegkdhoogebcdblfhppoilclp" rel="noopener nofollow ugc">chrome 商店(需要梯子)</a></li>
+<li><a href="https://www.crxsoso.com/webstore/detail/bciglihaegkdhoogebcdblfhppoilclp" rel="noopener nofollow ugc">扩展搜搜(国内可访问)</a></li>
+</ol>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>联系</h2>
+<p><a href="https://jq.qq.com/?_wv=1027&amp;k=n899aOiF" rel="noopener nofollow ugc">QQ 交流群 194536885</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>截图</h2>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a>弹幕列表上方多了字幕列表：</h3>
+<p><img alt="" height="" src="https://i.imgur.com/VmY5XGr.jpg" width="" /></p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a>展开字幕列表：</h3>
+<p><img alt="" height="" src="https://i.imgur.com/JMGhiUp.jpg" width="" /></p>
+            <p><small>18 个帖子 - 9 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39462">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 07 Jan 2023 14:30:28 +0000</pubDate>
+<updated>Sat, 07 Jan 2023 14:30:28 +0000</updated>
+</item>
 
 <item>
 <title>【自荐】一款树状管理计划和清单的软件：一树清单</title>

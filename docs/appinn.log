@@ -2089,3 +2089,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-21 22:09:47.212162
+------------------------------------------------------
+Started: 2023-09-22 00:49:03.237763
+Existing_entries: 88
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【浏览器扩展】哔哩哔哩字幕列表，高效获取视频文本信息](https://meta.appinn.net/t/topic/39462)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-09-22 00:49:07.596835
