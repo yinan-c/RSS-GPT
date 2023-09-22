@@ -3268,3 +3268,9 @@ Summarized using GPT-3.5-turbo-16k
 Append: [本周看什么 | 最近值得一看的一大匣作品](https://sspai.com/post/83155)
 append_entries: 1
 Finish: 2023-09-22 12:20:29.967786
+------------------------------------------------------
+Started: 2023-09-22 14:10:05.475330
+Existing_entries: 45
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-09-22 14:10:05.649119
