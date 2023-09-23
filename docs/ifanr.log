@@ -1694,3 +1694,15 @@ Existing_entries: 66
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-23 04:12:15.374299
+------------------------------------------------------
+Started: 2023-09-23 06:13:01.120443
+Existing_entries: 66
+Fetching from https://www.ifanr.com/feed
+Token length: 4915
+Summarized using GPT-3.5-turbo-16k
+Append: [从多巴胺到美拉德，小红书潮流的尽头是优衣库](https://www.ifanr.com/1562288?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 4670
+Summarized using GPT-3.5-turbo-16k
+Append: [李佳琦风波还没平息， 24 小时工作的 AI 主播已席卷直播间](https://www.ifanr.com/1562964?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-09-23 06:13:18.023733
