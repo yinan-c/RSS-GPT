@@ -43,4 +43,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://www.ifanr.com/feed -> https://yinan-c.github.io/RSS-GPT/ifanr.xml
 - https://brett.trpstra.net/brettterpstra -> https://yinan-c.github.io/RSS-GPT/brett-terpstra.xml
 - https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/appinn.xml
-- https://feedx.net/rss/infzm.xml -> https://hanilbert.github.io/RSS-GPT/nfzm.xml
+- https://1q43.blog/feed -> https://hanilbert.github.io/RSS-GPT/hx.xml
