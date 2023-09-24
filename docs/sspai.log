@@ -3424,3 +3424,12 @@ Existing_entries: 47
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-24 14:08:34.941800
+------------------------------------------------------
+Started: 2023-09-24 16:12:27.535453
+Existing_entries: 47
+Fetching from https://rsshub.app/sspai/index
+Token length: 30
+Summarized using GPT-3.5-turbo
+Append: [点一下能解决的事就别长按：Android 应用快捷方式面面观](https://sspai.com/post/83159)
+append_entries: 1
+Finish: 2023-09-24 16:12:39.231433
