@@ -3397,3 +3397,12 @@ Existing_entries: 46
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-24 06:13:10.365444
+------------------------------------------------------
+Started: 2023-09-24 08:12:31.321159
+Existing_entries: 46
+Fetching from https://rsshub.app/sspai/index
+Token length: 4169
+Summarized using GPT-3.5-turbo
+Append: [增加保修次数和年度订阅，这个 Apple 产品保险服务更划算了：AppleCare+ 详解](https://sspai.com/post/62824)
+append_entries: 1
+Finish: 2023-09-24 08:12:39.007502
