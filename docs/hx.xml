@@ -4,6 +4,193 @@
 <title>虹线</title>
 <link>https://1q43.blog</link>
 
+<item>
+<title>从 Galaxy Watch 迁移到 Apple Watch 了</title>
+<link>https://1q43.blog/post/1513</link>
+<guid>https://1q43.blog/post/1513</guid>
+<content:encoded><![CDATA[
+<div> 三星手表, Apple Watch, wearOS, Galaxy Watch, 自我量化测量<br><br>总结: 这篇文章总结了作者从使用 Android 手机配合智能手表到转向使用 Apple Watch 的经历。作者认为三星手表的硬伤和锁区问题使其不再可取，转而选择了Apple Watch。作者介绍了在Android系统上使用的自我量化工具Welltory，以及如何将三星健康数据迁移到苹果健康。最后，作者分享了如何将Apple Watch与Android手机配对使用的方法。 <div>
+<p>多年来，我一直使用 Android 机做主力机，原因是 Android 旗舰的拍照基本从 2016 年起就远远超过 iPhone 了。</p>
+
+
+
+<p>但这带来的一个额外的问题是，Android 阵营的智能手表/智能手环一直缺少与 Apple Watch 抗衡的产品。在 2018 年告别 Fitbit 之后，我转向了 Galaxy Watch，因为在当时这几乎是市面上能买到的最好的与 Android 手机配对的智能手表。</p>
+
+
+
+<p>这一用就是 4 年，直到今年我抛弃了 Galaxy Watch 4 转向了 Apple Watch S9。</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1523" height="768" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/crs22u-20230923-212627306-616227-YaLicq2v.jpg?resize=1024%2C768&#038;ssl=1" width="1024" /><figcaption class="wp-element-caption">新买的 Apple Watch s9 和即将退役的 Galaxy Watch 4</figcaption></figure>
+
+
+
+<p>换机的理由有三个，一个是三星近年来在 Watch 系列上持续挤牙膏，Galaxy Watch 4、5、6 的差异可以说是微乎其微。然而，Galaxy Watch 虽然可以说是最好的 wearOS 手表，但硬伤仍然很多，挤牙膏而不改缺陷是完全不可忍受的。</p>
+
+
+
+<p>其二是三星在 Galaxy Watch 系列上的锁区愈发严重，如果你想在手表上用 Google Play，就需要买水货手表或将国行手表刷成外版系统。而让人无法理解的是，三星禁止了国行手机与外版手表之间的配对。这种锁区不止面向三星自己的手机，甚至涵盖其他手机品牌。</p>
+
+
+
+<p>也就是说，Galaxy Watch 外版手表，甚至没法与国行的小米手机配对。但你要从哪能买到水货的小米手机呢？</p>
+
+
+
+<p>因此，在很长一段时间里我为了使用 外版 Galaxy Watch 都不得不带三个手机：Android主力旗舰、iPhone副机、专门与 Galaxy Watch同步的水货小Android。</p>
+
+
+
+<p>最后一个因素是 Galaxy Watch 的质量真的不太行，我分别用过 Galaxy Watch 3 和 4，两个都是基本一年就坏。而京东对 Galaxy Watch 又是只换不修，以至于我其实用过两块 Galaxy Watch 3（坏过一次），三块 Galaxy Watch 4（坏过两次），非常离谱。</p>
+
+
+
+<p>在以上三重因素的作用下，当 Apple Watch S9 发布的时候，我毫不犹豫的下单了。</p>
+
+
+
+<h2 class="wp-block-heading">为什么之前不换 Apple Watch？</h2>
+
+
+
+<p>这个问题很奇怪，因为应该在上一段之前写。但是之所以在这写，是因为想总结一下 wearOS 的好处。</p>
+
+
+
+<p>wearOS 的数据可携带性比 Apple Watch 要好不少，在 Google Play 上你能够找到许多将不同品牌、产品的健康数据相互转移的应用。包括这次我顺利地将三星健康的数据迁移到苹果健康，也是拜这个特性所赐，后面我会讲如何做。</p>
+
+
+
+<p>但除此之外，Galaxy Watch 4 版本开始使用 wearOS 作为操作系统之后，它还具备了一个和 Android 一样的重要特性，就是后台多任务（这也是我不用 iPhone 当主力机的原因之一）。</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1515" height="1024" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/image-editor-output-image-1918593172-1695475219659-068439-pBt7YXHp.jpg?resize=492%2C1024&#038;ssl=1" width="492" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1517" height="1024" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/screenshot-20230923-211756-welltory-821226-dxskoXBh.jpg?resize=478%2C1024&#038;ssl=1" width="478" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1518" height="894" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/image-editor-output-image-1035515551-1695475291094-292181-1M0t3oFB.jpg?resize=522%2C894&#038;ssl=1" width="522" /></figure>
+</figure>
+
+
+
+<p>在使用 Galaxy Watch 期间，我会使用一个名为 <a href="https://welltory.com/" rel="noreferrer noopener" target="_blank">Welltory</a> 的应用监测我的健康状况。Welltory 是我这些年用过的最好的自我量化工具，它真正实现了对数据进行有用的分析。</p>
+
+
+
+<p>这个 App 的工作原理，是在进行 HRV 测量时，分析你整体的健康状况，并将之拆分成 Stress（压力）、Energy（精力）和 Health（健康）三个数值维度。</p>
+
+
+
+<p>这个应用非常好用，尤其是在调整生活方式的时候，有时候能帮助你发现自己没有注意到的情况。</p>
+
+
+
+<p>比如，我就发现我起床后立刻吃早饭，和一个半小时到公司后再吃早饭，对整个上午的精力影响是非常大的。除此之外，也在 Welltory 里验证了吃碳水会让我的压力变大这个主观感觉。</p>
+
+
+
+<p>它还会对所有接入的要素进行交叉分析，比如它发现了当我运动更多的时候，我的工作效率更高（通过接入 <a href="https://www.rescuetime.com/" rel="noreferrer noopener" target="_blank">RescueTime</a> 记录工作效率）。</p>
+
+
+
+<p>Welltory 应用在 wearOS 和 Apple Watch 上都有，但只有在前者才会在空闲时自动测量，而在 Apple Watch 上只能手动发起测量。</p>
+
+
+
+<p>尝试过自我量化的朋友都知道，无感测量是自我量化中的重要影响因素，如果不能做到无感测量拿从长远来看都会给自己带来麻烦。</p>
+
+
+
+<p>在使用 Galaxy Watch 的时候，我完全不用去想什么时候测量，反正它每隔一小时会自动测量一次，我只需要在我想看的时候去看看测量报告就可以了。但在 Apple Watch 上，它需要你手工点一下“呼吸”，然后 Welltory 才会读数。</p>
+
+
+
+<p>这在某种程度上会失去它作为生活方式调整器的作用，因为我只有想起来的时候才去测量，就无法收集到足够多的身体变化数据。</p>
+
+
+
+<p>所以，这么看来，Apple Watch 可能只是我暂时的选择，如果过两年 wearOS 领域天降神器或者三星决定在 Galaxy Watch 上把牙膏踩爆，那我可能还是会换回去的。</p>
+
+
+
+<h2 class="wp-block-heading">将数据从三星健康迁移到苹果健康</h2>
+
+
+
+<p>对于一个真正的自我量化爱好者来说，肯定不能因为买个新设备就把老数据丢了。那么，如何将过去 4 年使用 Galaxy Watch 的数据迁移到 Apple Watch 去呢？</p>
+
+
+
+<p>网上你能找到的资料，基本上都是告诉你在 iPhone 上下载一个三星健康，登陆自己的账号，然后把读写苹果健康的权限打开。但这个方法根本无效，iOS 版的三星健康已经很久没更新了，它也无法把除步数以外的数据写入苹果健康。</p>
+
+
+
+<p>如果你想要将三星健康里所有运动数据、营养摄入数据、身体成分数据、体温数据、血氧数据和血压数据都迁移到苹果健康，有且仅有的唯一方法是使用一个名为 <a href="https://www.fitnesssyncer.com/" rel="noreferrer noopener" target="_blank">FitnessSyncer</a> 的第三方应用。</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1521" height="1024" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/screenshot-20230923-211306-fitnesssyncerforandroid-171566-G2dezgM5.jpg?resize=478%2C1024&#038;ssl=1" width="478" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1519" height="1024" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/screenshot-20230923-211309-fitnesssyncerforandroid-437606-nHJhXL95.jpg?resize=478%2C1024&#038;ssl=1" width="478" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-1520" height="1024" src="https://i0.wp.com/1q43.blog/wp-content/uploads/2023/09/screenshot-20230923-211327-fitnesssyncerforandroid-342936-uxmhUAtU.jpg?resize=478%2C1024&#038;ssl=1" width="478" /></figure>
+</figure>
+
+
+
+<p class="has-text-align-center">FitnessSyncer 非常简陋，除了数据迁移没有任何其他功能</p>
+
+
+
+<p>你只需要在你安装三星健康的 Android 手机上下载这个应用，然后在你准备接收的 iPhone 上下载这个应用，两边登陆同一个账号。先操作 Android 端把所有数据传到 FitnessSyncer 服务器，再操作 iPhone 端把服务器上的数据写回 iPhone 就可以了。</p>
+
+
+
+<p>好的，介绍完了，其实有的时候就是缺少人把这个关键的应用名说出来。不过，这是个外国 App，随着 App 备案制的推行，应该会从 App Store 下架，所以你需要外服 App Store 账号和 Google Play 账号。</p>
+
+
+
+<p>除此之外，这个 App 是收费的，采用订阅制，每月 28 元。你只要买一个月，倒腾完了退订就行了。</p>
+
+
+
+<h2 class="wp-block-heading">如何将 Apple Watch 与 Android 手机搭配使用</h2>
+
+
+
+<p>换用 Apple Watch 之后最大的问题肯定还是与 Android 主力机的配合问题。配对是肯定不可能配对的，但通知功能是可以实现的。</p>
+
+
+
+<p>我们可以将 Android 手机上的通知转发到 iPhone 上，然后再间接推送到 Apple Watch 上</p>
+
+
+
+<p>这里需要两个 App，分别是在 Android 上将通知转出去的 <a href="https://github.com/pppscn/SmsForwarder" rel="noreferrer noopener" target="_blank">SmsForwarder</a>，然后是在 iPhone 上做接收的 <a href="https://github.com/pppscn/SmsForwarder" rel="noreferrer noopener" target="_blank">Bark</a>。</p>
+
+
+
+<p>两者虽然都需要一些配置，但官方都给了比较清晰的文档，所以在这里我也就不重复了。从实际效果来看，通知转发的延时基本会在 3 秒以内。</p>
+
+
+
+<p>如果你使用的是蜂窝版 Apple Watch，那你甚至不需要将 iPhone 带在身边，那约等于就是将 Apple Watch 与 Android 手机配对了。</p>
+]]></content:encoded>
+<pubDate>Sat, 23 Sep 2023 13:30:15 +0000</pubDate>
+<updated>Sat, 23 Sep 2023 13:30:15 +0000</updated>
+</item>
 
 <item>
 <title>房地产市场与农业人口的拮抗关系</title>
