@@ -1832,3 +1832,12 @@ Existing_entries: 70
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-24 22:09:18.037761
+------------------------------------------------------
+Started: 2023-09-25 00:49:56.539440
+Existing_entries: 70
+Fetching from https://www.ifanr.com/feed
+Token length: 4686
+Summarized using GPT-3.5-turbo-16k
+Append: [早报｜苹果追加 iPhone 15 Pro Max 订单 / 华为今天举行新品发布会 / 12306 回应压票再分批放票](https://www.ifanr.com/1563138?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-09-25 00:50:00.425768
