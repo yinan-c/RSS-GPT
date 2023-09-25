@@ -1841,3 +1841,15 @@ Summarized using GPT-3.5-turbo-16k
 Append: [早报｜苹果追加 iPhone 15 Pro Max 订单 / 华为今天举行新品发布会 / 12306 回应压票再分批放票](https://www.ifanr.com/1563138?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-09-25 00:50:00.425768
+------------------------------------------------------
+Started: 2023-09-25 02:18:44.917971
+Existing_entries: 71
+Fetching from https://www.ifanr.com/feed
+Token length: 2720
+Summarized using GPT-3.5-turbo
+Append: [特斯拉迎来技术新突破，低价车型不再是梦](https://www.ifanr.com/1563115?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 4100
+Summarized using GPT-3.5-turbo-16k
+Append: [蔚来为什么做 NIO Phone 手机？我找到这些答案](https://www.ifanr.com/1562927?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-09-25 02:19:03.870093
