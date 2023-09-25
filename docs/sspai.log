@@ -3487,3 +3487,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [出行锦囊 | 找到假期应有的惬意：聊聊攻略规划与星级酒店](https://sspai.com/post/83199)
 append_entries: 1
 Finish: 2023-09-25 08:14:47.915992
+------------------------------------------------------
+Started: 2023-09-25 10:11:45.135684
+Existing_entries: 50
+Fetching from https://rsshub.app/sspai/index
+Token length: 2406
+Summarized using GPT-3.5-turbo
+Append: [窗口内容钉选、跨设备使用鼠标：新版 PowerToys 这些功能值得一试](https://sspai.com/post/83105)
+append_entries: 1
+Finish: 2023-09-25 10:11:56.793254
