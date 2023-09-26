@@ -3574,3 +3574,12 @@ Existing_entries: 55
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-26 08:14:31.614821
+------------------------------------------------------
+Started: 2023-09-26 10:11:56.396904
+Existing_entries: 55
+Fetching from https://rsshub.app/sspai/index
+Token length: 6564
+Summarized using GPT-3.5-turbo-16k
+Append: [本月玩什么 | 往日之影、星空、巴别塔圣歌、「锈湖」新作……](https://sspai.com/post/83225)
+append_entries: 1
+Finish: 2023-09-26 10:12:04.461267
