@@ -1967,3 +1967,12 @@ Existing_entries: 77
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-26 12:21:02.345689
+------------------------------------------------------
+Started: 2023-09-26 14:10:50.977126
+Existing_entries: 77
+Fetching from https://www.ifanr.com/feed
+Token length: 5641
+Summarized using GPT-3.5-turbo-16k
+Append: [Mate 60 爆火之后，华为「大破大立」的新叙事](https://www.ifanr.com/1563360?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-09-26 14:11:03.421836
