@@ -3634,3 +3634,15 @@ Existing_entries: 57
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-27 02:18:15.863897
+------------------------------------------------------
+Started: 2023-09-27 04:12:44.990025
+Existing_entries: 57
+Fetching from https://rsshub.app/sspai/index
+Token length: 7836
+Summarized using GPT-3.5-turbo-16k
+Append: [除了出国，我们学习 GRE 还有什么用？](https://sspai.com/post/83125)
+Token length: 2928
+Summarized using GPT-3.5-turbo
+Append: [派早报：Nothing 子品牌 CMF 发布多款新品、Apple 推出全球开发者资源等](https://sspai.com/post/83243)
+append_entries: 2
+Finish: 2023-09-27 04:13:01.257142
