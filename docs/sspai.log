@@ -3658,3 +3658,15 @@ Existing_entries: 59
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-27 08:14:29.484946
+------------------------------------------------------
+Started: 2023-09-27 10:12:10.302535
+Existing_entries: 59
+Fetching from https://rsshub.app/sspai/index
+Token length: 8870
+Summarized using GPT-3.5-turbo-16k
+Append: [出去玩 | 现在就去征服大自然吧：自驾南姐洛徒步小记](https://sspai.com/post/82818)
+Token length: 4769
+Summarized using GPT-3.5-turbo-16k
+Append: [被实力吸引， 被乐趣圈粉：macOS Sonoma 中值得关注的新特性](https://sspai.com/post/83228)
+append_entries: 2
+Finish: 2023-09-27 10:12:24.490673

@@ -2039,3 +2039,15 @@ Existing_entries: 81
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-27 08:14:22.703547
+------------------------------------------------------
+Started: 2023-09-27 10:11:41.539887
+Existing_entries: 81
+Fetching from https://www.ifanr.com/feed
+Token length: 1720
+Summarized using GPT-3.5-turbo
+Append: [NASA 在宇宙探索 7 年，只为收集数百克「石头」](https://www.ifanr.com/1563512?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 1806
+Summarized using GPT-3.5-turbo
+Append: [苹果发布会上的「小配角」，其实内有乾坤](https://www.ifanr.com/1563505?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-09-27 10:12:04.803567
