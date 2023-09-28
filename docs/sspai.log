@@ -3742,3 +3742,12 @@ Existing_entries: 63
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-28 08:14:25.144997
+------------------------------------------------------
+Started: 2023-09-28 10:11:35.964574
+Existing_entries: 63
+Fetching from https://rsshub.app/sspai/index
+Token length: 1947
+Summarized using GPT-3.5-turbo
+Append: [在 iOS 找回你需要的「节假日闹钟」](https://sspai.com/post/75712)
+append_entries: 1
+Finish: 2023-09-28 10:11:44.185222
