@@ -3736,3 +3736,9 @@ Summarized using GPT-3.5-turbo
 Append: [我理想中的 AI 笔记软件设计：从 Notion、Tana 与 Mem 谈起](https://sspai.com/post/83198)
 append_entries: 1
 Finish: 2023-09-28 06:15:01.286236
+------------------------------------------------------
+Started: 2023-09-28 08:14:24.946287
+Existing_entries: 63
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-09-28 08:14:25.144997
