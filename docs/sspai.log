@@ -3727,3 +3727,12 @@ Summarized using GPT-3.5-turbo
 Append: [派早报：索尼发布新款无线麦克风、VSCO 推出桌面版服务等](https://sspai.com/post/83277)
 append_entries: 1
 Finish: 2023-09-28 04:12:59.316009
+------------------------------------------------------
+Started: 2023-09-28 06:14:51.740559
+Existing_entries: 62
+Fetching from https://rsshub.app/sspai/index
+Token length: 3991
+Summarized using GPT-3.5-turbo
+Append: [我理想中的 AI 笔记软件设计：从 Notion、Tana 与 Mem 谈起](https://sspai.com/post/83198)
+append_entries: 1
+Finish: 2023-09-28 06:15:01.286236
