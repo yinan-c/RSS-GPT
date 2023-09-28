@@ -3718,3 +3718,12 @@ Existing_entries: 61
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-09-28 02:17:36.987882
+------------------------------------------------------
+Started: 2023-09-28 04:12:46.867501
+Existing_entries: 61
+Fetching from https://rsshub.app/sspai/index
+Token length: 1001
+Summarized using GPT-3.5-turbo
+Append: [派早报：索尼发布新款无线麦克风、VSCO 推出桌面版服务等](https://sspai.com/post/83277)
+append_entries: 1
+Finish: 2023-09-28 04:12:59.316009
