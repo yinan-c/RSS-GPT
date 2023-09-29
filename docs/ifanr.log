@@ -2186,3 +2186,12 @@ Existing_entries: 88
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-09-29 02:17:38.410718
+------------------------------------------------------
+Started: 2023-09-29 04:13:22.884644
+Existing_entries: 88
+Fetching from https://www.ifanr.com/feed
+Token length: 3362
+Summarized using GPT-3.5-turbo-16k
+Append: [星巴克在中国耗资 15 亿打造的「超级工厂」，将改变你在喝的咖啡](https://www.ifanr.com/1563681?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-09-29 04:13:29.285094
