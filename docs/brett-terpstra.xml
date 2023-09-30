@@ -4,6 +4,39 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Historical weather for Journal CLI</title>
+<link>https://brett.trpstra.net/link/535/16373194/historical-weather-for-journal-cli</link>
+<guid>https://brett.trpstra.net/link/535/16373194/historical-weather-for-journal-cli</guid>
+<content:encoded><![CDATA[
+<div> 更新、命令行日志工具、历史天气数据、月相、数据收集、心情信息、翻译等<br><br>总结: 这篇文章介绍了命令行日志工具的更新内容，包括可以添加过去日期的自然语言参数，获取历史天气数据，以及跟踪月相等功能。作者对工具的使用感到满意，并愿意帮助他人提供更多帮助。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="fullmoon-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/09/fullmoon-rb.jpg" title="fullmoon-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>I pushed a couple updates to <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">Journal</a>, my command line journaling tool today.</p>
+
+<p>As a reminder, you can add a natural language argument to your journal command which will set the date of the entry, e.g. <code class="language-plaintext highlighter-rouge">journal mood "yesterday 8pm"</code>. This allows you to create entries in post with historical data you might have missed. One thing that it didn’t do well, though, is to get the <em>correct</em> weather for any weather type questions in the journal when using past dates. This latest update is able to get historical weather data and insert it correctly in the entry. No changes required for the user, just enter a past date and Journal will figure it out.</p>
+
+<p>Second, I’ve noticed my mood and sleep shifts with the moon phase. I’m not into astrology or anything, but that seemed like useful data to track and start to draw better conclusions from. So now a question type of <code class="language-plaintext highlighter-rouge">weather.forecast</code> will include the moon phase as a <code class="language-plaintext highlighter-rouge">moon_phase</code> key, and you can use <code class="language-plaintext highlighter-rouge">weather.moon</code> to get just the moon phase for its own entry. The forecast in Markdown will also now include the moon phase.</p>
+
+<p>That’s it, just tying up some loose ends. Journal is working pretty well for me to collect data and provide my therapist with detailed mood/behavior information. Let me know if there’s anything it doesn’t do that might help you out!</p>
+
+<p>The latest version can be installed with <code class="language-plaintext highlighter-rouge">gem install journal-cli</code>. Visit the <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">Journal</a> project page for more info.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F30%2Fhistorical-weather-for-journal-cli%2F&amp;text=Historical+weather+for+Journal+CLI&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F09%2F30%2Fhistorical-weather-for-journal-cli%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16373194.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-09-30T11:11:00-05:00</pubDate>
+<updated>2023-09-30T11:11:00-05:00</updated>
+</item>
 
 <item>
 <title>The CleanShot X giveaway winners!</title>
