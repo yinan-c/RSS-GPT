@@ -2423,3 +2423,9 @@ Summarized using GPT-3.5-turbo-16k
 Append: [在小红书，什么都可以成为「生活方式」](https://www.ifanr.com/1563788?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-10-02 06:14:54.512200
+------------------------------------------------------
+Started: 2023-10-02 08:14:40.177224
+Existing_entries: 91
+Fetching from https://www.ifanr.com/feed
+append_entries: 0
+Finish: 2023-10-02 08:14:41.640080

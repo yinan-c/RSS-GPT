@@ -4045,3 +4045,12 @@ Existing_entries: 70
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-02 06:15:00.230137
+------------------------------------------------------
+Started: 2023-10-02 08:14:48.823937
+Existing_entries: 70
+Fetching from https://rsshub.app/sspai/index
+Token length: 3830
+Summarized using GPT-3.5-turbo
+Append: [巧用 Word 邮件合并，半自动生成活动照片记录文档](https://sspai.com/post/83276)
+append_entries: 1
+Finish: 2023-10-02 08:14:59.249268
