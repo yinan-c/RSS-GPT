@@ -4060,3 +4060,12 @@ Existing_entries: 71
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-02 10:11:45.999922
+------------------------------------------------------
+Started: 2023-10-02 12:21:12.026069
+Existing_entries: 71
+Fetching from https://rsshub.app/sspai/index
+Token length: 3098
+Summarized using GPT-3.5-turbo
+Append: [面对危害性的网络谣言，我们就是父母最好的武器](https://sspai.com/post/83333)
+append_entries: 1
+Finish: 2023-10-02 12:21:25.512045
