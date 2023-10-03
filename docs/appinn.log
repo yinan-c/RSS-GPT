@@ -3207,3 +3207,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-10-03 12:21:18.021266
+------------------------------------------------------
+Started: 2023-10-03 14:10:48.049481
+Existing_entries: 94
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有没有一种可能，让Chromium内核的应用精简一下，调用系统中已经存在的内核？](https://meta.appinn.net/t/topic/43753)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-03 14:10:52.697588
