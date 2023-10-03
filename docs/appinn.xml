@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>有没有一种可能，让Chromium内核的应用精简一下，调用系统中已经存在的内核？</title>
 <link>https://meta.appinn.net/t/topic/43753</link>
 <guid>https://meta.appinn.net/t/topic/43753</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://www.appinn.com/cef-detector/">CEF Detector - 你的电脑上共有几个 Chromium 内核的应用？ - 小众软件 (appinn.com)</a><br />
 本讨论基于以上文章，我在想，java的应用，其实是可以精简掉JRE，然后使用系统中已经存在的JRE来运行的。那么像electron之类的Chromium 内核应用，能不能也把内核删掉，然后调用系统中已经有的内核呢？</p>
 <p>补充一下：我看回复大家好像误解了，我的意思不是从开发角度，而是从用户角度，比如我下载了一个electron应用，100+M，但是核心只有2M，其他都是chrome核心占的空间，那我删除掉该应用的chrome核心，用什么方式让它去调用系统中已经存在的chrome核心，同样可以跑起来呢。。</p>
@@ -17,9 +17,7 @@
             <p><a href="https://meta.appinn.net/t/topic/43753">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 18 May 2023 03:25:32 +0000</pubDate>
-<updated>Thu, 18 May 2023 03:25:32 +0000</updated>
 </item>
-
 <item>
 <title>七巧板大师 -- 传统七巧板和现代智力七巧板自由拼图App</title>
 <link>https://meta.appinn.net/t/topic/44851</link>
