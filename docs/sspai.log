@@ -4141,3 +4141,12 @@ Existing_entries: 74
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-03 10:12:11.114584
+------------------------------------------------------
+Started: 2023-10-03 12:21:18.736783
+Existing_entries: 74
+Fetching from https://rsshub.app/sspai/index
+Token length: 3324
+Summarized using GPT-3.5-turbo
+Append: [出行锦囊 | 出去玩带什么：和你分享我的包](https://sspai.com/post/83351)
+append_entries: 1
+Finish: 2023-10-03 12:21:32.676567
