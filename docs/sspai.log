@@ -4111,3 +4111,12 @@ Existing_entries: 72
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-03 02:18:30.159633
+------------------------------------------------------
+Started: 2023-10-03 04:12:41.129927
+Existing_entries: 72
+Fetching from https://rsshub.app/sspai/index
+Token length: 7228
+Summarized using GPT-3.5-turbo-16k
+Append: [家用咖啡手册（终篇）| 都是咖啡，但你真了解自己喝的那一杯吗？](https://sspai.com/post/83184)
+append_entries: 1
+Finish: 2023-10-03 04:13:01.890099
