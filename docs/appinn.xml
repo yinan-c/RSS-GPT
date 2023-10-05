@@ -6,6 +6,290 @@
 
 
 <item>
+<title>有没有一种可能，让Chromium内核的应用精简一下，调用系统中已经存在的内核？</title>
+<link>https://meta.appinn.net/t/topic/43753</link>
+<guid>https://meta.appinn.net/t/topic/43753</guid>
+<content:encoded><![CDATA[
+<p><a href="https://www.appinn.com/cef-detector/">CEF Detector - 你的电脑上共有几个 Chromium 内核的应用？ - 小众软件 (appinn.com)</a><br />
+本讨论基于以上文章，我在想，java的应用，其实是可以精简掉JRE，然后使用系统中已经存在的JRE来运行的。那么像electron之类的Chromium 内核应用，能不能也把内核删掉，然后调用系统中已经有的内核呢？</p>
+<p>补充一下：我看回复大家好像误解了，我的意思不是从开发角度，而是从用户角度，比如我下载了一个electron应用，100+M，但是核心只有2M，其他都是chrome核心占的空间，那我删除掉该应用的chrome核心，用什么方式让它去调用系统中已经存在的chrome核心，同样可以跑起来呢。。</p>
+            <p><small>71 个帖子 - 28 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/43753">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 18 May 2023 03:25:32 +0000</pubDate>
+</item>
+<item>
+<title>有大佬试过navidrome吗？请教一个标签乱码的问题</title>
+<link>https://meta.appinn.net/t/topic/47777</link>
+<guid>https://meta.appinn.net/t/topic/47777</guid>
+<content:encoded><![CDATA[
+<p>如题，最近终于用上了navidrome，但是发现一张CD的标签都是乱码，不知道有没有其他人遇到过？应该如何解决？<br />
+乱码的原因一开始推测是繁体字的原因，但是也有其他带繁体字的CD不受影响，所以我就迷茫了，望大佬指点。<br />
+如图：<br />
+<img alt="Snipaste_2023-09-27_09-14-40" height="313" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/6/368d45ea487d537518541e9d05661f16ff9b3252.png" width="261" /></p>
+<p><img alt="Snipaste_2023-09-27_09-50-20" height="313" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/f/af7ff0eeb534a8e7a42c1e10069b31dc56f73ce4.png" width="260" /></p>
+            <p><small>7 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47777">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 27 Sep 2023 01:50:36 +0000</pubDate>
+</item>
+<item>
+<title>【浏览器扩展】哔哩哔哩字幕列表，高效获取视频文本信息</title>
+<link>https://meta.appinn.net/t/topic/39462</link>
+<guid>https://meta.appinn.net/t/topic/39462</guid>
+<content:encoded><![CDATA[
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>开源地址</h2>
+<p><a href="https://github.com/IndieKKY/bilibili-subtitle" rel="noopener nofollow ugc">github 开源地址</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>介绍</h2>
+<p>众所周知，从视频中获取信息的效率很低，而阅读文字则更加高效可控，因此做了这个浏览器扩展。</p>
+<p>它可以显示视频对应的字幕列表，点击可跳转视频对应位置，比较适合知识学习类的视频。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>常见问题</h2>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-1-4" name="h-1-4"></a>1. 显示在哪里？</h3>
+<p>显示在屏幕右侧弹幕列表上方，多了字幕列表。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-2-5" name="h-2-5"></a>2. 哪些视频可以显示字幕？</h3>
+<p>大部分视频(视频地址类似 <a href="https://www.bilibili.com/video/BV1YP4y1Q7nZ" rel="noopener nofollow ugc">https://www.bilibili.com/video/BV1YP4y1Q7nZ</a> )都可以显示字幕。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-3-6" name="h-3-6"></a>3. 字幕来源？</h3>
+<p>字幕是视频自带的，少数视频未带有字幕，就无法显示。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>下载</h2>
+<ol>
+<li><a href="https://chrome.google.com/webstore/detail/bciglihaegkdhoogebcdblfhppoilclp" rel="noopener nofollow ugc">chrome 商店(需要梯子)</a></li>
+<li><a href="https://www.crxsoso.com/webstore/detail/bciglihaegkdhoogebcdblfhppoilclp" rel="noopener nofollow ugc">扩展搜搜(国内可访问)</a></li>
+</ol>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>联系</h2>
+<p><a href="https://jq.qq.com/?_wv=1027&amp;k=n899aOiF" rel="noopener nofollow ugc">QQ 交流群 194536885</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>截图</h2>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a>弹幕列表上方多了字幕列表：</h3>
+<p><img alt="" height="" src="https://i.imgur.com/VmY5XGr.jpg" width="" /></p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a>展开字幕列表：</h3>
+<p><img alt="" height="" src="https://i.imgur.com/JMGhiUp.jpg" width="" /></p>
+            <p><small>20 个帖子 - 11 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39462">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 07 Jan 2023 14:30:28 +0000</pubDate>
+</item>
+<item>
+<title>七巧板大师 -- 传统七巧板和现代智力七巧板自由拼图App</title>
+<link>https://meta.appinn.net/t/topic/44851</link>
+<guid>https://meta.appinn.net/t/topic/44851</guid>
+<content:encoded><![CDATA[
+<p>苹果/安卓版本下载页面：<a href="https://www.zsyd.tech/services.html#tangram" rel="noopener nofollow ugc">七巧板大师</a></p>
+<p>传统七巧板是著名的益智游戏，具有数百年历史，起源于中国。而由中国当代数学教育家创造的现代七巧板同样广受赞誉。它们都是几何学的杰作，设计精妙绝伦。七巧板激发了数以亿计人的创造力和对智力挑战的热情。</p>
+<p>七巧板大师是一款出色而独特的七巧板应用程序，让您探索传统七巧板和现代七巧板，用它们自由构建拼图杰作。应用内还包含海量分类精选的拼图谜题。</p>
+<p>主要功能：</p>
+<ul>
+<li>
+<p>超过1000道分类精选的拼图谜题</p>
+</li>
+<li>
+<p>多种种类和尺寸的七巧板自由拼图，自主创作谜题</p>
+</li>
+<li>
+<p>导出高清作品图片</p>
+</li>
+<li>
+<p>保存和分享你创作的作品和谜题</p>
+</li>
+</ul>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/d/cd3a3959548f151f65675ec9cf5074ec58ab6b34.jpeg" title="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.45.06"><img alt="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.45.06" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/d/cd3a3959548f151f65675ec9cf5074ec58ab6b34_2_281x500.jpeg" width="281" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/a/6a562f4340cf55bea2d7d812c63b3ed21c9cbef1.jpeg" title="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.45.37"><img alt="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.45.37" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/a/6a562f4340cf55bea2d7d812c63b3ed21c9cbef1_2_281x500.jpeg" width="281" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/9/0919969cdd19258e45ef978d11ca4d62ed38095a.jpeg" title="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.45.50"><img alt="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.45.50" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/9/0919969cdd19258e45ef978d11ca4d62ed38095a_2_281x500.jpeg" width="281" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/7/a74ef4c7e6e4a9ea7d29b7cfdd296b66845f1083.png" title="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.46.13"><img alt="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.46.13" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/7/a74ef4c7e6e4a9ea7d29b7cfdd296b66845f1083_2_281x500.png" width="281" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/b/abefebaf8d235273df6bae80ccdeaa8a1420aa68.jpeg" title="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.46.25"><img alt="Simulator Screenshot - iPhone 8 Plus - 2023-08-08 at 15.46.25" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/b/abefebaf8d235273df6bae80ccdeaa8a1420aa68_2_281x500.jpeg" width="281" /></a></div><p></p>
+            <p><small>6 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/44851">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 22 Jun 2023 14:05:53 +0000</pubDate>
+</item>
+<item>
+<title>Iphone关于视频导出压缩的问题</title>
+<link>https://meta.appinn.net/t/topic/47816</link>
+<guid>https://meta.appinn.net/t/topic/47816</guid>
+<content:encoded><![CDATA[
+<p>windows电脑，iphone直接用数据线或者无线导出视频，两种方法都有弊端，众友友们怎么解决？</p>
+<p>usb链接经常会提示“连接到系统上的设备没有发挥作用”或者数据线稍微松一点就会提示错误，苦恼我很久。</p>
+<p>然后就是第三方软件，包括局域网无线webdav传输，或者网盘或者爱思助手等传输，都会有画质压缩，导致画面颜色有偏差</p>
+<p>网上看了开启保留原片、或者开始hdr等等都试过，只要不是从数据线传输的视频都会有压缩，但是用线传输又经常提示错误，这到底该怎么解决？</p>
+<p>ps：不考虑使用mac隔空投送的前提下，windows电脑有没有解决办法？？</p>
+<p>爱思助手等方式传输的视频，压缩至少一半左右，我同时用数据线保存到本地和爱思保存到本地，容量对比相差一半左右</p>
+            <p><small>4 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47816">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 28 Sep 2023 08:24:41 +0000</pubDate>
+</item>
+<item>
+<title>寻求iPad可用Apple Pencil添加空白标注PDF的app</title>
+<link>https://meta.appinn.net/t/topic/47747</link>
+<guid>https://meta.appinn.net/t/topic/47747</guid>
+<content:encoded><![CDATA[
+<p>目前在用Goodnotes，但由于很多PDF留出的空白很少，想要写些内容很困难<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/9/094ea7497254870b131071525186a8e0479c4941.jpeg" title="IMG_2396"><img alt="IMG_2396" height="479" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/9/094ea7497254870b131071525186a8e0479c4941_2_690x479.jpeg" width="690" /></a></div><br />
+所以，是否有能左右扩展空白的app？<p></p>
+            <p><small>5 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47747">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 25 Sep 2023 06:30:08 +0000</pubDate>
+</item>
+<item>
+<title>文本编辑器提名</title>
+<link>https://meta.appinn.net/t/topic/40421</link>
+<guid>https://meta.appinn.net/t/topic/40421</guid>
+<content:encoded><![CDATA[
+<p>又双叒叕一次圣战即将来临，请抓紧手上的键盘！</p>
+<p>在 Emacs 仍然为自己硬核的核心用户自豪时，Vi-Mode 已经悄无声息地潜入到每一个 IDE 中输出信仰，而跟随浮躁华丽新时代一起到来的 VS Code 正吭声高歌，炫耀着自己的成就。</p>
+<p>Atom 尸骨未寒徒留 Electron 一片骂名，Notepad++ 聒躁依旧妄图蚍蜉撼树，UltraEdit 救亡图存，Sublime Text、EmEditor 辉煌不再，你将如何选择？</p>
+<p>编不下去了，以上纯属口胡+个人偏见，有异见欢迎私信激情开喷，我提前认错。<br />
+希望不要像 <a href="https://munk.appinn.com/collection/text-editor/">文本编辑器 - munk.appinn.com</a> 一样又沉了23333。文本编辑器大家都挺熟悉了，也就是又一次投票而已，主要是闲。</p>
+<p>另：这种提名投票贴感觉比维基贴更有趣？也许可以另开一贴讨论下</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
+<ul>
+<li>软件网址：</li>
+<li>开源&amp;付费情况：（许可证类型、代码仓库地址；订阅、大版本买断或永久）</li>
+<li>应用平台：Linux，Windows，MacOS，iOS，Android，Web，BSD，etc.</li>
+<li>特殊/优越之处：</li>
+<li>（选）<em>加上本论坛中过去提到该软件的讨论链接更佳</em>
+</li>
+</ul>
+            <p><small>23 个帖子 - 12 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/40421">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 08 Feb 2023 02:52:27 +0000</pubDate>
+</item>
+<item>
+<title>SVP登录iOS</title>
+<link>https://meta.appinn.net/t/topic/47636</link>
+<guid>https://meta.appinn.net/t/topic/47636</guid>
+<content:encoded><![CDATA[
+<p>好像火星了4个月，但是看论坛也没人推荐过，我来推一下<br />
+目前的版本支持Webdav、ftp，可选变帧率到最高144fps。<br />
+在我的A12Z ipad上可以无压力的将主流1080P视频插帧到60fps，CPU占用约40%。<br />
+内置upscaling/downscaling filter，还有黑边灯光（在ipad上的方形屏幕上很有用，大黑边看着难受）<br />
+iOS商店下载可免费试用，时限后38元内购</p>
+<p>后续还会登录appletv</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47636">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 21 Sep 2023 03:21:33 +0000</pubDate>
+</item>
+<item>
+<title>【开源工具推荐】Heroic Games Launcher：开源第三方Epic、GOG和Amazon 游戏启动器，支持 Linux、Windows和 macOS 平台</title>
+<link>https://meta.appinn.net/t/topic/47648</link>
+<guid>https://meta.appinn.net/t/topic/47648</guid>
+<content:encoded><![CDATA[
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
+<p>Heroic Games Launcher</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h1>
+<p>Linux；Windows；macOS</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h1>
+<p>【用户推荐】</p>
+<p>source：<a href="https://t.me/trantor_library/444" rel="noopener nofollow ugc">川陀大学图书馆</a></p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h1>
+<p>“启动器的启动器”，开源第三方Epic、GOG和Amazon 游戏启动器</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h1>
+<p>Heroic Games Launcher 是一款适用于 Linux、 Windows 和 macOS 的开源 Epic、GOG和Amazon 游戏启动器，也可以在 SteamDeck 上使用。主要功能如下：</p>
+<ul>
+<li>
+<p>游戏页面：检查游戏详细信息，如说明、发行商、下载安装大小、游玩时间及更多。</p>
+</li>
+<li>
+<p>游戏库：将游戏添加到收藏夹，或者只是隐藏您已经玩过或根本不会玩的游戏。</p>
+</li>
+<li>
+<p>商店界面：在Heroic中查看Epic或GOG商店界面，直接从Heroic的界面获取免费游戏或购买新游戏。</p>
+</li>
+<li>
+<p>Wine Manager：在 Linux 上，使用 Wine Manager 下载 Wine-GE、 Wine-Lutris 甚至 Proton-GE 的最新版本。</p>
+</li>
+<li>
+<p>Wine Settings：在 Wine Settings 下，你可以自动安装 DXVK、 VKD3D、 FSR 等工具，也可以在前缀上运行 WineCFG、 Winetrick 和 Run EXE。<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/7/b742105777e26c4b40b27474504e2c04a6ab746b.jpeg" title="IMG_20230921_160451_966"><img alt="IMG_20230921_160451_966" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/7/b742105777e26c4b40b27474504e2c04a6ab746b_2_690x388.jpeg" width="690" /></a></div><p></p>
+</li>
+</ul>
+<h1><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>官方网站</h1>
+<p><a href="https://heroicgameslauncher.com/" rel="noopener nofollow ugc">主页</a></p>
+<p><a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher" rel="noopener nofollow ugc">GitHub</a></p>
+<p><a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/" rel="noopener nofollow ugc">GitHub Releases</a>；<a href="https://flathub.org/apps/details/com.heroicgameslauncher.hgl" rel="noopener nofollow ugc">Flathub</a></p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>官方指南</h1>
+<p><a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki" rel="noopener nofollow ugc">GitHub Wiki</a>；<a href="https://heroicgameslauncher.com/faq" rel="noopener nofollow ugc">FAQ</a></p>
+            <p><small>12 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47648">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 21 Sep 2023 08:09:05 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】一款树状管理计划和清单的软件：一树清单</title>
+<link>https://meta.appinn.net/t/topic/42966</link>
+<guid>https://meta.appinn.net/t/topic/42966</guid>
+<content:encoded><![CDATA[
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>一树清单</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Windows / macOS / Linux</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句话简介</h2>
+<p>一树清单是一款简单方便的清单类软件，通过用树状管理的方式，用树形结构管理清单或者计划，方便操作与整理。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>虽然现在计划/清单类软件已经够多了，目前市面上真的很少有软件用树形管理计划或清单什么的，基本上都只是一个列表，但是对于比较复杂的计划，例如整个人生的计划，我认为必须用树形结构才能够理清所有计划的关系，因此我就做了这么一个软件，一树清单。目前我完成了Windows+MacOS+Linux平台，手机端还没做，后面会做的。<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/6/f6c230175b56ba92dc4b57a991cfca4a15d78fd6.png" title="image"><img alt="image" height="499" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f6c230175b56ba92dc4b57a991cfca4a15d78fd6_2_387x499.png" width="387" /></a></div><br />
+这个软件怎么用呢，首先你在“未完成清单”这里新建一个清单：<br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/3/c3eaa001d35934dcf19be4fc64673652508859ec.jpeg" title="image"><img alt="image" height="315" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/3/c3eaa001d35934dcf19be4fc64673652508859ec_2_690x315.jpeg" width="690" /></a></div><br />
+然后你编辑这个清单，写什么都行，但一定都是人生清单的子清单或者子子清单，这里是有我的哲学考虑的，因为你做的每一件事都是你人生清单里的一部分，如果一个计划不在你的人生计划里，那么你为什么要做这个计划呢？对吧。<p></p>
+<p>然后你可以任意编辑这个条目，可以设定日期，添加进度，对勾按钮表示这个计划以完成，将自动归属到“已结束计划”，叉号代表这个计划不做了，也同样会被转移到“已结束计划”。</p>
+<p>如果你想重点做某一个计划，你可以点击火焰图标，然后这个计划将加上一个红色的火焰标识，并自动移动到“热点计划”：<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/6/f6c213ef27f059e96a42aa3f709dacacb5984570.jpeg" title="image"><img alt="image" height="395" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f6c213ef27f059e96a42aa3f709dacacb5984570_2_690x395.jpeg" width="690" /></a></div><br />
+然后你就可以开开心心的执行计划了，注意这里虽然能设定时间（就是那个日历图标按钮），但是我并没有将该软件设计成按天执行的，即每天都必须做完什么，这也是出于我的哲学考虑，在我们执行计划的时候，总会出现过快做完或者遇到什么阻碍导致延期，我们只要在截止期限前做完即可，每天必须做完什么只会给我们徒增焦虑烦恼，因此我设计了一个“热点计划”而不是“每日计划”，我认为以“每天”为单位拆分任务不太好，以“子任务”拆分任务就足够了。<p></p>
+<p>另外，我在软件右边添加了一个“方法栏”，执行计划肯定是需要方法的，例如学习外语的时候总结的背单词的方法什么的。我自己也总结过许多方法，但是我发现一个问题，那就是易忘，把方法总结在文档里，或者笔记软件里，我不会主动去看它，久而久之就被遗忘了，然后我又从头写新方法。。。因此我在软件右边加了这个计划框，写进去的文字都会自动保存，这样每当看计划的时候，都能顺便瞟一眼方法，这也是出于我的使用考虑吧。</p>
+<p>目前软件还相当简陋，如果你感觉不错的话，欢迎试用，可以从这个<img alt=":point_down:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/point_down.png?v=12" title=":point_down:" width="20" />网址下载。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>官方网站</h2>
+<p><a href="http://xopenbeta.com/project/%E4%B8%80%E6%A0%91%E6%B8%85%E5%8D%95" rel="noopener nofollow ugc">一树清单 (xopenbeta.com)</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>联系方式</h2>
+<p>有什么问题可以加QQ群：754279610</p>
+            <p><small>7 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/42966">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 20 Apr 2023 16:28:24 +0000</pubDate>
+</item>
+<item>
+<title>P2P 下载软件</title>
+<link>https://meta.appinn.net/t/topic/41076</link>
+<guid>https://meta.appinn.net/t/topic/41076</guid>
+<content:encoded><![CDATA[
+<p>我从真正接触 P2P 下载几乎只用过 <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/">qBittorrent-EE</a> 和 <a href="https://f-droid.org/packages/org.proninyaroslav.libretorrent/">libretorrent</a> 两款BT软件，大家在什么设备上使用什么软件呢？</p>
+<p>推荐模板：</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
+<ul>
+<li>软件or源码网址：</li>
+<li>开源&amp;付费情况：</li>
+<li>应用平台：Linux，Windows，MacOS，iOS，Android，BSD，etc.</li>
+<li>特色简介：标签系统、扫描指定目录、轻量快速、RSS订阅、自动化、反吸血，etc.</li>
+<li>（选）本论坛中过去提到该软件的讨论链接</li>
+</ul>
+            <p><small>10 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41076">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 26 Feb 2023 15:09:49 +0000</pubDate>
+</item>
+<item>
 <title>Vimlike - Safari 扩展</title>
 <link>https://meta.appinn.net/t/topic/37081</link>
 <guid>https://meta.appinn.net/t/topic/37081</guid>

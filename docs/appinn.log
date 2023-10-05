@@ -1957,3 +1957,54 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-09-20 14:11:52.606811
+------------------------------------------------------
+Started: 2023-10-05 12:15:05.556612
+Existing_entries: 84
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有没有一种可能，让Chromium内核的应用精简一下，调用系统中已经存在的内核？](https://meta.appinn.net/t/topic/43753)
+Append: [有大佬试过navidrome吗？请教一个标签乱码的问题](https://meta.appinn.net/t/topic/47777)
+Append: [【浏览器扩展】哔哩哔哩字幕列表，高效获取视频文本信息](https://meta.appinn.net/t/topic/39462)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [七巧板大师 -- 传统七巧板和现代智力七巧板自由拼图App](https://meta.appinn.net/t/topic/44851)
+Append: [Iphone关于视频导出压缩的问题](https://meta.appinn.net/t/topic/47816)
+Append: [寻求iPad可用Apple Pencil添加空白标注PDF的app](https://meta.appinn.net/t/topic/47747)
+Append: [文本编辑器提名](https://meta.appinn.net/t/topic/40421)
+Append: [SVP登录iOS](https://meta.appinn.net/t/topic/47636)
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【开源工具推荐】Heroic Games Launcher：开源第三方Epic、GOG和Amazon 游戏启动器，支持 Linux、Windows和 macOS 平台](https://meta.appinn.net/t/topic/47648)
+Append: [【自荐】一款树状管理计划和清单的软件：一树清单](https://meta.appinn.net/t/topic/42966)
+Append: [P2P 下载软件](https://meta.appinn.net/t/topic/41076)
+append_entries: 11
+Finish: 2023-10-05 12:15:07.849016
+------------------------------------------------------
+Started: 2023-10-05 12:15:55.575946
+Existing_entries: 95
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-05 12:15:57.734499
+------------------------------------------------------
+Started: 2023-10-05 12:17:16.568914
+Existing_entries: 95
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-05 12:17:18.444659
+------------------------------------------------------
+Started: 2023-10-05 12:17:51.645799
+Existing_entries: 95
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-05 12:17:53.358997
+------------------------------------------------------
+Started: 2023-10-05 12:18:36.998313
+Existing_entries: 95
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-05 12:18:38.419518
