@@ -1,5 +1,8 @@
 # CHANGELOG
 
+- 2023-10-05:
+  - Update xml template to fix a bug in time parsing for some RSS feeds.
+
 - 2023-09-20:
   - GitHub Pages destination url is no longer needed to be set manually in `main.py`. Instead, the script directly get the username from repo secrets and concatenate it to `https://username.github.io/repo_name/`. You will still need to manually change the repo name used in the script if you forked this repo and renamed it.
   - Changed the path to store xml files from `/rss/` to `/docs/`
