@@ -1,4 +1,7 @@
 # 更新日志
+- 2023-10-05:
+  - 更新 xml 模板，修复了一些 RSS 源中时间解析的 bug。
+
 - 2023-09-20:
   - GitHub Pages 地址不再需要手动在 `main.py` 中设置，而是直接从 repo secrets 中获取用户名，然后拼接成 `https://username.github.io/repo_name/` 的形式。如果你 fork 了本项目并重命名了仓库，你仍然需要手动修改 url 中的仓库名。
   - 改变存放 xml 的路径，从 `/rss/` 改为 `/docs/`
