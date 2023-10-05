@@ -47,3 +47,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://brett.trpstra.net/brettterpstra -> https://yinan-c.github.io/RSS-GPT/brett-terpstra.xml
 - https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/appinn.xml
 - https://rsshub.app/sspai/index -> https://yinan-c.github.io/RSS-GPT/sspai.xml
+- https://rknight.me/feed.xml -> https://yinan-c.github.io/RSS-GPT/robb-knight.xml
