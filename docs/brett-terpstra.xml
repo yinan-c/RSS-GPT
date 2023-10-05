@@ -4,6 +4,31 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marked and Bunch updates for Sonoma</title>
+<link>https://brett.trpstra.net/link/535/16381661/marked-and-bunch-updates-for-sonoma</link>
+<guid>https://brett.trpstra.net/link/535/16381661/marked-and-bunch-updates-for-sonoma</guid>
+<content:encoded><![CDATA[
+<div> Marked, Bunch Beta, fixes, Sonoma, updates
+<br><br>总结:
+这篇文章简要介绍了Marked和Bunch Beta的更新情况，这些更新主要解决了Sonoma上的问题，并修复了一些功能失效的情况。文章提到，Marked更新已经在直接购买渠道上线，并在Setapp和Mac App Store上进行审核中，而Bunch Beta版本的更新则主要修复了Sonoma上的问题，并且需要用户的反馈确认功能是否正常。 <div>
+<p>Just a quick note to let you know that there are new versions of Marked and Bunch Beta with some fixes for Sonoma.</p>
+
+<p>The Marked update is live for direct customers, and in review for Setapp and Mac App Store customers. Watch for updates on your channel. It fixes an issue that prevented Marked from opening <em>any</em> files on Sonoma, and also crashes when using with Drafts’ or Bear’s “Preview in Marked” features. It should solve the issue for all versions of macOS.</p>
+
+<p>The Bunch update is specifically to fix modifier keys not working when clicking Bunches in the menu. E.g. you’re supposed to be able to Cmd-Click a Bunch and open the text file in your editor of choice instead of launching it, and this wasn’t working anymore. The current release of the Beta should solve it. I would love some feedback on whether it’s working for you on Sonoma, and additionally whether I broke it for people on earlier versions of macOS. If the fix is solid, I’ll release it to the main channel. You can download the beta <a href="https://bunchapp.co/download/">on the Downloads page</a>.</p>
+
+<p>Thanks for any feedback!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F05%2Fmarked-and-bunch-updates-for-sonoma%2F&amp;text=Marked+and+Bunch+updates+for+Sonoma&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F05%2Fmarked-and-bunch-updates-for-sonoma%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16381661.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-10-05T12:11:00-05:00</pubDate>
+<pubDate>2023-10-05T12:11:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Dropzone 4, the essential drag &amp; drop productivity enhancer [Sponsor]</title>
