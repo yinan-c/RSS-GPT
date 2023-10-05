@@ -4,12 +4,13 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Add Full Screen Artwork to Your Podcast</title>
 <link>https://rknight.me/add-full-screen-artwork-to-your-podcast/</link>
 <guid>https://rknight.me/add-full-screen-artwork-to-your-podcast/</guid>
 <content:encoded><![CDATA[
-<div> iOS17, Apple Podcasts app, full screen artwork, featured, popular podcast app<br><br>总结: 在iOS17中，Apple Podcasts app推出了全屏艺术封面，但只有被苹果特别推荐的节目才能设置全屏艺术封面。这使得其他节目无法享受到更好的艺术封面体验，而Apple Podcasts app又是最受欢迎的播客应用程序，这让人感到不公平。 <div>
+<div> iOS17, Apple Podcasts app, full screen artwork, featured, popular podcast app<br /><br />总结: 在iOS17中，Apple Podcasts app推出了全屏艺术封面，但只有被苹果特别推荐的节目才能设置全屏艺术封面。这使得其他节目无法享受到更好的艺术封面体验，而Apple Podcasts app又是最受欢迎的播客应用程序，这让人感到不公平。 <div>
 <p>tl;dr: You can't set full screen artwork without being featured by Apple.</p>
 <p>In iOS17, the Apple Podcasts app has (for some shows) fancy new full screen artwork but I noticed that <a href="https://ruminatepodcast.com">my</a> <a href="https://wegot.family">shows</a> don't.</p>
 <p><img alt="We Got Family artwork vs Connected in Apple Podcasts app" src="https://rknightuk.s3.amazonaws.com/site/full-screen-artwork.png" /></p>
@@ -17,7 +18,6 @@
 <p>Once I made the art and hit the submit button, it turns out you can <em>only</em> submit hero images and if Apple then deems my show worthy enough for a feature will they then request the full page art.</p>
 <p>This feels really shitty that you have to get featured just to get nicer artwork in the Apple Podcasts app which is far and away the most popular podcast app.</p>
 ]]></content:encoded>
-
 <pubDate>2023-09-22T12:18:12.741+00:00</pubDate>
 </item>
 <item>
@@ -25,7 +25,6 @@
 <link>https://rknight.me/im-not-building-a-podcast-host/</link>
 <guid>https://rknight.me/im-not-building-a-podcast-host/</guid>
 <content:encoded><![CDATA[
-
 <p>Late last year I moved <a href="https://ruminatepodcast.com">Ruminate</a> from Simplecast to it's <a href="https://rknight.me/bulding-podcast-site-eleventy/">own site built with Eleventy</a> for a two reasons:</p>
 <ol>
 <li>I wanted full control over how the site looked</li>
@@ -45,7 +44,6 @@
 <p>There is an argument to be made that variable pricing might work: pay $X per year then monthly pay whatever the CDN cost for your show is but this feels counter-intuitive to building a simple podcast host. I could charge a similar amount as some of the existing services but then I'm not bringing anything new to the table.</p>
 <p>Ultimately every solution to the cost problem goes against my initial idea. Instead, I'm going to focus some time on making my Eleventy podcast site more usable for other people to deploy their own podcasts.</p>
 ]]></content:encoded>
-
 <pubDate>2023-09-20T11:32:33.057+00:00</pubDate>
 </item>
 <item>
@@ -53,7 +51,6 @@
 <link>https://rknight.me/st-jude-2023/</link>
 <guid>https://rknight.me/st-jude-2023/</guid>
 <content:encoded><![CDATA[
-
 <p>This year is <a href="https://relay.experience.stjude.org">Relay FM's 5th annual fundraiser</a> for <a href="https://www.stjude.org">St Jude Children's Research Hospital</a>. If you don't know St Jude:</p>
 <blockquote>
 <p>The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment. Consistent with the vision of our founder Danny Thomas, no child is denied treatment based on race, religion or a family’s ability to pay.</p>
@@ -65,7 +62,6 @@
 <p>I have moved the goal to <s>$3000</s> <s>$5000</s> $10000 and as generous as Adam is being, I don't want it to all come from him so if you can donate anything, even a dollar, it all helps towards an amazing cause.</p>
 <p><a href="https://rknight.me/stjude">Donate to the campaign here</a></p>
 ]]></content:encoded>
-
 <pubDate>2023-08-28T15:28:07.162+00:00</pubDate>
 </item>
 <item>
@@ -73,7 +69,6 @@
 <link>https://rknight.me/its-better-in-the-app-and-other-lies/</link>
 <guid>https://rknight.me/its-better-in-the-app-and-other-lies/</guid>
 <content:encoded><![CDATA[
-
 <p>I've seen a few conversations on Mastodon the last week or so about why we have so many apps rather than decent mobile websites and why we're shown &quot;things are better in the app!&quot; banners (and who's fault is that website?!). I've been thinking about this on and off for a <a href="https://social.lol/@robb/110588163612894889">long time</a>. I don't like that Apple hold all the keys to distrubting an app and I'm a big fan of the open web. I do beleive there are good reasons for native apps in some cases (specifically native features not available in browsers) but not <em>everything</em> needs an app. I think there are three different reasons this is happening so much.</p>
 <h3>Gobbling data</h3>
 <p>This is the obvious one. It's a lot easier to collect data from a native app than it is from a website. On an app I have very little control over what requests are made, blocking ads, that kind of thing. So of course companies want to use apps to collect this data.</p>
@@ -84,7 +79,6 @@
 <p>Just think about that for a second: people want to download an app just to track deliveries of their white goods, something which most people order at most once a year. This is bonkers to me. They did eventually fix the deep link so you could track from the website on mobile.</p>
 <p>In some instances it's become impossible to do certain things on mobile because the app doesn't support the feature (for example, buying ebooks on Amazon) but I never get redirected back out</p>
 ]]></content:encoded>
-
 <pubDate>2023-08-22T10:00:00.608+00:00</pubDate>
 </item>
 <item>
@@ -92,7 +86,6 @@
 <link>https://rknight.me/just-delete-me-ten-years-later/</link>
 <guid>https://rknight.me/just-delete-me-ten-years-later/</guid>
 <content:encoded><![CDATA[
-
 <p>Ten years ago <a href="https://www.edpoole.me/">Ed Poole</a> and I <a href="https://hellsite.rknight.me/369368988762906626/">launched Just Delete Me</a>. Just Delete Me, as I <a href="https://rknight.me/just-delete-me/">described it at the time</a>, was:</p>
 <blockquote>
 <p>a directory of urls to delete your account from web services</p>
@@ -190,7 +183,6 @@
 <li><a href="http://news.softpedia.com/news/Just-Delete-Me-Removes-You-from-the-Internet-377984.shtml">Just Delete Me Removes You from the Internet</a></li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-08-18T12:44:06.279+00:00</pubDate>
 </item>
 <item>
@@ -198,7 +190,6 @@
 <link>https://rknight.me/compiling-css-with-eleventy/</link>
 <guid>https://rknight.me/compiling-css-with-eleventy/</guid>
 <content:encoded><![CDATA[
-
 <p>Yesterday I <a href="https://social.lol/@robb/110894030545897361">asked on Mastodon</a> what methods people are using for compiling CSS with Eleventy. It's been a while since I've need anything more than a single stylesheet but since I keep adding various things to my site, the stylesheet has got a bit unweildy. I'll admit, I know very little about the various css libraries and tools (the last time I did this I used Gulp which tells you how long ago that was) so I was coming to this with basically no knowledge. My basic requirements were:</p>
 <ul>
 <li>Compile multiple CSS files into one</li>
@@ -215,7 +206,6 @@
 <pre class="language-js"><code class="language-js"><span class="token comment">// .eleventy.js</span><br /><span class="token keyword">const</span> lightningCSS <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"@11tyrocks/eleventy-plugin-lightningcss"</span><span class="token punctuation">)</span><br /><br />module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />  eleventyConfig<span class="token punctuation">.</span><span class="token function">addPlugin</span><span class="token punctuation">(</span>lightningCSS<span class="token punctuation">)</span><br /><span class="token punctuation">}</span></code></pre>
 <p>Ultimately I like how simple this is to add to my existing site without any additonal configuration so I think this is the way I'm going to go.</p>
 ]]></content:encoded>
-
 <pubDate>2023-08-16T12:30:35.115+00:00</pubDate>
 </item>
 <item>
@@ -223,7 +213,6 @@
 <link>https://rknight.me/block-chatgpt-with-robotstxt/</link>
 <guid>https://rknight.me/block-chatgpt-with-robotstxt/</guid>
 <content:encoded><![CDATA[
-
 <p>A <code>robots.txt</code> file &quot;tells search engine crawlers which URLs the crawler can access on your site&quot;. Generally one would use this to tell a search engine which directories should be crawled, which ones shouldn't, or to completely block from crawling your site. The file lives at the root of your site. You can <a href="https://rknight.me/robots.txt">see mine here</a>.</p>
 <p><a href="https://chat.openai.com">ChatGPT</a> has two user agents that might attempt to crawl your site: <a href="https://platform.openai.com/docs/gptbot"><code>GPTBot</code></a> and <a href="https://platform.openai.com/docs/plugins/bot/chatgpt-user"><code>ChatGPT-User</code></a>. To disallow crawling from both of these, we can set our <code>robots.txt</code> file like so:</p>
 <pre class="language-txt"><code class="language-txt">User-agent: GPTBot<br />Disallow: /<br /><br />User-agent: ChatGPT-User<br />Disallow: /</code></pre>
@@ -236,7 +225,6 @@
 <pre class="language-txt"><code class="language-txt">---<br />permalink: robots.txt<br />eleventyExcludeFromCollections: true<br />---<br /><br />// user agents here</code></pre>
 <p>And there we go. ChatGPT, in theory, should be blocked from crawling our site.</p>
 ]]></content:encoded>
-
 <pubDate>2023-08-12T09:12:43.328+00:00</pubDate>
 </item>
 <item>
@@ -244,7 +232,6 @@
 <link>https://rknight.me/three-years-of-hemispheric-views-feedback/</link>
 <guid>https://rknight.me/three-years-of-hemispheric-views-feedback/</guid>
 <content:encoded><![CDATA[
-
 <p>I recently started listening to the <a href="https://hemisphericviews.com/">Hemispheric Views</a> podcast and decided I would go back to the start and listen to the 74 previous episodes that I hadn't listened to. I wrote down <em>all</em> my feedback. I started this endevour on the 17th of May and finished the last episode this morning. <a href="https://grepjason.sh/">Jason</a> agreed to this:</p>
 <blockquote>
 <p>We will take any feedback, 3 years old or otherwise haha</p>
@@ -387,7 +374,6 @@
 <li>032 Sorry Jason the opening the crisps with scissors thing is weird</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-08-01T12:00:01.145+00:00</pubDate>
 </item>
 <item>
@@ -395,11 +381,9 @@
 <link>https://rknight.me/fix-for-low-volume-exported-audio-in-garageband/</link>
 <guid>https://rknight.me/fix-for-low-volume-exported-audio-in-garageband/</guid>
 <content:encoded><![CDATA[
-
 <p>Yesterday <a href="https://hachyderm.io/@mikestreety/110685303152811714">Mike pointed out</a> that the pilot episode of <a href="https://wegot.family/0">my new podcast</a> was quiet compared to other shows. I opened up the project files in GarageBand and couldn't see anything that would be causing this so I started hunting around in the settings. It turns out the &quot;Export projects at full volume&quot; was causing this. I don't know what this setting is supposed to do but I turned it off, exported the episode again, and it was fixed.</p>
 <p><img alt="GarageBand setting for full volume export" src="https://rknightuk.s3.amazonaws.com/site/garageband-setting.png" /></p>
 ]]></content:encoded>
-
 <pubDate>2023-07-10T08:28:42.770+00:00</pubDate>
 </item>
 <item>
@@ -407,7 +391,6 @@
 <link>https://rknight.me/a-threads-thread-blog-post/</link>
 <guid>https://rknight.me/a-threads-thread-blog-post/</guid>
 <content:encoded><![CDATA[
-
 <p>I wanted to expand a bit on my <a href="https://social.lol/@robb/110665866974743896">Threads thread</a> so instead of adding to the thread, I've written a blog post about Threads. Clear? Good.</p>
 <p>The Mastodon blog has <a href="https://blog.joinmastodon.org/2023/07/what-to-know-about-threads/">a good post about Threads</a> and what it means for the fediverse in general:</p>
 <blockquote>
@@ -426,7 +409,6 @@
 <p>I made a <a href="https://rknight.me/building-an-activitypub-server/">basic ActivityPub server a few weeks ago</a> and while it doesn't implement everything that ActivityPub has to offer, it's close enough. I'm surprised a company the size of Meta, who has a huge team of engineers couldn't get this working for launch. To be clear I'm not saying &quot;herp derp I did it why can't they&quot; but still, I find it surprising. If we don't see it within a month, I think we might never see it.</p>
 <p>Assuming they <em>do</em> release AP support, I <em>am</em> excited for that. Being able to follow people who will never join Mastodon sounds great. I don't want to use Threads (much like Bluesky) just to follow a handful of people. Here's hoping they <em>do</em> release it and that they don't inject ads into a user's posts.</p>
 ]]></content:encoded>
-
 <pubDate>2023-07-06T08:05:16.652+00:00</pubDate>
 </item>
 <item>
@@ -434,13 +416,11 @@
 <link>https://rknight.me/custom-sidebar-icons-in-finder/</link>
 <guid>https://rknight.me/custom-sidebar-icons-in-finder/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Custom icons in the Finder" src="https://rknightuk.s3.amazonaws.com/site/custom-icons.png" /></p>
 <p>MacOS customisation is basically dead. Plenty of apps that used to work, no longer do. You can still have custom folder icons which is nice but I wanted custom sidebar icons for those folders, like <a href="https://rknight.me/micro/110615734381939778/">the developer one</a>.</p>
 <p>I started googling around trying to find something for recent versions of MacOS and the only thing I found was <a href="https://www.reddit.com/r/mac/comments/seig87/how_to_make_custom_finder_sidebar_icons_big_sur/">this Reddit post</a> outlining a method to do it with PNGs. Between me and <a href="https://www.keiransell.com">Keir</a> we were able to make it work not only with any standard <a href="https://developer.apple.com/sf-symbols/">SF Symbol</a> but custom made ones as well.</p>
 <p>You'll need Xcode installed to do this but the instructions relatively simple. I will say it's <em>really</em> flaky when building, sometimes it works, sometimes it doesn't, sometimes it just shows a random icon instead. All of the instructions are on <a href="https://github.com/rknightuk/custom-finder-sidebar-icons">the GitHub repository</a> including some dandy screencasts from Keir.</p>
 ]]></content:encoded>
-
 <pubDate>2023-06-29T16:28:34.602+00:00</pubDate>
 </item>
 <item>
@@ -448,7 +428,6 @@
 <link>https://rknight.me/building-an-activitypub-server/</link>
 <guid>https://rknight.me/building-an-activitypub-server/</guid>
 <content:encoded><![CDATA[
-
 <p>To start with, I'm not convinced everything I've done here is exactly to the ActivityPub specification or if there will be problems interacting with Bugle on various ActivityPub servers outside the main ones (Mastodon, Calckey, etc). I'm also unclear on which parts of this are Mastodon-specific and which parts are pure ActivityPub. I will use Mastodon as the example external server throughout.</p>
 <p>I won't go over setting up my database or server for this but at minimum you'll need a way to handle requests, render JSON, and a database to store posts and activities.</p>
 <h3>WebFinger and Profile JSON</h3>
@@ -558,7 +537,6 @@
 <li><a href="https://github.com/LewisDaleUK/slap">LewisDaleUK/slap: Super Lightweight Activity Pub</a></li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-06-28T05:48:41.588+00:00</pubDate>
 </item>
 <item>
@@ -566,7 +544,6 @@
 <link>https://rknight.me/biology-of-hey-bear-fruits/</link>
 <guid>https://rknight.me/biology-of-hey-bear-fruits/</guid>
 <content:encoded><![CDATA[
-
 <p>Hey Bear is <a href="https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg">a YouTube channel</a> with videos of dancing fruits, vegetables, and other nonsense designed to <s>make kids stfu</s> entertain young children. It works. <a href="https://rknight.me/micro/tags/babyknight/">Baby Knight</a> loves it.</p>
 <p>Last night my partner asked if I was okay because I looked distant and downtrodden. I wasn't sad or tired, I was pondering the biology of the fruits that dance in these videos.</p>
 <p><img alt="Hey Bear Fruits" src="https://rknightuk.s3.amazonaws.com/site/hey-bear-fruit-banner.jpg" /></p>
@@ -575,7 +552,6 @@
 <p>The banana's face is <em>inside</em> the peel, able to see only when it's pulled back. Is there a ceremony for this with family and friends gathered round as the local face-revealer performs the act? Perhaps cards are sent to the parents, adorned with &quot;congrats on your baby's face&quot; and &quot;Let's face it, today is a good day&quot; on the front. They don't seem to have the ability to hear or make sound so the face is probably pretty important. Maybe the movie Face-Off is unsettling in their world, or that sewed-up-mouth scene from the Matrix.</p>
 <p>And finally the millennial favourite, the avocado. The one we see on screen has the stone in tact but we never other half, the sibling. Is the stoneless sibling an outcast in Hey Bear world or are they lauded for surviving without a fairly important part of an avocado? We might never know.</p>
 ]]></content:encoded>
-
 <pubDate>2023-06-22T17:44:51.466+00:00</pubDate>
 </item>
 <item>
@@ -583,7 +559,6 @@
 <link>https://rknight.me/asset-lifespan-spreadsheet/</link>
 <guid>https://rknight.me/asset-lifespan-spreadsheet/</guid>
 <content:encoded><![CDATA[
-
 <p>In <a href="https://listen.hemisphericviews.com/020">episode 20 of Hemispheric Views</a> Andrew talks about his asset lifespan spreadsheet which shows the cost of an item, the date purchased, and the cost per week for said item.</p>
 <p>I figured I'd have a crack at making my own and after some wrangling with formula in Numbers I was able to get something up and running. The key part was using the <code>DATEDIF</code> function to get how many days it has been since purchase:</p>
 <pre><code>=(cost_of_item / DATEDIF(date_purchased, todays_date, diff_type))
@@ -621,7 +596,6 @@
 </table>
 <p>I don't know what I'm going to do with this information beyond obsess over it but I do know I'm getting my money's worth with those Audio-Technica headphones.</p>
 ]]></content:encoded>
-
 <pubDate>2023-06-02T16:22:40.119+00:00</pubDate>
 </item>
 <item>
@@ -629,12 +603,10 @@
 <link>https://rknight.me/brian-butterfield-diet-soundboard/</link>
 <guid>https://rknight.me/brian-butterfield-diet-soundboard/</guid>
 <content:encoded><![CDATA[
-
 <p>Over the weekend I spent some time splitting the audio from <a href="https://www.youtube.com/watch?v=1NjTWvl8x-U">the Brian Butterfield Diet sketch</a> and then subsequently the <a href="https://www.youtube.com/watch?v=Nyk6sXHY9Vg">Christmas version</a>. Both of these sketches are from <a href="https://en.wikipedia.org/wiki/The_Peter_Serafinowicz_Show">The Peter Serafinowicz Show</a> from 2007.</p>
 <p>I split the audio using <a href="https://www.felttip.com/ss/">Sound Studio</a> which has a handy &quot;split by markers&quot; feature then used <a href="https://www.11ty.dev">Eleventy data files</a> to output those files including some titles from a JSON files of all the audio. As much as I'd like to sit and sketch some terrible icons for each food item I went with <a href="https://fontawesome.com">Font Awesome</a> to save some time.</p>
 <p>See the <a href="https://treatday.rknight.me/">Brian Butterfield Diet Soundboard</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-05-22T14:27:43.112+00:00</pubDate>
 </item>
 <item>
@@ -642,7 +614,6 @@
 <link>https://rknight.me/one-year-of-pizza-making/</link>
 <guid>https://rknight.me/one-year-of-pizza-making/</guid>
 <content:encoded><![CDATA[
-
 <p>In November 2021 I bought an <a href="https://uk.ooni.com/products/ooni-fyra">Ooni Frya 12</a> (thanks Black Friday discounts!) and since then I've used it somewhere between 10 and 15 times. Each time I've managed to make <em>something</em> about the pizza better; the sauce, the dough, the topping ratio. Herein lies my notes about making better pizzas.</p>
 <p>For all my pizzas, I've used the <a href="https://ooni.com/blogs/recipes/classic-pizza-dough">Ooni classic dough recipe</a> and I'm always aiming for a (sort of) Neapolitan style pizza.</p>
 <h3>Equipment</h3>
@@ -676,7 +647,6 @@
 </ul>
 <p><img alt="My latest pizza" src="https://rknightuk.s3.amazonaws.com/site/pizza-latest.jpg" /></p>
 ]]></content:encoded>
-
 <pubDate>2023-05-03T12:24:32.372+00:00</pubDate>
 </item>
 <item>
@@ -684,7 +654,6 @@
 <link>https://rknight.me/the-knightpool/</link>
 <guid>https://rknight.me/the-knightpool/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://social.lol/@robb/109988701670297916">From me, yesterday</a>:</p>
 <blockquote>
 <p>We setup a baby name pool at work, £1 a guess. We have 50 names, £51 in the pot. Someone has guessed the name so no money for me.</p>
@@ -748,7 +717,6 @@
 <li>Zoe</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-03-09T10:02:00.753+00:00</pubDate>
 </item>
 <item>
@@ -756,7 +724,6 @@
 <link>https://rknight.me/food-graveyard/</link>
 <guid>https://rknight.me/food-graveyard/</guid>
 <content:encoded><![CDATA[
-
 <p>Discontinued food items I miss.</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=gFurmW0iajM">Fruit Allsorts</a></li>
@@ -768,7 +735,6 @@
 <li><a href="https://en.wikipedia.org/wiki/Mingles">Mingles</a></li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-02-24T22:54:57.098+00:00</pubDate>
 </item>
 <item>
@@ -776,7 +742,6 @@
 <link>https://rknight.me/no-more-ratings/</link>
 <guid>https://rknight.me/no-more-ratings/</guid>
 <content:encoded><![CDATA[
-
 <p>When I used to use <a href="http://plotapp.io/">Plot</a> (RIP) to track movies that had a thumbs up or down system. When I switched to my own CMS for this I did the same thing. Then when I switched to Letterboxd I translated what was essentially a 1-3 rating system to the five-star system (even though it's actually out of ten not five) Letterboxd uses. From <a href="https://letterboxd.com/rknightuk/">my Letterboxd profile</a>:</p>
 <blockquote>
 <p>★☆☆☆☆ : Never again</p>
@@ -786,7 +751,6 @@
 <p>The problem with this system is I mostly don't watch bad movies. Or a better way to put it is I kinda like <a href="https://en.wikipedia.org/wiki/Fast_&amp;_Furious">bad movies</a>. Despite knowing intellectually that <a href="https://en.wikipedia.org/wiki/The_Shawshank_Redemption">Shawshank Redemption</a> is a &quot;better&quot; movie than <a href="https://en.wikipedia.org/wiki/Olympus_Has_Fallen">Olympus Has Fallen</a> they're both rated 5 stars in my system. I could change my system to use the full spectrum of the five stars but I just don't have the energy or the inclination to do it. How do I decide what gets 4.5 stars and what gets a 5? Is there really a discernible difference between those two ratings? Also, who gives a shit what number I've ordained upon a movie?</p>
 <p>So fuck it. No more ratings.</p>
 ]]></content:encoded>
-
 <pubDate>2023-02-14T09:52:15.619+00:00</pubDate>
 </item>
 <item>
@@ -794,12 +758,10 @@
 <link>https://rknight.me/add-to-musicthread-shortcut/</link>
 <guid>https://rknight.me/add-to-musicthread-shortcut/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://musicthread.app/">MusicThread</a> is &quot;<em>a website to create and share lists of music</em>&quot; by <a href="https://mastodon.social/@edwellbrook">Ed Wellbrook</a>. I recently started using it to save <a href="https://musicthread.app/thread/2L6IuBPKCCo7fsA8SFyXZLirH5W">new tracks I've found</a> and <a href="https://musicthread.app/thread/2L6LZz60026Onq3waGuwt7WdJ5x">new albums</a>, which are then cross-posted to <a href="https://social.lol/@robb">my Mastodon account</a> with <a href="https://echo.rknight.me">Echo</a>.</p>
 <p>The iOS app, currently in beta, has a share sheet extension for adding to a thread, but for MacOS I needed to make something in Shortcuts. The shortcut I've made (after a lot of ranting about how bad shortcuts is) can either ask for a music link to add, or be used directly from Apple Music under the share menu. It then asks which thread to add the link to.</p>
 <p><a href="https://www.icloud.com/shortcuts/d127fd30d412423b86c06bcff7f9cea6">Download Add to MusicThread Shortcut</a></p>
 ]]></content:encoded>
-
 <pubDate>2023-02-06T18:04:43.513+00:00</pubDate>
 </item>
 <item>
@@ -807,7 +769,6 @@
 <link>https://rknight.me/note-on-migrating-wordpress-site-eleventy/</link>
 <guid>https://rknight.me/note-on-migrating-wordpress-site-eleventy/</guid>
 <content:encoded><![CDATA[
-
 <p>I recently helped my friend Tim move <a href="https://nahumck.me/">his site</a> from a Wordpress install to a much simpler Eleventy setup. The biggest hurdle was transforming the Wordpress exported data into Markdown files. Thankfully <a href="https://github.com/lonekorean/wordpress-export-to-markdown"><code>wordpress-export-to-markdown</code></a> exists. This is a command line tool that takes a wordpress export, puts all the posts in markdown files, and downloads all the images contained in the posts.</p>
 <p>I did make an adjustment to this script so I could add a <code>permalink</code> attribute to each post by editing the <code>parser.js</code> file:</p>
 <pre class="language-diff"><code class="language-diff">frontmatter: {<br /><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   title: getPostTitle(post),<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   permalink: `${getPostSlug(post)}/index.html`,<br /></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   date: getPostDate(post),<br /></span><span class="token prefix unchanged"> </span><span class="token line">   categories: getCategories(post),<br /></span><span class="token prefix unchanged"> </span><span class="token line">   tags: getTags(post)<br /></span></span>}</code></pre>
@@ -815,7 +776,6 @@
 <p>To match Tim's existing site it needed support for markdown footnotes and image captions. As a side note here, footnotes <em>do not</em> export well from Wordpress via the CLI tool so I had to manually fix all of them which was not fun. <a href="https://www.alpower.com/">Al Power</a> had an article for both of these features which was handy. To add footnote support I followed the steps in <a href="https://www.alpower.com/tutorials/configuring-footnotes-with-eleventy/">this article</a> which outlines how to include <code>markdown-it-footnote</code> for the markdown parsing and <a href="https://www.alpower.com/tutorials/adding-figures-with-captions-to-images-in-markdown-with-eleventy/">this article</a> to add image captions.</p>
 <p>All in all it went fairly smoothly - without <code>wordpress-export-to-markdown</code> I would have had to write my own parsing script which I'm very glad I didn't have to do.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-31T22:13:16.196+00:00</pubDate>
 </item>
 <item>
@@ -823,7 +783,6 @@
 <link>https://rknight.me/additional-webmention-resources/</link>
 <guid>https://rknight.me/additional-webmention-resources/</guid>
 <content:encoded><![CDATA[
-
 <p>Some more links and tools I've found or had saved about webmentions. Read my post on <a href="https://rknight.me/adding-webmentions-to-your-site/">adding webmentions here</a>.</p>
 <h3><a href="https://github.com/remy/wm">@remy/webmention</a></h3>
 <p>Sadly the webapp side of this is <a href="https://remysharp.com/2023/01/30/on-vercel-if-some-of-my-sites-are-down">down at the moment</a> but the command line tool for <em>sending</em> webmentions is completely standalone.</p>
@@ -846,7 +805,6 @@
 <li><a href="https://git.lewisdale.dev/lewis/webmentions">lewis/webmentions - webmentions - Gitea: Git with a cup of tea</a></li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-01-31T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -854,7 +812,6 @@
 <link>https://rknight.me/adding-webmentions-to-your-site/</link>
 <guid>https://rknight.me/adding-webmentions-to-your-site/</guid>
 <content:encoded><![CDATA[
-
 <p>Right off the bat, I read the following two articles to get a sense of how to do this so I won't go over too much of the same content but rather add some thoughts of my own about the process. I would highly recommend reading both of these.</p>
 <ul>
 <li><a href="https://janmonschke.com/adding-webmentions-to-your-static-blog/">Adding webmentions to your static blog by Jan Monschke</a></li>
@@ -899,7 +856,6 @@
 <p><img alt="Webmentions example" src="https://rknightuk.s3.amazonaws.com/site/webmentions.png" /></p>
 <p>You might even see some webmentions below this post if I'm lucky.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-30T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -907,7 +863,6 @@
 <link>https://rknight.me/twitter-backup-and-archiving-options/</link>
 <guid>https://rknight.me/twitter-backup-and-archiving-options/</guid>
 <content:encoded><![CDATA[
-
 <p>If you want to make your Twitter archive a bit more useful than the standard backup Twitter give you, there are 3 options of varying complexity I'm aware of.</p>
 <h3>Option 0: Don't do anything</h3>
 <p>This is by far the easiest option. Don't care about your tweets. Let them wither away into the ether. Be free from the shackles of hoarding your data.</p>
@@ -922,7 +877,6 @@
 <p><img alt="Tweetback screenshot" src="https://rknightuk.s3.amazonaws.com/site/twitter-tweetback.png" /></p>
 <p>One other related part of Tweetback is <a href="https://github.com/tweetback/tweetback-canonical">tweetback-canonical</a>. If you add your archive and username to the repository, anyone who uses Tweetback and has tweets that mention you, those tweets will link back to your archive rather than Twitter's website itself. For example, <a href="https://hellsite.rknight.me/1489618994000805889/">this tweet</a> where I mention Zach links to <a href="https://www.zachleat.com/twitter/1489616692678434816">his archive</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-29T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -930,7 +884,6 @@
 <link>https://rknight.me/letters/</link>
 <guid>https://rknight.me/letters/</guid>
 <content:encoded><![CDATA[
-
 <p>Letters is a ongoing project by <a href="https://json.blog/2022/11/28/a-new-project.html">Jason Becker</a> that I was involved in for this month. The what:</p>
 <blockquote>
 <p>Letters will involve me corresponding with someone else on the internet over the course of a month. Each week, we will each write a letter to each other. There are no set topics.</p>
@@ -1122,7 +1075,6 @@ Robb</p>
 Jason</p>
 </blockquote>
 ]]></content:encoded>
-
 <pubDate>2023-01-28T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1130,7 +1082,6 @@ Jason</p>
 <link>https://rknight.me/get-mastodon-account-id-from-username/</link>
 <guid>https://rknight.me/get-mastodon-account-id-from-username/</guid>
 <content:encoded><![CDATA[
-
 <p>Note: Every Mastodon has an RSS feed you can use to get statuses if you don't need the data in JSON format <code>https://example.social/@foobar.rss</code>.</p>
 <p>If you want to get a user's statuses from Mastodon you can't just look these up with the username. You need, to quote the documentation, &quot;the ID of the Account in the database&quot;. To get this, we can use the <a href="https://docs.joinmastodon.org/methods/accounts/#lookup">lookup endpoint</a> that will return what we need:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># for an account on example.social</span><br /><span class="token function">curl</span> https://example.social/api/v1/accounts/lookup?acct<span class="token operator">=</span>foobar<br /><br /><span class="token comment"># also works for remote accounts</span><br /><span class="token function">curl</span> https://example.social/api/v1/accounts/lookup?acct<span class="token operator">=</span>foobar@another.social</code></pre>
@@ -1139,7 +1090,6 @@ Jason</p>
 <p>Then you can use that ID to make a request for a users statuses:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">curl</span> https://example.instance/api/v1/accounts/1234567891011121314/statuses</code></pre>
 ]]></content:encoded>
-
 <pubDate>2023-01-27T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1147,7 +1097,6 @@ Jason</p>
 <link>https://rknight.me/im-done-with-closed-services/</link>
 <guid>https://rknight.me/im-done-with-closed-services/</guid>
 <content:encoded><![CDATA[
-
 <p>I'm not signing up to any service that doesn't offer at minimum RSS feeds for my data. Ideally an API, even a simple one. No more apps that aren't <a href="https://www.jwz.org/blog/2022/11/psa-do-not-use-services-that-hate-the-internet/">part of the web</a>. I'm done.</p>
 <p>To quote <a href="https://localghost.dev/blog/everything-should-have-an-api-adventures-in-trying-to-automate-stuff/">Sophie</a>:</p>
 <blockquote>
@@ -1158,7 +1107,6 @@ Jason</p>
 <p>I shouldn't need to set a reminder every week/month/year to go and request an export of <em>my</em> data just to have it backed up, posted to my blog, or whatever else I want to do with it.</p>
 <p>I'm done with closed services.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-24T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1166,7 +1114,6 @@ Jason</p>
 <link>https://rknight.me/web-scraping-with-node-and-cheerio/</link>
 <guid>https://rknight.me/web-scraping-with-node-and-cheerio/</guid>
 <content:encoded><![CDATA[
-
 <p><em>This post is a spin-off from <a href="https://rknight.me/automating-my-now-page/">Automating My Now Page</a>.</em></p>
 <p>If you want to programatically get data from a site that doesn't have an API, scraping is the solution. Keep in mind scraping could be against the terms of service of some websites or illegal in some places. To scrape a website there are (at least in this tutorial) two steps:</p>
 <ol>
@@ -1209,7 +1156,6 @@ Jason</p>
 <pre class="language-js"><code class="language-js"><span class="token keyword">const</span> cheerio <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'cheerio'</span><span class="token punctuation">)</span><br /><br /><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />    <span class="token keyword">const</span> response <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'https://psnprofiles.com/rknightuk'</span><span class="token punctuation">)</span><br />    <span class="token keyword">const</span> body <span class="token operator">=</span> <span class="token keyword">await</span> response<span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token punctuation">)</span><br /><br />    <span class="token keyword">const</span> $ <span class="token operator">=</span> cheerio<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span><br />    <span class="token keyword">const</span> games <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#gamesTable .title'</span><span class="token punctuation">)</span><br /><br />    <span class="token keyword">const</span> parsedData <span class="token operator">=</span> <span class="token punctuation">{</span><br />        <span class="token literal-property property">title</span><span class="token operator">:</span> games<span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><br />        <span class="token literal-property property">link</span><span class="token operator">:</span> games<span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'href'</span><span class="token punctuation">)</span><span class="token punctuation">,</span><br />    <span class="token punctuation">}</span><br /><br />    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>parsedData<span class="token punctuation">)</span><br /><span class="token punctuation">}</span><br /><br /><span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <p>Now we have that data, we could do anything we want with it like post it to a blog or add it to an RSS feed. The source code for this tutorial is <a href="https://github.com/rknightuk/psn-scraper-demo">on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-22T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1217,7 +1163,6 @@ Jason</p>
 <link>https://rknight.me/automating-my-now-page/</link>
 <guid>https://rknight.me/automating-my-now-page/</guid>
 <content:encoded><![CDATA[
-
 <p>This post outlines how I automated my now page(s) but I should start with what a now page <em>is</em>. From <a href="https://nownownow.com/about">nownownow.com</a>:</p>
 <blockquote>
 <p>a website with a link that says “now” goes to a page that tells you what this person is focused on at this point in their life. For short, we call it a &quot;now page&quot;</p>
@@ -1285,7 +1230,6 @@ Jason</p>
 <p>Each time a job runs, it updates the <code>data.json</code> file so I can run <code>generate.js</code> and <a href="https://github.com/rknightuk/api/blob/main/now/update.js"><code>update.js</code></a> at any time throughout the week to update my now pages. The <code>update</code> script posts the contents of <code>web-omg.txt</code> to the <a href="https://api.omg.lol/">omg.lol API</a> and sends a webhook to <a href="https://forge.laravel.com">Forge</a> to deploy my main site.</p>
 <p>All of the code for this is <a href="https://github.com/rknightuk/api/">on GitHub</a> if you want to do something similar.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-21T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1293,14 +1237,12 @@ Jason</p>
 <link>https://rknight.me/navigate-project-folders-with-pick/</link>
 <guid>https://rknight.me/navigate-project-folders-with-pick/</guid>
 <content:encoded><![CDATA[
-
 <p>When I started my industrial placement at Radweb nearly 10 years ago (👴), <a href="https://github.com/danharper">Dan Harper</a> sent me his <a href="https://github.com/danharper/dotfiles">bash aliases</a> which included a lot of handy Git ones including this one that uses <a href="https://github.com/mptre/pick"><code>pick</code></a> to list git branches. I can either do <code>gco</code>, search, and enter to checkout to that branch, or do <code>gco branchName</code> to checkout immediately to a branch:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token keyword">function</span> <span class="token function-name function">gco</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />    <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$#</span> <span class="token parameter variable">-eq</span> <span class="token number">0</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span><br />        <span class="token function">git</span> checkout <span class="token variable"><span class="token variable">$(</span><span class="token function">git</span> branch <span class="token operator">|</span> pick<span class="token variable">)</span></span><br />    <span class="token keyword">else</span><br />        <span class="token function">git</span> checkout <span class="token string">"<span class="token variable">$@</span>"</span><br />    <span class="token keyword">fi</span><br /><span class="token punctuation">}</span></code></pre>
 <p>I do use <a href="https://github.com/martvdmoosdijk/zsh-marks"><code>zsh-marks</code></a> already to jump to folders I've expicitly marked (as well as jumping to the root of projects with <code>jump sites</code>) but last night while doing the <code>cd ..; cd project-name</code> dance between different projects I <em>hadn't</em> marked I realised I could apply this same thing to my personal sites folder which as the time of this writing has 97 folders. To do this, I needed to list out the directories with <code>ls</code> and the <code>-1</code> option which tells <code>ls</code> to show one per line and just the folder name:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token keyword">function</span> <span class="token function-name function">site</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />    <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$#</span> <span class="token parameter variable">-eq</span> <span class="token number">0</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span><br />        <span class="token builtin class-name">cd</span> ~/path/to/sites/<span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> <span class="token parameter variable">-1</span> <span class="token string">"~/path/to/sites"</span> <span class="token operator">|</span> pick<span class="token variable">)</span></span><br />    <span class="token keyword">else</span><br />        <span class="token builtin class-name">cd</span> ~/path/to/sites/<span class="token string">"<span class="token variable">$@</span>"</span><br />    <span class="token keyword">fi</span><br /><span class="token punctuation">}</span></code></pre>
 <p>So now to jump directly to the folder for this website instead of doing <code>j sites</code> then <code>cd personal/rknight.me</code> I can simply do <code>site rknight.me</code>. You can see all my aliases in <a href="https://github.com/rknightuk/dotfiles">my dotfiles on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-19T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1308,7 +1250,6 @@ Jason</p>
 <link>https://rknight.me/link-dump/</link>
 <guid>https://rknight.me/link-dump/</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://austinkleon.com/2014/04/29/a-brief-history-of-my-newspaper-blackout-poems/">A brief history of my newspaper blackout poems</a>. Not sure how I've not seen this before, but I'll be buying <a href="https://austinkleon.com/newspaperblackout/">the book ASAP</a>.</li>
 <li><a href="https://www.razzem.com/these-ai-generated-marvel-cat-characters-could-make-for-a-cute-animated-series/">AI generated Marvel cat-characters</a>. Cute AF.</li>
@@ -1318,7 +1259,6 @@ Jason</p>
 <li><a href="https://writteninstone.photo/">Written in Stone • A gallery of sidewalks, and the stamps and seals left by the people who laid them.</a> I already posted this but figured I'd pop it here too.</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-01-15T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1326,7 +1266,6 @@ Jason</p>
 <link>https://rknight.me/bye-almanac-hello-lantern/</link>
 <guid>https://rknight.me/bye-almanac-hello-lantern/</guid>
 <content:encoded><![CDATA[
-
 <p>I am a hoarder of data. I have exports from dead Tumblr sites, Twitter accounts,  Pinboard, Instapaper, and probably more I'm not thinking of. I also like to be able to check when I did something, watched something, or just tweeted something funny (it happened <a href="https://hellsite.rknight.me/656762307494682624/">at least once</a>).</p>
 <h3>Bye Almanac</h3>
 <p>In February 2015 <a href="https://hellsite.rknight.me/569782414899355648/">I started using</a> <a href="http://plotapp.io/">Plot</a> (RIP) for tracking movies I've watched. This was before I'd heard of <a href="https://letterboxd.com/">Letterboxd</a> and before the proliferation of the many TV and movie tracking apps on iOS. Within a few months I decided I wanted the same for TV shows I'd watched and games I played so I started work on the first version of Almanac. I built this with <a href="https://www.11ty.dev/">Eleventy</a> which worked well but was missing any kind of search and I couldn't post from my phone (I suppose I could but I <em>hate</em> doing things on my phone). Sadly I don't have a copy of this version of site but I do have this rather natty screenshot of it:</p>
@@ -1340,7 +1279,6 @@ Jason</p>
 <p><img alt="Lantern screenshot" src="https://rknightuk.s3.amazonaws.com/site/lantern-screenshot.png" /></p>
 <p>I started with a version that logged you in and would post automatically but realised that made it more complicated that it needs to be. I switched it over to use <a href="https://www.netlify.com/products/functions/">Netlify functions</a> for the API and a mess of vanilla JS for the front end. Micro.blog has the posting UI so I just needed to generated the main content. Micro.blog already has book support so I don't think I'll be adding too many features to Lantern but please let me know if you find any bugs or you have any litte requests.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-14T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1348,7 +1286,6 @@ Jason</p>
 <link>https://rknight.me/echo-rss-to-microblog/</link>
 <guid>https://rknight.me/echo-rss-to-microblog/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Screenshot of Echo running in a terminal" src="https://rknightuk.s3.amazonaws.com/site/echo-screenshot.png" /></p>
 <p><strong>Update 13/01/23</strong>: Echo now supports Mastodon and webhooks as well as Micro.blog. <a href="https://echo.rknight.me">Check out the website for more details</a>.</p>
 <p>After a conversation with <a href="https://zoeaubert.me">Zoe</a> about <a href="https://status.lol">status.lol</a>, as well as <a href="https://micro.blog/muhh/15830286">this reply from Markus</a>, I decided to write <a href="https://github.com/rknightuk/echo">Echo</a> last night (do I know how to party on my birthday or what?). From the readme:</p>
@@ -1359,7 +1296,6 @@ Jason</p>
 <p>Echo takes a config of RSS feeds as well as some formatting functions for items and posts them to Micro.blog. I run mine every 15 minutes but you could set it up to run whenever you want. The only requirements are <code>node</code> and <code>npm</code> and a server to run it on (or you could run it on your computer and manually run it as and when).</p>
 <p><a href="https://github.com/rknightuk/echo">Download Echo on GitHub</a></p>
 ]]></content:encoded>
-
 <pubDate>2023-01-10T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1367,7 +1303,6 @@ Jason</p>
 <link>https://rknight.me/blogs-and-wikis-and-links/</link>
 <guid>https://rknight.me/blogs-and-wikis-and-links/</guid>
 <content:encoded><![CDATA[
-
 <p>I've been thinking about how better to handle all the different places I'm posting too including this site,  <a href="https://micro.blog/rknightuk">Micro.blog</a>, and <a href="https://intersect.rknight.me/">my wiki</a>.  To quote <a href="https://toot.rknight.me/2023/01/07/starting-to-think.html">myself</a>:</p>
 <blockquote>
 <p>Starting to think some things I’ve put into my wiki might be better served as a blog post that I just update as and when I find things. The discoverability of pages is kinda crappy for anyone who isn’t me (because I know to go there to look for things)</p>
@@ -1377,7 +1312,6 @@ Jason</p>
 <p>The Intersect was fun to build but it's <em>complicated</em>. The build process takes a while, making any structural changes is a pain. Something simpler might be better. I should reduce it to the bare minimum of things that I need from it.</p>
 <p>Should I incorporate the wiki into my personal site instead of having it on a different domain perhaps? Should I just do more blog posts when I find interesting things and not worry if it's &quot;worth it&quot; to post? Who knows.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-07T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1385,7 +1319,6 @@ Jason</p>
 <link>https://rknight.me/using-pagefind-with-eleventy-for-search/</link>
 <guid>https://rknight.me/using-pagefind-with-eleventy-for-search/</guid>
 <content:encoded><![CDATA[
-
 <p>In the past, I have implemented my own search for static sites and while it's good <em>enough</em>, it's not great. Recently <a href="https://github.com/tweetback/tweetback">Tweetback</a>, a self-hosted Twitter archive, added search using <a href="https://pagefind.app">PageFind</a> so I dug into the code to see how it's done. PageFind is:</p>
 <blockquote>
 <p>a fully static search library that aims to perform well on large sites, while using as little of your users’ bandwidth as possible, and without hosting any infrastructure</p>
@@ -1413,7 +1346,6 @@ Jason</p>
 <p><img alt="Search box with McFly as the search term and three results" src="https://rknightuk.s3.amazonaws.com/site/pagefind-eleventy.png" />
 The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-demo">on GitHub</a> and there is a <a href="https://rknightuk.github.io/eleventy-pagefind-demo">live demo here</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-01-04T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1421,7 +1353,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/just-2022-things/</link>
 <guid>https://rknight.me/just-2022-things/</guid>
 <content:encoded><![CDATA[
-
 <p>Inspired by <a href="https://localghost.dev/blog/2022-the-year-in-lists/">Sophie's post</a> I decided to do a little roundup of things I've done the year.</p>
 <h3>House Project</h3>
 <p>We purchased our house in November 2021 and it hadn't been decorated since 1971 so everything needed doing; most of this year has been spent getting all the rooms fixed up. In July, we found out my partner was pregnant (🎉) which is very exciting but also added an extra bit of stress to making sure the house was done by the end of this year. Things I learnt how to do:</p>
@@ -1464,7 +1395,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <h2>Books</h2>
 <p>I read zero books this year which is embarrassing, I hope to change this next year. I did start <a href="https://micro.blog/books/9781728236254">Men Who Hate Women</a> and hopefully will finish it soon.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-30T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1472,7 +1402,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/bulding-podcast-site-eleventy/</link>
 <guid>https://rknight.me/bulding-podcast-site-eleventy/</guid>
 <content:encoded><![CDATA[
-
 <p>When me and John started <a href="https://ruminatepodcast.com">Ruminate</a>, we didn't know much about hosting podcasts so we decided to go with <a href="https://simplecast.com">Simplecast</a> to host and manage the podcast. Seven years later, Simplecast has changed quite a bit to the point that it's hindering rather than helping me post the show. It's not a bad service, but it's overkill for posting one episode every two weeks.</p>
 <p>I <a href="https://toot.rknight.me/2022/12/23/has-anyone-moved.html">asked</a> last week if anyone had self-hosted a podcast and a few people I trust said it should be easy enough to do so I got to work. As with most of my projects, I used <a href="https://www.11ty.dev/">Eleventy</a>. Eleventy is a very powerful static site generator that this site is built with. <a href="https://www.marclittlemore.com/create-an-eleventy-podcast-feed/">This post</a> was very helpful in pointing me in the right direction.</p>
 <h2>Importing existing posts</h2>
@@ -1488,7 +1417,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <p>I was able to replicate <a href="https://ruminatepodcast.com/feed.xml">the RSS feed</a> from Simplecast with this new setup but for some reason Safari doesn't auto-recognise it as a feed that can be opened in Podcasts/NetNewsWire. If anyone knows what attribute triggers this, I'd love to know.</p>
 <p>All of the code for this is <a href="https://github.com/rknightuk/ruminate">on GitHub</a> and you can see see the <a href="https://ruminatepodcast.com">new website here</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-28T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1496,7 +1424,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/two-social-networks-in-this-economy/</link>
 <guid>https://rknight.me/two-social-networks-in-this-economy/</guid>
 <content:encoded><![CDATA[
-
 <p>The past few months Micro.blog (M.b.) has improved its support for Mastodon and thanks to Space Karen doing what he does best, I've been following more and more people from there as they join via M.b.</p>
 <p>This has led to my timeline being busy which <em>is</em> good, but the way people post on Mastodon is very different to M.b. Threads (write a damn blog post please), posts with content that warnings (which rightly in my opinion M.b doesn't support), boosts (again not supported on M.b.), as well as hashtags have made the timeline feel messy and disconnected from the rest of M.b.</p>
 <p>Enter <a href="https://omg.lol">omg.lol</a>. omg.lol is a service that has a whole bunch of features, one of which is a Mastodon instance for users, <a href="https://rknight.me/social.lol">social.lol</a>. As a side note, until the end of the year it's only $5 a year (going up to $20 in 2023) so now is a good time to <a href="https://home.omg.lol/referred-by/robb">sign up</a>.</p>
@@ -1505,7 +1432,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <p>I don't really have a conclusion here other than I'm using both things for now. I might even checkout <a href="https://pixelfed.org/">Pixelfed</a> at some point.</p>
 <p>If you want to follow me you can do so on <a href="https://micro.blog/rknightuk">Micro.blog</a> or on <a href="https://social.lol/@robb">social.lol/@robb</a>. But probably don't follow me on both lest you see every post twice.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-22T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1513,7 +1439,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/pramis-challenge/</link>
 <guid>https://rknight.me/pramis-challenge/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://social.lol/@prami/109530090151262300">Prami posted a challenge on social.lol</a> to decode this string and win a lifetime subscription to <a href="https://home.omg.lol/referred-by/robb">omg.lol</a>.</p>
 <blockquote>
 <p>The string below is an encoded lifetime omg.lol gift code:</p>
@@ -1531,7 +1456,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <li><a href="https://github.com/Ciphey/Ciphey">Ciphey</a> - this one crashed my computer trying to run overnight</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2022-12-18T07:43:47.235+00:00</pubDate>
 </item>
 <item>
@@ -1539,14 +1463,12 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/chatcgt-and-mysql-database-schemas/</link>
 <guid>https://rknight.me/chatcgt-and-mysql-database-schemas/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://chat.openai.com/chat">ChatCGT</a> is wild. I entered &quot;<em>Describe a mysql database schema for tracking the owned books of multiple people</em>&quot; and it came back with the queries to write the tables including foreign keys:</p>
 <pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> people <span class="token punctuation">(</span><br />  id <span class="token keyword">INTEGER</span> <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span><span class="token punctuation">,</span><br />  name <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><br /><span class="token punctuation">)</span><span class="token punctuation">;</span><br /><br /><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> books <span class="token punctuation">(</span><br />  id <span class="token keyword">INTEGER</span> <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span><span class="token punctuation">,</span><br />  title <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span><br />  author <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span><br />  <span class="token keyword">year</span> <span class="token keyword">INTEGER</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><br /><span class="token punctuation">)</span><span class="token punctuation">;</span><br /><br /><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> owned_books <span class="token punctuation">(</span><br />  person_id <span class="token keyword">INTEGER</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span><br />  book_id <span class="token keyword">INTEGER</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span><br />  <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>person_id<span class="token punctuation">,</span> book_id<span class="token punctuation">)</span><span class="token punctuation">,</span><br />  <span class="token keyword">FOREIGN</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>person_id<span class="token punctuation">)</span> <span class="token keyword">REFERENCES</span> people<span class="token punctuation">(</span>id<span class="token punctuation">)</span><span class="token punctuation">,</span><br />  <span class="token keyword">FOREIGN</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>book_id<span class="token punctuation">)</span> <span class="token keyword">REFERENCES</span> books<span class="token punctuation">(</span>id<span class="token punctuation">)</span><br /><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>I do things like this regularly so I <em>can</em> do this no problem but having a rough draft dumped in front of me within seconds is handy. It even gives examples of what queries you could run with the data, so I followed up with &quot;<em>What would the query for how many books each person owns look like?</em>&quot;</p>
 <pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> p<span class="token punctuation">.</span>name<span class="token punctuation">,</span> <span class="token function">COUNT</span><span class="token punctuation">(</span>ob<span class="token punctuation">.</span>book_id<span class="token punctuation">)</span> <span class="token keyword">AS</span> num_books<br /><span class="token keyword">FROM</span> people p<br /><span class="token keyword">JOIN</span> owned_books ob <span class="token keyword">ON</span> p<span class="token punctuation">.</span>id <span class="token operator">=</span> ob<span class="token punctuation">.</span>person_id<br /><span class="token keyword">GROUP</span> <span class="token keyword">BY</span> p<span class="token punctuation">.</span>id</code></pre>
 <p>I'm not convinced I'm getting replaced <em>yet</em> but I'm a tiny bit more worried than I was a few weeks ago.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-16T19:38:40.307+00:00</pubDate>
 </item>
 <item>
@@ -1554,7 +1476,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/lite-youtube-for-micro-blog/</link>
 <guid>https://rknight.me/lite-youtube-for-micro-blog/</guid>
 <content:encoded><![CDATA[
-
 <p>I've published a new <a href="https://micro.blog">Micro.blog</a> plugin called <a href="https://github.com/rknightuk/micro-blog-lite-youtube">Lite YouTube</a> which does one thing: finds YouTube links in posts and appends a <a href="https://github.com/paulirish/lite-youtube-embed">lite-youtube-embed</a> to the post. Example before and after below:</p>
 <p><img alt="" src="https://rknightuk.s3.amazonaws.com/site/lite-youtube-before.png" /></p>
 <p><img alt="" src="https://rknightuk.s3.amazonaws.com/site/lite-youtube-after.png" /></p>
@@ -1566,7 +1487,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 </ol>
 <p>You can install it <a href="https://micro.blog/account/plugins/view/83">from the plug-in directory</a> and <a href="https://github.com/rknightuk/micro-blog-lite-youtube">view the code on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-06T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1574,7 +1494,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/office-setup/</link>
 <guid>https://rknight.me/office-setup/</guid>
 <content:encoded><![CDATA[
-
 <p><em>My office setup as of April 2022. (This post originally appeared in <a href="https://club.macstories.net/posts/reader-setup-2">MacStories Weekly)</a>.</em></p>
 <p><img alt="" src="https://rknightuk.s3.amazonaws.com/site/office-setup-tv.jpg" /></p>
 <p>A couple of weeks ago I posted a photo in the MacStories Discord and Federico <s>demanded</s> asked very nicely if I would write about it, so here we are. I have a lot of consoles which means I have a lot of games and controllers. I’ve never been one to sell games after I’ve finished them so I always had a collection of some sort. I worked at a second hand game shop while I was at university so my collection grew rapidly in the 11 months I was there and I have continued to pick up games here and there over the years. As of right now I have 315 games across 12 systems, a third of which are for the PlayStation 2. A lot of my all-time favourite games are for the PS2 including:</p>
@@ -1591,7 +1510,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <p>Until I add shelves to my office to have at least some of my games on display, I’m using the built-in cupboard as storage for my games. I built the shelves in there myself so they are a perfect size for double-stacking games. I added an <a href="https://www.ikea.com/gb/en/p/skadis-pegboard-combination-white-s09216595/">Ikea Skadis</a> to the inside of the door to various gaming-related things like cables, controllers, and memory cards for the older consoles.</p>
 <p>I have some ideas for the office including a custom controller holder, shelves to display my games and my many collector’s edition statues (these are also in storage right now), and I’m also considering wall-mounting the TV. I also need to alphabetise the games instead of dumping them in the cupboard like they are right now.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-05T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1599,7 +1517,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/my-favourite-albums-of-2022/</link>
 <guid>https://rknight.me/my-favourite-albums-of-2022/</guid>
 <content:encoded><![CDATA[
-
 <p>It's been a really good year for music especially for artists I've been listening to for years.</p>
 <ul>
 <li><a href="https://music.apple.com/gb/album/love-sux-deluxe/1655449416">Avril Lavinge - Love Sux</a> - This is the link to the deluxe version which contains some excellent acoustic versions of some of the tracks.</li>
@@ -1613,7 +1530,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <p>The released tracks on <a href="https://music.apple.com/gb/album/tear-me-to-pieces/1647133854">Story of the Year's new album</a> are fantastic. I can't wait to hear the rest of them.</p>
 <p>Finally I discovered <a href="https://music.apple.com/gb/album/never-look-back-deluxe/1634447768">Never Look Back by Goldfinger</a>. Apparently it came out in 2020 and I completely missed it. There's a great version of <em>Here In Your Bedroom</em> featuring Avril on this deluxe version of the album.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-02T19:50:00.081+00:00</pubDate>
 </item>
 <item>
@@ -1621,7 +1537,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/how-not-to-copy-gif-to-clipboard-programatically/</link>
 <guid>https://rknight.me/how-not-to-copy-gif-to-clipboard-programatically/</guid>
 <content:encoded><![CDATA[
-
 <p><strong>Update 1</strong></p>
 <p><a href="https://github.com/edwellbrook/grabgif">Ed Wellbrook solved this with grabgif</a> like the absolute hero he is.</p>
 <p><strong>Update 2</strong></p>
@@ -1639,7 +1554,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <h2>Conclusion</h2>
 <p>Having spent a good few hours on this at this point I am assuming this can't be done. If someone knows of a way to do this I would be very interested to see a solution.</p>
 ]]></content:encoded>
-
 <pubDate>2022-12-01T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1647,7 +1561,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/music-replay-2022/</link>
 <guid>https://rknight.me/music-replay-2022/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="http://replay.music.apple.com">Apple Music Replay</a> is a vast improvement on last year. I grabbed some of the data so I have a record of it (I have no idea if you can access a previous years data or not).</p>
 <p>No suprises Hamilton is top again with Lin-Manuel Miranda and Leslie Odom, Jr. taking 2 of the top artist spots. Combined, they take the real top spot.</p>
 <p>I was in the top 100 listeners for Punk Rock Factory and Goldfinger.</p>
@@ -1682,7 +1595,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <li><a href="https://music.apple.com/us/album/single-and-famous/328126452">Single and Famous - K.Flay and MC Lars</a></li>
 </ol>
 ]]></content:encoded>
-
 <pubDate>2022-11-29T16:33:59.480+00:00</pubDate>
 </item>
 <item>
@@ -1690,7 +1602,6 @@ The code for this is <a href="https://github.com/rknightuk/eleventy-pagefind-dem
 <link>https://rknight.me/importing-tweets-into-microblog/</link>
 <guid>https://rknight.me/importing-tweets-into-microblog/</guid>
 <content:encoded><![CDATA[
-
 <p>I wanted to import a bunch of tweets from my archive (mostly cat photos and a few other bits) but I didn't want to have to manually go through each tweet, copy the text and download the photos. So I wrote a script to do it for me once I had the IDs (which I got with my <a href="https://rknight.me/get-safari-tabs-shortcut/">Safari shortcut</a>).</p>
 <p>One thing that had annoyed me for a while is I didn't keep a diary/note of things that happened and my thoughts during the first year of so of the pandemic but thanks to going through my archive I now <a href="https://toot.rknight.me/categories/covid/">have that</a>. On a cheerier note I have a lovely collection of animals in the <a href="https://toot.rknight.me/categories/pets/">pets category</a>. These additional categories were done manually (with the help of <a href="https://github.com/sbarex/QLMarkdown">QLMarkdown</a>) as I couldn't think of a way to automate this.</p>
 <p>Once I had the IDs it was a case of getting the format correctly (for example, Micro.blog will fail an import with empty categories in the YAML). I was able to take ~450 tweets, convert them to markdown and <a href="https://toot.rknight.me/categories/imported-tweets/">import them into Micro.blog</a>. For example, this tweet:</p>
@@ -1707,7 +1618,6 @@ categories: Imported Tweets
 </code></pre>
 <p>The script isn't perfect. It doesn't do anything with hashtags or usernames, nor does it check if a tweet is a reply or a retweet. The <a href="https://github.com/rknightuk/twitter-to-micro-blog">project readme.md</a> has steps for using it on your own archive.</p>
 ]]></content:encoded>
-
 <pubDate>2022-11-17T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1715,7 +1625,6 @@ categories: Imported Tweets
 <link>https://rknight.me/the-best-tweets/</link>
 <guid>https://rknight.me/the-best-tweets/</guid>
 <content:encoded><![CDATA[
-
 <p>A few days ago <a href="https://twitter.com/jamesthomson/status/1591538731756191745">James Thomson posted</a> that you can find your tweets based on how many likes they got with the following link (switching my username for yours):</p>
 <p><a href="https://twitter.com/search?q=from%3Arknightuk%20min_faves%3A1000&amp;src=typed_query&amp;f=live">https://twitter.com/search?q=from%3Arknightuk%20min_faves%3A1000&amp;src=typed_query&amp;f=live</a></p>
 <p>I think it's very likely my account will be deleted at some point so I figured I'd have a little look at my best tweets and archive them here (I am using &quot;best&quot; in the loosest possible way here).</p>
@@ -1749,7 +1658,6 @@ categories: Imported Tweets
 </blockquote>
 <img alt="" height="332" src="https://rknightuk.s3.amazonaws.com/site/boris_thanos.jpg" width="600" />
 ]]></content:encoded>
-
 <pubDate>2022-11-15T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1757,7 +1665,6 @@ categories: Imported Tweets
 <link>https://rknight.me/year-of-renovation/</link>
 <guid>https://rknight.me/year-of-renovation/</guid>
 <content:encoded><![CDATA[
-
 <p>We moved into our house November 3rd 2021, just over a year ago. Most of the house hadn't been decorated since it was built in the '70s so everything needed redoing. With the exception of a few carpets and a bit of painting, everything is now done.</p>
 <h2>Bathroom</h2>
 <img src="https://rknightuk.s3.amazonaws.com/site/house/bathroom_before.jpg" />
@@ -1780,7 +1687,6 @@ categories: Imported Tweets
 <img src="https://rknightuk.s3.amazonaws.com/site/house/kitchen_after.jpg" />
 <p>Update: <a href="https://toot.rknight.me/2022/11/24/in-better-news.html">Living Room</a></p>
 ]]></content:encoded>
-
 <pubDate>2022-11-08T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1788,7 +1694,6 @@ categories: Imported Tweets
 <link>https://rknight.me/follow-mastodon-user-on-micro.blog-shortcut/</link>
 <guid>https://rknight.me/follow-mastodon-user-on-micro.blog-shortcut/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://micro.blog">Micro.blog</a> has support for following and replying to Mastodon users but getting from someone's profile on Mastodon to the follow page on Micro.blog can be a pain. To search for a user you need have it in the format of <code>cooluser@mastodon.instance</code> which isn't the same as the profile URLs. To make this easier I made a shortcut that does the following:</p>
 <ol>
 <li>Takes the current Safari URL, for example <code>https://mastodon.instance/@cooluser</code></li>
@@ -1804,7 +1709,6 @@ categories: Imported Tweets
 <li><a href="https://www.icloud.com/shortcuts/c055237a4b744d9eb5b120fe017b8356">v1.0</a> - this version won't work if the user hasn't been seen before by Micro.blog</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2022-11-03T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1812,14 +1716,12 @@ categories: Imported Tweets
 <link>https://rknight.me/fix-for-bluetooth-audio-cutting-out-on-the-mac/</link>
 <guid>https://rknight.me/fix-for-bluetooth-audio-cutting-out-on-the-mac/</guid>
 <content:encoded><![CDATA[
-
 <p>Bluetooth cutting out randomly on my Mac when using wireless headphones has been an issue for me for ages. I assumed it was because of everyones BT devices in the office but I'm here by myself this morning and it was still happening.</p>
 <p>Had a google around and found <a href="https://www.reddit.com/r/MacOSBeta/comments/qjgqjx/i_think_ive_found_a_fix_for_the_bluetooth/">this thread</a> on Reddit and it solved it. Settings &gt; Sharing &gt; Turn off AirPlay Reciever.</p>
 <p>I wish I'd looked for a solution sooner.</p>
 <p><img alt="" src="https://rknightuk.s3.amazonaws.com/site/settings_airplay.png" /></p>
 <p>Update for Ventura: System Settings &gt; General &gt; AirDrop &amp; Handoff. Thanks <a href="https://www.trevorkay.me">Trevor</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2022-09-14T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1827,7 +1729,6 @@ categories: Imported Tweets
 <link>https://rknight.me/thoughts-on-micro-blog/</link>
 <guid>https://rknight.me/thoughts-on-micro-blog/</guid>
 <content:encoded><![CDATA[
-
 <p>A couple of weeks ago I signed up to <a href="https://micro.blog">Micro.blog</a> and stopped using Twitter, Instagram, and Pocket.</p>
 <h3>Twitter</h3>
 <p>Micro.blog (MB for the rest of the post) has no likes, no follower counts, no retweets, and no <s>post dunking</s> quote tweets. If I post something, I don't know who saw it or who enjoyed it but it doesn't matter; I'm posting it because I want to. Might be <a href="https://toot.rknight.me/2022/05/12/stripe-have-opensourced.html">something interesting</a> or me <a href="https://toot.rknight.me/2022/05/13/mcr-released-a.html">being nostalgic for a time when I thought I was, but definitely wasn't, cool</a> but none of it is being posted to try and &quot;go viral&quot; or get likes.</p>
@@ -1845,7 +1746,6 @@ categories: Imported Tweets
 <h3>Missing Pieces</h3>
 <p>As much as I've complained about Twitter, there are people who I still want to subscribe to. Of course Twitter doesn't have RSS feeds any more but thankfully <a href="https://netnewswire.com">NetNewsWire</a> allows me to subscribe to specific people so I'm &quot;following&quot; a handful of Twitter accounts there instead.</p>
 ]]></content:encoded>
-
 <pubDate>2022-05-14T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1853,7 +1753,6 @@ categories: Imported Tweets
 <link>https://rknight.me/get-safari-tabs-shortcut/</link>
 <guid>https://rknight.me/get-safari-tabs-shortcut/</guid>
 <content:encoded><![CDATA[
-
 <p>For <a href="https://www.macstories.net/stories/introducing-automation-april/">Automation April</a> MacStories ran a <a href="https://www.macstories.net/stories/introducing-the-2022-automation-april-shortcuts-contest-winners/">contest</a> where people could submit a shortcut and be in with a chance of winning an Analogue Pocket and a Stream Deck.</p>
 <p>Until the announcement of the contest I had never made a shortcut but I wanted to enter just for the fun of it (and that sweet role icon <a href="http://plus.club">in the members Discord</a>). I decided to convert my existing <a href="https://rknight.me/alfred-workflows/#085F8761-9FB4-492D-B466-D7CE943DCE60"><em>Get Safari Tabs</em> Alfred workflow</a> to a shortcut.</p>
 <p>The shortcut gets all currently open tabs in Safari and converts them into one of 6 formats and then copies them to the clipboard</p>
@@ -1868,7 +1767,6 @@ categories: Imported Tweets
 <p>The shortcut is MacOS only because it uses <a href="https://developer.apple.com/library/archive/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/Introduction.html#//apple_r">JXA</a> to get the current tabs and formatting them. I'm sure this could be done with shortcut actions but I already had the existing logic from the workflow and I couldn't see any advantage in converting the logic to actions.</p>
 <p><a href="https://www.icloud.com/shortcuts/bfe5827f709a47909e6e81d098d5e507">Download Get Safari Links Shortcut for MacOS</a></p>
 ]]></content:encoded>
-
 <pubDate>2022-05-13T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1876,14 +1774,12 @@ categories: Imported Tweets
 <link>https://rknight.me/save-bookmark-to-micro-blog-shortcut/</link>
 <guid>https://rknight.me/save-bookmark-to-micro-blog-shortcut/</guid>
 <content:encoded><![CDATA[
-
 <p>I recently signed up (again) to <a href="https://micro.blog">Micro.blog</a> in an attempt to move away from services run by <a href="https://en.wikipedia.org/wiki/Elon_Musk">billionare shitposters</a>. I will probably write up a full post about it soon but you can hear me talk about it on <a href="https://ruminatepodcast.com/episodes/144">episode 144 of Ruminate</a> or <a href="https://toot.rknight.me">view my micro blog here</a>.</p>
 <p>One of the features Micro.blog offers is bookmarking of posts and links. After a <a href="https://micro.blog/rknightuk/12770616">conversation about using micro.blog as a read later service</a> and finding the correct API I put together a shortcut to save bookmarks. You'll need to get an access token from <a href="https://micro.blog/account/apps">the apps settings page</a>.</p>
 <p><a href="https://www.icloud.com/shortcuts/876d4c98272c4deb9f155a656a6929ec">Download Bookmark on Micro.blog</a></p>
 <p>MacOS shortcuts lacks support for using the sharesheet without a <a href="https://apps.apple.com/us/app/sharebot-for-shortcuts/id1597340986?mt=12">third-party app</a> so instead you can run this shortcut whenever and it gets the current Safari page URL. The iOS version shows up in the share sheet so it can be used wherever you share links.</p>
 <p><s>If there's a way to combine these so one shortcut works for both MacOS and iOS, I'd love to hear it.</s> Thanks to <a href="https://micro.blog/pratik/12775485">Pratik</a> for showing me how to check the device type and make this one shortcut for both platforms.</p>
 ]]></content:encoded>
-
 <pubDate>2022-04-28T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1891,7 +1787,6 @@ categories: Imported Tweets
 <link>https://rknight.me/building-a-pisight/</link>
 <guid>https://rknight.me/building-a-pisight/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="My finished PiSight" src="https://rknightuk.s3.amazonaws.com/site/pisight.jpg" /></p>
 <p>During the pandemic Max Braun managed to squeeze a Pi Zero with camera module <a href="https://debugger.medium.com/todays-webcams-are-boring-so-i-brought-back-a-classic-291cc7c94c76">into an Apple iSight camera</a>. I came across the post a few weeks ago and decided to have a go myself.</p>
 <p>Despite the <a href="https://www.raspberrypi.com/news/supply-chain-shortages-and-our-first-ever-price-increase/">Rapsberry Pi shortage</a> I was able to order a Pi Zero, the <a href="https://shop.pimoroni.com/products/raspberry-pi-camera-module-v2?variant=19833929735">camera module</a>, the <a href="https://shop.pimoroni.com/products/camera-cable-raspberry-pi-zero-edition?variant=32092803891283">Pi Zero camera cable</a>, and an <a href="https://en.wikipedia.org/wiki/ISight">iSight</a>. I ordered the <a href="https://github.com/maxbbraun/pisight/blob/master/PiSight.stl">3D-printed internal chassis</a> and <a href="https://github.com/maxbbraun/pisight/issues/16">this USB adaptor</a> from <a href="https://sgd3d.co.uk">SGD3D</a> which took about a week to arrive.</p>
@@ -1911,7 +1806,6 @@ categories: Imported Tweets
 <li><a href="https://github.com/peterbay/camera-control">peterbay/camera-control: Simple command-line application for controlling camera settings through V4L2.</a></li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2022-02-10T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1919,7 +1813,6 @@ categories: Imported Tweets
 <link>https://rknight.me/monzo-pot-image-generator-version-2/</link>
 <guid>https://rknight.me/monzo-pot-image-generator-version-2/</guid>
 <content:encoded><![CDATA[
-
 <p>It's been a while since I <a href="https://rknight.me/monzo-pot-image-generator/">released the first version</a> of the <a href="https://potimages.rknight.me/">Monzo pot image generator</a> and there's been a <a href="https://community.monzo.com/t/monzo-pot-image-generator/102120">lot of requests</a> on the Monzo forum for various new features.</p>
 <p>So I spent some time adding and updating the site:</p>
 <ul>
@@ -1938,7 +1831,6 @@ categories: Imported Tweets
 </ul>
 <p>Try the <a href="https://potimages.rknight.me/">Monzo Pot Image Generator</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2021-08-29T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1946,7 +1838,6 @@ categories: Imported Tweets
 <link>https://rknight.me/intersect/</link>
 <guid>https://rknight.me/intersect/</guid>
 <content:encoded><![CDATA[
-
 <p>I came across <a href="https://wiki.nikitavoloboev.xyz/">Nikita Volodoev's wiki</a> recently when looking for other things and realised this was exactly the type of things I'd been looking for to store snippets, links, and other notes about various things that don't justify a full blog post. And because I'm an idiot I ended up <a href="https://hellsite.rknight.me/1426307649365286921">building my own solution</a> with <a href="https://11ty.dev">Eleventy</a>. The result is <a href="https://intersect.rknight.me">Intersect</a>.</p>
 <p>Aside from just rendering a bunch of markdown files it has a number of additional features.</p>
 <ul>
@@ -1968,7 +1859,6 @@ categories: Imported Tweets
 <p>I even went full <a href="http://devsdodesign.com">#devsdodesign</a> and made a logo:</p>
 <p><img alt="Intersect Logo" src="https://rknightuk.s3.us-east-1.amazonaws.com/site/intersect-logo.png" /></p>
 ]]></content:encoded>
-
 <pubDate>2021-08-23T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1976,7 +1866,6 @@ categories: Imported Tweets
 <link>https://rknight.me/calendar-events-alfred-workflow/</link>
 <guid>https://rknight.me/calendar-events-alfred-workflow/</guid>
 <content:encoded><![CDATA[
-
 <p>NB: This workflow has been deprecated and replaced with the <a href="https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda">Agenda Workflow</a></p>
 <p>tl;dr: Calendar events workflow for Alfred. <a href="https://github.com/rknightuk/alfred-workflows/tree/main/workflows/calendar-events">Download it here</a>.</p>
 <p>I released a <a href="https://rknight.me/reminders-alfred-workflow/">Reminders workflow</a> a few days ago and while working on that I realised a lot of the code would be reusable for a version to manage calendar events. So I went at it tonight while it was too hot to sleep (it's 3am).</p>
@@ -1991,7 +1880,6 @@ categories: Imported Tweets
 </ul>
 <p><a href="https://github.com/rknightuk/alfred-workflows/tree/main/workflows/calendar-event">Download Calendar Events for Alfred</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2021-07-22T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1999,7 +1887,6 @@ categories: Imported Tweets
 <link>https://rknight.me/reminders-alfred-workflow/</link>
 <guid>https://rknight.me/reminders-alfred-workflow/</guid>
 <content:encoded><![CDATA[
-
 <p>NB: This workflow has been deprecated and replaced with the <a href="https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda">Agenda Workflow</a></p>
 <p>tl;dr: Reminders workflow for Alfred. <a href="https://github.com/rknightuk/alfred-workflows/tree/main/workflows/reminders">Download it here</a>.</p>
 <p>There are a number of workflows available for <a href="https://www.alfredapp.com">Alfred</a> to manage Reminders on the Mac and I've tried most of them; none of them do everything I want. Most of them have one of these problems:</p>
@@ -2022,7 +1909,6 @@ categories: Imported Tweets
 </ul>
 <p><a href="https://github.com/rknightuk/alfred-workflows/tree/main/workflows/reminders">Download Reminders for Alfred</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2021-07-19T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2030,14 +1916,12 @@ categories: Imported Tweets
 <link>https://rknight.me/monzo-pot-image-generator/</link>
 <guid>https://rknight.me/monzo-pot-image-generator/</guid>
 <content:encoded><![CDATA[
-
 <p>While browsing <a href="https://community.monzo.com/t/custom-pot-images-to-use/62748/325">this thread on the Monzo forums</a> I came up with an idea to generate Monzo pot images whenever I want so I created the <a href="https://potimages.rknight.me/">Monzo Pot Image Generator</a>.</p>
 <p><img alt="Monzo Pot Image Generator" src="https://rknightuk.s3.us-east-1.amazonaws.com/site/preview-image.png" /></p>
 <p>First thing was to work out how to generate and download the images. This turned out to be relatively easy with a combination of <a href="https://github.com/tsayen/dom-to-image">dom-to-image</a> and <a href="https://github.com/eligrey/FileSaver.js">FileSaver</a>. To generate a list of the <a href="https://fontawesome.com/">Font Awesome icons</a> output in the search, I grabbed <a href="https://github.com/FortAwesome/Font-Awesome/blob/master/metadata/icons.json">the JSON config</a>, did a little bit of manipulating in Sublime and used <a href="https://www.11ty.dev/">Eleventy's global data files</a> to use that data when building the site.</p>
 <p>I wanted to keep everything as simple as possible; no crazy build scripts and as few files as possible. I used <a href="https://watercss.kognise.dev/">Water.css</a> for the base css and the rest of the css is in a <code>style</code> tag in the <code>head</code> (is that legal?). I also learnt that there is a <code>type=&quot;color&quot;</code> input - although I might replace this at some point because it's not particularly nice on mobile Safari.</p>
 <p>You can also share you pot images with a link <a href="https://potimages.rknight.me/?i=chess-queen&amp;ip=fas&amp;c=333333&amp;bg=b7edd0">like this</a>. I initially used url hashes to keep the url updated all the time, but when sharing these to Twitter they get stripped out so I switched to using query strings instead.</p>
 ]]></content:encoded>
-
 <pubDate>2020-07-21T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2045,14 +1929,12 @@ categories: Imported Tweets
 <link>https://rknight.me/fifa-street-ps2-game-faqs/</link>
 <guid>https://rknight.me/fifa-street-ps2-game-faqs/</guid>
 <content:encoded><![CDATA[
-
 <p>Before YouTube was the go-to place for game tutorials, <a href="https://gamefaqs.com">GameFAQs</a> was one of the only decent places online to get in-depth guides on how to complete games or get cheat codes. GameFAQs only allowed text posts on the site so people came up with interesting ways to navigate chapters and sections in what feels like a precursor to <a href="https://daringfireball.net/projects/markdown/">Markdown</a>.</p>
 <p>Every guide would have an ASCII art heading and a table of contents with some unique key so you could use CMD/CTRL+F to find the relevant section. Today I remembered my only contribution to GameFAQs was a <a href="https://gamefaqs.gamespot.com/gamecube/924938-fifa-street/faqs/36247">Fifa Street PS2 guide</a>. I'm pretty sure a lot of it was just copied from magazines and other websites but I wanted to grab a copy of it just in case it ever removed or GameFAQs shuts down. So if that link doesn't work, I've also uploaded <a href="https://rknight.me/files/fifa-street-guide.txt">the original text file</a>.</p>
 <p>I haven't used GameFAQs in a <em>long</em> time but it's nice to know all those guides are still available.</p>
 <p><img alt="GTAIII ASCII Heading" src="https://rmlewisuk.s3.us-east-1.amazonaws.com/gta3-ascii.png" /></p>
 <p>Image from <a href="https://gamefaqs.gamespot.com/ps2/466217-grand-theft-auto-iii/faqs/14620">this GTA III guide</a> I remember using <em>a lot</em>.</p>
 ]]></content:encoded>
-
 <pubDate>2020-02-14T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2060,7 +1942,6 @@ categories: Imported Tweets
 <link>https://rknight.me/changing-your-name-by-deed-poll/</link>
 <guid>https://rknight.me/changing-your-name-by-deed-poll/</guid>
 <content:encoded><![CDATA[
-
 <p>I changed my name (and my email) a couple of weeks ago and I have a few thoughts about the process. Most of this should also apply if you've changed your name because of marriage.</p>
 <h3>Make a List</h3>
 <p>Before you do anything else, make a list of everywhere you need to change your name, along with the process to do it (letter, email, in branch). If it's a letter or email, I used this to send to each of them:</p>
@@ -2110,7 +1991,6 @@ categories: Imported Tweets
 </blockquote>
 <p>For the most part, these companies would &quot;suddenly&quot; find a way to change it or, in a few cases, they would delete the account.</p>
 ]]></content:encoded>
-
 <pubDate>2019-09-08T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2118,7 +1998,6 @@ categories: Imported Tweets
 <link>https://rknight.me/convert-spotify-facebook-to-email-login/</link>
 <guid>https://rknight.me/convert-spotify-facebook-to-email-login/</guid>
 <content:encoded><![CDATA[
-
 <p>This morning <a href="https://hellsite.rknight.me/976392265374535680">I tweeted</a> that there's no way to convert a Spotify account from Facebook login to email and password login. I even spoke to Spotify support who said:</p>
 <blockquote>
 <p>As your account was created via Facebook, it can't be unlinked. Don't worry, we can free up your email address so you can create a new account. Once that's done, we'll transfer all of your tunes and student details across.</p>
@@ -2133,7 +2012,6 @@ categories: Imported Tweets
 </ol>
 <p>The above steps that I followed have also been confirmed to work by <a href="https://iwader.co.uk">Wade</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2018-03-21T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2141,7 +2019,6 @@ categories: Imported Tweets
 <link>https://rknight.me/homescreen-november-2017/</link>
 <guid>https://rknight.me/homescreen-november-2017/</guid>
 <content:encoded><![CDATA[
-
 <p><em>My iPhone home screen as of November 2017. This post originally appeared in <a href="https://club.macstories.net/posts/home-screen-robb-lewis">issue 104 of MacStories Weekly</a>.</em></p>
 <p><a href="https://rmlewisuk.s3.amazonaws.com/homescreen-november-2017.jpg" target="_blank"><img height="auto" src="https://rmlewisuk.s3.amazonaws.com/homescreen-november-2017.jpg" style="float: left; padding: 10px;" width="250" /></a></p>
 <p>A lot of things have changed for me since I last <a href="https://robblewis.me/homescreen-september-2015/">shared my Home screen in 2015</a>. Last year I switched to Android, using a Pixel XL as my phone because I had become frustrated with some of the interface changes to iOS. Just under a year later I was as irked with Android as I previously was with iOS, but for different reasons (Seriously Android? No way to choose audio output is ridiculous). I also missed my Apple Watch and I wanted to try out AirPods which, surprising no one, I love.</p>
@@ -2152,7 +2029,6 @@ categories: Imported Tweets
 <p>The rest of the apps are fairly self-explanatory; Amazon, eBay, and my bank's <a href="https://hellsite.rknight.me/927502202914123776">terrible app</a> because <a href="https://hellsite.rknight.me/701068051840630784">I buy a lot of Lego</a>, Google Inbox because email is a necessary evil, and notes because I like the simplicity of it.</p>
 <p>Spending a year on Android gave me an appreciation for the things I really like about iOS as well as the areas I hope they improve on in the future like the Home screen layout and notifications.</p>
 ]]></content:encoded>
-
 <pubDate>2018-03-15T15:25:45+00:00</pubDate>
 </item>
 <item>
@@ -2160,7 +2036,6 @@ categories: Imported Tweets
 <link>https://rknight.me/notes-about-setting-up-retropie/</link>
 <guid>https://rknight.me/notes-about-setting-up-retropie/</guid>
 <content:encoded><![CDATA[
-
 <p>Setting up <a href="https://retropie.org.uk/">RetroPie</a> on a Raspberry Pi is fairly easy but I did come up against a couple of issues that I needed to fix. This post is just a collection of quick fixes for those issues.</p>
 <h3>Remove underscored games when transferring from a Mac</h3>
 <p>When copying ROMs from a Mac, you may end up with a bunch of files that start with an underscore. To remove them all, run the following:</p>
@@ -2172,7 +2047,6 @@ categories: Imported Tweets
 <h3>Finding decent ROMs</h3>
 <p>The best site I've found for searching for specific ROMs is <a href="http://www.completeroms.com/">Complete ROMS</a>. They don't have <em>everything</em> but the site is clean and easy to find exactly what you're looking for.</p>
 ]]></content:encoded>
-
 <pubDate>2017-07-04T10:14:15+00:00</pubDate>
 </item>
 <item>
@@ -2180,7 +2054,6 @@ categories: Imported Tweets
 <link>https://rknight.me/getting-closer-to-the-perfect-tv/</link>
 <guid>https://rknight.me/getting-closer-to-the-perfect-tv/</guid>
 <content:encoded><![CDATA[
-
 <p>In 2015, Pieter Siekerman <a href="http://technology.siekerman.nl/post/133644449664/the-perfect-tv">wrote a blog post</a> describing what the perfect TV should be:</p>
 <blockquote>
 <p>For two years now I’ve closely watched various TV manufacturers trying to find their way in the changing landscape of TV platforms and I just don’t get it.</p>
@@ -2200,7 +2073,6 @@ categories: Imported Tweets
 <p>The display is so nice I bought another one to replace my aging HDTV from ~5 year ago. Even with non-4K content, everything looks fantastic.</p>
 <p>There are a number of other points on Peter's list which I care less about than the ones listed above and there's still a long way to go before I can buy the perfect TV. However, if you're looking for a good value 4K TV this is a pretty good option. Just buy yourself a Fire TV box to go with it so you can avoid thier &quot;smart&quot; software.</p>
 ]]></content:encoded>
-
 <pubDate>2017-05-15T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2208,7 +2080,6 @@ categories: Imported Tweets
 <link>https://rknight.me/hdr-hisense-tv-ps4/</link>
 <guid>https://rknight.me/hdr-hisense-tv-ps4/</guid>
 <content:encoded><![CDATA[
-
 <p>My Hisense TV (<a href="https://hisense.co.uk/electronics/tvs/m3000/43">H43M3000</a>) recently received an update to support HDR, which is something the PS4 supports for some games. After plugging the console in, the PS4 told me my TV doesn't support HDR but after some playing around with settings and ports I managed to get it to work:</p>
 <ol>
 <li>The PS4 must be using either HDMI port 3 or 4</li>
@@ -2219,7 +2090,6 @@ categories: Imported Tweets
 <p><s><em>nb: I have an <a href="https://hellsite.rknight.me/736500604705591297">original PS4</a> so I can't confirm if this TV works with 4K on the PS4 Pro.</em></s></p>
 <p><strong>24/01/2018 Update: I now have a PS4 Pro and can confirm it works with 4K as well.</strong></p>
 ]]></content:encoded>
-
 <pubDate>2017-05-05T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2227,10 +2097,8 @@ categories: Imported Tweets
 <link>https://rknight.me/jekyll-category-year-archive/</link>
 <guid>https://rknight.me/jekyll-category-year-archive/</guid>
 <content:encoded><![CDATA[
-
 <pre class="language-html"><code class="language-html"><br />    <span class="token comment">&lt;!-- Check if the date has been output --></span><br />    {% assign datePrinted = false %}<br />    <span class="token comment">&lt;!-- Assign year to something we're not using --></span><br />    {% assign currentYear = 1000 %}<br />    <span class="token comment">&lt;!-- Get number of posts --></span><br />    {% assign postCount = archivePosts | size %}<br />    <br />    <span class="token comment">&lt;!-- If no posts, say that --></span><br />    {% if postCount == 0 %}<br />        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>No posts yet<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br />    {% endif %}<br /><br />    <span class="token comment">&lt;!--  Loop thrugh posts --></span><br />    {% for post in archivePosts %}<br /><br />        {% assign postYear = post.date | date: "%Y" %}<br /><br />        <span class="token comment">&lt;!-- Output posts if this is a new year --></span><br />        {% unless postYear == currentYear %}<br />            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>{{ postYear }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br />        {% endunless %}<br /><br />        {% assign currentYear = postYear %}<br /><br />        <span class="token comment">&lt;!-- Output post --></span><br />        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><br />            {{ post.date | date: "%d/%m" }} - <br />            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ post.url }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br />                {{ post.title }}<br />            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br />        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br />        <br />    {% endfor %}<br /></code></pre>
 ]]></content:encoded>
-
 <pubDate>2017-01-12T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2238,7 +2106,6 @@ categories: Imported Tweets
 <link>https://rknight.me/oneplus-3-and-switching-to-android/</link>
 <guid>https://rknight.me/oneplus-3-and-switching-to-android/</guid>
 <content:encoded><![CDATA[
-
 <p><em>If you want to hear more about this, or just prefer listening over reading (hi Myke), I spoke about this with John on episode 30 of our podcast, <a href="http://ruminatepodcast.com/31">Ruminate</a>. Find it in <a href="https://overcast.fm/itunes1033235350/ruminate-podcast">Overcast</a>, <a href="http://pca.st/ruminate">Pocketcasts</a>, or <a href="https://itunes.apple.com/gb/podcast/ruminate-podcast/id1033235350">iTunes</a>, or any other podcast app you use.</em></p>
 <hr />
 <p>I wrote about <a href="http://robblewis.me/replacing-apps-on-android">replacing all my apps on Android</a> just under a week ago, but I wanted to lay out some of my thoughts about the <a href="https://oneplus.net/uk/3">OnePlus 3</a> and Android in general.</p>
@@ -2279,7 +2146,6 @@ categories: Imported Tweets
 <p>I'm pretty happy with using Android. I don't do Real Work™ on my phone and mostly use it for Twitter, phone calls, and buying stuff on Amazon when I'm not at my Mac. Almost any problem or tweak I want to make I can through apps or widgets; Android definitely feels like it's geared more towards power users and people who want to tinker with settings or &quot;fix&quot; things but that's perfect for me.</p>
 <p>Finally, because the Apple Watch doesn't work with Android, I'm getting rid of it. As I <a href="https://hellsite.rknight.me/783674253807845376">said on Twitter</a> the only thing I miss is not being able to quickly see the time so I'm currently eyeing up <a href="http://www.nixon.com/uk/en/sentry-leather-sw/A105SW.html?dwvar_A105SW_color=2244&amp;dwvar_A105SW_size=00#gclid=Cj0KEQjw1ee_BRD3hK6x993YzeoBEiQA5RH_BHLZjplqhtoBrlGuj7TgwFVJGVScjX9UVaU9d1tOVwgaAmee8P8HAQ&amp;start=1">one of these</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2016-10-11T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2287,7 +2153,6 @@ categories: Imported Tweets
 <link>https://rknight.me/replacing-apps-on-android/</link>
 <guid>https://rknight.me/replacing-apps-on-android/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="http://rmlewisuk.s3.amazonaws.com/home-screen-tiles.png" /></p>
 <p>If you follow me on Twitter, you probably already know I've ditched my iPhone in favour of a <a href="https://oneplus.net/uk/3">OnePlus 3</a>. The biggest hurdle to switching is the apps I used regularly (and some not-so-regularly). After <a href="http://rmlewisuk.s3.amazonaws.com/apps.md">making a list of apps I had installed</a> on my iPhone, I was able to filter it down to just two lists: ones with no equivalent, and ones I needed to find an Android alternative for. The three with no equivalent were:</p>
 <ul>
@@ -2315,7 +2180,6 @@ categories: Imported Tweets
 <p><a href="https://play.google.com/store/apps/details?id=fema.serietv2">TV Series</a>, as of right now, seems like a pretty good app although I'll need a few more weeks to know if it works as well as iTV Shows which I was using on iOS. Overcast and Narwhal are both fantastic apps, but also reasonably easy to find quality Android equivalents. I replaced them with <a href="https://play.pocketcasts.com/web/podcasts/index">Pocketcasts</a> and <a href="https://play.google.com/store/apps/details?id=free.reddit.news&amp;hl=en_GB">Relay</a> respectively.</p>
 <p>Overall, I'm really pleased so many of the apps I used have Android and iOS versions, because it made switching <em>much</em> easier. And, despite what some in the Apple community have you believe, the Android-only apps that I've tried are really great quality and on par with their iOS equivalents. And someone should show Apple how great installing apps from the Google Play site is, because it's a damn sight easier than opening iTunes.</p>
 ]]></content:encoded>
-
 <pubDate>2016-10-06T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2323,7 +2187,6 @@ categories: Imported Tweets
 <link>https://rknight.me/amazon-echo-initial-thoughts/</link>
 <guid>https://rknight.me/amazon-echo-initial-thoughts/</guid>
 <content:encoded><![CDATA[
-
 <p>I have no self control so I bought an <a href="https://www.amazon.co.uk/Amazon-SK705DI-Echo-Black/dp/B01GAGVIE4/ref=sr_1_1?sr=8-1&amp;ie=UTF8&amp;keywords=echo&amp;qid=1475139825">Echo</a> while Amazon were offering £50 off for Prime members last week. Here's a brain dump of my initial thoughts on the device.</p>
 <h3>Setup</h3>
 <p>Setup is pretty easy using the <a href="https://geo.itunes.apple.com/us/app/amazon-alexa/id944011620?mt=8&amp;at=1001l3gY&amp;ct=twitter">Alexa app</a>. The Echo creates it's own wifi network which you need to connect to so you can choose your home wifi network. Once that's done, you can connect services and products like Spotify and Hue lights from within the app, as well as add additional &quot;skills&quot; (Skills are what Amazon call apps for the Echo).</p>
@@ -2338,7 +2201,6 @@ categories: Imported Tweets
 <p>The Alexa app is pretty slow and janky (it's a web app in a wrapper) but it's only used for setup of the device, and adding new skills. You can access the &quot;app&quot; from <a href="http://alexa.amazon.com">alexa.amazon.com</a> as well if you prefer to setup from a browser.</p>
 <p>I don't currently have any smart home devices so I wasn't able to try these features out, but given how well everything else works I'm sure this will work equally well. The Echo does feel like somewhat of a novelty right now, but it works as a Spotify device, bluetooth speaker, and for timers while I'm cooking so I'm pretty happy with it.</p>
 ]]></content:encoded>
-
 <pubDate>2016-09-29T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2346,7 +2208,6 @@ categories: Imported Tweets
 <link>https://rknight.me/saving-money-on-lego-in-the-uk/</link>
 <guid>https://rknight.me/saving-money-on-lego-in-the-uk/</guid>
 <content:encoded><![CDATA[
-
 <p>Although there always seems to be some great Lego bargains to be had in the US from the likes of Walmart and Target, the UK doesn't really have equivalent stores that do reductions like those stores do. But there are a number of ways to save significant money on Lego in the UK.</p>
 <h3>Lego VIP Points</h3>
 <p>Lego's <a href="http://shop.lego.com/en-GB/VIP">VIP points</a> is a points system where for every £1 you spend (either online or in an official Lego store) you get 1 point. When you have 100 points, you get £5 off a purchase. Usually twice a year (around March and September), Lego run a double points promotion, so for every pound, you get 2 points; these promotions are a good time (if you have the willpower to wait) to order larger, Lego-exclusive sets or place a large order. So depending on how and when you order, you can get 5%-10% back in money off of other purchases. Being a VIP member also allows you early-access to exclusive sets, normally a few weeks early.</p>
@@ -2413,7 +2274,6 @@ categories: Imported Tweets
 </ul>
 <p>I've had some luck checking Tesco's reduced section (assuming your local Tesco sells Lego) where some store-specific reductions can happen on smaller Lego sets and Sainsbury's tend to reduce all their Lego once every 3 months or so as well.</p>
 ]]></content:encoded>
-
 <pubDate>2016-03-31T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2421,7 +2281,6 @@ categories: Imported Tweets
 <link>https://rknight.me/convert-lxf-to-bricklink-xml/</link>
 <guid>https://rknight.me/convert-lxf-to-bricklink-xml/</guid>
 <content:encoded><![CDATA[
-
 <p>When you've created a model in Lego Digital Designer, you likely want get those parts into a Bricklink wanted list so you can order them. Unfortunately, LDD doesn't have an option to export to the required <a href="http://www.bricklink.com/help.asp?helpID=207">Bricklink XML format</a>. Thankfully, <a href="http://rebrickable.com">Rebrickable</a> has the ability to convert an LDD model to Bricklink XML. You'll need a Rebrickable account to do this, so if you haven't got one yet, <a href="http://rebrickable.com/signup">register for one</a>, and sign in.</p>
 <p>Once you're signed in, choose &quot;My Private MOCs&quot; from the account dropdown menu and click &quot;Add New Private MOC&quot;, give it a name, and then press &quot;Save Details&quot;. Below this you will see a number of import options, but for the purposes of this article, we'll be focusing only on the LXF import. Click &quot; Import from MPD/LDR/LXF file&quot;, choose your LXF file from your computer, and press &quot;import&quot;.</p>
 <p><img alt="" src="http://studshq.s3.amazonaws.com/rebrickable-import.jpg" /></p>
@@ -2435,7 +2294,6 @@ categories: Imported Tweets
 <p>If you want to upload the parts list to a specific wanted list on Bricklink, you will need to edit the XML file in a text editor (I recommend <a href="https://www.sublimetext.com/">Sublime Text</a>). You'll need to add <code>&lt;WANTEDLISTID&gt;12345&lt;/WANTEDLISTID&gt;</code> to every part in the XML file, where <code>12345</code> refers to your Bricklink wanted list ID.</p>
 <p>Once all that is done, you can <a href="http://www.bricklink.com/wantedXML.asp">upload it to Bricklink</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2016-03-22T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2443,7 +2301,6 @@ categories: Imported Tweets
 <link>https://rknight.me/third-party-apple-watch-bands/</link>
 <guid>https://rknight.me/third-party-apple-watch-bands/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="http://rmlewisuk.s3.amazonaws.com/apple-watch-bands.jpg" /></p>
 <p>When I first saw the <a href="http://www.apple.com/pr/library/2015/09/09Apple-and-Herm-s-Unveil-the-Apple-Watch-Herm-s-Collection.html">Hermès Cuff for Apple Watch</a> I thought it looked like a great watch band but also knew that there was no way I was going to pay upwards of a thousand pounds for one. So I kept an eye on eBay, looking for third party manufacturers making similar bands. These became available for purchase about a month after the announcement so I decided to order one. The seller also had some other copies of Apple's bands and I ordered a blue sport band, a black Milanese loop, as well as a pair of black adaptors to better match my space grey sport watch.</p>
 <h3>Leather Cuff (£20)</h3>
@@ -2457,7 +2314,6 @@ categories: Imported Tweets
 <p>After trying the leather cuff and seeing how cheap it felt, I was surprised to find that the sport band from the same seller felt great. The design is identical in every way to the official version and feels more or less the same when wearing it. The only noticeable difference between this one and the Apple version is that Apple's feels a little bit thicker and sturdier. The band doesn't fit quite as snugly is the slots as it's official counterpart, but it's still feels sturdy. It's just as comfy as Apple's and at £5, it's a bargain.</p>
 <p>These bands are fine if you want something that's not a sport band and aren't willing to spend out the money for the offical onces but overall, you get what you pay for. I think, as usual, <a href="http://www.relay.fm/upgrade/56">Myke was right</a>. I'm going to stick to sport bands for the forseeable future. They're much more comfortable to wear for an extended period and that's more important to me than anything else.</p>
 ]]></content:encoded>
-
 <pubDate>2015-11-16T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2465,11 +2321,9 @@ categories: Imported Tweets
 <link>https://rknight.me/game-controller-double-standards/</link>
 <guid>https://rknight.me/game-controller-double-standards/</guid>
 <content:encoded><![CDATA[
-
 <p>The new Apple TV supports game controllers which is great. What's not so great is the fact that developers can't require them. By not allowing developers to require a game controller, what Apple have done is limited the platform and the games produced for it. I bought a <a href="http://www.apple.com/uk/shop/product/HJ162ZM/A/steelseries-nimbus-wireless-gaming-controller">Nimbus controller</a> so I could play games like <a href="https://itunes.apple.com/nz/app/rayman-adventures./id973020044?mt=8&amp;at=1001l3gY&amp;ct=twitter">Rayman Adventures</a> and <a href="https://itunes.apple.com/gb/app/asphalt-8-airborne/id610391947?mt=8&amp;at=1001l3gY&amp;ct=twitter">Asphalt 8</a> but I only ever use 1 or 2 buttons on the controller in any given game. It's unreasonable to expect developers to have one set of controls for the Siri remote and another for a controller, without changing the game significantly to support this.</p>
 <p>Guitar Hero, however, is allowed to require a controller but not a standard MFi controller; Guitar Hero requires a purpose-built controller that presumably won't be able to be used for other games on Apple TV (except more Guitar Hero games). This kind of double standard is frustrating for both developers and owners of the Apple TV and I hope Apple decide to reverse their decision on not requiring game controllers soon.</p>
 ]]></content:encoded>
-
 <pubDate>2015-11-11T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2477,7 +2331,6 @@ categories: Imported Tweets
 <link>https://rknight.me/tips-for-apple-tv-app-developers/</link>
 <guid>https://rknight.me/tips-for-apple-tv-app-developers/</guid>
 <content:encoded><![CDATA[
-
 <p>Since the Apple TV got released I have been running <a href="http://atvapps.net">Apple TV Apps</a>, a blog and Twitter account showcasing the best Apple TV apps available. With discoverability being sub-par compared to the iOS app store, the site has been moderately successful and I've been contacted by a number of developers with iTunes links to their apps asking me to feature them, but there's a problem. Those links don't go anywhere; no web previews, no way to view these apps in iTunes.</p>
 <p><img alt="Connecting to iTunes" src="http://rmlewisuk.s3.amazonaws.com/connecting-to-itunes.png" /></p>
 <p>Graham Spencer summed up what is needed from developers really well:</p>
@@ -2515,7 +2368,6 @@ categories: Imported Tweets
 <p><img alt="Almost Impossible Landing Page" src="http://rmlewisuk.s3.amazonaws.com/almost-impossible.png" /></p>
 <p>Until Apple allows web previews for Apple TV apps, your goal should be to replicate all of the information you have in the app store. If you at least some of the above, your app is much more likely to be featured and also it will help customers decide if they want to buy your app.</p>
 ]]></content:encoded>
-
 <pubDate>2015-11-09T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2523,10 +2375,8 @@ categories: Imported Tweets
 <link>https://rknight.me/the-best-apple-tv-apps/</link>
 <guid>https://rknight.me/the-best-apple-tv-apps/</guid>
 <content:encoded><![CDATA[
-
 <p>I've started a new blog to highlight some the best and most interesting Apple TV apps available. If you're interested you can <a href="http://twitter.com/_atvapps">follow @_atvapps on Twitter</a> or check out the blog at <a href="http://atvapps.net">http://atvapps.net</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2015-10-28T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2534,7 +2384,6 @@ categories: Imported Tweets
 <link>https://rknight.me/homescreen-september-2015/</link>
 <guid>https://rknight.me/homescreen-september-2015/</guid>
 <content:encoded><![CDATA[
-
 <p><em>My iPhone home screen as of September 2015. This post originally appeared in the <a href="https://www.macstories.net/club/">MacStories newsletter (now Club MacStories)</a>.</em></p>
 <p><a href="http://rmlewisuk.s3.amazonaws.com/homescreen-september-2015.jpg" target="_blank"><img height="auto" src="http://rmlewisuk.s3.amazonaws.com/homescreen-september-2015.jpg" style="float: left; padding: 10px;" width="250" /></a></p>
 <p>I like to try and keep all of my apps on one page, hence the large number of folders. In the fight between quick access to apps and tidiness, tidiness always wins. Having said that, I do still like to keep my most used apps one tap away. The empty bottom row is used primarly for apps that I'm trying out which, at the moment, happens to be <a href="https://itunes.apple.com/gb/app/bf-news/id981609476?mt=8&amp;at=1001l3gY&amp;ct=blog">BuzzFeed News</a>.</p>
@@ -2543,7 +2392,6 @@ categories: Imported Tweets
 <p><a href="https://simplecast.fm">Simplecast</a> is a saved web site and not a native application, but I like to check up on the download numbers for <a href="http://ruminatepodcast.com">my podcast</a> so that earns a spot on my home screen. Some of the other apps that are hidden away that I use regularly include <a href="https://itunes.apple.com/us/app/due-reminders-countdown-timers/id390017969?mt=8&amp;at=1001l3gY&amp;ct=blog">Due</a>, a simple but really powerful reminders app, <a href="https://itunes.apple.com/us/app/blink-better-affiliate-links/id946766863?mt=8&amp;at=1001l3gY&amp;ct=blog">Blink</a> for generating iTunes affiliate links and <a href="https://itunes.apple.com/us/app/deliveries-a-package-tracker/id290986013?mt=8&amp;at=1001l3gY&amp;ct=blog">Deliveries</a> for tracking parcels.</p>
 <p>The background is a Star-Lord wallpaper (that I also use <a href="https://hellsite.rknight.me/635851605364051968">on my desktop</a>) and you can <a href="http://justinmaller.com/project/helmetica/">download it here</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2015-09-11T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2551,7 +2399,6 @@ categories: Imported Tweets
 <link>https://rknight.me/ruminate-podcast/</link>
 <guid>https://rknight.me/ruminate-podcast/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://johnvoorhees.co/">John Voorhees</a> and I decided to have a go at creating out own podcast. The current description of the show is:</p>
 <blockquote>
 <p>A podcast about the opportunities and challenges that technology presents us with every day</p>
@@ -2559,7 +2406,6 @@ categories: Imported Tweets
 <p>This might change in the future (podcasts are harder than they seem) but for now we'll be talking about how technology helps solve problems, as well as some non-tech related topics like terrible food, and why you would save a pair of shoes for 10 years.</p>
 <p>~You can subscribe and listen to the first episode at <a href="http://ruminatepodcast.com/1">http://ruminatepodcast.com/1</a> and follow us <s>on Twitter</s> on <a href="https://social.lol/@ruminate">Mastodon</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2015-08-24T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2567,7 +2413,6 @@ categories: Imported Tweets
 <link>https://rknight.me/manage-your-lego-collection-with-brickset/</link>
 <guid>https://rknight.me/manage-your-lego-collection-with-brickset/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="http://brickset.com/">Brickset</a>, as well as being a great source for LEGO news and reviews, is a also an excellent service for keeping a list of all the sets and minifigures that you own. Brickset also has some more advanced features for marking sets that you own without minifigures and custom flags to make managing your collection even easier. Once you've set up your collection, you can also share it publicly if you desire. For example, <a href="http://brickset.com/sets/ownedby-rmlewisuk">here is my collection</a>. If you haven't already, <a href="http://brickset.com/signup">signup for a Brickset account</a>.</p>
 <h2>Sets</h2>
 <p>There are a number of different ways you can search for sets to add them to your collection: by set number, by set name or by tag. To add a set to your collection, type the set name or number into the search box and once you've found the set you want to add, simply check the &quot;I own&quot; checkbox and it will be added to your collection. A large number of sets on Brickset are also tagged to make searching for a set easier; if you type <code>Emmet</code> into the search box you will see <code>Emmet Brickowski [Tag]</code> as one of the suggestions. Selecting this option will show you <a href="http://brickset.com/sets/tag-Emmet-Brickowski">all sets that contain an Emmet minifigure</a>. You can then view a list of all the sets you by selecting <code>Sets you own</code> from the <code>My sets</code> menu. You can also set up a wanted list of sets by checking the <code>I want</code> checkbox: your wanted list can be found by selecting <code>Sets you want</code> from the <code>My sets</code> menu.</p>
@@ -2585,7 +2430,6 @@ categories: Imported Tweets
 <h2>Collection Summary</h2>
 <p>Now you've added all your sets and minifigures, you can view your collection summary by selecting <code>Collection summary</code> from the <code>My Sets</code> menu. This summary will show you, by theme, the total cost of the sets you own, the total numbers of sets in a theme and how many of them you own as well as a number of other data points. Fair warning: if you don't want to know how much you've spent on LEGO, avoid this page.</p>
 ]]></content:encoded>
-
 <pubDate>2015-04-16T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2593,7 +2437,6 @@ categories: Imported Tweets
 <link>https://rknight.me/simple-git-deploy/</link>
 <guid>https://rknight.me/simple-git-deploy/</guid>
 <content:encoded><![CDATA[
-
 <p>This is a simple way to deploy to a remote server, more for my reference than anything else.</p>
 <p>Create a new folder on the server and initialise a bare git repository in it.</p>
 <pre><code>mkdir /root/repos/project-name
@@ -2614,7 +2457,6 @@ rm -rf $TMP_GIT_CLONE
 <pre><code>git remote add live ssh@server:/root/repos/project-name
 </code></pre>
 ]]></content:encoded>
-
 <pubDate>2015-03-29T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2622,10 +2464,8 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/remove-homestead-environment-variables/</link>
 <guid>https://rknight.me/remove-homestead-environment-variables/</guid>
 <content:encoded><![CDATA[
-
 <p>When you add environment variables to Laravel homestead, they get added so you can access them within your applications. The problem is, if you delete a varaible from your <code>homestead.yaml</code> file, it doesn't get deleted within Homestead. If you need to remove them, you can delete them from <code>php-fpm.conf</code> located at <code>/etc/php5/fpm/php-fpm.conf</code>.</p>
 ]]></content:encoded>
-
 <pubDate>2015-03-27T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2633,14 +2473,12 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/stig-quote-generator/</link>
 <guid>https://rknight.me/stig-quote-generator/</guid>
 <content:encoded><![CDATA[
-
 <p>This morning, I was watching Top Gear and decided it would be fun to create the <a href="http://code.robblewis.me/stig-quotes/">Stig quote generator</a>. I grabbed all the &quot;some say&quot; quotes from the <a href="http://en.wikiquote.org/wiki/Top_Gear">Top Gear Wikiquote</a> page and split them into two parts (the &quot;some say&quot; part and the &quot;and that&quot; parts). The generator then grabs two of them at random, one of each type, and joins them together. Example:</p>
 <blockquote>
 <p>Some say that his heart is in upside down, and that if he felt like it he could fire Alan Sugar.</p>
 </blockquote>
 <p>The <a href="https://github.com/rmlewisuk/stig-quotes">code is on GitHub</a> if that's your thing.</p>
 ]]></content:encoded>
-
 <pubDate>2015-03-26T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2648,7 +2486,6 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/ultraviolet/</link>
 <guid>https://rknight.me/ultraviolet/</guid>
 <content:encoded><![CDATA[
-
 <p>Joe Steel <a href="http://joe-steel.com/2015-02-20-Discs-not-Included.html">wrote about digital content</a> following an interview with a Kevin Tsujihara, CEO of Warner Bros. Entertainment:</p>
 <blockquote>
 <p>Incredibly, he highlights that they’re still trying to push hard on UltraViolet. Consumers have roundly rejected this as any kind of solution. Disney, Google, and Apple won’t participate — but sure, let’s prop this sucker up, Weekend at Bernie’s style! It is a farce of a system that has wronged many that dare to use it.</p>
@@ -2668,7 +2505,6 @@ rm -rf $TMP_GIT_CLONE
 <p>Redemption of a code on Flixter requires searching for the movie in their database rather than just entering the code directly. Then back to the UltraViolet site to enter the code again. After a few minutes of &quot;updating my collection&quot; I finally had the Lego Movie available to watch in my collection.</p>
 <p>This whole process took me about 40 minutes for &quot;3 easy steps&quot;. Everything is not awesome, Mr. Tsujihara. Not even close.</p>
 ]]></content:encoded>
-
 <pubDate>2015-02-20T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2676,7 +2512,6 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/fix-gmail-offline-os-x-yosemite-mail/</link>
 <guid>https://rknight.me/fix-gmail-offline-os-x-yosemite-mail/</guid>
 <content:encoded><![CDATA[
-
 <p>Yosemite Mail will sometimes show Gmail outgoing mail as being offline when you first setup a Gmail account. To fix this open up Mail and do the following steps:</p>
 <ol>
 <li>Open preferences and go to Accounts.</li>
@@ -2686,7 +2521,6 @@ rm -rf $TMP_GIT_CLONE
 </ol>
 <p>For some reason, Mail doesn't always save the password here on setup, so these are steps required to fix it.</p>
 ]]></content:encoded>
-
 <pubDate>2014-10-17T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2694,14 +2528,12 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/apple-privacy-statement/</link>
 <guid>https://rknight.me/apple-privacy-statement/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="http://www.apple.com/privacy/government-information-requests/">Apple:</a></p>
 <blockquote>
 <p>On devices running iOS 8, your personal data such as photos, messages (including attachments), email, contacts, call history, iTunes content, notes, and reminders is placed under the protection of your passcode. Unlike our competitors, Apple cannot bypass your passcode and therefore cannot access this data. So it's not technically feasible for us to respond to government warrants for the extraction of this data from devices in their possession running iOS 8.</p>
 </blockquote>
 <p>This is excellent news.</p>
 ]]></content:encoded>
-
 <pubDate>2014-09-18T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2709,14 +2541,12 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/relay-fm/</link>
 <guid>https://rknight.me/relay-fm/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="http://relay.fm">Myke and Stephen</a>:</p>
 <blockquote>
 <p>Relay FM is our new home on the Internet, and where you can find all of our podcasts. The shows you have known and loved for years are being rebooted as part of the new network. Everything we have done so far in our podcasting careers has led us here, and we're pouring all of our love, knowledge and attention into this thing.</p>
 </blockquote>
 <p>I've already listened to the <a href="http://relay.fm/analogue/1">first episode of Analog(ue)</a> and <a href="http://relay.fm/inquisitive/1">Inquisitive</a> and, as with everything Myke produces, they are fantastic. I wish him, Stephen and all the other hosts the best of luck.</p>
 ]]></content:encoded>
-
 <pubDate>2014-08-18T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2724,7 +2554,6 @@ rm -rf $TMP_GIT_CLONE
 <link>https://rknight.me/bionic/</link>
 <guid>https://rknight.me/bionic/</guid>
 <content:encoded><![CDATA[
-
 <div style="text-align: center;">
 <p>Things Are Happening,<br />
 Is This The End?,<br />
@@ -2756,7 +2585,6 @@ World's Greatest Finale,<br />
 <a href="http://vlcnr.com">VLCNR forever</a>.</p>
 </div>
 ]]></content:encoded>
-
 <pubDate>2014-07-09T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2764,12 +2592,10 @@ World's Greatest Finale,<br />
 <link>https://rknight.me/how-to-install-ios8-without-a-developer-account/</link>
 <guid>https://rknight.me/how-to-install-ios8-without-a-developer-account/</guid>
 <content:encoded><![CDATA[
-
 <p>No no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no.</p>
 <p>If you're not a developer, this is not for you. If you do install it, don't go reviewing apps in the App Store because they don't work. Don't complain when shit breaks. Don't moan when the beta expires. Don't be surprised if your phone becomes unusable.</p>
 <p>Just don't.</p>
 ]]></content:encoded>
-
 <pubDate>2014-06-03T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2777,7 +2603,6 @@ World's Greatest Finale,<br />
 <link>https://rknight.me/thoughts-on-chromecast/</link>
 <guid>https://rknight.me/thoughts-on-chromecast/</guid>
 <content:encoded><![CDATA[
-
 <p>The Chromecast got released in the UK on Wednesday and I bought one, in the hopes it will be better than the plethora of other streaming devices I have (Apple TV, Google TV, Xbox 360, PS3). As a side note, the Google TV, specifically <a href="https://www.sony.co.uk/support/en/product/NSZ-GS7">this model</a> is the worst peice of equipment I've ever owned.</p>
 <h3>Setup</h3>
 <p>The Chromecast is really easy to setup; plug in the dongle into an HDMI port, plug in the power cable (either USB or mains) and turn your TV on. Then go to <a href="http://chromecast.com/setup">chromecast.com/setup</a> and follow the instructions. I set it up on my Mac so I can't vouch for the Windows setup, but I think it'd be pretty similar. Download and run the companion Mac app, setup your preferred wifi network, let any Chromecast updates run and you're good to go. None of the setup is done on the Chromecast itself, so there's no bullshit of trying to put in your wifi password with an on screen keyboard.</p>
@@ -2788,7 +2613,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>One of the biggest advantages of Chromecast over AirPlay to an Apple TV is the ability to leave the app your streaming from and do other things. When AirPlaying video, the app your streaming from has to be open the whole time, whereas the Chromecast loads the stream to the device itself, allowing you to check Twitter, Facebook or whatever else you want to do.</p>
 <p>If you use any of the apps listed on the Chromecast site on a regular basis, for £30 you really can't go wrong.</p>
 ]]></content:encoded>
-
 <pubDate>2014-03-21T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2796,7 +2620,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/new-york/</link>
 <guid>https://rknight.me/new-york/</guid>
 <content:encoded><![CDATA[
-
 <p>I visited my friend over Christmas who is currently working in New York. I had an amazing time and I thought I would recommend some places I visited for anyone who is planning on visiting in the future, as well as to keep a record of what I got up to.</p>
 <h3>Restaurants</h3>
 <p>We ate at quite a few restaurants and these three are the ones I would recommend to anyone:</p>
@@ -2810,7 +2633,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <h3>Photos</h3>
 <p><a href="http://edpoole.me">Ed</a> was kind enough to lend me his Canon 650D to take photos which was an interesting experience. Apparently, a good camera <em>doesn't</em> make you a good photographer. I got used to it after a couple of days and managed to get a few nice photos which I have <a href="https://rmlewisuk.exposure.so/new-york-2013">posted on Exposure</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2014-01-05T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2818,12 +2640,10 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/create-a-blank-no-header-markdown-table/</link>
 <guid>https://rknight.me/create-a-blank-no-header-markdown-table/</guid>
 <content:encoded><![CDATA[
-
 <p>Whilst creating a document which requires me to put some data (which isn't in the slightest way tabular data) into a table, I wanted to create the table with no headers. However the way markdown works mean it requires you to set a header for it to create a table in the first place. By using the HTML non-breaking space entity it can be done:</p>
 <pre class="language-markdown"><code class="language-markdown"><span class="token table"><span class="token table-header-row"><span class="token table-header important"><span class="token entity named-entity" title="&nbsp;">&amp;nbsp;</span> </span><span class="token punctuation">|</span><span class="token table-header important"> <span class="token entity named-entity" title="&nbsp;">&amp;nbsp;</span></span><br /></span><span class="token table-line"><span class="token punctuation">------</span> <span class="token punctuation">|</span> <span class="token punctuation">-----</span><br /></span><span class="token table-data-rows"><span class="token table-data">Stuff  </span><span class="token punctuation">|</span><span class="token table-data"> More things</span></span></span></code></pre>
 <p>Simple.</p>
 ]]></content:encoded>
-
 <pubDate>2013-11-12T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2831,7 +2651,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/parents-take-some-responsibility/</link>
 <guid>https://rknight.me/parents-take-some-responsibility/</guid>
 <content:encoded><![CDATA[
-
 <p>The <a href="http://www.telegraph.co.uk/technology/apple/10346236/Twins-rack-up-1000-iPad-bill-buying-virtual-pets.html">Telegraph reported this morning</a> that two six-year-olds racked up a £1000 bill through in app purchases because they knew their parents iTunes password. And of course the parents are placing the blame entirely on the developers of apps that include in-app purchases.</p>
 <h3>Parental controls</h3>
 <p>iOS has built in parental controls that allow for restrictions on downloading apps and when a password is required (either every 15 minutes, or always) among other settings. The problem is, there is no mention of these controls in the initial setup process, presumably to keep setup as simple as possible.</p>
@@ -2854,7 +2673,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 </blockquote>
 <p>Parents: take some fucking responsibility, stop blaming everyone else and use some common sense instead of letting your kids do whatever the hell they want.</p>
 ]]></content:encoded>
-
 <pubDate>2013-10-01T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2862,7 +2680,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/pub-hack-1/</link>
 <guid>https://rknight.me/pub-hack-1/</guid>
 <content:encoded><![CDATA[
-
 <p>The first <a href="http://pubhack.co.uk">Pub Hack</a> took place yesterday. Jo and Lillian did an excellent job of organising everything including food, t-shirts, trophies as well as all the other behind-the-scenes stuff that needed doing.</p>
 <p>The theme was &quot;post-apocolypse&quot; so pretty much everyone, including our team, took that to mean zombies. We wasted the first hour on an idea that we found had already been done and then got to work on &quot;<a href="http://blownover.meteor.com">Has It Blown Over Yet?</a>&quot;. Blown Over takes inspiration from <a href="http://uksnowmap.com">UK Snow Map</a>, and Shaun of the Dead, and allows people to report a zombie attack on Twitter (using the hashtag #pompeyzombie) or on the website. And of course it will show you pubs close to your location to wait for this to all blow over.</p>
 <p>We only had 10 hours to build it so the Twitter integration is a little bit buggy and the map pins just keep building up forever. But overall I'm really happy with what we built.</p>
@@ -2870,7 +2687,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>Our team won &quot;Most Likely to Commercially Suceed&quot; which was awesome, Apocalhipster won &quot;Best Design&quot; and the 3D game won overall. It was a really great day and I can't wait for the next one.</p>
 <p><strong>Update:</strong> <a href="https://vimeo.com/75569166">Pub Hack on Vimeo</a></p>
 ]]></content:encoded>
-
 <pubDate>2013-09-18T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2878,7 +2694,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/thoughts-on-the-iphone-5s-and-5c/</link>
 <guid>https://rknight.me/thoughts-on-the-iphone-5s-and-5c/</guid>
 <content:encoded><![CDATA[
-
 <p>So Apple had their iPhone event. <a href="http://www.apple.com/iphone-5s/">iPhone 5S</a>. <a href="http://www.apple.com/iphone-5c/">iPhone 5C</a>. Nothing particularly surprising but interesting nonetheless.</p>
 <h2>iPhone 5S</h2>
 <p>The same solid design of the iPhone 5 with an improved camera, A7 chip and fingerprint scanner system called Touch ID. Touch ID is the feature I'm most excited about. Not because I find inputting a pin code &quot;cumbersome&quot;, as Phil Schiller said, but because I don't have to enter my password for iTunes purchases. And <a href="http://www.loopinsight.com/2013/09/10/hands-on-with-the-iphone-5c-and-iphone-5s/">according to Jim Darymple</a>, it works well:</p>
@@ -2897,7 +2712,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>Pre orders for the 5C and 5S <a href="http://store.apple.com/uk">open on Friday</a>. iOS7 will be released the the public on 18th September, two days before the new iPhones.</p>
 <p>You can <a href="http://www.apple.com/apple-events/september-2013/">watch the announcement here</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2013-09-11T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -2905,7 +2719,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/just-delete-me-one-million-page-views/</link>
 <guid>https://rknight.me/just-delete-me-one-million-page-views/</guid>
 <content:encoded><![CDATA[
-
 <p>When I wrote <a href="https://rknight.me/24-hours-of-just-delete-me/">this post</a> about <a href="http://justdelete.me">justdelete.me</a> I assumed that would pretty much be the best I could hope for in terms of traffic. 3000 visitors in 24 hours was an amazing response to get.The last few days? We’ve been doing that in half an hour.</p>
 <h2>News coverage</h2>
 <p>The coverage in the news has been insane. We were picked up by <a href="http://minimalmac.com/post/58698882020/robb-lewis-just-delete-me">Minimal Mac</a> on Monday and the traffic stayed pretty steady for the next couple of days. Then we were <a href="http://www.wired.com/gadgetlab/2013-08-just-delete-me/">featured in WIRED</a> which skyrocketed traffic. From there, many of the other tech blogs picked up the story and we ended up at number one on Hacker News, trending on GitHub, number one on <a href="https://pinboard.in/popular/">Pinboard popular</a> and Christina Warren was interviewed about the site on <a href="http://www.foxbusiness.com/on-air/varney-co/index.html">Varney and Co on Fox Business</a>. Other sites that picked it up include <a href="http://techcrunch.com/2013-08-23/justdelete-me-wants-to-help-you-pull-the-plug-on-all-those-pesky-online-accounts/">TechCrunch</a>, <a href="http://mashable.com/2013-08-24/justdelete-me/?utm_cid=mash-com-fb-main-link">Mashable</a> and <a href="http://gigaom.com/2013-08-23/painlessly-erase-your-internet-life-with-justdelete-me/">Gigaom</a>. I was also interviewed for <a href="http://thetechtailor.com/justdeleteme">The Tech Tailor podcast</a>. All of the links I have found about the site are <a href="https://pinboard.in/search/u:rmlewisuk?query=justdeleteme">on Pinboard</a> tagged as justdeleteme.</p>
@@ -2939,7 +2752,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <li>The Twitter account has more followers than me and Ed combined.</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2013-08-29T08:04:32+00:00</pubDate>
 </item>
 <item>
@@ -2947,7 +2759,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/24-hours-of-just-delete-me/</link>
 <guid>https://rknight.me/24-hours-of-just-delete-me/</guid>
 <content:encoded><![CDATA[
-
 <p>“<em>I’m sure I’ll get a couple of hundred visitors</em>”. That’s what I was thinking yesterday when I launched <a href="http://justdelete.me">justdelete.me</a>. I wasn’t completely wrong.</p>
 <p>The response to justdelete.me has been incredible. In just 24 hours it was linked to by <a href="http://minimalmac.com/post/58698882020/robb-lewis-just-delete-me">Minimal Mac</a> (swoon!), tweeted and retweeted by hundreds of people and had over 3000 visitors.</p>
 <p>Since launch five additional services have been added: Reddit, Lovefilm, MySpace, Amazon and Klout. To add Klout, I had to sign up for it to immediately delete my account. I saw things. Crazy, strange things. How’s that for dedication?</p>
@@ -2960,7 +2771,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 </ul>
 <p>Also Ed, who designed the site, isn’t getting anywhere near enough credit for the project so <a href="http://edpoole.me/portfolio">go visit his portfolio</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2013-08-20T13:49:57+00:00</pubDate>
 </item>
 <item>
@@ -2968,14 +2778,12 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/just-delete-me/</link>
 <guid>https://rknight.me/just-delete-me/</guid>
 <content:encoded><![CDATA[
-
 <p>After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out <em>won’t</em> delete your details I decided to build <a href="http://justdelete.me">JustDelete.me</a>.</p>
 <p>JustDelete.Me is a directory of urls to delete your account from web services. (Yes, I am aware how terrible that description is. If you’ve got a better one, <a href="https://rknight.me/contact">let me know</a>). Services are marked either easy, medium or hard depending on how difficult it is to delete that account. Those marked as hard have additional information on how to completely remove your account, such as Skype which requires you to contact customer services to do so.</p>
 <p>A lot of inspiration for the site came from Steve Streza’s <a href="http://devcenter.me">DevCenter.me</a> and the search functionality is modified from the repository. I thought about just forking the repo and modifying it but the sites are different enough to warrant the time to build it myself. Also, where would have been the fun in that? <a href="http://edpoole.me">Ed Poole</a> did a great on job on taking the initial concept and making it look a hell of a lot nicer than what I &quot;designed&quot;.</p>
 <p>At present there are 16 services listed. If you want to add a new service, <a href="https://rknight.me/contact">drop me an email</a> and let me know. Alternatively, <a href="https://github.com/rmlewisuk/justdelete.me">fork the repo</a> on GitHub, add the site to the json file and submit a pull request.</p>
 <p>Update: <a href="https://rknight.me/24-hours-of-just-delete-me/">24 Hours of Just Delete Me</a></p>
 ]]></content:encoded>
-
 <pubDate>2013-08-19T08:00:34+00:00</pubDate>
 </item>
 <item>
@@ -2983,10 +2791,8 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/how-pf-meet-helped-me-get-a-placement/</link>
 <guid>https://rknight.me/how-pf-meet-helped-me-get-a-placement/</guid>
 <content:encoded><![CDATA[
-
 <p>I <a href="http://www.pfmeet.co.uk/how-pf-meet-helped-me-get-a-placement">wrote a post over on the PF Meet blog</a> about how the event helped me get an industrial placement. Worth a read if you're going to be applying for placements or wondering about the benefits of events like PF Meet.</p>
 ]]></content:encoded>
-
 <pubDate>2013-08-16T16:03:13+00:00</pubDate>
 </item>
 <item>
@@ -2994,14 +2800,12 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/lego-back-to-the-future-set-review/</link>
 <guid>https://rknight.me/lego-back-to-the-future-set-review/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="http://rmlewisuk.s3.amazonaws.com/lego-back-to-the-future-set-review.png" /></p>
 <p>I <em>love</em> Back to The Future. I even have a <a href="http://instagram.com/p/HZnNqHMrQx/">DeLorean tattoo</a>. Back in December of last year, <a href="http://blog.lego.cuusoo.com/2012-12-20/results-of-the-summer-lego-review/">Lego announced that </a> that they were going to be making a Back to The Future themed set. On Saturday my Back to The Future Lego set arrived and I opened it like a kid on Christmas morning.</p>
 <p>The set has 401 pieces, plus the usual random selection of spares, and a <em>huge</em> instruction manual. A majority of the manual is to construct the DeLorean from the first film with the last few pages showing the modifications needed to make the other two versions. You get both the “OUTATIME” licence plate as well as the barcode one from the future.</p>
 <p>The flux capacitor custom brick is great and the time circuit states the destination time, rather than 1955, as 1958 which is the year the first Lego brick was introduced. The gull-wing doors are particularly fun to use, despite not having actual windows in them. They can be a little fragile and tend to fall off if I try and move the set whilst holding them.</p>
 <p>The Marty and Doc minifigures have double-sided faces (happy and shocked) and Doc has a double sided body; one side is his lab coat and one is a radiation suit. The figures are slightly too big to fit comfortably into the car, making it somewhat frustrating to close the doors. Although the finished product doesn’t look <em>exactly</em> like the films, it’s pretty close considering it’s made of Lego and if you’re a fan of Back to The Future, you’re going to want this set. I got mine from <a href="http://shop.lego.com/en-GB/The-DeLorean-time-machine-21103">the Lego online store</a> but it’s available pretty much anywhere Lego sets are sold.</p>
 ]]></content:encoded>
-
 <pubDate>2013-08-12T10:00:52+00:00</pubDate>
 </item>
 <item>
@@ -3009,7 +2813,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/instapaper-beta/</link>
 <guid>https://rknight.me/instapaper-beta/</guid>
 <content:encoded><![CDATA[
-
 <p>Instapaper, having been <a href="http://www.marco.org/2013-04-25/instapaper-next-generation">sold to Betaworks</a> in April, has a <a href="http://beta.instapaper.com">shiny new beta</a> for the web interface which is long overdue. Not that the site wasn’t usable, but it was starting to feel very dated when compared to the likes of <a href="http://getpocket.com">Pocket</a>. Despite this I had stuck with Instapaper as it had the one thing Pocket still doesn’t have: a way for me to pay them for the service, but that’s a topic for another day.</p>
 <p>The new interface is a complete overhaul of the old site and looks great. There are a number of things that could do with improvement (too much whitespace, not great on smaller screens) but it’s still in beta so I’m sure things will get better before the public release.</p>
 <p>It’s nice, for once, to see something be sold and not just left to fade into internet history. Although it was fairly certain this wouldn’t happen based on what Marco Arment said in this announcement of the sale:</p>
@@ -3018,7 +2821,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 </blockquote>
 <p>On top of the web beta, <a href="http://blog.instapaper.com/post/57817543037">Betaworks said in a blog post</a> that there will be “<em>..new versions of the Instapaper iOS and Android apps</em>”. This is an exciting time for Instapaper users and the future looks great for the service.</p>
 ]]></content:encoded>
-
 <pubDate>2013-08-10T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -3026,7 +2828,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/automatically-rename-tv-shows-with-hazel-and-tvnamer/</link>
 <guid>https://rknight.me/automatically-rename-tv-shows-with-hazel-and-tvnamer/</guid>
 <content:encoded><![CDATA[
-
 <p>I download a lot of TV shows (all legal of course) and have been renaming the files using <a href="https://github.com/tvrenamer/tvrenamer">TVRenamer</a>. After using TVRenamer manually for months I got fed up with having to do it, or the much more likely scenario happened where I would just leave them to build up in my downloads folder. I recently started using <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> to automatically rename and organise my photos. This works well because Hazel simply changes the filename to the date they were taken. TV shows are a little more complex than that as they have season and episode numbers as well as titles. Enter <a href="https://github.com/dbr/tvnamer">TVNamer</a>.</p>
 <p>TVNamer is a command line utility that takes a TV episode with an ugly filename (show.name.3x20.720[HD].avi) and changes it to something much more readable (ShowName S03E20 - Episode Title.avi). To install TVNamer follow the simple instructions in the <a href="https://github.com/dbr/tvnamer/blob/master/readme.md">readme</a>, it only takes a couple of minutes. Once it’s installed to can use it by simple typing:</p>
 <p>tvnamer </p>
@@ -3039,7 +2840,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>The <em>–batch</em> option tells TVNamer to automatically choose the first result and rename it and the <em>$1</em> refers to the matched file Hazel found. To test your rule is working select the cog dropdown in the main Hazel screen and select <em>&quot;Run rules now&quot;</em>. Any files that match your Hazel rule should be renamed.</p>
 <p>Initially I found that Hazel can sometimes have issues with running TVNamer if you’re matching files within subdirectories of your downloads folder. To remedy this I have Hazel move matched files to another folder and rename them from there. Refer to <a href="http://mac.tutsplus.com/tutorials/app-training/9-hazel-rules-to-increase-your-productivity/">this Tuts+ guide</a> to find out how to use Hazel to move files automatically.</p>
 ]]></content:encoded>
-
 <pubDate>2013-08-08T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -3047,10 +2847,8 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/hold-alt-when-resizing-to-center-windows-on-os-x/</link>
 <guid>https://rknight.me/hold-alt-when-resizing-to-center-windows-on-os-x/</guid>
 <content:encoded><![CDATA[
-
 <p>Spotted this tip on Twitter (I can't remember/find who tweeted it, sorry!) and it blew my mind. When resizing a window in OS X, hold down alt. The window will stay centered on the screen. Amazing.</p>
 ]]></content:encoded>
-
 <pubDate>2013-03-20T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -3058,7 +2856,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/google-reader-and-alternatives/</link>
 <guid>https://rknight.me/google-reader-and-alternatives/</guid>
 <content:encoded><![CDATA[
-
 <p>Google have announced that they're shutting down Google Reader come July 1st:</p>
 <blockquote>
 <p>We launched Google Reader in 2005 in an effort to make it easy for people to discover and keep tabs on their favorite websites. While the product has a loyal following, over the years usage has declined. So, on July 1, 2013, we will retire Google Reader. Users and developers interested in RSS alternatives can export their data, including their subscriptions, with Google Takeout over the course of the next four months</p>
@@ -3069,7 +2866,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 </blockquote>
 <p>Between Fever, Feed Wrangler as well as projects that haven't been announced yet June might not be so bad for RSS after all.</p>
 ]]></content:encoded>
-
 <pubDate>2013-03-14T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -3077,14 +2873,12 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/70decibels-and-5by5/</link>
 <guid>https://rknight.me/70decibels-and-5by5/</guid>
 <content:encoded><![CDATA[
-
 <p><a href="http://www.70decibels.com/blog/2013/3/13/were-moving-to-5by5.html">70Decibels is merging with 5by5</a> which is great news for everyone involved, including listeners. Myke has worked incredibly hard to get 70Decibels to where it is today, starting with The Bro Show and expanding to the packed list of shows now:</p>
 <blockquote>
 <p>70Decibels is nearly 18 months old. It's amazing what has happened in that time and we all know that we owe it all to you, the listeners. Without you tuning in every week, getting involved, asking questions, promoting us and letting us know when we fall short, we wouldn't be here. I just want to thank you all from the bottom of my heart for everything you've done to get us to this point. All of us at the network cannot wait to share what comes next. Thank you all so much.</p>
 </blockquote>
 <p>I'm not only a fan of 70Decibels and 5by5 but also, I'm glad to say, Myke's friend. I couldn't be happier for him and this merger is one step closer to him going full time as a podcaster extraordinaire. Myke and Dan announced and talked at length about the merger, as well as podcasting in general on <a href="http://www.70decibels.com/cmdspace/2013/3/13/033-a-big-announcement-with-dan-benjamin.html">CMD+Space 033</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2013-03-14T00:00:00+00:00</pubDate>
 </item>
 <item>
@@ -3092,14 +2886,12 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/diy-game-controller-rack/</link>
 <guid>https://rknight.me/diy-game-controller-rack/</guid>
 <content:encoded><![CDATA[
-
 <p>Two Playstation 2, two GameCube, four N64, two Xbox, four Wii, two Guitar Hero. You get the idea, I have lots of controllers. So does <a href="http://mattgemmell.com/2013/03-02-playing-nintendo-games-on-a-mac/">Matt Gemmell</a>. And I'm sure, so do a lot of other people. My solution for organising them is a fairly simple one, but I haven't seen it documented elsewhere on the web. So here it is.</p>
 <p>I had an old DVD rack not being used for anything so I figured using that would be a good start (and avoid any cost to me). I purchased some blank DVD cases and popped them in every forth slot. This gave me enough spaces to house all of my controllers as well as a couple of spaces for Wii Nunchucks. I also left a larger space at the bottom for those damn Wii wheels and a mug which holds all of my controller extension cables, extra memory cards for the PS2 and GameCube.</p>
 <p><img alt="Whole game controller rack" src="http://rmlewisuk.s3.amazonaws.com/diy-game-controller-rack-whole.png" /> For the Guitar Hero controllers, I put some screws in each side of the rack (measuring the width before, of course) and wrapped them in Cellotape although electrical tape, which I didn't have, would have been better. The Guitars slot nicely into these and hang out the way. I also stuck one screw in the front of the rack for the Wii Zapper.</p>
 <p><img alt="guiter hero controller holder" src="http://rmlewisuk.s3.amazonaws.com/diy-game-controller-rack-guitar.png" /></p>
 <p>And that's all there is to it.</p>
 ]]></content:encoded>
-
 <pubDate>2013-03-11T10:00:31+00:00</pubDate>
 </item>
 <item>
@@ -3107,10 +2899,8 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/i-am-a-tool/</link>
 <guid>https://rknight.me/i-am-a-tool/</guid>
 <content:encoded><![CDATA[
-
 <p>As many of you noticed, moments ago my timeline (and yours) was filled with tweets from every single blog post I've ever written. I apologise, I am a tool. Pro tip: Import posts <em>before</em> setting up Wordpress to Twitter.</p>
 ]]></content:encoded>
-
 <pubDate>2013-03-05T17:46:51+00:00</pubDate>
 </item>
 <item>
@@ -3118,7 +2908,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/the-difference-between-fact-and-trivia/</link>
 <guid>https://rknight.me/the-difference-between-fact-and-trivia/</guid>
 <content:encoded><![CDATA[
-
 <p>This morning I took a practice exam for one of the web units I’m studying. Most of the questions were fairly easy but one of them in particular annoyed me. The question was:</p>
 <blockquote>
 <p>“PageRank is so named because it was created by Larry Page, not because it ranks pages”</p>
@@ -3131,7 +2920,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>The first part of that statement is the fact. The last sentence is trivia. It holds no bearing on my understanding of PageRank. Should we really be tested on trivial facts about Google, or any other company for that matter? In my opinion, no.</p>
 <p>Rant over.</p>
 ]]></content:encoded>
-
 <pubDate>2013-02-27T13:11:01+00:00</pubDate>
 </item>
 <item>
@@ -3139,7 +2927,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/what-to-do-when-your-itunes-account-gets-hacked/</link>
 <guid>https://rknight.me/what-to-do-when-your-itunes-account-gets-hacked/</guid>
 <content:encoded><![CDATA[
-
 <p>Early Saturday morning, 2a.m. to be exact, I recieved an email from Apple confirming my lastest purchase. Nothing unusual, I buy apps all the time. Didn’t bother checking it, just marked it as read and archived it. Then I started thinking about what I had bought that day from the iTunes store. I couldn’t think of anything, so I checked the email: £149.99 for an in-app purchase of NBA Season Pass. “Shit” was my first reaction. My account had been comprimised.</p>
 <p>As someone with a keen interested in technology and specifically Apple, I’ve read about this stuff countless times and yet I had no idea what to do. So I had to wing it. First thing was fairly obvious: change my password. If your account gets comprimised, this is the first thing you need to do. To do this go to <a href="http://iforgot.apple.com">http://iforgot.apple.com</a> and reset your password.</p>
 <p>Once I had done that, I had no idea how to go about getting Apple to stop/refund the charge. I Googled around and came across <a href="http://www.apple.com/support/contact/">this contact page</a> on Apple’s site. I went through the various options and eventually got to a point where I could request a support call. No sooner had I selected for Apple to call me, than my phone rang.</p>
@@ -3152,7 +2939,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 </ol>
 <p>The most annoying part about the whole thing? Because I’m in the UK, I couldn’t have purchased the season pass even if I wanted to, as it’s US only. It was a scary moment that I hope not to have to repeat. However, Apple’s fast response time and the helpfulness of the representative who I spoke to on the phone are exactly the reason why I buy into Apple’s ecosystem.</p>
 ]]></content:encoded>
-
 <pubDate>2012-11-26T20:30:49+00:00</pubDate>
 </item>
 <item>
@@ -3160,7 +2946,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/the-state-of-passbook-in-the-uk/</link>
 <guid>https://rknight.me/the-state-of-passbook-in-the-uk/</guid>
 <content:encoded><![CDATA[
-
 <p>As you probably know, Passbook support is a little bit sparse in the UK at the moment.</p>
 <p>Yesterday, the Eventbrite app got <a href="http://blog.eventbrite.com/add-eventbrite-tickets-to-passbook-on-ios-6/">updated to support Passbook</a> which is great news for anyone who uses the service. But what about the somewhat more day-to-day apps? I searched around, or asked directly, to get some answers.</p>
 <p><a href="https://twitter.com/UKTesco/status/253465105130479616">Tesco</a>:</p>
@@ -3199,7 +2984,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>Somewhat inconclusive.</p>
 <p>There is some hope, however. Amsys are <a href="http://www.amsys.co.uk/2012/blog/passbook-comes-to-amsys-apple-training/">sending Passbook passes</a> when you book a training course with them and I did find an online <a href="http://www.odeon.co.uk/film30/">Passbook coupon from Odeon</a>, so there are a couple of companies who “get it”. Hopefully, more companies will begin to understand how important this could be to thier business, we’ll start to see the Passbook page populated with more than just airlines and that one hotel company. If there’s any apps, services or other Passbook related paraphernalia I may have missed, drop me a message <a href="http://twitter.com/rmlewisuk">on Twitter</a> or <a href="http://alpha.app.net/rmlewisuk">App.net</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2012-10-03T14:16:50+00:00</pubDate>
 </item>
 <item>
@@ -3207,7 +2991,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/delivery-companies-the-antithesis-of-convenience/</link>
 <guid>https://rknight.me/delivery-companies-the-antithesis-of-convenience/</guid>
 <content:encoded><![CDATA[
-
 <p>I wrote about delivery companies a couple of weeks ago and I have been thinking about the issues surrounding this and how it could be fixed (in an ideal world).</p>
 <p><strong>Operating hours</strong></p>
 <p>The thing that annoys me the most is the operating hours of delivery companies. As an example, my local Domino’s is open from midday until midnight every day. The opening hours are set based on when people would most likely want pizza. McDonald’s opens at 7am for people who want breakfast. Newsagents open early to be able to sell newspapers while they’re still relevant. And yet, delivery companies continue to maintain a schedule that is the antithesis of convenience.</p>
@@ -3224,7 +3007,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p><strong>The problem</strong></p>
 <p>As a business, your operating hours should match the hours that are convenient to your customers. You should want to make the experience as seamless and easy as possible for your customers. The problem is, we are not the customers. Much like Facebook’s customers are their advertisers and not the users, delivery companies are accountable only to thier customers: the businesses that are sending us our latest toys that we’ve ordered online. The problem is the delivery companies don’t care how the experience is for us, how difficult is it to take a day off work just to sign for a parcel or how annoying it is to go to the “local” sorting office between similarly inconvenient hours. We don’t pay them, we are not thier customers. And that’s the problem.</p>
 ]]></content:encoded>
-
 <pubDate>2012-08-20T18:26:47+00:00</pubDate>
 </item>
 <item>
@@ -3232,7 +3014,6 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <link>https://rknight.me/get-custom-screensavers-on-the-kindle-4-mac-osx/</link>
 <guid>https://rknight.me/get-custom-screensavers-on-the-kindle-4-mac-osx/</guid>
 <content:encoded><![CDATA[
-
 <p>This guide is for getting custom screensavers onto the new Kindle (Non-Touch) using Mac OSX.</p>
 <p>The first thing you need to do is plug your Kindle into your Mac via USB. Then create a file with the name <code>ENABLE_DIAGS</code> and make sure it has <em>no extension</em> (e.g. .txt, .jpg). Copy this file to the root of your Kindle and then eject. Now go into settings and restart your Kindle and it should enter diagnostics mode.</p>
 <p>Once your in the diagnostics mode, go to <code>Misc individual diagnostics &gt; Utilities &gt; Enable USBnet</code> and press the right arrow to confirm. You are now ready to create the folder you'll need to add custom screensavers.  Connect your Kindle to your Mac and open up network preferences.</p>
@@ -3244,9 +3025,7 @@ If you've ever used AirPlay on an iOS device, using Chromecast is just as simple
 <p>Now you can disconnect your Kindle and exit the diagnostics mode. To do this, simply press the right arrow to exit each menu until you see <code>Exit, Reboot or Disable Diags</code>. Select this and then choose <code>Disable diags</code> and confirm with the left arrow and your Kindle should reboot. Once your Kindle has rebooted, connect it back up to your Mac and open it in Finder. There should be a new folder called &quot;Screensavers&quot;. Simply put your custom screensavers in that folder and restart your Kindle. And voila, custom screensavers!</p>
 <p>If you need screensavers, I found most of the ones I'm using from <a href="http://kindlewallpapers.tumblr.com/">here</a>. If you want to create your own, screensavers must be in .jpg or .png format and have dimensions of 600 x 800. Have fun!</p>
 ]]></content:encoded>
-
 <pubDate>2012-03-21T01:17:56+00:00</pubDate>
 </item>
-
 </channel>
 </rss>
