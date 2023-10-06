@@ -4348,3 +4348,12 @@ Existing_entries: 79
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-06 02:18:15.788192
+------------------------------------------------------
+Started: 2023-10-06 04:13:12.581957
+Existing_entries: 79
+Fetching from https://rsshub.app/sspai/index
+Token length: 5998
+Summarized using GPT-3.5-turbo-16k
+Append: [生活的平衡](https://sspai.com/post/82961)
+append_entries: 1
+Finish: 2023-10-06 04:13:21.935780
