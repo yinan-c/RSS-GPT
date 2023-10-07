@@ -4445,3 +4445,9 @@ Summarized using GPT-3.5-turbo-16k
 Append: [Python 在办公自动化中的简单应用](https://sspai.com/post/83196)
 append_entries: 1
 Finish: 2023-10-07 06:13:54.750882
+------------------------------------------------------
+Started: 2023-10-07 08:12:36.983073
+Existing_entries: 83
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-10-07 08:12:37.200846

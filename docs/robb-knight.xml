@@ -4,6 +4,36 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+<item>
+<title>St Jude 2023</title>
+<link>https://rknight.me/st-jude-2023-final-numbers/</link>
+<guid>https://rknight.me/st-jude-2023-final-numbers/</guid>
+<content:encoded><![CDATA[
+<div> 挺多人点赞的筹款活动，达到了运动的第一个目标，筹集了超过774,262.53美元，总筹款额达到了2.98百万美元。有个St Jude子活动筹集了12,590.57美元，并且向15个不同的国家寄出了106个贴纸包。感谢所有的捐款人和特别指出的捐款人们的支持。通过这次活动，作者创建了四个不同的网站，帮助筹集捐款，最后将它们整合到了一个代码库中。来年再做其他的网站会更轻松。总结: 筹款活动取得成功，大量捐款和支持，同时作者还开发了四个网站帮助筹款，为明年的活动提供便利。 <div>
+<p>It's September 37th and the <a href="https://512pixels.net/2023/10/775375-54/">Relay for St Jude campaign</a> has closed. They raised $774,262.53, putting Relay at $2.98m lifetime raissed! Our St Jude sub-campaign raised $12,590.57 and sent out 106 sticker packs to 15 different countries. This is a far cry from <a href="https://rknight.me/st-jude-2023/">my initial goal of $250</a>.</p>
+<p>I want to thank everyone who donated but I want to call out some people specifically as well:</p>
+<ul>
+<li><a href="https://neatnik.net">Adam</a> for donating half of <a href="https://omglol.news/2023/10/01/st-jude-fundraiser-report">omg.lol's profits</a> for the entire month - <a href="https://prami.paste.lol/2023-st-jude-fundraiser">$3309</a>! If you want to thank him, you should <a href="https://home.omg.lol/referred-by/robb">sign up for omg.lol</a> - it's a fun community</li>
+<li><a href="https://512pixels.net">Stephen</a> for buying the <a href="https://coinme.dad">Coin Daddy domain</a></li>
+<li><a href="https://www.klmatthews.com">Kate</a> for always finding bugs the second I pushed a new change. Also for the idea for <a href="https://coinme.dad">Coin Me, Daddy</a></li>
+<li><a href="https://tildy.dev">Ben</a> for helping with the API so I could build all the stupid websites for the campaign (see below)</li>
+<li><a href="https://www.youtube.com/c/IanOfEarth">Ian</a>, <a href="http://gdovin.net">Mike</a> and all the other dollar daddies</li>
+<li><a href="https://zmknox.com">Zach</a> for creating the Donation Daddy logo</li>
+</ul>
+<p><img alt="Donation Daddy logo" src="https://rknightuk.s3.amazonaws.com/site/donation-daddy-logo.png" /></p>
+<p>I also got myself a couple of nice rewards. <a href="http://jdburch.com">JD</a> mowed my name into a lawn and I will be getting a Jony Cube sticker from <a href="https://www.peerreviewed.io">Matt</a>. We hit our first milestone which meant I had to watch <a href="https://www.imdb.com/title/tt2933474/">Superfast!</a> - you can listen to the <a href="https://wegot.family/5/">episode of We Got Family about it here</a>.</p>
+<p>The campaign this year led me to make four different websites to help with donations:</p>
+<ul>
+<li><a href="https://septembed.rknight.me">Septembed</a> - A script for embedding a campaign on your website. This was the start of the japes. Very proud of the name as well.</li>
+<li><a href="https://deskmat.help">Desk Mat Help</a> - The precursor to Coin Me, Daddy this site lists all the campaigns that were close to $250 to get a desk mat</li>
+<li><a href="https://coinme.dad">Coin Me, Daddy</a> - The most popular of the sites, this one was an idea from Kate. It shows all campaigns that have yet to raise one dollar to get a coin. There are <em>so many</em> donations with the title &quot;Dollar Daddy&quot;</li>
+<li><a href="https://donationtreats.rknight.me">Donation Treats</a> - Lists all the rewards you can get for all the available campaigns</li>
+</ul>
+<p>Initially, these were all separate websites with <em>very</em> similar code. Towards the end of the month I merged these into one single codebase. This should make it a lot easier next year when I'm sure I'll think of some other site to do.</p>
+]]></content:encoded>
+
+<pubDate>2023-10-07T06:19:47.956+00:00</pubDate>
+</item>
 
 <item>
 <title>Add Full Screen Artwork to Your Podcast</title>
