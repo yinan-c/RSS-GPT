@@ -4420,3 +4420,12 @@ Existing_entries: 81
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-07 00:48:54.059567
+------------------------------------------------------
+Started: 2023-10-07 02:17:12.894155
+Existing_entries: 81
+Fetching from https://rsshub.app/sspai/index
+Token length: 3012
+Summarized using GPT-3.5-turbo
+Append: [派早报：Google Pixel 8 系列发布、网页版 Photoshop 上线等](https://sspai.com/post/83389)
+append_entries: 1
+Finish: 2023-10-07 02:17:27.869124
