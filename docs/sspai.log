@@ -4451,3 +4451,15 @@ Existing_entries: 83
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-07 08:12:37.200846
+------------------------------------------------------
+Started: 2023-10-07 10:10:10.361298
+Existing_entries: 83
+Fetching from https://rsshub.app/sspai/index
+Token length: 6119
+Summarized using GPT-3.5-turbo-16k
+Append: [不躺不卷，用热爱疗愈副业焦虑](https://sspai.com/post/83017)
+Token length: 3101
+Summarized using GPT-3.5-turbo
+Append: [让 iPhone「随时待命」，快来试试这些 iOS 17 待机显示小组件](https://sspai.com/post/83373)
+append_entries: 2
+Finish: 2023-10-07 10:10:53.694886
