@@ -4,6 +4,422 @@
 <title>少数派 -- 首页</title>
 <link>https://sspai.com</link>
 
+<item>
+<title>Python 在办公自动化中的简单应用</title>
+<link>https://sspai.com/post/83196</link>
+<guid>https://sspai.com/post/83196</guid>
+<content:encoded><![CDATA[
+<div> Python, 自动化, 办公, Excel, Word 
+<br><br>总结:这篇文章介绍了如何使用Python进行办公自动化，涵盖了Excel和Word等多种应用场景。作者以简洁明了的代码示例讲解了如何使用Python的第三方库进行数据处理、图表生成、邮件发送等常见操作。对于初学者而言，这些脚本的编写并不困难，通过阅读文中示例代码，可以快速掌握Python在办公自动化中的应用。对于进阶学习，建议深入学习一些底层库，如xlwings、python-docx等，以满足更个性化的需求。此外，学习pandas库也是提高数据处理效率的关键。总的来说，本文提供了一个很好的入门指南和学习资源，帮助读者快速上手Python办公自动化。 <div>
+<p style="margin-left: 0px;"><strong>Matrix 首页推荐</strong>&nbsp;</p><p style="margin-left: 0px;"><a href="https://sspai.com/matrix">Matrix</a>&nbsp;是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。</p><p style="margin-left: 0px;">文章代表作者个人观点，少数派仅对标题和排版略作修改。</p><hr /><h2>前言</h2><p>这篇文章的初衷是想让更多的人能够快速入门 Python 在办公自动化中的简单应用，最初的设想是每个应用场景都用不超过十行代码来做演示，但是实际写下来发现十行的篇幅还是小了点。为了达成目标，我临时写了个简单的包传到了 pypi 上，包里面封装了一些办公中常用的功能，本篇文章中的相关脚本主要会结合这个工具包进行讲解。</p><p>这个包中的许多函数为了易用性牺牲了灵活性，主要目的是想让大家先用起来，体会到了便利才有更进一步学习的动力。等能够熟练写出和文中类似的脚本之后，可以直接看我包中的源码进一步学习，里面都是些比较典型的例子。</p><p>因为代码中会使用到部分 windows 系统独有的第三方包，所以如果你使用的是 macOS 之类的系统可能无法复现所有示例。</p><h2>Python 介绍</h2><p>Python 是一种面向对象的脚本语言，它算是目前最容易学习的编程语言之一。如果大学学过 C 语言的话，入门 Python 可以说是轻轻松松。就算从来没有接触过编程的人，也可以在短时间内学会使用方法。这一点我不是乱说的，我曾经给同事培训过，肯学的那部分人几次会议就能初步上手使用了。当然，培训之后肯定是要自己复习巩固的，掌握新技能总是要投入时间和精力的，这点相信大家都明白。</p><h2>阅读基础</h2><p>本篇文章主要是讲应用实例，对于 Python 的基础语法并不会进行介绍，所以在正式阅读后面的内容之前，读者需要先自行熟悉一下 Python 的基础知识，不需要多深入，但是基本的数据类型、循环和条件控制、函数和类的基本概念是一定要掌握的。如果不知道从何学起的话建议去看菜鸟教程中的 <a href="https://www.runoob.com/python3/python3-tutorial.html">Python 3 教程</a>，耐心跟着教程敲一遍里面的代码实例。如果在学习的过程中碰到什么无法理解的高级特性，不需要纠结，直接跳过就行。</p><p>学习本文时，理论上装好 Python 环境后有个文本编辑器就可以进行，但是如果想要有更好的编程体验的话，建议安装 PyCharm 这一免费 Python 集成开发工具。</p><p><strong>注意</strong>：为了确保后续教程能够正常进行，请安装 <strong>3.8 以上</strong>的 Python 环境，同时如果官方的 pip 源下载过慢的话可以在网上查找换源教程将其换为国内源。</p><h2>安装依赖</h2><p>使用如下命令先安装好后续示例中会用到的第三方包：</p><pre class="language-"><code>pip install xoffice pandas openpyxl
+</code></pre><h2>路径相关</h2><p>因为本篇的重点在于批量化操作，所以遍历文件是避不开的基础内容。这里我会介绍两种方式，第一种比较简单，请务必掌握；第二种稍微难一点，看不懂的话可以先放着，后面基础牢固了再考虑使用。</p><h3>glob.glob()</h3><p>将 rename 文件夹中的所有 png 文件重命名为数字编号的文件。</p><pre class="language-python"><code>import glob
+import os
+
+if __name__ == '__main__':
+    # 重命名时会用到的编号
+    index = 1
+    for file in glob.glob("rename/*.png"):
+        # 将路径拆分为文件夹路径和文件名两部分
+        dir_path, file_path = os.path.split(file)
+        # 将文件名拆分为基础名称和拓展名
+        base_name, ext = os.path.splitext(file_path)
+        # 将文件重命名为 0001.png 这样的格式
+        os.rename(file, os.path.join(dir_path, "%04d" % index + ext))
+        # 效果等同于 index = index + 1
+
+        index += 1
+</code></pre><figure class="image ss-img-wrapper"><img alt="NATMbqqsPoJ2pexJTzJcHyIrnhc" src="https://cdn.sspai.com/editor/u_/ck8efh5b34tdafv4755g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p><code>glob.glob()</code>这个函数用法非常简单，可以遍历一个目录层级内的所有路径名称，并且还支持最简单的正则表达式过滤，主要规则如下：</p><ul><li>”*” ：匹配 0 个或多个字符；</li><li>“?”：匹配单个字符；</li><li>“[]”：匹配指定范围内的字符，如：[0-9]匹配数字。</li></ul><p>平常使用的时候其实一个“<i>”就够了，“*.ext”匹配指定格式的文件；“</i>.*”匹配所有带拓展名的文件，过滤掉文件夹；“*”匹配所有文件或文件夹。</p><p>默认情况下这个函数只能遍历一个文件夹内的文件，对于子文件夹中的文件无法遍历，但是可以通过设置<code>recursive=True</code>来达到递归遍历的目的，此时需要搭配“**”来使用，它可以代表任意层级的目录。</p><pre class="language-python"><code>for file in glob.glob("rename/**/*", recursive=True):
+
+    print(file)
+</code></pre><p>输出结果：</p><pre class="language-"><code>rename\0001.png
+rename\0002.png
+rename\0003.png
+rename\0004.png
+rename\0005.png
+rename\deep_dir
+rename\deep_dir\Snipaste_2021-08-31_22-45-16.png
+rename\deep_dir\Snipaste_2021-08-31_22-45-57.png
+rename\deep_dir\Snipaste_2021-08-31_22-48-29.png
+rename\deep_dir\Snipaste_2021-08-31_22-48-37.png
+
+rename\deep_dir\Snipaste_2021-08-31_22-48-52.png
+</code></pre><p>对于初学者而言后面递归遍历的写法搞不懂也没关系，会用“*”进行最简单的单一目录层级遍历就够了。</p><p>最后有一个注意点，<code>glob.glob()</code>遍历出来的文件顺序是固定的，一般等同于在文件管理器中按照名称递增排序的结果，在某些对文件顺序敏感的场合使用时需要添加额外的排序代码。</p><h3>os.walk()</h3><p>这个函数有点绕，先看一个示例：</p><pre class="language-python"><code>import os
+
+if __name__ == '__main__':
+    for root, dirs, files in os.walk("rename", topdown=False):
+        for name in files:
+            print(os.path.join(root, name))
+        for name in dirs:
+
+            print(os.path.join(root, name))
+</code></pre><p>输出结果：</p><pre class="language-"><code>rename\deep_dir\Snipaste_2021-08-31_22-45-16.png
+rename\deep_dir\Snipaste_2021-08-31_22-45-57.png
+rename\deep_dir\Snipaste_2021-08-31_22-48-29.png
+rename\deep_dir\Snipaste_2021-08-31_22-48-37.png
+rename\deep_dir\Snipaste_2021-08-31_22-48-52.png
+rename\0002.png
+rename\0003.png
+rename\0004.png
+rename\0005.png
+rename\0006.png
+
+rename\deep_dir
+</code></pre><p>先说基础概念：</p><ul><li>root 所指的是当前正在遍历的这个文件夹的本身的地址；</li><li>dirs 是一个 list ，内容是该文件夹中所有的目录的名字(不包括子目录)；</li><li>files 同样是 list , 内容是该文件夹中所有的文件(不包括子目录)。</li></ul><p>结合上面的例子理解，root 依次是“rename\deep_dir”和“rename”，而 dirs 和 files 中则是 root 目录下的文件夹列表和文件列表。可以注意到上面代码中的<code>topdown=False</code>，这个参数如果为<code>True</code>，代表优先遍历顶层目录，反之则是优先遍历子文件夹。所以如果上面代码中的<code>topdown=True</code>，那么 root 的次序就会变为“rename”和“rename\deep_dir”。不指定该参数时默认为优先遍历顶层目录，没有特殊需求的话省略该参数保持默认即可。</p><p>这个函数其实还有另外几个可选参数，但是很少用到，后面有需要的话可以自行学习。</p><h2>PDF 相关</h2><p>从这一节开始就是一些我以前用到过的办公自动化实例了，都是一些比较基础的应用，更复杂的应用就需要特别定制了，本篇文章不会涉及。</p><h3>图片转 PDF</h3><p>不知道大家有没有碰到过需要批量扫描文件归档的场景，虽然现在很多时候可以通过手机软件拍摄解决，但是正经归档的文件还是用专业的扫描仪效果更好。扫描仪扫出来的一般是图片的格式，有些扫描仪自带合成软件，可以把扫出来的图片转成 PDF 文件，有些则需要自己在 Adobe Acrobat 之类的 PDF 软件中手动转换。单份的文件扫描转换其实用这些图形化软件也不算费事，但是当需要一次扫一下午文件的时候，手动转换就着实是种折磨。</p><p>这里会用到我封装的包中的一个函数，先给出函数定义：</p><pre class="language-python"><code>def img_to_pdf(
+        dir_path: str,
+        free: bool = False,
+        size: Sequence = None,
+        compress: bool = False,
+        compress_target: int = 200,
+        out_path: str = None
+):
+    """
+    图片转 pdf 文件
+    :param dir_path: 图片所在文件夹，文件夹中图片请按照顺序编号，例如 0001.jpg、0002.jpg
+    :param free: 设为 True 后，页面尺寸随图片尺寸动态变化，两者始终保持一致
+    :param size: 页面尺寸，A0~A6,A0_L~A6_L，默认 A4
+    :param compress: 设为 True 后，对图片进行压缩，降低图片质量。开启此功能会大幅延长 pdf 文件生成时间
+    :param compress_target: 图片压缩的目标体积，kB
+    :param out_path: 输出的 pdf 文件地址，为空时默认在图片文件夹所在目录下创建同名 pdf 文件
+    :return:
+
+    """
+</code></pre><p>示例脚本的功能是遍历 pdf 文件夹中所有的文件夹名称，依次生成与文件夹名称相同的 PDF 文件。</p><pre class="language-python"><code>import glob
+
+from xoffice import img_to_pdf
+from xoffice.pdf import A4
+
+if __name__ == '__main__':
+    for path in glob.glob("pdf/*"):
+
+        img_to_pdf(path, size=A4)
+</code></pre><figure class="image ss-img-wrapper"><img alt="BkitbTMMmoRaLuxtYxWc7ZFNnrg" src="https://cdn.sspai.com/editor/u_/ck8efhdb34tdafv47560?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h3>PDF 转图片</h3><p>这个用到的场景比较少，一般是发给在外面不方便开电脑的同事临时查看时可能用到。</p><p>这里先给出函数定义：</p><pre class="language-python"><code>def pdf_to_img(
+        file_path: str,
+        index: Sequence[int] = None,
+        out_dir: str = None,
+        zoom_x: float = 4,
+        zoom_y: float = 4,
+        rotation_angle: float = 0
+):
+    """
+    pdf 文件转为 png 图片
+    :param file_path: pdf 文件路径
+    :param index: 可以指定将哪些页面转为图片，序号从 0 开始，默认为所有页面
+    :param out_dir: 输出文件夹，默认在 pdf 文件所在文件夹创建同名文件夹保存图片
+    :param zoom_x: x 轴缩放尺寸
+    :param zoom_y: y 轴缩放尺寸
+    :param rotation_angle: 页面旋转角度，顺时针为正
+    :return:
+
+    """
+</code></pre><p>示例脚本的功能是将 p1.pdf 文件转为图片格式。</p><pre class="language-python"><code>from xoffice import pdf_to_img
+
+if __name__ == '__main__':
+
+    pdf_to_img("pdf/p1.pdf")
+</code></pre><figure class="image ss-img-wrapper"><img alt="FBDUbCzTWooyWgxYHxac4LO5nAc" src="https://cdn.sspai.com/editor/u_/ck8efhlb34tdafv4756g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h2>邮件相关</h2><p>日常工作稍微正式一点的场合都有可能用到邮件，邮件有个好处就是可以留痕，后期可以防止相当多无意义的扯皮环节。大部分情况下用代码发邮件毫无意义，除非是批量发送大量模板相同的通知邮件，因为我以前碰到过，所以也在这里做个示范。</p><p>Python 中发邮件的包特别多，官方的、第三方的都有。官方的就是 smtplib 搭配 email，非官方的有 zmail、yagmail等。下面要演示的是我自己对官方包封装后的类，主要是用于演示，追求稳定的话推荐使用上面提到的第三方库。</p><p>在正式开始之前需要给大家科普一些代发邮件的基础知识。代发邮件也需要验证用户名和密码，不过这里的密码不是正常在网页端登录时的密码，而是邮箱授权码，这个授权码如何获得需要自己去对应邮箱的帮助说明中查找。给出 QQ 和新浪两个最常见邮箱的相关说明链接：</p><ul><li><a href="https://wx.mail.qq.com/list/readtemplate?name=app_intro.html#/agreement/authorizationCode">SMTP/IMAP服务 (qq.com)</a></li><li><a href="http://help.sina.com.cn/comquestiondetail/view/1566/">新浪帮助-常见问题 (sina.com.cn)</a></li></ul><p>先给出类和函数的定义：</p><pre class="language-python"><code>class EMail(object):
+    """
+    用于发送邮件
+    """
+
+    def __init__(self, user: str, password: str, host: str = None, port: int = 465, ssl: bool = True):
+        """
+        初始化
+        :param user: 邮箱账号
+        :param password: 邮箱授权码
+        :param host: 服务器地址
+        :param port: 服务器端口
+        :param ssl: 是否 ssl 加密传输
+        """
+
+    def connect(self):
+        """
+        连接邮箱服务器
+        :return:
+        """
+
+    def close(self):
+        """
+        断开邮箱服务器
+        :return:
+        """
+
+    def send(self, to: Union[str, Sequence[str]], title: str, content: str, attachments: Sequence[str] = None):
+        """
+        普通版发送邮件，使用时需要结合 connect 和 close 方法
+        :param to: 收件人，可以多人
+        :param title: 邮件主题
+        :param content: 邮件内容
+        :param attachments: 邮件附件，给出附件地址即可
+        :return:
+        """
+
+    def easy_send(self, to: Union[str, Sequence[str]], title: str, content: str, attachments: Sequence[str] = None):
+        """
+        简易版发送邮件，将连接和断开服务器整合在了一起，发送单份邮件时使用
+        :param to:
+        :param title:
+        :param content:
+        :param attachments:
+        :return:
+        """
+
+
+def md_to_html(text: str, css: str = None) -&gt; str:
+    """
+    md 格式文本转 html 字符串
+    :param text: 待转换 md 格式字符串
+    :param css: css 文件
+    :return:
+
+    """
+</code></pre><p>示例脚本的功能是将一篇 markdown 格式的文本转为 html 格式发送到指定邮箱。这个功能目前只能说是能用，因为不同的邮箱支持 html 的程度不同，所以不一定能保证最终呈现效果都是一致的。</p><pre class="language-python"><code>from xoffice import EMail
+from xoffice.utils import md_to_html
+
+if __name__ == '__main__':
+    e = EMail("user@qq.com", "password")
+    with open("test.md", "r", encoding="utf-8") as f:
+
+        e.easy_send(["to_user@sina.com"], "测试主题", md_to_html(f.read()), ["pdf/p1/1.png"])
+</code></pre><figure class="image ss-img-wrapper"><img alt="NJpJbMDOlopOcExO2NXcLTkFntd" src="https://cdn.sspai.com/editor/u_/ck8efhtb34tda5h6t37g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="image ss-img-wrapper"><img alt="IiY1bNP1ToAb9NxnW6AcONLEnJf" src="https://cdn.sspai.com/editor/u_/ck8efi5b34tda9cpsr3g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="image ss-img-wrapper"><img alt="DWZgbnnXIoKukOxtQztci7YPnfh" src="https://cdn.sspai.com/editor/u_/ck8efi5b34tdabkg9f10?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><h2>Excel 相关</h2><p>从这一节开始就是重头戏了，但是 Excel 和 Word 相关的操作太多了，展开来讲太大了，几万字也不一定能说明白，我这里只介绍几个最基础最常用的自动化操作。我在下面几节中主要使用的是 pywin32，直接调用 windows 系统的 api 接口操作 office 软件。这样操作其实和直接写 VBA 宏差别不大，所以所有的操作都可以去微软官网的<a href="https://learn.microsoft.com/zh-cn/office/vba/api/overview/">开发文档</a>中查找。</p><p>其实有相当多接口更加简洁好用的第三方库可以操纵这些 office 文档，我在这里之所以不用，是因为有些保密意识较强的单位内部文件会加密，只能以加密电脑上的 office 软件才能正常打开，碰到过的朋友应该都能理解。</p><p>这里先介绍一个场景，工作中难免会碰到一些数据汇总的杂活，具体表现形式就是群里发一张表让每个人填写，最后统一发给专人汇总成一张总表。这种表格现在也可以通过云文档的方式实现汇总，给所有人权限让他们自己到总表中去填写数据，但终归有其局限性，毕竟有许多信息并不能对所有人透明。人数少的话一份一份打开复制粘贴也花不了太久，但是如果规模扩大的话，纯人力就多少有点浪费时间了。</p><p>先给出类的定义：</p><pre class="language-python"><code>class Excel:
+    """
+    Excel 常用自动化操作，主要是为了配合 Word 使用，因此只封装了获取数据的方法
+    """
+
+    def __init__(self, path: str, display_alerts: bool = False, visible: bool = True):
+        """
+        初始化
+        :param path:
+        :param display_alerts: 覆盖保存时是否出现警告提示
+        :param visible: 程序窗口是否可见
+        """
+
+    def close(self):
+        """
+        关闭文档，退出应用程序
+        :return:
+        """
+
+    def get_value(self, sht_name: Union[int, str], index: str):
+        """
+        获取指定单元格内数据
+        :param sht_name:
+        :param index:
+        :return:
+        """
+
+    def get_text(self, sht_name: Union[int, str], index: str):
+        """
+        获取指定单元格内数据，统一转为文本格式
+        :param sht_name:
+        :param index:
+        :return:
+        """
+
+    def get_comment(self, sht_name: Union[int, str], index: str):
+        """
+        获取指定单元格的批注
+        :param sht_name:
+        :param index:
+        :return:
+        """
+
+    def copy_chart(self, sht_name: Union[int, str], index: int):
+        """
+        复制指定图表
+        :param sht_name:
+        :param index: 图表序号
+        :return:
+        """
+
+    def copy_shape(self, sht_name: Union[int, str], index: Union[str, int]):
+        """
+        复制指定图片，这里要注意，图表也会算在其中，使用序号时务必小心
+        :param sht_name:
+        :param index: 可以为图片的名称或其序号，此处的图片只能为浮动式图片
+        :return:
+
+        """
+</code></pre><p>示例脚本的功能是将 excel 中所有表格文件中的 A2、B2、C2 单元格的数据汇总到 results.xlsx 文件中。</p><pre class="language-python"><code>import glob
+
+import pandas as pd
+from xoffice import Excel
+
+if __name__ == '__main__':
+    results = []
+    for file in glob.glob("excel/*"):
+        with Excel(file, visible=False) as e:
+            data = [
+                e.get_value("Sheet1", "A2"),
+                e.get_value("Sheet1", "B2"),
+                e.get_value(0, "C2"),
+            ]
+            results.append(data)
+    df = pd.DataFrame(results, columns=["a", "b", "c"])
+
+    df.to_excel("excel/results.xlsx", index=False)
+</code></pre><figure class="image ss-img-wrapper"><img alt="D9QGbGg7jopiVdxc7jdcarpanTf" src="https://cdn.sspai.com/editor/u_/ck8efidb34tda9cpsr40?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>上面这个脚本如果用 xlwings 实现起来会更加简单，想进一步学习 Excel 自动化的话建议好好看看它的官方文档。</p><h2>Word 相关</h2><p>Word 相关的自动化基本只有一种诉求，就是根据模板批量生产报告之类的文档。其实 Word 软件本身就带有这样的功能，就是名字比较让人误解，那就是邮件合并。通过导入外部表格之类的数据源，向 Word 模板之中插入邮件合并域，每一行数据都能生成一份对应的文档。如果只是简单的文本数据替换的话，建议大家直接使用软件自带的图形界面处理，还能预览，简单又好用，唯一麻烦的就是需要汇总到 Excel 表格里中转一下。</p><p>我这里会给出两种可选的代码方案，一种是使用邮件合并，另一种是使用 pywin32，后者不仅支持文本的替换，还支持图表的插入。</p><h3>generate_docx_by_mailmerge</h3><p>先介绍一下邮件合并域的插入方法，这里以 WPS 为例，选择“插入-文档部件-域”，在出现的选项卡中选择邮件合并这一域名，然后在右边的域代码中随便填一个用来标记的字符串即可。</p><figure class="image ss-img-wrapper"><img alt="BxLsbsVIgot4s3xxyNJc5iE7n5e" src="https://cdn.sspai.com/editor/u_/ck8efilb34tda5h6t380?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><figure class="image ss-img-wrapper"><img alt="MJyPbvCEooSbYmxxAjOck0wvnoh" src="https://cdn.sspai.com/editor/u_/ck8efitb34tda5h6t38g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>先给出函数的定义：</p><pre class="language-python"><code>def generate_docx_by_mailmerge(contents: dict, template: str, output: str):
+    """
+    以邮件合并的方式快速生产 docx 文档
+    :param contents: 要替换到模板中的内容
+    :param template: 文档模板
+    :param output: 输出文件路径
+    :return:
+
+    """
+</code></pre><p>示例脚本的功能是以代码内字典中的数据完成对模板中邮件合并域的替换。</p><pre class="language-python"><code>from xoffice import generate_docx_by_mailmerge
+
+if __name__ == '__main__':
+    contents = {
+        "页眉": "炜智能",
+        "文本框": "编号",
+        "标题": "测试123",
+        "正文": "abc",
+        "表格a": [
+            {"表格a": 1, "表格b": 2, "表格c": 3},
+            {"表格a": 2, "表格b": 3, "表格c": 4},
+            {"表格a": 3, "表格b": 4, "表格c": 5},
+            {"表格a": 4, "表格b": 5, "表格c": 6},
+        ]
+    }
+
+    generate_docx_by_mailmerge(contents, "word/mailmerge.docx", "word/output.docx")
+</code></pre><figure class="image ss-img-wrapper"><img alt="N3qtbBA9YodSoQxyF7Zc2xf2nAh" src="https://cdn.sspai.com/editor/u_/ck8efitb34tdafv47570?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>Python 中有许多第三方库可以完成这样的操作，类似 docx-mailmerge、docx-mailmerge2 等都可以做到，我这里只是对它们中的函数进行了简单的封装作为演示，方便大家上手。这里唯一需要注意的是表格中的邮件合并域，可以看到使用脚本是可以根据数据自动增加表格的行数的。</p><p>邮件合并这种功能其实我本人是很少用脚本来实现的，因为如果是简单的数据完全可以用 Excel 表格来汇总，如果是需要经过复杂运算的数据我也习惯先以表格的形式将结果存储下来，有了表格数据的前提下直接用 Word 软件中的图形界面操作也不算麻烦。</p><h3>excel2word</h3><p>下面介绍一种我以前经常用的自动化出报告的方法。以前经常出那种标准的实验报告，报告的模板是固定的，整篇报告都是各种表格、图表、样品图片等，而且因为数据都需要先经过 Excel 处理，所以每种实验的报告数据都有一个固定的 Excel 处理模板。每次填完 Excel 表格之后还要手动把数据、图表等再复制到 Word 模板中。说实话，填了一次之后我就完全不想填了。我很自然地就有了一个想法，填完 Excel 表格之后，让脚本根据那个 Excel 表格以及 Word 模板直接生成一份报告。</p><p>先给出用到类的定义：</p><pre class="language-python"><code>class Word:
+    """
+    Word 自动化常用操作
+    """
+
+    def __init__(self, path: str, display_alerts: bool = False, visible: bool = True):
+        """
+        初始化
+        :param path: Word 文件地址
+        :param display_alerts: 覆盖保存时是否出现警告提示
+        :param visible: 程序窗口是否可见
+        """
+
+    def close(self):
+        """
+        关闭文档，退出应用程序
+        :return:
+        """
+
+    def save(self, path: str):
+        """
+        另存为文件
+        :param path:
+        :return:
+        """
+
+    @property
+    def text(self) -&gt; str:
+        """
+        获取文档中所有字符串，包括正文、页眉页脚、Shape 内文本
+        :return:
+        """
+
+    def replace_text(self, key: str, value: str):
+        """
+        替换文档中的指定文本
+        :param key:
+        :param value:
+        :return:
+        """
+
+    def replace_content_inline_shape(self, key: int, value: str):
+        """
+        替换文档主体内容中指定序号的内嵌图形，保持替换图片的宽度与原始图片相等
+        :param key: 需要替换的内嵌图形在文档中的序号，从 0 开始
+        :param value: 用于替换的图片路径
+        :return:
+        """
+
+    def select_content_text(self, text: str):
+        """
+        选中文档主体内容中的指定文本，搭配 paste 使用可以完成 office 软件间的部分互动
+        :param text:
+        :return:
+        """
+
+    def paste(self):
+        """
+        执行粘贴操作
+        :return:
+        """
+
+    def set_content_inline_shape_size(self, index: int = None, width: float = None, height: float = None):
+        """
+        保持图片长宽比的前提下设置指定序号的内嵌图像的宽度
+        :param index: 序号从 0 开始
+        :param width: 图片宽度，单位为 cm
+        :param height: 图片高度，单位为 cm
+        :return:
+
+        """
+</code></pre><p>上面这个类结合之前在 Excel 中提到的那个类，两者结合一下就能很简单的实现最初提到的需求。思路很简单，先规定好 Word 模板中的标识符，比如<code>{{ 0/A1 }}</code>代表 Excel 表格中第一张 Sheet 表的 A1 单元格中的数据（Python 中索引从 0 开始），<code>{{ Sheet1/A2 }}</code>代表名为 Sheet1 的 Sheet 表中的 A2 单元格数据，<code>{{ Sheet2/s:weizhineng }}</code>代表名为 Sheet2 的 Sheet 表中名为 weizhineng 的浮动式图片，<code>{{ 1/c:0 }}</code>代表第二张 Sheet 表中第一张插入的图表；然后让脚本读取 Word 模板中的这些标识符，解析标识符的含义后到 Excel 表格中指定的位置查找目标数据，然后把这些数据粘贴回 Word，最后另存为一下就有了一份报告。</p><figure class="image ss-img-wrapper"><img alt="NIbvbZhIxoCOdyxw6TmcOvY2nsc" src="https://cdn.sspai.com/editor/u_/ck8efj5b34tdabkg9f1g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>把上面的思路转换为代码就是如下的函数：</p><pre class="language-python"><code>import re
+
+from tqdm import tqdm
+
+from xoffice.excel import Excel
+from xoffice.word import Word
+
+
+def excel2word(word: str, excel: str, output: str):
+    """
+    根据 word 模板自动查找 excel 文件中的指定数据生成 word 报告
+    :param word: word 模板文件地址
+    :param excel: excel 数据文件
+    :param output: 输出的 word 文档地址
+    :return:
+    """
+    word = Word(word, visible=False)
+    excel = Excel(excel, visible=False)
+    targets = re.findall(r'({{ (.+?)/(.+?) }})', word.text)
+    for target in tqdm(targets):
+        text, sht, ind = target
+        if sht.isdigit():
+            sht = int(sht)
+        try:
+            if re.match(r'^[a-z]+[0-9]+$', ind, re.I) is not None:
+                word.replace_text(text, excel.get_text(sht, ind))
+            elif re.match(r'^c:(.+)$', ind) is not None:
+                chart = re.match(r'^c:(.+)$', ind).group(1)
+                if chart.isdigit():
+                    chart = int(chart)
+                excel.copy_chart(sht, chart)
+                word.select_content_text(text)
+                word.paste()
+            elif re.match(r'^s:(.+)$', ind) is not None:
+                shape = re.match(r'^s:(.+)$', ind).group(1)
+                if shape.isdigit():
+                    shape = int(shape)
+                excel.copy_shape(sht, shape)
+                word.select_content_text(text)
+                word.paste()
+            else:
+                print(text + ":failed")
+            print(text + ":success")
+        except Exception:
+            print(text + ":failed")
+    word.save(output)
+    word.close()
+
+    excel.close()
+</code></pre><p>看着相当复杂，但是大家实际使用的时候不必写这么一大堆，简单几行就可以完成一个脚本的编写：</p><pre class="language-python"><code>import glob
+import os
+
+from xoffice import excel2word
+
+if __name__ == '__main__':
+    for path in glob.glob("word2/*.xlsx"):
+        dir_path, file_path = os.path.split(path)
+        base_name, ext = os.path.splitext(file_path)
+        output = os.path.join(dir_path, base_name + ".docx")
+
+        excel2word("word2/template.docx", path, output)
+</code></pre><figure class="image ss-img-wrapper"><img alt="HGbcbhyw4ofjmfxj95ScIPx6nfh" src="https://cdn.sspai.com/editor/u_/ck8efjdb34tdafv4757g?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" /></figure><p>目前<code>excel2word</code>这个函数并不算完美，文本替换算是全覆盖，无论是正文、页眉页脚，还是文本框都适用，但是对于图片和图表仅支持正文范围内的替换插入，不过也够用了，正常也不会想着往页眉页脚动态插入图片。如果真有这种需求也是可以实现的，我因为用不上就没加进去。这里替换到 Word 中的图片和图表大小是与 Excel 中一模一样的，所以图片尺寸需要提前规划好。</p><p>我在上面把<code>excel2word</code>函数的源码贴出来并不是想要让大家学会，只是想让大家对于 Python 的第三方包有一个概念，就是你不用管它的源码有多复杂，你只需要看懂函数的参数和效果，然后直接在脚本里导入并使用即可。我在文中演示的所有自动化脚本都在十行左右，对于初学者而言并不算困难，只要你肯学，绝对是可以在短时间内学会的。</p><h2>进阶学习</h2><p>我在文中介绍的都是比较通用的脚本，但是其实每个人会遇到的问题和场景都有区别，当想要解决更个性化的需求时，就需要学习接口更底层一些的包了，例如 xlwings、python-docx、pikepdf 等，学习的方法也很简单，去查它的官方文档即可，文档也不用全看，挑自己用的到的部分看看就行，着眼于它能做什么，而不管它为什么能。</p><p>如果想要更进一步拓展我上面演示的这些功能，建议直接去 Python 安装目录下的 Lib\site-packages\xoffice 文件夹中查看我写的源码，里面的注释还算完善，有基础的话不难看懂。里面 example 文件夹中还有几个测试素材，可以用来验证代码的效果。源码中用到了许多办公自动化过程中常用的包，想要更灵活的编写脚本的话建议有需求时可以深入学习一下。</p><p>如果对于数据处理有进一步的兴趣，我建议学习 pandas 这个数据处理神器，它是 Python 中目前最强的数据处理包，而且现在微软也已经将其引入自家的 Excel 软件中，以后应该早晚都会普及的，先学起来百利而无一害。我现在一般只用 Excel 进行一些简单的数据处理工作，稍微复杂一点的都是直接用 pandas 处理的，两者之间的效率差距不是一星半点，最关键的是数据量大了之后 Excel 根本处理不过来，如果你试过用 Excel 打开一两个 G 大小的表格文件的话应该就能明白我的意思。</p><h2>后记</h2><p>上面这些脚本其实都可以再进一步封装成命令行工具，或是图形化软件，我之前也写过一些给同事用，有兴趣的朋友可以试试，正好练练手。现代社会大部分工作都需要和电脑打交道，写代码其实并不是程序员的专利，掌握一些简单的编程技巧可以让某些工作变得相当简单。Python 是一个不错的切入点，你不需要懂这些第三方包是如何实现复杂功能的，你只需要找到能实现你需求的包，然后导入并调用它们就可以了。</p><p style="margin-left: 0px;">&gt; 下载 <a href="https://sspai.com/page/client">少数派 2.0 客户端</a>、关注 <a href="https://sspai.com/s/J71e">少数派公众号</a>，解锁全新阅读体验 📰</p><p style="margin-left: 0px;">&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
+]]></content:encoded>
+<pubDate>Sat, 07 Oct 2023 03:00:00 GMT</pubDate>
+<pubDate>Sat, 07 Oct 2023 03:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>派早报：Google Pixel 8 系列发布、网页版 Photoshop 上线等</title>

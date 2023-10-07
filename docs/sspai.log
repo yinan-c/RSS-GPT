@@ -4435,3 +4435,13 @@ Existing_entries: 82
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-07 04:12:28.436694
+------------------------------------------------------
+Started: 2023-10-07 06:13:35.267848
+Existing_entries: 82
+Fetching from https://rsshub.app/sspai/index
+Token length: 16294
+Truncate to 16k token length
+Summarized using GPT-3.5-turbo-16k
+Append: [Python 在办公自动化中的简单应用](https://sspai.com/post/83196)
+append_entries: 1
+Finish: 2023-10-07 06:13:54.750882
