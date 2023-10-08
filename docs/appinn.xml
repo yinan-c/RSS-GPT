@@ -5,11 +5,77 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【开发者自荐】潮汐， 一个回归内心的正念空间【iOS/Android】</title>
+<link>https://meta.appinn.net/t/topic/48013</link>
+<guid>https://meta.appinn.net/t/topic/48013</guid>
+<content:encoded><![CDATA[
+
+<p>（话题已被作者删除）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48013">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 08 Oct 2023 04:37:59 +0000</pubDate>
+<pubDate>Sun, 08 Oct 2023 04:37:59 +0000</pubDate>
+</item>
+<item>
+<title>[自荐] 碎片化信息的收集管理工具</title>
+<link>https://meta.appinn.net/t/topic/48010</link>
+<guid>https://meta.appinn.net/t/topic/48010</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Mind Depot</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>macOS 12.0+</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>Mind Depot 是macOS平台用于收集管理碎片化信息的工具</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>大家日常中有没有这种时刻，突然看到一段有用的内容，想快速保存下来，抑或是脑海中蹦出一个灵感，想快速记录下来。而且在记录下来后，可以方便快速的搜索，查看，编辑，使用，最好这些操作都支持快捷键。</p>
+<p>找了很久，我没有找到完美解决这个问题的工具，于是我写了 Mind Depot。</p>
+<p>Mind Depot 是macOS平台用于收集管理碎片化信息的工具。通过简洁的界面，高效的快捷键操作，并将所有的数据都保存在本地，给您最舒适且安全的体验。</p>
+<ul>
+<li>
+<p>收集碎片化信息</p>
+<p>Mind Depot 能自动记录您需要保存的信息，只用按下Ctrl + C，或者通过快捷键直接在软件中记录灵感，我们致力于让一切操作在最短的时间内发生。</p>
+</li>
+<li>
+<p>管理碎片化信息</p>
+<p>对于保存的信息，可以随时轻松的删除，编辑，搜索，粘贴。同时您可以通过标签（ Tag） 分类，以关联所有信息。</p>
+</li>
+<li>
+<p>导出关心的数据，进一步处理</p>
+<p>Mind Depot 专注于记录信息，如果需要进一步处理数据，您可以选择要导出的数据，导出为 Markdown 格式。</p>
+</li>
+<li>
+<p>数据安全</p>
+<p>Mind Depot 所有数据都保存在本地，不会将任何数据发送给我们。</p>
+</li>
+</ul>
+<p>有任何使用问题和疑问，您可以选择：</p>
+<ul>
+<li>在 app store 评论</li>
+<li>Discord 群组： <a href="https://discord.com/invite/CJS7e2xjrR" rel="noopener nofollow ugc">Discord</a></li>
+<li>邮件联系：minddepot@asaxing.me</li>
+</ul>
+<p>我们在十月会设置优惠价格：10.8 ～ 10.9： ¥8 ｜ 10.10 ～ 10.31：¥28 ｜ 原价：¥38<br />
+App Store 链接：<a href="https://apps.apple.com/app/apple-store/id6452800893?pt=126481385&amp;ct=inn&amp;mt=8" rel="noopener nofollow ugc">Mind Depot 下载</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1httpsiimgurcomdc7tqycjpg-6" name="h-1httpsiimgurcomdc7tqycjpg-6"></a><img alt="1" height="" src="https://i.imgur.com/DC7TQYc.jpg" width="" /></h2>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2httpsiimgurcoml5n5db3jpg-7" name="h-2httpsiimgurcoml5n5db3jpg-7"></a><img alt="2" height="" src="https://i.imgur.com/L5n5dB3.jpg" width="" /></h2>
+<p><img alt="3" height="" src="https://i.imgur.com/C6Re3Jn.png" width="" /></p>
+            <p><small>2 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48010">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 08 Oct 2023 04:36:40 +0000</pubDate>
+<pubDate>Sun, 08 Oct 2023 04:36:40 +0000</pubDate>
+</item>
+
+<item>
 <title>双持，ios和android手机如何实时同步粘贴板</title>
 <link>https://meta.appinn.net/t/topic/42794</link>
 <guid>https://meta.appinn.net/t/topic/42794</guid>
 <content:encoded><![CDATA[
-
 <p>rt<br />
 同一WIFI，希望能自动化同步粘贴板</p>
 <p>或者更简单一点，我只需要一个功能 能够通过 iPhone 发送内容（通过快捷指令最好），然后使安卓的剪贴板变为指定内容</p>
@@ -17,9 +83,7 @@
             <p><a href="https://meta.appinn.net/t/topic/42794">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 15 Apr 2023 22:33:27 +0000</pubDate>
-<pubDate>Sat, 15 Apr 2023 22:33:27 +0000</pubDate>
 </item>
-
 <item>
 <title>七巧板拼图谜题大全</title>
 <link>https://meta.appinn.net/t/topic/47946</link>

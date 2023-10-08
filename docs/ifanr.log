@@ -2875,3 +2875,16 @@ Existing_entries: 100
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-08 04:12:29.185079
+------------------------------------------------------
+Started: 2023-10-08 06:13:31.712010
+Existing_entries: 100
+Fetching from https://www.ifanr.com/feed
+Token length: 1629
+Summarized using GPT-3.5-turbo
+Append: [OpenAI 决定造芯，和 Nvidia「抢蛋糕」](https://www.ifanr.com/1564187?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 1422
+Summarized using GPT-3.5-turbo
+Append: [微软动视暴雪收购案，即将画下句号](https://www.ifanr.com/1564181?utm_source=rss&utm_medium=rss&utm_campaign=)
+Append: [耗资 23 亿美元的全球最大球体建筑，是怎么造出来的？](https://www.ifanr.com/1564142?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 3
+Finish: 2023-10-08 06:14:35.353313
