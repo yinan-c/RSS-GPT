@@ -4553,3 +4553,12 @@ Existing_entries: 89
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-08 12:19:02.830549
+------------------------------------------------------
+Started: 2023-10-08 14:08:58.483506
+Existing_entries: 89
+Fetching from https://rsshub.app/sspai/index
+Token length: 7486
+Summarized using GPT-3.5-turbo-16k
+Append: [具透 | Moment 4 更新详解：今年 Windows 11 的新功能，或许都在这里了](https://sspai.com/post/83418)
+append_entries: 1
+Finish: 2023-10-08 14:09:33.363084
