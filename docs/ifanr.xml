@@ -5,6 +5,167 @@
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
 <item>
+<title>微软发布 166 页 GPT-4V 测评报告，ChatGPT 的高阶用法都在这｜Hunt Good 周报</title>
+<link>https://www.ifanr.com/1564020?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1564020?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> OpenAI, 微软, AI芯片, GPT-4V, Meta, 动视暴雪<br><br>总结: 本期Hunt Good周报报道了一系列AI领域的新闻。OpenAI正在考虑自己制造AI芯片，同时微软计划推出首款为AI设计的芯片。此外，微软还发布了GPT-4V的评估报告，展示了该模型在图像生成和语言理解方面的能力。Meta则与一些顶级创作者合作，以使用他们的肖像来塑造虚拟的AI角色。此外，动视暴雪的收购案预计将在下周结束。诺贝尔奖也开始陆续揭晓，将为未来的人工智能发展提供催化剂。这些新闻展示了人工智能领域的最新动态。 <div>
+<p><img alt="" class="alignnone size-full wp-image-1564205" height="850" src="https://s3.ifanr.com/wp-content/uploads/2023/10/667.jpg" width="1912" /></p>
+<p>收看最新一期的 Hunt Good 周报！</p>
+<p>在本期内容你会看到：</p>
+<p>6 条新鲜资讯<br />
+3 个有用工具<br />
+3 个鲜明观点<br />
+1 个有趣案例</p>
+<h2>Hunt for News｜先进头条</h2>
+<h3><img alt="🧐" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f9d0.png" style="height: 1em;" /> 微软、OpenAI 等 AI 巨头探索自研 AI 芯片</h3>
+<p>据路透社报道，OpenAI 正在探索制造自己的 AI 芯片，并已经评估了潜在的收购目标。</p>
+<p>知情人士表示，至少从去年开始，OpenAI 就讨论了各种方案以解决其 AI 芯片短缺的问题。这些方案包括自研 AI 芯片、与英伟达等芯片制造商展开更紧密的合作、实现供应商多元化等。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564203" height="163" src="https://s3.ifanr.com/wp-content/uploads/2023/10/30.jpg" width="310" /></p>
+<p>报道称，该公司尚未决定继续推进。OpenAI 首席执行官 Sam Altman 此前表示已将收购更多 AI 芯片作为公司的首要任务。</p>
+<p>他曾公开抱怨过 GPU 的稀缺，该市场由英伟达主导。在 Altman 看来，OpenAI 面临先进处理器的短缺、硬件运行成本高昂等多方面问题。</p>
+<p>业内资深人士表示，OpenAI 自研芯片将是一项重大的战略举措，也是一项巨额投资，每年的成本可能高达数亿美元。即使 OpenAI 为该任务投入了资源，也无法完全保证成功。</p>
+<section>相较于 OpenAI 自研 AI 芯片的犹豫不决，微软则走在了前头，计划在下个月举行的年度开发者大会上推出该公司首款专为 AI 设计的芯片。</section>
+<section></section>
+<section><img alt="" class="alignnone size-full wp-image-1564206" height="583" src="https://s3.ifanr.com/wp-content/uploads/2023/10/669.jpg" width="880" /></section>
+<section></section>
+<section>微软的这款芯片与英伟达 GPU 类似，专为训练和运行大型语言模型的数据中心服务器而设计。</section>
+<section></section>
+<section>知情人士表示，微软和 OpenAI 的部分员工一直在测试微软 AI 服务器芯片，通过自研 AI 芯片，微软将基本赶上亚马逊和 Google。</section>
+<section></section>
+<section>微软希望这款芯片能够与英伟达的 H100 GPU 相媲美，但更多的性能表现仍需要等到下个月的实际亮相。</section>
+<section></section>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.reuters.com/technology/chatgpt-owner-openai-is-exploring-making-its-own-ai-chips-sources-2023-10-06/</p>
+<h3><img alt="📖" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f4d6.png" style="height: 1em;" /> 微软发布 166 页 GPT-4V 测评报告，高级用户必读</h3>
+<p>在此前的文章中，我们报道了 ChatGPT 迎来史诗级更新，从单纯的文字「来往」跃升到图像「来往」，实现了基于图像的分析和对话，你可以简单地将之理解为从 GPT-4 转变成了 GPT-4V（ision）。</p>
+<p>当人们还沉浸钻研 GPT-4V 的玩法时，OpenAI 的「大东家」微软直接发布了一份长达 166 页的报告，详细地描述了该功能的测试和使用情况。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564047" height="412" src="https://s3.ifanr.com/wp-content/uploads/2023/10/2.png" width="1036" /></p>
+<p>MedARC（医疗人工智能研究中心）联合创始人兼 CEO Tanishq Mathew Abraham 表示，「这篇报告将是 GPT-4V 高级用户的必读之作。」</p>
+<p>具体来说，这份报告分为 11 个章节，囊括了论文概览、GPT-4V 的输入模式、GPT-4V 的工作模式和提示技术、视觉-语言能力、与人类的互动：视觉参考提示、时间和视频理解、视觉推理与智商测试、情商测验、新兴应用亮点、基于 LLM 的智能体等方面的研究。</p>
+<p>测试的方法也很简单，通过输入 Prompt（提示词），报告的作者向 GPT-4V 询问问题即可。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564045" height="267" src="https://s3.ifanr.com/wp-content/uploads/2023/10/3.jpg" width="277" /><br />
+<img alt="" class="alignnone size-full wp-image-1564044" height="284" src="https://s3.ifanr.com/wp-content/uploads/2023/10/4-2.jpg" width="272" /></p>
+<p>例如，报告作者输入一张联合国徽章的照片，并要求 GPT-4V 编写 svg 代码生成联合国徽章照片，但遗憾的是，最终的生成效果谈不上多好，甚至有点糟糕。</p>
+<p>当然，上面的例子只是极个别例子，实际上，纵观整篇报告， GPT-4V 在逻辑推理能力，图像识别能力，多模态理解能力都有不俗的表现。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564043" height="492" src="https://s3.ifanr.com/wp-content/uploads/2023/10/5.jpg" width="452" /></p>
+<p>例如，当报告作者「喂」给 GPT-4V 一张黄仁勋的照片时，GPT-4V 还是能够精准识别其英伟达 CEO 和联合创始人的身份和照片中的具体行为。</p>
+<p>限于篇幅，便不一一举例，报告的链接如下，欢迎阅览<img alt="👇" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f447.png" style="height: 1em;" /></p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://arxiv.org/pdf/2309.17421.pdf</p>
+<h3><img alt="💰" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f4b0.png" style="height: 1em;" /> Meta 向顶级创作者支付数百万美元，以使用其肖像打造 AI 角色</h3>
+<p>据 The Information 报道，Meta 向 Snoop Dogg、Tom Brady、MrBeast 和 Charli D&#8217;Amelio 等明星付费，以使用他们的肖像来塑造虚拟的 AI 角色。</p>
+<p>据知情人士透露，对于几位顶级创作者来说，多年来每人的报酬可能高达数百万美元。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564042" height="241" src="https://s3.ifanr.com/wp-content/uploads/2023/10/6-1.jpg" width="429" /></p>
+<p>目前，这些角色主要是 Instagram、WhatsApp 和 Messenger 上基于文本的聊天机器人，不过扎克伯格表示，明年年初还将推出语音功能。</p>
+<p>Meta 可能希望通过与知名人士合作，利用这些明星在不同平台上已经积累的庞大受众群体。</p>
+<p>在 YouTube 和 TikTok 等平台上成名的创作者已经证明，他们可以吸引粉丝观看内容、购买产品并使用不同的服务，他们的 AI 化身或许具有相同的影响力。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.theinformation.com/articles/meta-is-paying-creators-millions-for-ai-chatbots</p>
+<h3><img alt="👀" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f440.png" style="height: 1em;" /> 动视暴雪的收购案迎来大结局？</h3>
+<p>据 The Verge 报道，微软计划下周完成以 687 亿美元收购动视暴雪的提议。</p>
+<p>消息人士透露，该公司预计以 10 月 13 日星期五为截止日期，届时微软将向全世界宣布，为期 20 个月的收购动视暴雪的流程已经结束。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564041" height="720" src="https://s3.ifanr.com/wp-content/uploads/2023/10/7-1.jpg" width="1080" /></p>
+<p>不过，届时微软能否如愿宣布这一消息，还要取决于英国反垄断监管机构「竞争与市场管理局」（CMA）。微软和动视暴雪日前将交易截止日期延长至 10 月 18 日，以等待与英国监管机构的谈判结果。</p>
+<p>在动视暴雪同意将其流媒体版权出售给育碧娱乐公司后，微软上个月获得了 CMA 的初步批准。如果微软成功收购动视暴雪，这将标志着游戏行业最大的一笔交易。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.theverge.com/2023/10/6/23905946/microsoft-activision-blizzard-deal-finalization-timing-cma</p>
+<h3><img alt="🤩" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f929.png" style="height: 1em;" /> 美国福布斯 400 强公布，马斯克位居榜首</h3>
+<p>近日，美国《福布斯》发布了美国超级富豪《福布斯 400 强》排行榜。</p>
+<p>总体而言，美国前 400 位富豪的财富共计达到了 4.5 万亿美元（约合人民币 32.38 万亿元），追平了 2021 年创下的财富记录。</p>
+<p>据福布斯报道，得益于 AI 驱动和科技繁荣以及股市的反弹，这些富豪的财富比前一年增加了约 5000 亿美元。</p>
+<p>前 8 名富豪财富排名如下 <img alt="👇" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f447.png" style="height: 1em;" /></p>
+<p><img alt="" class="alignnone size-full wp-image-1564040" height="1900" src="https://s3.ifanr.com/wp-content/uploads/2023/10/8.png" width="1200" /></p>
+<p>有意思的是，这份《福布斯 400 强》的进入门槛可不低，净资产必须至少达到 29 亿美元，而上一年还只是 27 亿美元。</p>
+<p>据《福布斯》报道，得益于与耐克的交易，以及出售在夏洛特黄蜂队（Charlotte Hornets）的股份，美国传奇球星迈克尔·乔丹（Michael Jordan）成为第一位登上该榜单的职业运动员。</p>
+<p>而其他因「太穷」而无法上榜的亿万富翁包括苹果 CEO 库克（18 亿美元），Facebook COO 桑德伯格（18 亿美元）和美国前总统特朗普（26 亿美元）。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.forbes.com/forbes-400/</p>
+<h3><img alt="🏅" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f3c5.png" style="height: 1em;" /> 2023 年诺贝尔奖陆续揭晓</h3>
+<p>国庆假期，除了刷屏的杭州亚运会，2023 年诺贝尔奖的「花落谁家」也同样引人瞩目。</p>
+<p>目前已经揭晓的奖项为：</p>
+<p>诺贝尔物理学奖授予皮埃尔·阿戈斯蒂尼 (Pierre Agostini)、费伦茨·克劳斯 (Ferenc Krausz) 和安妮·卢利尔 (Anne L’Huillier)，以表彰他们「为研究物质中的电子动力学，而产生阿秒激光的实验方法」方面所作出的贡献。</p>
+<p>诺贝尔生理学或医学奖授予匈牙利科学家 Katalin Karikó 和美国科学家 Drew Weissman，以表彰他们在核苷碱基修饰方面的发现。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564039" height="364" src="https://s3.ifanr.com/wp-content/uploads/2023/10/10-1.png" width="640" /></p>
+<p>诺贝尔文学奖授予挪威小说家、剧作家约恩·福瑟（Jon Fosse），以表彰他的创新戏剧和散文，为难以言喻的事物发声。</p>
+<p>此外，诺贝尔和平奖等一众奖项也陆续揭晓中。值得注意的是，今年，每项诺贝尔奖的奖金都将增加 100 万瑞典克朗（约合人民币 65 万元），达到 1100 万瑞典克朗（约合人民币 715 万元），属于历史最高水平。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.nobelprize.org/prizes/about/prize-announcement-dates/</p>
+<h2>Hunt for Tools｜先进工具</h2>
+<h3><img alt="👏" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f44f.png" style="height: 1em;" /> Assistant with Bard ：你的 AI 助理</h3>
+<p>近日，在 Made by Google 2023 的发布会上，Google 推出了 Assistant with Bard。</p>
+<p>Assistant with Bard 是一款由生成式 AI 驱动的个人助理，结合了 Bard 聊天机器人的生成推理能力与 Assistant 的个性化帮助能力。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564038" height="608" src="https://s3.ifanr.com/wp-content/uploads/2023/10/11.gif" width="1080" /></p>
+<p>该工具将与 Gmail 和 Docs 等 Google 应用程序集成，你可以很轻松地与 Google Assitant 交谈，并让它帮助你执行照片创建标题、创建购物清单以及在电子邮件收件箱中查找信息等一系列操作。</p>
+<p>Google 承诺未来几个月，Assistant with Bard 将陆续推送至 iOS 和 Android，更多具体的信息可以回看 APPSO 此前的文章。<img alt="👇" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f447.png" style="height: 1em;" /></p>
+<p><a href="https://mp.weixin.qq.com/s/0GGfEazgW0PTFjhhCFfRIg">Pixel 8 系列正式发布！这才是 Google 的 AI 杀手锏</a></p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.cnet.com/tech/services-and-software/google-assistant-with-bard-puts-an-ai-chatbot-in-your-iphone-or-android/#ftag=CAD590a51e</p>
+<h3><img alt="🤖" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f916.png" style="height: 1em;" /> AI 设计机器人只需要 26 秒</h3>
+<p>近日，西北大学研究人员领导的团队开发了首个能自行设计机器人的 AI。</p>
+<p>大自然花了数十亿年的时间才进化出第一个行走的物种，而这个 AI 却能在短短的 26 秒内设计出一个成功的行走机器人。</p>
+<p>西北大学研究人员 Sam Kriegman 表示：「我们发现了一种非常快速的人工智能驱动的设计算法，可以绕过进化的弯路，并不依赖人类的偏见。」</p>
+<p><img alt="" class="alignnone size-full wp-image-1564037" height="360" src="https://s3.ifanr.com/wp-content/uploads/2023/10/12.gif" width="640" /></p>
+<p>研究人员给予 AI 一个基本的提示，即「设计一个可在平坦表面上行走的机器人」，眨眼之间，AI 就能构筑出基础蓝图。</p>
+<p>AI 先从一块大约肥皂大小的块状物质开始，起初这团物质只会摇晃，完全无法行走。然后 AI 会评估自己设计的效果并迅速进行迭代设计。</p>
+<p>最后，机器人可以在原地弹跳，然后向前跳和移动。九次尝试后，AI 设计出每秒可以行走的机器人，步速约为人类的一半。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://news.northwestern.edu/stories/2023/10/instant-evolution-ai-designs-new-robot-from-scratch-in-seconds/</p>
+<h3><img alt="💬" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f4ac.png" style="height: 1em;" /> 亚马逊计划推出 AI 聊天机器人</h3>
+<p>据 BusinessInsider 报道，亚马逊正在改进其网站和应用程序上的搜索体验，以融入更具对话性、更深入和个性化的生成式 AI 功能。</p>
+<p>该项目代号为「Project Nile」，旨在在亚马逊现有的搜索栏之上增加人工智能功能，实现即时产品比较、获取更多产品细节及评论，并根据用户搜索内容和个人购物数据提供推荐。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564036" height="573" src="https://s3.ifanr.com/wp-content/uploads/2023/10/13.jpg" width="860" /></p>
+<p>知情人士称，新的搜索原定于今年 9 月启动，但如今被延迟到明年 1 月左右，率先在美国市场推出。</p>
+<p>AI 驱动的交互式搜索可以改善亚马逊的购物体验。此外，亚马逊还希望这些变化能够增加销售额，特别是在移动设备上。</p>
+<h2>Hunt for insights｜先知</h2>
+<h3><img alt="🧠" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f9e0.png" style="height: 1em;" /> 软银 CEO 孙正义：通用人工智能将在十年内超越人类智能</h3>
+<p>软银 CEO 孙正义近日在东京举行的软银世界 2023 年企业会议上公开发表讲话。</p>
+<p>会议上，孙正义表示：「通用人工智能将在 10 年内超过人类总智能 10 倍。」</p>
+<p><img alt="" class="alignnone size-full wp-image-1564035" height="638" src="https://s3.ifanr.com/wp-content/uploads/2023/10/14.png" width="850" /></p>
+<div class="editor-image-source">
+<p>▲  图片来自：路透社</p>
+</div>
+<p>他认为，通用人工智能将影响从运输、制药到金融、制造、物流等各个行业，而从事人工智能工作的公司和个人将成为未来 10 到 20 年的领导者。</p>
+<p>「如果站在被抛在后面的一边，就像一条古老的、关闭的商业街，那将是令人悲伤的。」因此，孙正义呼吁日本企业应当及时「醒悟」到人工智能引领未来的愿景。</p>
+<p>但他也指出需要解决虚假信息以及隐私和版权风险的担忧，不要因担心数据泄露和其他可能的风险而犹豫不决。</p>
+<p>https://www.euronews.com/next/2023/10/05/ai-will-surpass-human-intelligence-in-a-decade-says-japans-leading-businessman</p>
+<h3><img alt="💼" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f4bc.png" style="height: 1em;" /> 摩根大通 CEO 杰米·戴蒙： AI 有望消除 5 天工作制</h3>
+<p>摩根大通 CEO 杰米·戴蒙近日接受了彭博电视台的采访。在采访中，他表示摩根大通公司正在拥抱人工智能，该技术有能力大幅改善员工的生活质量。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564034" height="682" src="https://s3.ifanr.com/wp-content/uploads/2023/10/15.png" width="1000" /></p>
+<div class="editor-image-source">
+<p>▲ 图片来自：Getty Images</p>
+</div>
+<p>「由于技术的进步，你的孩子将活到 100 岁并且不会患癌症」杰米·戴蒙告诉记者，「从字面上看，他们可能每周工作三天半。」</p>
+<p>据彭博社报道，咨询公司 Evident 的数据显示，2 月至 4 月期间，摩根大通招聘了超过 3500 个人工智能相关职位。</p>
+<p>杰米·戴蒙表示，人工智能对于摩根大通未来的成功「是真实的」且「至关重要」，可以帮助提高生产力、产品设计、客户参与度和风险管理。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.entrepreneur.com/business-news/jpmorgans-jamie-dimon-says-ai-leads-to-35-day-work-week/463069</p>
+<h3><img alt="😍" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f60d.png" style="height: 1em;" /> 人工智能可带来 10 万亿美元的生产力收益</h3>
+<p>IBM 首席执行官兼董事长 Arvind Krishna 近日在迪拜举行的世界政府峰会上表示：「未来 10 年，人工智能将为全球经济带来 10 万亿美元的贡献。」</p>
+<p>他认为，由于人均生产率达提高，人工智能有可能改变世界经济。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564033" height="333" src="https://s3.ifanr.com/wp-content/uploads/2023/10/16.png" width="500" /></p>
+<p>「如果你考虑 GDP 增长，这可能在 10%、20% 或 30% 之间。但我们必须谨慎行事，我们必须利用技能并以正确的方式部署它。」</p>
+<p>在阿联酋官员奥马尔·本·苏丹·阿尔·奥拉马的交谈中， Arvind Krishna 表示，到 2030 年，仅阿联酋人工智能采用率的提高就可以带来高达 2000 亿美元的生产力提升。</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://www.cnbc.com/video/2023/10/02/10-trillion-dollars-of-productivity-to-be-reaped-from-ai-says-ibm.html</p>
+<h2>Hunt for Fun｜先行</h2>
+<h3><img alt="💥" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f4a5.png" style="height: 1em;" /> 漫画图片翻译神器</h3>
+<p>倘若你是资深的漫画迷，或许会因为看不懂外语漫画而懊恼，临时学一门语言又似乎性价比不高，而接下来所要介绍的漫画 AI 翻译神器或许能帮助你解决这个问题。</p>
+<p>Manga-Image-Translator 是一个开源的漫画图片翻译器，能自动翻译漫画图像中的文本，当然普通的图片也可以，翻译完成后，将会在图片原位置替换译文。</p>
+<p><img alt="" class="alignnone size-full wp-image-1564032" height="839" src="https://s3.ifanr.com/wp-content/uploads/2023/10/17.jpg" width="763" /></p>
+<p><img alt="" class="alignnone size-full wp-image-1564031" height="809" src="https://s3.ifanr.com/wp-content/uploads/2023/10/18.jpg" width="796" /></p>
+<p>目前该工具主要支持日语、汉语、英语和汉语，翻译速度相当快且效果还不错。</p>
+<p>工具试用链接：https://cotrans.touhou.ai/</p>
+<p><img alt="🔗" class="wp-smiley" src="https://s.w.org/images/core/emoji/11/72x72/1f517.png" style="height: 1em;" /> https://twitter.com/xiaohuggg/status/1710264008140619781</p>
+<h2>彩蛋时间</h2>
+<p>为庆祝成立 50 周年，10 位标志性建筑师利用 AI 对悉尼歌剧院进行了重新设计，你更喜欢哪一版？</p>
+<p><img alt="" class="alignnone size-full wp-image-1564030" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/20.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564029" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/21.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564028" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/22.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564027" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/23.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564026" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/24.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564025" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/25.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564024" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/26.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564023" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/27.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564022" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/28.png" width="959" /> <img alt="" class="alignnone size-full wp-image-1564021" height="1280" src="https://s3.ifanr.com/wp-content/uploads/2023/10/29.png" width="959" /></p>
+<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1564020">原文链接</a> ·
+<a href="https://www.ifanr.com/1564020#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Sun, 08 Oct 2023 06:22:19 +0000</pubDate>
+<pubDate>Sun, 08 Oct 2023 06:22:19 +0000</pubDate>
+</item>
+
+<item>
 <title>OpenAI 决定造芯，和 Nvidia「抢蛋糕」</title>
 <link>https://www.ifanr.com/1564187?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 <guid>https://www.ifanr.com/1564187?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
@@ -41,14 +202,13 @@ OpenAI 的 ChatGPT 是一个人工智能问答系统，每个问题花费4美分
 </div>
 ]]></content:encoded>
 <pubDate>Sun, 08 Oct 2023 05:39:46 +0000</pubDate>
-<pubDate>Sun, 08 Oct 2023 05:39:46 +0000</pubDate>
 </item>
 <item>
 <title>微软动视暴雪收购案，即将画下句号</title>
 <link>https://www.ifanr.com/1564181?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 <guid>https://www.ifanr.com/1564181?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
 <content:encoded><![CDATA[
-<div> 微软、动视暴雪、收购、游戏市场、竞争优势<br><br>总结: 这篇文章讲述了微软收购动视暴雪的最新进展以及可能带来的影响。虽然微软付出了巨额收购费用，但也引起了监管机构的关注和竞争对手的担忧。尽管微软表示不会垄断动视暴雪旗下的游戏，并与其他公司签订协议以消除疑虑，但市场仍担心微软在游戏市场中获得过大竞争优势。此次收购对于微软来说是历史性的时刻，是否能实现期望的效果仍然有待观察。 <div>
+<div> 微软、动视暴雪、收购、游戏市场、竞争优势<br /><br />总结: 这篇文章讲述了微软收购动视暴雪的最新进展以及可能带来的影响。虽然微软付出了巨额收购费用，但也引起了监管机构的关注和竞争对手的担忧。尽管微软表示不会垄断动视暴雪旗下的游戏，并与其他公司签订协议以消除疑虑，但市场仍担心微软在游戏市场中获得过大竞争优势。此次收购对于微软来说是历史性的时刻，是否能实现期望的效果仍然有待观察。 <div>
 <p><img alt="" class="alignnone size-full wp-image-1564182" height="576" src="https://s3.ifanr.com/wp-content/uploads/2023/10/1-1.jpeg" width="1024" /></p>
 <p>微软收购动视暴雪是游戏史上最大规模的收购，这场历史级别的收购不止吸引了全球玩家的目光，还引起了各国监管机构和竞争对手的警惕。随着时间的推移和微软的努力，拦在微软面前的阻碍越来越少，就连收购案的主要反对方 CMA（Competition and Markets Authority）也松了口。</p>
 <p>据 The Verge 报道，在微软出让动视暴雪的云游戏服务给育碧之后，英国监管机构 CMA 初步批准了微软动视暴雪的收购案，并将于下周做出最终决定。微软方面则预计 10 月 13 日能够正式结束收购案的所有流程。</p>
@@ -76,14 +236,12 @@ OpenAI 的 ChatGPT 是一个人工智能问答系统，每个问题花费4美分
 </div>
 ]]></content:encoded>
 <pubDate>Sun, 08 Oct 2023 05:27:08 +0000</pubDate>
-<pubDate>Sun, 08 Oct 2023 05:27:08 +0000</pubDate>
 </item>
 <item>
 <title>耗资 23 亿美元的全球最大球体建筑，是怎么造出来的？</title>
 <link>https://www.ifanr.com/1564142?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 <guid>https://www.ifanr.com/1564142?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" class="size-full wp-image-1564173 aligncenter" height="1688" src="https://s3.ifanr.com/wp-content/uploads/2023/10/ball2.jpg" width="3000" /></p>
 <p>《变形记》的格里高尔，醒来发现自己变成了一只巨大的虫子。</p>
 <p>这种日常里的荒谬感，也适用于「赌城」拉斯维加斯的一处建筑。</p>
@@ -206,9 +364,7 @@ OpenAI 的 ChatGPT 是一个人工智能问答系统，每个问题花费4美分
 </div>
 ]]></content:encoded>
 <pubDate>Sun, 08 Oct 2023 04:41:42 +0000</pubDate>
-<pubDate>Sun, 08 Oct 2023 04:41:42 +0000</pubDate>
 </item>
-
 <item>
 <title>早报｜苹果商店下架涉黄软件 / 余承东谈问界销量：起死回生 / 微软下月将推出首款 AI 芯片</title>
 <link>https://www.ifanr.com/1564095?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>

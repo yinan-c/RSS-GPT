@@ -3668,3 +3668,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [[自荐] 碎片化信息的收集管理工具](https://meta.appinn.net/t/topic/48010)
 append_entries: 2
 Finish: 2023-10-08 06:14:41.235918
+------------------------------------------------------
+Started: 2023-10-08 08:13:10.321756
+Existing_entries: 99
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-08 08:13:13.870224
