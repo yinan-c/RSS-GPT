@@ -3789,3 +3789,11 @@ Append: [【RealRadio】一个主打真实的收音机](https://meta.appinn.net/
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-10-09 12:23:11.497318
+------------------------------------------------------
+Started: 2023-10-09 14:11:46.461955
+Existing_entries: 100
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-09 14:11:50.132157
