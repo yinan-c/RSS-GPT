@@ -4,6 +4,97 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marked and Bear</title>
+<link>https://brett.trpstra.net/link/535/16385532/marked-and-bear</link>
+<guid>https://brett.trpstra.net/link/535/16385532/marked-and-bear</guid>
+<content:encoded><![CDATA[
+<div> Marked, Bear compatibility, Sonoma, custom preprocessor, syntax handling.<br><br>总结: 这篇文章介绍了最近发布的Marked版本修复了与Bear兼容性的问题，并提供了一个定制的预处理器来处理Bear语法。通过使用Bear样式和预处理器，用户可以在Marked中获得与Bear相同的预览样式，也可以选择自定义样式。用户可以按照文章提供的步骤来安装Bear样式和预处理器。文章还介绍了如何处理Bear特定的语法，并提供了相应的代码示例。最后，文章提到了可能将来直接在Marked中添加对Bear语法的支持的可能性。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="bear-marked-header-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/10/bear-marked-header-rb.jpg" title="bear-marked-header-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>Recent releases of Marked have fixed Bear compatibility on Sonoma. As part of this, I’ve updated the Bear style for Marked, and written a little custom preprocessor to handle Bear’s (CommonMark) syntax properly. If you want a Marked preview styled to look exactly like Bear (with all of Marked’s options for export, navigation, and other features), you can use the Bear style in combination with the preprocessor, but if you just want Bear’s syntax properly interpreted, you can use the preprocessor with the style of your choosing<sup id="fnref:underline"><a class="footnote" href="https://brettterpstra.com#fn:underline" rel="footnote">1</a></sup>.</p>
+
+<p>To get the Bear style, go the the <a href="https://marked2app.com/styles/">Style Gallery</a> and open the <a href="https://marked2app.com/styles/preview#Bear">Bear style</a>. Click “Install” to add it to Marked in one click.</p>
+
+<blockquote class="warn">
+  <p>For the custom preprocessor to work, you’ll need Ruby available on your system. As far as I know, Ruby is still distributed with macOS (for now), and if you open Terminal and run <code class="language-plaintext highlighter-rouge">which ruby</code>, you should get a path back, e.g. <code class="language-plaintext highlighter-rouge">/usr/bin/ruby</code>. If this isn’t the case for you and you need further help, please post on <a href="http://support.markedapp.com">the support forum</a> and I’ll update the instructions as needed.</p>
+</blockquote>
+
+<p>For handling Bear’s specific syntax, like <code class="language-plaintext highlighter-rouge">[[links]]</code>, underlining, and strikethrough, you’ll need a custom preprocessor. Save the following to a file called <code class="language-plaintext highlighter-rouge">bear-preprocessor.rb</code> in a safe folder (one you won’t move in the future).</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="c1"># frozen_string_literal: true</span>
+
+<span class="nb">require</span> <span class="s1">'cgi'</span>
+
+<span class="n">input</span> <span class="o">=</span> <span class="vg">$stdin</span><span class="p">.</span><span class="nf">read</span><span class="p">.</span><span class="nf">force_encoding</span><span class="p">(</span><span class="s1">'utf-8'</span><span class="p">)</span>
+
+<span class="n">input</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="sr">/\[\[(?&lt;content&gt;.*?)\]\]/</span><span class="p">)</span> <span class="k">do</span>
+  <span class="n">m</span> <span class="o">=</span> <span class="no">Regexp</span><span class="p">.</span><span class="nf">last_match</span>
+  <span class="n">title</span> <span class="o">=</span> <span class="no">CGI</span><span class="p">.</span><span class="nf">escape</span><span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="s1">'content'</span><span class="p">]).</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/\+/</span><span class="p">,</span> <span class="s1">'%20'</span><span class="p">)</span>
+  <span class="n">callback</span> <span class="o">=</span> <span class="no">CGI</span><span class="p">.</span><span class="nf">escape</span><span class="p">(</span><span class="s2">"bear://x-callback-url/create?title=</span><span class="si">#{</span><span class="n">title</span><span class="si">}</span><span class="s2">"</span><span class="p">).</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/\+/</span><span class="p">,</span> <span class="s1">'%20'</span><span class="p">)</span>
+  <span class="s2">"[</span><span class="si">#{</span><span class="n">m</span><span class="p">[</span><span class="s1">'content'</span><span class="p">]</span><span class="si">}</span><span class="s2">](bear://x-callback-url/open-note?title=</span><span class="si">#{</span><span class="n">title</span><span class="si">}</span><span class="s2">&amp;x-error=</span><span class="si">#{</span><span class="n">callback</span><span class="si">}</span><span class="s2">)"</span>
+<span class="k">end</span>
+
+<span class="n">input</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="sr">/==(.*?)==/</span><span class="p">,</span> <span class="s1">'&lt;mark&gt;\1&lt;/mark&gt;'</span><span class="p">)</span>
+
+<span class="n">input</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="sr">/~~(.*?)~~/</span><span class="p">,</span> <span class="s1">'&lt;del&gt;\1&lt;/del&gt;'</span><span class="p">)</span>
+
+<span class="n">input</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="sr">/~(.*?)~/</span><span class="p">,</span> <span class="s1">'&lt;span class="underline"&gt;\1&lt;/span&gt;'</span><span class="p">)</span>
+
+<span class="nb">puts</span> <span class="n">input</span></code></pre></div></div>
+
+<p>Open terminal and run <code class="language-plaintext highlighter-rouge">chmod a+x /path/to/file/bear-preprocessor.rb</code>. That will make it executable, then you can just add <code class="language-plaintext highlighter-rouge">/path/to/file/bear-preprocessor.rb</code> as your custom preprocessor path in Marked-&gt;Advanced preferences. (To get the absolute path for a file, right click it in Finder, hold down Option, and click ‘Copy “bear-preprocess.rb” as Pathname’. That will put the absolute path to the file in your clipboard, which you can paste for both the <code class="language-plaintext highlighter-rouge">chmod</code> command and the Custom Preprocessor field.)</p>
+
+<p>This script will convert <code class="language-plaintext highlighter-rouge">[[wiki links]]</code> into Bear internal links, which will open linked notes in Bear when clicked, and handle special cases like <code class="language-plaintext highlighter-rouge">~~strikethrough~~</code>, <code class="language-plaintext highlighter-rouge">~underline~</code><code class="language-plaintext highlighter-rouge">, and </code>==highlighting==`.</p>
+
+<p>In addition, you’ll want to set your Processor to MultiMarkdown and enable “#Text is tag” and the sub-item “Style tags” in Preferences-&gt;Processor. Note that the <code class="language-plaintext highlighter-rouge">#tag</code> processing will only work if you’re not using a custom <em>processor</em> (custom <em>pre</em>processor like above won’t override it).</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="marked-bear-prefs.jpg" class="aligncenter" height="616" src="https://cdn3.brettterpstra.com/uploads/2023/10/marked-bear-prefs.jpg" title="marked-bear-prefs.jpg" width="593" />
+              </noscript>
+            
+
+<p>If you need additional help setting this up, just ping me on <a href="http://support.markedapp.com">http://support.markedapp.com</a>.</p>
+
+<p>If you’re using a non-Bear Style and want underlines formatted, you can modify a custom Style or add the following to Marked-&gt;Preferences-&gt;Style-&gt;Additional CSS and modify as desired:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="nc">.underline</span> <span class="p">{</span>
+<span class="nl">border-bottom</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">222</span><span class="p">,</span> <span class="m">84</span><span class="p">,</span> <span class="m">86</span><span class="p">);</span><span class="err">;</span>
+<span class="p">}</span></code></pre></div></div>
+
+<p>I might eventually add support for Bear (CommonMark) syntax directly to Marked, but the whole purpose of the preprocessor functionality was to handle cases like this, and linking to Bear documents internally should be a case-by-case decision. The same part of the custom preprocessor that handles <code class="language-plaintext highlighter-rouge">[[links]]</code> could be repurposed for any system that allows internal <code class="language-plaintext highlighter-rouge">[[linking]]</code> and has a url handler syntax (like nvUltra, which I’ll post a preprocessor for when it’s available<sup id="fnref:right"><a class="footnote" href="https://brettterpstra.com#fn:right" rel="footnote">2</a></sup>, or Obsidian). You can also always set up CommonMark as a custom processor to get full compatibility.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:underline">
+      <p>It won’t include underline styling unless you add it to your Style, as detailed below <a class="reversefootnote" href="https://brettterpstra.com#fnref:underline">&#8617;</a></p>
+    </li>
+    <li id="fn:right">
+      <p>you don’t believe me at this point, which is fully understandable, but it really is coming. <a class="reversefootnote" href="https://brettterpstra.com#fnref:right">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F08%2Fmarked-and-bear%2F&amp;text=Marked+and+Bear&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F08%2Fmarked-and-bear%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16385532.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-10-08T17:31:00-05:00</pubDate>
+<pubDate>2023-10-08T17:31:00-05:00</pubDate>
+</item>
 
 <item>
 <title>The Timing giveaway winner!</title>
