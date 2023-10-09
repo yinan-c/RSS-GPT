@@ -4601,3 +4601,9 @@ Summarized using GPT-3.5-turbo
 Append: [派早报](https://sspai.com/post/83429)
 append_entries: 1
 Finish: 2023-10-09 02:19:03.947100
+------------------------------------------------------
+Started: 2023-10-09 04:13:09.911310
+Existing_entries: 91
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-10-09 04:13:10.140038
