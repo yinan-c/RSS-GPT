@@ -2990,3 +2990,12 @@ Existing_entries: 109
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-09 10:12:47.709110
+------------------------------------------------------
+Started: 2023-10-09 12:22:32.969524
+Existing_entries: 109
+Fetching from https://www.ifanr.com/feed
+Token length: 3450
+Summarized using GPT-3.5-turbo
+Append: [专访苹果高级副总裁 Craig 和副总裁 Alan：iPhone 诞生 16 年，交互设计走向何方？](https://www.ifanr.com/1564107?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-09 12:23:07.179064

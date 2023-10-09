@@ -4,6 +4,127 @@
 <title>爱范儿</title>
 <link>https://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
 
+<item>
+<title>专访苹果高级副总裁 Craig 和副总裁 Alan：iPhone 诞生 16 年，交互设计走向何方？</title>
+<link>https://www.ifanr.com/1564107?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
+<guid>https://www.ifanr.com/1564107?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</guid>
+<content:encoded><![CDATA[
+<div> iPhone, 人机交互, 小组件, 信息孤岛, 实时活动<br><br>总结: 苹果的人机交互设计团队正在努力解决信息过载问题，通过引入小组件和实时活动等新功能，使用户能够更高效地获取和处理信息。他们的设计理念注重功能的直观性和低门槛，尽可能满足所有用户的需求和期望。同时，苹果也注重产品的包容性，为残疾人群体开发的无障碍功能也能为普通用户带来便利。他们希望设计能以一种宁静和愉悦的方式呈现信息，尊重用户的注意力和自主性。 <div>
+<p><img alt="" class="aligncenter size-full wp-image-1564325" height="1650" src="https://s3.ifanr.com/wp-content/uploads/2023/10/craig-and-Alan.png" width="1079" /></p>
+<p>16 年前，一块 3.5 英寸的大屏设备，搭载着圆角矩形整齐划一的 App，改变了智能手机潮水的方向，互联网自此也装进每一个人的口袋。</p>
+<p>在图形界面统治了 PC 和智能手机人机交互数十年后，软件依旧在吞噬着世界，但 iPhone 的人机界面却在酝酿一轮变革。</p>
+<p>在接受爱范儿的独家专访时，苹果软件工程高级副总裁 Craig Federighi 说，2008 年推出 App Store 时，苹果构建了一种简单直观的范式，将信息封装在每一个 App 当中，每一个 App 就相当于是一个独立的世界，各个 App 之间是彼此独立的。</p>
+<p>如今，苹果正在跨越这种信息孤岛。</p>
+<h3>当人们被信息包围，iPhone 交互如何演变？</h3>
+<p><img alt="" class="aligncenter wp-image-1562170 size-full" height="2111" src="https://s3.ifanr.com/wp-content/uploads/2023/09/IMG_7481_polarr-e1696833304120.jpg" width="2996" /></p>
+<p>从 iOS 14 起，小组件（Widget）逐渐成为独立于 App 之外一套界面组件。你无需打开 app，即可在主屏上看到实时的天气变化、股票波动等信息。而在今年推出的 iOS 17 中，小组件升级为交互式小组件，待办事项、播放音乐、叫车、记笔记都变得触手可及。</p>
+<blockquote><p>我们希望开发者能够超越 App 的局限，让用户能够在系统空间上面去获取信息，这样的话只要在一个地方就可以去整合多个的信息。</p></blockquote>
+<p><img alt="" class="aligncenter size-full wp-image-1564136" height="2164" src="https://s3.ifanr.com/wp-content/uploads/2023/10/IMG_7835.jpg" width="2836" /></p>
+<p>发轫于 Android 早年版本的小组件，如今成为苹果帮助用户对抗信息过载的新界面。而事实上，iPhone 人机交互本质，就是协助人们高效地获取信息、处理信息。</p>
+<p>在 iPhone 诞生之初，获取特定消息的唯一途径就是打开 App，直到 iOS 3 通知系统的出现才让信息从主动获取变成被动接收。然而时隔多年，通知系统在互联网公司的商业导向和竞争下，已然异化成抢夺用户注意力的流量入口。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1564310" height="512" src="https://s3.ifanr.com/wp-content/uploads/2023/10/wwdc-keynote_125.jpeg" width="768" /></p>
+<p>我问 Craig 这是不是交互设计面临的一个问题，他表达了赞同：</p>
+<blockquote><p>这种感觉就像是有一个不停拉扯着我的广告牌，让人感觉不太舒服。</p></blockquote>
+<p>与手机 All in one 的年代不同，在万物互联的今天，人们已经习惯于简单粗暴地给设备加一块屏幕，无数的设备，无数块屏幕，无数的提醒与通知撕扯着用户，算法一面喂给我们唾手可得的舒适和浅显的快乐，一面把我们拉入无尽的时间陷阱与信息焦虑中。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1564311" height="1088" src="https://s3.ifanr.com/wp-content/uploads/2023/10/alan-dye.jpg" width="1600" /></p>
+<div class="editor-image-source">
+<p>▲图片来自：<a href="https://www.wallpaper.com/design/apple-park-behind-the-scenes-design-team-interview#0_pic_9">Wallpaper</a> by Jason Schmidt</p>
+</div>
+<p>Alan Dye 是苹果负责负责人机交互设计副总裁，师从 Jonathan Ive，做过时尚品牌的设计总监，也在广告公司担任过要职，从一个信息制造者走向其对立面，他的感受比普通人更为真切：</p>
+<blockquote><p>过去人们获取实时信息的方式就是一个通知连着一个通知，那我们认为应该有更好的方式。</p></blockquote>
+<p>Alan 口中更好的方式叫「实时活动」，它为了应对一类实时变动的信息而生。在锁屏界面，时间轴会告知你叫车或外卖进度，而当你在微信中对话时，你不必频繁切换应用，车牌号、车辆距离或送达时间会以仪表盘的形态常驻在灵动岛上。</p>
+<p><img alt="" class="aligncenter wp-image-1564212" height="661" src="https://s3.ifanr.com/wp-content/uploads/2023/10/dd_fluid__cianj2eifk3m_large_2x.jpg" width="676" /></p>
+<p>Alan 表示，实时活动实际上利用到了小组件的基础能力。它只会在你需要的短时间内出现，既不霸占主屏一席之地，也不会通过 Push 来频繁打扰用户。</p>
+<p>Craig 强调，用户的注意力应该得到尊重。他说 Apple Watch 的诞生就是就是为了缓解用户对于手机的焦虑，所以收到通知时，手腕上会轻轻震动，手机却不会在口袋里嗡嗡作响。</p>
+<blockquote><p>iPhone 和我们的其他产品都是为了支持你，而不是向你提出要求。一种人性化的解决方式就是以一种宁静的方式来呈现信息，让用户自己来决定什么是他们需要的。</p></blockquote>
+<p>Crag 所说的「宁静」与 Mark Weiser 在上世纪末提出的宁静技术（Calm Technology）的观点非常契合。无论是小组件的信息提示，还是实时活动的动态信息，背后都是利用 AI 识别或者情景感知推测用户意图，以最小的用户输入，主动适应用户需求。</p>
+<p>让交互隐于无形，或许是交互设计的未来。</p>
+<h3>灵动岛是如何诞生的？</h3>
+<p><img alt="" class="aligncenter size-full wp-image-1564216" height="444" src="https://s3.ifanr.com/wp-content/uploads/2023/10/island.gif" width="800" /></p>
+<p>Alan Dye 带领下的人机交互设计团队，负责研究用户与产品互动的问题。这项工作横跨了硬件到软件，视觉听觉到触觉：从早年 iOS 挪动图标时的抖动动画，到 Vision Pro 中科幻般的手眼交互，从 Apple Watch 数码表冠带来的细腻齿轮震感，到双指互点两下的隔空手势，都出自团队之手。</p>
+<p>但要从团队中追溯想法源头却极其困难。Alan 说，在 Apple Park 设计工作室的中心，有一张巨大的野餐桌，很多讨论都在这里进行。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1564138" height="1000" src="https://s3.ifanr.com/wp-content/uploads/2023/10/apple-park-wallpaper-9to5mac-3.jpeg" width="2000" /></p>
+<div class="editor-image-source">
+<p>▲图片来自：<a href="https://www.wallpaper.com/design/apple-park-behind-the-scenes-design-team-interview#0_pic_9">Wallpaper</a> by Jason Schmidt</p>
+</div>
+<p>Alan 告诉我，苹果的设计过程「通常始于一个想法、一个目标，甚至是一个我们想要解决的问题。」团队经常自我拷问：「如何与产品互动？你们为什么要与我们的产品互动？」</p>
+<p>灵动岛的诞生，其实就来源于一个内部老生常谈的问题：</p>
+<blockquote><p>如果屏幕上的传感器区域可以做得更小，那么剩余的空间可以做些什么？</p></blockquote>
+<p>由于 iPhone OLED 屏幕能够呈现真正的黑色，这意味着设计师能够在渲染的黑色区域内隐藏这些深色传感器，从而模糊了传感器和屏幕、硬件和软件之间的界限，创造出一个流动的、多功能的空间。</p>
+<p>越早的讨论往往能聚集更好的资源。灵动岛从一开始就集结了显示器、工业设计团队与人机界面团队。苹果的目标就是要模糊硬件和软件的边界。用 Craig 话说：</p>
+<blockquote><p>让用户看不出硬件到哪结束，软件从哪开始。</p></blockquote>
+<p>要实现这样的目标，就需要不同学科背景的专家通力协作，Alan 透露，包括工业设计师、交互设计师、色彩专家、声音设计专家、排版专家、动态设计专家都参与到了灵动岛的开发。</p>
+<blockquote><p>我们首先考虑的是设计如何满足用户的需求。但同时，我们也会思考如何使设计感到愉悦和迷人，让用户愿意与之互动。</p></blockquote>
+<p>视觉、触觉与音效的协调运用是苹果惯用的做法，当电子设备的交互逻辑与物理世界中的经验相符时，理解成本就得以降低。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1564217" height="500" src="https://s3.ifanr.com/wp-content/uploads/2023/10/lingdongdao-1.gif" width="750" /></p>
+<p>灵动岛之灵动，就体现在惯性、弹性、重力和阻尼的运用。当两个 App 进入灵动岛时，灵动岛会一分为二，分裂的过程拖泥带水，两侧的时间、信号图标也会受到挤压和回弹，完全符合现实中元素之间的动能。</p>
+<p>此外，苹果尤为重视视觉元素的分层，Alan 说这是为了显示信息的层次结构：</p>
+<blockquote><p>可能最好的一个例子就是 Vision Pro，那我们所使用的这个材料仿佛就是真实世界当中的这种材质，它的感觉就跟真实世界几乎是完全一样的。</p></blockquote>
+<h3>为所有用户设计</h3>
+<p>产品往往是文化的映像，细数近些年苹果开发的新功能，你会发现充满灵性的外观动效只是苹果交互设计的表象与手段，人性才是苹果设计哲学的源头。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1564231" height="368" src="https://s3.ifanr.com/wp-content/uploads/2023/10/vision-pro.gif" width="654" /></p>
+<p>iPhone 希望减轻用户因 App 信息过载的压力，引入了交互式小组件和实时活动；AirPods Pro 不希望降噪阻隔了用户与外界的交流，推出了自适应降噪和对话感知；因为坚信人们不应该感到孤立，花了几年时间发明 Vision Pro 的视野穿透，只为了让别人能看到佩戴者的双眼……</p>
+<p>如果说过去三十年苹果希望你围着设备转，但今天，不打扰成为了苹果的温柔。</p>
+<blockquote><p>只有用户在需要的时候才会有这个设计，否则的话我们就希望设计是化于无形。</p></blockquote>
+<p>Alan 强调，苹果的设计理念不仅仅关注于外观，更重要的是关注于功能。而功能的优劣取决于——用户是不是拿起来就知道怎么用。</p>
+<p>这很容易被理解为「设计的低门槛」，但对 Alan 而言，这是苹果根深蒂固的原则——设计应该从「所有用户」出发。</p>
+<p><a href="https://developer.apple.com/design/human-interface-guidelines/inclusion">苹果在开发者设计文档</a>详尽地介绍了「为所有人设计」的原则，里面提到一项「同理心」调查：</p>
+<blockquote><p>要设计出直观的体验，你需要了解人们的诉求和期望，这样你才能创造有共鸣的内容。</p></blockquote>
+<p>同理心维度包括：年龄、性别和性别认同、种族和民族、性别取向、身体特征、认知属性、残疾、语言和文化、宗教、教育、政治或哲学观点、社会和经济背景……</p>
+<p>其中对「残疾」（disability）的定义非常有趣，包括：永久性残疾、暂时性残疾和情境性残疾。</p>
+<p>比如因为负伤导致的手脚不便就属于暂时性残疾，而听力正常的人在嘈杂环境中听不清电话，就属于情境性的残疾。</p>
+<p>或许正是因为这样的包容性原则，无障碍的功能也能<a href="https://www.ifanr.com/1562124">从少数人群走向普罗大众</a>。</p>
+<p><img alt="" class="aligncenter size-full wp-image-1564219" height="450" src="https://s3.ifanr.com/wp-content/uploads/2023/10/double-tap.gif" width="600" /></p>
+<blockquote><p>在很多情况下，我们会发现，我们为这些无障碍人设所开发的功能，其实对于普通的用户也大有裨益。Apple Watch 中的双指互点两次（Double Tap）就是一个很好的例子。</p></blockquote>
+<p>我想这就是人文的最佳注解。为所有用户设计，就是不会因为比例而修改的存在。</p>
+  <div id="ifanr_profile" style="border: 1px solid #ccc; font-size: 14px; margin: 27px auto; font-family: Arial;">
+    <div style="overflow: hidden;"><a href="https://www.ifanr.com/author/hezongcheng" style="color: #000; text-decoration: none;" target="_blank"></a>
+
+      <div style="text-align: left; line-height: 23px; margin-left: 80px;">
+        <div style="padding: 10px 10px 10px 0;">
+          <div style="margin: 0; font-size: 14px;"><strong><a href="https://www.ifanr.com/author/hezongcheng" style="color: #000; text-decoration: none;" target="_blank">何宗丞 (Jonathan Ho)</a></strong>
+          </div>
+          <div style="font-size: 13px; line-height: 20px;">从技术的旁观者与记录者，成为技术影响生活方式的实践者。</div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: right; border-top: 1px dotted #ccc; padding: 2px 10px; font-size: 12px;">
+      <div>
+                                <a href="mailto:jonathan@ifanr.com" style="margin-right: 14px; text-decoration: none;" target="_blank">邮箱</a>
+
+          
+                                  <a href="http://twitter.com/hezongcheng" style="margin-right: 14px; text-decoration: none;" target="_blank">Twitter</a>
+
+          
+                                  <a href="https://www.flickr.com/photos/hezongcheng/" style="margin-right: 14px; text-decoration: none;" target="_blank">Flickr</a>
+
+          
+                                  <a href="http://weibo.com/hezongcheng" style="margin-right: 14px; text-decoration: none;" target="_blank">新浪微博</a>
+
+          
+                                  <a href="https://plus.google.com/118051041556695317207" style="margin-right: 14px; text-decoration: none;" target="_blank">Google+</a>
+
+          
+                                  <a href="https://www.ifanr.com/1" style="margin-right: 14px; text-decoration: none;" target="_blank">9</a>
+
+          
+                </div>
+    </div>
+  </div>
+  <p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p><p>
+<a href="https://www.ifanr.com">爱范儿</a> |
+<a href="https://www.ifanr.com/1564107">原文链接</a> ·
+<a href="https://www.ifanr.com/1564107#comments">查看评论</a> ·
+<a href="https://weibo.com/ifanr">新浪微博</a>
+</p>
+
+<br />
+<div style="text-align: center; border-top: 1px dotted #ccc;">
+</div>
+]]></content:encoded>
+<pubDate>Mon, 09 Oct 2023 10:21:37 +0000</pubDate>
+<pubDate>Mon, 09 Oct 2023 10:21:37 +0000</pubDate>
+</item>
 
 <item>
 <title>Funtouch OS 14 在海外正式发布，国内的 vivo 用户终于跑在了前面</title>
