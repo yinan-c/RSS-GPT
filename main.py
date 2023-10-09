@@ -8,6 +8,12 @@ import re
 import datetime
 #from dateutil.parser import parse
 
+def generate_untitled(entry):
+    try: return entry.title
+    except: 
+        try: return entry.article[:50]
+        except: return entry.link
+
 def get_cfg(sec, name, default=None):
     value=config.get(sec, name, fallback=default)
     if value:
@@ -114,12 +120,12 @@ def gpt_summary(query,model,language):
     if language == "zh":
         messages = [
             {"role": "user", "content": query},
-            {"role": "assistant", "content": f"请用中文总结这篇文章，先提取出{keyword_length}个关键词，在同一行内输出，然后换行，用中文在{summary_length}字内写一个简短总结，按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，输出时必须保留2个，并且必须在'总结:'二字之前"}
+            {"role": "assistant", "content": f"请用中文总结这篇文章，先提取出{keyword_length}个关键词，在同一行内输出，然后换行，用中文在{summary_length}字内写一个包含所有要点的总结，按顺序分要点输出，并按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，输出时必须保留2个，并且必须在'总结:'二字之前"}
         ]
     else:
         messages = [
             {"role": "user", "content": query},
-            {"role": "assistant", "content": f"Please summarize this article in {language} language, no longer than {summary_length} words, and output after the word 'Summary:' in target {language} language:"}
+            {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output in the same line, then line break, write a summary containing all the points in {summary_length} words in {language}, output in order by points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and must be before the word 'Summary:'"}
         ]
     chat = ChatCompletion.create(
         model=model,
@@ -206,10 +212,14 @@ def output(sec, language):
             if entry.link in [x.link for x in append_entries]:
                 continue
 
+            entry.title = generate_untitled(entry)
+
             try:
                 entry.article = entry.content[0].value
             except:
-                entry.article = entry.description
+                try: entry.article = entry.description
+                except: entry.article = entry.title
+
             cleaned_article = clean_html(entry.article)
 
             if not filter_entry(entry, filter_apply, filter_type, filter_rule):
