@@ -4592,3 +4592,12 @@ Existing_entries: 90
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-09 00:50:51.728617
+------------------------------------------------------
+Started: 2023-10-09 02:18:45.060018
+Existing_entries: 90
+Fetching from https://rsshub.app/sspai/index
+Token length: 2434
+Summarized using GPT-3.5-turbo
+Append: [派早报](https://sspai.com/post/83429)
+append_entries: 1
+Finish: 2023-10-09 02:19:03.947100

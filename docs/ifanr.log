@@ -2954,3 +2954,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [早报|Meta 将苹果头显视为 2007 年 iPhone/华为手机显微镜专利曝光/微软明年或将推出 Win12 系统](https://www.ifanr.com/1564276?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-10-09 00:50:21.349407
+------------------------------------------------------
+Started: 2023-10-09 02:18:06.588290
+Existing_entries: 107
+Fetching from https://www.ifanr.com/feed
+Token length: 3103
+Summarized using GPT-3.5-turbo
+Append: [奔驰和蔚来，到底有没有未来？](https://www.ifanr.com/1564221?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-09 02:18:39.860794
