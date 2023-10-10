@@ -3044,3 +3044,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [早报|库克谈为何每年推出新 iPhone / 华为辟谣网传拒绝富士康代工请求 / 法拉第未来向贾跃亭交付新车](https://www.ifanr.com/1564357?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-10-10 02:19:23.101310
+------------------------------------------------------
+Started: 2023-10-10 04:12:58.838817
+Existing_entries: 111
+Fetching from https://www.ifanr.com/feed
+Token length: 3523
+Summarized using GPT-3.5-turbo
+Append: [高通推出全新 XR2 和 AR1 平台，变革空间计算正式上线](https://www.ifanr.com/1564362?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-10 04:13:19.168673

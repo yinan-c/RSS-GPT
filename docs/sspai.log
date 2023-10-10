@@ -4682,3 +4682,15 @@ Existing_entries: 94
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-10 02:19:28.261341
+------------------------------------------------------
+Started: 2023-10-10 04:13:25.626816
+Existing_entries: 94
+Fetching from https://rsshub.app/sspai/index
+Token length: 7100
+Summarized using GPT-3.5-turbo-16k
+Append: [四个 All-in-One 工具，帮我优化工作与生活流程](https://sspai.com/post/83315)
+Token length: 1769
+Summarized using GPT-3.5-turbo
+Append: [派早报：交通运输部发布《公路工程设施支持自动驾驶技术指南》等](https://sspai.com/post/83458)
+append_entries: 2
+Finish: 2023-10-10 04:14:39.074968
