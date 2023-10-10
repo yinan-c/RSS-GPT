@@ -4700,3 +4700,12 @@ Existing_entries: 96
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-10 06:15:03.036351
+------------------------------------------------------
+Started: 2023-10-10 08:15:11.328538
+Existing_entries: 96
+Fetching from https://rsshub.app/sspai/index
+Token length: 5868
+Summarized using GPT-3.5-turbo-16k
+Append: [Matrix Talk | 作为 iOS 用户，我为什么换到 / 新增 Android 设备？](https://sspai.com/post/83445)
+append_entries: 1
+Finish: 2023-10-10 08:15:38.605161
