@@ -3074,3 +3074,16 @@ Existing_entries: 113
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-10 10:12:10.465160
+------------------------------------------------------
+Started: 2023-10-10 12:20:55.108921
+Existing_entries: 113
+Fetching from https://www.ifanr.com/feed
+Token length: 4019
+Summarized using GPT-3.5-turbo-16k
+Append: [麦当劳和可乐们最大的威胁，居然是「减肥药」](https://www.ifanr.com/1564489?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 3544
+Summarized using GPT-3.5-turbo
+Append: [首届人工智能摄影奖颁布，看完获奖作品，我恐慌了 2 次](https://www.ifanr.com/1564393?utm_source=rss&utm_medium=rss&utm_campaign=)
+Append: [苹果 Vision Pro 让 Meta 害怕，但谈论「下一个 iPhone」为时尚早](https://www.ifanr.com/1564454?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 3
+Finish: 2023-10-10 12:21:54.869153
