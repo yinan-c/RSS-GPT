@@ -3035,3 +3035,12 @@ Existing_entries: 110
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-10 00:49:16.814621
+------------------------------------------------------
+Started: 2023-10-10 02:17:54.974213
+Existing_entries: 110
+Fetching from https://www.ifanr.com/feed
+Token length: 5553
+Summarized using GPT-3.5-turbo-16k
+Append: [早报|库克谈为何每年推出新 iPhone / 华为辟谣网传拒绝富士康代工请求 / 法拉第未来向贾跃亭交付新车](https://www.ifanr.com/1564357?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-10 02:19:23.101310
