@@ -1291,3 +1291,10 @@ Existing_entries: 11
 Fetching from https://1q43.blog/feed
 append_entries: 0
 Finish: 2023-10-10 22:17:18.692674
+------------------------------------------------------
+Started: 2023-10-11 01:17:20.919394
+Existing_entries: 11
+Fetching from https://1q43.blog/feed
+Feed error: 500
+append_entries: 0
+error when rendering xml, skip docs/hx
