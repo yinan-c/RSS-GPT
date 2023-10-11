@@ -1298,3 +1298,10 @@ Fetching from https://1q43.blog/feed
 Feed error: 500
 append_entries: 0
 error when rendering xml, skip docs/hx
+------------------------------------------------------
+Started: 2023-10-11 02:23:44.842734
+Existing_entries: 11
+Fetching from https://1q43.blog/feed
+Feed error: 500
+append_entries: 0
+error when rendering xml, skip docs/hx
