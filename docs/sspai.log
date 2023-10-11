@@ -4799,3 +4799,15 @@ Existing_entries: 101
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-11 10:11:55.834669
+------------------------------------------------------
+Started: 2023-10-11 12:21:41.153100
+Existing_entries: 101
+Fetching from https://rsshub.app/sspai/index
+Token length: 8728
+Summarized using GPT-3.5-turbo-16k
+Append: [具透 | 喜欢 Android 14 的 14 个理由（少数派版本）](https://sspai.com/post/83501)
+Token length: 25
+Summarized using GPT-3.5-turbo
+Append: [少数派健身类选题人气作者「举铁的马里奥」都装了啥？](https://sspai.com/post/83491)
+append_entries: 2
+Finish: 2023-10-11 12:22:35.212869
