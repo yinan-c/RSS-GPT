@@ -4775,3 +4775,12 @@ Existing_entries: 99
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-11 04:13:52.827934
+------------------------------------------------------
+Started: 2023-10-11 06:15:25.844529
+Existing_entries: 99
+Fetching from https://rsshub.app/sspai/index
+Token length: 14897
+Summarized using GPT-3.5-turbo-16k
+Append: [用开源项目，你也能训练自己的 AI 语音模型](https://sspai.com/post/83487)
+append_entries: 1
+Finish: 2023-10-11 06:15:56.435482
