@@ -3213,3 +3213,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [早报｜小米整改电视开机广告/理想将华为视为第一强力对手/苹果客服回应 iPhone 被曝夜间自动关机](https://www.ifanr.com/1564547?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-10-12 02:16:53.831939
+------------------------------------------------------
+Started: 2023-10-12 04:13:01.624035
+Existing_entries: 120
+Fetching from https://www.ifanr.com/feed
+Token length: 1612
+Summarized using GPT-3.5-turbo
+Append: [华为又一「黑科技」曝光，问界 M9 首发搭载](https://www.ifanr.com/1564550?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-12 04:14:02.785763
