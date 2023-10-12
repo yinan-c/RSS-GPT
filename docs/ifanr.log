@@ -3204,3 +3204,12 @@ Existing_entries: 119
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-12 00:47:17.815959
+------------------------------------------------------
+Started: 2023-10-12 02:16:35.068975
+Existing_entries: 119
+Fetching from https://www.ifanr.com/feed
+Token length: 5437
+Summarized using GPT-3.5-turbo-16k
+Append: [早报｜小米整改电视开机广告/理想将华为视为第一强力对手/苹果客服回应 iPhone 被曝夜间自动关机](https://www.ifanr.com/1564547?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-12 02:16:53.831939
