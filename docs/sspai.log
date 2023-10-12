@@ -4883,3 +4883,15 @@ Existing_entries: 105
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-12 10:11:45.733706
+------------------------------------------------------
+Started: 2023-10-12 12:21:24.451098
+Existing_entries: 105
+Fetching from https://rsshub.app/sspai/index
+Token length: 581
+Summarized using GPT-3.5-turbo
+Append: [大内密谈 | 口述深圳二十年少数派激荡浮沉录](https://sspai.com/post/83516)
+Token length: 8466
+Summarized using GPT-3.5-turbo-16k
+Append: [科普 | 高帧率、好画质的「光追」是如何实现的？](https://sspai.com/post/83522)
+append_entries: 2
+Finish: 2023-10-12 12:22:40.271618
