@@ -4062,3 +4062,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [Macos下好用的pdf软件求推荐](https://meta.appinn.net/t/topic/48162)
 append_entries: 1
 Finish: 2023-10-12 08:14:09.193661
+------------------------------------------------------
+Started: 2023-10-12 10:11:40.262874
+Existing_entries: 101
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-12 10:11:44.576846
