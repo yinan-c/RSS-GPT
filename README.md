@@ -9,7 +9,7 @@
 
 [Configuration Guide](https://yinan-c.github.io/rss-gpt-manual-en.html) | [中文简介](README-zh.md) | [中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html)
 
-Using GitHub workflow to run a simple Python script repeatly, Calling OpenAI API to generate summaries for RSS feeds, and then push the generated feeds to GitHub Pages. Easy to configure, no server needed.
+Using GitHub Actions to run a simple Python script repeatedly: Calling OpenAI API to generate summaries for RSS feeds, and push the generated feeds to GitHub Pages. Easy to configure, no server needed.
 
 ### Features
 
