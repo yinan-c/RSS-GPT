@@ -3288,3 +3288,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [早报｜iPhone 16 Pro 或将支持 5.5G / 小米社区负责人回应雷军被封号 / OPPO Find N3 发布会官宣](https://www.ifanr.com/1564762?utm_source=rss&utm_medium=rss&utm_campaign=)
 append_entries: 1
 Finish: 2023-10-13 00:52:11.289931
+------------------------------------------------------
+Started: 2023-10-13 02:21:29.099362
+Existing_entries: 123
+Fetching from https://www.ifanr.com/feed
+Token length: 3516
+Summarized using GPT-3.5-turbo-16k
+Append: [华为 Mate 60 RS 非凡大师：高端之上，领创极致](https://www.ifanr.com/1564766?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-13 02:22:36.988580
