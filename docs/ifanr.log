@@ -3303,3 +3303,15 @@ Existing_entries: 124
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-13 04:13:21.361057
+------------------------------------------------------
+Started: 2023-10-13 06:15:09.140982
+Existing_entries: 124
+Fetching from https://www.ifanr.com/feed
+Token length: 4049
+Summarized using GPT-3.5-turbo-16k
+Append: [嘘！这份能让你准时下班的「打工秘籍」，千万别被老板看到](https://www.ifanr.com/1564661?utm_source=rss&utm_medium=rss&utm_campaign=)
+Token length: 5855
+Summarized using GPT-3.5-turbo-16k
+Append: [解散又重组，苹果到底还要不要造车了？](https://www.ifanr.com/1564577?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 2
+Finish: 2023-10-13 06:16:45.939478
