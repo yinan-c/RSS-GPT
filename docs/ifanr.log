@@ -3330,3 +3330,10 @@ Existing_entries: 127
 Fetching from https://www.ifanr.com/feed
 append_entries: 0
 Finish: 2023-10-13 10:11:50.647651
+------------------------------------------------------
+Started: 2023-10-13 12:21:06.258403
+Existing_entries: 127
+Fetching from https://www.ifanr.com/feed
+Append: [为音乐而生，索尼音频的变与不变](https://www.ifanr.com/1564887?utm_source=rss&utm_medium=rss&utm_campaign=)
+append_entries: 1
+Finish: 2023-10-13 12:21:08.040807

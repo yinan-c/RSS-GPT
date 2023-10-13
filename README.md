@@ -48,3 +48,5 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/appinn.xml
 - https://rsshub.app/sspai/index -> https://yinan-c.github.io/RSS-GPT/sspai.xml
 - https://rknight.me/feed.xml -> https://yinan-c.github.io/RSS-GPT/robb-knight.xml
+- https://stephanango.com/feed.xml -> https://yinan-c.github.io/RSS-GPT/steph-ango.xml
+- https://lopespm.com/atom.xml -> https://yinan-c.github.io/RSS-GPT/byte-tank.xml
