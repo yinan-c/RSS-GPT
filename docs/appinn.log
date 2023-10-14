@@ -4272,3 +4272,11 @@ Append: [【自荐】只读：简洁易用的稍后阅读，高亮笔记功能�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-10-14 12:18:46.662487
+------------------------------------------------------
+Started: 2023-10-14 14:09:13.644612
+Existing_entries: 103
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-14 14:09:16.741473

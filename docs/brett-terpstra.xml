@@ -4,6 +4,121 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Automating the giveaways</title>
+<link>https://brett.trpstra.net/link/535/16394621/automating-the-giveaways</link>
+<guid>https://brett.trpstra.net/link/535/16394621/automating-the-giveaways</guid>
+<content:encoded><![CDATA[
+<div> 自动化、赠品、开发者、订阅、时间跟踪<br><br>总结: 这篇文章讲述了作者在博客上进行一系列赠品活动的情况。作者自豪地分享了他建立的令人印象深刻的自动化系统，用于管理赠品活动的各个方面。作者通过一个主YAML文件来管理每个赠品的信息，并使用脚本生成包括赠品公告、电子邮件、中奖者名单等在内的各种组成部分。赠品的实施方式可以是邮件、优惠券或代码，具体取决于开发者的偏好。作者还分享了他使用的各种脚本和工具，以及这些自动化流程带来了巨大的时间节省。最后，作者提到他愿意提供帮助，包括分享代码、免费的咨询以及收费的自定义开发服务。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="giveawayrobot-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/10/giveawayrobot-rb.jpg" title="giveawayrobot-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>You may have noticed I’m running a series of giveaways on this blog. Literally every developer I’ve reached out to has been willing to put up 1-10 licenses or 1-year subscriptions for their app, and I’m <em>extremely</em> pleased with <a href="https://brettterpstra.com/giveaways/upcoming/">the list I’ve put together</a>. In an effort to keep track of all of them, I’ve built some (if I do say so myself) impressive automation around this project, and I thought I’d share. It’s some mad science, but it’s working great and I kinda want to brag about it.</p>
+
+<p>For every giveaway, there are 5 major pieces:</p>
+
+<ol>
+  <li>The announcement post containing the form to enter for the drawing, on Monday</li>
+  <li>An announcement email to subscribers linking to the announcement post, also on Monday</li>
+  <li>A followup email on Thursday reminding subscribers there’s still time to enter</li>
+  <li>A drawing of the winners, and notification emails sent to them, on Friday</li>
+  <li>An announcement post listing the winner’s names and upcoming giveaways, also on Friday</li>
+</ol>
+
+<p>So here’s how it works. I have a master YAML file where each giveaway has the following info:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="pi">-</span> <span class="na">app_name</span><span class="pi">:</span> <span class="s">Timing</span>
+  <span class="na">contact</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">Hookmark link to email conversation with developer</span><span class="pi">]</span>
+  <span class="na">dev_email</span><span class="pi">:</span> <span class="s">Daniel Gräfe &lt;REDACTED&gt;</span>
+  <span class="na">keywords</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">productivity</span><span class="pi">,</span> <span class="nv">time tracking</span><span class="pi">,</span> <span class="nv">timing</span><span class="pi">]</span>
+  <span class="na">dev_link</span><span class="pi">:</span> <span class="s">https://timingapp.com/</span>
+  <span class="na">offer</span><span class="pi">:</span> <span class="s">a 1-year subscription ($108 value)</span>
+  <span class="na">number_of_prizes</span><span class="pi">:</span> <span class="m">1</span>
+  <span class="na">followup</span><span class="pi">:</span> <span class="s">I guarantee it will be useful for anyone who needs to know where they spend there time, for any reason.</span>
+  <span class="na">fulfillment</span><span class="pi">:</span> <span class="s">emails</span>
+  <span class="na">giveaway_slug</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">secret giveaway slug</span><span class="pi">]</span>
+  <span class="na">blurb</span><span class="pi">:</span> <span class="pi">&gt;</span>
+    <span class="s">I use Timing daily and it's helped me automatically track time that I would never have had the discipline to</span>
+    <span class="s">manage on my own. Billable hours, time I spend on personal projects, time I spend gaming, pretty much</span>
+    <span class="s">anything I do on my Mac, my iPhone, or my iPad gets tracked and I can easily categorize based on rules</span>
+    <span class="s">(that are as easy as dragging and dropping to generate). I even integrated it with</span>
+    <span class="s">[Doing](https://brettterpstra.com/projects/doing/) for adding depth to my "What Was I Doing" tracking.</span>
+  <span class="na">dev_blurb</span><span class="pi">:</span> <span class="pi">&gt;</span>
+    <span class="s">Just keep focusing on your work while Timing records your time automatically, then review your time when you</span>
+    <span class="s">want to. Record time faster than ever with just a few clicks. See when you worked on what and how</span>
+    <span class="s">productive you were.</span>
+  <span class="na">screenshot</span><span class="pi">:</span> <span class="s">/uploads/2023/09/timingscreenshot.jpg</span>
+  <span class="na">setapp</span><span class="pi">:</span> <span class="no">true</span></code></pre></div></div>
+
+<p>It takes me about 10 minutes to build an entry. I have to write out my personal blurb, get a developer blurb from the website, and generate images including a screenshot (usually pulled from the website and automatically sized and converted by a <a href="https://www.noodlesoft.com/">Hazel</a> script when I save it to my desktop) and a blog header and winner post header<sup id="fnref:imageautomation"><a class="footnote" href="https://brettterpstra.com#fn:imageautomation" rel="footnote">1</a></sup>. (Social sharing images and WEBP versions are automatically generated from the header images using <a href="https://flyingmeat.com/retrobatch/" title="Retrobatch, from Flying Meat">RetroBatch</a>.) So that’s the bulk of the creation time.</p>
+
+<p>Slotting a new giveaway in is simply a matter of adding a new entry like above to the YAML array, and I can slot them in at any point and all of the dates will adjust accordingly.</p>
+
+<p>When my <code class="language-plaintext highlighter-rouge">giveaways.rb</code> script runs, it goes through this YAML file and generates all of the pieces mentioned above. It has a start date hardcoded for the start of this series, and then for each giveaway entry it adds 7 days, and sets a drawing date for the following Friday. It uses ERB templates to generate the giveaway announcement (including blurbs and screenshot), the two emails, and the winner announcement (including the followup text). The winner announcement, which gets saved to my drafts folder, includes a note letting me know exactly what command to run to execute the drawing, including how many winners to draw, where to pull the fulfillment codes from, etc. The winner announcement is also “hooked” to the conversation with the developer using <a href="https://hookproductivity.com/">Hookmark</a>, so I can easily jump back to it. It also creates a list of upcoming giveaways, saved twice, once to a Markdown file with the secret slugs used to populate and query the Firebase database for the drawing, and once to a list that becomes <a href="https://brettterpstra.com/giveaways/upcoming/">publicly viewable</a>.</p>
+
+<p>The fulfillment key can be one of <code class="language-plaintext highlighter-rouge">emails</code>, <code class="language-plaintext highlighter-rouge">coupons</code>, or <code class="language-plaintext highlighter-rouge">codes</code>, and depends on the developer’s preference for fulfilling the giveaway. If there are coupons or codes, those get a YAML array listing them and they’re written out to an individual YAML file that the Giveaway Robot will read. The Giveaway Robot (the script that does the random picking of entrants) reads the appropriate type of fulfillment file and sends a notification email to each of the winners containing a link, a redeem code, or notification that their email has been shared with the developer (who gets cc’d based on the <code class="language-plaintext highlighter-rouge">dev_email</code> setting) who will be in touch with a license.</p>
+
+<p>The emails that are generated are in Markdown format, saved locally. On the week that a giveaway is going to run, I run a script called <code class="language-plaintext highlighter-rouge">create_giveaway_emails.rb APP_NAME</code>, where app name is just something like <code class="language-plaintext highlighter-rouge">App Tamer</code> or <code class="language-plaintext highlighter-rouge">Timing</code>. That will find and render the generated Markdown files, apply my BrettTerpstra.com styling, and use the <a href="https://sendy.co/" title="Sendy-Send Newsletters 100x cheaper via Amazon SES">Sendy</a> API to create and schedule both emails for the week.</p>
+
+<p>All of these moving pieces of this are a lot to track, so the script includes notes at every pertinent point letting me know which script needs to be run, and also generates a calendar entry with an alert that links (Hookmark) to the necessary notes, which literally tell me exactly which command to run and what to do with the output.</p>
+
+<p>There’s a Jekyll plugin that generates and runs the giveaway form. I just include:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{% giveaway SLUG ISO_END_DATE %}</code></pre></div></div>
+
+<p>which is generated automatically by the <code class="language-plaintext highlighter-rouge">giveaways.rb</code> script in the announcement post, and all entries will go to a Firebase database named for the SLUG. At the end of the giveaway, I just give the same slug to the “robot” and it uses random number generation to pick winners. The robot (run by the command in the winner announcement post note) generates emails to the winners, saves a list of names and emails, and outputs a list of winner names to the Terminal, ready for pasting into the winner announcement post. Actually it also uses <code class="language-plaintext highlighter-rouge">pbcopy</code> to put the list right into my clipboard and opens the winner post for pasting…</p>
+
+<p>So, aside from the time it took to build all of this automation, my effort per giveaway is:</p>
+
+<ul>
+  <li>email discussion with the developer, nailing down number of copies and fulfillment options, 10m elapsed time per giveaway</li>
+  <li>edit the master YAML file with details, 10m</li>
+  <li>run the giveaways.rb script, 5s</li>
+  <li>on Sunday
+    <ul>
+      <li>edit and publish the generated giveaway post for the week, 2m</li>
+      <li>run the <code class="language-plaintext highlighter-rouge">create_giveaway_emails.rb</code> script to generate the emails, 5s</li>
+      <li>double check the emails and scheduling because I don’t fully trust the automation, 2m</li>
+    </ul>
+  </li>
+  <li>on Wednesday
+    <ul>
+      <li>share the giveaway reminder to social media, 5m</li>
+    </ul>
+  </li>
+  <li>on Friday
+    <ul>
+      <li>run the giveaway robot using the command already saved in the winners post, 1m</li>
+      <li>edit the giveaway post with the list of winners returned by the robot, 2m</li>
+    </ul>
+  </li>
+</ul>
+
+<p>So, now that the automation is built, it takes me approximately 23 minutes to add and run a giveaway. This would take me at least 3 hours per week if I were doing this manually every time, with the multiple posts, the multiple emails, and the drawing/notification, plus all of the tracking down of previous conversations and handling of codes for every giveaway. So this automation is <em>easily</em> saving me almost 3 hours per giveaway, and with nearly 40 giveaways currently lined up (and growing), that’s almost 120 hours of time saved already. Easily worth the ~8 hours I put into building it.</p>
+
+<p>I doubt all of the scripts behind this will be of use to anyone else as is, but if you want to create any kind of similar automation, I’m available to help. If you just want to see my code to alter on your own, I’ll share it for free, and if you want to hire me to build something out for you, I charge a reasonable hourly fee. If I ever lose my cushy corporate job, this is exactly the kind of thing I would love to freelance on, so keep me in mind for that fateful day.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:imageautomation">
+      <p>All of these header images are the same background with an app icon rotated and positioned in the hand of the “giveaway robot,” but I haven’t yet been able to automate the generation of these images. I just need to extract a PNG from the app (easy), then size, rotate, and position it over a static background. RetroBatch can’t do it, so if anyone has any grand ideas, I’d love to hear them. I bet ImageMagick could do this, but I get into rabbit holes when I start looking into it… <a class="reversefootnote" href="https://brettterpstra.com#fnref:imageautomation">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F14%2Fautomating-the-giveaways%2F&amp;text=Automating+the+giveaways&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F14%2Fautomating-the-giveaways%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16394621.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-10-14T08:00:00-05:00</pubDate>
+<pubDate>2023-10-14T08:00:00-05:00</pubDate>
+</item>
 
 <item>
 <title>The Hookmark giveaway winner!</title>
