@@ -4,12 +4,13 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Automating the giveaways</title>
 <link>https://brett.trpstra.net/link/535/16394621/automating-the-giveaways</link>
 <guid>https://brett.trpstra.net/link/535/16394621/automating-the-giveaways</guid>
 <content:encoded><![CDATA[
-<div> 自动化、赠品、开发者、订阅、时间跟踪<br><br>总结: 这篇文章讲述了作者在博客上进行一系列赠品活动的情况。作者自豪地分享了他建立的令人印象深刻的自动化系统，用于管理赠品活动的各个方面。作者通过一个主YAML文件来管理每个赠品的信息，并使用脚本生成包括赠品公告、电子邮件、中奖者名单等在内的各种组成部分。赠品的实施方式可以是邮件、优惠券或代码，具体取决于开发者的偏好。作者还分享了他使用的各种脚本和工具，以及这些自动化流程带来了巨大的时间节省。最后，作者提到他愿意提供帮助，包括分享代码、免费的咨询以及收费的自定义开发服务。 <div>
+<div> 自动化、赠品、开发者、订阅、时间跟踪<br /><br />总结: 这篇文章讲述了作者在博客上进行一系列赠品活动的情况。作者自豪地分享了他建立的令人印象深刻的自动化系统，用于管理赠品活动的各个方面。作者通过一个主YAML文件来管理每个赠品的信息，并使用脚本生成包括赠品公告、电子邮件、中奖者名单等在内的各种组成部分。赠品的实施方式可以是邮件、优惠券或代码，具体取决于开发者的偏好。作者还分享了他使用的各种脚本和工具，以及这些自动化流程带来了巨大的时间节省。最后，作者提到他愿意提供帮助，包括分享代码、免费的咨询以及收费的自定义开发服务。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -117,9 +118,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16394621.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-10-14T08:00:00-05:00</pubDate>
-<pubDate>2023-10-14T08:00:00-05:00</pubDate>
 </item>
-
 <item>
 <title>The Hookmark giveaway winner!</title>
 <link>https://brett.trpstra.net/link/535/16394031/the-hookmark-giveaway-winner</link>
