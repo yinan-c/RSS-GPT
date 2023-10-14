@@ -5045,3 +5045,12 @@ Existing_entries: 111
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-14 10:10:06.226120
+------------------------------------------------------
+Started: 2023-10-14 12:18:47.522963
+Existing_entries: 111
+Fetching from https://rsshub.app/sspai/index
+Token length: 10156
+Summarized using GPT-3.5-turbo-16k
+Append: [告别电影荒：日本电影观看全指南](https://sspai.com/post/83412)
+append_entries: 1
+Finish: 2023-10-14 12:19:12.040267
