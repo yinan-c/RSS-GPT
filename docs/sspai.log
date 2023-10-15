@@ -5102,3 +5102,12 @@ Existing_entries: 112
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-15 04:12:23.174562
+------------------------------------------------------
+Started: 2023-10-15 06:13:36.664339
+Existing_entries: 112
+Fetching from https://rsshub.app/sspai/index
+Token length: 2085
+Summarized using GPT-3.5-turbo
+Append: [我开发了一套 Marp 主题，Markdown 直接转换的 PPT 也可以很好看：Awesome Marp](https://sspai.com/post/83182)
+append_entries: 1
+Finish: 2023-10-15 06:13:56.662215
