@@ -5,11 +5,88 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>关于批量通知</title>
+<link>https://meta.appinn.net/t/topic/48288</link>
+<guid>https://meta.appinn.net/t/topic/48288</guid>
+<content:encoded><![CDATA[
+
+<p>（话题已被作者删除）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48288">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 16 Oct 2023 07:08:24 +0000</pubDate>
+<pubDate>Mon, 16 Oct 2023 07:08:24 +0000</pubDate>
+</item>
+<item>
+<title>老胡的周刊（第110期）</title>
+<link>https://meta.appinn.net/t/topic/48286</link>
+<guid>https://meta.appinn.net/t/topic/48286</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#bitwardenhttpsgithubcombitwarden-2" name="bitwardenhttpsgithubcombitwarden-2"></a><a href="https://github.com/bitwarden" rel="noopener nofollow ugc">bitwarden</a></h3>
+<p>一个开源，免费，跨平台，安全易管理，，能自动填充密码可自建的密码管理解决方案：</p>
+<p><img alt="bitwarden" height="416" src="https://images-1252557999.file.myqcloud.com/uPic/bitwarden.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#dashyhttpsgithubcomlissy93dashy-3" name="dashyhttpsgithubcomlissy93dashy-3"></a><a href="https://github.com/Lissy93/dashy" rel="noopener nofollow ugc">dashy</a></h3>
+<p>可自我托管的个人自定义导航页：括状态检查，小部件，主题，图标包，UI编辑器等等：</p>
+<p><img alt="dashy" height="330" src="https://images-1252557999.file.myqcloud.com/uPic/dashy.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#bangumihttpsgithubcomczy0729bangumi-5" name="bangumihttpsgithubcomczy0729bangumi-5"></a><a href="https://github.com/czy0729/Bangumi" rel="noopener nofollow ugc">Bangumi</a></h3>
+<p>一个基于 <code>React-Native</code> 的无广告、以爱好为驱动、不以盈利为目的 <a href="https://bgm.tv/" rel="noopener nofollow ugc">Bangumi</a> 第三方客户端，简单比喻就是专门做 <code>ACG</code> 的类似豆瓣的应用：</p>
+<p><img alt="Bangumi" height="296" src="https://images-1252557999.file.myqcloud.com/uPic/Bangumi.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#sigma-file-managerhttpsgithubcomaleksey-hoffmansigma-file-manager-6" name="sigma-file-managerhttpsgithubcomaleksey-hoffmansigma-file-manager-6"></a><a href="https://github.com/aleksey-hoffman/sigma-file-manager" rel="noopener nofollow ugc">sigma-file-manager</a></h3>
+<p><code>Sigma File Manager</code> 是一个免费、开源、快速发展的现代文件管理器（资源管理器/查找器）应用程序，适用于<code>Windows&amp;Linux</code>，支持智能搜索、自定义主页、文件共享、文件下载、智能拖放、文件保护等功能：</p>
+<p><img alt="sigma-file-manager" height="380" src="https://images-1252557999.file.myqcloud.com/uPic/sigma-file-manager.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#tiny-rdmhttpsgithubcomtiny-crafttiny-rdm-7" name="tiny-rdmhttpsgithubcomtiny-crafttiny-rdm-7"></a><a href="https://github.com/tiny-craft/tiny-rdm" rel="noopener nofollow ugc">tiny-rdm</a></h3>
+<p><code>Tiny RDM</code> 是一款适用于 <code>Mac、 Windows &amp; Linux</code> 的现代轻量级跨平台 <code>Redis</code> 桌面管理器：</p>
+<p><img alt="tiny-rdm" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/tiny-rdm.png" width="664" /></p>
+<p>同类型软件还推荐<a href="https://weekly.howie6879.com/2022/04-25~05-01.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC037%E6%9C%9F%EF%BC%89.html#anotherredisdesktopmanager" rel="noopener nofollow ugc">AnotherRedisDesktopManager</a>。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#icewebglhttpsgithubcommrweilianicewebgl-9" name="icewebglhttpsgithubcommrweilianicewebgl-9"></a><a href="https://github.com/MrWeilian/iceWebGL" rel="noopener nofollow ugc">iceWebGL</a></h3>
+<p><code>WebGL</code> 上车指南，带你从零开始体系化学习<a href="https://ice-webgl.netlify.app/" rel="noopener nofollow ugc">WebGL</a>：</p>
+<p><img alt="iceWebGL" height="331" src="https://images-1252557999.file.myqcloud.com/uPic/iceWebGL.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#moderncsshttpsmoderncssdev-10" name="moderncsshttpsmoderncssdev-10"></a><a href="https://moderncss.dev/" rel="noopener nofollow ugc">moderncss</a></h3>
+<p>一份现代 <code>CSS</code> 教程，偏向有 <code>CSS</code> 的基础的前端开发者：</p>
+<p><img alt="moderncss" height="349" src="https://images-1252557999.file.myqcloud.com/uPic/moderncss.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#onemodelhttpswwwonemodelapp-12" name="onemodelhttpswwwonemodelapp-12"></a><a href="https://www.onemodel.app/" rel="noopener nofollow ugc">onemodel</a></h3>
+<p>为软件工程师量身定制的绘图工具，网站提供很多软件架构的图标、素材、模板：</p>
+<p><img alt="onemodel" height="386" src="https://images-1252557999.file.myqcloud.com/uPic/onemodel.png" width="690" /></p>
+<p>同类开源产品推荐如下：</p>
+<ul>
+<li><a href="https://github.com/jgraph/drawio" rel="noopener nofollow ugc">jgraph/drawio</a>：经典流程绘图工具</li>
+<li><a href="https://github.com/excalidraw/excalidraw" rel="noopener nofollow ugc">excalidraw</a>：白板绘图工具</li>
+<li><a href="https://github.com/mingrammer/diagrams" rel="noopener nofollow ugc">mingrammer/diagrams</a>：用代码的形式生成架构图</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#transhumanshttpswwwtranshumansxyz-13" name="transhumanshttpswwwtranshumansxyz-13"></a><a href="https://www.transhumans.xyz/" rel="noopener nofollow ugc">transhumans</a></h3>
+<p>免费可商用的人物插图：</p>
+<p><img alt="transhumans" height="336" src="https://images-1252557999.file.myqcloud.com/uPic/transhumans.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#echoserverhttpsechoserverdev-14" name="echoserverhttpsechoserverdev-14"></a><a href="https://echoserver.dev/" rel="noopener nofollow ugc">echoserver</a></h3>
+<p>一个用于测试 <code>HTTP</code> 客户端的简单服务器，可生成 <code>URL</code> 并返回您想要的生成响应：</p>
+<p><img alt="echoserver" height="386" src="https://images-1252557999.file.myqcloud.com/uPic/echoserver.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-15" name="h-15"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><img alt=":partying_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" />我基于ChatGPT做了个<a href="https://mp.weixin.qq.com/s/3ohE-rm6kryC07parr29bQ" rel="noopener nofollow ugc">微信端的老胡信息周刊QA</a>，欢迎免费体验</li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48286">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 16 Oct 2023 06:31:57 +0000</pubDate>
+<pubDate>Mon, 16 Oct 2023 06:31:57 +0000</pubDate>
+</item>
+
+<item>
 <title>【开发者自荐】唯静：宁静的力量，一触即发</title>
 <link>https://meta.appinn.net/t/topic/48282</link>
 <guid>https://meta.appinn.net/t/topic/48282</guid>
 <content:encoded><![CDATA[
-
 <p><strong>软件名称</strong><br />
 唯静-一款白噪音，助眠，专注多场景生活助理</p>
 <p>应用平台<br />
@@ -75,9 +152,7 @@ KXNM9AJPYMNX<br />
             <p><a href="https://meta.appinn.net/t/topic/48282">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 16 Oct 2023 05:28:45 +0000</pubDate>
-<pubDate>Mon, 16 Oct 2023 05:28:45 +0000</pubDate>
 </item>
-
 <item>
 <title>【自荐】只读：简洁易用的稍后阅读，高亮笔记功能上线</title>
 <link>https://meta.appinn.net/t/topic/48239</link>

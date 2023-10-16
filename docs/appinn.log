@@ -4441,3 +4441,13 @@ Append: [【开发者自荐】唯静：宁静的力量，一触即发](https://m
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-10-16 06:15:38.398754
+------------------------------------------------------
+Started: 2023-10-16 08:15:01.815213
+Existing_entries: 104
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [关于批量通知](https://meta.appinn.net/t/topic/48288)
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [老胡的周刊（第110期）](https://meta.appinn.net/t/topic/48286)
+append_entries: 2
+Finish: 2023-10-16 08:15:05.656398
