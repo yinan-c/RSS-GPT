@@ -5171,3 +5171,12 @@ Existing_entries: 113
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-16 02:20:37.560992
+------------------------------------------------------
+Started: 2023-10-16 04:13:16.020779
+Existing_entries: 113
+Fetching from https://rsshub.app/sspai/index
+Token length: 3028
+Summarized using GPT-3.5-turbo
+Append: [派早报：微软完成收购动视暴雪交易，AMD 驱动更新导致 CS2 玩家被封号](https://sspai.com/post/83587)
+append_entries: 1
+Finish: 2023-10-16 04:13:38.630846
