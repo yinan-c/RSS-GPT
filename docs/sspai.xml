@@ -4,12 +4,13 @@
 <title>少数派 -- 首页</title>
 <link>https://sspai.com</link>
 
+
 <item>
 <title>在 2023 年找个免费 Markdown 编辑器：标准讨论与选择推荐</title>
 <link>https://sspai.com/post/83652</link>
 <guid>https://sspai.com/post/83652</guid>
 <content:encoded><![CDATA[
-<div> Markdown 编辑器，功能完善程度，编辑器和预览功能，编辑器方面，快捷格式操作，语法高亮，查找替换，标题相关功能，自动补全，自定义样式，即时预览功能，解析器支持的语法，渲染基础样式的准确和高效，导出格式支持，更新频率，最值得一试的 Markdown 编辑器。<br><br>总结：Markdown 编辑器虽然功能和选择数量不如十多年前，但仍然有存在的意义。选择好的 Markdown 编辑器需要考虑编辑器和预览功能的完善程度，解析器支持的语法，导出格式的支持以及更新频率。目前最值得一试的 Markdown 编辑器是 Typewriter for macOS 和 iOS。 <div>
+<div> Markdown 编辑器，功能完善程度，编辑器和预览功能，编辑器方面，快捷格式操作，语法高亮，查找替换，标题相关功能，自动补全，自定义样式，即时预览功能，解析器支持的语法，渲染基础样式的准确和高效，导出格式支持，更新频率，最值得一试的 Markdown 编辑器。<br /><br />总结：Markdown 编辑器虽然功能和选择数量不如十多年前，但仍然有存在的意义。选择好的 Markdown 编辑器需要考虑编辑器和预览功能的完善程度，解析器支持的语法，导出格式的支持以及更新频率。目前最值得一试的 Markdown 编辑器是 Typewriter for macOS 和 iOS。 <div>
 <p>再过不到半年，Markdown 就要诞生满二十年了。</p>
 <p>不过，要在 2023 年的今天找出一款简洁好用的 Markdown 编辑器，选项数量似乎还不如十多年前。当时，（<a href="https://sspai.com/post/33494">众筹跑路</a>之前的）Mou 风头正劲，iA Writer、Byword 等日后出名的作品也大量涌现并快速发展。如今，市场上更多的是那些「支持 Markdown 语法」的笔记类软件，而少见专精于 Markdown 编辑的新作品；老牌软件有不少选择往大而全的方向转型，也有很多则干脆进入维护模式、以至停更。</p>
 <p>这种趋势是可以理解的。毕竟，作为一种标记语言，Markdown 更多是一种「方法」，而非目标本身，开发上能做的空间和差异度毕竟有限；从业务角度来说，「编辑器」也没有「笔记」和「知识管理」那样好讲故事，更不好收钱。</p>
@@ -48,9 +49,7 @@
 <h3>macOS 和 iOS: Typewriter</h3>
 ]]></content:encoded>
 <pubDate>Tue, 17 Oct 2023 09:59:51 GMT</pubDate>
-<pubDate>Tue, 17 Oct 2023 09:59:51 GMT</pubDate>
 </item>
-
 <item>
 <title>社区速递 016 | 命令行听歌、高效收听播客的方式以及作者们的新玩意</title>
 <link>https://sspai.com/post/83650</link>
