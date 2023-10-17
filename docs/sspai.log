@@ -5252,3 +5252,15 @@ Existing_entries: 116
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-17 02:18:57.834339
+------------------------------------------------------
+Started: 2023-10-17 04:13:17.550773
+Existing_entries: 116
+Fetching from https://rsshub.app/sspai/index
+Token length: 4400
+Summarized using GPT-3.5-turbo-16k
+Append: [干掉手机多巴胺：我怎样用独立计时器重新掌控心流？](https://sspai.com/post/83531)
+Token length: 1355
+Summarized using GPT-3.5-turbo
+Append: [派早报：腾讯待办将停运，淘宝回应微信扫码支付等](https://sspai.com/post/83640)
+append_entries: 2
+Finish: 2023-10-17 04:14:37.300618
