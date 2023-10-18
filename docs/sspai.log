@@ -5355,3 +5355,12 @@ Existing_entries: 123
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-18 04:13:03.848939
+------------------------------------------------------
+Started: 2023-10-18 06:15:00.351492
+Existing_entries: 123
+Fetching from https://rsshub.app/sspai/index
+Token length: 3201
+Summarized using GPT-3.5-turbo
+Append: [跨越 GTD 的平台鸿沟：用飞书多维表格在 Windows 上复刻 Things 3](https://sspai.com/post/83657)
+append_entries: 1
+Finish: 2023-10-18 06:15:23.321561
