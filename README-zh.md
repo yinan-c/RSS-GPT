@@ -28,7 +28,7 @@
     - U_EMAIL: 你的 GitHub 邮箱
     - WORK_TOKEN: 你的 GitHub 个人访问令牌, 需要有 `repo` 和 `workflow` 权限。在 [GitHub 设置](https://github.com/settings/tokens/new)获取
     - OPENAI_API_KEY(可不填, 只有在使用 AI 摘要功能时需要): 你的 OpenAI API 密钥, 在 [OPENAI 网站](https://platform.openai.com/account/api-keys)获取
-- 在仓库设置中启用 GitHub Pages, 选择 GitHub Actions 部署
+- 在仓库设置中启用 GitHub Pages， 选择 deploy from branch，设置目录为 `/docs`.
 - 在 `config.ini` 中配置你的RSS订阅源
 
 也可以参考更详细的[中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html)。

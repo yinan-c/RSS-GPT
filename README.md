@@ -28,7 +28,7 @@ Using GitHub Actions to run a simple Python script repeatedly: Calling OpenAI AP
     - U_EMAIL: your GitHub email
     - WORK_TOKEN: your GitHub personal accesstoken with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
     - OPENAI_API_KEY(OPTIONAL, only needed when using AI summarization feature): Get it from [OpenAI website](https://platform.openai.com/account/api-keys)
-- Enable GitHub Pages in repo settings, choose GitHub Actions as the source
+- Enable GitHub Pages in repo settings, choose deploy from branch, and set the directory to `/docs`.
 - Configure your RSS feeds in config.ini
 
 You can check out [here](https://yinan-c.github.io/rss-gpt-manual-en.html) for a more detailed configuration guide.
