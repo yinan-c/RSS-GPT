@@ -5340,3 +5340,12 @@ Existing_entries: 122
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-18 00:50:02.796119
+------------------------------------------------------
+Started: 2023-10-18 02:18:52.759950
+Existing_entries: 122
+Fetching from https://rsshub.app/sspai/index
+Token length: 2789
+Summarized using GPT-3.5-turbo
+Append: [派早报：小米澎湃 OS 正式版完成封装、Apple 推出支持 eSIM 的新 iPad 等](https://sspai.com/post/83663)
+append_entries: 1
+Finish: 2023-10-18 02:19:26.076736
