@@ -1,4 +1,6 @@
 # CHANGELOG
+- 2023-10-17:
+  - GitHub Pages are now deployed from branch instead of from GitHub Actions.
 - 2023-10-05:
   - Updated the xml template, fixed a bug in parsing time from some RSS feeds.
 - 2023-09-20:
