@@ -5454,3 +5454,15 @@ Existing_entries: 128
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-19 08:14:23.884826
+------------------------------------------------------
+Started: 2023-10-19 10:11:43.309424
+Existing_entries: 128
+Fetching from https://rsshub.app/sspai/index
+Token length: 725
+Summarized using GPT-3.5-turbo
+Append: [共创精品 | 颜值与性能兼顾，少数派·旅行者便携剃须套装](https://sspai.com/post/83686)
+Summarization failed, append the original article
+error: The server is overloaded or not ready yet.
+Append: [精准转写：利用 Whisper 处理音视频转文字不完全指南](https://sspai.com/post/83644)
+append_entries: 2
+Finish: 2023-10-19 10:12:22.410050
