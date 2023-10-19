@@ -4773,3 +4773,12 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [Video DownloadHelper 合作应用重大更新](https://meta.appinn.net/t/topic/48377)
 append_entries: 1
 Finish: 2023-10-19 14:10:40.316567
+------------------------------------------------------
+Started: 2023-10-19 16:14:16.362695
+Existing_entries: 108
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Ungoogled Chromium 无法打开小众论坛](https://meta.appinn.net/t/topic/48381)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-19 16:14:20.576276

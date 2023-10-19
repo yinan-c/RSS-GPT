@@ -5,20 +5,34 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>Ungoogled Chromium 无法打开小众论坛</title>
+<link>https://meta.appinn.net/t/topic/48381</link>
+<guid>https://meta.appinn.net/t/topic/48381</guid>
+<content:encoded><![CDATA[
+
+<p>我的主力浏览器 ungoogled chromium 最新版无法访问小众论坛，访问其他 discourse 论坛却没有问题，比如 freemdict 。</p>
+<p>问题复现：<br />
+1.windows 11 家庭版，安装便携版 ungoogled chromium，安装地址<a href="https://github.com/macchrome/winchrome/releases/tag/v118.5993.106-M118.0.5993.106-r1192594-Win64" rel="noopener nofollow ugc">在此</a><br />
+2.打开chrome.exe，在浏览器输入小众论坛地址，持续出现正在加载中画面，无法进入</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48381">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 19 Oct 2023 16:02:02 +0000</pubDate>
+<pubDate>Thu, 19 Oct 2023 16:02:02 +0000</pubDate>
+</item>
+
+<item>
 <title>Video DownloadHelper 合作应用重大更新</title>
 <link>https://meta.appinn.net/t/topic/48377</link>
 <guid>https://meta.appinn.net/t/topic/48377</guid>
 <content:encoded><![CDATA[
-
 <p>著名视频下载插件 Video DownloadHelper 的开发者重写了合作应用，从 2.0.0 版开始更新了 ffmpeg，并对 macOS 和 Linux 增加了 ARM64 的支持。</p>
 <p><img alt=":house:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/house.png?v=12" title=":house:" width="20" /> <a class="inline-onebox" href="https://www.downloadhelper.net/install-coapp-v2">DownloadHelper - Video download browser extension</a></p>
             <p><small>1 个帖子 - 1 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/48377">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 19 Oct 2023 13:20:54 +0000</pubDate>
-<pubDate>Thu, 19 Oct 2023 13:20:54 +0000</pubDate>
 </item>
-
 <item>
 <title>有没有目标退休金计算器？</title>
 <link>https://meta.appinn.net/t/topic/48372</link>
