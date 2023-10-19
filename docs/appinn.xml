@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Ungoogled Chromium 无法打开小众论坛</title>
 <link>https://meta.appinn.net/t/topic/48381</link>
 <guid>https://meta.appinn.net/t/topic/48381</guid>
 <content:encoded><![CDATA[
-
 <p>我的主力浏览器 ungoogled chromium 最新版无法访问小众论坛，访问其他 discourse 论坛却没有问题，比如 freemdict 。</p>
 <p>问题复现：<br />
 1.windows 11 家庭版，安装便携版 ungoogled chromium，安装地址<a href="https://github.com/macchrome/winchrome/releases/tag/v118.5993.106-M118.0.5993.106-r1192594-Win64" rel="noopener nofollow ugc">在此</a><br />
@@ -18,9 +18,7 @@
             <p><a href="https://meta.appinn.net/t/topic/48381">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 19 Oct 2023 16:02:02 +0000</pubDate>
-<pubDate>Thu, 19 Oct 2023 16:02:02 +0000</pubDate>
 </item>
-
 <item>
 <title>Video DownloadHelper 合作应用重大更新</title>
 <link>https://meta.appinn.net/t/topic/48377</link>
