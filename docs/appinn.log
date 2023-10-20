@@ -4854,3 +4854,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-10-20 10:12:37.550799
+------------------------------------------------------
+Started: 2023-10-20 12:20:38.397899
+Existing_entries: 109
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [推荐一个网易云的终端播放器](https://meta.appinn.net/t/topic/41717)
+append_entries: 1
+Finish: 2023-10-20 12:20:42.928892
