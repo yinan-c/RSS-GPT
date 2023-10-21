@@ -586,3 +586,12 @@ Existing_entries: 21
 Fetching from https://lopespm.com/atom.xml
 append_entries: 0
 Finish: 2023-10-21 12:18:43.004999
+------------------------------------------------------
+Started: 2023-10-21 14:08:58.038527
+Existing_entries: 21
+Fetching from https://lopespm.com/atom.xml
+Token length: 4252
+Summarized using GPT-3.5-turbo
+Append: [Relative Cost / Benefit of an Investment](http://lopespm.github.io/notes/2023/10/21/investment_relative_cost_benefit.html)
+append_entries: 1
+Finish: 2023-10-21 14:09:16.037179
