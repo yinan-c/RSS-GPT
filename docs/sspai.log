@@ -5610,3 +5610,12 @@ Existing_entries: 134
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-21 06:13:19.321754
+------------------------------------------------------
+Started: 2023-10-21 08:12:41.121779
+Existing_entries: 134
+Fetching from https://rsshub.app/sspai/index
+Token length: 1910
+Summarized using GPT-3.5-turbo
+Append: [一场别开生面的 Today at Apple 活动，我们还见到了 Tim Cook](https://sspai.com/post/83728)
+append_entries: 1
+Finish: 2023-10-21 08:13:09.791081
