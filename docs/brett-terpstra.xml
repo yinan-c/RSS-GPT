@@ -4,6 +4,76 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>iTunesIcon updated</title>
+<link>https://brett.trpstra.net/link/535/16405699/itunesicon-updated</link>
+<guid>https://brett.trpstra.net/link/535/16405699/itunesicon-updated</guid>
+<content:encoded><![CDATA[
+<div> grabicon.rb, iTunes, app icon, automating giveaways, ImageMagick
+
+抓取 iTunes 中的应用图标需要使用 grabicon.rb 脚本，该脚本可以自动化抓取应用程序的图标并进行处理。脚本支持定义平台（mac、iOS、iPad、iPhone）和图标大小（小、中、大或特定像素尺寸），如果本地应用程序找不到图标，则会在 iTunes 中搜索并返回第一个结果。对于 Mac 平台，可以从 Assets 文件中提取图标以获取更高分辨率的图标。对于 iOS 平台，脚本会自动进行圆角处理和调整图像大小。脚本还提供了多种选项和参数来定制图标的抓取和保存。该脚本作为自动化抓取应用图标的一部分，并且非常实用。
+
+总结：<br><br>grabicon.rb 是一个用于从 iTunes 抓取应用图标的脚本工具。这个工具可以根据定义的平台和大小抓取图标。支持的平台有 Mac、iOS、iPad、iPhone，支持的大小有 small、medium、large 或者特定的像素尺寸。在搜索本地应用图标时，如果找不到匹配的图标，则会转而搜索 iTunes 并返回第一个结果。对于 Mac 平台，可以从 Assets 文件中提取图标以获得更高的分辨率。对于 iOS 平台，脚本会自动进行圆角处理和图像调整。脚本提供多种选项来定制图标的抓取和保存。该脚本已经通过 ImageMagick 进行了测试，可以正常工作并提供了很大的实用性。 <div>
+<p>A long time ago I published a tool called <a href="https://brettterpstra.com/projects/itunesicon/">iTunesIcon</a> that would grab an app icon from iTunes. It worked well in its time, but has been mostly broken in recent years. It was designed mostly for writers who were reviewing apps and needed to get an app’s icon for artwork, but could be used by anyone with a need for such things.</p>
+
+<p>As part of automating the giveaways I’m running, I’ve had a need to start grabbing app icons again, so I’ve revived the project. This script requires installing ImageMagick for rounding the corners of iOS icons (<code class="language-plaintext highlighter-rouge">brew install imagemagick</code>).</p>
+
+<p>I previously had a shell function called <code class="language-plaintext highlighter-rouge">geticonpng</code> that read a local app’s icon file. These days, most local Mac apps tend to store their icons in Assets.car archives, so the default .icns file only has images up to 256 pixels in most cases. I’ve worked around that. And when a local icon can’t be found, I’m falling back to searching iTunes, replicating the behavior of iTunesIcon. This script handles the following:</p>
+
+<ul>
+  <li>Allow defining platform (mac, iOS, iPad, iPhone)</li>
+  <li>Allow defining size (small, medium, large, or specific pixel dimensions)</li>
+  <li>If the platform is Mac, test for a local copy from which to extract the icon</li>
+  <li>If the platform is iOS or a local Mac app isn’t found, search iTunes and return the first result</li>
+  <li>If the platform is Mac and a local version is found, extract the icon from the Assets file to allow higher resolutions</li>
+  <li>If the platform is iOS, automatically round the corners and resize the image</li>
+</ul>
+
+<p><a href="https://gist.github.com/ttscoff/1f30e9042a4cfbdc68bc3fb3fec64046">Here’s the (Ruby) script</a>. It handles all of the above.</p>
+
+<p>Platform can be defined in two ways:</p>
+
+<ol>
+  <li>Use the <code class="language-plaintext highlighter-rouge">-d DEVICE</code> flag when running the script. This can be <code class="language-plaintext highlighter-rouge">ios</code>, <code class="language-plaintext highlighter-rouge">iphone</code>, <code class="language-plaintext highlighter-rouge">ipad</code>, or <code class="language-plaintext highlighter-rouge">mac</code></li>
+  <li>Add a modifier to the search terms in the form of <code class="language-plaintext highlighter-rouge">@ios</code>, <code class="language-plaintext highlighter-rouge">@iphone</code>, <code class="language-plaintext highlighter-rouge">@ipad</code>, or <code class="language-plaintext highlighter-rouge">@mac</code>, e.g. <code class="language-plaintext highlighter-rouge">OmniFocus @ipad</code></li>
+</ol>
+
+<p>Similarly, size can be defined using:</p>
+
+<ol>
+  <li>Use the <code class="language-plaintext highlighter-rouge">-s SIZE</code> flag, which can be <code class="language-plaintext highlighter-rouge">s(mall)</code>, <code class="language-plaintext highlighter-rouge">m(edium)</code>, or <code class="language-plaintext highlighter-rouge">l(arge)</code> or a specific pixel dimension (square), e.g. <code class="language-plaintext highlighter-rouge">grabicon.rb -s small OmniFocus</code></li>
+  <li>Use a modifier in the search terms in the form of <code class="language-plaintext highlighter-rouge">%s(mall)</code>, <code class="language-plaintext highlighter-rouge">%m(edium)</code>, <code class="language-plaintext highlighter-rouge">%l(arge)</code> or a specific pixel dimension, e.g. <code class="language-plaintext highlighter-rouge">OmniFocus %1024</code></li>
+</ol>
+
+<p>Modifiers in the search terms override flags given to the script.</p>
+
+<p>If a local copy can be found, the asset will be extracted at any size specified. If searching iTunes, you’re generally limited to 1024px, depending on the assets the app has provided. The nearest icon format will be downloaded, and ImageMagick will convert to specific pixel dimensions. Note that when downloading an iOS icon, the artwork provided is square, so the script will round the corners and add 10% padding around the icon (using ImageMagick) to offer similar dimensions to what Mac icons have or what you see on your iOS device screen.</p>
+
+<p>All options:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>Usage: grabicon.rb 'APP NAME/SEARCH TERM' [@PLATFORM] [%SIZE]
+       @ and % modifiers override options
+
+OPTIONS:
+    -p, --preview                    Show a Quick Look preview after saving
+    -s, --size SIZE                  Size to save (small, medium, large, or pixels)
+    -d, --device PLATFORM            Platform to search (mac, ios, iphone, ipad)
+    -o, --output PATH                Path to save icon to (default ~/Desktop/ICON.png)
+    -h, --help                       Display this screen</code></pre></div></div>
+
+<p>This is working well for me so far. I’ll publish the rest of the giveaway automation in the future, as it uses some ImageMagick commands I think might be useful to other people. But for now, this is <a href="https://gist.github.com/ttscoff/1f30e9042a4cfbdc68bc3fb3fec64046">the new iTunesIcon script</a>.</p>
+
+<p>To install the script, save the raw version to a file called <code class="language-plaintext highlighter-rouge">grabicon.rb</code> in your PATH, and then run <code class="language-plaintext highlighter-rouge">chmod a+x PATH/TO/grabicon.rb</code>. Once that’s done, just run <code class="language-plaintext highlighter-rouge">grabicon.rb -h</code> to see available options.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F22%2Fitunesicon-updated%2F&amp;text=iTunesIcon+updated&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F22%2Fitunesicon-updated%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16405699.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-10-22T15:27:00-05:00</pubDate>
+<pubDate>2023-10-22T15:27:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Automating the giveaways</title>
