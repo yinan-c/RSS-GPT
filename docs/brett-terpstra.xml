@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>iTunesIcon updated</title>
 <link>https://brett.trpstra.net/link/535/16405699/itunesicon-updated</link>
@@ -13,7 +14,7 @@
 
 抓取 iTunes 中的应用图标需要使用 grabicon.rb 脚本，该脚本可以自动化抓取应用程序的图标并进行处理。脚本支持定义平台（mac、iOS、iPad、iPhone）和图标大小（小、中、大或特定像素尺寸），如果本地应用程序找不到图标，则会在 iTunes 中搜索并返回第一个结果。对于 Mac 平台，可以从 Assets 文件中提取图标以获取更高分辨率的图标。对于 iOS 平台，脚本会自动进行圆角处理和调整图像大小。脚本还提供了多种选项和参数来定制图标的抓取和保存。该脚本作为自动化抓取应用图标的一部分，并且非常实用。
 
-总结：<br><br>grabicon.rb 是一个用于从 iTunes 抓取应用图标的脚本工具。这个工具可以根据定义的平台和大小抓取图标。支持的平台有 Mac、iOS、iPad、iPhone，支持的大小有 small、medium、large 或者特定的像素尺寸。在搜索本地应用图标时，如果找不到匹配的图标，则会转而搜索 iTunes 并返回第一个结果。对于 Mac 平台，可以从 Assets 文件中提取图标以获得更高的分辨率。对于 iOS 平台，脚本会自动进行圆角处理和图像调整。脚本提供多种选项来定制图标的抓取和保存。该脚本已经通过 ImageMagick 进行了测试，可以正常工作并提供了很大的实用性。 <div>
+总结：<br /><br />grabicon.rb 是一个用于从 iTunes 抓取应用图标的脚本工具。这个工具可以根据定义的平台和大小抓取图标。支持的平台有 Mac、iOS、iPad、iPhone，支持的大小有 small、medium、large 或者特定的像素尺寸。在搜索本地应用图标时，如果找不到匹配的图标，则会转而搜索 iTunes 并返回第一个结果。对于 Mac 平台，可以从 Assets 文件中提取图标以获得更高的分辨率。对于 iOS 平台，脚本会自动进行圆角处理和图像调整。脚本提供多种选项来定制图标的抓取和保存。该脚本已经通过 ImageMagick 进行了测试，可以正常工作并提供了很大的实用性。 <div>
 <p>A long time ago I published a tool called <a href="https://brettterpstra.com/projects/itunesicon/">iTunesIcon</a> that would grab an app icon from iTunes. It worked well in its time, but has been mostly broken in recent years. It was designed mostly for writers who were reviewing apps and needed to get an app’s icon for artwork, but could be used by anyone with a need for such things.</p>
 
 <p>As part of automating the giveaways I’m running, I’ve had a need to start grabbing app icons again, so I’ve revived the project. This script requires installing ImageMagick for rounding the corners of iOS icons (<code class="language-plaintext highlighter-rouge">brew install imagemagick</code>).</p>
@@ -72,9 +73,7 @@ OPTIONS:
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16405699.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-10-22T15:27:00-05:00</pubDate>
-<pubDate>2023-10-22T15:27:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Automating the giveaways</title>
 <link>https://brett.trpstra.net/link/535/16394621/automating-the-giveaways</link>
