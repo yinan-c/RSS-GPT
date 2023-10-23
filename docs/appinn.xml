@@ -4,6 +4,95 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>RaoPics - 帮助你跨平台访问 eagle 的素材。</title>
+<link>https://meta.appinn.net/t/topic/48463</link>
+<guid>https://meta.appinn.net/t/topic/48463</guid>
+<content:encoded><![CDATA[
+
+<p>之前的版本用的 docker 部署，但大多数都是普通用户，所以经过半年时间开发了这个桌面应用。</p>
+<p>一句话介绍：<strong>基于 Eagle 素材管理软件，帮助你跨设备查看素材、图片、视频</strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>特色</h2>
+<ul>
+<li><img alt=":art:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/art.png?v=12" title=":art:" width="20" /> 30 多种配色随意切换，还可以自定义主题，总有一款适合你</li>
+<li><img alt=":electric_plug:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/electric_plug.png?v=12" title=":electric_plug:" width="20" /> 增量更新和实时同步，速度很快，无需等待</li>
+<li><img alt=":closed_lock_with_key:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/closed_lock_with_key.png?v=12" title=":closed_lock_with_key:" width="20" /> 不会修改你的任何文件，通过读取生成索引，即使误操作，也不会对元数据造成任何伤害</li>
+<li><img alt=":small_orange_diamond:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/small_orange_diamond.png?v=12" title=":small_orange_diamond:" width="20" /> 很简单，你只需要点点点，就可以在其他设备上查看素材</li>
+<li><img alt=":iphone:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/iphone.png?v=12" title=":iphone:" width="20" /> 同时支持手机、平板、PC</li>
+<li><img alt=":pushpin:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/pushpin.png?v=12" title=":pushpin:" width="20" /> 默认主题支持 PWA，你可以保存为应用，无需每次打开浏览器</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#app-2" name="app-2"></a>App 展示</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/4/a4a6f2df602dcf00a61c222aba0d12ea15870498.jpeg" title="1.jpg"><img height="28" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/4/a4a6f2df602dcf00a61c222aba0d12ea15870498_2_49x28.jpeg" width="49" /></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/b/fb164dd0bf1774b44ec798d061e22bb4ef6dd482.jpeg" title="2.jpg"><img height="28" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/b/fb164dd0bf1774b44ec798d061e22bb4ef6dd482_2_49x28.jpeg" width="49" /></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/f/6f6cf7ce4af49af6fc6fa8f6290cef9bc36e2a68.jpeg" title="iShot_2023-10-23_15.36.14.jpg"><img height="28" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/f/6f6cf7ce4af49af6fc6fa8f6290cef9bc36e2a68_2_49x28.jpeg" width="49" /></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/9/a975f8ce9abe02d3916336682a681f53beea9c5a.jpeg" title="5.jpg"><img height="28" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/9/a975f8ce9abe02d3916336682a681f53beea9c5a_2_49x28.jpeg" width="49" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#iphone-3" name="iphone-3"></a>iPhone 展示</h2>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">菜单</th>
+<th style="text-align: center;">自适应</th>
+<th style="text-align: center;">瀑布流</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/f/2f0f15c815006fece3be043692ab97351ccf3ac6.jpeg" title="iShot_2023-10-23_15.53.18.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/f/2f0f15c815006fece3be043692ab97351ccf3ac6_2_250x500.jpeg" width="250" /></a></div></td>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/6/96e160b280a5032eb54154359d0aac7c7e2648b6.jpeg" title="iShot_2023-10-23_15.53.00.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/6/96e160b280a5032eb54154359d0aac7c7e2648b6_2_250x500.jpeg" width="250" /></a></div></td>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/4/64527ba10afb888b3631f82d4f0b9819c5764a81.jpeg" title="iShot_2023-10-23_15.53.35.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/4/64527ba10afb888b3631f82d4f0b9819c5764a81_2_250x500.jpeg" width="250" /></a></div></td>
+</tr>
+</tbody>
+</table>
+</div><h2><a class="anchor" href="https://meta.appinn.net#pc-4" name="pc-4"></a>PC 展示</h2>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Light</th>
+<th style="text-align: center;">Dark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/d/cddd5375f8940abb1d3d7dcaa8ea1a5bac1c2faa.jpeg" title="pc-1.jpg"><img height="423" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/d/cddd5375f8940abb1d3d7dcaa8ea1a5bac1c2faa_2_690x423.jpeg" width="690" /></a></div></td>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/6/f608979f404ba42a4d5454b0f8a8a71d9eaac0b1.jpeg" title="pc-2.jpg"><img height="423" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f608979f404ba42a4d5454b0f8a8a71d9eaac0b1_2_690x423.jpeg" width="690" /></a></div></td>
+</tr>
+<tr>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/c/ccc9310a166efa63c18c4755a60c07734cfa73b6.jpeg" title="pc-3.jpg"><img height="423" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/c/ccc9310a166efa63c18c4755a60c07734cfa73b6_2_690x423.jpeg" width="690" /></a></div></td>
+<td style="text-align: center;"><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/3/53afee6355d3aa32511e7c37c5d718753db9a285.jpeg" title="pc-4.jpg"><img height="423" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/3/53afee6355d3aa32511e7c37c5d718753db9a285_2_690x423.jpeg" width="690" /></a></div></td>
+</tr>
+</tbody>
+</table>
+</div><h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>开源地址</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/meetqy/rao-pics" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://repository-images.githubusercontent.com/577663585/75997493-3875-48f1-94dd-8676c74d0be8" width="690" /></div>
+
+<h3><a href="https://github.com/meetqy/rao-pics" rel="noopener nofollow ugc" target="_blank">GitHub - meetqy/rao-pics: :electron: Preview materials, images and videos on...</a></h3>
+
+  <p>:electron: Preview materials, images and videos on any devices, base on eagle app／基于素材管理软件，帮助你跨设备查看素材、图片、视频 - GitHub - meetqy/rao-pics: :electron: Preview materials, images and videos on any device...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48463">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 23 Oct 2023 08:41:49 +0000</pubDate>
+<pubDate>Mon, 23 Oct 2023 08:41:49 +0000</pubDate>
+</item>
 
 <item>
 <title>【iOS 自荐】色彩反应游戏</title>
