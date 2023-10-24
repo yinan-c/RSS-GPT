@@ -4,6 +4,44 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Introducing the BrettTerpstra.com Forum</title>
+<link>https://brett.trpstra.net/link/535/16408585/introducing-the-brettterpstra-dot-com-forum</link>
+<guid>https://brett.trpstra.net/link/535/16408585/introducing-the-brettterpstra-dot-com-forum</guid>
+<content:encoded><![CDATA[
+<div> nerdy, forum, projects, interaction, community
+<br><br>总结: 作者创建了一个名为"nerdy"的论坛，目的是为了集中讨论各种项目并增加与读者的互动。作者之前的项目讨论都分散在不同的地方，现在希望通过这个统一的论坛来解决这个问题。作者选择论坛的原因是因为它是异步的，可以按照自己的时间参与讨论，并通过邮件通知了解回复。论坛的网址是forum.brettterpstra.com，作者使用了DigitalOcean和Mailgun来提供托管和通知的服务。此外，作者还将博客评论转移到了论坛上，并邀请读者来参与讨论。最后，作者希望读者能积极参与，并将读者的社群变得更活跃。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="discourse-header-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/10/discourse-header-rb.jpg" title="discourse-header-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>I’ve created a forum for discussing all things nerdy, the <a href="https://forum.brettterpstra.com">BrettTerpstra.com Forum</a>. I wanted a place to have conversations about my various projects, but also to allow more interaction with my readers. I’ll be active on it, and I hope you will too.</p>
+
+<p>Right now every one of my projects has different discussion forums, mostly hosted on GitHub, but they’re separated by project and there’s no unified place for support, questions, feature requests, and actual interaction. This is my attempt to consolidate and also increase interaction with the community.</p>
+
+<p>I’m nervous about launching this because I fear nobody will talk and I’ll feel unpopular, but I won’t know until I try. I know, one more place to be active online, one more source of notifications, yet another place to chat. I know we all have too many of these. I chose this format over a Discord server or other synchronous communication because I like that it’s _a_synchronous. You can show up when you feel like it, and just get email notifications about responses to your conversations, waiting until you have the time to add to the discussion.</p>
+
+<p>The forum is at forum.brettterpstra.com. Here’s a <a href="https://forum.brettterpstra.com/invites/o9MfRxFeMG">special invite link</a> that will get you in and give you immediate access to introduce yourself and join/start a conversation.</p>
+
+<p>I set this up using the <a href="https://docs.digitalocean.com/products/marketplace/catalog/discourse/">Discord droplet</a> on <a href="https://www.digitalocean.com/">DigitalOcean</a>, which is a very affordable way to host cloud applications, if you’re ever interested in building your own. I’m also using a free account at <a href="https://www.mailgun.com/">Mailgun</a> to handle notification emails and such.</p>
+
+<p>I’ve switched the comments on this blog over to using the forum as an embed. Each blog post will create a new topic on the forum, and you’ll be able to discuss and add comments via Discourse. It will require login (you can log in with GitHub or email), but should offer a saner way to handle comments on my posts. Give it a shot on this one and let me know what you think! In the process I’ve lost all comment history, but it is what it is.</p>
+
+<p>I sincerely hope you’ll join, participate, and make a community out of my readership. Don’t be shy. I have 20,000 site viewers, 35,000 RSS subscribers, 13,000 Twitter followers, 2500 Mastodon followers, 9000 GitHub stars, and yet I still have a hard time getting interaction… I’d love to hear from you!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F24%2Fintroducing-the-brettterpstra-dot-com-forum%2F&amp;text=Introducing+the+BrettTerpstra.com+Forum&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F24%2Fintroducing-the-brettterpstra-dot-com-forum%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16408585.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-10-24T12:14:00-05:00</pubDate>
+<pubDate>2023-10-24T12:14:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Scrivener giveaway!</title>
