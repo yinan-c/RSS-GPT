@@ -4,6 +4,52 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】ChatShelf，一键保存ChatGPT对话到Notion</title>
+<link>https://meta.appinn.net/t/topic/48507</link>
+<guid>https://meta.appinn.net/t/topic/48507</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>ChatShelf - 保存ChatGPT到Notion</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Chrome、Edge扩展</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>开发者自荐</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>面向ChatGPT和Notion的重度用户。<br />
+一键保存ChatGPT对话和Prompt到Notion。<br />
+免费扩展。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>安装和官网</h2>
+<p><a href="https://shelf.chat" rel="noopener nofollow ugc">shelf.chat</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>注册和使用</h2>
+<p>需要使用Notion登录，完全免费。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>应用简介</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>开发背景</h3>
+<p>ChatShelf是作者在在重度使用ChatGPT过程中发现的一个小痛点，有很多有趣的尝试：</p>
+<ul>
+<li>软件在海外环境运行，使用了包括vercel、supabase、firebase等</li>
+<li>在海外独立发行：在Producthunt上发布并进入了当日前#20的排名；超过一半用户来自海外</li>
+<li>插件本上大量借助了GPT4开发</li>
+<li>模仿了海外#indiehacker 和 <span class="hashtag-raw">#buildinpublic的玩法</span></li>
+</ul>
+<p>软件本身和开发过程都十分有趣。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>主要特性</h3>
+<p><img alt=":one:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/one.png?v=12" title=":one:" width="20" />  自动同步：无缝将ChatGPT对话传输到您的Notion。<br />
+<img alt=":two:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/two.png?v=12" title=":two:" width="20" />  Notion完美兼容：完美地将ChatGPT文本转化为Notion块，从标题到代码。<br />
+<img alt=":three:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/three.png?v=12" title=":three:" width="20" />  历史记录：再也不会丢失ChatGPT的对话。ChatShelf存档每次对话。<br />
+<img alt=":four:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/four.png?v=12" title=":four:" width="20" />  内容复制：复制为Markdown或带格式的文本。<br />
+<img alt=":five:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/five.png?v=12" title=":five:" width="20" />  隐私优先：加密存储确保只有您可以访问您的对话。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a>应用截图</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/9/e91f92253df627e9d457067a7c9eb7df8284dc07.jpeg" title="chatshelf-示意图"><img alt="chatshelf-示意图" height="441" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/9/e91f92253df627e9d457067a7c9eb7df8284dc07_2_690x441.jpeg" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/1/514159d9830ca6082437a11fb4fb1e94ad1342c8.jpeg" title="chatshelf-preview"><img alt="chatshelf-preview" height="432" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/1/514159d9830ca6082437a11fb4fb1e94ad1342c8_2_690x432.jpeg" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/f/0fc44461c80d6a60595993f5a8e5c968854e2e6b.jpeg" title="chatshelf-同步示意"><img alt="chatshelf-同步示意" height="241" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/f/0fc44461c80d6a60595993f5a8e5c968854e2e6b_2_690x241.jpeg" width="690" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48507">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 24 Oct 2023 15:06:55 +0000</pubDate>
+<pubDate>Tue, 24 Oct 2023 15:06:55 +0000</pubDate>
+</item>
 
 <item>
 <title>iOS上好用的扫码软件？</title>
