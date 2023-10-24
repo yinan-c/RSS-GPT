@@ -3960,3 +3960,19 @@ Fetching from https://rsshub.app/36kr/motif/327685734401
 Feed error: 404
 append_entries: 2
 error when rendering xml, skip docs/36kr
+------------------------------------------------------
+Started: 2023-10-24 08:14:46.083912
+Existing_entries: 253
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Append: [ChatGPT 能拯救程序员吗？](https://www.36kr.com/p/2488100914174087)
+Append: [AI协同创新中心主理人杨巍：大模型第二幕，AI原生应用是突围关键](https://www.36kr.com/p/2487927200651399)
+Append: [不想上班？谷歌执行官：AI不会取代你的职位，只会让你更爱工作](https://www.36kr.com/p/2487043662929794)
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 3
+Finish: 2023-10-24 08:14:57.506645
