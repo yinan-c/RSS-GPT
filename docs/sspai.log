@@ -5853,3 +5853,15 @@ Existing_entries: 141
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-24 08:14:41.198894
+------------------------------------------------------
+Started: 2023-10-24 10:11:48.373758
+Existing_entries: 141
+Fetching from https://rsshub.app/sspai/index
+Token length: 4838
+Summarized using GPT-3.5-turbo-16k
+Append: [从阅读到输出，我是如何用数字工具完成这一切的](https://sspai.com/post/83467)
+Token length: 5118
+Summarized using GPT-3.5-turbo-16k
+Append: [依然属于大众的 iPhone：iPhone 15 Plus 使用体验](https://sspai.com/post/83786)
+append_entries: 2
+Finish: 2023-10-24 10:12:53.118047
