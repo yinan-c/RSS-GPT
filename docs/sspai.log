@@ -5949,3 +5949,15 @@ Existing_entries: 147
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-25 10:11:41.039965
+------------------------------------------------------
+Started: 2023-10-25 12:20:32.121947
+Existing_entries: 147
+Fetching from https://rsshub.app/sspai/index
+Token length: 10488
+Summarized using GPT-3.5-turbo-16k
+Append: [Bellroy 首席设计师 James Jeffrey 都装了啥？](https://sspai.com/post/83864)
+Token length: 5194
+Summarized using GPT-3.5-turbo-16k
+Append: [集成百家所长的 matter，也是智能家居的未来（系列文章之一）](https://sspai.com/post/74886)
+append_entries: 2
+Finish: 2023-10-25 12:21:25.062625
