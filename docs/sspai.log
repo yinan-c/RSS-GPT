@@ -5925,3 +5925,12 @@ Summarized using GPT-3.5-turbo
 Append: [派早报：小鹏公布多项新技术及产品、PS5 轻薄版国行版发布等](https://sspai.com/post/83854)
 append_entries: 1
 Finish: 2023-10-25 04:13:32.112988
+------------------------------------------------------
+Started: 2023-10-25 06:14:39.515927
+Existing_entries: 145
+Fetching from https://rsshub.app/sspai/index
+Token length: 5332
+Summarized using GPT-3.5-turbo-16k
+Append: [规划库存、减少浪费：以 Grocy 为数据库的物品管理方案](https://sspai.com/post/83836)
+append_entries: 1
+Finish: 2023-10-25 06:15:19.838934
