@@ -4198,3 +4198,18 @@ Fetching from https://rsshub.app/36kr/motif/327686815745
 Fetching from https://rsshub.app/36kr/motif/327685734401
 append_entries: 4
 Finish: 2023-10-25 12:24:50.887313
+------------------------------------------------------
+Started: 2023-10-25 14:10:35.476659
+Existing_entries: 277
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Feed error: 404
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr
