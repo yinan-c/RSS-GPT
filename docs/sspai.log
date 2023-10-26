@@ -6039,3 +6039,15 @@ Summarized using GPT-3.5-turbo
 Append: [更好用的 Apple Music 和隔空投送，iOS 17.1 中值得关注的新特性](https://sspai.com/post/83879)
 append_entries: 1
 Finish: 2023-10-26 10:11:40.631656
+------------------------------------------------------
+Started: 2023-10-26 12:20:32.309011
+Existing_entries: 153
+Fetching from https://rsshub.app/sspai/index
+Token length: 4378
+Summarized using GPT-3.5-turbo
+Append: [用命令行工具助力移动端自动化：以视频和图片下载为例](https://sspai.com/post/83878)
+Token length: 6613
+Summarized using GPT-3.5-turbo-16k
+Append: [双十一硬件推荐：值得关注的好键盘](https://sspai.com/post/80308)
+append_entries: 2
+Finish: 2023-10-26 12:21:28.307678
