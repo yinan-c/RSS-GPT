@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>如何帮助Chomium系浏览器导入历史记录？</title>
 <link>https://meta.appinn.net/t/topic/48546</link>
 <guid>https://meta.appinn.net/t/topic/48546</guid>
 <content:encoded><![CDATA[
-
 <p>发现最近版本的Chromium系不会加载浏览器迁移（例如将文件复制到另一台设备）之前的浏览记录，但使用<a href="https://www.nirsoft.net/web_browser_tools.html" rel="noopener nofollow ugc">Nirsoft</a>的 <a href="https://www.nirsoft.net/utils/browsing_history_view.html" rel="noopener nofollow ugc">BrowsingHistoryView</a> 仍可读取。目前已经测试过的版本有：</p>
 <ul>
 <li>基于chromium 111.0.5563.41的 Slimjet 39.0.5.0便携版，数据在安装目录</li>
@@ -29,9 +29,7 @@
             <p><a href="https://meta.appinn.net/t/topic/48546">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 26 Oct 2023 03:52:07 +0000</pubDate>
-<pubDate>Thu, 26 Oct 2023 03:52:07 +0000</pubDate>
 </item>
-
 <item>
 <title>iPhone 15Pro 换了英文语言和美国地区之后，左上角的中国联通还是中文，请问下有什么办法更新为 China Unicom 吗？</title>
 <link>https://meta.appinn.net/t/topic/48538</link>
