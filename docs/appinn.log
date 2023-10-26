@@ -5405,3 +5405,12 @@ Append: [iPhone 15Pro 换了英文语言和美国地区之后，左上角的中�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-10-26 02:17:00.452997
+------------------------------------------------------
+Started: 2023-10-26 04:12:43.227323
+Existing_entries: 116
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [如何帮助Chomium系浏览器导入历史记录？](https://meta.appinn.net/t/topic/48546)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-26 04:12:46.653860

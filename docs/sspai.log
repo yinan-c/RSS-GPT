@@ -6003,3 +6003,12 @@ Existing_entries: 149
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-26 02:17:01.803120
+------------------------------------------------------
+Started: 2023-10-26 04:12:47.810733
+Existing_entries: 149
+Fetching from https://rsshub.app/sspai/index
+Token length: 2045
+Summarized using GPT-3.5-turbo
+Append: [派早报：高通发布骁龙 X Elite 处理器、Steam 调整低价区定价策略等](https://sspai.com/post/83874)
+append_entries: 1
+Finish: 2023-10-26 04:13:03.491188
