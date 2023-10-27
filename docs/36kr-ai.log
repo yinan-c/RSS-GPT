@@ -1,0 +1,30 @@
+------------------------------------------------------
+Started: 2023-10-27 18:16:04.271380
+Existing_entries: 0
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Summarization failed, append the original article
+error: This model's maximum context length is 16385 tokens. However, your messages resulted in 17258 tokens. Please reduce the length of the messages.
+Append: [《时代》人工智能百人榜（四）：思想家](https://www.36kr.com/p/2469707773106305)
+Summarization failed, append the original article
+error: This model's maximum context length is 16385 tokens. However, your messages resulted in 17411 tokens. Please reduce the length of the messages.
+Append: [《时代》人工智能百人榜（三）：塑造者](https://www.36kr.com/p/2466467309328514)
+Append: [双十一，用AI挤干「水分」要低价](https://www.36kr.com/p/2492478053357701)
+Append: [Jasper AI 一年内估值打8折，AIGC开始降温](https://www.36kr.com/p/2492438785726343)
+Append: [《时代》人工智能百人榜（二）：创新者](https://www.36kr.com/p/2451868091717763)
+Append: [300张图“毒倒” SD，艺术家们反击AI绘画？](https://www.36kr.com/p/2492351316582530)
+Append: [谈谈人工智能和机器学习的数据架构](https://www.36kr.com/p/2491930632640644)
+Append: [巨头环绕之下，AI绘画网站的生存术](https://www.36kr.com/p/2492334068309888)
+Append: [潘多拉盒子：山姆·阿尔特曼知道他创造的是什么东西吗？](https://www.36kr.com/p/2366281907888770)
+Append: [AI教父本吉奥：AI可能就在下个月超越人类，对它的威胁感到深深无力](https://www.36kr.com/p/2492063170812036)
+Append: [MCU，要掀起AI革命了？](https://www.36kr.com/p/2492056257618052)
+Append: [路演预告｜人工智能专场路演第三期，谁将创生未来？](https://www.36kr.com/p/2490888200263811)
+Append: [GameGPT进军游戏制作，全自动生成游戏，时间可缩百倍](https://www.36kr.com/p/2491906953123720)
+Append: [AI持续向端侧逼近，多家芯片巨头“盯上”AI PC市场](https://www.36kr.com/p/2491889177646978)
+Append: [竞逐文生图大模型，百度、快手、网易“明争暗斗”](https://www.36kr.com/p/2491343880886150)
+Append: [如果AI可以看病问诊，出错谁来负责](https://www.36kr.com/p/2491146157725571)
+Append: [AI大模型将创造出新岗位：人工审核员](https://www.36kr.com/p/2491053520609154)
+Append: [市值飙升千亿美元，Adobe示范掘金AIGC](https://www.36kr.com/p/2491036478461828)
+Append: [《时代》人工智能百人榜（一）：领袖](https://www.36kr.com/p/2443934653060997)
+Append: [从使命初心到商业化之旅：OpenAI 究竟想要什么？](https://www.36kr.com/p/2437112462545284)
+append_entries: 20
+Finish: 2023-10-27 18:16:12.026209
