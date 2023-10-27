@@ -38,8 +38,12 @@ You can check out [here](https://yinan-c.github.io/rss-gpt-manual-en.html) for a
 - There is a [`dev` branch](https://github.com/yinan-c/RSS-GPT/tree/dev) for manual updates on the script, auto commits will no longer be pushed to this `dev` branch. The purpose of doing this is to separate the manual updates and auto commits, so that it is easier to check the updates and pull to your repo.
 - Check out the [CHANGELOG.md](CHANGELOG.md).
 
+### Contributions are welcome!
+
+- Feel free to submit issues and pull requests. Please submit pull requests to the `dev` branch.
+
 ## Example feeds being processed
 
-These feeds on hosted in the [`doc/` subdirectory](https://github.com/yinan-c/RSS-GPT/tree/main/docs) in this repo as well as on my [GitHub Pages](https://yinan-c.github.io/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
+These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/RSS-GPT/tree/main/docs) in this repo as well as on my [GitHub Pages](https://yinan-c.github.io/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
