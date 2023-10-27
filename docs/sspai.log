@@ -6114,3 +6114,12 @@ Existing_entries: 156
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-27 08:13:40.350673
+------------------------------------------------------
+Started: 2023-10-27 10:11:19.190694
+Existing_entries: 156
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error communicating with OpenAI: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Append: [自嘲「万金油但平平无奇」的有趣知识管理工具：Fibery 体验](https://sspai.com/post/83859)
+append_entries: 1
+Finish: 2023-10-27 10:16:03.737942
