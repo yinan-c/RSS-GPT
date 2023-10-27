@@ -39,6 +39,10 @@
 
 - 查看 [CHANGELOG-zh.md](CHANGELOG-zh.md) 获取最新的更新日志。
 
+### 欢迎贡献!
+
+- 欢迎提交 issue 和 pull request。请尽量提交 pull request 到 `dev` 分支。
+
 ## 分享几条本项目处理后的 RSS 订阅源
 
 我自己用此脚本总结的一些 RSS订阅源托管在本项目的[`docs/`子目录](https://github.com/yinan-c/RSS-GPT/tree/main/docs)中以及我的 [GitHub Pages](https://yinan-c.github.io/RSS-GPT/)上找到。欢迎在任何 RSS 阅读器中订阅。
