@@ -6093,3 +6093,12 @@ Existing_entries: 155
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-27 02:17:00.776253
+------------------------------------------------------
+Started: 2023-10-27 04:12:56.285092
+Existing_entries: 155
+Fetching from https://rsshub.app/sspai/index
+Token length: 3513
+Summarized using GPT-3.5-turbo
+Append: [派早报：小米 14 系列发布、微软宣布 Surface 整合 Secured core PCs 方案](https://sspai.com/post/83893)
+append_entries: 1
+Finish: 2023-10-27 04:13:08.432878
