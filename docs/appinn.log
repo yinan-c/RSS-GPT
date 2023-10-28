@@ -5656,3 +5656,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-10-28 16:12:18.307250
+------------------------------------------------------
+Started: 2023-10-28 18:12:42.355690
+Existing_entries: 119
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【自荐】Gear 浏览器 - 完整支持油猴脚本，为极客打造的浏览器](https://meta.appinn.net/t/topic/48595)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-28 18:12:45.903557
