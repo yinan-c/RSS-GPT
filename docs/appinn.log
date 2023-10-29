@@ -5681,3 +5681,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-10-28 22:09:04.945499
+------------------------------------------------------
+Started: 2023-10-29 00:52:39.828189
+Existing_entries: 120
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [求推荐一个iOS端的读书app，主要是想看本地书。](https://meta.appinn.net/t/topic/48631)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-29 00:52:43.458406
