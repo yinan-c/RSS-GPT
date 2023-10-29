@@ -5747,3 +5747,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-10-29 14:08:51.885629
+------------------------------------------------------
+Started: 2023-10-29 16:13:09.444875
+Existing_entries: 122
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【设计工具】免费的AI抠图神器](https://meta.appinn.net/t/topic/48673)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-29 16:13:13.822035
