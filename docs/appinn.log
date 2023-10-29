@@ -5690,3 +5690,12 @@ Append: [求推荐一个iOS端的读书app，主要是想看本地书。](https:
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-10-29 00:52:43.458406
+------------------------------------------------------
+Started: 2023-10-29 02:19:45.106417
+Existing_entries: 121
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [经常使用 Chrome 阅读长文，想选中文本后背景变色，用来标记阅读进度](https://meta.appinn.net/t/topic/48633)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-10-29 02:19:48.871237
