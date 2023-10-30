@@ -253,3 +253,16 @@ Append: [担忧AI向人类扔核弹，OpenAI是认真的](https://www.36kr.com/p
 Append: [本周硅谷发生了什么？| 高通第三代骁龙8；谷歌20亿美元追投Anthropic；联想拿出能跑大模型个人PC](https://www.36kr.com/p/2496312826304386)
 append_entries: 5
 Finish: 2023-10-30 08:20:56.030638
+------------------------------------------------------
+Started: 2023-10-30 10:13:54.193450
+Existing_entries: 41
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2106
+Summarized using GPT-3.5-turbo
+Append: [苹果文生图大模型亮相：俄罗斯套娃式扩散，支持1024x1024分辨率](https://www.36kr.com/p/2496661187238025)
+Token length: 2559
+Summarized using GPT-3.5-turbo-16k
+Append: [图灵奖得主吵起来了，LeCun：Bengio、Hinton等的AI灭绝论是荒谬的](https://www.36kr.com/p/2496660948801668)
+Append: [炒作归炒作，新报告表明，仅15%的企业组织为生成AI做好准备](https://www.36kr.com/p/2496607658055554)
+append_entries: 3
+Finish: 2023-10-30 10:19:24.021741
