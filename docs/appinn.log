@@ -5813,3 +5813,11 @@ Append: [iOS原生背单词App【嗯背单词】更新 1.3.3 版本，轻松构�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-10-30 06:14:32.663533
+------------------------------------------------------
+Started: 2023-10-30 08:14:10.560744
+Existing_entries: 124
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-10-30 08:14:14.595523
