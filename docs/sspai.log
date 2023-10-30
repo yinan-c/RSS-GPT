@@ -6357,3 +6357,15 @@ Existing_entries: 163
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-30 10:11:56.614893
+------------------------------------------------------
+Started: 2023-10-30 12:20:38.169419
+Existing_entries: 163
+Fetching from https://rsshub.app/sspai/index
+Token length: 7216
+Summarized using GPT-3.5-turbo-16k
+Append: [派评 | 近期值得关注的 App](https://sspai.com/post/83965)
+Token length: 270
+Summarized using GPT-3.5-turbo
+Append: [直播 | 不讲干货只聊天，今晚来看少数派的双十一「科技故事会」](https://sspai.com/post/83934)
+append_entries: 2
+Finish: 2023-10-30 12:21:44.985287

@@ -266,3 +266,15 @@ Append: [图灵奖得主吵起来了，LeCun：Bengio、Hinton等的AI灭绝论�
 Append: [炒作归炒作，新报告表明，仅15%的企业组织为生成AI做好准备](https://www.36kr.com/p/2496607658055554)
 append_entries: 3
 Finish: 2023-10-30 10:19:24.021741
+------------------------------------------------------
+Started: 2023-10-30 12:25:02.956048
+Existing_entries: 44
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 4080
+Summarized using GPT-3.5-turbo-16k
+Append: [BAT地图新战争：大模型、流量与生态重构](https://www.36kr.com/p/2496765978924933)
+Token length: 3726
+Summarized using GPT-3.5-turbo-16k
+Append: [AI加持千亿市场，教育企业“群雄逐鹿”](https://www.36kr.com/p/2496708659765126)
+append_entries: 2
+Finish: 2023-10-30 12:26:27.483376
