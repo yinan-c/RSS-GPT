@@ -5,12 +5,38 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>SearchLink Fixes</title>
+<link>https://brett.trpstra.net/link/535/16416050/searchlink-fixes</link>
+<guid>https://brett.trpstra.net/link/535/16416050/searchlink-fixes</guid>
+<content:encoded><![CDATA[
+<div> 2.3.50, DuckDuckGo, fixes, tests, SearchLink v2.3.50
+
+修复了DuckDuckGo响应中的一些问题，目前通过了所有测试，除了一个。该版本能够将网页搜索转换为Markdown链接。源代码托管在GitHub上，可以将其编译为命令行使用的gem。每个搜索都是SearchLink，并且可以很容易地添加新的搜索类型。如果您对SearchLink进行了扩展，请务必提交Pull Request，并参与开发。可以在链接中下载该版本，并查看详细信息。总结: 2.3.50版本修复了DuckDuckGo响应中的问题。该版本通过了大多数测试，但仍有一个测试未通过。SearchLink可以将网页搜索转换为Markdown链接，并提供了扩展功能。源代码托管在GitHub上，可以将其编译为命令行使用的gem。项目欢迎开发者提交Pull Request参与开发。 <div>
+<p><a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a> 2.3.50 is out and contains fixes for some recent changes in DuckDuckGo’s responses. It currently passes all tests except for one (TMDB is returning a movie for the search result “Brad Pitt”, rather than the actor page, and when I add “actor” to the search it dumps out to IMDB, which I don’t fully understand).</p>
+
+<p>Don’t forget that the source code is all neatly organized on GitHub and you can compile the whole thing as a gem for command line usage, if you like. Every search is <a href="https://github.com/ttscoff/searchlink/tree/main/lib/searchlink/searches">a plugin</a> and you can add new search types pretty easily. If you <em>do</em> extend SearchLink at all, be sure to make a Pull Request and be part of the development!</p>
+
+<p>Download below, and see the <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink project page</a> for more details!</p>
+
+<div class="download" id="dlbox"><h4>SearchLink v2.3.50</h4><p class="dl-icon"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.50"><img height="100" src="https://cdn3.brettterpstra.com/uploads/2023/01/searchlink-thumbnail.jpg" width="100" /></a></p><div class="dl-body"><p class="dl-link"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.50">Download SearchLink v2.3.50</a></p><p class="dl-description">Generate Markdown links from web searches without leaving your editor.</p><p class="dl-published">Published 11/10/14.</p><p class="dl-updated">Updated 10/29/23. <a class="changelog" href="https://brettterpstra.com/projects/searchlink/#changelog">Changelog</a></p><p class="dl-info"><a href="https://brettterpstra.com//donate/">Donate</a> &bull; <a href="https://brettterpstra.com//projects/searchlink/" title="More information on SearchLink">More info&hellip;</a></p></div></div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F30%2Fsearchlink-fixes%2F&amp;text=SearchLink+Fixes&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F10%2F30%2Fsearchlink-fixes%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16416050.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-10-30T09:19:00-05:00</pubDate>
+<pubDate>2023-10-30T09:19:00-05:00</pubDate>
+</item>
+
+<item>
 <title>WordCounter giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16415970/wordcounter-giveaway</link>
 <guid>https://brett.trpstra.net/link/535/16415970/wordcounter-giveaway</guid>
 <content:encoded><![CDATA[
 <div> WordCounter, giveaway, licenses, writing productivity, tracking words
-<br><br>
+<br /><br />
 总结：这篇文章介绍了一个名为WordCounter的应用程序，以及一个赠品活动，提供3个价值19.99美元的许可证。WordCounter是一个可以追踪写作生产力的应用程序，能够记录你每天的写作成果和目标，并且可以在任何应用程序中自动记录写作量。它将写作过程中所产生的字数作为度量标准，给予作家实时反馈和鼓励，并且保留了每天的成就记录，帮助作家找到最适合他们的写作环境。想要参加赠品活动的读者需要在指定时间内报名。文章最后还提到了未来几年的赠品活动，并鼓励读者推荐希望在活动中推广的应用程序。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -58,9 +84,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16415970.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-10-30T08:00:00-05:00</pubDate>
-<pubDate>2023-10-30T08:00:00-05:00</pubDate>
 </item>
-
 <item>
 <title>The Scrivener giveaway winners!</title>
 <link>https://brett.trpstra.net/link/535/16413505/the-scrivener-giveaway-winners</link>
