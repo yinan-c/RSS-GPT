@@ -6447,3 +6447,12 @@ Existing_entries: 169
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-31 10:11:48.932116
+------------------------------------------------------
+Started: 2023-10-31 12:20:25.073375
+Existing_entries: 169
+Fetching from https://rsshub.app/sspai/index
+Token length: 9512
+Summarized using GPT-3.5-turbo-16k
+Append: [社区速递 018 | 秋日 EDC、自己做 App 和作者们的新玩意](https://sspai.com/post/83994)
+append_entries: 1
+Finish: 2023-10-31 12:21:06.523625
