@@ -345,3 +345,10 @@ Append: [现在，ChatGPT能看图帮人修自行车了](https://www.36kr.com/p/
 Append: [生成式人工智能的大戏进入第二篇章](https://www.36kr.com/p/2476437369378695)
 append_entries: 9
 Finish: 2023-10-31 04:14:55.472105
+------------------------------------------------------
+Started: 2023-10-31 06:15:35.983444
+Existing_entries: 57
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai

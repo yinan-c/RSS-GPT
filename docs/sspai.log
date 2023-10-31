@@ -6423,3 +6423,12 @@ Existing_entries: 167
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-31 04:13:06.937587
+------------------------------------------------------
+Started: 2023-10-31 06:14:27.531641
+Existing_entries: 167
+Fetching from https://rsshub.app/sspai/index
+Token length: 210
+Summarized using GPT-3.5-turbo
+Append: [一图流 | Apple 十月新品发布会回顾](https://sspai.com/post/83978)
+append_entries: 1
+Finish: 2023-10-31 06:14:41.579264
