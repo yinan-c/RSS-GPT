@@ -6432,3 +6432,12 @@ Summarized using GPT-3.5-turbo
 Append: [一图流 | Apple 十月新品发布会回顾](https://sspai.com/post/83978)
 append_entries: 1
 Finish: 2023-10-31 06:14:41.579264
+------------------------------------------------------
+Started: 2023-10-31 08:14:00.466863
+Existing_entries: 168
+Fetching from https://rsshub.app/sspai/index
+Token length: 6843
+Summarized using GPT-3.5-turbo-16k
+Append: [家的日志 | 如何构建智能家居系统，这些是我的经验和思考](https://sspai.com/post/83936)
+append_entries: 1
+Finish: 2023-10-31 08:14:45.629514
