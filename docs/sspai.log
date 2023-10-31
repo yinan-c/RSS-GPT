@@ -6441,3 +6441,9 @@ Summarized using GPT-3.5-turbo-16k
 Append: [家的日志 | 如何构建智能家居系统，这些是我的经验和思考](https://sspai.com/post/83936)
 append_entries: 1
 Finish: 2023-10-31 08:14:45.629514
+------------------------------------------------------
+Started: 2023-10-31 10:11:48.706084
+Existing_entries: 169
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-10-31 10:11:48.932116
