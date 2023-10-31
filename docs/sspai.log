@@ -6405,3 +6405,15 @@ Existing_entries: 165
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-10-31 00:50:16.852427
+------------------------------------------------------
+Started: 2023-10-31 02:19:02.088592
+Existing_entries: 165
+Fetching from https://rsshub.app/sspai/index
+Token length: 2571
+Summarized using GPT-3.5-turbo
+Append: [Apple 发布会回顾：M3 系列芯片亮相，Mac 推出新配色](https://sspai.com/post/83976)
+Token length: 3086
+Summarized using GPT-3.5-turbo
+Append: [派早报：Apple 举办 Mac 新品特别活动，Windows 11 发布补丁等](https://sspai.com/post/83975)
+append_entries: 2
+Finish: 2023-10-31 02:19:56.378891

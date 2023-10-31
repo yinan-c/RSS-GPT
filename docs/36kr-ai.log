@@ -314,3 +314,15 @@ Existing_entries: 46
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-10-31 00:53:36.375258
+------------------------------------------------------
+Started: 2023-10-31 02:21:46.260957
+Existing_entries: 46
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 3198
+Summarized using GPT-3.5-turbo
+Append: [优必选、小鹏、小米，人形机器人“奋勇争先”](https://www.36kr.com/p/2496911414745222)
+Token length: 5548
+Summarized using GPT-3.5-turbo-16k
+Append: [《时代》杂志公布“年度最佳发明”，这些AI产品正在颠覆我们的生活](https://www.36kr.com/p/2496909284874121)
+append_entries: 2
+Finish: 2023-10-31 02:22:48.987687
