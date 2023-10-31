@@ -6456,3 +6456,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [社区速递 018 | 秋日 EDC、自己做 App 和作者们的新玩意](https://sspai.com/post/83994)
 append_entries: 1
 Finish: 2023-10-31 12:21:06.523625
+------------------------------------------------------
+Started: 2023-10-31 14:10:22.945106
+Existing_entries: 170
+Fetching from https://rsshub.app/sspai/index
+Token length: 3319
+Summarized using GPT-3.5-turbo
+Append: [双十一 | 给你的钱包「加点魔法」，来看看派商店的双十一大促](https://sspai.com/post/83933)
+append_entries: 1
+Finish: 2023-10-31 14:10:42.803144
