@@ -484,3 +484,19 @@ Existing_entries: 81
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-01 10:15:42.118868
+------------------------------------------------------
+Started: 2023-11-01 12:22:14.728633
+Existing_entries: 81
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2020
+Summarized using GPT-3.5-turbo
+Append: [谷歌更新政策，监管AIGC成为了开发者的责任](https://www.36kr.com/p/2499618114967683)
+Token length: 2239
+Summarized using GPT-3.5-turbo
+Append: [OpenAI，想挖自己的富矿](https://www.36kr.com/p/2499602809708421)
+Append: [DeepMind曝新一代AlphaFold，预测准确率暴涨近10%，DNA和RNA的AlphaFold时刻来了](https://www.36kr.com/p/2499564014360457)
+Append: [斯坦福马腾宇创业，大模型方向，Manning、Christopher Ré是顾问](https://www.36kr.com/p/2499457761450113)
+Append: [风投大佬给AI初创公司泼凉水：被高估严重，大多数无法实现盈利](https://www.36kr.com/p/2499371967043456)
+Append: [GPT-4写代码，DALL·E 3+MJ搞定画面，AI版「愤怒的南瓜」来袭](https://www.36kr.com/p/2499268753119107)
+append_entries: 6
+Finish: 2023-11-01 12:22:59.546245
