@@ -6504,3 +6504,15 @@ Existing_entries: 172
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-01 02:22:24.743126
+------------------------------------------------------
+Started: 2023-11-01 04:13:14.808707
+Existing_entries: 172
+Fetching from https://rsshub.app/sspai/index
+Token length: 2787
+Summarized using GPT-3.5-turbo
+Append: [为了记录过去，我做了个 Windows 版的 Rewind：捕风记录仪](https://sspai.com/post/83590)
+Token length: 1787
+Summarized using GPT-3.5-turbo
+Append: [派早报：微软推送 Windows 11 23H2 更新、多平台宣布推进「自媒体」账号实名等](https://sspai.com/post/84019)
+append_entries: 2
+Finish: 2023-11-01 04:14:21.575557
