@@ -4,6 +4,85 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Searchlink, not just for searching</title>
+<link>https://brett.trpstra.net/link/535/16420225/searchlink-not-just-for-searching</link>
+<guid>https://brett.trpstra.net/link/535/16420225/searchlink-not-just-for-searching</guid>
+<content:encoded><![CDATA[
+<div> SearchLink, plugins, text filter, calendar, MakeADate.
+总结:
+SearchLink是一个用于链接网站、应用程序页面、Gist嵌入以及其他博客、网页写作或展示注释的工具。文章介绍了如何安装和贡献插件，并提供了一些示例代码。此外，还介绍了几种可以使用SearchLink的插件，包括MixCase（用于随机大写字符）、Calendar（插入Markdown日历）、MakeADate（插入格式化日期）。该文章鼓励读者通过查看提供的代码，生成自己的插件，并鼓励分享。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="searchlink-text-short-400.jpg" class="alignright" height="142" src="https://cdn3.brettterpstra.com/uploads/2023/01/searchlink-text-short-400.jpg" title="searchlink-text-short-400.jpg" width="400" />
+              </noscript>
+            
+<p>First, I’ve created a <a href="https://github.com/ttscoff/searchlink-plugins">repo for SearchLink plugins</a>. This is mostly going to be example code, but you might find some useful ones in there. If you’ve never checked out SearchLink and do any kind of writing that requires linking to web sites/pages, app landing pages, Gist embeds, or basically any kind of blogging, web writing, or show notes, you should <a href="https://brettterpstra.com/projects/searchlink/">check it out</a>.</p>
+
+<p>See the <a href="https://github.com/ttscoff/searchlink-plugins">plugin repository</a> for details on installing and contributing. All of the available searches in SearchLink are defined as plugins, so you can also <a href="https://github.com/ttscoff/searchlink/tree/main/lib/searchlink/searches">use those as examples</a>.</p>
+
+<h2 id="text-filters">Text Filters</h2>
+
+<p>One thing I wanted to explore was using SearchLink for more than just searches. I created a couple proofs of concept as plugins. Some of these make more sense as TextExpander snippets, but I wanted to experiment, so here’s what I came up with.</p>
+
+<h3 id="mixcase">MixCase</h3>
+
+<p>This plugin is a text filter that will turn <code class="language-plaintext highlighter-rouge">!mix A string of text</code> into <code class="language-plaintext highlighter-rouge">A STRInG of TExT</code>, randomly capitalizing characters. It’s just to demonstrate how easily a text filter can be implemented (if you know a little Ruby, anyway).</p>
+
+<h3 id="calendar">Calendar</h3>
+
+<p>Another example of a text filter. This one can insert a Markdown calendar for any month and year. You can define the month and year like <code class="language-plaintext highlighter-rouge">!cal 5 2024</code> to get a calendar for May, 2024. If you use <code class="language-plaintext highlighter-rouge">!cal now</code> it will insert a calendar for the current month and year. It can also print how many days are in a month with <code class="language-plaintext highlighter-rouge">!days 2 2024</code> to show how many days are in February in 2024. Silly, and again would probably be better as a TextExpander snippet, but I’m just experimenting with extending SearchLink.</p>
+
+<h3 id="makeadate">MakeADate</h3>
+
+<p>This is a port of a TextExpander snippet I use. It takes a natural language date and inserts a formatted date. It provides the following formats:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Abbr</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">!ddate tomorrow 8am</code></td>
+      <td>2023-11-02 8:00am</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">!dshort 2/2/24 6:30am</code></td>
+      <td>2024-2-2 6:30am</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">!diso tomorrow 1pm</code></td>
+      <td>2023-11-02 13:00</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">!dlong tomorrow 8am</code></td>
+      <td>Thursday, November 2nd, 2023 at 8:00am</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>All of the searches can be abbreviated to two letters, with <code class="language-plaintext highlighter-rouge">!diso</code> becoming <code class="language-plaintext highlighter-rouge">!di</code>, <code class="language-plaintext highlighter-rouge">!dlong</code> becoming <code class="language-plaintext highlighter-rouge">!dl</code>, etc.</p>
+
+<p><strong>This plugin requires that PHP be installed on the system, either with the Apple Command Line Utilties (I think), or with Homebrew (<code class="language-plaintext highlighter-rouge">brew install php</code>).</strong></p>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>Use the fully-commented code in <code class="language-plaintext highlighter-rouge">lyrics.rb</code> (<a href="https://github.com/ttscoff/searchlink/wiki/Plugins">documented in the SearchLink wiki</a>) to generate your own plugins, and reference <a href="https://github.com/ttscoff/searchlink/tree/main/lib/searchlink/searches">the existing searches</a> for inspiration. Feel free to fork and submit a PR to <a href="https://github.com/ttscoff/searchlink-plugins">the plugin repository</a> if you create something you’d like to share!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111335966839473950" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F01%2Fsearchlink-not-just-for-searching%2F&amp;text=Searchlink%2C+not+just+for+searching&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F01%2Fsearchlink-not-just-for-searching%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16420225.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-11-01T10:01:00-05:00</pubDate>
+<pubDate>2023-11-01T10:01:00-05:00</pubDate>
+</item>
 
 <item>
 <title>SearchLink Fixes</title>
