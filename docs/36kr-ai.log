@@ -466,3 +466,15 @@ Existing_entries: 79
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-01 06:15:24.350182
+------------------------------------------------------
+Started: 2023-11-01 08:14:47.651182
+Existing_entries: 79
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2592
+Summarized using GPT-3.5-turbo
+Append: [OpenAI潜入黑客群聊，盗用ChatGPT被换成“喵喵GPT”，网友：绝对的传奇](https://www.36kr.com/p/2499292093012103)
+Token length: 4652
+Summarized using GPT-3.5-turbo-16k
+Append: [金山办公十年：虚高的野心与AI转型背后的隐忧](https://www.36kr.com/p/2499376502921347)
+append_entries: 2
+Finish: 2023-11-01 08:15:54.928452
