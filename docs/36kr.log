@@ -5476,3 +5476,17 @@ Append: [“我不懂的、总有人懂”，软件开发行业已经开始扭�
 Fetching from https://rsshub.app/36kr/motif/327685734401
 append_entries: 1
 Finish: 2023-11-02 12:22:52.836070
+------------------------------------------------------
+Started: 2023-11-02 14:10:31.294962
+Existing_entries: 322
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Append: [最具争议雨果奖得主海漄：凡人好梦](https://www.36kr.com/p/2501183537428737)
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+Feed error: 502
+append_entries: 1
+error when rendering xml, skip docs/36kr
