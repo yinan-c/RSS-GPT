@@ -6587,3 +6587,12 @@ Existing_entries: 179
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-02 00:49:55.090068
+------------------------------------------------------
+Started: 2023-11-02 02:18:14.017368
+Existing_entries: 179
+Fetching from https://rsshub.app/sspai/index
+Token length: 2641
+Summarized using GPT-3.5-turbo
+Append: [派早报：vivo 召开 2023 年开发者大会、PubScholar 公益学术平台上线等](https://sspai.com/post/84068)
+append_entries: 1
+Finish: 2023-11-02 02:18:55.648441
