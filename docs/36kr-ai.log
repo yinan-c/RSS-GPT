@@ -621,3 +621,15 @@ Existing_entries: 106
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-02 16:16:40.164553
+------------------------------------------------------
+Started: 2023-11-02 18:18:41.383046
+Existing_entries: 106
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2070
+Summarized using GPT-3.5-turbo
+Append: [英国AI安全峰会首日：中美等28国签署宣言，马斯克等谈AI监管](https://www.36kr.com/p/2501075805071368)
+Token length: 4790
+Summarized using GPT-3.5-turbo-16k
+Append: [2023年可穿戴人工智能盘点：窥见未来的元宇宙生活趋势](https://www.36kr.com/p/2501009772912520)
+append_entries: 2
+Finish: 2023-11-02 18:20:23.158693
