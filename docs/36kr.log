@@ -5490,3 +5490,17 @@ Fetching from https://rsshub.app/36kr/motif/327685734401
 Feed error: 502
 append_entries: 1
 error when rendering xml, skip docs/36kr
+------------------------------------------------------
+Started: 2023-11-02 16:14:40.700052
+Existing_entries: 322
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Append: [最具争议雨果奖得主海漄：凡人好梦](https://www.36kr.com/p/2501183537428737)
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Feed error: 404
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 1
+Finish: 2023-11-02 16:16:39.415818
