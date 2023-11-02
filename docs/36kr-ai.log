@@ -571,3 +571,9 @@ Summarized using GPT-3.5-turbo-16k
 Append: [英国 AI 安全峰会前瞻：为什么是现在，为什么在英国](https://www.36kr.com/p/2500493858414465)
 append_entries: 1
 Finish: 2023-11-02 06:16:43.522881
+------------------------------------------------------
+Started: 2023-11-02 08:15:39.164800
+Existing_entries: 94
+Fetching from https://rsshub.app/36kr/motif/327686782977
+append_entries: 0
+Finish: 2023-11-02 08:15:39.595070
