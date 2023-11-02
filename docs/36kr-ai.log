@@ -596,3 +596,16 @@ Append: [不写一行代码，他用GPT-4、DALL·E 3等手搓了《愤怒的南
 Append: [AI药物化学家登Nature子刊：重现职业化学家专业知识，有望加速药物研发](https://www.36kr.com/p/2500638313933058)
 append_entries: 9
 Finish: 2023-11-02 10:13:01.766631
+------------------------------------------------------
+Started: 2023-11-02 12:22:53.282372
+Existing_entries: 103
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 1555
+Summarized using GPT-3.5-turbo
+Append: [GPT-4变笨加剧，被曝缓存历史回复：一个笑话讲八百遍，让换新的也不听](https://www.36kr.com/p/2500986916595713)
+Token length: 2198
+Summarized using GPT-3.5-turbo
+Append: [首个AI规范的全球宣言，浅评《布莱切利宣言》对AI的全球规制影响](https://www.36kr.com/p/2500948558637314)
+Append: [「联网」ChatGPT：一个不完美的新闻助手](https://www.36kr.com/p/2500830115899656)
+append_entries: 3
+Finish: 2023-11-02 12:23:31.347644

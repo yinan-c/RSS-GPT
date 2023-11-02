@@ -6626,3 +6626,15 @@ Existing_entries: 182
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-02 10:11:59.719055
+------------------------------------------------------
+Started: 2023-11-02 12:20:33.208558
+Existing_entries: 182
+Fetching from https://rsshub.app/sspai/index
+Token length: 2649
+Summarized using GPT-3.5-turbo
+Append: [视频栏目 | 张哲学·科技博主的盈利课：体面地用爱好赚出第一桶金](https://sspai.com/post/84083)
+Token length: 6448
+Summarized using GPT-3.5-turbo-16k
+Append: [新玩意 163｜少数派的编辑们最近买了啥？](https://sspai.com/post/84088)
+append_entries: 2
+Finish: 2023-11-02 12:21:41.027009
