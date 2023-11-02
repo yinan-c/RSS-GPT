@@ -6602,3 +6602,12 @@ Existing_entries: 180
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-02 04:13:07.876019
+------------------------------------------------------
+Started: 2023-11-02 06:14:14.296459
+Existing_entries: 180
+Fetching from https://rsshub.app/sspai/index
+Token length: 6200
+Summarized using GPT-3.5-turbo-16k
+Append: [我会用车出行，但不必拥有一辆汽车](https://sspai.com/post/83639)
+append_entries: 1
+Finish: 2023-11-02 06:15:09.714514
