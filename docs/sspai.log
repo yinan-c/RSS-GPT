@@ -6728,3 +6728,12 @@ Summarized using GPT-3.5-turbo
 Append: [你的下一台 Android 机，记得挑字幕没那么亮的](https://sspai.com/post/84067)
 append_entries: 2
 Finish: 2023-11-03 12:22:43.180337
+------------------------------------------------------
+Started: 2023-11-03 14:10:53.177885
+Existing_entries: 190
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error communicating with OpenAI: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Append: [不到 400 元能买哪些好物，这是少数派作者的「双十一」购物清单](https://sspai.com/post/83991)
+append_entries: 1
+Finish: 2023-11-03 14:16:10.527122
