@@ -6683,3 +6683,12 @@ Existing_entries: 185
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-03 02:19:34.221824
+------------------------------------------------------
+Started: 2023-11-03 04:13:19.655489
+Existing_entries: 185
+Fetching from https://rsshub.app/sspai/index
+Token length: 1732
+Summarized using GPT-3.5-turbo
+Append: [派早报：Microsoft 面向企业客户推出 365 Copilot](https://sspai.com/post/84098)
+append_entries: 1
+Finish: 2023-11-03 04:13:46.965386
