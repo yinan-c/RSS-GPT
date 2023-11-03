@@ -4,6 +4,51 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>CudaText - 开源多功能的文本编辑器（Sublime Text 开源平替）</title>
+<link>https://meta.appinn.net/t/topic/48829</link>
+<guid>https://meta.appinn.net/t/topic/48829</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>CudaText</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Windows / MacOS / Linux</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>用户推荐</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句话简介</h2>
+<p>嫌 VS Code 太重，或者受不了 Sublime Text 的未注册提示？你应该试试 CudaText，一个开源多功能的文本编辑器，拥有所有现代文本编辑器该有的基本特性，还可以用插件系统和内置的 Python REPL 进行更多扩展。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<ul>
+<li>官方的自我介绍：CudaText是一个跨平台的文本编辑器，用Object Pascal编写。它是一个开源项目，可以免费使用，但也可以用于商业目的。它启动非常快：在Linux上，在CPU Intel Core i3 3GHz上带有约30个插件时大约为0.3秒。它可以通过Python附加组件进行扩展：插件、代码检查工具（linter）、代码树解析器（lexer）和外部工具等。语法解析器功能丰富，基于EControl引擎实现。</li>
+<li>我关注的特性
+<ul>
+<li>轻量、快</li>
+<li>多标签页支持</li>
+<li>自带大部分语言的 lexer，可以折叠代码块 + 展示代码树状结构</li>
+<li>关闭时不丢失未保存的文本，下次打开依然在</li>
+<li>跨系统的"全局置顶"支持（Mac 上想找个带全局置顶的多标签也编辑器太难了）</li>
+<li>和 VS Code 一样的 command palette （命令窗格）</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/a/4a9eb9487db8857e9f657de66381ffa3d35295fc.png" title="image"><img alt="image" height="482" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/a/4a9eb9487db8857e9f657de66381ffa3d35295fc.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/1/012023590c631acea4f6653f6b0c220ed6e3a1c7.png" title="image"><img alt="image" height="482" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/1/012023590c631acea4f6653f6b0c220ed6e3a1c7.png" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>视频</h2>
+<p><a href="https://www.youtube.com/watch?v=q8edzSd400Y">A tour of CudaText</a></p>
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>官方网站</h2>
+<ul>
+<li>官网：<a class="inline-onebox" href="https://cudatext.github.io/index.html" rel="noopener nofollow ugc">CudaText - Home</a></li>
+<li>Github：<a class="inline-onebox" href="https://github.com/Alexey-T/CudaText" rel="noopener nofollow ugc">GitHub - Alexey-T/CudaText: Cross-platform text editor, written in Lazarus</a></li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48829">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 03 Nov 2023 15:13:08 +0000</pubDate>
+<pubDate>Fri, 03 Nov 2023 15:13:08 +0000</pubDate>
+</item>
 
 <item>
 <title>求推荐支持累积粘贴的剪贴板管理软件</title>

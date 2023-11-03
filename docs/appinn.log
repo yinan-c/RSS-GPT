@@ -6231,3 +6231,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-03 14:10:51.507060
+------------------------------------------------------
+Started: 2023-11-03 16:14:23.970571
+Existing_entries: 126
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [CudaText - 开源多功能的文本编辑器（Sublime Text 开源平替）](https://meta.appinn.net/t/topic/48829)
+append_entries: 1
+Finish: 2023-11-03 16:14:28.071663
