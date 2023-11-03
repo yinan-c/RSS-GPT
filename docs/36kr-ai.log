@@ -693,3 +693,19 @@ Fetching from https://rsshub.app/36kr/motif/327686782977
 Feed error: 404
 append_entries: 0
 error when rendering xml, skip docs/36kr-ai
+------------------------------------------------------
+Started: 2023-11-03 10:13:23.333844
+Existing_entries: 117
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 1517
+Summarized using GPT-3.5-turbo
+Append: [36氪首发 ｜ 「中科摩通」完成B+轮融资，专注于新能源汽车产业智能装备整体解决方案](https://www.36kr.com/p/2502282354435465)
+Token length: 2677
+Summarized using GPT-3.5-turbo
+Append: [AI生图太诡异？马里兰&NYU合力解剖神经网络，CLIP模型神经元形似骷髅头](https://www.36kr.com/p/2502244959954821)
+Append: [AI教父Hinton家谱曝出，全员科学巨匠，曾坦言：人生追求只是博士毕业，工作是唯一的放松](https://www.36kr.com/p/2502244866942848)
+Append: [逼真到可怕，Gen-2史诗级更新，手搓4K好莱坞大片，Midjourney梦幻联动，CEO：创意软件时代已死](https://www.36kr.com/p/2502063942739337)
+Append: [通义千问发布半年，大模型已不是阿里云唯一主角 | 焦点分析](https://www.36kr.com/p/2502143578006916)
+Append: [钉钉AI正式公测，17款产品60+场景，超50万家企业启用 | 最前线](https://www.36kr.com/p/2502072560592771)
+append_entries: 6
+Finish: 2023-11-03 10:14:25.451865
