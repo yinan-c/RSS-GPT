@@ -686,3 +686,10 @@ Existing_entries: 117
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-03 06:14:59.405000
+------------------------------------------------------
+Started: 2023-11-03 08:14:22.180048
+Existing_entries: 117
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
