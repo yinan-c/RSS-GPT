@@ -645,3 +645,16 @@ Existing_entries: 108
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-02 22:09:52.504515
+------------------------------------------------------
+Started: 2023-11-03 00:51:20.336791
+Existing_entries: 108
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 4959
+Summarized using GPT-3.5-turbo-16k
+Append: [何恺明做科研也emo，最新QA完整版在此](https://www.36kr.com/p/2501296299849986)
+Token length: 2371
+Summarized using GPT-3.5-turbo
+Append: [ESPN给利拉德玩“换装游戏”惹争议，AI时代该有怎样的新闻伦理](https://www.36kr.com/p/2501159171832069)
+Append: [大模型的“成本瘦身”运动](https://www.36kr.com/p/2501024149022723)
+append_entries: 3
+Finish: 2023-11-03 00:52:35.276028
