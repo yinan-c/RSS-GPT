@@ -4,6 +4,46 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+<item>
+<title>App Defaults</title>
+<link>https://rknight.me/app-defaults/</link>
+<guid>https://rknight.me/app-defaults/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：邮件客户端、邮件服务器、笔记、待办事项、照片管理
+
+总结：
+邮件客户端和邮件服务器分别使用Mail.app和iCloud自定义域名。笔记使用Notes.app和Obsidian。待办事项使用Reminders。照片的拍摄和管理使用iOS Camera和Photos.app。其他应用包括日历使用Fantastical、云存储使用iCloud Drive、RSS使用NetNewsWire、联系人使用Contacts.app、浏览器使用Safari和Chrome、聊天应用使用iMessage、WhatsApp和Discord、稍后阅读使用Omnivore、办公软件使用Sublime Text、Numbers和Keynote、购物清单使用Reminders、音乐使用Apple Music、播客使用Overcast、密码管理使用1Password。 <div>
+<p>Inspired by <a href="https://listen.hemisphericviews.com/097">Hemispheric Views 097 - Duel of the Defaults!</a> and this <a href="https://gabz.blog/2023/11/03/my-defaults.html">post by Gabz</a> herein lies all the apps I use in the various categories as written by Andrew:</p>
+<ul>
+<li><strong>Mail Client</strong>: Mail.app</li>
+<li><strong>Mail Server</strong>: iCloud with custom domain</li>
+<li><strong>Notes</strong>: Notes.app, Obsidian</li>
+<li><strong>To-Do</strong>: Reminders</li>
+<li><strong>iPhone Photo Shooting</strong>: iOS Camera</li>
+<li><strong>Photo Management</strong>: Photos.app</li>
+<li><strong>Calendar</strong>: Fantastical</li>
+<li><strong>Cloud file storage</strong>: iCloud Drive</li>
+<li><strong>RSS</strong>: NetNewsWire</li>
+<li><strong>Contacts</strong>: Contacts.app</li>
+<li><strong>Browser</strong>: Safari, Chrome for development/work</li>
+<li><strong>Chat</strong>: iMessage, WhatsApp, Discord</li>
+<li><strong>Bookmarks</strong>: <a href="https://intersect.rknight.me">The Intersect</a></li>
+<li><strong>Read It Later</strong>: Omnivore</li>
+<li><strong>Word Processing</strong>: Sublime Text</li>
+<li><strong>Spreadsheets</strong>: Numbers</li>
+<li><strong>Presentations</strong>: Keynote</li>
+<li><strong>Shopping Lists</strong>: Reminders</li>
+<li><strong>Meal Planning</strong>: n/a</li>
+<li><strong>Budgeting &amp; Personal Finance</strong>: A spreadsheet</li>
+<li><strong>News</strong>: Mastodon, BBC News</li>
+<li><strong>Music</strong>: Apple Music</li>
+<li><strong>Podcasts</strong>: Overcast</li>
+<li><strong>Password Management</strong>: 1Password</li>
+</ul>
+]]></content:encoded>
+
+<pubDate>2023-11-03T17:31:10.949+00:00</pubDate>
+</item>
 
 <item>
 <title>St Jude 2023</title>
