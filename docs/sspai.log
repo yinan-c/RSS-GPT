@@ -6797,3 +6797,12 @@ Existing_entries: 191
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-04 10:10:35.464911
+------------------------------------------------------
+Started: 2023-11-04 12:18:25.694702
+Existing_entries: 191
+Fetching from https://rsshub.app/sspai/index
+Token length: 6330
+Summarized using GPT-3.5-turbo-16k
+Append: [App+1 | 搭建本地版 Latex 编辑器，为你的毕业论文排版「减减负」](https://sspai.com/post/83982)
+append_entries: 1
+Finish: 2023-11-04 12:19:11.849687
