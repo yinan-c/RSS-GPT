@@ -4,6 +4,7 @@
 <title>少数派 -- 首页</title>
 <link>https://sspai.com</link>
 
+
 <item>
 <title>App+1 | 搭建本地版 Latex 编辑器，为你的毕业论文排版「减减负」</title>
 <link>https://sspai.com/post/83982</link>
@@ -39,9 +40,7 @@ apt install inkscape python3-pygments</code></pre><p>&nbsp;</p><p><strong>(Optio
 ./bin/upgrade</code></pre><h2>实际体验感受</h2><p>我测试了自己发表的多份文章，在自建平台上都可以顺利编译生成 PDF。在约 100 页毕业论文的编译任务上，从无缓存开始的编译时间只需要不到 10s，当然这也取决于你的服务器的性能，但自己本机的性能总是能比 overleaf.com 平台上共享的性能高不少。</p><p>容器化的安装部署能够将 Latex 杂乱的环境依赖都封印起来，不用污染本地环境，以及与 Overleaf 一致的编辑体验，是这个方案的优势所在。</p><p>有兴趣的同学不妨一试。</p><p style="margin-left: 0px;">&gt; 下载 <a href="https://sspai.com/page/client">少数派 2.0 客户端</a>、关注 <a href="https://sspai.com/s/J71e">少数派公众号</a>，解锁全新阅读体验 📰</p><p style="margin-left: 0px;">&gt; 实用、好用的 <a href="https://sspai.com/mall">正版软件</a>，少数派为你呈现 🚀</p>
 ]]></content:encoded>
 <pubDate>Sat, 04 Nov 2023 07:00:23 GMT</pubDate>
-<pubDate>Sat, 04 Nov 2023 07:00:23 GMT</pubDate>
 </item>
-
 <item>
 <title>不到 400 元能买哪些好物，这是少数派作者的「双十一」购物清单</title>
 <link>https://sspai.com/post/83991</link>
