@@ -1965,3 +1965,10 @@ Fetching from https://stephanango.com/feed.xml
 Feed error: 301
 append_entries: 0
 Finish: 2023-11-05 18:13:50.733713
+------------------------------------------------------
+Started: 2023-11-05 20:10:45.119995
+Existing_entries: 35
+Fetching from https://stephanango.com/feed.xml
+Feed error: 301
+append_entries: 0
+Finish: 2023-11-05 20:10:45.325936
