@@ -6418,3 +6418,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [求问，mac下的启动工具是否能在已经打开的状态下，再次打开同一应用？](https://meta.appinn.net/t/topic/48879)
 append_entries: 1
 Finish: 2023-11-05 12:18:52.348646
+------------------------------------------------------
+Started: 2023-11-05 14:08:54.068988
+Existing_entries: 129
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-11-05 14:08:57.441259
