@@ -847,3 +847,16 @@ Existing_entries: 131
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-05 02:25:28.588480
+------------------------------------------------------
+Started: 2023-11-05 04:14:00.046249
+Existing_entries: 131
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2155
+Summarized using GPT-3.5-turbo
+Append: [香水制作2.0：人工智能助力香水研发](https://www.36kr.com/p/2469999267501956)
+Token length: 4644
+Summarized using GPT-3.5-turbo-16k
+Append: [CMU清华MIT发布全球首个Agent无限流：机器人「007」加班自学、具身智能被革命](https://www.36kr.com/p/2503597870245250)
+Append: [日本存储，还会好吗？](https://www.36kr.com/p/2504694404228481)
+append_entries: 3
+Finish: 2023-11-05 04:15:50.081233
