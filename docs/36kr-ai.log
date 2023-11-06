@@ -989,3 +989,16 @@ Append: [马斯克的AI大模型来了：现已开放早期定向测试，未来
 Append: [印度为贫困数据注释员开高薪：三天赚了以往月收入的四倍还多](https://www.36kr.com/p/2506475000259976)
 append_entries: 10
 Finish: 2023-11-06 10:16:06.954633
+------------------------------------------------------
+Started: 2023-11-06 12:22:38.391359
+Existing_entries: 157
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2775
+Summarized using GPT-3.5-turbo
+Append: [《完蛋！我被美女包围了！》出圈难阻行业危机，虚拟人上位时机已到](https://www.36kr.com/p/2506666106199941)
+Summarization failed, append the original article
+error: Error communicating with OpenAI: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Append: [大模型塞进手机：「华米OV」谁能领先？](https://www.36kr.com/p/2506558781547906)
+Append: [云计算的大模型之争，亚马逊云科技落后了？](https://www.36kr.com/p/2506552527953796)
+append_entries: 3
+Finish: 2023-11-06 12:28:01.514070
