@@ -4,6 +4,34 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>SearchLink gets Google Search back</title>
+<link>https://brett.trpstra.net/link/535/16429946/searchlink-gets-google-search-back</link>
+<guid>https://brett.trpstra.net/link/535/16429946/searchlink-gets-google-search-back</guid>
+<content:encoded><![CDATA[
+<div> Google, API key, searches, SearchLink, DuckDuckGo 
+<br><br>
+总结: 
+Google现在再次提供API key来进行搜索，每天免费搜索限制为100次。用户可以将自己的API key添加到配置文件中，以便在搜索时使用Google的功能。如果当天用完了100次搜索，系统会自动切换回之前的DuckDuckGo搜索配置。使用Google进行搜索不会引起新的隐私问题，因为这些搜索不包含任何追踪数据。SL.ddg()方法在使用插件时也会测试是否存在API key，并且在可用时将使用Google。用户需要安装最新版本的SearchLink，并生成自己的API key。 <div>
+<p>So it turns out Google now offers <a href="https://developers.google.com/custom-search/v1/introduction">an API</a> (once again). It’s limited to 100 searches per day for the free version, so I don’t want to put my API key into the public distribution of SearchLink, but if you want to tap into Google’s power for your searches, you can now add your own API key to the config and get 100 searches per day for free. If you should, for whatever reason, run out of searches in a day, it should gracefully switch out to the previous DuckDuckGo configuration.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">!g</code> search will now test for the presence of a Google API key, and if it exists, use Google for the search. You can also use <code class="language-plaintext highlighter-rouge">!gg</code> to force a Google search. If there’s not a key set up, it will continue operating as it has using DuckDuckGo. As far as privacy concerns go, these searches don’t include any tracking data, so using Google in this manner shouldn’t present any new issues. For anyone creating plugins, the <code class="language-plaintext highlighter-rouge">SL.ddg()</code> method will also test for an API key and use Google if available.</p>
+
+<p>To use this, install the latest version (download below) and then see the <a href="https://github.com/ttscoff/searchlink/wiki/Using-Google-Search">wiki page I created</a> to generate your own key.</p>
+
+<p>Enjoy!</p>
+
+<div class="download" id="dlbox"><h4>SearchLink v2.3.53</h4><p class="dl-icon"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.53"><img height="100" src="https://cdn3.brettterpstra.com/uploads/2023/01/searchlink-thumbnail.jpg" width="100" /></a></p><div class="dl-body"><p class="dl-link"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.53">Download SearchLink v2.3.53</a></p><p class="dl-description">Generate Markdown links from web searches without leaving your editor.</p><p class="dl-published">Published 11/10/14.</p><p class="dl-updated">Updated 11/05/23. <a class="changelog" href="https://brettterpstra.com/projects/searchlink/#changelog">Changelog</a></p><p class="dl-info"><a href="https://brettterpstra.com//donate/">Donate</a> &bull; <a href="https://brettterpstra.com//projects/searchlink/" title="More information on SearchLink">More info&hellip;</a></p></div></div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F05%2Fsearchlink-gets-google-search-back%2F&amp;text=SearchLink+gets+Google+Search+back&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F05%2Fsearchlink-gets-google-search-back%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16429946.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-11-05T16:27:00-06:00</pubDate>
+<pubDate>2023-11-05T16:27:00-06:00</pubDate>
+</item>
 
 <item>
 <title>The WordCounter giveaway winners!</title>

@@ -917,3 +917,15 @@ Existing_entries: 135
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-05 22:10:43.089119
+------------------------------------------------------
+Started: 2023-11-06 00:52:29.873426
+Existing_entries: 135
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 1962
+Summarized using GPT-3.5-turbo
+Append: [AI 大语言模型 LLM，为啥老被翻译成「法学硕士」？](https://www.36kr.com/p/2504940789966210)
+Token length: 3803
+Summarized using GPT-3.5-turbo
+Append: [马斯克的 xAI 发布首款产品，有一点ChatGPT也比不上，还能在特斯拉用](https://www.36kr.com/p/2504842125125512)
+append_entries: 2
+Finish: 2023-11-06 00:53:09.531516
