@@ -6980,3 +6980,9 @@ error: The server is overloaded or not ready yet.
 Append: [一次预期之内的升级，也有意料之外的惊喜：新款 MacBook Pro 首发体验](https://sspai.com/post/84212)
 append_entries: 1
 Finish: 2023-11-06 16:14:42.564532
+------------------------------------------------------
+Started: 2023-11-06 22:15:40.572010
+Existing_entries: 198
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-11-06 22:15:40.877495
