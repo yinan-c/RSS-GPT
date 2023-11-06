@@ -6923,3 +6923,12 @@ Existing_entries: 193
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-06 02:22:45.543300
+------------------------------------------------------
+Started: 2023-11-06 04:13:26.948780
+Existing_entries: 193
+Fetching from https://rsshub.app/sspai/index
+Token length: 3415
+Summarized using GPT-3.5-turbo
+Append: [派早报：年底前全国开机看直播、收费包压减 50%，xAI 公布聊天工具 Grok](https://sspai.com/post/84163)
+append_entries: 1
+Finish: 2023-11-06 04:13:42.553034

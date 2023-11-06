@@ -935,3 +935,22 @@ Existing_entries: 137
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-06 02:23:13.371231
+------------------------------------------------------
+Started: 2023-11-06 04:14:09.732545
+Existing_entries: 137
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 3313
+Summarized using GPT-3.5-turbo-16k
+Append: [王者GPT-4已来，32k上下文，OpenAI首届开发者大会最新爆料，全新UI可定制GPT，xAI大模型大范围可用](https://www.36kr.com/p/2506244180076417)
+Summarization failed, append the original article
+error: Error communicating with OpenAI: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Append: [马斯克版ChatGPT爆火来袭，不用Python，11人爆肝两个月](https://www.36kr.com/p/2506265359050120)
+Append: [美国科技大厂的AI成绩单](https://www.36kr.com/p/2506251503970179)
+Append: [AI训练一次，把我家这辈子的电都用完了](https://www.36kr.com/p/2506171684988806)
+Append: [GPT-4V学会用键鼠上网，人类眼睁睁看着它发帖玩游戏](https://www.36kr.com/p/2506209650124161)
+Append: [李开复AI公司首发大模型，阿里云领投 | 36氪独家](https://www.36kr.com/p/2506227176630145)
+Append: [最新调查：AI大模型的两大难题，要靠“绿色计算”来解决？](https://www.36kr.com/p/2502657314973573)
+Append: [未来十年，AI可能比传统投资分析更重要](https://www.36kr.com/p/2504872247567753)
+Append: [36氪首发｜「HydroX AI」完成400万美元天使轮融资，为大模型安全提供解决方案](https://www.36kr.com/p/2505328023840642)
+append_entries: 9
+Finish: 2023-11-06 04:29:34.415441
