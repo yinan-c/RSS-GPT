@@ -2442,3 +2442,9 @@ Summarized using GPT-3.5-turbo
 Append: [Please, Expose your RSS](https://rknight.me/please-expose-your-rss/)
 append_entries: 1
 Finish: 2023-11-06 14:12:25.028748
+------------------------------------------------------
+Started: 2023-11-06 16:14:42.889233
+Existing_entries: 114
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2023-11-06 16:14:44.340925

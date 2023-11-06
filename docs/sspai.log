@@ -6971,3 +6971,12 @@ Summarized using GPT-3.5-turbo-16k
 Append: [[送码] 派评 | 近期值得关注的 App](https://sspai.com/post/84194)
 append_entries: 1
 Finish: 2023-11-06 14:12:07.314926
+------------------------------------------------------
+Started: 2023-11-06 16:14:40.621000
+Existing_entries: 197
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: The server is overloaded or not ready yet.
+Append: [一次预期之内的升级，也有意料之外的惊喜：新款 MacBook Pro 首发体验](https://sspai.com/post/84212)
+append_entries: 1
+Finish: 2023-11-06 16:14:42.564532
