@@ -6986,3 +6986,12 @@ Existing_entries: 198
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-06 22:15:40.877495
+------------------------------------------------------
+Started: 2023-11-07 02:41:13.076852
+Existing_entries: 198
+Fetching from https://rsshub.app/sspai/index
+Token length: 2192
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：联发科发布天玑 9300，斗鱼 CEO 陈少杰上月起失联等](https://sspai.com/post/84224)
+append_entries: 1
+Finish: 2023-11-07 02:41:18.734135
