@@ -4,13 +4,14 @@
 <title>Paul Graham - Essays</title>
 <link>http://paulgraham.com/articles.html</link>
 
+
 <item>
 <title>Superlinear Returns</title>
 <link>http://paulgraham.com/superlinear.html</link>
 <guid>http://paulgraham.com/superlinear.html</guid>
 <content:encoded><![CDATA[
-<div> 超线性回报, 阈值, 成功，学习，好奇心<br>
-<br>超线性回报意味着绩效的不断增长。在商业、科学等领域，少数人比其他人取得更大的成功，并且成果不断增长，这导致了不平等现象。在科学领域，只有在极限知识边缘上才能取得超线性回报。好奇心使人不对无趣的问题感兴趣，而且有望造就超线性回报的领域。个人努力和运气也是成功的关键因素。<br>总结: 超线性回报意味着成功不断增长；阈值和超线性回报存在密切关联；好奇心可以帮助找到超线性回报领域；个人努力和运气是成功的关键因素。 <div>
+<div> 超线性回报, 阈值, 成功，学习，好奇心<br />
+<br />超线性回报意味着绩效的不断增长。在商业、科学等领域，少数人比其他人取得更大的成功，并且成果不断增长，这导致了不平等现象。在科学领域，只有在极限知识边缘上才能取得超线性回报。好奇心使人不对无趣的问题感兴趣，而且有望造就超线性回报的领域。个人努力和运气也是成功的关键因素。<br />总结: 超线性回报意味着成功不断增长；阈值和超线性回报存在密切关联；好奇心可以帮助找到超线性回报领域；个人努力和运气是成功的关键因素。 <div>
 October 2023<br /><br />One of the most important things I didn't understand about the world
 when I was a child is the degree to which the returns for performance
 are superlinear.<br /><br />Teachers and coaches implicitly told us the returns were linear.
@@ -382,14 +383,12 @@ Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts
 of this.</font><br /><br />
 ]]></content:encoded>
 <pubDate>Sat, 30 Sep 2023 16:00:00 GMT</pubDate>
-<pubDate>Sat, 30 Sep 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How to Do Great Work</title>
 <link>http://paulgraham.com/greatwork.html</link>
 <guid>http://paulgraham.com/greatwork.html</guid>
 <content:encoded><![CDATA[
-
 July 2023<br /><br />If you collected lists of techniques for doing great work in a lot
 of different fields, what would the intersection look like? I decided
 to find out by making it.<br /><br />Partly my goal was to create a guide that could be used by someone
@@ -1357,14 +1356,12 @@ Tan, and my younger son for suggestions and for reading drafts.
 </font><br /><br />
 ]]></content:encoded>
 <pubDate>Fri, 30 Jun 2023 16:00:00 GMT</pubDate>
-<pubDate>Fri, 30 Jun 2023 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How to Get New Ideas</title>
 <link>http://paulgraham.com/getideas.html</link>
 <guid>http://paulgraham.com/getideas.html</guid>
 <content:encoded><![CDATA[
-
 January 2023<br /><br /><i>(<a href="https://twitter.com/stef/status/1617222428727586816"><u>Someone</u></a> fed my essays into GPT to make something that could answer
 questions based on them, then asked it where good ideas come from.  The
 answer was ok, but not what I would have said. This is what I would have said.)</i><br /><br />The way to get new ideas is to notice anomalies: what seems strange,
@@ -1378,14 +1375,12 @@ x or wondered about y. In the best case, exploring such gaps yields
 whole new fractal buds.<br /><br />
 ]]></content:encoded>
 <pubDate>Sat, 31 Dec 2022 16:00:00 GMT</pubDate>
-<pubDate>Sat, 31 Dec 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Need to Read</title>
 <link>http://paulgraham.com/read.html</link>
 <guid>http://paulgraham.com/read.html</guid>
 <content:encoded><![CDATA[
-
 November 2022<br /><br />In the science fiction books I read as a kid, reading had often
 been replaced by some more efficient way of acquiring knowledge.
 Mysterious "tapes" would load it into one's brain like a program
@@ -1424,14 +1419,12 @@ reading. You don't have to be good at extracting words from the
 page so much as extracting meaning from the words.<br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 31 Oct 2022 16:00:00 GMT</pubDate>
-<pubDate>Mon, 31 Oct 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>What You (Want to)* Want</title>
 <link>http://paulgraham.com/want.html</link>
 <guid>http://paulgraham.com/want.html</guid>
 <content:encoded><![CDATA[
-
 November 2022<br /><br />Since I was about 9 I've been puzzled by the apparent contradiction
 between being made of matter that behaves in a predictable way, and
 the feeling that I could choose to do whatever I wanted. At the
@@ -1477,14 +1470,12 @@ Jessica Livingston, Robert Morris, and
 Michael Nielsen for reading drafts of this.</font><br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 31 Oct 2022 16:00:00 GMT</pubDate>
-<pubDate>Mon, 31 Oct 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Alien Truth</title>
 <link>http://paulgraham.com/alien.html</link>
 <guid>http://paulgraham.com/alien.html</guid>
 <content:encoded><![CDATA[
-
 October 2022<br /><br />If there were intelligent beings elsewhere in the universe, they'd
 share certain truths in common with us. The truths of mathematics
 would be the same, because they're true by definition. Ditto for
@@ -1542,14 +1533,12 @@ probably an alien truth.<br /><br /><br /><br /><br /><br /><font color="888888"
 Patrick Collison, Robert Morris, and Michael Nielsen for reading drafts of this.</font><br /><br />
 ]]></content:encoded>
 <pubDate>Fri, 30 Sep 2022 16:00:00 GMT</pubDate>
-<pubDate>Fri, 30 Sep 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>What I've Learned from Users</title>
 <link>http://paulgraham.com/users.html</link>
 <guid>http://paulgraham.com/users.html</guid>
 <content:encoded><![CDATA[
-
 September 2022<br /><br />I recently told applicants to Y Combinator that the best advice I
 could give for getting in, per word, was 
 <blockquote>
@@ -1743,14 +1732,12 @@ couple days, whereas if you're building hardware it could be months.<br /><br />
 Harj Taggar, and Garry Tan for reading drafts of this.</font><br /><br />
 ]]></content:encoded>
 <pubDate>Wed, 31 Aug 2022 16:00:00 GMT</pubDate>
-<pubDate>Wed, 31 Aug 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Heresy</title>
 <link>http://paulgraham.com/heresy.html</link>
 <guid>http://paulgraham.com/heresy.html</guid>
 <content:encoded><![CDATA[
-
 April 2022<br /><br />One of the most surprising things I've witnessed in my lifetime is
 the rebirth of the concept of heresy.<br /><br />In his excellent biography of Newton, Richard Westfall writes about the
 moment when he was elected a fellow of Trinity College:
@@ -1945,14 +1932,12 @@ Livingston, Greg Lukianoff, Robert Morris, and Garry Tan for reading
 drafts of this.</font><br /><br />
 ]]></content:encoded>
 <pubDate>Thu, 31 Mar 2022 16:00:00 GMT</pubDate>
-<pubDate>Thu, 31 Mar 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Putting Ideas into Words</title>
 <link>http://paulgraham.com/words.html</link>
 <guid>http://paulgraham.com/words.html</guid>
 <content:encoded><![CDATA[
-
 February 2022<br /><br />Writing about something, even something you know well, usually shows
 you that you didn't know it as well as you thought. Putting ideas
 into words is a severe test. The first words you choose are usually
@@ -2049,14 +2034,12 @@ writing.<br /><br /><br /><br /><font color="888888"> <b>Thanks</b> to Trevor Bl
 Collison, and Robert Morris for reading drafts of this.  </font><br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 31 Jan 2022 16:00:00 GMT</pubDate>
-<pubDate>Mon, 31 Jan 2022 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Is There Such a Thing as Good Taste?</title>
 <link>http://paulgraham.com/goodtaste.html</link>
 <guid>http://paulgraham.com/goodtaste.html</guid>
 <content:encoded><![CDATA[
-
 November 2021<br /><br /><i>(This essay is derived from a talk at the Cambridge Union.)</i><br /><br />When I was a kid, I'd have said there wasn't. My father told me so.
 Some people like some things, and other people like other things,
 and who's to say who's right?<br /><br />It seemed so obvious that there was no such thing as good taste
@@ -2146,14 +2129,12 @@ of this.
 </font><br /><br />
 ]]></content:encoded>
 <pubDate>Sun, 31 Oct 2021 16:00:00 GMT</pubDate>
-<pubDate>Sun, 31 Oct 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Beyond Smart</title>
 <link>http://paulgraham.com/smart.html</link>
 <guid>http://paulgraham.com/smart.html</guid>
 <content:encoded><![CDATA[
-
 October 2021<br /><br />If you asked people what was special about Einstein, most would say
 that he was really smart. Even the ones who tried to give you a
 more sophisticated-sounding answer would probably think this first.
@@ -2287,14 +2268,12 @@ of this.
 </font><br /><br />
 ]]></content:encoded>
 <pubDate>Thu, 30 Sep 2021 16:00:00 GMT</pubDate>
-<pubDate>Thu, 30 Sep 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Weird Languages</title>
 <link>http://paulgraham.com/weird.html</link>
 <guid>http://paulgraham.com/weird.html</guid>
 <content:encoded><![CDATA[
-
 August 2021<br /><br />When people say that in their experience all programming languages
 are basically equivalent, they're making a statement not about
 languages but about the kind of programming they've done.<br /><br />99.5% of programming consists of gluing together calls to library
@@ -2328,14 +2307,12 @@ Masad, and Robert Morris for reading drafts of this.
 </font><br /><br />
 ]]></content:encoded>
 <pubDate>Sat, 31 Jul 2021 16:00:00 GMT</pubDate>
-<pubDate>Sat, 31 Jul 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How to Work Hard</title>
 <link>http://paulgraham.com/hwh.html</link>
 <guid>http://paulgraham.com/hwh.html</guid>
 <content:encoded><![CDATA[
-
 June 2021<br /><br />It might not seem there's much to learn about how to work hard.
 Anyone who's been to school knows what it entails, even if they
 chose not to do it. There are 12 year olds who work amazingly hard. And
@@ -2620,14 +2597,12 @@ can say you're not right?<br /><br /><br /><br />
 Robert Morris, Geoff Ralston, and Harj Taggar for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
-<pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>A Project of One's Own</title>
 <link>http://paulgraham.com/own.html</link>
 <guid>http://paulgraham.com/own.html</guid>
 <content:encoded><![CDATA[
-
 June 2021<br /><br />A few days ago, on the way home from school, my nine year old son
 told me he couldn't wait to get home to write more of the story he
 was working on. This made me as happy as anything I've heard him
@@ -2843,14 +2818,12 @@ rules, individual programmers could write their own players.<br /><br /><br /><b
 Livingston, and Peter Norvig for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
-<pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Fierce Nerds</title>
 <link>http://paulgraham.com/fn.html</link>
 <guid>http://paulgraham.com/fn.html</guid>
 <content:encoded><![CDATA[
-
 May 2021<br /><br />Most people think of nerds as quiet, diffident people. In ordinary
 social situations they are — as quiet and diffident as the star
 quarterback would be if he found himself in the middle of a physics
@@ -2965,14 +2938,12 @@ and extremely ambitious, and yet only moderately successful.<br /><br /><br /><b
 Livingston, Amjad Masad, and Robert Morris for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Fri, 30 Apr 2021 16:00:00 GMT</pubDate>
-<pubDate>Fri, 30 Apr 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Crazy New Ideas</title>
 <link>http://paulgraham.com/newideas.html</link>
 <guid>http://paulgraham.com/newideas.html</guid>
 <content:encoded><![CDATA[
-
 May 2021<br /><br />There's one kind of opinion I'd be very afraid to express publicly.
 If someone I knew to be both a domain expert and a reasonable person
 proposed an idea that sounded preposterous, I'd be very reluctant
@@ -3089,14 +3060,12 @@ book is particularly good at getting into contemporaries' heads.<br /><br /><br 
 Gackle, Jessica Livingston, and Robert Morris for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Fri, 30 Apr 2021 16:00:00 GMT</pubDate>
-<pubDate>Fri, 30 Apr 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>An NFT That Saves Lives</title>
 <link>http://paulgraham.com/nft.html</link>
 <guid>http://paulgraham.com/nft.html</guid>
 <content:encoded><![CDATA[
-
 May 2021<br /><br /><a href="https://www.noorahealth.org/">Noora Health</a>, a nonprofit I've 
 supported for years, just launched
 a new NFT. It has a dramatic name, <a href="http://bit.ly/NooraNFT"><u>Save Thousands of Lives</u></a>,
@@ -3125,14 +3094,12 @@ takes for the name to be accurate: that's what it costs to save
 lives will be saved. What a sentence to be able to write.<br /><br />
 ]]></content:encoded>
 <pubDate>Fri, 30 Apr 2021 16:00:00 GMT</pubDate>
-<pubDate>Fri, 30 Apr 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Real Reason to End the Death Penalty</title>
 <link>http://paulgraham.com/real.html</link>
 <guid>http://paulgraham.com/real.html</guid>
 <content:encoded><![CDATA[
-
 April 2021<br /><br />When intellectuals talk about the death penalty, they talk about
 things like whether it's permissible for the state to take someone's
 life, whether the death penalty acts as a deterrent, and whether
@@ -3204,14 +3171,12 @@ practice capital punishment means killing innocent people.<br /><br /><br /><br 
 reading drafts of this.<br /><br /><br /><br /><b>Related:</b><br /><br />
 ]]></content:encoded>
 <pubDate>Wed, 31 Mar 2021 16:00:00 GMT</pubDate>
-<pubDate>Wed, 31 Mar 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How People Get Rich Now</title>
 <link>http://paulgraham.com/richnow.html</link>
 <guid>http://paulgraham.com/richnow.html</guid>
 <content:encoded><![CDATA[
-
 April 2021<br /><br />Every year since 1982, <i>Forbes</i> magazine has published a list of the
 richest Americans. If we compare the 100 richest people in 1982 to
 the 100 richest in 2020, we notice some big differences.<br /><br />In 1982 the most common source of wealth was inheritance. Of the
@@ -3432,14 +3397,12 @@ founded in 1896. In 1941 its revenues were $60 million.<br /><br />Hewlett-Packa
 Russ Roberts, and Alex Tabarrok for reading drafts of this, and to Jon Erlichman for growth data.<br /><br />
 ]]></content:encoded>
 <pubDate>Wed, 31 Mar 2021 16:00:00 GMT</pubDate>
-<pubDate>Wed, 31 Mar 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Write Simply</title>
 <link>http://paulgraham.com/simply.html</link>
 <guid>http://paulgraham.com/simply.html</guid>
 <content:encoded><![CDATA[
-
 March 2021<br /><br />I try to write using ordinary words and simple sentences.<br /><br />That kind of writing is easier to read, and the easier something
 is to read, the more deeply readers will engage with it. The less
 energy they expend on your prose, the more they'll have left for
@@ -3479,14 +3442,12 @@ to get everything just right. Much of this editing is cutting, and
 that makes simple writing even simpler.<br /><br />
 ]]></content:encoded>
 <pubDate>Sun, 28 Feb 2021 16:00:00 GMT</pubDate>
-<pubDate>Sun, 28 Feb 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Donate Unrestricted</title>
 <link>http://paulgraham.com/donate.html</link>
 <guid>http://paulgraham.com/donate.html</guid>
 <content:encoded><![CDATA[
-
 March 2021<br /><br />The secret curse of the nonprofit world is restricted donations.
 If you haven't been involved with nonprofits, you may never have
 heard this phrase before. But if you have been, it probably made
@@ -3535,14 +3496,12 @@ on X.<br /><br />
 Elliot for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Sun, 28 Feb 2021 16:00:00 GMT</pubDate>
-<pubDate>Sun, 28 Feb 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>What I Worked On</title>
 <link>http://paulgraham.com/worked.html</link>
 <guid>http://paulgraham.com/worked.html</guid>
 <content:encoded><![CDATA[
-
 February 2021<br /><br />Before college the two main things I worked on, outside of school,
 were writing and programming. I didn't write essays. I wrote what
 beginning writers were supposed to write then, and probably still
@@ -4638,14 +4597,12 @@ Gackle, Ralph Hazell, Jessica Livingston, Robert Morris, and Harj
 Taggar for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Sun, 31 Jan 2021 16:00:00 GMT</pubDate>
-<pubDate>Sun, 31 Jan 2021 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Earnestness</title>
 <link>http://paulgraham.com/earnest.html</link>
 <guid>http://paulgraham.com/earnest.html</guid>
 <content:encoded><![CDATA[
-
 December 2020<br /><br />Jessica and I have certain words that have special significance
 when we're talking about startups. The highest compliment we can
 pay to founders is to describe them as "earnest." This is not by
@@ -4800,14 +4757,12 @@ Livingston, Mattias Ljungman, Harj Taggar, and Kyle Vogt for reading
 drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 30 Nov 2020 16:00:00 GMT</pubDate>
-<pubDate>Mon, 30 Nov 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Billionaires Build</title>
 <link>http://paulgraham.com/ace.html</link>
 <guid>http://paulgraham.com/ace.html</guid>
 <content:encoded><![CDATA[
-
 December 2020<br /><br />As I was deciding what to write about next, I was surprised to find
 that two separate essays I'd been planning to write were actually
 the same.<br /><br />The first is about how to ace your Y Combinator interview. There
@@ -5085,14 +5040,12 @@ Internet Bubble, and indeed some big IPOs.<br /><br /><br /><br /><b>Thanks</b> 
 Harj Taggar for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 30 Nov 2020 16:00:00 GMT</pubDate>
-<pubDate>Mon, 30 Nov 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Airbnbs</title>
 <link>http://paulgraham.com/airbnbs.html</link>
 <guid>http://paulgraham.com/airbnbs.html</guid>
 <content:encoded><![CDATA[
-
 December 2020<br /><br />To celebrate Airbnb's IPO and to help future founders, I thought
 it might be useful to explain what was special about Airbnb.<br /><br />What was special about the Airbnbs was how earnest they were. They
 did nothing half-way, and we could sense this even in the interview.
@@ -5179,14 +5132,12 @@ and giving the last three weeks' numbers.<br /><br />"I assume you know what you
 I responded.<br /><br />Brian's reply was seven words: "We are not going to slow down."<br /><br />
 ]]></content:encoded>
 <pubDate>Mon, 30 Nov 2020 16:00:00 GMT</pubDate>
-<pubDate>Mon, 30 Nov 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How to Think for Yourself</title>
 <link>http://paulgraham.com/think.html</link>
 <guid>http://paulgraham.com/think.html</guid>
 <content:encoded><![CDATA[
-
 November 2020<br /><br />There are some kinds of work that you can't do well without thinking
 differently from your peers. To be a successful scientist, for
 example, it's not enough just to be correct. Your ideas have to be
@@ -5501,14 +5452,12 @@ Livingston, Robert Morris, Harj Taggar, and Peter Thiel for reading
 drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Sat, 31 Oct 2020 16:00:00 GMT</pubDate>
-<pubDate>Sat, 31 Oct 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Early Work</title>
 <link>http://paulgraham.com/early.html</link>
 <guid>http://paulgraham.com/early.html</guid>
 <content:encoded><![CDATA[
-
 October 2020<br /><br />One of the biggest things holding people back from doing great work
 is the fear of making something lame. And this fear is not an
 irrational one. Many great projects go through a stage early on
@@ -5741,14 +5690,12 @@ Livingston, Michael Nielsen, and Lisa Randall for reading drafts
 of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Wed, 30 Sep 2020 16:00:00 GMT</pubDate>
-<pubDate>Wed, 30 Sep 2020 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Having Kids</title>
 <link>http://paulgraham.com/kids.html</link>
 <guid>http://paulgraham.com/kids.html</guid>
 <content:encoded><![CDATA[
-
 December 2019<br /><br />Before I had kids, I was afraid of having kids. Up to that point I
 felt about kids the way the young Augustine felt about living
 virtuously. I'd have been sad to think I'd never have children.
@@ -5866,14 +5813,12 @@ olds, 2 year olds are just defective 6 year olds.<br /><br /><br /><br /><b>Than
 for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Sat, 30 Nov 2019 16:00:00 GMT</pubDate>
-<pubDate>Sat, 30 Nov 2019 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How to Lose Time and Money</title>
 <link>http://paulgraham.com/selfindulgence.html</link>
 <guid>http://paulgraham.com/selfindulgence.html</guid>
 <content:encoded><![CDATA[
-
 July 2010<br /><br />When we sold our startup in 1998 I suddenly got a lot of money.  I
 now had to think about something I hadn't had to think about before:
 how not to lose it.   I knew it was possible to go from rich to
@@ -5931,14 +5876,12 @@ virtuous types.  And the worst thing is, they're not even fun.<br /><br /><br />
 Livingston, and Robert Morris for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Wed, 30 Jun 2010 16:00:00 GMT</pubDate>
-<pubDate>Wed, 30 Jun 2010 16:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Is It Worth Being Wise?</title>
 <link>http://paulgraham.com/wisdom.html</link>
 <guid>http://paulgraham.com/wisdom.html</guid>
 <content:encoded><![CDATA[
-
 February 2007<br /><br />A few days ago I finally figured out something I've wondered about
 for 25 years: the relationship between wisdom and intelligence.
 Anyone can see they're not the same by the number of people who are
@@ -6261,8 +6204,6 @@ must have seemed an outlying data point that could be ignored.<br /><br /><b>Tha
 and Robert Morris for reading drafts of this.<br /><br />
 ]]></content:encoded>
 <pubDate>Wed, 31 Jan 2007 16:00:00 GMT</pubDate>
-<pubDate>Wed, 31 Jan 2007 16:00:00 GMT</pubDate>
 </item>
-
 </channel>
 </rss>
