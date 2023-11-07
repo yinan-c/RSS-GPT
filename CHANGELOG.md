@@ -1,4 +1,7 @@
 # CHANGELOG
+- 2023-11-06:
+  - Update to the latest version of `openai` package. **Contexts longer than 16k tokens are no longer truncated, instead, will use the `gpt-4-1106-preview` model.** 
+
 - 2023-10-17:
   - GitHub Pages are now deployed from branch instead of from GitHub Actions.
 - 2023-10-05:
