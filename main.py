@@ -305,13 +305,13 @@ for x in secs[1:]:
     feed = {"url": get_cfg(x, 'url').replace(',','<br>'), "name": get_cfg(x, 'name')}
     feeds.append(feed)  # for rendering index.html
     links.append("- "+ get_cfg(x, 'url').replace(',',', ') + " -> " + deployment_url + feed['name'] + ".xml\n")
-    if readme_lines[-1].startswith("- "):
-        readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
 
 def append_readme(readme, links):
     with open(readme, 'r') as f:
         readme_lines = f.readlines()
     readme_lines = readme_lines + links
+    if readme_lines[-1].startswith("- "):
+        readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
     with open(readme, 'w') as f:
         f.writelines(readme_lines)
 
