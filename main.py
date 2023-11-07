@@ -309,9 +309,10 @@ for x in secs[1:]:
 def append_readme(readme, links):
     with open(readme, 'r') as f:
         readme_lines = f.readlines()
-    if readme_lines[-1].startswith("- "):
+    while readme_lines[-1].startswith('- ') or readme_lines[-1] == '\n':
         readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
-    readme_lines = readme_lines + links
+    readme_lines.append('\n')
+    readme_lines.extend(links)
     with open(readme, 'w') as f:
         f.writelines(readme_lines)
 
