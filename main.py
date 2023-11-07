@@ -1,7 +1,7 @@
 import feedparser
 import configparser
 import os
-from openai import ChatCompletion
+from openai import OpenAI
 from jinja2 import Template
 from bs4 import BeautifulSoup
 import re
@@ -127,12 +127,14 @@ def gpt_summary(query,model,language):
             {"role": "user", "content": query},
             {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output in the same line, then line break, write a summary containing all the points in {summary_length} words in {language}, output in order by points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and must be before the word 'Summary:'"}
         ]
-    chat = ChatCompletion.create(
-        model=model,
+    client = OpenAI(
         api_key=OPENAI_API_KEY,
+    )
+    completion = client.chat.completions.create(
+        model=model,
         messages=messages,
     )
-    return chat["choices"][0]["message"]["content"]
+    return completion.choices[0].message.content
 
 def output(sec, language):
     """ output
@@ -239,35 +241,22 @@ def output(sec, language):
                 entry.summary = None
             elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
-                if token_length > 16000:
+                try:
+                    entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-1106", language=language)
+                    with open(log_file, 'a') as f:
+                        f.write(f"Token length: {token_length}\n")
+                        f.write(f"Summarized using GPT-3.5-turbo-1106\n")
+                except:
                     try:
-                        entry.summary = gpt_summary(cleaned_article[:16000],model="gpt-3.5-turbo-16k", language=language)
+                        entry.summary = gpt_summary(cleaned_article,model="gpt-4-1106-preview", language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
-                            f.write(f"Truncate to 16k token length\n")
-                            f.write(f"Summarized using GPT-3.5-turbo-16k\n")
+                            f.write(f"Summarized using GPT-4-1106-preview\n")
                     except Exception as e:
                         entry.summary = None
                         with open(log_file, 'a') as f:
                             f.write(f"Summarization failed, append the original article\n")
                             f.write(f"error: {e}\n")
-                else:
-                    try:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo", language=language)
-                        with open(log_file, 'a') as f:
-                            f.write(f"Token length: {token_length}\n")
-                            f.write(f"Summarized using GPT-3.5-turbo\n")
-                    except:
-                        try:
-                            entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-16k", language=language)
-                            with open(log_file, 'a') as f:
-                                f.write(f"Token length: {token_length}\n")
-                                f.write(f"Summarized using GPT-3.5-turbo-16k\n")
-                        except Exception as e:
-                            entry.summary = None
-                            with open(log_file, 'a') as f:
-                                f.write(f"Summarization failed, append the original article\n")
-                                f.write(f"error: {e}\n")
 
             append_entries.append(entry)
             with open(log_file, 'a') as f:
@@ -308,11 +297,8 @@ try:
 except:
     pass
 
-readme ="README.md"
 feeds = []
 links = []
-with open(readme, 'r') as f:
-    readme_lines = f.readlines()
 
 for x in secs[1:]:
     output(x, language=language)
@@ -322,9 +308,15 @@ for x in secs[1:]:
     if readme_lines[-1].startswith("- "):
         readme_lines = readme_lines[:-1]  # remove 1 line from the end for each feed
 
-readme_lines = readme_lines + links
-with open(readme, 'w') as f:
-    f.writelines(readme_lines)
+def append_readme(readme, links):
+    with open(readme, 'r') as f:
+        readme_lines = f.readlines()
+    readme_lines = readme_lines + links
+    with open(readme, 'w') as f:
+        f.writelines(readme_lines)
+
+append_readme("README.md", links)
+append_readme("README_zh.md", links)
 
 # Rendering index.html used in my GitHub page, delete this if you don't need it.
 # Modify template.html to change the style
