@@ -7043,3 +7043,16 @@ Existing_entries: 201
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-07 10:11:47.284277
+------------------------------------------------------
+Started: 2023-11-07 12:20:30.643651
+Existing_entries: 201
+Fetching from https://rsshub.app/sspai/index
+Token length: 4758
+Summarized using GPT-3.5-turbo-1106
+Append: [GPT-4 Turbo、功能融合：OpenAI 首个开发者大会回顾](https://sspai.com/post/84234)
+Token length: 4862
+Summarized using GPT-3.5-turbo-1106
+Append: [Alfred Workflow 进阶指南：以少数派标签搜索为例](https://sspai.com/post/84233)
+Append: [社区速递 019 | 波导手机、Top5 应用以及作者们的新玩意](https://sspai.com/post/84230)
+append_entries: 3
+Finish: 2023-11-07 12:20:36.648395
