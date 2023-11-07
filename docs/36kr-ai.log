@@ -1070,3 +1070,17 @@ Existing_entries: 172
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-07 04:13:43.352248
+------------------------------------------------------
+Started: 2023-11-07 06:16:38.824517
+Existing_entries: 172
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 1196
+Summarized using GPT-3.5-turbo-1106
+Append: [马斯克版ChatGPT背后开发工具上线，xAI产品两连发，网友：交付速度太疯狂](https://www.36kr.com/p/2507655523123464)
+Token length: 3977
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI大招三连，继续“苹果”化](https://www.36kr.com/p/2507616626614151)
+Append: [美团首个AI产品“Wow”亮相，押注交互伴聊](https://www.36kr.com/p/2507555071033352)
+Append: [大模型集体失控，南洋理工新型攻击，主流AI无一幸免](https://www.36kr.com/p/2507539147489541)
+append_entries: 4
+Finish: 2023-11-07 06:16:44.900400
