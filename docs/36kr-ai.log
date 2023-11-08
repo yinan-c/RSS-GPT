@@ -1152,3 +1152,15 @@ Existing_entries: 186
 Fetching from https://rsshub.app/36kr/motif/327686782977
 append_entries: 0
 Finish: 2023-11-07 22:13:30.300574
+------------------------------------------------------
+Started: 2023-11-08 00:51:20.161547
+Existing_entries: 186
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 1174
+Summarized using GPT-3.5-turbo-1106
+Append: [ChatGPT升级，马斯克也带来了它的竞争对手](https://www.36kr.com/p/2508332991709193)
+Token length: 4317
+Summarized using GPT-3.5-turbo-1106
+Append: [“一夜回到解放前”，OpenAI正在摧毁创业公司？](https://www.36kr.com/p/2508059205672833)
+append_entries: 2
+Finish: 2023-11-08 00:51:24.865285
