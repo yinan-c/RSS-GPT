@@ -4,6 +4,39 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Halp: Universal help for Fish</title>
+<link>https://brett.trpstra.net/link/535/16436713/halp-universal-help-for-fish</link>
+<guid>https://brett.trpstra.net/link/535/16436713/halp-universal-help-for-fish</guid>
+<content:encoded><![CDATA[
+<div> Fish, help, command, function, editor<br>
+总结:<br>
+这篇文章介绍了作者将自己的通用“help”命令移植到了Fish上。通过使用halp命令，用户可以方便地获取命令的帮助信息，无需考虑帮助信息来自哪个渠道。作者还提到了安装该函数的方法，以及如何编辑该函数以适应用户需求。此外，作者还分享了一个有用的Fish函数，可以让用户使用自己喜欢的文本编辑器编辑Fish函数。最后，作者鼓励读者查看他的公共Fish函数，并邀请他们点赞或分享这篇文章。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Post banner" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2020/04/gonefishin-rb.png" title="Post banner" width="800" />
+              </noscript>
+            
+
+<p>I’ve had it out there for a while, but I thought I’d point out that I’ve ported my universal “help” command to Fish. <code class="language-plaintext highlighter-rouge">halp</code> removes the hassle of figuring out whether a command’s help comes from <code class="language-plaintext highlighter-rouge">man CMD</code>, <code class="language-plaintext highlighter-rouge">help CMD</code>, <code class="language-plaintext highlighter-rouge">CMD -h</code>, or <code class="language-plaintext highlighter-rouge">type CMD</code>. Just run <code class="language-plaintext highlighter-rouge">halp CMD</code> (where CMD is the command you want help on) and it will figure out the rest.</p>
+
+<p>To install the function, just save the <a href="https://github.com/ttscoff/fish_files/blob/master/functions/halp.fish">halp.fish</a> file to <code class="language-plaintext highlighter-rouge">~/.config/fish/functions</code>. Once there, you can just type <code class="language-plaintext highlighter-rouge">halp CMD</code> to get an appropriate help screen, whether it has a man page, a help page, command line help, or is an alias or function. By default it’s set up to use <a href="https://kapeli.com/dash" title="Dash for macOS-API Documentation Browser, Snippet Manager">Dash</a> for Fish native commands (rather than opening your browser), but you can edit the function to change that (see the comments). That requires that you’ve installed the Fish docset (Dash Preferences-&gt;Downloads-&gt;User Contributed). My local version of the function also replaces the <code class="language-plaintext highlighter-rouge">man $cmd</code> line with <code class="language-plaintext highlighter-rouge">open "dash://man%3A$cmd"</code> to open man pages in Dash (requires the manpage docset). Edit as needed to make it work for you.</p>
+
+<p>As an aside, if you regularly edit Fish functions, it can be handy to use your favorite text editor rather than Vim or the internal editor. I have a function called <code class="language-plaintext highlighter-rouge">funcsubl</code> that wraps the <code class="language-plaintext highlighter-rouge">funced</code> command with <code class="language-plaintext highlighter-rouge">subl -w</code> and autosaves after closing the window. You can modify this to work with any editor, you just need a “wait” flag (like <code class="language-plaintext highlighter-rouge">subl -w</code>). Here’s <a href="https://github.com/ttscoff/fish_files/blob/master/functions/funcsubl.fish">my version</a>.</p>
+
+<p>Check out all my public Fish functions in the <a href="https://github.com/ttscoff/fish_files/tree/master">GitHub repo</a>.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F08%2Fhalp-universal-help-for-fish%2F&amp;text=Halp%3A+Universal+help+for+Fish&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F08%2Fhalp-universal-help-for-fish%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16436713.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-11-08T11:46:00-06:00</pubDate>
+<pubDate>2023-11-08T11:46:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Hazel giveaway!</title>
