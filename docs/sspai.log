@@ -7098,3 +7098,15 @@ Existing_entries: 204
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-08 02:20:22.585550
+------------------------------------------------------
+Started: 2023-11-08 04:13:00.491374
+Existing_entries: 204
+Fetching from https://rsshub.app/sspai/index
+Token length: 2799
+Summarized using GPT-3.5-turbo-1106
+Append: [31 岁在一线城市被裁，我用一个小程序总结走过的路](https://sspai.com/post/83956)
+Token length: 1755
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：iQOO 12 系列发布、国行任天堂 Switch 延保计划将停售等](https://sspai.com/post/84243)
+append_entries: 2
+Finish: 2023-11-08 04:13:05.784838
