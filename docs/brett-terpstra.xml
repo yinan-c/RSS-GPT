@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Halp: Universal help for Fish</title>
 <link>https://brett.trpstra.net/link/535/16436713/halp-universal-help-for-fish</link>
 <guid>https://brett.trpstra.net/link/535/16436713/halp-universal-help-for-fish</guid>
 <content:encoded><![CDATA[
-<div> Fish, help, command, function, editor<br>
-总结:<br>
+<div> Fish, help, command, function, editor<br />
+总结:<br />
 这篇文章介绍了作者将自己的通用“help”命令移植到了Fish上。通过使用halp命令，用户可以方便地获取命令的帮助信息，无需考虑帮助信息来自哪个渠道。作者还提到了安装该函数的方法，以及如何编辑该函数以适应用户需求。此外，作者还分享了一个有用的Fish函数，可以让用户使用自己喜欢的文本编辑器编辑Fish函数。最后，作者鼓励读者查看他的公共Fish函数，并邀请他们点赞或分享这篇文章。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -35,9 +36,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16436713.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-11-08T11:46:00-06:00</pubDate>
-<pubDate>2023-11-08T11:46:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Hazel giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16431556/hazel-giveaway</link>
