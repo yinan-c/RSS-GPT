@@ -4,6 +4,66 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>装不下的图标</title>
+<link>https://meta.appinn.net/t/topic/48964</link>
+<guid>https://meta.appinn.net/t/topic/48964</guid>
+<content:encoded><![CDATA[
+
+<p>本帖是纯写字素材，吃完晚饭摸一会儿鱼，想到什么就想什么，没有方向和结构</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>从托盘出发</h3>
+<p>Windows 的系统托盘<br />
+macOS 的目录栏<br />
+浏览器的拓展图标</p>
+<p>这类托盘，如果安装软件比较多，就会产生困扰。</p>
+<ul>
+<li>
+<p>macbook 的图标太多会跑到刘海后面，导致很多用户被迫使用 Bartender APP（这句话是我云的，我没有 macbook）</p>
+</li>
+<li>
+<p>Windows 有托盘+隐藏，有人崇尚全显示，有人崇尚只显示重要的</p>
+</li>
+<li>
+<p>浏览器（Edge、Vivaldi）的插件也是托盘+隐藏，Vivaldi 还不能拖拽调顺序</p>
+</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#quicker-2" name="quicker-2"></a>Quicker</h3>
+<p>相比之下，Quicker 的主页面可以容下 12 + 16 个图标，所有图标都是<strong>手动安排</strong>的位置，下面 16 个一页图标可以根据软件显示<strong>场景页</strong>。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>手机桌面</h3>
+<p>iOS 的桌面的功能十分克制，没办法像安卓那样随意摆放图标，后来终于有一个资源库，但是官方+开发者的分类很乱，一个屏幕之下放的 APP 数量也很有限。</p>
+<p>安卓桌面则比较丰富，后来还有大文件夹这种东西来增加一个屏幕能容纳的图标。</p>
+<p>还有 Niagara 这种走极简风格的。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>图标用来启动本体</h3>
+<p>对于 Windows 的托盘，个人感觉其实就是一种形式的 Launcher，很多软件都可以从这里双击打开，很容易让用户养成从这里打开的习惯。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>图标用来启动菜单</h3>
+<p>对图标右键，或者对图标长按，会出现一个功能菜单，不用进软件调整了。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>图标可以显示状态和通知</h3>
+<p>还有一些软件的图标，会起到通知的功能，比如 QQ 在闪。</p>
+<p>还有能展现状态的图标，比如杀毒软件图标红了，说明电脑出现了安全问题；打印机图标在动，说明电脑在给打印机任务。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>图标可以触发连招</h3>
+<p>这个主要集中在浏览器插件图标，有很多按下去能「触发」一些功能。</p>
+<p>比如 Readwise 的插件图标按下去后，会把当前网页保存到文章库中，并启用页面标注。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#commander-8" name="commander-8"></a>Commander</h3>
+<p>以上内容可以说是 GUI 范畴。</p>
+<p>而还有一种东西是命令面板，各种命令行</p>
+<p>或者像是 Listary、Alfred 这种，以及 Obsidian 等笔记软件的命令面板，没有图标，只有指令，也能快速实现目标。</p>
+<hr />
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>站内相关链接</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#windows-10" name="windows-10"></a>关于 Windows 系统托盘</h3>
+<p>Windows任务栏最右边的任务托盘可不可以独立出来 <a class="inline-onebox" href="https://meta.appinn.net/t/topic/9625">Windows任务栏最右边的任务托盘可不可以独立出来</a><br />
+目前有没有办法让 windows 11 系统托盘双行显示？<a class="inline-onebox" href="https://meta.appinn.net/t/topic/47874">目前有没有办法让 windows 11 系统托盘双行显示？</a></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a>关于手动排序</h3>
+<p>我个人觉得手动排序和按名称排序是符合人直觉的设计 <a class="inline-onebox" href="https://meta.appinn.net/t/topic/48443/">我个人觉得手动排序和按名称排序是符合人直觉的设计</a></p>
+<h3><a class="anchor" href="https://meta.appinn.net#ios-12" name="ios-12"></a>关于 iOS 的桌面</h3>
+<p>iPadOS 什么时候能出个存放应用的 widget <a class="inline-onebox" href="https://meta.appinn.net/t/topic/31229/">iPadOS 什么时候能出个存放应用的 widget</a><br />
+感觉 iPad 的小组件非常重要 <a class="inline-onebox" href="https://meta.appinn.net/t/topic/31354/">感觉 iPad 的小组件非常重要</a><br />
+最近玩安卓桌面的一些想法记录 <a class="inline-onebox" href="https://meta.appinn.net/t/topic/34439/">最近玩安卓桌面的一些想法记录</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48964">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 08 Nov 2023 10:31:08 +0000</pubDate>
+<pubDate>Wed, 08 Nov 2023 10:31:08 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】Mac录屏软件，4K60帧录制，支持系统声音，实时涂鸦</title>

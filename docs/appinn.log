@@ -6700,3 +6700,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-08 10:12:06.694636
+------------------------------------------------------
+Started: 2023-11-08 12:20:26.055039
+Existing_entries: 131
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [装不下的图标](https://meta.appinn.net/t/topic/48964)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-11-08 12:20:30.247588
