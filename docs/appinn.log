@@ -6781,3 +6781,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-09 06:14:11.200231
+------------------------------------------------------
+Started: 2023-11-09 08:13:53.260206
+Existing_entries: 132
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [[自荐]:NAS文件传输:一个将手机电脑变成内网NAS存储空间的4端跨平台的应用。](https://meta.appinn.net/t/topic/48988)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-11-09 08:13:57.789559
