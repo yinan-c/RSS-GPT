@@ -1419,3 +1419,28 @@ Filter: [用过GPT-4 Turbo以后，我们再也回不去了](https://www.36kr.co
 Filter: [这一次，马斯克只能追赶AI界的苹果](https://www.36kr.com/p/2509284787241218)
 append_entries: 0
 Finish: 2023-11-09 02:20:56.211649
+------------------------------------------------------
+Started: 2023-11-09 04:14:21.523746
+Existing_entries: 197
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 1006
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI工程师平均薪酬92.5万美元，超高薪让科技巨头望尘莫及](https://www.36kr.com/p/2510516942602249)
+Filter: [别让大模型被基准评估坑了，测试集乱入预训练，分数虚高，模型变傻](https://www.36kr.com/p/2510490319798274)
+Token length: 3317
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI的刷屏春晚，揭示了科技巨头的两条路线](https://www.36kr.com/p/2510397533372673)
+Filter: [让“郭德纲”说英语相声，HeyGen的视频生意不好做](https://www.36kr.com/p/2510457802801152)
+Append: [ChatGPT全线大崩溃，奥特曼亲自致歉：流量远超预期](https://www.36kr.com/p/2510485770600713)
+Filter: [2028年第一个AGI将到来？谷歌DeepMind提6条AGI标准，定义5大AGI等级](https://www.36kr.com/p/2510349859242240)
+Append: [OpenAI这波更新会让更多创企走投无路吗？我们汇总了全球从业者的看法](https://www.36kr.com/p/2510461163602181)
+Filter: [微软Xbox拥抱AI，走量内卷加剧](https://www.36kr.com/p/2509717334114308)
+Filter: [产品化的GPT，能否为“百模大战”照亮未来？](https://www.36kr.com/p/2509608572780802)
+Filter: [AI彻底改变音乐节行业的十种方式](https://www.36kr.com/p/2509639969062914)
+Filter: [Google AI布局的新动向：生成式AI助力广告创意](https://www.36kr.com/p/2509451595923460)
+Filter: [AI，芯片巨头的新战场](https://www.36kr.com/p/2509483893571585)
+Filter: [“AI 春晚”结束不到 24 小时，大批 GPT 新用例出炉](https://www.36kr.com/p/2509415421616258)
+Filter: [GPT商店已至，AI的爆款应用还有多远？](https://www.36kr.com/p/2509362696806278)
+Filter: [姚班天才开发《完蛋！我被大模型包围了》游戏爆火，一日用户过万挤爆服务器](https://www.36kr.com/p/2509350619693059)
+append_entries: 4
+Finish: 2023-11-09 04:14:34.711792
