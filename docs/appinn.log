@@ -6880,3 +6880,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [请问有没有在macos 14 上，开源免费的，能够将任意应用窗口置顶的软件？](https://meta.appinn.net/t/topic/49004)
 append_entries: 1
 Finish: 2023-11-10 06:14:34.428075
+------------------------------------------------------
+Started: 2023-11-10 08:13:45.129998
+Existing_entries: 135
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-11-10 08:13:48.939278
