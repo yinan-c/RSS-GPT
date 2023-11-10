@@ -4,6 +4,406 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【🔍搜索酱】 - 又一个多功能搜索引擎切换与聚合搜索脚本，效率工具，搜索引擎辅助增强 | 支持任意页面划词/批量/拖拽/右键搜索图片、文字、页面等</title>
+<link>https://meta.appinn.net/t/topic/32970</link>
+<guid>https://meta.appinn.net/t/topic/32970</guid>
+<content:encoded><![CDATA[
+
+<p>平时工作中搜索引擎跳转功能用得很频繁，之前一直用文科的 searchEngineJumpe 搜索跳转，但早已年久失修，于是去Chrome商店尝试了相关的新扩展，发现大多夹有私货。特别是国内公司做的插件，基本都有购物返链和隐私数据收集。</p>
+<p>而这只是一个简单功能，所以不如自己写一个啦。</p>
+<div class="spoiler"><a href="https://meta.appinn.net/t/topic/32970/1">剧透</a></div>
+<p>这个搜索引擎跳转支持自己拖拽定义位置，同时也支持当前网站的站内搜索，多语言编码设置（例如 shift-jis ），划词搜索，拖拽搜索，站点筛选，多种批量打开，站点克隆，浏览器书签导入，搜索词正则转换以及配置导入导出。</p>
+<p>默认选中文字之后右键长按可调出工具条，在图片上右键长按则可指定图片用于以图搜图。</p>
+<p>更多设置可自行探索（例如 type 下添加 match 项可匹配视频站便于跳转解析站点。没错！当前 url 也能当作参数）。</p>
+<p>我监听了触摸事件，所以理论上支持移动端，不过我没测试，默认设置也没添加移动端的站点。嗯。。。</p>
+<p>是一站式搜索辅助增强方案了</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>搜索前</h2>
+<p>支持所有post get方式，页内提交搜索，全球编码，分类整理，站点克隆，正则匹配关键词，正则替换关键词，点击任意搜索框一键导入搜索引擎等</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>搜索中</h2>
+<p>支持划词搜索，拖拽搜索，以图搜图，指定链接搜索，页面 URL 搜索，页内搜索，快捷键搜索，批量打开，搜索引擎通配符筛选，批量抓取元素多行搜索等</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>搜索后</h2>
+<p>支持页内正则搜索，搜索关键词高亮，关键词定位，自动高亮规则（例如高亮小黄文性癖或给网文人物关键词添加提示文本）等</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>特性：</h2>
+<ul>
+<li>可以搜索图片、链接、视频、音频、页面等（在相应对象上<strong>长按</strong>右键）</li>
+<li>支持任意页面划词搜索（需要<strong>长按</strong>右键，亦可在设置中改为划选立即调出）</li>
+<li>支持站内搜索</li>
+<li>可随意使用快捷键（单个按键或者组合按键）开启搜索（比如 alt+g 谷歌搜索，可随意自定义）</li>
+<li>鼠标右键单击类别图标批量打开同一类别</li>
+<li>按住 shift 左键单击类别图标在新窗口批量打开</li>
+<li>按住 alt 左键单击类别图标批量嵌入打开</li>
+<li>按住 alt + shift 左键单击类别图标以多个单独窗口批量打开</li>
+<li>可以通过正则设置类别仅在指定站点显示</li>
+<li>右键点击 小萌脸 彻底隐藏工具栏</li>
+<li>左键点击 小萌脸 打开配置页</li>
+<li>可随意拖拽 小萌脸，并随意选择位置放置，例如上中，下中，左上，右上，上左，上右等</li>
+<li>支持配置导出与快捷分享</li>
+<li>支持中键后台打开链接</li>
+<li>支持自定义样式</li>
+<li>支持全字符编码</li>
+<li>支持 Post，页内post，无跳转post</li>
+<li>全面的自定义功能，详见最下方</li>
+<li>无第三方依赖库</li>
+<li>自展开当前类别并提前</li>
+<li>不篡改原始页面</li>
+</ul>
+<div class="spoiler"><a href="https://meta.appinn.net/t/topic/32970/1">剧透</a></div>
+ 该有的都有了，当前版本已经无比强大啦，例如 <a href="https://meta.appinn.net/t/topic/32970/1">（点击了解更多详细信息）</a>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="16" src="https://greasyfork.org/vite/assets/blacklogo16-bc64b9f7.png" width="16" />
+
+      <a href="https://greasyfork.org/zh-CN/scripts/445274-searchjumper" rel="noopener nofollow ugc" target="_blank">greasyfork.org</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail animated" height="464" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/0/f0a143973f95850b747bb836a109efebb5ebec39.gif" width="541" /></div>
+
+<h3><a href="https://greasyfork.org/zh-CN/scripts/445274-searchjumper" rel="noopener nofollow ugc" target="_blank">SearchJumper</a></h3>
+
+  <p>高效搜索引擎辅助增强，在搜索时一键切换各大搜索引擎，支持任意页面右键划词搜索与全面自定义</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<h1>
+<a class="anchor" href="https://meta.appinn.net#githubhttpsgithubcomhoothinsearchjumper-5" name="githubhttpsgithubcomhoothinsearchjumper-5"></a><a href="https://github.com/hoothin/SearchJumper" rel="noopener nofollow ugc">Github</a>
+</h1>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#update-6" name="update-6"></a>Update</h2>
+<hr />
+<blockquote>
+<p>2023.6.6</p>
+</blockquote>
+<ul>
+<li>增加了分组内自动排序功能，支持按照使用频率自动排序分组内引擎</li>
+</ul>
+<blockquote>
+<p>2023.5.21</p>
+</blockquote>
+<ul>
+<li>页内搜索强化，支持根据 url 查找高亮链接。也能配合 %t.replace 正则提取链接中的字符并按需屏蔽</li>
+<li>全部搜索页强化，支持外部调用搜索酱中的单个引擎或者某个分类的批量搜索。可以配合 utools 或 popclip 之类的全局划词使用</li>
+</ul>
+<blockquote>
+<p>2023.4.22</p>
+</blockquote>
+<ul>
+<li>添加了直接给file类input赋值的功能，如果是base64数据则转换成相应的数据流，否则转换成文本文件。适用于谷歌翻译图片这类的场景。</li>
+</ul>
+<blockquote>
+<p>2023.4.20</p>
+</blockquote>
+<ul>
+<li>添加了showTips规则项，与bookmarklet类似，但是支持跨域 fetch 与 数据存取，用来在鼠标悬浮时生成数据显示在 tips 上。适用于单位换算，货币度量衡转换等场景。</li>
+</ul>
+<blockquote>
+<p>2023.4.19</p>
+</blockquote>
+<ul>
+<li>webdav 添加了路径功能，可以用来实现不同场景下（公司，家里，校内，校外）的配置同步</li>
+<li>设置页增加了引擎有效性检测</li>
+<li>配置引擎时自定义输入中的select现在可以给option添加title了</li>
+<li>整理了一份chatGPT提示词，在poe页面可右键调用</li>
+<li>其他语言指定</li>
+<li>增加了仅在输入框内最小化弹框的功能</li>
+<li>兼容了xhtml标准的网站</li>
+<li>优化了高亮代码执行效率</li>
+</ul>
+<blockquote>
+<p>2023.3.18</p>
+</blockquote>
+<ul>
+<li>添加了对opensearch.xml的通用支持，例如小众论坛</li>
+<li>添加了模拟输入搜索，可以可视化抓取元素指定操作</li>
+</ul>
+<blockquote>
+<p>2023.3.14</p>
+</blockquote>
+<ul>
+<li>添加了页内选择器提取关键词的功能</li>
+<li>添加了关键词筛选功能，可以根据关键词来匹配引擎，例如通过<code>\w.*[\.点。].*\w|1[a-zA-Z0-9]{22,}</code>来匹配文字链接</li>
+<li>设置页添加了引擎筛选功能，可以通过输入来快速定位分组或引擎</li>
+<li>设置页的分组支持展开了</li>
+<li>设置页拖拽时显示目标位置</li>
+</ul>
+<blockquote>
+<p>2023.3.8</p>
+</blockquote>
+<ul>
+<li>当通过拖拽悬停在萌脸上打开所有站点时，可以直接拖拽至站点上进行搜索了</li>
+<li>切换页内元素抓取时，禁用搜索词输入以避免歧义</li>
+<li>唤出搜索输入框时，回车将默认调用页内搜索第一项进行搜索</li>
+</ul>
+<blockquote>
+<p>2023.3.6</p>
+</blockquote>
+<ul>
+<li>增加了所有站点的独立页面，并支持外部调用</li>
+<li>所有站点页面支持通过通配符筛选引擎了</li>
+<li>添加了搜索时的搜索联想词功能，支持百度、必应和谷歌</li>
+<li>增加了二维码生成功能</li>
+<li>增加了基于opencv模型的二维码识别功能</li>
+<li>增加了命令菜单快捷嗅探当前站点添加引擎的功能</li>
+<li>增加了前移上次使用分组的功能</li>
+<li>添加引擎时记录上次使用的分组位置</li>
+</ul>
+<blockquote>
+<p>2022.10.31</p>
+</blockquote>
+<ul>
+<li>增加了webdav同步的支持</li>
+</ul>
+ 通过 webdav 同步站点配置与高亮规则 <a href="https://meta.appinn.net/t/topic/32970/1">（点击了解更多详细信息）</a>
+<blockquote>
+<p>2022.10.17</p>
+</blockquote>
+<ul>
+<li>增加了导入配置时的站点自定义分类功能，支持分类重命名</li>
+<li>导入时不区分 http 与 https</li>
+<li>导入时同名站点自动添加“_1”后缀</li>
+</ul>
+<blockquote>
+<p>2022.10.17</p>
+</blockquote>
+<ul>
+<li>增加了导入配置时的站点自定义分类功能，支持分类重命名</li>
+<li>导入时不区分 http 与 https</li>
+<li>导入时同名站点自动添加“_1”后缀</li>
+</ul>
+<blockquote>
+<p>2022.10.15</p>
+</blockquote>
+<ul>
+<li>增加了导入配置时的站点筛选功能</li>
+<li>增加了展开全部模式的自定义快捷键绑定</li>
+</ul>
+<blockquote>
+<p>2022.10.8</p>
+</blockquote>
+<ul>
+<li>给 ctrl alt 规则快捷添加框增加了展开功能</li>
+<li>修复了火狐下favicon列表无法滚动的bug</li>
+<li>会记住最后一次添加规则时使用的分类项，下次打开默认选中</li>
+<li>设置页之前偷懒没做的搜索参数i18n多语言最终加上了</li>
+<li>修复了指向跨域图片时无法获取base64的错误</li>
+</ul>
+<blockquote>
+<p>2022.10.3</p>
+</blockquote>
+<ul>
+<li>增加了 iframe 内划选搜索的支持</li>
+<li>修复了启用左键时双击唤起的bug</li>
+</ul>
+<blockquote>
+<p>2022.9.30</p>
+</blockquote>
+<ul>
+<li>优化了 post 提交搜索，相较 Selection Search 通过扩展内页面中转 post 的方法，搜索酱是直接去参跳转后在当前页面提交 post。只是为了兼容一大票古董 http 网页</li>
+<li>添加了双击监听，优化了弹出的磁贴图标显示条件</li>
+<li>按住 ctrl+shift 快捷添加引擎时改成通过 FormData 获取</li>
+</ul>
+<blockquote>
+<p>2022.9.27</p>
+</blockquote>
+<ul>
+<li>给 4 个特殊分类图标加了点击功能，点击即可跳转到相应分类</li>
+<li>发现某些网站判断了 ref，所以添加了 noreferrer 属性</li>
+</ul>
+<blockquote>
+<p>2022.9.23</p>
+</blockquote>
+<ul>
+<li>增加了展开模式，替换了点击logo弹出设置页的功能，弹出设置页的功能移动到了内部的笑脸上</li>
+</ul>
+<blockquote>
+<p>2022.9.20</p>
+</blockquote>
+<ul>
+<li>增加了磁贴菜单，如果设置了鼠标唤出绑定功能键，那么按住功能键右击鼠标就会唤出磁贴而非工具条。</li>
+<li>唤出的磁贴仅显示当前分类的前10个站点，右击类别批量打开，左击类别切换为完整工具条。</li>
+</ul>
+<blockquote>
+<p>2022.9.19</p>
+</blockquote>
+<ul>
+<li>給拖拽搜索圓盤中間的搜索醬 logo 綁定了功能，如果拖拽到 logo 上則會喚出搜索條。</li>
+<li>添加了“搜索此项”的命令项，配合油猴管理器的右键菜单可实现右键菜单搜索的功能，默认调用所指向分类的第一个站点进行搜索</li>
+<li>右键绑定功能键不再覆盖右键长按，绑定了功能键之后依旧可以使用长按唤出</li>
+</ul>
+<blockquote>
+<p>2022.9.17</p>
+</blockquote>
+<ul>
+<li>优化了一下分屏聚合搜索，现在除了少数安全限制很严格的站（例如You,鸭鸭）之外都能嵌入多重分屏了。</li>
+</ul>
+<blockquote>
+<p>2022.9.16</p>
+</blockquote>
+<ul>
+<li>按住 Alt 打开小窗时使用移动端 UA 以获取更好的视图</li>
+<li>添加了【文字】【链接】转二维码功能</li>
+<li>如果当前规则仅有 %u 且目标对象为链接，则使用目标链接代替页面 url</li>
+</ul>
+<blockquote>
+<p>2022.9.13</p>
+</blockquote>
+<ul>
+<li>添加了极简模式，该模式下默认只会显示当前展开的分类，鼠标划过才会显示其他可用分类</li>
+<li>添加了自定义参数框，升级了原先的prompt自定义输入，现在可以支持select选项或者input输入</li>
+<li>添加了Picviewer CE+ 的调用项</li>
+<li>添加了 Pixlr 在线图片编辑的调用项</li>
+<li>优化了工具条缩小状态</li>
+</ul>
+<blockquote>
+<p>2022.9.11</p>
+</blockquote>
+<ul>
+<li>添加了下载参数，<code>d:%u</code> 即可下载指向 url，可以使用正则替换完成更多操作。</li>
+<li>筛选预选项增加了域名预选项与描述预选项。</li>
+</ul>
+<blockquote>
+<p>2022.9.5</p>
+</blockquote>
+<ul>
+<li>添加了禁用类别自动展开的选项</li>
+<li>添加了在搜索引擎页面隐藏的选项</li>
+<li>添加了高亮关键词的生效范围，可使用元素抓取器抓取生效范围的选择器</li>
+<li>添加了新增高亮词的入口按钮</li>
+<li>添加了站点筛选的类别筛选项，例如 <code>电影**小众</code> 代表筛选电影分类下的小众站点</li>
+</ul>
+<blockquote>
+<p>2022.8.31</p>
+</blockquote>
+<ul>
+<li>升级了通配符匹配，类似正则，用^代表开头，$代表结尾</li>
+<li>添加了站点展开功能，默认仅显示当前分类的前十个站点，点击展开按钮后显示全部</li>
+<li>增加了站点筛选时的备选项，配合^$就能精确定位了</li>
+<li>拖拽站点至搜索条外就能快速在新标签页打开</li>
+<li>适配了低版本的浏览器，例如chrome 79.0.3945.130</li>
+</ul>
+<blockquote>
+<p>2022.8.29</p>
+</blockquote>
+<ul>
+<li>更改页内查找为如果输入框开启，ESC键关闭输入框，否则ESC键清除高亮</li>
+<li>给设置页的划词、链接、图片、页面当前生效分类添加四色标记，方便快速定位并且修改拖拽圆盘与呼出站点项</li>
+</ul>
+<blockquote>
+<p>2022.8.28</p>
+</blockquote>
+<ul>
+<li>更新了页内点击字段，如果与当前页面相同，或者规则是#p{开头的，则直接开始同步one by one点击输入操作，这样改了之后可以实现一些重复表单输入的需求。当然检测按钮或者输入框是否出现以及react输入框的兼容是自动进行的，规则里只需要执行顺序和选择器（selector或xpath）就行了</li>
+<li>优化了移动端的显示，兼容了移动端搜索条的拖动操作。</li>
+<li>页内搜索时回车添加关键词时自动跳转到最新的关键词。</li>
+<li>开启缓存后若缓存失败，则增加失败标记，下一次直接跳过失败项，直至在设置页刷新缓存。</li>
+<li>修复了“划词后左键单击唤出”开启时与拖拽搜索的冲突。</li>
+</ul>
+<blockquote>
+<p>2022.8.27</p>
+</blockquote>
+<ul>
+<li>添加了划选文字时使用唤出快捷键不弹出输入框的选项</li>
+<li>添加了iframe内关键词的监听</li>
+<li>添加了默认打开页内搜索的选项</li>
+<li>阻止页内搜索快捷键冒泡，因此如果设置为ctrl+f就可以替换掉系统搜索了</li>
+<li>把鼠标绑定功能键和唤出输入框的功能键拆分开来了，现在可以分别定义</li>
+<li>添加了esc键关闭输入框的功能</li>
+</ul>
+<blockquote>
+<p>2022.8.26</p>
+</blockquote>
+<ul>
+<li>根据关键词屏蔽父级元素</li>
+</ul>
+<blockquote>
+<p>2022.8.25</p>
+</blockquote>
+<ul>
+<li>重构了一下引擎筛选功能，把筛选输入与关键词输入拆分开来了。可以用tab键与shift+tab键切换输入框。</li>
+</ul>
+<blockquote>
+<p>2022.8.24</p>
+</blockquote>
+<ul>
+<li>添加了双击页内搜索词弹出修改窗口的功能，以及一键保存当前高亮方案的功能，方便我做一些简单的笔记。</li>
+<li>修复了左键单击唤出与点击三下选中段落的冲突。</li>
+<li>优化了一下元素抓取器的展开功能，对应小众论坛的 discourse 框架这种一股脑把 tag 组别这些属性放进 className 里去的网站。</li>
+</ul>
+<blockquote>
+<p>2022.8.22</p>
+</blockquote>
+<ul>
+<li>添加了 alt 选择自动高亮功能，开启后按住 alt 可以连续选取。</li>
+<li>把字体缓存和图标缓存分开了，这样应该可以解决字体加载缺项问题了。</li>
+<li>添加了搜索框大小调节功能，在右侧边缘按住调整即可。</li>
+<li>修复了定位侧边栏点击最后一个高亮项下方的空白区域不进行定位的问题。</li>
+<li>把元素抓取的蓝框塞到了搜索框下面，避免选择大尺寸元素时被覆盖导致无法进行搜索框操作的问题。</li>
+</ul>
+<blockquote>
+<p>2022.8.21</p>
+</blockquote>
+<ul>
+<li>增加了同类选择功能，选择元素点击展开之后能选中所有同类元素，便于批量复制后批量搜索。</li>
+<li>点击复制按钮则可以复制富文本内容，便于带格式粘贴。</li>
+<li>增加了任意单个页内搜素关键词删除功能。</li>
+</ul>
+<blockquote>
+<p>2022.8.17</p>
+</blockquote>
+<ul>
+<li>增加页内搜索。支持多词搜索与分组定位、正则匹配，自定义提示与样式，自定义分隔符，所有标签页全局高亮，定位导航侧边栏等。</li>
+</ul>
+<blockquote>
+<p>2022.8.3</p>
+</blockquote>
+<ul>
+<li>添加了本地本地图标上传功能。</li>
+<li>另外把新窗口打开下放到了站点一级，目前有了全局打开选项、类别打开选项、站点打开选项三种。优先级依次提高，此改动主要是因为我在拖拽搜索时同一类别会希望有不同打开方式，而又懒得使用功能键。</li>
+</ul>
+<blockquote>
+<p>2022.8.2</p>
+</blockquote>
+<p>增加了页内信息抓取，例如</p>
+<ul>
+<li>
+<code>%element{.main}</code> 代表用css选择器选择".main"并且返回文字内容</li>
+<li>也可以用xpath抓取</li>
+<li>
+<code>%element{}.prop()</code> 代表取元素的属性值</li>
+<li>也可以用之前提到的正则替换</li>
+</ul>
+<blockquote>
+<p>2022.7.30</p>
+</blockquote>
+<p>加了个强大的json编辑器</p>
+<blockquote>
+<p>2022.6.28</p>
+</blockquote>
+<p>添加了cmd调用自动化配置功能，比如添加</p>
+<pre><code class="lang-auto">"D:\Program Files\yt-dlp\yt-dlp.exe" %u
+</code></pre>
+<p>自动配置yt-dlp下载youtube视频的功能</p>
+<p>已经变成了<a href="https://meta.appinn.net/t/topic/26489">右键搜</a>的形状</p>
+            <p><small>216 个帖子 - 23 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/32970">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 21 May 2022 09:10:26 +0000</pubDate>
+<pubDate>Sat, 21 May 2022 09:10:26 +0000</pubDate>
+</item>
 
 <item>
 <title>[自荐]:NAS文件传输:一个将手机电脑变成内网NAS存储空间的4端跨平台的应用。</title>

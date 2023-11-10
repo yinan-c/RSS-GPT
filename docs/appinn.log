@@ -6854,3 +6854,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-10 00:50:37.050687
+------------------------------------------------------
+Started: 2023-11-10 02:20:25.163622
+Existing_entries: 133
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【🔍搜索酱】 - 又一个多功能搜索引擎切换与聚合搜索脚本，效率工具，搜索引擎辅助增强 | 支持任意页面划词/批量/拖拽/右键搜索图片、文字、页面等](https://meta.appinn.net/t/topic/32970)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-11-10 02:20:28.783926
