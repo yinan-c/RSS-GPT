@@ -6921,3 +6921,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [寻一款开源在线相册软件](https://meta.appinn.net/t/topic/40404)
 append_entries: 1
 Finish: 2023-11-10 16:13:52.264209
+------------------------------------------------------
+Started: 2023-11-10 18:13:40.525778
+Existing_entries: 136
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-11-10 18:13:44.604328
