@@ -7305,3 +7305,15 @@ Existing_entries: 217
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-10 10:12:01.966462
+------------------------------------------------------
+Started: 2023-11-10 12:20:21.163976
+Existing_entries: 217
+Fetching from https://rsshub.app/sspai/index
+Token length: 8301
+Summarized using GPT-3.5-turbo-1106
+Append: [本周看什么 | 最近值得一看的 9 部作品](https://sspai.com/post/84326)
+Token length: 6274
+Summarized using GPT-3.5-turbo-1106
+Append: [全场满赠、买一送一，正版软件「双十一」开始了](https://sspai.com/post/84322)
+append_entries: 2
+Finish: 2023-11-10 12:20:37.406055
