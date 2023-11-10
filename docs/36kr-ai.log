@@ -1740,3 +1740,29 @@ Filter: [GPT-5明年降临？爆料人泄露多模态Gobi就是GPT-5，已初现
 Filter: [大模型走捷径「刷榜」？数据污染问题值得重视](https://www.36kr.com/p/2510690620784900)
 append_entries: 0
 Finish: 2023-11-10 08:15:01.520045
+------------------------------------------------------
+Started: 2023-11-10 10:13:00.492467
+Existing_entries: 206
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 3579
+Summarized using GPT-3.5-turbo-1106
+Append: [ChatGPT开始在商业化发力，2.0时代不比技术比赚钱？](https://www.36kr.com/p/2512129793957766)
+Filter: [太疯狂，GPTs上线：奥特曼表演手搓马斯克大模型，还有人已搞出第三方市场（附教程）](https://www.36kr.com/p/2512218441519361)
+Filter: [AI投资已经凉了吗？](https://www.36kr.com/p/2512020153057281)
+Token length: 4760
+Summarized using GPT-3.5-turbo-1106
+Append: [Nature：AI检测器又活了？成功率高达98%，吊打OpenAI](https://www.36kr.com/p/2512203598975234)
+Append: [「OpenAI春晚」对我们意味着什么？比尔·盖茨亲笔撰文讲透了](https://www.36kr.com/p/2512173602640128)
+Append: [他们想把ChatGPT，做成下一代 iPhone](https://www.36kr.com/p/2511952656957446)
+Append: [GPTs 今日上线，马斯克热评：OpenAI 每发布一个功能，就消灭了一家初创公司](https://www.36kr.com/p/2512142721110281)
+Append: [奥特曼投资前苹果员工，公司首款AI硬件炸圈，支持访问ChatGPT](https://www.36kr.com/p/2512140615192584)
+Append: [OpenAI遭黑客攻击，定制版GPT虽迟但到：今日全量上线](https://www.36kr.com/p/2512139846340611)
+Filter: [复盘深度学习革命](https://www.36kr.com/p/2511910966673666)
+Filter: [对话凯文·凯利：谈AI颠覆世界还很早，现在是黑莓时刻](https://www.36kr.com/p/2511908168826888)
+Filter: [抖音测试首个图文类AIGC工具Dreamina，或用于抖音内容创作](https://www.36kr.com/p/2511833539796870)
+Filter: [换帅+大模型开源，昆仑万维和周亚辉成功“翻身”？](https://www.36kr.com/p/2511011506339840)
+Filter: [知海图找寻指南针](https://www.36kr.com/p/2510966128476419)
+Filter: [AI力宏获官方授权，但AI歌手还没造出“顶流”](https://www.36kr.com/p/2510950426263812)
+Filter: [大模型，果然成了乌镇峰会C位](https://www.36kr.com/p/2510895090401285)
+append_entries: 7
+Finish: 2023-11-10 10:13:17.745411
