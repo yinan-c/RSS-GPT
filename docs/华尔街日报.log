@@ -1,0 +1,7 @@
+------------------------------------------------------
+Started: 2023-11-11 14:19:54.850405
+Existing_entries: 0
+Fetching from https://feedx.net/rss/wsj.xml
+Feed error: document declared as us-ascii, but parsed as utf-8
+append_entries: 0
+Finish: 2023-11-11 14:19:55.094992
