@@ -54,6 +54,5 @@
 
 如果你觉得本项目有帮助，欢迎 star。
 
-- https://feedx.net/rss/wsj.xml -> https://socekin.github.io/ReadNext/华尔街日报.xml
+- https://feedx.net/rss/wsj.xml, https://dedicated.wallstreetcn.com/rss.xml, https://feedx.net/rss/nytimes.xml -> https://socekin.github.io/ReadNext/新闻.xml
 - https://cn.gijn.org/feed/zh-hant/ -> https://socekin.github.io/ReadNext/深度报道.xml
-- https://dedicated.wallstreetcn.com/rss.xml -> https://socekin.github.io/ReadNext/华尔街见闻.xml

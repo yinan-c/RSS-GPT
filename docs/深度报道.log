@@ -34,3 +34,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [GIJC23 主題演講：全球黑客危機下，調查記者可以如何反擊？](https://cn.gijn.org/2023/09/21/gijc23-keynote-speech/zh-hant/)
 append_entries: 10
 Finish: 2023-11-11 14:20:36.613541
+------------------------------------------------------
+Started: 2023-11-11 14:29:15.431722
+Existing_entries: 10
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-11-11 14:29:15.806357

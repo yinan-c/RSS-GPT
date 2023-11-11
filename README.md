@@ -50,6 +50,5 @@ These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/R
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there is any question using the script or any suggestions.
 
-- https://feedx.net/rss/wsj.xml -> https://socekin.github.io/ReadNext/华尔街日报.xml
+- https://feedx.net/rss/wsj.xml, https://dedicated.wallstreetcn.com/rss.xml, https://feedx.net/rss/nytimes.xml -> https://socekin.github.io/ReadNext/新闻.xml
 - https://cn.gijn.org/feed/zh-hant/ -> https://socekin.github.io/ReadNext/深度报道.xml
-- https://dedicated.wallstreetcn.com/rss.xml -> https://socekin.github.io/ReadNext/华尔街见闻.xml
