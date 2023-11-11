@@ -1887,3 +1887,10 @@ Filter: [对话凯文·凯利：谈AI颠覆世界还很早，现在是黑莓时�
 Filter: [抖音测试首个图文类AIGC工具Dreamina，或用于抖音内容创作](https://www.36kr.com/p/2511833539796870)
 append_entries: 1
 Finish: 2023-11-11 02:50:01.764188
+------------------------------------------------------
+Started: 2023-11-11 04:13:36.622797
+Existing_entries: 216
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
