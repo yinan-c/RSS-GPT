@@ -286,7 +286,7 @@ max_entries = 1000
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 U_NAME = os.environ.get('U_NAME')
-deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
+deployment_url = f'https://{U_NAME}.github.io/ReadNext/'
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
 summary_length = int(get_cfg('cfg', 'summary_length'))
