@@ -2080,3 +2080,10 @@ Filter: [AI投资已经凉了吗？](https://www.36kr.com/p/2512020153057281)
 Filter: [复盘深度学习革命](https://www.36kr.com/p/2511910966673666)
 append_entries: 1
 Finish: 2023-11-12 06:15:40.594439
+------------------------------------------------------
+Started: 2023-11-12 08:15:08.927201
+Existing_entries: 217
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
