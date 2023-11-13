@@ -7539,3 +7539,15 @@ Existing_entries: 223
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-13 10:12:25.329728
+------------------------------------------------------
+Started: 2023-11-13 12:21:13.412536
+Existing_entries: 223
+Fetching from https://rsshub.app/sspai/index
+Token length: 4859
+Summarized using GPT-3.5-turbo-1106
+Append: [派评 | 近期值得关注的 App](https://sspai.com/post/84389)
+Token length: 5519
+Summarized using GPT-3.5-turbo-1106
+Append: [城市漫步指南：寻找记忆中的什切青](https://sspai.com/post/70676)
+append_entries: 2
+Finish: 2023-11-13 12:21:54.146799
