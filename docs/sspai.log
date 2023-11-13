@@ -7527,3 +7527,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [GPTs builder 上手体验：我花 5 分钟时间做了一个 GPT 机器人](https://sspai.com/post/84325)
 append_entries: 1
 Finish: 2023-11-13 06:14:46.339269
+------------------------------------------------------
+Started: 2023-11-13 08:14:42.549282
+Existing_entries: 223
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-11-13 08:14:42.943626
