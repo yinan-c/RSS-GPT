@@ -7161,3 +7161,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-13 04:13:17.790916
+------------------------------------------------------
+Started: 2023-11-13 06:14:35.632582
+Existing_entries: 136
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [求推薦瀏覽器擴充 Trancy 的替代品](https://meta.appinn.net/t/topic/49075)
+Append: [有沒有能自動安裝瀏覽器擴充的方法? 類似package manager 那樣](https://meta.appinn.net/t/topic/49073)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2023-11-13 06:14:39.185313
