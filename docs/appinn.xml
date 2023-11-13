@@ -4,6 +4,69 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>老胡的周刊（第114期）</title>
+<link>https://meta.appinn.net/t/topic/49158</link>
+<guid>https://meta.appinn.net/t/topic/49158</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#pyvideotranshttpsgithubcomjianchang512pyvideotrans-2" name="pyvideotranshttpsgithubcomjianchang512pyvideotrans-2"></a><a href="https://github.com/jianchang512/pyvideotrans" rel="noopener nofollow ugc">pyvideotrans</a></h3>
+<p>将视频从一种语言翻译为另一种语言，并添加配音，这个最近火出圈了：</p>
+<p><img alt="pyvideotrans" height="456" src="https://images-1252557999.file.myqcloud.com/uPic/pyvideotrans.jpg" width="689" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#yuque-toolshttpsgithubcomvannvanyuque-tools-3" name="yuque-toolshttpsgithubcomvannvanyuque-tools-3"></a><a href="https://github.com/vannvan/yuque-tools" rel="noopener nofollow ugc">yuque-tools</a></h3>
+<p>玩转语雀-朴实无华的语雀工具集合，语雀知识库批量导出工具(无需Token)｜浏览器插件助手：</p>
+<ul>
+<li>个人知识库</li>
+<li>空间(团队)知识库</li>
+<li>协作知识库</li>
+<li>小记</li>
+</ul>
+<p><img alt="yuque-tools" height="181" src="https://images-1252557999.file.myqcloud.com/uPic/yuque-tools.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#hackbrowserdatahttpsgithubcommoond4rkhackbrowserdata-4" name="hackbrowserdatahttpsgithubcommoond4rkhackbrowserdata-4"></a><a href="https://github.com/moonD4rk/HackBrowserData" rel="noopener nofollow ugc">HackBrowserData</a></h3>
+<p><code>HackBrowserData</code> 是一个浏览器数据（密码|历史记录|Cookie|书签|信用卡|下载记录|localStorage|浏览器插件）的导出工具，支持全平台主流浏览器：</p>
+<p><img alt="webhbd" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/webhbd.png" width="607" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#llmfarmhttpsgithubcomguinmoonllmfarm-6" name="llmfarmhttpsgithubcomguinmoonllmfarm-6"></a><a href="https://github.com/guinmoon/LLMFarm" rel="noopener nofollow ugc">LLMFarm</a></h3>
+<p><code>LLMFarm</code> 是一款用于与大型语言模型（LLM）配合使用的iOS和MacOS应用程序，它允许您可以使用某些参数加载不同的 LLM：</p>
+<p><img alt="LLMFarm" height="382" src="https://images-1252557999.file.myqcloud.com/uPic/LLMFarm.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#pear-rechttpsgithubcom027xiguapipear-rec-7" name="pear-rechttpsgithubcom027xiguapipear-rec-7"></a><a href="https://github.com/027xiguapi/pear-rec" rel="noopener nofollow ugc">pear-rec</a></h3>
+<p><code>pear-rec</code>(梨子 rec) 是一个跨平台的截图、录屏、录音、录像软件：</p>
+<p><img alt="pear-rec" height="337" src="https://images-1252557999.file.myqcloud.com/uPic/pear-rec.jpg" width="689" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#kopiahttpsgithubcomkopiakopia-8" name="kopiahttpsgithubcomkopiakopia-8"></a><a href="https://github.com/kopia/kopia" rel="noopener nofollow ugc">kopia</a></h3>
+<p>跨平台备份/还原工具，它能够将指定的文件和目录加密压缩后生成快照，然后上传到远程服务器或云存储，实现远程备份数据的功能，开箱即用支持命令行和 <code>GUI</code> 两种使用方式：</p>
+<p><img alt="kopia" height="366" src="https://images-1252557999.file.myqcloud.com/uPic/kopia.webp" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#generative-ai-for-beginnershttpsgithubcommicrosoftgenerative-ai-for-beginners-10" name="generative-ai-for-beginnershttpsgithubcommicrosoftgenerative-ai-for-beginners-10"></a><a href="https://github.com/microsoft/generative-ai-for-beginners" rel="noopener nofollow ugc">generative-ai-for-beginners</a></h3>
+<p>微软免费课程：12堂课入门生成式AI，从而开始构建你自己的生成式人工智能应用程序：</p>
+<p><img alt="generative-ai-for-beginners" height="388" src="https://images-1252557999.file.myqcloud.com/uPic/generative-ai-for-beginners.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#rehabilitationguidehttpsgithubcomansonznlrehabilitationguide-11" name="rehabilitationguidehttpsgithubcomansonznlrehabilitationguide-11"></a><a href="https://github.com/AnsonZnl/RehabilitationGuide" rel="noopener nofollow ugc">RehabilitationGuide</a></h3>
+<p>颈椎病腰突康复指南，为程序员群体提供简单可靠的康复指南：</p>
+<p><img alt="web-visual-bookmark@2x" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/web-visual-bookmark@2x.png" width="607" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-12" name="h-12"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#anybthttpsanybtethlimo-13" name="anybthttpsanybtethlimo-13"></a><a href="https://anybt.eth.limo/" rel="noopener nofollow ugc">AnyBT</a></h3>
+<p>种子搜索引擎，下载你想要的资源：</p>
+<p><img alt="anybt" height="337" src="https://images-1252557999.file.myqcloud.com/uPic/anybt.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#lookscannediohttpslookscannedio-14" name="lookscannediohttpslookscannedio-14"></a><a href="https://lookscanned.io/" rel="noopener nofollow ugc">lookscanned.io</a></h3>
+<p><a href="https://github.com/rwv/lookscanned.io" rel="noopener nofollow ugc">lookscanned.io</a> 是一个开源网页项目，依托 WebAssembly 等先进技术，无需打印之后再扫描这类繁琐的过程。仅需点击下按钮，分秒之间，你就能得到所需要的扫描件了：</p>
+<p><img alt="lookscanned" height="366" src="https://images-1252557999.file.myqcloud.com/uPic/lookscanned.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-15" name="h-15"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><img alt=":partying_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" />我基于ChatGPT做了个<a href="https://mp.weixin.qq.com/s/3ohE-rm6kryC07parr29bQ" rel="noopener nofollow ugc">微信端的老胡信息周刊QA</a>，欢迎免费体验</li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49158">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 13 Nov 2023 15:58:29 +0000</pubDate>
+<pubDate>Mon, 13 Nov 2023 15:58:29 +0000</pubDate>
+</item>
 
 <item>
 <title>求推薦瀏覽器擴充 Trancy 的替代品</title>
