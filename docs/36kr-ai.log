@@ -2298,3 +2298,10 @@ Filter: [图像涂哪就动哪，Gen-2新功能“神笔马良”爆火，网友
 Filter: [乌镇世界互联网大会“关键词”：AI、AIGC和算力](https://www.36kr.com/p/2514648097415047)
 append_entries: 0
 Finish: 2023-11-13 08:14:58.488964
+------------------------------------------------------
+Started: 2023-11-13 10:13:30.102210
+Existing_entries: 224
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
