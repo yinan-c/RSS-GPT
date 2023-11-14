@@ -7284,3 +7284,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-14 10:12:14.198891
+------------------------------------------------------
+Started: 2023-11-14 12:20:39.623257
+Existing_entries: 139
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chromium浏览器不支持HTML5播放器，播放不了视频，怎么解决？](https://meta.appinn.net/t/topic/49204)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【开发者自荐】Mac 平台休息提醒工具，欢迎体验~](https://meta.appinn.net/t/topic/49084)
+append_entries: 2
+Finish: 2023-11-14 12:20:43.844471
