@@ -7587,3 +7587,12 @@ Existing_entries: 225
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-14 00:51:05.487036
+------------------------------------------------------
+Started: 2023-11-14 02:21:14.183509
+Existing_entries: 225
+Fetching from https://rsshub.app/sspai/index
+Token length: 2440
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：vivo X100 系列发布、长江存储在美起诉美光科技等](https://sspai.com/post/84399)
+append_entries: 1
+Finish: 2023-11-14 02:21:19.926339

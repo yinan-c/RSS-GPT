@@ -2462,3 +2462,24 @@ Filter: [谷歌大模型研究陷重大争议：训练数据之外完全无法�
 Filter: [2028年人类将迎来AGI：DeepMind联合创始人长文预测未来AI发展](https://www.36kr.com/p/2516164119482373)
 append_entries: 1
 Finish: 2023-11-14 00:52:22.612413
+------------------------------------------------------
+Started: 2023-11-14 02:21:41.199258
+Existing_entries: 228
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [GPT-4 帮助员工绩效提升 40%](https://www.36kr.com/p/2516918945452296)
+Filter: [GPT-4作弊被抓，吉娃娃or松饼打乱顺序就出错，LeCun：警惕在训练集上测试](https://www.36kr.com/p/2516912621096967)
+Filter: [基于大模型做电商“内容工厂”，「极睿科技」获顺为领投B轮融资 | 36氪首发](https://www.36kr.com/p/2514166173913345)
+Filter: [谷歌DeepMind爆火动画18秒解释LLM原理，网友蒙圈，组团求GPT-4下场分析](https://www.36kr.com/p/2516627070472201)
+Filter: [UNC斯坦福等曝光GPT-4V意外漏洞，被人类哄骗数出8个葫芦娃，LeCun和Jim Fan震惊了](https://www.36kr.com/p/2516585065828354)
+Filter: [牛津经济研究院：AI能拯救全球经济增长的下滑趋势吗？](https://www.36kr.com/p/2516583655563140)
+Filter: [未来AI将有五大发展趋势？2024年将进入“有意义的人工智能时代”](https://www.36kr.com/p/2516583609737094)
+Filter: [连葫芦娃都数不明白，解说英雄联盟的GPT-4V面临幻觉挑战](https://www.36kr.com/p/2516535678816516)
+Filter: [用AI当导演，一个人就能拍电影？](https://www.36kr.com/p/2516508249120897)
+Filter: [各路大神献出自定义GPT，24小时Top 9名单在这](https://www.36kr.com/p/2516535362572545)
+Filter: [AI“鹦鹉学舌”，是偏见吗？](https://www.36kr.com/p/2512527507984393)
+Filter: [AI图片的崛起与风险：电商平台如何利用人工智能提升商品展示效果](https://www.36kr.com/p/2516418831388933)
+Filter: [2023 年人工智能现状报告](https://www.36kr.com/p/2485347593279620)
+Filter: [谷歌大模型研究陷重大争议：训练数据之外完全无法泛化？网友：AGI奇点推迟了](https://www.36kr.com/p/2516165707452678)
+Filter: [2028年人类将迎来AGI：DeepMind联合创始人长文预测未来AI发展](https://www.36kr.com/p/2516164119482373)
+append_entries: 0
+Finish: 2023-11-14 02:21:41.790433
