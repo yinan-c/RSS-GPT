@@ -2600,3 +2600,10 @@ Filter: [让AI成为每个人的“法律顾问”，「InssentAI」为法律行
 Filter: [GPT-4 帮助员工绩效提升 40%](https://www.36kr.com/p/2516918945452296)
 append_entries: 1
 Finish: 2023-11-14 12:24:32.453597
+------------------------------------------------------
+Started: 2023-11-14 14:14:45.574243
+Existing_entries: 232
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai

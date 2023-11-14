@@ -5,17 +5,38 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【开发者自荐】Win、Mac图片批量编辑软件</title>
+<link>https://meta.appinn.net/t/topic/49129</link>
+<guid>https://meta.appinn.net/t/topic/49129</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>功能介绍</h2>
+<p>一个图片批量编辑的软件，可以压缩、格式转换、缩放、旋转、加水印、转字符画、像素画、制作文字图片等。</p>
+<p>软件基于JavaFX，所有图片操作全部在本地完成，不会上传图片，转换速度超级快，批量操作不要太方便</p>
+<h2><a class="anchor" href="https://meta.appinn.net#gui-2" name="gui-2"></a>GUI截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/0/c0300a3c7b1cba7c5de35575607766a0e937af2c.jpeg" title="image"><img alt="image" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/0/c0300a3c7b1cba7c5de35575607766a0e937af2c_2_690x388.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/c/9cc6666344215f1b7427df079bb6e150f3f9103c.jpeg" title="image"><img alt="image" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/c/9cc6666344215f1b7427df079bb6e150f3f9103c_2_690x388.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/2/320eaa4a30146014efec4a292e1574ab8f242c63.jpeg" title="image"><img alt="image" height="455" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/2/320eaa4a30146014efec4a292e1574ab8f242c63_2_690x455.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>下载体验</h2>
+<p><a href="https://github.com/wcxgit/picture_desktop/releases/download/v2.22.2/picture_2.22.2.exe" rel="noopener nofollow ugc">Windows</a><br />
+<a href="https://github.com/wcxgit/picture_desktop/releases/download/v2.22.2/picture-2.22.2-mac.zip" rel="noopener nofollow ugc">Mac OS</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49129">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 13 Nov 2023 14:18:26 +0000</pubDate>
+<pubDate>Mon, 13 Nov 2023 14:18:26 +0000</pubDate>
+</item>
+
+<item>
 <title>Chromium浏览器不支持HTML5播放器，播放不了视频，怎么解决？</title>
 <link>https://meta.appinn.net/t/topic/49204</link>
 <guid>https://meta.appinn.net/t/topic/49204</guid>
 <content:encoded><![CDATA[
-
 <p>如标题所示，这几天转用Chromium浏览器，发现了下载的原生的108版本的Chromium浏览器无法播放视频，找了半天教程，不知道该咋解决。<br />
 </p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/2/0239d010340d73161da66ca0fcfe262507ccedaa.png" title="image"><img alt="image" height="173" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/2/0239d010340d73161da66ca0fcfe262507ccedaa.png" width="690" /></a></div><p></p>
             <p><small>7 个帖子 - 3 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/49204">阅读完整话题</a></p>
 ]]></content:encoded>
-<pubDate>Tue, 14 Nov 2023 10:44:54 +0000</pubDate>
 <pubDate>Tue, 14 Nov 2023 10:44:54 +0000</pubDate>
 </item>
 <item>
@@ -23,7 +44,6 @@
 <link>https://meta.appinn.net/t/topic/49084</link>
 <guid>https://meta.appinn.net/t/topic/49084</guid>
 <content:encoded><![CDATA[
-
 <h1><a class="anchor" href="https://meta.appinn.net#h-1-1" name="h-1-1"></a>1、下载地址</h1>
 <p>App Store 下载：<a href="https://apps.apple.com/cn/app/%E4%B8%80%E4%BC%91-%E4%BC%91%E6%81%AF%E4%B8%80%E4%BC%9A%E5%84%BF/id6467176005?mt=12" rel="noopener nofollow ugc">一休</a><br />
 健康健美分类排行第一名</p>
@@ -60,9 +80,7 @@
             <p><a href="https://meta.appinn.net/t/topic/49084">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 13 Nov 2023 07:15:33 +0000</pubDate>
-<pubDate>Mon, 13 Nov 2023 07:15:33 +0000</pubDate>
 </item>
-
 <item>
 <title>老胡的周刊（第114期）</title>
 <link>https://meta.appinn.net/t/topic/49158</link>
