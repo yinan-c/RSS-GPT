@@ -7617,3 +7617,12 @@ Existing_entries: 227
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-14 08:14:07.044008
+------------------------------------------------------
+Started: 2023-11-14 10:12:15.525217
+Existing_entries: 227
+Fetching from https://rsshub.app/sspai/index
+Token length: 3261
+Summarized using GPT-3.5-turbo-1106
+Append: [一款低预算 Steam 独立游戏，如何做好发行](https://sspai.com/post/81359)
+append_entries: 1
+Finish: 2023-11-14 10:12:22.584156

@@ -7252,3 +7252,17 @@ Fetching from https://rsshub.app/36kr/motif/327685734401
 Feed error: 404
 append_entries: 0
 error when rendering xml, skip docs/36kr
+------------------------------------------------------
+Started: 2023-11-14 10:12:25.850114
+Existing_entries: 333
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Feed error: 404
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+Append: [这个苹果官方App，为啥可以让火锅梦游仙境？](https://www.36kr.com/p/2517882120540169)
+append_entries: 1
+Finish: 2023-11-14 10:15:13.286672
