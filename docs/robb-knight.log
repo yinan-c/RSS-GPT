@@ -3105,3 +3105,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [Using the Johnny Decimal System](https://rknight.me/using-the-johnny-decimal-system/)
 append_entries: 1
 Finish: 2023-11-15 18:14:12.728331
+------------------------------------------------------
+Started: 2023-11-15 20:11:47.250615
+Existing_entries: 115
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2023-11-15 20:11:48.515177

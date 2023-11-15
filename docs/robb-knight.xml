@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Using the Johnny Decimal System</title>
 <link>https://rknight.me/using-the-johnny-decimal-system/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Johnny.Decimal, organising files, categories, areas, IDs
 
-JD系统是用于组织文件的一种方法，包括categories（类别）, areas（区域）, IDs（文件）。这种系统需要通过Workbook和Index来具体实施，作者在实践过程中发现系统对于找到所需文件非常有效。在使用该系统的过程中，作者也发现可以将该系统的一些思想应用在其他方面。整体来说，JD系统对作者来说非常有效，帮助他更快地找到文件。<br><br>总结: JD系统是一种用于组织文件的方法，通过细分categories，areas和IDs来管理文件，通过Workbook和Index来实施，对于找到所需文件非常有效。同样的思想也可以应用在其他方面。 <div>
+JD系统是用于组织文件的一种方法，包括categories（类别）, areas（区域）, IDs（文件）。这种系统需要通过Workbook和Index来具体实施，作者在实践过程中发现系统对于找到所需文件非常有效。在使用该系统的过程中，作者也发现可以将该系统的一些思想应用在其他方面。整体来说，JD系统对作者来说非常有效，帮助他更快地找到文件。<br /><br />总结: JD系统是一种用于组织文件的方法，通过细分categories，areas和IDs来管理文件，通过Workbook和Index来实施，对于找到所需文件非常有效。同样的思想也可以应用在其他方面。 <div>
 <p>In <a href="https://listen.hemisphericviews.com/025">episode 028 of Hemispheric Views</a> <a href="https://canion.blog">Andrew</a> mentioned the <a href="https://johnnydecimal.com">Johnny Decimal (JD) system</a> for organising files. I made a note of it as a thing to look into. Then, like a lot of things, I never went back to investigate. Then in <a href="https://listen.hemisphericviews.com/096">episode 096</a> they had Mr Johnny Decimal himself on to talk about the system. This was the kick I needed to properly check it out. I also spoke with <a href="https://mastodon.macstories.net/@johnvoorhees">John</a> about the JD system on the two most recent episodes of Ruminate if audio is more your thing.</p>
 <ul>
 <li><a href="https://ruminatepodcast.com/172/">172 - Big Knowledge Boys</a></li>
@@ -251,10 +252,8 @@ JD系统是用于组织文件的一种方法，包括categories（类别）, are
 <p>I think systems like this tend to either work for a person or don't work at all, there's no middle ground. That's not the case for the JD system. I believe even if it doesn't work as a whole for someone (like John) there are loads of good ideas in here that can be applied in a lot of different cases. It <em>has</em> worked very well for me and I've been able to find files I'm looking for so much quicker than I could before.</p>
 <p>Check out the <a href="https://johnnydecimal.com">Johnny Decimal website</a> to read more and if you like it, <a href="https://johnnydecimal.com/10-19-concepts/14-build-your-system/14.02-the-decimal-workbook/">check out the workbook</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-11-15T18:09:17.596+00:00</pubDate>
 </item>
-
 <item>
 <title>Please, Expose your RSS</title>
 <link>https://rknight.me/please-expose-your-rss/</link>
