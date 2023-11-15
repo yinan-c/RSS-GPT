@@ -4,6 +4,256 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+<item>
+<title>Using the Johnny Decimal System</title>
+<link>https://rknight.me/using-the-johnny-decimal-system/</link>
+<guid>https://rknight.me/using-the-johnny-decimal-system/</guid>
+<content:encoded><![CDATA[
+<div> Johnny.Decimal, organising files, categories, areas, IDs
+
+JD系统是用于组织文件的一种方法，包括categories（类别）, areas（区域）, IDs（文件）。这种系统需要通过Workbook和Index来具体实施，作者在实践过程中发现系统对于找到所需文件非常有效。在使用该系统的过程中，作者也发现可以将该系统的一些思想应用在其他方面。整体来说，JD系统对作者来说非常有效，帮助他更快地找到文件。<br><br>总结: JD系统是一种用于组织文件的方法，通过细分categories，areas和IDs来管理文件，通过Workbook和Index来实施，对于找到所需文件非常有效。同样的思想也可以应用在其他方面。 <div>
+<p>In <a href="https://listen.hemisphericviews.com/025">episode 028 of Hemispheric Views</a> <a href="https://canion.blog">Andrew</a> mentioned the <a href="https://johnnydecimal.com">Johnny Decimal (JD) system</a> for organising files. I made a note of it as a thing to look into. Then, like a lot of things, I never went back to investigate. Then in <a href="https://listen.hemisphericviews.com/096">episode 096</a> they had Mr Johnny Decimal himself on to talk about the system. This was the kick I needed to properly check it out. I also spoke with <a href="https://mastodon.macstories.net/@johnvoorhees">John</a> about the JD system on the two most recent episodes of Ruminate if audio is more your thing.</p>
+<ul>
+<li><a href="https://ruminatepodcast.com/172/">172 - Big Knowledge Boys</a></li>
+<li><a href="https://ruminatepodcast.com/173/">173 - Should This Be a Blog Post?</a></li>
+</ul>
+<p>Before we get into it, the JD system has concepts that are worth knowing about for any of this to make sense:</p>
+<ul>
+<li>Categories - these are the top level of the folder system, e.g. <code>10-19 Family</code></li>
+<li>Areas - These are the folders <em>inside</em> categories, e.g. <code>10 Finance</code></li>
+<li>IDs or Items - These are the actual files that exist inside of areas, e.g. <code>10.01 Insurance</code></li>
+</ul>
+<h3>Attempt One</h3>
+<p>I skimmed through the <a href="https://johnnydecimal.com">beautiful website</a> to get a sense of what the &quot;rules&quot; are for the system and starting coming up with my categories. Note I use the word &quot;skimmed&quot; there because I got this <em>very</em> wrong; my categories were too narrow and my areas were too broad to make any sense. Johnny was kind enough <a href="https://johnnydecimal.com/20-29-communication/23-forums-and-chat/23.02-discord/">in the JD Discord</a> to give me some feedback after I clearly rushed though and didn't pay enough attention to the website. I'll just go over two of them here:</p>
+<details>
+	00-09 System
+	<pre>00-09 System
+│ 00 Inbox
+│ 01 Exported Data
+│ ├── 01.01 Twitter
+│ ├── 01.02 Tumblr
+│ ├── 01.03 Instagram
+│ ├── 01.04 Mastodon
+│ ├── 01.05 Reddit
+│ ├── 01.06 Project Databases
+│ ├── 01.07 Other
+│ 02 Education Archive
+│ ├── 02.01 College
+│ ├── 02.02 Uni
+│ ├── 02.03 School
+│ 03 Sites Archive
+│ ├── 03.01 Just Delete Me (JDM)
+│ ├── 03.02 Wordpress Themes
+│ ├── 03.03 Personal
+│ ├── 03.04 Freelance
+│ ├── 03.05 DevsDoDesign
+│ 09 Archive
+│ ├── 09.01 Archive
+│ ├── 09.02 Camera Uploads
+	</pre>
+</details>
+<blockquote>
+<p>I think all archives can just become 09 archive. it doesn’t feel like you have anywhere near 99 things you’ll ever put in there? fill ‘er up baby</p>
+</blockquote>
+<p>In this case, I was trying to organise too hard. As Johnny pointed out, for an archive it really doesn't matter how much stuff is in there. Fill 'er up baby indeed.</p>
+<details>
+	40-49 Games
+	<pre>40-49 Games
+│ 40 Screenshots
+│ 41 Manuals
+│ 42 ROMs
+</pre>
+</details>
+<blockquote>
+<p>that’s a nice clear area, perhaps it doesn’t need its own area and could just be a category elsewhere though? do you see it filling up with time, or is this it? if this is it it’s a ‘waste’ of an area as it is</p>
+</blockquote>
+<blockquote>
+<p>I mean you have 10 to use, it’s not like it’s a crime…I’ve just learned over the years that compression tends to better results</p>
+</blockquote>
+<p>This category was far too specific. This is 10 years worth of stuff, it's unlikely I'm going to suddenly have a huge influx in new areas of things for this.</p>
+<p>Johnny also offered some other advice about my other categories but the general gist was I hadn't quite <em>got it</em>. So I dug into the book (which Johnny kindly sent me).</p>
+<h3>The Workbook</h3>
+<p>The JD Workbook is a 110-page ebook designed to &quot;<em>guide you through the entire process of setting up your own Johnny.Decimal system</em>&quot;. There are also videos at the end of each section which go over everything in that chapter. I found these useful particularly seeing how Johnny does his index in <a href="https://bear.app">Bear</a>.</p>
+<p>Johnny gave me this advice before starting the workbook, in reference to his previous comments:</p>
+<blockquote>
+<p>I’d really like to see the results after a workbook-doin’. When you do that, try to forget all of this.</p>
+</blockquote>
+<p>I read the book twice, once just reading and the second time while taking notes about what I thought my areas and categories should look like. I started by creating a new directory in my iCloud Drive, created folders, then used <a href="http://mama.indstate.edu/users/ice/tree/">tree</a> to see the folder structure in plain text:</p>
+<pre class="language-bash"><code class="language-bash">tree <span class="token parameter variable">-L</span> <span class="token number">3</span> <span class="token parameter variable">-d</span><br /><span class="token comment"># -L 3 for how many levels deep</span><br /><span class="token comment"># -d for directories only</span><br /><br />├── 00-09 System<br />│   ├── 00 Index<br />│   │   └── 00.01 Index Files<br />│   ├── 01 Exported Data<br /><span class="token comment"># ...and so on</span></code></pre>
+<p>I even printed out the worksheets from the back of the book as suggested by Johnny. I found the process really helpful to actually write down with pen and paper rather than into Obsidian or some other note taking app.</p>
+<h3>The Index</h3>
+<p>Before reading the book I didn't really understand the need for <a href="https://johnnydecimal.com/10-19-concepts/11-core/11.05-the-index/">the index</a>. I get it now. The index is the source of truth for the location of items <strong>and</strong> any additional notes or tasks related to the item. The index is a list of all of your JD IDs stored in some kind of note app, in my case Obsidian. After watching the video on the index, I realised that the part that would be useful to me was adding notes <em>about</em> the files in my IDs. So each ID has a corresponding note. For example, I have a folder called <code>30-39 Resources/30 Fonts/30.02 Media Fonts</code> and in my index Obsidian vault I have a note called <code>30.02 Media Fonts.md</code>. This note contains the following link to <a href="https://www.fontspace.com/london-tube-font-f2717">the source</a> of the <code>London Tube.otf</code> font:</p>
+<pre class="language-txt"><code class="language-txt">London Tube Font: https://www.fontspace.com/london-tube-font-f2717</code></pre>
+<p>I have found being to add additional notes about a certain items really helpful. In the past I would have the files for something like applying for a mortgage in Finder and then a separate note in Obsidian with things like dates and expected timelines but those two things didn't know anything about each other. Using the index links those things together: if I need to find out information about applying for the mortgage, I open up <code>11.04 Mortgage.md</code> and can see any notes and tasks that need to be done. And based on the ID I know that it it's stored in <code>10-19 Family/11 Finance/11.04 Mortgage</code>. The index is also the place t start when a new project or file doesn't have a home.</p>
+<p>As a slight aside and a little outside the spirit of the deliberate nature of the JD system, I didn't actually create the notes in Obsidian until I was mostly done with the folders and files themselves. I built this little script to make the files for me instead:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span><br /><br /><span class="token assign-left variable">output</span><span class="token operator">=</span><span class="token string">"/path/to/obsidian/vault"</span><br /><br /><span class="token comment"># put a list of folders names here</span><br /><span class="token assign-left variable">files</span><span class="token operator">=</span><span class="token punctuation">(</span><br /><span class="token string">"50.01 Audio Books"</span><br /><span class="token string">"50.02 Comics"</span><br /><span class="token string">"50.03 Ebooks"</span><br /><span class="token punctuation">)</span><br /><br /><span class="token keyword">for</span> <span class="token for-or-select variable">f</span> <span class="token keyword">in</span> <span class="token string">"<span class="token variable">${files<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>"</span><span class="token punctuation">;</span> <span class="token keyword">do</span><br />    <span class="token function">touch</span> <span class="token string">"<span class="token variable">$output</span>/<span class="token variable">$f</span>.md"</span><br /><span class="token keyword">done</span></code></pre>
+<p>After reading the workbook for the second time and thinking some more about my structure, this is where it's at as of today:</p>
+<details>
+	JD System Structure
+	<pre>00-09 System
+| 00 Index
+│ ├── 00.01 Index Files
+| 01 Exported Data
+│ ├── 01.01 Twitter
+│ ├── 01.02 Tumblr
+│ ├── 01.03 Instagram
+│ ├── 01.04 Mastodon
+│ ├── 01.05 Reddit
+│ ├── 01.06 Project Databases
+│ ├── 01.07 Other
+│ ├── 01.08 TwitPic
+| 09 Archive
+│ ├── 09.01 Archive
+│ ├── 09.02 Camera Uploads
+│ ├── 09.03 DevsDoDesign
+│ ├── 09.04 Freelance
+│ ├── 09.05 Just Delete Me (JDM)
+│ ├── 09.06 Personal Sites
+│ ├── 09.07 Wordpress Themes
+│ ├── 09.08 College
+│ ├── 09.09 Uni
+│ ├── 09.10 School
+│ ├── 09.11 Talks
+│ ├── 09.12 Artwork
+10-19 Home and Family
+| 10 Products
+│ ├── 10.01 Washing Machine
+│ ├── 10.02 Dishwasher
+│ ├── 10.03 Freezer
+│ ├── 10.04 Oven
+│ ├── 10.05 Microwave
+│ ├── 10.06 TV
+│ ├── 10.07 Electronics
+| 11 Finance
+│ ├── 11.01 Mortgage
+│ ├── 11.02 Insurance
+│ ├── 11.03 Credit Cards
+│ ├── 11.04 Loans
+│ ├── 11.05 Monzo Pots
+| 12 Building Work
+│ ├── 12.01 Floorplans and Layouts
+│ ├── 12.02 Photos
+│ ├── 12.03 Kitchen
+│ ├── 12.04 Utility Room
+│ ├── 12.05 Bathroom
+| 13 Purchases
+│ ├── 13.01 123 House Street
+│ ├── 13.02 456 House Road
+| 14 Legal
+│ ├── 14.01 Work
+│ ├── 14.02 Deaths
+│ ├── 14.03 Deed Poll
+│ ├── 14.04 Payslips
+│ ├── 14.09 [redacted]
+20-29 Podcasts
+| 20 Ruminate
+│ ├── 20.00 Recordings
+│ ├── 20.01 Episodes
+│ ├── 20.02 Artwork
+│ ├── 20.03 Sounds
+│ ├── 20.04 Shownotes
+│ ├── 20.05 Episode Art
+| 21 We Got Family
+│ ├── 21.00 Recordings
+│ ├── 21.01 Episodes
+│ ├── 21.02 Artwork
+│ ├── 21.03 Sounds
+│ ├── 21.04 Shownotes
+│ ├── 21.05 Episode Art
+| 22 Follow Out
+│ ├── 22.01 Appearances
+│ ├── 22.02 Mentions
+│ ├── 22.03 Fan Art
+| 23 Show Archives
+│ ├── 23.01 The Ricky Gervais Show
+│ ├── 23.02 Bionic and Bonanza
+│ ├── 23.03 Cooking With Brett and Myke
+│ ├── 23.03 Futurama
+│ ├── 23.04 Hello Internet
+30-39 Resources
+| 30 Fonts
+│ ├── 30.01 Coding
+│ ├── 30.02 Media
+│ ├── 30.03 Symbols
+│ ├── 30.04 Others
+| 31 Icons
+│ ├── 31.01 General Use
+│ ├── 31.02 Niche
+| 32 Music and Sounds
+│ ├── 32.01 Clips
+│ ├── 32.02 Royalty Free Music
+│ ├── 32.03 Blahaj
+| 33 Books
+│ ├── 33.01 Audio Books
+│ ├── 33.02 Comics
+│ ├── 33.03 Dev
+│ ├── 33.04 eBooks
+│ ├── 33.05 Lego
+40-49 Hobbies
+| 40 Games
+│ ├── 40.01 Screenshots
+│ ├── 40.02 Manuals
+│ ├── 40.03 ROMs
+| 41 Lego
+│ ├── 41.01 Manuals
+│ ├── 41.02 Photos
+│ ├── 41.03 MOC
+│ ├── 41.04 Comic Con Exclusives
+| 42 Raspberry Pi
+│ ├── 42.01 PiSight
+│ ├── 42.02 Now Playing Pi
+| 43 Fundraising
+│ ├── 43.01 St Jude 2023
+| 44 Streaming
+│ ├── 44.01 Backgrounds
+50-59 Media
+| 50 Tattoo Ideas
+│ ├── 50.01 Inbox
+│ ├── 50.02 Arm Tattoo
+│ ├── 50.03 SleeveStar
+│ ├── 50.04 CSS HTML Tattoo
+| 51 Memes
+│ ├── 51.01 Mine
+│ ├── 51.02 Gifs
+| 52 Profile
+│ ├── 52.01 Avatars
+│ ├── 52.02 Headers
+│ ├── 52.03 Memoji
+│ ├── 52.04 RK Logo
+| 53 Wallpapers
+│ ├── 53.01 Desktop
+│ ├── 53.02 Phone
+│ ├── 53.03 iPad
+| 54 Media Screenshots
+│ ├── 54.01 Comics
+│ ├── 54.02 TV
+│ ├── 54.03 Back to the Future Posters
+│ ├── 54.04 Cornetto Trilogy Posters
+| 55 Music
+│ ├── 55.01 Album Covers
+│ ├── 55.02 Linkin Park Demos
+│ ├── 55.03 Bowling for Soup Demos
+│ ├── 55.04 Albums
+| 56 Photos and Videos
+│ ├── 56.00 Camera Uploads
+│ ├── 56.01 By Year
+│ ├── 56.02 [redacted]
+│ ├── 56.03 Paper Drawings
+│ ├── 56.04 Various
+│ ├── 56.06 Personal Videos
+│ ├── 56.07 YouTube Videos
+│ ├── 56.08 Wedding Photo Booth
+	</pre>
+</details>
+<h3>Using JD Elsewhere</h3>
+<p>One of the things I found really useful was the idea that by using numbers for sorting folders instead of names, <em>things don't move</em>. If I renamed <code>30.02 Garden Patio</code> to <code>30.02 Garden Decking</code> the folder <em>stays in the same place</em>. This seems obvious in hindsight but I found this so useful I incorporated it into my main Obsidian vault. Previously I had three folders called <code>Ideas</code>, <code>Posts</code>, and <code>Projects</code> as well as some more time-specific ones. Now, these are <code>00.01 Ideas</code>, <code>00.02 Posts</code>, and <code>00.03 Projects</code>. Another very obvious-in-hindsight idea came from Johnny's index video: sorting files by last modified instead of by name. I've found this to be way easier to be able to jump in and update a note quickly when I have an idea.</p>
+<h3>Conclusion</h3>
+<p>I think systems like this tend to either work for a person or don't work at all, there's no middle ground. That's not the case for the JD system. I believe even if it doesn't work as a whole for someone (like John) there are loads of good ideas in here that can be applied in a lot of different cases. It <em>has</em> worked very well for me and I've been able to find files I'm looking for so much quicker than I could before.</p>
+<p>Check out the <a href="https://johnnydecimal.com">Johnny Decimal website</a> to read more and if you like it, <a href="https://johnnydecimal.com/10-19-concepts/14-build-your-system/14.02-the-decimal-workbook/">check out the workbook</a>.</p>
+]]></content:encoded>
+
+<pubDate>2023-11-15T18:09:17.596+00:00</pubDate>
+</item>
 
 <item>
 <title>Please, Expose your RSS</title>
