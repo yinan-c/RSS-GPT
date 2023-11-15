@@ -2949,3 +2949,10 @@ Filter: [比Siri更懂iPhone，GPT-4V可“操作”手机完成任意指令，�
 Filter: [今年 WISE大会的“AIGC”含量有多高？超有料揭秘提前看](https://www.36kr.com/p/2519115928151817)
 append_entries: 0
 Finish: 2023-11-15 20:13:41.061763
+------------------------------------------------------
+Started: 2023-11-15 22:12:39.054496
+Existing_entries: 236
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
