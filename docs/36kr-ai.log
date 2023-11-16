@@ -3158,3 +3158,29 @@ Filter: [社交巨头布局AIGC，有何“新玩法”？](https://www.36kr.com
 Filter: [大模型时代，百度商业化的颠覆与救赎](https://www.36kr.com/p/2519580744623624)
 append_entries: 0
 Finish: 2023-11-16 14:13:43.502331
+------------------------------------------------------
+Started: 2023-11-16 16:15:44.957881
+Existing_entries: 238
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 4023
+Summarized using GPT-3.5-turbo-1106
+Append: [追击OpenAI，微软深夜发布100+更新：人人定制Copilot，自研两款AI芯片 | 焦点分析](https://www.36kr.com/p/2520821384374017)
+Filter: [花2亿美元买个12人的初创企业，爱彼迎也为AI狂](https://www.36kr.com/p/2520874696779526)
+Filter: [滴滴杀入大模型](https://www.36kr.com/p/2520858109961734)
+Filter: [大幅降低GPU算力闲置率，Enfabrica获NVIDIA参投的1.25亿美元融资](https://www.36kr.com/p/2520786026225537)
+Filter: [清华袁洋：20年后的AI拥有自我意识，可与“肉体”分离、可永生、可复制](https://www.36kr.com/p/2520784822445577)
+Filter: [一文盘点2023人工智能进展，不止大模型而已](https://www.36kr.com/p/2520779171948034)
+Filter: [一招分辨刷榜作弊大模型，博士小哥开源AI数学“照妖镜”](https://www.36kr.com/p/2520774762604288)
+Filter: [Altman首次自曝GPT-5加急训练中，暗示比GPT-4更复杂，无法预测真实能力](https://www.36kr.com/p/2520765457671687)
+Filter: [可与H100一战，微软首款5纳米自研芯片震撼发布，Copilot引爆办公全家桶，Bing Chat改名](https://www.36kr.com/p/2520695101285892)
+Filter: [大模型幻觉问题再成焦点，LeCun 为 Galactica 喊冤](https://www.36kr.com/p/2520566706823049)
+Filter: [当数据成为「生产资料」，三篇论文总结如何用水印技术保护AI训练数据版权](https://www.36kr.com/p/2520471866713861)
+Filter: [当韩国女团BLACKPINK进军二次元，清华叉院AI神器原来还能这么玩](https://www.36kr.com/p/2520471518996233)
+Filter: [微软连甩三大炸弹，Bing Chat更名Copilot，自研芯片问世，还加入GPTs功能](https://www.36kr.com/p/2520455327934213)
+Filter: [腾讯云向量数据库多项升级：最高支持千亿向量，一键打包开箱即用 | 最前线](https://www.36kr.com/p/2519315593373188)
+Filter: [大模型+家电的终极想象：人与机器共生的未来](https://www.36kr.com/p/2516617468547080)
+Filter: [北大全新“机械手”算法：辅助花式抓杯子，GTX 1650实现150fps推断](https://www.36kr.com/p/2520294647145993)
+Filter: [想在手机上本地跑AI？还是让子弹飞一会吧](https://www.36kr.com/p/2520333721544451)
+Filter: [社交巨头布局AIGC，有何“新玩法”？](https://www.36kr.com/p/2520280658337925)
+append_entries: 1
+Finish: 2023-11-16 16:15:51.004722
