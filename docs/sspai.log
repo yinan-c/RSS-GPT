@@ -7767,3 +7767,12 @@ Existing_entries: 235
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-16 02:25:00.232875
+------------------------------------------------------
+Started: 2023-11-16 04:13:38.218641
+Existing_entries: 235
+Fetching from https://rsshub.app/sspai/index
+Token length: 1781
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：小米汽车公示、CDPR 将推出《猎魔人 3》mod 编辑器等](https://sspai.com/post/84444)
+append_entries: 1
+Finish: 2023-11-16 04:13:42.929324
