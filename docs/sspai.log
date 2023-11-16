@@ -7809,3 +7809,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [新玩意 165｜少数派的编辑们最近买了啥？](https://sspai.com/post/84457)
 append_entries: 1
 Finish: 2023-11-16 12:21:37.080577
+------------------------------------------------------
+Started: 2023-11-16 14:10:55.043214
+Existing_entries: 239
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-11-16 14:10:55.220433
