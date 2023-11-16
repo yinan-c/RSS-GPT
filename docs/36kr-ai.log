@@ -2956,3 +2956,27 @@ Fetching from https://rsshub.app/36kr/motif/327686782977
 Feed error: 404
 append_entries: 0
 error when rendering xml, skip docs/36kr-ai
+------------------------------------------------------
+Started: 2023-11-16 00:54:30.072022
+Existing_entries: 236
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [比尔·盖茨都为之倾倒的AI Agent，究竟是什么](https://www.36kr.com/p/2519454106543619)
+Filter: [LLM幻觉问题全梳理，哈工大团队50页综述重磅发布](https://www.36kr.com/p/2519324533139202)
+Filter: [中国机器人，服务全世界](https://www.36kr.com/p/2519312450168321)
+Filter: [百模大战再次开启：国区争霸，手机安家](https://www.36kr.com/p/2519396309067522)
+Filter: [一秒赚3000，AI影像成打工人“财富密码”？](https://www.36kr.com/p/2519370114409989)
+Filter: [“AI界的梅西”暴涨之后：阶段性做空的时机已到](https://www.36kr.com/p/2519393583669126)
+Filter: [大模型架构创新已死？](https://www.36kr.com/p/2519308773877510)
+Filter: [大模型会毁了年轻程序员 ：对话图灵奖得主 Joseph Sifakis](https://www.36kr.com/p/2519346586428931)
+Filter: [大模型创业，谁赚到钱了？](https://www.36kr.com/p/2519360364029442)
+Filter: [DeepMind大模型登Science：1分钟预测10天天气数据，90%指标超越人类最强模型](https://www.36kr.com/p/2519307170162439)
+Filter: [人工智能监管：如何定性从网络抓取个人数据训练AI的行为？](https://www.36kr.com/p/2519332450525312)
+Filter: [李开复被大模型绊了一跤](https://www.36kr.com/p/2519330342512132)
+Filter: [AI应用的最大赢家，为什么是Adobe？](https://www.36kr.com/p/2519375953389060)
+Filter: [Science重磅：1分钟内生成10天气象预报，DeepMind AI击败了全球最好预报系统](https://www.36kr.com/p/2519185171949059)
+Filter: [滴滴组建大模型团队，将落地部分个人出行和企业差旅场景 | 36氪独家](https://www.36kr.com/p/2519217183041289)
+Filter: [1分钟预测10天全球天气，谷歌DeepMind全新AI天气预报登上Science，碾压行业SOTA](https://www.36kr.com/p/2519328795633159)
+Filter: [比Siri更懂iPhone，GPT-4V可“操作”手机完成任意指令，无需训练](https://www.36kr.com/p/2519305001723648)
+Filter: [今年 WISE大会的“AIGC”含量有多高？超有料揭秘提前看](https://www.36kr.com/p/2519115928151817)
+append_entries: 0
+Finish: 2023-11-16 00:54:30.353889
