@@ -7544,3 +7544,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-17 02:24:46.528842
+------------------------------------------------------
+Started: 2023-11-17 04:13:28.949246
+Existing_entries: 143
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [有没有局域网内从Win10投屏到MacOS的软件](https://meta.appinn.net/t/topic/49297)
+Append: [开源项目，600 star 了，美滋滋](https://meta.appinn.net/t/topic/49292)
+append_entries: 2
+Finish: 2023-11-17 04:13:32.710876
