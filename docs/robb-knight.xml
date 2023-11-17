@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>So Many Default Apps</title>
 <link>https://rknight.me/so-many-default-apps/</link>
 <guid>https://rknight.me/so-many-default-apps/</guid>
 <content:encoded><![CDATA[
-<div> HTML, blog posts, data collection, network graph, statistics<br>
-<br>
+<div> HTML, blog posts, data collection, network graph, statistics<br />
+<br />
 这篇文章介绍了作者在HV Discord上发布消息后，创建了一个网站来收集相关博文的经历。最初使用手工撰写的HTML框架，后来因为博文数量增加迅速，转而使用json数据文件并添加了RSS订阅功能。作者还通过构建网络图可视化博文间的链接关系，展示了信息的传播路径。最后给出了一些有关网站添加和RSS订阅的统计数据。整体而言，文章介绍了作者对于大量博文数据的收集、处理和展示的经验。 <div>
 <p>Two weeks ago when <a href="https://listen.hemisphericviews.com/097">Hemispheric Views 097</a> released and <a href="https://gabz.blog/2023/11/03/my-defaults.html">people</a> <a href="https://rknight.me/app-defaults/">started</a> <a href="https://maique.eu/2023/11/03/defaults.html">putting</a> <a href="https://lmika.org/2023/11/04/defaults.html">up</a> <a href="https://alpine.weblog.lol/2023/11/the-defaults">their</a> <a href="https://canion.blog/2023/11/04/duel-of-the.html">default</a> <a href="https://www.andycarolan.com/appdefaults">app</a> <a href="https://mb.esamecar.net/2023/11/04/app-defaults.html">posts</a> <a href="https://grepjason.sh/">Jason</a> said this in the HV Discord:</p>
 <blockquote>
@@ -95,10 +96,8 @@
 <li>144 of the 151 sites have RSS feeds 🙌</li>
 </ul>
 ]]></content:encoded>
-
 <pubDate>2023-11-16T22:16:38.787+00:00</pubDate>
 </item>
-
 <item>
 <title>Using the Johnny Decimal System</title>
 <link>https://rknight.me/using-the-johnny-decimal-system/</link>
