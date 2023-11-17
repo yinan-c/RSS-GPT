@@ -7860,3 +7860,15 @@ Existing_entries: 240
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-17 04:13:34.284141
+------------------------------------------------------
+Started: 2023-11-17 06:15:18.169417
+Existing_entries: 240
+Fetching from https://rsshub.app/sspai/index
+Token length: 3715
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：Apple 将在明年支持 RCS 协议、微软消息五则等](https://sspai.com/post/84467)
+Token length: 11043
+Summarized using GPT-3.5-turbo-1106
+Append: [一份 macOS / iOS 远程使用 Windows 操作系统的笔记](https://sspai.com/post/84443)
+append_entries: 2
+Finish: 2023-11-17 06:20:46.706253

@@ -7699,3 +7699,17 @@ Feed error: 404
 Fetching from https://rsshub.app/36kr/motif/327685734401
 append_entries: 0
 Finish: 2023-11-17 04:17:25.406168
+------------------------------------------------------
+Started: 2023-11-17 06:20:49.955873
+Existing_entries: 336
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Append: [“分了六位数稿费”，谁在批量制造短剧写手？](https://www.36kr.com/p/2521824636020482)
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+Feed error: 404
+append_entries: 1
+error when rendering xml, skip docs/36kr
