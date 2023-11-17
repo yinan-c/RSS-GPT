@@ -3189,3 +3189,12 @@ Existing_entries: 115
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2023-11-16 22:10:41.862493
+------------------------------------------------------
+Started: 2023-11-17 00:52:36.242136
+Existing_entries: 115
+Fetching from https://rknight.me/feed.xml
+Token length: 2065
+Summarized using GPT-3.5-turbo-1106
+Append: [So Many Default Apps](https://rknight.me/so-many-default-apps/)
+append_entries: 1
+Finish: 2023-11-17 00:52:40.163092

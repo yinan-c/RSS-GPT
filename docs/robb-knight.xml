@@ -4,6 +4,100 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+<item>
+<title>So Many Default Apps</title>
+<link>https://rknight.me/so-many-default-apps/</link>
+<guid>https://rknight.me/so-many-default-apps/</guid>
+<content:encoded><![CDATA[
+<div> HTML, blog posts, data collection, network graph, statistics<br>
+<br>
+这篇文章介绍了作者在HV Discord上发布消息后，创建了一个网站来收集相关博文的经历。最初使用手工撰写的HTML框架，后来因为博文数量增加迅速，转而使用json数据文件并添加了RSS订阅功能。作者还通过构建网络图可视化博文间的链接关系，展示了信息的传播路径。最后给出了一些有关网站添加和RSS订阅的统计数据。整体而言，文章介绍了作者对于大量博文数据的收集、处理和展示的经验。 <div>
+<p>Two weeks ago when <a href="https://listen.hemisphericviews.com/097">Hemispheric Views 097</a> released and <a href="https://gabz.blog/2023/11/03/my-defaults.html">people</a> <a href="https://rknight.me/app-defaults/">started</a> <a href="https://maique.eu/2023/11/03/defaults.html">putting</a> <a href="https://lmika.org/2023/11/04/defaults.html">up</a> <a href="https://alpine.weblog.lol/2023/11/the-defaults">their</a> <a href="https://canion.blog/2023/11/04/duel-of-the.html">default</a> <a href="https://www.andycarolan.com/appdefaults">app</a> <a href="https://mb.esamecar.net/2023/11/04/app-defaults.html">posts</a> <a href="https://grepjason.sh/">Jason</a> said this in the HV Discord:</p>
+<blockquote>
+<p>take a hike <code>/now</code>. It's all about <code>/default</code> now</p>
+</blockquote>
+<p>I decided to quickly throw a site together to collect all these (at the time eight) blog posts in one place: <a href="https://defaults.rknight.me/">App Defaults</a>. I used this old web framework you might have heard of called &quot;artisanal hand-crafted HTML&quot;. It was only seven links, maybe a couple more, manually adding a new link didn't seem like a problem. Until <em>way</em> more than that arrived. At it's peak, there were 35 new posts added to the list. As of this post, there are 151 posts listed.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Date</strong></th>
+<th><strong>Posts Added</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>4/11</strong></td>
+<td>15</td>
+</tr>
+<tr>
+<td><strong>5/11</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>6/11</strong></td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>7/11</strong></td>
+<td>35</td>
+</tr>
+<tr>
+<td><strong>8/11</strong></td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>9/11</strong></td>
+<td>14</td>
+</tr>
+<tr>
+<td><strong>10/11</strong></td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>11/11</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>12/11</strong></td>
+<td>11</td>
+</tr>
+<tr>
+<td><strong>13/11</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>14/11</strong></td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>15/11</strong></td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>16/11</strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>151</td>
+</tr>
+</tbody>
+</table>
+<p>Three days in I realised this was likely to take off so I switched the site to <a href="https://11ty.dev">Eleventy</a> and a <code>json</code> data file to keep track of the blog posts. I also added RSS feeds for everyone's sites.</p>
+<p>Day four was the busiest for submissions and I had a fun idea to allow anyone to subscribe to <em>all</em> of the websites mentioned. I generated <a href="https://github.com/rknightuk/app-defaults/blob/main/opml.njk">an OPML file</a> from the site data and added a link to that to the site.</p>
+<h3>Network Graph</h3>
+<p>The latest feature was added today when I was inspired by something said on <a href="https://listen.hemisphericviews.com/098">episode 098</a> but as of this moment I cannot remember what it was that was said. Regardless, I wanted to visualise the links between all the blog posts to get a sense of how the &quot;trend&quot; spread between people so I created <a href="https://defaults.rknight.me/network/">the Network Graph page</a>.</p>
+<p>To achieve this I used <a href="https://github.com/extractus/article-extractor">@extractus/article-extractor</a> to extract the article contents from every post, then I used <a href="https://github.com/WebReflection/linkedom">linkedom</a> to get all the links contained in each article, and then I mapped each of those links to the post they were linking to. Finally I ran a script to map that data to the format required for <a href="https://visjs.github.io/vis-network/docs/network/index.html"><code>network</code></a> to render the graph. This is the same graph used on <a href="https://home.omg.lol/referred-by/robb">omg.lol</a> to show the referral data and thankfully I could look at Adam's implementation to speed things up.</p>
+<p>A few stats to finish:</p>
+<ul>
+<li>67 of the sites were added via a pull request on GitHub</li>
+<li>The most popular TLD is, unsurprisingly, <code>.com</code> (48 posts). <code>.blog</code>, <code>.me</code>, and <code>.net</code> were tied for second with 13 posts each.</li>
+<li>144 of the 151 sites have RSS feeds 🙌</li>
+</ul>
+]]></content:encoded>
+
+<pubDate>2023-11-16T22:16:38.787+00:00</pubDate>
+</item>
 
 <item>
 <title>Using the Johnny Decimal System</title>
