@@ -7562,3 +7562,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-17 06:15:16.762650
+------------------------------------------------------
+Started: 2023-11-17 08:14:30.432811
+Existing_entries: 145
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [Gopeed - 一款支持全平台的开源、轻量、原生下载器](https://meta.appinn.net/t/topic/45062)
+append_entries: 1
+Finish: 2023-11-17 08:14:34.723380
