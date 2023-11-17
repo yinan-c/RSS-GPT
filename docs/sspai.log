@@ -7884,3 +7884,15 @@ Existing_entries: 242
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-17 10:12:15.357104
+------------------------------------------------------
+Started: 2023-11-17 12:20:53.878872
+Existing_entries: 242
+Fetching from https://rsshub.app/sspai/index
+Token length: 9619
+Summarized using GPT-3.5-turbo-1106
+Append: [本周看什么 | 最近值得一看的一大本作品](https://sspai.com/post/84477)
+Token length: 8222
+Summarized using GPT-3.5-turbo-1106
+Append: [从 StressWatch 聊起：我们该如何看待 HRV 和压力监测硬件？](https://sspai.com/post/84456)
+append_entries: 2
+Finish: 2023-11-17 12:21:08.182109

@@ -4,6 +4,54 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>老胡的周刊（第115期）</title>
+<link>https://meta.appinn.net/t/topic/49352</link>
+<guid>https://meta.appinn.net/t/topic/49352</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#draw-a-uihttpsgithubcomsawyerhooddraw-a-ui-2" name="draw-a-uihttpsgithubcomsawyerhooddraw-a-ui-2"></a><a href="https://github.com/SawyerHood/draw-a-ui" rel="noopener nofollow ugc">draw-a-ui</a></h3>
+<p>利用 <code>tldraw + gpt-4-vision api</code> 将绘制的图转换成 <code>html</code> 代码：</p>
+<p><img alt="draw-a-ui" height="338" src="https://images-1252557999.file.myqcloud.com/uPic/draw-a-ui.gif" width="600" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#woxhttpsgithubcomwox-launcherwox-4" name="woxhttpsgithubcomwox-launcherwox-4"></a><a href="https://github.com/Wox-launcher/Wox" rel="noopener nofollow ugc">Wox</a></h3>
+<p>Wox 是一款10年前开源的跨平台快速启动器，之前已经停更，最近开始更新了，计划在年底完成v2版本，新版本会跨平台，期待！</p>
+<p><img alt="wox" height="416" src="https://images-1252557999.file.myqcloud.com/uPic/wox.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#feed-flowhttpsgithubcomprof18feed-flow-5" name="feed-flowhttpsgithubcomprof18feed-flow-5"></a><a href="https://github.com/prof18/feed-flow" rel="noopener nofollow ugc">feed-flow</a></h3>
+<p><code>FeedFlow</code> 是一款极简主义的 <code>RSS</code> 阅读器，可在 <code>Android、iOS&amp;macOS</code>上使用：</p>
+<p><img alt="feedflow" height="344" src="https://images-1252557999.file.myqcloud.com/uPic/feedflow.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#xhs_downloaderhttpsgithubcomjoeanamierxhs_downloader-6" name="xhs_downloaderhttpsgithubcomjoeanamierxhs_downloader-6"></a><a href="https://github.com/JoeanAmier/XHS_Downloader" rel="noopener nofollow ugc">XHS_Downloader</a></h3>
+<p>免费、轻量、开源，基于 Requests 模块实现：小红书图文/视频作品数据采集工具：</p>
+<p><img alt="XHS_Downloader" height="368" src="https://images-1252557999.file.myqcloud.com/uPic/XHS_Downloader.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#httpslzcloudsecuritygitbookioyun-an-quan-gong-fang-ru-men-8" name="httpslzcloudsecuritygitbookioyun-an-quan-gong-fang-ru-men-8"></a><a href="https://lzcloudsecurity.gitbook.io/yun-an-quan-gong-fang-ru-men/" rel="noopener nofollow ugc">云安全攻防入门</a></h3>
+<p>关于云安全攻防的基础知识：</p>
+<p><img alt="yun-an-quan-gong-fang-ru-men" height="309" src="https://images-1252557999.file.myqcloud.com/uPic/yun-an-quan-gong-fang-ru-men.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#scrnshtsclubhttpsscrnshtsclub-10" name="scrnshtsclubhttpsscrnshtsclub-10"></a><a href="https://scrnshts.club/" rel="noopener nofollow ugc">scrnshts.club</a></h3>
+<p>收集 App 在应用商店中做宣传用的截图，很有意思：</p>
+<p><img alt="scrnshts" height="340" src="https://images-1252557999.file.myqcloud.com/uPic/scrnshts.jpg" width="689" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#aitdkhttpsaitdkcomzh-cn-11" name="aitdkhttpsaitdkcomzh-cn-11"></a><a href="https://aitdk.com/zh-CN/" rel="noopener nofollow ugc">aitdk</a></h3>
+<p>AI标题、描述和关键词生成器，为您的网站生成SEO友好的标题、描述和关键词：</p>
+<p><img alt="aitdk" height="357" src="https://images-1252557999.file.myqcloud.com/uPic/aitdk.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-12" name="h-12"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><img alt=":partying_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" />我基于ChatGPT做了个<a href="https://mp.weixin.qq.com/s/3ohE-rm6kryC07parr29bQ" rel="noopener nofollow ugc">微信端的老胡信息周刊QA</a>，欢迎免费体验</li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49352">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 17 Nov 2023 10:58:47 +0000</pubDate>
+<pubDate>Fri, 17 Nov 2023 10:58:47 +0000</pubDate>
+</item>
 
 <item>
 <title>Gopeed - 一款支持全平台的开源、轻量、原生下载器</title>
