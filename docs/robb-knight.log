@@ -3324,3 +3324,12 @@ Existing_entries: 116
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2023-11-18 18:13:07.163447
+------------------------------------------------------
+Started: 2023-11-18 20:10:59.230601
+Existing_entries: 116
+Fetching from https://rknight.me/feed.xml
+Token length: 771
+Summarized using GPT-3.5-turbo-1106
+Append: [Pokédon: Read Mastodon on a Pokédex](https://rknight.me/pokedon-read-mastodon-on-a-pokedex/)
+append_entries: 1
+Finish: 2023-11-18 20:11:03.496820
