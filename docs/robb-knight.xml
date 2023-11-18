@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Pokédon: Read Mastodon on a Pokédex</title>
 <link>https://rknight.me/pokedon-read-mastodon-on-a-pokedex/</link>
@@ -12,7 +13,7 @@
 <div> 关键词：hackathon, Mastodon client, Pokédex, 项目，功能
 
 hackathon, Mastodon client, Pokédex, 项目，功能
-<br><br>在一场没有正式名称的非正式hackathon中，作者创建了一个名为“Pokédex”的Mastodon客户端项目。这个项目允许用户在Pokédex界面上浏览他们的Mastodon实例，并且只限于查看时间线和使用键盘导航。尽管在当天并未完成所有功能，但作者对这个项目的进展感到满意，计划在未来添加更多功能。 <div>
+<br /><br />在一场没有正式名称的非正式hackathon中，作者创建了一个名为“Pokédex”的Mastodon客户端项目。这个项目允许用户在Pokédex界面上浏览他们的Mastodon实例，并且只限于查看时间线和使用键盘导航。尽管在当天并未完成所有功能，但作者对这个项目的进展感到满意，计划在未来添加更多功能。 <div>
 <p>Today, I attended a casual no-official-name hackathon. Just a bunch of people working on silly projects. It <em>did</em> have a theme though: silly interfaces. I spent the first hour before I arrived thinking of a few ideas until I thought of the perfect thing: a Mastodon client but it's in a Pokédex.</p>
 <p><a href="https://pokedon.rknight.me">Try it out here</a>.</p>
 <p><img alt="Pokédon interface" src="https://rknightuk.s3.amazonaws.com/site/pokedon.png" /></p>
@@ -33,10 +34,8 @@ hackathon, Mastodon client, Pokédex, 项目，功能
 </ul>
 <p>I will probably come back to this at some point and add some of these features but as it is I'm pretty happy with this as a day's project.</p>
 ]]></content:encoded>
-
 <pubDate>2023-11-18T19:32:15.071+00:00</pubDate>
 </item>
-
 <item>
 <title>So Many Default Apps</title>
 <link>https://rknight.me/so-many-default-apps/</link>
