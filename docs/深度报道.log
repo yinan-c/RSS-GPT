@@ -592,3 +592,12 @@ Existing_entries: 10
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-11-19 06:20:31.475231
+------------------------------------------------------
+Started: 2023-11-19 08:19:27.243285
+Existing_entries: 10
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [廢料、欺詐和濫權：如何調查環境犯罪？](https://cn.gijn.org/2023/11/19/%e5%ba%9f%e6%96%99%e3%80%81%e6%ac%ba%e8%af%88%e5%92%8c%e6%bb%a5%e6%9d%83%ef%bc%9a%e5%a6%82%e4%bd%95%e8%b0%83%e6%9f%a5%e7%8e%af%e5%a2%83%e7%8a%af%e7%bd%aa%ef%bc%9f/zh-hant/)
+append_entries: 1
+Finish: 2023-11-19 08:19:27.755846
