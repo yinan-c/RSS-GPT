@@ -8127,3 +8127,12 @@ Existing_entries: 249
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-20 12:22:02.922468
+------------------------------------------------------
+Started: 2023-11-20 14:11:30.174951
+Existing_entries: 249
+Fetching from https://rsshub.app/sspai/index
+Token length: 5641
+Summarized using GPT-3.5-turbo-1106
+Append: [派评 | 近期值得关注的 App](https://sspai.com/post/84516)
+append_entries: 1
+Finish: 2023-11-20 14:11:38.244242
