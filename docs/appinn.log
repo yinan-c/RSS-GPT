@@ -7888,3 +7888,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-20 14:11:28.692867
+------------------------------------------------------
+Started: 2023-11-20 16:15:32.634650
+Existing_entries: 151
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [2023年快结束了，还没有软件做到局域网不同设备互通嘛？](https://meta.appinn.net/t/topic/49467)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-11-20 16:15:35.712799
