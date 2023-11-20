@@ -8100,3 +8100,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [派早报：Sam Altman 被解职，正协商重返](https://sspai.com/post/84504)
 append_entries: 2
 Finish: 2023-11-20 04:14:32.431187
+------------------------------------------------------
+Started: 2023-11-20 06:15:51.677970
+Existing_entries: 248
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-11-20 06:15:51.826928
