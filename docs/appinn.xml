@@ -4,6 +4,37 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>求推荐markdown的win安卓ios三端同步方案</title>
+<link>https://meta.appinn.net/t/topic/49438</link>
+<guid>https://meta.appinn.net/t/topic/49438</guid>
+<content:encoded><![CDATA[
+
+<p>本人需求：</p>
+<ol>
+<li>win、安卓、ipad都有编辑markdown的需求</li>
+<li>希望支持代码、latex、图片，最好有toc大纲</li>
+<li>没有审查风险，非纯云端，自己能掌握数据</li>
+<li>接受付费</li>
+<li>非markdown也行，能导入我之前写的markdown就行</li>
+</ol>
+<p>win有vscode、typora、obsidian，安卓有markor勉强能用，也可用foldersync同步，ipad软件和同步都没着落</p>
+<p>目前了解的软件：</p>
+<ol>
+<li>notion。感觉学习成本有点高？云存储不太放心，而且这种数据格式方便迁移吗？如果不用了跑路去别的软件会不会很麻烦？</li>
+<li>坚果云。同步可以，自带的编辑器不行，没法调用第三方编辑器。</li>
+<li>Joplin。颜值差点，没有别的话就用这个了。</li>
+<li>obsidian。ipad同步是个问题，去中文论坛看了下，现在还是八仙过海。</li>
+</ol>
+<p>注：<br />
+飞书是我目前主力软件，但是昨天突然要求必须<strong>实名</strong>，否则无法登录。遂打算迁移，来小众软件发帖询问。因为这个对国内软件都不信任，万一哪天像gitee那样逐字审查了呢？之前我发个博客告诉我有违禁字，还不说在哪，二分法找了好久，“这**这也算违禁？”<br />
+希望数据能掌握在自己手里吧。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49438">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 20 Nov 2023 01:58:06 +0000</pubDate>
+<pubDate>Mon, 20 Nov 2023 01:58:06 +0000</pubDate>
+</item>
 
 <item>
 <title>用 Youtube 视频无痛练习英语口语写作听力（代替 Anki）</title>
