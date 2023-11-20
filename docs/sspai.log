@@ -8088,3 +8088,15 @@ Existing_entries: 246
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-20 02:25:47.691121
+------------------------------------------------------
+Started: 2023-11-20 04:14:20.871289
+Existing_entries: 246
+Fetching from https://rsshub.app/sspai/index
+Token length: 3271
+Summarized using GPT-3.5-turbo-1106
+Append: [哪些 GPTs 应用让我眼前一亮？你又该如何找到它们？](https://sspai.com/post/84471)
+Token length: 4183
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：Sam Altman 被解职，正协商重返](https://sspai.com/post/84504)
+append_entries: 2
+Finish: 2023-11-20 04:14:32.431187
