@@ -4356,3 +4356,22 @@ Filter: [AI Agent，为什么是AIGC最后的杀手锏？](https://www.36kr.com/
 Filter: [郭德纲用英语说相声，AI会变坏吗？](https://www.36kr.com/p/2526421693032196)
 append_entries: 2
 Finish: 2023-11-21 08:15:52.012938
+------------------------------------------------------
+Started: 2023-11-21 10:18:03.838264
+Existing_entries: 267
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 3581
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI “解体”，纳德拉的封神实况](https://www.36kr.com/p/2527848223794953)
+Token length: 5724
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI政变第二幕：从权力的游戏，到人民的名义](https://www.36kr.com/p/2527830288361222)
+Append: [被员工抵制的OpenAI新任CEO，曾称在微软工作是出卖灵魂，热衷上网谈论性，](https://www.36kr.com/p/2527822604265225)
+Filter: [一场AI界的权力游戏，揭开了AI行业未来的哪几个巨变](https://www.36kr.com/p/2527779258574596)
+Append: [OpenAI 72小时乱局实录：或与其最大对手合并，奥特曼加入微软](https://www.36kr.com/p/2527771572840194)
+Append: [董事会备忘录曝光：坚持罢免决定，这是“捍卫OpenAI使命的唯一途径”](https://www.36kr.com/p/2527681790322433)
+Filter: [关于AI PC，联想和英特尔过于乐观了吗？](https://www.36kr.com/p/2527625411207042)
+Append: [数十亿美元可能打水漂，投资者考虑起诉OpenAI董事会](https://www.36kr.com/p/2527680133195521)
+Filter: [比尔·盖茨重磅发文：Bye-bye软件时代，5年内进入AI个人助理时代](https://www.36kr.com/p/2526683674648710)
+append_entries: 6
+Finish: 2023-11-21 10:18:22.292189
