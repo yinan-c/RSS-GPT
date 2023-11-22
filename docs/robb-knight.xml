@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Using SVG Sprites</title>
 <link>https://rknight.me/using-svg-sprites/</link>
@@ -37,10 +38,8 @@
 <p>You <em>can</em> just paste in your SVGs to make a sprite or you can do what I do and use <a href="https://svgsprit.es/">https://svgsprit.es</a>. You can drop in a bunch of SVGs and it will give you back your sprite for putting on your site. A lot of static site generators also have plugins to do this, for example <a href="https://github.com/patrickxchong/eleventy-plugin-svg-sprite">this one for Eleventy</a>.</p>
 <p>You can view the SVG sprite for <a href="https://github.com/rknightuk/rknight.me/blob/master/src/_includes/svgs.njk">this site on GitHub here</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-11-21T21:41:14.019+00:00</pubDate>
 </item>
-
 <item>
 <title>Pokédon: Read Mastodon on a Pokédex</title>
 <link>https://rknight.me/pokedon-read-mastodon-on-a-pokedex/</link>
