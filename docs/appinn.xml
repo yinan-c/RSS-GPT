@@ -4,6 +4,62 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>飞傲音乐，十余年经验积累的本地音乐播放器</title>
+<link>https://meta.appinn.net/t/topic/49536</link>
+<guid>https://meta.appinn.net/t/topic/49536</guid>
+<content:encoded><![CDATA[
+
+<p>飞傲是一家有十几年历史的国产音频设备厂商。飞傲音乐是飞傲的安卓播放器预装的音乐播放器，也同时适配了市面上的<a href="https://play.google.com/store/search?q=%E9%A3%9E%E5%82%B2%E9%9F%B3%E4%B9%90&amp;c=apps">Android</a>和<a href="https://apps.apple.com/cn/app/id1235959662">iOS</a>手机。</p>
+<p>得益于制造硬件播放器积累的经验，App的功能是非常完善的。这里列一些我认为的亮点：</p>
+<ul>
+<li>本地媒体库管理
+<ul>
+<li>除了基础的按元数据标签、文件夹分类，还能按采样率、格式分类</li>
+<li>编辑歌曲的ID3标签</li>
+<li>支持读取WAV文件的ID3标签</li>
+<li>按CUE文件信息切割整轨歌曲</li>
+</ul>
+</li>
+<li>播放
+<ul>
+<li>回放增益、无缝播放、文件夹跳曲</li>
+<li>在线匹配封面与歌词</li>
+<li>能调中心频率和Q值的10段EQ</li>
+</ul>
+</li>
+<li>HiFi
+<ul>
+<li>编码支持很全，除了常见的有损无损PCM，还支持DSD解码和MQA展开</li>
+<li>支持独占USB声卡，可以绕过安卓系统SRC</li>
+</ul>
+</li>
+<li>局域网
+<ul>
+<li>通用的WiFi传歌、SMB、WebDAV、DLNA协议</li>
+<li>自家的FiiO Link协议（用局域网内的一个手机/播放器遥控另一台手机/播放器）</li>
+</ul>
+</li>
+<li>蓝牙
+<ul>
+<li>能在播放器内管理飞傲自家的蓝牙耳放和蓝牙耳机</li>
+<li>HWA</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" height="500" src="https://play-lh.googleusercontent.com/-HE86dfrMRGDCiWNanQompdgXzmX62JwUf4fNRRecJ3kJQ_de0gr3eDPHbXOO68QyQ=w2560-h1440-rw" width="281" /></p>
+<blockquote>
+<p>P.S.另外两家与飞傲类似的硬件厂商推出的App，海贝（<a href="https://play.google.com/store/apps/details?id=com.hiby.music">Android</a> | <a href="https://apps.apple.com/cn/app/id1048838844">iOS</a>），山灵（<a href="https://play.google.com/store/apps/details?id=com.shanling.eddictplayer">Android</a> | <a href="https://apps.apple.com/cn/app/eddict-player/id1529232239">iOS</a> ）</p>
+</blockquote>
+<blockquote>
+<p>P.P.S.索尼现在的Walkman播放器（A300、ZX100、WM1）也是安卓系统，按理说也会提供类似的App，不过我在play store里只能搜到Xperia手机预装的音乐播放器，还不让非索尼手机安装 <img alt=":exploding_head:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/exploding_head.png?v=12" title=":exploding_head:" width="20" /></p>
+</blockquote>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49536">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 22 Nov 2023 03:38:46 +0000</pubDate>
+<pubDate>Wed, 22 Nov 2023 03:38:46 +0000</pubDate>
+</item>
 
 <item>
 <title>2023年快结束了，还没有软件做到局域网不同设备互通嘛？</title>
