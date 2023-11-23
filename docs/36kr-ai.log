@@ -4728,3 +4728,24 @@ Filter: [开发人员应该如何应战 AI？](https://www.36kr.com/p/2529284224
 Filter: [阿尔特曼王者归来，他比马斯克和乔布斯还“猛”？](https://www.36kr.com/p/2529142677675910)
 append_entries: 3
 Finish: 2023-11-23 10:17:20.893007
+------------------------------------------------------
+Started: 2023-11-23 12:24:00.645694
+Existing_entries: 298
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2624
+Summarized using GPT-3.5-turbo-1106
+Append: [免费版也能用，ChatGPT 语音对话全面开放，苹果的 Siri 危矣？](https://www.36kr.com/p/2530789558527495)
+Filter: [“半截身子入土”的雅虎，也有搞AI搜索的雄心](https://www.36kr.com/p/2530792227284480)
+Filter: [被扒用“直觉”投资后，桥水基金将未来赚钱的秘密托付给AI](https://www.36kr.com/p/2530721271996546)
+Token length: 4653
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI 闹剧中被忽略的一部分——AI对齐](https://www.36kr.com/p/2530721902405377)
+Filter: [AI机器人现“井喷”，什么时候量产？](https://www.36kr.com/p/2528925999030147)
+Filter: [GPT-4成学术造假“神器”，伪造数据又快又合理，Nature请统计学专家“断案”](https://www.36kr.com/p/2530605178054405)
+Filter: [奥特曼解职危机幕后博弈大揭秘：应该由谁打开AI潘多拉魔盒](https://www.36kr.com/p/2530515805792006)
+Filter: [第一波用AI赚钱的旅游企业都在喊“真香”](https://www.36kr.com/p/2530137251096066)
+Filter: [山姆·阿尔特曼做错了什么](https://www.36kr.com/p/2530127936103942)
+Filter: [沈向洋领衔的IDEA研究院披露最新成果：多模态大模型开箱即用、AI科研助手2.0上线](https://www.36kr.com/p/2529731067225605)
+Filter: [开发人员应该如何应战 AI？](https://www.36kr.com/p/2529284224149255)
+append_entries: 2
+Finish: 2023-11-23 12:24:09.250262

@@ -8365,3 +8365,15 @@ Fetching from https://rsshub.app/sspai/index
 Feed error: 404
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2023-11-23 12:21:03.529888
+Existing_entries: 260
+Fetching from https://rsshub.app/sspai/index
+Token length: 5379
+Summarized using GPT-3.5-turbo-1106
+Append: [咖啡地图 | 中国咖啡的小透明：海南](https://sspai.com/post/84361)
+Token length: 10146
+Summarized using GPT-3.5-turbo-1106
+Append: [Mac 迁移指南：换新机后的任务清单](https://sspai.com/post/64301)
+append_entries: 2
+Finish: 2023-11-23 12:21:19.267285
