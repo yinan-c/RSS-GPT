@@ -8138,3 +8138,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-11-23 06:14:50.065537
+------------------------------------------------------
+Started: 2023-11-23 08:14:30.163748
+Existing_entries: 153
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chrome如何将网页翻译为拼音？](https://meta.appinn.net/t/topic/44512)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-11-23 08:14:34.238277
