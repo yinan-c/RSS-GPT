@@ -4,6 +4,162 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【Toolset插件】JetBrains IDE各种常用工具集插件【黑五送码】</title>
+<link>https://meta.appinn.net/t/topic/49611</link>
+<guid>https://meta.appinn.net/t/topic/49611</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p><strong>Toolset</strong>插件</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>JetBrains所有IDEs</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>「Toolset插件」是一款包含上百种精心打造功能强大的常用开发工具集合的IDE插件，旨在提升开发人员的开发效率。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>插件界面</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/2/d2a1ee521034c83b230a00fa7639c94d5076f404.png" title="toolset-demo"><img alt="toolset-demo" height="478" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/2/d2a1ee521034c83b230a00fa7639c94d5076f404_2_690x478.png" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>功能列表</h2>
+<ul>
+<li><strong>Convert</strong>
+<ul>
+<li>Bytes: Convert Bytes to Kilobytes to Megabytes to Gigabytes to Terabytes to Petabytes, and Vice Versa</li>
+<li>Case: lowercase, UPPERCASE, Capital, Invert, Reversal, foo_bar, fooBar, FooBar, FOO_BAR</li>
+<li>Color: Conversion, Picker</li>
+<li>Common: Base32, Base58, Base62, Base64, DBC(全角)&amp;SBC(半角), Hex, Hexadecimal, Html, IP, Number, PATH, Unicode, URI, URIComponent, 简繁</li>
+<li>DataTypes: Convert data types programming quickly</li>
+<li>Decimal: Hex conversion, Mathematical expression execute</li>
+<li>Image: Image format conversion, Base64 Image Encoder, Image to Base64, Base64 Encode, Base64 Converter</li>
+<li>Json: Json Format, JsonPath, Quote Parse, Slash Parse, Attribute, Key:Value, Json to Properties, Json to XML, Json to YAML, Json to Excel</li>
+<li>Line: Sort Lines, Sort and Remove Duplicate, Reverse Lines, Remove Blank Lines, Remove Duplicate Lines, Remove Line Trim, Remove Line Number, Remove all whitespace</li>
+<li>Sql: Format, Remove ``, Sql To Json, Create table sql to Json</li>
+<li>Time: Unix Timestamp Converter, Timestamp, Calculate Difference, Time to Date</li>
+</ul>
+</li>
+<li><strong>Cron</strong>: Cron Expression Generator &amp; Explainer</li>
+<li><strong>Diff</strong>: Compare files, folders, and text sources</li>
+<li><strong>Encrypt</strong>
+<ul>
+<li>Digest
+<ul>
+<li>MD2,MD4,MD5,SHA1,SHA256,SHA384,SHA512,SHA3-224,SHA3-256,SHA3-384,SHA3-512,SM3</li>
+<li>Keccak-224,Keccak-256,Keccak-384,Keccak-512,Solidity Function Selector</li>
+<li>BLAKE2B-160,BLAKE2B-256,BLAKE2B-384,BLAKE2B-512,BLAKE2S-128,BLAKE2S-160,BLAKE2S-224,BLAKE2S-256,BLAKE3-256</li>
+<li>RIPEMD128,RIPEMD160,RIPEMD256,RIPEMD320</li>
+<li>HmacMD5,HmacSHA1,HmacSHA256,HmacSHA384,HmacSHA512</li>
+</ul>
+</li>
+<li>Asymmetric: RSA,SM2</li>
+<li>Symmetric: AES,DES,3DES,RC4,SM4</li>
+</ul>
+</li>
+<li><strong>Generate</strong>
+<ul>
+<li>Date</li>
+<li>File Verification: MD5,SHA1,CRC32</li>
+<li>ObjectId</li>
+<li>Password</li>
+<li>Snowflake</li>
+<li>UUID</li>
+<li>Variable Name</li>
+</ul>
+</li>
+<li><strong>HttpServer</strong>: Simple Http Server</li>
+<li><strong>JWT</strong>: Allows you to decode, verify and generate JWT.</li>
+<li><strong>Note</strong>: Temporary notebook</li>
+<li><strong>Pomodoro</strong>: Stay focused, be productive, track everything.</li>
+<li><strong>QR Code</strong>: QR Code, Data Matrix, PDF417, CODABAR Generator, Bulk QR code generator, QR code recognition</li>
+<li><strong>Regex</strong>
+<ul>
+<li>Tester: Regexp Tester</li>
+<li>Extract</li>
+<li>Replace: Right-Click Menu</li>
+<li>Help: Summary of regular-expression constructs</li>
+</ul>
+</li>
+<li><strong>Symbols</strong>
+<ul>
+<li>Ascii: ASCII, Html Escape</li>
+<li>KeyCode</li>
+<li>HttpStatusCode</li>
+<li>Symbols: Arrows, Alphabet, Currency, Geometric, Miscellaneous Symbols…</li>
+</ul>
+</li>
+<li><strong>SwitchHosts</strong>: Switch and Manager hosts</li>
+<li><strong>Terminal</strong>
+<ul>
+<li>apt</li>
+<li>bash</li>
+<li>common</li>
+<li>cat</li>
+<li>curl</li>
+<li>file</li>
+<li>mysqldump</li>
+<li>rpm</li>
+<li>screen</li>
+<li>vim</li>
+<li>yum</li>
+</ul>
+</li>
+<li><strong>WebSocket</strong>: WebSocket client test</li>
+</ul>
+<p><strong>右键菜单功能：</strong></p>
+<ul>
+<li><strong>Convert</strong>
+<ul>
+<li><code>.*</code> ⇄ <code>.*</code></li>
+<li><code>.*</code> ⇄ ".*"</li>
+</ul>
+</li>
+<li><strong>Encode/Decode</strong>
+<ul>
+<li>Base64 Encode</li>
+<li>Base64 Decode</li>
+<li>Hex Encode</li>
+<li>Hex Decode</li>
+<li>Html Encode</li>
+<li>Html Decode</li>
+<li>Unicode Encode</li>
+<li>Unicode Encode</li>
+<li>URI Encode</li>
+<li>URI Decode</li>
+</ul>
+</li>
+<li><strong>Lines</strong>
+<ul>
+<li>Sort Lines</li>
+<li>Remove Duplicate Lines</li>
+<li>Sort And Remove Duplicate Lines</li>
+<li>Copy Cursor Line</li>
+<li>Delete to Line Start</li>
+</ul>
+</li>
+<li><strong>Switch To</strong>
+<ul>
+<li>foo_bar</li>
+<li>fooBar</li>
+<li>FooBar</li>
+<li>FOO_BAR</li>
+</ul>
+</li>
+<li><strong>Trim</strong>
+<ul>
+<li>Trim</li>
+<li>Trim Start</li>
+<li>Trim End</li>
+</ul>
+</li>
+<li><strong>Regex Replace</strong></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>邀请码领取</h2>
+<p><a href="https://invitecode.cc/post/EbrdElXj" rel="noopener nofollow ugc">领取链接</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49611">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 23 Nov 2023 14:03:05 +0000</pubDate>
+<pubDate>Thu, 23 Nov 2023 14:03:05 +0000</pubDate>
+</item>
 
 <item>
 <title>Chrome如何将网页翻译为拼音？</title>
