@@ -4,6 +4,39 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>mdless 2.0</title>
+<link>https://brett.trpstra.net/link/535/16466517/mdless-2-dot-0</link>
+<guid>https://brett.trpstra.net/link/535/16466517/mdless-2-dot-0</guid>
+<content:encoded><![CDATA[
+<div> Markdown, mdless, update, terminal handling, code highlighting
+
+更新了mdless至2.0版本，进行了完全改版，采用了新的Markdown解析方式，并且加入了自定义渲染和前后处理。表格清理效果更好，脚注可以更灵活地显示在段落后或者末尾。代码高亮更加准确，有序列表也可以正确显示编号。整体来说，是一个很大的进步。如果你在终端里使用Markdown并花费时间在README文件上，可以试试使用mdless来代替打开浏览器或者编辑器预览。详情和安装指南请参考链接。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Banner image" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/11/mdless-header-rb.jpg" title="Banner image" width="800" />
+              </noscript>
+            
+
+<p>I’ve updated <code class="language-plaintext highlighter-rouge">mdless</code> to 2.0. Well, 2.0.5 at this point. It’s a complete overhaul of <a href="https://brettterpstra.com/projects/mdless/" title="mdless">the command line Markdown parser/viewer</a>.</p>
+
+<p>It’s been a pretty popular project, and is being used on all kinds of OSs, but it got frustrating as the whole thing was based on regular expressions for parsing and users expected it to handle some more complex markup than it could. So for the reboot, I switched to using <a href="https://github.com/vmg/redcarpet">RedCarpet</a> for parsing, then added my own terminal handling to that via a custom renderer and pre/post processing.</p>
+
+<p>Table cleanup is better than ever. Footnotes can still be displayed directly after the paragraph that references them, or at the end of the display. Code highlighting (with <a href="https://pygments.org/" title="Welcome!—Pygments">Pygments</a>) is more accurate than ever. Ordered lists are properly numbered, regardless of the numbering in the Markdown. There are a few differences in the way things like code blocks nested in lists are displayed (they’re no longer indented), but overall it’s a big step up.</p>
+
+<p>If you’re into Markdown and spend time in the Terminal, let <code class="language-plaintext highlighter-rouge">mdless</code> display those README files for you, rather than opening up a <a href="https://marked2app.com">dedicated viewer</a> or editor with a preview. See <a href="https://brettterpstra.com/projects/mdless/" title="mdless">the project page</a> for more details and installation instructions.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F23%2Fmdless-2-dot-0%2F&amp;text=mdless+2.0&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F23%2Fmdless-2-dot-0%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16466517.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-11-23T09:19:00-06:00</pubDate>
+<pubDate>2023-11-23T09:19:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Default Folder X giveaway!</title>

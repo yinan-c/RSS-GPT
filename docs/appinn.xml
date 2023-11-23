@@ -5,11 +5,97 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】Wins Mac窗口管理器一周年 - 分享独立开发的收获</title>
+<link>https://meta.appinn.net/t/topic/49615</link>
+<guid>https://meta.appinn.net/t/topic/49615</guid>
+<content:encoded><![CDATA[
+
+<p>Hi 大家好<img alt=":wave:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/wave.png?v=12" title=":wave:" width="20" />，</p>
+<p>我是<a href="https://wins.cool/html/index_zh.html?lang=zh" rel="noopener nofollow ugc">Wins</a>的开发者，时间过的好快一转眼一年过去了，一年前我在<a href="https://meta.appinn.net/t/topic/35604">小众软件</a> 发布了Wins 1.0。</p>
+<p>当时收获了第一批用户，那时给了我很大的鼓励，我非常感激你们给Wins的机会，这激励着我走到了今天。</p>
+<p>一年后的现在，我想在这里向你们、向这个社区 分享我这一年的旅程，以及当前Wins的发展情况。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>关于用户量</h1>
+<p>我总计卖出了 <strong>1,612</strong> 份授权，其中<strong>701</strong> 份通过<a href="https://wins.cool/html/index_zh.html?lang=zh" rel="noopener nofollow ugc">Wins</a>的官网、<strong>911</strong>份通过合作商，我想特别感谢<a href="https://lizhi.shop" rel="noopener nofollow ugc">数码荔枝</a>，他们卖出了Wins近一半的销量，帮助Wins做了很多宣传和售后支持工作，非常感激这份合作关系。</p>
+<p>是的。截止到今天，Wins只有大约2000个用户<img alt=":face_holding_back_tears:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/face_holding_back_tears.png?v=12" title=":face_holding_back_tears:" width="20" /></p>
+<p>然而，Wins有很高的月活用户，近七天有超过1000人使用Wins、近28天有超过2000人使用Wins。</p>
+<p>我对Wins能够帮助到你们感到非常自豪，非常感激你们的支持，这让我坚持独立开发到今天。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>关于发展情况</h1>
+<p>在这一年里我收到了很多的反馈和建议，有很多很cool的想法，也有很多感人和鼓励的话。我结合自己对苹果产品理念的理解，即创造简单、优雅、美好的东西给Mac的用户。我和我的用户们一样热爱苹果和Mac，我真的想做一些微小的工作。</p>
+<p>在这一年里，按照用户的反馈，我增加了一些有趣或很酷的功能，例如：</p>
+<ol>
+<li><strong>Dock 窗口预览</strong> - 你现在可以预览一个App所有的窗口</li>
+</ol>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://winswebsite.s3.us-east-005.backblazeb2.com/dockPreview.mp4" />
+              <a href="https://winswebsite.s3.us-east-005.backblazeb2.com/dockPreview.mp4" rel="noopener nofollow ugc">https://winswebsite.s3.us-east-005.backblazeb2.com/dockPreview.mp4</a>
+            </video>
+          </div>
+
+<ol start="2">
+<li><strong>抖动窗口、隐藏其他窗口</strong> - 拖动一个窗口抖动一下，直接隐藏其他窗口</li>
+</ol>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://winswebsite.s3.us-east-005.backblazeb2.com/shakeWindowToHiddenOtherWindows.mp4" />
+              <a href="https://winswebsite.s3.us-east-005.backblazeb2.com/shakeWindowToHiddenOtherWindows.mp4" rel="noopener nofollow ugc">https://winswebsite.s3.us-east-005.backblazeb2.com/shakeWindowToHiddenOtherWindows.mp4</a>
+            </video>
+          </div>
+
+<ol start="3">
+<li><strong>一键窗口移动</strong> - 快速将窗口移动到其他显示器，提供果断优雅的动画效果。</li>
+</ol>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://winswebsite.s3.us-east-005.backblazeb2.com/moveWindowToAnotherDisplay.mp4" />
+              <a href="https://winswebsite.s3.us-east-005.backblazeb2.com/moveWindowToAnotherDisplay.mp4" rel="noopener nofollow ugc">https://winswebsite.s3.us-east-005.backblazeb2.com/moveWindowToAnotherDisplay.mp4</a>
+            </video>
+          </div>
+
+<ol start="4">
+<li><strong>一键隐藏全部窗口</strong> - 快速将所有窗口最小化，世界变得干净</li>
+</ol>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://winswebsite.s3.us-east-005.backblazeb2.com/hiddenAllWindows_zh.mp4" />
+              <a href="https://winswebsite.s3.us-east-005.backblazeb2.com/hiddenAllWindows_zh.mp4" rel="noopener nofollow ugc">https://winswebsite.s3.us-east-005.backblazeb2.com/hiddenAllWindows_zh.mp4</a>
+            </video>
+          </div>
+
+<ol start="5">
+<li><strong>聚焦当前窗口</strong> - 快速将其他窗口最小化，只保留当前的窗口</li>
+</ol>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://winswebsite.s3.us-east-005.backblazeb2.com/hiddenOtherWindows_zh.mp4" />
+              <a href="https://winswebsite.s3.us-east-005.backblazeb2.com/hiddenOtherWindows_zh.mp4" rel="noopener nofollow ugc">https://winswebsite.s3.us-east-005.backblazeb2.com/hiddenOtherWindows_zh.mp4</a>
+            </video>
+          </div>
+
+<p>我依然还有很多功能很想去做，例如：任意窗口固定(pin)到最前面、支持用户自定义任意布局添加到悬浮分屏并支持分别设置快捷键等。</p>
+<p>我是一个比较崇尚 少即是多理念 的人，现在Wins功能少代表着还有更多的空间放得下更多有用的功能。我不想让Wins变得复杂，我更喜欢简单易用，我相信大多数非 tech 的群体也更能接受简单易用的软件。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>最后</h1>
+<p>我不是一个出名的开发者，没办法像Baye、Tualatrix和自力hzlzh一样有那么多的受众，我也像很多独立开发者一样不会营销和推广，我只是一个热爱macOS的忠实果粉。</p>
+<p>这对Wins来说不是容易的一年，几曾想过放弃，但好在坚持下来，我目前还无法靠Wins支持我全部的独立开发工作，但我相信未来一定可以。</p>
+<p>最后，我差点忘了最重要的事情！<img alt=":smile:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/smile.png?v=12" title=":smile:" width="20" /><br />
+<img alt=":point_down:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/point_down.png?v=12" title=":point_down:" width="20" /><img alt=":point_down:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/point_down.png?v=12" title=":point_down:" width="20" /></p>
+<p><a href="https://wins.cool/html/index_zh.html?lang=zh" rel="noopener nofollow ugc">Wins</a>在黑色星期五期间，提供 <strong>50%</strong> 的折扣优惠</p>
+<p>如果您喜欢Wins或想支持独立开发，这会是一个很好的时候(非常感谢)<img alt=":yum:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/yum.png?v=12" title=":yum:" width="20" /></p>
+<p>如果您还没用过Wins，期待您能给Wins一次机会~<img alt=":sparkling_heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /><img alt=":sparkling_heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></p>
+<p>我们明年再见<img alt=":wave:t2:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/wave/2.png?v=12" title=":wave:t2:" width="20" /></p>
+<p>Wins官网：<a href="https://wins.cool/html/index_zh.html?lang=zh" rel="noopener nofollow ugc">wins.cool</a></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49615">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 23 Nov 2023 15:17:19 +0000</pubDate>
+<pubDate>Thu, 23 Nov 2023 15:17:19 +0000</pubDate>
+</item>
+
+<item>
 <title>【Toolset插件】JetBrains IDE各种常用工具集插件【黑五送码】</title>
 <link>https://meta.appinn.net/t/topic/49611</link>
 <guid>https://meta.appinn.net/t/topic/49611</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p><strong>Toolset</strong>插件</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
@@ -158,9 +244,7 @@
             <p><a href="https://meta.appinn.net/t/topic/49611">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 23 Nov 2023 14:03:05 +0000</pubDate>
-<pubDate>Thu, 23 Nov 2023 14:03:05 +0000</pubDate>
 </item>
-
 <item>
 <title>Chrome如何将网页翻译为拼音？</title>
 <link>https://meta.appinn.net/t/topic/44512</link>
