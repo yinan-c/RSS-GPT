@@ -4707,3 +4707,24 @@ Filter: [阿尔特曼王者归来，他比马斯克和乔布斯还“猛”？](
 Filter: [Stable Video Diffusion来了，代码权重已上线](https://www.36kr.com/p/2528850219394824)
 append_entries: 1
 Finish: 2023-11-23 08:19:36.325694
+------------------------------------------------------
+Started: 2023-11-23 10:17:03.010963
+Existing_entries: 295
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [AI机器人现“井喷”，什么时候量产？](https://www.36kr.com/p/2528925999030147)
+Filter: [GPT-4成学术造假“神器”，伪造数据又快又合理，Nature请统计学专家“断案”](https://www.36kr.com/p/2530605178054405)
+Token length: 1713
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI第二轮要约收购重回正轨，下月将以860亿美元估值出售10亿美元股份](https://www.36kr.com/p/2530589482395392)
+Token length: 4084
+Summarized using GPT-3.5-turbo-1106
+Append: [奥特曼回归促使OpenAI董事会“大换血”，商业味儿更浓被批缺少多样化](https://www.36kr.com/p/2530540331394825)
+Append: [OpenAI新模型曝重大飞跃：AGI雏形或威胁人类，也成Altman被解雇导火索](https://www.36kr.com/p/2530423611074311)
+Filter: [奥特曼解职危机幕后博弈大揭秘：应该由谁打开AI潘多拉魔盒](https://www.36kr.com/p/2530515805792006)
+Filter: [第一波用AI赚钱的旅游企业都在喊“真香”](https://www.36kr.com/p/2530137251096066)
+Filter: [山姆·阿尔特曼做错了什么](https://www.36kr.com/p/2530127936103942)
+Filter: [沈向洋领衔的IDEA研究院披露最新成果：多模态大模型开箱即用、AI科研助手2.0上线](https://www.36kr.com/p/2529731067225605)
+Filter: [开发人员应该如何应战 AI？](https://www.36kr.com/p/2529284224149255)
+Filter: [阿尔特曼王者归来，他比马斯克和乔布斯还“猛”？](https://www.36kr.com/p/2529142677675910)
+append_entries: 3
+Finish: 2023-11-23 10:17:20.893007
