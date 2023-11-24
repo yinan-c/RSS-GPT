@@ -4,6 +4,44 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】万能记录与统计工具「七格」</title>
+<link>https://meta.appinn.net/t/topic/49636</link>
+<guid>https://meta.appinn.net/t/topic/49636</guid>
+<content:encoded><![CDATA[
+
+<p>大家好！我是「七格」的开发者，七格是一个通用型的数据记录和统计工具。记账，日记，打卡，记请假，考试成绩，记健康数据等都可以用这一个App完成。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>为什么要做「七格」：</h3>
+<p>像记账，打卡等着这类常见需求，市面上有很多App可以选择。但如果你是一名学生想记周考成绩，或者上班族想记加班时长，这类不常见的需求就比较难找到对应的App，也许你会用Excel表格来记录，但是Excel表格使用较复杂，在手机上更不方便。这时「七格」就可以很好的完成这类需求。「七格」介于表格和专门应用之间，它比表格易用，比专门应用灵活自由，也不用每一个需求下载一个App。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>记录各种场景下的数据：</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/a/aa962a2c637181a89b995264d9b27ae9bd919040.jpeg" title="记录各种场景下的数据"><img alt="记录各种场景下的数据" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/a/aa962a2c637181a89b995264d9b27ae9bd919040_2_231x500.jpeg" width="231" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>丰富的统计图表：</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/9/f986130aaa5cad46b4d568926dca480779fc1d3e.jpeg" title="编组"><img alt="编组" height="498" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/9/f986130aaa5cad46b4d568926dca480779fc1d3e_2_690x498.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/2/821c31201ece9080ca2329d9b755126f99eef3d3.jpeg" title="编组 3"><img alt="编组 3" height="498" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/2/821c31201ece9080ca2329d9b755126f99eef3d3_2_690x498.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/2/c29bc4bc0cbeee8309b678ac4323d00e4536efc9.jpeg" title="编组 2"><img alt="编组 2" height="498" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/2/c29bc4bc0cbeee8309b678ac4323d00e4536efc9_2_690x498.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3-4" name="h-3-4"></a>3步使用法：创建模版 → 添加记录 → 配置图表</h3>
+<p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>关于数据：</h3>
+<ul>
+<li>数据保存本地优先，即使没有网络也可以使用和记录，同时也支持同步到云端(也可选择关闭同步)</li>
+<li>支持多版本云端及本地备份</li>
+<li>不绑定用户，数据可以导出成csv文件</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#logo-6" name="logo-6"></a>名字及logo的由来：</h3>
+<p>七格的名字来源于七巧板，logo上的鲸鱼也是七巧板拼成的。七巧板虽然只有简单的7块板却可以拼出种类繁多的各种图案，我们的世界如此丰富，也是由元素周期表上的元素所组成。七格也是这样，由13种属性(集合，数字，进度，评分，时间，时长，时间段，勾选，单选，多选，文本，图片，公式)自由组合出丰富多彩的模版。<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/d/7d53aecbd51907cbfe5fd80664c7be375ec13815.jpeg" title="编组 4"><img alt="编组 4" height="379" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/d/7d53aecbd51907cbfe5fd80664c7be375ec13815_2_690x379.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#one-more-thing-conntect-to-notion-7" name="one-more-thing-conntect-to-notion-7"></a>One more thing: Conntect to Notion</h3>
+<p>七格可以连接到 Notion database, 每添加一条记录就可以自动同步到 Notion database 的表格中。</p>
+<p>应用商店请搜索"<strong>七格万能</strong>"，搜"七格"可能搜不到<br />
+App Store：<a class="inline-onebox" href="https://apps.apple.com/cn/app/%E6%95%B0%E6%8D%AE%E6%96%B9%E8%88%9F/id6447676776" rel="noopener nofollow ugc">‎App&nbsp;Store 上的“七格：万能记录工具”</a><br />
+Google Play：<a href="https://play.google.com/store/apps/details?id=com.space.dataark.taotao" rel="noopener nofollow ugc">https://play.google.com/store/apps/details?id=com.space.dataark.taotao</a><br />
+欢迎大家下载体检和评价建议。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49636">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 24 Nov 2023 10:02:45 +0000</pubDate>
+<pubDate>Fri, 24 Nov 2023 10:02:45 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】Wins Mac窗口管理器一周年 - 分享独立开发的收获</title>
