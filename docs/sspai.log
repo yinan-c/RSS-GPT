@@ -8419,3 +8419,12 @@ Existing_entries: 262
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-24 02:22:01.974723
+------------------------------------------------------
+Started: 2023-11-24 04:13:20.906491
+Existing_entries: 262
+Fetching from https://rsshub.app/sspai/index
+Token length: 4042
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：CHERRY 宣布推出全新 KC 200 MX 键盘](https://sspai.com/post/84599)
+append_entries: 1
+Finish: 2023-11-24 04:13:26.169202
