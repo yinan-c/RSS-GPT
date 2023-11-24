@@ -8455,3 +8455,15 @@ Existing_entries: 264
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-24 12:20:42.956749
+------------------------------------------------------
+Started: 2023-11-24 14:10:23.927385
+Existing_entries: 264
+Fetching from https://rsshub.app/sspai/index
+Token length: 8077
+Summarized using GPT-3.5-turbo-1106
+Append: [本周看什么 | 最近值得一看的一大套作品](https://sspai.com/post/84612)
+Token length: 5262
+Summarized using GPT-3.5-turbo-1106
+Append: [「黑五」值得买：不容错过的 App 和服务优惠](https://sspai.com/post/84611)
+append_entries: 2
+Finish: 2023-11-24 14:10:38.722842
