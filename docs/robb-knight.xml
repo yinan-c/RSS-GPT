@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Popular Pages with Eleventy and Fathom Analytics</title>
 <link>https://rknight.me/popular-pages-with-eleventy-and-fathom-analytics/</link>
 <guid>https://rknight.me/popular-pages-with-eleventy-and-fathom-analytics/</guid>
 <content:encoded><![CDATA[
-<div> 关键词: 网站设计, 数据分析, API, 博客文章, 流行页面<br>
-总结: <br><br>这篇文章介绍了作者如何在网站设计中添加了基于页面浏览量的流行页面功能。作者使用了 Plausible 进行网站分析，并提供了使用该工具的具体 API 实现。文章中还包括了如何使用 Fathom 来获取数据，并通过筛选和映射，将数据格式化为包含流行页面信息的结构。此外，作者还介绍了如何在不同位置引入流行页面，以及如何使用 Eleventy 过滤器来过滤出排除当前页面的流行页面列表。整篇文章围绕网站设计和数据分析展开，详细介绍了各种实现细节。 <div>
+<div> 关键词: 网站设计, 数据分析, API, 博客文章, 流行页面<br />
+总结: <br /><br />这篇文章介绍了作者如何在网站设计中添加了基于页面浏览量的流行页面功能。作者使用了 Plausible 进行网站分析，并提供了使用该工具的具体 API 实现。文章中还包括了如何使用 Fathom 来获取数据，并通过筛选和映射，将数据格式化为包含流行页面信息的结构。此外，作者还介绍了如何在不同位置引入流行页面，以及如何使用 Eleventy 过滤器来过滤出排除当前页面的流行页面列表。整篇文章围绕网站设计和数据分析展开，详细介绍了各种实现细节。 <div>
 <p>Now my new site design is done, I've been able to take some time to add features I've wanted for a while. In this case, I want to show popular pages based on pageviews at the end of blog posts, on the <a href="https://rknight.me/search">search page</a>, and on the <a href="https://rknight.me/404notfound">404 page</a>.</p>
 <h3>Fetching Pageviews</h3>
 <p>I use <a href="https://usefathom.com/ref/IXCLSF">Fathom</a> for analytics on my sites and they <a href="https://usefathom.com/api">have an API</a> which is handy. If you use Plausible for your analytics you should <a href="https://coryd.dev/posts/2023/popular-posts-widget-using-eleventy-plausible/">check out Cory's post</a> on the same topic for the specific API implementation. He also uses liquid rather than nunjucks which I use so if that's your jam you probably want his post instead.</p>
@@ -35,10 +36,8 @@
 <p>And the final result (or you can look just below this post and they <em>should</em> be there unless I broke something, or got bored and removed them 🙃). If you don't have analytics yet and want to use Fathom <a href="https://usefathom.com/ref/IXCLSF">my referral link</a> will give you $10 credit - I've been using them for a quite a while and use them on all of my sites.</p>
 <p><img alt="Popular Posts screenshot" src="https://rknightuk.s3.amazonaws.com/site/fathom-popular-posts.jpg" /></p>
 ]]></content:encoded>
-
 <pubDate>2023-11-24T22:42:04.013+00:00</pubDate>
 </item>
-
 <item>
 <title>Using SVG Sprites</title>
 <link>https://rknight.me/using-svg-sprites/</link>
