@@ -8539,3 +8539,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [Apple Log 个人创作者拍摄指南](https://sspai.com/post/84409)
 append_entries: 1
 Finish: 2023-11-25 12:19:05.300948
+------------------------------------------------------
+Started: 2023-11-25 14:09:06.289040
+Existing_entries: 268
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-11-25 14:09:06.519861
