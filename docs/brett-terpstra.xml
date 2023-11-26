@@ -4,6 +4,99 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>mdless updates for Thanksgiving weekend</title>
+<link>https://brett.trpstra.net/link/535/16468853/mdless-updates-for-thanksgiving-weekend</link>
+<guid>https://brett.trpstra.net/link/535/16468853/mdless-updates-for-thanksgiving-weekend</guid>
+<content:encoded><![CDATA[
+<div> 更新, 配置文件, 内联样式, 任务清单, 强调标记<br>
+内联样式和嵌套列表是在版本2.0中进行了重大更新，解决了代码和列表的格式问题，可以在命令行和配置文件中进行永久性设置。另外，还加入了任务清单的高亮显示，链接格式、强调标记等多种Markdown处理选项，方便用户根据需要进行设置。<br><br>总结: 更新配置文件后，mdless版本2.0解决了内联样式和嵌套列表的格式问题，同时增加了任务清单的高亮显示，丰富了Markdown处理选项，提升用户的使用体验。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Banner image, mdless screenshot" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/11/mdless-update-header-rb.jpg" title="Banner image, mdless screenshot" width="800" />
+              </noscript>
+            
+
+<p>I made a few major updates to <a href="https://brettterpstra.com/projects/mdless/">mdless</a> 2.0 (<a href="https://brettterpstra.com/2023/11/23/mdless-2-dot-0/">first announced a couple days ago</a>) over the holiday weekend. Note that you can make all of the new options permanent in the config file (see <a href="https://brettterpstra.com#updateconfig">Easily Update Config</a>). Options specified on the command line will always override anything in the config file, so you can disable options permanently but enable them on a per-run basis using command line flags.</p>
+
+<h3 id="inline-styling">Inline Styling</h3>
+
+<p>The first problem I ran into was that if a link, emphasis, or other inline element came in the middle of a line, everything after that element would fail to be styled. So I added in a routine that I created for Doing that can take the text preceding an element and determine what the escape sequence would be at the end of that text, right before the new element. Then I can restore that sequence after the new element.</p>
+
+<h3 id="nested-lists">Nested Lists</h3>
+
+<p>Second, and this was a real pain, nested lists weren’t working. Like at all. I didn’t notice it at first because my test files had very basic lists in them, but lists were being flattened, ordered list sequencing was completely out of whack, and nested paragraphs and code blocks within lists were getting totally borked. Fixing this was a pain. Redcarpet only provides “text” and “type” to the list rendering functions, so you have no idea if it’s nested, at what level, etc. You can start a class variable counter and increment it with each ordered item, but as soon as it nests or starts a new list, you’re in trouble, and lists aren’t rendered in sequence anyway, so an array structure to keep track of them is impossible. They’re rendered inside out, so any kind of basic counter will be off as soon as you have a nested ordered list. Fixing this took me three days, and I went through a dozen solutions before one worked. I think the current solution is pretty solid, seems to handle all of the aforementioned issues and maintain accurate numbering with multiple nested, ordered lists. Also indents paragraphs and code blocks within lists.</p>
+
+<p>I am running into an issue where a numbered item can sometimes have an unnecessary line break after it. I haven’t yet been able to track down where that’s coming from. Also, nested code blocks are indented, but one less indent than their parent list item. These will be fixed in future releases.</p>
+
+<h3 id="taskpaper-highlighting">TaskPaper highlighting</h3>
+
+<p>I also added TaskPaper highlighting to mdless. You can run it with <code class="language-plaintext highlighter-rouge">--taskpaper true</code> to force TaskPaper highlighting, or run it with <code class="language-plaintext highlighter-rouge">--taskpaper auto</code> to detect TaskPaper formatting either from the file extension or test whether it has at least 1 project and 6 total tasks between projects based on regular expressions. Not the most elegant way to detect it, I’m sure, but it seems to work well in my testing. You can add:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="s">:taskpaper: :auto</span></code></pre></div></div>
+
+<p>to <code class="language-plaintext highlighter-rouge">~/.config/mdless/config.yml</code> to make auto a permanent setting (or use <code class="language-plaintext highlighter-rouge">true</code> or <code class="language-plaintext highlighter-rouge">false</code> to force it either way).</p>
+
+<p>If TaskPaper highlighting is enabled, no other Markdown processing will be done. TaskPaper formatting intersects with Markdown formatting in ways that can cause unpredictable results. So @tags and values are highlighted, project names are highlighted, and task markers get colored. Other than that, it’s just displayed as is.</p>
+
+<h3 id="reference-link-formatting">Reference Link Formatting</h3>
+
+<p>As mentioned in an update to the <a href="https://brettterpstra.com/2023/11/23/mdless-2-dot-0/">2.0 announcement</a>, mdless can now render links as inline, reference, or reference-per-paragraph, grouping the references below the paragraph or element that refers to them. Just run with <code class="language-plaintext highlighter-rouge">--links paragraph</code> or <code class="language-plaintext highlighter-rouge">--links reference</code> to enable either, and these can be made permanent in the config file by adding <code class="language-plaintext highlighter-rouge">:links: :reference</code> (or <code class="language-plaintext highlighter-rouge">:inline</code> or <code class="language-plaintext highlighter-rouge">:paragraph</code>).</p>
+
+<h3 id="emphasis-markers">Emphasis Markers</h3>
+
+<p>The initial release hid the markers around emphasis, e.g. <code class="language-plaintext highlighter-rouge">**bold**</code> would just render as <strong>bold</strong>, applying colors from your theme but leaving out the <code class="language-plaintext highlighter-rouge">**</code> surrounding it. That’s now configurable in the theme settings:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>emphasis:
+  bold: b
+  bold_character: "**"
+  italic: u i
+  italic_character: "_"
+  bold-italic: b u i</code></pre></div></div>
+
+<p>You can leave the character settings empty to not display any characters at all (as per previous behavior).</p>
+
+<h3 id="other-markdown-rendering-options">Other Markdown Rendering Options</h3>
+
+<p>Redcarpet has flags available for lax spacing (requiring newlines around HTML blocks) and intra-emphasis (where <code class="language-plaintext highlighter-rouge">a_underscored_filename</code> would get rendered with italics in the middle). Disabling intra-emphasis means that underscored filenames (and other words) stay as is.</p>
+
+<p>These can be implemented in mdless using <code class="language-plaintext highlighter-rouge">--[no-]intra-emphasis</code> and <code class="language-plaintext highlighter-rouge">--[no-]lax-spacing</code>, and both options can be made permanent in the config file.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="s">:lax_spacing: </span><span class="no">true</span>
+<span class="s">:intra_emphasis: </span><span class="no">false</span></code></pre></div></div>
+
+<h3 id="wiki-links">Wiki Links</h3>
+
+<p>This one is simple, I just added highlighting for <code class="language-plaintext highlighter-rouge">[[wiki links]]</code>. It can be toggled with <code class="language-plaintext highlighter-rouge">--[no-]wiki-links</code> and uses the colors specified for link brackets and link text. Make it permanent with <code class="language-plaintext highlighter-rouge">:wiki_links: true</code>.</p>
+
+<h3 id="updateconfig">Easily Update Config</h3>
+
+<p>By the way, you can overwrite the config file with current command line flags and any new keys that have been added by running with <code class="language-plaintext highlighter-rouge">--update-config</code>. Any other flags on the command line will be set in the config, and any new keys that may have been added since your config file was created will be added with their default values.</p>
+
+<p>The config file is found at <code class="language-plaintext highlighter-rouge">~/.config/mdless/config.yml</code>. Options specified there can be overridden by using command line flags at any time. This file is automatically written on the first run where the file doesn’t exist, so you can scrap preferences and start again just by deleting the file and running mdless (any command line options used on that first run will be set in the config file, otherwise the default value for each option will be used).</p>
+
+<h3 id="other-stuff">Other Stuff</h3>
+
+<ul>
+  <li>Pad numbers on headline listing to preserve indentation</li>
+  <li>Image rendering with chafa improved, still have to figure out a way to make sure content breaks properly around the embedded image</li>
+  <li>Only detect mmd headers on first line</li>
+  <li>Scrub invalid UTF-8 in document to remove characters that break regexes</li>
+</ul>
+
+<p>Check out the <a href="https://brettterpstra.com/projects/mdless/">project page</a> for installation and usage details.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F26%2Fmdless-updates-for-thanksgiving-weekend%2F&amp;text=mdless+updates+for+Thanksgiving+weekend&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F26%2Fmdless-updates-for-thanksgiving-weekend%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16468853.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-11-26T13:24:00-06:00</pubDate>
+<pubDate>2023-11-26T13:24:00-06:00</pubDate>
+</item>
 
 <item>
 <title>The Default Folder X giveaway winners!</title>
