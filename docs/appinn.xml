@@ -4,6 +4,128 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【怠惰小说下载器】通用网页文本抓取工具</title>
+<link>https://meta.appinn.net/t/topic/49711</link>
+<guid>https://meta.appinn.net/t/topic/49711</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>怠惰小说下载器</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Chrome / Web</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>「怠惰小说下载器」是一款通用网页文本抓取工具，适用于任何静态写入文本的网站</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>安装地址</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="16" src="https://greasyfork.org/vite/assets/blacklogo16-bc64b9f7.png" width="16" />
+
+      <a href="https://greasyfork.org/zh-CN/scripts/25068-downloadallcontent" rel="noopener nofollow ugc" target="_blank">greasyfork.org</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="292" src="https://greasyfork.s3.us-east-2.amazonaws.com/xa7359yb6h395fsrx60746260kq1" width="690" /></div>
+
+<h3><a href="https://greasyfork.org/zh-CN/scripts/25068-downloadallcontent" rel="noopener nofollow ugc" target="_blank">DownloadAllContent</a></h3>
+
+  <p>通用网站内容抓取工具，可批量抓取任意站点的小说、论坛内容等并保存为TXT文档</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>使用方法</h2>
+<ul>
+<li>打开<strong>目录页</strong>或其他任意页面</li>
+<li>按下 <strong><code>CTRL + F9</code></strong> 或使用脚本管理器的命令菜单</li>
+<li>亦可按下 <code>SHIFT + CTRL + F9</code> 忽略目录，仅下载当前页</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>测试网页</h2>
+<ul>
+<li><a class="inline-onebox" href="http://www.gulongbbs.com/zhentan/bdlr/plje/Index.html" rel="noopener nofollow ugc">漂流街_驰星周悬疑推理小说</a></li>
+<li><a class="inline-onebox" href="http://www.jhshe.com/thread-1837-1-1.html" rel="noopener nofollow ugc">读书偶得 - 进化社 - 经典单机怀旧老游戏 - Powered by Discuz!</a></li>
+<li><a class="inline-onebox" href="http://tieba.baidu.com/p/4871634479" rel="noopener nofollow ugc">#我的贴吧故事#小可爱们来讲讲你和贴吧的故事吧！【爆照吧】_百度贴吧</a></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>应用简介</h2>
+<p>这个脚本会自动检索页面中的主要内容并下载（<del>省得复制完gal攻略还要手动逐条删除“某某某13级头衔水龙王发表于X年X月X日来自XX客户端”</del>）。 如果位于小说目录页脚本则会遍历所有章节并排序拼接后存为 TXT 文档。</p>
+<p>使用前可以先打开选项设置页，勾选 <strong>下载前显示章节筛选排序窗口</strong>。开启后可以方便地对章节进行筛选、添加、排序。</p>
+<p>最近网文改编影视大爆发，我在搜原著小说的时候偶然发现了这个——<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/6/96e31975d1a2dfa38da1b13c56ee17d6e38333aa.png" title="image"><img alt="image" height="326" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/6/96e31975d1a2dfa38da1b13c56ee17d6e38333aa_2_690x326.png" width="690" /></a></div><br />
+以及这个<br />
+<img alt="image" height="216" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/f/4fe3cd7a1c99e028ef4ee44ccf20f70d5d1bc3aa.png" width="524" /><p></p>
+<p>内心万草奔腾。想起我还没在小众分享过这个 7 年前的老脚本，所以就来发个贴。</p>
+<p>这货一开始叫"懒人小说下载器"。后来油叉上有作者提交了一个"懒人xxx"脚本，因为种种原因此作者和别人产生冲突，结果"懒人"这个关键词成了战场。又因为一开始简介里的 re0 怠惰大罪司教表情包被人调侃，所以我把它改名成了"怠惰"。</p>
+<p>最初我是为了"驰星周"写的，但后来需求渐增，又不想针对特定站点惹上麻烦，因而添加了自定义下载功能，虽然脚本名为"怠惰"，但是自定义下载实在是很复杂。写完这个功能到现在，除了我自己，可能还没有其他人写过相关规则 <img alt=":joy:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/joy.png?v=12" title=":joy:" width="20" />。因此高级功能七层心法可以当作不存在，不作赘述。</p>
+<p>不支持版权站，且大多数版权站都有更好的选择，例如【小说】下载脚本，小说下载器，七猫全文在线免费读等。因此不要尝试使用此脚本下载版权站内容。</p>
+<p>不编写规则的情况下，此脚本仅可下载静态写入网页的可见文本部分，其他加密内容，页内 js 动态写入的文本都无法读取。切勿用作非法用途，否则后果自负。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49711">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 27 Nov 2023 05:51:09 +0000</pubDate>
+<pubDate>Mon, 27 Nov 2023 05:51:09 +0000</pubDate>
+</item>
+<item>
+<title>【开发者自荐】往昔 - 记录重要记忆、纪念日 APP</title>
+<link>https://meta.appinn.net/t/topic/49712</link>
+<guid>https://meta.appinn.net/t/topic/49712</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>往昔</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>iOS</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>人生，总有一些瞬间令人难忘：入学、毕业、相遇、工作、结婚、生子。而“往昔”，则是帮你记录这些珍贵记忆，还可以创建纪念日。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>【记忆】</p>
+<ul>
+<li>记录人生重要记忆</li>
+<li>时间轴展示，显示对应年龄</li>
+<li>可以封存记忆</li>
+<li>记忆之间可以创建关联，快捷查看</li>
+</ul>
+<p>【纪念日】</p>
+<ul>
+<li>正数日、倒数日</li>
+<li>纪念日提醒</li>
+<li>可以关联记忆</li>
+</ul>
+<p>【那年今日】</p>
+<ul>
+<li>那年今日，回忆满满</li>
+</ul>
+<p>【追忆】</p>
+<ul>
+<li>每次查看回忆，都有新感想？写一条“追忆”吧！</li>
+<li>记忆、纪念日都支持追忆</li>
+</ul>
+<p>【足迹】</p>
+<ul>
+<li>在地图上查看记忆</li>
+<li>按位置查看记忆<br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/6/d6f06865516d75a2d982aa0291ec141511a8dfa9.jpeg" title="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.01"><img alt="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.01" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/6/d6f06865516d75a2d982aa0291ec141511a8dfa9_2_231x500.jpeg" width="231" /></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/4/c4c55f7a8777c3e921a18095190a798e755160d8.jpeg" title="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.06"><img alt="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.06" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/4/c4c55f7a8777c3e921a18095190a798e755160d8_2_231x500.jpeg" width="231" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/7/77d3d303386e201c1c77b9ddc332488adcbedaf8.jpeg" title="今天我过了一个难忘的生日"><img alt="今天我过了一个难忘的生日" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/7/77d3d303386e201c1c77b9ddc332488adcbedaf8_2_231x500.jpeg" width="231" /></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/5/b533a2af4ea716318c8eb36f84ca1b6f6c97c5e4.jpeg" title="IMG_1388"><img alt="IMG_1388" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/5/b533a2af4ea716318c8eb36f84ca1b6f6c97c5e4_2_231x500.jpeg" width="231" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/5/256582c1c271592948962bf9863f644720cd94ad.jpeg" title="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.20"><img alt="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.20" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/5/256582c1c271592948962bf9863f644720cd94ad_2_231x500.jpeg" width="231" /></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/e/0ee3468f83a895ce209edcc62d6508ac2417d103.jpeg" title="IMG_1390"><img alt="IMG_1390" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/e/0ee3468f83a895ce209edcc62d6508ac2417d103_2_231x500.jpeg" width="231" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/6/a639aa2cb81c2c7d3f7369eb825a092d9ba93936.jpeg" title="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.37"><img alt="Simulator Screenshot - iPhone 12 - 2023-11-23 at 22.31.37" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/6/a639aa2cb81c2c7d3f7369eb825a092d9ba93936_2_231x500.jpeg" width="231" /></a></div></li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49712">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 27 Nov 2023 05:51:20 +0000</pubDate>
+<pubDate>Mon, 27 Nov 2023 05:51:20 +0000</pubDate>
+</item>
 
 <item>
 <title>寻求时间天气与语句播放App</title>

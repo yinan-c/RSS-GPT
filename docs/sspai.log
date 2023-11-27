@@ -8665,3 +8665,12 @@ Existing_entries: 270
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-27 04:14:08.969168
+------------------------------------------------------
+Started: 2023-11-27 06:15:13.239156
+Existing_entries: 270
+Fetching from https://rsshub.app/sspai/index
+Token length: 9992
+Summarized using GPT-3.5-turbo-1106
+Append: [与知识库对话、用嘴找笔记：Notion AI 对话模式体验](https://sspai.com/post/84597)
+append_entries: 1
+Finish: 2023-11-27 06:15:20.190441
