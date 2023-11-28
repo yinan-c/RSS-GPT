@@ -5948,3 +5948,10 @@ Filter: [用视觉来做Prompt，沈向洋展示IDEA研究院新模型，无需�
 Filter: [Hinton和LeCun再交锋，激辩LLM能否引发智能奇点，LeCun：人类理解能力碾压GPT-4](https://www.36kr.com/p/2535955965142792)
 append_entries: 0
 Finish: 2023-11-28 12:21:22.435413
+------------------------------------------------------
+Started: 2023-11-28 14:11:02.574095
+Existing_entries: 316
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
