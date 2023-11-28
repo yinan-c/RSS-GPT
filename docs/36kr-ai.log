@@ -5822,3 +5822,10 @@ Filter: [留给谷歌的时间不多了：18年老员工辞职炮轰领导层](h
 Filter: [一封信导致Sam Altman被开除？神秘「Q*」项目曝光，进化令人震惊](https://www.36kr.com/p/2533136258754051)
 append_entries: 0
 Finish: 2023-11-28 00:53:29.111085
+------------------------------------------------------
+Started: 2023-11-28 02:26:28.106214
+Existing_entries: 313
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 502
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai

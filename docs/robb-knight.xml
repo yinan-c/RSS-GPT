@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>DoubleShift</title>
 <link>https://rknight.me/doubleshift/</link>
@@ -28,10 +29,8 @@
 <p>It's worth noting that when using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator">subsequent-sibling combinator</a> (<code>~</code>) the two elements must be children of the same parent so I couldn't have the radio buttons inside their own container which made styling them slightly harder, but a small price to pay to not rely on JS here.</p>
 <p><a href="https://doubleshift.rknight.me">View the DoubleShift site here</a> and you can view <a href="https://github.com/rknightuk/doubleshift">the source on GitHub</a></p>
 ]]></content:encoded>
-
 <pubDate>2023-11-27T22:30:06.509+00:00</pubDate>
 </item>
-
 <item>
 <title>Popular Pages with Eleventy and Fathom Analytics</title>
 <link>https://rknight.me/popular-pages-with-eleventy-and-fathom-analytics/</link>
