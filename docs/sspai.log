@@ -8755,3 +8755,12 @@ Existing_entries: 274
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-28 06:15:09.905908
+------------------------------------------------------
+Started: 2023-11-28 08:14:47.990466
+Existing_entries: 274
+Fetching from https://rsshub.app/sspai/index
+Token length: 5185
+Summarized using GPT-3.5-turbo-1106
+Append: [关于流感和疫苗，你需要知道哪些信息？](https://sspai.com/post/76945)
+append_entries: 1
+Finish: 2023-11-28 08:15:01.269196
