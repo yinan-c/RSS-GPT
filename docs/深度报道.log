@@ -1328,3 +1328,9 @@ Fetching from https://cn.gijn.org/feed/zh-hant/
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/深度报道
+------------------------------------------------------
+Started: 2023-11-29 12:32:43.808217
+Existing_entries: 11
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-11-29 12:32:44.027863
