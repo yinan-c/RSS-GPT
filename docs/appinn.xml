@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>SDXL Turbo 免费体验站， 0.3 秒生成一张图片快到飞起，欢迎体验</title>
 <link>https://meta.appinn.net/t/topic/49788</link>
 <guid>https://meta.appinn.net/t/topic/49788</guid>
 <content:encoded><![CDATA[
-
 <p>SDXL Turbo 今天刚刚发布，试了一下感觉快到起飞，4090 生成一张 512*512 的图片只需要 0.3 秒，基本没有等待。</p>
 <p>我觉得发展下去会很有前途，所以下午抢着时间撸了一个体验站点 <a href="https://sdxlturbo.ai/" rel="noopener nofollow ugc">https://sdxlturbo.ai/</a> ，不需要注册和登录，打开就能访问和体验，差不多你刚敲完 prompt 就可以得到结果。欢迎大家体验。</p>
 <p>节省时间最主要的原因是减少了推理步数。一般 SD 出图得 20 步起，但对 SDXL Turbo 来讲，官方推荐 1 步就好。我这里还设置了 2 步，耗时稍微多了一点点。</p>
@@ -20,9 +20,7 @@
             <p><a href="https://meta.appinn.net/t/topic/49788">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 29 Nov 2023 12:57:23 +0000</pubDate>
-<pubDate>Wed, 29 Nov 2023 12:57:23 +0000</pubDate>
 </item>
-
 <item>
 <title>【自荐】独一无二的待办清单「树清单」，希望你喜欢</title>
 <link>https://meta.appinn.net/t/topic/49777</link>
