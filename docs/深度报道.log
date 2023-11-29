@@ -1321,3 +1321,10 @@ Existing_entries: 11
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-11-29 08:21:33.162930
+------------------------------------------------------
+Started: 2023-11-29 10:18:38.928827
+Existing_entries: 11
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/深度报道
