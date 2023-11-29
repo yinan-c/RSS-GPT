@@ -6259,3 +6259,10 @@ Filter: [AI网红月入8万，只用PS即可打造](https://www.36kr.com/p/25376
 Filter: [美图的AI故事，仍是「新瓶装旧酒」](https://www.36kr.com/p/2537423435751552)
 append_entries: 0
 Finish: 2023-11-29 16:15:16.484306
+------------------------------------------------------
+Started: 2023-11-29 18:14:29.312122
+Existing_entries: 319
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
