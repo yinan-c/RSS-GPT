@@ -8746,3 +8746,11 @@ Append: [【自荐】独一无二的待办清单「树清单」，希望你喜�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-11-29 10:12:36.059160
+------------------------------------------------------
+Started: 2023-11-29 12:21:06.335464
+Existing_entries: 166
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-11-29 12:21:10.279100
