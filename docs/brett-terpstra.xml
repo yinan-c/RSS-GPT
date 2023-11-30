@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>mdless gets all the colors</title>
 <link>https://brett.trpstra.net/link/535/16477495/mdless-gets-all-the-colors</link>
 <guid>https://brett.trpstra.net/link/535/16477495/mdless-gets-all-the-colors</guid>
 <content:encoded><![CDATA[
-<div> 改进，主题，颜色代码，TaskPaper渲染，更新日志<br>
-<br>总结: 该文章介绍了mdless 2.1.6版本的更新，包括使用十六进制颜色代码进行主题设置，解决了列表和段落中颜色显示的问题，改进了TaskPaper的渲染和自动检测功能，并新增了显示更新日志的--changes标志。 <div>
+<div> 改进，主题，颜色代码，TaskPaper渲染，更新日志<br />
+<br />总结: 该文章介绍了mdless 2.1.6版本的更新，包括使用十六进制颜色代码进行主题设置，解决了列表和段落中颜色显示的问题，改进了TaskPaper的渲染和自动检测功能，并新增了显示更新日志的--changes标志。 <div>
 <p>I just pushed v2.1.6 of <a href="https://brettterpstra.com/projects/mdless/" title="mdless, terminal markdown viewer">mdless</a>. Once all these 2.0 changes are confirmed to be stable, I’ll let this project go for a while, but right now there’s lots to improve on and I’m enjoying it as a way to blow off steam.</p>
 
 <p>The biggest change in 2.1.6 is the ability to use hex codes when theming. If you didn’t know, the first time <code class="language-plaintext highlighter-rouge">mdless</code> is run, it saves a theme file to <code class="language-plaintext highlighter-rouge">~/.config/mdless/mdless.theme</code>. You can <a href="https://brettterpstra.com/projects/mdless/#customization">edit this file</a> to change what colors different elements display as. You can also create additional <code class="language-plaintext highlighter-rouge">NAME.theme</code> files and trigger them with <code class="language-plaintext highlighter-rouge">--theme NAME</code>, or set the <code class="language-plaintext highlighter-rouge">:theme:</code> setting in your <code class="language-plaintext highlighter-rouge">~/.config/mdless/config.yml</code>.</p>
@@ -32,9 +33,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16477495.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-11-30T10:47:00-06:00</pubDate>
-<pubDate>2023-11-30T10:47:00-06:00</pubDate>
 </item>
-
 <item>
 <title>SaneBox giveaway surprise!</title>
 <link>https://brett.trpstra.net/link/535/16477304/sanebox-giveaway-surprise</link>
