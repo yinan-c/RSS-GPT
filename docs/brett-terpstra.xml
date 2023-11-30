@@ -5,12 +5,43 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>mdless gets all the colors</title>
+<link>https://brett.trpstra.net/link/535/16477495/mdless-gets-all-the-colors</link>
+<guid>https://brett.trpstra.net/link/535/16477495/mdless-gets-all-the-colors</guid>
+<content:encoded><![CDATA[
+<div> 改进，主题，颜色代码，TaskPaper渲染，更新日志<br>
+<br>总结: 该文章介绍了mdless 2.1.6版本的更新，包括使用十六进制颜色代码进行主题设置，解决了列表和段落中颜色显示的问题，改进了TaskPaper的渲染和自动检测功能，并新增了显示更新日志的--changes标志。 <div>
+<p>I just pushed v2.1.6 of <a href="https://brettterpstra.com/projects/mdless/" title="mdless, terminal markdown viewer">mdless</a>. Once all these 2.0 changes are confirmed to be stable, I’ll let this project go for a while, but right now there’s lots to improve on and I’m enjoying it as a way to blow off steam.</p>
+
+<p>The biggest change in 2.1.6 is the ability to use hex codes when theming. If you didn’t know, the first time <code class="language-plaintext highlighter-rouge">mdless</code> is run, it saves a theme file to <code class="language-plaintext highlighter-rouge">~/.config/mdless/mdless.theme</code>. You can <a href="https://brettterpstra.com/projects/mdless/#customization">edit this file</a> to change what colors different elements display as. You can also create additional <code class="language-plaintext highlighter-rouge">NAME.theme</code> files and trigger them with <code class="language-plaintext highlighter-rouge">--theme NAME</code>, or set the <code class="language-plaintext highlighter-rouge">:theme:</code> setting in your <code class="language-plaintext highlighter-rouge">~/.config/mdless/config.yml</code>.</p>
+
+<p>With the latest version, you can use 3 or 6-digit RGB codes in addition to color names. Where previously you were limited to the default ANSI colors like red, blue, magenta, cyan, etc., you can now insert something like <code class="language-plaintext highlighter-rouge">eccc87</code> where a color name would usually go. You can affect background colors by prefixing with <code class="language-plaintext highlighter-rouge">bg</code> or <code class="language-plaintext highlighter-rouge">on_</code>, e.g. <code class="language-plaintext highlighter-rouge">bgeccc87</code>. The depth of color that can be displayed depends on your terminal, but at minimum this opens up 256 colors for theming, a 32x increase in options.</p>
+
+<p>I also fixed a couple of issues where span elements in list items would cause the coloration to change. And when there’s a space between list items, they get rendered as paragraphs <em>within</em> list items (standard for most Markdown parsers), causing the coloring to be unexpectedly the same as regular paragraphs. Now <code class="language-plaintext highlighter-rouge">mdless</code> strips out regular paragraph coloring on paragraphs contained in list items, so every paragraph within a list gets the list item coloring.</p>
+
+<p>In TaskPaper rendering, documents will now respond to <code class="language-plaintext highlighter-rouge">--list</code> to list projects, and <code class="language-plaintext highlighter-rouge">--section</code> to list just certain project(s) contents. These no longer have to be numeric (for Markdown or TaskPaper); fuzzy text matching can pick a section (or multiple sections) for you. I also improved the TaskPaper auto-detection by adding a routine that removes all lines that match project or task regular expressions, and if there’s nothing left, it assumes it’s a TaskPaper document. Let me know how this works in the real world.</p>
+
+<p>Lastly, I added a <code class="language-plaintext highlighter-rouge">--changes</code> flag that will display the changelog (using mdless for readability), so when you update you can see what changed just by running <code class="language-plaintext highlighter-rouge">mdless --changes</code>.</p>
+
+<p>Check out the <a href="https://brettterpstra.com/projects/mdless/" title="mdless, terminal markdown viewer">project page</a> for the full changelog and more details!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F30%2Fmdless-gets-all-the-colors%2F&amp;text=mdless+gets+all+the+colors&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F11%2F30%2Fmdless-gets-all-the-colors%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16477495.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-11-30T10:47:00-06:00</pubDate>
+<pubDate>2023-11-30T10:47:00-06:00</pubDate>
+</item>
+
+<item>
 <title>SaneBox giveaway surprise!</title>
 <link>https://brett.trpstra.net/link/535/16477304/sanebox-giveaway-surprise</link>
 <guid>https://brett.trpstra.net/link/535/16477304/sanebox-giveaway-surprise</guid>
 <content:encoded><![CDATA[
 <div> SaneBox, giveaway, email, subscription, BrettTerpstra.com
-总结:<br><br>本文介绍了SaneBox赞助BrettTerpstra.com，并提供5个免费1年订阅SaneBox的机会。SaneBox是一个帮助你保持电子邮件收件箱清洁的服务，通过训练可以将特定类型的电子邮件移动到自定义文件夹中，创造一个干净的收件箱。另外，@SaneBlackHole功能可以将某些发件人的邮件屏蔽，让其在不经过退订或请求删除数据的情况下消失。想要参与抽奖的读者需要在BrettTerpstra.com上查看并分享此文章。 <div>
+总结:<br /><br />本文介绍了SaneBox赞助BrettTerpstra.com，并提供5个免费1年订阅SaneBox的机会。SaneBox是一个帮助你保持电子邮件收件箱清洁的服务，通过训练可以将特定类型的电子邮件移动到自定义文件夹中，创造一个干净的收件箱。另外，@SaneBlackHole功能可以将某些发件人的邮件屏蔽，让其在不经过退订或请求删除数据的情况下消失。想要参与抽奖的读者需要在BrettTerpstra.com上查看并分享此文章。 <div>
 <p>Thanks to SaneBox for sponsoring BrettTerpstra.com this week! Instead of a monthly sponsored post this month, the good folks at SaneBox have decided to join my giveaway series and offer 5 free 1-year subscriptions to SaneBox to BrettTerpstra.com readers. Just sign up below for a chance to win.</p>
 
 <p><a href="https://try.sanebox.com/ttscoff" rel="nofollow">
@@ -40,9 +71,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16477304.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-11-30T08:00:00-06:00</pubDate>
-<pubDate>2023-11-30T08:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Tower giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16469906/tower-giveaway</link>
