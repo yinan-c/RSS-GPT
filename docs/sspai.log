@@ -8913,3 +8913,12 @@ Existing_entries: 282
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-11-30 02:25:01.406269
+------------------------------------------------------
+Started: 2023-11-30 04:13:35.506975
+Existing_entries: 282
+Fetching from https://rsshub.app/sspai/index
+Token length: 3120
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：红米发布 K70 系列、Google 公布 2023 年 Play Store 最佳榜单](https://sspai.com/post/84727)
+append_entries: 1
+Finish: 2023-11-30 04:13:39.646898
