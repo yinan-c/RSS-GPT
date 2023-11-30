@@ -1382,3 +1382,12 @@ Existing_entries: 11
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-11-30 04:20:29.965168
+------------------------------------------------------
+Started: 2023-11-30 06:21:50.825423
+Existing_entries: 11
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [深度報道精選：朱令，人生五十](https://cn.gijn.org/2023/11/30/stories-of-nov-2/zh-hant/)
+append_entries: 1
+Finish: 2023-11-30 06:21:51.542476
