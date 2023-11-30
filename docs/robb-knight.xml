@@ -4,6 +4,25 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+<item>
+<title>Crossover</title>
+<link>https://rknight.me/crossover/</link>
+<guid>https://rknight.me/crossover/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：DoubleShift, Crossover, TV shows, leaderboards, 混搭比较<br>
+总结:<br>
+文章介绍了一个名为DoubleShift的网站，它有一些有趣的功能，如排行榜，与Crossover不同，它不仅限于少数电视节目，而是可以比较任何一部电视节目。网站上预先加载了一些节目，用户也可以搜索添加新的节目进行混搭比较。网站的标志是Breaking Bad和Game of Thrones的混合图标，但实际测试中发现Game of Thrones与其他节目的交叉演员很少。文章作者也提到了自己在建设网站时的一些想法。 <div>
+<p><img alt="Crossover logo" src="https://rknightuk.s3.amazonaws.com/site/crossover-logo.png" /></p>
+<p>Sometimes one idea begets another. In the case of <a href="https://crossover.rknight.me">Crossover</a> I had the idea while building <a href="https://rknight.me/doubleshift">DoubleShift</a> but I was too far in to change it. DoubleShift also now has some fun additional features like leaderboards which only make sense for that site.</p>
+<p>Crossover, unlike DoubleShift, isn't limited to a handful of TV shows: if a show is in <a href="https://www.themoviedb.org/">The Movie Database</a> you can compare it with Crossover.</p>
+<p><img alt="Crossover screenshot" src="https://rknightuk.s3.amazonaws.com/site/crossover-screenshot.png" /></p>
+<p>There are a few pre-loaded shows on the site but you can search for any show - once you've found one, it gets added to the options so you can mix and match in any way you want.</p>
+<p>The logo is a mix of Breaking Bad and Game of Thrones so you might think Game of Thrones would be a good default on the site but there are very few actors that crossover with other shows I was testing with. The font looked good though so here we are.</p>
+<p><a href="https://crossover.rknight.me">Check out Crossover here</a> and <a href="https://doubleshift.rknight.me">DoubleShift here</a>.</p>
+]]></content:encoded>
+
+<pubDate>2023-11-30T21:17:34.256+00:00</pubDate>
+</item>
 
 <item>
 <title>DoubleShift</title>
