@@ -9015,3 +9015,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [派早报：Apple 公布年度应用榜单、魅族推出系列新品等](https://sspai.com/post/84759)
 append_entries: 2
 Finish: 2023-12-01 06:15:53.050346
+------------------------------------------------------
+Started: 2023-12-01 08:14:38.289385
+Existing_entries: 288
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-12-01 08:14:38.467739
