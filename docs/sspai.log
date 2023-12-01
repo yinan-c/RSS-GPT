@@ -9003,3 +9003,15 @@ Existing_entries: 286
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-01 04:14:06.207315
+------------------------------------------------------
+Started: 2023-12-01 06:15:39.738196
+Existing_entries: 286
+Fetching from https://rsshub.app/sspai/index
+Token length: 5953
+Summarized using GPT-3.5-turbo-1106
+Append: [诗之所向，素履以往：我的浙东摩旅记录](https://sspai.com/post/84702)
+Token length: 2135
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：Apple 公布年度应用榜单、魅族推出系列新品等](https://sspai.com/post/84759)
+append_entries: 2
+Finish: 2023-12-01 06:15:53.050346
