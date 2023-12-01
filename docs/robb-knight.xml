@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day One</title>
 <link>https://rknight.me/advent-of-code-2023-day-one/</link>
 <guid>https://rknight.me/advent-of-code-2023-day-one/</guid>
 <content:encoded><![CDATA[
 <div> 编程、Advent of Code、PHP、regex、数字提取
-总结:<br><br>编程爱好者发现了名为Advent of Code的编程挑战活动，并选择用PHP编程语言参与。他在第一个挑战中使用了正则表达式来提取字符串中的数字，并成功解决了这个问题。第二个挑战中，他遇到了一些字符串中数字和单词的交叉情况，经过一番调试和搜索，最终使用了正向预查来解决这个问题。通过这两个挑战，他成功完成了Advent of Code的第一天任务。 <div>
+总结:<br /><br />编程爱好者发现了名为Advent of Code的编程挑战活动，并选择用PHP编程语言参与。他在第一个挑战中使用了正则表达式来提取字符串中的数字，并成功解决了这个问题。第二个挑战中，他遇到了一些字符串中数字和单词的交叉情况，经过一番调试和搜索，最终使用了正向预查来解决这个问题。通过这两个挑战，他成功完成了Advent of Code的第一天任务。 <div>
 <p>Until <a href="https://zoeaubert.me">Zoe</a> mentioned it this morning, I didn't know what <a href="https://adventofcode.com">Advent of Code</a> was <sup class="footnote-ref"><a href="https://rknight.me/feed.xml#fn1" id="fnref1">[1]</a></sup>. Advent of Code is an &quot;<em>advent calendar of small programming puzzles</em>&quot;. So once I knew what it was, I figured I'd give it a go. I'm not sure if I'll make it all month but I'll certainly try. I'm doing it in PHP because it's what I know and it will annoy Zoe a little bit; you can see <a href="https://zoeaubert.me/blog/advent-of-code-2023-day-01/">her rust-based solution here</a>.</p>
 <h3>Part 1</h3>
 <p>The first challenge was to extract the first and last digit from an array of strings, concatenate them, then get the total. For example the result of this on <code>1fghy2</code> would give <code>12</code>.</p>
@@ -33,10 +34,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-01T11:30:30.578+00:00</pubDate>
 </item>
-
 <item>
 <title>Crossover</title>
 <link>https://rknight.me/crossover/</link>
