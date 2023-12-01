@@ -9021,3 +9021,15 @@ Existing_entries: 288
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-01 08:14:38.467739
+------------------------------------------------------
+Started: 2023-12-01 10:12:35.763042
+Existing_entries: 288
+Fetching from https://rsshub.app/sspai/index
+Token length: 2173
+Summarized using GPT-3.5-turbo-1106
+Append: [打工人的第一台 HiFi 设备，竟然是一把机械键盘？](https://sspai.com/post/84763)
+Token length: 1580
+Summarized using GPT-3.5-turbo-1106
+Append: [让折叠屏手机内屏交互更高效好用，OPPO Find N3 是如何呈现的？](https://sspai.com/post/84733)
+append_entries: 2
+Finish: 2023-12-01 10:12:48.719001
