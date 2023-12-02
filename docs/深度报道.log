@@ -1574,3 +1574,9 @@ error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. Y
 Append: [如何使用在線問卷助力調查報道？](https://cn.gijn.org/2023/12/03/%e7%ba%bf%e4%b8%8a%e9%97%ae%e5%8d%b7/zh-hant/)
 append_entries: 1
 Finish: 2023-12-02 18:19:09.533170
+------------------------------------------------------
+Started: 2023-12-02 20:16:03.304377
+Existing_entries: 13
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-12-02 20:16:03.793820
