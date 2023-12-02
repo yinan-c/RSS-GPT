@@ -1565,3 +1565,12 @@ Existing_entries: 12
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-12-02 16:20:13.523280
+------------------------------------------------------
+Started: 2023-12-02 18:19:08.921831
+Existing_entries: 12
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [如何使用在線問卷助力調查報道？](https://cn.gijn.org/2023/12/03/%e7%ba%bf%e4%b8%8a%e9%97%ae%e5%8d%b7/zh-hant/)
+append_entries: 1
+Finish: 2023-12-02 18:19:09.533170
