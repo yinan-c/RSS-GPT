@@ -9056,3 +9056,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【自荐】NinjaMouse - 免费 macOS App 使用快捷键将鼠标跳到指定显示器](https://meta.appinn.net/t/topic/49868)
 append_entries: 1
 Finish: 2023-12-02 14:09:00.184255
+------------------------------------------------------
+Started: 2023-12-02 16:13:07.171496
+Existing_entries: 172
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-12-02 16:13:10.942938

@@ -7045,3 +7045,10 @@ Filter: [从大模型到Agent会改变的游戏规则](https://www.36kr.com/p/25
 Filter: [我国人形机器人技术专利数量全球第一，产业发展有望实现“领跑”](https://www.36kr.com/p/2541553676969734)
 append_entries: 0
 Finish: 2023-12-02 14:09:08.491065
+------------------------------------------------------
+Started: 2023-12-02 16:13:22.360335
+Existing_entries: 331
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
