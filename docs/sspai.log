@@ -9096,3 +9096,12 @@ Existing_entries: 291
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-02 06:14:05.722539
+------------------------------------------------------
+Started: 2023-12-02 08:13:02.975208
+Existing_entries: 291
+Fetching from https://rsshub.app/sspai/index
+Token length: 7172
+Summarized using GPT-3.5-turbo-1106
+Append: [入门到精通：从今天开始成为感冒专家](https://sspai.com/post/84574)
+append_entries: 1
+Finish: 2023-12-02 08:13:08.808890
