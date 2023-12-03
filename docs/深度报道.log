@@ -1592,3 +1592,9 @@ error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. Y
 Append: [成為頂尖調查報道編輯的8個技巧](https://cn.gijn.org/2023/11/11/%e6%88%90%e4%b8%ba%e9%a1%b6%e5%b0%96%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93%e7%bc%96%e8%be%91%e7%9a%848%e4%b8%aa%e6%8a%80%e5%b7%a7/zh-hant/)
 append_entries: 2
 Finish: 2023-12-02 22:14:17.375222
+------------------------------------------------------
+Started: 2023-12-03 01:17:47.920242
+Existing_entries: 15
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-12-03 01:17:48.416172
