@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day Three</title>
 <link>https://rknight.me/advent-of-code-2023-day-three/</link>
 <guid>https://rknight.me/advent-of-code-2023-day-three/</guid>
 <content:encoded><![CDATA[
-<div> 正则表达式，字符串解析，部件号码，解析引擎，修复。<br>
-总结：<br>
+<div> 正则表达式，字符串解析，部件号码，解析引擎，修复。<br />
+总结：<br />
 文章讨论了使用正则表达式和字符串解析来识别引擎图谱中的部件号码的问题。作者首先解释了他们的方案，并解释了他们在解决方案中遇到的问题。最后，作者提到了他们对第一部分的解决方案，并表示对第二部分的不满。 <div>
 <p>More regex and string parsing today. Sounds like a party.<sup class="footnote-ref"><a href="https://rknight.me/feed.xml#fn1" id="fnref1">[1]</a></sup></p>
 <h3>Part One</h3>
@@ -39,10 +40,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-03T11:50:39.013+00:00</pubDate>
 </item>
-
 <item>
 <title>Advent of Code 2023: Day Two</title>
 <link>https://rknight.me/advent-of-code-2023-day-two/</link>
