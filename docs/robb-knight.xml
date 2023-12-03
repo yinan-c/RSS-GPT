@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day Two</title>
 <link>https://rknight.me/advent-of-code-2023-day-two/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: PHP, 字符串解析, 游戏, 循环, 最大值计算
 
-总结:<br><br>文章描述了使用PHP解析字符串和处理游戏数据的过程，包括游戏ID和颜色及数量的提取，以及计算每种颜色的最大值并相乘。作者采用了字符串替换和分割的方法来解析输入数据，使用循环来检查每种颜色的数量是否符合规定，然后计算符合条件的游戏总数。在第二部分，作者使用了PHP的max函数来计算每种颜色的最大值，并通过循环将它们相乘得到最终结果。整篇文章通俗易懂，清晰地展示了作者的解题思路。 <div>
+总结:<br /><br />文章描述了使用PHP解析字符串和处理游戏数据的过程，包括游戏ID和颜色及数量的提取，以及计算每种颜色的最大值并相乘。作者采用了字符串替换和分割的方法来解析输入数据，使用循环来检查每种颜色的数量是否符合规定，然后计算符合条件的游戏总数。在第二部分，作者使用了PHP的max函数来计算每种颜色的最大值，并通过循环将它们相乘得到最终结果。整篇文章通俗易懂，清晰地展示了作者的解题思路。 <div>
 <p>After finally finding time to do today's challenge, I was able to knock it out in about 30 minutes for parts one and two. At the core of both of parts was parsing strings like this:</p>
 <pre class="language-php"><code class="language-php"><span class="token variable">$input</span> <span class="token operator">=</span> <span class="token punctuation">[</span><br />    <span class="token string single-quoted-string">'Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green'</span><span class="token punctuation">,</span><br />    <span class="token string single-quoted-string">'Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue'</span><span class="token punctuation">,</span><br />    <span class="token string single-quoted-string">'Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red'</span><span class="token punctuation">,</span><br />    <span class="token comment">// and so on</span><br /><span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
 <h3>Part One</h3>
@@ -24,10 +25,8 @@
 <p>Onwards to day three.</p>
 <p>My solution is <a href="https://github.com/rknightuk/adventofcode/tree/main/2023/02">on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-12-02T22:06:56.581+00:00</pubDate>
 </item>
-
 <item>
 <title>Advent of Code 2023: Day One</title>
 <link>https://rknight.me/advent-of-code-2023-day-one/</link>
