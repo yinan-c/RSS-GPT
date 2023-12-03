@@ -9088,3 +9088,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-02 22:09:52.146152
+------------------------------------------------------
+Started: 2023-12-03 00:55:26.487307
+Existing_entries: 172
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [求个能定时开关QQ和微信声音的IOS APP](https://meta.appinn.net/t/topic/49895)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-03 00:55:30.294015
