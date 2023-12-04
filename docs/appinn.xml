@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Chrome扩展新版要求manifest v3对油猴、adblock之类扩展的限制</title>
 <link>https://meta.appinn.net/t/topic/49938</link>
 <guid>https://meta.appinn.net/t/topic/49938</guid>
 <content:encoded><![CDATA[
-
 <p>今天打开浏览器，弹出了油猴的更新日志 <a class="inline-onebox" href="https://www.tampermonkey.net/changelog.php?ext=dhdg&amp;updated=true&amp;version=5.0.0" rel="noopener nofollow ugc">Changes | Tampermonkey</a> ，一看发现一行粗体字”<strong>通过 Tampermonkey 运行用户脚本很快将必须启用开发者模式。</strong>“，才意识到chrome扩展新要求的影响，于是了解了一下。</p>
 <p>根据 <a href="https://developer.chrome.com/docs/extensions/migrating/mv2-sunset/" rel="noopener nofollow ugc">https://developer.chrome.com/docs/extensions/migrating/mv2-sunset/</a> 的时间表，旧版（manifest v2）扩展最早将在2024 年 6 月开始无法在Chrome非稳定版上使用。</p>
 <p>新要求manifest v3对扩展的限制我个人了解有以下：<br />
@@ -28,9 +28,7 @@
             <p><a href="https://meta.appinn.net/t/topic/49938">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 04 Dec 2023 12:48:18 +0000</pubDate>
-<pubDate>Mon, 04 Dec 2023 12:48:18 +0000</pubDate>
 </item>
-
 <item>
 <title>求个能定时开关QQ和微信声音的IOS APP</title>
 <link>https://meta.appinn.net/t/topic/49895</link>

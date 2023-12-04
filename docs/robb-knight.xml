@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day Four</title>
 <link>https://rknight.me/advent-of-code-2023-day-four/</link>
 <guid>https://rknight.me/advent-of-code-2023-day-four/</guid>
 <content:encoded><![CDATA[
 <div> 关键词：刮刮卡，PHP代码，寻找获胜卡片，复制卡片，解决方案
-总结：<br><br>本文讨论了使用PHP编写代码来处理刮刮卡游戏的情况。作者首先发现了刮刮卡上的获胜数字和持有数字之间的关系，并通过编写代码来计算总得分。作者的解决方案在处理样本输入时遇到了问题，但最终通过对数组进行过滤后获得了正确答案。<br>在第二部分中，作者进一步处理数据，根据获胜数字的数量，生成了多个复制卡片的倍数。通过循环并根据获胜数字的数量增加复制卡片的倍数，最终得出了解决方案。整个过程耗时约30分钟和15分钟。 <div>
+总结：<br /><br />本文讨论了使用PHP编写代码来处理刮刮卡游戏的情况。作者首先发现了刮刮卡上的获胜数字和持有数字之间的关系，并通过编写代码来计算总得分。作者的解决方案在处理样本输入时遇到了问题，但最终通过对数组进行过滤后获得了正确答案。<br />在第二部分中，作者进一步处理数据，根据获胜数字的数量，生成了多个复制卡片的倍数。通过循环并根据获胜数字的数量增加复制卡片的倍数，最终得出了解决方案。整个过程耗时约30分钟和15分钟。 <div>
 <p>As soon as I saw this one this morning I knew it was going to at least be a bit easier than <a href="https://rknight.me/advent-of-code-2023-day-three">yesterday</a>.</p>
 <h3>Part One</h3>
 <p>The premise for today was scratchcards with two sets of numbers: winning numbers and numbers you have. The first half is winning numbers, the second is numbers you have.</p>
@@ -36,10 +37,8 @@
 <p>All in all this took me about 30 minutes for part one, and about 15 minutes for part two - although I did think about part two for a few hours while I was working.</p>
 <p>My solution is <a href="https://github.com/rknightuk/adventofcode/tree/main/2023/04">on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-12-04T13:07:52.766+00:00</pubDate>
 </item>
-
 <item>
 <title>Advent of Code 2023: Day Three</title>
 <link>https://rknight.me/advent-of-code-2023-day-three/</link>
