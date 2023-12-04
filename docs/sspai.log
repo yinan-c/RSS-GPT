@@ -9228,3 +9228,12 @@ Existing_entries: 293
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-04 00:53:17.393303
+------------------------------------------------------
+Started: 2023-12-04 02:25:59.326759
+Existing_entries: 293
+Fetching from https://rsshub.app/sspai/index
+Token length: 3181
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：工信部称 2G/3G 退网是必然选择](https://sspai.com/post/84815)
+append_entries: 1
+Finish: 2023-12-04 02:26:02.794002
