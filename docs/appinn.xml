@@ -4,6 +4,32 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chrome扩展新版要求manifest v3对油猴、adblock之类扩展的限制</title>
+<link>https://meta.appinn.net/t/topic/49938</link>
+<guid>https://meta.appinn.net/t/topic/49938</guid>
+<content:encoded><![CDATA[
+
+<p>今天打开浏览器，弹出了油猴的更新日志 <a class="inline-onebox" href="https://www.tampermonkey.net/changelog.php?ext=dhdg&amp;updated=true&amp;version=5.0.0" rel="noopener nofollow ugc">Changes | Tampermonkey</a> ，一看发现一行粗体字”<strong>通过 Tampermonkey 运行用户脚本很快将必须启用开发者模式。</strong>“，才意识到chrome扩展新要求的影响，于是了解了一下。</p>
+<p>根据 <a href="https://developer.chrome.com/docs/extensions/migrating/mv2-sunset/" rel="noopener nofollow ugc">https://developer.chrome.com/docs/extensions/migrating/mv2-sunset/</a> 的时间表，旧版（manifest v2）扩展最早将在2024 年 6 月开始无法在Chrome非稳定版上使用。</p>
+<p>新要求manifest v3对扩展的限制我个人了解有以下：<br />
+对于广告屏蔽扩展有影响的：</p>
+<ul>
+<li>限制单个用户安装的扩展程序的内置和自定义规则的数量：<br />
+例如，Chrome 浏览器为每个扩展程序设置了 30,000 条内置（“静态”）规则的限制，总限制为 330,000 条静态规则。至于用户添加的（“动态”）规则，则限制在只有 5000 条。</li>
+<li>规则只能在扩展安装和更新时加载，导致扩展失去了动态更新规则的能力：更新规则就必须更新扩展，然而扩展更新是需要Chrome商店审核的，于是规则更新总是延迟的（对于上架商店的扩展来说）</li>
+</ul>
+<p>对于油猴此类运行用户脚本或者修改网页样式的：</p>
+<ul>
+<li>必须启用开发者模式 <a class="inline-onebox" href="https://developer.chrome.com/docs/extensions/reference/userScripts/#developer-mode-for-extension-users" rel="noopener nofollow ugc">chrome.userScripts - Chrome for Developers</a>  <a href="https://groups.google.com/a/chromium.org/g/chromium-extensions/c/bdnjlMNzQqA/m/BLaC7ONvAQAJ#BLaC7ONvAQAJ" rel="noopener nofollow ugc">https://groups.google.com/a/chromium.org/g/chromium-extensions/c/bdnjlMNzQqA/m/BLaC7ONvAQAJ#BLaC7ONvAQAJ</a></li>
+</ul>
+<p>看来是时候开始准备更换Chrome了，目前Firefox明确表示继续支持旧版，并且在支持manifest v3时有可能实现不限制广告拦截器功能</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49938">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 04 Dec 2023 12:48:18 +0000</pubDate>
+<pubDate>Mon, 04 Dec 2023 12:48:18 +0000</pubDate>
+</item>
 
 <item>
 <title>求个能定时开关QQ和微信声音的IOS APP</title>

@@ -9279,3 +9279,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [写给 TESTV 铁丝的一封信：我们为什么要办铁丝俱乐部？](https://sspai.com/post/84823)
 append_entries: 2
 Finish: 2023-12-04 12:21:23.945171
+------------------------------------------------------
+Started: 2023-12-04 14:11:03.483018
+Existing_entries: 298
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-12-04 14:11:03.675592
