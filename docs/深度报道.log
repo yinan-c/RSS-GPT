@@ -1802,3 +1802,12 @@ Existing_entries: 15
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-12-05 20:18:22.810154
+------------------------------------------------------
+Started: 2023-12-05 22:16:05.662484
+Existing_entries: 15
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [#GIJC23 側記：知識正義、原住民報道與 Journal-ism 的合作](https://cn.gijn.org/2023/12/06/gijc23-yz/zh-hant/)
+append_entries: 1
+Finish: 2023-12-05 22:16:06.383496
