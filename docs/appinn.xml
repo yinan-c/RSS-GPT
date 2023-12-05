@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Edge浏览器之外的浏览器，如何把任意网站作为应用安装？</title>
 <link>https://meta.appinn.net/t/topic/31700</link>
 <guid>https://meta.appinn.net/t/topic/31700</guid>
 <content:encoded><![CDATA[
-
 <p>发现小众软件在绝大部分chrome内核浏览器打开都会提示可以作为应用安装，但是其他绝大部分网站则不会有这个提示，所以没法直接安装。<br />
 似乎只有edge浏览器在菜单提供了一个把任意网站作为应用安装的选项。<br />
 那么其他chrome内核浏览器如何把任意网站作为应用安装呢？</p>
@@ -18,9 +18,7 @@
             <p><a href="https://meta.appinn.net/t/topic/31700">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 15 Apr 2022 03:22:02 +0000</pubDate>
-<pubDate>Fri, 15 Apr 2022 03:22:02 +0000</pubDate>
 </item>
-
 <item>
 <title>Chrome扩展新版要求manifest v3对油猴、adblock之类扩展的限制</title>
 <link>https://meta.appinn.net/t/topic/49938</link>
