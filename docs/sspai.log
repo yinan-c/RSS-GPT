@@ -9345,3 +9345,15 @@ Existing_entries: 300
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-05 08:14:43.344019
+------------------------------------------------------
+Started: 2023-12-05 10:12:47.868120
+Existing_entries: 300
+Fetching from https://rsshub.app/sspai/index
+Token length: 4685
+Summarized using GPT-3.5-turbo-1106
+Append: [社区速递 023 | 妙控键盘平替、本周趣闻以及各种联名款](https://sspai.com/post/84866)
+Token length: 3075
+Summarized using GPT-3.5-turbo-1106
+Append: [爱咖啡，也爱苹果：听「三顿半」讲述风味故事](https://sspai.com/post/84828)
+append_entries: 2
+Finish: 2023-12-05 10:13:00.742166

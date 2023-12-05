@@ -7777,3 +7777,31 @@ Filter: [跨语种“AI同传”震撼登场，Meta谷歌连发重大突破，�
 Filter: [英伟达狂卖50万台GPU，AI爆火背后，是显卡的争夺](https://www.36kr.com/p/2545735841146630)
 append_entries: 0
 Finish: 2023-12-05 08:14:55.049841
+------------------------------------------------------
+Started: 2023-12-05 10:13:07.017049
+Existing_entries: 336
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [“AI抢工作”噩梦成真，“欧洲花呗”冻结招聘，要用AI完成大部分工作](https://www.36kr.com/p/2547645879341957)
+Filter: [接入大模型，手机终于要长“脑子”了？](https://www.36kr.com/p/2547470419386249)
+Token length: 3290
+Summarized using GPT-3.5-turbo-1106
+Append: [欧洲版OpenAI，给ChatGPT之父狠狠上了一课](https://www.36kr.com/p/2547384432858240)
+Filter: [颠覆Transformer霸权，CMU普林斯顿推Mamba新架构，解决致命bug推理速度暴增5倍](https://www.36kr.com/p/2547379574166664)
+Token length: 3813
+Summarized using GPT-3.5-turbo-1106
+Append: [量子计算OpenAI来了？前谷歌3人团队融资1亿元，打造AI算力芯片挑战物理极限](https://www.36kr.com/p/2547379792385157)
+Filter: [化身顶级实时翻译高手，Meta 宣布开源最先进通用语言翻译大模型 Seamless](https://www.36kr.com/p/2547254901546884)
+Filter: [做副业、养赛博女友，大模型被年轻人玩疯了](https://www.36kr.com/p/2547153100624773)
+Filter: [微软仅凭“提示工程”让GPT-4成医学专家，超过一众高度微调模型，专业测试准确率首次超90%](https://www.36kr.com/p/2546673881305989)
+Filter: [文字序顺不响影GPT-4阅读理解，别的大模型都不行](https://www.36kr.com/p/2546673214739331)
+Filter: [这位上海医生带头搞的AI，要让癌症诊断进入好时代了](https://www.36kr.com/p/2546691151139713)
+Filter: [魔珐科技创始人兼CEO柴金祥：3D虚拟人原生产品，正在押注时代的“最大红利”| WISE2023商业之王大会](https://www.36kr.com/p/2546471289988870)
+Filter: [视频AIGC“王者”Pika诞生，半年估值2亿美元](https://www.36kr.com/p/2546340429408001)
+Filter: [微软仅凭「提示工程」让GPT-4成医学专家，超过一众高度微调模型，专业测试准确率首次超90%](https://www.36kr.com/p/2546330745267969)
+Filter: [我的朋友开了家AI公司，6个月就把裤衩赔掉了](https://www.36kr.com/p/2546295615710984)
+Filter: [AI基金、量子基金都来了，武汉光谷如何“出牌”？](https://www.36kr.com/p/2546316863858441)
+Filter: [矩阵模拟，Transformer大模型3D可视化，GPT-3、Nano-GPT每一层清晰可见](https://www.36kr.com/p/2546015535834887)
+Filter: [计算机视觉GPT时刻，UC伯克利三巨头祭出首个纯CV大模型，推理惊现AGI火花](https://www.36kr.com/p/2546015243003397)
+Filter: [硬科技热潮来了，落地却为什么迟缓？](https://www.36kr.com/p/2545889963648521)
+append_entries: 2
+Finish: 2023-12-05 10:13:22.146656
