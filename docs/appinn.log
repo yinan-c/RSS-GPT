@@ -9338,3 +9338,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-05 12:21:13.742941
+------------------------------------------------------
+Started: 2023-12-05 14:11:00.864316
+Existing_entries: 174
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Edge浏览器之外的浏览器，如何把任意网站作为应用安装？](https://meta.appinn.net/t/topic/31700)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-05 14:11:05.131462
