@@ -1811,3 +1811,9 @@ error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. Y
 Append: [#GIJC23 側記：知識正義、原住民報道與 Journal-ism 的合作](https://cn.gijn.org/2023/12/06/gijc23-yz/zh-hant/)
 append_entries: 1
 Finish: 2023-12-05 22:16:06.383496
+------------------------------------------------------
+Started: 2023-12-06 01:14:51.903759
+Existing_entries: 16
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-12-06 01:14:52.450006
