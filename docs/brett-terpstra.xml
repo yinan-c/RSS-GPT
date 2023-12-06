@@ -5,6 +5,42 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>mdless with document transclusion</title>
+<link>https://brett.trpstra.net/link/535/16484987/mdless-with-document-transclusion</link>
+<guid>https://brett.trpstra.net/link/535/16484987/mdless-with-document-transclusion</guid>
+<content:encoded><![CDATA[
+<div> MultiMarkdown, transclusion, file, include, path
+<br><br>总结:
+最新版本的编码工具包含了MultiMarkdown，并且增加了文件引入的功能。通过使用双大括号插入另一个文件的内容，路径可以是相对或绝对路径，还可以在元数据中指定transclude base。这个功能对大部分用户来说可能并不是非常有用，但对一些用户来说会非常方便。 <div>
+<p>The latest version of <a href="https://brettterpstra.com/projects/mdless/" title="mdless">mdless</a>, my most recent coding obsession, now includes MultiMarkdown <a href="https://fletcher.github.io/MultiMarkdown-5/transclusion.html">document transclusion</a>.</p>
+
+<blockquote>
+  <p>File transclusion is the ability to tell MultiMarkdown to insert the contents of another file inside the current file being processed.</p>
+</blockquote>
+
+<p>You can include a document by inserting a relative path between two pairs of curly brackets:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{{myfile.md}}</code></pre></div></div>
+
+<p>The path is relative to the current document, which won’t work if you’re piping text to mdless. In that case it would need to be an absolute path, or have <code class="language-plaintext highlighter-rouge">transclude base</code> specified in the metadata.</p>
+
+<p>To provide a base for transclusion paths, just add <code class="language-plaintext highlighter-rouge">transclude base</code> to your document’s metadata, either as MultiMarkdown metadata, or as a YAML header:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>transclude base: ~/Documents/myproject/chapters</code></pre></div></div>
+
+<p>It’s probably not a super useful feature to 90% of mdless users, but should be handy for some.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111535306805891090" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F06%2Fmdless-with-document-transclusion%2F&amp;text=mdless+with+document+transclusion&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F06%2Fmdless-with-document-transclusion%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16484987.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-06T13:51:00-06:00</pubDate>
+<pubDate>2023-12-06T13:51:00-06:00</pubDate>
+</item>
+
+<item>
 <title>The SaneBox giveaway winners!</title>
 <link>https://brett.trpstra.net/link/535/16484889/the-sanebox-giveaway-winners</link>
 <guid>https://brett.trpstra.net/link/535/16484889/the-sanebox-giveaway-winners</guid>
@@ -12,7 +48,7 @@
 <div> SaneBox, winners, subscription, discount, email service
 BrettTerpstra.com, giveaway, readers, support, promotion
 
-<br><br>总结:
+<br /><br />总结:
 SaneBox举行了抽奖活动，五位幸运读者获得了1年订阅SaneBox的奖励。未中奖的读者也可使用优惠码获得订阅折扣。BrettTerpstra.com受到读者支持，正在举行活动并提供促销。 <div>
 <p>Well, the SaneBox drawing has happened I have winners to announce! The following readers have won a 1-year subscription to the handiest email service out there!</p>
 
@@ -35,9 +71,7 @@ SaneBox举行了抽奖活动，五位幸运读者获得了1年订阅SaneBox的�
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16484889.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-05T12:11:00-06:00</pubDate>
-<pubDate>2023-12-05T12:11:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Soulver giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16481839/soulver-giveaway</link>
