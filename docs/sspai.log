@@ -9438,3 +9438,12 @@ Existing_entries: 305
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-06 10:12:30.135508
+------------------------------------------------------
+Started: 2023-12-06 12:21:29.015274
+Existing_entries: 305
+Fetching from https://rsshub.app/sspai/index
+Token length: 12194
+Summarized using GPT-3.5-turbo-1106
+Append: [以 GRE 为例：如何背多背好英语单词](https://sspai.com/post/84835)
+append_entries: 1
+Finish: 2023-12-06 12:21:38.716357
