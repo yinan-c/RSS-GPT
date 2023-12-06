@@ -4,6 +4,109 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】【Chrome / Firefox 扩展】影深 - 小说阅读器 [更新 0.0.5]</title>
+<link>https://meta.appinn.net/t/topic/38022</link>
+<guid>https://meta.appinn.net/t/topic/38022</guid>
+<content:encoded><![CDATA[
+
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/0/20972b9b8206730cda90696a17dd628d75a64ce0.png" title="sshot-1"><img alt="sshot-1" height="407" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/0/20972b9b8206730cda90696a17dd628d75a64ce0_2_690x407.png" width="690" /></a></div><p></p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h1>
+<p>在阅读本地/网络的文本文件时，获得自动生成目录、搜索（ps:支持正则表达式）等辅助功能。支持常见的标题识别。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/e/eea36ec41bcb96fc491bdb15df8d68755e62f185.png" title="sshot-2"><img alt="sshot-2" height="407" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/e/eea36ec41bcb96fc491bdb15df8d68755e62f185_2_690x407.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/3/d3109de3bfdce7daf6ba569d8a5860b408140a3e.png" title="sshot-3"><img alt="sshot-3" height="407" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/3/d3109de3bfdce7daf6ba569d8a5860b408140a3e_2_690x407.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/7/d7fb3962d3701b1f1a5834dc2b8527debbaa32b7.png" title="sshot-4"><img alt="sshot-4" height="407" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/7/d7fb3962d3701b1f1a5834dc2b8527debbaa32b7_2_690x407.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/0/80f6fb47eda6453784dc966671b8aa3c125d9455.png" title="sshot-5"><img alt="sshot-5" height="407" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/0/80f6fb47eda6453784dc966671b8aa3c125d9455_2_690x407.png" width="690" /></a></div><p></p>
+<p>作为一个资深书虫，用过各种阅读软件，有一些很好用。但是对于标题的识别能力就差了点。就写了一个【火狐扩展】。基本满足需求。而且灰常小~(&gt;25KB)。</p>
+<p>最关键的是能识别五花八门的标题（在识别的过程中排除长于 50 个字符，就能提高识别准确率。）</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>更新日志</h1>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-005-3" name="h-005-3"></a>0.0.5</h3>
+<ul>
+<li>细节修改</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-004-4" name="h-004-4"></a>0.0.4</h2>
+<ul>
+<li>修改目录按钮图标</li>
+</ul>
+<ul>
+<li>增加阅读进度显示</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-003-5" name="h-003-5"></a>0.0.3</h2>
+<ul>
+<li>修复若干 bug</li>
+</ul>
+<ul>
+<li>更多的配色</li>
+<li>现在会自动保存设置</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-002-6" name="h-002-6"></a>0.0.2</h2>
+<ul>
+<li>修复若干 bug</li>
+</ul>
+<ul>
+<li>增加搜索功能</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-001-7" name="h-001-7"></a>0.0.1</h2>
+<p>第一个正式版。</p>
+<p>目前计划加入DIY颜色、字体等功能</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>下载</h1>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#github-9" name="github-9"></a>开源地址 Github:</h2>
+<p><a href="https://github.com/yingshenroot/yingshenroot" rel="noopener nofollow ugc">yingshenroot/yingshenroot (github.com)</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#firefox-10" name="firefox-10"></a>Firefox 扩展商店下载：</h2>
+<p><a href="https://addons.mozilla.org/zh-CN/firefox/addon/%E5%BD%B1%E6%B7%B1/" rel="noopener nofollow ugc">影深 – 下载 <img alt=":fox_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fox_face.png?v=12" title=":fox_face:" width="20" /> Firefox 扩展（zh-CN） (mozilla.org)</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#chrome-edge-11" name="chrome-edge-11"></a>Chrome / Edge：</h2>
+<p><a href="https://url17.ctfile.com/d/40589517-52667862-ac9dd4?p=5787" rel="noopener nofollow ugc">https://url17.ctfile.com/d/40589517-52667862-ac9dd4?p=5787</a> (访问密码: 5787)<br />
+注意：请开启 Chrome 的开发者模式  &gt; 将下载的扩展解压 &gt; 点加载已解压的扩展程序（解压后的文件夹）。因为扩展目前没有在 Edge 上架所以暂时只能这样。</p>
+            <p><small>23 个帖子 - 9 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/38022">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 13 Nov 2022 23:36:17 +0000</pubDate>
+<pubDate>Sun, 13 Nov 2022 23:36:17 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】小地瓜——小红书图片视频下载助手</title>
+<link>https://meta.appinn.net/t/topic/50067</link>
+<guid>https://meta.appinn.net/t/topic/50067</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>小地瓜</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Chrome/Edge/Firefox</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>在小红书网页版添加下载按钮，支持用户一键下载帖子中的图片视频</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>详细介绍</h2>
+<p>作为一名浏览器重度用户，我认为自己值得拥有这样一个界面更简洁、操作更简便的工具去下载小红书帖子里的图片视频，同时上架了各大浏览器商店，希望能帮到有同样需求的用户，欢迎大家安装使用！</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>插件特色</h3>
+<ul>
+<li>简单易用，一键下载</li>
+<li>图片视频，皆可保存</li>
+<li>原生风格，简洁美观</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>效果截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/9/49c830233b0e992ab540d3a9aa1dd72d2bf2b4c1.jpeg" title="screenshot"><img alt="screenshot" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/4/9/49c830233b0e992ab540d3a9aa1dd72d2bf2b4c1_2_690x431.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>视频演示</h2>
+<p>B 站： <a class="inline-onebox" href="https://www.bilibili.com/video/BV1Vu4y1g74V/" rel="noopener nofollow ugc">小地瓜（小红书图片视频下载助手）功能演示_哔哩哔哩_bilibili</a><br />
+油管： <a href="https://www.youtube.com/watch?v=2C9getMvWj0" rel="noopener nofollow ugc">https://www.youtube.com/watch?v=2C9getMvWj0</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50067">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 06 Dec 2023 05:16:20 +0000</pubDate>
+<pubDate>Wed, 06 Dec 2023 05:16:20 +0000</pubDate>
+</item>
 
 <item>
 <title>Edge浏览器之外的浏览器，如何把任意网站作为应用安装？</title>

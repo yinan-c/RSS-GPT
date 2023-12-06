@@ -9403,3 +9403,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-06 04:14:15.204635
+------------------------------------------------------
+Started: 2023-12-06 06:14:54.773811
+Existing_entries: 175
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】【Chrome / Firefox 扩展】影深 - 小说阅读器 [更新 0.0.5]](https://meta.appinn.net/t/topic/38022)
+Append: [【自荐】小地瓜——小红书图片视频下载助手](https://meta.appinn.net/t/topic/50067)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2023-12-06 06:14:58.330243

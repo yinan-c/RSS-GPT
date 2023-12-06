@@ -9414,3 +9414,12 @@ Existing_entries: 303
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-06 04:14:17.115653
+------------------------------------------------------
+Started: 2023-12-06 06:15:00.131356
+Existing_entries: 303
+Fetching from https://rsshub.app/sspai/index
+Token length: 5004
+Summarized using GPT-3.5-turbo-1106
+Append: [适合的才是最好的，我的 EDC 好物分享](https://sspai.com/post/84762)
+append_entries: 1
+Finish: 2023-12-06 06:15:05.695024
