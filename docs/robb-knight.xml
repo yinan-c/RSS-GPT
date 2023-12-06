@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day Six</title>
 <link>https://rknight.me/advent-of-code-2023-day-six/</link>
 <guid>https://rknight.me/advent-of-code-2023-day-six/</guid>
 <content:encoded><![CDATA[
 <div> 提取关键词：比赛、时间、距离、计算、效率
-总结：<br><br>本文讲述了一场船赛比赛的故事，通过编写代码来计算赛程和距离之间的关系，以及优化计算效率的过程。<br>对输入进行提取和处理，并进行逐一比较，得出比赛结果。<br>针对单一大比赛情况，通过调整计算方法和避免内存占用过多来提高运行效率。<br>总结：通过编写代码与优化算法，有效解决了船赛比赛计算问题，提高了计算效率。 <div>
+总结：<br /><br />本文讲述了一场船赛比赛的故事，通过编写代码来计算赛程和距离之间的关系，以及优化计算效率的过程。<br />对输入进行提取和处理，并进行逐一比较，得出比赛结果。<br />针对单一大比赛情况，通过调整计算方法和避免内存占用过多来提高运行效率。<br />总结：通过编写代码与优化算法，有效解决了船赛比赛计算问题，提高了计算效率。 <div>
 <p>It's boat racing time. For each millisecond you hold the boat down, it's speed will increase by one millimeter per second. Just like the bus in Speed, the boat never slows down.</p>
 <h3>Part One</h3>
 <p>The input format:</p>
@@ -39,10 +40,8 @@ $distance = 940200;
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-06T11:07:22.654+00:00</pubDate>
 </item>
-
 <item>
 <title>Advent of Code 2023: Day Five</title>
 <link>https://rknight.me/advent-of-code-2023-day-five/</link>
