@@ -9399,3 +9399,12 @@ Existing_entries: 302
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-06 00:53:26.070542
+------------------------------------------------------
+Started: 2023-12-06 02:25:22.992365
+Existing_entries: 302
+Fetching from https://rsshub.app/sspai/index
+Token length: 1781
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：一加 12 正式发布、黑鲨推出能量饮品等](https://sspai.com/post/84873)
+append_entries: 1
+Finish: 2023-12-06 02:25:26.977322
