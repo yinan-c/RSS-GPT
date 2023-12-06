@@ -5,11 +5,134 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>老胡的周刊（第118期）</title>
+<link>https://meta.appinn.net/t/topic/50075</link>
+<guid>https://meta.appinn.net/t/topic/50075</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#wechatmsghttpsgithubcomlc044wechatmsg-2" name="wechatmsghttpsgithubcomlc044wechatmsg-2"></a><a href="https://github.com/LC044/WeChatMsg" rel="noopener nofollow ugc">WeChatMsg</a></h3>
+<p>提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告：</p>
+<p><img alt="WeChatMsg" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/WeChatMsg.png" width="607" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#cmdbhttpsgithubcomveopscmdb-3" name="cmdbhttpsgithubcomveopscmdb-3"></a><a href="https://github.com/veops/cmdb" rel="noopener nofollow ugc">cmdb</a></h3>
+<p>运维配置管理数据库，主要用来存放如服务器、应用等运维资产以及它们间的关系，是运维的权威数据库。主要功能包括模型管理和资源的查询，模型管理运维人员可以按照公司的内部的运维场景自己合理的设计，然后通过Agent自动上报和人工批量手动录入的方式写入模型对应的数据。对其他系统提供Restful API，便于做一些成本核算之类的工作。</p>
+<p><img alt="cmdb" height="319" src="https://images-1252557999.file.myqcloud.com/uPic/cmdb.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#onelisthttpsgithubcommsterzhangonelist-4" name="onelisthttpsgithubcommsterzhangonelist-4"></a><a href="https://github.com/msterzhang/onelist" rel="noopener nofollow ugc">onelist</a></h3>
+<p>一个类似emby的专注于刮削alist聚合网盘形成影视媒体库的程序:</p>
+<ul>
+<li>alist挂载云盘后能在网页端看视频，却没有分类，没有海报墙</li>
+<li>使用webdav挂载本地后，用jellyfin或者emby刮削会下载视频截取封面导致封号</li>
+<li>用jellyfin或者emby之类，没有大带宽公网ip，在外难以访问</li>
+</ul>
+<p><img alt="onelist" height="348" src="https://images-1252557999.file.myqcloud.com/uPic/telegram-cloud-photo-size-4-5997957576333046318-y.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#yanhuohttpseigenmiaocomyanhuo-6" name="yanhuohttpseigenmiaocomyanhuo-6"></a><a href="https://eigenmiao.com/yanhuo" rel="noopener nofollow ugc">yanhuo</a></h3>
+<p>焰火十二卷是一款免费开源的跨平台调色板软件。它提供了多种功能来生成一组调和色彩，可以为你提供更好的色彩搭配方案。你可以通过色轮选取、图像拾色等方式轻松获得想要的色彩组合。你可以将这些色彩应用到自己的创作，或者分享给他人。</p>
+<p><img alt="yanhuo" height="345" src="https://images-1252557999.file.myqcloud.com/uPic/yanhuo.jpg" width="689" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#nuclearhttpsgithubcomnukeopnuclear-7" name="nuclearhttpsgithubcomnukeopnuclear-7"></a><a href="https://github.com/nukeop/nuclear" rel="noopener nofollow ugc">Nuclear</a></h3>
+<p><code>Nuclear</code> 是一款完全免费的跨平台音乐流媒体桌面程序，内容来源于互联网，界面UI精美，它专注于音乐本身，非常不错（比较麻烦的还是网络问题）：</p>
+<p><img alt="nucler" height="387" src="https://images-1252557999.file.myqcloud.com/uPic/nucler.jpg" width="690" /></p>
+<p>项目还在持续开发，我们可以保持期待。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#ponymusichttpsgithubcomwangchenyanponymusic-8" name="ponymusichttpsgithubcomwangchenyanponymusic-8"></a><a href="https://github.com/wangchenyan/ponymusic" rel="noopener nofollow ugc">ponymusic</a></h3>
+<p>使用「网易云音乐API」的安卓在线音乐播放器：</p>
+<ul>
+<li>网易云音乐基本功能</li>
+<li>添加和播放本地音乐文件</li>
+<li>专辑封面显示</li>
+<li>歌词显示，支持拖动歌词调节播放进度</li>
+<li>通知栏控制</li>
+<li>夜间模式</li>
+<li>定时关闭</li>
+</ul>
+<p><img alt="ponymusic" height="366" src="https://images-1252557999.file.myqcloud.com/uPic/ponymusic.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#data-engineer-handbookhttpsgithubcomdataengineer-iodata-engineer-handbook-10" name="data-engineer-handbookhttpsgithubcomdataengineer-iodata-engineer-handbook-10"></a><a href="https://github.com/DataEngineer-io/data-engineer-handbook" rel="noopener nofollow ugc">data-engineer-handbook</a></h3>
+<p>这个项目包含了数据工程师领域需要的一些资料，对于拓展国际视野很有帮助：</p>
+<ul>
+<li>书籍课程</li>
+<li>社区</li>
+<li>YouTube 频道等各大平台</li>
+<li>Newsletters</li>
+<li>…</li>
+</ul>
+<p><img alt="data-engineer-handbook" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/data-engineer-handbook.png" width="607" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#learndata-httpsnewzonetop-11" name="learndata-httpsnewzonetop-11"></a><a href="https://newzone.top/" rel="noopener nofollow ugc">LearnData-开源笔记</a></h3>
+<p>一份关于开源工具、效率方法、心理学探索的自我提升笔记：</p>
+<p><img alt="newzone" height="334" src="https://images-1252557999.file.myqcloud.com/uPic/6pjcgz.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-12" name="h-12"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#weeklyfre123comhttpsweeklyfre123com-13" name="weeklyfre123comhttpsweeklyfre123com-13"></a><a href="https://weekly.fre123.com/" rel="noopener nofollow ugc">weekly.fre123.com</a></h3>
+<p>老胡我周末产出的一个页面，不清楚缘由参考之前写的文章<img alt=":point_right:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/point_right.png?v=12" title=":point_right:" width="20" /><a href="https://mp.weixin.qq.com/s/lW0Uz224MkURjM7Pru8soA" rel="noopener nofollow ugc">推荐！一份技术周刊RSS大全，总有你需要的</a>。</p>
+<p>我首先做了个页面收集一些优质的周刊 RSS 源–<a href="https://www.fre123.com/wk" rel="noopener nofollow ugc">https://www.fre123.com/wk</a>：</p>
+<p><img alt="wk" height="370" src="https://images-1252557999.file.myqcloud.com/uPic/wk.jpg" width="690" /></p>
+<p>最后直接基于这些周刊 RSS 源实现了周刊信息流更新汇总页，我感觉还是有用的，欢迎大家使用：</p>
+<p><img alt="weekly_fre123" height="362" src="https://images-1252557999.file.myqcloud.com/uPic/weekly_fre123.jpg" width="690" /></p>
+<p>最后再推荐下各端 RSS 工具软件资源：</p>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://sourl.cn/6xkd2u" rel="noopener nofollow ugc">fluent-reader</a></td>
+<td>我在用的跨平台rss阅读器</td>
+</tr>
+<tr>
+<td><a href="https://sourl.cn/ZBzhDA" rel="noopener nofollow ugc">NetNewsWire</a></td>
+<td>适用于 Mac iPad iPhone 的 RSS 阅读客户端</td>
+</tr>
+<tr>
+<td><a href="https://sourl.cn/3YMB2W" rel="noopener nofollow ugc">ReadYou</a></td>
+<td>一个以 Material You 风格呈现的 Android RSS 阅读器</td>
+</tr>
+<tr>
+<td><a href="https://sourl.cn/WaYnJf" rel="noopener nofollow ugc">lettura</a></td>
+<td>基于 Tauri 跨平台的桌面 RSS 阅读器</td>
+</tr>
+<tr>
+<td><a href="https://sourl.cn/mPZ9wQ" rel="noopener nofollow ugc">feed-flow</a></td>
+<td>FeedFlow 是一款极简主义的 RSS 阅读器，可在 Android、iOS&amp;macOS上使用</td>
+</tr>
+<tr>
+<td><a href="https://weekly.howie6879.com/2022/08-15~08-21.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%20%EF%BC%88%E7%AC%AC053%E6%9C%9F%EF%BC%89.html?h=freshrss#freshrss" rel="noopener nofollow ugc">FreshRSS</a></td>
+<td>FreshRSS 是一款自由免费的自部署 RSS 订阅器，界面美观</td>
+</tr>
+<tr>
+<td><a href="https://weekly.howie6879.com/2021/08-23~08-27.%E8%80%81%E8%83%A1%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC002%E6%9C%9F%EF%BC%89.html?h=rss#all-about-rss" rel="noopener nofollow ugc">ALL-about-RSS</a></td>
+<td>一份与RSS相关的清单：工具、服务、社区和教程</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a class="anchor" href="https://meta.appinn.net#bloghubhttpsbloghubfun-14" name="bloghubhttpsbloghubfun-14"></a><a href="https://bloghub.fun/" rel="noopener nofollow ugc">bloghub</a></h3>
+<p>优质博客聚合展示项目，“子曰：有朋自远方来，不亦说乎”，希望 BlogHub 也能让大家发现更多有趣的灵魂，结交更多的朋友：</p>
+<p><img alt="bloghub" height="471" src="https://images-1252557999.file.myqcloud.com/uPic/bloghub.jpg" width="690" /><br />
+项目参考数据源：<a href="https://github.com/timqian/chinese-independent-blogs" rel="noopener nofollow ugc">chinese-independent-blogs</a>：中文独立博客列表</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-15" name="h-15"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><img alt=":partying_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" />我基于ChatGPT做了个<a href="https://mp.weixin.qq.com/s/3ohE-rm6kryC07parr29bQ" rel="noopener nofollow ugc">微信端的老胡信息周刊QA</a>，欢迎免费体验</li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50075">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 06 Dec 2023 07:09:48 +0000</pubDate>
+<pubDate>Wed, 06 Dec 2023 07:09:48 +0000</pubDate>
+</item>
+
+<item>
 <title>【开发者自荐】【Chrome / Firefox 扩展】影深 - 小说阅读器 [更新 0.0.5]</title>
 <link>https://meta.appinn.net/t/topic/38022</link>
 <guid>https://meta.appinn.net/t/topic/38022</guid>
 <content:encoded><![CDATA[
-
 <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/0/20972b9b8206730cda90696a17dd628d75a64ce0.png" title="sshot-1"><img alt="sshot-1" height="407" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/0/20972b9b8206730cda90696a17dd628d75a64ce0_2_690x407.png" width="690" /></a></div><p></p>
 <h1>
 <a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h1>
@@ -72,14 +195,12 @@
             <p><a href="https://meta.appinn.net/t/topic/38022">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 13 Nov 2022 23:36:17 +0000</pubDate>
-<pubDate>Sun, 13 Nov 2022 23:36:17 +0000</pubDate>
 </item>
 <item>
 <title>【自荐】小地瓜——小红书图片视频下载助手</title>
 <link>https://meta.appinn.net/t/topic/50067</link>
 <guid>https://meta.appinn.net/t/topic/50067</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>小地瓜</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
@@ -105,9 +226,7 @@
             <p><a href="https://meta.appinn.net/t/topic/50067">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 06 Dec 2023 05:16:20 +0000</pubDate>
-<pubDate>Wed, 06 Dec 2023 05:16:20 +0000</pubDate>
 </item>
-
 <item>
 <title>Edge浏览器之外的浏览器，如何把任意网站作为应用安装？</title>
 <link>https://meta.appinn.net/t/topic/31700</link>
