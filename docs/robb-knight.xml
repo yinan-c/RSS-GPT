@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day Seven</title>
 <link>https://rknight.me/advent-of-code-2023-day-seven/</link>
@@ -13,7 +14,7 @@
 
 扑克牌, 计算手牌等级, J是Joker，根据Joker的位置提高手牌等级，使用PHP完成解决方案。
 
-总结:<br><br>本文介绍了如何使用PHP编写一个解决方案来处理扑克牌游戏中的手牌等级计算问题。文章首先介绍了如何根据手中的牌计算手牌的等级，然后讨论了在有Joker的情况下如何调整手牌等级。最后，作者分享了完成解决方案的过程，并解决了其中的一个小问题。整体来说，本文内容简单易懂，但又具有一定的挑战性。 <div>
+总结:<br /><br />本文介绍了如何使用PHP编写一个解决方案来处理扑克牌游戏中的手牌等级计算问题。文章首先介绍了如何根据手中的牌计算手牌的等级，然后讨论了在有Joker的情况下如何调整手牌等级。最后，作者分享了完成解决方案的过程，并解决了其中的一个小问题。整体来说，本文内容简单易懂，但又具有一定的挑战性。 <div>
 <p>Time to play some matches of legally-distinct-from-poker-and-easy-to-play-on-a-camel<sup class="footnote-ref"><a href="https://rknight.me/feed.xml#fn1" id="fnref1">[1]</a></sup> card game.</p>
 <h3>Part One</h3>
 <p>Each hand has five cards and a score:</p>
@@ -52,10 +53,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-07T15:45:19.743+00:00</pubDate>
 </item>
-
 <item>
 <title>Smart Speed Broke My Brain</title>
 <link>https://rknight.me/smart-speed-broke-my-brain/</link>
