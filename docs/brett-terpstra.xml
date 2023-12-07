@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>mdless with document transclusion</title>
 <link>https://brett.trpstra.net/link/535/16484987/mdless-with-document-transclusion</link>
 <guid>https://brett.trpstra.net/link/535/16484987/mdless-with-document-transclusion</guid>
 <content:encoded><![CDATA[
 <div> MultiMarkdown, transclusion, file, include, path
-<br><br>总结:
+<br /><br />总结:
 最新版本的编码工具包含了MultiMarkdown，并且增加了文件引入的功能。通过使用双大括号插入另一个文件的内容，路径可以是相对或绝对路径，还可以在元数据中指定transclude base。这个功能对大部分用户来说可能并不是非常有用，但对一些用户来说会非常方便。 <div>
 <p>The latest version of <a href="https://brettterpstra.com/projects/mdless/" title="mdless">mdless</a>, my most recent coding obsession, now includes MultiMarkdown <a href="https://fletcher.github.io/MultiMarkdown-5/transclusion.html">document transclusion</a>.</p>
 
@@ -37,9 +38,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16484987.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-06T13:51:00-06:00</pubDate>
-<pubDate>2023-12-06T13:51:00-06:00</pubDate>
 </item>
-
 <item>
 <title>The SaneBox giveaway winners!</title>
 <link>https://brett.trpstra.net/link/535/16484889/the-sanebox-giveaway-winners</link>

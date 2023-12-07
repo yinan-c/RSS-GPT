@@ -4,6 +4,42 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+<item>
+<title>Smart Speed Broke My Brain</title>
+<link>https://rknight.me/smart-speed-broke-my-brain/</link>
+<guid>https://rknight.me/smart-speed-broke-my-brain/</guid>
+<content:encoded><![CDATA[
+<div> smart speed, trim silence, podcasts, relaxation, Overcast
+总结:<br>文章讨论了使用smart speed（或trim silence）功能来加速播客的影响。作者承认自己长期使用这种功能后，关掉它后感到放松和情绪稳定。作者认为此举使自己变得精神紧张，以及对节目制作者的不尊重。最后，作者建议尝试不使用这些功能来体验播客，从而更好地欣赏节目。 <div>
+<p>According to <a href="https://overcast.fm/">Overcast</a>'s stats I've saved 424 hours with smart speed. Smart speed, or &quot;trim silence&quot; as other apps call it, is a feature that will remove silences from podcasts and at launch was Overcast’s primary selling point. After the best part of a decade I was convinced <a href="https://gkeenan.co/avgb/hot-take-its-okay-if-we-dont-consume-all-of-the-worlds-information-before-we-die">by Keenan</a> (if you can, listen to the audio version of the post, it's wonderful) to turn it off and I’m so glad I did.</p>
+<p>It’s a common joke in the <a href="https://www.relay.fm/membership">Relay FM Discord</a> about how those of us who use smart speed (or just the speed controls) think the hosts sound drunk or like they’re slurring when we hear the “normal” version of podcasts; we’re so used to listening to them sped up with no gaps between each side of the conversation like some kind of Aaron Sorkin movie.</p>
+<blockquote>
+<p>How do you distinguish yourself in a population of people who all got 1600 on their SAT’s?</p>
+</blockquote>
+<blockquote>
+<p>I didn’t know they take SAT’s in China.</p>
+</blockquote>
+<blockquote>
+<p>They don’t. I wasn’t talking about China anymore, I was talking about me.</p>
+</blockquote>
+<p>I haven’t listened to a show at standard speed for years. Ater I turned off smart speed and listened to a show I realised how calm I felt compared to usual. It was relaxing. I had time to process what was being said without also trying to hear the next part of the conversation. I realised for the past decade I’ve been on high alert just to listen to a podcast, concentrating really hard to consume all the information. I was <em>stressed</em> from something that’s supposed to be enjoyable. I was accustomed to <em>readying myself</em> to listen to a show. Smart speed had broken my brain.</p>
+<p>424 hours &quot;saved&quot; according to Overcast. Saved what though? 424 more hours to <em>consume content</em>. Lovely.</p>
+<p>Back to Keenan:</p>
+<blockquote>
+<p>I truly believe that Trim Silence is an abomination that should be fully eradicated from existence, as it not only spits in the face of the people who take the time and effort to produce their shows, but also, more broadly, encourages a way of interfacing with art that can only be described as gluttonous</p>
+</blockquote>
+<p>I don't feel <em>that</em> strongly about it but I do feel stupid for doing this to myself for so long. I don’t think there’s some big conclusion to draw here but maybe, if you speed up your podcasts all the time<sup class="footnote-ref"><a href="https://rknight.me/feed.xml#fn1" id="fnref1">[1]</a></sup>, maybe try it without for a show or two to see if you like it.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>Hi Cory 👋 <a class="footnote-backref" href="https://rknight.me/feed.xml#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2023-12-06T22:30:39.098+00:00</pubDate>
+</item>
 
 <item>
 <title>Advent of Code 2023: Day Six</title>
