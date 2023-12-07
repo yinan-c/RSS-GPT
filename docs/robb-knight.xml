@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Smart Speed Broke My Brain</title>
 <link>https://rknight.me/smart-speed-broke-my-brain/</link>
 <guid>https://rknight.me/smart-speed-broke-my-brain/</guid>
 <content:encoded><![CDATA[
 <div> smart speed, trim silence, podcasts, relaxation, Overcast
-总结:<br>文章讨论了使用smart speed（或trim silence）功能来加速播客的影响。作者承认自己长期使用这种功能后，关掉它后感到放松和情绪稳定。作者认为此举使自己变得精神紧张，以及对节目制作者的不尊重。最后，作者建议尝试不使用这些功能来体验播客，从而更好地欣赏节目。 <div>
+总结:<br />文章讨论了使用smart speed（或trim silence）功能来加速播客的影响。作者承认自己长期使用这种功能后，关掉它后感到放松和情绪稳定。作者认为此举使自己变得精神紧张，以及对节目制作者的不尊重。最后，作者建议尝试不使用这些功能来体验播客，从而更好地欣赏节目。 <div>
 <p>According to <a href="https://overcast.fm/">Overcast</a>'s stats I've saved 424 hours with smart speed. Smart speed, or &quot;trim silence&quot; as other apps call it, is a feature that will remove silences from podcasts and at launch was Overcast’s primary selling point. After the best part of a decade I was convinced <a href="https://gkeenan.co/avgb/hot-take-its-okay-if-we-dont-consume-all-of-the-worlds-information-before-we-die">by Keenan</a> (if you can, listen to the audio version of the post, it's wonderful) to turn it off and I’m so glad I did.</p>
 <p>It’s a common joke in the <a href="https://www.relay.fm/membership">Relay FM Discord</a> about how those of us who use smart speed (or just the speed controls) think the hosts sound drunk or like they’re slurring when we hear the “normal” version of podcasts; we’re so used to listening to them sped up with no gaps between each side of the conversation like some kind of Aaron Sorkin movie.</p>
 <blockquote>
@@ -37,10 +38,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-06T22:30:39.098+00:00</pubDate>
 </item>
-
 <item>
 <title>Advent of Code 2023: Day Six</title>
 <link>https://rknight.me/advent-of-code-2023-day-six/</link>
