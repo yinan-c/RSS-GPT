@@ -9519,3 +9519,12 @@ Append: [开发者自荐 「小巧工具箱」 iOS实用小工具合集(目前�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-12-07 08:14:32.198798
+------------------------------------------------------
+Started: 2023-12-07 10:12:29.035975
+Existing_entries: 179
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [局域网手机控制电脑](https://meta.appinn.net/t/topic/50118)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-07 10:12:34.043713
