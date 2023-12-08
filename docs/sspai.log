@@ -9618,3 +9618,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [本周看什么 | 最近值得一看的一大窝作品](https://sspai.com/post/84930)
 append_entries: 1
 Finish: 2023-12-08 12:21:09.860863
+------------------------------------------------------
+Started: 2023-12-08 14:10:37.143260
+Existing_entries: 315
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-12-08 14:10:37.312082
