@@ -4,6 +4,7 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Advent of Code 2023: Day Eight</title>
 <link>https://rknight.me/advent-of-code-2023-day-eight/</link>
@@ -41,10 +42,8 @@
 <p>I'm still not clear on <em>why</em> this gets the answer beyond <em>maths</em> but whatever, it's done. Onwards to day nine.</p>
 <p>My solution is <a href="https://github.com/rknightuk/adventofcode/tree/main/2023/08">on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2023-12-08T15:05:58.956+00:00</pubDate>
 </item>
-
 <item>
 <title>Advent of Code 2023: Day Seven</title>
 <link>https://rknight.me/advent-of-code-2023-day-seven/</link>
