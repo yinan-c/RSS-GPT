@@ -9597,3 +9597,15 @@ Existing_entries: 312
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-08 08:14:41.239645
+------------------------------------------------------
+Started: 2023-12-08 10:12:08.743285
+Existing_entries: 312
+Fetching from https://rsshub.app/sspai/index
+Token length: 625
+Summarized using GPT-3.5-turbo-1106
+Append: [播客 | 对话白描开发者 Tolecen：一个千万级独立 App 的诞生](https://sspai.com/post/84838)
+Token length: 7278
+Summarized using GPT-3.5-turbo-1106
+Append: [给还在下一根和最后一根之间挣扎的人：一位烟民的戒烟自述](https://sspai.com/post/84764)
+append_entries: 2
+Finish: 2023-12-08 10:12:21.666942
