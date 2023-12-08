@@ -9601,3 +9601,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-08 04:13:48.255351
+------------------------------------------------------
+Started: 2023-12-08 06:14:56.687632
+Existing_entries: 181
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [Clipboard-online：在不同设备之间分享剪贴板。附 iOS 和 Android 设备分享方法。](https://meta.appinn.net/t/topic/20322)
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [Adobe桌面软件的替代品](https://meta.appinn.net/t/topic/17302)
+append_entries: 2
+Finish: 2023-12-08 06:15:00.413732

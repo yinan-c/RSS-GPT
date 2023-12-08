@@ -4,6 +4,360 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Clipboard-online：在不同设备之间分享剪贴板。附 iOS 和 Android 设备分享方法。</title>
+<link>https://meta.appinn.net/t/topic/20322</link>
+<guid>https://meta.appinn.net/t/topic/20322</guid>
+<content:encoded><![CDATA[
+
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>前言</h1>
+<p>缘起于 <a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a> 分享的<a href="https://meta.appinn.net/t/topic/18527">跨平台跨设备剪贴板推送/同步方案合集</a>，受益良多。根据自己的需求折腾了好多 app，最后结果在此分享。</p>
+<hr />
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>介绍</h1>
+<p>clipboard-online 是一款 Windows 平台应用，它将本机剪贴板暴露于 HTTP 端口，其他设备通过发送 HTTP 请求来获取、发送剪贴板。而其他设备发送剪贴板后，PC 可以直接粘贴。现已支持文本、文件、图像。</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>开始</h1>
+<blockquote>
+<p>1、到项目首页下载应用并运行。2、记下 PC 内网 IP。</p>
+</blockquote>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#ios-4" name="ios-4"></a>iOS 设备获取、发送剪贴板</h3>
+<ul>
+<li>
+<p><strong>获取 PC 剪贴板内容：</strong></p>
+<ol>
+<li>安装<a href="https://www.icloud.com/shortcuts/1c8af082434f4d16bdbe05d09783c82d" rel="noopener nofollow ugc">该快捷指令</a>；</li>
+<li>如开启鉴权，请记得设置和 PC 一样的 authkey。</li>
+</ol>
+</li>
+<li>
+<p><strong>发送剪贴板内容至 PC 剪贴板：</strong></p>
+<ol>
+<li>安装<a href="https://www.icloud.com/shortcuts/2f05ddeec40a40918357a9d40c6f5aad" rel="noopener nofollow ugc">该快捷指令</a>；</li>
+<li>如开启鉴权，请记得设置和 PC 一样的 authkey。</li>
+</ol>
+<blockquote>
+<p>以上两个快捷指令链接均来自 clipboard-online 项目<a href="https://github.com/YanxinTang/clipboard-online/blob/master/README_zh.md" rel="noopener nofollow ugc">中文页面</a>。</p>
+</blockquote>
+</li>
+</ul>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>安卓设备获取、发送剪贴板</h3>
+<blockquote>
+<p>需安装 HTTP Shortcuts 应用，<a href="https://meta.appinn.net/t/topic/19778">介绍见此</a>。</p>
+</blockquote>
+<ul>
+<li>
+<strong>获取 PC 剪贴板内容：</strong>
+<ol>
+<li>展开以下折叠内容保存为 <code>.json</code> 文件(编码方式选 UTF-8)并拷贝到手机上；</li>
+<li>到 app 首页，点击"导入/导出"，找到文件导入；</li>
+<li>编辑刚导入的快捷方式，将 IP 地址换为你 PC 的内网 IP；</li>
+<li>如开启鉴权，请编辑快捷方式，点击"脚本编写"，在"执行前运行"栏目里按提示填写和 PC 一致的 authkey。</li>
+</ol>
+</li>
+</ul>
+
+点击展开内容 <a href="https://meta.appinn.net/t/topic/20322/1">（点击了解更多详细信息）</a>
+<br />  
+<ul>
+<li>
+<strong>发送文字至 PC 剪贴板：</strong>
+<ol>
+<li>展开以下折叠内容保存为 <code>.json</code> 文件(编码方式选 UTF-8)并拷贝到手机上；</li>
+<li>到 app 首页，点击"导入/导出"，找到文件导入；</li>
+<li>编辑刚导入的快捷方式，将 IP 地址换为你 PC 的内网 IP；</li>
+<li>如开启鉴权，请编辑快捷方式，点击"脚本编写"，在"执行前运行"栏目里按提示填写和 PC 一致的 authkey。</li>
+</ol>
+</li>
+</ul>
+
+点击展开内容 <a href="https://meta.appinn.net/t/topic/20322/1">（点击了解更多详细信息）</a>
+<br />  
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>延伸</h1>
+<p>如果将本机暴露到公网，则随时都能操作剪贴板内容，而不受限于局域网。如这样操作请一定要开启鉴权，以稍微增加一点安全性。</p>
+<p>另外，图片及文件的支持也已加入，采用的是将二进制文件进行 Base64 编码再传输。iOS 一切正常，安卓的 HTTP Shortcuts 应用则支持文字类型的 Base64 编码/解码，不支持文件类型的 Base64 编码/解码，比较可惜。</p>
+<p><strong>| <a href="https://github.com/YanxinTang/clipboard-online" rel="noopener nofollow ugc">clipboard-online 开源首页</a> | <a href="https://github.com/Waboodoo/HTTP-Shortcuts" rel="noopener nofollow ugc">HTTP Shortcuts 开源首页</a> |</strong></p>
+<hr />
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>后记</h1>
+<p>还是那句话：人呢，总是有许多奇奇怪怪的需求，正因为这些不一样的需求，才催生出各式各样的 app 。这些 app 解决的痛点在另一个人眼里也许就不是问题。这次折腾很久，效果差强人意，特此分享。</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>更新记录</h1>
+<p>2021.08.04   clipboard-online 更新至0.2.5，相应配套也更新支持。<br />
+2020.11.XX   初稿、二稿。</p>
+            <p><small>26 个帖子 - 13 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/20322">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 10 Nov 2020 07:09:23 +0000</pubDate>
+<pubDate>Tue, 10 Nov 2020 07:09:23 +0000</pubDate>
+</item>
+<item>
+<title>Adobe桌面软件的替代品</title>
+<link>https://meta.appinn.net/t/topic/17302</link>
+<guid>https://meta.appinn.net/t/topic/17302</guid>
+<content:encoded><![CDATA[
+
+<div> </div>
+<p>Adobe目前对中国市场的政策，是只接企业采购，对企业盗版用户事后维权，而对个人盗版用户不闻不问，也不提供个人入正途径。</p>
+<p>这种态度给个人用户留下很傲慢的印象。</p>
+<p>这个帖子旨在收集一些对个人和小型工作室用户更友好的Adobe软件的替代品，标准如下：</p>
+<ul>
+<li>
+<p>可以完成相应Adobe软件的主要功能</p>
+</li>
+<li>
+<p>对个人用户友好：或者开源，或者免费，或者中国的用户容易取得正版</p>
+</li>
+</ul>
+<p><strong>欢迎公共编辑</strong>加入你心目中的理想替代品</p>
+<hr />
+<h1><a class="anchor" href="https://meta.appinn.net#photoshop-1" name="photoshop-1"></a>一、图像编辑（替代Photoshop）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#affinity-photohttpsaffinityserifcomzh-cnphoto-2" name="affinity-photohttpsaffinityserifcomzh-cnphoto-2"></a><a href="https://affinity.serif.com/zh-cn/photo/">Affinity Photo</a></h2>
+<ul>
+<li>Windows / macOS / iPad</li>
+</ul>
+<p>完成度非常高的商业软件，价格低廉却又不单单靠价格取胜。功能、界面和操作逻辑都足以与PS相提并论，甚至支持导出PSD文件。是较早为iPad提供接近桌面版功能的创意软件。美中不足的两点是，AF Photo的性能优化要比PS差一些，内置的RAW解析插件也没有PS内置的Adobe Camera RAW那么优秀。</p>
+<p>Affinity创意软件的价格都非常友好，桌面单平台¥488买断，iPad ¥128买断，每年夏促、黑五、圣诞通常会有力度不小的折扣。开发商Serif最初的承诺是<s>一次买断终身更新</s>，在推出V2大版本时改了政策，拥有V1 License的老用户不能继续更新了，但新推出了￥1148打包三款软件的全平台通用License，老用户升级享受75折+赠送素材包。<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/2/9208b6b7d086b07e17ef7ca72a6122dd2071fce2.png" title="image"><img alt="image" height="158" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/2/9208b6b7d086b07e17ef7ca72a6122dd2071fce2_2_345x158.png" width="345" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#pixelmator-prohttpswwwpixelmatorcompro-3" name="pixelmator-prohttpswwwpixelmatorcompro-3"></a><a href="https://www.pixelmator.com/pro/">Pixelmator Pro</a></h2>
+<ul>
+<li>macOS</li>
+</ul>
+<p>苹果生态的图像编辑软件，2018年度Mac App。￥328买断，性价比很高。iPad也有简化版，￥68买断</p>
+<h2><a class="anchor" href="https://meta.appinn.net#gimphttpswwwgimporg-4" name="gimphttpswwwgimporg-4"></a><a href="https://www.gimp.org/">GIMP</a></h2>
+<ul>
+<li>Linux / macOS / Windows</li>
+</ul>
+<p>可能更适合绘画用户的开源图像处理软件。目前GIMP的大部分调整都是直接在图像栅格上进行的破坏性操作，所以暂时不太适合摄影用户使用，<a href="https://www.gimp.org/docs/userfaq.html#when-will-gimp-support-any-kind-of-non-destructive-editing-like-adjustment-layers-layer-filters-andor-full-blown-node-based-editing">开发团队计划在3.2更新加入调整图层功能</a>。</p>
+<p>*值得一提的是，gimp的曲线功能可能超过了ps，曲线极其平滑，一点都没有生硬的感觉</p>
+<h2><a class="anchor" href="https://meta.appinn.net#kritahttpskritaorg-5" name="kritahttpskritaorg-5"></a><a href="https://krita.org/">Krita</a></h2>
+<ul>
+<li>Linux / macOS / Windows / Android</li>
+</ul>
+<p>又一个开源的绘画软件，适合概念草图、插画、漫画、动画、街景和 3D 贴图。<br />
+（说是Photoshop的替代品可能有所不当，更准确地说，Krita仅能替代ps中的绘画功能，对于图像编辑、抠图等一般人常用的功能支持稍差）</p>
+<p>Android版本较为反人类，为电脑版本直接移植而来，拥有与电脑软件完全相同的页面，效果非常奇怪……</p>
+<p>注：Krita拥有较为完善的中文支持、中文教程，且有能紧跟软件发展的中文说明（在点击下载以后跳转的页面上）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#saihttpswwwsystemaxjpen-6" name="saihttpswwwsystemaxjpen-6"></a><a href="https://www.systemax.jp/en/">Sai</a></h2>
+<p>SAI是高质量和轻质的绘画软件（很多插图大佬都喜欢用Sai而非PS进行绘画）<br />
+与Krita一样，Sai对于抠图的支持也不尽人意。在Sai中，抠图基本等于重画……<br />
+相较于PS的种种功能，sai一般仅能用做绘画，但是其笔刷、平滑等特性是ps无法比拟的。<br />
+<strong>重要声明，Sai无中文官方网站！仅有日文官网！</strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#inkscapehttpsinkscapeorg-7" name="inkscapehttpsinkscapeorg-7"></a><a href="https://inkscape.org/">InkScape</a></h2>
+<p>说明详见“二、图形设计”</p>
+<h1><a class="anchor" href="https://meta.appinn.net#illustrator-8" name="illustrator-8"></a>二、图形设计（替代Illustrator）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#affinity-designerhttpsaffinityserifcomzh-cndesigner-9" name="affinity-designerhttpsaffinityserifcomzh-cndesigner-9"></a><a href="https://affinity.serif.com/zh-cn/designer/">Affinity Designer</a></h2>
+<ul>
+<li>Windows / macOS / iPad</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#inkscapehttpsinkscapeorg-10" name="inkscapehttpsinkscapeorg-10"></a><a href="https://inkscape.org/">InkScape</a></h2>
+<p>InkScape是少数支持矢量图形编辑的免费软件，且相对较为成熟。偶尔可替代ps作为应急的产物。</p>
+<ul>
+<li>Linux / Windows / macOS</li>
+</ul>
+<h1><a class="anchor" href="https://meta.appinn.net#rawlightroom-11" name="rawlightroom-11"></a>三、照片管理&amp;RAW显影&amp;处理（替代Lightroom）</h1>
+<p>目前在照片管理、后期调整的层面，开源软件与商业软件已经不分伯仲了。商业软件的优势主要是更舒适的交互设计、更高效的工作流程，极端光照下更好的显影质量，以及AI加持的降噪、锐化、智能抠图、自动调色等功能。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#darktablehttpswwwdarktableorg-12" name="darktablehttpswwwdarktableorg-12"></a><a href="https://www.darktable.org/">darktable</a></h2>
+<ul>
+<li>Linux / Windows / macOS</li>
+</ul>
+<p>开发社区活跃的开源RAW处理软件，每年都会推出一到两个功能更新和若干次bug修复。支持USB遥控相机拍摄（但不是所有相机都支持）。提供许多常规修图软件不提供的特色调整工具，但偶尔也会关闭不想继续维护的冷门调整工具（只是隐藏这个工具的编辑界面，调用过旧工具的照片依旧能继续调用），不太适合追求稳定工作流的摄影师。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#rawtherapeehttpsrawtherapeecom-13" name="rawtherapeehttpsrawtherapeecom-13"></a><a href="https://rawtherapee.com/">RawTherapee</a></h2>
+<ul>
+<li>Linux / Windows / macOS</li>
+</ul>
+<p>另一个开源的RAW图像处理软件，工具比较常规，该有的都有，但没发现什么有特色的独占工具。维护频率比darktable低。GUI要比darktable更佳清晰，界面布局也比较合理，可以保证工作流效率。易用性不输商业软件的开源软件，适合作为Lightroom的替代品日常使用</p>
+<h2><a class="anchor" href="https://meta.appinn.net#digikamhttpswwwdigikamorg-14" name="digikamhttpswwwdigikamorg-14"></a><a href="https://www.digikam.org/">digiKam</a></h2>
+<ul>
+<li>Windows / Linux / macOS （M1下以Rosseta2兼容运行）</li>
+</ul>
+<p>开源、免费。是 KDE 社区下的一个项目，是一款数字照片管理软件，使用了 <a href="https://www.libraw.org/">LibRaw</a>、<a href="http://www.exiv2.org/">Exiv2</a>、<a href="http://ffmpeg.org/">FFmpeg</a>、<a href="http://www.qtav.org/">QtAv</a>、<a href="https://lensfun.github.io/">Lensfun</a>、Exiftool 等开源库，支持主流 RAW、HEIF、JPEG 等格式，以及高级的 FITS Astro-Photo 和 MPO 格式。提供完整实用的元数据管理，兼容 Adobe 等主流商业软件写入的 xmp 附属文件，提供强大的标签、旗标、星标功能，人脸识别功能、搜索功能强大。软件采用缩略图数据库实现流畅的浏览性能，支持 SQLite、MySQL。图片存储支持本地文件系统、可移动磁盘、远程存储位置3类。目前 M1 Mac 转译模式下性能提升非常大，接下来版本计划支持 M1 原生运行。</p>
+<p>实践中可用作数字资产管理工具（DAM）来使用，例如管理大量的 RAW 图库、JPEG 成果，以及设计素材管理。活跃</p>
+<h2><a class="anchor" href="https://meta.appinn.net#capture-one-prohttpswwwcaptureonecomzhproductscapture-one-pro-express-for-fujifilmhttpswwwcaptureonecomzhcapture-one-expressfujifilm-15" name="capture-one-prohttpswwwcaptureonecomzhproductscapture-one-pro-express-for-fujifilmhttpswwwcaptureonecomzhcapture-one-expressfujifilm-15"></a>Capture One <a href="https://www.captureone.com/zh/products/capture-one-pro">Pro</a> &amp; <a href="https://www.captureone.com/zh/capture-one-express/fujifilm">Express for Fujifilm</a></h2>
+<ul>
+<li>Windows / macOS / iOS</li>
+</ul>
+<p>以遥控拍摄为核心，一站式集成前期拍摄、选片、后期解决方案的行业大佬。RAW解码引擎的降噪算法优秀。订阅价格较贵，但相比Lightroom保留了买断制的选项。AI功能刚起步。另外还有一个专供富士相机用户的简化版，功能阉割，但可以免费使用。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#dxo-photolabhttpswwwdxocomdxo-photolab-purerawhttpswwwdxocomzh-cndxo-pureraw-16" name="dxo-photolabhttpswwwdxocomdxo-photolab-purerawhttpswwwdxocomzh-cndxo-pureraw-16"></a>DxO <a href="https://www.dxo.com/dxo-photolab/">PhotoLab</a> &amp; <a href="https://www.dxo.com/zh-cn/dxo-pureraw/">PureRAW</a></h2>
+<ul>
+<li>Windows/macOS</li>
+</ul>
+<p>DxO以优秀的镜头校正、降噪算法闻名，一次付费买断。提供<a href="https://support.dxo.com/hc/zh-cn/articles/4423295439761">三个版本</a>，其中PhotoLab ELITE是功能完整的照片管理、后期软件，PhotoLab ESSENTIAL对AI降噪等功能做了阉割，PureRAW则去掉了照片管理和后期功能、但保留了完整的RAW解码引擎，可配合PS/LR/Capture One/Affinity Photo等照片管理及后期软件使用</p>
+<h2><a class="anchor" href="https://meta.appinn.net#on1-photo-rawhttpswwwon1comproductsphoto-raw-17" name="on1-photo-rawhttpswwwon1comproductsphoto-raw-17"></a><a href="https://www.on1.com/products/photo-raw/">ON1 Photo RAW</a></h2>
+<ul>
+<li>macOS/Windows/iOS/Android</li>
+</ul>
+<p>主推AI功能的新兴照片编辑软件。付费方式与Capture One相似，可选订阅或买断，价格比Capture One低一点。支持作为PS/LR/CaptureOne/AFPhoto插件调用</p>
+<h2><a class="anchor" href="https://meta.appinn.net#photomatorhttpswwwpixelmatorcomphotomator-18" name="photomatorhttpswwwpixelmatorcomphotomator-18"></a><a href="https://www.pixelmator.com/photomator/">Photomator</a></h2>
+<ul>
+<li>macOS/iPad/iPhone</li>
+</ul>
+<p>苹果生态新兴的照片编辑软件，2023年度Mac App。提供很多基于AI的功能，包括但不限于降噪、智能抠图，其中最有特色的是超分辨率。没有提供独立的照片管理功能，而是依托苹果系统图库。macOS/iOS双平台订阅年费198，而Lightroom移动端和网页端年费是148（桌面端则是PS+LR打包888），可见Photomator并不比Lightroom便宜，但多了个698买断的选项。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#premiere-pro-19" name="premiere-pro-19"></a>四、视频编辑（替代Premiere Pro）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#imoviehttpswwwapplecomcnimovie-final-cut-prohttpswwwapplecomcnfinal-cut-pro-20" name="imoviehttpswwwapplecomcnimovie-final-cut-prohttpswwwapplecomcnfinal-cut-pro-20"></a><a href="https://www.apple.com.cn/imovie/">iMovie</a> &amp; <a href="https://www.apple.com.cn/final-cut-pro/">Final Cut Pro</a></h2>
+<ul>
+<li>macOS / iPad</li>
+</ul>
+<p>苹果出品的视频剪辑软件，能很好发挥M系列芯片的性能。前者是功能简单、免费提供的家庭级，后者是专业级，桌面端￥1998买断，iPad端年费￥328，两者单向互通（FCP能编辑iMovie工程）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#httpslvulikecamcom-21" name="httpslvulikecamcom-21"></a><a href="https://lv.ulikecam.com/">剪映</a></h2>
+<ul>
+<li>Windows / macOS / iOS / Android</li>
+</ul>
+<p>一款从移动端打到桌面端的剪辑软件。界面易用且不吃配置。有文本朗读、自动识别字幕、智能抠像等实用功能，还提供曲库、贴纸等素材</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/3/c38914c69be4693134556c576b9bfc671f212680.jpeg" title="image (5)"><img alt="image (5)" height="193" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/3/c38914c69be4693134556c576b9bfc671f212680_2_345x193.jpeg" width="345" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#davinci-resolvehttpswwwblackmagicdesigncomproductsdavinciresolve-22" name="davinci-resolvehttpswwwblackmagicdesigncomproductsdavinciresolve-22"></a><a href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a></h2>
+<p>行业标准的后期调色工具。开发商Blackmagic Design近年在不断完善Davinci的剪辑、特效、混音功能，争取用一个软件来满足视频后期的所有需求。Resolve 应该是可以免费获取的视频编辑软件之中功能最强大的了。功能强大的同时当然也非常吃性能</p>
+<h2><a class="anchor" href="https://meta.appinn.net#lightworkshttpswwwlwkscom-23" name="lightworkshttpswwwlwkscom-23"></a><a href="https://www.lwks.com/">Lightworks</a></h2>
+<ul>
+<li>Windows / Mac OS / Linux</li>
+</ul>
+<blockquote>
+<p>是一套剪辑 2K/4K 电影和 PAL/NTSC、标清以及高清电视的专业非线性编辑系统。Lightworks 是基于电脑进行电影剪辑的先锋，从 1989 年诞生至今一直处于发展当中。——<a href="https://zh.wikipedia.org/wiki/Lightworks" title="Lightworks - 维基百科，自由的百科全书">Lightworks - 维基百科，自由的百科全书</a></p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#blenderhttpswwwblenderorg-24" name="blenderhttpswwwblenderorg-24"></a><a href="https://www.blender.org/">Blender</a></h2>
+<p>解决你所有3D需求的一条龙软件，内置了不错的视频剪辑功能</p>
+<blockquote>
+<p>It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#kdenlivehttpskdenliveorg-25" name="kdenlivehttpskdenliveorg-25"></a><a href="https://kdenlive.org/">KdenLive</a></h2>
+<ul>
+<li>Linux / Windows</li>
+</ul>
+<p>可能是开源的视频剪辑软件之中功能最强大的一个。当然开源软件的界面和稳定性就没有商业软件那么成熟了。</p>
+<p>注：目前中文网络上较为缺乏能够紧跟时代进度的教程，新手入门相对于必剪等傻瓜式操作软件困难许多。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#shotcuthttpsshotcutorg-26" name="shotcuthttpsshotcutorg-26"></a><a href="https://shotcut.org/">Shotcut</a></h2>
+<ul>
+<li>Linux / macOS / Windows</li>
+</ul>
+<p>功能平衡的易上手型软件，比Kdenlive更易用，比Open Shot功能更强。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#openshothttpswwwopenshotorg-27" name="openshothttpswwwopenshotorg-27"></a><a href="https://www.openshot.org/">OpenShot</a></h2>
+<ul>
+<li>Linux / Windows / macOS</li>
+</ul>
+<p>比同类软件更加简单易用。Linux上类似iMovie的存在</p>
+<h2><a class="anchor" href="https://meta.appinn.net#vsdc-video-editorhttpwwwvideosoftdevcomfree-video-editor-28" name="vsdc-video-editorhttpwwwvideosoftdevcomfree-video-editor-28"></a><a href="http://www.videosoftdev.com/free-video-editor">VSDC Video Editor</a></h2>
+<ul>
+<li>Windows</li>
+</ul>
+<p>一款非常适合低配置电脑的剪辑软件。性能需求很小，功能却不简陋。界面风格比较特别，如果你熟悉Office的ribbon界面则很容易上手<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/2/92119bab336607a79d21e1f8de18c4587d358042.jpeg" title="image"><img alt="image" height="218" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/2/92119bab336607a79d21e1f8de18c4587d358042_2_345x218.jpeg" width="345" /></a></div><p></p>
+<h1><a class="anchor" href="https://meta.appinn.net#after-effects-29" name="after-effects-29"></a>五、视频特效（替代After Effects）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#fusionhttpswwwblackmagicdesigncomukproductsdavinciresolvefusion-30" name="fusionhttpswwwblackmagicdesigncomukproductsdavinciresolvefusion-30"></a><a href="https://www.blackmagicdesign.com/uk/products/davinciresolve/fusion">Fusion</a></h2>
+<p>这是DaVinci Resolve内的特效模块</p>
+<h1><a class="anchor" href="https://meta.appinn.net#audition-31" name="audition-31"></a>六、音频编辑（替代Audition）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#audacityhttpswwwaudacityteamorg-32" name="audacityhttpswwwaudacityteamorg-32"></a><a href="https://www.audacityteam.org/">Audacity</a></h2>
+<ul>
+<li>Windows / macOS / Linux</li>
+</ul>
+<p>便捷好用的小康型音频处理软件，操作逻辑很接近Audiotion。槽点有两个：高分屏下界面非常模糊，以及仅提供32位程序</p>
+<aside class="quote quote-modified">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" class="avatar" height="24" src="https://meta-cdn1.appinn.com/user_avatar/meta.appinn.net/yazii/48/13871_2.png" width="24" />
+    <a href="https://meta.appinn.net/t/topic/24584">警惕知名音频软件Audacity</a> <a class="badge-wrapper  bullet" href="https://meta.appinn.net/c/discuss-and-share/6"><span class="badge-category-bg" style="background-color: #2979FF;"></span><span class="badge-category clear-badge" title="发布你想要讨论的内容，话题不限，请遵守法律，以及在公共场合的必要礼仪。">讨论分享</span></a>
+  </div>
+  <blockquote>
+    转自这里 ，可信度没有问题 <a href="https://mp.weixin.qq.com/s/kQ66dW6Jzo5ImldGQImJHA" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/kQ66dW6Jzo5ImldGQImJHA</a> 
+两个月前，著名的开源音频处理软件被一家名为 Muse Group 的公司收购。同一家公司在其投资组合中还拥有其他项目，例如Ultimate Guitar（著名的在线吉他乐谱分享网站）和MuseScore（开源乐谱软件）。 
+从那时起，Audacity 就一直是一个热门话题。 
+母公司是一家跨国公司，它一直试图在软件中启动数据收集机制。虽然 Audacity 只不过是一个桌面程序，但它的开发人员希望让它与从用户机器上获取各种数据。 
+在最新的隐私政策页面（更新于7月2日）为Audacity的包括范围广泛的数据收集机制。例如，它声明它可以将任何用户数据交给它所在州的监管机构： 
+基本上是俄罗斯、美国和欧洲经济区： 
+
+您的所有个人数据都存储在我们位于欧洲经济区 (EEA) 的服务器上。但是，我们有时需要与我们在俄罗斯的主要办公室和我们在美国的外部法律顾问共享您的个人数据。 
+
+此外，他们表示他们可能会与他们归类为“第三方”、“顾问”或“潜在买家”的任何人共享数据…
+  </blockquote>
+</aside>
+
+<h2><a class="anchor" href="https://meta.appinn.net#ardourhttpsardourorg-33" name="ardourhttpsardourorg-33"></a><a href="https://ardour.org/">Ardour</a></h2>
+<ul>
+<li>Linux / Windows / macOS</li>
+</ul>
+<p>一个开源的数字音频工作站，任何人都可以从源代码编译它。如果你想下载社区预先编译好的可执行程序，则需要捐赠任意金额，用Ardour开发社区的话说，Ardour是一个free（自由的）软件，而不是free（免费的）软件。</p>
+<p></p><div class="large-image-placeholder"><a href="https://ardour.org/images/retina_no_plugs2.png" rel="noopener" target="_blank"><svg class="fa d-icon d-icon-far-image svg-icon" xmlns="http://www.w3.org/2000/svg"><use></use></svg><span class="url">https://ardour.org/images/retina_no_plugs2.png</span><span class="help">（图片大于 1 MB）</span></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#cakewalk-by-bandlabhttpswwwbandlabcomproductscakewalk-34" name="cakewalk-by-bandlabhttpswwwbandlabcomproductscakewalk-34"></a><a href="https://www.bandlab.com/products/cakewalk">Cakewalk by Bandlab</a></h2>
+<ul>
+<li>Windows</li>
+</ul>
+<p>本质上是一款音乐制作软件，也可以用来处理音频。64bit 浮点精度、内置的 ProChannel 效果器、步进式音序器，都暗示这曾经是一款非常专业的软件……如今因为公司被富二代收购而免费</p>
+<p>值得一提的是，Cakewalk 虽然不支持高分屏，却对触屏键盘和压感触控笔有很好的支持，配合同样免费的 Studio Instruments 键盘/弦乐/贝斯/原声鼓虚拟乐器四件套，Surface用户就可以扔掉键盘写歌啦</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/2X/0/03cbd11f4ac79e9ac32c9dba8bba8b0ec89d345e.jpeg" title="320x191"><img alt="320x191" height="412" src="https://meta-cdn1.appinn.com/uploads/default/optimized/2X/0/03cbd11f4ac79e9ac32c9dba8bba8b0ec89d345e_2_690x412.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#qtractorhttpsqtractorsourceforgeioqtractor-indexhtml-35" name="qtractorhttpsqtractorsourceforgeioqtractor-indexhtml-35"></a><a href="https://qtractor.sourceforge.io/qtractor-index.html">qtractor</a></h2>
+<ul>
+<li>Linux</li>
+</ul>
+<p>另一个Linux上的免费编曲软件，基于qt</p>
+<h2><a class="anchor" href="https://meta.appinn.net#reaperhttpsreaperfm-36" name="reaperhttpsreaperfm-36"></a><a href="https://reaper.fm/">Reaper</a></h2>
+<ul>
+<li>Windows / mac / Linux</li>
+</ul>
+<p>经济实惠的数字音频工作站。全功能只需要60美元，可以免费升级至7.99</p>
+<h1><a class="anchor" href="https://meta.appinn.net#indesign-37" name="indesign-37"></a>六、桌面排版软件（替代InDesign）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#affinity-publisherhttpsaffinityserifcomzh-cnpublisher-38" name="affinity-publisherhttpsaffinityserifcomzh-cnpublisher-38"></a><a href="https://affinity.serif.com/zh-cn/publisher/">Affinity Publisher</a></h2>
+<ul>
+<li>macOS / Windows / iPad(soon)</li>
+</ul>
+<p>Affinity完善创意套件版图的又一作品，2019年一推出就获得了Mac App Store年度最佳应用</p>
+<h2><a class="anchor" href="https://meta.appinn.net#scribushttpswwwscribusnet-39" name="scribushttpswwwscribusnet-39"></a><a href="https://www.scribus.net/">Scribus</a></h2>
+<ul>
+<li>Windows / macOS / Linux</li>
+</ul>
+<p>开源免费，以 GNU 许可发布的桌面排版软件，跨平台非常广：Linux, FreeBSD, PC-BSD, NetBSD, OpenBSD, Solaris, OpenIndiana, Debian GNU/Hurd, Mac OS X, OS/2 Warp 4, eComStation, Haiku and Windows。支持专业的出版特性，例如 CMYK 颜色, 专色通道, ICC 颜色管理，以及 PDF 输出。文件格式是基于 XML 的开放格式，支持矢量绘图。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#microsoft-publisherhttpswwwmicrosoftcomzh-cnmicrosoft-365publisher-40" name="microsoft-publisherhttpswwwmicrosoftcomzh-cnmicrosoft-365publisher-40"></a><a href="https://www.microsoft.com/zh-cn/microsoft-365/publisher">Microsoft Publisher</a></h2>
+<ul>
+<li>Windows</li>
+</ul>
+<p>Microsoft 365套件中比较边缘地位的软件，近年几乎没有任何功能性更新……谈不上能够替代InDesign，不过简单的排版工作还是可以胜任的，熟悉Office工作流程的人会很容易上手</p>
+<h2><a class="anchor" href="https://meta.appinn.net#libreoffice-drawhttpswwwlibreofficeorgdiscoverdraw-41" name="libreoffice-drawhttpswwwlibreofficeorgdiscoverdraw-41"></a><a href="https://www.libreoffice.org/discover/draw/">LibreOffice Draw</a></h2>
+<ul>
+<li>Windows / mac / Linux</li>
+</ul>
+<p>LibreOffice套件中的一部分，通吃Publisher和Visio，熟悉Office工作流程的人容易上手。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#dreamweaver-42" name="dreamweaver-42"></a>七、网页编辑器（Dreamweaver替代品）</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#bluegriffonhttpbluegriffonorg-43" name="bluegriffonhttpbluegriffonorg-43"></a><a href="http://bluegriffon.org/">BlueGriffon</a></h2>
+<ul>
+<li>Windows / macOS / Linux</li>
+</ul>
+<p>BlueGriffon 基于 Gecko 内核开发，能编辑网页和 epub</p>
+<h2><a class="anchor" href="https://meta.appinn.net#seamonkey-composerhttpswwwseamonkey-projectorg-44" name="seamonkey-composerhttpswwwseamonkey-projectorg-44"></a><a href="https://www.seamonkey-project.org/">SeaMonkey Composer</a></h2>
+<ul>
+<li>Windows / macOS / Linux</li>
+</ul>
+<p>SeaMonkey是一套Mozilla出品的工具，其中的Composer能编辑html</p>
+<blockquote>
+<p>Web-browser, advanced e-mail, newsgroup and feed client, IRC chat, and HTML editing made simple—all your Internet needs in one application.</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#rocketcakehttpambieracomrocketcake-45" name="rocketcakehttpambieracomrocketcake-45"></a><a href="http://ambiera.com/rocketcake/">RocketCake</a></h2>
+<ul>
+<li>Windows / macOS</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#mobirisehttpsmobirisecom-46" name="mobirisehttpsmobirisecom-46"></a><a href="https://mobirise.com/">Mobirise</a></h2>
+<ul>
+<li>Windows / macOS / Android</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#xwayhttpswwwsoftpresscomxwayindexhtml-freewayhttpswwwsoftpresscomfreeway-proindexhtml-47" name="xwayhttpswwwsoftpresscomxwayindexhtml-freewayhttpswwwsoftpresscomfreeway-proindexhtml-47"></a><a href="https://www.softpress.com/xway/index.html">XWay</a> &amp; <a href="https://www.softpress.com/freeway-pro/index.html">Freeway</a></h2>
+<ul>
+<li>macOS</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#openelementhttpswwwopenelementcom-48" name="openelementhttpswwwopenelementcom-48"></a><a href="https://www.openelement.com/">openElement</a></h2>
+<ul>
+<li>Windows</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#ezgeneratorhttpwwwezgeneratorcom-49" name="ezgeneratorhttpwwwezgeneratorcom-49"></a><a href="http://www.ezgenerator.com/">EZGenerator</a></h2>
+<ul>
+<li>Windows</li>
+</ul>
+            <p><small>29 个帖子 - 14 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/17302">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 30 Jun 2020 14:16:52 +0000</pubDate>
+<pubDate>Tue, 30 Jun 2020 14:16:52 +0000</pubDate>
+</item>
 
 <item>
 <title>有没有管理github的插件？</title>
