@@ -5,20 +5,123 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>HTTP Shortcuts 介绍及向 Bark 推送消息教程</title>
+<link>https://meta.appinn.net/t/topic/19778</link>
+<guid>https://meta.appinn.net/t/topic/19778</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>前言</h1>
+<p>缘起于 <a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a> 分享的<a href="https://meta.appinn.net/t/topic/18527">跨平台跨设备剪贴板推送/同步方案合集</a>，受益良多。根据自己的需求折腾了好多 app，最后结果在此分享。</p>
+<hr />
+<h1><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>介绍</h1>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>此篇为安卓发送篇，需求如下：</h3>
+<ol>
+<li><strong>向 iOS 设备推送文本</strong> <strong><sup><a href="https://meta.appinn.net" title="借助 Bark App">1</a></sup></strong>&nbsp;&nbsp;&nbsp;<img alt=":point_left:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/point_left.png?v=12" title=":point_left:" width="20" /> <strong>本帖</strong></li>
+<li><strong>向 PC 推送文本</strong> <strong><sup><a href="https://meta.appinn.net" title="挖坑待填">2</a></sup></strong></li>
+<li><strong>不依赖 IM 类软件</strong></li>
+<li><strong>不依赖 GMS</strong></li>
+<li><strong>如为轻量型 App 更佳</strong></li>
+</ol>
+<p>试过类 Tasker app，比如 MacroDroid、Automate、Automagic，都感觉太重。目前使用一个开源 App：<strong>HTTP Shortcuts</strong>，中文名称：<strong>HTTP 快捷方式</strong>。转载自官网的简介：</p>
+<blockquote>
+<p>A simple Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request.</p>
+</blockquote>
+<p>机翻：</p>
+<blockquote>
+<p>一款简单的 Android 应用程序，允许您创建可以放在主屏幕上的快捷方式和小部件。单击每个快捷方式时，都会触发 HTTP 请求。</p>
+</blockquote>
+<p><strong>节选</strong>自官网的功能列表：</p>
+<blockquote>
+<ul>
+<li>GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS and TRACE</li>
+<li>Custom request headers</li>
+<li>Custom request body (text only)</li>
+<li>Display response as a toast, window or dialog, or run silently</li>
+<li>Value injection through variables (e.g., text, numbers, passwords, selections, colors, dates, …)</li>
+<li>Run JavaScript code before &amp; after execution and invoke actions (e.g., vibrate, show toast, parse JSON response…), allowing to create powerful workflows</li>
+<li>Completely free, and no ads!</li>
+</ul>
+</blockquote>
+<p><strong>| <a href="https://http-shortcuts.rmy.ch/" rel="noopener nofollow ugc">软件首页</a></strong> <strong>| <a href="https://github.com/Waboodoo/HTTP-Shortcuts" rel="noopener nofollow ugc">开源地址</a></strong> <strong>| <a href="https://f-droid.org/zh_Hans/packages/ch.rmy.android.http_shortcuts/" rel="noopener nofollow ugc">F-Droid 市场</a></strong> <strong>| <a href="https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts&amp;hl=zh" rel="noopener nofollow ugc">Play 商店</a> |</strong></p>
+<hr />
+<h1><a class="anchor" href="https://meta.appinn.net#http-app-4" name="http-app-4"></a>配置 HTTP 快捷方式 App</h1>
+<h3><a class="anchor" href="https://meta.appinn.net#ios-5" name="ios-5"></a>向 iOS 设备发送文本</h3>
+<ul>
+<li>
+<p><strong>设置变量：</strong></p>
+<ol>
+<li>在 App 首页点击顶栏 <kbd>{}</kbd> 按钮；</li>
+<li>在变量界面中点击 <kbd>+</kbd> 按钮，选择 <kbd>输入文本</kbd>；</li>
+<li>填写变量名称（如：Content）；勾选下方的“URL 编码”；保存退出。</li>
+</ol>
+</li>
+<li>
+<p><strong>设置快捷方式：</strong></p>
+<ol>
+<li>在 App 首页点击 <kbd>+</kbd> 按钮，选择 <kbd>新建快捷方式</kbd>；</li>
+<li>填写名称（如：push2ios），点击 <kbd>基本设置</kbd>；</li>
+<li>保持默认"<code>GET</code>"，在 URL 栏目中填入 <code>https://api.day.app/？？？/发送自Android/</code> ；点击旁边的 <kbd>{}</kbd> 按钮，选中你刚刚设置的变量；在URL的最后加上 <code>?automaticallyCopy=1</code> ；保存退出。
+<blockquote>
+<p>最终在 URL 栏目填的地址如下所示。 <code>？？？</code> 替换成你的 Bark Key； <code>{Content}</code> 为你在上一步中添加并命名的变量；最后一个问号应为英文符号。<br />
+<code>https://api.day.app/？？？/发送自Android/{Content}?automaticallyCopy=1</code></p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>将快捷方式发送到桌面(可选)：</strong></p>
+<ol>
+<li>在 App 首页按住刚刚设置的快捷方式（如：push2ios），点击 <kbd>发送到桌面</kbd> 。</li>
+</ol>
+</li>
+<li>
+<p><strong>向 iOS 设备发送文本：</strong></p>
+<ol>
+<li>运行刚刚设置好的快捷方式（如：push2ios）；</li>
+<li>在弹出的对话框中 粘贴/输入 要发送的文字，点击 <kbd>确定</kbd>；</li>
+<li>若弹出的 Toast 消息为 <code>{"code":200,"data":null,"message":""}</code> 则发送成功。</li>
+</ol>
+</li>
+<li>
+<p><strong>局限性：</strong></p>
+<ol>
+<li>无法直接获取剪贴板内容，只能弹输入框获取文本；</li>
+<li>无法从响应正文中提取文字，也就无法<a href="https://meta.appinn.net/t/ios-pushbullet/18629">复刻 Pushbullet</a>，还要另装接收消息 app；
+<blockquote>
+<p>我不懂编程，从网上搜的 JavaScript 代码测试不行，欢迎指点。</p>
+</blockquote>
+</li>
+<li>一个设备一个快捷方式，桌面图标太多。
+<blockquote>
+<p><code>triggerShortcut</code> 和 <code>showSelection</code> 组合起来可以只放一个图标。<s>但目前有 BUG，在桌面无法运行。</s> MIUI上该功能有BUG，其他系统没听说有问题。</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ul>
+<hr />
+<h1><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>后记</h1>
+<p>人呢，总是有许多奇奇怪怪的需求，正因为这些不一样的需求，才催生出各式各样的 app 。这些 app 解决的痛点在另一个人眼里也许就不是问题。这次折腾很久能勉强达成目的运气不错，特此分享。</p>
+<p><strong>写分享好麻烦啊！！！<s>这篇文章鸽一个月不止了。</s></strong></p>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/19778">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 14 Oct 2020 07:58:39 +0000</pubDate>
+<pubDate>Wed, 14 Oct 2020 07:58:39 +0000</pubDate>
+</item>
+
+<item>
 <title>发现个不用魔法也能看油管的网站和deepl的平替版</title>
 <link>https://meta.appinn.net/t/topic/50174</link>
 <guid>https://meta.appinn.net/t/topic/50174</guid>
 <content:encoded><![CDATA[
-
 <p>①就是加载有点点慢，还附带一个咕噜咕噜镜像，视频也都可以直接下载：<a href="https://poketube.fun" rel="noopener nofollow ugc">https://poketube.fun</a><br />
 ②mail.com基于deepl api出的翻译，加载比本家快多了，翻译成果是一样的：<a class="inline-onebox" href="https://www.mail.com/translator/#auto/zh/" rel="noopener nofollow ugc">mail.com Translator</a></p>
             <p><small>2 个帖子 - 2 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/50174">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 09 Dec 2023 02:54:39 +0000</pubDate>
-<pubDate>Sat, 09 Dec 2023 02:54:39 +0000</pubDate>
 </item>
-
 <item>
 <title>Clipboard-online：在不同设备之间分享剪贴板。附 iOS 和 Android 设备分享方法。</title>
 <link>https://meta.appinn.net/t/topic/20322</link>
