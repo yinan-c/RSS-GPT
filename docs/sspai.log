@@ -9927,3 +9927,12 @@ Existing_entries: 326
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-12 08:15:11.332997
+------------------------------------------------------
+Started: 2023-12-12 10:12:35.068449
+Existing_entries: 326
+Fetching from https://rsshub.app/sspai/index
+Token length: 9098
+Summarized using GPT-3.5-turbo-1106
+Append: [讨论 TGA 和年度游戏时，我们还可以聊些什么？](https://sspai.com/post/84976)
+append_entries: 1
+Finish: 2023-12-12 10:12:47.466455
