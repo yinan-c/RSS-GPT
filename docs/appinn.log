@@ -9974,3 +9974,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-12 00:53:23.753235
+------------------------------------------------------
+Started: 2023-12-12 02:26:08.116090
+Existing_entries: 186
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [求有无提供 Chrome 离线包的网站，Wums.cn好长一段时间无法使用了。。](https://meta.appinn.net/t/topic/50245)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-12 02:26:10.457787
