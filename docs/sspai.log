@@ -9936,3 +9936,15 @@ Summarized using GPT-3.5-turbo-1106
 Append: [讨论 TGA 和年度游戏时，我们还可以聊些什么？](https://sspai.com/post/84976)
 append_entries: 1
 Finish: 2023-12-12 10:12:47.466455
+------------------------------------------------------
+Started: 2023-12-12 12:21:33.850968
+Existing_entries: 327
+Fetching from https://rsshub.app/sspai/index
+Token length: 8102
+Summarized using GPT-3.5-turbo-1106
+Append: [社区速递 024 | NotebookLM、AI 整活以及绍兴之旅](https://sspai.com/post/85007)
+Token length: 684
+Summarized using GPT-3.5-turbo-1106
+Append: [TESTV 与少数派，理想主义团队的创业怎么就这么难？](https://sspai.com/post/84563)
+append_entries: 2
+Finish: 2023-12-12 12:21:47.646746
