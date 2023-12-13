@@ -10016,3 +10016,27 @@ Filter: [AI招聘平台「HelloBoss」获数百万美元Pre-A轮融资，BOSS直
 Filter: [机器-类器官混合“生物计算机”诞生，成功用于语音识别，或克服AI硬件瓶颈](https://www.36kr.com/p/2557028852882053)
 append_entries: 0
 Finish: 2023-12-13 04:13:59.114956
+------------------------------------------------------
+Started: 2023-12-13 06:15:24.578217
+Existing_entries: 366
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [理想汽车的故事进度，凭MindGPT来续写？](https://www.36kr.com/p/2558638578916486)
+Token length: 1799
+Summarized using GPT-3.5-turbo-1106
+Append: [国内开发者看谷歌Gemini：虽陷“造假”争议，但它找到了超越OpenAI之路](https://www.36kr.com/p/2558615381089415)
+Filter: [谷歌的自研芯片帝国](https://www.36kr.com/p/2558544002866310)
+Filter: [手机能跑，微软小模型击败Llama 2，96块A100 GPU训练14天，参数规模仅27亿](https://www.36kr.com/p/2558530806684804)
+Filter: [AI算力芯片，AMD终于站起来了](https://www.36kr.com/p/2558518082740358)
+Filter: [拳打Pika脚踢Gen-2，斯坦福李飞飞联合谷歌，AI文生视频大模型炸圈](https://www.36kr.com/p/2557736232312201)
+Filter: [欧盟达成全球首个 AI 监管法案，有哪些信息需要了解？](https://www.36kr.com/p/2557548955590537)
+Filter: [让大模型操纵无人机，北航团队提出具身智能新架构](https://www.36kr.com/p/2557626587848067)
+Filter: [用活人脑细胞造AI系统，语音识别已成功，可无监督学习](https://www.36kr.com/p/2557626351852928)
+Filter: [年度盘点：AI浪潮下，ToB软件落地进展如何？](https://www.36kr.com/p/2557305478258053)
+Filter: [李飞飞谷歌破局之作，用Transformer生成逼真视频，下一个Pika来了？](https://www.36kr.com/p/2557326571396226)
+Filter: [阿里又整活儿：一张人脸一句话就能跳《擦玻璃》，服装背景随意换](https://www.36kr.com/p/2557310074363267)
+Filter: [把大模型当CPU，前阿里云首席安全科学家创业项目曝光](https://www.36kr.com/p/2557308919602307)
+Filter: [80后掘金数据闭环，华映“几面之缘”投了数千万](https://www.36kr.com/p/2557196509601921)
+Filter: [DeepMind的新研究：人类最后的自留地失守了？](https://www.36kr.com/p/2557224880659080)
+Filter: [权力的游戏：互联网铁王座之争](https://www.36kr.com/p/2557256426888067)
+append_entries: 1
+Finish: 2023-12-13 06:15:33.114027
