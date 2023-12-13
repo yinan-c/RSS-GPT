@@ -5163,3 +5163,12 @@ Existing_entries: 131
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2023-12-13 18:13:02.953880
+------------------------------------------------------
+Started: 2023-12-13 20:12:14.933661
+Existing_entries: 131
+Fetching from https://rknight.me/feed.xml
+Token length: 2154
+Summarized using GPT-3.5-turbo-1106
+Append: [Subscriptions](https://rknight.me/subscriptions/)
+append_entries: 1
+Finish: 2023-12-13 20:12:22.132957
