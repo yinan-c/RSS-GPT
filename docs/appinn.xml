@@ -4,6 +4,62 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>嗯背单词新版本来了，每个被学英语困扰的人都应该尝试的背单词神器！</title>
+<link>https://meta.appinn.net/t/topic/50285</link>
+<guid>https://meta.appinn.net/t/topic/50285</guid>
+<content:encoded><![CDATA[
+
+<p>大家好，嗯背单词本次更新带来了全新的选词算法和单词笔记功能，同时改进了拼写测试的使用方式。</p>
+<p>首先简单介绍一下 APP 的特点</p>
+<ul>
+<li>遥控器式UI，完全适配单手操作</li>
+<li>支持在背单词的过程中查词典，做笔记，查图片</li>
+<li>强大的筛选功能，支持以多种条件筛选和排除单词</li>
+<li>支持导入单词列表创建自定义词书</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#strs-1" name="strs-1"></a>平滑过渡随机选词算法（STRS）</h3>
+<p>像"百词斩"，“不背单词”，"墨墨"这类背单词 APP 会让你在一开始选择每组固定学习多少个单词，固定复习多少个单词，这个方式存在以下问题</p>
+<ul>
+<li>每个单词的记忆难度不相同，不应该分配相同的记忆时间</li>
+<li>对于已经工作的人来说，每天用来学习的时间并不是固定的，固定分组的模式无法适应这种动态变化</li>
+</ul>
+<p>为此我设计了一种全新的选词算法，SRTS</p>
+<p><strong>Smooth</strong></p>
+<p>对于选词过程和自动添加单词无需手动操作也无感知</p>
+<p><strong>Transition</strong></p>
+<p>单词在认识 - 掌握 - 遗忘几种状态之间转换，直到完全记住</p>
+<p><strong>Random Selection</strong></p>
+<p>每次随机选择单词，没有顺序上的关联性</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/5/852646e8978640f1ecac78098c62f19e7fc662e9.jpeg" title="STRS Diagram"><img alt="STRS Diagram" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/5/852646e8978640f1ecac78098c62f19e7fc662e9_2_400x500.jpeg" width="400" /></a></div><p></p>
+<ul>
+<li>难记的单词在重复循环中不断记忆，简单的单词直接进入下一个阶段</li>
+<li>每天的学习量完全是动态的，可以自由分配时间，不会产生固定分组时没有学习完成的挫败感</li>
+<li>适合极端情况，例如你需要在三天内复习 2000 个单词</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>尽情编辑单词笔记</h3>
+<p>为单词添加助记，同义词，反义词等任意内容，未来也会支持富文本格式和双链功能</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/e/fedbc3f8d4b1c047178be142d236e719695078a6.jpeg" title="单词笔记"><img alt="单词笔记" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/e/fedbc3f8d4b1c047178be142d236e719695078a6_2_690x388.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>随时进行拼写测试</h3>
+<p>改进了原先只能在 “强化复习” 中使用拼写测试的设定，现在三个模式 “单词初记”，“强化复习”，“轻松回顾” 中，点击菜单选择 “拼写测试” 就可以直接开始听写和默写了</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/9/294f388710e2e55b4769cbb118bb4b29f06d7dde.jpeg" title="拼写测试"><img alt="拼写测试" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/9/294f388710e2e55b4769cbb118bb4b29f06d7dde_2_690x388.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>下载地址</h3>
+<p><a href="https://apps.apple.com/cn/app/id6450109182" rel="noopener nofollow ugc">App Store</a></p>
+<p>或者在 App Store 中搜索 “嗯背单词”</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>收费方式</h3>
+<ul>
+<li>免费用户可以无限制使用牛津 3000 核心词汇词书和词典功能</li>
+<li>订阅后可以解锁全部词书和自定义导入功能，<strong>订阅价格为 8 元每月，78 元每年</strong></li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>技术支持</h3>
+<p>有任何问题请加入产品交流群~</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/3/b35f656d14f91d800d04e4baf201363e2e7e7dfc.jpeg" title="D1F0FE8B-0365-4589-99DF-111A8BE690A5_1_201_a"><img alt="D1F0FE8B-0365-4589-99DF-111A8BE690A5_1_201_a" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/3/b35f656d14f91d800d04e4baf201363e2e7e7dfc_2_347x500.jpeg" width="347" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50285">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 12 Dec 2023 23:07:58 +0000</pubDate>
+<pubDate>Tue, 12 Dec 2023 23:07:58 +0000</pubDate>
+</item>
 
 <item>
 <title>求有无提供 Chrome 离线包的网站，Wums.cn好长一段时间无法使用了。。</title>
