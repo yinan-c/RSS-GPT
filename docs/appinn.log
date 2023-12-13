@@ -10072,3 +10072,11 @@ Append: [嗯背单词新版本来了，每个被学英语困扰的人都应该�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-12-13 00:53:04.474371
+------------------------------------------------------
+Started: 2023-12-13 02:25:34.632689
+Existing_entries: 188
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-12-13 02:25:36.856430
