@@ -10114,3 +10114,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【开发者自荐】Mac效率工具 - Folder Hub](https://meta.appinn.net/t/topic/50312)
 append_entries: 1
 Finish: 2023-12-13 10:12:13.175376
+------------------------------------------------------
+Started: 2023-12-13 12:21:07.559000
+Existing_entries: 190
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-12-13 12:21:11.394391
