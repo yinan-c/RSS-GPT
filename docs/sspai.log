@@ -10098,3 +10098,12 @@ Existing_entries: 335
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-14 08:14:29.662878
+------------------------------------------------------
+Started: 2023-12-14 10:12:44.688411
+Existing_entries: 335
+Fetching from https://rsshub.app/sspai/index
+Token length: 4314
+Summarized using GPT-3.5-turbo-1106
+Append: [App+1 | 易编辑、好管理：你的下一份简历可以试试 Typst](https://sspai.com/post/85051)
+append_entries: 1
+Finish: 2023-12-14 10:12:50.597973
