@@ -4,6 +4,44 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>分享一个修复chrome内置翻译功能的工具</title>
+<link>https://meta.appinn.net/t/topic/50411</link>
+<guid>https://meta.appinn.net/t/topic/50411</guid>
+<content:encoded><![CDATA[
+
+<p>之前看到有小伙伴觉得edge花活太多想用回chrome，但是chrome的内置翻译功能不能用很久了，网上有一些改hosts，或者全局代理的方法能用，都不太方便，所以写了这个小工具，配置好后不用再折腾了</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/Greyh4t/rhttps" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/2012b3619fd3c2fd9605e86bc28437d71b995d1b6696f925b39a355b4f071dcf/Greyh4t/rhttps" width="690" /></div>
+
+<h3><a href="https://github.com/Greyh4t/rhttps" rel="noopener nofollow ugc" target="_blank">GitHub - Greyh4t/rhttps: 修复 chrome 浏览器内置翻译功能</a></h3>
+
+  <p>修复 chrome 浏览器内置翻译功能. Contribute to Greyh4t/rhttps development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>原理很简单，就是通过修改hosts将翻译的域名直接重定向到本地，然后这个工具通过反向代理的方式让翻译域名走代理出去</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50411">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 15 Dec 2023 19:57:25 +0000</pubDate>
+<pubDate>Fri, 15 Dec 2023 19:57:25 +0000</pubDate>
+</item>
 
 <item>
 <title>tab页标签分组 聚焦专注浏览 分屏管理 冻结 自适应主题等提升浏览体验和生产力</title>

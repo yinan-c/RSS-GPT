@@ -10340,3 +10340,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-15 18:14:15.715434
+------------------------------------------------------
+Started: 2023-12-15 20:12:12.697383
+Existing_entries: 192
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [分享一个修复chrome内置翻译功能的工具](https://meta.appinn.net/t/topic/50411)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-15 20:12:16.758318
