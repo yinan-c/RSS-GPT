@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Meta Doesn't Need ActivityPub to Slurp Up Your Data</title>
 <link>https://rknight.me/meta-doesnt-need-activitypub-to-slurp-up-your-data/</link>
 <guid>https://rknight.me/meta-doesnt-need-activitypub-to-slurp-up-your-data/</guid>
 <content:encoded><![CDATA[
-<div> Meta, ActivityPub, EU, blocking, data<br>
-这篇文章讨论了Meta在欧盟推出Threads功能，引发Fediverse上的争议。作者认为阻止用户关注Threads的决定是不必要的，会使Fediverse变得更糟。他建议等待Meta真正开始联合用户之后再做决定。他还指出，用户有权利选择是否移动到其他实例。文章最后批评了对欧盟的负面态度，认为他们试图让生活变得更好是愚蠢的。总的来说，作者认为阻止Meta并没有什么好处，反而会让Fediverse和开放网络变得更糟。 <br><br>总结: Meta在欧盟推出Threads功能，然后是作者建议等待Meta真正开始联合用户之后再做决定，最后是作者认为阻止Meta并没有什么好处，反而会让Fediverse和开放网络变得更糟。 <div>
+<div> Meta, ActivityPub, EU, blocking, data<br />
+这篇文章讨论了Meta在欧盟推出Threads功能，引发Fediverse上的争议。作者认为阻止用户关注Threads的决定是不必要的，会使Fediverse变得更糟。他建议等待Meta真正开始联合用户之后再做决定。他还指出，用户有权利选择是否移动到其他实例。文章最后批评了对欧盟的负面态度，认为他们试图让生活变得更好是愚蠢的。总的来说，作者认为阻止Meta并没有什么好处，反而会让Fediverse和开放网络变得更糟。 <br /><br />总结: Meta在欧盟推出Threads功能，然后是作者建议等待Meta真正开始联合用户之后再做决定，最后是作者认为阻止Meta并没有什么好处，反而会让Fediverse和开放网络变得更糟。 <div>
 <p><a href="https://www.theverge.com/2023/12/13/24000120/threads-meta-activitypub-test-mastodon">Threads started to test ActivityPub integration</a> this week and the fediverse is losing it's collective mind going into overdrive to block them in any way possible so they can't grab all your data. Here's the fun part: they can already do that and they definitely don't need ActivityPub to do that.</p>
 <p>Take my profile for example: <a href="https://social.lol/@robb">https://social.lol/@robb</a>. It's all right there for downloading, scraping, or scribbling down in a &quot;<em>robb is very clever and handsome</em>&quot; notebook. The <a href="https://social.lol/public/local">local timeline for social.lol</a> is the same. Ready to be gobbled up into whatever data center Meta want to put it in. This doesn't even take into account that <em>Mastodon has an API that anyone can use</em>. Hell, they could follow the local timeline on Mastodon.social and probably get 90% of the data they want anyway, assuming they want any of it to begin with. Or create an account on a few hundred instances and get the data that way. But they won't because that's not why they're doing this.</p>
 <p>They are doing this because they have to. The EU is breathing down all the big tech companies neck's to be more open and interoperable.<sup class="footnote-ref"><a href="https://rknight.me/feed.xml#fn1" id="fnref1">[1]</a></sup> They only launched in the EU yesterday and I'd bet my left bollock it took so long because they were doing sneaky shit with tracking that the EU would have fined them for immediately. The EU didn't make Threads illegal like certain tech pundits claimed, Meta were just doing illegal things. Just a little crime, as a treat.</p>
@@ -32,10 +33,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-15T10:30:49.461+00:00</pubDate>
 </item>
-
 <item>
 <title>Subscriptions</title>
 <link>https://rknight.me/subscriptions/</link>
