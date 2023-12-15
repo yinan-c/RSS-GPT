@@ -10176,3 +10176,12 @@ Existing_entries: 339
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-15 06:14:59.132447
+------------------------------------------------------
+Started: 2023-12-15 08:15:11.859404
+Existing_entries: 339
+Fetching from https://rsshub.app/sspai/index
+Token length: 3254
+Summarized using GPT-3.5-turbo-1106
+Append: [小米 14 Pro 上手体验](https://sspai.com/post/84510)
+append_entries: 1
+Finish: 2023-12-15 08:15:19.576800

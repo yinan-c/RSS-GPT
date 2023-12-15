@@ -10291,3 +10291,11 @@ Append: [【开发者自荐】天气-时光，一款查看历史天气的iOS App
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-12-15 06:14:56.916864
+------------------------------------------------------
+Started: 2023-12-15 08:15:05.879943
+Existing_entries: 191
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-12-15 08:15:09.889030
