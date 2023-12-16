@@ -5,19 +5,47 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>APIHub让每个人都有自己的API，现可手机打印、放ppt、打开文件</title>
+<link>https://meta.appinn.net/t/topic/50435</link>
+<guid>https://meta.appinn.net/t/topic/50435</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h2>
+<p>APIHub是一个创新的程序，旨在让每个人都能拥有自己的API。让每个人都能一键开启API服务，并能用起来。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>功能</h2>
+<p>此程序可以简单把python函数转化为API接口，供各种程序使用。</p>
+<p>可以做的示例可以手机控制电脑、手机通过电脑打印、手机控制ppt等。</p>
+<p>下载地址： <a class="inline-onebox" href="https://github.com/lilyhcn1/APIHub" rel="noopener nofollow ugc">GitHub - lilyhcn1/APIHub: APIHub is an innovative program designed to empower individuals with their own APIs.</a></p>
+<p>现在可以使用的方法：网址传参调用、网址在线使用、Excel本地调用、Excel通用接口调用接口、Runany调用等。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>教程</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>运行</h3>
+<ol>
+<li>双击运行 APIHub，过些就会出现网址。</li>
+<li>手机打开后点击即可实现各项功能。bilibili上的功能介绍<a class="inline-onebox" href="https://www.bilibili.com/video/BV1ab4y1G7Xm/" rel="noopener nofollow ugc">APIHub 手机控制电脑、手机通过电脑打印、手机控制ppt_哔哩哔哩_bilibili</a></li>
+</ol>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>修改菜单</h3>
+<p>点 修改网页，这里的表格启用了宏是xlsm格式，必须要用excel打开或WPS（要安装vba宏），部分电脑会报毒。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#bug-6" name="bug-6"></a>Bug及反馈</h2>
+<p>欢迎大家反馈意见及加入API的开发，因为开发比较简单，欢迎大家提交各种python的函数。</p>
+<p>暂时请大家发邮箱给我 <a href="mailto:53053067@qq.com">53053067@qq.com</a>.</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50435">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 16 Dec 2023 14:56:53 +0000</pubDate>
+<pubDate>Sat, 16 Dec 2023 14:56:53 +0000</pubDate>
+</item>
+
+<item>
 <title>B站有一些公开课或电台节目有cc字幕，有没有办法能让字幕独立于浏览器页面悬浮在屏幕上？</title>
 <link>https://meta.appinn.net/t/topic/50426</link>
 <guid>https://meta.appinn.net/t/topic/50426</guid>
 <content:encoded><![CDATA[
-
 <p>就像画中画一样，想后台播放</p>
             <p><small>1 个帖子 - 1 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/50426">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 16 Dec 2023 12:34:07 +0000</pubDate>
-<pubDate>Sat, 16 Dec 2023 12:34:07 +0000</pubDate>
 </item>
-
 <item>
 <title>分享一个修复chrome内置翻译功能的工具</title>
 <link>https://meta.appinn.net/t/topic/50411</link>
