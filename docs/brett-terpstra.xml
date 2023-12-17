@@ -4,6 +4,114 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Ruby Regexp::scan with MatchData</title>
+<link>https://brett.trpstra.net/link/535/16498512/ruby-regexp-scan-with-matchdata</link>
+<guid>https://brett.trpstra.net/link/535/16498512/ruby-regexp-scan-with-matchdata</guid>
+<content:encoded><![CDATA[
+<div> 关键词: Ruby, 字符串处理, 正则表达式, 匹配, 方法
+
+Ruby编程语言中有许多字符串处理方法，通过正则表达式进行匹配和扫描是常见的操作。作者在文章中分享了如何通过组合使用match_scan和matches方法，将正则表达式匹配的结果转换成包含各项值的哈希数组。这种方法可以方便地从字符串中提取想要的数据，极大地简化了字符串处理的复杂度。这对于正在学习Ruby脚本编写的初学者来说是非常有用的技巧。 <br><br>总结: Ruby编程中的字符串处理和正则表达式匹配可以通过match_scan和matches方法简化，让数据提取更加方便和灵活。 <div>
+<p>This post will only be of interest to people writing scripts in Ruby. Seriously, zero utility if you’re not using Ruby. Though I would be curious how you accomplish the same thing in other languages like Rust and Python, because I’ve never gotten too deep with string manipulation in anything other than Ruby, Swift, and Objective-C. If you care to leave a comment with pointers, I’m all ears.</p>
+
+<!--more-->
+
+<p>I do a lot of string manipulation in Ruby. One of the things that always gets me is that the <code class="language-plaintext highlighter-rouge">Regexp::match</code> method returns groups but only matches the first instance. To match all instances for enumeration, you have to use <code class="language-plaintext highlighter-rouge">Regexp::scan</code>. But <code class="language-plaintext highlighter-rouge">scan</code> doesn’t include groups (i.e. <code class="language-plaintext highlighter-rouge">MatchData</code>). So a while back I figured out the solution, and I thought I’d share it for any aspiring Ruby scripters.</p>
+
+<p>The trick is to map scan results and replace each result with <code class="language-plaintext highlighter-rouge">Regexp::last_match</code>, which includes groups (and named groups) from the last regex that was run. Thus:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="n">str</span><span class="p">.</span><span class="nf">to_enum</span><span class="p">(</span><span class="ss">:scan</span><span class="p">,</span> <span class="n">regex</span><span class="p">).</span><span class="nf">map</span> <span class="p">{</span> <span class="no">Regexp</span><span class="p">.</span><span class="nf">last_match</span> <span class="p">}</span></code></pre></div></div>
+
+<p>results in an array of <code class="language-plaintext highlighter-rouge">MatchData</code>. Then you can iterate through it and use indexes or group names to pull out particular groups of each match.</p>
+
+<p>I’ve combined this with a few other methods to create a general string handling routine that I use regularly.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="c1"># frozen_string_literal: true</span>
+
+<span class="c1"># String helpers</span>
+<span class="k">class</span> <span class="o">::</span><span class="no">String</span>
+  <span class="k">def</span> <span class="nf">match_scan</span><span class="p">(</span><span class="n">regex</span><span class="p">)</span>
+    <span class="n">to_enum</span><span class="p">(</span><span class="ss">:scan</span><span class="p">,</span> <span class="n">regex</span><span class="p">).</span><span class="nf">map</span> <span class="p">{</span> <span class="no">Regexp</span><span class="p">.</span><span class="nf">last_match</span> <span class="p">}</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">matches</span><span class="p">(</span><span class="n">regex</span><span class="p">)</span>
+    <span class="n">match_scan</span><span class="p">(</span><span class="n">regex</span><span class="p">).</span><span class="nf">match_to_h</span><span class="p">.</span><span class="nf">map</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:symbolize_keys</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># Array helpers</span>
+<span class="k">class</span> <span class="o">::</span><span class="no">Array</span>
+  <span class="k">def</span> <span class="nf">match_to_h</span>
+    <span class="n">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">m</span><span class="o">|</span> <span class="n">m</span><span class="p">.</span><span class="nf">named_captures</span><span class="p">.</span><span class="nf">each_with_object</span><span class="p">({})</span> <span class="p">{</span> <span class="o">|</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">),</span> <span class="n">h</span><span class="o">|</span> <span class="n">h</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="o">&amp;</span><span class="p">.</span><span class="nf">strip</span> <span class="p">}</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># Hash helpers</span>
+<span class="k">class</span> <span class="o">::</span><span class="no">Hash</span>
+  <span class="k">def</span> <span class="nf">symbolize_keys</span>
+    <span class="n">each_with_object</span><span class="p">({})</span> <span class="p">{</span> <span class="o">|</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">),</span> <span class="n">hsh</span><span class="o">|</span> <span class="n">hsh</span><span class="p">[</span><span class="n">k</span><span class="p">.</span><span class="nf">to_sym</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="p">.</span><span class="nf">is_a?</span><span class="p">(</span><span class="no">Hash</span><span class="p">)</span> <span class="p">?</span> <span class="n">v</span><span class="p">.</span><span class="nf">symbolize_keys</span> <span class="p">:</span> <span class="n">v</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div></div>
+
+<p>With the above methods available, you can do something like:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="n">str</span> <span class="o">=</span> <span class="o">&lt;&lt;~</span><span class="no">EOEMAILS</span><span class="sh">
+  Arthur P. Dent &lt;arthur@example.com&gt;
+  Ford Prefect &lt;perfect@example.com&gt;
+  Zaphod Beeblebrox &lt;zaph@example.com&gt;
+  Mrs. Alice Beeblebrox &lt;zaphsfav@example.com&gt;
+  Slartibartfast &lt;fjordmaster@example.com&gt;
+  Marvin the Paranoid Android &lt;planetbrain@example.com&gt;
+</span><span class="no">EOEMAILS</span>
+
+<span class="n">rx</span> <span class="o">=</span> <span class="sr">/(?&lt;prefix&gt;\S+\. )?(?&lt;first&gt;.*?)(?:( (?&lt;middle&gt;\w+\.?))*(?: (?&lt;last&gt;[\w-]+)))? &lt;(?&lt;email&gt;.*?)&gt;/i</span>
+
+<span class="n">pp</span> <span class="n">str</span><span class="p">.</span><span class="nf">matches</span><span class="p">(</span><span class="n">rx</span><span class="p">)</span></code></pre></div></div>
+
+<p>Running that results in:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="p">[{</span><span class="ss">:prefix</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:first</span><span class="o">=&gt;</span><span class="s2">"Arthur"</span><span class="p">,</span>
+  <span class="ss">:middle</span><span class="o">=&gt;</span><span class="s2">"P."</span><span class="p">,</span>
+  <span class="ss">:last</span><span class="o">=&gt;</span><span class="s2">"Dent"</span><span class="p">,</span>
+  <span class="ss">:email</span><span class="o">=&gt;</span><span class="s2">"arthur@example.com"</span><span class="p">},</span>
+ <span class="p">{</span><span class="ss">:prefix</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:first</span><span class="o">=&gt;</span><span class="s2">"Ford"</span><span class="p">,</span>
+  <span class="ss">:middle</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:last</span><span class="o">=&gt;</span><span class="s2">"Prefect"</span><span class="p">,</span>
+  <span class="ss">:email</span><span class="o">=&gt;</span><span class="s2">"perfect@example.com"</span><span class="p">},</span>
+ <span class="p">{</span><span class="ss">:prefix</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:first</span><span class="o">=&gt;</span><span class="s2">"Zaphod"</span><span class="p">,</span>
+  <span class="ss">:middle</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:last</span><span class="o">=&gt;</span><span class="s2">"Beeblebrox"</span><span class="p">,</span>
+  <span class="ss">:email</span><span class="o">=&gt;</span><span class="s2">"zaph@example.com"</span><span class="p">},</span>
+ <span class="p">{</span><span class="ss">:prefix</span><span class="o">=&gt;</span><span class="s2">"Mrs."</span><span class="p">,</span>
+  <span class="ss">:first</span><span class="o">=&gt;</span><span class="s2">"Alice"</span><span class="p">,</span>
+  <span class="ss">:middle</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:last</span><span class="o">=&gt;</span><span class="s2">"Beeblebrox"</span><span class="p">,</span>
+  <span class="ss">:email</span><span class="o">=&gt;</span><span class="s2">"zaphsfav@example.com"</span><span class="p">},</span>
+ <span class="p">{</span><span class="ss">:prefix</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:first</span><span class="o">=&gt;</span><span class="s2">"Slartibartfast"</span><span class="p">,</span>
+  <span class="ss">:middle</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:last</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:email</span><span class="o">=&gt;</span><span class="s2">"fjordmaster@example.com"</span><span class="p">},</span>
+ <span class="p">{</span><span class="ss">:prefix</span><span class="o">=&gt;</span><span class="kp">nil</span><span class="p">,</span>
+  <span class="ss">:first</span><span class="o">=&gt;</span><span class="s2">"Marvin"</span><span class="p">,</span>
+  <span class="ss">:middle</span><span class="o">=&gt;</span><span class="s2">"Paranoid"</span><span class="p">,</span>
+  <span class="ss">:last</span><span class="o">=&gt;</span><span class="s2">"Android"</span><span class="p">,</span>
+  <span class="ss">:email</span><span class="o">=&gt;</span><span class="s2">"planetbrain@example.com"</span><span class="p">}]</span></code></pre></div></div>
+
+<p>That’s a silly example, but hopefully you can see the utility of turning a regular expression into an array of hashes containing the individual values of each match extracted by scanning the string.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F17%2Fruby-regexp-scan-with-matchdata%2F&amp;text=Ruby+Regexp%3A%3Ascan+with+MatchData&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F17%2Fruby-regexp-scan-with-matchdata%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16498512.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-17T15:38:00-06:00</pubDate>
+<pubDate>2023-12-17T15:38:00-06:00</pubDate>
+</item>
 
 <item>
 <title>The SpamSieve giveaway winners!</title>
