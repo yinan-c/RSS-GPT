@@ -2618,3 +2618,9 @@ error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. Y
 Append: [人臉識別以外，調查記者還應用到哪些尖端科技呢？](https://cn.gijn.org/2023/10/23/%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab/zh-hant/)
 append_entries: 5
 Finish: 2023-12-17 01:19:04.784303
+------------------------------------------------------
+Started: 2023-12-17 02:30:26.868751
+Existing_entries: 21
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-12-17 02:30:27.365107
