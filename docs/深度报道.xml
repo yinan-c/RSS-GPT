@@ -4,6 +4,248 @@
 <title>全球深度報道網</title>
 <link>https://cn.gijn.org/</link>
 
+<item>
+<title>2023年 GIJN 精選10大調查工具</title>
+<link>https://cn.gijn.org/2023/12/14/top-10-investigative-tools-2023/zh-hant/</link>
+<guid>https://cn.gijn.org/2023/12/14/top-10-investigative-tools-2023/zh-hant/</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: right;"><a href="https://gijn.org/stories/top-10-investigative-tools-2023/"><strong>English</strong></a></p>
+<p><img alt="" class="aligncenter size-full wp-image-199316" height="600" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/12/Final-4-1-e1700673994430.png" width="771" /></p>
+<p>在2023年，堅毅、團隊合作、逐戶敲門這些老派方法，依然是世界各地調查報道項目的主要技巧，即便是<a href="https://www.nytimes.com/2022/12/22/video/russia-ukraine-bucha-massacre-takeaways.html">《紐約時報》就俄軍在烏克蘭小鎮布查（Bucha）涉嫌犯下戰爭罪行的高科技視像取證調查</a>過程也<a href="https://gijn.org/stories/how-old-school-field-reporting-powers-high-tech-visual-investigations/">依賴這些老派技術</a>——兩位年輕記者 <a href="https://twitter.com/YousurAlhlou">Yousur Al-Hlou</a> 和 <a href="https://twitter.com/MashaFroliak">Masha Froliak</a> 每家每戶敲門，查詢倖存者有沒有記錄和保存了去年3月俄軍對當地侵略行動的手機視頻。</p>
+<p>然而在許多情況之下，開源工具可以為進一步追查新聞事件提供了線索，而通過傳統新聞報道技巧取得的初步證據，也有賴開源工具來進一步驗證和分析。此外，一些易於使用的大型工具，包括免費的數字工具廣受歡迎，例如 Google 地球、<a href="https://aleph.occrp.org/">Aleph 數據庫</a>、<a href="https://gijn.org/stories/henk-van-ess-on-visual-thinking-for-online-investigations/">Boolean 搜索術語</a>等。在過去一年，我們也看到拉丁美洲和非洲的記者愈來愈多地使用 <a href="https://journaliststudio.google.com/pinpoint/collections">PinPoint</a> 等先進數據平台進行調查，例如 News24（南非的英語新聞網站）的<a href="https://specialprojects.news24.com/silenced/index.html">《Silenced》系列報道</a>——報道揭示了南非政府一位“吹哨人”如何因嘗試揭穿貪污腐敗醜聞而遭謀殺滅口。</p>
+<p>精通先進電腦技術的記者都會同意——2023年的網站挖掘資源有顯著的擴展，例如 <a href="https://www.farsightsecurity.com/tools/dnsdb-scout/">DNSDB Scout</a>、<a href="https://community.riskiq.com/">RiskIQ</a> 等可以將 IP 地址和網域雙向對應的“被動的 DNS 數據”歷史工具。</p>
+<p>不過，本篇文章要重點介紹的，是幾款幾乎任何記者都可以應用的工具。它們都是易於使用的數字解決方案，要麼是在今年發布的全新工具、要麼是在今年推出了新功能的舊工具，或者是在今年才被應用到調查報道的工具。</p>
+<p>在2023調查記者與編輯大會（NICAR23）、<a href="https://gijc2023.org/">第13屆全球深度報道大會（GIJC23）</a>等會議上取經，以及訪問無數的獲獎記者後，全球深度報道網（GIJN）為你介紹以下10款容易使用的調查工具和技術，或者你可以考慮在下一個調查項目中好好利用它們。</p>
+<h4>一、搜尋 LinkedIn 上潛在吹哨人的“空白鍵”</h4>
+<p>今年，線上調查專家 <a href="https://twitter.com/henkvaness">Henk van Ess</a> 為 GIJN 撰寫了包含7個章節的<a href="https://gijn.org/resource/online-research-guide-with-henk-van-ess/">《線上調查指南》</a>，其中詳細介紹了在主流社交平台上進行搜索的數十個進階提示和技巧。</p>
+<p>在這一大堆技巧當中，Henk van Ess 提出的<a href="https://gijn.org/resource/social-search-techniques-using-linkedin-from-henk-van-ess/"> LinkedIn“空白鍵”技巧</a>可能是所有記者在日常工作上最能受惠的，因為這個技巧非常簡單，而 LinkedIn 這個平台也愈來愈重要。原來，你只需要點擊 LinkedIn 的空白搜尋格，先敲一下“空白鍵”，然後按下“Enter 鍵”，即可繞過 LinkedIn 平台的算法來集中搜尋人物。根據以上操作，平台頁面會彈出一個“All filters”菜單，此時記者可以點擊彈出的“People”選項卡，並且應用其他篩選過濾選項，在無需被算法重新定向之下直接挖掘搜索目標人物。</p>
+<p>正如 Henk van Ess 在指南中提到，你也可以利用 LinkedIn 平台上的“Past Company（舊東家）”搜尋功能，尋找某家公司的前僱員。這些前僱員可能會願意談論和分享檔案文件，或者能為你引薦目前仍然在職的“吹哨人”。另外，Henk van Ess 建議記者好好利用 LinkedIn 的各種“Consulting（諮詢）”標籤來尋找相關領域的顧問。</p>
+<h4>二、用於 Telegram 調查的“超級工具” Telepathy</h4>
+<p>俄羅斯入侵烏克蘭以來，通信平台軟件 Telegram 同時在相關的公共討論和虛假信息傳播中發揮了關鍵作用，說明了這個平台對記者之重要性正在與日俱增。一款全新的、由新聞工作者開發的工具 <a href="https://www.prose.ltd/products">Telepathy</a> 迅速被譽為“<a href="https://os2int.com/toolbox/extracting-and-analysing-disinformation-data-from-telegram-with-telepathy/">Telegram 工具類別中的瑞士軍刀</a>”，因為它不僅可以展示多個 Telegram 頻道背後的關連，還有存檔整個聊天記錄、識別熱門發文用戶、收集頻道成員清單等多項功能。雖然一些虛假信息調查專家會說 Telepathy 是一款“用戶友好”工具，但<a href="https://github.com/proseltd/Telepathy-Community">安裝和運行它</a>確實要求有基本的開源電腦技能。另外，它有免費和收費兩個級別。</p>
+<p>在 GIJC23 上，虛假信息調查專家 Jane Lytvynenko 形容 Telepathy 是“一款建構在 Telegram 的 API 之上的超級工具，對於想要開始從事 Telegram 調查的記者來說是一款很好的工具”。她還建議記者使用 <a href="https://www.metadata2go.com/">metadata2go.com</a> 這一類網站，直接挖掘 Telegram 上的視頻和圖像。</p>
+<p>其他值得信賴的、免費的 Telegram 調查工具包括 <a href="https://tgstat.com/">Tgstat</a>，以及可以識別相關頻道的 Google 捷徑：“site:t.me/*”。</p>
+<h4>三、尋找電郵地址和手機號碼關連的工具 Osint.industries</h4>
+<p>被問到“你正在使用的、最熱門的挖掘工具”時，有組織犯罪與貪腐報道項目（OCCRP）的企業調查員 <a href="https://twitter.com/laradihmis">Lara Dihmis</a> 明確地回答：“<a href="https://osint.industries/">Osint.industries</a>。”這是一款尋人工具，更是那種用來尋搜互聯網上的自己時，搜索結果會讓你毛骨悚然的工具。你可以輸入一個電郵地址或電話號碼，找出與其有關連的許多網站，甚至該個用戶名稱背後的真實身份及其數字足跡。“假如你手上有一個電話號碼或電郵地址，能夠找到任何與它相關連的註冊賬戶，都會令人驚奇。”Lara Dihmis 說：“我會極力推薦這款工具，最棒的是它是免費的。”經過認證的記者可以通過 <a href="https://cn.gijn.org/feed/zh-hant/contact@osint.industries">contact@osint.industries</a>，要求獲得這款工具的額外存取權限。</p>
+<h4>四、Aleph 的相互參照功能</h4>
+<p>許多數據記者都知道，Aleph 是由 OCCRP 創建的一款龐大的金錢流向追蹤數據平台，也是一個泄密數據儲存庫。它包含了140多個國家的3.7億條公共記錄，包括銀行對賬單、制裁名單、法庭檔案、公司電子郵件等，還設有一個用於即時專案的協作平台，不少獨立媒體會利用它來挖掘故事線索和數據。</p>
+<p>現在，Aleph 更新了一個相互參照工具——你可以在 Aleph <a href="https://docs.aleph.occrp.org/users/search/datasets/">現存數以百計的數據集</a>中，搜尋你感到興趣的名稱或公司。你只需要單擊一下，然後等待平台花一分鐘的時間進行計算，就可以找到跟你的目標主題相關的、出乎你意料之外的隱藏聯繫。要讓搜尋過程得以正常運作，你在上載數據之前的確要整理好特定的格式。不過，OCCRP 最近發布了一份<a href="https://docs.aleph.occrp.org/users/investigations/cross-referencing/">逐項檢查表格</a>，幫助用戶使用這款工具。此外，OCCRP 還發布了一份詳細的<a href="https://docs.aleph.occrp.org/users/search/datasets/">入門應用指南</a>，解釋如何在數據集中進行搜尋。</p>
+<h4>五、Bellingcat 的視頻證據自動歸檔工具</h4>
+<p>公共新聞事件發生後，要迅速地從眾多的社交平台下載相關的視頻片段，可以是一件複雜、耗時和麻煩的事情。一些下載選項要求具備編碼技能，也有一些帖文因為早已被發帖用戶或平台移除，而令重新找出帖文並下載視頻的時間變得十分長。為了解決這些問題，Bellingcat 的技術團隊創建了一個<a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">自動歸檔系統</a>，能讓用戶在數秒之間完成上述工作過程——你只需要複製帖文的 URL，將它貼到專用的 Google 表格中，然後⋯⋯就是這樣！工具會自動就每個 URL 選擇最理想的下載和存檔策略，並且自行在背景執行下載，不妨礙你繼續搜尋其他證據。此外，這款工具還使用了 <a href="https://archive.org/web/">Wayback Machine</a> 作為備份。</p>
+<p>Bellingcat 的調查技術團隊負責人 Johanna Wild 表示：“我們在有關烏克蘭的調查工作使用了它。你只需要複製粘貼來自 Telegram、TikTok、Twitter 等平台的視頻和帖子的鏈接，將它們投進工作表格中，將能將它們存檔。”應用這款工具，只需要在設定階段具備一點電腦科學技能。記者（或者他們的 IT 部門同事）可以遵循<a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">這個網頁</a>底部的幾個<a href="https://github.com/bellingcat/auto-archiver/">教學步驟</a>，或者觀看這段<a href="https://www.youtube.com/watch?v=VfAhcuV2tLQ">教學視頻</a>，來為這一款工具進行設定。</p>
+<h4>六、藉助 Google 點評來追蹤不良行為者的工具 Epieos</h4>
+<p><img alt="" class="alignright wp-image-199317 size-medium" height="134" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/12/Epieos-tool-336x134.png" width="336" /></p>
+<p>貼合人性的工具始終是 GIJN 最喜歡的類別，其中 <a href="https://gijn.org/resource/elections-guide-for-investigative-reporters-chapter-1-new-election-digging-tools/">Craig Silverman 的“Pub/UA”技巧</a>就是一個很好的例子，它可以為你找出網站的幕後擁有者——你只需要在任何網站上右鍵點擊一下，然後在 Control-F 字段中輸入“pub”，便可以查看 Google 源代碼中的 Adsense 識別碼，了解從這個網站獲取廣告收益的是誰。這個方法之所以有效，是因為許多隱瞞其不良網站擁有權的人，都無法抗拒收取網站廣告費，即便那隻小微薄的收入。</p>
+<p>同樣地，事實證明許多受制裁的個人、寡頭和其他不良行為者雖然一方面在掩藏他們的惡行，一方面卻無法控制自己，非要在 Google 上發表他們在個人生活上對企業和餐廳的負評。因應他們的這種習慣，一款名為 <a href="https://epieos.com/">Epieos</a> 的新型反向電郵搜尋工具，以類似 Google 地圖的呈現方式，提供某個用戶的服務評論歷史記錄，例如顯示他們曾經評論過某家餐廳的地點和時間。這款工具的創始人 Sylvain Hajri 告訴 GIJN，這款搜索引擎對調查記者來說特別有吸引力，因為它永遠不會驚動被調查的用戶，而且工具刻意不會保留記者的搜尋記錄。不過，你確實需要調查對象的電郵地址來進行搜索，但你可以使用 <a href="https://hunter.io/">Hunter.io</a> 工具來“猜”一下這些電郵地址。</p>
+<h4>七、追蹤走私路線的實惠 GPS 設備</h4>
+<p>一些新推出的 GPS 追蹤設備既可靠、輕巧也廉價，它們令調查記者感到興奮，同時陷入道德考慮。不過，這些設備的確已經成為揭示有組織犯罪分子走私貨物和違禁品的活動和路線的有用工具。今年，瑞典頂尖調查節目《<a href="https://www.svtplay.se/uppdrag-granskning">Mission Investigate</a>》揭露了警方怠於關注的一種犯罪模式——<a href="https://vimeo.com/565763401">節目發現有捐贈衣物和玩具經常從慈善箱中被盜</a>，經調查發現了一批價值數百萬歐元的捐贈物品的下落。調查團隊將<a href="https://yepzon.com/">追蹤設備 Yepzon</a> 縫進衣物，並將衣物捐贈出去，進而通過手機應用程序，追蹤到這批物品被運到了東歐。</p>
+<p>據《Mission Investigate》記者在 GIJC23 研討會上介紹，應用這些追蹤設備時最需要注意的技巧，是了解設備的電池壽命，並基於電池特性設定你想達到的目標。如果你只想要追蹤最終的目的地，那麼你就應該啟用設備的“休眠”模式，或者使用應用程序上的“歷史視圖”功能來查看追蹤設備的過去運動摘要。</p>
+<h4>八、目標成為“萬能的 CrowdTangle”的工具 Junkipedia</h4>
+<p><a href="https://www.junkipedia.org/">Junkipedia</a> 最初是為監控虛假信息和“垃圾新聞”而設計的，但這款工具在迅速擴展功能之下，現已成為全球通用的社交媒體分析和挖掘引擎。除了一個有問題的社媒內容共享數據庫，Junkipedia 現在還容許用戶<a href="https://gijn.org/stories/new-tools-monitoring-social-media-junkipedia/">就12個社交媒體平台追蹤並建立賬戶列表</a>，包括 TikTok、Facebook、Telegram 等主流平台，以至 GETTR、Gab 等邊緣網站。不過，Junkipedia 不像 CrowdTangle 那樣擁有最全面的數據集，也無法存取 Facebook 的每一個公開頁面，更無法對 LinkedIn 進行挖掘。然而，Junkipedia 是由<a href="https://ati.io/">“算法透明度研究所”（ATI）</a>專門為記者開發的，也確實有記者參與開發過程，其不斷擴充的功能都以調查新聞故事為目的，值得記者關注和探索。例如，很少有媒體有閑暇和“胃口”收聽數十個小時的極右翼播客內容，Junkipedia 的英語播客自動轉錄功能正好派上用場，你還可以在其中搜尋一些常用術語。你可以使用所屬機構的電郵地址，在<a href="https://www.junkipedia.org/apply">此處</a>登記申請這款工具。</p>
+<h4>九、用於林木砍伐調查的“全球森林觀察”和 MapBiomas Alert 數據庫</h4>
+<p><img alt="" class="alignright size-medium wp-image-199318" height="224" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/12/Global-Forest-Watch-336x224.png" width="336" /></p>
+<p><a href="https://www.globalforestwatch.org/">“全球森林觀察”（Global Forest Watch）</a>在過去九年持續發展，但最近有愈來愈多跑環境新聞條線以外的調查記者加入使用這款工具，並且將它轉變成為一個開源平台，用於近乎實時地跟蹤全球森林面貌的變化，以及識別跟森林變化模式有關連的不當行為。現在，“全球森林觀察”有一個<a href="https://data.globalforestwatch.org/">開源數據入口</a>，以及一個免費的 <a href="https://mapbuilder.wri.org/">MapBuilder</a> 工具，讓媒體可以將自家掌握的資料跟網站上可用的大量土地應用數據集整合在一起。</p>
+<p>與此同時，自由調查記者 <a href="https://twitter.com/nandawenzel">Fernanda Wenzel</a> 在2023年使用了一款名為 MapBiomas Alert 的強大衛星工具，揭露了亞馬遜地區隱蔽的土地掠奪行為。她為《The Intercept Brasil》撰寫的新聞故事<a href="https://www.youtube.com/watch?v=1nJykjM5hcI">《Ladrões de Floresta（森林竊賊）》</a>描述了土地掠奪者如何利用官僚體制的漏洞，掠奪面積相當於一個西班牙的“未指定的公共森林”。這個數據庫還提供一個森林砍伐警報和座標，記者可以跟土地擁有權登記處的公開資料作相互參照，或者跟 <a href="https://ecocrime.igarape.org.br/">EcoCrime Data</a> 工具交叉應用，後者包含與畜牧場、非法採礦等相關的各種數據。</p>
+<h4>十、DocumentCloud 不斷擴充的新功能</h4>
+<p>第一手信源文件管理平台 <a href="https://www.documentcloud.org/home">DocumentCloud</a> 最近為數據記者添加了一系列不錯的新功能。</p>
+<p>在 NICAR23 上，<a href="https://www.muckrock.com/">MuckRock 基金會</a>的開源數據學者 Sanjin Ibrahimovic 提到，DocumentCloud 社群（用戶、研究員、記者等）在核心功能的基礎上創建了<a href="https://www.muckrock.com/news/archives/2023/jan/31/release-notes-note-searching-ocr-improvements-new-add-ons-and-other-documentcloud-improvements/">附加元件</a>，以解決他們在處理實際專案時遇到的問題。更好的是，正如 Sanjin Ibrahimovic 所說：“（DocumentCloud 的）開發意念，是規模較小的媒體也可以使用它，而不需要程式設計技能。”</p>
+<p>新增附加元件包括：</p>
+<ul>
+<li>自動搜尋和突出顯示分散在龐大數據集中的個人可識別資訊（PII）的功能。這些資訊可能是你的新聞故事的線索，也可能是你想要排除的無用信息，包括電子郵箱地址、社會安全號碼、郵政編碼、信用卡號、地址等。</li>
+<li><a href="https://github.com/sooryu22/documentcloud-bad-redactions-addon">Bad Redactions</a>。這個附加功能可以在兩個關鍵方面為記者提供幫助。它可以自動分析經過編輯的內容段落，並將分析結果顯示在一個電子錶單上，讓你可以揭示某個機構想要隱藏的內容。另外，它也為你提供選項，讓你手動完成編輯工作。</li>
+</ul>
+<p>登入 DocumentCloud 需要先<a href="https://accounts.muckrock.com/accounts/signup/?intent=documentcloud&amp;next=https%3A%2F%2Fwww.documentcloud.org%2Fhome">創建一個賬戶</a>（最好是使用你所屬機構的電子郵箱地址），然後通過快速驗證步驟。若要存取其不斷擴充的新功能庫，你只需要點擊一下“附加元件”，然後按一下“瀏覽所有附加元件”。</p>
+<hr />
+<p><img alt="Rowan Philp, senior reporter, GIJN" class=" wp-image-606617 alignleft" height="95" src="https://gijn.org/wp-content/uploads/2020/05/Rowan-e1671730376423-336x348.png" width="92" /></a></p>
+<p><a href="https://gijn.org/about/staff-member/rowan-philp/"><b><i>Rowan Philp</i></b></a> <i>是全球深度報道網的資深記者，他也是南非媒體 Sunday Times 的前首席記者。作為一名駐外記者，他曾在全球20多個國家報道新聞、政治、腐敗和衝突。</i></p>
+<p>The post <a href="https://cn.gijn.org/2023/12/14/top-10-investigative-tools-2023/zh-hant/">2023年 GIJN 精選10大調查工具</a> appeared first on <a href="https://cn.gijn.org/zh-hant/">全球深度報道網</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 13 Dec 2023 22:40:43 +0000</pubDate>
+<pubDate>Wed, 13 Dec 2023 22:40:43 +0000</pubDate>
+</item>
+<item>
+<title>廢料、欺詐和濫權：如何調查環境犯罪？</title>
+<link>https://cn.gijn.org/2023/11/21/%e5%a6%82%e4%bd%95%e8%b0%83%e6%9f%a5%e7%8e%af%e5%a2%83%e7%8a%af%e7%bd%aa/zh-hant/</link>
+<guid>https://cn.gijn.org/2023/11/21/%e5%a6%82%e4%bd%95%e8%b0%83%e6%9f%a5%e7%8e%af%e5%a2%83%e7%8a%af%e7%bd%aa/zh-hant/</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: right;"><strong><a href="https://gijn.org/stories/covering-environmental-crime-beat/" rel="noopener" target="_blank">English</a></strong></p>
+<div class="wp-caption module image aligncenter" id="attachment_197842"><img alt="" class="wp-image-197842 size-full" height="1024" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/11/DSC_0016-Ellen-Lindqvist-Karsberg-1-1536x1024-1.jpg" width="1536" /><p class="wp-caption-text">普利策中心非洲議題編輯 Madeleine Ngeunga。圖：Ellen Lindqvist Karsberg, GIJN</p></div>
+<p>環境犯罪（Environmental crime）為犯罪份子創造<a href="https://www.unep.org/news-and-stories/speech/environmental-crime-and-sdgs">數十億美元的年收入</a>，同時對社群和生態系統造成負面影響，其中一些損害更加是不可逆轉的。聯合國環境署（UNEP）的數據顯示，侵害環境是<a href="https://www.un.org/en/chronicle/article/putting-stop-global-environmental-crime-has-become-imperative">全球第四大最有利可圖的有組織犯罪形式</a>。</p>
+<p>在瑞典哥特堡舉行的<a href="https://gijc2023.org/">第13屆全球深報報道大會 #GIJC23</a> 的一場研討會上，InfoCongo 編輯兼普利策中心非洲議題編輯 <a href="https://twitter.com/NgeungaM">Madeleine Ngeunga</a>、The Public Source 創始編輯 <a href="https://twitter.com/LaraJBitar">Lara Bitar</a> 與有組織犯罪和腐敗報道項目（OCCRP）環境編輯 <a href="https://twitter.com/CaroHenshaw">Caroline Henshaw</a> 分享了他們有關環境犯罪的報道和建議。</p>
+<p>研討會由 OCCRP 資深研究員 <a href="https://www.linkedin.com/in/khadija-sharife-33398b27/?originalSubdomain=za">Khadija Sharife</a> 主持。在開場白中，他談到了環保議題之重要：“報道生態議題的記者，不僅是在談論某一個國家正在發生的腐敗問題，同時也在談論生活本身。”</p>
+<h4>黎巴嫩的警世故事</h4>
+<p>Lara Bitar 向與會者介紹了 The Public Source（全球深度報道網的成員媒體）如何處理黎巴嫩的環境犯罪調查項目，包括<a href="https://thepublicsource.org/toxic-barrels-beirut-port-lebanon">深入調查該國公共垃圾危機期間的垃圾堆填區</a>。利用黎巴嫩最近通過的資訊獲取法例，The Public Source 取得了一批政府文件，發現有承包商在環境影響評估工作完成之前已經動工建造堆填區，違反了相關法規。</p>
+<p>The Public Source 還揭露了在黎巴嫩爆發內戰期間，<a href="https://thepublicsource.org/ecological-time-bombs-beirut-port">來自意大利的合共2400噸工業有毒廢料儲存桶如何被棄置於黎巴嫩首都貝魯特的港口</a>。Lara Bitar 表示，這批有毒廢料桶預示了2020年8月發生的“<a href="https://www.theguardian.com/world/2023/aug/03/port-of-beirut-explosion-aftermath-scars-on-already-broken-lebanon">貝魯特港口大爆炸</a>”。當日的爆炸對整個城市造成了廣泛的破壞，導致逾200人死亡、數千人受傷。</p>
+<p>兩起事件有一些相似之處——被棄置的危險貨物製造了“生態定時炸彈”。這兩起環境悲劇都凸顯了責任問題。</p>
+<h4>保加利亞的碳排市場詐騙案</h4>
+<p>各方忙於應對氣候變化之際，有組織犯罪份子會趁機作出猖獗的欺詐行為。Caroline Henshaw 和她的 OCCRP 團隊調查了保加利亞的兩座發電站，發現兩座發電站都跟一位神秘大亨有關，並且<a href="https://www.occrp.org/en/investigations/bulgarian-coal-magnates-plants-may-have-saved-around-30m-euros-by-under-declaring-emissions">涉嫌向歐盟排放交易體系（EU ETS；是全球首個，也是最大的排放權交易體系）瞞報二氧化碳排放量</a>。</p>
+<p>“了解它（碳排放市場體系）是如何運作的，並且了解當中有多麼容易作出欺詐行為，真的非常重要。”Caroline Henshaw 在研討會上，提到了調查碳排放市場的一些重點。調查團隊發現，兩座發電站根本沒有聘請排放核查員，反而聘任了一家創始人只有27歲的、根本沒有相關行業經驗的初創公司，並且<a href="https://www.occrp.org/en/investigations/bulgarian-coal-magnates-plants-may-have-saved-around-30m-euros-by-under-declaring-emissions">涉嫌通過瞞報排放量，逃稅約3000萬歐元</a>。</p>
+<p>“有官員承認這明顯是一場欺詐騙局，但這種情況已被容許持續多年。”OCCRP 發表調查結果後，歐盟檢察官就事件涉及的欺詐行為展開了調查，<a href="https://www.occrp.org/en/daily/17374-eu-prosecutor-probes-greenhouse-gas-emissions-fraud-in-bulgaria">超過150名警員在保加利亞的十數個城市發起了40次搜查行動</a>。</p>
+<p>不過，對於許多其他形式的環境損害，肇事者通常不會面臨任何法律後果。“制定規則的人早就保證了，一旦有任何事情發生，也只會罰款了事。”Khadija Sharife 表示：“犯下生態滅絕罪行，只會面臨商業成本。”</p>
+<div class="wp-caption module image aligncenter" id="attachment_197843"><img alt="" class="wp-image-197843 size-full" height="514" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/11/DSC_0028-Ellen-Lindqvist-Karsberg_Edit-1536x1024-1-1170x780.jpg" width="771" /><p class="wp-caption-text">有組織犯罪和腐敗報道項目（OCCRP）環境編輯 Caroline Henshaw（右）。圖：Ellen Lindqvist Karsberg, GIJN</p></div>
+<h4>安全第一</h4>
+<p>研討會講者們一致認為，調查和採訪環境犯罪可以是一個危險的新聞條線，記者應該將安全置於首位。“在強大的政客和有組織犯罪份子有行動相交之處，正是最危險之處。”Caroline Henshaw 續道：“調查環境議題時，你會經常看到這種情況——他們擁有巨大的既得利益，同時在背後擁有很大的權力。”</p>
+<p>Madeleine Ngeunga 是來自喀麥隆的數據和調查記者，曾經參與有關<a href="https://infocongo.org/en/an-opaque-agro-industry-razes-cameroons-forests-with-impunity/">森林砍伐</a>、<a href="https://infocongo.org/en/in-the-congo-rainforest-gold-mining-is-killing-forests-and-communities/">非法採礦</a>、<a href="https://infocongo.org/en/how-rosewood-is-stolen-in-cameroon-laundered-in-nigeria-and-exported-to-china/">紅木走私</a>等的調查報道項目。此外，她為普利策中心工作，支援撒哈拉以南非洲調查記者有關雨林生態的報道。她表示，任何調查報道項目都必須將安全納入考慮。“我們制定了安全守則，並且儘力落實它。我們嘗試在每一項調查正式展開之前，都強調一遍安全守則。”</p>
+<p>在研討會後的採訪中，Madeleine Ngeunga 補充指，記者從事有安全風險的項目時，可以採取一些簡單的步驟，包括使用 Signal 等加密通信軟件、在採訪行程中每晚更換酒店等。（編註：Madeleine Ngeunga 參與撰寫了<a href="https://gijn.org/resource/guide-to-investigating-organized-crime-africa/"> GIJN 的《非洲有組織犯罪調查指南》</a>，詳盡介紹了更多相關工具和策略。）</p>
+<p>此外，研討會講者也分享了調查環境犯罪時應該注意的小貼士，以及一些實用的資源和工具：</p>
+<h5>報道小貼士</h5>
+<ul>
+<li>釐清公職人員是否有以某種形式參與或串謀環境犯罪；</li>
+<li>提出疑問——誰是造成這個問題持續存在的主要推手？然後，報道這個系統的根源；</li>
+<li>包容和放大那些受到環境犯罪及生態滅絕直接影響的社群成員的聲音。環境犯罪如何影響社群的福祉、安全、生活和財產？</li>
+<li>可以的話，無人機是強大的調查報道工具。</li>
+</ul>
+<h5>有用的資源和工具</h5>
+<ul>
+<li><a href="https://opentimberportal.org/observations">Open Timber Portal</a> 有按國家區分的特定資訊，包括森林管理和砍伐，適用於非洲中部；</li>
+<li><a href="https://www.globalforestwatch.org/">Global Forest Watch</a> 可以讓用戶對森林監測數據可視化並加以分析。這個平台還有一個開源數據門戶，包含了土地利用、森林變化、保育工作等資訊數據；</li>
+<li><a href="https://globalfishingwatch.org/map/index?latitude=19&amp;longitude=26&amp;zoom=1.5&amp;start=2023-08-16T00%3A00%3A00.000Z&amp;end=2023-11-16T00%3A00%3A00.000Z">Global Fishing Watch</a> 擁有地圖和數據，可以追蹤商業漁船的活動；</li>
+<li>記者調查非法、未申報和不受管制的捕撈活動時，可以參考<a href="https://www.iuufishingindex.net/"> IUU 的捕撈指數</a>。該指數對各國應對非法捕撈的脆弱性、普遍性和反應措施進行了評級；</li>
+<li><a href="https://ecocrime.igarape.org.br/">EcoCrime Data</a> 容許用戶以分層地圖來查看亞馬遜森林流域的各種環境威脅，還包括環境守護、畜牧業、大豆設施、針對個別物種的暴力致死、非法採礦等的信息。</li>
+</ul>
+<p>The post <a href="https://cn.gijn.org/2023/11/21/%e5%a6%82%e4%bd%95%e8%b0%83%e6%9f%a5%e7%8e%af%e5%a2%83%e7%8a%af%e7%bd%aa/zh-hant/">廢料、欺詐和濫權：如何調查環境犯罪？</a> appeared first on <a href="https://cn.gijn.org/zh-hant/">全球深度報道網</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 21 Nov 2023 06:44:16 +0000</pubDate>
+<pubDate>Tue, 21 Nov 2023 06:44:16 +0000</pubDate>
+</item>
+<item>
+<title>成為頂尖調查報道編輯的8個技巧</title>
+<link>https://cn.gijn.org/2023/11/10/%e6%88%90%e4%b8%ba%e9%a1%b6%e5%b0%96%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93%e7%bc%96%e8%be%91%e7%9a%848%e4%b8%aa%e6%8a%80%e5%b7%a7/zh-hant/</link>
+<guid>https://cn.gijn.org/2023/11/10/%e6%88%90%e4%b8%ba%e9%a1%b6%e5%b0%96%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93%e7%bc%96%e8%be%91%e7%9a%848%e4%b8%aa%e6%8a%80%e5%b7%a7/zh-hant/</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: right;"><a href="https://gijn.org/stories/8-tips-for-investigative-editing/"><strong>English</strong></a></p>
+<p><img alt="" class="aligncenter size-full wp-image-199381" height="530" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/11/IMG_3436-Wolf-France-scaled-e1698933414199-1536x1057-1-1170x805.jpg" width="771" /></p>
+<p>“每個人都需要一個編輯。” 這是資深美聯社調查編輯 <a href="https://www.linkedin.com/in/ron-nixon-02365610/">Ron Nixon</a> 在第13屆全球深度報道大會（#GIJC23）編輯調查報告的環節中，呼籲聽眾記住的口號。為什麼呢？正如小組成員所解釋的，優秀的調查編輯能夠讓報道更加有力，保護並激勵記者，讓調查工作更高效。</p>
+<p class="p1">“成為一名優秀調查者並不一定意味着你也是一個好的調查編輯，”<a href="https://www.occrp.org/en">有組織犯罪和腐敗報告項目（OCCRP）</a>的出版者及共同創始人 <a href="https://twitter.com/DrewOCCRP">Drew Sullivan</a> 說。對 Sullivan 來說，調查編輯與調查記者的區別既在於編輯負責的任務，也在於他們對工作的態度。調查編輯的工作是讓記者成功，指導他們而不是做他們的老闆，如果出現任何問題，編輯都要承擔責任。</p>
+<p>Sullivan 認為，調查編輯不能有自我中心的思想：“你必須學會將所有的讚揚讓給他人。”</p>
+<p>從開始構思故事到完成發表，以下是一系列第一手的建議，以指導你如何成為一位卓越的調查編輯。這些建議來自多位資深人士，包括有組織犯罪和腐敗報導項目（OCCRP）的 Sullivan、現任美聯社新聞副總裁兼負責調查、企業、合作夥伴關係和贈款的 Nixon；墨西哥非盈利組織“第五元素實驗室”（Quinto Elemento Lab）的編輯和聯合創辦人 <a href="https://twitter.com/xanic">Alejandra Xanic</a>，該組織在墨西哥、薩爾瓦多和巴西發表多篇調查報道，並培養新的調查編輯；以及印度《大篷車》雜誌（The Caravan）前編輯 <a href="https://twitter.com/vinodjose">Vinod K. Jose</a>。</p>
+<p><b>1. 確定故事角度</b></p>
+<p>“當你在跨文化和合作項目中工作時，對於一個好故事的理解往往大相徑庭，” Sullivan 說。他認為，一個優秀的調查故事應該是有焦點的、可行的、重要的、對讀者具有吸引力的、具有可能的影響力的，而且成本不應過高。</p>
+<p>美聯社的 Nixon 說，在調查開始的時候他會進行概念性編輯，並會坐下來要求記者給他講述這個故事。“人們開始列舉一堆事實；我不需要事實列表，我需要一個故事，”他說。“這有助於你規劃未來的方向。他們可能手頭有許多事實，但如何將它們提煉成一個扣人心弦的故事，則取決於你作為編輯的能力。”</p>
+<p><b>2. 制定詳盡的調查計劃<br />
+</b></p>
+<p>Sullivan 指出，在確認能夠夠得到故事所需的關鍵信息之前，不應該繼續進行調查。“迫使記者證明他們已經獲得了構成一個故事的最基本信息，而在這個階段不去做其他事情。”他說，作為編輯要不斷地提出這個問題，並阻止記者在確定關鍵信息之前就急於開始處理涉及到角色定位和採訪等的後續任務。</p>
+<p>“你如何證實那個關鍵信息，將決定你能夠在故事中表達什麼，以及如何表達。”他說。</p>
+<p><b>3. 保持故事聚焦於關鍵點</b></p>
+<p>要求記者明晰他們故事的核心要點，這對幫助他們集中精力至關重要。Xanic 建議記者們將核心要點記下來，並將其貼在桌面上，作為故事焦點的物理提醒。同時，也意識到隨着故事的推進，這個焦點是可能發生變化的。</p>
+<p>沙利文表示，頻繁且深入地與記者溝通能夠幫助他們澄清調查的中心思想和過程：“記者是通過對話進行思考的。你[作為編輯]的存在是為了傾聽……是為了激發他們——這是他們理解並把握自己故事的過程。”</p>
+<p><b>4. 組織性</b></p>
+<p>記者們往往會忽視一個對調查編輯來說非常重要的“無趣但卻至關重要”的方面：組織性。Xanic 指出。她認為，確保記者們搜集材料的同時保持有序，並且與編輯分享這些資料非常關鍵。這樣一來，編輯才能“掌握足夠的細節去提出富有洞見的問題，並且能夠指出記者的盲點。”</p>
+<p></p>
+<p><b>5. 建立動態文檔</b></p>
+<p class="p1">哈尼克建議編輯創建一系列的動態文檔來幫助工作。其中應包含一份調查時間線——記錄事件發生和查詢的順序，同時作為一個索引，鏈接到所有其他文件和材料。</p>
+<p class="p1">除了記錄調查中的證據或數字文件和所有的信息自由請求文件外，編輯還應鼓勵記者撰寫筆記，總結他們從採訪中學到的內容以及報道過程中的重要進展。這其中應當包括出現的新問題，幫助編輯緊跟記者和故事的脈絡，並提出問題或提出報道建議。</p>
+<p class="p1">Nixon 也贊同這種方式，他強調記者需要為所有收集到的文件和採訪做好標記：編輯在調整最終的調查報告時，能清晰了解所有的引用和陳述。</p>
+<p class="p1">Xanic 則強調，要保持與記者的對話記錄井然有序。他表示，“編輯可能會記得一些記者已經忘記的事情。” 他補充道，編輯還需要負責制定和更新調查的時間表和預算。</p>
+<p><b>6. 逐行編輯</b></p>
+<p class="p1">無論對於文字報道還是視頻內容，逐行或逐幀的編輯都是調查報道所必需的細緻工作。“你需要對每個事實都持懷疑態度，” Nixon 說。“通常能讓你栽跟頭的，不是那些大問題，而是那些看似不起眼的小細節。”</p>
+<p class="p1">他指出，這個過程可能非常耗時，但這比修正錯誤或者處理法律訴訟要強得多。記者可以通過記錄並為故事中提及的所有說法和事實提供證據，來加快這個過程。</p>
+<p><b>7. 知道何時喊停</b></p>
+<p class="p1">記者可能會在一個問題上投入大量時間進行深入調查——編輯的職責就是避免他們浪費時間。Sullivan 表示，如果一個故事行不通，編輯需要有魄力終止調查：“你得做房間里的成年人……非常關鍵的一點是，不應該在無謂的事情上持續投入，必須能夠果斷地停止一個故事。”</p>
+<p><b>8. 保護你的記者</b></p>
+<p class="p1">記者在調查期間的安全，由編輯負責確保。他們需要識別潛在的危險、工作的倦怠以及其他問題。</p>
+<p class="p1">“記者們常常因為懼怕而忽視安全，寧願避免直面這個問題。因此，你必須替他們面對，”Sullivan 說。編輯需制定記者開展報道或接觸消息源的具體方案，並不斷提出問題，以評估風險和他們在調查中可能面臨的任何危險。</p>
+<p class="p1">Sullivan 還強調，編輯要“擔起責任”，保護記者不受法律威脅或編輯部高層的壓力影響：“確保記者的安全，讓他們能全心投入於必須完成的工作。”</p>
+<hr />
+<p><img alt="" class="alignleft wp-image-314184 size-thumbnail" height="140" src="https://gijn.org/wp-content/uploads/2021/03/LauraOliverPic-140x140.png" width="140" /></a><em><strong><a href="https://www.linkedin.com/in/lauraoliveruk?originalSubdomain=uk">Laura Oliver</a></strong> 是一位常駐英國的自由記者。她為《衛報》、BBC、歐洲新聞和其他媒體撰稿。她是湯姆森基金會和湯姆森路透基金會的常規新聞培訓師，並擔任新聞室的受眾策略顧問。您可以在<a href="https://lauraoliverfreelance.com/">這裡</a>找到她的作品。</em></p>
+<p>The post <a href="https://cn.gijn.org/2023/11/10/%e6%88%90%e4%b8%ba%e9%a1%b6%e5%b0%96%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93%e7%bc%96%e8%be%91%e7%9a%848%e4%b8%aa%e6%8a%80%e5%b7%a7/zh-hant/">成為頂尖調查報道編輯的8個技巧</a> appeared first on <a href="https://cn.gijn.org/zh-hant/">全球深度報道網</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 09 Nov 2023 21:29:32 +0000</pubDate>
+<pubDate>Thu, 09 Nov 2023 21:29:32 +0000</pubDate>
+</item>
+<item>
+<title>重寫歷史：如何調查年代久遠的新聞事件？</title>
+<link>https://cn.gijn.org/2023/11/01/%e5%8e%86%e5%8f%b2%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93/zh-hant/</link>
+<guid>https://cn.gijn.org/2023/11/01/%e5%8e%86%e5%8f%b2%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93/zh-hant/</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: right;"><strong><a href="https://gijn.org/historical-archive-investigations/" rel="noopener" target="_blank">English</a></strong></p>
+<div class="wp-caption module image aligncenter" id="attachment_196037"><img alt="" class="wp-image-196037 size-full" height="1024" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/10/MG_9406-1536x1024-1.jpg" width="1536" /><p class="wp-caption-text">《尼泊爾時報》出版人 Kunda Dixit 分享了他關於尼泊爾內戰的攝影集。圖：Heino Ollin, GIJN</p></div>
+<p>有時候，人們會把新聞定義為“匆忙地記錄下來的歷史”。《華盛頓郵報》前主席兼出版人格雷厄姆（Philip L. Graham）也曾經形容新聞報道是“歷史的第一份草稿”。</p>
+<p>歷史學家會利用檔案文件（包括舊報紙）來了解幾年、幾十年，甚至幾個世紀之前發生的事情。不過，情況有時恰好相反——記者才是挖掘在過去發生的、從未披露的事實、事件、檔案或證詞的人。被挖掘的這些舊事有時候極具分量，足以“重寫歷史”，或至少改變我們對某個事件或人物的了解及看法。</p>
+<p>在<a href="https://gijc2023.org/">第13屆全球深度報道大會 #GIJC23</a> 的一場研討會上，三位記者分享了他們調查歷史事件的經驗——西班牙《國家報》（El País）調查主編<a href="https://tcij.org/person/jose-maria-irujo/"> José María Irujo</a> 曾經追查“佛朗哥時期”恐怖分子從西班牙前往拉丁美洲的蹤跡，<a href="https://gijn.org/tracking-far-right-fugitives-investigation/">揭露了一段令人震驚的、許多西班牙人不願再記起的歷史</a>；《紐約時報》記者 <a href="https://twitter.com/porterthereport?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Catherine Porter</a> 和她的團隊調查了一段令人不安的歷史，<a href="https://www.nytimes.com/spotlight/haiti">了解法國如何迫使海地承擔巨額賠償</a>，後者至今仍然是西半球最貧困的國家之一；《尼泊爾時報》出版人<a href="https://twitter.com/kundadixit?lang=en"> Kunda Dixit</a> 則以其三部曲攝影集，揭示了尼泊爾血腥內戰的情況，以及該國各地人民對這場戰爭的反應。</p>
+<h4>追隨你的直覺</h4>
+<p>時間回到2013年，當 José María Irujo 和調查記者同事 <a href="https://twitter.com/joaquingilr?lang=en">Joaquín Gil</a> 開始調查1975年獨裁者佛朗哥（Francisco Franco）去世之後在西班牙發生的連串犯罪活動時，根本沒有編輯委派他們調查這個故事。這些案件早已被西班牙當局結案和遺忘，媒體也根本沒有興趣進一步挖掘。“這項調查不在我們所屬報章的任務之列，卻是兩名想要追究責任的記者的首要任務。”Irujo 在 GIJC23 研討會上解釋。</p>
+<p>獨自工作使他們不需要背負過高的期望。José María Irujo 說：“我們沒有告訴老闆關於這項調查，因此我們也沒有任何壓力。你需要一個安靜的環境，才能進行這種瘋狂的調查。”不過，兩人也因此未能專註於這項調查，正如 Irujo 憶述：“我們同一時間正在進行其他新聞故事的報道。”最終，這項具有開創意義的、揭示歷史的調查，成為了《國家報》的頭版故事，也是該報歷來閱讀量最高的報道之一。</p>
+<h4>簡單的、沒有答案的問題也可以是切入點</h4>
+<p>“海地‘贖金’報道項目本來並非《紐約時報》的調查任務。”Catherine Porter 憶述：“這個構思來自於，2021年海地發生毀滅式地震後，老闆問了我一個問題——為什麼海地會遭受如此多的系統性問題。”由此，Porter 開始嘗試弄清楚這個國家在過去兩個世紀里到底欠了多少錢、欠了誰的錢、債務何時能償清等，而事實上她沒有找到任何明確的答案。為期一年的調查就此展開，她通過歷史學家、館藏檔案和書籍，嘗試揭開海地人民為了獲得自由而向法國支付的巨額“贖金”的金額，以及這項“交易”引發的後果。理論上，海地早於1888年正式償清最後一期債務，但《紐約時報》發現，跟這筆債務相關的金錢支付實際上持續到1957年。</p>
+<h4>深入挖掘檔案庫</h4>
+<p>要調查過去的事件，José María Irujo 建議“要明確目標”和“搞清楚要尋找什麼”，正如他和同事充份利用了《國家報》的可用資源：“我們所屬的報章有一個非常大的檔案庫。”他們回顧了1970和80年代的《國家報》及其他報章，還翻閱了成千上萬的文件來，找到了右翼恐怖襲擊的嫌疑幕後黑手的名字，由此建立起一份名單，指向一些身在拉丁美洲的逃犯。</p>
+<div class="wp-caption module image aligncenter" id="attachment_196036"><img alt="" class="wp-image-196036 size-full" height="514" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/10/MG_9249-Heino-Ollin-1536x1024-1-1170x780.jpg" width="771" /><p class="wp-caption-text">美國《紐約時報》記者 Catherine Porter（左）和西班牙《國家報》調查主編 José María Irujo。圖：Heino Ollin, GIJN</p></div>
+<h4>要有組織和紀律</h4>
+<p>Catherine Porter 指出：“但凡是持續超過一年的，而且是由幾位身在不同國家的記者合力處理大量檔案和數據的調查，你就需要妥善組織。”她強烈建議使用專案軟件 Workflowy，而不是使用 Excel 電子表格。此外，WhatsApp 群組、共享 Google 雲端硬盤資料夾、定期會議等對她的團隊來說也很有用。“當你做資料搜集時，你總會想——我肯定能記住這個。然後，一年過後，你就會忘記得一乾二淨。當你撰寫報道時，這些細節卻是十分重要的。”她強調在整個報道過程中，“紀律”是最重要的。</p>
+<h4>歷史迷和收藏家是你最好的朋友</h4>
+<p>在深入掘挖歷史事件時，你必須意識到可能有許多人研究過同一主題，並且好好利用這一點。“歷史學家在分享自己收集到的檔案、自己的研究所得，以至該跟誰交談、該看什麼書籍等心得方面非常出色。”Catherine Porter 表示：“這些‘癮君子’（註：玩笑話）基本上就是一群對歷史着迷的、不受薪的記者，他們有很多好東西。”</p>
+<p>Catherine Porter 以她的海地調查為例，提到這些信源的一項關鍵貢獻：“他（信源人士）向我們提供了一份1825年馬考男爵（Baron of Mackau）的原初敘述。馬考男爵當時受法國國王查理十世的委派，向海地政府發出過最後通牒。”這份敘述顯示，假如海地當時不接受法國國王開出的條件——向法國支付1.5億法郎，並且大幅降低對法國貨物的關稅，馬考男爵就會下令宣布海地為“法國的敵人”，並且封鎖其港口。</p>
+<h4>不要忘記故事中的人文面向</h4>
+<p>當你回看歷史，你可能傾向關注事件和事實。不過，GIJC23 這一場研討會上的所有講者都強調，有需要在故事中為“人”留出空間——受害者、倖存者、家屬、後代等。這些人不僅可以為你帶來提示和信息，還肯定有助於展現你的調查所帶來的人文影響。</p>
+<p>“跟恐怖襲擊的受害者家屬和他們的律師交談非常重要，因為他們也想要幫助我們的調查報道。曾經調查這些案件的前警員也是如此。”José María Irujo 表示。另外，在社交媒體上密切留意犯罪分子的家人和朋友，他們有時可以為追蹤犯罪分子本人提供線索。</p>
+<p>前往拉丁美洲獲取恐怖分子居住地點的第一手證據，是追究他們責任的一種方法。“我們只會在確信可以找到他們的情況下才去。”José María Irujo 續道：“我們是一個非常小的團隊，沒有理由白花銀紙，去一趟什麼都找不到的愚蠢旅程。”通過實地考查，他們可以獲得數十年來從未在報章上亮相過的罪犯的最新照片。</p>
+<h4>反覆驗證你的故事</h4>
+<p>事實核查對於調查報道來說至關重要，對於歷史報道尤甚。你所得的事實和證詞距離今天愈遠，你接納它們可靠之前就愈應該謹慎考證。“你最好把事情查證清楚。”Catherine Porter 警告：“就海地‘贖金’的報道，每個事實都有雙重來源，而我們對所有事實都核查了至少兩遍。”在《紐約時報》對該項調查投入大量資源之下，調查經過了至少16位歷史學家的事實核查，而作為故事核心的贖金賬目則經過了20人的審核計算。調查報道最後階段的其中一個重要環節，就是再次交由專家們作完整的“防彈檢查”。</p>
+<h4>爭取人們對報道的關注</h4>
+<p>歷史調查經過長時間的醞釀，記者當然希望它們在發表後能被盡量多的人閱讀。據 José María Irujo 介紹，他們的故事以三種不同的形式發表——在報章上、在報章網站上（包括收錄了與謀殺罪犯電話交談錄音的一段視頻），以及<a href="https://www.youtube.com/watch?v=N3_O55pKIFs">一部15分鐘的特別視頻紀錄片</a>。</p>
+<p>Catherine Porter 則提到，她的海地調查十分長篇，基本上可以寫成一本書。最終，這項報道分成四個部分發表，還包括歷史文獻、圖畫、參考書目，以至當今海地的一些照片。為了避免讀者因“閱讀疲勞”而錯過了整篇報道，《紐約時報》還撰寫了一篇文章來<a href="https://www.nytimes.com/2022/05/20/world/americas/takeaways-haiti-reparations-france.html">總結這項調查的主要發現</a>。為了擴大影響力，這篇報道還被翻譯成法文，以及<a href="https://www.nytimes.com/ht/2022/05/20/world/ayiti-lafrans-esklavaj-etazini.html">供免費閱讀的克里奧爾語版本</a>，方便海地人閱讀。</p>
+<p><em>你可以在此觀看這一場研討會的完整視頻錄影：</em></p>
+<p></p>
+<p>The post <a href="https://cn.gijn.org/2023/11/01/%e5%8e%86%e5%8f%b2%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93/zh-hant/">重寫歷史：如何調查年代久遠的新聞事件？</a> appeared first on <a href="https://cn.gijn.org/zh-hant/">全球深度報道網</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 01 Nov 2023 06:49:06 +0000</pubDate>
+<pubDate>Wed, 01 Nov 2023 06:49:06 +0000</pubDate>
+</item>
+<item>
+<title>人臉識別以外，調查記者還應用到哪些尖端科技呢？</title>
+<link>https://cn.gijn.org/2023/10/23/%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab/zh-hant/</link>
+<guid>https://cn.gijn.org/2023/10/23/%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab/zh-hant/</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: right;"><strong><a href="https://gijn.org/beyond-facial-recognition-state-of-the-art-research-techniques/" rel="noopener" target="_blank">English</a></strong></p>
+<div class="wp-caption module image aligncenter" id="attachment_195220"><img alt="" class="wp-image-195220 size-full" height="1020" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/10/DSC_0201-1536x1020-1.jpg" width="1536" /><p class="wp-caption-text">在 #GIJC23 的一場研討會上，討論了人臉識別等尖端科技和工具可以如何幫助調查報道。圖：Wiktoria Gruca, GIJN</p></div>
+<p>調查新聞事業的蓬勃發展，有賴於傳統調查技術和尖端科技工具的結合。在這個格局發展快速的領域，擁有最好的技術和工具，可以幫助媒體和記者保持領先位置，並且講述具影響力的新聞故事。</p>
+<p>在第13屆全球深度報道大會 #GIJC23 一場關於尖端科技調查技術的研討會上，dataLEADS 首席執行官 Syed Nazakat、有組織犯罪及貪腐報道計劃（OCCRP）研究項目負責人 Karina Shedrofsky 和國際調查記者同盟（ICIJ）培訓經理 Jelena Cosic 討論了他們最近進行的調查，以及他們最喜愛使用的方法和工具，包括人臉識別服務、檔案分類工具等。</p>
+<h4>超越人臉識別</h4>
+<p>Karina Shedrofsky 以她的一項最新調查項目——涉及俄羅斯教師的加密貨幣騙局，來展示她如何應用她最喜歡的調查工具。她只有一張可疑目標人物的照片，其他什麼線索都沒有，於是她利用 <a href="https://pimeyes.com/en">PimEyes</a> 入手進行人臉識別。PimEyes 是一項具有人臉識別功能的反向影像搜尋服務。</p>
+<div class="wp-caption module image alignright" id="attachment_195221"><img alt="" class="wp-image-195221 size-medium" height="504" src="https://cn.gijn.org/wp-content/uploads//sites/54/2023/10/4Z6A0198-768x1152-1-336x504.jpg" width="336" /><p class="wp-caption-text">OCCRP 的 Karina Shedrofsky 介紹了她最近進行的一些調查，以及過程中應用到的人臉識別技術。圖：Smaranda Tolosano, GIJN</p></div>
+<p>PimEyes 反饋了可能源於目標人物的大量結果和連結，包括一個人名和另一張照片。Karina Shedrofsky 於是轉向使用亞馬遜的工具 <a href="https://aws.amazon.com/tw/rekognition/">Rekognition</a>（可以比較兩張照片上的人臉，辨認兩張臉是否屬於同一個人），並且得到98%吻合的結果。不過，Karina Shedrofsky 強調了反覆驗證人臉識別結果之重要，即使這些工具的辨識結果可信度非常高，但也有失敗或出錯的機會。</p>
+<p>在另一次調查案例中，PimEyes 沒有給 Karina Shedrofsky 反饋任何結果，於是她轉嚮應用 <a href="https://search4faces.com/">search4faces</a>。那是一項專門為俄羅斯流行社交媒體平台 VKontakte 建立索引的服務。這一次，她得到了所需要的搜索結果。</p>
+<p>Karina Shedrofsky 分享的第三個調查案例中，她提到<a href="https://www.occrp.org/en/asset-tracker/sanctioned-russian-banker-andrei-kostin-head-of-putins-piggy-bank-uses-canadian-man-as-proxy-for-vast-holdings">一名商人被指充當一名受制裁的俄羅斯寡頭的代理人</a>。一名記者曾經跟這名商人的兒子交談，但對方否認商人是他的父親。記者於是請 Karina Shedrofsky 幫忙，希望證實兩人的關係。</p>
+<p>Karina Shedrofsky 所知道的信息，包括該名商人及其兒子的全名、兒子的出生日期，以及兒子工作的單位——俄羅斯一家主要國有銀行。這一次，她使用了 Pipl。這是一款擅於將人們的現實存在和線上足跡結合的工具，只要輸入電郵地址、電話號碼等信息，就可以得出目標人物的社交媒體賬號、實際地址等。</p>
+<p>由於該名兒子有一個相當平凡的名字，<a href="https://pipl.com/">Pipl</a> 給出了許多的搜尋結果，包括一封帶有銀行網域的電子郵件。由此，Karina Shedrofsky 找到了一個她認為屬於該名兒子的 Facebook 賬號，但那是一個沒有任何資訊的私人賬號。當調查似乎走進了一個死胡同，Karina Shedrofsky 再次使出了她所知道的一個重要調查技巧——即使是 Facebook 私人賬號，你仍然可以通過單擊個人資料頁面右上角的三點圖標，搜尋賬號時間軸上公開發布過的所有內容。</p>
+<p>Karina Shedrofsky 搜尋了她能聯想到的所有東西，例如生日、相關人名等。她發現，在她所知的該名兒子的生日日期當天，該個 Facebook 私人賬號也收到了生日祝福信息。</p>
+<p>至此，Karina Shedrofsky 已經非常有信心，認定找到了正確的賬號。通過搜尋關鍵詞“love”，她進一步找到該名兒子的妻子之名字。通過在 Google 上搜尋他們的姓氏和名字，她找到一家攝影公司的網站，上面有他們的結婚照片。驚喜地，該公司發布了整個婚禮相冊，讓 Karina Shedrofsky 發現了一張照片，裡面有懷疑是兒子父親的那一名商人。藉助 PimEyes 的辨識和反向搜圖功能，Karina Shedrofsky 找到了匹配的照片。</p>
+<p>Karina Shedrofsky 表示，她近期最喜歡使用的工具，除了 OCCRP 的 <a href="https://aleph.occrp.org/">Aleph database</a>，就是 <a href="https://opencorporates.com/registers">OpenCorporates</a>。此外，她也喜歡使用聯絡信息應用程序，例如 <a href="https://www.truecaller.com/">Truecaller</a> 和 <a href="https://rocketreach.co/?utm_source=500&amp;utm_campaign=google_brand_emea&amp;keyword=rocketreach&amp;gad=1&amp;gclid=Cj0KCQjw9rSoBhCiARIsAFOiplloGZjiTin1fhmMXnSSoR5AdGFa5yaRMLBD09afEqZRV7AFzjy5MuMaAizrEALw_wcB">Rocketreach</a>。</p>
+<h4>老派技術與尖端工具</h4>
+<p>來自國際調查記者同盟（ICIJ）的 Jelena Cosic 表示，她經常會結合使用老派技術和現代工具。她介紹了 ICIJ 一項<a href="https://www.icij.org/investigations/deforestation-inc/">關於森林砍伐的最新跨境調查項目</a>。該項目揭露了一些取得環境認證、標榜業務推動“可持續發展”的企業，實際上被指控從事破壞森林和侵犯人權的生意。這不是一項簡單的調查項目，Jelena Cosic 及其調查團隊必須使用大量的信源來自行建立數據庫，這些信源包括：</p>
+<ul>
+<li>發出環境認證的機構和審核員；</li>
+<li>《歐盟木材法規》（EUTR）依國家列出的違規行為清單；</li>
+<li>非政府組織針對破壞環境行為所作出的舉報，以及相關的官方報告；</li>
+<li><a href="https://www.importgenius.com/">ImportGenius</a> 上的貿易資料；</li>
+<li>自由資訊（FOIs）、企業文件、市場行銷資料、法庭文件等；</li>
+<li>通過 Orbis 和 Factiva 存取到的母公司資料。</li>
+</ul>
+<p>調查團隊需要將這些數據都整理到一起，建立起單一的主數據庫，以便存取資訊。Jelena Cosic 強調了在展開此類調查之前就確定好研究方法之重要。</p>
+<p>Jelena Cosic 表示，她一直以來最喜愛的工具是 ICIJ 的 <a href="https://datashare.icij.org/">Datashare</a>。那是一款可能運行 OCR（光學字元辨識）技術的工具，能讓上傳的文檔可以被搜尋。它還可以按人物、組織、位置等自動檢測和過濾文檔，從而提升搜尋效率。</p>
+<h4>充滿不確定性</h4>
+<p>Karina Shedrofsky 和 Jelena Cosic 都承認調查新聞事業正面臨許多挑戰。前者觀察認為，這個領域是“more art than science（大意是指充滿不確定性，只能靠經驗直覺來進行）”，而且不斷發生變化。她警告：“要保持領先於持續進化的犯罪行為，是一項持續的挑戰。”</p>
+<p>至於 Jelena Cosic，她點出了從中國獲取信息的困難、歐盟資料保護法規（GDPR）的限制，以至瀏覽離岸數據和網域註冊的複雜性。</p>
+<p>不過，他們都指出有一些方法可以克服困難，保持調查記者的領先地位。以下是他們給予調查記者的一些建議：</p>
+<ul>
+<li>電子試算表是你的最佳朋友，利用試算表來組織你的數據；</li>
+<li>尋求數據專家的指導，以進行有效的資料管理；</li>
+<li>對下載到的文件作出標籤，並將它們分類組織到不同的文件夾里；</li>
+<li>探索 Chrome 的插件，用它們來擷取整個網頁，並且使用 Wayback Machine 的插件來保存搜尋記錄；</li>
+<li>對大量文檔建立起架構，善有標籤來作有效的分類；</li>
+<li>使用有雙重加密的開源平台來進行安全的協作；</li>
+<li>充份認識到調查新聞事業中，多元化技能和背景的價值。</li>
+</ul>
+<p>The post <a href="https://cn.gijn.org/2023/10/23/%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab/zh-hant/">人臉識別以外，調查記者還應用到哪些尖端科技呢？</a> appeared first on <a href="https://cn.gijn.org/zh-hant/">全球深度報道網</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 23 Oct 2023 12:00:03 +0000</pubDate>
+<pubDate>Mon, 23 Oct 2023 12:00:03 +0000</pubDate>
+</item>
 
 <item>
 <title>#GIJC23 側記：知識正義、原住民報道與 Journal-ism 的合作</title>

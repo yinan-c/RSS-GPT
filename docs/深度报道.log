@@ -2597,3 +2597,24 @@ Existing_entries: 16
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-12-16 22:14:54.763329
+------------------------------------------------------
+Started: 2023-12-17 01:19:03.172163
+Existing_entries: 16
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [2023年 GIJN 精選10大調查工具](https://cn.gijn.org/2023/12/14/top-10-investigative-tools-2023/zh-hant/)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [廢料、欺詐和濫權：如何調查環境犯罪？](https://cn.gijn.org/2023/11/21/%e5%a6%82%e4%bd%95%e8%b0%83%e6%9f%a5%e7%8e%af%e5%a2%83%e7%8a%af%e7%bd%aa/zh-hant/)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [成為頂尖調查報道編輯的8個技巧](https://cn.gijn.org/2023/11/10/%e6%88%90%e4%b8%ba%e9%a1%b6%e5%b0%96%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93%e7%bc%96%e8%be%91%e7%9a%848%e4%b8%aa%e6%8a%80%e5%b7%a7/zh-hant/)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [重寫歷史：如何調查年代久遠的新聞事件？](https://cn.gijn.org/2023/11/01/%e5%8e%86%e5%8f%b2%e8%b0%83%e6%9f%a5%e6%8a%a5%e9%81%93/zh-hant/)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [人臉識別以外，調查記者還應用到哪些尖端科技呢？](https://cn.gijn.org/2023/10/23/%e4%ba%ba%e8%84%b8%e8%af%86%e5%88%ab/zh-hant/)
+append_entries: 5
+Finish: 2023-12-17 01:19:04.784303
