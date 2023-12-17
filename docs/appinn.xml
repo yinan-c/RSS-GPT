@@ -4,6 +4,51 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>mainonly - 仅显示网页所选部分的 JS 小书签</title>
+<link>https://meta.appinn.net/t/topic/50444</link>
+<guid>https://meta.appinn.net/t/topic/50444</guid>
+<content:encoded><![CDATA[
+
+<p>一个很简单的小工具，选中某个页面元素（可以鼠标滚轮调整范围），左键确认后会隐藏其他的元素，隐藏后按 ESC 就能恢复。</p>
+<p>为什么做这个：</p>
+<ul>
+<li>我用的翻译插件是「沉浸式翻译」，但是默认情况下会翻译整个网页，然而一般我只关心主体，不关心导航栏、侧边推荐、底部链接；默认的行为会导致无谓的翻译 API 请求，可能导致更容易遇到频率限制。</li>
+<li>沉浸式翻译自带了一个仅翻译网页主体的功能，但是标注了「不建议开启」，我自己测试下来有的时候也会有误判，所以还是倾向于自己来选择主体。</li>
+<li>虽然有不少 Chrome 插件可以删除网页元素，但是像我这样仅保留（反向删除）的我还真没找到，最后就干脆趁着周末自己搞一个了。</li>
+</ul>
+<p>效果：见动图<br />
+<img alt="mainonly_mini" class="animated" height="306" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/2/9292e0719de21a6c0d7cbc0adbb4adaad6f3618b.gif" width="604" /></p>
+<p>链接地址：</p><aside class="onebox githubfolder">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/jerrylususu/mainonly/tree/main" rel="noopener nofollow ugc" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h3><a href="https://github.com/jerrylususu/mainonly/tree/main" rel="noopener nofollow ugc" target="_blank">GitHub - jerrylususu/mainonly: a js bookmarklet to remove all elements from a...</a></h3>
+
+  <p><a href="https://github.com/jerrylususu/mainonly/tree/main" rel="noopener nofollow ugc" target="_blank">main</a></p>
+
+  <p><span class="label1">a js bookmarklet to remove all elements from a page except the one you want to focus on - GitHub - jerrylususu/mainonly: a js bookmarklet to remove all elements from a page except the one you want ...</span></p>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50444">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 17 Dec 2023 03:41:44 +0000</pubDate>
+<pubDate>Sun, 17 Dec 2023 03:41:44 +0000</pubDate>
+</item>
 
 <item>
 <title>APIHub让每个人都有自己的API，现可手机打印、放ppt、打开文件</title>
