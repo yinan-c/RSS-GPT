@@ -2750,3 +2750,12 @@ Existing_entries: 21
 Fetching from https://cn.gijn.org/feed/zh-hant/
 append_entries: 0
 Finish: 2023-12-18 20:16:44.202248
+------------------------------------------------------
+Started: 2023-12-18 22:15:56.716602
+Existing_entries: 21
+Fetching from https://cn.gijn.org/feed/zh-hant/
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [#GIJC23 側記：告別疫情，見面聊天，與世界再次連結](https://cn.gijn.org/2023/12/19/gijc23-jielin/zh-hant/)
+append_entries: 1
+Finish: 2023-12-18 22:15:57.244898
