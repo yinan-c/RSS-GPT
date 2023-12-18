@@ -4,6 +4,98 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>macOS keybinding tricks: The kill ring</title>
+<link>https://brett.trpstra.net/link/535/16501154/macos-keybinding-tricks-the-kill-ring</link>
+<guid>https://brett.trpstra.net/link/535/16501154/macos-keybinding-tricks-the-kill-ring</guid>
+<content:encoded><![CDATA[
+<div> Keybinding, macOS, Emacs, Clipboard manager, Terminal
+总结:<br><br>本文介绍了如何在macOS中使用键盘绑定技巧来增强文本编辑功能，包括使用Emacs风格的快捷键和创建剪贴板管理器。作者提到了如何在终端中创建一个“kill ring”来存储剪切的文本，然后通过编辑默认键绑定文件来创建新的功能。最后，作者建议读者在BrettTerpstra.com上查看更多相关内容。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="killringheader-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/12/killringheader-rb.jpg" title="killringheader-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>So you may have seen my <a href="https://brettterpstra.com/projects/keybindings/" title="KeyBindings">KeyBindings</a> project before. It’s an insanely large collection of keybinding tricks that work in any macOS text field. Well, any native cocoa field. You won’t have much luck in Electron or other non-native text editors. But for most uses, including in Safari, Mail, Notes, nvUltra, and most of the Markdown editors, the tricks work great. You can do things like adding TextMate-style <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span> to any editor to create a new line no matter where your caret<sup id="fnref:caret"><a class="footnote" href="https://brettterpstra.com#fn:caret" rel="footnote">1</a></sup> (cursor) is in the line.</p>
+
+<p>I’ve <a href="http://brettterpstra.com/topic/keybindings/">written a bit about all of this before</a> (and see the <a href="https://brettterpstra.com/series/keybinding/">KeyBinding series</a>), but I’ll recap the basics for this tip, since it’s been a while. To wit, you can create a (plain text) file located at <code class="language-plaintext highlighter-rouge">~/Library/KeyBindings/DefaultKeyBinding.dict</code> that tells every macOS app what to do when you hit certain keys, and you can override all kinds of defaults and add new functionality by editing it. If that file already exists, you can just add to it. I’ll offer more details when we get to that part of the trick.</p>
+
+<!--more-->
+
+<h3 id="emacs-keybindings">Emacs Keybindings</h3>
+
+<p>You already have emacs-style shortcuts available, including <span class="keycombo combined" title="Control-K"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">K</kbd></span> to delete (kill) to end of line, <span class="keycombo combined" title="Control-U"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">U</kbd></span> to delete to beginning of line, and <span class="keycombo combined" title="Control-Y"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">Y</kbd></span> to paste (yank) text that was cut using either of the kill commands. You can delete an entire line by hitting <span class="keycombo combined" title="Control-A"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">A</kbd></span> (go to beginning of line) and then <span class="keycombo combined" title="Control-K"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">K</kbd></span>, then paste that line somewhere else with <span class="keycombo combined" title="Control-Y"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">Y</kbd></span>. Try it. You don’t have to do anything to enable this, it’s always been built into macOS. I think it also works on iOS, but I don’t have an external keyboard hooked up to test it out with right now. Let me know in the comments.</p>
+
+<blockquote class="tip">
+  <p>Bonus tip: <span class="keycombo combined" title="Control-T"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">T</kbd></span> will transpose the characters to the left and right of the caret, allowing you to easily change frutive to furtive with one keystroke.</p>
+</blockquote>
+
+<p>So this tip is a way to make this cut/paste process more useful. You’ve probably used (or at least seen) clipboard managers before. I use <a href="https://www.obdev.at/products/launchbar" title="LaunchBar 6">LaunchBar</a> for this, but there are plenty of apps like <a href="https://pasteapp.io/">Paste</a> that can do it. Basically every time you cut or copy something, it gets added to a list in your clipboard manager, allowing you to paste anything you’ve copied elsewhere, rather than just the last thing you copied. I wouldn’t want to function without one. Those apps don’t work with the kill commands, though. So here’s what you can do instead.</p>
+
+<h3 id="create-the-kill-ring">Create the Kill Ring</h3>
+
+<p>First, run this command in Terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>defaults write -g NSTextKillRingSize -int 6</code></pre></div></div>
+
+<p>That creates a “kill ring” with 6 slots. Every time you cut, the text will be stored in the next available slot, cycling back to the beginning when the 6 slots are full. You can make that number anything you want, but be aware that to use items stored in the kill ring, you’ll have to cycle through them until you get to the one you want, and empty slots will still have to be cycled through. Which generally would mean pasting them all in a row, which is where the next part of the trick comes in.</p>
+
+<h3 id="edit-the-keybindings">Edit the Keybindings</h3>
+
+<ol>
+  <li>If you already have a file at <code class="language-plaintext highlighter-rouge">~/Library/KeyBindings/DefaultKeyBinding.dict</code>, open it in a text editor and add the keybinding inside of the main curly brackets that already exist in the file. If you don’t have that file, create a new, empty text file in your text editor of choice.</li>
+  <li>
+    <p>If you’re working with an empty file, first insert a pair of curly brackets before inserting the text below. If you already have an existing <code class="language-plaintext highlighter-rouge">DefaultKeyBinding.dict</code> file, then just add the following between the existing parent curly brackets:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>"^y" = (yankAndSelect:);</code></pre></div>    </div>
+  </li>
+  <li>Save the file (as <code class="language-plaintext highlighter-rouge">~/Library/KeyBindings/DefaultKeyBinding.dict</code> if it’s new).</li>
+  <li>Running apps will need to be restarted to recognize the new keybindings.</li>
+</ol>
+
+<p>In this circumstance, “yank” means “paste” from the register, as opposed to the Vim vernacular where it means “copy” (which makes more sense 🤷🏻‍♂️). So now, pressing <span class="keycombo combined" title="Control-Y"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">Y</kbd></span> (“^y”) will paste the next item from the kill ring, and immediately select it (<code class="language-plaintext highlighter-rouge">yankAndSelect:</code>), so pressing <span class="keycombo combined" title="Control-Y"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">Y</kbd></span> again will overwrite what you just pasted with the next item in the kill ring. If there are registers in the kill ring that haven’t been filled yet, it will paste an empty string, but you can just keep hitting <span class="keycombo combined" title="Control-Y"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">Y</kbd></span> to cycle back around to where your populated registers are.</p>
+
+<blockquote class="error">
+  <p><strong>Note:</strong> The kill ring is shared between documents in the same app, but generally not between apps.</p>
+</blockquote>
+
+<p>To try it out, restart your text editor (if it was running when you changed the <code class="language-plaintext highlighter-rouge">DefaultKeyBinding.dict</code> file) and write several lines of text in a text field:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>this is line 1
+this is line 2
+this is line 3
+this is line 4</code></pre></div></div>
+
+<p>Put your caret at the beginning of each line and press <span class="keycombo combined" title="Control-K"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">K</kbd></span>, once for each line (use arrow keys and <span class="keycombo combined" title="Control-A"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">A</kbd></span> to get to each line start). Then, put your caret anywhere and type <span class="keycombo combined" title="Control-Y"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">Y</kbd></span> repeatedly. You should see your cut lines pasted and replaced in place. Note that these commands do register in the undo buffer, so if you cycle past the one you wanted, you can usually use <span class="keycombo combined" title="Command-Z"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">Z</kbd></span> to go backwards through the list. The kill ring is <abbr title="Last In First Out">LIFO</abbr>, so you’ll get your results in the reverse order you added them to the ring.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 69.42%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/killring.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/killring.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/killring.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>Have fun! If that was interesting to you, be sure to check out the rest of the <a href="https://brettterpstra.com/projects/keybindings/" title="KeyBindings">KeyBindings</a> project.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:caret">
+      <p>I’ll be referring to the text insertion point as a caret in this post, just because I’m feeling pedantic today. <a class="reversefootnote" href="https://brettterpstra.com#fnref:caret">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111603227607167112" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F18%2Fmacos-keybinding-tricks-the-kill-ring%2F&amp;text=macOS+keybinding+tricks%3A+The+kill+ring&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F18%2Fmacos-keybinding-tricks-the-kill-ring%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16501154.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-18T13:57:00-06:00</pubDate>
+<pubDate>2023-12-18T13:57:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Kaleidoscope giveaway!</title>
