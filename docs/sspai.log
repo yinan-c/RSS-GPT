@@ -10389,3 +10389,12 @@ Existing_entries: 344
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-18 00:53:50.688869
+------------------------------------------------------
+Started: 2023-12-18 02:25:46.149533
+Existing_entries: 344
+Fetching from https://rsshub.app/sspai/index
+Token length: 3640
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：字节跳动回应被 OpenAI 停用账户](https://sspai.com/post/85139)
+append_entries: 1
+Finish: 2023-12-18 02:25:55.947165
