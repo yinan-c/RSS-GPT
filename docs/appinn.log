@@ -10584,3 +10584,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-18 06:15:44.901775
+------------------------------------------------------
+Started: 2023-12-18 08:15:19.977634
+Existing_entries: 196
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [我记得我之前见过一个网站，他给你分配一个邮箱，后面你用邮箱时可以在邮箱地址里随意添加前缀后缀，他都能给你重定向到分配给你的这个邮箱里，大家知道是哪个网址吗？](https://meta.appinn.net/t/topic/50482)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [我做了一个在手机灵动岛&锁屏看实时网速/步数/CPU/照片...的软件](https://meta.appinn.net/t/topic/50480)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2023-12-18 08:15:23.459818

@@ -4,6 +4,101 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>我记得我之前见过一个网站，他给你分配一个邮箱，后面你用邮箱时可以在邮箱地址里随意添加前缀后缀，他都能给你重定向到分配给你的这个邮箱里，大家知道是哪个网址吗？</title>
+<link>https://meta.appinn.net/t/topic/50482</link>
+<guid>https://meta.appinn.net/t/topic/50482</guid>
+<content:encoded><![CDATA[
+
+<p>我记得我之前见过一个网站，他给你分配一个邮箱，后面你用邮箱时可以在邮箱地址里随意添加前缀后缀，他都能给你重定向到分配给你的这个邮箱里，大家知道是哪个网址吗？</p>
+            <p><small>8 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50482">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 18 Dec 2023 07:57:18 +0000</pubDate>
+<pubDate>Mon, 18 Dec 2023 07:57:18 +0000</pubDate>
+</item>
+<item>
+<title>我做了一个在手机灵动岛&amp;锁屏看实时网速/步数/CPU/照片...的软件</title>
+<link>https://meta.appinn.net/t/topic/50480</link>
+<guid>https://meta.appinn.net/t/topic/50480</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>我做了一个在手机灵动岛&amp;锁屏看实时网速/步数/下班倒计时/跑步距离/照片/待办/倒计时/手机使用次数/帧率…的软件</h1>
+<p><img alt="封面-宽" height="500" src="https://wescanner-docx.jkxuewei.com/images/mweb/2023.12.18.17028791932701.%25E5%25B0%2581%25E9%259D%25A2-%25E5%25AE%25BD.jpg" width="625" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#island-widgetshttpsappsapplecomcnappid6464542768-2" name="island-widgetshttpsappsapplecomcnappid6464542768-2"></a><a href="https://apps.apple.com/cn/app/id6464542768" rel="noopener nofollow ugc">Island Widgets</a>  的作用：</h3>
+<h5><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>提醒您 ：</h5>
+<ul>
+<li>准时下班</li>
+<li>每天运动</li>
+<li>陪伴家人</li>
+<li>保持体重</li>
+<li>放下手机</li>
+<li>每日待办</li>
+<li>当前网速</li>
+<li>手机使用强度</li>
+<li>实时热搜</li>
+<li>现在天气</li>
+<li>…</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>初衷</h3>
+<p>鉴于iPhone灵动岛的特性，无论在使用任何App，灵动岛会一直在屏幕的上方，如何不装饰一下，那它就一直是个像药丸形状小黑条常驻在那里，为了让其物尽其用，我做了一个App：<a href="https://apps.apple.com/cn/app/id6464542768" rel="noopener nofollow ugc">Island Widgets</a> ，在灵动岛和锁屏上显示 骑行距离/步数/心率/消耗热量/跑步距离/步行距离/运动时间/体温/下班倒计时/照片/待办/自定义倒计时/手机使用次数/实时网速/CPU/RAM/屏幕帧率 等等信息。目前有23种功能，而且大部分是免费使用的，新功能还在继续开发中…</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>功能演示</h3>
+<h4><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>自定义照片</h4>
+<p>把我儿子的照片放在灵动岛上，无论我在刷抖音、聊微信、看新闻、打游戏… 我都能看到我可爱的小朋友。我放的是孩子，你可以放对象/明星/想去的地方/崇拜的人等任何想放的照片…</p>
+<p><img alt="演示-照片" height="500" src="https://wescanner-docx.jkxuewei.com/images/mweb/2023.12.18.17028790086624.%25E6%25BC%2594%25E7%25A4%25BA-%25E7%2585%25A7%25E7%2589%2587.jpg" width="231" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>实时网速</h4>
+<p>实时看看现在手机的网速，有没有软件在耗流量、看是不是WiFi断了、用网速装饰下灵动岛那个黑色框…</p>
+<p><img alt="演示-实时网速" height="500" src="https://wescanner-docx.jkxuewei.com/images/mweb/2023.12.18.17028790086644.%25E6%25BC%2594%25E7%25A4%25BA-%25E5%25AE%259E%25E6%2597%25B6%25E7%25BD%2591%25E9%2580%259F.jpg" width="231" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>步数</h4>
+<p>今天的运动量够了吗？</p>
+<p><img alt="演示-步数" height="500" src="https://wescanner-docx.jkxuewei.com/images/mweb/2023.12.18.17028790086659.%25E6%25BC%2594%25E7%25A4%25BA-%25E6%25AD%25A5%25E6%2595%25B0.jpg" width="231" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#todo-list-9" name="todo-list-9"></a>待办（TODO List）</h4>
+<p>极简&amp;方便的待办清单，完成直接在灵动岛操作就可以。</p>
+<p><img alt="演示-待办" height="500" src="https://wescanner-docx.jkxuewei.com/images/mweb/2023.12.18.17028790086672.%25E6%25BC%2594%25E7%25A4%25BA-%25E5%25BE%2585%25E5%258A%259E.jpg" width="231" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a>手机拿起次数</h4>
+<p>今天手机已经拿起80次了，放下手机出去玩会吧<img alt=":smile:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/smile.png?v=12" title=":smile:" width="20" /></p>
+<p><img alt="演示-手机拿起次数" height="500" src="https://wescanner-docx.jkxuewei.com/images/mweb/2023.12.18.17028790086684.%25E6%25BC%2594%25E7%25A4%25BA-%25E6%2589%258B%25E6%259C%25BA%25E6%258B%25BF%25E8%25B5%25B7%25E6%25AC%25A1%25E6%2595%25B0.jpg" width="231" /></p>
+<p>…</p>
+<p><a href="https://apps.apple.com/cn/app/id6464542768" rel="noopener nofollow ugc">Island Widgets</a> ，一共提供了23种不同种类的功能，如果想体验可以在AppStore 搜索 <a href="https://apps.apple.com/cn/app/id6464542768" rel="noopener nofollow ugc">Island Widgets</a> ，希望您不吝惜在AppStore留个评论，您的好评非常重要。</p>
+<p>或者在浏览器直接输入：</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+
+      <a href="https://apps.apple.com/cn/app/island-widgets-%E7%81%B5%E5%8A%A8%E5%B2%9B-%E9%94%81%E5%B1%8F%E5%B0%8F%E7%BB%84%E4%BB%B6/id6464542768" rel="noopener nofollow ugc" target="_blank">App&nbsp;Store</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="362" src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/96/8d/89/968d897a-d679-9b76-d366-39f4f05ee204/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/1200x630wa.png" width="690" /></div>
+
+<h3><a href="https://apps.apple.com/cn/app/island-widgets-%E7%81%B5%E5%8A%A8%E5%B2%9B-%E9%94%81%E5%B1%8F%E5%B0%8F%E7%BB%84%E4%BB%B6/id6464542768" rel="noopener nofollow ugc" target="_blank">‎Island Widgets-灵动岛+锁屏小组件</a></h3>
+
+  <p>‎灵动岛&amp;锁屏上的精美小组件，包含实时网速、下班倒计时、步数、心率、热搜、待办、天气、抢票倒计时、手机拿起次数等。
+
+『Island Widgets』是一款创新的灵动岛和锁屏小组件App，为你的iOS设备带来全新的使用体验。通过精美的小组件，你可以轻松获取以下信息，而无需打开任何其他应用：
+
+1. 手机使用习惯一目了然：我们的小组件记录你拿起手机的次数，帮助你更好地了解自己的使用习惯。
+
+2. 健康数据一览：实时监测步数、跑步距离、心率、体温等健康数据，让你时刻关注自身健康。
+
+3....</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>希望您用的开心~ <img alt=":smile:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/smile.png?v=12" title=":smile:" width="20" /></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50480">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 18 Dec 2023 07:04:19 +0000</pubDate>
+<pubDate>Mon, 18 Dec 2023 07:04:19 +0000</pubDate>
+</item>
 
 <item>
 <title>mainonly - 仅显示网页所选部分的 JS 小书签</title>
