@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Ruby Regexp::scan with MatchData</title>
 <link>https://brett.trpstra.net/link/535/16498512/ruby-regexp-scan-with-matchdata</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: Ruby, 字符串处理, 正则表达式, 匹配, 方法
 
-Ruby编程语言中有许多字符串处理方法，通过正则表达式进行匹配和扫描是常见的操作。作者在文章中分享了如何通过组合使用match_scan和matches方法，将正则表达式匹配的结果转换成包含各项值的哈希数组。这种方法可以方便地从字符串中提取想要的数据，极大地简化了字符串处理的复杂度。这对于正在学习Ruby脚本编写的初学者来说是非常有用的技巧。 <br><br>总结: Ruby编程中的字符串处理和正则表达式匹配可以通过match_scan和matches方法简化，让数据提取更加方便和灵活。 <div>
+Ruby编程语言中有许多字符串处理方法，通过正则表达式进行匹配和扫描是常见的操作。作者在文章中分享了如何通过组合使用match_scan和matches方法，将正则表达式匹配的结果转换成包含各项值的哈希数组。这种方法可以方便地从字符串中提取想要的数据，极大地简化了字符串处理的复杂度。这对于正在学习Ruby脚本编写的初学者来说是非常有用的技巧。 <br /><br />总结: Ruby编程中的字符串处理和正则表达式匹配可以通过match_scan和matches方法简化，让数据提取更加方便和灵活。 <div>
 <p>This post will only be of interest to people writing scripts in Ruby. Seriously, zero utility if you’re not using Ruby. Though I would be curious how you accomplish the same thing in other languages like Rust and Python, because I’ve never gotten too deep with string manipulation in anything other than Ruby, Swift, and Objective-C. If you care to leave a comment with pointers, I’m all ears.</p>
 
 <!--more-->
@@ -110,9 +111,7 @@ Ruby编程语言中有许多字符串处理方法，通过正则表达式进行�
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16498512.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-17T15:38:00-06:00</pubDate>
-<pubDate>2023-12-17T15:38:00-06:00</pubDate>
 </item>
-
 <item>
 <title>The SpamSieve giveaway winners!</title>
 <link>https://brett.trpstra.net/link/535/16497258/the-spamsieve-giveaway-winners</link>
