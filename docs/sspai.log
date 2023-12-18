@@ -10425,3 +10425,15 @@ Existing_entries: 346
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-18 10:13:24.710846
+------------------------------------------------------
+Started: 2023-12-18 12:21:41.787800
+Existing_entries: 346
+Fetching from https://rsshub.app/sspai/index
+Token length: 6236
+Summarized using GPT-3.5-turbo-1106
+Append: [[送码] 派评 | 近期值得关注的 App](https://sspai.com/post/85158)
+Token length: 2861
+Summarized using GPT-3.5-turbo-1106
+Append: [探寻 Apple 的都市传说：Store 也有「Pro 版」？](https://sspai.com/post/84561)
+append_entries: 2
+Finish: 2023-12-18 12:22:18.228172
