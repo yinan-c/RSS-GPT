@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>macOS keybinding tricks: The kill ring</title>
 <link>https://brett.trpstra.net/link/535/16501154/macos-keybinding-tricks-the-kill-ring</link>
 <guid>https://brett.trpstra.net/link/535/16501154/macos-keybinding-tricks-the-kill-ring</guid>
 <content:encoded><![CDATA[
 <div> Keybinding, macOS, Emacs, Clipboard manager, Terminal
-总结:<br><br>本文介绍了如何在macOS中使用键盘绑定技巧来增强文本编辑功能，包括使用Emacs风格的快捷键和创建剪贴板管理器。作者提到了如何在终端中创建一个“kill ring”来存储剪切的文本，然后通过编辑默认键绑定文件来创建新的功能。最后，作者建议读者在BrettTerpstra.com上查看更多相关内容。 <div>
+总结:<br /><br />本文介绍了如何在macOS中使用键盘绑定技巧来增强文本编辑功能，包括使用Emacs风格的快捷键和创建剪贴板管理器。作者提到了如何在终端中创建一个“kill ring”来存储剪切的文本，然后通过编辑默认键绑定文件来创建新的功能。最后，作者建议读者在BrettTerpstra.com上查看更多相关内容。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -94,9 +95,7 @@ this is line 4</code></pre></div></div>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16501154.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-18T13:57:00-06:00</pubDate>
-<pubDate>2023-12-18T13:57:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Kaleidoscope giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16500870/kaleidoscope-giveaway</link>
