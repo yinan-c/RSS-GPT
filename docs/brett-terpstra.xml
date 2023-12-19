@@ -4,6 +4,81 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>macOS keybinding tricks: the repeat count binding</title>
+<link>https://brett.trpstra.net/link/535/16502539/macos-keybinding-tricks-the-repeat-count-binding</link>
+<guid>https://brett.trpstra.net/link/535/16502539/macos-keybinding-tricks-the-repeat-count-binding</guid>
+<content:encoded><![CDATA[
+<div> Vim, macOS, 快捷键, 重复操作, 文本编辑器<br>
+总结:<br>
+本文介绍了在macOS上利用快捷键来实现重复操作的技巧。通过设置特定的快捷键，用户可以在文本编辑器中使用数字来指定重复次数，从而提高编辑效率。同时，作者还分享了一些使用这一技巧的场景，以及一些注意事项。 <div>
+<p>Another trick for readers interested in honing their keyboard-fu on macOS.</p>
+
+<p>In Vim, most operations have can have a count specified in the keystrokes for the command, e.g. <code class="language-plaintext highlighter-rouge">3dd</code> to delete 3 lines. You can do similar in any Cocoa text field (all Apple apps, plus most native apps). You just need to specify a keyboard shortcut to use before the count. Then you can hit that keyboard shortcut, type a number (X) and then hit a key or key combination to have that event repeated X times.</p>
+
+<p>To set the repeat shortcut:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>defaults write -g NSRepeatCountBinding -string "~r"</code></pre></div></div>
+
+<p>The above would set the repeat binding to <span class="keycombo combined" title="Option-R"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">R</kbd></span>. Use the following shortcuts when defining the operator, being sure not to overwrite a keyboard shortcut you use elsewhere (control-option combinations are pretty safe):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Modifier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>~</td>
+      <td>Option</td>
+    </tr>
+    <tr>
+      <td>@</td>
+      <td>Command</td>
+    </tr>
+    <tr>
+      <td>^</td>
+      <td>Control</td>
+    </tr>
+    <tr>
+      <td>$</td>
+      <td>Shift</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can use any combination of symbols when defining your shortcut. I like <span class="keycombo combined" title="Option-R"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">R</kbd></span> (<code class="language-plaintext highlighter-rouge">~r</code>) because it has no conflicts that I know of and is easily reachable with my left hand. Also there’s a mnemonic quality with “r” for “repeat.” Choose whatever you like.</p>
+
+<p>Once the above <code class="language-plaintext highlighter-rouge">defaults</code> command is run, relaunch whatever app you want to test it in. It will work in TextEdit, nvUltra, Bear, Pages… most apps that you would use on your Mac. But a restart of the app will be required for the new bindings to be recognized.</p>
+
+<p>Now, type your selected shortcut (<span class="keycombo combined" title="Option-R"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">R</kbd></span> if you didn’t change it), then type a number (any number of digits), then type “x”. If you typed <code class="language-plaintext highlighter-rouge">&lt;SHORTCUT&gt;10x</code>, you should get <code class="language-plaintext highlighter-rouge">xxxxxxxxxx</code>. This works with both character insertions and movement keys and text operations. For example, if you type <code class="language-plaintext highlighter-rouge">&lt;SHORTCUT&gt;5</code> and then hit <span class="keycombo combined" title="Option-Delete"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">&#9003;</kbd></span>, it would delete backwards 5 words. Each step of the repeat process is stored in the undo buffer, so undoing it would require five <span class="keycombo combined" title="Command-Z"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">Z</kbd></span>s. This is actually a feature, because if you’re estimating how many words back to delete but guess wrong, you can undo a couple to restore them individually.</p>
+
+<p>One niche example use for this is when you want to insert a redacted password or API key when you’re writing. You know the length of the password or key should be 20 characters, so you just type <span class="keycombo combined" title="Option-R"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">R</kbd></span><code class="language-plaintext highlighter-rouge">20x</code> and get a string of x’s of the appropriate length. Or if you want to select the previous 3 words in the current line, just type <span class="keycombo combined" title="Option-R"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">R</kbd></span><code class="language-plaintext highlighter-rouge">3</code><span class="keycombo combined" title="Option-Shift-Left Arrow Key"><kbd class="mod symbol">&#8997;</kbd><kbd class="mod symbol">&#8679;</kbd><kbd class="key symbol">&#8592;</kbd></span>. Much like Vim, it takes a second of thought to figure out how many times you want to repeat an action, and in some cases it’s faster to just hit the key that number of times. But give it a go and make a conscious effort to use it for a while, I bet it will stick.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 37.50%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/repeat-binding.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/repeat-binding.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/repeat-binding.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<blockquote>
+  <p>Weirdly this trick doesn’t work for <span class="keycombo combined" title="Command-V"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">V</kbd></span>, which is disappointing because one very common use I could see for it would be to copy something and then paste it X number of times. I can’t explain why that doesn’t work.</p>
+</blockquote>
+
+<p>Hope that leads to some fun/increased productivity for folks willing to try it. If you have any favorite keyboard tricks, please feel free to share in the comments!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F19%2Fmacos-keybinding-tricks-the-repeat-count-binding%2F&amp;text=macOS+keybinding+tricks%3A+the+repeat+count+binding&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F19%2Fmacos-keybinding-tricks-the-repeat-count-binding%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16502539.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-19T15:12:00-06:00</pubDate>
+<pubDate>2023-12-19T15:12:00-06:00</pubDate>
+</item>
 
 <item>
 <title>macOS keybinding tricks: The kill ring</title>
