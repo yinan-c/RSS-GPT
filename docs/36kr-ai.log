@@ -11734,3 +11734,28 @@ Filter: [「实在智能」完成近2亿元C轮融资，推出基于自研大模
 Filter: [大模型之战下半场：从通用到行业垂直，「向下」扎根](https://www.36kr.com/p/2565884745588867)
 append_entries: 0
 Finish: 2023-12-19 06:15:10.777182
+------------------------------------------------------
+Started: 2023-12-19 08:15:15.080582
+Existing_entries: 381
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [异军突起的小模型，有多大想象空间？](https://www.36kr.com/p/2567179311849607)
+Token length: 3066
+Summarized using GPT-3.5-turbo-1106
+Append: [ChatGPT的2023：开创人工智能的新纪元](https://www.36kr.com/p/2567145501843593)
+Filter: [All in AI的周鸿祎，摇摆不定的360](https://www.36kr.com/p/2567142209658757)
+Filter: [人工智能热潮下危机四伏，普通人要如何应对？](https://www.36kr.com/p/2567086506352777)
+Filter: [最新GPT-4.5疑似泄露，更强多模态，支持3D，价格飙6倍](https://www.36kr.com/p/2567141604189826)
+Filter: [“造假”的谷歌，暴露了AI大模型行业的致命问题](https://www.36kr.com/p/2567130931847297)
+Filter: [2023年，快消行业十大关键词](https://www.36kr.com/p/2566972838765961)
+Filter: [AI新战场打响，硅谷五巨头瞄准智能眼镜](https://www.36kr.com/p/2566324359734659)
+Filter: [网传Gemini用文心一言训练？可能谷歌也是受害者](https://www.36kr.com/p/2566812942444164)
+Filter: [发没发布吵了一周，你在对GPT-4.5期待些什么](https://www.36kr.com/p/2566852062094721)
+Filter: [对话人工智能专家：4种方式，让人工智能助力个人发展](https://www.36kr.com/p/2523219973449217)
+Filter: [越来越像人类的AI，提前过起「圣诞节」](https://www.36kr.com/p/2566149690269827)
+Filter: [UC伯克利发现GPT-4惊人缺陷：儿童从经验中学习因果，LLM却不行](https://www.36kr.com/p/2566147589809801)
+Filter: [GPT-4化身邪恶化学家，中国科大等发布首个「科学风险」基准和SciGuard大模型](https://www.36kr.com/p/2566135046301065)
+Filter: [Gemini自曝中文用百度文心一言训练，网友看呆：大公司互薅羊毛？](https://www.36kr.com/p/2566130233796233)
+Filter: [word2vec作者曝与Ilya等十年积怨：seq2seq也是我的想法](https://www.36kr.com/p/2566128192611721)
+Filter: [华人团队用大模型实现“读心术”：大脑活动直接变文字](https://www.36kr.com/p/2566123388790400)
+append_entries: 1
+Finish: 2023-12-19 08:15:26.642944
