@@ -10503,3 +10503,12 @@ Existing_entries: 350
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-19 08:15:04.824008
+------------------------------------------------------
+Started: 2023-12-19 10:11:59.601439
+Existing_entries: 350
+Fetching from https://rsshub.app/sspai/index
+Token length: 7141
+Summarized using GPT-3.5-turbo-1106
+Append: [我的第三台电车，为什么选择蔚来 ES6？](https://sspai.com/post/85055)
+append_entries: 1
+Finish: 2023-12-19 10:12:06.308739
