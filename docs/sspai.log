@@ -10473,3 +10473,12 @@ Existing_entries: 348
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-19 00:52:47.276072
+------------------------------------------------------
+Started: 2023-12-19 02:24:35.293875
+Existing_entries: 348
+Fetching from https://rsshub.app/sspai/index
+Token length: 2124
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：Adobe 放弃收购 Figma、微软 Copilot 被指错误率过高等](https://sspai.com/post/85166)
+append_entries: 1
+Finish: 2023-12-19 02:24:41.613889
