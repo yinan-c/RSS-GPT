@@ -10488,3 +10488,12 @@ Existing_entries: 349
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-19 04:13:54.672944
+------------------------------------------------------
+Started: 2023-12-19 06:14:52.890294
+Existing_entries: 349
+Fetching from https://rsshub.app/sspai/index
+Token length: 1554
+Summarized using GPT-3.5-turbo-1106
+Append: [一日一技 | Windows 连接特定 WiFi 自动静音](https://sspai.com/post/84576)
+append_entries: 1
+Finish: 2023-12-19 06:15:00.031603
