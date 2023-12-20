@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Eleventy Post Graph Plugin</title>
 <link>https://rknight.me/eleventy-post-graph-plugin/</link>
 <guid>https://rknight.me/eleventy-post-graph-plugin/</guid>
 <content:encoded><![CDATA[
 <div> moment.js, Eleventy, plugin, postMap, options
-总结:<br><br>这篇文章介绍了作者如何使用moment.js和Eleventy创建了一个插件，用于在网站上显示帖子的日历图。作者提到了postMap对象的结构和使用方法，以及为处理不同用例而添加的选项。作者也提到了未考虑到的特殊情况，并给出了解决方案。文章最后提到了在网站上使用插件的邀请和一些遗漏的东西。<br> <div>
+总结:<br /><br />这篇文章介绍了作者如何使用moment.js和Eleventy创建了一个插件，用于在网站上显示帖子的日历图。作者提到了postMap对象的结构和使用方法，以及为处理不同用例而添加的选项。作者也提到了未考虑到的特殊情况，并给出了解决方案。文章最后提到了在网站上使用插件的邀请和一些遗漏的东西。<br /> <div>
 <p>Last week I <a href="https://social.lol/@robb/111586346073402453">tooted about my Github-style post graph</a> on <a href="https://rknight.me/blog/stats">my stats page</a> and people seemed to like it. <a href="https://jamesdoc.com/blog/">James</a> added one to his blog pages. <a href="https://social.lol/@pimoore/111586392676224177">Pete swore at me</a>. I knew I had to make it into an Eleventy plugin so other people could us it easily.</p>
 <p><img alt="Screenshot of eleventy-plugin-post-graph" src="https://rknightuk.s3.amazonaws.com/site/eleventy-plugin-post-graph-screenshot.png" /></p>
 <p>If you just want to jump straight into using it, <a href="https://postgraph.rknight.me">check out the docs here</a>.</p>
@@ -28,10 +29,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2023-12-19T15:10:02.341+00:00</pubDate>
 </item>
-
 <item>
 <title>Meta Doesn't Need ActivityPub to Slurp Up Your Data</title>
 <link>https://rknight.me/meta-doesnt-need-activitypub-to-slurp-up-your-data/</link>

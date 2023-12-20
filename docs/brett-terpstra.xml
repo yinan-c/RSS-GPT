@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>macOS keybinding tricks: the repeat count binding</title>
 <link>https://brett.trpstra.net/link/535/16502539/macos-keybinding-tricks-the-repeat-count-binding</link>
 <guid>https://brett.trpstra.net/link/535/16502539/macos-keybinding-tricks-the-repeat-count-binding</guid>
 <content:encoded><![CDATA[
-<div> Vim, macOS, 快捷键, 重复操作, 文本编辑器<br>
-总结:<br>
+<div> Vim, macOS, 快捷键, 重复操作, 文本编辑器<br />
+总结:<br />
 本文介绍了在macOS上利用快捷键来实现重复操作的技巧。通过设置特定的快捷键，用户可以在文本编辑器中使用数字来指定重复次数，从而提高编辑效率。同时，作者还分享了一些使用这一技巧的场景，以及一些注意事项。 <div>
 <p>Another trick for readers interested in honing their keyboard-fu on macOS.</p>
 
@@ -77,9 +78,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16502539.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-19T15:12:00-06:00</pubDate>
-<pubDate>2023-12-19T15:12:00-06:00</pubDate>
 </item>
-
 <item>
 <title>macOS keybinding tricks: The kill ring</title>
 <link>https://brett.trpstra.net/link/535/16501154/macos-keybinding-tricks-the-kill-ring</link>
