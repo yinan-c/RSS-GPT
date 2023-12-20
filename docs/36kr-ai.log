@@ -12030,3 +12030,30 @@ Filter: [Gemini自曝文心一言牵出重大难题，全球陷入高质量数�
 Filter: [异军突起的小模型，有多大想象空间？](https://www.36kr.com/p/2567179311849607)
 append_entries: 0
 Finish: 2023-12-20 08:11:58.395263
+------------------------------------------------------
+Started: 2023-12-20 10:10:42.796328
+Existing_entries: 386
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2328
+Summarized using GPT-3.5-turbo-1106
+Append: [前OpenAI首席科学家Ilya: 只要能够预测下一个token，人类就能达到AGI](https://www.36kr.com/p/2568905938331270)
+Filter: [李飞飞吴恩达等2024年AI十大预测，GPU短缺，AI智能体一年内大爆发](https://www.36kr.com/p/2568903521346944)
+Token length: 1050
+Summarized using GPT-3.5-turbo-1106
+Append: [AI把OpenAI内斗魔改成晋江文学，插图也能画，最新工具爆火，网友冲崩服务器](https://www.36kr.com/p/2568851647424137)
+Append: [OpenAI：如GPT-5太危险，董事会有权阻止奥特曼发布](https://www.36kr.com/p/2568849150355079)
+Filter: [谷歌10秒视频生成模型破世界记录，LLM终结扩散模型，效果碾压顶流Gen-2](https://www.36kr.com/p/2568674027234950)
+Filter: [人工智能行业那个有趣的灵魂走了](https://www.36kr.com/p/2568650065290631)
+Filter: [研究发现：人工智能工具会损害你的心理健康](https://www.36kr.com/p/2438620625064576)
+Filter: [百亿估值背后，起底智谱AI](https://www.36kr.com/p/2567518770257794)
+Filter: [2023开年热词「大模型」「出海」，现在怎么样了？](https://www.36kr.com/p/2568464639223431)
+Filter: [大模型赚钱4大流派，谁能赢？](https://www.36kr.com/p/2568391704469634)
+Filter: [可支持千亿大模型训练，摩尔线程推出全国产GPU千卡智算中心｜最前线](https://www.36kr.com/p/2567519337260423)
+Filter: [大厂百万年薪抢人，大模型三大竞争力：赚钱、人才、数据](https://www.36kr.com/p/2567648573924998)
+Filter: [用大模型一站式解决企业服务难题，「安安创新」完成1500万天使轮融资｜36氪首发](https://www.36kr.com/p/2567607543719299)
+Filter: [未来将至，人形机器人产业乘大模型东风进入发展“快车道”](https://www.36kr.com/p/2567524941734022)
+Filter: [“人形机器人第一股”来了，机构直呼：明年或迎商业化元年](https://www.36kr.com/p/2567539632612736)
+Filter: [医院为何对前沿AI不感冒？](https://www.36kr.com/p/2567517017745026)
+Filter: [在中国一夜爆红、一个半月后注销国内主体，明星创业公司HeyGen真有出路吗？](https://www.36kr.com/p/2567512965047685)
+append_entries: 3
+Finish: 2023-12-20 10:11:01.468626

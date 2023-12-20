@@ -10593,3 +10593,15 @@ Existing_entries: 356
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-20 08:11:49.733027
+------------------------------------------------------
+Started: 2023-12-20 10:10:15.011424
+Existing_entries: 356
+Fetching from https://rsshub.app/sspai/index
+Token length: 4857
+Summarized using GPT-3.5-turbo-1106
+Append: [敲响圣诞「叮叮当」，让这 8 部圣诞影片陪你迎接新年](https://sspai.com/post/85156)
+Token length: 5093
+Summarized using GPT-3.5-turbo-1106
+Append: [放轻松 | 用放松，重夺生活的掌控感](https://sspai.com/post/85159)
+append_entries: 2
+Finish: 2023-12-20 10:10:33.597808
