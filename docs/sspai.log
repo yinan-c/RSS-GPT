@@ -10578,3 +10578,12 @@ Existing_entries: 355
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-20 04:11:26.476998
+------------------------------------------------------
+Started: 2023-12-20 06:12:34.239881
+Existing_entries: 355
+Fetching from https://rsshub.app/sspai/index
+Token length: 1404
+Summarized using GPT-3.5-turbo-1106
+Append: [一日一技 | 妙用终端清理 macOS 启动台顽固图标](https://sspai.com/post/85136)
+append_entries: 1
+Finish: 2023-12-20 06:12:42.666713
