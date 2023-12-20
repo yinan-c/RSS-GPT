@@ -10805,3 +10805,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2023-12-20 12:17:12.323076
+------------------------------------------------------
+Started: 2023-12-20 14:09:06.063274
+Existing_entries: 201
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【自荐】ToMemo：在键盘中用免费的 Gemini Pro [iOS]](https://meta.appinn.net/t/topic/50581)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-20 14:09:10.027019

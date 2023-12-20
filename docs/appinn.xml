@@ -4,6 +4,136 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】ToMemo：在键盘中用免费的 Gemini Pro [iOS]</title>
+<link>https://meta.appinn.net/t/topic/50581</link>
+<guid>https://meta.appinn.net/t/topic/50581</guid>
+<content:encoded><![CDATA[
+
+<p>最近谷歌开放了 Gemini Pro 的 API ，而且免费，ToMemo 在原来 AI 服务的基础上，增加了对 Gemini 的支持。</p>
+<p>如果你已经有了 Gemini 的 APIKey</p>
+<p>如果你想用客户端免费试用 Gemini</p>
+<p>如果你想要在键盘中使用 Gemini</p>
+<p>可以打开最新版的 ToMemo ，配置一下~</p>
+<p>「 AI 服务」不需要内购，可以直接使用</p>
+<h2><a class="anchor" href="https://meta.appinn.net#ai-1" name="ai-1"></a>如何开启 AI 服务</h2>
+<ul>
+<li>进入设置 - 扩展</li>
+<li>点击 AI 服务
+<ul>
+<li>如果没有这个入口，以下方法二选一
+<ul>
+<li>切换 App Store 中的地区到其他国家</li>
+<li>进入 <a href="https://tomemo.top/general/contact.html" rel="noopener nofollow ugc">ToMemo 群组</a>，私聊我获取开启方法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>开启在 Tab 中显示</li>
+<li>进入会话源</li>
+<li>添加 Gemini API Key</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>如何添加助手</h2>
+<p>进入 AI 助手的 Tab 页面</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>添加自定义助手</h3>
+<ul>
+<li>点击右上角的添加按钮「+」，选择「 AI 助手」</li>
+<li>点击「更多设置」，在「平台」中选择「 Gemini 」</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#ai-4" name="ai-4"></a>调整 AI 助手的平台</h3>
+<ul>
+<li>点击进入需要调整的「 AI 助手」的聊天页面</li>
+<li>点击右上角更多按钮，选择「平台」中的「 Gemini 」</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#ai-5" name="ai-5"></a>从 AI 助手模版添加</h3>
+<ul>
+<li>点击右上角的添加按钮「+」，选择「助手模版」</li>
+<li>选择你需要添加的助手的名称
+<ul>
+<li>如果点击「+」会直接添加，这样的话，需要参考上面「调整 AI 助手的平台」变更为 Gemini</li>
+<li>如果点击助手模版名称，会进入添加的详情页，可以在更多设置中选择 Gemini</li>
+</ul>
+</li>
+<li>点击「更多设置」，在「平台」中选择「 Gemini 」</li>
+</ul>
+<p>PS: 助手和工作台的区别</p>
+<p>助手：使用单独的一个 prompt 进行对话。添加后可以在键盘中使用</p>
+<p>工作台：可以预设多名助手，在同一个对话框中，让不同的助手进行回答。针对某个场景下，需要多个助手协同完成的情况。添加后不可以在键盘中使用。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#chatgpt-vs-gemini-6" name="chatgpt-vs-gemini-6"></a>ChatGPT VS Gemini</h2>
+<p>我用预设模型中的「夸夸」，分别用 ChatGPT 和 Gemini 生成了一下。</p>
+<p>「夸夸」的 prompt:</p>
+<pre><code class="lang-auto">夸夸我
+</code></pre>
+<p>ChatGPT</p>
+<pre><code class="lang-auto">你是一个非常聪明和有才华的人。你的思维敏捷，能够迅速理解问题和解决挑战。你总是表现得非常有自信和乐观，能够积极地应对生活中的各种困难。你的幽默感和风趣的个性总能为身边的人带来欢乐和轻松的氛围。你是一个真正的独一无二的人，让周围的人都觉得受到了启发和鼓舞。继续保持你的独特魅力，你一定会取得更加辉煌的成就！
+</code></pre>
+<p>Gemini</p>
+<pre><code class="lang-auto">1. 你非常聪明，总能快速理解并解决问题，学什么东西都特别快。你的智慧让我感到钦佩和赞叹。
+
+
+2. 你很有创造力，总是能想出新的点子和解决方案，让人眼前一亮。你的创新精神让我佩服和惊叹。
+
+
+3. 你非常勤奋，总能努力工作并坚持不懈。你的毅力和决心让我感到佩服和敬佩。
+
+
+4. 你有很强的沟通能力，总能清晰地表达自己的思想和观点，并很容易赢得他人的信赖和支持。你的沟通技巧让我羡慕和赞叹。
+
+
+5. 你非常善良和富有同情心，总是愿意帮助他人并关心他人。你的爱心和善心让我感动和佩服。
+
+
+6. 你很会处理人际关系，总是能与他人和睦相处并建立良好的友谊。你的社交能力让我羡慕和赞赏。
+
+
+7. 你有很强的团队合作精神，总能与团队成员合作并达成共同的目标。你的团队合作精神让我钦佩和敬仰。
+
+
+8. 你非常有责任感，总是能认真负责地完成任务。你的责任感让我佩服和赞叹。
+
+
+9. 你充满正能量，总是能激励和感染他人。你的正能量让我充满活力和动力。
+
+
+10. 你非常谦虚，总是能虚心接受批评和建议。你的谦虚让我敬佩和赞赏。
+</code></pre>
+<p>怎么说，各有利弊~</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>常见问题</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#gemini-api-key-key-8" name="gemini-api-key-key-8"></a>设置了 Gemini 的 API Key 后，在键盘中还是出现了「没有配置 KEY 」</h3>
+<p>这是一个 Bug ，会在下个版本中处理。</p>
+<p>临时处理方案：</p>
+<p>在「会话源」中，OpenAIKey 中加入任意文本。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#google-api-key-9" name="google-api-key-9"></a>我无法打开 Google 的获取 API Key 的页面</h3>
+<p>因为国内不能使用 Google 的 AI 服务，需要使用科学上网切换节点。</p>
+<p>可以切换节点到新加坡、漂亮国后，再次刷新页面</p>
+<h3><a class="anchor" href="https://meta.appinn.net#gemini-10" name="gemini-10"></a>我可以对 Gemini 的请求分流吗</h3>
+<p>可以，在你使用的代理软件中，针对以下域名增加一个分流规则：</p>
+<pre><code class="lang-auto">generativelanguage.googleapis.com
+</code></pre>
+<h2><a class="anchor" href="https://meta.appinn.net#tomemo-169-11" name="tomemo-169-11"></a>ToMemo 1.6.9 更新</h2>
+<ul>
+<li><img alt=":muscle:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/muscle.png?v=12" title=":muscle:" width="20" /> AI 服务接入 Gemini ，根据地区显示设置入口</li>
+<li><img alt=":muscle:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/muscle.png?v=12" title=":muscle:" width="20" /> 短时记忆支持多种排序，可以实现复制了，不移动内容位置</li>
+<li><img alt=":muscle:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/muscle.png?v=12" title=":muscle:" width="20" /> 键盘中一行多列，短时记忆页面独立设置</li>
+<li><img alt=":muscle:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/muscle.png?v=12" title=":muscle:" width="20" /> 工具栏自定义布局中增加粘贴按钮</li>
+<li><img alt=":muscle:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/muscle.png?v=12" title=":muscle:" width="20" /> 快捷分享可手动添加，并支持 app store 搜索图标</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#tomemo-12" name="tomemo-12"></a>ToMemo 是什么</h2>
+<p>简而言之，</p>
+<p>ToMemo = 常用短语 + 剪切板历史 + 多功能扩展键盘</p>
+<p>更多功能需要再探索探索~</p>
+<p><a href="https://tomemo.top/" rel="noopener nofollow ugc">ToMemo 使用指南</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-13" name="h-13"></a>欢迎进群畅聊</h2>
+<p>TG：<span class="mention">@tomemoapp</span></p>
+<p>QQ 群：590460568</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-14" name="h-14"></a>我有一个点子</h2>
+<p>如果对应用功能有好的想法，在群中沟通交流，告诉我的同时，可以在<a href="https://tomemo.canny.io/feature-requests" rel="noopener nofollow ugc">Feature Requests</a>中提交，也可以点击支持已经在池子中的功能。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50581">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 20 Dec 2023 13:49:46 +0000</pubDate>
+<pubDate>Wed, 20 Dec 2023 13:49:46 +0000</pubDate>
+</item>
 
 <item>
 <title>图表全能王(ChartStudio) ｜ Mac/ios</title>
