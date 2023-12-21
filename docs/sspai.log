@@ -10662,3 +10662,12 @@ Existing_entries: 359
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-21 04:13:35.092658
+------------------------------------------------------
+Started: 2023-12-21 06:14:52.834677
+Existing_entries: 359
+Fetching from https://rsshub.app/sspai/index
+Token length: 3213
+Summarized using GPT-3.5-turbo-1106
+Append: [当我调酒时，我在想些什么](https://sspai.com/post/84505)
+append_entries: 1
+Finish: 2023-12-21 06:15:03.255035
