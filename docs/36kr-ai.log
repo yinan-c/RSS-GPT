@@ -12352,3 +12352,10 @@ Filter: [英特尔、AMD等集体卷AI PC，能从英伟达手中抢下蛋糕吗
 Filter: [together.ai让AI模型训练快9倍，获NVIDIA参投1.025亿美元A轮融资](https://www.36kr.com/p/2569015338672257)
 append_entries: 0
 Finish: 2023-12-21 12:20:56.976404
+------------------------------------------------------
+Started: 2023-12-21 14:10:52.107895
+Existing_entries: 393
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
