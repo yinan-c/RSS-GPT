@@ -10686,3 +10686,12 @@ Existing_entries: 361
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-21 10:12:06.453718
+------------------------------------------------------
+Started: 2023-12-21 12:20:37.866688
+Existing_entries: 361
+Fetching from https://rsshub.app/sspai/index
+Token length: 2815
+Summarized using GPT-3.5-turbo-1106
+Append: [设计优化、功能更强，时隔五年的大更新：OmniFocus 4](https://sspai.com/post/68428)
+append_entries: 1
+Finish: 2023-12-21 12:20:44.415183
