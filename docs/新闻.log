@@ -5278,3 +5278,14 @@ Fetching from https://feedx.net/rss/nytimes.xml
 Feed error: document declared as us-ascii, but parsed as utf-8
 append_entries: 0
 Finish: 2023-12-21 14:15:09.152120
+------------------------------------------------------
+Started: 2023-12-21 16:21:11.514339
+Existing_entries: 0
+Fetching from https://feedx.net/rss/wsj.xml
+Feed error: document declared as us-ascii, but parsed as utf-8
+Fetching from https://dedicated.wallstreetcn.com/rss.xml
+Feed error: text/html; charset=UTF-8 is not an XML media type
+Fetching from https://feedx.net/rss/nytimes.xml
+Feed error: document declared as us-ascii, but parsed as utf-8
+append_entries: 0
+Finish: 2023-12-21 16:21:14.759644
