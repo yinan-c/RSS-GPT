@@ -10975,3 +10975,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [Tran 简洁, 快速, 划词翻译](https://meta.appinn.net/t/topic/50645)
 append_entries: 1
 Finish: 2023-12-22 06:14:42.157761
+------------------------------------------------------
+Started: 2023-12-22 08:13:49.366342
+Existing_entries: 203
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-12-22 08:13:53.251522
