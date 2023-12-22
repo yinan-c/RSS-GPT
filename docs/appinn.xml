@@ -4,6 +4,98 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Tran 简洁, 快速, 划词翻译</title>
+<link>https://meta.appinn.net/t/topic/50645</link>
+<guid>https://meta.appinn.net/t/topic/50645</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Tran</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Windows / Linux / MacOS</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>简洁, 快速, 划词翻译</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>功能</h1>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">划词翻译</th>
+<th style="text-align: center;">划过固定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="translate" height="278" src="https://fastly.jsdelivr.net/gh/Borber/PublicPic1/tran/v1/translate.gif" width="527" /></td>
+<td style="text-align: center;"><img alt="drag" height="278" src="https://fastly.jsdelivr.net/gh/Borber/PublicPic1/tran/v1/drag.gif" width="525" /></td>
+</tr>
+</tbody>
+</table>
+</div><div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">划过关闭</th>
+<th style="text-align: center;">划过复制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="close" height="278" src="https://fastly.jsdelivr.net/gh/Borber/PublicPic1/tran/v1/close.gif" width="525" /></td>
+<td style="text-align: center;"><img alt="copy" height="278" src="https://fastly.jsdelivr.net/gh/Borber/PublicPic1/tran/v1/copy.gif" width="525" /></td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>快捷键：</strong> <code>Alt + X</code></p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>构建</h1>
+<div align="center">
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>To \ Form</strong></th>
+<th style="text-align: center;"><strong>ZH</strong></th>
+<th style="text-align: center;"><strong>JA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>ZH</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><img alt=":white_check_mark:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" width="20" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>EN</strong></td>
+<td style="text-align: center;"><img alt=":white_check_mark:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" width="20" /></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>JA</strong></td>
+<td style="text-align: center;"><img alt=":white_check_mark:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" width="20" /></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div></div>
+<blockquote>
+<p><code>Form</code> 为第一语言, 非第一语言将翻译为第一语言</p>
+<p><code>To</code> 为第二语言, 第一语言将翻译为第二语言</p>
+</blockquote>
+<p><strong>Q: 为什么要分别构建, 而不是一个程序支持所有语言呢?</strong></p>
+<p>因为每多一种语言类型, 构建的包就会增大, 若支持大多数语言，程序将增大到数十 m,而这对于仅需要两种语言(<s>就是我</s>)的人不太友好, 并且也会导致识别语言类型时花费更多的时间. 所以<code>tran</code>将分别构建</p>
+<p><strong>如果你有其他语言的需要, 请提 <code>issue</code> 我将添加构建</strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>官方网站</h2>
+<p><a href="https://tran.borber.top/" rel="noopener nofollow ugc">Tran (borber.top)</a></p>
+<p><a href="https://github.com/Borber/tran" rel="noopener nofollow ugc">Borber/tran: 简洁, 快速, 划词翻译 (github.com)</a> 如果对你有用可以点个<img alt=":star:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/star.png?v=12" title=":star:" width="20" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50645">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 22 Dec 2023 05:11:12 +0000</pubDate>
+<pubDate>Fri, 22 Dec 2023 05:11:12 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】ToMemo：在键盘中用免费的 Gemini Pro [iOS]</title>
