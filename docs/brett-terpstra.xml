@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>More keybindings: Text editing shortcuts</title>
 <link>https://brett.trpstra.net/link/535/16505229/more-keybindings-text-editing-shortcuts</link>
 <guid>https://brett.trpstra.net/link/535/16505229/more-keybindings-text-editing-shortcuts</guid>
 <content:encoded><![CDATA[
 <div> Text editing shortcuts, DefaultKeyBinding.dict, ⌘⏎, moving lines, Danish
-Cocoa文本字段在Mac上的兼容性问题；⌘⏎命令在任何Cocoa文本字段上都可以使用，可以用于快速插入空行，但需要注意与应用程序的特殊功能冲突问题；对默认的⌥O进行了重新绑定，以及如何在文本文档中编辑这些绑定；如何在文本中移动当前行并进行缩进；提到了在丹麦、挪威、法罗群岛和南萨米语中会存在特殊字符的输入问题。 <br><br>总结: 这篇文章主要介绍了在Mac上使用DefaultKeyBinding.dict文件对文本编辑快捷键进行重新绑定的方法，以及如何移动行和缩进文本。同时也提到了在丹麦、挪威、法罗群岛和南萨米语中输入特殊字符的问题。 <div>
+Cocoa文本字段在Mac上的兼容性问题；⌘⏎命令在任何Cocoa文本字段上都可以使用，可以用于快速插入空行，但需要注意与应用程序的特殊功能冲突问题；对默认的⌥O进行了重新绑定，以及如何在文本文档中编辑这些绑定；如何在文本中移动当前行并进行缩进；提到了在丹麦、挪威、法罗群岛和南萨米语中会存在特殊字符的输入问题。 <br /><br />总结: 这篇文章主要介绍了在Mac上使用DefaultKeyBinding.dict文件对文本编辑快捷键进行重新绑定的方法，以及如何移动行和缩进文本。同时也提到了在丹麦、挪威、法罗群岛和南萨米语中输入特殊字符的问题。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -135,9 +136,7 @@ Cocoa文本字段在Mac上的兼容性问题；⌘⏎命令在任何Cocoa文本�
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16505229.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-21T15:57:00-06:00</pubDate>
-<pubDate>2023-12-21T15:57:00-06:00</pubDate>
 </item>
-
 <item>
 <title>HoudahSpot: Powerful file search -- skip filing, start finding [Sponsor]</title>
 <link>https://brett.trpstra.net/link/535/16504780/houdahspot-powerful-file-search-skip-filing-start-finding-sponsor</link>
