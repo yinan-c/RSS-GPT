@@ -4,6 +4,139 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>More keybindings: Text editing shortcuts</title>
+<link>https://brett.trpstra.net/link/535/16505229/more-keybindings-text-editing-shortcuts</link>
+<guid>https://brett.trpstra.net/link/535/16505229/more-keybindings-text-editing-shortcuts</guid>
+<content:encoded><![CDATA[
+<div> Text editing shortcuts, DefaultKeyBinding.dict, ⌘⏎, moving lines, Danish
+Cocoa文本字段在Mac上的兼容性问题；⌘⏎命令在任何Cocoa文本字段上都可以使用，可以用于快速插入空行，但需要注意与应用程序的特殊功能冲突问题；对默认的⌥O进行了重新绑定，以及如何在文本文档中编辑这些绑定；如何在文本中移动当前行并进行缩进；提到了在丹麦、挪威、法罗群岛和南萨米语中会存在特殊字符的输入问题。 <br><br>总结: 这篇文章主要介绍了在Mac上使用DefaultKeyBinding.dict文件对文本编辑快捷键进行重新绑定的方法，以及如何移动行和缩进文本。同时也提到了在丹麦、挪威、法罗群岛和南萨米语中输入特殊字符的问题。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img class="alignright" height="233" src="https://cdn3.brettterpstra.com/uploads/2014/08/keybindings-header.jpg" width="350" />
+              </noscript>
+            
+<p>I guess it&rsquo;s <a href="https://brettterpstra.com/projects/keybindings/" title="KeyBindings">keybinding week</a> this week. I&rsquo;ve talked about the <a href="https://brettterpstra.com/2023/12/18/macos-keybinding-tricks-the-kill-ring/">kill ring</a> and <a href="https://brettterpstra.com/2023/12/19/macos-keybinding-tricks-the-repeat-count-binding/">repeat binding</a>, but I&rsquo;ve been digging in and revamping my own <code class="language-plaintext highlighter-rouge">DefaultKeyBinding.dict</code> file, so I keep wanting to share some of the cooler things it can do because I know the file in the project is pretty massive and hard to parse.</p>
+
+<p>There are a ton of text editing shortcuts in my bindings (that&rsquo;s basically their sole purpose), but I wanted to highlight just a few that I use so often I don&rsquo;t even think about it.</p>
+
+<!--more-->
+
+<h3 id="textmate-command-return">TextMate Command-Return</h3>
+
+<p>First, <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span>. TextMate was the first place I ever saw this, but now it&rsquo;s pretty standard in most text editors, from Byword to nvUltra, VS Code to Sublime. When you hit <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span>, it moves your cursor to the end of the current line/paragraph and inserts a new line, no matter where you are in the paragraph. And <span class="keycombo combined" title="Shift-Command-Return Key"><kbd class="mod symbol">&#8679;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span> will do the same but <em>before</em> the current line/paragraph. It allows you to be editing in the middle of a graf, then just hit <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span> to start typing again, saving use of the mouse or arrow keys to get to the new insertion point.</p>
+
+<p>This keybinding will work in any Cocoa text field on your Mac, so it&rsquo;s no longer limited to your favorite coding app. It works in TextEdit, Mail, Pages (but not Word), and in apps like Bear, Day One, or NotePlan. Just about anywhere that uses native text fields.</p>
+
+<p>The first version I&rsquo;ll show you is the most universal. The reason for this is that <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span> is frequently used by apps for special purposes, and the app&rsquo;s keybindings will override your system-wide keybindings. So having a less-common shortcut makes this more available. I actually include both versions in my <code class="language-plaintext highlighter-rouge">.dict</code> file, and when I&rsquo;m in an app that overrides <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span>, I just switch to using this version.</p>
+
+<blockquote class="warn">
+  <p>I use <span class="keycombo combined" title="Option-O"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">O</kbd></span> for these, but note that doing so will mean you can&rsquo;t just type the slashed-O symbol (<code class="language-plaintext highlighter-rouge">Ø</code>) anymore<sup id="fnref:slashedo"><a class="footnote" href="https://brettterpstra.com#fn:slashedo" rel="footnote">1</a></sup>. If you never type that symbol, then you&rsquo;re fine, but if you do use it, you might want to consider a different shortcut.</p>
+</blockquote>
+
+<blockquote>
+  <p>To use any of the examples in this post, you&rsquo;ll just add them to <code class="language-plaintext highlighter-rouge">~/Library/KeyBindings/DefaultKeyBinding.dict</code>, a directory and text file you can create if it doesn&rsquo;t exist. The examples include the outer curly brackets, but if you&rsquo;re adding to an existing set of keybindings, only copy the portion inside of the curly brackets and place it within the existing outer curly brackets in your file.</p>
+
+  <p>If you&rsquo;re combining multiple examples from this post, you only want one set of curly brackets at the root, and then the contents can be appended within those curly brackets.</p>
+</blockquote>
+
+<p>Here are the bindings using <span class="keycombo combined" title="Option-O"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">O</kbd></span> as the shortcut:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{
+// blank line after current (Option-O)
+"~o" = (moveToEndOfParagraph:, insertNewline:);
+// blank line before current (Option-Shift-O)
+"~O" = (moveToBeginningOfParagraph:, moveLeft:, insertNewline:);
+}</code></pre></div></div>
+
+<p>And here are the same bindings using <span class="keycombo combined" title="Command-Return Key"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">&#9166;</kbd></span>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{
+// TextMate Command-Return (Command Return)
+"@\U000D" = (moveToEndOfParagraph:, insertNewline:);
+// Insert blank line above paragraph (Command Shift Return)
+"@$\U000D" = (moveToBeginningOfParagraph:, moveLeft:, insertNewline:);
+}</code></pre></div></div>
+
+<blockquote class="tip">
+  <p>Remember that any time you edit the <code class="language-plaintext highlighter-rouge">DefaultKeyBinding.dict</code> file, you have to restart open apps for the new bindings to be recognized.</p>
+</blockquote>
+
+<figure class="animated_vid_frame" style="padding-bottom: 37.69%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/cmdreturn.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/cmdreturn.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/cmdreturn.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<h3 id="moving-lines-around">Moving lines around</h3>
+
+<p>This is another binding that&rsquo;s quite common in more advanced editors: the ability to move the current line up or down, and to increase/decrease indentation. In Sublime Text these are bound to <span class="keycombo combined" title="Control-Command"><kbd class="mod symbol">&#8963;</kbd><kbd class="mod symbol">&#8984;</kbd></span>-Arrow keys. I use the Sublime bindings in VS Code, so I&rsquo;m not sure what they are there by default. But It&rsquo;s <em>so</em> nice to have these in any app, you can bind them to whatever shortcuts make sense to you. They won&rsquo;t override the native bindings in your favorite apps, so you can duplicate whatever you use most.</p>
+
+<p>With these installed, you can be anywhere in a paragraph and move the entire graf up and down, and back and forth. In keybinding terminology, a paragraph is any text that has a line break or BOF at its start, and ends in a line break. So in a Markdown unordered list, each list item is a paragraph.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{
+// &gt; Line motion with arrow keys
+// move line up (Control-Command-Up Arrow)
+"^@\UF700" = (selectParagraph:, setMark:, deleteToMark:, moveLeft:, moveToBeginningOfParagraph:, yank:, moveLeft:, selectToMark:, moveLeft:);
+// move line down (Control-Command-Down Arrow)
+"^@\UF701" = (selectParagraph:, setMark:, deleteToMark:, moveToEndOfParagraph:, moveRight:, setMark:, yank:, moveLeft:, selectToMark:);
+// indent line (Control-Command-Right Arrow)
+"^@\UF703" = (setMark:, moveToBeginningOfParagraph:, insertText:, "\t", swapWithMark:, moveRight:);
+// outdent line (one tab or char) (Control-Command-Left Arrow)
+"^@\UF702" = (setMark:, moveToBeginningOfParagraph:, moveRight:, deleteBackward:, swapWithMark:, moveLeft:);
+}</code></pre></div></div>
+
+<figure class="animated_vid_frame" style="padding-bottom: 54.89%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/linemotion2.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/linemotion2.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/linemotion2.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<blockquote class="tip">
+  <p>In case you were wondering, the list items in the animation were generated using the <a href="https://brettterpstra.com/2021/05/25/improvements-for-the-increment-templated-service-plus-popclip/">Increment Templated</a> service.</p>
+</blockquote>
+
+<blockquote class="warn">
+  <p>Note that these bindings aren&rsquo;t very smart or context-aware. If you try to outdent a paragraph that&rsquo;s already at the left border, it will instead remove the first character. And it doesn&rsquo;t respect newlines between paragraphs very well, so if you have three paragraphs with newlines between them, and then attempt to move the last one to the second spot, you&rsquo;ll need to add back the newline after moving. Which is where the TextMate bindings above come in <em>super</em> handy.</p>
+
+  <p>They also use a tab for indentation, which works great for outdenting lines that are indented with tabs. If, however, the indentation is spaces, the outdent binding will only delete one space at a time.</p>
+</blockquote>
+
+<p>If you&rsquo;re already used to Vim keybindings, you may want to try the same setup using <kbd>hjkl</kbd>. I&rsquo;ve found that these combinations conflict with a few different apps&rsquo; global shortcuts on my own system, but your mileage may vary. The arrow key version works everywhere for me, so this is just an example of alternative bindings.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{
+// move line up
+"^@k" = (selectParagraph:, setMark:, deleteToMark:, moveLeft:, moveToBeginningOfParagraph:, yank:, moveLeft:, selectToMark:, moveLeft:);
+// move line down
+"^@j" = (selectParagraph:, setMark:, deleteToMark:, moveToEndOfParagraph:, moveRight:, setMark:, yank:, moveLeft:, selectToMark:);
+// indent line
+"^@l" = (setMark:, moveToBeginningOfParagraph:, insertText:, "\t", swapWithMark:, moveRight:);
+// outdent line (one tab or char)
+"^@h" = (setMark:, moveToBeginningOfParagraph:, moveRight:, deleteBackward:, swapWithMark:, moveLeft:);
+}</code></pre></div></div>
+
+<p>Check out the <a href="https://brettterpstra.com/projects/keybindings/" title="KeyBindings">KeyBindings project</a> for more!</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:slashedo">
+      <p>This will likely only be a problem for people writing in Danish, Norwegion, Faroese, or Southern Sámi languages.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:slashedo">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F21%2Fmore-keybindings-text-editing-shortcuts%2F&amp;text=More+keybindings%3A+Text+editing+shortcuts&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F21%2Fmore-keybindings-text-editing-shortcuts%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16505229.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-21T15:57:00-06:00</pubDate>
+<pubDate>2023-12-21T15:57:00-06:00</pubDate>
+</item>
 
 <item>
 <title>HoudahSpot: Powerful file search -- skip filing, start finding [Sponsor]</title>
