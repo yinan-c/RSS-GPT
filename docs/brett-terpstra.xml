@@ -4,6 +4,81 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Multi-keystroke keybindings</title>
+<link>https://brett.trpstra.net/link/535/16506205/multi-keystroke-keybindings</link>
+<guid>https://brett.trpstra.net/link/535/16506205/multi-keystroke-keybindings</guid>
+<content:encoded><![CDATA[
+<div> 键绑定，多重按键组合，PLIST，Markdown，快捷键<br>
+<br>总结:
+本文介绍了如何利用多重按键组合来创建自定义的键绑定。作者使用了PLIST文件来定义不同的键绑定，并且可以进行多级嵌套，使得可以创建具有逻辑和记忆性的键盘快捷键。这种方法可以大大扩展可用的快捷键组合，同时也提高了使用效率。文章还提到了Markdown命令的多级嵌套例子，进一步展示了这种方法的灵活性和实用性。建议读者可以查阅作者的博客以获得更多灵感。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Keyboard illustration" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/12/kbshortcutsheader-rb.jpg" title="Keyboard illustration" width="800" />
+              </noscript>
+            
+
+<p>Ok, this one will probably wrap up this little run of key binding tricks. It&rsquo;s been fun, though, and I&rsquo;d love to answer any questions I can in <a href="https://forum.brettterpstra.com">the forum</a>.</p>
+
+<p>If you&rsquo;ve ever examined <a href="https://brettterpstra.com/projects/keybindings/">my master <code class="language-plaintext highlighter-rouge">DefaultKeyBinding.dict</code></a> (or even looked at the readme), you&rsquo;ll see that I make use of a lot of multi-stroke key combos. There are only so many key combinations available, and you&rsquo;re bound to run out of ones that don&rsquo;t conflict with other shortcuts on your system. But with the magic of multi-stroke bindings, you can take one available shortcut and add secondary &ldquo;child&rdquo; shortcuts with the whole keyboard available for assignment again.</p>
+
+<!--more-->
+
+<p>For example, the <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a> bindings I use start with <span class="keycombo combined" title="Control-Command-G"><kbd class="mod symbol">&#8963;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">G</kbd></span>. So I press that, then I can type a single letter to determine what type of SearchLink syntax gets inserted, e.g. <span class="keycombo combined" title="Control-Command-G"><kbd class="mod symbol">&#8963;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">G</kbd></span> followed by <span class="keycombo combined" title="M"><kbd class="key symbol">M</kbd></span> inserts an IMDB search.</p>
+
+<p>To create a mutli-stroke binding, you just nest a PLIST inside of the root PLIST, keyed off the initial key combination:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{
+"^@g" = { // SearchLink commands
+    // IMDB Search
+    "m" = (setMark:, moveRight:, insertText:, " ", deleteToMark:, insertText:, " [", moveLeft:, deleteBackward:, moveRight:, yank:, moveLeft:, insertText:, "](!imdb)", moveRight:, deleteBackward:, moveLeft:);
+ };
+}</code></pre></div></div>
+
+<figure class="animated_vid_frame" style="padding-bottom: 39.25%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/imdblink.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/imdblink.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/imdblink.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<h3 id="going-deeper">Going Deeper</h3>
+
+<p>You can actually continue nesting, creating three-or-more -stroke sequences, though I don&rsquo;t know how many of those I could keep track of. Mnemonics do make it easy, though. I use a three-deep setting for my Markdown link insertions, where I type <span class="keycombo combined" title="Control-Command-W"><kbd class="mod symbol">&#8963;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">W</kbd></span> (the container for most of my Markdown commands, a throwback to the Blogsmith Bundle for TextMate), then <span class="keycombo combined" title="L"><kbd class="key symbol">L</kbd></span> (for link), then either <span class="keycombo combined" title="C"><kbd class="key symbol">C</kbd></span> (to paste from clipboard), or <span class="keycombo combined" title="T"><kbd class="key symbol">T</kbd></span> to insert just the brackets with <code class="language-plaintext highlighter-rouge">https://</code> selected in the url.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{
+  "^@w" = { // Multi-stroke Markdown commands
+    "l" = { // Markdown link
+      // create a link for selected text, cursor between () `[selected text]([cursor])`
+      "t" = (setMark:, moveRight:, insertText:, " ", deleteToMark:, insertText:, " [", moveLeft:, deleteBackward:, moveRight:, yank:, moveLeft:, insertText:, "]()", moveRight:, deleteBackward:, moveLeft:, setMark:, insertText:, "https://", selectToMark:); // link text
+      // create a link for selected text, inserting clipboard as url `[[cursor]selected text](clipboard contents)`
+      "c" = (setMark:, moveRight:, insertText:, " ", deleteToMark:, insertText:, " [", moveLeft:, deleteBackward:, moveRight:, yank:, moveLeft:, insertText:, "](", setMark:, pasteAsPlainText:, insertText:, ")", moveRight:, deleteBackward:, moveLeft:, selectToMark:); // link with clipboard
+    };
+  };
+}</code></pre></div></div>
+
+<figure class="animated_vid_frame" style="padding-bottom: 28.82%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/clipboardlink.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/clipboardlink.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/clipboardlink.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>These sequences open up pretty much limitless possibilities for memorably (mnemonic) keyboard shortcuts. You create a logical grouping on an open shortcut, and then assign single letters that are meaningful and easy to remember in context. These nested keystrokes can also use modifier keys, but I like the fact that once I&rsquo;m inside of the main grouping, I only need single letters and not weird key combinations.</p>
+
+<p>As always, check out the <a href="https://brettterpstra.com/projects/keybindings/">KeyBindings project</a> for more inspiration. Have fun!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111625210109401974" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F22%2Fmulti-keystroke-keybindings%2F&amp;text=Multi-keystroke+keybindings&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F22%2Fmulti-keystroke-keybindings%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16506205.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-22T10:54:00-06:00</pubDate>
+<pubDate>2023-12-22T10:54:00-06:00</pubDate>
+</item>
 
 <item>
 <title>More keybindings: Text editing shortcuts</title>
