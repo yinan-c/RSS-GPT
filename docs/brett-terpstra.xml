@@ -5,12 +5,65 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>The Kaleidoscope giveaway winner!</title>
+<link>https://brett.trpstra.net/link/535/16506266/the-kaleidoscope-giveaway-winner</link>
+<guid>https://brett.trpstra.net/link/535/16506266/the-kaleidoscope-giveaway-winner</guid>
+<content:encoded><![CDATA[
+<div> Kaleidoscope, winner, giveaway, coupon, September
+<br><br>
+Kaleidoscope举办的赠品活动已经结束了，获奖者是Ken Bavier。未中奖的人可以使用TERPSTRA优惠券节省订阅费用，下一个赠品活动将在2024年9月每周一举行，读者可以在社交媒体上关注BrettTerpstra.com获取更多信息。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Giveaway Robot with Kaleidoscope icon, confetti background" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/09/kaleidoscope2023-winners-rb.jpg" title="Giveaway Robot with Kaleidoscope icon, confetti background" width="800" />
+              </noscript>
+            
+
+<p>The Kaleidoscope giveaway has ended, and I have a winner to announce!</p>
+
+<h3 id="the-winners">The winners!</h3>
+
+<p>Congratulations to Ken Bavier!</p>
+
+<p>You should have received an email with details, please <a href="https://brettterpstra.com/contact/">let me know</a> if you didn&rsquo;t hear anything!</p>
+
+<h3 id="but-i-didnt-win">But I didn&rsquo;t win!</h3>
+
+<p>If you didn&rsquo;t win, sorry, but <a href="https://kaleidoscope.app/">Kaleidoscope is still worth checking out</a>. You can still save 20% on your subscription with the coupon <code class="language-plaintext highlighter-rouge">TERPSTRA</code>! If you work with text or images (especially code), you&rsquo;ll love it. It&rsquo;s the best diff app out there, and worth every penny.</p>
+
+<p>Next up is <a href="https://www.zengobi.com/curio/">Curio</a>. Check back every Monday through September, 2024 for more giveaways.
+The next giveaways include:</p>
+
+<ul>
+  <li><a href="https://stclairsoft.com/AppTamer/index.html">App Tamer</a></li>
+  <li><a href="https://www.keyboardmaestro.com/main/">Keyboard Maestro</a></li>
+  <li><a href="https://www.macbartender.com/">Bartender</a></li>
+  <li><a href="https://www.omnigroup.com/omnifocus/">OmniFocus</a></li>
+  <li><a href="https://redsweater.com/marsedit/">MarsEdit</a></li>
+</ul>
+
+<p>See the <a href="https://brettterpstra.com/giveaways/upcoming/">full list of upcoming giveaways</a>!</p>
+
+<p>If you want to suggest an app you&rsquo;d like to see in this series, let me know on <a href="https://twitter.com/ttscoff">Twitter</a> or <a href="https://nojack.easydns.ca/@ttscoff/">Mastodon</a>, and <a href="https://brettterpstra.com/subscribe/">join the email</a> list for notifications!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F22%2Fthe-kaleidoscope-giveaway-winner%2F&amp;text=The+Kaleidoscope+giveaway+winner%21&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F22%2Fthe-kaleidoscope-giveaway-winner%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16506266.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-22T12:03:00-06:00</pubDate>
+<pubDate>2023-12-22T12:03:00-06:00</pubDate>
+</item>
+
+<item>
 <title>Multi-keystroke keybindings</title>
 <link>https://brett.trpstra.net/link/535/16506205/multi-keystroke-keybindings</link>
 <guid>https://brett.trpstra.net/link/535/16506205/multi-keystroke-keybindings</guid>
 <content:encoded><![CDATA[
-<div> 键绑定，多重按键组合，PLIST，Markdown，快捷键<br>
-<br>总结:
+<div> 键绑定，多重按键组合，PLIST，Markdown，快捷键<br />
+<br />总结:
 本文介绍了如何利用多重按键组合来创建自定义的键绑定。作者使用了PLIST文件来定义不同的键绑定，并且可以进行多级嵌套，使得可以创建具有逻辑和记忆性的键盘快捷键。这种方法可以大大扩展可用的快捷键组合，同时也提高了使用效率。文章还提到了Markdown命令的多级嵌套例子，进一步展示了这种方法的灵活性和实用性。建议读者可以查阅作者的博客以获得更多灵感。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -77,9 +130,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16506205.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-22T10:54:00-06:00</pubDate>
-<pubDate>2023-12-22T10:54:00-06:00</pubDate>
 </item>
-
 <item>
 <title>More keybindings: Text editing shortcuts</title>
 <link>https://brett.trpstra.net/link/535/16505229/more-keybindings-text-editing-shortcuts</link>
