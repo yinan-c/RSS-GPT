@@ -10740,3 +10740,12 @@ Existing_entries: 363
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-22 02:22:25.012882
+------------------------------------------------------
+Started: 2023-12-22 04:13:45.179075
+Existing_entries: 363
+Fetching from https://rsshub.app/sspai/index
+Token length: 3375
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：首批搭载下一代 CarPlay 车企公布](https://sspai.com/post/85260)
+append_entries: 1
+Finish: 2023-12-22 04:13:58.191638
