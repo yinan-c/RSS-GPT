@@ -4,6 +4,74 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>12-11~12-16.老胡的周刊（第120期）</title>
+<link>https://meta.appinn.net/t/topic/50688</link>
+<guid>https://meta.appinn.net/t/topic/50688</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#dockgehttpsgithubcomlouislamdockge-2" name="dockgehttpsgithubcomlouislamdockge-2"></a><a href="https://github.com/louislam/dockge" rel="noopener nofollow ugc">dockge</a></h3>
+<p>简单易用且漂亮的 <code>Docker Compose</code> 管理工具，<code>Docker</code> 部署，全平台支持：</p>
+<p><img alt="dockge" height="313" src="https://images-1252557999.file.myqcloud.com/uPic/dockge.jpg" width="690" /></p>
+<p><code>Portainer</code> 也是不错的选择。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#doocs-mdhttpsgiteecomdoocs-md-3" name="doocs-mdhttpsgiteecomdoocs-md-3"></a><a href="https://gitee.com/Doocs-md" rel="noopener nofollow ugc">Doocs-md</a></h3>
+<p><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 所有基础语法、色盘取色、一键复制并粘贴到公众号后台、多图上传、一键下载文档、自定义 CSS 样式、一键重置等特性:</p>
+<p><img alt="doocs_md" height="427" src="https://images-1252557999.file.myqcloud.com/uPic/doocs_md.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#miru-apphttpsgithubcommiru-projectmiru-app-5" name="miru-apphttpsgithubcommiru-projectmiru-app-5"></a><a href="https://github.com/miru-project/miru-app" rel="noopener nofollow ugc">miru-app</a></h3>
+<p>免费、开源的 支持视频、漫画、小说扩展源的多功能应用，支持 <code>Android、Windows、Web</code>：</p>
+<ul>
+<li>支持 windows,android</li>
+<li>友好的扩展编写支持、调试日志</li>
+<li>扩展使用 JavaScript 语言，开发简单</li>
+<li>支持自定义扩展仓库</li>
+<li>官方扩展仓库提供视频源，无需编写任何扩展即可使用</li>
+<li>支持在线观看多种视频、漫画、小说源，实现多平台的统一</li>
+<li>统一系统 UI 的设计语言</li>
+<li>自动获取 TMDB 元数据信息</li>
+</ul>
+<p><img alt="657c8025be23f" height="" src="https://img.fre123.com/i/2023/12/16/657c8025be23f.jpg" width="" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#mangerlahn-latesthttpsgithubcommangerlahnlatest-6" name="mangerlahn-latesthttpsgithubcommangerlahnlatest-6"></a><a href="https://github.com/mangerlahn/latest" rel="noopener nofollow ugc">mangerlahn-latest</a></h3>
+<p>一款免费开源的macOS应用程序，专门设计用于保持您的所有应用程序处于最新状态。它能够检查您的每一个应用程序，确保您始终拥有最新的更新和功能。</p>
+<p><img alt="mac_latest" height="426" src="https://images-1252557999.file.myqcloud.com/uPic/mac_latest.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#ttkmusicplayerhttpsgithubcomgreedyskyttkmusicplayer-7" name="ttkmusicplayerhttpsgithubcomgreedyskyttkmusicplayer-7"></a><a href="https://github.com/Greedysky/TTKMusicPlayer" rel="noopener nofollow ugc">TTKMusicPlayer</a></h3>
+<p>音乐播放器模仿酷狗，基于 <code>Qt</code> 和 <code>Qmmp</code> 库开发，支持 <code>Windows</code> 和 <code>Linux</code> 平台(支持网易云音乐、酷我音乐、酷狗音乐):</p>
+<p><img alt="TTKMusicPlayer" height="458" src="https://images-1252557999.file.myqcloud.com/uPic/TTKMusicPlayer.jpeg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#musicplayer2httpsgithubcomzhongyang219musicplayer2-8" name="musicplayer2httpsgithubcomzhongyang219musicplayer2-8"></a><a href="https://github.com/zhongyang219/MusicPlayer2" rel="noopener nofollow ugc">MusicPlayer2</a></h3>
+<p>这是一款可以在 <code>Windows</code> 播放常见音频格式的音频播放器。支持歌词显示、歌词卡拉OK样式显示、歌词在线下载、歌词编辑、歌曲标签识别、Win10小娜搜索显示歌词、频谱分析、音效设置、任务栏缩略图按钮、主题颜色等功能。</p>
+<p><img alt="MusicPlayer2" height="499" src="https://images-1252557999.file.myqcloud.com/uPic/MusicPlayer2.jpg" width="577" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#python-guide-for-javascript-engineershttpsgithubcomluckrnx09python-guide-for-javascript-engineers-10" name="python-guide-for-javascript-engineershttpsgithubcomluckrnx09python-guide-for-javascript-engineers-10"></a><a href="https://github.com/luckrnx09/python-guide-for-javascript-engineers" rel="noopener nofollow ugc">python-guide-for-javascript-engineers</a></h3>
+<p>《JavaScript 工程师的 Python 指南》是一本AI为主编写的开源电子书，涵盖了从 <code>Python</code> 环境安装到项目开发的方方面面。本书通过大量案例对比 <code>JavaScript</code> 和 <code>Python</code> 语言的异同，帮助 <code>JavaScript</code> 工程师快速掌握 <code>Python</code> 语言：</p>
+<p><img alt="python-guide-for-javascript-engineers" height="315" src="https://images-1252557999.file.myqcloud.com/uPic/python-guide-for-javascript-engineers.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#httpsqreadxmsoushucom-12" name="httpsqreadxmsoushucom-12"></a><a href="https://qread.xmsoushu.com/" rel="noopener nofollow ugc">熊猫速读</a></h3>
+<p>熊猫速读是一个收集精品视频读书笔记或好书分享的网站！为您推荐好书速读的视频，在您读一本书或者购买图书之前通过视频介绍先快速了解书籍的内容，根据兴趣再决定是否购买。</p>
+<p><img alt="xmsd" height="447" src="https://images-1252557999.file.myqcloud.com/uPic/xmsd.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#bizhi1httpsbizhi1com-13" name="bizhi1httpsbizhi1com-13"></a><a href="https://bizhi1.com/" rel="noopener nofollow ugc">bizhi1</a></h3>
+<p>极简壁纸是一个由个人维护的壁纸小站，无广告，界面清爽，可以很方便地下载必应壁纸：</p>
+<p><img alt="bizhi1" height="324" src="https://images-1252557999.file.myqcloud.com/uPic/bizhi1.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#gooddesignhttpswwwgooddesigntools-14" name="gooddesignhttpswwwgooddesigntools-14"></a><a href="https://www.gooddesign.tools/" rel="noopener nofollow ugc">gooddesign</a></h3>
+<p>优质设计师工具导航网站：</p>
+<p><img alt="gooddesign" height="403" src="https://images-1252557999.file.myqcloud.com/uPic/gooddesign.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-15" name="h-15"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，会分享更多的资源信息，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50688">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 23 Dec 2023 02:24:31 +0000</pubDate>
+<pubDate>Sat, 23 Dec 2023 02:24:31 +0000</pubDate>
+</item>
 
 <item>
 <title>Tran 简洁, 快速, 划词翻译</title>
