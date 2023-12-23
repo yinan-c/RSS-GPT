@@ -4,6 +4,27 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chrome 插件 - 二分法排查扩展程序</title>
+<link>https://meta.appinn.net/t/topic/45673</link>
+<guid>https://meta.appinn.net/t/topic/45673</guid>
+<content:encoded><![CDATA[
+
+<p>Chrome 商店：<a class="inline-onebox" href="https://chrome.google.com/webstore/detail/extension-binary-search/pokongmehfnlmmkgppngbmagkpamckgi?hl=zh-CN" rel="noopener nofollow ugc">二分法排查扩展程序 - Chrome 应用商店</a><br />
+Github 代码库：<a class="inline-onebox" href="https://github.com/BlackGlory/extension-binary-search" rel="noopener nofollow ugc">GitHub - BlackGlory/extension-binary-search: 🌲 The simplest and most effective way to locate a malicious or faulty extension</a></p>
+<p>恰如其名，一个用二分法来查找导致问题的插件的插件。使用很简单，安装之后点击插件图标运行，会自动禁用一半插件，然后问你问题是否依然存在；接着不断重复，log2(n)次之后就能找出来有问题的插件了。很简单但很有用。</p>
+<p>开始前可以手动排除部分已知无问题的插件<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/a/dab0dcc671e8b7abebc062cd15afa0fb986bb25c.png" title="image"><img alt="image" height="500" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/a/dab0dcc671e8b7abebc062cd15afa0fb986bb25c.png" width="422" /></a></div><p></p>
+<p>然后就慢慢试吧<br />
+<strong>注意</strong>：禁用后最好重新载入页面，避免插件被禁用后当前页面注入的代码依然存在<br />
+<img alt="image" height="242" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/5/0517b9043e605399a6eea2d7b271130deb227493.png" width="433" /></p>
+<p>P.S. 我遇到的问题是所有 <code>pre</code> 的代码块全部都变单行了，最后发现是 <a href="https://chrome.google.com/webstore/detail/bcagnbmncmeliaknnhmbkkgackfipoic" rel="noopener nofollow ugc">读点东西</a> 这个插件搞的鬼。</p>
+            <p><small>12 个帖子 - 11 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/45673">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 18 Jul 2023 01:12:35 +0000</pubDate>
+<pubDate>Tue, 18 Jul 2023 01:12:35 +0000</pubDate>
+</item>
 
 <item>
 <title>12-11~12-16.老胡的周刊（第120期）</title>
