@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>A few Ruby snippets for scripters</title>
 <link>https://brett.trpstra.net/link/535/16506834/a-few-ruby-snippets-for-scripters</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: Ruby, macOS, 转码, 数字舍入, URL 编码
 
-总结:<br><br>这篇文章介绍了使用Ruby进行自动化和字符串操作脚本的技巧，包括转码、检查macOS、获取macOS版本、数字舍入、人类可读的文件大小、URL 编码等。这些技巧对于想要成为Ruby脚本程序员的人非常有用。还分享了一个剪贴板预览的壳函数，方便在任何shell中使用。 <div>
+总结:<br /><br />这篇文章介绍了使用Ruby进行自动化和字符串操作脚本的技巧，包括转码、检查macOS、获取macOS版本、数字舍入、人类可读的文件大小、URL 编码等。这些技巧对于想要成为Ruby脚本程序员的人非常有用。还分享了一个剪贴板预览的壳函数，方便在任何shell中使用。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -169,9 +170,7 @@ end</code></pre></div></div>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16506834.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-23T11:51:00-06:00</pubDate>
-<pubDate>2023-12-23T11:51:00-06:00</pubDate>
 </item>
-
 <item>
 <title>The Kaleidoscope giveaway winner!</title>
 <link>https://brett.trpstra.net/link/535/16506266/the-kaleidoscope-giveaway-winner</link>
