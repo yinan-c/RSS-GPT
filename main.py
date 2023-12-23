@@ -19,9 +19,6 @@ def get_cfg(sec, name, default=None):
     if value:
         return value.strip('"')
 
-def set_cfg(sec, name, value):
-    config.set(sec, name, '"%s"' % value)
-
 def clean_html(html_content):
     """
     This function is used to clean the HTML content.
