@@ -4,6 +4,173 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>A few Ruby snippets for scripters</title>
+<link>https://brett.trpstra.net/link/535/16506834/a-few-ruby-snippets-for-scripters</link>
+<guid>https://brett.trpstra.net/link/535/16506834/a-few-ruby-snippets-for-scripters</guid>
+<content:encoded><![CDATA[
+<div> 关键词: Ruby, macOS, 转码, 数字舍入, URL 编码
+
+总结:<br><br>这篇文章介绍了使用Ruby进行自动化和字符串操作脚本的技巧，包括转码、检查macOS、获取macOS版本、数字舍入、人类可读的文件大小、URL 编码等。这些技巧对于想要成为Ruby脚本程序员的人非常有用。还分享了一个剪贴板预览的壳函数，方便在任何shell中使用。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Ruby snippets banner image" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/12/rubysnippetsheader-rb.jpg" title="Ruby snippets banner image" width="800" />
+              </noscript>
+            
+
+<p>I do most of my automation and string manipulation scripting using Ruby. I know it&rsquo;s not the most popular language these days, but it&rsquo;s the one I know the best (thanks to my days of hacking on TextMate bundles) and it&rsquo;s usually the fastest way for me to solve a problem. I have reams of snippets saved (and easily accessible with <a href="https://brettterpstra.com/projects/snibbets/" title="Snibbets">Snibbets</a>) and thought I&rsquo;d share a few that are useful for everyday scripting on macOS.</p>
+
+<!--more-->
+
+<h4 id="scrub">Scrub</h4>
+
+<p>Scrub uses the encode function to switch a string to UTF-16 discarding invalid characters (gremlins), then back to UTF-8. Applied as a String method, you can then use <code class="language-plaintext highlighter-rouge">input.scrub</code> to get clean text with all gremlins removed.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">class</span> <span class="o">::</span><span class="no">String</span>
+  <span class="k">def</span> <span class="nf">scrub</span>
+    <span class="n">encode</span><span class="p">(</span><span class="s1">'utf-16'</span><span class="p">,</span> <span class="ss">invalid: :replace</span><span class="p">).</span><span class="nf">encode</span><span class="p">(</span><span class="s1">'utf-8'</span><span class="p">)</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">scrub!</span>
+    <span class="n">replace</span> <span class="n">scrub</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div></div>
+
+<h4 id="check-for-macos">Check for macOS</h4>
+
+<p>This can be modified or turned into a case statement to determine operating system. I often only need it to check if I can run Mac-only tools like <code class="language-plaintext highlighter-rouge">pbcopy</code> or not.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="sb">`uname`</span><span class="p">.</span><span class="nf">strip</span> <span class="o">==</span> <span class="s2">"Darwin"</span></code></pre></div></div>
+
+<h4 id="get-macos-version">Get macOS version</h4>
+
+<p>Just in case your script needs to behave differently across OS versions:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">def</span> <span class="nf">macos_version</span>
+  <span class="k">begin</span>
+    <span class="sb">`sw_vers`</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">each_line</span> <span class="k">do</span> <span class="o">|</span><span class="n">line</span><span class="o">|</span>
+      <span class="k">if</span> <span class="n">line</span><span class="p">.</span><span class="nf">strip</span> <span class="o">=~</span> <span class="sr">/ProductVersion:\s+([\d.]+)$/</span>
+        <span class="k">return</span> <span class="no">Regexp</span><span class="p">.</span><span class="nf">last_match</span><span class="p">(</span><span class="mi">1</span><span class="p">).</span><span class="nf">to_f</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+    <span class="k">return</span> <span class="mi">0</span>
+  <span class="k">rescue</span>
+    <span class="nb">warn</span> <span class="s1">'Failed to retrieve macOS version'</span>
+    <span class="no">Process</span><span class="p">.</span><span class="nf">exit</span> <span class="mi">1</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div></div>
+
+<h4 id="rounding-numbers">Rounding numbers</h4>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">class</span> <span class="o">::</span><span class="no">Numeric</span>
+  <span class="c1"># Round to nearest 5</span>
+  <span class="k">def</span> <span class="nf">round5</span>
+    <span class="p">((</span><span class="nb">self</span> <span class="o">*</span> <span class="mf">0.2</span><span class="p">).</span><span class="nf">round</span> <span class="o">/</span> <span class="mf">0.2</span><span class="p">)</span>
+  <span class="k">end</span>
+
+  <span class="c1"># Round to nearest 10</span>
+  <span class="k">def</span> <span class="nf">round10</span>
+    <span class="p">((</span><span class="nb">self</span> <span class="o">*</span> <span class="mf">0.1</span><span class="p">).</span><span class="nf">round</span> <span class="o">/</span> <span class="mf">0.1</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div></div>
+
+<h4 id="human-readable-file-size">Human-readable file size</h4>
+
+<p>The <code class="language-plaintext highlighter-rouge">#to_human</code> method will convert <code class="language-plaintext highlighter-rouge">293592035</code> to &ldquo;280MB&rdquo;.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">class</span> <span class="nc">Numeric</span>
+    <span class="k">def</span> <span class="nf">to_human</span>
+        <span class="n">units</span> <span class="o">=</span> <span class="sx">%w{B KB MB GB TB}</span>
+        <span class="n">e</span> <span class="o">=</span> <span class="p">(</span><span class="no">Math</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nb">self</span><span class="p">)</span><span class="o">/</span><span class="no">Math</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">1024</span><span class="p">)).</span><span class="nf">floor</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="s2">"%.1f"</span> <span class="o">%</span> <span class="p">(</span><span class="n">to_f</span> <span class="o">/</span> <span class="mi">1024</span><span class="o">**</span><span class="n">e</span><span class="p">)</span>
+        <span class="n">s</span><span class="p">.</span><span class="nf">sub</span><span class="p">(</span><span class="sr">/\.?0*$/</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="n">e</span><span class="p">])</span>
+    <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="nb">print</span> <span class="no">File</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">expand_path</span><span class="p">(</span><span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">])).</span><span class="nf">to_human</span></code></pre></div></div>
+
+<h4 id="url-encoding">URL encoding</h4>
+
+<p>I used to use the CGI library for url encoding, but it doesn&rsquo;t properly percent-encode spaces as <code class="language-plaintext highlighter-rouge">%20</code>, but rather as <code class="language-plaintext highlighter-rouge">+</code>, which breaks a lot of applications. The solution (as opposed to doing a manual search and replace) is to use the ERB library instead:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="nb">require</span> <span class="s1">'erb'</span>
+<span class="no">ERB</span><span class="o">::</span><span class="no">Util</span><span class="p">.</span><span class="nf">url_encode</span><span class="p">(</span><span class="s1">'string to encode'</span><span class="p">)</span></code></pre></div></div>
+
+<h4 id="get-a-single-keypress">Get a single keypress</h4>
+
+<p>For dialogs where you want to act as soon as a key is pressed without requiring pressing Return:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">def</span> <span class="nf">get_keypress</span>
+    <span class="nb">system</span> <span class="s2">"stty raw -echo"</span>
+    <span class="no">STDIN</span><span class="p">.</span><span class="nf">getc</span>
+<span class="k">ensure</span>
+    <span class="nb">system</span> <span class="s2">"stty -raw echo"</span>
+<span class="k">end</span>
+    
+<span class="n">key</span> <span class="o">=</span> <span class="n">get_keypress</span><span class="p">.</span><span class="nf">chr</span></code></pre></div></div>
+
+<h4 id="get-the-longest-string-in-an-array-of-strings">Get the longest string in an array of strings</h4>
+
+<p>Of limited utility but I use it all the time when doing search algorithms:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">class</span> <span class="o">::</span><span class="no">Array</span>
+  <span class="k">def</span> <span class="nf">longest_element</span>
+    <span class="n">group_by</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:size</span><span class="p">).</span><span class="nf">max</span><span class="p">.</span><span class="nf">last</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="c1"># Leave off the [0] to get an array containing all of the longest elements when there's a tie</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="nb">p</span> <span class="p">[</span><span class="s1">'short'</span><span class="p">,</span> <span class="s1">'longest'</span><span class="p">,</span> <span class="s1">'longer'</span><span class="p">].</span><span class="nf">longest_element</span>
+<span class="c1">#=&gt; "longest"</span></code></pre></div></div>
+
+<h4 id="symbolize-hash-keys">Symbolize hash keys</h4>
+
+<p>If you&rsquo;re creating nested hash objects that end up with a mix of string and symbol keys, the easiest thing to do is symbolize all keys. <code class="language-plaintext highlighter-rouge">#to_sym</code> won&rsquo;t do anything if the key is already a symbol.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">class</span> <span class="o">::</span><span class="no">Hash</span>
+  <span class="c1"># Turn all keys into symbols, including nested hashes</span>
+  <span class="k">def</span> <span class="nf">symbolize_keys</span>
+    <span class="n">each_with_object</span><span class="p">({})</span> <span class="p">{</span> <span class="o">|</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">),</span> <span class="n">hsh</span><span class="o">|</span> <span class="n">hsh</span><span class="p">[</span><span class="n">k</span><span class="p">.</span><span class="nf">to_sym</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="p">.</span><span class="nf">is_a?</span><span class="p">(</span><span class="no">Hash</span><span class="p">)</span> <span class="p">?</span> <span class="n">v</span><span class="p">.</span><span class="nf">symbolize_keys</span> <span class="p">:</span> <span class="n">v</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># &gt;&gt; h = {'one' =&gt; 2, 'two' =&gt; { 'three' =&gt; 4 } }</span>
+<span class="c1"># &gt;&gt; h.symbolize_keys</span>
+<span class="c1"># {</span>
+<span class="c1">#   :one =&gt; 2,</span>
+<span class="c1">#   :two =&gt; {</span>
+<span class="c1">#     :three =&gt; 4</span>
+<span class="c1">#   }</span>
+<span class="c1"># }</span></code></pre></div></div>
+
+<p>I hope that&rsquo;s useful for aspiring Ruby scripters. If there&rsquo;s interest, I can post (tons) more, but I also hope to get better about creating Gists that could be more easily searchable as a reference. The next step for Snibbets?</p>
+
+<h4 id="bonus-tip-clipboard-preview">Bonus tip: Clipboard Preview</h4>
+
+<p>There&rsquo;s a shell function I use frequently, easily replicable in any shell. It just shows you the contents of your clipboard (assuming text) without requiring a paste:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>pbpaste | cat</code></pre></div></div>
+
+<p>In Fish that looks like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code># Defined in /Users/ttscoff/.config/fish/functions/cbp.fish @ line 1
+function cbp --description 'ClipBoard Preview'
+  pbpaste | cat
+end</code></pre></div></div>
+
+<p>Like I said, useful in any shell as a way to ensure what you think is on your clipboard actually is. Just type <code class="language-plaintext highlighter-rouge">cbp</code> and get a preview before pasting anywhere.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F23%2Fa-few-ruby-snippets-for-scripters%2F&amp;text=A+few+Ruby+snippets+for+scripters&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F23%2Fa-few-ruby-snippets-for-scripters%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16506834.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-23T11:51:00-06:00</pubDate>
+<pubDate>2023-12-23T11:51:00-06:00</pubDate>
+</item>
 
 <item>
 <title>The Kaleidoscope giveaway winner!</title>
