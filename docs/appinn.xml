@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Chrome 插件 - 二分法排查扩展程序</title>
 <link>https://meta.appinn.net/t/topic/45673</link>
 <guid>https://meta.appinn.net/t/topic/45673</guid>
 <content:encoded><![CDATA[
-
 <p>Chrome 商店：<a class="inline-onebox" href="https://chrome.google.com/webstore/detail/extension-binary-search/pokongmehfnlmmkgppngbmagkpamckgi?hl=zh-CN" rel="noopener nofollow ugc">二分法排查扩展程序 - Chrome 应用商店</a><br />
 Github 代码库：<a class="inline-onebox" href="https://github.com/BlackGlory/extension-binary-search" rel="noopener nofollow ugc">GitHub - BlackGlory/extension-binary-search: 🌲 The simplest and most effective way to locate a malicious or faulty extension</a></p>
 <p>恰如其名，一个用二分法来查找导致问题的插件的插件。使用很简单，安装之后点击插件图标运行，会自动禁用一半插件，然后问你问题是否依然存在；接着不断重复，log2(n)次之后就能找出来有问题的插件了。很简单但很有用。</p>
@@ -23,9 +23,7 @@ Github 代码库：<a class="inline-onebox" href="https://github.com/BlackGlory/
             <p><a href="https://meta.appinn.net/t/topic/45673">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 18 Jul 2023 01:12:35 +0000</pubDate>
-<pubDate>Tue, 18 Jul 2023 01:12:35 +0000</pubDate>
 </item>
-
 <item>
 <title>12-11~12-16.老胡的周刊（第120期）</title>
 <link>https://meta.appinn.net/t/topic/50688</link>
