@@ -10920,3 +10920,12 @@ Existing_entries: 369
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-24 08:03:36.996594
+------------------------------------------------------
+Started: 2023-12-24 10:03:24.190413
+Existing_entries: 369
+Fetching from https://rsshub.app/sspai/index
+Token length: 5331
+Summarized using GPT-3.5-turbo-1106
+Append: [用 Ollama 轻松玩转本地大模型](https://sspai.com/post/85193)
+append_entries: 1
+Finish: 2023-12-24 10:03:30.941274

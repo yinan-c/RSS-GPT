@@ -13133,3 +13133,10 @@ Fetching from https://rsshub.app/36kr/motif/327686782977
 Feed error: 404
 append_entries: 0
 error when rendering xml, skip docs/36kr-ai
+------------------------------------------------------
+Started: 2023-12-24 10:03:46.477331
+Existing_entries: 394
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
