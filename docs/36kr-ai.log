@@ -13126,3 +13126,10 @@ Filter: [CES 2024超前瞻：AI站上C位，消费电子迎接复苏](https://ww
 Filter: [阿里能借助AI电商反杀拼多多吗？](https://www.36kr.com/p/2571375722325380)
 append_entries: 0
 Finish: 2023-12-24 06:05:12.363899
+------------------------------------------------------
+Started: 2023-12-24 08:04:01.479936
+Existing_entries: 394
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
