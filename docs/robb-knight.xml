@@ -4,13 +4,14 @@
 <title>Robb Knight</title>
 <link>https://rknight.me</link>
 
+
 <item>
 <title>Generating and Caching Open Graph Images with Eleventy</title>
 <link>https://rknight.me/blog/generating-and-caching-open-graph-images-with-eleventy/</link>
 <guid>https://rknight.me/blog/generating-and-caching-open-graph-images-with-eleventy/</guid>
 <content:encoded><![CDATA[
-<div> 自动生成，Open Graph 图像，插件，配置，开发模式，输出目录<br>
-文章介绍了作者如何通过自动生成的方式将Open Graph图像添加到网站上，并解决了生成图像时可能出现的效率和重建时间的问题。作者通过修改插件配置和使用开发模式生成图像，然后将其提交到存储库中。此外，作者还介绍了如何使用环境数据文件和更新基本布局来确定插件在开发模式和生产模式下的使用方式。最后，作者还解决了插件在每次更改时会删除输出目录的问题。通过这些步骤，作者成功地实现了开发模式下的Open Graph图像自动生成。<br><br>总结: 该文章介绍了作者如何使用自动生成的方式将Open Graph图像添加到网站上，并解决了生成图像时可能出现的效率和重建时间的问题，最终成功实现了开发模式下的Open Graph图像自动生成。 <div>
+<div> 自动生成，Open Graph 图像，插件，配置，开发模式，输出目录<br />
+文章介绍了作者如何通过自动生成的方式将Open Graph图像添加到网站上，并解决了生成图像时可能出现的效率和重建时间的问题。作者通过修改插件配置和使用开发模式生成图像，然后将其提交到存储库中。此外，作者还介绍了如何使用环境数据文件和更新基本布局来确定插件在开发模式和生产模式下的使用方式。最后，作者还解决了插件在每次更改时会删除输出目录的问题。通过这些步骤，作者成功地实现了开发模式下的Open Graph图像自动生成。<br /><br />总结: 该文章介绍了作者如何使用自动生成的方式将Open Graph图像添加到网站上，并解决了生成图像时可能出现的效率和重建时间的问题，最终成功实现了开发模式下的Open Graph图像自动生成。 <div>
 <p>I recently added automatically generated open graph images to my site using <a href="https://github.com/KiwiKilian/eleventy-plugin-og-image"><code>eleventy-plugin-og-image</code></a>. Here is the open graph image for this post:</p>
 <img alt="Generating, and Caching, Open Graph Images with Eleventy" src="https://rknight.me/assets/ogi/bloggenerating-and-caching-open-graph-images-with-eleventy.png" style="border: 1px solid white;" />
 <p>I won't go over how to use the plugin; the docs on the repo and <a href="https://lewisdale.dev/post/adding-statically-generated-open-graph-images/">this blog post</a> explain that very well. What I didn't like is that these are generated every time the site builds which, aside from being wildly inefficient, added significant time to my builds.</p>
@@ -30,10 +31,8 @@
 <pre class="language-diff"><code class="language-diff"><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> eleventyConfig.on('eleventy.before', () => {<br /></span><span class="token prefix deleted">-</span><span class="token line">    const options = mergeOptions(directoriesConfig, pluginOptions);<br /></span><span class="token prefix deleted">-</span><span class="token line">    fs.rmSync(options.outputDir, { recursive: true, force: true });<br /></span><span class="token prefix deleted">-</span><span class="token line"> });</span></span></code></pre>
 <p>This process does require me to run <code>--serve</code> at least once each time I added a blog post but there is rarely a time where I wouldn't do that.</p>
 ]]></content:encoded>
-
 <pubDate>2023-12-24T10:09:42.501+00:00</pubDate>
 </item>
-
 <item>
 <title>Just 2023 Things</title>
 <link>https://rknight.me/blog/just-2024-things/</link>
