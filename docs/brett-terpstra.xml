@@ -4,6 +4,106 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Weather forecasts for SearchLink</title>
+<link>https://brett.trpstra.net/link/535/16508012/weather-forecasts-for-searchlink</link>
+<guid>https://brett.trpstra.net/link/535/16508012/weather-forecasts-for-searchlink</guid>
+<content:encoded><![CDATA[
+<div> Minnesota, Christmas, plugin, weather, SearchLink
+<br><br>
+总结: 
+插件开发人员在明尼苏达度过温暖的圣诞节，创建了一个快速插件，用于检索指定地点的天气信息。插件支持通过邮编或城市名和州名来获取当前地点的天气情况。除了当前天气外，还可以显示当天的小时预报。该插件使用了代码以及API密钥，可以展示实时天气数据，并且可以自定义温度显示格式。搜索类型可以用缩写形式，而且该插件的开发过程也展示了SearchLink的可扩展性。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="An umbrella open in the rain" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/12/weatherheader-rb.jpg" title="An umbrella open in the rain" width="800" />
+              </noscript>
+            
+
+<p>It&rsquo;s unseasonably warm for Christmas here in Minnesota. It&rsquo;s 50° out. To mark the weird occasion, I created a quick plugin for <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a> that lets you run a search like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>!current 55987</code></pre></div></div>
+
+<p>And get:</p>
+
+<p>Weather for Winona, Minnesota on 2023-12-25 at 12:53 PM: 51.8 and Light rain</p>
+
+<blockquote class="alert">
+  <p>The plugin only outputs &lsquo;embed&rsquo; style, it won&rsquo;t provide a URL for your forecast. It&rsquo;s just meant to inject actual weather data in your writing.</p>
+</blockquote>
+
+<p>You can input a zip code or city name and region/state and it will give you the current conditions for that location.</p>
+
+<p>There&rsquo;s also a version that gives you the hourly forecast for the current day as Markdown table:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>!forecast winona, mn</code></pre></div></div>
+
+<hr />
+
+<p>Forecast for Winona, Minnesota on 2023-12-25: Moderate rain 53.7/48.7<br />
+Currently: 51.8 and Light rain</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>8am</th>
+      <th>10am</th>
+      <th>12pm</th>
+      <th>2pm</th>
+      <th>4pm</th>
+      <th>6pm</th>
+      <th>8pm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overcast</td>
+      <td>Patchy rain possible</td>
+      <td>Light rain</td>
+      <td>Light drizzle</td>
+      <td>Light rain</td>
+      <td>Light rain</td>
+      <td>Light rain</td>
+    </tr>
+    <tr>
+      <td>49.1</td>
+      <td>51.0</td>
+      <td>51.8</td>
+      <td>52.0</td>
+      <td>51.8</td>
+      <td>51.2</td>
+      <td>50.8</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>This uses code from <a href="https://brettterpstra.com/projects/journal-cli/" title="Journal">Journal</a>, and isn&rsquo;t meant to be overly detailed or comprehensive, just an easy way to include the current weather in whatever you happen to be writing. Silly, I know, but I already had most of the code.</p>
+
+<p>To use the plugin, grab the <code class="language-plaintext highlighter-rouge">weather.rb</code> file <a href="https://github.com/ttscoff/searchlink-plugins/blob/main/weather.rb">from the GitHub SearchLink Plugins repo</a> and place it in <code class="language-plaintext highlighter-rouge">~/.local/searchlink/plugins/weather.rb</code>. Then you&rsquo;ll need an API key from <a href="https://weatherapi.com">https://weatherapi.com</a>. Just sign up for a free account and go to <a href="https://www.weatherapi.com/my/">https://www.weatherapi.com/my/</a>. You&rsquo;ll see your API key at the top. Add that to your <code class="language-plaintext highlighter-rouge">~/.searchlink</code> config file like so:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="na">weather_api_key</span><span class="pi">:</span> <span class="s">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+<span class="na">weather_temp_in</span><span class="pi">:</span> <span class="s">f</span></code></pre></div></div>
+
+<p>Note the <code class="language-plaintext highlighter-rouge">weather_temp_in:</code> setting, which can be &lsquo;c&rsquo; or &lsquo;f&rsquo; to get your temps in your local format. Then just run <code class="language-plaintext highlighter-rouge">!current</code> or <code class="language-plaintext highlighter-rouge">!weather</code> searches using a zip/city name as the search terms. Enjoy!</p>
+
+<blockquote class="info">
+  <p>The search type can be shortened to 3-4 characters, e.g. <code class="language-plaintext highlighter-rouge">!current</code> can just be <code class="language-plaintext highlighter-rouge">!cur</code> and <code class="language-plaintext highlighter-rouge">!forecast</code> can just be <code class="language-plaintext highlighter-rouge">!for</code> or <code class="language-plaintext highlighter-rouge">!fore</code>. <code class="language-plaintext highlighter-rouge">!weather</code> and <code class="language-plaintext highlighter-rouge">!wea</code> also work for current conditions.</p>
+</blockquote>
+
+<p>This is just another example of how extensible SearchLink is. If you&rsquo;re interested in creating your own plugins for <em>any</em> kind of search, <a href="https://github.com/ttscoff/searchlink/wiki/Plugins">it&rsquo;s pretty easy</a>! By the way, I added a couple new classes, <a href="https://github.com/ttscoff/searchlink/blob/main/lib/searchlink/curl/html.rb"><code class="language-plaintext highlighter-rouge">Curl::Html</code></a> and <a href="https://github.com/ttscoff/searchlink/blob/main/lib/searchlink/curl/json.rb"><code class="language-plaintext highlighter-rouge">Curl::Json</code></a> which make it <em>super</em> easy to retrive an HTML or JSON response from a given URL and extract tags/title/data from them. And the <code class="language-plaintext highlighter-rouge">SL.ddg()</code> method makes doing Google/DuckDuckGo searches a one-line affair, so anything you want to search for, the tools are there! If you have any questions about using any of these (or about SearchLink in general) feel free to ask them <a href="https://forum.brettterpstra.com">in the forums</a>!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/111642762678837572" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F25%2Fweather-forecasts-for-searchlink%2F&amp;text=Weather+forecasts+for+SearchLink&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F25%2Fweather-forecasts-for-searchlink%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16508012.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-25T13:10:00-06:00</pubDate>
+<pubDate>2023-12-25T13:10:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Curio giveaway!</title>
