@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Weather forecasts for SearchLink</title>
 <link>https://brett.trpstra.net/link/535/16508012/weather-forecasts-for-searchlink</link>
 <guid>https://brett.trpstra.net/link/535/16508012/weather-forecasts-for-searchlink</guid>
 <content:encoded><![CDATA[
 <div> Minnesota, Christmas, plugin, weather, SearchLink
-<br><br>
+<br /><br />
 总结: 
 插件开发人员在明尼苏达度过温暖的圣诞节，创建了一个快速插件，用于检索指定地点的天气信息。插件支持通过邮编或城市名和州名来获取当前地点的天气情况。除了当前天气外，还可以显示当天的小时预报。该插件使用了代码以及API密钥，可以展示实时天气数据，并且可以自定义温度显示格式。搜索类型可以用缩写形式，而且该插件的开发过程也展示了SearchLink的可扩展性。 <div>
 <noscript class="loading-lazy">
@@ -102,9 +103,7 @@ Currently: 51.8 and Light rain</p>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16508012.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-25T13:10:00-06:00</pubDate>
-<pubDate>2023-12-25T13:10:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Curio giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16507897/curio-giveaway</link>
