@@ -4,20 +4,18 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>如何优雅的获取YouTube最新视频链接</title>
 <link>https://meta.appinn.net/t/topic/50734</link>
 <guid>https://meta.appinn.net/t/topic/50734</guid>
 <content:encoded><![CDATA[
-
 <p>大家有没有比较优雅的获取YouTube up主上传的最新视频链接的方法，类似rss的感觉，为啥不用rss呢，因为rss老是给我推送很久之前的视频，比如up刚上传了一个新视频，rss会给我推送5 6个视频，其中只有最新的一个是我想要的，其他4 5个都是旧视频，深受其扰，想问问有没有其他方式可以实现我的需求，目前我的构想是用定时任务去获取所有的视频链接，将所有的视频链接存到数据库，每次定时任务获取完视频链接后，和数据库中的视频链接比较，不存在则表示是新视频，方法比较笨哈哈哈，还请大家不吝赐教</p>
             <p><small>3 个帖子 - 2 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/50734">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 25 Dec 2023 02:45:04 +0000</pubDate>
-<pubDate>Mon, 25 Dec 2023 02:45:04 +0000</pubDate>
 </item>
-
 <item>
 <title>Chrome 插件 - 二分法排查扩展程序</title>
 <link>https://meta.appinn.net/t/topic/45673</link>
