@@ -5275,3 +5275,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [Job Safety in the AI Era](http://lopespm.github.io/notes/2023/12/25/job_safety_in_ai_era.html)
 append_entries: 1
 Finish: 2023-12-25 14:03:21.097766
+------------------------------------------------------
+Started: 2023-12-25 16:03:32.603061
+Existing_entries: 24
+Fetching from https://lopespm.com/atom.xml
+append_entries: 0
+Finish: 2023-12-25 16:03:32.877871
