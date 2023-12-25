@@ -5,11 +5,28 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>有些网页的元素不响应触摸点击事件，有没有不借助实体鼠标的应对方法</title>
+<link>https://meta.appinn.net/t/topic/50759</link>
+<guid>https://meta.appinn.net/t/topic/50759</guid>
+<content:encoded><![CDATA[
+
+<p>有些网页会有这样的bug：部分需要点击交互的元素只能识别鼠标、触控板这类指针设备，不识别触摸。</p>
+<p>这种bug不止出现在移动互联网时代之前的老旧网页，甚至有些做了自适应移动端界面的网页，都不能响应触摸点击。</p>
+<p>那么问题来了，如果遇到这种情况，除了连接蓝牙鼠标，有没有其他能在软件层面进行点击的方法？</p>
+<p>例如强制把触摸操作映射成指针操作的浏览器app，或者在屏幕内模拟指针设备的虚拟触控板app……</p>
+<p><img alt="image" height="340" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/d/cd318da7e1224eccd1e53ced265fc73387114ace.jpeg" width="558" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/50759">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 25 Dec 2023 10:00:48 +0000</pubDate>
+<pubDate>Mon, 25 Dec 2023 10:00:48 +0000</pubDate>
+</item>
+
+<item>
 <title>12-18~12-24.老胡的周刊（第121期）</title>
 <link>https://meta.appinn.net/t/topic/50751</link>
 <guid>https://meta.appinn.net/t/topic/50751</guid>
 <content:encoded><![CDATA[
-
 <blockquote>
 <p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
 </blockquote>
@@ -78,9 +95,7 @@
             <p><a href="https://meta.appinn.net/t/topic/50751">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 25 Dec 2023 07:33:49 +0000</pubDate>
-<pubDate>Mon, 25 Dec 2023 07:33:49 +0000</pubDate>
 </item>
-
 <item>
 <title>如何优雅的获取YouTube最新视频链接</title>
 <link>https://meta.appinn.net/t/topic/50734</link>

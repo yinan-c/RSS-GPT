@@ -11275,3 +11275,12 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [12-18~12-24.老胡的周刊（第121期）](https://meta.appinn.net/t/topic/50751)
 append_entries: 1
 Finish: 2023-12-25 08:03:56.941376
+------------------------------------------------------
+Started: 2023-12-25 10:03:13.421137
+Existing_entries: 207
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [有些网页的元素不响应触摸点击事件，有没有不借助实体鼠标的应对方法](https://meta.appinn.net/t/topic/50759)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2023-12-25 10:03:17.361878
