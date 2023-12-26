@@ -4,6 +4,100 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Updated Bitlyize Service</title>
+<link>https://brett.trpstra.net/link/535/16509323/updated-bitlyize-service</link>
+<guid>https://brett.trpstra.net/link/535/16509323/updated-bitlyize-service</guid>
+<content:encoded><![CDATA[
+<div> Bitlyize, Bit.ly API, shortened links, analytics, Ruby<br>
+总结:<br>
+这篇文章介绍了对Bitlyize服务进行升级，使其能够与Bit.ly API v4兼容，实现长链接的解析和替换为与您的账户相连的短链接。此外，还介绍了如何获取Bit.ly的token并进行配置、安装Ruby等操作。文章还提到了Bitlyize服务的功能和下载包含的几种服务。同时，作者还提到了如何利用类似Alfred这样的应用进行服务操作，以及对于Amazon和iTunes链接的相关内容。 <div>
+<p>I hope you&rsquo;ve had nice holidays!</p>
+
+<p>I&rsquo;ve updated my Bitlyize service to work with v4 of the Bit.ly API. It parses the input for <em>all</em> URLs and replaces them with shortened links connected to your account. Not only can this make long links more readable, it gives you some analytics on how often the links are used (and deeper analytics like country of origin, referrer, and other data). If you pass it a Bit.ly-shortened  link, it will expand it to its original URL.</p>
+
+<!--more-->
+
+<p>The downside to shortened links is you can&rsquo;t tell where they go, which can make them seem a little sketchy. You get to weigh the tradeoffs there. This service makes it easy to expand shortened URLs in place, though.</p>
+
+<p>By the way, shortened links aren&rsquo;t just obscured for readers and recipients, they&rsquo;re opaque to future you as well. If you want to use short links for blogging or note taking, I recommend using the <code class="language-plaintext highlighter-rouge">!bitly</code> function of <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a>, which can give you title attributes. It requires separate configuration, but then instead of just a bit.ly link, you can run <code class="language-plaintext highlighter-rouge">!bitly ++t Brett Terpstra project searchlink</code> and get <code class="language-plaintext highlighter-rouge">[SearchLink](https://bit.ly/47lzuXS "SearchLink")</code>, which is a bit more descriptive. You can also just pass it a long url like <code class="language-plaintext highlighter-rouge">[Marked 2.6.18](!bitly https://brettterpstra.com/2023/01/03/marked-2-dot-6-18-with-100-percent-less-jitter/)</code> and get <code class="language-plaintext highlighter-rouge">[Marked 2.6.18](https://bit.ly/3ieHDcH "Marked 2.6.18 with 100% less jitter")</code>.</p>
+
+<blockquote class="warn">
+  <p>These Services require Ruby, which is no longer included with macOS by default. You can get it by installing the <a href="https://www.freecodecamp.org/news/install-xcode-command-line-tools/">Apple Command Line Tools</a>, or <a href="https://gorails.com/setup/macos/14-sonoma">see this article</a> for information on installing Ruby with Homebrew/ASDF. You don&rsquo;t need Rails or anything after the <em>Installing Ruby</em> section in the latter article.</p>
+</blockquote>
+
+<p>Anyway, <a href="https://brettterpstra.com#download">download the Service</a> below, double click to install, then set up a configuration file. The file should be located at <code class="language-plaintext highlighter-rouge">~/.config/bitly/config.yaml</code> and only needs two settings:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="nn">---</span>
+<span class="s">:token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+<span class="s">:domain: 'bit.ly'</span></code></pre></div></div>
+
+<p>To get your token, log into your Bit.ly account. If you don&rsquo;t have one, you can create a free one. The whole point of using Bit.ly for this is to have trackable links, so you definitely need an associated account. Once logged in, go to <a href="https://app.bitly.com/settings/api">https://app.bitly.com/settings/api</a>. You&rsquo;ll see a field where you can enter your account password (the same one you logged in with), then click <strong>Generate Token</strong>.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="API Settings" class="aligncenter" height="1612" src="https://cdn3.brettterpstra.com/uploads/2023/12/apisettings@2x.jpg" title="API Settings" width="1966" />
+              </noscript>
+            
+
+<p>Assuming a correct password, you&rsquo;ll be presented with a long alphanumeric string. That&rsquo;s what you&rsquo;ll copy into the <code class="language-plaintext highlighter-rouge">:token:</code> setting in your config file.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Access Token" class="aligncenter" height="239" src="https://cdn3.brettterpstra.com/uploads/2023/12/accesstoken.jpg" title="Access Token" width="637" />
+              </noscript>
+            
+
+<p>The <code class="language-plaintext highlighter-rouge">:domain:</code> setting is for users who&rsquo;ve set up a custom domain. If you haven&rsquo;t, you can just leave this set to &lsquo;bit.ly&rsquo;.</p>
+
+<p>Once configured, just select any text containing at least one valid URL, run Services-&gt;Bitlyize (either from app menu or by right clicking) and give it a couple seconds to contact the API.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 55.39%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2023/12/bitlyize2.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/bitlyize2.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2023/12/bitlyize2.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<blockquote class="info">
+  <p>If you&rsquo;re curious about how I&rsquo;m running Services these days, as shown in the movie above, that&rsquo;s an app called <a href="https://appmakes.io/paletro" title="Command Palette in any applications">Paletro</a> that gives you a command pallete in any app. Available on <a href="https://go.setapp.com/stp44">Setapp</a>.</p>
+</blockquote>
+
+<blockquote class="warn">
+  <p>This Bitlyize Services will swap whatever type of link its passed, so if your text contains both long and short URLs, the long ones will be shortened and the short ones will be lengthened. If your text contains a mix of short and long urls and you want them all to be either shortened or lengthened, use  the <code class="language-plaintext highlighter-rouge">Shorten</code> or <code class="language-plaintext highlighter-rouge">Expand</code> Services individually.</p>
+</blockquote>
+
+<h3 id="download">Download</h3>
+
+<p>The download includes a few services, <code class="language-plaintext highlighter-rouge">Bitlyize</code> and <code class="language-plaintext highlighter-rouge">Bitlyize to Clipboard</code>, as well as <code class="language-plaintext highlighter-rouge">Bitly Shorten</code>, <code class="language-plaintext highlighter-rouge">Bitly Expand</code> and <code class="language-plaintext highlighter-rouge">Bitly Preview</code>. The base Bitlyize Service will auto-detect link type and either shorten or expand them. The Clipboard version simply outputs the result to the clipboard rather than trying to paste it, so you can use it on selected text in non-editable fields. The Shorten/Expand versions will only shorten or lengthen, rather than swapping whatever type is detected. The Preview version is designed to run on a single shortened link and show you a preview of the lengthened version for verification/safety before clicking a short link.</p>
+
+<blockquote class="tip">
+  <p>If you want quick previews of multiple urls, shortened or long, I recommend my <a href="https://brettterpstra.com/projects/bretts-popclip-extensions/#checkurls">CheckURLs PopClip Extension</a>.</p>
+</blockquote>
+
+<div class="download" id="dlbox"><h4>Bitlyize Service v2.0.0</h4><p class="dl-icon"><a href="https://cdn3.brettterpstra.com/downloads/Bitlyize2.0.0.zip" title="Download Bitlyize Service v2.0.0"><img height="100" src="https://cdn3.brettterpstra.com/uploads/2014/04/bitlyicon.png" width="100" /></a></p><div class="dl-body"><p class="dl-link"><a href="https://cdn3.brettterpstra.com/downloads/Bitlyize2.0.0.zip" title="Download Bitlyize Service v2.0.0">Download Bitlyize Service v2.0.0</a></p><p class="dl-description">An OS X Service for quickly creating bit.ly short urls</p><p class="dl-published">Published 04/30/14.</p><p class="dl-updated">Updated 12/24/23. <a class="changelog" href="https://brettterpstra.com">Changelog</a></p><p class="dl-info"><a href="https://brettterpstra.com//donate/">Donate</a> &bull; <a href="https://brettterpstra.com//2014/04/30/bitlyize-link-shortening-service/" title="More information on Bitlyize Service">More info&hellip;</a></p></div></div>
+
+<blockquote class="warn">
+  <p>This version no longer adds affiliate codes to Amazon and iTunes links. iTunes doesn&rsquo;t really pay out anymore, at least for apps, and Amazon has their own URL shortener that I haven&rsquo;t figured out a way to tap into programmatically yet.</p>
+</blockquote>
+
+<p>If you&rsquo;re curious, <a href="https://gist.github.com/ttscoff/88928980fa420dc700ab45d532c0cb73">here&rsquo;s the script</a> used in all of the Bitly Services. You can modify its utility by changing the <code class="language-plaintext highlighter-rouge">function</code> and <code class="language-plaintext highlighter-rouge">output</code> settings as shown in the comments.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F26%2Fupdated-bitlyize-service%2F&amp;text=Updated+Bitlyize+Service&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2023%2F12%2F26%2Fupdated-bitlyize-service%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2023 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16509323.gif" width="1" />
+]]></content:encoded>
+<pubDate>2023-12-26T08:00:00-06:00</pubDate>
+<pubDate>2023-12-26T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Weather forecasts for SearchLink</title>
