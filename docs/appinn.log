@@ -11390,3 +11390,11 @@ Append: [【开发者自荐】iOS特斯拉投屏app - 支持高德地图投屏�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2023-12-26 12:04:22.257641
+------------------------------------------------------
+Started: 2023-12-26 14:03:09.297265
+Existing_entries: 210
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2023-12-26 14:03:13.008573
