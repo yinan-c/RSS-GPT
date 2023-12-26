@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Updated Bitlyize Service</title>
 <link>https://brett.trpstra.net/link/535/16509323/updated-bitlyize-service</link>
 <guid>https://brett.trpstra.net/link/535/16509323/updated-bitlyize-service</guid>
 <content:encoded><![CDATA[
-<div> Bitlyize, Bit.ly API, shortened links, analytics, Ruby<br>
-总结:<br>
+<div> Bitlyize, Bit.ly API, shortened links, analytics, Ruby<br />
+总结:<br />
 这篇文章介绍了对Bitlyize服务进行升级，使其能够与Bit.ly API v4兼容，实现长链接的解析和替换为与您的账户相连的短链接。此外，还介绍了如何获取Bit.ly的token并进行配置、安装Ruby等操作。文章还提到了Bitlyize服务的功能和下载包含的几种服务。同时，作者还提到了如何利用类似Alfred这样的应用进行服务操作，以及对于Amazon和iTunes链接的相关内容。 <div>
 <p>I hope you&rsquo;ve had nice holidays!</p>
 
@@ -96,9 +97,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16509323.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-26T08:00:00-06:00</pubDate>
-<pubDate>2023-12-26T08:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Weather forecasts for SearchLink</title>
 <link>https://brett.trpstra.net/link/535/16508012/weather-forecasts-for-searchlink</link>
