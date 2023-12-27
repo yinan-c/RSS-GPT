@@ -11154,3 +11154,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [派早报：华为 nova 12 系列发布、新款 Apple Watch 在美遭到禁售等](https://sspai.com/post/85383)
 append_entries: 1
 Finish: 2023-12-27 02:11:01.079796
+------------------------------------------------------
+Started: 2023-12-27 04:03:25.425565
+Existing_entries: 381
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-12-27 04:03:25.651954
