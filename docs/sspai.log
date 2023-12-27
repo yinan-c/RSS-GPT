@@ -11160,3 +11160,12 @@ Existing_entries: 381
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-27 04:03:25.651954
+------------------------------------------------------
+Started: 2023-12-27 06:03:50.272252
+Existing_entries: 381
+Fetching from https://rsshub.app/sspai/index
+Token length: 537
+Summarized using GPT-3.5-turbo-1106
+Append: [对话青工所：如何制作一期正经又「不正经」的科普节目？](https://sspai.com/post/85263)
+append_entries: 1
+Finish: 2023-12-27 06:04:02.770598
