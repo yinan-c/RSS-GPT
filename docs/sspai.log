@@ -11253,3 +11253,12 @@ Existing_entries: 386
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-28 08:03:46.416384
+------------------------------------------------------
+Started: 2023-12-28 10:03:25.958840
+Existing_entries: 386
+Fetching from https://rsshub.app/sspai/index
+Token length: 5880
+Summarized using GPT-3.5-turbo-1106
+Append: [在深秋游黄山，第一次的山岳之旅](https://sspai.com/post/85073)
+append_entries: 1
+Finish: 2023-12-28 10:03:45.684847
