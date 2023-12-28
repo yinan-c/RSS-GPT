@@ -11229,3 +11229,15 @@ Existing_entries: 384
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-28 02:11:02.087784
+------------------------------------------------------
+Started: 2023-12-28 04:03:49.039100
+Existing_entries: 384
+Fetching from https://rsshub.app/sspai/index
+Token length: 4458
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：法院暂停专利禁令，苹果暂时仍可销售 Apple Watch](https://sspai.com/post/85385)
+Token length: 4826
+Summarized using GPT-3.5-turbo-1106
+Append: [使用15个月后，再来看看 Arc](https://sspai.com/post/84931)
+append_entries: 2
+Finish: 2023-12-28 04:04:29.038946
