@@ -11319,3 +11319,15 @@ Existing_entries: 388
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-29 04:03:53.836501
+------------------------------------------------------
+Started: 2023-12-29 06:04:04.096405
+Existing_entries: 388
+Fetching from https://rsshub.app/sspai/index
+Token length: 1948
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：小米前瞻小米汽车 SU7/Max 技术等](https://sspai.com/post/85436)
+Token length: 3679
+Summarized using GPT-3.5-turbo-1106
+Append: [全新的博客发布体验：在 Trilium 用「知识管理」的方式发博客](https://sspai.com/post/85141)
+append_entries: 2
+Finish: 2023-12-29 06:04:20.711029
