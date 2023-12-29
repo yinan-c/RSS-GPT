@@ -6405,3 +6405,12 @@ Existing_entries: 273
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2023-12-28 22:03:14.860881
+------------------------------------------------------
+Started: 2023-12-29 00:09:19.273861
+Existing_entries: 273
+Fetching from https://rknight.me/feed.xml
+Token length: 4663
+Summarized using GPT-3.5-turbo-1106
+Append: [The Web is Fantastic](https://rknight.me/blog/the-web-is-fantastic/)
+append_entries: 1
+Finish: 2023-12-29 00:09:23.924360

@@ -14415,3 +14415,10 @@ Filter: [GPT-4 API曝出重大漏洞，15个样本微调，一句prompt秒生恶
 Filter: [「运气使然」英伟达，压得英特尔喘不过气](https://www.36kr.com/p/2578714377724040)
 append_entries: 0
 Finish: 2023-12-28 22:06:37.266709
+------------------------------------------------------
+Started: 2023-12-29 00:11:09.779249
+Existing_entries: 405
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
