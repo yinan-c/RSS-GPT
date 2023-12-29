@@ -6414,3 +6414,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [The Web is Fantastic](https://rknight.me/blog/the-web-is-fantastic/)
 append_entries: 1
 Finish: 2023-12-29 00:09:23.924360
+------------------------------------------------------
+Started: 2023-12-29 02:08:36.957365
+Existing_entries: 274
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2023-12-29 02:08:38.583245
