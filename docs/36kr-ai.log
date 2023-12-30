@@ -14822,3 +14822,10 @@ Filter: [思谋科技总裁谢佶隽：变革前夕，500强产业老兵牵手�
 Filter: [大厂加码海外AI布局：字节推出Coze，百度上线Meiya](https://www.36kr.com/p/2581074716616072)
 append_entries: 0
 Finish: 2023-12-30 14:03:36.721188
+------------------------------------------------------
+Started: 2023-12-30 16:03:47.412356
+Existing_entries: 411
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
