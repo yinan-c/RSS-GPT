@@ -11421,3 +11421,12 @@ Existing_entries: 392
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-30 10:03:13.567970
+------------------------------------------------------
+Started: 2023-12-30 12:03:56.556520
+Existing_entries: 392
+Fetching from https://rsshub.app/sspai/index
+Token length: 7504
+Summarized using GPT-3.5-turbo-1106
+Append: [放轻松 | 累了就休息，放松一下没关系](https://sspai.com/post/85288)
+append_entries: 1
+Finish: 2023-12-30 12:04:03.722828
