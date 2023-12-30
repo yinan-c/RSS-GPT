@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>JavaScript Lyric embed for SearchLink</title>
 <link>https://brett.trpstra.net/link/535/16512963/javascript-lyric-embed-for-searchlink</link>
 <guid>https://brett.trpstra.net/link/535/16512963/javascript-lyric-embed-for-searchlink</guid>
 <content:encoded><![CDATA[
 <div> Lyrics plugin, JavaScript, Genius.com, embed, annotations
-<br><br>总结: Lyrics插件现在可以嵌入来自Genius.com的JavaScript版本的歌词，包括注释。通过查询!lyricjs SEARCH STRING来使用。BrettTerpstra.com网站支持这个插件。 <div>
+<br /><br />总结: Lyrics插件现在可以嵌入来自Genius.com的JavaScript版本的歌词，包括注释。通过查询!lyricjs SEARCH STRING来使用。BrettTerpstra.com网站支持这个插件。 <div>
 <p>Another silly little rabbit hole I&rsquo;ve gone down&hellip; The Lyrics plugin for <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a> can now embed the JavaScript version of lyrics from Genius.com, complete with annotations.</p>
 
 <p>The query is <code class="language-plaintext highlighter-rouge">!lyricjs SEARCH STRING</code>. Running <code class="language-plaintext highlighter-rouge">!lyricjs Blood in the Cut K.flay</code> will output this:</p>
@@ -38,9 +39,7 @@ Read <a href="https://genius.com/Kflay-blood-in-the-cut-lyrics">K.Flay – Blood
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16512963.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2023-12-29T15:00:00-06:00</pubDate>
-<pubDate>2023-12-29T15:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>The Curio giveaway winner!</title>
 <link>https://brett.trpstra.net/link/535/16512869/the-curio-giveaway-winner</link>
