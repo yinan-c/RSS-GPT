@@ -11481,3 +11481,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [你的 2023，藏在这些 app 里](https://sspai.com/post/85390)
 append_entries: 1
 Finish: 2023-12-31 04:03:39.639482
+------------------------------------------------------
+Started: 2023-12-31 06:03:37.732845
+Existing_entries: 394
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2023-12-31 06:03:37.933132
