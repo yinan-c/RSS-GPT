@@ -3644,3 +3644,9 @@ error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: 1. Y
 Append: [深度報道精選：甘肅積石山震後72小時](https://cn.gijn.org/2023/12/31/%e6%b7%b1%e5%ba%a6%e6%8a%a5%e9%81%93%e7%b2%be%e9%80%89%ef%bc%9a%e7%94%98%e8%82%83%e7%a7%af%e7%9f%b3%e5%b1%b1%e9%9c%87%e5%90%8e72%e5%b0%8f%e6%97%b6/zh-hant/)
 append_entries: 1
 Finish: 2023-12-31 04:19:31.333018
+------------------------------------------------------
+Started: 2023-12-31 06:19:47.692916
+Existing_entries: 23
+Fetching from https://cn.gijn.org/feed/zh-hant/
+append_entries: 0
+Finish: 2023-12-31 06:19:48.045290
