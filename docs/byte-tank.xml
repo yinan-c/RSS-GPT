@@ -4,6 +4,7 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>http://lopespm.github.io/</link>
 
+
 <item>
 <title>Make the meme transcend its host</title>
 <link>http://lopespm.github.io/notes/2023/12/31/meme-transcending-host.html</link>
@@ -11,8 +12,8 @@
 <content:encoded><![CDATA[
 <div> 关键词：ephemeral nature, digital persistence, physical medium, book, Benjamin Franklin
 
-总结:<br>
-这篇文章讨论了数字内容的短暂性以及如何延长其寿命。作者提到了通过分配第三方或使用自持续数字机制来保持博客的在线存在，但这两种方法都有缺点。最终，作者推荐将内容保存到物理媒介，即书籍，以延长其存在的可能性。文章还提到了一些书籍对如何将想法转化成实质内容的启发，并分享了自己的计划，包括继续出版博客并将其编成书。<br> <div>
+总结:<br />
+这篇文章讨论了数字内容的短暂性以及如何延长其寿命。作者提到了通过分配第三方或使用自持续数字机制来保持博客的在线存在，但这两种方法都有缺点。最终，作者推荐将内容保存到物理媒介，即书籍，以延长其存在的可能性。文章还提到了一些书籍对如何将想法转化成实质内容的启发，并分享了自己的计划，包括继续出版博客并将其编成书。<br /> <div>
 <p>There is an ephemeral nature to everything. That includes me, you and this blog. This blog is currently <a href="https://github.com/lopespm/lopespm.github.com">hosted in GitHub</a>, and nothing guarantees that after I’m long gone, or even before, GitHub might cease to exist. How to account for that?</p>
 
 <p>One way to keep these writings alive, would be to assign a third person with the task of keeping this establishment online. What happens when that person is gone though? It’s turtles all the way down.</p>
@@ -84,10 +85,8 @@
   </ol>
 </div>
 ]]></content:encoded>
-
 <pubDate>2023-12-31T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Job Safety in the AI Era</title>
 <link>http://lopespm.github.io/notes/2023/12/25/job_safety_in_ai_era.html</link>

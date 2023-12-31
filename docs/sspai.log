@@ -11517,3 +11517,12 @@ Existing_entries: 396
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2023-12-31 14:03:18.212083
+------------------------------------------------------
+Started: 2023-12-31 16:03:47.283374
+Existing_entries: 396
+Fetching from https://rsshub.app/sspai/index
+Token length: 4856
+Summarized using GPT-3.5-turbo-1106
+Append: [不只为了省钱：开源密码管理器可用性报告](https://sspai.com/post/85483)
+append_entries: 1
+Finish: 2023-12-31 16:03:54.264352
