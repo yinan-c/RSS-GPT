@@ -6674,3 +6674,12 @@ Existing_entries: 278
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-01-01 12:04:21.410456
+------------------------------------------------------
+Started: 2024-01-01 14:03:25.787649
+Existing_entries: 278
+Fetching from https://rknight.me/feed.xml
+Token length: 1140
+Summarized using GPT-3.5-turbo-1106
+Append: [Creating Permanent and Temporary Redirects with Nginx](https://rknight.me/blog/creating-permanent-and-temporary-redirects-with-nginx/)
+append_entries: 1
+Finish: 2024-01-01 14:03:30.787380
