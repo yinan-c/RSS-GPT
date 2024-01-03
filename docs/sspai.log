@@ -11721,3 +11721,12 @@ Existing_entries: 402
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-03 04:03:24.029326
+------------------------------------------------------
+Started: 2024-01-03 06:03:52.834396
+Existing_entries: 402
+Fetching from https://rsshub.app/sspai/index
+Token length: 3824
+Summarized using GPT-3.5-turbo-1106
+Append: [提示词工程的问题视角](https://sspai.com/post/85484)
+append_entries: 1
+Finish: 2024-01-03 06:04:10.568142
