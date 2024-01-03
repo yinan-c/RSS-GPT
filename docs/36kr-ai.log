@@ -15657,3 +15657,31 @@ Fetching from https://rsshub.app/36kr/motif/327686782977
 Feed error: 503
 append_entries: 0
 error when rendering xml, skip docs/36kr-ai
+------------------------------------------------------
+Started: 2024-01-03 02:13:13.925818
+Existing_entries: 415
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [原钉钉副总裁创业杀入AI Agent赛道，获亿元融资 | 36氪独家](https://www.36kr.com/p/2588269475707522)
+Filter: [GPT-4抽象推理PK人类差距巨大，多模态远不如纯文本，AGI火花难以独立燃烧](https://www.36kr.com/p/2588129662139014)
+Token length: 4508
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI年收入破16亿美元，AI元年英伟达暴涨239%+2024年AI大事件预测](https://www.36kr.com/p/2588138428627589)
+Token length: 5339
+Summarized using GPT-3.5-turbo-1106
+Append: [ChatGPT文明模拟器再上线，一键穿越回火山爆发当天的庞贝古城](https://www.36kr.com/p/2588141169932932)
+Filter: [从文生图到文生视频，AI行业卷疯了](https://www.36kr.com/p/2587477392860800)
+Filter: [“文心、通义和混元”们的2023：道阻且长，仍向远方](https://www.36kr.com/p/2587471431542408)
+Filter: [AI创业公司扎堆义乌“淘金”](https://www.36kr.com/p/2587462457173377)
+Filter: [Reddit 再战上市：热梗、散户、迷因如何顺应AI潮流](https://www.36kr.com/p/2587372101150340)
+Filter: [特斯拉机器人终于袭击人的背后](https://www.36kr.com/p/2587148352872578)
+Filter: [谁是大模型世界的第一个赢家？](https://www.36kr.com/p/2587245123609989)
+Filter: [文生视频下一站，Meta已经开始视频生视频了](https://www.36kr.com/p/2587194924934789)
+Filter: [AI基金年终盘点：一文看懂2024年AI趋势](https://www.36kr.com/p/2587130727196032)
+Filter: [隐退三年，身价4800亿元的Google创始人出面，亲自给Gemini写代码，还经常加班到凌晨一点](https://www.36kr.com/p/2587206405563778)
+Filter: [AI版权的无限战争：巨头轮流坐上“被告席”](https://www.36kr.com/p/2587145935806343)
+Filter: [这是GPT-4变笨的新解释](https://www.36kr.com/p/2587145068914048)
+Filter: [谷歌Gemini大逆转？斯坦福Meta华人证明其推理性能强于GPT-3.5](https://www.36kr.com/p/2587136648177287)
+Filter: [2024年，AI“魔盒”还能开出什么？](https://www.36kr.com/p/2586961073464964)
+Filter: [60年首次，AI发现首批新抗生素，MIT重磅研究登Nature，人类有望对抗超级细菌](https://www.36kr.com/p/2582769238025863)
+append_entries: 2
+Finish: 2024-01-03 02:13:56.298921
