@@ -15650,3 +15650,10 @@ Filter: [GPT-5不会真正突破，24年AGI不会实现，全网AI大佬24年最
 Filter: [口述全球大模型这一年](https://www.36kr.com/p/2584625392657795)
 append_entries: 0
 Finish: 2024-01-02 22:03:47.434551
+------------------------------------------------------
+Started: 2024-01-03 00:11:49.267555
+Existing_entries: 415
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 503
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
