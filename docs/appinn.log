@@ -12211,3 +12211,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-04 02:12:53.351683
+------------------------------------------------------
+Started: 2024-01-04 04:03:24.522087
+Existing_entries: 215
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [TalkAgent: 意识流驱动与智能体语音聊天训练口语的iOS App，主要解决的问题是提升外语口语能力。](https://meta.appinn.net/t/topic/51092)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-01-04 04:03:28.577075

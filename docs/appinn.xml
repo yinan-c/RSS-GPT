@@ -4,6 +4,56 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>TalkAgent: 意识流驱动与智能体语音聊天训练口语的iOS App，主要解决的问题是提升外语口语能力。</title>
+<link>https://meta.appinn.net/t/topic/51092</link>
+<guid>https://meta.appinn.net/t/topic/51092</guid>
+<content:encoded><![CDATA[
+
+<p><a href="https://apps.apple.com/cn/app/id6472412023" rel="noopener nofollow ugc">TalkAgent 产品链接(App Store)</a></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":bulb:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/bulb.png?v=12" title=":bulb:" width="20" />灵感来源</h3>
+<p>大多数人学习外语主流方式还是靠文本，我也不例外，在面对外国友人时我几乎一句话都搭不上。相信很多人和我一样都有英语（或者其他语言）的口语能力提升的需求。在真实的社交圈中很难找到陪你一起练习口语能力的人，这件事暂时没有比较好的解决方案。随着AI 能力的提升，我们发现可以通过TTS和语言模型来解决这个问题于是我们开发了此App。 我们采用了意识流驱动的模式来解决“对话被聊死”的问题。后面我会对此特性做详细的阐述。</p>
+<p><a href="https://apps.apple.com/cn/app/id6472412023" rel="noopener nofollow ugc"><img alt=":arrow_double_down:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/arrow_double_down.png?v=12" title=":arrow_double_down:" width="20" />下载</a></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a><img alt=":star2:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/star2.png?v=12" title=":star2:" width="20" />核心玩法</h3>
+<p>当用户打开与智能体的对话框时，智能体会<strong>主动发起</strong>语音对话，这种设定可以让用户迅速进入一段对话。用户目前只可以通过语音的方式回答智能体的对话，这种强设定也是为了约束用户一定要练习口语能力。当用户不理解智能体的回复或问题的含义又或者无法继续聊天，这是时候可以运用思维来解决这个问题。这是我们App最核心模块，思维列表内置了8种（后续会更多）<strong>思维人格</strong>，你可以简单的把他们理解为脑中的小人。他们分别是：哲学家，思维跃迁，马屁工匠，演说家，历史学家，观察者，翻译者，摇滚明星。 每当用户点击一个思维，此思维就会结合思维人格来回答智能体的问题，为用户制造出一些话题效果或者产生新的<strong>动机</strong>。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/c/6cfe343973fdee46bedb833ab4664f845ec411ca.jpeg" title="app in 01"><img alt="app in 01" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/c/6cfe343973fdee46bedb833ab4664f845ec411ca_2_666x500.jpeg" width="666" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a><img alt=":wheel:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/wheel.png?v=12" title=":wheel:" width="20" />功能介绍</h3>
+<ul>
+<li>
+<p>支持用户自定义创建虚拟角色</p>
+</li>
+<li>
+<p>内置OpenAI最新的TTS, Apple TTS,Azure TTS,并且允许用户随意切换</p>
+</li>
+<li>
+<p>多种语言支持：英语，日语，韩语，中文</p>
+</li>
+<li>
+<p>多种语言难度设置：简单，普通，专家</p>
+</li>
+<li>
+<p>支持智能体商店，在智能体商店你可以直接选择内置的智能体模板一键创建角色</p>
+</li>
+<li>
+<p>内置8种思维模式驱动对话延续</p>
+</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>图片预览和视频</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/3/d30ac20f184926f8fb77398963893cdaf1ff573c.jpeg" title="869shots_so"><img alt="869shots_so" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/3/d30ac20f184926f8fb77398963893cdaf1ff573c_2_690x388.jpeg" width="690" /></a></div><p></p>
+<p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a><img alt=":man_construction_worker:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/man_construction_worker.png?v=12" title=":man_construction_worker:" width="20" />支持和问题反馈</h3>
+<ul>
+<li>Email: <a href="mailto:jiangdi0924@gmail.com">jiangdi0924@gmail.com</a></li>
+<li>Twitter: <a href="https://twitter.com/NortonJiang" rel="noopener nofollow ugc">https://twitter.com/NortonJiang</a></li>
+<li><a href="https://space.bilibili.com/228834724" rel="noopener nofollow ugc">哔哩哔哩</a></li>
+<li><a href="https://www.xiaohongshu.com/user/profile/62b30f94000000001902b027" rel="noopener nofollow ugc">小红书</a></li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51092">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 04 Jan 2024 02:48:39 +0000</pubDate>
+<pubDate>Thu, 04 Jan 2024 02:48:39 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】MarkBox-网页收集工具，一键收集网页，标签轻松管理</title>
