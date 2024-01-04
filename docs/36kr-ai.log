@@ -16176,3 +16176,10 @@ Filter: [AI识别出地震先兆信号？机器学习发现数据神秘关联，
 Filter: [AI，打工人年底冲刺KPI的救命稻草](https://www.36kr.com/p/2588521123117704)
 append_entries: 0
 Finish: 2024-01-04 20:05:16.952985
+------------------------------------------------------
+Started: 2024-01-04 22:05:22.137045
+Existing_entries: 420
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Feed error: 404
+append_entries: 0
+error when rendering xml, skip docs/36kr-ai
