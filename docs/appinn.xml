@@ -4,6 +4,22 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>请教有没有这样的Chrome插件，全局控制某网页执行指定操作？</title>
+<link>https://meta.appinn.net/t/topic/51140</link>
+<guid>https://meta.appinn.net/t/topic/51140</guid>
+<content:encoded><![CDATA[
+
+<p>当网页选项卡打开了白名单设置好的某网站（前台或后台），则执行指定操作</p>
+<p>假设打开了抖音网页版，则对应↑和↓<br />
+假设打开了网易云音乐，‘Ctrl+←’和’Ctrl+→’<br />
+如果某网页没有热键，可以通过页面CSS查找对应的class名或id名，查找对应的按钮或超链，执行点击或滚轮操作</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51140">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 05 Jan 2024 14:33:52 +0000</pubDate>
+<pubDate>Fri, 05 Jan 2024 14:33:52 +0000</pubDate>
+</item>
 
 <item>
 <title>给搜索酱整理了几个搜索引擎和网站合集，欢迎一起来编辑</title>

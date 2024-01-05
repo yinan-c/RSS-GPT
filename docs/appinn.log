@@ -12361,3 +12361,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-05 14:03:24.164655
+------------------------------------------------------
+Started: 2024-01-05 16:03:33.832512
+Existing_entries: 221
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [请教有没有这样的Chrome插件，全局控制某网页执行指定操作？](https://meta.appinn.net/t/topic/51140)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-01-05 16:03:38.172188
