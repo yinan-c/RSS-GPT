@@ -5,16 +5,59 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】wiliwilii 专为手柄控制设计的开源第三方跨平台 B 站客户端</title>
+<link>https://meta.appinn.net/t/topic/39827</link>
+<guid>https://meta.appinn.net/t/topic/39827</guid>
+<content:encoded><![CDATA[
+
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>应用平台</h2>
+<p>Windows / macOS / Linux / NintendoSwitch</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句简介</h2>
+<p>wiliwili 是一个专为手柄用户设计的第三方 B 站客户端，拥有非常接近官方 PC 客户端的 B 站浏览体验，同时支持触屏、鼠标、键盘 与 手柄操控，无论是电脑还是游戏掌机都能让你获得全新的使用体验 。</p>
+<p><a href="https://github.com/xfangfang/wiliwili/releases" rel="noopener nofollow ugc"><img alt="GitHub release (latest by date)" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/c/0c4213af230824ee569327531014d50caf0fb7da.svg" width="94" /></a> <img alt="GitHub All Releases" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/4/f4b1f02656a2174cc9b089e3ce2867b31ba8aea3.svg" width="104" /> <img alt="GitHub stars" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/e/aeb50dd614f8ae279485dc3977bddd88629f97f2.svg" width="68" /> <img alt="GitHub forks" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/1/71046ab891e1aa5c14d84c00f3faa32aca882526.svg" width="60" /> <a href="https://crowdin.com/project/wiliwili" rel="noopener nofollow ugc"><img alt="Crowdin" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/c/1cc399c31b63d551d09922532d915e299c8d792e.svg" width="107" /></a> <img alt="NS" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/0/704c130003592e1d462bc71d1c6be479075e3ab2.svg" width="119" /> <img alt="MS" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/8/18095f5d3c8bd8c9d9527481b6ab676b3632d73b.svg" width="87" /> <img alt="mac" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/1/01a40a6427b352df95a943433ac290bbb8608b70.svg" width="103" /> <img alt="Linux" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/6/d6de697bb9f9bbc201dab85845c8aee2379608e0.svg" width="57" /></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件介绍</h2>
+<p>之前发布过一次，但是当时只是支持了 switch ，后来有很多朋友需要其他平台的安装包，在之后的日子里不断补充完善，终于在春节前肝完了新版本，在 switch 的基础上又提供了 win linux mac 的安装包。</p>
+<ul>
+<li>多语言：简、繁、日、韩、英 …</li>
+<li>搜索页：热搜 视频 番剧 影视</li>
+<li>筛选页：快速找到想看的影视内容</li>
+<li>动态页：关注的 UP 主最近视频动态</li>
+<li>直播页：关注的主播与其他系统推荐</li>
+<li>播放页：视频 番剧 电影 纪录片 综艺，支持弹幕与评论</li>
+<li>个人页：扫码登录 历史记录 个人收藏 我的追番 我的追剧</li>
+<li>主题色：拥有深浅两色主题，跟随系统自动切换</li>
+</ul>
+<p>欢迎给项目点 star 一起贡献代码，c++ OpenGL 项目，所以应该可以运行在大部分设备上。（我并没有再支持其他系统的打算了，但是欢迎诸位的贡献）</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>一些截图</h1>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/b/4b063200a74b08b29344ff61b3cb806235e8bd91.jpeg" title="截图 1"><img alt="截图 1" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/4/b/4b063200a74b08b29344ff61b3cb806235e8bd91_2_690x388.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/7/f71fecfe115a942b6d7d8d378aa3c4ae660b0d20.jpeg" title="截图 2"><img alt="截图 2" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/7/f71fecfe115a942b6d7d8d378aa3c4ae660b0d20_2_690x388.jpeg" width="690" /></a></div><p></p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>项目地址</h1>
+<p>开源地址： <a class="inline-onebox" href="https://github.com/xfangfang/wiliwili" rel="noopener nofollow ugc">GitHub - xfangfang/wiliwili: 专为手柄控制设计的第三方跨平台B站客户端，目前可以运行在PC全平台和Nintendo Switch上 | Yet another Bilibili client [WIP]</a></p>
+<p>官方网站：<a class="inline-onebox" href="https://xfangfang.github.io/wiliwili/" rel="noopener nofollow ugc">wiliwili | 专为手柄控制设计的第三方跨平台B站客户端，目前可以运行在PC全平台和Nintendo Switch上 Yet another Bilibili client [WIP]</a></p>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39827">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 20 Jan 2023 12:14:36 +0000</pubDate>
+<pubDate>Fri, 20 Jan 2023 12:14:36 +0000</pubDate>
+</item>
+
+<item>
 <title>请问如何用Google Chrome修改网页内容后再另存为网页</title>
 <link>https://meta.appinn.net/t/topic/51123</link>
 <guid>https://meta.appinn.net/t/topic/51123</guid>
 <content:encoded><![CDATA[
-
 <p>咨询一下各位大神，用Google Chrome浏览器按F12后再修改网页中的内容后，如果保存修改后的网页，我尝试过直接保存网页，修改后的效果是没有保存的，谢谢各位解答</p>
             <p><small>1 个帖子 - 1 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/51123">阅读完整话题</a></p>
 ]]></content:encoded>
-<pubDate>Fri, 05 Jan 2024 07:50:06 +0000</pubDate>
 <pubDate>Fri, 05 Jan 2024 07:50:06 +0000</pubDate>
 </item>
 <item>
@@ -22,7 +65,6 @@
 <link>https://meta.appinn.net/t/topic/51118</link>
 <guid>https://meta.appinn.net/t/topic/51118</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>AI LOGO</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
@@ -94,9 +136,7 @@
             <p><a href="https://meta.appinn.net/t/topic/51118">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 05 Jan 2024 06:44:13 +0000</pubDate>
-<pubDate>Fri, 05 Jan 2024 06:44:13 +0000</pubDate>
 </item>
-
 <item>
 <title>桑基图大师 - 解锁 iOS 和 macOS 上桑基图的强大潜能 ｜ 活动</title>
 <link>https://meta.appinn.net/t/topic/51111</link>
