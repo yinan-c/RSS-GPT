@@ -12325,3 +12325,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-05 06:03:59.787996
+------------------------------------------------------
+Started: 2024-01-05 08:03:52.113796
+Existing_entries: 217
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [请问如何用Google Chrome修改网页内容后再另存为网页](https://meta.appinn.net/t/topic/51123)
+Append: [【开发者自荐】AI LOGO：免费AI Logo生成器，输入名称一键生成logo设计](https://meta.appinn.net/t/topic/51118)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-01-05 08:03:56.074937
