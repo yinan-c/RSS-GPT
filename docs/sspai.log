@@ -11877,3 +11877,12 @@ Existing_entries: 410
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-05 00:11:08.209149
+------------------------------------------------------
+Started: 2024-01-05 02:13:40.309907
+Existing_entries: 410
+Fetching from https://rsshub.app/sspai/index
+Token length: 3491
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：微软计划在键盘上新增 Copilot 按键](https://sspai.com/post/85581)
+append_entries: 1
+Finish: 2024-01-05 02:13:58.468260
