@@ -4,6 +4,86 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>12-25~12-31.老胡的周刊（第122期）</title>
+<link>https://meta.appinn.net/t/topic/51168</link>
+<guid>https://meta.appinn.net/t/topic/51168</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#movie-webhttpsgithubcommovie-webmovie-web-2" name="movie-webhttpsgithubcommovie-webmovie-web-2"></a><a href="https://github.com/movie-web/movie-web" rel="noopener nofollow ugc">movie-web</a></h3>
+<p>开源可自部署的简约在线电影搜索观看项目：</p>
+<ul>
+<li>自动保存进度</li>
+<li>记录观看电影</li>
+<li>简约的界面，展示内容克制</li>
+</ul>
+<p><img alt="movie-web" height="435" src="https://images-1252557999.file.myqcloud.com/uPic/movie-web.jpg" width="690" /></p>
+<p>所有内容都是从第三方获取的，并且抓取操作在客户端完成，项目包含以下模块：</p>
+<ul>
+<li>代理</li>
+<li>前端</li>
+<li>后端</li>
+</ul>
+<p>这三块全部可以自部署，文档写的也挺清晰我试了下，播放霸王别姬：</p>
+<p><img alt="movie_demo" height="408" src="https://images-1252557999.file.myqcloud.com/uPic/movie_demo.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#mayfly-gohttpsgithubcomdromaramayfly-go-3" name="mayfly-gohttpsgithubcomdromaramayfly-go-3"></a><a href="https://github.com/dromara/mayfly-go" rel="noopener nofollow ugc">mayfly-go</a></h3>
+<p>web 版 linux(终端[终端回放] 文件 脚本 进程 计划任务)、数据库（mysql postgres 达梦）、redis(单机 哨兵 集群)、mongo 统一管理操作平台：</p>
+<p><img alt="mayfly-go" height="380" src="https://images-1252557999.file.myqcloud.com/uPic/mayfly-go.jpeg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#fre123-info-flowhttpsgithubcomfre123-comfre123-info-flow-4" name="fre123-info-flowhttpsgithubcomfre123-comfre123-info-flow-4"></a><a href="https://github.com/fre123-com/fre123-info-flow" rel="noopener nofollow ugc">fre123-info-flow</a></h3>
+<p>老胡最近整的开源项目，从<a href="https://www.fre123.com/weekly/" rel="noopener nofollow ugc">技术周刊精选</a>到<a href="https://www.fre123.com/tech" rel="noopener nofollow ugc">信息流</a>，和前端朋友一起梳理出了个通用的排版并开源出来，欢迎大家使用和提出建议:</p>
+<p><img alt="fre123-info-flow-demo" height="413" src="https://images-1252557999.file.myqcloud.com/uPic/fre123-info-flow-demo.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#copilot-gpt4-servicehttpsgithubcomaaamooncopilot-gpt4-service-5" name="copilot-gpt4-servicehttpsgithubcomaaamooncopilot-gpt4-service-5"></a><a href="https://github.com/aaamoon/copilot-gpt4-service" rel="noopener nofollow ugc">copilot-gpt4-service</a></h3>
+<p>将 <code>Github Copilot Chat</code> 请求转换为 <code>ChatGPT</code> 请求，免费使用 <code>GPT-4</code> 模型：</p>
+<p><img alt="copilot-gpt4-service" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/copilot-gpt4-service.png" width="564" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#typsthttpsgithubcomtypsttypst-6" name="typsthttpsgithubcomtypsttypst-6"></a><a href="https://github.com/typst/typst" rel="noopener nofollow ugc">typst</a></h3>
+<p><code>Typst</code> 是一种基于标记的排版系统，旨在具备与 <code>LaTeX</code> 相当强大的功能，同时更易学习和使用：</p>
+<ul>
+<li>内置常见格式任务的标记</li>
+<li>灵活的功能用于其他所有任务</li>
+<li>紧密集成的脚本系统</li>
+<li>数学排版、参考文献管理等功能</li>
+<li>通过增量编译实现快速编译时间</li>
+<li>友好错误提示以防出错</li>
+</ul>
+<p>专注于您的文本，让Typst来处理布局和格式。</p>
+<p><img alt="typst" height="360" src="https://images-1252557999.file.myqcloud.com/uPic/typst.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#radisheshttpsgithubcomradishes-musicradishes-8" name="radisheshttpsgithubcomradishes-musicradishes-8"></a><a href="https://github.com/radishes-music/radishes" rel="noopener nofollow ugc">radishes</a></h3>
+<p>跨平台的无版权音乐平台，支持 <code>windows / macos / linux / web</code>：</p>
+<p><img alt="" height="472" src="https://images-1252557999.file.myqcloud.com/uPic/radishes.jpeg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#gituphttpsgithubcomgit-upgitup-9" name="gituphttpsgithubcomgit-upgitup-9"></a><a href="https://github.com/git-up/GitUp" rel="noopener nofollow ugc">GitUp</a></h3>
+<p>简洁的 <code>Git</code> 客户端：</p>
+<p><img alt="" height="336" src="https://images-1252557999.file.myqcloud.com/uPic/GitUp.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#frpc-desktophttpsgithubcomluckjiaweifrpc-desktop-10" name="frpc-desktophttpsgithubcomluckjiaweifrpc-desktop-10"></a><a href="https://github.com/luckjiawei/frpc-desktop" rel="noopener nofollow ugc">frpc-desktop</a></h3>
+<p><img alt=":tada:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/tada.png?v=12" title=":tada:" width="20" /> 一个 <code>Frp Client</code> 跨平台桌面端：</p>
+<p><img alt="" height="" src="https://img.fre123.com/i/2023/12/23/6586f68db0238.jpg" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#dotnetguidehttpsgithubcomysgstudyhardsdotnetguide-12" name="dotnetguidehttpsgithubcomysgstudyhardsdotnetguide-12"></a><a href="https://github.com/YSGStudyHards/DotNetGuide" rel="noopener nofollow ugc">DotNetGuide</a></h3>
+<p><code>DotNetGuide</code> 技术社区是一个面向 <code>.NET</code> 开发者的开源技术社区，旨在为开发者们提供全面的 <code>C#/.NET/.NET Core</code> 相关学习资料、技术分享和咨询、项目推荐、招聘资讯和解决问题的平台，可以在线<a href="https://www.yuque.com/ysgstudyhard/da6e0c" rel="noopener nofollow ugc">阅读</a>：</p>
+<p><img alt="DotNetGuide" height="316" src="https://images-1252557999.file.myqcloud.com/uPic/DotNetGuide.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-13" name="h-13"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#ocrplantreemehttpsocrplantreemeocr-14" name="ocrplantreemehttpsocrplantreemeocr-14"></a><a href="https://ocr.plantree.me/ocr" rel="noopener nofollow ugc">ocr.plantree.me</a></h3>
+<p>一个基于 <code>Tesseract</code> 的简单 <code>OCR</code> 软件：</p>
+<p><img alt="plantree" height="262" src="https://images-1252557999.file.myqcloud.com/uPic/plantree.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-15" name="h-15"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，对周刊的信息补充，会分享更多的资源，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li>优质技术周刊信息聚合网站：<a href="https://weekly.fre123.com/" rel="noopener nofollow ugc">https://weekly.fre123.com/</a>：老胡收集了国内外50+优质技术周刊进行信息聚合<img alt=":fire:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fire.png?v=12" title=":fire:" width="20" /></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51168">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 06 Jan 2024 16:45:35 +0000</pubDate>
+<pubDate>Sat, 06 Jan 2024 16:45:35 +0000</pubDate>
+</item>
 
 <item>
 <title>请教有没有这样的Chrome插件，全局控制某网页执行指定操作？</title>
