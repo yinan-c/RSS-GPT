@@ -12057,3 +12057,12 @@ Existing_entries: 416
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-07 08:03:29.002888
+------------------------------------------------------
+Started: 2024-01-07 10:03:27.632161
+Existing_entries: 416
+Fetching from https://rsshub.app/sspai/index
+Token length: 3243
+Summarized using GPT-3.5-turbo-1106
+Append: [智能家居的网关新形态：Aqara 方舟智慧中枢 M3 体验](https://sspai.com/post/85621)
+append_entries: 1
+Finish: 2024-01-07 10:03:35.207767
