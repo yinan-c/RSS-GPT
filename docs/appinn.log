@@ -12685,3 +12685,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-09 00:11:48.760503
+------------------------------------------------------
+Started: 2024-01-09 02:15:03.238161
+Existing_entries: 225
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [PC上的Chrome标签页如何实现下拉刷新？](https://meta.appinn.net/t/topic/51226)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-01-09 02:15:07.389762

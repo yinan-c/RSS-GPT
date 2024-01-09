@@ -4,6 +4,21 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>PC上的Chrome标签页如何实现下拉刷新？</title>
+<link>https://meta.appinn.net/t/topic/51226</link>
+<guid>https://meta.appinn.net/t/topic/51226</guid>
+<content:encoded><![CDATA[
+
+<p>最近笔记本的触摸板用的比较多，双指右滑后退，双指左滑前进，双指上下滑页面上下滚动，用的很自然舒服。但是很奇怪，每次滑到顶时想刷新页面就会下意识再下滑一下，心中预期是手机app的“下拉刷新”一样进行页面刷新，但是实际上，Chrome此时并不会有什么反应。</p>
+<p>所以，有什么办法可以实现这个效果了？</p>
+<p>简单讲，在<s>使用触控板</s>将Chrome的页面滑到顶时，再下滑页面此时不再是滚动条的操作，而是手机APP一样的“下拉刷新”，从理论上讲实现应该没什么问题吧。 所以有什么办法可以实现呢？</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51226">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 09 Jan 2024 01:20:29 +0000</pubDate>
+<pubDate>Tue, 09 Jan 2024 01:20:29 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】全平台、点对点同步的稍后读软件</title>
