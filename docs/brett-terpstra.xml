@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Introducing CurlyQ, a pipeline-oriented curl helper</title>
 <link>https://brett.trpstra.net/link/535/16526283/introducing-curlyq-a-pipeline-oriented-curl-helper</link>
@@ -13,7 +14,7 @@
 
 这个工具叫做CurlyQ，是一个网页抓取助手，不仅可以获取网页内容，还可以提供元数据、页面图像、页面链接等内容，并且可以处理动态页面和截取截图。它设计成为脚本管道的一部分，可以轻松实现获取页面标题、找到页面上最大的图像或检查并验证页面上的所有链接等功能。CurlyQ还具有多种用户代理字符串配置以及元数据处理功能。它还支持JSON响应处理、页面元素检索以及截图功能。未来版本将支持POST请求功能。如果你对这个工具有任何需求或意见，请在GitHub上的讨论中提出。希望这个工具能成为一个通用的网页抓取工具。
 
-<br><br>总结: 这个工具叫CurlyQ，是一个网页抓取助手，支持获取网页内容、元数据处理、页面元素检索、截图等功能。希望能成为一个通用的网页抓取工具。 <div>
+<br /><br />总结: 这个工具叫CurlyQ，是一个网页抓取助手，支持获取网页内容、元数据处理、页面元素检索、截图等功能。希望能成为一个通用的网页抓取工具。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -74,9 +75,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16526283.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-01-10T10:48:00-06:00</pubDate>
-<pubDate>2024-01-10T10:48:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Keyboard Maestro giveaway!</title>
 <link>https://brett.trpstra.net/link/535/16522882/keyboard-maestro-giveaway</link>
