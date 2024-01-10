@@ -17618,3 +17618,29 @@ Filter: [斯坦福为机器人提了个醒](https://www.36kr.com/p/2595312860503
 Filter: [斯坦福家务机器人，看似全能，实际靠遥控](https://www.36kr.com/p/2594271818873729)
 append_entries: 0
 Finish: 2024-01-10 00:11:43.608347
+------------------------------------------------------
+Started: 2024-01-10 02:15:26.140130
+Existing_entries: 428
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [36氪独家｜成立半年拿到超亿元天使轮融资，星动纪元专注研发具身智能人形机器人](https://www.36kr.com/p/2598143358122631)
+Filter: [专注电商及营销场景，AIGC智能设计平台「Nolibox」获数千万元A轮融资 | 36氪首发](https://www.36kr.com/p/2596250121419401)
+Filter: [900亿AI巨头官宣分拆上市](https://www.36kr.com/p/2597965205666435)
+Token length: 3457
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI开撕纽约时报：故意引导ChatGPT得出抄袭结论](https://www.36kr.com/p/2597941436414600)
+Token length: 2397
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI开年王炸，GPT商店本周上线，谁的AI第一桶金？](https://www.36kr.com/p/2597547812052867)
+Filter: [AI大模型，让手机真正开始“智能”](https://www.36kr.com/p/2597301970484105)
+Filter: [手机厂商狂卷大模型，机构称AI手机3年内将占比40%](https://www.36kr.com/p/2597287359740804)
+Filter: [GPT-5前瞻，艾伦人工智能研究所发布最强多模态模型，预测GPT-5新能力](https://www.36kr.com/p/2597209300056709)
+Filter: [「钱景无限」的Agent，究竟是谁的机会？](https://www.36kr.com/p/2597140138991747)
+Filter: [生成式AI：手机厂商高端梦最后的希望](https://www.36kr.com/p/2597040269720448)
+Filter: [生成式AI这一年：从群雄乱战到生态确立，世界已被改变](https://www.36kr.com/p/2597034729808007)
+Filter: [NVIDIA狂飙AI ，市值暴涨，PC性能提升60倍，40系SUPER显卡发布，4899元碾压上代旗舰](https://www.36kr.com/p/2596929921890945)
+Filter: [连续5年营收下滑，三六零能否凭借大模型重回千亿市值？](https://www.36kr.com/p/2596817880932488)
+Filter: [在Web3里「养」AI男友，链游《HIM》能攻略女玩家吗？](https://www.36kr.com/p/2596768071613315)
+Filter: [张一鸣被骂“魔王”，AI 与人类如何“价值对齐”引关注](https://www.36kr.com/p/2595905783528324)
+Filter: [小模型当打之年？2024年AI预言“一网打尽”](https://www.36kr.com/p/2595865211035524)
+append_entries: 2
+Finish: 2024-01-10 02:16:02.781320
