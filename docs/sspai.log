@@ -12303,3 +12303,16 @@ Existing_entries: 426
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-10 08:03:55.720983
+------------------------------------------------------
+Started: 2024-01-10 10:03:18.831160
+Existing_entries: 426
+Fetching from https://rsshub.app/sspai/index
+Token length: 6915
+Summarized using GPT-3.5-turbo-1106
+Append: [定格影像记忆，我们给心中的 2023「年度最佳」颁了奖](https://sspai.com/post/85655)
+Token length: 563
+Summarized using GPT-3.5-turbo-1106
+Append: [播客 | 开一家自己的出版社，再出一本自己写的书](https://sspai.com/post/85675)
+Append: [Heptabase：重塑知识管理与学习的未来](https://sspai.com/post/85171)
+append_entries: 3
+Finish: 2024-01-10 10:03:42.554079
