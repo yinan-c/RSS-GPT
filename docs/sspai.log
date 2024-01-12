@@ -12448,3 +12448,12 @@ Existing_entries: 433
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-12 02:15:07.075938
+------------------------------------------------------
+Started: 2024-01-12 04:03:30.084506
+Existing_entries: 433
+Fetching from https://rsshub.app/sspai/index
+Token length: 3162
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：荣耀发布 Magic6 系列手机、OpenAI 推出 GPTs 商店](https://sspai.com/post/85764)
+append_entries: 1
+Finish: 2024-01-12 04:03:37.565499
