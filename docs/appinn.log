@@ -13018,3 +13018,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-12 10:03:21.659327
+------------------------------------------------------
+Started: 2024-01-12 12:04:13.223244
+Existing_entries: 230
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [谷歌浏览器扩展更新的通知问题](https://meta.appinn.net/t/topic/40704)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-01-12 12:04:16.708736
