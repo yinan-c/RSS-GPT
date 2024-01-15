@@ -19144,3 +19144,30 @@ Filter: [谷歌MIT最新研究证明：高质量数据获取不难，大模型�
 Filter: [首个国产开源MoE大模型来了，性能媲美Llama 2-7B，计算量降低60%](https://www.36kr.com/p/2601512386935683)
 append_entries: 0
 Finish: 2024-01-15 10:03:49.678880
+------------------------------------------------------
+Started: 2024-01-15 12:05:05.325761
+Existing_entries: 439
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [当人工智能有了意识，然后呢？](https://www.36kr.com/p/2605672188787330)
+Filter: [AI在操作系统里复制自己，这一天还是来了](https://www.36kr.com/p/2605632096238213)
+Token length: 5958
+Summarized using GPT-3.5-turbo-1106
+Append: [大模型伪装「潜伏特工」学会欺骗，OpenAI劲敌重磅研究震惊马斯克](https://www.36kr.com/p/2605440683015046)
+Filter: [阿里云弹性计算新升级：CPU上跑推理，模型起建成本降低50%｜最前线](https://www.36kr.com/p/2605400806455937)
+Filter: [AI触发内部赛马，百度重返电商战局](https://www.36kr.com/p/2605357040352128)
+Filter: [GPT Store上线即乱：山寨、刷量、违禁内容层出](https://www.36kr.com/p/2605281722874496)
+Filter: [精确指出特定事件发生时间，字节&复旦大学多模态大模型解读视频太香了](https://www.36kr.com/p/2605281918974595)
+Filter: [谷歌AI通过图灵测试，大模型医生来了？GPT-4竟诊断出难倒17个医生的怪病](https://www.36kr.com/p/2605303496948610)
+Filter: [AI看图猜位置，准确率超90%，斯坦福最新PIGEON模型：40%预测误差不到25公里](https://www.36kr.com/p/2605303512840832)
+Filter: [马云的新预言：吴泳铭借“AI电商”翻盘？](https://www.36kr.com/p/2605312520829572)
+Filter: [“AI PC”的希望或许不在新款处理器，而在于老电脑](https://www.36kr.com/p/2602876334996360)
+Filter: [手机大模型能否撑起“全村的希望”？](https://www.36kr.com/p/2603911849681024)
+Filter: [“没个AI大模型，都不好意思开手机发布会了”](https://www.36kr.com/p/2603867800484745)
+Filter: [人气爆火美女网红竟是AI？视频照片几乎无破绽，亿万富豪都想和她约会](https://www.36kr.com/p/2604004782160773)
+Filter: [当AI变成“守法公民”，为何用户反而不爱它了](https://www.36kr.com/p/2604347787164551)
+Filter: [市值之王易主，微软超越苹果，意味着什么？](https://www.36kr.com/p/2604576768277380)
+Filter: [CES 2024落幕，我们记录了聚光灯外的18个瞬间](https://www.36kr.com/p/2602814085298823)
+Filter: [36氪专访｜数字艺术张海涛：关注机器人艺术时代中的伦理道德](https://www.36kr.com/p/2601421020248711)
+Filter: [零代码定制游戏NPC，百川智能发布角色大模型](https://www.36kr.com/p/2601707002100357)
+append_entries: 1
+Finish: 2024-01-15 12:05:19.017449
