@@ -4,6 +4,50 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】full-clock 一个开源可配置的全屏网页时钟</title>
+<link>https://meta.appinn.net/t/topic/51476</link>
+<guid>https://meta.appinn.net/t/topic/51476</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>全屏时钟 (full-clock)</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>网页（全平台）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句话简介</h2>
+<p>这是一个开源可配置、可全屏的纯前端网页时钟，适合用于考试等场景。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>应用简介</h2>
+<p>本项目起源于考试时没有戴手表的同学提供在电脑上显示时间的功能，但各种网站界面复杂，或是不支持全屏，或是广告太多，因此做了一个网页围绕这个核心应用场景开发。</p>
+<p>开发框架：<code>Vue</code> (UI: <code>Vuetify</code>)</p>
+<ul>
+<li>已开发功能：
+<ol>
+<li>支持全屏自适应窗口显示时间</li>
+<li>支持显示标题信息</li>
+<li>支持全屏显示</li>
+<li>支持设置秒钟样式（显示数字/关闭/显示为背景条）</li>
+<li>支持设置颜色和字体（由于框架原因暂时只能手动输入）</li>
+</ol>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>开源仓库</h3>
+<p><a href="https://github.com/cup113/full-clock" rel="noopener nofollow ugc">cup113/full-clock (github.com)</a></p>
+<p>License: Apache-2.0</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>已部署网站</h3>
+<p><a href="https://full-clock.netlify.app/" rel="noopener nofollow ugc">全屏时钟 (full-clock.netlify.app)</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>预览</h2>
+<blockquote>
+<p>默认配色：黑板<br />
+默认显示标题为日期</p>
+</blockquote>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/6/06e1989c9c987e96469c4b66b7d086b684683c23.png" title="图片预览"><img alt="图片预览" height="416" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/6/06e1989c9c987e96469c4b66b7d086b684683c23_2_690x416.png" width="690" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51476">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 16 Jan 2024 11:10:35 +0000</pubDate>
+<pubDate>Tue, 16 Jan 2024 11:10:35 +0000</pubDate>
+</item>
 
 <item>
 <title>多人反馈的插件教程已发，目前支持Ps和Ai，后续会持续支持adobe的全家桶</title>
