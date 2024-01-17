@@ -5,19 +5,104 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>01-08~01-14.老胡的周刊（第124期）</title>
+<link>https://meta.appinn.net/t/topic/51546</link>
+<guid>https://meta.appinn.net/t/topic/51546</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#qanythinghttpsgithubcomnetease-youdaoqanything-2" name="qanythinghttpsgithubcomnetease-youdaoqanything-2"></a><a href="https://github.com/netease-youdao/QAnything" rel="noopener nofollow ugc">QAnything</a></h3>
+<p>开源的企业级本地知识库问答解决方案，致力于支持任意格式文件或数据库的问答,您的任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。</p>
+<p>目前已支持格式: <code>PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT</code>，图片，网页链接:</p>
+<p><img alt="QAnything" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/QAnything.png" width="563" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#yft-designhttpsgithubfastcomdromarayft-design-3" name="yft-designhttpsgithubfastcomdromarayft-design-3"></a><a href="https://githubfast.com/dromara/yft-design" rel="noopener nofollow ugc">yft-design</a></h3>
+<p>基于 <code>fabric.js</code> 的图片设计项目，使用 <code>Vue3 + TypeScript + Fabric.js + Element-Plus</code>，支持 文字、图片、形状、线条、二维码 、条形码几种最常用的元素类型，每一种元素都拥有高度可编辑能力，缩略图显示，模板，支持导出<code>json，svg, image</code>文件，支持 Docker 部署：</p>
+<p><img alt="yft-design" height="348" src="https://images-1252557999.file.myqcloud.com/uPic/yft-design.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#campus-imaotaihttpsgithubcomoddfarcampus-imaotai-4" name="campus-imaotaihttpsgithubcomoddfarcampus-imaotai-4"></a><a href="https://github.com/oddfar/campus-imaotai" rel="noopener nofollow ugc">campus-imaotai</a></h3>
+<p>i茅台app自动预约，每日自动预约，支持 <code>Docker</code> 一键部署：</p>
+<ul>
+<li>平台注册账号(可用i茅台)</li>
+<li>添加多个用户</li>
+<li>自动预约</li>
+<li>类型选择（本市出货量最大的门店，或位置附近门店）</li>
+<li>自动旅行</li>
+<li>首次旅行分享</li>
+<li>获取申购耐力值</li>
+<li>自定义时间/随机时间预约或旅行</li>
+<li>结果消息推送</li>
+</ul>
+<p><img alt="campus-imaotai" height="278" src="https://images-1252557999.file.myqcloud.com/uPic/campus-imaotai.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#gitstarshttpsgithubcomcfour-higitstars-5" name="gitstarshttpsgithubcomcfour-higitstars-5"></a><a href="https://github.com/cfour-hi/gitstars" rel="noopener nofollow ugc">gitstars</a></h3>
+<p><code>Github</code> 作为开发者的第一社交平台，拥有数不胜数的优秀开源项目，给工作和学习带来巨大方便，遇到自己需要或是喜爱的项目只需点击 Star 便可收入囊中。</p>
+<p><code>Star is easy</code>，可随着 <code>Starred Repositories</code> 增长，在需要使用到某个项目时难免记不清叫什么，而 Github 又只提供简单的搜索，找到目标 <code>Starred Repository</code> 竟也成了件小小的麻烦事。</p>
+<p>所以拥有自己的 <code>Github Stars Repositories Manager</code> 也算是开发者的必备需求。<code>Gitstars</code> 由此诞生 <img alt=":bulb:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/bulb.png?v=12" title=":bulb:" width="20" /></p>
+<p><img alt="gitstars" height="438" src="https://images-1252557999.file.myqcloud.com/uPic/gitstars.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#bonjourrhttpsgithubcomvictrmebonjourr-7" name="bonjourrhttpsgithubcomvictrmebonjourr-7"></a><a href="https://github.com/victrme/Bonjourr" rel="noopener nofollow ugc">Bonjourr</a></h3>
+<p><code>Bonjourr</code> 是法语你好的意思，这是一个简约漂亮的起始页浏览器插件：</p>
+<p><img alt="Bonjourr" height="402" src="https://images-1252557999.file.myqcloud.com/uPic/Bonjourr.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#wowtabhttpswowtabmicrosoftcom-8" name="wowtabhttpswowtabmicrosoftcom-8"></a><a href="https://wowtab.microsoft.com/" rel="noopener nofollow ugc">wowtab</a></h3>
+<p>微软出的简介桌面主页浏览器插件，专注效率提升，打造浏览器主页新形态，营造自律氛围，定制属于你的个性化主页：</p>
+<p><img alt="wowtab" height="223" src="https://images-1252557999.file.myqcloud.com/uPic/wowtab.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#my-tvhttpsgithubcomlizongyingmy-tv-9" name="my-tvhttpsgithubcomlizongyingmy-tv-9"></a><a href="https://github.com/lizongying/my-tv" rel="noopener nofollow ugc">my-tv</a></h3>
+<p>安卓电视直播软件，内置直播源：</p>
+<p><img alt="my-tv" height="358" src="https://images-1252557999.file.myqcloud.com/uPic/my-tv.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#hummingbirdhttpsgithubcomleibnizlihummingbird-10" name="hummingbirdhttpsgithubcomleibnizlihummingbird-10"></a><a href="https://github.com/leibnizli/hummingbird" rel="noopener nofollow ugc">hummingbird</a></h3>
+<p><code>Hummingbird</code> 是一个资源(<code>jpg/png/webp/svg/gif/css/js/html</code>)压缩客户端，支持<code>Windows</code>、<code>Mac</code>：</p>
+<ul>
+<li><code>jpg/png/webp/svg/gif/html</code> 压缩后会替换掉当前文件，<code>css/js</code> 压缩后会生成一个带 <code>.min</code> 的新文件</li>
+<li>可以在在当前目录新建source文件夹并备份处理前的文件，可以在设置中开启</li>
+</ul>
+<p><img alt="hummingbird" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/hummingbird.jpg" width="615" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#bluesnoozehttpsgithubcomodlpbluesnooze-11" name="bluesnoozehttpsgithubcomodlpbluesnooze-11"></a><a href="https://github.com/odlp/bluesnooze" rel="noopener nofollow ugc">Bluesnooze</a></h3>
+<p>使用 <code>Bluesnooze</code>，蓝牙连接会在 <code>Mac</code> 睡眠时关闭，并在 <code>Mac</code> 唤醒时打开:</p>
+<p><img alt="bluesnooze" height="105" src="https://images-1252557999.file.myqcloud.com/uPic/bluesnooze.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-12" name="h-12"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#nextjs-learn-cnhttpsqufei1993githubionextjs-learn-cn-13" name="nextjs-learn-cnhttpsqufei1993githubionextjs-learn-cn-13"></a><a href="https://qufei1993.github.io/nextjs-learn-cn/" rel="noopener nofollow ugc">nextjs-learn-cn</a></h3>
+<p>一份 <code>Next.js</code> 中文教程：</p>
+<p><img alt="nextjs-learn-c" height="" src="https://images-1252557999.file.myqcloud.com/uPic/nextjs-learn-c.jpg" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-14" name="h-14"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#gemini-prochathttpsgemini-prochat-15" name="gemini-prochathttpsgemini-prochat-15"></a><a href="https://gemini-pro.chat/" rel="noopener nofollow ugc">gemini-pro.chat</a></h3>
+<p>免费的谷歌 <code>Gemini Chat Pro</code>，在线网站：</p>
+<p><img alt="gemini-pro.chat" height="436" src="https://images-1252557999.file.myqcloud.com/uPic/gemini-pro.chat.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#svglapphttpssvglapp-16" name="svglapphttpssvglapp-16"></a><a href="https://svgl.app/" rel="noopener nofollow ugc">svgl.app</a></h3>
+<p>漂亮的 <code>SVG</code> 图标库，使用 <code>Sveltekit</code> 和 <code>Tailwind CSS</code> 构建：</p>
+<ul>
+<li>官网：<a href="https://svgl.app/" rel="noopener nofollow ugc">https://svgl.app/</a></li>
+<li>开源：<a href="https://github.com/pheralb/svgl" rel="noopener nofollow ugc">pheralb/svgl</a></li>
+</ul>
+<p><img alt="svgl" height="304" src="https://images-1252557999.file.myqcloud.com/uPic/svgl.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-17" name="h-17"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li>公众号：<a href="https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg" rel="noopener nofollow ugc">老胡的储物柜</a></li>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，对周刊的信息补充，会分享更多的资源，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li><a href="https://weekly.fre123.com/" rel="noopener nofollow ugc">https://weekly.fre123.com/</a>：老胡收集了国内外60+优质技术周刊进行信息聚合<img alt=":fire:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fire.png?v=12" title=":fire:" width="20" /></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">老胡的信息周刊</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51546">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 17 Jan 2024 14:36:34 +0000</pubDate>
+<pubDate>Wed, 17 Jan 2024 14:36:34 +0000</pubDate>
+</item>
+
+<item>
 <title>如何批量导出ipad自带图书app上的笔记</title>
 <link>https://meta.appinn.net/t/topic/51537</link>
 <guid>https://meta.appinn.net/t/topic/51537</guid>
 <content:encoded><![CDATA[
-
 <p>如何批量导出ipad自带图书app上的笔记</p>
             <p><small>1 个帖子 - 1 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/51537">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 17 Jan 2024 13:48:48 +0000</pubDate>
-<pubDate>Wed, 17 Jan 2024 13:48:48 +0000</pubDate>
 </item>
-
 <item>
 <title>求推介IOS输入法</title>
 <link>https://meta.appinn.net/t/topic/51500</link>
