@@ -13072,3 +13072,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [App+1 | 使用 Asciidoc 制作学术个人主页](https://sspai.com/post/85757)
 append_entries: 1
 Finish: 2024-01-20 08:03:41.441191
+------------------------------------------------------
+Started: 2024-01-20 10:03:14.003728
+Existing_entries: 443
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-01-20 10:03:14.516882
