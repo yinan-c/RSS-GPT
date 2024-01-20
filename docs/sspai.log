@@ -13063,3 +13063,12 @@ Existing_entries: 442
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-20 06:03:36.476243
+------------------------------------------------------
+Started: 2024-01-20 08:03:33.861020
+Existing_entries: 442
+Fetching from https://rsshub.app/sspai/index
+Token length: 4850
+Summarized using GPT-3.5-turbo-1106
+Append: [App+1 | 使用 Asciidoc 制作学术个人主页](https://sspai.com/post/85757)
+append_entries: 1
+Finish: 2024-01-20 08:03:41.441191
