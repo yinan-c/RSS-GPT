@@ -13225,3 +13225,12 @@ Existing_entries: 446
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-22 08:04:10.468425
+------------------------------------------------------
+Started: 2024-01-22 10:03:33.260784
+Existing_entries: 446
+Fetching from https://rsshub.app/sspai/index
+Token length: 3610
+Summarized using GPT-3.5-turbo-1106
+Append: [功能追踪 03：年度重磅产品上线，Notion Calendar 终于来了，它怎么用，好用吗？](https://sspai.com/post/85941)
+append_entries: 1
+Finish: 2024-01-22 10:03:38.160727
