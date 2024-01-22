@@ -13210,3 +13210,12 @@ Summarized using GPT-3.5-turbo-1106
 Append: [派早报：Vision Pro 上架资讯汇总](https://sspai.com/post/85973)
 append_entries: 1
 Finish: 2024-01-22 04:04:22.379807
+------------------------------------------------------
+Started: 2024-01-22 06:04:05.192470
+Existing_entries: 445
+Fetching from https://rsshub.app/sspai/index
+Token length: 3742
+Summarized using GPT-3.5-turbo-1106
+Append: [无限循环：最独特的 Apple Store 上周永久停业，但它的故事不会就此了结](https://sspai.com/post/85883)
+append_entries: 1
+Finish: 2024-01-22 06:04:12.368653
