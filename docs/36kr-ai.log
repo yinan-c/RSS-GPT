@@ -21059,3 +21059,30 @@ Filter: [美科技公司大裁员背后：押注AI引发新一轮组织变革](h
 Filter: [“浓眉大眼”的AI，也学会骗人了？](https://www.36kr.com/p/2610025310822273)
 append_entries: 0
 Finish: 2024-01-22 02:16:58.201448
+------------------------------------------------------
+Started: 2024-01-22 04:04:31.254076
+Existing_entries: 448
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [大模型自我奖励：Meta让Llama2自己给自己微调，性能超越了GPT-4](https://www.36kr.com/p/2612408585951367)
+Filter: [“大白”走进现实，生成式AI机器人重新定义陪伴](https://www.36kr.com/p/2612471100479876)
+Filter: [小米华为Vivo理想一起发了篇论文，想要给AI Agent定个规矩](https://www.36kr.com/p/2615091799758979)
+Filter: [GPT-4V惨败，CV大神谢赛宁新作：V*重磅“视觉搜索”算法让LLM理解力逼近人类](https://www.36kr.com/p/2615077475948936)
+Filter: [Stability AI杀回来了：视频生成新Demo效果惊人，网友：一致性超群](https://www.36kr.com/p/2615075494680967)
+Token length: 1543
+Summarized using GPT-3.5-turbo-1106
+Append: [月入过万只需用ChatGPT建个网站？AI创业博主在线教学](https://www.36kr.com/p/2615074607814792)
+Filter: [本周硅谷发生了什么？｜Llama3训练中；三星首款AI系列手机发布；智谱推出大模型GLM-4](https://www.36kr.com/p/2614153999653251)
+Filter: [腾讯云2023年成绩单：伙伴贡献收入增长2倍，将重点进军二三线城市市场 | 最前线](https://www.36kr.com/p/2610156146259205)
+Filter: [AI搜索Perplexity来了，谷歌搜索真正有了对手](https://www.36kr.com/p/2611471927302532)
+Filter: [Meta AI意外成功，助小扎爬出元宇宙大坑，却被曝对FAIR毫不知情](https://www.36kr.com/p/2611290693917060)
+Filter: [小扎All in 开源AGI：正训练Llama 3，年底将有35万块H100](https://www.36kr.com/p/2611290245453956)
+Filter: [煮咖啡只是热身，人形机器人要去宝马工厂上班了](https://www.36kr.com/p/2611278320408705)
+Filter: [出海北美，中国厂商撕掉低价标签 | 焦点分析](https://www.36kr.com/p/2611227880691848)
+Filter: [大模型时代的计算机系统革新：更大规模、更分布式、更智能化](https://www.36kr.com/p/2611130000546179)
+Filter: [AI成三星S24最大亮点，能否逆袭iPhone在此一举？](https://www.36kr.com/p/2610176634183555)
+Filter: [扎克伯格宣战AGI：Llama 3训练中，今年要囤35万块H100，砸近百亿美元](https://www.36kr.com/p/2610975657073029)
+Filter: [三星大模型慢半拍](https://www.36kr.com/p/2610878207139972)
+Filter: [ConvNet与Transformer谁更强？Meta评测4个领先视觉模型，LeCun转赞](https://www.36kr.com/p/2610322413688966)
+Filter: [三行代码无损加速40%，尤洋团队AI训练加速器入选ICLR Oral论文](https://www.36kr.com/p/2610323233888387)
+append_entries: 1
+Finish: 2024-01-22 04:04:34.909330
