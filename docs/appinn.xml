@@ -5,11 +5,27 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>有没有让非当前活动的chrome还能控制翻页的办法[已解决]</title>
+<link>https://meta.appinn.net/t/topic/10700</link>
+<guid>https://meta.appinn.net/t/topic/10700</guid>
+<content:encoded><![CDATA[
+
+<p>我在用 chrome 查看论文资料，然后用 word 写论文。</p>
+<p><strong>word 在当前活动窗口写作</strong>，同时，我能否按 ctrl+1(或其他什么键) 来控制 chrome 上的资料往下翻？鼠标中键调出的浏览器自动滚屏并不能满足我。</p>
+<p>其实就类似于 chrome 全局快捷键或全局热键的功能，我搜了一下，浏览器没全局快捷键，相关的帖子指向的也只是老板键、一键隐藏浏览器之类。</p>
+<p>不知道 autohotkey 能否给一个软件指定若干全局热键？</p>
+            <p><small>16 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/10700">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 30 Jun 2019 04:21:08 +0000</pubDate>
+<pubDate>Sun, 30 Jun 2019 04:21:08 +0000</pubDate>
+</item>
+
+<item>
 <title>有谁用过或在用 AutoControl 扩展/插件吗？问个小问题</title>
 <link>https://meta.appinn.net/t/topic/51943</link>
 <guid>https://meta.appinn.net/t/topic/51943</guid>
 <content:encoded><![CDATA[
-
 <p>我想用单热键（比如 <kbd>X</kbd> 键）执行某个动作，直接全局设置在输入框中打字也会触发所以需要排除存在文本光标的情况</p>
 <p>Action 设置如下：<br />
 </p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/0/a0a846c9344f9d00e7816b99fe52b90408b47a93.png" title="image"><img alt="image" height="155" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/0/a0a846c9344f9d00e7816b99fe52b90408b47a93_2_690x155.png" width="690" /></a></div><p></p>
@@ -24,9 +40,7 @@
             <p><a href="https://meta.appinn.net/t/topic/51943">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 22 Jan 2024 14:08:39 +0000</pubDate>
-<pubDate>Mon, 22 Jan 2024 14:08:39 +0000</pubDate>
 </item>
-
 <item>
 <title>转发邮件生成笔记的笔记软件有哪些？有使用这个功能的说说体验。</title>
 <link>https://meta.appinn.net/t/topic/51936</link>
