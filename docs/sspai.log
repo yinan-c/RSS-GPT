@@ -13297,3 +13297,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [派早报：Apple 发布 iOS/iPadOS 17.3 与 macOS 14.3 等正式版](https://sspai.com/post/85997)
 append_entries: 1
 Finish: 2024-01-23 04:03:43.941509
+------------------------------------------------------
+Started: 2024-01-23 06:04:08.561609
+Existing_entries: 450
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-01-23 06:04:08.792983
