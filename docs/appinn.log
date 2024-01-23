@@ -14046,3 +14046,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-23 00:11:49.356617
+------------------------------------------------------
+Started: 2024-01-23 02:15:09.023293
+Existing_entries: 242
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【浏览器扩展】Clear New Tab，一款真正极简的新标签页扩展](https://meta.appinn.net/t/topic/40247)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【自荐+送码】个人新作品：Apollo——标记你看过的电影/剧集](https://meta.appinn.net/t/topic/32166)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-01-23 02:15:12.574618
