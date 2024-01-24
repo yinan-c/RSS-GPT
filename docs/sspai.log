@@ -13387,3 +13387,12 @@ Existing_entries: 454
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-24 06:04:10.747303
+------------------------------------------------------
+Started: 2024-01-24 08:03:50.410352
+Existing_entries: 454
+Fetching from https://rsshub.app/sspai/index
+Token length: 9497
+Summarized using GPT-3.5-turbo-1106
+Append: [看完 Sam Altman 的斯坦福创业课，我学到了什么？](https://sspai.com/post/84988)
+append_entries: 1
+Finish: 2024-01-24 08:04:00.672332
