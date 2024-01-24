@@ -13411,3 +13411,12 @@ Existing_entries: 456
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-24 12:04:50.922349
+------------------------------------------------------
+Started: 2024-01-24 14:03:21.642834
+Existing_entries: 456
+Fetching from https://rsshub.app/sspai/index
+Token length: 10783
+Summarized using GPT-3.5-turbo-1106
+Append: [Macintosh：40 年之前的故事](https://sspai.com/post/73310)
+append_entries: 1
+Finish: 2024-01-24 14:03:35.233146
