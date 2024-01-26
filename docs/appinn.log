@@ -14352,3 +14352,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-26 04:03:43.298101
+------------------------------------------------------
+Started: 2024-01-26 06:03:31.474457
+Existing_entries: 244
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [音频提取，文本提取，文本转语音，一步到位！](https://meta.appinn.net/t/topic/52064)
+append_entries: 1
+Finish: 2024-01-26 06:03:35.369697
