@@ -13645,3 +13645,12 @@ Existing_entries: 466
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-27 08:03:24.306015
+------------------------------------------------------
+Started: 2024-01-27 10:03:22.646103
+Existing_entries: 466
+Fetching from https://rsshub.app/sspai/index
+Token length: 9597
+Summarized using GPT-3.5-turbo-1106
+Append: [GPTs、中间层、Chatbot 虚拟社交、AI Agent，大模型应用最新方向解析](https://sspai.com/post/86005)
+append_entries: 1
+Finish: 2024-01-27 10:03:30.185329
