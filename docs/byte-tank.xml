@@ -4,6 +4,7 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>http://lopespm.github.io/</link>
 
+
 <item>
 <title>Project Planning Framework</title>
 <link>http://lopespm.github.io/notes/2024/01/27/project_planning_framework.html</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: 框架, 目标, 时间敏感性, 项目依赖, 不确定性
 
-总结:<br><br>本文介绍了一个简单的框架，用于将目标确定在三个轴定义的光谱中，从而确定实现目标的方法。作者提出的框架包括时间敏感性、目标/项目之间的依赖程度和步骤不确定性。接着作者分别用三个场景说明了如何应用该框架。第一个场景是合规性，时间敏感性高，依赖程度低，步骤不确定性低。第二个场景是增加用户流程效率，时间敏感性低，依赖程度低，步骤不确定性高。第三个场景是将多个系统统一为一个，时间敏感性低，依赖程度高，步骤不确定性中等。最后，作者强调了框架的简单性，并鼓励读者在使用框架时考虑可能的缺失参数。 <div>
+总结:<br /><br />本文介绍了一个简单的框架，用于将目标确定在三个轴定义的光谱中，从而确定实现目标的方法。作者提出的框架包括时间敏感性、目标/项目之间的依赖程度和步骤不确定性。接着作者分别用三个场景说明了如何应用该框架。第一个场景是合规性，时间敏感性高，依赖程度低，步骤不确定性低。第二个场景是增加用户流程效率，时间敏感性低，依赖程度低，步骤不确定性高。第三个场景是将多个系统统一为一个，时间敏感性低，依赖程度高，步骤不确定性中等。最后，作者强调了框架的简单性，并鼓励读者在使用框架时考虑可能的缺失参数。 <div>
 <p>Different goals require different roadmapping and planning techniques.</p>
 
 <p>In this post, a simple framework is proposed to pin a goal into a spectrum defined by three axes, the combination of which informing the approach taken to reach the goal. The three axes of this framework are:</p>
@@ -128,10 +129,8 @@
 
 <p>The framework above is quite simple and could potentially be used for several other different use cases. It might also be missing some essential parameters that are missing for your specific goal. If you do find such, I would be happy to know. Regardless, hope the above can be useful on your next roadmapping cycle</p>
 ]]></content:encoded>
-
 <pubDate>2024-01-27T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Make the meme transcend its host</title>
 <link>http://lopespm.github.io/notes/2023/12/31/meme-transcending-host.html</link>
