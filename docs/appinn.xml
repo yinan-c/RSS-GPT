@@ -5,11 +5,58 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>推荐个 Chrome 插件：Deep Tab Search — 检索所有打开 Tabs 的内容</title>
+<link>https://meta.appinn.net/t/topic/52039</link>
+<guid>https://meta.appinn.net/t/topic/52039</guid>
+<content:encoded><![CDATA[
+
+<p>最新写材料比较多，需要开非常多的Tab，原本的解决方法是：<br />
+1、使用 Single Page 或 Markdown 类工具下载内容到本地<br />
+2、使用 AnyTxt 或 FileLocator 进行全文检索<br />
+————<br />
+其实这个方法更稳定一些</p>
+<p>但想着就是临时写写材料，就想有没有能检索所有 Chrome 标签页内容的，还真的有：<br />
+Search all Tabs</p>
+<p>但分词提示有点不是很满意，在 Github 找到了这个： Deep-Tab-Search</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/MrViolets/Deep-Tab-Search" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/eefe9f907aa275383cb0e78ffc44b9321ae9167d559dd467412eeeb7817e9f50/MrViolets/Deep-Tab-Search" width="690" /></div>
+
+<h3><a href="https://github.com/MrViolets/Deep-Tab-Search" rel="noopener nofollow ugc" target="_blank">GitHub - MrViolets/Deep-Tab-Search: Chrome extension that lets you search the...</a></h3>
+
+  <p>Chrome extension that lets you search the content of all your open tabs. - GitHub - MrViolets/Deep-Tab-Search: Chrome extension that lets you search the content of all your open tabs.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>我修改了下样式：<br />
+<img alt="微信截图_20240125113956" height="325" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/0/601821304a51e35a4fe538e0fde391c6e02776e6.jpeg" width="442" /></p>
+<p>目前使用还不错</p>
+            <p><small>13 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52039">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 25 Jan 2024 06:06:14 +0000</pubDate>
+<pubDate>Thu, 25 Jan 2024 06:06:14 +0000</pubDate>
+</item>
+
+<item>
 <title>[自荐](免费无注册轻量计算器软件)蜉蝣计算器1.2.2版</title>
 <link>https://meta.appinn.net/t/topic/52078</link>
 <guid>https://meta.appinn.net/t/topic/52078</guid>
 <content:encoded><![CDATA[
-
 <p>(免费无注册轻量计算器软件)蜉蝣计算器1.2.2版本<br />
 首先，本人提供本软件的下载地址：<br />
 Windows版:蓝奏云网盘下载地址:<a href="https://wwz.lanzouj.com/iydxg1mk5lni%EF%BC%88%E5%AF%86%E7%A0%81:37va%EF%BC%89" rel="noopener nofollow ugc">https://wwz.lanzouj.com/iydxg1mk5lni（密码:37va）</a><br />
@@ -34,9 +81,7 @@ Android版:百度网盘下载地址:<a class="inline-onebox" href="https://pan.b
             <p><a href="https://meta.appinn.net/t/topic/52078">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 26 Jan 2024 15:31:05 +0000</pubDate>
-<pubDate>Fri, 26 Jan 2024 15:31:05 +0000</pubDate>
 </item>
-
 <item>
 <title>音频提取，文本提取，文本转语音，一步到位！</title>
 <link>https://meta.appinn.net/t/topic/52064</link>
