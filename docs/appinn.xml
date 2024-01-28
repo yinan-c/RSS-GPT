@@ -4,6 +4,38 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[自荐](免费无注册轻量计算器软件)蜉蝣计算器1.2.2版</title>
+<link>https://meta.appinn.net/t/topic/52078</link>
+<guid>https://meta.appinn.net/t/topic/52078</guid>
+<content:encoded><![CDATA[
+
+<p>(免费无注册轻量计算器软件)蜉蝣计算器1.2.2版本<br />
+首先，本人提供本软件的下载地址：<br />
+Windows版:蓝奏云网盘下载地址:<a href="https://wwz.lanzouj.com/iydxg1mk5lni%EF%BC%88%E5%AF%86%E7%A0%81:37va%EF%BC%89" rel="noopener nofollow ugc">https://wwz.lanzouj.com/iydxg1mk5lni（密码:37va）</a><br />
+MacOS版:蓝奏云网盘下载地址:<a href="https://wwz.lanzouj.com/inBZa1mk5m2d%EF%BC%88%E5%AF%86%E7%A0%81:3nsd%EF%BC%89" rel="noopener nofollow ugc">https://wwz.lanzouj.com/inBZa1mk5m2d（密码:3nsd）</a><br />
+（本人不是会员，蓝奏云非会员不提供Android手机端分享文件，所以手机端转为百度网盘下载）<br />
+Android版:百度网盘下载地址:<a class="inline-onebox" href="https://pan.baidu.com/s/1d_d6vBpDzc1RlCGl2H_Dkw" rel="noopener nofollow ugc">百度网盘 请输入提取码</a> (提取码：bdvg)<br />
+（Linux版稍后会提供，请各位想要Linux版本的先等一下）<br />
+本计算器软件是可以计算数字，向量，数组（一维数组），矩阵并且内置80多个中文名字的函数的跨平台(跨Windows,Linux,MacOS,Android,没有iOS平台)计算器。本计算器比较轻量，电脑端(Windows,Linux,MacOS)可执行文件仅有大约15MB左右，手机端安装后所占体积(仅Android)仅有大约12MB左右。目前本计算器可以有效计算如一维积分和累加等一般数学计算问题，线性代数的矩阵问题以及一般概率分布问题。通过计算器的设置可以修改输出结果的进制，可以回溯历史重置错误，可以设置常数，可以自动小数位(最多25个小数位），可以把前面一行的输出结果当作参数填入后面行的计算式。<br />
+目前该计算器内置常数有圆周率，自然常数，2*圆周率，不支持复数运算，现版本已经支持了多维累加，多维近似求积分，一维近似求导数等功能。<br />
+蜉蝣计算器图标：<br />
+<img alt="蜉蝣计算器（小）" height="100" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/1/519777d56c66536a33da99db502276373b514db5.png" width="100" /><br />
+蜉蝣计算器的使用截图：<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/e/7edc81f2f7e5c7f40aa6fb945d5bfcb443cc4117.jpeg" title="Screenshot_2024-01-28-16-05-05-527_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-05-05-527_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/e/7edc81f2f7e5c7f40aa6fb945d5bfcb443cc4117_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/e/0ead35e608529ee3d2668de1e6255538da8aefa3.jpeg" title="Screenshot_2024-01-28-16-06-34-962_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-06-34-962_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/e/0ead35e608529ee3d2668de1e6255538da8aefa3_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/9/f9fe7b8b3299daaee4b592e2a656f7148aaabb70.jpeg" title="Screenshot_2024-01-28-16-06-37-584_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-06-37-584_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/9/f9fe7b8b3299daaee4b592e2a656f7148aaabb70_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/c/4c16eacceb9359a965b7a76c8a6c3939bd610347.jpeg" title="Screenshot_2024-01-28-16-06-06-067_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-06-06-067_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/4/c/4c16eacceb9359a965b7a76c8a6c3939bd610347_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/8/b88df53ebb9325a4e7e2e3be33bb431465ca73c7.jpeg" title="Screenshot_2024-01-28-16-06-13-541_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-06-13-541_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/8/b88df53ebb9325a4e7e2e3be33bb431465ca73c7_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/0/e0ed31db400c26511c67912e1a07ff6e02faf5a2.jpeg" title="Screenshot_2024-01-28-16-05-26-033_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-05-26-033_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/0/e0ed31db400c26511c67912e1a07ff6e02faf5a2_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/1/71553cbf43a0818e9f5cb7282a7b64e9871fe771.jpeg" title="Screenshot_2024-01-28-16-05-56-872_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-05-56-872_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/1/71553cbf43a0818e9f5cb7282a7b64e9871fe771_2_225x500.jpeg" width="225" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/c/ac6db85c7c016bea83cbcc4d0417d588dee179b3.jpeg" title="Screenshot_2024-01-28-16-06-02-126_com.tydqsoft.F"><img alt="Screenshot_2024-01-28-16-06-02-126_com.tydqsoft.F" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/c/ac6db85c7c016bea83cbcc4d0417d588dee179b3_2_225x500.jpeg" width="225" /></a></div><p></p>
+            <p><small>30 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52078">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 26 Jan 2024 15:31:05 +0000</pubDate>
+<pubDate>Fri, 26 Jan 2024 15:31:05 +0000</pubDate>
+</item>
 
 <item>
 <title>音频提取，文本提取，文本转语音，一步到位！</title>
