@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Checking for a VPN connection from the command line</title>
 <link>https://brett.trpstra.net/link/535/16552042/checking-for-a-vpn-connection-from-the-command-line</link>
 <guid>https://brett.trpstra.net/link/535/16552042/checking-for-a-vpn-connection-from-the-command-line</guid>
 <content:encoded><![CDATA[
-<div> ifconfig，VPN连接，shell脚本，Mac，自动化<br>
-总结：<br>
+<div> ifconfig，VPN连接，shell脚本，Mac，自动化<br />
+总结：<br />
 本文介绍了如何使用ifconfig和shell脚本来检测VPN连接是否处于活动状态，并在连接断开时终止应用程序。通过查找特定的网络接口来确定VPN连接状态，并使用grep命令来测试连接是否处于活动状态。作者提出了使用循环的Bash脚本来监测VPN连接状态，并在连接断开时执行特定命令。同时，还提到了可以将这些方法应用于自动化工具，如BetterTouchTool。 <div>
 <p>I got a question from a reader about how to test if a VPN connection is active and terminate an app if it isn&rsquo;t. There&rsquo;s probably a way to do this with Keyboard Maestro or BetterTouchTool or something, but to keep things interesting, I wanted to find a way to do it with just shell scripts.</p>
 
@@ -81,9 +82,7 @@ $ diff (ifconfig -a|psub) (pbpaste|psub)
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16552042.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-01-29T13:55:00-06:00</pubDate>
-<pubDate>2024-01-29T13:55:00-06:00</pubDate>
 </item>
-
 <item>
 <title>ScreenFloat 2 -- Power up your screenshots [Sponsor]</title>
 <link>https://brett.trpstra.net/link/535/16547664/screenfloat-2-power-up-your-screenshots-sponsor</link>
