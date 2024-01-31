@@ -4,6 +4,122 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】开源扩展「大术专搜」更新！Chrome用户体验大提升与Firefox看齐</title>
+<link>https://meta.appinn.net/t/topic/52219</link>
+<guid>https://meta.appinn.net/t/topic/52219</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>大术专搜</h1>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/garywill/BigSearch" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="" src="https://opengraph.githubassets.com/f1f6ecc0915e9143939d9e263cbc1a82917f5129900675fe6dbb7d81aa506fdd/garywill/BigSearch" width="" /></div>
+
+<h3><a href="https://github.com/garywill/BigSearch" rel="noopener nofollow ugc" target="_blank">GitHub - garywill/BigSearch: Browser extension. Definitly more than a...</a></h3>
+
+  <p>Browser extension. Definitly more than a GET/POST sender. Handily use search engines via a Flexible Tool! UI has Vimium-like feature 🌐🔍 (Pure-client. No 3rd-party server needed) 大术专搜 既专又广 手敲几下 纵横去往...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p><span class="bbcode-u">以 灵活又顺手 的方式 在(切换) <strong>任意一个</strong> 或 (连续)<strong>多个</strong> 搜索引擎（或任意网站）进行搜索。</span><br />
+<em>新手友好，专家满意。包括日常、娱乐及工作。</em></p>
+<p>俱有 <ins>多搜索引擎工具</ins> 该有的<strong>基本功能</strong>，如：</p>
+<ul>
+<li>内置 <em>百度,Google,B站,Youtube,Github,淘宝</em> 等</li>
+<li>GET/POST</li>
+<li>自定引擎</li>
+</ul>
+<p><ins>在具有了 以上 基本功能 <strong>之后</strong>，它<strong>还可以</strong><img alt=":sparkles:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkles.png?v=12" title=":sparkles:" width="20" />：</ins></p>
+<ul>
+<li><img alt=":fountain_pen:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fountain_pen.png?v=12" title=":fountain_pen:" width="20" /> 文本单行或<strong>多行</strong></li>
+<li><img alt=":keyboard:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/keyboard.png?v=12" title=":keyboard:" width="20" /> 调用搜索的过程<ins>可完全仅用键盘，不碰鼠标</ins>。其自身UI里内置<strong>类似Vimium</strong>的功能，键盘可点击不同的搜索引擎</li>
+<li>等等 。。</li>
+</ul>
+<p>安装：</p>
+<ul>
+<li><a href="https://addons.mozilla.org/firefox/addon/big-search/" rel="noopener nofollow ugc">Firefox Addon</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/big-search/ojcnjeigmgjaiolalpapfnmmhdmpjhfb" rel="noopener nofollow ugc">Chrome Addon</a></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>本次更新亮点</h2>
+<p>近日，3.5.x 版本已发布至Chrome Store和Firefox Addon。带来的重要更新是Chrome用户的使用体验终于能与Firefox看齐</p>
+<h3><a class="anchor" href="https://meta.appinn.net#chromefirefox-3" name="chromefirefox-3"></a>Chrome上的搜索词快速设置终于与Firefox一样便捷</h3>
+<ul>
+<li>修复了Chrome上无法通过<ins>右键菜单调出搜索界面</ins>的问题</li>
+<li>修复了Chrome使用<ins>快捷键</ins>将网页选择文本用作搜索时，需要两个步骤才能<ins>唤出界面</ins>的问题
+<blockquote>
+<p>以前，这对Firefox用户来说都是很平常的操作，而以前因为Chrome API的缺失，导致Chrome用户需要两个步骤才能完成，现在只需要一步。（感谢那个<span class="bbcode-u">被人骂的mv3</span>带来的正面改进）</p>
+</blockquote>
+</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#chrome-4" name="chrome-4"></a>Chrome终于有了原生侧面板</h3>
+<p>大术专搜的搜索界面可以通过以下方式使用：</p>
+<ol>
+<li>工具栏按钮弹出</li>
+<li>单独的专用标签页</li>
+<li>浏览器原生侧边栏
+<blockquote>
+<p>Chrome也开窍了，侧面板来了</p>
+</blockquote>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>一直以来的亮点</h2>
+<p>随便，再介绍一遍一个我认为很好用的一个功能：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/6/f6dc2e86cde7145da385807c38827fa4db97e318.jpeg" title="vem2"><img alt="vem2" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f6dc2e86cde7145da385807c38827fa4db97e318_2_690x388.jpeg" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/b/3b0ea6cee101df0463ce7f6cfe8e0b6a4a3b825a.jpeg" title="vem"><img alt="vem" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/b/3b0ea6cee101df0463ce7f6cfe8e0b6a4a3b825a_2_690x388.jpeg" width="690" /></a></div><p></p>
+<p>受Vimium启发，大术专搜让你 <strong>可视化</strong>、快捷 地 <ins>用键盘 (连续)点击不同的搜索引擎</ins>的不同按钮。使用<code>Shift+Enter</code>进入Vem模式。</p>
+<p>若你用过类似的DuckDuckGo的 <code>!bang</code>， 或 omnibox，它们都要求你背诵代号才能用。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>完整介绍和说明（视频已分章节）</h2>
+<p><a href="https://github.com/garywill/BigSearch" rel="noopener nofollow ugc">前往Github主页可看完整说明</a></p>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th>使用扩展</th>
+<th>搜索选择内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="chi" height="" src="https://gitlab.com/garywill/bigSearch/-/raw/screenshot/chi.jpg" width="" /></td>
+<td><img alt="context" height="" src="https://gitlab.com/garywill/bigSearch/-/raw/screenshot/context.png" width="" /></td>
+</tr>
+<tr>
+<td>几种UI显示方式</td>
+<td>内部UI类Vimium</td>
+</tr>
+<tr>
+<td><img alt="3ui" height="" src="https://gitlab.com/garywill/bigSearch/-/raw/screenshot/3ui.webp" width="" /></td>
+<td><img alt="vem" height="" src="https://gitlab.com/garywill/bigSearch/-/raw/screenshot/vem.webp" width="" /></td>
+</tr>
+</tbody>
+</table>
+</div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#chrome-7" name="chrome-7"></a>Chrome仍有遗憾</h2>
+<p>Chrome的这个被人唾骂的mv3，今天也给我们带来了点有用的改进。</p>
+<p>但，Chrome仍有不如Firefox的一点：不支持列出已安装进浏览器的搜索引擎。</p>
+<p>所以，若你平时是将搜索引擎加入进Chrome使用的，尚不能无缝地将它们带进大术专搜。希望Google早日改进吧。</p>
+<p>不过，大术专搜内置的引擎也能满足大部分日常需求。实在需要，就把自定义的引擎加入大术专搜就好了。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52219">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 31 Jan 2024 03:31:18 +0000</pubDate>
+<pubDate>Wed, 31 Jan 2024 03:31:18 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】DS Cloud：为了玩转群晖NAS，我做了个融合怪App</title>
