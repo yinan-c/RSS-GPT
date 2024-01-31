@@ -13957,3 +13957,12 @@ Existing_entries: 478
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-01-31 04:03:41.166818
+------------------------------------------------------
+Started: 2024-01-31 06:04:04.296545
+Existing_entries: 478
+Fetching from https://rsshub.app/sspai/index
+Token length: 17065
+Summarized using GPT-3.5-turbo-1106
+Append: [丰田皇冠简史](https://sspai.com/post/82267)
+append_entries: 1
+Finish: 2024-01-31 06:04:10.399075
