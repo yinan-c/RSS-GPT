@@ -14854,3 +14854,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-01-31 08:03:36.466263
+------------------------------------------------------
+Started: 2024-01-31 10:03:26.178374
+Existing_entries: 250
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [Mac系统有fv悬浮球里的那种自定义任务脚本库软件推荐吗？](https://meta.appinn.net/t/topic/52237)
+append_entries: 1
+Finish: 2024-01-31 10:03:29.479046
