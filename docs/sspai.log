@@ -14170,3 +14170,9 @@ Summarized using GPT-3.5-turbo-1106
 Append: [本周看什么 | 最近值得一看的一大碟作品](https://sspai.com/post/86266)
 append_entries: 1
 Finish: 2024-02-02 14:03:24.401534
+------------------------------------------------------
+Started: 2024-02-02 16:03:10.851329
+Existing_entries: 491
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-02-02 16:03:11.071863
