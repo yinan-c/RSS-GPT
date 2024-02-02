@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>求：一个链接，快速分享文本、压缩包的方案</title>
 <link>https://meta.appinn.net/t/topic/52320</link>
 <guid>https://meta.appinn.net/t/topic/52320</guid>
 <content:encoded><![CDATA[
-
 <p>最近的工作，要求经常性的分享图片、文本、压缩包，同时平台对图片、附件非常不友好，上传的附件、图片，一旦拷贝一下项目，附件、图片就丢失了</p>
 <p>于是，链接分享就是一个选择</p>
 <p>目前，我在 mac 使用 clean shot x，截图、录屏后，都可以上传到服务器并生成一个分享链接，好不方便</p>
@@ -22,9 +22,7 @@
             <p><a href="https://meta.appinn.net/t/topic/52320">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 02 Feb 2024 08:44:20 +0000</pubDate>
-<pubDate>Fri, 02 Feb 2024 08:44:20 +0000</pubDate>
 </item>
-
 <item>
 <title>【自荐】AppDimmer: 强制为特定应用程序适配macOS深色模式</title>
 <link>https://meta.appinn.net/t/topic/52307</link>
