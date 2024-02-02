@@ -4,6 +4,95 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】AppDimmer: 强制为特定应用程序适配macOS深色模式</title>
+<link>https://meta.appinn.net/t/topic/52307</link>
+<guid>https://meta.appinn.net/t/topic/52307</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>AppDimmer</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>官网&amp;下载</h2>
+<p>官网: <strong><a href="https://github.com/lihaoyun6/AppDimmer" rel="noopener nofollow ugc">AppDimmer</a></strong> on Github<br />
+下载: <strong><a href="https://github.com/lihaoyun6/AppDimmer/releases/latest" rel="noopener nofollow ugc">点此前往</a></strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句话简介</h2>
+<p>强制为某些仍不支持macOS深色模式的"顽固"App适配深色模式</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件特色</h2>
+<ol>
+<li>原生Swift开发, 体积小巧. 开放源代码</li>
+<li>多种适配模式(亮度遮罩 or 智能反色)</li>
+<li>可针对特定APP启用, 不影响其他APP</li>
+<li>性能占用较小, 支持自动跟随系统主题</li>
+</ol>
+<p>注1: 本软件启动后仅会在菜单栏显示图标, 不是启动失败!<br />
+注2: 反色模式基于屏幕录制API, 请务必授予相关权限</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>软件截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/d/ad2ba7e80c1cea085b09bb2cccd95a0bd65909e5.jpeg" title="Screenshot"><img alt="Screenshot" height="355" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/d/ad2ba7e80c1cea085b09bb2cccd95a0bd65909e5_2_517x355.jpeg" width="517" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52307">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 02 Feb 2024 02:05:37 +0000</pubDate>
+<pubDate>Fri, 02 Feb 2024 02:05:37 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】QDelayer: 防止误触Cmd+Q或Cmd+W导致窗口误关闭</title>
+<link>https://meta.appinn.net/t/topic/52306</link>
+<guid>https://meta.appinn.net/t/topic/52306</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>QDelayer</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>官网&amp;下载</h2>
+<p>官网: <strong><a href="https://github.com/lihaoyun6/QDelayer" rel="noopener nofollow ugc">QDelayer</a></strong> on Github<br />
+下载: <strong><a href="https://github.com/lihaoyun6/QDelayer/releases/latest" rel="noopener nofollow ugc">点此前往</a></strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句话简介</h2>
+<p>为macOS的 Cmd+Q 和 Cmd+W 快捷键添加延时或双击确认, 防止误触</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件特色</h2>
+<ol>
+<li>原生Swift开发, 体积小巧. 开放源代码</li>
+<li>支持针对特定APP启用拦截, 互不干扰</li>
+<li>延时长短可修改, 适应不同反应速度</li>
+<li>支持黑/白名单模式, 支持统计拦截次数</li>
+</ol>
+<p>注: 本软件启动后仅会在菜单栏显示图标, 不是启动失败!</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>软件截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/c/7ca6a9a2a4576b66c97dd077e4257e73ad956ee9.jpeg" title="1111111"><img alt="1111111" height="375" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/c/7ca6a9a2a4576b66c97dd077e4257e73ad956ee9_2_395x375.jpeg" width="395" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/7/771c9e69764846040132e185f2889d36698eaf2e.jpeg" title="Xnip2024-02-02_09-53-28"><img alt="Xnip2024-02-02_09-53-28" height="375" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/7/771c9e69764846040132e185f2889d36698eaf2e_2_395x375.jpeg" width="395" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52306">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 02 Feb 2024 02:05:28 +0000</pubDate>
+<pubDate>Fri, 02 Feb 2024 02:05:28 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】DockBattery: 在Dock栏上显示电量, 天气, 时间日期, 充电状态等信息</title>
+<link>https://meta.appinn.net/t/topic/52302</link>
+<guid>https://meta.appinn.net/t/topic/52302</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>DockBattery</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>官网&amp;下载</h2>
+<p>官方网站: <strong>暂无</strong> (尚无开源意向)<br />
+下载地址: <strong><a href="https://gofile.io/d/C8vyxk" rel="noopener nofollow ugc">DockBattery v1.0.8</a></strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句话简介</h2>
+<p>在macOS的Dock栏上显示电量, 天气, 时间, 日期, 充电状态, 剩余可用时间等信息</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件特色</h2>
+<ol>
+<li>基于SwiftUI编写, 软件体积小</li>
+<li>适配深色模式, 支持自动切换</li>
+<li>支持多种信息组合, 自由搭配</li>
+<li>支持自动定位, 在线获取天气<br />
+注: 天气信息来自 wttr.in 网站</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>软件截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/4/b420ccdf91082e2145790225420fc3a557a051e3.jpeg" title="shot"><img alt="shot" height="375" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/4/b420ccdf91082e2145790225420fc3a557a051e3_2_330x375.jpeg" width="330" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52302">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 02 Feb 2024 01:19:05 +0000</pubDate>
+<pubDate>Fri, 02 Feb 2024 01:19:05 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】一款无广告、高颜值、多场景、DIY主题、自定义公式的计算器APP</title>

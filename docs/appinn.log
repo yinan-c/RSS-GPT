@@ -15017,3 +15017,14 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-02-02 00:10:35.797274
+------------------------------------------------------
+Started: 2024-02-02 02:08:05.777336
+Existing_entries: 253
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【自荐】AppDimmer: 强制为特定应用程序适配macOS深色模式](https://meta.appinn.net/t/topic/52307)
+Append: [【自荐】QDelayer: 防止误触Cmd+Q或Cmd+W导致窗口误关闭](https://meta.appinn.net/t/topic/52306)
+Append: [【自荐】DockBattery: 在Dock栏上显示电量, 天气, 时间日期, 充电状态等信息](https://meta.appinn.net/t/topic/52302)
+append_entries: 3
+Finish: 2024-02-02 02:08:09.598086
