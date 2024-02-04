@@ -24728,3 +24728,29 @@ Filter: [谷歌连放大招：Gemini Pro支持中文，Bard学会画画，还上
 Filter: [大模型的“百模”竞争进入淘汰赛，是时候打扫战场了](https://www.36kr.com/p/2631008423267840)
 append_entries: 0
 Finish: 2024-02-04 06:04:13.690224
+------------------------------------------------------
+Started: 2024-02-04 08:03:36.016534
+Existing_entries: 479
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 2539
+Summarized using GPT-3.5-turbo-1106
+Append: [两度被OpenAI相中的华裔CEO，干出全球最高年收入AI创企](https://www.36kr.com/p/2633850045791366)
+Filter: [字节“扣子”加入AI战场，2024大模型能搞到钱吗？](https://www.36kr.com/p/2633596084145669)
+Filter: [多少年轻人，被赛博美女逼成了AI侦探](https://www.36kr.com/p/2633599710706819)
+Filter: [史上首个100%开源大模型重磅登场，破纪录公开代码/权重/数据集/训练全过程，AMD都能训](https://www.36kr.com/p/2632336993616134)
+Filter: [陶哲轩看了都直呼内行，谷歌等用LLM自动证明定理拿顶会杰出论文，上下文越全证得越好](https://www.36kr.com/p/2632885935948039)
+Filter: [匿名论文提出奇招，增强大模型长文本能力居然还能这么做](https://www.36kr.com/p/2632885260960002)
+Filter: [UCLA华人提出全新自我对弈机制，LLM自己训自己，效果碾压GPT-4专家指导](https://www.36kr.com/p/2632885145549960)
+Filter: [争议与热度并存，越来越多开发者正在抛弃他们的旧语言转向 Rust](https://www.36kr.com/p/2632167801471238)
+Filter: [面壁智能发布2B模型：适配主流手机，推理成本仅为GPT-4的1/360 | 最前线](https://www.36kr.com/p/2629567079201926)
+Filter: [算力，AI时代最确定的赛道](https://www.36kr.com/p/2631263919897732)
+Filter: [微软Q4净利润增长33%，但投资人不买单，市值蒸发800多亿｜焦点分析](https://www.36kr.com/p/2631214747729027)
+Filter: [最前线｜追觅科技发布新品扫地机X40，搭载仿生双机械臂扫拖边角缝隙](https://www.36kr.com/p/2631153416584324)
+Filter: [大模型也有小偷？为保护你的参数，上交大给大模型制作「人类可读指纹」](https://www.36kr.com/p/2631181959560324)
+Filter: [年龄两岁，教龄一年半：婴儿AI训练师登上Science](https://www.36kr.com/p/2631181841480835)
+Filter: [2024「人形机器人元年」：是噱头，还是机会？](https://www.36kr.com/p/2631097002675459)
+Filter: [字节Coze国内版上线，30秒定制AI机器人，还做Bots商店｜最前线](https://www.36kr.com/p/2630805507932417)
+Filter: [打破大厂数据垄断，阿里云前安全负责人吴翰清再创业，要做AI个人计算机｜早期项目](https://www.36kr.com/p/2630807987551366)
+Filter: [谷歌连放大招：Gemini Pro支持中文，Bard学会画画，还上新了新模型](https://www.36kr.com/p/2631084660474112)
+append_entries: 1
+Finish: 2024-02-04 08:03:41.654198
