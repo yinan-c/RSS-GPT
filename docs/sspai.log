@@ -14380,3 +14380,15 @@ Summarized using GPT-3.5-turbo-1106
 Append: [「放轻松」主题征文结束，这 14 篇文章值得一看](https://sspai.com/post/86307)
 append_entries: 1
 Finish: 2024-02-05 08:04:00.307085
+------------------------------------------------------
+Started: 2024-02-05 10:04:29.175933
+Existing_entries: 495
+Fetching from https://rsshub.app/sspai/index
+Token length: 782
+Summarized using GPT-3.5-turbo-1106
+Append: [满分五分，你给 Apple 的 2023 年打几分？](https://sspai.com/post/83281)
+Token length: 3588
+Summarized using GPT-3.5-turbo-1106
+Append: [2024 年高峰期火车票购买指南](https://sspai.com/post/86328)
+append_entries: 2
+Finish: 2024-02-05 10:04:43.934364
