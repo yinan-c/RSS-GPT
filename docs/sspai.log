@@ -14443,3 +14443,15 @@ Existing_entries: 498
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-06 02:08:18.581544
+------------------------------------------------------
+Started: 2024-02-06 04:03:31.936743
+Existing_entries: 498
+Fetching from https://rsshub.app/sspai/index
+Token length: 8158
+Summarized using GPT-3.5-turbo-1106
+Append: [我的新年 flag 是听 100 张专辑](https://sspai.com/post/86287)
+Token length: 1814
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：腾讯上线低温雨雪冰冻信息上报平台小程序等](https://sspai.com/post/86345)
+append_entries: 2
+Finish: 2024-02-06 04:03:41.811004
