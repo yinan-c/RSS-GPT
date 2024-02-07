@@ -14524,3 +14524,12 @@ Existing_entries: 503
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-07 00:10:36.522438
+------------------------------------------------------
+Started: 2024-02-07 02:07:33.970999
+Existing_entries: 503
+Fetching from https://rsshub.app/sspai/index
+Token length: 1384
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：2025 款保时捷 Taycan 发布、OpenAI 引入 C2PA 标准水印等](https://sspai.com/post/86366)
+append_entries: 1
+Finish: 2024-02-07 02:07:38.094661
