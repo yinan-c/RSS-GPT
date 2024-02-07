@@ -4,6 +4,98 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>会限制最大宽度的自适应布局应用和网页</title>
+<link>https://meta.appinn.net/t/topic/18154</link>
+<guid>https://meta.appinn.net/t/topic/18154</guid>
+<content:encoded><![CDATA[
+
+<p>这个帖子收集在一些平板电脑和带鱼屏上交互体验良好的网页、应用、软件</p>
+<p>平板上横屏只能显示半张图的大号手机布局是假的自适应，带鱼屏上一行渲染八十个字，读到脖子抽筋的自适应布局也是假的自适应</p>
+<p>入选遵循双重标准：<strong>自适应布局</strong> + <strong>限制最大宽度</strong>或<strong>动态分栏</strong></p>
+<p>欢迎<strong>公共编辑</strong>加入你的候选</p>
+格式模板 <a href="https://meta.appinn.net/t/topic/18154/1">（点击了解更多详细信息）</a>
+<hr />
+<h2><a class="anchor" href="https://meta.appinn.net#trello-2" name="trello-2"></a>Trello</h2>
+<p>自适应布局适配平台：<code>网页</code> <code>Android</code> <code>iPad</code></p>
+<p>适配方法：分栏</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：Trello的界面天生自适应不同尺寸的屏幕，屏幕越宽，屏幕中就会显示更多的列表</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#pwa-3" name="pwa-3"></a>微博PWA</h2>
+<p>自适应布局适配平台：<code>网页</code></p>
+<p>适配方法：限制最大宽度</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：微博PWA的最大宽度在35个字左右，图片也有限制最大宽度，不会因为屏幕太宽而变得难以阅读</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#wikipediahttpsenwikipediaorg-4" name="wikipediahttpsenwikipediaorg-4"></a><a href="https://en.wikipedia.org/">Wikipedia</a></h2>
+<p>自适应布局适配平台：<code>网页</code></p>
+<p>适配方法：自适应布局、限制最大宽度</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/dalieba">@Dalieba</a>：Wikipedia 的页面不仅自适应不同尺寸的屏幕，也有限制最大宽度，不会因为屏幕太宽而不方便阅读</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#solid-explorer-5" name="solid-explorer-5"></a>Solid Explorer</h2>
+<p>自适应布局适配平台：<code>Android</code></p>
+<p>适配方法：动态分栏</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：挺智能的，手机下是单列布局，平板竖屏下是双列布局，横屏下是双窗口布局</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#floating-calculatorhttpsplaygooglecomstoreappsdetailsidcomaptappsfloatingcalculatorhlzh-6" name="floating-calculatorhttpsplaygooglecomstoreappsdetailsidcomaptappsfloatingcalculatorhlzh-6"></a><a href="https://play.google.com/store/apps/details?id=com.aptapps.floatingcalculator&amp;hl=zh">Floating Calculator</a></h2>
+<p>自适应布局适配平台：<code>Android</code></p>
+<p>适配方法：窗口化</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：自由调整大小的悬浮窗计算器</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#officeonenotewordpowerpointexcel-7" name="officeonenotewordpowerpointexcel-7"></a>微软Office系列：OneNote、Word、PowerPoint、Excel</h2>
+<p>自适应布局适配平台：<code>网页</code>- <a href="https://meta.appinn.net">Office Online</a>, <code>Android</code>, <code>iPad</code></p>
+<p>适配方法：UI切换</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：会根据屏幕的尺寸在手机UI与Ribbon UI之间自动切换。注意，有大屏优化的Office都是独立的App，而名为"Office"的三合一App暂时没有大屏优化</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#sirinhttpsplaygooglecomstoreappsdetailsidcomsirinandroidhlzh-8" name="sirinhttpsplaygooglecomstoreappsdetailsidcomsirinandroidhlzh-8"></a><a href="https://play.google.com/store/apps/details?id=com.sirin.android&amp;hl=zh">SIRIN</a></h2>
+<p>自适应布局适配平台：<code>Android</code></p>
+<p>适配方法：限制图片大小</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：SIRIN是一个DRM-free的有声书播放器。这个App的媒体库界面会限制书籍封面的显示大小，屏幕越大，显示的内容越多</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#kindle-9" name="kindle-9"></a>Kindle</h2>
+<p>自适应布局适配平台：<code>Android</code> <code>iOS</code></p>
+<p>适配方法：限制图片大小</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：限制书籍封面的显示大小，在Pad上只会增加一行的书籍数量，不会拉宽图片</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a>幕布</h2>
+<p>自适应布局适配平台：<code>网页</code> <code>PC</code></p>
+<p>适配方法：限制最大宽度</p>
+<blockquote>
+<p><a class="mention" href="https://meta.appinn.net/u/feeshy">@feeshy</a>：幕布可以在两种模式之间自选：不限最大宽度或者限制最大宽度</p>
+</blockquote>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/18154">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 07 Aug 2020 11:46:23 +0000</pubDate>
+<pubDate>Fri, 07 Aug 2020 11:46:23 +0000</pubDate>
+</item>
+<item>
+<title>局域网文件互传工具：LocalSend</title>
+<link>https://meta.appinn.net/t/topic/39942</link>
+<guid>https://meta.appinn.net/t/topic/39942</guid>
+<content:encoded><![CDATA[
+
+<p>看样子是2023年新鲜出炉的玩意儿</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/2/52f5105a3ec90ea089921a4ada354de6ee23434c.png" title="スクリーンショット 2023-01-23 205313"><img alt="スクリーンショット 2023-01-23 205313" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/2/52f5105a3ec90ea089921a4ada354de6ee23434c_2_408x500.png" width="408" /></a></div><p></p>
+<p>支持Windows、Android、Linux和苹果设备互传，纯本地，速度还行，全平台MY设计，还能自定义设备名称</p>
+<p>iOS上传完文件再打开一次会自动清理缓存，Android得进系统设置里手动清理</p>
+<p>开发者在<a href="https://www.reddit.com/r/ZephyrusM16/comments/100xh34/comment/j32q4yp/" rel="noopener nofollow ugc">reddit</a>上说开发的契机是有次用Snapdrop挂了，他在想为啥非得要联网，就做了这个</p>
+<p>开源：<a href="https://github.com/localsend/localsend" rel="noopener nofollow ugc">Github</a></p>
+<p>网站：<a href="https://localsend.org/" rel="noopener nofollow ugc">https://localsend.org/</a></p>
+<p>开发者网站：<a href="http://tienisto.com/" rel="noopener nofollow ugc">http://tienisto.com/</a></p>
+            <p><small>41 个帖子 - 25 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39942">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 23 Jan 2023 13:34:29 +0000</pubDate>
+<pubDate>Mon, 23 Jan 2023 13:34:29 +0000</pubDate>
+</item>
 
 <item>
 <title>想问问大家的照片管理和备份方案！</title>
