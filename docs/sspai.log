@@ -14653,3 +14653,15 @@ Existing_entries: 512
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-08 10:03:20.751479
+------------------------------------------------------
+Started: 2024-02-08 12:04:46.137556
+Existing_entries: 512
+Fetching from https://rsshub.app/sspai/index
+Token length: 5281
+Summarized using GPT-3.5-turbo-1106
+Append: [新玩意 172｜少数派的编辑们最近买了啥？](https://sspai.com/post/86396)
+Token length: 3419
+Summarized using GPT-3.5-turbo-1106
+Append: [付费栏目新年促销开启：春节偷偷卷，进步又省钱](https://sspai.com/post/86357)
+append_entries: 2
+Finish: 2024-02-08 12:05:01.035495
