@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Convert nvALT RTF files to Markdown</title>
 <link>https://brett.trpstra.net/link/535/16565808/convert-nvalt-rtf-files-to-markdown</link>
 <guid>https://brett.trpstra.net/link/535/16565808/convert-nvalt-rtf-files-to-markdown</guid>
 <content:encoded><![CDATA[
-<div> nvALT, RTF, Markdown, Shortcut, Conversion<br>
-这篇文章介绍了一个将RTF文件转换为Markdown的快捷方式，帮助那些想从nvALT转移到其他应用的用户。作者提到了从nvALT转移到nvUltra或Obsidian等Markdown应用的情况，并分享了一个使用Shortcuts的解决方案。他还提到了对Shortcuts的使用方法和可能的问题，并鼓励读者提出改进建议或疑问。总的来说，这篇文章是一个为nvALT用户提供帮助的实用指南。<br><br>总结: 这篇文章介绍了如何使用Shortcuts将RTF文件转换为Markdown，以帮助nvALT用户迁移到其他应用。提供了详细的使用方法和可能的问题，并鼓励读者参与讨论。 <div>
+<div> nvALT, RTF, Markdown, Shortcut, Conversion<br />
+这篇文章介绍了一个将RTF文件转换为Markdown的快捷方式，帮助那些想从nvALT转移到其他应用的用户。作者提到了从nvALT转移到nvUltra或Obsidian等Markdown应用的情况，并分享了一个使用Shortcuts的解决方案。他还提到了对Shortcuts的使用方法和可能的问题，并鼓励读者提出改进建议或疑问。总的来说，这篇文章是一个为nvALT用户提供帮助的实用指南。<br /><br />总结: 这篇文章介绍了如何使用Shortcuts将RTF文件转换为Markdown，以帮助nvALT用户迁移到其他应用。提供了详细的使用方法和可能的问题，并鼓励读者参与讨论。 <div>
 <p>I&rsquo;ve been working with a former nvALT user who stored all of their files in RTF format. Ideally, people switching from nvALT to another app &mdash; be it nvUltra, Obsidian, or anything Markdown-based &mdash; would already be storing their notes as individual text files. If nvALT is still working for you, make that change now and give it a chance to write all the new files to disk. However, if the conversion isn&rsquo;t what you hoped for, or nvALT is no longer working on your machine and you&rsquo;re stuck with a bunch of RTF files, I&rsquo;ve pulled together a solution.</p>
 
 <h3 id="thanks-for-the-assist">Thanks for the assist</h3>
@@ -36,9 +37,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16565808.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-02-08T11:23:00-06:00</pubDate>
-<pubDate>2024-02-08T11:23:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Checking for a VPN connection part 2</title>
 <link>https://brett.trpstra.net/link/535/16553334/checking-for-a-vpn-connection-part-2</link>
