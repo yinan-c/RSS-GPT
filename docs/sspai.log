@@ -14611,3 +14611,12 @@ Existing_entries: 508
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-08 00:10:30.390383
+------------------------------------------------------
+Started: 2024-02-08 02:07:42.086312
+Existing_entries: 508
+Fetching from https://rsshub.app/sspai/index
+Token length: 2348
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报: Mozilla 推出 Monitor Plus 服务、Apple 公布仅需通过语言描述修图的 AI 工具](https://sspai.com/post/86386)
+append_entries: 1
+Finish: 2024-02-08 02:07:45.635337
