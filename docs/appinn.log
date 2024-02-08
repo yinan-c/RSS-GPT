@@ -15637,3 +15637,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-02-08 08:03:40.377007
+------------------------------------------------------
+Started: 2024-02-08 10:03:13.083493
+Existing_entries: 265
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【自荐】轻松将网页上的选定元素转换为 Markdown：Easy Web Page to Markdown](https://meta.appinn.net/t/topic/52506)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [[ToMemo] 携新年祝福短语来啦，过年祝福文案不烦恼](https://meta.appinn.net/t/topic/52508)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-02-08 10:03:17.450099

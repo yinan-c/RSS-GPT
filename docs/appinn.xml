@@ -4,6 +4,113 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】轻松将网页上的选定元素转换为 Markdown：Easy Web Page to Markdown</title>
+<link>https://meta.appinn.net/t/topic/52506</link>
+<guid>https://meta.appinn.net/t/topic/52506</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#easy-web-page-to-markdown-1" name="easy-web-page-to-markdown-1"></a>Easy Web Page to Markdown</h1>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>简介</h2>
+<p>“Easy Web Page to Markdown” 允许你将任何网页上的元素转换为 Markdown 格式。这对于经常需要将 <s>文章转载</s> HTML 内容转换为 Markdown 格式的人来说非常有用。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>特性</h3>
+<ul>
+<li><strong>框选工具</strong>：使用鼠标和滚轮选择你想转换的 HTML 元素。</li>
+</ul>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/5/453ef35df11c561b4a9592394a83996ffd6bd403.jpeg" title="Clip_2024-02-08_15-13-03"><img alt="Clip_2024-02-08_15-13-03" height="327" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/4/5/453ef35df11c561b4a9592394a83996ffd6bd403_2_690x327.jpeg" width="690" /></a></div><p></p>
+<ul>
+<li>
+<p><strong>Markdown 预览</strong>：转换后，将出现一个模态框，显示你选定的网页元素的 Markdown 转换结果。同时可以编辑 Markdown 并查看实时预览。</p>
+</li>
+<li>
+<p><strong>复制到剪贴板</strong>：只需点击一下，你就可以将转换后的 Markdown 复制到你的剪贴板。</p>
+</li>
+<li>
+<p><strong>下载为 Markdown 文件</strong>：可以将转换后的 Markdown 下载为 .md 文件。</p>
+</li>
+</ul>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/c/bca9de22fbe4bf1448f3894cd0e2019c2b403861.jpeg" title="Clip_2024-02-08_15-14-33"><img alt="Clip_2024-02-08_15-14-33" height="329" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/c/bca9de22fbe4bf1448f3894cd0e2019c2b403861_2_690x329.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>使用方法</h3>
+<ol>
+<li>
+<p>安装用户脚本管理器，如 Tampermonkey 或 Greasemonkey。</p>
+</li>
+<li>
+<p>安装脚本： <a href="https://greasyfork.org/zh-CN/scripts/486888-easy-web-page-to-markdown" rel="noopener nofollow ugc">Easy Web Page to Markdown (greasyfork.org)</a></p>
+</li>
+<li>
+<p>在任何网页，按 <code>Ctrl + M</code> ，或者在脚本管理器的菜单打开功能，开始选择 HTML 元素。</p>
+</li>
+<li>
+<p>选择时，移动鼠标来选定位置，用鼠标滚轮来缩放选择区域的大小，红色方框内的部分即为将被转换的内容。</p>
+</li>
+<li>
+<p>选择后，可以在左侧对转换后的 Markdown 代码进行编辑，右侧为其预览。</p>
+</li>
+<li>
+<p>可以将 Markdown 复制到剪贴板，也可以将其下载为 .md 文件。</p>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>感谢</h2>
+<ul>
+<li>框选灵感来源： <a href="https://meta.appinn.net/t/topic/50444">Mainonly - 仅显示网页所选部分的 JS 小书签 - 发现频道 <img alt=":mag_right:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/mag_right.png?v=12" title=":mag_right:" width="20" /> - 小众软件官方论坛 (appinn.net)</a></li>
+<li><a href="https://github.com/markedjs/marked" rel="noopener nofollow ugc">marked</a>：将html转换为markdown</li>
+<li><a href="https://github.com/mixmark-io/turndown" rel="noopener nofollow ugc">turndown</a>：markdown预览</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#github-6" name="github-6"></a>Github</h2>
+<p><a href="https://github.com/shiquda/shiquda_UserScript/tree/main/General" rel="noopener nofollow ugc">shiquda_UserScript/General at main · shiquda/shiquda_UserScript (github.com)</a></p>
+<hr />
+<p>第一次尝试在小众软件论坛发帖~请多光照~</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52506">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 08 Feb 2024 08:33:40 +0000</pubDate>
+<pubDate>Thu, 08 Feb 2024 08:33:40 +0000</pubDate>
+</item>
+<item>
+<title>[ToMemo] 携新年祝福短语来啦，过年祝福文案不烦恼</title>
+<link>https://meta.appinn.net/t/topic/52508</link>
+<guid>https://meta.appinn.net/t/topic/52508</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>背景</h2>
+<p>去年加了一个「新年祝福」的功能，核心功能就是一个：在聊天软件中，通过 ToMemo 键盘，直接输出祝福短语，过年再也不用到处搜索有逼格的新年文案啦。</p>
+<p>今年，在这辞旧迎新之际，更新了新年的文案，让祝福短语文采和便捷依旧。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>使用方法</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>同步「新年祝福」短语</h3>
+<p>进入「设置」-「扩展」-「新年祝福」，点击右上角的同步按钮，即可获取今年的新年祝福文案<br />
+<img alt="refresh" height="" src="https://video.fairywoobang.com/ToMemo%2FNewYear%2Fnewyear_pharse_refresh_data.jpeg" width="" /></p>
+<p><strong>同步完成后，记得 check 一下，是否是龙年的新年短语</strong></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>键盘中发送「新年祝福」短语</h3>
+<ol>
+<li>点击左上角应用图标</li>
+<li>点击「新年短语」</li>
+<li>点击任意的类型会自动发送有文采的祝福短语。</li>
+</ol>
+<p><strong>祝福短语会在指定类型下随机发送。</strong></p>
+<p>** 祝福短语中会有需要替换的内容，比如「尊敬的&lt;领导&gt;」，需要自行手动将&lt;领导&gt;替换成你们平时沟通的称呼，不然会显得过于生分**，也因为不同的人称呼不一样，所以无法自动替换成需要的称呼。</p>
+<p><img alt="keyboard" height="" src="https://video.fairywoobang.com/ToMemo%2FNewYear%2Fnewyear_pharse_keyboard.jpeg" width="" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>常见问题</h4>
+<ol>
+<li>
+<p>数据刷不出来，新年祝福显示为空，尝试更换一下链接的路径<br />
+<img alt="gitlab" height="" src="https://video.fairywoobang.com/ToMemo%2FNewYear%2Fnewyear_pharse_gitlab.jpeg" width="" /></p>
+</li>
+<li>
+<p>如何替换「发送人」变量<br />
+在祝福短语中，部分短语可以填入发送人姓名。比如「 xxx 在这给您拜年了」。每次调整太过麻烦，可以参考上面你问题的处理流程，核心是在「发送人」字段中输入需要替换的姓名，会在键盘使用时自动替换。</p>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>如何开始使用</h2>
+<p><strong>下载 ToMemo ！下载 ToMemo ！下载 ToMemo ！</strong></p>
+<p><a href="https://apps.apple.com/cn/app/tomemo-%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%BF%AB%E6%8D%B7%E9%94%AE%E7%9B%98%E7%9A%84%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%E5%BA%94%E7%94%A8/id1610843304" rel="noopener nofollow ugc">App Store</a></p>
+<p><strong>此功能免费可用！此功能免费可用！此功能免费可用！</strong></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52508">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 08 Feb 2024 09:05:43 +0000</pubDate>
+<pubDate>Thu, 08 Feb 2024 09:05:43 +0000</pubDate>
+</item>
 
 <item>
 <title>我又回来了，这次带来了Watchout iOS版本</title>
