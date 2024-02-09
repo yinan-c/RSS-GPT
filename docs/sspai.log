@@ -14707,3 +14707,12 @@ Existing_entries: 514
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-09 02:07:51.782651
+------------------------------------------------------
+Started: 2024-02-09 04:03:39.014835
+Existing_entries: 514
+Fetching from https://rsshub.app/sspai/index
+Token length: 1325
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：微软电脑管家登陆全球 Microsoft Store、迪士尼消息两则等](https://sspai.com/post/86407)
+append_entries: 1
+Finish: 2024-02-09 04:03:44.050913
