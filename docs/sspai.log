@@ -14971,3 +14971,12 @@ Existing_entries: 520
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-12 12:04:41.687434
+------------------------------------------------------
+Started: 2024-02-12 14:03:13.580414
+Existing_entries: 520
+Fetching from https://rsshub.app/sspai/index
+Token length: 1513
+Summarized using GPT-3.5-turbo-1106
+Append: [后会有「7」：下一代 Wi-Fi 技术解读](https://sspai.com/post/86235)
+append_entries: 1
+Finish: 2024-02-12 14:03:15.379452
