@@ -16144,3 +16144,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-02-13 14:03:20.321274
+------------------------------------------------------
+Started: 2024-02-13 16:04:03.368622
+Existing_entries: 268
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chrome书签整理的一个问题，如何通过字搜索某个书签文件夹？](https://meta.appinn.net/t/topic/52616)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-02-13 16:04:06.323961
