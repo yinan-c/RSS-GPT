@@ -5,11 +5,55 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>征集，有哪些保护安全和隐私的措施？</title>
+<link>https://meta.appinn.net/t/topic/52619</link>
+<guid>https://meta.appinn.net/t/topic/52619</guid>
+<content:encoded><![CDATA[
+
+<p>最近比较关注一些外行的网络安全和隐私话题，<br />
+先分享下本小白一点微小的经验，请大家指正并且分享更多<br />
+用的一些工具和方法大概如下:</p>
+<p>火绒防火墙禁止程序联网，附带杀毒<br />
+想换个可以轻松开关程序网络权限的防火墙</p>
+<p>下载的不太放心的东西会上传virustotal扫一下毒，它有官方的右键菜单上传工具，传完了直接在线扫描并且打开网页告知结果<a href="https://www.virustotal.com/static/bin/vtuploader2.2.exe" rel="noopener nofollow ugc">https://www.virustotal.com/static/bin/vtuploader2.2.exe</a><br />
+原理是先验hash，上传hash给virustotal，如果没匹配的hash再上传原文件</p>
+<p>Chrome的插件Ublock，Privacy Badger反广告和追踪，<br />
+Chrome的Fingerprint Spoofing插件拦截一些浏览器指纹识别，<a href="https://chrome.google.com/webstore/detail/fingerprint-spoofing/ljdekjlhpjggcjblfgpijbkmpihjfkni" rel="noopener nofollow ugc">https://chrome.google.com/webstore/detail/fingerprint-spoofing/ljdekjlhpjggcjblfgpijbkmpihjfkni</a><br />
+但是觉得这个插件可能不是100%可靠，在browserleak.com的几个测试中表现不错<br />
+刚在greasyfork上找到一个还没开始测试<a class="inline-onebox" href="https://greasyfork.org/zh-CN/scripts/421262-no-fingerprint" rel="noopener nofollow ugc">No Fingerprint</a></p>
+<p>刚发现的本站推荐的Chrome扩展Little Rat，可以查看扩展的网络记录，并可阻止其他扩展联网，用它把功能上不需要联网的插件都禁网，会安全很多，可惜商店下载只有2000+，推荐去github下载完全版，功能更多<a class="inline-onebox" href="https://github.com/dnakov/little-rat" rel="noopener nofollow ugc">GitHub - dnakov/little-rat: 🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls</a><br />
+由此可见Google在保护用户隐私方面其实根本也不是很用心，毕竟大厂都把用户数据当做燃料，也是这个时代的必然选择。</p>
+<p>网盘上传的私人数据尽量用超长密码全部加密<br />
+普通网站也试图都用强密码，但是现在看来还是应该把长度再加一些</p>
+<p>黄网什么的尽量不注册，或者不用主邮箱注册，上的基本都是theporndude上有记录的黄网</p>
+<p>PC用ADGuard反广告和追踪，不知道用不用和chrome的ublock和privacy badger插件同开，反正都开着了<br />
+最近想研究下沙盒sandboxie，准备把QQ，微信，迅雷这些老流氓都关进去</p>
+<p>数据盘全都用bitlocker加密了，好像也基本用不到这层保护，但毕竟是免费的安全</p>
+<p>下软件用过zd432，吾爱破解，<br />
+后来发现reddit的piracy吧有更好的推荐<br />
+<a class="onebox" href="https://www.reddit.com/r/Piracy/wiki/megathread" rel="noopener nofollow ugc" target="_blank">https://www.reddit.com/r/Piracy/wiki/megathread</a><br />
+里面有推荐国外的下载站比如<a href="https://4mirrorlink.com/" rel="noopener nofollow ugc">https://4mirrorlink.com/</a><br />
+还有一个全站扫描网站<a href="https://www.urlvoid.com/%EF%BC%8C%E4%B8%8D%E8%BF%87%E4%B8%8D%E5%A4%AA%E7%A1%AE%E5%AE%9A%E5%AE%83%E5%88%B0%E5%BA%95%E6%89%AB%E5%93%AA%E4%BA%9B%E4%B8%9C%E8%A5%BF%EF%BC%8C%E4%BC%9A%E4%B8%8D%E4%BC%9A%E5%8E%BB%E6%89%AB%E4%B8%8B%E8%BD%BD%E7%AB%99%E9%93%BE%E6%8E%A5%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6" rel="noopener nofollow ugc">https://www.urlvoid.com/，不过不太确定它到底扫哪些东西，会不会去扫下载站链接的所有文件</a></p>
+<p>软件尽量用开源，到zhihu，appin搜索看口碑<br />
+没必要联网的都禁网，拒绝所有收集数据的请求，关闭所有的定制广告开关</p>
+<p>想找一些行为监控软件，功能是统计本机的进程在一段时间内的文件访问和网络访问，比如看QQ在一个月之内扫了我的哪些文件，访问了哪些网址，对某网址上传下载了多少数据等等</p>
+<p>手机安全工具，基本什么都没用。。。<br />
+apk下载在官方商店，Play/Fdroid/Github/软件官网/酷安/酷安评论区<br />
+感觉酷安评论区也并不能保证安全，但想必也基本没人会在下载量低和程序员聚集的地方分享有恶意代码的程序</p>
+<p>最后的终极大招就是保持贫穷，因为穷所以就不会有人盯上你收集你所有泄露的数据并且拿去分析找漏洞</p>
+<p>大概就是这些了，希望能跟大家学到其他保护安全和隐私的好办法</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52619">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 13 Feb 2024 17:45:14 +0000</pubDate>
+<pubDate>Tue, 13 Feb 2024 17:45:14 +0000</pubDate>
+</item>
+
+<item>
 <title>Chrome书签整理的一个问题，如何通过字搜索某个书签文件夹？</title>
 <link>https://meta.appinn.net/t/topic/52616</link>
 <guid>https://meta.appinn.net/t/topic/52616</guid>
 <content:encoded><![CDATA[
-
 <p>或者说如何将某个书签移到一个（我只知道部分关键字的）书签文件夹下</p>
 <p>chrome://bookmarks/<br />
 这个界面，虽然最上边能搜索，但是不能仅限定搜索“文件夹”，搜出来“书签”和“书签文件夹”混在一起一堆。</p>
@@ -17,9 +61,7 @@
             <p><a href="https://meta.appinn.net/t/topic/52616">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 13 Feb 2024 15:56:04 +0000</pubDate>
-<pubDate>Tue, 13 Feb 2024 15:56:04 +0000</pubDate>
 </item>
-
 <item>
 <title>iOS上有没有什么利用画中画功能实现的网速悬浮窗？</title>
 <link>https://meta.appinn.net/t/topic/52568</link>
