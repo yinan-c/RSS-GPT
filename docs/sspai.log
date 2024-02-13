@@ -15037,3 +15037,12 @@ Existing_entries: 522
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-13 08:03:46.882964
+------------------------------------------------------
+Started: 2024-02-13 10:03:25.883780
+Existing_entries: 522
+Fetching from https://rsshub.app/sspai/index
+Token length: 1868
+Summarized using GPT-3.5-turbo-1106
+Append: [用Notion + Excel来做新年预算](https://sspai.com/post/86327)
+append_entries: 1
+Finish: 2024-02-13 10:03:29.357999
