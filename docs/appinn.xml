@@ -4,6 +4,29 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[开发者自荐]独立开发的第三个App「MTM music」，主打OST推荐和记录</title>
+<link>https://meta.appinn.net/t/topic/52641</link>
+<guid>https://meta.appinn.net/t/topic/52641</guid>
+<content:encoded><![CDATA[
+
+<p>去年大部份的业余时间都花在写 App 上，这是继「如期而至」、「鸣谷」之后的第 3 个纯 SwiftUI 开发的 App 了。</p>
+<p>这次 App 的创造灵感来源于之前运营过的一个自媒体号「跟着音乐看电影」，之前主要是推荐一部电影里的一首经典歌曲，做成 App 之后，接入了 Apple Music 的 API ，可以在 App 直接播放专辑音乐，整体特点如下：</p>
+<ul>
+<li>专注于 OST ，目前有电影、电视剧、纪录片分类，后续会加入游戏原声带等</li>
+<li>每日随机推荐，每个用户每日随机从推荐库抽取一部影视推荐，每个人的推荐不同</li>
+<li>自动记录你在 App 里的听歌记录，可以查看每张专辑的听歌详情和播放数据统计</li>
+<li>支持收藏自己的音乐，创建属于自己的播放列表</li>
+<li>支持小组件、灵动岛、实时活动等新特性</li>
+</ul>
+<p>体验地址： <a class="inline-onebox" href="https://apps.apple.com/cn/app/mtm-music-%E6%B2%89%E6%B5%B8%E5%BC%8Fost%E8%81%86%E5%90%AC/id6468933874" rel="noopener nofollow ugc">‎App&nbsp;Store 上的“MTM music - 沉浸式OST聆听”</a></p>
+<p>目前 App 基本是免费使用的，链接你的 Apple Music 服务就能播放音乐，订阅服务会提供一些特殊展示和提醒。如果之前没开通过苹果音乐，可以在 App 里的广告 banner 领取三个月 Apple Music 会员试用哈～</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52641">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 14 Feb 2024 13:51:57 +0000</pubDate>
+<pubDate>Wed, 14 Feb 2024 13:51:57 +0000</pubDate>
+</item>
 
 <item>
 <title>记账管理软件</title>

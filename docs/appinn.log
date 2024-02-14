@@ -16235,3 +16235,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-02-14 12:04:47.077915
+------------------------------------------------------
+Started: 2024-02-14 14:02:59.078779
+Existing_entries: 271
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [[开发者自荐]独立开发的第三个App「MTM music」，主打OST推荐和记录](https://meta.appinn.net/t/topic/52641)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-02-14 14:03:02.239810
