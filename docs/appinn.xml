@@ -4,6 +4,45 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chrome 扩展商店的套娃操作</title>
+<link>https://meta.appinn.net/t/topic/52678</link>
+<guid>https://meta.appinn.net/t/topic/52678</guid>
+<content:encoded><![CDATA[
+
+<p>由于谷歌在 11 月时更新 Chrome 应用商店，</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://www.ithome.com/favicon.ico" width="32" />
+
+      <a href="https://www.ithome.com/0/733/882.htm" rel="noopener nofollow ugc" target="_blank">ithome.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://www.ithome.com/0/733/882.htm" rel="noopener nofollow ugc" target="_blank">谷歌升级 Chrome 应用商店：启用新设计、主推 AI 赋能扩展 - IT之家</a></h3>
+
+  <p>谷歌近日面向所有用户，开放了新版“Chrome 应用商店”，简化查找扩展程序和主题的过程。新版 Chrome 应用商店采用 Material You 设计语言，采用鲜艳的色彩搭配，并更新了卡片样式，启用了新的图标。新版 Chrome 应用商店采用 Material You 设计语言，采用鲜艳的色彩搭配，并更新了卡片样式，启用了新的图标。在页面中还特别开辟了“AI 赋能的扩展程序”栏目，利用各种以生成式 AI 为后盾的扩展程序，提升浏览器性能。</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+<p>
+且该商店是只供使用 Chrome 用户安装扩展，结果如果你是使用旧版 Chrome 或者是第三方 Chromium 浏览器，只能使用官方的扩展商店，或者是第三方的下载网站。</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/d/bd3164e2c6b5e92d8cd634dff57d663e755f0b36.png" title="image"><img alt="image" height="122" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/d/bd3164e2c6b5e92d8cd634dff57d663e755f0b36_2_690x122.png" width="690" /></a></div><p></p>
+<p>当然，用旧版也没什么问题，可问题在于，旧版扩展商店（域名为 &lt;<a href="http://chrome.google.com/webstore/" rel="noopener nofollow ugc">chrome.google.com/webstore/</a>&gt;）会自动跳转至新的扩展商店（域名为 &lt;<a href="http://chromewebstore.google.com" rel="noopener nofollow ugc">chromewebstore.google.com</a>&gt; ），所以就等于套娃操作，你点击提示的「访问旧版商店」，其实也是跳转到新版商店 …</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52678">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 15 Feb 2024 15:24:52 +0000</pubDate>
+<pubDate>Thu, 15 Feb 2024 15:24:52 +0000</pubDate>
+</item>
 
 <item>
 <title>[开发者自荐]独立开发的第三个App「MTM music」，主打OST推荐和记录</title>
