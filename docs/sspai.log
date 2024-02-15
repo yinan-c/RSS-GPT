@@ -15184,3 +15184,12 @@ Existing_entries: 525
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-15 06:04:04.715862
+------------------------------------------------------
+Started: 2024-02-15 08:04:07.766579
+Existing_entries: 525
+Fetching from https://rsshub.app/sspai/index
+Token length: 6350
+Summarized using GPT-3.5-turbo-1106
+Append: [城市漫步指南：去墨尔本躲避北半球的冬天](https://sspai.com/post/85649)
+append_entries: 1
+Finish: 2024-02-15 08:04:11.654296
