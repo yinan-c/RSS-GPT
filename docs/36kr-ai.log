@@ -28616,3 +28616,25 @@ Filter: [对话腾讯汤道生：大模型和云一样，难以被垄断｜36氪
 Filter: [又一款图像AI应用爆火，团队仅两人，单月吸引40万用户｜产品观察](https://www.36kr.com/p/2638330903248005)
 append_entries: 0
 Finish: 2024-02-17 22:03:36.540805
+------------------------------------------------------
+Started: 2024-02-18 00:11:58.959154
+Existing_entries: 487
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [Sora爆火48小时：杨立昆揭秘论文，参数量或仅30亿](https://www.36kr.com/p/2652598526361857)
+Filter: [Sora会对视频内容创作产生什么样的影响？](https://www.36kr.com/p/2652203927698562)
+Filter: [刷屏科技圈的“视频生成”，到底有多颠覆？](https://www.36kr.com/p/2652730360347784)
+Token length: 1498
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI允许员工出售股份，交易后估值超800亿，Altman在线招人](https://www.36kr.com/p/2653147687140482)
+Filter: [瑞士信息与通信科技公司Neural Concept研发几何深度学习算法，加速人工智能在工业产品设计中的应用 | 瑞士创新100强](https://www.36kr.com/p/2632131011071494)
+Filter: [2024年五大科技与创业趋势：从AI退热到IPO挑战](https://www.36kr.com/p/2597372212624004)
+Filter: [这个AI办公应用火了：简短提示词出PPT，打包GPTs帮你打工干活](https://www.36kr.com/p/2649283365503236)
+Filter: [人工智能将开启一个新的科技商业周期 | 巴伦专访](https://www.36kr.com/p/2646431732662536)
+Filter: [轻松盗走 2500 万美元，我们该如何防范人工智能造假危机？](https://www.36kr.com/p/2645135013067913)
+Filter: [“这图一眼就是AI！”那你能展开讲讲么？](https://www.36kr.com/p/2642654077255940)
+Filter: [芯片行业，需要怎样的工程师？](https://www.36kr.com/p/2643480606753030)
+Filter: [听说，AI 红包封面超级赚钱](https://www.36kr.com/p/2641001191768327)
+Filter: [Bard 出局、Gemini 独立+收费，谷歌在 AI 大战中找到了感觉](https://www.36kr.com/p/2639999982582912)
+Filter: [苹果Vision Pro的5个关键问题，我们问了专业开发者](https://www.36kr.com/p/2639419105819784)
+append_entries: 1
+Finish: 2024-02-18 00:12:04.175225
