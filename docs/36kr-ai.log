@@ -29013,3 +29013,30 @@ Filter: [关于 Sora，我有十个小白问题](https://www.36kr.com/p/26539962
 Filter: [中国大模型产业的五个真问题](https://www.36kr.com/p/2653877819817091)
 append_entries: 0
 Finish: 2024-02-19 08:03:55.982611
+------------------------------------------------------
+Started: 2024-02-19 10:03:52.062607
+Existing_entries: 496
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [融资超10亿美金，AI公司「月之暗面」获红杉、小红书、美团、阿里新一轮投资 | 36氪独家](https://www.36kr.com/p/2655063979180294)
+Filter: [Sora 证明马斯克是对的，但特斯拉和人类可能都输了](https://www.36kr.com/p/2655025836228869)
+Filter: [再谈AIGC的关键问题：版权归谁、官司何解、新秩序何来](https://www.36kr.com/p/2654990040284288)
+Filter: [Sora到底懂不懂物理世界？一场头脑风暴正在AI圈大佬间展开](https://www.36kr.com/p/2654987184454785)
+Filter: [揭秘Sora技术路线：核心成员来自伯克利，基础论文曾被CVPR拒稿](https://www.36kr.com/p/2654986825105673)
+Filter: [Sora颠覆了AI视频，传统漫画和动画从此不存在了？](https://www.36kr.com/p/2654940112830726)
+Filter: [AI“爆改”搜索引擎，搜索行业之变](https://www.36kr.com/p/2654918201179266)
+Token length: 3388
+Summarized using GPT-3.5-turbo-1106
+Append: [ChatGPT、Sora之后，19位专家提出AI治理新方向](https://www.36kr.com/p/2654948966760706)
+Filter: [AI配音版Sora视频刷屏，绝美逼真音效打破「无声电影」，或颠覆万亿美元产业](https://www.36kr.com/p/2655000866636035)
+Filter: [我从事AI事业这一年 | 复工特别策划](https://www.36kr.com/p/2655081940438530)
+Filter: [Sora启示录：信仰、对抗与未来](https://www.36kr.com/p/2654895303937288)
+Filter: [魅族押注AI讲新故事，能否助其翻身？](https://www.36kr.com/p/2654882778366216)
+Filter: [7000亿，孙正义要搞出超级AI独角兽](https://www.36kr.com/p/2654882542566533)
+Filter: [Sora炸裂科技圈：真神还是焦虑制造机](https://www.36kr.com/p/2654858991173893)
+Filter: [AI手机今年杀到，魅族停止智能手机研发，苹果iPhone 16或放大招](https://www.36kr.com/p/2654794308418691)
+Filter: [2024AI手机元年，行业大洗牌将至？](https://www.36kr.com/p/2654798256393479)
+Filter: [详解Sora，为什么是AGI的又一个里程碑时刻？](https://www.36kr.com/p/2653908207877249)
+Filter: [通往AGI的第二条路](https://www.36kr.com/p/2654752073371140)
+Filter: [AI正在革传统搜索的命，但也带来一个大问题](https://www.36kr.com/p/2654740442874119)
+append_entries: 1
+Finish: 2024-02-19 10:03:59.440269
