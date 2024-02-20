@@ -15562,3 +15562,12 @@ Existing_entries: 535
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-20 02:07:37.771451
+------------------------------------------------------
+Started: 2024-02-20 04:04:23.014059
+Existing_entries: 535
+Fetching from https://rsshub.app/sspai/index
+Token length: 1237
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：Intel 被指控夸大 CPU 测试结果，英国芯片制造商 Graphcore 寻求出售等](https://sspai.com/post/86522)
+append_entries: 1
+Finish: 2024-02-20 04:04:29.978143
