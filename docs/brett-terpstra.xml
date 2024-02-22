@@ -4,6 +4,43 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Dimspire.me</title>
+<link>https://brett.trpstra.net/link/535/16588973/dimspire-dot-me</link>
+<guid>https://brett.trpstra.net/link/535/16588973/dimspire-dot-me</guid>
+<content:encoded><![CDATA[
+<div> Jekyll, insomnia, website, automation, dimspirations
+<br><br>总结: 这篇文章讲述了作者因失眠而产生创造力，制作了一个名为Dimspirations的网站。网站基于Jekyll架构，具有自动化功能，可以生成不同尺寸的壁纸，包括iPhone版本和方形版本。作者描述了网站的页面结构和功能，包括随机生成Dimspirations的功能和下载按钮的实现方法。作者还提到了对于网站的未来计划。整篇文章表达了作者对于自己创作的热情和对网站的期望。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="dimspireme-header-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/02/dimspireme-header-rb.jpg" title="dimspireme-header-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>I couldn&rsquo;t sleep last night. I&rsquo;m not manic, I&rsquo;m just going through this months-long bout of insomnia. At least I don&rsquo;t think I&rsquo;m manic. It doesn&rsquo;t have any of the characteristics of my usual mania. And up until last night I wasn&rsquo;t even getting out of bed when I couldn&rsquo;t sleep. But last night I did, and I made you a website.</p>
+
+<p>Introducing <a href="https://dimspire.me">Dimspire.me</a>. It&rsquo;s built on Jekyll and has a bunch of automations. I can essentially create a &ldquo;dimspiration&rdquo; using an <a href="https://affinity.serif.com/en-us/photo/" title="award-winning photo editing software">Affinity Photo</a> template, and then <a href="https://flyingmeat.com/retrobatch/" title="Retrobatch 2, from Flying Meat">RetroBatch</a> will output wallpaper sizes (including iPhone) and square versions for posting and populating the gallery. Just running <code class="language-plaintext highlighter-rouge">rake</code> will find new photos added to the assets folder and generate posts for them, which will then populate the index pages. It should be pretty simple to maintain. All documented in a <a href="https://brettterpstra.com/projects/howzit/">Howzit</a> notes file, of course.</p>
+
+<p>The site is pretty simple: a homepage with description and the latest few posts, a &ldquo;Dimspirations&rdquo; page that&rsquo;s essentially a blog post index but done in gallery fashion, and a <a href="https://dimspire.me/random.html">random dimspiration</a> page that will just throw single random dimspirations at you. Fun stuff.</p>
+
+<p>When viewing a single Dimspiration (by clicking on any thumbnail), you get some cool UI showing edges of the previous and next Dimspiration. I like it, anyway. There&rsquo;s still some work to do on certain breakpoints, but overall the styling should work on any device. And every Dimspiration page has a download button, where you can download all available versions of the current Dimspiration. This is accomplished by a Rake task that parses every post, extracts the YAML key that defines the image for the page, then zips up every file in the assets directory that matches it. It creates a manifest table that shows what&rsquo;s in the zip file, with each individual file linked. So when there are wallpaper versions of a Dimspiration, you can download the set or follow a link to a specific version. Took a little thinking and tweaking, but I think it&rsquo;s a good solution.</p>
+
+<p>I hope you enjoy it. It&rsquo;s cathartic for me to create these, and they&rsquo;re getting better with time. I&rsquo;m not going to try to monetize any of this at this point, but I&rsquo;ve watermarked all the images so if you share them, they should trace back to me. Speaking of, I do still need to consider adding share buttons to these&hellip; but it always freaks me out how much data social sites collect when you include their button, so I&rsquo;ll need to figure out ways around that. We&rsquo;ll call that &ldquo;next step.&rdquo;</p>
+
+<p>Love always,<br />
+Brett</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F02%2F22%2Fdimspire-dot-me%2F&amp;text=Dimspire.me&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F02%2F22%2Fdimspire-dot-me%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16588973.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-02-22T13:43:00-06:00</pubDate>
+<pubDate>2024-02-22T13:43:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Keep It — Write notes, keep things, and find them again [Sponsor]</title>
