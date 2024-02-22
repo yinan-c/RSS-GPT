@@ -4,6 +4,39 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】卡片笔记 - 一个本地化的卡片笔记</title>
+<link>https://meta.appinn.net/t/topic/52931</link>
+<guid>https://meta.appinn.net/t/topic/52931</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>预览图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/2/123220612da340ed40d8e52ca73a745187bf7d3a.png" title="Snipaste_2024-02-22_11-49-17"><img alt="Snipaste_2024-02-22_11-49-17" height="356" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/2/123220612da340ed40d8e52ca73a745187bf7d3a_2_690x356.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/a/baeedf8113403e4ac878bd840ccd9aee4f539e35.png" title="Snipaste_2024-02-22_11-49-29"><img alt="Snipaste_2024-02-22_11-49-29" height="356" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/a/baeedf8113403e4ac878bd840ccd9aee4f539e35_2_690x356.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/c/3ceba3e9cbf3a8fba30ed6a65578368a94361a7b.png" title="Snipaste_2024-02-22_11-49-37"><img alt="Snipaste_2024-02-22_11-49-37" height="355" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/c/3ceba3e9cbf3a8fba30ed6a65578368a94361a7b_2_690x355.png" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>简介</h2>
+<p>卡片笔记，如果熟悉 memos 或者 flomo 的话，就会对这个插件很熟悉。</p>
+<p>卡片笔记是一种用于记录和存储信息的文本文件，它可以帮助人们记录重要的想法、日志、备忘录或其他内容。</p>
+<ol>
+<li>功能：卡片笔记可以帮助人们记录重要的想法、日志、备忘录或其他内容，并且可以在任何时间随时查看这些信息。</li>
+<li>特性：卡片笔记可以使用不同的格式来存储信息，例如文本、图片、音频和视频等，并且可以通过多种方式分享，包括电子邮件、即时聊天工具和社交媒体等。</li>
+<li>优势：卡片笔记可以节省时间，因为它可以让人们快速记录和存储信息，而不需要手动记录。一，卡片笔记也可以帮助人们更好地管理信息，因为它可以将信息分类，以便更容易查找。</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>目前有两个渠道使用：</h2>
+<ol>
+<li>utools 插件商店</li>
+<li>网页使用：<a href="https://blog.esion.xyz/apps/card-note" rel="noopener nofollow ugc">卡片笔记</a></li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>数据存储：</h2>
+<p>使用网站访问的数据全部存到浏览器的 <code>IndexedDB</code> 中，utools 存到了 utools 的数据库中。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>其他</h2>
+<p>项目已开源：<a href="https://gitee.com/qiaoshengda/card-note" rel="noopener nofollow ugc">https://gitee.com/qiaoshengda/card-note</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/52931">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 22 Feb 2024 05:51:02 +0000</pubDate>
+<pubDate>Thu, 22 Feb 2024 05:51:02 +0000</pubDate>
+</item>
 
 <item>
 <title>SwitchyOmega将无法在chrome上继续使用，讨论下替代品</title>
