@@ -15835,3 +15835,12 @@ Existing_entries: 548
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-02-23 08:03:51.254899
+------------------------------------------------------
+Started: 2024-02-23 10:03:27.438532
+Existing_entries: 548
+Fetching from https://rsshub.app/sspai/index
+Token length: 3881
+Summarized using GPT-3.5-turbo-1106
+Append: [年度征文 | 古典、现代与未来：史学写作与科技的跨界](https://sspai.com/post/86552)
+append_entries: 1
+Finish: 2024-02-23 10:03:33.811595
