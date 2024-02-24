@@ -4,6 +4,50 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Dimspirations in your feed</title>
+<link>https://brett.trpstra.net/link/535/16590869/dimspirations-in-your-feed</link>
+<guid>https://brett.trpstra.net/link/535/16590869/dimspirations-in-your-feed</guid>
+<content:encoded><![CDATA[
+<div> RSS feed, subscription, email, monetize, political
+
+这是一篇关于Dimspire Me网站的文章，介绍了他们新增了RSS feed订阅和通过邮件订阅的功能。同时作者表示如果网站有商业化可能的话，将通过出售商品来实现，而不是收费订阅。作者还表示会尽量减少涉及政治的内容，因为有些读者对此表示反感。最后作者呼吁读者点赞和分享这篇文章以及支持他们的项目。总结：文章介绍了Dimspire Me网站新增的订阅功能以及未来可能进行商业化运营的打算，同时表示会尽量减少政治相关内容。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Dimspiration with RSS logo" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/02/dimspire-rss-header-rb.jpg" title="Dimspiration with RSS logo" width="800" />
+              </noscript>
+            
+
+<p>I&rsquo;ve added (well, fixed) the RSS feed for <a href="https://dimspire.me/">Dimspire.me</a>. You can now subscribe via your favorite feed reader at <a href="https://feedpress.me/dimspire.html">Dimspirations RSS</a> (or just enter <code class="language-plaintext highlighter-rouge">https://dimspire.me</code> in your subscribe field, the feeds are discoverable). The feed is available in XML and JSON flavors, and each entry just contains a pithy description and one image.</p>
+
+<p>You can also sign up to receive Dimspirations in your email, max one email per day, and only when there&rsquo;s new stuff:</p>
+
+<form action="https://app.feedpress.com/e/mailverify" class="form" method="post" target="popupwindow">
+<div>
+<label>Enter your e-mail address:</label>
+<input id="email" name="email" style="margin: 1em 0;" type="text" />
+</div>
+<div>
+<input name="feed_id" type="hidden" value="dimspire" />
+<button class="button round" id="submit" name="submit" style="width: 400px;" type="submit">Dimspire Me</button>
+</div>
+</form>
+
+<p>Thanks for supporting this little project. I&rsquo;ve decided if I ever monetize it, it will be through merch (posters, calendars, coffee mugs, etc.). So the wallpapers and dismal inspirations will continue to be free online.</p>
+
+<p>P.S. I&rsquo;ve received some flack for occasionally going &ldquo;political&rdquo; with the Dimspirations. I don&rsquo;t think things like being disgusted by a lack of gun control, being anti-genocide, or laughing at manufactured outrage are extreme political views, but I promise to keep those to a minimum. Sometimes I get a little fired up &mdash; don&rsquo;t let it scare you away.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F02%2F24%2Fdimspirations-in-your-feed%2F&amp;text=Dimspirations+in+your+feed&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F02%2F24%2Fdimspirations-in-your-feed%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16590869.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-02-24T11:08:00-06:00</pubDate>
+<pubDate>2024-02-24T11:08:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Dimspire.me</title>
