@@ -4,6 +4,119 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】h5player视频增强脚本：无极倍速、视频下载、画面截图等「几乎适用一切网站」</title>
+<link>https://meta.appinn.net/t/topic/53002</link>
+<guid>https://meta.appinn.net/t/topic/53002</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>应用名称</h2>
+<p>h5player for tampermonkey</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>适用平台</h2>
+<p>Window/Android/Mac/Linux（基于浏览器）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>应用简介</h2>
+<p>支持所有H5视频网站，例如：B站、抖音、腾讯视频、优酷、爱奇艺、西瓜视频、油管（YouTube）、微博视频、知乎视频、搜狐视频、网易公开课、百度网盘、阿里云盘、ted、instagram、twitter等。</p>
+<p>全程快捷键控制，支持：倍速播放/加速播放、视频画面截图、画中画、网页全屏、调节亮度、饱和度、对比度、自定义配置功能增强等功能，为你提供愉悦的在线视频播放体验。</p>
+<p>还有片前片后短视频快进、在线教程/教育视频倍速快学、视频文件离线私藏等能力。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/e/5e8f6a1b12403addd59f58d9cfc8a8d301e87121.jpeg" title="h5player_ui"><img alt="h5player_ui" height="389" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/e/5e8f6a1b12403addd59f58d9cfc8a8d301e87121_2_690x389.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>应用场景</h2>
+<ul>
+<li>
+<p>无极调速，节奏快慢，掌控自如</p>
+</li>
+<li>
+<p>倍速快学，看教程快人一步</p>
+</li>
+<li>
+<p>快乐刷剧，不再枯燥乏味</p>
+</li>
+<li>
+<p>短片快进，告别无聊等待</p>
+</li>
+<li>
+<p>视频截图，笔记存档、剪贴分享</p>
+</li>
+<li>
+<p>视频离线，本地观看、私发、私藏</p>
+</li>
+<li>
+<p>直播同步，拒绝延迟，迎头赶上</p>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>技术特征</h2>
+<ul>
+<li>
+<p>兼容广泛，所有存在video标签的网页均支持 即使嵌在 iframe、shadowdom下均可兼容</p>
+</li>
+<li>
+<p>支持跨域控制，跨域受限页面下快捷键一样可以无缝衔接</p>
+</li>
+<li>
+<p>支持多实例（如：twitter，instagram下亦可兼容）</p>
+</li>
+<li>
+<p>支持播放进度记录</p>
+</li>
+<li>
+<p>支持播放速度记录</p>
+</li>
+<li>
+<p>支持视频画面缩放</p>
+</li>
+<li>
+<p>支持画中画功能</p>
+</li>
+<li>
+<p>支持跨Tab控制画中画</p>
+</li>
+<li>
+<p>支持视频画面截图功能</p>
+</li>
+<li>
+<p>支持对音频实例的控制</p>
+</li>
+<li>
+<p>支持视频/音频文件离线</p>
+</li>
+<li>
+<p>支持直播视频流提取</p>
+</li>
+<li>
+<p>支持配置式添加自定义功能</p>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>安装</h2>
+<blockquote>
+<p>安装脚本前需先安装<a href="https://www.tampermonkey.net" rel="noopener nofollow ugc">油猴插件</a>，<br />
+<a href="https://www.baidu.com/s?wd=%E6%B2%B9%E7%8C%B4%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85" rel="noopener nofollow ugc">油猴(Tampermonkey)</a>是一款广受好评的、用于加载用户脚本的浏览器插件，支持：Chrome、Edge、Firefox、safari、Opera、以及<a href="https://www.baidu.com/s?wd=%E5%9B%BD%E5%86%85%E6%B5%8F%E8%A7%88%E5%99%A8" rel="noopener nofollow ugc">国内品牌众多的浏览器</a></p>
+</blockquote>
+<p><strong>安装好油猴插件后</strong>，点击下面的链接即可一键安装：</p>
+<ul>
+<li><strong><a href="https://update.greasyfork.org/scripts/381682/HTML5%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC.user.js" rel="noopener nofollow ugc">h5player.user.js (点我直接安装)</a></strong></li>
+</ul>
+<p>更详细的安装帮助看这里：<a href="https://h5player.anzz.top/home/install.html" rel="noopener nofollow ugc">详细安装教程</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>使用文档</h2>
+<ul>
+<li>
+<p><a href="https://h5player.anzz.top/home/feature.html" rel="noopener nofollow ugc">功能手册</a></p>
+</li>
+<li>
+<p><a href="https://h5player.anzz.top/home/q&amp;a.html" rel="noopener nofollow ugc">常见问题Q&amp;A</a></p>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>相关地址</h2>
+<ul>
+<li>官网地址：<a href="https://h5player.anzz.top" rel="noopener nofollow ugc">h5player.anzz.top</a></li>
+<li>GitHub地址：<a href="https://github.com/xxxily/h5player" rel="noopener nofollow ugc">github.com/xxxily/h5player</a></li>
+<li>GreasyFork：<a href="https://greasyfork.org/scripts/381682" rel="noopener nofollow ugc">greasyfork.org/scripts/381682</a></li>
+<li>一键安装地址：<a href="https://update.greasyfork.org/scripts/381682/HTML5%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E5%A2%9E%E5%BC%BA%E8%84%9A%E6%9C%AC.user.js" rel="noopener nofollow ugc">h5player.anzz.top/h5player.user.js</a></li>
+</ul>
+            <p><small>10 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53002">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 23 Feb 2024 17:33:45 +0000</pubDate>
+<pubDate>Fri, 23 Feb 2024 17:33:45 +0000</pubDate>
+</item>
 
 <item>
 <title>Youtube布局乱套了，想恢复原状</title>
