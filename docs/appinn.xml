@@ -4,6 +4,48 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】游戏存档管理工具 - 开源、支持WebDAV</title>
+<link>https://meta.appinn.net/t/topic/53101</link>
+<guid>https://meta.appinn.net/t/topic/53101</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>游戏存档管理器（Game Save Manager），有在考虑改名，但是暂未确定</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>简介</h2>
+<p>这个软件可以按照你想要的方式快速备份和恢复游戏存档，支持WebDAV云备份，具有一定的防误操作机制（额外备份），性能占用极低（后台10MB以下，安装包10MB以下），适用于存档备份和游戏SL。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>应用平台及其说明</h2>
+<ul>
+<li>Windows：经过了我本人以及一些用户的测试，应该比较稳定</li>
+<li>Linux：有用户在Linux平台使用过，但是没有经过充分的测试</li>
+<li>MacOS：未经测试，没有收到过使用反馈，仅仅编译出了软件，不一定能用</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件发布渠道</h2>
+<p>下载和教程：<a href="https://help.sworld.club/" rel="noopener nofollow ugc">https://help.sworld.club/</a><br />
+源代码：<a href="https://github.com/mcthesw/game-save-manager" rel="noopener nofollow ugc">Github</a>（基于Vue、Rust、Tauri，欢迎提交Issue和PR）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>截图和详细介绍</h2>
+<ol>
+<li>
+<p>游戏添加后的管理界面，可以描述已有备份，利用描述搜索存档<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/6/4626dfd8669afd810bbe94ffa6d6bfb09811221b.jpeg" title="manage"><img alt="manage" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/4/6/4626dfd8669afd810bbe94ffa6d6bfb09811221b_2_690x388.jpeg" width="690" /></a></div><p></p>
+</li>
+<li>
+<p>云同步界面，当前支持WebDAV，未来支持新的后端也很简单<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/2/82066ce0437f66b73078b15fbcc5aac16f9bb060.png" title="image"><img alt="image" height="404" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/2/82066ce0437f66b73078b15fbcc5aac16f9bb060_2_690x404.png" width="690" /></a></div><p></p>
+</li>
+<li>
+<p>可选的退出到角标功能，提供便捷操作，且后台占用很小，我刚才测试是5.1MB<br />
+<img alt="image" height="183" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/e/7e5b125fc1854a3776e3258aa35f3e682a7ba208.png" width="449" /></p>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>其它</h2>
+<p>欢迎<a href="https://github.com/mcthesw/game-save-manager/issues/new/choose" rel="noopener nofollow ugc">提交</a>任何遇到的问题，或者功能请求，对该项目感兴趣也可以参与贡献，现在项目的贡献者已经有四位了</p>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53101">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 26 Feb 2024 10:28:40 +0000</pubDate>
+<pubDate>Mon, 26 Feb 2024 10:28:40 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】h5player视频增强脚本：无极倍速、视频下载、画面截图等「几乎适用一切网站」</title>
