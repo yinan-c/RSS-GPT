@@ -4,6 +4,131 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>SmoothScroll 让页面滚动像流淌的蜂蜜，什么是真正的丝滑！</title>
+<link>https://meta.appinn.net/t/topic/41408</link>
+<guid>https://meta.appinn.net/t/topic/41408</guid>
+<content:encoded><![CDATA[
+
+<h1>
+<a class="anchor" href="https://meta.appinn.net#smoothscroll-1" name="smoothscroll-1"></a>SmoothScroll</h1>
+<p>是一个能让电脑屏幕滚动变得平滑起来的软件，滚动不再有迟滞感、顿挫感，浏览网页、文档时眼睛能很轻松地跟上滚动脚步。</p>
+<p><strong>官网：</strong><br />
+<a class="onebox" href="https://www.smoothscroll.net/win/?extension-opt" rel="noopener nofollow ugc" target="_blank">https://www.smoothscroll.net/win/?extension-opt</a></p>
+<p><strong>扩展下载：</strong></p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/2X/5/51502f93396c6b3d0a2909a8df00076c1a17b901.png" width="32" />
+
+      <a href="https://chrome.google.com/webstore/detail/smoothscroll/nbokbjkabcmbfdlbddjidfmibcpneigj" rel="noopener nofollow ugc" target="_blank">chrome.google.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <img class="thumbnail onebox-avatar" height="128" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/c/dceb1b14cd5036df2749135a17878dc980c834b5.jpeg" width="128" />
+
+<h3><a href="https://chrome.google.com/webstore/detail/smoothscroll/nbokbjkabcmbfdlbddjidfmibcpneigj" rel="noopener nofollow ugc" target="_blank">SmoothScroll</a></h3>
+
+  <p>Scroll smoothly on all websites with your mouse and keyboard.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p><strong>相关介绍：</strong></p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/8/c8c6ec9f64af62c137629c45c453410d91a864dc.png" width="32" />
+
+      <a href="https://www.thosefree.com/smooth-scroll" rel="noopener nofollow ugc" target="_blank">thosefree.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/6/f6f9a5905efb86d8a20ef70a768cf5daf55f767b_2_690x388.jpeg" width="690" /></div>
+
+<h3><a href="https://www.thosefree.com/smooth-scroll" rel="noopener nofollow ugc" target="_blank">SmoothScroll - 让 Windows 鼠标滚动像 Mac 电脑一样顺滑流畅的免费浏览器插件｜那些免费的砖</a></h3>
+
+  <p>这款小插件可以让我们滑动浏览网页、查看网页文档无比平滑顺畅，真香预警。</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>官网的对比效果，前面没开，后面开了，效果还是很明显的。</p>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://www.smoothscroll.net/mac/img/vid/Demo-Mac-720p.mp4" />
+              <a href="https://www.smoothscroll.net/mac/img/vid/Demo-Mac-720p.mp4" rel="noopener nofollow ugc">https://www.smoothscroll.net/mac/img/vid/Demo-Mac-720p.mp4</a>
+            </video>
+          </div>
+
+<p><img alt="" class="animated" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/4/d4f4d45d8b080e726fea5ed32ff934c2a879f8a5.gif" width="430" /></p>
+<p>我在使用中遇到了些问题，想跟大家探讨下如何解决。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>问题一：</h3>
+<p>在关闭（或不关闭）浏览器实验选项 <code>Smooth Scrolling</code> <a href="https://meta.appinn.net">chrome://flags/#smooth-scrolling</a> 的情况下，不管是单独使用扩展还是软件，这两个浏览器呈现的效果都完全不一样。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/4/44b98a0d28a64336c7d8271aa139666232f758c4.png" title="20230308150939"><img alt="20230308150939" height="458" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/4/4/44b98a0d28a64336c7d8271aa139666232f758c4_2_690x458.png" width="690" /></a></div><p></p>
+<p>具体来说就是，360 极速上满足平滑滚动效果的参数配置，放到百分上还是卡顿，要在百分上也达到平滑的效果，就要把参数范围再调大一些，而且还不是大一点，几乎是要翻倍才行，这样 360 极速上的滚动就会变得飞快，根本看不到内容。</p>
+<p>换句话说就是，360 极速比百分对参数值变化更敏感，不知道是浏览器的问题还是软件的问题。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>问题二：</h3>
+<p>对有些程序支持不好，和上面两个浏览器的问题情况类似，已经设置好的参数，放到这些例外的程序上，滚动不是过快就是过慢，没办法只好排除。</p>
+<p>比如，问题一图中的配置，在 360 极速、记事本以及办公三件套中滚动正常，Animation times 可以设置长一些，这样一次能滚很久，但是在 <code>ABBYY FineReader</code> 中却不正常，滚轮动一下页面根本不动，滚轮得转差不多四分之一周页面才会动。</p>
+<p>还有 <strong><a href="http://qttabbar.wdfiles.com/" rel="noopener nofollow ugc">QTTabBar ver 2048 Beta 2</a></strong>，滚轮切换标签页，滚一下能跳过五六个标签页，最后发现是滚动动画时长设置太长的原因，设置为 5ms 正常，但是这样其它程序界面就滚动不起来了。</p>
+<p>再比如，一些有选择框的参数项，可以上下滚动选择，动画时长超 10ms 就没法用滚轮选了，一滚动就是十几、二十几个单位。</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>问题三：</h3>
+<p>扩展选项设置中的参数可调节范围没有软件中的大，但是软件不能设置键盘方向键步长，只使用软件的话，方向键每次移动的距离非常短，因此不得不同时开着软件和扩展。</p>
+<p><img alt="" class="animated" height="20" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/4/d4f4d45d8b080e726fea5ed32ff934c2a879f8a5.gif" width="430" /></p>
+<p><s>SmoothScroll 如果可以针对不同程序使用不同配置就好了，可惜它只有几个默认配置，而且不能按需加载。</s></p>
+<p>前两个问题已解决，SmoothScroll 可以为不同的程序设置不同的参数，点击设置界面右下角的 <img alt=":heavy_plus_sign:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heavy_plus_sign.png?v=12" title=":heavy_plus_sign:" width="20" /> 即可。</p>
+<p>所以，想问问大家还有什么好用的平滑滚动软件推荐？</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>浏览器实验选项的提示</h2>
+<p>在百分论坛看到一个关于 Chrome 平滑滚动设置的帖子：</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+
+      <a href="https://www.centbrowser.net/zh-cn/forum.php?mod=viewthread&amp;tid=7948" rel="noopener nofollow ugc" target="_blank">centbrowser.net</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://www.centbrowser.net/zh-cn/forum.php?mod=viewthread&amp;tid=7948" rel="noopener nofollow ugc" target="_blank">原来有完美实现类似于EDGE平滑滚动的设置 - 技巧分享 -  百分浏览器论坛 -  Powered by Discuz!</a></h3>
+
+  <p>一直以来对Microsoft EDGE（无论是老版还是chromium版）的平滑滚动的效果很羡慕，而Chrome的Smooth Scrolling太糟糕，研究了几天，经过摸索终于发现了其实Chrome（CentBrow ... 原来有完美实现类似于EDGE平滑滚动的设置 ,百分浏览器论坛</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+<p>
+我测试了下，使用软件，可以禁用 <a href="https://meta.appinn.net">Smooth Scrolling</a> 和 <a href="https://meta.appinn.net">Impulse-style scroll animations</a> 这两个选项，比默认效果略微好一些。</p>
+            <p><small>34 个帖子 - 12 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41408">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 08 Mar 2023 12:16:59 +0000</pubDate>
+<pubDate>Wed, 08 Mar 2023 12:16:59 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】游戏存档管理工具 - 开源、支持WebDAV</title>
