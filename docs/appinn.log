@@ -17652,3 +17652,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-02-29 04:03:29.625773
+------------------------------------------------------
+Started: 2024-02-29 06:03:58.631858
+Existing_entries: 285
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [求一个支持第三方代理openAI api](https://meta.appinn.net/t/topic/53206)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-02-29 06:04:03.304654
