@@ -16390,3 +16390,12 @@ Existing_entries: 571
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-01 04:04:38.168460
+------------------------------------------------------
+Started: 2024-03-01 06:03:47.414830
+Existing_entries: 571
+Fetching from https://rsshub.app/sspai/index
+Token length: 3827
+Summarized using GPT-3.5-turbo-1106
+Append: [以「工作」为分类标准，探讨「知识管理」的新思路。](https://sspai.com/post/85567)
+append_entries: 1
+Finish: 2024-03-01 06:03:51.886720
