@@ -17993,3 +17993,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-03 16:03:32.639716
+------------------------------------------------------
+Started: 2024-03-03 18:03:26.958750
+Existing_entries: 290
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [需要一个简单的日历上标记的app](https://meta.appinn.net/t/topic/53378)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-03 18:03:31.035950
