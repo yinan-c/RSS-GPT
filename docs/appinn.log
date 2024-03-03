@@ -18002,3 +18002,11 @@ Append: [需要一个简单的日历上标记的app](https://meta.appinn.net/t/t
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-03-03 18:03:31.035950
+------------------------------------------------------
+Started: 2024-03-03 20:03:21.773160
+Existing_entries: 291
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-03-03 20:03:24.887333
