@@ -4,6 +4,39 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【喜大普奔】百分浏览器更新测试版（5.1.1130.26）</title>
+<link>https://meta.appinn.net/t/topic/53404</link>
+<guid>https://meta.appinn.net/t/topic/53404</guid>
+<content:encoded><![CDATA[
+
+<p>更新日志：<br />
+内核升级至118.0.5993.159<br />
+继续支持Win7和Win8<br />
+支持指定小号标签打开书签和链接<br />
+标签列表菜单中显示声音图标<br />
+添加选项"强制在当前标签中打开链接"<br />
+热门网站支持本地图片作为图标<br />
+合并安全补丁（CVE-2023-7024,CVE-2024-0517,CVE-2024-0519,CVE-2024-0807,CVE-2024-1669,CVE-2024-1670）<br />
+[BUG修复]部分环境下下载窗口花屏<br />
+[BUG修复]小号标签中无法显示桌面通知<br />
+[BUG修复]浏览器启动时加载下载列表会引起卡顿<br />
+[BUG修复]选中复制和超级拖拽无法复制HTML内容<br />
+[BUG修复]部分环境下安装包崩溃<br />
+[BUG修复]JS书签被强制使用默认图标<br />
+[BUG修复]"新标签打开位置"为"在当前标签的右侧"时"打开全部书签"顺序会被颠倒</p>
+<p>下载地址(带x64的为64位版本，推荐使用64位版本。带portable的为便携版。如果需要经常重装系统，建议下载便携版解压到非系统盘使用。)：<br />
+<a class="onebox" href="https://static.centbrowser.cn/win_beta/5.1.1130.26/" rel="noopener nofollow ugc" target="_blank">https://static.centbrowser.cn/win_beta/5.1.1130.26/</a></p>
+<p>已知问题：</p>
+<ol>
+<li>下载按钮不能被隐藏</li>
+</ol>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53404">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 04 Mar 2024 07:04:09 +0000</pubDate>
+<pubDate>Mon, 04 Mar 2024 07:04:09 +0000</pubDate>
+</item>
 
 <item>
 <title>需要一个简单的日历上标记的app</title>
