@@ -16615,3 +16615,12 @@ Existing_entries: 576
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-04 02:21:56.758181
+------------------------------------------------------
+Started: 2024-03-04 04:15:01.034671
+Existing_entries: 576
+Fetching from https://rsshub.app/sspai/index
+Token length: 4176
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：马斯克起诉 OpenAI](https://sspai.com/post/86873)
+append_entries: 1
+Finish: 2024-03-04 04:15:05.165929
