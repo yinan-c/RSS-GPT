@@ -33061,3 +33061,28 @@ Filter: [来自业内人士的 AI 指南：这 25 个真实案例可能比付费
 Filter: [Sora来了，你又焦虑了吗？](https://www.36kr.com/p/2673855933756929)
 append_entries: 0
 Finish: 2024-03-04 12:09:27.325153
+------------------------------------------------------
+Started: 2024-03-04 14:04:06.190530
+Existing_entries: 534
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 4827
+Summarized using GPT-3.5-turbo-1106
+Append: [马斯克怒斥Sam Altman“变心”，发起诉讼，网友：OpenAI AGI计划因此被推迟到了2027年](https://www.36kr.com/p/2675151176644353)
+Filter: [Sora一出，百模禁声？](https://www.36kr.com/p/2675126251468294)
+Filter: [被AI吞噬的“AI三杰”](https://www.36kr.com/p/2675057012143878)
+Token length: 1742
+Summarized using GPT-3.5-turbo-1106
+Append: [53页PDF爆料OpenAI“AGI时间表”，爆料者：马斯克诉讼搅了局](https://www.36kr.com/p/2675072754366211)
+Filter: [Mac专属大模型框架来了，两行代码部署，能聊本地数据，还支持中文](https://www.36kr.com/p/2675083244467968)
+Filter: [谷歌创始人亲自救场Gemini现身黑客聚会，投资人逼宫CEO劈柴哥下台](https://www.36kr.com/p/2675065510033161)
+Filter: [2张图2秒钟3D重建，这款AI工具火爆GitHub，网友：忘掉Sora](https://www.36kr.com/p/2675068241671687)
+Filter: [谢尔盖·布林狠批Gemini「搞砸了」，51岁创始人回归，CEO劈柴或将下台？](https://www.36kr.com/p/2675046254261769)
+Filter: [从诊室到云端：医疗大模型的应用挑战与未来探索](https://www.36kr.com/p/2675005343462920)
+Filter: [这家神秘的机器人初创，怕是藏不住了](https://www.36kr.com/p/2674893690582786)
+Filter: [DeepMind携Mamba华人作者推Transformer革命之作，性能暴涨媲美Llama 2，推理能效大幅碾压](https://www.36kr.com/p/2674812258678530)
+Filter: [180亿，清华90后博士搞出了超级独角兽](https://www.36kr.com/p/2672581549750018)
+Filter: [6款通用大模型在保险行业的能力PK测评报告 ｜ZionAI实验室大模型测评](https://www.36kr.com/p/2670803895537161)
+Filter: [北大发起复现Sora，框架已搭，袁粒田永鸿领衔，AnimateDiff大神响应](https://www.36kr.com/p/2674591316538885)
+Filter: [李志飞AI课会重蹈李一舟覆辙吗？](https://www.36kr.com/p/2673399456429832)
+append_entries: 2
+Finish: 2024-03-04 14:04:15.406709
