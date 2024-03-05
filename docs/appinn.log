@@ -18155,3 +18155,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-05 08:04:00.313334
+------------------------------------------------------
+Started: 2024-03-05 10:03:59.607750
+Existing_entries: 292
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】iChat智能助手，支持chatgpt3.5，4.0，文心一言，通义千问，绘画等，手机网页通用。](https://meta.appinn.net/t/topic/53467)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-05 10:04:02.867133
