@@ -18349,3 +18349,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-07 08:03:40.747542
+------------------------------------------------------
+Started: 2024-03-07 10:03:54.456336
+Existing_entries: 294
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [怎样绕过网页的开发者工具(DevTools)屏蔽功能？](https://meta.appinn.net/t/topic/53578)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-07 10:03:57.172604
