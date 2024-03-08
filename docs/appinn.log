@@ -18449,3 +18449,11 @@ Append: [求个iOS上的可以自定义请求域名和key的chatgpt客户端](ht
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-03-08 08:03:26.622690
+------------------------------------------------------
+Started: 2024-03-08 10:03:35.297335
+Existing_entries: 298
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-03-08 10:03:38.577186
