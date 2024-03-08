@@ -16954,3 +16954,12 @@ Existing_entries: 595
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-08 00:11:11.763774
+------------------------------------------------------
+Started: 2024-03-08 02:08:18.667383
+Existing_entries: 595
+Fetching from https://rsshub.app/sspai/index
+Token length: 2794
+Summarized using GPT-3.5-turbo-1106
+Append: [派早报：Apple 发布 macOS 14.4 等系统正式版等](https://sspai.com/post/87033)
+append_entries: 1
+Finish: 2024-03-08 02:08:22.489680
