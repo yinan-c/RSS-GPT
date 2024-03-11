@@ -17242,3 +17242,12 @@ Existing_entries: 605
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-11 14:03:23.698699
+------------------------------------------------------
+Started: 2024-03-11 16:03:33.284158
+Existing_entries: 605
+Fetching from https://rsshub.app/sspai/index
+Token length: 11956
+Summarized using GPT-3.5-turbo-1106
+Append: [年度征文 | 让「跨界」从概念变成产物：我的桌面游戏设计之旅](https://sspai.com/post/86944)
+append_entries: 1
+Finish: 2024-03-11 16:03:45.757292
