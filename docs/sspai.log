@@ -17209,3 +17209,12 @@ Existing_entries: 602
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-11 06:03:40.051760
+------------------------------------------------------
+Started: 2024-03-11 08:04:06.217181
+Existing_entries: 602
+Fetching from https://rsshub.app/sspai/index
+Token length: 8133
+Summarized using GPT-3.5-turbo-1106
+Append: [年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅](https://sspai.com/post/86832)
+append_entries: 1
+Finish: 2024-03-11 08:05:57.255970
