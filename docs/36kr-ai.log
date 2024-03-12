@@ -35115,3 +35115,31 @@ Filter: [特斯拉、英伟达投身其中，人形机器人能借AI风口起飞
 Filter: [李彦宏“程序员将不再存在”言论被周鸿祎驳斥，网友怒怼：先把百度程序员都开除了](https://www.36kr.com/p/2684929903378563)
 append_entries: 0
 Finish: 2024-03-12 08:03:47.642400
+------------------------------------------------------
+Started: 2024-03-12 10:03:30.267226
+Existing_entries: 567
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [Midjourney能让角色保持一致了，网友连夜实测：改变游戏规则](https://www.36kr.com/p/2686230034984320)
+Filter: [中国创业者，不敢追 Sora](https://www.36kr.com/p/2686060405141121)
+Filter: [AI“造神运动”终结，杀死，重生](https://www.36kr.com/p/2686060738244231)
+Token length: 2499
+Summarized using GPT-3.5-turbo-1106
+Append: [刚刚，马斯克xAI官宣开源自家大模型Grok，网友：现压力给到了OpenAI](https://www.36kr.com/p/2686229597744773)
+Token length: 1578
+Summarized using GPT-3.5-turbo-1106
+Append: [谷歌承认“窃取”OpenAI模型关键信息：成本低至150元，调用API即可得手](https://www.36kr.com/p/2686229924081027)
+Append: [OpenAI官宣开源Transformer Debugger，不用写代码，人人可以破解LLM黑箱](https://www.36kr.com/p/2686229758537347)
+Filter: [国产Sora来了，4K 60帧15秒视频刷新纪录，500亿美元短剧出海市场被撬动](https://www.36kr.com/p/2686132311027331)
+Filter: [日企纷纷用生成式AI开发新车](https://www.36kr.com/p/2686023710223747)
+Filter: [Sora只用于娱乐？智能制造第一个不服](https://www.36kr.com/p/2685997528898950)
+Filter: [QuestMobile2024生成式AI及AIGC应用洞察报告：头部APP应用去重月活用户突破5000万，C端、B端机会蜂拥而至](https://www.36kr.com/p/2685945572761222)
+Filter: [多部AI作品落地，影视公司一边布局、一边焦灼](https://www.36kr.com/p/2685387673833348)
+Filter: [国产大模型落地，等一个“Sora时刻”](https://www.36kr.com/p/2685798724328840)
+Filter: [AI 接连翻车的 Google，要变天了](https://www.36kr.com/p/2685230938725762)
+Filter: [我们究竟需要什么样的AI广告？](https://www.36kr.com/p/2685188484865408)
+Filter: [7B大模型测试成绩超GPT-4，微软新研究解决工具调用难题](https://www.36kr.com/p/2685054229926536)
+Filter: [大模型2024：先把价格打下去](https://www.36kr.com/p/2685020175699841)
+Filter: [奔赴大模型战场一周年，它们的市值涨了多少？](https://www.36kr.com/p/2685013236940932)
+Filter: [多了AI功能，中国用户就会买三星的账？](https://www.36kr.com/p/2685013898150021)
+append_entries: 3
+Finish: 2024-03-12 10:03:58.186395
