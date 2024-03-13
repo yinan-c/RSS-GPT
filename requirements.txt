@@ -3,3 +3,4 @@ configparser
 openai==1.1.1
 jinja2
 beautifulsoup4
+httpx

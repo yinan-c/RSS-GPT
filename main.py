@@ -1,6 +1,7 @@
 import feedparser
 import configparser
 import os
+import httpx
 from openai import OpenAI
 from jinja2 import Template
 from bs4 import BeautifulSoup
@@ -124,9 +125,17 @@ def gpt_summary(query,model,language):
             {"role": "user", "content": query},
             {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output in the same line, then line break, write a summary containing all the points in {summary_length} words in {language}, output in order by points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and must be before the word 'Summary:'"}
         ]
-    client = OpenAI(
-        api_key=OPENAI_API_KEY,
-    )
+    if not OPENAI_PROXY:
+        client = OpenAI(
+            api_key=OPENAI_API_KEY,
+        )
+    else:
+        client = OpenAI(
+            api_key=OPENAI_API_KEY,
+            http_client=httpx.Client(
+                proxies=OPENAI_PROXY
+            )
+        )
     completion = client.chat.completions.create(
         model=model,
         messages=messages,
@@ -239,16 +248,16 @@ def output(sec, language):
             elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
                 try:
-                    entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo-1106", language=language)
+                    entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo", language=language)
                     with open(log_file, 'a') as f:
                         f.write(f"Token length: {token_length}\n")
-                        f.write(f"Summarized using GPT-3.5-turbo-1106\n")
+                        f.write(f"Summarized using GPT-3.5-turbo\n")
                 except:
                     try:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-4-1106-preview", language=language)
+                        entry.summary = gpt_summary(cleaned_article,model="gpt-4-turbo-preview", language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
-                            f.write(f"Summarized using GPT-4-1106-preview\n")
+                            f.write(f"Summarized using GPT-4-turbo-preview\n")
                     except Exception as e:
                         entry.summary = None
                         with open(log_file, 'a') as f:
@@ -283,6 +292,7 @@ max_entries = 1000
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 U_NAME = os.environ.get('U_NAME')
+OPENAI_PROXY = os.environ.get('OPENAI_PROXY')
 deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
