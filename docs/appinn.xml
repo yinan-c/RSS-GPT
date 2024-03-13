@@ -4,6 +4,50 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[开发者自荐]我花了两万块做了一个App，映画相机快速制作人物写真和数字分身</title>
+<link>https://meta.appinn.net/t/topic/53825</link>
+<guid>https://meta.appinn.net/t/topic/53825</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>产品介绍</h2>
+<p>映画相机（WaveCam）是一款用于生成一致肖像图像的应用。与主流的基于人工智能的生成产品（如文本转图像和图像转图像）不同，我们基于开源生态基础之上微调了模型。用户可以提供面部图像，应用程序可以生成高度相似的面部轮廓图像。支持60多种风格。<br />
+<a href="https://apps.apple.com/cn/app/%E6%98%A0%E7%94%BB%E7%9B%B8%E6%9C%BA-%E4%BA%BA%E7%89%A9%E8%82%96%E5%83%8F%E7%94%9F%E6%88%90/id6478093469" rel="noopener nofollow ugc"><img alt=":arrow_double_down:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/arrow_double_down.png?v=12" title=":arrow_double_down:" width="20" />App Store下载</a></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/d/3d5755d5fba60fd49fee35c41904321295000de8.jpeg" title="Wavecam_iOS prompte"><img alt="Wavecam_iOS prompte" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/d/3d5755d5fba60fd49fee35c41904321295000de8_2_500x500.jpeg" width="500" /></a></div><p></p>
+<p><strong>使用方法</strong>：</p>
+<ol>
+<li>打开应用程序，点击添加按钮（位于右下角的“+”按钮）</li>
+<li>提交一个必须包含完整且相对清晰面部的面部图像，并设置简单的参数</li>
+<li>打开详情页，您可以每5秒点击刷新按钮。任务完成会渲染生成的效果图片。</li>
+</ol>
+<p><strong>生成高质量图片建议</strong>：<br />
+灵活运用<span class="bbcode-u">风格和饱和度比例</span>选项，对图片效果影响比较大。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/1/3104cfb4e8b0d9725a59dab5dbddedc83d75889b.jpeg" title="Small@1x"><img alt="Small@1x" height="311" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/1/3104cfb4e8b0d9725a59dab5dbddedc83d75889b_2_690x311.jpeg" width="690" /></a></div><p></p>
+<p><strong>一致性效果图</strong>：<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/1/215b0a29936bc69c4b2ce9402c640da8a6b18718.jpeg" title="效果拼图"><img alt="效果拼图" height="306" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/1/215b0a29936bc69c4b2ce9402c640da8a6b18718_2_690x306.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>用户权益</h3>
+<p>我们每天会为每位用户提供一定的使用额度，另外我们还提供了月度高级版本的订阅服务，产品内部会有更加详细的说明。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>关于隐私数据的处理：</h3>
+<p>用户提交的面部数据将存储在AWS服务器上。我们定期删除这些数据，不向任何第三方提供。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#app-4" name="app-4"></a>App开发背景故事</h2>
+<p>之前做产品主要是花费自己的时间，这次我为了做一个产品花了两万多。我之前的产品基本上都是重客户端的类型，所有的数据和业务逻辑都是在用户的本地客户端完成。直到我开始做生成式AI产品时发现了用户客户端本地模型推理的局限性。最近SD生态IP一致性的方案落地很有意思，我就开始筹划自己部署一套推理服务器。这样用户无论什么机型都可以体验到不错的生成效果，调研了一番现在GPU租赁服务，租一年不如自己搭建一套省钱，于是就是看各种主机组装的介绍也问了几个朋友最终在2W左右（其中显卡占了70%）搭建了一套属于自己的推理服务器如下图所示。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/0/0090e07602e5716b5dfe105e2f2f924ddf8b5e3f.jpeg" title="IMG_1892"><img alt="IMG_1892" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/0/0090e07602e5716b5dfe105e2f2f924ddf8b5e3f_2_281x500.jpeg" width="281" /></a></div><p></p>
+<p>机器装好之后，才算是困难逐渐开始浮现。我这台服务器在家里，我们并没有公网IP，首先需要解决内网穿透的问题这样我在外面也偶尔可以修改一下代码远程部署下，在朋友的建议下最终使用了tailscale方案，这里有必要提醒大家修改下ssh端口（不然好像会受到运营商的干扰），如果你也有这个想法的话。然后我又购买了一个小米开关把主板设置成通电开机模式应对家里的电路异常。</p>
+<p>4090虽然有24GB显存，但是依然是不够用的。我需要做推理服务为了省略模型载入的时间我使用守护进程的方式让模型的缓存常驻在系统这也导致了我这个显卡的命运目前被推理服务锁死了<img alt=":joy:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/joy.png?v=12" title=":joy:" width="20" />。我还发现GPU随着运行的时间长会产生显存碎片，需要定期启动。</p>
+<p>为了让我们产品后端服务可以推理服务器建立时时紧密的连接我使用的socket方案，低延迟的于内网通信。大概折腾了一个月终于差不多了。于是基于我之前的App产品前端代码简单修改就提交到App Store审核了。结果被Apple 4.3拒绝审核。做过iOS开发的朋友应该都知道4.3的严重性，轻则下架产品，重则封号。看到这个4.3真是欲哭无泪呀，难道2w块要打水漂了么。还好我没有抄袭或者copy自己的代码也不让我复用真是醉了。又单独花了一天时间把GUI给重构了一遍，焦急的等待了一天终于给过审核了。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>后续开发计划</h2>
+<ul>
+<li>支持安卓</li>
+<li>支持小程序</li>
+</ul>
+<p>使用意见和反馈欢迎与我联系，邮箱或者私信。</p>
+<p>邮箱： <a href="mailto:jiangdi0924@gmail.com">jiangdi0924@gmail.com</a></p>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53825">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 13 Mar 2024 06:42:16 +0000</pubDate>
+<pubDate>Wed, 13 Mar 2024 06:42:16 +0000</pubDate>
+</item>
 
 <item>
 <title>肝了2 天，把诗词的打印功能弄出来了。直接看图吧！</title>
