@@ -35665,3 +35665,30 @@ Filter: [美报告称需对AI严加控制，否则会给人类带来“灭绝级
 Filter: [首个AI软件工程师上线，已通过公司面试抢程序员饭碗，华人创始团队手握10块IOI金牌](https://www.36kr.com/p/2687696395726464)
 append_entries: 0
 Finish: 2024-03-14 08:04:14.778568
+------------------------------------------------------
+Started: 2024-03-14 10:03:58.532704
+Existing_entries: 577
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 6338
+Summarized using GPT-3.5-turbo-1106
+Append: [专访OpenAI前科学家：没有证据表明Sora和ChatGPT没有意识](https://www.36kr.com/p/2688946069958021)
+Token length: 3447
+Summarized using GPT-3.5-turbo-1106
+Append: [OpenAI CTO：普通人数月后就能用Sora了](https://www.36kr.com/p/2688899605998985)
+Filter: [美国务院委托撰写报告：AI可能对人类构成“灭绝级”威胁](https://www.36kr.com/p/2688881162481024)
+Filter: [AI大模型，越来越像一场重量级拳击赛](https://www.36kr.com/p/2688879601003906)
+Filter: [智能电动车时代，有了AI就不需要「工匠精神」？](https://www.36kr.com/p/2688803569898121)
+Filter: [AIPC的“名利场”，生产力革命还是市值猛药？](https://www.36kr.com/p/2687422010895747)
+Filter: [机器人可以自主做手术吗？](https://www.36kr.com/p/2688799231044997)
+Filter: [中国也有Sora同款训练架构公司，清华班底，智谱也投了 | 36氪首发](https://www.36kr.com/p/2686257767296387)
+Filter: [AI撬开小县城的万元商机](https://www.36kr.com/p/2688671312981377)
+Filter: [欧洲人工智能，尴尬与焦虑笼罩](https://www.36kr.com/p/2688004719570308)
+Filter: [全球首个AI程序员来了，超越GPT-4震撼硅谷，但取代码农为之尚早](https://www.36kr.com/p/2687943738453377)
+Filter: [用AI功能要付费，这是手机厂商没告诉你的“秘密”](https://www.36kr.com/p/2687922167819904)
+Filter: [硅谷“逼死”AI学术圈](https://www.36kr.com/p/2687911763979651)
+Filter: [有了AI大模型，汽车和手机就会更智能？](https://www.36kr.com/p/2687859018247555)
+Filter: [美国CNN曝料：AI潜在的人类“末日威胁” ，政府须启动防灭绝紧急预案？](https://www.36kr.com/p/2687874723811975)
+Filter: [国内大厂押注AI这么久，为何还不跟进Sora？](https://www.36kr.com/p/2687740908350850)
+Filter: [AI图片橡皮擦来了，清华&阿里合作推出「概念半透膜」模型，还能改头换面](https://www.36kr.com/p/2687696707186051)
+append_entries: 2
+Finish: 2024-03-14 10:04:15.199774

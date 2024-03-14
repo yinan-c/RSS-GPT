@@ -19033,3 +19033,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-03-14 08:03:57.628512
+------------------------------------------------------
+Started: 2024-03-14 10:03:24.877792
+Existing_entries: 306
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [聚合AI聊天 chrome 扩展](https://meta.appinn.net/t/topic/53870)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-14 10:03:29.218781
