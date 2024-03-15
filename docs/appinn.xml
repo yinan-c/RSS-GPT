@@ -4,6 +4,130 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>帮忙做个油猴脚本, 在gmail中回复邮件时, 可以自定义引用文本</title>
+<link>https://meta.appinn.net/t/topic/53897</link>
+<guid>https://meta.appinn.net/t/topic/53897</guid>
+<content:encoded><![CDATA[
+
+<p>古早的gmail有个lab功能,<br />
+可以在邮件正文中选中一段文字,<br />
+然后按下回复的快捷键<code>r</code>,<br />
+这段文字就会自动加入到回复文本框的最上面, 作为引用文字.<br />
+然后下面可以输入自己的回复.</p>
+<p>我一直觉得这样的引用非常有针对性.<br />
+比嵌套性的引用所有以前邮件的内容要清晰明了的多.<br />
+但不出意料的是,<br />
+这样的功能被google取消了.</p>
+<p>我尝试用油猴脚本实现类似的功能,<br />
+但是自己水平有限,<br />
+手搓到下面这些后,<br />
+我就进行不下去了.</p>
+<p>请问有没有熟悉js的朋友可以帮我实现这个功能?<br />
+万分感谢.</p>
+<p>我期望的回复样式是这样的:</p>
+<ul>
+<li>引用内容的时候同时会附加原邮件的时间, 发信人和邮箱地址</li>
+<li>下面使用引用格式, 后面自动附加我高亮的文字.</li>
+<li>可以在一个主题邮件的多个邮件中重复: 高亮 &gt; r 的动作. 它们会自动的叠起来. (比如下图中就有两个叠加在了一起.) 这样便于我处理同个主题下多封邮件的回复.</li>
+</ul>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/7/8778a998f80b05cf10fb0770a31fd38fd0b2b779.jpeg" title="1710492105"><img alt="1710492105" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/7/8778a998f80b05cf10fb0770a31fd38fd0b2b779_2_599x500.jpeg" width="599" /></a></div><p></p>
+<p>我的手搓:</p>
+<pre><code class="lang-auto">// ==UserScript==
+// @name         Gmail Reply Enhancer
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Enhance Gmail reply functionality
+// @author       Your Name
+// @match        https://mail.google.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // 监听键盘事件，当按下 'r' 键时执行函数
+    document.addEventListener('keydown', function(event) {
+        // 检查是否按下 'r' 键（键码为 82）
+        if (event.key === 'r' &amp;&amp; !event.shiftKey &amp;&amp; !event.ctrlKey &amp;&amp; !event.metaKey &amp;&amp; !event.altKey) {
+            // 阻止默认事件，避免 Gmail 的默认行为
+            event.preventDefault();
+
+            // 获取选中的文字
+            var selectedText = window.getSelection().toString().trim();
+            console.log('Selected text:', selectedText);
+
+            // 获取发件人姓名
+            var senderName = '';
+            var senderNameElement = document.querySelector('span[email]');
+            if(senderNameElement) {
+                senderName = senderNameElement.getAttribute('name') || '';
+            }
+            console.log('Sender name:', senderName);
+
+            // 获取发件人地址
+            var senderAddress = '';
+            var senderAddressElement = document.querySelector('span[email]');
+            if(senderAddressElement) {
+                senderAddress = senderAddressElement.getAttribute('email') || '';
+            }
+            console.log('Sender address:', senderAddress);
+
+            // 获取邮件接收时间
+            var receivedTime = '';
+            var receivedTimeElement = document.querySelector('div[role="heading"] &gt; span[data-legacy-last-non-collapsed-time]');
+            if(receivedTimeElement) {
+                receivedTime = receivedTimeElement.getAttribute('title') || '';
+            }
+            console.log('Received time:', receivedTime);
+
+            // 构建回复内容
+            var replyContent = '';
+            replyContent += senderName !== '' ? senderName + ' ' : '';
+            replyContent += senderAddress !== '' ? '&lt;' + senderAddress + '&gt; ' : '';
+            replyContent += receivedTime !== '' ? receivedTime + '\n' : '';
+            replyContent += selectedText !== '' ? '\n' + selectedText + '\n\n' : '\n\n';
+            console.log('Reply content:', replyContent);
+
+            // 获取回复按钮
+            var replyButton = document.querySelector('[aria-label="Reply"]');
+            if (replyButton) {
+                replyButton.click(); // 触发点击事件
+                console.log('reply button toggled');
+            }
+
+
+           // 问题: 无法清空当前的输入框. :(
+            setTimeout(function() {
+                // Trigger Ctrl+A
+                document.execCommand('selectAll', false, null);
+                // Trigger delete
+                document.execCommand('delete', false, null);
+            }, 4000); // 1000 milliseconds delay
+
+//             // 清空回复框中的内容
+//             var replyBox = document.querySelector('.editable');
+//             if(replyBox) {
+//                 replyBox.innerHTML = '';
+//                 console.log('Reply box cleared.');
+//             }
+
+//             // 将回复内容添加到回复框中
+//             if(replyBox) {
+//                 replyBox.focus();
+//                 document.execCommand('insertText', false, replyContent);
+//                 console.log('Reply content inserted.');
+//             }
+        }
+    });
+})();
+</code></pre>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53897">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 15 Mar 2024 08:46:45 +0000</pubDate>
+<pubDate>Fri, 15 Mar 2024 08:46:45 +0000</pubDate>
+</item>
 
 <item>
 <title>聚合AI聊天 chrome 扩展</title>

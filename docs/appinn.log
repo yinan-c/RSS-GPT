@@ -19130,3 +19130,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-15 08:03:39.867703
+------------------------------------------------------
+Started: 2024-03-15 10:03:10.216675
+Existing_entries: 307
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [帮忙做个油猴脚本, 在gmail中回复邮件时, 可以自定义引用文本](https://meta.appinn.net/t/topic/53897)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-15 10:03:14.070452
