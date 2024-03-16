@@ -4,6 +4,62 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Build a custom URL shortener</title>
+<link>https://brett.trpstra.net/link/535/16621740/build-a-custom-url-shortener</link>
+<guid>https://brett.trpstra.net/link/535/16621740/build-a-custom-url-shortener</guid>
+<content:encoded><![CDATA[
+<div> URL shortener, custom domain, installation, features, inspiration
+<br><br>
+总结: 这篇文章介绍了作者如何搭建自己的URL缩短服务，并使用自定义域名。作者选择了现有的工具，进行了修改和定制，最终建立起了一个基本的URL缩短服务。作者详细介绍了安装步骤和新增的功能，以及使用的动机。通过自己的经验，作者希望能鼓舞读者也开展类似的有趣项目，并向大家推荐了一些其他的服务。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Url shortener banner image" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/03/dimmoi-header-rb.jpg" title="Url shortener banner image" width="800" />
+              </noscript>
+            
+
+<p>I wanted short urls for <a href="https://dimspire.me">Dimspirations</a>, and I wanted a custom domain name (dim.moi), but didn&rsquo;t want to pay the somewhat exorbitant prices to do so with something like Bit.ly. So I set out to build my own URL shortener.</p>
+
+<p>PHP/mySQL seemed like the path of least resistance on my current server setup, so I went looking for existing tools that met my needs without too much complication. I found <a href="https://github.com/mikecao/shorty">Shorty</a> by <a href="https://github.com/mikecao">Mike Cao</a>, a decade-old project that still worked just fine. I forked it and built a tool called [Shortly] on top of it. It uses all of the base code of Shorty with my own additions, so full credit for this goes to Mike, but it has enough <a href="https://github.com/ttscoff/shortly/commit/5c3b64498b8402819ed1ca2c56d3bca8daab3fa7">changes specific to my needs</a> that I&rsquo;m not pushing my fork upstream.</p>
+
+<p>Shortly is a basic URL shortener. You just have to register your short domain, set up basic PHP/mySQL hosting for it, and then install the files. So the total cost is one domain registration, plus whatever hosting you use for it. It requires very few resources, so a simple $5 shared hosting plan will work fine. I have multiple servers where adding new domains doesn&rsquo;t cost me anything, so I went with a Dreamhost server for this and built it for just the cost of a <code class="language-plaintext highlighter-rouge">.moi</code> TLD ($30/yr, if I recall correctly).</p>
+
+<p>The install instructions are detailed in the README and on the <a href="https://brettterpstra.com/projects/shortly">project page</a>. It&rsquo;s pretty simple, just creating a mySQL database and importing an SQL file to set up the simple database. In about 15 minutes you can have a custom URL shortener that outputs urls like <a href="https://dim.moi/eQ">dim.moi/eQ</a> and passes them through to the full url on the target site. All of my Dimspirations now have short urls, and I can generate new ones with a simple <code class="language-plaintext highlighter-rouge">curl</code> call from my build system.</p>
+
+<p>Here&rsquo;s what I added to the script:</p>
+
+<ul>
+  <li>Allow limiting shortening to one domain</li>
+  <li>Allow forwarding of paths containing hyphens or which are not found in the database to be forwarded to a root url</li>
+  <li>Allow appending query strings to urls before shortening or forwarding</li>
+  <li>Accept <code class="language-plaintext highlighter-rouge">format=qr</code> and <code class="language-plaintext highlighter-rouge">size=XXX</code> to create QR codes for shortened urls</li>
+  <li>Add longURL keys to JSON and XML output</li>
+  <li>Default to plain text output format, perfect for <code class="language-plaintext highlighter-rouge">curl</code> calls</li>
+</ul>
+
+<p>All of these settings are detailed in the README and commented in the config file.</p>
+
+<p>For my particular needs, my shortener will only shorten URLs from <code class="language-plaintext highlighter-rouge">dimspire.me</code>, will forward unknown urls like <code class="language-plaintext highlighter-rouge">dim.moi/ether-bunny</code> to <code class="language-plaintext highlighter-rouge">https://dimspire.me/dimspiration/ether-bunny/</code>, and will append some UTM parameters to any url it shortens so I can track usage.</p>
+
+<p>Part of the impetus for this was I wanted to include UTM parameters in the links I offered for sharing, but didn&rsquo;t want to make ungainly URLs. With Shortly, I can add any query parameters I like to a url and end up with a simple <code class="language-plaintext highlighter-rouge">https://dim.moi/fR</code> url to share. And I can shorten <code class="language-plaintext highlighter-rouge">https://dimspire.me/dimspiration/optimal-anxiety-level/</code> to <code class="language-plaintext highlighter-rouge">https://dim.moi/optimal-anxiety-level/</code> without even using the API (as the unrecognized slug automatically gets forwarded to the base url <code class="language-plaintext highlighter-rouge">dimspire.me/dimspiration/SLUG</code>).</p>
+
+<p>Hopefully this inspires some fun projects of your own, and revives a great little project that Mike Cao started. It&rsquo;s such a simple concept that I&rsquo;m sure there are dozens, if not hundreds, of permutations of it. This is just the one I found the easiest to hack away at and get running with minimal fuss. Check out the <a href="https://brettterpstra.com/projects/shortly">project page</a> or the <a href="https://github.com/ttscoff/shortly">GitHub repo</a> to get started.</p>
+
+<blockquote>
+  <p>As an aside that&rsquo;s not worth it&rsquo;s own post, I also set up a CloudFront instance that forwards <code class="language-plaintext highlighter-rouge">from.ttscoff.me/(filename)</code> from an S3 bucket, and added a Dropzone destination so I can just drag any file to Dropzone and get back a <code class="language-plaintext highlighter-rouge">from.ttscoff.me</code> URL with which I can share any file. It lacks all of the niceties of other file-sharing tools, but I&rsquo;m running it for less than a dollar a month. Subdomain was free, and it doesn&rsquo;t use enough bandwidth to really register as an expense in my Amazon plan. If you want any details on how to do this, just let me know.</p>
+</blockquote>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F16%2Fbuild-a-custom-url-shortener%2F&amp;text=Build+a+custom+URL+shortener&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F16%2Fbuild-a-custom-url-shortener%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16621740.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-03-16T13:00:00-05:00</pubDate>
+<pubDate>2024-03-16T13:00:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Dimspirations Merch!</title>
