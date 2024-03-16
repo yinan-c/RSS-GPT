@@ -124,10 +124,14 @@ def gpt_summary(query,model,language):
             {"role": "user", "content": query},
             {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output in the same line, then line break, write a summary containing all the points in {summary_length} words in {language}, output in order by points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and must be before the word 'Summary:'"}
         ]
-    client = OpenAI(
-        api_key=OPENAI_API_KEY,
-        base_url='https://apic.ohmygpt.com/'
-    )
+    try:
+        client = OpenAI(
+            api_key=OPENAI_API_KEY,
+            base_url='https://apic.ohmygpt.com/'
+        )
+    except Exception as e:
+        print(e)
+    print(client)
     completion = client.chat.completions.create(
         model=model,
         messages=messages,
