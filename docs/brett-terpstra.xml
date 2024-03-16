@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Build a custom URL shortener</title>
 <link>https://brett.trpstra.net/link/535/16621740/build-a-custom-url-shortener</link>
 <guid>https://brett.trpstra.net/link/535/16621740/build-a-custom-url-shortener</guid>
 <content:encoded><![CDATA[
 <div> URL shortener, custom domain, installation, features, inspiration
-<br><br>
+<br /><br />
 总结: 这篇文章介绍了作者如何搭建自己的URL缩短服务，并使用自定义域名。作者选择了现有的工具，进行了修改和定制，最终建立起了一个基本的URL缩短服务。作者详细介绍了安装步骤和新增的功能，以及使用的动机。通过自己的经验，作者希望能鼓舞读者也开展类似的有趣项目，并向大家推荐了一些其他的服务。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -58,9 +59,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16621740.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-03-16T13:00:00-05:00</pubDate>
-<pubDate>2024-03-16T13:00:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Dimspirations Merch!</title>
 <link>https://brett.trpstra.net/link/535/16598996/dimspirations-merch</link>
