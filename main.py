@@ -126,6 +126,7 @@ def gpt_summary(query,model,language):
         ]
     client = OpenAI(
         api_key=OPENAI_API_KEY,
+        base_url='https://apic.ohmygpt.com/'
     )
     completion = client.chat.completions.create(
         model=model,
