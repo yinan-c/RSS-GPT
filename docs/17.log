@@ -144,3 +144,66 @@ Append: [【英文】Paradigm：如何提高 Gas Limit 之状态增长](https://
 Append: [三角债 or 温和通胀：Restaking 再质押的另类视角](https://mp.weixin.qq.com/s/MttXkg5SnJtVgattNygI3Q)
 append_entries: 100
 Finish: 2024-03-16 11:02:07.855425
+------------------------------------------------------
+Started: 2024-03-16 19:19:28.731298
+Existing_entries: 100
+Fetching from https://www.chainfeeds.xyz/rss
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:19:31.173555
+------------------------------------------------------
+Started: 2024-03-16 19:20:27.003878
+Existing_entries: 101
+Fetching from https://www.chainfeeds.xyz/rss
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:20:29.229007
+------------------------------------------------------
+Started: 2024-03-16 19:22:51.175114
+Existing_entries: 102
+Fetching from https://www.chainfeeds.xyz/rss
+Summarization failed, append the original article
+error: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:23:18.816170
+------------------------------------------------------
+Started: 2024-03-16 19:24:11.174182
+Existing_entries: 103
+Fetching from https://www.chainfeeds.xyz/rss
+Summarization failed, append the original article
+error: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:25:19.011174
+------------------------------------------------------
+Started: 2024-03-16 19:25:57.971961
+Existing_entries: 104
+Fetching from https://www.chainfeeds.xyz/rss
+Summarization failed, append the original article
+error: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:27:00.966237
+------------------------------------------------------
+Started: 2024-03-16 19:28:03.688628
+Existing_entries: 105
+Fetching from https://www.chainfeeds.xyz/rss
+Summarization failed, append the original article
+error: cannot access local variable 'client' where it is not associated with a value
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:28:43.730308
+------------------------------------------------------
+Started: 2024-03-16 19:29:27.578952
+Existing_entries: 106
+Fetching from https://www.chainfeeds.xyz/rss
+------------------------------------------------------
+Started: 2024-03-16 19:32:03.514238
+Existing_entries: 106
+Fetching from https://www.chainfeeds.xyz/rss
+Summarization failed, append the original article
+error: cannot access local variable 'client' where it is not associated with a value
+Append: [ZK 互操作基础设施 Polyhedra 以 10 亿美元估值完成 2000 万美元战略融资，Polychain Capital 领投](https://www.theblock.co/post/282461/polyhedra-network-zkbridge-funding-1-billion-valuation-token-round )
+append_entries: 1
+Finish: 2024-03-16 19:32:22.269786
