@@ -19308,3 +19308,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [老胡的周刊（第132期）](https://meta.appinn.net/t/topic/53935)
 append_entries: 1
 Finish: 2024-03-17 06:03:19.991155
+------------------------------------------------------
+Started: 2024-03-17 08:03:37.407222
+Existing_entries: 309
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-03-17 08:03:40.608968
