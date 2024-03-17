@@ -4,6 +4,117 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【网页更新提醒】任何网页，任何区域，我帮您盯着</title>
+<link>https://meta.appinn.net/t/topic/36976</link>
+<guid>https://meta.appinn.net/t/topic/36976</guid>
+<content:encoded><![CDATA[
+
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/8/d8872966287dad768d8d7a3dcb125f0e198f8439.jpeg" title="poster"><img alt="poster" height="388" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/8/d8872966287dad768d8d7a3dcb125f0e198f8439_2_690x388.jpeg" width="690" /></a></div><p></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h2>
+<p><a href="https://courier.toptopn.com/?from=xzrj" rel="noopener nofollow ugc">网页更新提醒</a>，监控网页/RSS/API内容更新，并立即通知（只需要简单的三步：安装、圈选、配置）</p>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>核心功能（包括但不限于）：</h3>
+<ul>
+<li>支持网页/RSS/接口监控</li>
+<li>非常方便地圈选任何网页上的任何区域</li>
+<li>非常直观的差异对比（保留原页面样式，高亮差异内容）</li>
+<li>支持监控特定的关键词，也可以忽略不感兴趣的内容更新</li>
+<li>支持桌面、声音、邮件、钉钉、微信、飞书、企业微信等</li>
+<li>支持检测前脚本预处理，适用于需要前置操作的页面</li>
+<li>支持更新后脚本预处理，自动下单、自动化测试等</li>
+<li>支持通知前脚本预处理，自由定制，千人千面</li>
+<li>可以共享规则，一键添加别人共享的监控规则</li>
+<li>支持共享监控任务，浏览器关闭也可以接收到更新</li>
+<li>支持云端运行或云端私有化部署，不用开机也能监控</li>
+<li>支持以截图/HTML/文本/RSS的方式归档</li>
+<li>支持同一个网站多账号登录和检测</li>
+</ul>
+<h3>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>常用的场景（包括但不限于）：</h3>
+<ul>
+<li>关键词监控：监控特定的关键词，出现或者消失就告警</li>
+<li>商品监控：检测商品的上新、价格、库存、销售等情况</li>
+<li>抢单/抢票：检测订单变更并通过更新后预处理脚本自动下单</li>
+<li>招标/投标：监控投标采购信息的更新</li>
+<li>公告/公示：及时拿到第一手资讯，把握商机</li>
+<li>招聘/考试：及时发现招聘岗位/考试时间的变动</li>
+<li>行情监测：实时感知资讯、行情、舆论、数据的更新</li>
+<li>赛事提醒：及时知晓重要赛事或者偶像的数据/排行</li>
+<li>数据监测：监测自己或他人作品、账号数据的更新</li>
+<li>信息共享：将监测到信息更新贡献给他人或者进行二次开发</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>第一步，安装</h2>
+<ul>
+<li><a href="https://courier.toptopn.com/helper.html?from=install" rel="noopener nofollow ugc">官网下载安装（推荐）</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/%E4%BF%A1%E4%BD%BF/fipadnnmmoiomfllhbbnhjnghopkgfpb" rel="noopener nofollow ugc">Chrome应用商店</a></li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/%E7%BD%91%E9%A1%B5%E6%9B%B4%E6%96%B0%E6%8F%90%E9%86%92/bnkpjcdpjmhfhlhmdmblpmcamnbjeikg" rel="noopener nofollow ugc">Edge应用商店</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/webmonitor/" rel="noopener nofollow ugc">Firefox应用商店</a></li>
+<li><a href="https://ext.se.360.cn/webstore/search/%E7%BD%91%E9%A1%B5%E6%9B%B4%E6%96%B0%E6%8F%90%E9%86%92" rel="noopener nofollow ugc">360安全浏览器应用商店</a></li>
+<li><a href="https://ext.chrome.360.cn/webstore/search/%E7%BD%91%E9%A1%B5%E6%9B%B4%E6%96%B0%E6%8F%90%E9%86%92" rel="noopener nofollow ugc">360极速浏览器应用商店</a></li>
+</ul>
+<p><strong>注意：</strong><a href="https://chrome.google.com/webstore/detail/%E4%BF%A1%E4%BD%BF/fipadnnmmoiomfllhbbnhjnghopkgfpb" rel="noopener nofollow ugc">Chrome应用商店</a>很可能打不开，可以在官网下载安装最新版。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>第二步，圈选</h2>
+<ul>
+<li>
+<p>自动模式：通过捕获鼠标停留在页面上的位置，获取需要监控的页面节点，鼠标悬停在页面任何位置后，对应的节点会高亮，点击高亮元素即可完成区域的圈选</p>
+</li>
+<li>
+<p>手动模式：按住鼠标左键，然后在页面上画个圈就可以完成指定区域的圈选，程序就会智能地判断应该监控页面上的哪个节点了</p>
+</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>第三步，配置</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/1/81b2710925fa8dc939e9ec81ccaedd80fc1d29a8.jpeg" title="conf"><img alt="conf" height="398" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/1/81b2710925fa8dc939e9ec81ccaedd80fc1d29a8_2_690x398.jpeg" width="690" /></a></div><p></p>
+<ul>
+<li>
+<p><strong>选择器</strong>：用于检测的时候提取内容，默认是不需要干预的，程序会根据圈选的区域自动生成，当然如果你懂css/xpath也可以自行修改</p>
+</li>
+<li>
+<p><strong>选择器</strong>：默认10分钟，可以根据需要修改，最低可以支持到2秒</p>
+</li>
+<li>
+<p><strong>提醒方式</strong>：支持桌面通知、声音、邮件、钉钉、微信、飞书、企业微信、Telegram、Slack及其他自定义的webhook</p>
+</li>
+<li>
+<p><strong>云端运行</strong>：云端运行是指任务在服务端运行，不需要开机也能监控</p>
+</li>
+<li>
+<p><strong>性能模式</strong>：高性能模式是指在检测的时候只加载页面必要的代码，不加载图片/媒体等非核心的资源，从而提高检测速度</p>
+</li>
+<li>
+<p><strong>匹配规则</strong>：就是设置关键字，支持正则。匹配规则有两种模式：「全部」和「任意一个」，全部就是要命中全部的关键字才提醒，任意一个就是只要有一个关键字匹配就提醒</p>
+</li>
+<li>
+<p><strong>排除规则</strong>：排除规则只在不存在「匹配规则」的情况才有效，用于忽略那些不感兴趣的变更（比如：时间、数量等）</p>
+</li>
+</ul>
+<p><code>然后，插件就会自动定期检测网页内容的变化，一旦有符合条件的内容更新就会通过你配置的通知方式通知你</code></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>高级功能</h2>
+<ul>
+<li>
+<p><strong>检测前预处理</strong>：在提取内容之前，可以通过<code>Javascript</code>脚本进行预处理，用来准备提取的内容。使用场景如：有些需要设置查询条件然后查询才能看到数据；自动化测试等</p>
+</li>
+<li>
+<p><strong>更新后预处理</strong>：检测到更新以后，可以通过<code>Javascript</code>脚本进行预处理，用来实现自动下单、自动化测试等操作</p>
+</li>
+<li>
+<p><strong>通知前预处理</strong>：消息推送之前，可以通过<code>Javascript</code>脚本进行预处理，动态修改通知的人机通知的内容，达到个性化推送的目的</p>
+</li>
+<li>
+<p><strong>私有化部署</strong>：如果你有服务器资源，可以通过镜像进行私有化部署，实现24小时不间断运行</p>
+</li>
+</ul>
+            <p><small>44 个帖子 - 23 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/36976">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 11 Oct 2022 12:18:31 +0000</pubDate>
+<pubDate>Tue, 11 Oct 2022 12:18:31 +0000</pubDate>
+</item>
 
 <item>
 <title>【开源自荐】用cf worker部署的临时邮箱服务</title>
