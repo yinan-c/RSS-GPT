@@ -4,6 +4,85 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>老胡的周刊（第132期）</title>
+<link>https://meta.appinn.net/t/topic/53935</link>
+<guid>https://meta.appinn.net/t/topic/53935</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#minifluxhttpsgithubcomminifluxv2-2" name="minifluxhttpsgithubcomminifluxv2-2"></a><a href="https://github.com/miniflux/v2" rel="noopener nofollow ugc">miniflux</a></h3>
+<p><code>Miniflux</code> 是一个极简主义的开源 <code>RSS</code> 阅读器，它使用非常简单，可 <code>Docker</code> 部署，这样就相当于你拥有了自己的 <a href="https://feedly.com/" rel="noopener nofollow ugc">Feedly</a> 服务，再结合一个漂亮的客户端如 <a href="https://github.com/electh/ReactFlux" rel="noopener nofollow ugc">ReactFlux</a>，用起来就很舒服 ：</p>
+<p><img alt="miniflux" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/eyMYhc.png" width="685" /></p>
+<p>其他类似开源有：</p>
+<ul>
+<li><a href="https://tt-rss.org/" rel="noopener nofollow ugc">Tiny Tiny RSS</a>：一个免费且开源的基于网络的新闻订阅（RSS/Atom）阅读器和聚合器</li>
+<li><a href="https://github.com/FreshRSS/FreshRSS" rel="noopener nofollow ugc">FreshRSS</a>：一个自托管的RSS订阅聚合器</li>
+<li>基于以上项目构建后的客户端：
+<ul>
+<li><a href="https://github.com/yang991178/fluent-reader" rel="noopener nofollow ugc">fluent-reader</a>：现代化 <code>RSS</code> 阅读器</li>
+<li><a href="https://netnewswire.com/" rel="noopener nofollow ugc">NetNewsWire</a>：适用于 <code>Mac、iPhone&amp;iPad</code> 的免费开源 <code>RSS</code> 阅读器</li>
+<li>安卓 <a href="https://github.com/seazon/FeedMe/blob/master/doc/zh/README.md" rel="noopener nofollow ugc">feedme</a>： 一个安卓 <code>RSS</code> 阅读器，支持主流 <code>RSS</code> 服务</li>
+<li><a href="https://github.com/michaelkremenetsky/Refeed" rel="noopener nofollow ugc">Refeed</a>：好看的现代化客户端</li>
+</ul>
+</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#puterhttpsgithubcomheyputerputer-3" name="puterhttpsgithubcomheyputerputer-3"></a><a href="https://github.com/HeyPuter/puter" rel="noopener nofollow ugc">puter</a></h3>
+<p><code>Puter</code> 是一个在浏览器中运行的开源桌面环境，可用于构建远程桌面、与云服务交互或作为其他云存储平台的替代品，旨在以轻量级的方式直接在浏览器中带来桌面体验。</p>
+<p><img alt="Puter" height="453" src="https://images-1252557999.file.myqcloud.com/uPic/Puter.webp" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#sorawebuihttpsgithubcomsorawebuisorawebui-4" name="sorawebuihttpsgithubcomsorawebuisorawebui-4"></a><a href="https://github.com/SoraWebui/SoraWebui" rel="noopener nofollow ugc">SoraWebui</a></h3>
+<p><code>SoraWebui</code> 是一个开源项目，允许用户使用 <code>OpenAI</code> 的 <code>Sora</code> 模型使用文本在线生成视频，从而简化视频创建，并具有轻松的一键网站部署功能：</p>
+<p><img alt="SoraWebui" height="437" src="https://images-1252557999.file.myqcloud.com/uPic/SoraWebui.jpeg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#floccushttpsgithubcomfloccusaddonfloccus-5" name="floccushttpsgithubcomfloccusaddonfloccus-5"></a><a href="https://github.com/floccusaddon/floccus" rel="noopener nofollow ugc">floccus</a></h3>
+<p><code>Floccus</code> 是一个开源的浏览器书签同步项目，它支持 <code>Firefox、Chrome、Edge</code>等浏览器书签同步：</p>
+<p><img alt="floccus" height="423" src="https://images-1252557999.file.myqcloud.com/uPic/floccus.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#freecontrolhttpsgithubcompdonefreecontrol-7" name="freecontrolhttpsgithubcompdonefreecontrol-7"></a><a href="https://github.com/pdone/FreeControl" rel="noopener nofollow ugc">FreeControl</a></h3>
+<p>在 <code>PC</code> 上控制 <code>Android</code> 设备，基于开源项目<ins><strong>scrcpy</strong></ins>，提供简洁的交互界面。</p>
+<ul>
+<li>编码语言 <code>C#</code></li>
+<li>开发工具 <code>Visual Studio 2022</code></li>
+<li>运行环境 <code>.NET Framework 4.7.2</code></li>
+</ul>
+<p><img alt="FreeControl" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/FreeControl.gif" width="563" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#fluentreadhttpsgithubcombistutufluentread-8" name="fluentreadhttpsgithubcombistutufluentread-8"></a><a href="https://github.com/Bistutu/FluentRead" rel="noopener nofollow ugc">FluentRead</a></h3>
+<p>一个开源油猴脚本，拥有基于上下文语境的人工智能翻译引擎，为网站提供更加友好的翻译，让所有人都能够拥有基于母语般的阅读体验：</p>
+<p><img alt="FluentRead" height="403" src="https://images-1252557999.file.myqcloud.com/uPic/FluentRead.gif" width="680" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#llm-actionhttpsgithubcomliguodongiotllm-action-10" name="llm-actionhttpsgithubcomliguodongiotllm-action-10"></a><a href="https://github.com/liguodongiot/llm-action" rel="noopener nofollow ugc">llm-action</a></h3>
+<p>本项目旨在分享大模型相关技术原理以及实战经验，让天下没有难学的大模型：</p>
+<p><img alt="llm-action" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/llm-action.png" width="607" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#linux-101https101lugustceducn-11" name="linux-101https101lugustceducn-11"></a><a href="https://101.lug.ustc.edu.cn/" rel="noopener nofollow ugc">Linux 101</a></h3>
+<p>本书由中国科学技术大学 Linux 用户协会的数名优秀成员协力编写，用于配套和延展“Linux 101”校内社团活动。其面向 Linux 零基础读者，从计算机操作系统和 Linux 的起源讲起，深入浅出带领读者一步步逐渐掌握最必要的 Linux 实用知识，并在其中感悟到社区开源文化的魅力：</p>
+<p><img alt="Linux101-docs" height="364" src="https://images-1252557999.file.myqcloud.com/uPic/Linux101-docs.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#local-llm-user-guidelinehttpsgithubcomxue160709local-llm-user-guidelineblobmainreadme-zhmd-12" name="local-llm-user-guidelinehttpsgithubcomxue160709local-llm-user-guidelineblobmainreadme-zhmd-12"></a><a href="https://github.com/xue160709/Local-LLM-User-Guideline/blob/main/README-zh.md" rel="noopener nofollow ugc">Local-LLM-User-Guideline</a>：</h3>
+<p>本地 LLM 使用指南，这个构建你自己的 AI 辅助编码助手项目也不错，参考玩玩<img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /><a href="https://github.com/unit-mesh/build-your-ai-coding-assistant" rel="noopener nofollow ugc">build-your-ai-coding-assistant</a>：介绍如何 DIY 一个端到端（从 IDE 插件、模型选型、数据集构建到模型微调）的 AI 辅助编程工具，类似于 <code>GitHub Copilot、JetBrains AI Assistant、AutoDev</code> 等。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-13" name="h-13"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#aspoemhttpsaspoemcom-14" name="aspoemhttpsaspoemcom-14"></a><a href="https://aspoem.com/" rel="noopener nofollow ugc">aspoem</a></h3>
+<p>现代化中国诗词学习网站 - 更加注重 UI、阅读体验：</p>
+<p><img alt="aspoem" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/aspoem.png" width="622" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#httpstkuaitucc-15" name="httpstkuaitucc-15"></a><a href="https://t.kuaitu.cc/" rel="noopener nofollow ugc">极简番茄</a></h3>
+<p>极简优雅的番茄时钟软件，适合做屏保：</p>
+<p><img alt="kuaitu" height="310" src="https://images-1252557999.file.myqcloud.com/uPic/kuaitu.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-16" name="h-16"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li>公众号：<a href="https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg" rel="noopener nofollow ugc">老胡的储物柜</a></li>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，对周刊的信息补充，会分享更多的资源，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li><a href="https://weekly.fre123.com/%EF%BC%9A%E8%80%81%E8%83%A1%E6%94%B6%E9%9B%86%E4%BA%86%E5%9B%BD%E5%86%85%E5%A4%9660+%E4%BC%98%E8%B4%A8%E6%8A%80%E6%9C%AF%E5%91%A8%E5%88%8A%E8%BF%9B%E8%A1%8C%E4%BF%A1%E6%81%AF%E8%81%9A%E5%90%88%F0%9F%94%A5" rel="noopener nofollow ugc">https://weekly.fre123.com/：老胡收集了国内外60+优质技术周刊进行信息聚合🔥</a></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">老胡的信息周刊</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53935">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 17 Mar 2024 04:30:52 +0000</pubDate>
+<pubDate>Sun, 17 Mar 2024 04:30:52 +0000</pubDate>
+</item>
 
 <item>
 <title>帮忙做个油猴脚本, 在gmail中回复邮件时, 可以自定义引用文本</title>
