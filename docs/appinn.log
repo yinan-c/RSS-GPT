@@ -19316,3 +19316,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-17 08:03:40.608968
+------------------------------------------------------
+Started: 2024-03-17 10:03:20.385948
+Existing_entries: 309
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开源自荐】用cf worker部署的临时邮箱服务](https://meta.appinn.net/t/topic/53941)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-17 10:03:23.494158

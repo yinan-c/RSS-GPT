@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开源自荐】用cf worker部署的临时邮箱服务</title>
+<link>https://meta.appinn.net/t/topic/53941</link>
+<guid>https://meta.appinn.net/t/topic/53941</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#vmaildev-1" name="vmaildev-1"></a>Vmail.dev</h2>
+<ul>
+<li>项目地址：<a href="https://vmail.dev" rel="noopener nofollow ugc">https://vmail.dev</a></li>
+<li>开源仓库：<a class="inline-onebox" href="https://github.com/yesmore/vmail" rel="noopener nofollow ugc">GitHub - yesmore/vmail: Virtual temporary Email Generator. 👉 https://vmail.dev</a></li>
+</ul>
+<p>使用 cloudflare email worker 实现的临时邮箱服务，有效期24h，支持多语言。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/53941">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 17 Mar 2024 09:45:54 +0000</pubDate>
+<pubDate>Sun, 17 Mar 2024 09:45:54 +0000</pubDate>
+</item>
 
 <item>
 <title>老胡的周刊（第132期）</title>
