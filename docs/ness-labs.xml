@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Ness Labs</title>
+<link>https://nesslabs.com/</link>
+
+<item>
+<title>Use AI to expand your thinking with Lilly Chen, founder of Brainstory</title>
+<link>https://nesslabs.com/brainstory-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=brainstory-featured-tool</link>
+<guid>https://nesslabs.com/brainstory-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=brainstory-featured-tool</guid>
+<content:encoded><![CDATA[
+<div> AI, Brainstory, Lilly Chen, productivity, privacy
+<br>
+<br>
+总结: Lilly Chen 是 Brainstory 的创始人，这是一个基于苏格拉底质疑方法的 AI 助手，旨在帮助人们更好地思考和提高工作效率。Brainstory能帮助人们在思考过程中找到自己的瞬间灵感，而不是替他们思考。用户可以通过Brainstory进行目标设定、项目规划，提升整体生产力，还可以用于日常意图记录、团队决策会议等。Brainstory注重隐私保护，不使用客户数据进行模型训练。通过启用上下文共享功能，Brainstory将使体验更加神奇。企业将参与Brainstory，进一步提高用户持续参与度和满意度。 <div>
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our tools for thought series, where we interview founders on a mission to help us think better and work smarter. Lilly Chen is the founder of <a href="https://www.brainstory.ai/">Brainstory</a>, an AI-powered “think out-loud” app based on the Socratic method of questioning. Brainstory is designed to help people find their moments of brilliance without the slump.</p>
+
+
+
+<p>In this interview, we talked about how to use AI for better thinking, how to practice open-mindedness and curious questioning, how to make context sharing efficient, asynchronous, and equal, how to use AI-based open-ended journaling to improve communication and focus, and much more. Enjoy the read!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Brainstory – Image 1" class="wp-image-15020" height="611" src="https://nesslabs.com/wp-content/uploads/2024/03/image-1024x611.png" width="1024" /></figure></div>
+
+
+<p><strong>Hi Lilly, thanks for agreeing to this interview! A lot of the conversation around AI tools is centered on generative AI. But you thought of another use case.</strong></p>
+
+
+
+<p>I joined the Board of Trustees at Colorado College while I was working as a machine learning engineer. When ChatGPT was released, the vast majority of our students were using it and professors were unsure what to do.</p>
+
+
+
+<p>As a technologist, I believe AI is here to stay. As an educator, I believe we have to teach the next generation how to use AI <em>well</em>. I felt like a lot of students were using AI to think <em>for </em>them, but that they still had the “itch” to problem-solve for themselves. So I wanted to create an AI tool that helped people do their best thinking, without thinking for them.</p>
+
+
+
+<p><strong>Is that what inspired you to create Brainstory?</strong></p>
+
+
+
+<p>The philosophy behind Brainstory was inspired by the head monk at a monastery where I lived as a teenager. Long story short, while I was living at the monastery, the head monk asked me a series of questions about whether I wanted to be there or not. It was the most comforting, reflective experience I’ve ever had.</p>
+
+
+
+<p>Through his open-mindedness and curious questioning, I realized that I wanted to attend college. People (and various AI tools) are so prone to <em>giving</em> advice instead of listening. There’s a lot of cheesy sayings about the answer being within us all along, but it’s totally true.</p>
+
+
+
+<p><strong>So, how does it work?</strong></p>
+
+
+
+<p>You can think of Brainstory like the monk. A non-judgmental, curious listener. You have to speak out loud because it helps you organize and clarify your thoughts. Brainstory will listen and ask follow-up questions. Through this process, you’ll discover answers you didn’t know you had.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Brainstory – Image 2" class="wp-image-15021" height="666" src="https://nesslabs.com/wp-content/uploads/2024/03/image-1-1024x666.png" width="1024" /></figure></div>
+
+
+<p><strong>How can people use Brainstory to improve their productivity?</strong></p>
+
+
+
+<p>People can do their goal-setting, project planning, and improving their overall productivity with Brainstory. Here’s an example: say that you have a pitch for what you want to write about. You can talk it out with Brainstory and use it to clarify details and topics you want to address.</p>
+
+
+
+<p>Your colleagues can then take your Brainstory and give feedback on your idea in the app, and you can get an overall view of everyone’s thoughts, and have more clarity both on what you want to write, and what you should change, faster than ever. This workflow can work for classrooms, for groups of friends, or even just for yourself.</p>
+
+
+
+<p><strong>I imagine this would be great for journaling as well.</strong></p>
+
+
+
+<p>One feature of Brainstory is called “Daily Intent”. Once a day, you can complete a Brainstory focused on your day, whether it’s reflective or planning. You’ll have the option to complete a log of behaviors as well. It’s a mix of open-ended journaling with tracking for people who want to see how Brainstory can fundamentally improve their communication and focus.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Brainstory – Image 3" class="wp-image-15022" height="562" src="https://nesslabs.com/wp-content/uploads/2024/03/image-2-1024x562.png" width="1024" /></figure></div>
+
+
+<p><strong>Sometimes it’s better to think together. What about bringing others on board to brainstorm together?</strong></p>
+
+
+
+<p>One of my favorite ways to use Brainstory is for decision-making meetings. When a decision needs to be made, the primary reason you call a meeting is so that all the relevant people can share their context, and open-ended discussion can bring out new ideas. Brainstory makes context sharing efficient, asynchronous, and above all, equal. Everyone can talk and be heard. The resulting group Brainstory serves as a source of truth for a decision to be made.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="Brainstory – Image 4" class="wp-image-15023" height="450" src="https://nesslabs.com/wp-content/uploads/2024/03/image-3-1024x450.png" width="1024" /></figure>
+
+
+
+<p><strong>A big concern with such AI-powered thinking tools is privacy and how our information can be used for training models. How does Brainstory address this concern?</strong></p>
+
+
+
+<p>We don’t use any of our customer’s sessions for training data. We understand that a lot of people are using it for very personal purposes or for work. Even internally, we cannot read the logs of your conversations. So you don’t have to worry about an AI or a human knowing what you talked about. We have a Privacy Policy as well that goes into more detail.</p>
+
+
+
+<p><strong>What kind of people use Brainstory?</strong></p>
+
+
+
+<p>People who feel like their best ideas are always on the tip of their tongue. That can be students who know what they want to write, but not how to start. This could be the developer who can feel the solution to their bug being just <em>moments </em>away. Teams who feel like their creativity can shine with just <em>one</em> more meeting– all of these people are people who use Brainstory to have their best thoughts.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Brainstory Animation" class="wp-image-15029" height="580" src="https://nesslabs.com/wp-content/uploads/2024/03/brainstory-animation-1024x580.gif" width="1024" /></figure></div>
+
+
+<p><strong>What about you, how do you use Brainstory?</strong></p>
+
+
+
+<p>Personally, I use Brainstory to make progress on my goals, like health and tennis. Long story short, I had a life altering concussion about a year ago and my overall health fell off the wayside. I needed to change my diet, ideally lose a lot of weight, and find physical activity that worked for my lifestyle. Using Brainstory, I’m able to troubleshoot my struggles, essentially acting as my own personal trainer, coach, nutritionist, and therapist.</p>
+
+
+
+<p>Professionally, I use Brainstory to pitch product features, plan team meetings, to send out company memos, and to get feedback from investors.</p>
+
+
+
+<p><strong>And finally… What’s next for Brainstory?</strong></p>
+
+
+
+<p>We’re looking to make the Brainstory experience even more magical by enabling context sharing. This means that Brainstory will be able to reference all of your past conversations to better help you pattern match and compare your progression over time. Our mission is to help people think smarter, not offload their thinking onto AI. If you have a magic idea for us, please share it in our <a href="http://brainstory.ai/discord">community Discord</a>.</p>
+
+
+
+<p><strong>Thank you so much for your time, Lilly! Where can people learn more about Brainstory?</strong></p>
+
+
+
+<p>You can sign up at <a href="https://www.brainstory.ai/">brainstory.ai</a> and where we also have a <a href="https://www.brainstory.ai/glossary">glossary</a> of terms we discussed in this interview. You can also follow us on <a href="https://www.linkedin.com/company/brainstory-ai/">LinkedIn</a> and <a href="http://tiktok.com/brainstory_ai">TikTok</a>.</p>
+<p>The post <a href="https://nesslabs.com/brainstory-featured-tool">Use AI to expand your thinking with Lilly Chen, founder of Brainstory</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 14 Mar 2024 14:38:55 +0000</pubDate>
+<pubDate>Thu, 14 Mar 2024 14:38:55 +0000</pubDate>
+</item>
+<item>
+<title>The Curiosity Conflict: Why we Struggle to Shift from Exploration to Exploitation</title>
+<link>https://nesslabs.com/curiosity-conflict?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=curiosity-conflict</link>
+<guid>https://nesslabs.com/curiosity-conflict?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=curiosity-conflict</guid>
+<content:encoded><![CDATA[
+<div> curiosity, conflict, dopamine, strategies, exploration
+<br>
+Curiosity can fuel creativity but also hinder productivity due to the conflict between exploration and exploitation. The brain's reward system, influenced by dopamine, plays a role in this struggle. Strategies to resolve this conflict include keeping a curiosity inbox, allocating time for execution, partnering with a Doing Buddy, practicing metacognition, and embracing the joy of missing out. These techniques help balance curiosity and focus, allowing individuals to turn their ideas into reality effectively.
+<br><br>总结: Curiosity can drive creativity but may lead to productivity challenges. The brain's reward system and dopamine influence the balance between exploration and execution. Strategies such as maintaining a curiosity inbox, allocating time for execution, partnering with a Doing Buddy, practicing metacognition, and embracing the joy of missing out help individuals navigate the curiosity conflict and bring their ideas to fruition. <div>
+<p>Do you always find yourself excited by new ideas and projects? Being naturally curious, you enjoy learning, discovering new insights, and developing your skills. Your curiosity is one of your greatest strengths, driving you to explore and grow.</p>
+
+
+
+<p>But that same curiosity can be a double-edged sword. With so many ideas competing for your attention, it can be hard to decide which one to pursue. You might experience choice paralysis, unable to commit to a single project because you don’t want to miss out on the others. As a result, you may find yourself starting many projects but only finishing a few.</p>
+
+
+
+<p>This is what I call the “curiosity conflict”: the phenomenon where your greatest asset for creativity—your curiosity—can get in the way of your productivity. In short:</p>
+
+
+
+<ul>
+<li>High curiosity is what allows you to generate lots of creative ideas—it makes it easy to ideate.</li>
+
+
+
+<li>High curiosity is also what makes it difficult to focus on one idea—it can make it hard to execute.</li>
+</ul>
+
+
+
+<p>The curiosity conflict can fuel a frustrating cycle that leaves you feeling stuck despite your wealth of ideas and your love for learning.</p>
+
+
+
+<h2 class="wp-block-heading">Curiosity’s Double-Edged Sword</h2>
+
+
+
+<p>Curiosity is <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4635443/">connected</a> to the brain’s reward system, which is heavily influenced by dopamine. When you encounter novel stimuli, your brain releases dopamine, which motivates you to learn more. This dopaminergic response is thought to be a key factor in the drive for exploration.</p>
+
+
+
+<p>Research has <a href="https://www.sciencedirect.com/science/article/pii/S0896627314008046">shown</a> that people with higher levels of curiosity tend to have greater activity in brain regions associated with reward processing. This heightened sensitivity to potential rewards may explain why highly curious people are more likely to engage in exploratory behavior and seek out new experiences.</p>
+
+
+
+<p>But this same reward-seeking mechanism can also contribute to difficulty focusing on a single idea or project. When presented with multiple new ideas or projects, the curious brain may <a href="https://pubmed.ncbi.nlm.nih.gov/19524091/">experience</a> a surge of dopamine in response to each potential reward. This can create a sense of excitement and a desire to explore all the possibilities, making it challenging to commit to just one path.</p>
+
+
+
+<p>In essence, the curiosity conflict arises from the brain’s struggle to shift from exploration to exploitation: the dopaminergic reward system that fuels curiosity can make it difficult to transition from the excitement of exploration to the more focused work of exploitation. How can you make that shift easier?</p>
+
+
+
+<h2 class="wp-block-heading">Resolving the Curiosity Conflict</h2>
+
+
+
+<p>The constant pull between the excitement of new ideas and the need to focus on one project is a natural part of the creative process. Fortunately, there are strategies you can use to navigate the curiosity conflict and make the most of your curious mind.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://nesslabs.com/wp-content/uploads/2024/03/curiosity-conflict-management.png"><img alt="Five Ways to Manage the Curiosity Conflict: Curiosity Inbox, Time Shielding, Doing Buddy, Metacognition, Joy of Missing Out" class="wp-image-15012" height="576" src="https://nesslabs.com/wp-content/uploads/2024/03/curiosity-conflict-management-1024x576.png" width="1024" /></a></figure>
+
+
+
+<p><strong>1. Keep a curiosity inbox.</strong> Whenever you get a new idea, write it down in a specific note or on a dedicated page in your notebook. Then, each time the idea pops back into your mind, give it a mark or increase its rating. Over time, you’ll develop a ranked list of ideas based on your long-term interests. This strategy allows you to continue exploring new ideas while also identifying which ones have the most potential for further development, which is a great way to manage your ideas without stifling your curiosity.</p>
+
+
+
+<p><strong>2. Shield time to shift from exploration to exploitation.</strong> Choose one idea from your curiosity inbox and spend an hour drafting an execution plan. Break down the idea into smaller, actionable steps and consider what resources you’ll need—time, money, support—to bring it to life. Feel free to use an <a href="https://nesslabs.com/think-with-ai">AI companion</a> to clarify your execution plan. By explicitly <a href="https://nesslabs.com/timeshielding-time-management">carving out time</a> for envisioning the shift, you’ll make it easier to move from broad exploration to focused exploitation.</p>
+
+
+
+<p><strong>3. Partner with a Doing Buddy.</strong> Steve Jobs and Steve Wozniak in the early days of Apple are a famous example of a thinking/doing duo. Jobs was the visionary thinker, while Wozniak was the engineering wizard who turned those ideas into reality. Similarly, identify someone in your network who has a knack for getting things done and partner with them to bring your idea to life.</p>
+
+
+
+<p><strong>4. Practice metacognition.</strong> Make sure to regularly reflect on your progress so you can balance exploration and exploitation. Think about ways you can focus your curiosity when executing on an idea. You can use the <a href="https://nesslabs.com/plus-minus-next">Plus Minus Next</a> method to conduct a weekly review and assess what’s working, what could be better, and where you want to direct your efforts next. The “next” column will help you recognize when you’re getting pulled in too many directions and make a conscious choice to focus.</p>
+
+
+
+<p><strong>5. Embrace the joy of missing out.</strong> Your curiosity can make you more acutely aware of the potential benefits you’re foregoing by committing to one project over others. This heightened sensitivity to missed opportunities can fuel indecision and make it harder to focus on a single idea. But having many interests is a strength, not a weakness. Remind yourself that there will always be new ideas to explore. Trust that <a href="https://nesslabs.com/jomo">you’re not missing out</a> by focusing on your current project.</p>
+
+
+
+<p>Remember, the curiosity conflict is a natural part of the creative process. By implementing these strategies—keeping a curiosity inbox, shielding time to shift from exploration to exploitation, and finding a Doing Buddy—you can leverage your curiosity while also making tangible progress on your ideas, and you’ll feel better equipped to turn your ideas into reality.</p>
+<p>The post <a href="https://nesslabs.com/curiosity-conflict">The Curiosity Conflict: Why we Struggle to Shift from Exploration to Exploitation</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 13 Mar 2024 09:19:00 +0000</pubDate>
+<pubDate>Wed, 13 Mar 2024 09:19:00 +0000</pubDate>
+</item>
+<item>
+<title>How to Build a Better Writing Habit</title>
+<link>https://nesslabs.com/writing-habit-loop?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=writing-habit-loop</link>
+<guid>https://nesslabs.com/writing-habit-loop?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=writing-habit-loop</guid>
+<content:encoded><![CDATA[
+
+<p>In 2019 I made a <a href="https://nesslabs.com/smart-goals-pact">pact</a> to write a hundred articles in a hundred workdays. Since then, I have written and published one new article almost every week, and I have kept with this cadence while running a business and studying for my PhD. This is my longest running <a href="https://nesslabs.com/personal-experiments">personal experiment</a>.</p>
+
+
+
+<p>Over the years, a few people have reached out asking how I manage to write consistently without compromising on quality, so I wanted to share some strategies to build a better writing habit. Hopefully this may inspire more people to create content they’ve been meaning to put into the world.</p>
+
+
+
+<h2 class="wp-block-heading">Writing that matters</h2>
+
+
+
+<p>All the productivity systems in the universe won’t matter if you don’t care about your writing practice. You can think of this as your <a href="https://nesslabs.com/writing-thinking-tool">writing ikigai</a>.</p>
+
+
+
+<p>In my case, I want to help people live more fulfilling lives, and I believe this can be achieved by exploring our ambitions without sacrificing our mental health. Writing, to me, is a way to get these ideas out there and to build a sustainable business while doing so.</p>
+
+
+
+<p>Every time I publish a new article, new people discover my work, sign up to the <a href="https://nesslabs.com/newsletter">newsletter</a>, and become a part of my community. Most may remain passive readers, others may contribute their own ideas, and some may even become friends or collaborators.</p>
+
+
+
+<p>While each article I write is just that⁠ — an article ⁠— every time I hit publish, this simple action compounds to build a life that makes me want to get up in the morning.</p>
+
+
+
+<p>Taking your writing practice seriously doesn’t mean you need a long-term goal. Rather, it means your writing needs to be aligned with the life you want to live — it needs to <em>feel alive to you</em>.</p>
+
+
+
+<p>So before you can build a better writing habit, you need to ask yourself how you want writing to contribute to your life. Do you want to write to clarify your thoughts, to connect with others, to support a business you care about?</p>
+
+
+
+<p>Take a few minutes to think about this question, and write it down in your journal or your note-taking app. Next, I’ll share the second important mindset shift you need to make to build a better writing habit.</p>
+
+
+
+<h2 class="wp-block-heading">Killing your inner critic</h2>
+
+
+
+<p>Many people struggle to create content on a consistent basis because they have an idealized view of what the output should look like. While it is important to put good content out and into the world, you can only improve through the process of creating.</p>
+
+
+
+<p>I previously wrote about the importance of <a href="https://nesslabs.com/brainstorming">quantity over quality</a> in the creative process. Research <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4479710/">shows</a> that the more you create, the more creative you become.</p>
+
+
+
+<p>This means that instead of working for two weeks on one piece, you’d ideally first commit to publishing several pieces following a consistent schedule. Depending on how much time you have, this could be daily, bi-weekly, or weekly.</p>
+
+
+
+<p><strong>1. Commit to a schedule.</strong> Make a simple pact in this format:</p>
+
+
+
+<pre class="wp-block-code"><code>I will write &#91;number of articles] in &#91;time scale].</code></pre>
+
+
+
+<p>The most important aspect is to stick to your pact as closely as possible so you can collect enough data to know what works and what doesn’t. So take your other commitments into account and go for a realistic schedule.</p>
+
+
+
+<p><strong>2. Tell someone about your pact.</strong> The best way I have found to achieve this level of consistency is to <a href="https://nesslabs.com/learning-in-public">commit to it publicly</a>. It doesn’t have to be very public! Just telling a friend or a colleague you’re making a pact to write regularly is a great start. You could even become accountability partners.</p>
+
+
+
+<p><strong>3. Make time to write.</strong> The last step is <a href="https://nesslabs.com/timeshielding-time-management">shielding time</a> in your calendar for reading, research, and writing. It could be a couple of hours on Sunday evening, or shorter sessions throughout the week. This way, you won’t let your inner critic decide when you’re ready to write (the answer would be: <em>never</em>).</p>
+
+
+
+<h2 class="wp-block-heading">The writing habit loop</h2>
+
+
+
+<p>Now that you’ve made a pact, let’s break it down into smaller tasks. I call this the writing habit loop. Similar to any experiment, it consists in committing to an action, performing it, reflecting on the result, and implementing any changes during the next cycle.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://nesslabs.com/wp-content/uploads/2024/03/writing-habit-loop-banner-updated.png"><img alt="" class="wp-image-15001" height="576" src="https://nesslabs.com/wp-content/uploads/2024/03/writing-habit-loop-banner-updated-1024x576.png" width="1024" /></a><figcaption class="wp-element-caption">The Writing Habit Loop</figcaption></figure></div>
+
+
+<p>Here is how I use the writing habit loop to write a new article every week:</p>
+
+
+
+<ol>
+<li><strong>Generate ideas.</strong> Jot down ideas whenever they pop up. I often have ideas when chatting with people and I often interrupt them with “wait a second, that was super interesting, let me just make a note of it.” And no, people don’t find it rude, quite the contrary! It’s quite flattering when someone thinks that what you just said is worth writing down.</li>
+
+
+
+<li><strong>Sit down and set a timer.</strong> Because you have shielded your writing time, you just need to sit down and open a new document. All of the mental energy you would have used to figure out when and where to write can be saved for the actual writing. You may also have heard about Parkinson’s law, the adage that “work expands so as to fill the time available for its completion.” Giving yourself a time limit can help you stay focused.</li>
+
+
+
+<li><strong>Choose an idea.</strong> Go through your list of ideas and pick a topic that feels alive and aligned with your current aspirations.</li>
+
+
+
+<li><strong>Create an outline.</strong> Start by writing a few bullet points based on your initial thoughts about the topic. Nobody will see this, so, again, kill your inner critic and just let your imagination flow. Ideally, you want to have 3-5 bullet points touching on different aspects of the idea. These bullet points could be as simple as: What is it about? What’s good about it? What could be better?</li>
+
+
+
+<li><strong>(optional) Conduct extra research.</strong> Depending on the topic, you may be able to just write about the topic without any further help, but often it’s useful to look it up. This is great for your readers, since you can link to further resources. But, importantly, it’s great for you: you’ll get to learn new things in the process of writing.</li>
+
+
+
+<li><strong>Re-read it once.</strong> Yes, only once. I usually re-read my articles in preview mode on my website, because seeing it with a different font and format makes it look brand new to my eyes. Just give it one good, focused re-reading, but do not spend too much time trying to make it perfect. </li>
+
+
+
+<li><strong>Hit publish.</strong> Don’t look back. Bring that baby into the world.</li>
+
+
+
+<li><strong>Share it.</strong> Try to get as much feedback as you can. Don’t be shy. Share your article with friends, on social media, or through your mailing list. Take notes whenever you receive feedback, and make sure to implement what makes sense in your subsequent articles.</li>
+</ol>
+
+
+
+<p>That’s it! You have now turned writing into a habit loop. Keep on showing up and improving through each <a href="https://nesslabs.com/growth-loops">cycle of experimentation</a>. Keep on exploring ideas that feel alive and align with your aspirations.</p>
+
+
+
+<p>When you look back in a few months or a few year, you’ll be amazed to see how much your thinking has evolved thanks to your writing habit. And maybe you’ll even make a few friends along the way.<br /></p>
+<p>The post <a href="https://nesslabs.com/writing-habit-loop">How to Build a Better Writing Habit</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 06 Mar 2024 09:29:00 +0000</pubDate>
+<pubDate>Wed, 06 Mar 2024 09:29:00 +0000</pubDate>
+</item>
+<item>
+<title>Write notes with complete freedom with Abdullah Atta, founder of Notesnook</title>
+<link>https://nesslabs.com/notesnook-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=notesnook-featured-tool</link>
+<guid>https://nesslabs.com/notesnook-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=notesnook-featured-tool</guid>
+<content:encoded><![CDATA[
+
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smarter. Abdullah Atta is the founder of <a href="https://notesnook.com/">Notesnook</a>, an open source and end-to-end encrypted note-taking app with cross-device syncing.</p>
+
+
+
+<p>Abdullah is obsessed with privacy, promising no spying and no tracking, and has designed many features to ensure your information is only accessible to who you want it to. In this interview, we talked about the value of privacy for everyone, how to balance privacy and convenience, their commitment&nbsp; to radical transparency, the power of a notes-centric approach, and much more. Enjoy the read!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Notesnook Image 1" class="wp-image-14991" height="641" src="https://nesslabs.com/wp-content/uploads/2024/02/notesnook-image-1-1024x641.png" width="1024" /></figure></div>
+
+
+<p><strong>Hi Abdullah, thanks for agreeing to this interview! You believe that privacy is for everyone, not just the privileged few. Can you tell us more about your vision?</strong></p>
+
+
+
+<p>Thank you for having me and for giving us this opportunity! The very question of how to protect your privacy online is counterproductive to the concept of privacy. Privacy shouldn’t be something you have to worry about every minute of your time online. It should come built-in as a default in every piece of technology you use. That’s what privacy for everyone means.</p>
+
+
+
+<p>Sadly, in this day and age, privacy has become a rare commodity. Almost every device nowadays has trackers, installed by the very company that built them, to spy on users and collect their data. We have 50 pages long “privacy policies” that very clearly outline how a company spies on its users and how it collects and sells user data to third parties. In short, caring about your privacy means constant worry, constant bookkeeping, and a lot of anxiety. It’s unfair but true.</p>
+
+
+
+<p>I want to change that. Privacy for everyone starts with people never even thinking that someone might steal their data because the software they use makes it technically impossible. That’s how it was before the digital age, and that’s how it should be now. We built walls around our homes not because we had something to hide but because we valued our privacy. I think it’s high time people start building walls around their digital homes. That’s my vision, and that’s why we are building Notesnook.</p>
+
+
+
+<p><strong>So privacy is a core value in how you designed Notesnook.</strong></p>
+
+
+
+<p>In Notesnook, privacy is <em>not</em> a feature but a default. You don’t have to turn on a toggle or switch some settings to ensure your privacy. It’s built right into the code and benefits every user regardless of their subscription status or their usage pattern. You can think of it like this: privacy is the foundation upon which everything else is built.</p>
+
+
+
+<p>One of our core values is to never use privacy as an excuse to compromise on user convenience. A lot of privacy invasive tools out there have an edge due to their ability to process and use user data on their powerful servers. Notesnook does not have this luxury because all your data is encrypted with a key that only you have access to. We cannot read your notes or access them in any way i.e., we have made it technically impossible for anyone to spy on you.</p>
+
+
+
+<p>Despite all these limitations we have built a robust note taking app that does everything you are used to, in a way that you are used to. In fact, most of the time, you won’t even realize that your data is encrypted, or that the app is going the extra mile to protect your privacy.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Notesnook Image 2" class="wp-image-14992" height="639" src="https://nesslabs.com/wp-content/uploads/2024/02/notesnook-image-2-1024x639.png" width="1024" /></figure></div>
+
+
+<p>Since each feature needs to be developed on the client side (which takes extra time and resources), most privacy-first software suffer a lot when it comes to feature parity. You’d be using one feature on the desktop app but won’t have access to it on the mobile app.</p>
+
+
+
+<p>Not with Notesnook. Right from the start, we have had 99% feature parity across platforms allowing you to easily switch between device form factors without worrying about this or that feature being available or not. All of that with the same privacy and security guarantees.</p>
+
+
+
+<p><strong>But how can users be sure you’re actually encrypting their data?</strong></p>
+
+
+
+<p>Well, we <em>are</em> open source. I have been waiting to say that for so long! Building trust is the single most important thing when it comes to providing a service. Even a non-private service has to take steps in order to build user trust, and that’s why we open sourced Notesnook. There’s just no other way to guarantee users’ privacy without being fully transparent.</p>
+
+
+
+<p>If at this very moment you want to be sure that your data is actually being encrypted or not, all you have to do is take a look at the source code. If even that doesn’t satisfy you, we provide a specialized open source tool for this task called <a href="https://vericrypt.notesnook.com/">Vericrypt</a>. <a href="https://vericrypt.notesnook.com/">Vericrypt</a> allows you to take the raw data that is being sent to Notesnook’s servers and decrypt it right in your browser, hence verifying that it really is encrypted.</p>
+
+
+
+<p><strong>Beyond being privacy-first, it looks like you have put lots of thought into the overall design of Notesnook.</strong></p>
+
+
+
+<p>At the end of the day any tool’s real superpower is how it helps its users be more productive. Notesnook is no exception. We have designed Notesnook to be as simple and obvious as possible. There should be no hidden surprises, no complex concepts for you to learn.</p>
+
+
+
+<p>Notesnook has a really feature-rich editor to help you make todo lists, do your finances with tables, add images (that automatically get stored privately), attach and read PDFs, and embed videos. We also allow you to use Markdown shortcuts to quickly format your notes, dedicated RTL support, and a special block for adding math and chemistry formulas.</p>
+
+
+
+<p>To add an extra layer of security and control over your notes, Notesnook has a built-in encrypted vault to help you store secrets, passwords, and other sensitive information without having to worry about prying eyes. Vault is not just a password over your notes – it also double encrypts your notes so no one can steal them.</p>
+
+
+
+<p>One of our main goals with Notesnook is to find a nice balance between features and simplicity. We don’t want to build a bloated mess that breaks apart at every second, and is slow and frustrating to use. That is why performance is one of our primary focuses. If you use Notesnook, you’ll immediately notice just how fast it is. That is not by accident.</p>
+
+
+
+<p>There are so many things in Notesnook like taking notes from the notification drawer on Android, sharing articles or text directly to Notesnook, clipping web pages, Android Home and iOS widgets etc., that will really enhance your day to day note taking experience.</p>
+
+
+
+<p><strong>A big challenge with note-taking apps is that we save things in there but then forget about them. How does Notesnook tackle this challenge?</strong></p>
+
+
+
+<p>The main way, of course, is to organize your notes in such a way that you can quickly find them later. For that we provide 3 primary ways: notebooks &amp; topics, tags, and colors. You can also pin important notes so you never lose sight of them, or add reminders to specific notes and be notified later on all your devices. Notesnook’s search is still a little flaky but we are working on that along with filters, saved searches etc.</p>
+
+
+
+<p><strong>What kind of people use Notesnook?</strong></p>
+
+
+
+<p>We have over 100,000 users from all kinds of professions using Notesnook everyday for their note taking. Developers are using Notesnook to keep track of their projects, build roadmaps, share release notes, and write documentation. I recently heard that <a href="https://nativescript.org/">NativeScript</a> has been using Notesnook for publishing their meeting minutes and agenda via Monographs.</p>
+
+
+
+<p>A lot of people are using Notesnook for habit tracking, medication reminders, bill reminders, roadmap tracking, grocery lists, reading lists, and writing documentation among other use cases. I think Notesnook is for all kinds of users but your mileage might vary.</p>
+
+
+
+<p>We have tried to make Notesnook as simple and as flexible as possible to allow all kinds of use cases. There are still limitations, though. People looking for Notion-like database features and Excel spreadsheets will be disappointed but if they are looking for a tool that is fast, simple, and efficient while protecting their privacy at all costs then Notesnook is the answer.</p>
+
+
+
+<p><strong>What about you, how do you use Notesnook?</strong></p>
+
+
+
+<p>My primary usage consists of managing Notesnook development so basically all the roadmaps, release notes, blog posts, discussions, and meeting notes are kept inside Notesnook. I also store secrets like SSH Keys, API Keys and the like (not passwords though) in the Notesnook Vault. Writing blogs inside Notesnook is also really fun because I can use the WYSIWYG editor and later directly export to Markdown or HTML.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Notesnook Image 3" class="wp-image-14993" height="640" src="https://nesslabs.com/wp-content/uploads/2024/02/notesnook-image-3-1024x640.png" width="1024" /></figure></div>
+
+
+<p><strong>How do you recommend someone get started?</strong></p>
+
+
+
+<p>I think the best way to use Notesnook is to just start using it. It really is that simple. You don’t even need to create an account. Just go to <a href="https://app.notesnook.com">app.notesnook.com</a> or install Notesnook from your device’s app store to get a feel for it. There is also <a href="https://help.notesnook.com/">detailed documentation</a> about different features with step-by-step guides on how to use them. If you are coming from another note taking app, we also provide a dedicated and officially supported <a href="https://importer.notesnook.com">Importer tool</a> to help you easily migrate.</p>
+
+
+
+<p>One thing new users find a little strange is how Notesnook is “note centric” instead of “organization centric”. In other words, you can just take your notes and worry about organizing them later as opposed to forcing you to create notebooks etc. This is intentional because more often than not organizing can get in the way of actually taking notes.</p>
+
+
+
+<p>But yeah, there really isn’t much of a learning curve to Notesnook. The UI is functional and designed primarily to get work done instead of wooing/distracting users. I believe the most useful tool is the one that doesn’t get in your way.</p>
+
+
+
+<p><strong>And finally… What’s next for Notesnook?</strong></p>
+
+
+
+<p>Notesnook still has a long way to go. We are currently working on v3 which will resolve a lot of the pain points reported by our users: tabs for multitasking, internal note linking (aka backlinking), table of contents, nested notebooks (aka folders), sidebar customization, more reliable note syncing, and better search. Aside from that, we provide a <a href="https://notesnook.com/roadmap/">detailed roadmap</a> to give our users some future perspective.</p>
+
+
+
+<p><strong>Thank you so much for your time, Abdullah! Where can people learn more about Notesnook?</strong></p>
+
+
+
+<p>Thank you! You can learn more about Notesnook by visiting our <a href="https://notesnook.com/">website</a>, <a href="https://blog.notesnook.com/">blog</a>, <a href="https://go.notesnook.com/twitter">Twitter</a>, <a href="https://go.notesnook.com/discord">Discord</a>, or <a href="https://go.notesnook.com/reddit">Reddit</a>.</p>
+<p>The post <a href="https://nesslabs.com/notesnook-featured-tool">Write notes with complete freedom with Abdullah Atta, founder of Notesnook</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 29 Feb 2024 11:56:56 +0000</pubDate>
+<pubDate>Thu, 29 Feb 2024 11:56:56 +0000</pubDate>
+</item>
+<item>
+<title>Timeshielding: How to Do the Things you Actually Want to Do</title>
+<link>https://nesslabs.com/timeshielding-time-management?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=timeshielding-time-management</link>
+<guid>https://nesslabs.com/timeshielding-time-management?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=timeshielding-time-management</guid>
+<content:encoded><![CDATA[
+
+<p>A topic that comes back often in conversations is time management. How do I write this newsletter every week, while managing a business, writing a book, and completing a PhD? Do I still have time to hang out with my friends and family? Can I share any tips around time management?</p>
+
+
+
+<h2 class="wp-block-heading">Taking control of your schedule</h2>
+
+
+
+<p>Except if we end up inventing time travel, we need to accept the fact that there are only 24 hours in a day. In order to achieve our goals, we need to be smart about how we allocate our time to different tasks and activities.</p>
+
+
+
+<p>What is urgent is often different from what is truly important. Short-term and long-term goals do not always align. What’s expected from you and what you actually want to do are not always the same. So how do you manage your time so you can achieve what matters to you while attending to your responsibilities?</p>
+
+
+
+<p>I follow three simple principles:</p>
+
+
+
+<p><strong>1. Make time for the things that matter, and not the other way around.</strong> I always take a few minutes at the beginning of the week to ensure I have time for the few key goals I’m working towards. At the moment, these are writing my book, completing my PhD, and taking care of my health. So I block time for these things, I make sure to move them if there are any overlapping meetings that were added by clients, and I feel good about knowing that I’ll have time for the things that matter.</p>
+
+
+
+<p><strong>2. Become comfortable saying “no” or “let’s do this in a few weeks.”</strong> If something is neither important, nor urgent, nor authentically aligned with what currently feels most alive, I either say no or I ask if it’s alright to chat about it in a few weeks when I might have more headspace for potentially interesting yet low-priority projects. Now, here’s the magic behind why this works: more often than not, people don’t follow up, and that’s an hour I save for things I want to work on.</p>
+
+
+
+<p><strong>3. Manage your energy, not your time.</strong> This means that instead of trying to fill your calendar with tasks to feel productive, try to keep your calendar as free as possible to allow a fluider approach to work. Move things around based on your energy levels. If you feel a spur of energy, you can decide to use the next hour to make progress on a creative project. If you feel low energy, you can reply to some unimportant emails. This is only possible if there’s enough wiggle room in your calendar.</p>
+
+
+
+<p>Those principles are at the core of how I deal with our very real <a href="https://nesslabs.com/cognitive-bottlenecks">cognitive bottlenecks</a> that put hard limits on how much we can achieve. And there is one tool that has been instrumental in my ability to apply these principles. I call it timeshielding.</p>
+
+
+
+<h2 class="wp-block-heading">How to use timeshielding to protect your time</h2>
+
+
+
+<p>Timeboxing is a common way to manage your calendar. Because it’s structured around fixed blocks of time and specific tasks, timeboxing can feel self-coercive, and many of us end up blocking time in our calendar then happily proceed to ignore these blocks.</p>
+
+
+
+<p>I use a different approach that’s more fluid and flexible. Timeshielding is about protecting blocks of time in your calendar for what matters to you, with no specific task list. This could be for research, reading, creative brainstorming, or even just doing nothing. Because timeshielding feels more fun than timeboxing, you’re less likely to ignore the blocks in your calendar.</p>
+
+
+
+<p>You can use timeshielding to achieve the following:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Timeshielding helps you protect your creativity, attention, breaks, chronotype, and rest." class="wp-image-14985" height="576" src="https://nesslabs.com/wp-content/uploads/2024/02/timeshielding-ness-labs-illustration-1024x576.png" width="1024" /></figure></div>
+
+
+<p><strong>Protect your creativity.</strong> Make room in your calendar for your <a href="https://nesslabs.com/curiosity-attractors-the-diffuse-obsessions-that-shape-our-lives">curiosity attractors</a>, the rabbit holes and the mind wandering that can lead to unexpected creative breakthroughs. Let go of outcome-based goals for a few hours every week and focus on your creative output, with no performance metric or specific result in mind, other than feeling inspired and sharing your ideas with the world.</p>
+
+
+
+<p><strong>Protect your attention.</strong> Avoid multitasking. Constantly switching between tasks has a terrible <a href="https://nesslabs.com/mindful-context-switching">effect</a> on attention. <a href="https://nesslabs.com/single-tasking">Pick one area of focus</a> and give it your full attention for the duration of the session. Remove distractions by putting your phone in another room and turning off notifications on your laptop.</p>
+
+
+
+<p><strong>Protect your breaks.</strong> It’s easy to fill your calendar with lots of things to do, without taking the time to let your brain recharge. Spend some time alone, go take a walk, meditate—whatever rocks your boat, as long as it involves getting away from your laptop and your phone. And consider putting <a href="https://nesslabs.com/structured-distraction-breaks-at-work">these breaks</a> in your calendar!</p>
+
+
+
+<p><strong>Protect your body clock.</strong> Think about the times of the day where you feel more productive. Are you more of an early bird or a night owl? If you have enough flexibility to do so, schedule your time according to your <a href="https://nesslabs.com/chronotypes">chronotype</a>, with the most important tasks happening when you’re at your highest performance levels.</p>
+
+
+
+<p><strong>Protect your rest.</strong> We tend to sacrifice rest in order to get more done. Well, that just doesn’t work. Research <a href="https://journals.sagepub.com/doi/abs/10.2466/pms.99.2.525-535">shows</a> that being sleep deprived negatively affects your performance. It’s harder to focus and harder to switch between tasks when you’re tired. So set a time to close your laptop in the evening, and stick to it so you can wind down and <a href="https://nesslabs.com/sleep-better">get enough sleep</a>.</p>
+
+
+
+<p>Timeshielding can be combined with other techniques to mindfully improve your productivity, such as using the <a href="https://nesslabs.com/moscow-method">MoSCoW method</a> to define your priorities or the <a href="https://nesslabs.com/decide-what-to-work-on-next">DECIDE framework</a> to choose what to work on next, but I found that tools don’t matter if you don’t get the fundamentals right.</p>
+
+
+
+<p>Making space for creativity, avoiding multitasking, taking breaks, aligning your work with your chronotype, and getting enough sleep—these are the most important aspects of time management if you want to achieve your long-term goals without sacrificing your mental health.</p>
+<p>The post <a href="https://nesslabs.com/timeshielding-time-management">Timeshielding: How to Do the Things you Actually Want to Do</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 27 Feb 2024 09:58:00 +0000</pubDate>
+<pubDate>Tue, 27 Feb 2024 09:58:00 +0000</pubDate>
+</item>
+<item>
+<title>Ness Labs Best Books of February 2024</title>
+<link>https://nesslabs.com/best-books-february-2024?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=best-books-february-2024</link>
+<guid>https://nesslabs.com/best-books-february-2024?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=best-books-february-2024</guid>
+<content:encoded><![CDATA[
+
+<p>Welcome to our monthly book picks. This month, we’ve gathered a mix of groundbreaking insights from neuroscience and psychology to practical advice on everyday challenges. Each book offers unique perspectives and solutions for a better understanding of ourselves and our interactions with others. Whether you’re looking to enhance your memory, explore the power of imagination, improve your mental health, or communicate more effectively, our selection will enrich your knowledge and skills in these areas. Enjoy our February selection!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://nesslabs.com/tag/books"><img alt="Ness Labs Best Books February 2024" class="wp-image-14952" height="500" src="https://nesslabs.com/wp-content/uploads/2024/02/ness-labs-best-books-february-2024-badge.png" style="width: 200px;" width="500" /></a></figure></div>
+
+
+<h2 class="wp-block-heading">Why We Remember</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img alt="Why We Remember – Ness Labs Book of the Month" class="wp-image-14955" height="1024" src="https://nesslabs.com/wp-content/uploads/2024/02/ness-labs-book-of-the-month-february-2024-1-683x1024.png" style="width: 150px;" width="683" /></figure></div>
+
+
+<p>Neuroscientist and psychologist Charan Ranganath embarks on an exploration of memory’s profound impact on our lives, challenging the traditional view of it as merely a tool for recalling the past. Through engaging anecdotes and rigorous science, Ranganath illustrates memory’s crucial role in learning, decision-making, and even in our emotional healing processes. The book breaks down complex scientific concepts into understandable insights, combined with practical tips on improving memory. It also discusses how our understanding of memory can help with issues like memory loss and personal development. Through examples from science and Ranganath’s own experiences, the book makes a compelling case for the importance of memory in our lives. It will be a useful read for anyone interested in learning more about how memory works and how to make it better.</p>
+
+
+
+<h2 class="wp-block-heading">Imagination: A Very Short Introduction</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img alt="Imagination: A Very Short Introduction – Ness Labs Book of the Month" class="wp-image-14956" height="1024" src="https://nesslabs.com/wp-content/uploads/2024/02/ness-labs-book-of-the-month-february-2024-2-683x1024.png" style="width: 150px;" width="683" /></figure></div>
+
+
+<p>Another great Oxford’s “Very Short Introduction”, this book dives into the essence of imagination as a key cognitive ability and a crucial aspect of human development. The book unpacks how imagination is involved in various aspects of human thought and how it profoundly influences our existence. Through a blend of philosophical, evolutionary, and literary insights, the author demonstrates imagination’s dual nature: it can distort reality, yet it also enriches our understanding and experience of the world. The discussion then explores its role in rational thinking, artistic creativity, scientific innovation, and everyday problem-solving. By drawing from a wide array of examples, from ancient cave paintings to modern technology and art, Jennifer Gosetti-Ferencei shows how imagination fuels not only the arts but also scientific and technological innovation. Her book offers a comprehensive overview of the theories of imagination across history and its indispensable role in human cognition.</p>
+
+
+
+<h2 class="wp-block-heading">The Balanced Brain</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img alt="The Balanced Brain – Ness Labs Book of the Month" class="wp-image-14957" height="1024" src="https://nesslabs.com/wp-content/uploads/2024/02/ness-labs-book-of-the-month-february-2024-3-683x1024.png" style="width: 150px;" width="683" /></figure></div>
+
+
+<p>Neuroscientist Camilla Nord reports on the latest scientific insights on mental health, offering an accessible guide on how the brain manages our mental well-being. She presents a compelling narrative on how the brain strives to maintain equilibrium amidst life’s ups and downs, explaining the delicate balance of neurochemicals that underpin our emotional states. The book explains how various factors — from medication to lifestyle choices such as exercise and social interactions — can significantly influence our mental health. Through a clear exploration of the neurobiology behind pleasure, pain, and desire, the author also sheds light on how therapies, both medical and non-medical, work to restore mental balance. <em>The Balanced Brain</em> provides a hopeful perspective on mental health, emphasizing the personalized nature of well-being and the vast array of strategies available for achieving it.</p>
+
+
+
+<h2 class="wp-block-heading">Supercommunicators</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img alt="Supercommunicators – Ness Labs Book of the Month" class="wp-image-14958" height="1024" src="https://nesslabs.com/wp-content/uploads/2024/02/ness-labs-book-of-the-month-february-2024-4-683x1024.png" style="width: 150px;" width="683" /></figure></div>
+
+
+<p>Charles Duhigg’s latest book focuses on the art of conversation, presenting it as a skill that can significantly enhance our interactions both professionally and personally. Drawing on a wealth of stories and studies, Duhigg reveals that effective communication is about understanding the underlying layers of every conversation: practical, emotional, and social. He illustrates this through engaging examples, from a jury room’s consensus to the challenges faced by a CIA officer and a surgeon. The book provides clear guidance on recognizing and adapting to these conversation layers, highlighting how our experiences, values, and emotions influence our communication. Duhigg’s accessible writing and practical advice aim to teach readers to listen actively and express themselves more clearly. <em>Supercommunicators</em> offers great, practical insights into turning communication into a superpower, and will be a useful read for anyone looking to improve their ability to connect with others and be better understood.</p>
+
+
+
+<h2 class="wp-block-heading">Untangle Your Emotions</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img alt="Untangle Your Emotions – Ness Labs Book of the Month" class="wp-image-14959" height="1024" src="https://nesslabs.com/wp-content/uploads/2024/02/ness-labs-book-of-the-month-february-2024-5-683x1024.png" style="width: 150px;" width="683" /></figure></div>
+
+
+<p>In her latest book, Jennie Allen offers a fresh perspective on managing emotions in a way that fosters both spiritual and personal growth. Disputing the harmful advice to suppress feelings, Allen advocates for acknowledging and exploring our emotions as a pathway to self-discovery. Drawing from scientific research and her personal experiences, she introduces a practical five-step process to understand and act on our feelings constructively. Allen challenges the misconception that emotions are inherently bad, showing instead how emotional awareness can enhance our connection with ourselves, others, and the world at large. By embracing our feelings, even the painful and confusing ones, she explains that we can expand our capacity for emotional health.</p>
+
+
+
+<p>Do you have any books to recommend for the Ness Labs Best Books series? Please let us know via the <a href="https://nesslabs.com/contact">contact form</a>. We welcome self-recommendations.</p>
+<p>The post <a href="https://nesslabs.com/best-books-february-2024">Ness Labs Best Books of February 2024</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 26 Feb 2024 09:45:57 +0000</pubDate>
+<pubDate>Mon, 26 Feb 2024 09:45:57 +0000</pubDate>
+</item>
+<item>
+<title>The Alchemy of Generative Questions</title>
+<link>https://nesslabs.com/generative-questions?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=generative-questions</link>
+<guid>https://nesslabs.com/generative-questions?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=generative-questions</guid>
+<content:encoded><![CDATA[
+
+<p>We all know that children are curious. Very curious. In fact, children ask more than a hundred questions an hour. This is how they explore, learn, and make sense of the world.</p>
+
+
+
+<p>However, researchers <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3596240/">lament</a> that “over the course of their education, students and adults ask fewer questions and more passively accept facts as <em>the way things are</em>.” This is a shame, because asking questions is a crucial skill that fuels lifelong learning and critical thinking.</p>
+
+
+
+<p>In your personal life, asking questions fosters deeper understanding and empathy which can support healthy relationships. Professionally, it drives innovation, encourages collaborative problem-solving, and leads to more informed decision-making. By not asking enough questions, we limit our potential for growth, understanding, and connection in an ever-evolving world.</p>
+
+
+
+<p>There is a type of question that yield powerful insights and allows curious minds to better connect with others and explore the world. Those are called generative questions, a kind of questions that bring together various ideas or skills from different areas of knowledge and experience.</p>
+
+
+
+<p>Generative questions do not only ask about facts, but also about feelings, underlying motivations, and cultural context. They are open-ended, multidimensional, and empathetic. They aim to <em>truly</em> understand the world.</p>
+
+
+
+<p>While asking generative questions comes more naturally to some people, it can be learned by anyone. And when you ask generative questions, you get insightful answers. That’s a skill worth investing in.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Ness Labs Illustration: Generative Questions Lead to Insightful Answers" class="wp-image-14974" height="575" src="https://nesslabs.com/wp-content/uploads/2024/02/generative-questions-banner-1024x575.png" width="1024" /></figure></div>
+
+
+<h2 class="wp-block-heading">The transformative power of generative questions</h2>
+
+
+
+<p>Without realizing it, lots of your work relies on thoughtfully crafting good questions: getting a helpful piece of information from a colleague, looking up the right thing, or probing a potential customer during a negotiation.</p>
+
+
+
+<p>Ancient philosophical traditions also teach us to ask questions with intention. Socrates is famous for his use of questioning to investigate many topics, including the validity of an assumption, the logic behind an argument, and even the nature of the unknown.</p>
+
+
+
+<p>The Buddha emphasized the importance of questioning to his disciples, and contemporary Buddhist practices continue to uphold this value.</p>
+
+
+
+<p>Beyond satisfying your curiosity, crafting better questions allows you to do your best work.<a href="https://www.hbs.edu/faculty/Publication%20Files/Huang%20et%20al%202017_6945bc5e-3b3e-4c0a-addd-254c9e603c60.pdf"> </a>Pr. Jim Euchner <a href="https://www.tandfonline.com/doi/full/10.1080/08956308.2022.2000205">explains</a> that it allows your to discover:</p>
+
+
+
+<ul>
+<li>Things that you believe that you know and which in fact you do know.</li>
+
+
+
+<li>Things you believe that you don’t know but which, in fact, you do know (if you consider them properly).</li>
+
+
+
+<li>Things that you believe that you know but in fact you do not know.</li>
+
+
+
+<li>Things that you believe that you don’t know and which you, in fact, do not know.</li>
+</ul>
+
+
+
+<p>In short, asking generative questions is a bit like being an alchemist. They have a transformative power that allows you to turn any conversation into a source of actionable information and creative insights.</p>
+
+
+
+<h2 class="wp-block-heading">How to ask generative questions</h2>
+
+
+
+<p>There is obviously no perfect recipe and a lot of your approach should depend on the complex dynamic interaction you have with the person sitting — physically or virtually — in front of you. That’s part of the “generative” aspect: thoughtfully crafting your questions based on the context and interaction.</p>
+
+
+
+<p>However, there are a few general tips that can be applied to most conversations. Here are five guidelines to keep or to start asking generative questions.</p>
+
+
+
+<ol>
+<li><strong>Know your purpose.</strong> It’s easy to get distracted during a conversation. Try to make sure that every question you ask helps you gather either facts or your interlocutor’s opinion. Avoid empty questions to fill the time. Genuinely try to know more about them, and frame your questions accordingly.</li>
+
+
+
+<li><strong>Start by listening.</strong> In the classic<a href="https://amzn.to/2zTwNPO"> </a><em>How to Win Friends and Influence People</em>, Dale Carnegie advised to “be a good listener” and to “ask questions the other person will enjoy answering.” More than eighty years later, his advice still holds true. You can’t ask generative questions if you don’t listen to what the person has to say.</li>
+
+
+
+<li><strong>Interrupt wisely.</strong> It’s not about never interrupting the person you’re chatting with. It’s about ending fewer sentences with a period, and more with a question mark. Don’t worry about asking the wrong question. Not asking enough is more detrimental to building a relationship than asking one poorly phrased question. That being said&#8230;</li>
+
+
+
+<li><strong>Use the right wording.</strong> Avoid leading questions and use a neutral tone instead. Refrain hinting at your opinion or the answer you&#8217;d like to get. If you want honest opinions or accurate information, don’t prime your interlocutor with loaded questions. Keep them open ended so they have the option of giving you an answer you didn&#8217;t expect. (closed questions are often used in manipulative surveys to get the results needed to support a specific agenda)</li>
+
+
+
+<li><strong>Build a hierarchy.</strong> Follow general questions with specific ones, focus your questions so they ask one thing at a time, and use something in the answer you got to frame your next question. This will help the conversation flow more naturally.</li>
+</ol>
+
+
+
+<p>The most important guideline to remember is simply to ask <em>more</em> questions. Of course, the tone, the framing, and the sequence of your questions will have a huge impact on the value you and your interlocutor will get from the conversation, but asking more questions is the best way to practice and ultimately get these right.</p>
+
+
+
+<p>By asking generative questions, your conversations will be more productive, but also more enjoyable. You will be able to generate better ideas and, ultimately, to <a href="https://nesslabs.com/science-of-curiosity">cultivate your curiosity</a>.</p>
+<p>The post <a href="https://nesslabs.com/generative-questions">The Alchemy of Generative Questions</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 23 Feb 2024 11:46:00 +0000</pubDate>
+<pubDate>Fri, 23 Feb 2024 11:46:00 +0000</pubDate>
+</item>
+<item>
+<title>Free-Floating Anxiety: When You Feel Anxious for No Apparent Reason</title>
+<link>https://nesslabs.com/free-floating-anxiety?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=free-floating-anxiety</link>
+<guid>https://nesslabs.com/free-floating-anxiety?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=free-floating-anxiety</guid>
+<content:encoded><![CDATA[
+
+<p>Racing pulse, tense muscles, dry mouth, restlessness, irritability, difficulty concentrating… The symptoms of anxiety are many, but sometimes we can’t pinpoint why exactly we experience this panicky feeling. Objectively, everything seems to be going well, and yet the sensations of anxiety are definitely there.</p>
+
+
+
+<p>The American Psychological Association <a href="https://dictionary.apa.org/free-floating-anxiety">refers</a> to this phenomenon as <span style="background-color: #FFFACD;">free-floating anxiety</span>, a diffuse sense of uneasiness and apprehension not directed toward any specific situation or object. Although free-floating anxiety is not recognized as a disorder, it can still be very uncomfortable.</p>
+
+
+
+            
+            
+                                        
+            
+            
+
+
+<div class="wp-block-spacer" style="height: 20px;"></div>
+
+
+
+<h2 class="gb-headline gb-headline-0db4c881 gb-headline-text">The origins of free-floating anxiety</h2>
+
+
+
+<p>Free-floating anxiety is <a href="https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1749-6632.2003.tb07096.x">believed</a> to originate from a hyperactive amygdala, the part of the brain that participates in regulating emotional responses and particularly the fear response.</p>
+
+
+
+<p>There are many reasons why the amygdala may become hyperactive, such as trauma. When someone goes through a traumatic experience, the wiring of the amygdala changes. This makes us more likely to stay in a state of high alert, always on the lookout for potential dangers — even when there are none.</p>
+
+
+
+<p>Another potential cause for free-floating anxiety is chronic stress. If you are currently experiencing high levels of stress, anxiety symptoms may pop up during what feels like the most random of times because you are unconsciously bracing yourself for more stress.</p>
+
+
+
+<p>Even though you believe you are just sitting in front of your computer, trying to study or doing work that feels fairly routine, your brain is playing a game of “what if” in the background, trying to figure out what could go wrong.</p>
+
+
+
+<p>So of course, it’s can be hard to focus and to get any work done.</p>
+
+
+
+<p>You may be thinking: I’ll just push through, surely the anxiety will eventually disappear. But unfortunately, it doesn’t work this way. Pushing through is yet another stressor. By trying to ignore your anxiety, you can end up feeling even more anxious. So, what can you do instead?</p>
+
+
+
+<h2 class="gb-headline gb-headline-fcb8a1a0 gb-headline-text">How to manage free-floating anxiety</h2>
+
+
+
+<p>There are three simple techniques you can apply to manage free-floating anxiety. I call it the <span style="background-color: #FFFACD;">Full Spectrum Reset</span> because it addresses all the factors of anxiety in order of importance, starting with emotional factors, then cognitive factors, and finally behavioral factors.</p>
+
+
+
+<h3 class="gb-headline gb-headline-959595bc gb-headline-text">1. Reset your body</h3>
+
+
+
+<p>Anxiety is a psychophysiological response. It’s your body’s way of signaling that something feels off. One of the simplest ways to deal with free-floating anxiety is to stimulate your body’s parasympathetic nervous system, which will effectively counteract the fight-or-flight response by slowing down your heart rate, reducing your blood pressure, and helping your mind relax.</p>
+
+
+
+<p>To do this, stop whatever you’re doing, and <a href="https://nesslabs.com/stretching-routine">stretch</a>. It doesn’t need to be a full-on stretching session. You don’t even need to get up if you can’t. You just need a few dynamic movements and maintaining your muscles in a position to the end of their range of motion.</p>
+
+
+
+<p>Take a deep breath, inhaling while lengthening your spine, then exhale while rotating your torso to one side, gazing over your shoulder. Repeat the spinal twist on the other side. Inhale while lengthening your body, exhale while rotating your body. Taking slow, deep breaths will help stimulate your parasympathetic nervous system.</p>
+
+
+
+<p>To finish resetting your body, drink a glass of water. Dehydration can mimic some symptoms of anxiety, such as having a dry mouth or feeling lightheaded, so staying hydrated can help manage those false triggers of anxiety.</p>
+
+
+
+<h3 class="gb-headline gb-headline-ca41b30e gb-headline-text">2. Reset your mind</h3>
+
+
+
+<p>Free-floating anxiety can arise from unconscious emotions. By naming your emotions, you will be able to better understand and manage them. This process helps in making your feelings more tangible and less overwhelming. This technique is <a href="https://journals.sagepub.com/doi/10.1177/1754073917742706">called</a> affective labeling, where by naming your emotional state you can better manage your physiological response.</p>
+
+
+
+<p>Research has found that engaging in affective labeling <a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.2007.01916.x">reduces</a> activity in the amygdala and results in higher brain activity in your prefrontal cortex, which is the part of the brain in charge of executive functioning. Just labeling your emotions will help you feel more calm and in control, and reduce the sensation of free-floating anxiety.</p>
+
+
+
+<p>The easiest way to do this is five minutes of <a href="https://nesslabs.com/dear-diary">journaling</a>. Just ask yourself: What am I feeling right now? You don’t even need to write full sentences, just a list of words that describe your emotions. For example, you could write that you’re feeling:</p>
+
+
+
+<ul>
+<li>Tense</li>
+
+
+
+<li>Worried</li>
+
+
+
+<li>Nervous</li>
+
+
+
+<li>Uneasy</li>
+
+
+
+<li>Concerned</li>
+</ul>
+
+
+
+<p>Affective labeling is literally “putting feelings into words,” It only takes a few minutes, and it’s a free, non-chemical way to increase activity in your prefrontal cortex and reduce activity in your amygdala.</p>
+
+
+
+<p>Instead of just feeling a general sense of anxiety, you may realize that what you are actually feeling stress about a deadline, or maybe you’re worried about an upcoming social event. Once you have labeled these emotions, you can start addressing them more effectively.</p>
+
+
+
+<h3 class="gb-headline gb-headline-3fc28efc gb-headline-text">3. Reset your plan</h3>
+
+
+
+<p>Free-floating anxiety can make us perceive tasks as more overwhelming than they actually are, which can make us feel stuck. Psychologically, this is a mix of “catastrophizing,” which is when we imagine the worst possible outcomes, and “analysis paralysis,” where overthinking things leads to inaction.</p>
+
+
+
+<p>To reduce the cognitive load, you need to choose an action that requires minimal mental energy and no extra planning. Look at your task list, and choose the easiest thing you can do right now — not the most urgent one, not the most important one, but really the easiest task that you can do right now.</p>
+
+
+
+<p>Is there an email you can send? A draft you can read to check for typos? Some little piece of copy you can write for social media?&nbsp;What you are looking for is a small win, something that will shift your focus to the present moment and move you from a state of paralysis to a state of action.</p>
+
+
+
+<p>There you have it, the Full Spectrum Reset: reset your body, reset your mind, reset your plan. It’s a quick and easy way to deal with those moments when you are feeling anxious for no obvious reason:</p>
+
+
+
+<ul>
+<li><strong>Reset your body.</strong>&nbsp;Stretch, breathe, and drink a glass of water.</li>
+
+
+
+<li><strong>Reset your mind.</strong>&nbsp;Journal for five minutes to label your emotions.</li>
+
+
+
+<li><strong>Reset your plan.</strong>&nbsp;Start one easy task to get unstuck.</li>
+</ul>
+
+
+
+<p>Again, those three steps should not take more than ten minutes. Anything longer may cause even more anxiety. Pressing “reset” needs to be easy and quick. The goal is to get rid of a random feeling of anxiety so you can get back on track.</p>
+<p>The post <a href="https://nesslabs.com/free-floating-anxiety">Free-Floating Anxiety: When You Feel Anxious for No Apparent Reason</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 23 Feb 2024 08:38:00 +0000</pubDate>
+<pubDate>Fri, 23 Feb 2024 08:38:00 +0000</pubDate>
+</item>
+<item>
+<title>Focus on the email that matters with Dmitri Leonov, founder of SaneBox</title>
+<link>https://nesslabs.com/sanebox-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sanebox-featured-tool</link>
+<guid>https://nesslabs.com/sanebox-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sanebox-featured-tool</guid>
+<content:encoded><![CDATA[
+
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our tools for thought series, where we interview founders on a mission to help us think better and work smarter. Dmitri Leonov is the founder of <a href="https://www.sanebox.com/">SaneBox</a>, an email management service that connects to your inbox, identifies important messages, and hides distractions.</p>
+
+
+
+<p>In this interview, we talked about email overwhelm, how AI can help us take back control of our inbox, the benefits of combining email management and time management, the myth of inbox zero, how to rediscover lost connections in your inbox, and much more. Enjoy the read!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Sanebox - Image 1" class="wp-image-14918" height="575" src="https://nesslabs.com/wp-content/uploads/2024/02/sanebox-image-1-1024x575.png" width="1024" /></figure></div>
+
+
+<p><strong>Hi Dmitri, thanks for agreeing to this interview! Why do you think we need to change our relationship to email?</strong></p>
+
+
+
+<p>People spend a huge portion of their time and energy managing email. <a href="https://www.youtube.com/watch?v=kRsUZK6Q2mc">According to Google</a>, the average person checks their email 11 times per hour, processes 122 messages a day, and spends more than a quarter (28%) of their work week managing their inbox – and managers spend a whopping 50% of their time on emails that they either don’t need to answer or that shouldn’t have been sent to them to begin with!</p>
+
+
+
+<p>Now, there’s no denying that email has become an integral part of everyone’s workflow. But the time and energy needed to effectively manage reading, responding to, organizing, and deleting emails can feel completely overwhelming, leading to increased stress and anxiety – which can ultimately have a negative impact on both productivity and job satisfaction.</p>
+
+
+
+<p>We need to change this unhealthy relationship to email. While email is a necessity, email overwhelm is not. There is a better way to manage emails – and to do so in a way that doesn’t make people feel stressed, anxious, and overwhelmed.</p>
+
+
+
+<p><strong>And that’s what inspired you to create SaneBox.</strong></p>
+
+
+
+<p>It is. Back in 2010, I, along with a small team, were looking for our next project. We did some research on email overload and it was clear that tackling that issue was the best way we could provide real value to our future clients. So, when we started SaneBox, we created a set of principles for what the ultimate product would need to deliver.&nbsp;</p>
+
+
+
+<p>Those rules were that the customer doesn&#8217;t have to do or learn anything, it has to work everywhere people check their email today, to be as secure as humanly possible, to get better over time, and to be valuable enough for people to be happy to pay for. Those principles were the guiding force in SaneBox’s development.</p>
+
+
+
+<p><strong>Those are solid principles. Now, how does Sanebox actually work?</strong></p>
+
+
+
+<p>SaneBox leverages proprietary AI to filter and organize emails, automatically placing unwanted, unnecessary, or unimportant emails into separate folders – so when you open your inbox, all you see are the most important, urgent emails that need your immediate attention.</p>
+
+
+
+<p>In addition to the platform’s standard platforms, SaneBox also allows you to create custom folders for your own preferred email categories – and then automatically filters them into those folders so they’re there when you need them.</p>
+
+
+
+<p>SaneBox helps you organize your inbox – but it comes equipped with features that also make it easier to manage your inbox, like a “do not disturb” option that allows you to temporarily disable email notifications so you can carve out time for focused work and automatic reminders that let you know when it’s time to follow up on an email.</p>
+
+
+
+<p>Basically, SaneBox allows you to receive and send emails when you want, how you want, and where you want – all without having to lift a finger.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Sanebox - Image 2" class="wp-image-14919" height="575" src="https://nesslabs.com/wp-content/uploads/2024/02/sanebox-image-3-1024x575.png" width="1024" /></figure></div>
+
+
+<p><strong>This sounds great. But what if we receive too many emails in the first place?</strong></p>
+
+
+
+<p><a href="https://www.radicati.com/wp/wp-content/uploads/2023/04/Email-Statistics-Report-2023-2027-Executive-Summary.pdf">Recent data</a> projects that 361.6 billion emails will be sent in 2024 – so I think it’s safe to say that most of us are dealing with too many emails.</p>
+
+
+
+<p>SaneBox is equipped with a variety of features that allow you to minimize the number of emails that hit your inbox; manage distracting, unnecessary, and unimportant messages; and get rid of unwanted or annoying emails, companies, and senders for good – like:</p>
+
+
+
+<p>Many emails that come in are emails you want to read – just not immediately. <a href="https://www.sanebox.com/help/146-sanelater-what-to-do-with-my-sanelater">SaneLater</a> stores those emails so you can get to them on your own timeline – and will also send you a daily summary of what you missed.</p>
+
+
+
+<p><a href="https://www.sanebox.com/help/235-saneblackhole-what-do-i-do-with-my-saneblackhole-folder">SaneBlackHole</a> allows you to get rid of unwanted emails in one click – and once you make that click, you’ll never receive another message from that sender again, which is perfect for banishing people or companies you’re not interested in from your inbox.</p>
+
+
+
+<p>Leaders and managers are often CC’d on messages that are more FYI than actionable. And many of those messages they don’t actually need to respond to, which can clog up their inbox and keep them from seeing their most important or urgent emails. <a href="https://www.sanebox.com/help/203-what-is-sanecc">SaneCC</a> allows you to filter out emails you’re CC’d on so they don’t hit your inbox – but you can still access them if and when you want to give them a read.</p>
+
+
+
+<p><strong>It sounds like you’ve combined email management and time management.</strong></p>
+
+
+
+<p>Absolutely. SaneBox isn’t just about organizing your inbox; it’s about optimizing your relationship with email and saving you time and energy so you can focus on more important things. On average, SaneBox saves users 2.5 hours each week.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Sanebox - Image 3" class="wp-image-14920" height="575" src="https://nesslabs.com/wp-content/uploads/2024/02/sanebox-image-2-1024x575.png" width="1024" /></figure></div>
+
+
+<p>SaneBox offers a number of features that can help you save time on inbox management. First, as mentioned, <a href="https://www.sanebox.com/help/340-sanedonotdisturb-what-do-i-do-with-that-folder">SaneDoNotDisturb</a> allows you to put your inbox in “Do Not Disturb” mode so you can focus on work without any distractions.</p>
+
+
+
+<p>Some emails are important and actionable – just not immediately. With <a href="https://www.sanebox.com/help/160-snooze-folders-create-custom-snooze-folders-to-hold-defer-mail-for-a-specialized-length-of-time">SaneSnooze,</a> you can defer emails to a future time, either by using preset folders (like SaneTomorrow or SaneNextWeek) or by creating custom folders that will deliver the emails back into your inbox on your chosen date and time.</p>
+
+
+
+<p>Finally, keeping track of sent emails can be time-consuming. <a href="https://www.sanebox.com/help/139-reminders-overview-what-are-sanereminders-and-how-do-they-work">SaneReminders</a> will let you know if an email you’ve sent hasn’t been responded to in a certain time frame – and will give you a nudge to remind you to follow up.</p>
+
+
+
+<p>Basically, SaneBox takes away a huge amount of the mental energy needed to effectively manage your inbox – so you can put that mental energy towards the things that matter most.</p>
+
+
+
+<p><strong>What about sorting through existing email?</strong></p>
+
+
+
+<p>With SaneBox’s AI, you can also train the platform to better sort your emails. Each day, SaneBox sends a Daily Digest of recent SaneLater emails; from there, you can train the AI on different ways to sort future messages.</p>
+
+
+
+<p>For example, if there’s an email that you’d prefer to land in your inbox, you can train SaneBox to send it there (either once or indefinitely) – while if an email you have no interest in seeing ends up in your Digest, you can train the AI to automatically send future emails to SaneBlackHole.</p>
+
+
+
+<p>You can also create custom folders for emails you get frequently – like SaneBills, SaneReceipts, or SaneFamily – and train the AI to automatically send related emails to those folders in the future.</p>
+
+
+
+<p>The Daily Digest also lets you delete and/or archive emails from specific senders – which again, will train the AI on how to deal with future emails from said sender.</p>
+
+
+
+<p><strong>Another aspect that makes SaneBox different is that it doesn’t require you to switch to a new email client.</strong></p>
+
+
+
+<p>That’s right. SaneBox works with any email service that provides IMAP, EWS &#8211; OWA, or Active Sync, such as Yahoo! Mail, Gmail, AOL, iCloud, MS Exchange, Microsoft 365, Fastmail, Amazon WorkMail, and many others.</p>
+
+
+
+<p>You can also use SaneBox anywhere you check your email, whether that’s a PC or Mac, desktop, tablet, or mobile.</p>
+
+
+
+<p><strong>SaneBox can also help you rediscover lost connections. Can you tell us more?</strong></p>
+
+
+
+<p>Yes! <a href="https://www.sanebox.com/help/111-what-is-saneconnect-and-how-does-it-work?utm_campaign=learn&amp;utm_medium=website&amp;utm_source=internal">SaneConnect</a> allows people to rediscover lost connections at other companies – as well as see if any of their colleagues have connections there as well. This tool can empower anyone to be a salesperson by delivering warm leads and reminding them of connections already made (put potentially lost) – which is a much more effective strategy than cold outreach.</p>
+
+
+
+<p><strong>What kind of people use SaneBox?</strong></p>
+
+
+
+<p>SaneBox is a fit for anyone who sends and receives email and is looking for a way to help them better manage, organize, and prioritize their messages, including managers, founders, executives, small business owners, entrepreneurs, individual contributors… Really everyone who deals with email overwhelm (and these days, who doesn’t?) can benefit from SaneBox’s features.</p>
+
+
+
+<p><strong>What about you, how do you use SaneBox?</strong></p>
+
+
+
+<p>In addition to all of SaneBox’s features, one strategy I use to more efficiently manage my inbox is calendar blocking. My first email blog is in the morning; I scan my inbox at the start of the day and identify the most important, urgent stuff – and then I deal with that first. My goal is to get the top priorities out of the way first thing. That way, I can clear it from my mind and to-do list and not waste energy thinking about it.</p>
+
+
+
+<p>My other email block happens at the end of the day. During that time, I clear out messages I don’t need to get closer to Inbox Zero. I also use SaneSnooze to remove emails that don’t need my immediate attention so they’ll pop back in my inbox when I need to manage them.</p>
+
+
+
+<p>I rarely get to Inbox Zero. But with SaneBox and my approach to email, Inbox 15 is a pretty regular occurrence.</p>
+
+
+
+<p><strong>And finally… What’s next for SaneBox?</strong></p>
+
+
+
+<p>Our company mission is to “think outside the inbox.” And we plan to continue doing that – including with an upcoming iOs app and a new features release later this year.</p>
+
+
+
+<p><strong>Thank you so much for your time, Dmitri! Where can people learn more about SaneBox?</strong></p>
+
+
+
+<p>You can learn more and connect with SaneBox on <a href="https://www.sanebox.com/">our website</a> and social media channels on <a href="https://twitter.com/sanebox">Twitter/X</a>, <a href="https://www.instagram.com/teamsanebox/">Instagram</a>, <a href="https://www.tiktok.com/@sanebox">TikTok</a>, <a href="https://www.facebook.com/SaneBox/">Facebook</a>, and <a href="https://www.linkedin.com/company/sanebox">LinkedIn</a>.</p>
+<p>The post <a href="https://nesslabs.com/sanebox-featured-tool">Focus on the email that matters with Dmitri Leonov, founder of SaneBox</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 22 Feb 2024 15:36:48 +0000</pubDate>
+<pubDate>Thu, 22 Feb 2024 15:36:48 +0000</pubDate>
+</item>
+<item>
+<title>The Curiosity Matrix: 9 Habits of Curious Minds</title>
+<link>https://nesslabs.com/curiosity-matrix?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=curiosity-matrix</link>
+<guid>https://nesslabs.com/curiosity-matrix?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=curiosity-matrix</guid>
+<content:encoded><![CDATA[
+
+<p>All healthy human babies and young children display curiosity, suggesting this is an innate human trait. Exploring our environment and babbling questions appear almost universal in early childhood across cultures.</p>
+
+
+
+<p>As an adaptive trait, curiosity draws us to seek information and new experiences. It’s how we learn about ourselves, others, and the world.</p>
+
+
+
+<p>However, research shows our degree and focus of curiosity can even vary a lot. Curiosity differs <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4635443/">between</a> people, it evolves within one same person over the <a href="https://psycnet.apa.org/record/1992-19451-001">course of their lifespan</a>, and it can even fluctuate <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7067659/">throughout the day</a>.</p>
+
+
+
+<p>Some people tend to be more systematically curious than others. Those curious minds are generally adventurous, creative, less risk-averse, and seem to seek and enjoy exploration more than others.</p>
+
+
+
+<p>They’re a diverse group of people, but the literature suggests that they share some common habits that support their personal and professional growth.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Curiosity Matrix: 9 Habits of Curious Minds" class="wp-image-14906" height="576" src="https://nesslabs.com/wp-content/uploads/2024/02/curiosity-matrix-curious-minds-ness-labs-framework-1024x576.png" width="1024" /><figcaption class="wp-element-caption"><em>The Curiosity Matrix</em></figcaption></figure></div>
+
+
+<p><strong>1. Seeking liminal spaces.</strong> Curious minds are not only comfortable in the in-betweens, they actively seek out those transitional moments of personal growth. Rather than racing through the uncomfortable phase of not-knowing, they enjoy <a href="https://nesslabs.com/liminal-creativity">exploring the gap</a> between what they know and what they don’t know. They can fall in love with problems and revel in what poet Mary Oliver calls “the pleasure of mystery.”</p>
+
+
+
+<p><strong>2. Forming connections between ideas.</strong> Instead of thinking about the world in a linear way, curious minds <a href="https://nesslabs.com/thinking-in-maps">think in maps</a>. They practice <a href="https://nesslabs.com/networked-thinking">networked thinking</a> and <a href="https://nesslabs.com/combinational-creativity">combinational creativity</a>, and find delight when discovering an unexpected connection between two ideas. Their <a href="https://nesslabs.com/mind-garden">mind is a garden</a> and the world a giant playground where ideas can seed their imagination.</p>
+
+
+
+<p><strong>3. Asking generative questions.</strong> For curious minds, every interaction is an opportunity to learn. Exchanging <a href="https://nesslabs.com/generative-questions">generative questions</a> is one of their favorite modes of communication. They not only ask about facts, but also about feelings, underlying motivations, and cultural context. Their questions are open-ended, multidimensional, and empathetic. Some of them even keep a list of their <a href="https://nesslabs.com/favorite-problems">favorite questions</a>.</p>
+
+
+
+<p><strong>4. Exploring new interests.</strong> Because the world is full of potential <a href="https://nesslabs.com/curiosity-attractors">curiosity attractors</a>, curious minds have many interests which may not always overlap. However, it can be hard to channel their curiosity, and the fleeting urge to explore something new just for the sake of novelty can sometimes lead to distraction.</p>
+
+
+
+<p><strong>5. Learning in public.</strong> Although it can be scary, curious minds make it a point to admit when they don’t know. Instead of trying to be the expert in the room, they consider themselves <a href="https://nesslabs.com/lifelong-learning">lifelong learners</a>. They are willing to be wrong. And they generously <a href="https://nesslabs.com/learning-in-public">share what they learned</a> with fellow curious minds.</p>
+
+
+
+<p><strong>6. Challenging the default.</strong> Anything that seems obvious on the surface can become a topic of investigation for curious minds. They wonder about the reality of <a href="https://nesslabs.com/default-definitions">default definitions</a> and test their assumptions through <a href="https://nesslabs.com/personal-experiments">experimentation</a>.</p>
+
+
+
+<p><strong>7. Listening with compassion.</strong> Because they want to deeply understand the world and others around them, curious minds tend to be empathetic. They try to listen without judgment and to embody the <a href="https://www.penguinrandomhouse.ca/books/74750/the-heart-of-the-buddhas-teaching-by-thich-nhat-hanh/9780767903691">words</a> of Thích Nhất Hạnh: “If we cannot listen mindfully, we cannot practice right speech. No matter what we say, it will not be mindful, because we’ll be speaking only our own ideas and not in response to the other person.”</p>
+
+
+
+<p><strong>8. Approaching difficult experiences with self-compassion.</strong> Any thought or emotion can be the seed of self-discovery for curious minds. Even without knowing the scientific terms for these habits, they practice <a href="https://nesslabs.com/metacognition">metacognition</a> to interrogate the thoughts that arise in their mind and <a href="https://nesslabs.com/interoception">interoception</a> to understand the sensations that arise in their body. They do not try to suppress these signals, but treat them as a helpful source of information.</p>
+
+
+
+<p><strong>9. Welcoming the unpredictable.</strong> For curious minds, the fact that the world keeps on changing is a feature, not a bug. They believe that their response determines how much disruptions affect them, and they choose to respond with curiosity. They <a href="https://nesslabs.com/chaos-surfing">surf with chaos</a> to not only survive, but to thrive in chaotic times.</p>
+
+
+
+<p>Curiosity has many <a href="https://nesslabs.com/science-of-curiosity">benefits</a> – it keeps you young, it helps you learn, and it foster better relationships. Injecting a little bit of curiosity into your life goes a long way.</p>
+
+
+
+<p>The good news is, anyone can (re)learn to be more systematically curious in all areas of their lives. Although some studies <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006322307003277">indicate</a> that curiosity may have a genetic component (DRD4-7R has been dubbed the “wanderlust gene”), most researchers <a href="https://link.springer.com/article/10.1007/s11191-018-0015-7">agree</a> that curiosity can be nurtured.</p>
+
+
+
+<p>A first step is to go through the nine habits in the Curiosity Matrix and ask yourself: how habitual are these practices in my daily life? What is one habit I can start building today to nurture my curiosity?</p>
+<p>The post <a href="https://nesslabs.com/curiosity-matrix">The Curiosity Matrix: 9 Habits of Curious Minds</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 20 Feb 2024 10:17:00 +0000</pubDate>
+<pubDate>Tue, 20 Feb 2024 10:17:00 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
