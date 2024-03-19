@@ -4,6 +4,103 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>03-11~03-17.老胡的周刊（第133期）</title>
+<link>https://meta.appinn.net/t/topic/54051</link>
+<guid>https://meta.appinn.net/t/topic/54051</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#oh-my-rimehttpsgithubcommintimateoh-my-rime-2" name="oh-my-rimehttpsgithubcommintimateoh-my-rime-2"></a><a href="https://github.com/Mintimate/oh-my-rime" rel="noopener nofollow ugc">oh-my-rime</a></h3>
+<p>一套快速初始化开源输入法 <code>Rime</code> 的模板方案，跨平台支持 <code>Win macOS Linux</code>：</p>
+<p><img alt="oh-my-rime" height="388" src="https://images-1252557999.file.myqcloud.com/uPic/oh-my-rime.webp" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#mediacrawlerhttpsgithubcomnanmicodermediacrawler-3" name="mediacrawlerhttpsgithubcomnanmicodermediacrawler-3"></a><a href="https://github.com/NanmiCoder/MediaCrawler" rel="noopener nofollow ugc">MediaCrawler</a></h3>
+<p>基于 <code>playwright</code> 的小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 | 评论爬虫、微博帖子 | 评论爬虫：</p>
+<p><img alt="MediaCrawler" height="231" src="https://images-1252557999.file.myqcloud.com/uPic/MediaCrawler.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#v2rayahttpsgithubcomv2rayav2raya-4" name="v2rayahttpsgithubcomv2rayav2raya-4"></a><a href="https://github.com/v2rayA/v2rayA" rel="noopener nofollow ugc">v2rayA</a></h3>
+<p><code>v2rayA</code> 是一个支持全局透明代理的 <code>V2Ray</code> 客户端，同时兼容 <code>SS、SSR、Trojan(trojan-go)、Tuic &amp; Juicity</code> 协议， 致力于提供最简单的操作，满足绝大部分需求，得益于 Web 客户端的优势，你不仅可以将其用于本地计算机，还可以轻松地将它部署在路由器或 NAS 上。</p>
+<p><img alt="v2rayA" height="431" src="https://images-1252557999.file.myqcloud.com/uPic/v2rayA.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#chatniohttpsgithubcomdeeptrain-communitychatnio-5" name="chatniohttpsgithubcomdeeptrain-communitychatnio-5"></a><a href="https://github.com/Deeptrain-Community/chatnio" rel="noopener nofollow ugc">chatnio</a></h3>
+<p><img alt=":rocket:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/rocket.png?v=12" title=":rocket:" width="20" /> 下一代 AI 一站式解决方案，一站式 Chat + 中转 API 站点，支持 OpenAI，Midjourney，Claude，讯飞星火，Stable Diffusion，DALL·E，ChatGLM，通义千问，腾讯混元，360 智脑，百川 AI，火山方舟，新必应，Gemini，Moonshot 等模型，支持对话分享，自定义预设，云端同步，模型市场，支持弹性计费和订阅计划模式，支持图片解析，支持联网搜索，支持模型缓存，丰富美观的后台管理与仪表盘数据统计。</p>
+<p><img alt="chatnio" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/chatnio.png" width="683" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#apkupdaterhttpsgithubcomrumboallaapkupdater-7" name="apkupdaterhttpsgithubcomrumboallaapkupdater-7"></a><a href="https://github.com/rumboalla/apkupdater" rel="noopener nofollow ugc">apkupdater</a></h3>
+<p><code>APKUpdater</code> 是一个开源工具，它能让你轻松追踪和更新你的 <code>APK</code> 应用。<br />
+它提供类似于应用商店的功能，但不依赖于单一来源，而是把 <code>APKMirror、Aptoide、F-Droid、IzzyOnDroid、APKPure、GitLab、GitHub</code> 这 7 大平台的应用资源都聚合在一起：</p>
+<p><img alt="apkupdater" height="330" src="https://images-1252557999.file.myqcloud.com/uPic/apkupdater.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#epubpresshttpsepubpress-8" name="epubpresshttpsepubpress-8"></a><a href="https://epub.press/" rel="noopener nofollow ugc">EpubPress</a></h3>
+<p><code>EpubPress</code> 是一个适用于 <code>Chrome&amp;Firefox</code> 的浏览器扩展，可以将您喜爱的网络内容转换为电子书：</p>
+<p><img alt="EpubPress" height="247" src="https://images-1252557999.file.myqcloud.com/uPic/EpubPress.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#olauncherhttpsgithubcomtanujnotesolauncher-9" name="olauncherhttpsgithubcomtanujnotesolauncher-9"></a><a href="https://github.com/tanujnotes/Olauncher" rel="noopener nofollow ugc">Olauncher</a></h3>
+<p>适用于 <code>Android</code> 的最小 <code>AF</code> 启动器。减少您在屏幕上浪费的时间，提供日常壁纸，非常优雅简洁，效果上来看适合英文用户：</p>
+<p><img alt="Olauncher" height="417" src="https://images-1252557999.file.myqcloud.com/uPic/Olauncher.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#sunnypageshttpsgithubcomxmulisunnypages-10" name="sunnypageshttpsgithubcomxmulisunnypages-10"></a><a href="https://github.com/XMuli/sunnypages" rel="noopener nofollow ugc">sunnypages</a></h3>
+<p><code>Sunny</code> 截图是一款简洁且漂亮的截图的软件工具，支持 <code>Windows，MacOS，Linux</code> 平台。亦支持图片翻译和 <code>OCR</code>：</p>
+<p><img alt="sunnypages" height="376" src="https://images-1252557999.file.myqcloud.com/uPic/sunnypages.jpg" width="689" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#paperlibhttpsgithubcomfuture-scholarspaperlib-11" name="paperlibhttpsgithubcomfuture-scholarspaperlib-11"></a><a href="https://github.com/Future-Scholars/paperlib" rel="noopener nofollow ugc">Paperlib</a></h3>
+<p>一个简单好用的开源论文管理工具，全平台支持：</p>
+<ul>
+<li>为多学科定制元数据搜索器，尤其是 <code>CS</code> 学科，<code>及其精准的会议论文metadata</code> 匹配。</li>
+<li><code>macOS spotlight</code> 一样的快速复制粘贴 bibtex 引用。</li>
+<li>支持插件。</li>
+<li>干净整洁的 <code>UI</code>。</li>
+<li>订阅 <code>RSS</code> 获取最新论文</li>
+<li>全文搜索，评价，星标，标签，组，<code>MD</code> 纯文本笔记等</li>
+<li>云同步，三平台支持：<code>macOS, Windows, Linux</code></li>
+</ul>
+<p><img alt="paperlib" height="455" src="https://images-1252557999.file.myqcloud.com/uPic/paperlib.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-12" name="h-12"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#uxbaikehttpsuxbaikecom-13" name="uxbaikehttpsuxbaikecom-13"></a><a href="https://uxbaike.com/" rel="noopener nofollow ugc">uxbaike</a></h3>
+<p>UX 百科，属于设计师的专业知识库：</p>
+<p><img alt="uxbaike" height="405" src="https://images-1252557999.file.myqcloud.com/uPic/uxbaike.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#web-development-historyhttpswebdevelopmenthistorycomindex-14" name="web-development-historyhttpswebdevelopmenthistorycomindex-14"></a><a href="https://webdevelopmenthistory.com/index/" rel="noopener nofollow ugc">Web Development History</a></h3>
+<p><code>Web</code> 开发发展史文章系列：</p>
+<p><img alt="wdh" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/wdh.jpg" width="575" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-15" name="h-15"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#httpswwwfre123comsprefweekly-16" name="httpswwwfre123comsprefweekly-16"></a><a href="https://www.fre123.com/sp?ref=weekly" rel="noopener nofollow ugc">短剧搜索引擎</a></h3>
+<p>比较全面的短剧搜索引擎，数据在夸克网盘，转存即可免费观看全部：</p>
+<p><img alt="sp" height="424" src="https://images-1252557999.file.myqcloud.com/uPic/sp.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#httpsdrugsdxycnpc-17" name="httpsdrugsdxycnpc-17"></a><a href="https://drugs.dxy.cn/pc" rel="noopener nofollow ugc">用药助手</a></h3>
+<p>丁香园旗下品牌，诊疗顾问｜搜疾病，看诊疗方案，基于循证医学的临床诊疗决策工具，为临床医生提供专业、靠谱的疾病诊疗思路和用药方案：</p>
+<p><img alt="yyzs" height="445" src="https://images-1252557999.file.myqcloud.com/uPic/yyzs.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#httpswwwshidiangujicom-18" name="httpswwwshidiangujicom-18"></a><a href="https://www.shidianguji.com/" rel="noopener nofollow ugc">识典古籍</a></h3>
+<p>识典古籍 – 古籍在线阅读平台，北大和抖音合作开发的古籍阅读网站：</p>
+<p><img alt="shidianguji" height="352" src="https://images-1252557999.file.myqcloud.com/uPic/shidianguji.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#findpnghttpswwwfindpngcom-19" name="findpnghttpswwwfindpngcom-19"></a><a href="https://www.findpng.com/" rel="noopener nofollow ugc">FindPng</a></h3>
+<p>一个免费的由 <code>AI</code> 驱动的透明 <code>PNG</code> 图像生成器，输入关键词就可以生成透明的图像：</p>
+<p><img alt="findpng" height="341" src="https://images-1252557999.file.myqcloud.com/uPic/findpng.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-20" name="h-20"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li>公众号：<a href="https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg" rel="noopener nofollow ugc">老胡的储物柜</a></li>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，对周刊的信息补充，会分享更多的资源，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li><a href="https://weekly.fre123.com/" rel="noopener nofollow ugc">https://weekly.fre123.com/</a>：老胡收集了国内外60+优质技术周刊进行信息聚合<img alt=":fire:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fire.png?v=12" title=":fire:" width="20" /></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">老胡的信息周刊</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54051">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 19 Mar 2024 13:36:30 +0000</pubDate>
+<pubDate>Tue, 19 Mar 2024 13:36:30 +0000</pubDate>
+</item>
+<item>
+<title>有甚麼簡單的文字轉顏色的算法？</title>
+<link>https://meta.appinn.net/t/topic/54052</link>
+<guid>https://meta.appinn.net/t/topic/54052</guid>
+<content:encoded><![CDATA[
+
+<p>Windows Terminal可以通過–tabColor指點標簽的顏色，那麼問題來了，有甚麼簡單好寫的算法把「目錄名」轉成十六進制顏色代碼？</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54052">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 19 Mar 2024 13:44:24 +0000</pubDate>
+<pubDate>Tue, 19 Mar 2024 13:44:24 +0000</pubDate>
+</item>
 
 <item>
 <title>自荐：辅助输入法切换工具-KeyboardHolder</title>
