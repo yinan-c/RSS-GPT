@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Web Excursions for March 19, 2024</title>
 <link>https://brett.trpstra.net/link/535/16624673/web-excursions-for-march-19-2024</link>
 <guid>https://brett.trpstra.net/link/535/16624673/web-excursions-for-march-19-2024</guid>
 <content:encoded><![CDATA[
 <div> Deckset, Markdown, OCR, Ground News, CleanShot X
-<br><br>总结:
+<br /><br />总结:
 文章介绍了一些最新的网络资源和工具。其中提到了Deckset推出iOS版本，用户可以使用Markdown在iPhone/iPad上创建演示文稿。另外推荐了一款基于Markdown的演示工具，可能比Deckset更好。还介绍了一个只适用于macOS 13+的简单命令行工具，可以使用内置的OCR和转录框架。提到了Ground News这个工具，可以帮助用户了解不同观点的新闻，打破信息茧房。最后作者推荐了CleanShot X用于截图和录屏。文章结尾提到网站受到读者支持，保留所有材料版权。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -42,9 +43,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16624673.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-03-19T10:33:00-05:00</pubDate>
-<pubDate>2024-03-19T10:33:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Build a custom URL shortener</title>
 <link>https://brett.trpstra.net/link/535/16621740/build-a-custom-url-shortener</link>
