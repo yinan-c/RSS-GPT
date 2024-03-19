@@ -4,6 +4,46 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for March 19, 2024</title>
+<link>https://brett.trpstra.net/link/535/16624673/web-excursions-for-march-19-2024</link>
+<guid>https://brett.trpstra.net/link/535/16624673/web-excursions-for-march-19-2024</guid>
+<content:encoded><![CDATA[
+<div> Deckset, Markdown, OCR, Ground News, CleanShot X
+<br><br>总结:
+文章介绍了一些最新的网络资源和工具。其中提到了Deckset推出iOS版本，用户可以使用Markdown在iPhone/iPad上创建演示文稿。另外推荐了一款基于Markdown的演示工具，可能比Deckset更好。还介绍了一个只适用于macOS 13+的简单命令行工具，可以使用内置的OCR和转录框架。提到了Ground News这个工具，可以帮助用户了解不同观点的新闻，打破信息茧房。最后作者推荐了CleanShot X用于截图和录屏。文章结尾提到网站受到读者支持，保留所有材料版权。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with CleanShot X, the absolute, hands-down best app for Mac screenshots. <a href="https://cleanshot.sjv.io/DKRzyd">Get one of my all-time favorite apps here.</a></p>
+
+<dl>
+  <dt><a href="https://apps.apple.com/us/app/deckset/id6476942011?ign-itscg=30200&amp;ign-itsct=apps_box_link">Deckset on the App Store</a></dt>
+  <dd>Just when I thought Deckset was dead, an iOS version is announced. Create presentations using Markdown, now on your iPhone/iPad.</dd>
+  <dt><a href="https://ia.net/presenter">iA Presenter</a></dt>
+  <dd>A newer option for Markdown-based presentations (from the creators of iA Writer and based on the same engine) that I think this might be even better than Deckset. Going to give it a test run for a while, but off the bat it looks really slick.</dd>
+  <dt><a href="https://github.com/freedmand/textra">freedmand/textra</a></dt>
+  <dd>macOS 13+ only, a simple command line interface to the OS&rsquo;s built-in OCR and transcription frameworks. The OCR works really well. Really, really well (I&rsquo;m using it to add automatic ALT tags to <a href="https://dimspire.me/">Dimspirations</a> and it deals with text in crazy fonts on crazy backgrounds). I haven&rsquo;t gone far with testing the audio transcription, but I have high expectations.</dd>
+  <dt><a href="https://ground.news/">Ground News</a></dt>
+  <dd>This is advertised on almost every YouTube channel I subscribe to, so I decided to check it out. It&rsquo;s really good. If you want to break out of your news bubble and understand what the other side is hearing and thinking, Ground News provides all kinds of tools for doing so. Highly recommended. I&rsquo;m trying to get my parents to use it, but even if they don&rsquo;t, it helps me see the headlines that are going to affect them in their bubble so I&rsquo;m not shocked when topics come up that I&rsquo;ve seen no trace of previously.</dd>
+</dl>
+
+<p>I do all of my screenshots and screen recordings with CleanShot X. I love it to pieces. <a href="https://cleanshot.sjv.io/DKRzyd">You should get it.</a></p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F19%2Fweb-excursions-for-march-19-2024%2F&amp;text=Web+Excursions+for+March+19%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F19%2Fweb-excursions-for-march-19-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16624673.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-03-19T10:33:00-05:00</pubDate>
+<pubDate>2024-03-19T10:33:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Build a custom URL shortener</title>
