@@ -17905,3 +17905,23 @@ Fetching from https://rsshub.app/sspai/index
 Feed error: <unknown>:151:57013: not well-formed (invalid token)
 append_entries: 0
 Finish: 2024-03-19 10:03:38.494188
+------------------------------------------------------
+Started: 2024-03-19 12:05:09.188710
+Existing_entries: 630
+Fetching from https://rsshub.app/sspai/index
+Token length: 4349
+Summarized using GPT-3.5-turbo
+Append: [社区速递 036 | Action Button 的妙用、纸书自由以及超小收纳包](https://sspai.com/post/87385)
+Token length: 1714
+Summarized using GPT-3.5-turbo
+Append: [上新优惠皆齐全，周边商店的十二周年促销](https://sspai.com/post/87321)
+Append: [派早报：LinkedIn 计划添加游戏，BT 流量不再占据主导地位等](https://sspai.com/post/87368)
+Append: [花见花开暗香来：Apple 静安店抢先看](https://sspai.com/post/87357)
+Append: [[送码] 派评 | 近期值得关注的 App](https://sspai.com/post/87366)
+Append: [洞察 | 数量增长超百档，喜剧播客挣钱了么？](https://sspai.com/post/87363)
+Append: [周岁前的日子也可以很精彩：我的小月龄带娃经历](https://sspai.com/post/84704)
+Append: [派开箱 | 科技祛魅，返璞归真：明基新款屏幕挂灯实用也更好用了](https://sspai.com/post/87186)
+Append: [做了 4 年短视频内容，我想和你分享这些心得方法](https://sspai.com/post/86760)
+Append: [为了养成每日自我提升的习惯，我开发了ReHabit](https://sspai.com/post/85961)
+append_entries: 10
+Finish: 2024-03-19 12:05:28.543066
