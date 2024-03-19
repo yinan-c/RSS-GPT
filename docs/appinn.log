@@ -19503,3 +19503,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-19 04:03:44.984621
+------------------------------------------------------
+Started: 2024-03-19 06:03:55.613722
+Existing_entries: 312
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [自荐：辅助输入法切换工具-KeyboardHolder](https://meta.appinn.net/t/topic/19015)
+append_entries: 1
+Finish: 2024-03-19 06:03:58.417987
