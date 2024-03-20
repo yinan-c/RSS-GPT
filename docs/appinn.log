@@ -19627,3 +19627,12 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【开发者自荐】FaceSwapper - 在线换脸工具，支持图片/GIF换脸，简单有趣！](https://meta.appinn.net/t/topic/54081)
 append_entries: 1
 Finish: 2024-03-20 10:03:12.909245
+------------------------------------------------------
+Started: 2024-03-20 12:04:36.532708
+Existing_entries: 316
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】FaceSwapper - 在线换脸工具，制作有趣的表情包，换脸到任何人！](https://meta.appinn.net/t/topic/54085)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-20 12:04:39.329062
