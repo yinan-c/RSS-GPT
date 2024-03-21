@@ -19716,3 +19716,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-21 08:03:41.522639
+------------------------------------------------------
+Started: 2024-03-21 10:03:09.874863
+Existing_entries: 317
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chrome的紧凑显示书签终于还是阵亡了](https://meta.appinn.net/t/topic/54131)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-21 10:03:13.175544
