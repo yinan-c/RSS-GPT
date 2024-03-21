@@ -19733,3 +19733,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-21 12:04:24.967737
+------------------------------------------------------
+Started: 2024-03-21 14:03:13.948641
+Existing_entries: 318
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开源自荐】elasticsearch客户端：es-client](https://meta.appinn.net/t/topic/54143)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-21 14:03:18.198982

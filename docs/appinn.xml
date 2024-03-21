@@ -4,6 +4,65 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开源自荐】elasticsearch客户端：es-client</title>
+<link>https://meta.appinn.net/t/topic/54143</link>
+<guid>https://meta.appinn.net/t/topic/54143</guid>
+<content:encoded><![CDATA[
+
+<p>es-client是一个功能强大的ES查询客户端，是一个功能完善的elasticsearch管理工具。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/2/b22e3d5e280a3311af24862d0a31c682e7049074.jpeg" title="image"><img alt="image" height="460" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/2/b22e3d5e280a3311af24862d0a31c682e7049074_2_690x460.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>安装 &amp; 更新</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>发行版</h3>
+<ul>
+<li><a href="https://chromewebstore.google.com/detail/es-client/pkhmgepniefdigphghbolofjgbnhnhfd" rel="noopener nofollow ugc">Chrome插件（需要科学上网）</a></li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/esclient/aonamamifdfigcflbeokdndfappnmogo" rel="noopener nofollow ugc">Edge插件</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/es-client/" rel="noopener nofollow ugc">火狐插件</a></li>
+<li><s><a href="https://a.apps.vip/d.appStore/index.html#/share?id=NdAH5w" rel="noopener nofollow ugc">想天浏览器</a></s></li>
+<li><a href="https://gitee.com/qiaoshengda/es-client/releases" rel="noopener nofollow ugc">windows安装包</a></li>
+<li><s><a href="https://www.u.tools/" rel="noopener nofollow ugc">web</a></s></li>
+<li><s><a href="https://marketplace.visualstudio.com/items?itemName=m17762618644.es-client" rel="noopener nofollow ugc">vscode</a></s></li>
+<li><s><a href="https://plugins.jetbrains.com/plugin/21804-es-client" rel="noopener nofollow ugc">IDEA</a>（第三方提供：<a href="https://gitee.com/shenmk/es-client" rel="noopener nofollow ugc">es-client</a>）</s></li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>存储</h3>
+<ul>
+<li><a href="https://pan.baidu.com/s/1sTd8aOWai-n3hxMur11iXA?pwd=3e5t" rel="noopener nofollow ugc">百度网盘</a></li>
+<li><a href="http://disk.esion.xyz/#s/93qZEN8w" rel="noopener nofollow ugc">可道云网盘</a></li>
+<li><s><a href="https://www.aliyundrive.com/s/wRg2ZS2K6ME" rel="noopener nofollow ugc">阿里云盘</a></s></li>
+<li><s><a href="https://pan.quark.cn/s/ad9afd5e88a1" rel="noopener nofollow ugc">夸克网盘</a>，提取码：FHGs</s></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>基本简介</h2>
+<p>首先，es-client的主要亮点之一是页面美观。它使用了arco-design组件库，使页面布局更加美观合理。这样的设计使用户能够更加舒适地使用该助手，并且能够更快速地找到所需的功能和信息。</p>
+<p>其次，es-client提供了可视化查询功能。用户可以轻松构建查询条件，无需了解复杂的_search语法即可进行查询。这大大简化了使用过程，使得即使对于没有编程经验的用户来说，也能够轻松地进行高效的查询操作。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/3/63d5e0a808a5e2a2b7326d29ebaa9fb6fcefa793.jpeg" title="image"><img alt="image" height="460" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/3/63d5e0a808a5e2a2b7326d29ebaa9fb6fcefa793_2_690x460.jpeg" width="690" /></a></div><p></p>
+<p>es-client还具有问题反馈功能，使用<a href="https://txc.qq.com/products/489458" rel="noopener nofollow ugc">兔小巢</a>构建了一个反馈社区，以倾听用户的建议和反馈。这种用户参与的机制使得es-client能够持续改进和优化，以更好地满足用户的需求。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>索引管理</h2>
+<p>另外，es-client还提供了索引管理功能，用户可以快速查看索引信息，并进行简单的索引操作。这使得用户能够更好地管理和组织数据，提高工作效率。</p>
+<p><img alt="" height="" src="https://blog.esion.xyz/wp-content/uploads/2024/01/image-2.png" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>数据导出</h2>
+<p>数据导出是es-client的又一个亮点。它支持多种格式的数据导出，包括JSON、CSV、TXT等。这使得用户可以方便地将查询结果导出到自己需要的格式中，便于后续的数据处理和分析。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/7/f72efc7cb461ef8991595c170045ae5566d00eb4.jpeg" title="image"><img alt="image" height="496" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/7/f72efc7cb461ef8991595c170045ae5566d00eb4_2_690x496.jpeg" width="690" /></a></div><p></p>
+<p>es-client还支持深色模式，用户可以根据自己的喜好和环境需求自由切换浅色模式和深色模式。这种个性化的设计提供了更好的用户体验，同时也有助于减少眼部疲劳。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>数据展示</h2>
+<p>为了更好地展示数据，es-client提供了JSON视图和表格视图两种展示方式。JSON视图通过Highlight.js实现了JSON的美化效果，使得数据更易读。而表格视图则以表格形式展示查询结果，使得用户可以更直观地查看和比较数据。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/0/000173e916a867b308be902dbc20c1c9d3082f36.jpeg" title="image"><img alt="image" height="460" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/0/000173e916a867b308be902dbc20c1c9d3082f36_2_690x460.jpeg" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/0/000173e916a867b308be902dbc20c1c9d3082f36.jpeg" title="image"><img alt="image" height="460" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/0/000173e916a867b308be902dbc20c1c9d3082f36_2_690x460.jpeg" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/f/6fbdf3150a15396a2a815445feaf6b68c7e697af.jpeg" title="image"><img alt="image" height="459" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/f/6fbdf3150a15396a2a815445feaf6b68c7e697af_2_690x459.jpeg" width="690" /></a></div><p></p>
+<p>es-client还支持认证功能，用户可以通过Basic认证访问elasticsearch。这种安全机制保护了用户的数据和隐私，使得用户可以放心地使用es-client进行数据操作和管理。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/e/de23e7a19deaacf0fdcb3eaadac58878068372ab.jpeg" title="image"><img alt="image" height="462" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/e/de23e7a19deaacf0fdcb3eaadac58878068372ab_2_690x462.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>特色功能</h2>
+<p>除此之外，es-client还提供了一键复制查询结果的复制按钮，方便用户将查询结果快速复制到剪贴板中，便于粘贴和分享。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/8/58ef23fe5c86cca10af5b57f54d3293b7a4dd4b6.jpeg" title="image"><img alt="image" height="460" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/8/58ef23fe5c86cca10af5b57f54d3293b7a4dd4b6_2_690x460.jpeg" width="690" /></a></div><p></p>
+<p>作为一个功能强大的es客户端，es-client还支持http客户端，并拥有和kibana一样的查询方式。这使得用户可以更加灵活地进行查询和操作，满足不同用户的需求。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/b/cbd2828c489649c42f380ff0e4b221d7ae02854d.jpeg" title="image"><img alt="image" height="459" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/b/cbd2828c489649c42f380ff0e4b221d7ae02854d_2_690x459.jpeg" width="690" /></a></div><p></p>
+<p>最后，es-client还具有低分辨率适应能力。即使在低分辨率情况下，es-client的布局仍能合理展示，保证用户在不同设备上都能获得良好的使用体验。</p>
+<p>综上所述，es-client作为一个elasticsearch客户端，不仅可以方便的查询es中的数据，还提供了页面美观、可视化查询、问题反馈、索引管理、数据导出、深色模式、JSON视图、表格视图、认证支持、复制按钮、http客户端支持和低分辨率适应等一系列强大而实用的功能，为用户提供了高效、便捷和优质的服务体验。</p>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54143">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 21 Mar 2024 12:06:52 +0000</pubDate>
+<pubDate>Thu, 21 Mar 2024 12:06:52 +0000</pubDate>
+</item>
 
 <item>
 <title>Chrome的紧凑显示书签终于还是阵亡了</title>
