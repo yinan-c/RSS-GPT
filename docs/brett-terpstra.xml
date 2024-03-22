@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Revisiting TagFiler and Vitag</title>
 <link>https://brett.trpstra.net/link/535/16628513/revisiting-tagfiler-and-vitag</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> TagFiler, Vitag, tagging system, files, Finder
 
-总结:<br><br>本文介绍了作者使用的两种文件标签系统，分别是TagFiler和Vitag。TagFiler是通过Finder标签进行文件整理的脚本，可以自定义“context”文件夹和相关标签，便于快速定位文件。Vitag则是用于在大量文件中快速添加标签的工具，可以在编辑器中编辑标签后一键保存，省时又方便。作者长期使用这两种工具，提高了文件整理效率，希望读者也能尝试并发现更多创新。 <div>
+总结:<br /><br />本文介绍了作者使用的两种文件标签系统，分别是TagFiler和Vitag。TagFiler是通过Finder标签进行文件整理的脚本，可以自定义“context”文件夹和相关标签，便于快速定位文件。Vitag则是用于在大量文件中快速添加标签的工具，可以在编辑器中编辑标签后一键保存，省时又方便。作者长期使用这两种工具，提高了文件整理效率，希望读者也能尝试并发现更多创新。 <div>
 <p>I haven&rsquo;t mentioned this setup for a while and thought I&rsquo;d remind everyone, especially newer readers, about a rabbit hole they might choose to go down. I haven&rsquo;t updated or changed any of these scripts since posting, and they&rsquo;re all still working well.</p>
 
 <h3 id="part-1-tagfiler">Part 1: TagFiler</h3>
@@ -93,9 +94,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16628513.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-03-22T11:39:00-05:00</pubDate>
-<pubDate>2024-03-22T11:39:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for March 19, 2024</title>
 <link>https://brett.trpstra.net/link/535/16624673/web-excursions-for-march-19-2024</link>
