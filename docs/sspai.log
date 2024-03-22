@@ -18143,3 +18143,12 @@ Existing_entries: 650
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-22 04:03:29.067181
+------------------------------------------------------
+Started: 2024-03-22 06:03:45.556503
+Existing_entries: 650
+Fetching from https://rsshub.app/sspai/index
+Token length: 3963
+Summarized using GPT-3.5-turbo
+Append: [派早报：微软发布两款新品、美司法部指控 Apple 在手机市场涉嫌非法垄断](https://sspai.com/post/87446)
+append_entries: 1
+Finish: 2024-03-22 06:03:50.395649

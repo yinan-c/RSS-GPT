@@ -4,6 +4,110 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>求推荐：Chrome 重新打开关闭的标签页 扩展</title>
+<link>https://meta.appinn.net/t/topic/4482</link>
+<guid>https://meta.appinn.net/t/topic/4482</guid>
+<content:encoded><![CDATA[
+
+<p>Chrome 自带的可以恢复的数量有限</p>
+<p>历史记录的问题在于中间会有很多其他的记录混在一起</p>
+<p>求一个可以  重新打开关闭的标签页 的扩展、插件</p>
+<p>恢复数量越多越好</p>
+<p>Ps： 自带的可以恢复25个标签页，我估计得用到100个</p>
+            <p><small>9 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/4482">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 03 Nov 2017 01:48:58 +0000</pubDate>
+<pubDate>Fri, 03 Nov 2017 01:48:58 +0000</pubDate>
+</item>
+<item>
+<title>SessionBuddy - 支持崩溃后恢复的浏览器标签页管理插件</title>
+<link>https://meta.appinn.net/t/topic/24089</link>
+<guid>https://meta.appinn.net/t/topic/24089</guid>
+<content:encoded><![CDATA[
+
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>SessionBuddy</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<ul>
+<li>Chrome</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【用户投递】</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>一个 Chrome 的浏览器标签页管理插件，支持管理/保存/恢复多个浏览器窗口内的标签。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>类似于 OneTab 之类的标签页管理插件，但是功能更强。在保存标签页到分组并恢复外，也支持整体的状态保存/恢复（多个浏览器窗口+多个标签）。</p>
+<ul>
+<li>保存当前打开的标签页到标签页组</li>
+<li>在崩溃后恢复之前的浏览状态</li>
+<li>一次管理所有打开的窗口和标签页</li>
+</ul>
+<p>但我自己使用的主要功能实际上是崩溃恢复，自己用的是 Dev 分支的 Edge，有的时候会导致整个浏览器崩溃，但是 Edge（或者说 Chrome 系）本身的崩溃恢复个人认为做的不是很好，如果错过了崩溃后首次打开的恢复机会，之后就没办法恢复了。这个插件会在后台自动快照最近的会话状态（当前打开了多少窗口，每个窗口里开了哪些标签页），恢复起来容易一些。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>官方网站</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/3/239824ef8cfe3a847f72c37b00b7c475d2cd9188.png" width="32" />
+
+      <a href="https://sessionbuddy.com/" rel="noopener nofollow ugc" target="_blank">sessionbuddy.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="350" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/e/5e578bacf4f93f3be6b387daa75a9eaf81f3d833.png" width="589" /></div>
+
+<h3><a href="https://sessionbuddy.com/" rel="noopener nofollow ugc" target="_blank">Session Buddy</a></h3>
+
+  <p>Manage Browser Tabs and Bookmarks with Ease</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/2X/5/51502f93396c6b3d0a2909a8df00076c1a17b901.png" width="32" />
+
+      <a href="https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko" rel="noopener nofollow ugc" target="_blank">chrome.google.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <img class="thumbnail onebox-avatar" height="128" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/5/c5d18c4a207d718f054614a2936f1b8d06949da5.jpeg" width="128" />
+
+<h3><a href="https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko" rel="noopener nofollow ugc" target="_blank">Session Buddy</a></h3>
+
+  <p>Manage Browser Tabs and Bookmarks with Ease</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>4 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/24089">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 15 Jun 2021 14:37:57 +0000</pubDate>
+<pubDate>Tue, 15 Jun 2021 14:37:57 +0000</pubDate>
+</item>
 
 <item>
 <title>【开源自荐】elasticsearch客户端：es-client</title>
