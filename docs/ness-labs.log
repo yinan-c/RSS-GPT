@@ -363,3 +363,9 @@ Summarized using GPT-3.5-turbo
 Append: [Ness Labs Best Books of March 2024](https://nesslabs.com/best-books-march-2024?utm_source=rss&utm_medium=rss&utm_campaign=best-books-march-2024)
 append_entries: 1
 Finish: 2024-03-22 16:05:03.852230
+------------------------------------------------------
+Started: 2024-03-22 18:03:49.294691
+Existing_entries: 13
+Fetching from https://nesslabs.com/feed
+append_entries: 0
+Finish: 2024-03-22 18:03:49.926590

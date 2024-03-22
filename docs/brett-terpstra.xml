@@ -4,6 +4,97 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Revisiting TagFiler and Vitag</title>
+<link>https://brett.trpstra.net/link/535/16628513/revisiting-tagfiler-and-vitag</link>
+<guid>https://brett.trpstra.net/link/535/16628513/revisiting-tagfiler-and-vitag</guid>
+<content:encoded><![CDATA[
+<div> TagFiler, Vitag, tagging system, files, Finder
+
+总结:<br><br>本文介绍了作者使用的两种文件标签系统，分别是TagFiler和Vitag。TagFiler是通过Finder标签进行文件整理的脚本，可以自定义“context”文件夹和相关标签，便于快速定位文件。Vitag则是用于在大量文件中快速添加标签的工具，可以在编辑器中编辑标签后一键保存，省时又方便。作者长期使用这两种工具，提高了文件整理效率，希望读者也能尝试并发现更多创新。 <div>
+<p>I haven&rsquo;t mentioned this setup for a while and thought I&rsquo;d remind everyone, especially newer readers, about a rabbit hole they might choose to go down. I haven&rsquo;t updated or changed any of these scripts since posting, and they&rsquo;re all still working well.</p>
+
+<h3 id="part-1-tagfiler">Part 1: TagFiler</h3>
+
+<figure class="aligncenter">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Hazel rule for TagFiler" height="361" src="https://cdn3.brettterpstra.com/uploads/2024/03/hazelscreenshot-800.jpg" title="Hazel screenshot" width="800" />
+                </noscript>
+              
+              <figcaption>Hazel screenshot</figcaption>
+            </figure>
+
+<p>First up, I&rsquo;ll mention <a href="https://gist.github.com/ttscoff/7248499">TagFiler</a>. This is a single script that runs via <a href="https://www.noodlesoft.com/" title="Simply Useful Software">Hazel</a>, sorting files into a shallow filesystem using Finder tags. You set up &ldquo;context&rdquo; folders which are tagged with <code class="language-plaintext highlighter-rouge">=Context</code>, e.g. <code class="language-plaintext highlighter-rouge">=Work</code> or <code class="language-plaintext highlighter-rouge">=Personal</code>. Then you create a shallow system of subfolders tagged with relevant keywords, preceded with <code class="language-plaintext highlighter-rouge">@</code>, e.g. <code class="language-plaintext highlighter-rouge">@nvultra</code> or <code class="language-plaintext highlighter-rouge">@dimspirations</code>. You can nest those <code class="language-plaintext highlighter-rouge">@</code> folders as deep as you like, but the idea is to make it easy to target them. Then you tag individual files with <code class="language-plaintext highlighter-rouge">#Context :subtopic</code>, and subtopics can be nested like <code class="language-plaintext highlighter-rouge">#Projects :nvultra:marketing:source</code> to file in <code class="language-plaintext highlighter-rouge">~/Projects/nvultra/marketing/source files</code>.</p>
+
+<figure class="aligncenter">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="TagFiler tags as filed in folders" height="278" src="https://cdn3.brettterpstra.com/uploads/2024/03/tagfiler-tags-in-finder-800.jpg" title="Finder window showing tags" width="800" />
+                </noscript>
+              
+              <figcaption>Finder window showing tags</figcaption>
+            </figure>
+
+<p>The nice thing about these tags with punctuation is they create something like nested tagging, which Finder lacks. When searching with Spotlight (or <a href="https://www.houdah.com/houdahSpot/" title="Powerful File Search Tool for Mac">HoudahSpot</a>), you can search any part of a colon-separated tag (this works for any punctuation, TagFiler just uses colons). So with the above example, I can search for <code class="language-plaintext highlighter-rouge">tag:nvultra tag:source</code> and get the tagged file as a result. Then, when tagging files in Finder (or, again, HoudahSpot as it has great autocompletion for tagging), the tags will autocomplete as if they were nested, and just typing <code class="language-plaintext highlighter-rouge">nvultra</code> will bring up all of the colon-separated versions of the tag.</p>
+
+<p>This tagging system has been working perfectly for me for years now. I collect all my files throughout the day on my Desktop and in my Downloads folder. Hazel tags new files with <code class="language-plaintext highlighter-rouge">Purple</code>, and then at the end of the day (or the beginning of the next one) I open up a saved search in HoudahSpot that shows me all <code class="language-plaintext highlighter-rouge">Purple</code> files in my main &ldquo;inbox&rdquo; folders. I can then use HoudahSpot&rsquo;s autocompletion to tag the files appropriately, and Hazel just whisks them off to their target folder. This saved search could also just be a Smart Folder in Finder, but Smart Folders can&rsquo;t narrow down to multiple specific directories. In HoudahSpot this can be accomplished using saved searches and filtering.</p>
+
+<p>The nice thing about this system is that I can also find any TagFiler-tagged file using Spotlight without digging through the folders. But if anything ever happened to my tags (a metadata disaster&hellip;), I&rsquo;d still have a reasonable folder structure for finding all of my files. It&rsquo;s also nice when archiving projects to a NAS or other storage system that doesn&rsquo;t have Spotlight searching.</p>
+
+<h4 id="side-note-cdt">Side Note: cdt</h4>
+
+<p>I have a little Bash function called <a href="https://brettterpstra.com/2014/06/12/fast-fuzzy-directory-navigation-for-tag-filer/">cdt</a> (with a <a href="https://github.com/ttscoff/fish_files/blob/master/functions/cdt.fish">fish companion function</a>) for navigating TagFiler-tagged directories from Terminal. I don&rsquo;t actually use it much as I have <a href="https://brettterpstra.com/2021/12/24/a-fuzzy-cd-command-for-fish/">fuzzy_cd</a> in my Fish setup and it&rsquo;s a bit smarter in general. I can&rsquo;t vouch that it still works as is, but if you wanted to dig in, let me know if you find issues.</p>
+
+<h3 id="part-2-vitag">Part 2: Vitag</h3>
+
+<p>So I do a majority of my tagging in Finder or HoudahSpot. But when I&rsquo;m faced with a large number of files and want to tag them quickly and easily, I use <a href="https://brettterpstra.com/projects/vitag/">vitag</a>.</p>
+
+<blockquote class="tip">
+  <p>By the way, if you do your tagging in Finder, you can <a href="https://brettterpstra.com/2015/11/17/smarter-keyboard-shortcuts-for-finder/">add a keyboard shortcut</a> to make popping up the tag dialog keyboard-accessible.</p>
+</blockquote>
+
+<p>Vitag loads up a list of files for the current directory (and optionally subdirectories) with bracketed tags after each filename in your editor of choice. I usually use Sublime Text with <code class="language-plaintext highlighter-rouge">-e 'subl -w'</code>, but you can use Vim, NeoVim, BBEdit, VS Code, or any editor that has a CLI tool and the ability to <code class="language-plaintext highlighter-rouge">wait</code> on the command for the window to close  (usually <code class="language-plaintext highlighter-rouge">-w</code>, but see the <code class="language-plaintext highlighter-rouge">--help</code> for your tool). You just edit the tags as plain text and when you save and close the file, all of the tags are changed on the files.</p>
+
+<figure class="aligncenter">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Vitag run on my current Desktop files" height="758" src="https://cdn3.brettterpstra.com/uploads/2024/03/vitagscreenshot-800.jpg" title="Vitag screenshot" width="800" />
+                </noscript>
+              
+              <figcaption>Vitag screenshot</figcaption>
+            </figure>
+
+<p>There&rsquo;s no autocomplete by default, although I have written a Sublime package (which I haven&rsquo;t shared because it&rsquo;s <em>very</em> custom) which helps me out with syntax highlighting, snippets, and autocomplete. For the most part, though, I rely on TextExpander snippets for contexts and common sub-tags.</p>
+
+<p>Then I can just copy/paste as needed to fill out the whole batch, along with the search tools in the editor (at the end of a day most of my files in my inboxes will relate to just a couple of projects, so I can copy and paste many of the tags, sometimes modifying just the last element of a colon-separated tag).</p>
+
+<p>For example, the first thing I do on a batch of &ldquo;inbox&rdquo; files is search for <code class="language-plaintext highlighter-rouge">Purple</code> and <span class="keycombo combined" title="Command-G"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">G</kbd></span> through the results to add my tags. You could also remove any line that didn&rsquo;t contain a tag like <code class="language-plaintext highlighter-rouge">Purple</code> &mdash; as long as the filename remains unchanged, deleting a line will have no effect in Vitag. Unlike tools like <a href="https://github.com/trapd00r/vidir" title="trapd00r/vidir:edit">Vidir</a>, Vitag <em>only</em> deals with tags.</p>
+
+<blockquote class="tip">
+  <p>You&rsquo;ll notice a couple of files tagged with <code class="language-plaintext highlighter-rouge">#x#</code>. This is a special tag that I search for with Hazel, which deletes any file containing it. It&rsquo;s my solution for deleting unneeded files when doing my cleanup. It actually moves to Trash rather than outright deleting as you&rsquo;d get in Vidir, which provides the option for undoing.</p>
+</blockquote>
+
+<p>So, to wrap up, there&rsquo;s nothing new here. I&rsquo;ve been using these tools for years. I just thought I&rsquo;d share them again in case I first talked about them before you started reading. Let me know what innovations you have with your own tagging systems!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/112140381514241216" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F22%2Frevisiting-tagfiler-and-vitag%2F&amp;text=Revisiting+TagFiler+and+Vitag&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F22%2Frevisiting-tagfiler-and-vitag%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16628513.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-03-22T11:39:00-05:00</pubDate>
+<pubDate>2024-03-22T11:39:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for March 19, 2024</title>
