@@ -19929,3 +19929,14 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-23 12:04:52.960540
+------------------------------------------------------
+Started: 2024-03-23 14:03:19.535503
+Existing_entries: 322
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [如果你想要Chrome旧版的收藏书签UI及流程，推荐用这个扩展](https://meta.appinn.net/t/topic/54227)
+Append: [永久记录浏览器历史且自动备份到云端的Chrome插件？](https://meta.appinn.net/t/topic/54225)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [音乐播放管理软件](https://meta.appinn.net/t/topic/40654)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 3
+Finish: 2024-03-23 14:03:22.258905
