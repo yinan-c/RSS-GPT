@@ -4,6 +4,7 @@
 <title>Paul Graham - Essays</title>
 <link>http://paulgraham.com/articles.html</link>
 
+
 <item>
 <title>The Reddits</title>
 <link>http://paulgraham.com/reddits.html</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: Reddit, Y Combinator, Steve, Alexis, startup
 
-总结:<br><br>这篇文章讲述了在创办Y Combinator之前，Paul Graham遇到了Reddit创始人Steve和Alexis的经历。尽管最初拒绝了他们的初始创业想法，但后来鼓励他们转而开展Reddit项目。通过快速推出，Reddit吸引了用户的注意，并在管理方面经历了挑战，但由Steve回归后实现了巨大成功。Reddit作为一个极具实用价值的平台，展现出了不可阻挡的增长势头，Steve的回归确实改变了游戏规则。 <div>
+总结:<br /><br />这篇文章讲述了在创办Y Combinator之前，Paul Graham遇到了Reddit创始人Steve和Alexis的经历。尽管最初拒绝了他们的初始创业想法，但后来鼓励他们转而开展Reddit项目。通过快速推出，Reddit吸引了用户的注意，并在管理方面经历了挑战，但由Steve回归后实现了巨大成功。Reddit作为一个极具实用价值的平台，展现出了不可阻挡的增长势头，Steve的回归确实改变了游戏规则。 <div>
 March 2024<br /><br />I met the Reddits before we even started Y Combinator. In fact they
 were one of the reasons we started it.<br /><br />YC grew out of a talk I gave to the Harvard Computer Society (the
 undergrad computer club) about how to start a startup. Everyone
@@ -102,9 +103,7 @@ came back? We now know the answer to that question. Or at least a
 lower bound on the answer. Steve is not out of ideas yet.<br /><br /><br /><br />
 ]]></content:encoded>
 <pubDate>Thu, 29 Feb 2024 16:00:00 GMT</pubDate>
-<pubDate>Thu, 29 Feb 2024 16:00:00 GMT</pubDate>
 </item>
-
 <item>
 <title>How to Start Google</title>
 <link>http://paulgraham.com/google.html</link>
