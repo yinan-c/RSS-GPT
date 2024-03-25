@@ -37941,3 +37941,31 @@ Filter: [有多少人想和AI谈一场“电子恋爱”](https://www.36kr.com/p
 Filter: [吴恩达：AI智能体工作流今年将有巨大进展，可能超过下一代基础模型](https://www.36kr.com/p/2700477578082176)
 append_entries: 0
 Finish: 2024-03-25 04:03:44.062743
+------------------------------------------------------
+Started: 2024-03-25 06:04:32.365848
+Existing_entries: 597
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 14982
+Summarized using GPT-3.5-turbo
+Append: [ChatGPT负责人最新采访: AI发展应避免美国中心主义，尊重不同价值观](https://www.36kr.com/p/2704397301846660)
+Filter: [被黄仁勋请上台的10位机器人](https://www.36kr.com/p/2704314209390469)
+Filter: [GPT-4比人类更有创造力？Nature子刊：发散思维已被超越](https://www.36kr.com/p/2704284284696449)
+Filter: [UC伯克利“LLM排位赛”结果出炉，Claude 3追平GPT-4并列第一](https://www.36kr.com/p/2704267769182085)
+Token length: 2031
+Summarized using GPT-3.5-turbo
+Append: [GPT-4“荣升”AI顶会同行评审专家？斯坦福最新研究：ICLR/NeurIPS等竟有16.9%评审是ChatGPT生成](https://www.36kr.com/p/2704254283430024)
+Filter: [女子早癌病变被漏诊，AI医生在X光中发现，谷歌最新AI听咳嗽就能检测新冠/结核](https://www.36kr.com/p/2701708737312902)
+Filter: [被全网喷的AI“复活”，但我们也看到了些不一样的东西。](https://www.36kr.com/p/2703766078814082)
+Filter: [站在潮头的英伟达与硬件护城河的隐忧](https://www.36kr.com/p/2698654364153733)
+Filter: [马斯克为什么一定要开源AI？](https://www.36kr.com/p/2702050152544135)
+Filter: [Sora三巨头首次解密幕后信息，CTO：最快年内开放](https://www.36kr.com/p/2703167530121096)
+Filter: [史上最强 AI 芯片，到底强在哪？](https://www.36kr.com/p/2703180586219398)
+Filter: [小冰CEO李笛：移动互联网可能是人工智能发展的最大敌人](https://www.36kr.com/p/2701578894456964)
+Filter: [闭关一年创业大模型，姜大昕站在AGI呼啸的风中](https://www.36kr.com/p/2702413037910148)
+Filter: [阿里、百度双双出手，大模型长文本时代终于到来？](https://www.36kr.com/p/2702101062881922)
+Filter: [又一AI独角兽生变：CEO辞职，融资不顺，被起诉要赔1.8万亿｜最前线](https://www.36kr.com/p/2701909282404225)
+Filter: [苹果为了AI，上了谷歌的船](https://www.36kr.com/p/2700683679102857)
+Filter: [重磅，David Baker团队又一突破：首次利用生成式AI设计出全新抗体](https://www.36kr.com/p/2700644480432258)
+Filter: [第四范式上市后首份成绩单：亏损在收窄，行业大模型贡献超4亿元收入｜最前线](https://www.36kr.com/p/2700571930785924)
+append_entries: 2
+Finish: 2024-03-25 06:04:42.398165
