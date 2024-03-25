@@ -128,13 +128,16 @@ def gpt_summary(query,model,language):
     if not OPENAI_PROXY:
         client = OpenAI(
             api_key=OPENAI_API_KEY,
+            base_url=OPENAI_BASE_URL,
         )
     else:
         client = OpenAI(
             api_key=OPENAI_API_KEY,
-            http_client=httpx.Client(
-                proxies=OPENAI_PROXY
-            )
+            # Or use the `OPENAI_BASE_URL` env var
+            base_url=OPENAI_BASE_URL,
+            # example: "http://my.test.server.example.com:8083",
+            http_client=httpx.Client(proxy=OPENAI_PROXY),
+            # example:"http://my.test.proxy.example.com",
         )
     completion = client.chat.completions.create(
         model=model,
@@ -293,6 +296,7 @@ max_entries = 1000
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 U_NAME = os.environ.get('U_NAME')
 OPENAI_PROXY = os.environ.get('OPENAI_PROXY')
+OPENAI_BASE_URL = os.environ.get('OPENAI_BASE_URL', 'https://api.openai.com')
 deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
