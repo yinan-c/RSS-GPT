@@ -4,13 +4,14 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>http://lopespm.github.io/</link>
 
+
 <item>
 <title>Minimalist Onyx BOOX Note Air3 B/W Setup</title>
 <link>http://lopespm.github.io/notes/2024/03/25/minimalist_boox.html</link>
 <guid>http://lopespm.github.io/notes/2024/03/25/minimalist_boox.html</guid>
 <content:encoded><![CDATA[
 <div> BOOX Note Air3 B/W, distractions, Lawnchair Launcher, bloatware, external keyboard
-<br>
+<br />
 BOOX Note Air3 B/W被用于减少干扰，安装Lawnchair Launcher来提高效率，禁用多余应用以减少系统负担，使用外接键盘便于书写，效果显著。总结: BOOX Note Air3 B/W通过降低干扰，优化系统，外接键盘等方式提高工作效率，使得专注于书写成为可能。 <div>
 <p>As part of the plan to banish mobile phones with access to instant rewards from my bedroom (more on this in an upcoming post), I’ve acquired a Onyx BOOX Note Air3 B/W, which is a Android tablet with a black and white e-ink screen that is focused on writing and reading <sup id="fnref:1"><a href="https://lopespm.com/atom.xml#fn:1" rel="footnote">1</a></sup></p>
 
@@ -213,10 +214,8 @@ adb shell pm disable-user --user 0 com.onyx.calculator
   </ol>
 </div>
 ]]></content:encoded>
-
 <pubDate>2024-03-25T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Musk's biography: why it's interesting</title>
 <link>http://lopespm.github.io/notes/2024/02/18/elon_musk_biography.html</link>
