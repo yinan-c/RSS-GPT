@@ -5,11 +5,92 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>03-18~03-24.老胡的周刊（第134期）</title>
+<link>https://meta.appinn.net/t/topic/54326</link>
+<guid>https://meta.appinn.net/t/topic/54326</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#llama-chinesehttpsgithubcomllamafamilyllama-chinese-2" name="llama-chinesehttpsgithubcomllamafamilyllama-chinese-2"></a><a href="https://github.com/LlamaFamily/Llama-Chinese" rel="noopener nofollow ugc">Llama-Chinese</a></h3>
+<p>专注于 <code>Llama</code> 模型在中文方面的优化和上层建设的高级技术社区，基于大规模中文数据，从预训练开始对 <code>Llama2</code> 模型进行中文能力的持续迭代升级，完全开源可商用：</p>
+<p><img alt="Llama-Chinese" height="261" src="https://images-1252557999.file.myqcloud.com/uPic/Llama-Chinese.jpg" width="690" /></p>
+<p><img alt="atom_chatbot" height="330" src="https://images-1252557999.file.myqcloud.com/uPic/atom_chatbot.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#docker-androidhttpsgithubcombudtmodocker-android-3" name="docker-androidhttpsgithubcombudtmodocker-android-3"></a><a href="https://github.com/budtmo/docker-android" rel="noopener nofollow ugc">docker-android</a></h3>
+<p><code>Android</code> 的 <code>Docker</code> 解决方案，支持 <code>noVNC</code> 和视频录制，项目提供了多个版本的 Android 镜像，包括最新版本和特定版本号的镜像，如 Android 9.0、10.0到14.0 等，以及对应的 Genymotion 镜像：</p>
+<p><img alt="docker-android" height="173" src="https://images-1252557999.file.myqcloud.com/uPic/docker-android.png" width="690" /></p>
+<p>其他类似好玩的项目：</p>
+<ul>
+<li><a href="https://github.com/huan/docker-wechat" rel="noopener nofollow ugc">docker-wechat</a></li>
+<li><a href="https://github.com/dockur/windows" rel="noopener nofollow ugc">dockur/windows</a></li>
+<li><a href="https://github.com/sickcodes/Docker-OSX" rel="noopener nofollow ugc">Docker-OSX</a></li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#comfyui-workflows-zhohttpsgithubcomzho-zho-zhocomfyui-workflows-zho-4" name="comfyui-workflows-zhohttpsgithubcomzho-zho-zhocomfyui-workflows-zho-4"></a><a href="https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO" rel="noopener nofollow ugc">ComfyUI-Workflows-ZHO</a></h3>
+<p><a href="https://github.com/comfyanonymous/ComfyUI" rel="noopener nofollow ugc">ComfyUI</a> 是一个基于节点的 <code>Stable Diffusion GUI</code>，你可以通过将不同的块链接在一起来构建图像生成工作流程：</p>
+<p><img alt="ComfyUI-Workflows-ZHO" height="469" src="https://images-1252557999.file.myqcloud.com/uPic/ComfyUI-Workflows-ZHO.jpg" width="690" /></p>
+<p>老胡之前也推荐过 <a href="https://www.comflowy.com/zh-CN" rel="noopener nofollow ugc">Comflowy</a> 的社区，致力于提供系统成熟的教程和经验文档。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#memorieshttpsgithubcompulsejetmemories-5" name="memorieshttpsgithubcompulsejetmemories-5"></a><a href="https://github.com/pulsejet/memories" rel="noopener nofollow ugc">memories</a></h3>
+<p>构建于 <code>Nextcloud</code> 之上的照片管理器，基本包含了照片管理器的常见功能，值得安装体验（前提是你正在使用 Nextcloud）：</p>
+<p><img alt="memories" height="463" src="https://images-1252557999.file.myqcloud.com/uPic/memories.jpeg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#loophttpsgithubcommrkai77loop-7" name="loophttpsgithubcommrkai77loop-7"></a><a href="https://github.com/MrKai77/Loop" rel="noopener nofollow ugc">Loop</a></h3>
+<p>让窗口管理 <code>MacOS</code> 变得优雅：</p>
+<p><img alt="Loop" height="354" src="https://images-1252557999.file.myqcloud.com/uPic/Loop.gif" width="544" /></p>
+<p>安装好如果有权限问题，执行如下命令：</p>
+<pre><code class="lang-shell">sudo xattr -cr  /Applications/Loop.app
+</code></pre>
+<h3><a class="anchor" href="https://meta.appinn.net#crow-translatehttpsgithubcomcrow-translatecrow-translate-8" name="crow-translatehttpsgithubcomcrow-translatecrow-translate-8"></a><a href="https://github.com/crow-translate/crow-translate" rel="noopener nofollow ugc">crow-translate</a></h3>
+<p>一个简单而轻巧的翻译器，可以使用 <code>Google、Yandex Bing、LibreTranslate&amp;Lingva</code> 来翻译和朗读文本：</p>
+<p><img alt="crow-translate" height="345" src="https://images-1252557999.file.myqcloud.com/uPic/crow-translate.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#obtainiumhttpsgithubcomimranr98obtainium-9" name="obtainiumhttpsgithubcomimranr98obtainium-9"></a><a href="https://github.com/ImranR98/Obtainium" rel="noopener nofollow ugc">Obtainium</a></h3>
+<p>聚合安卓应用源，然后获取程序更新，<code>Obtainium</code> 允许用户直接从发布页面安装和更新应用程序，并在发布新版本时接收通知：</p>
+<p><img alt="Obtainium" height="470" src="https://images-1252557999.file.myqcloud.com/uPic/Obtainium.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#fubukicss-toolhttpsgithubcomzouhangwithsweetfubukicss-tool-10" name="fubukicss-toolhttpsgithubcomzouhangwithsweetfubukicss-tool-10"></a><a href="https://github.com/zouhangwithsweet/fubukicss-tool" rel="noopener nofollow ugc">fubukicss-tool</a></h3>
+<p>解决 <code>Figma</code> 设计图查看代码需要升级付费的问题，该项目提供一个浏览器扩展，可以一步获取来自 <code>Figma</code> 设计图的 <code>TailwindCSS/Unocss/CSS</code> 代码，加速开发：</p>
+<p><img alt="fubukicss-tool" height="325" src="https://images-1252557999.file.myqcloud.com/uPic/fubukicss-tool.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#sam-altmanhttpsjxp73q7qjsgfeishucndocxwcnzdkda4o2eurxk5elcfbxenah-12" name="sam-altmanhttpsjxp73q7qjsgfeishucndocxwcnzdkda4o2eurxk5elcfbxenah-12"></a><a href="https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah" rel="noopener nofollow ugc">Sam Altman的创业手册</a></h3>
+<p><code>Sam Altman</code> 的创业手册文本，给YC系创始人们的建议里面最通用的一部分提炼出来变成一个创业手册。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#how-to-use-transformershttpsgithubcomjsksxs360how-to-use-transformers-13" name="how-to-use-transformershttpsgithubcomjsksxs360how-to-use-transformers-13"></a><a href="https://github.com/jsksxs360/How-to-use-Transformers" rel="noopener nofollow ugc">How-to-use-Transformers</a></h3>
+<p>Transformers 库快速入门<a href="https://transformers.run/" rel="noopener nofollow ugc">教程</a>：</p>
+<p><img alt="How-to-use-Transformers" height="454" src="https://images-1252557999.file.myqcloud.com/uPic/How-to-use-Transformers.jpg" width="689" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-14" name="h-14"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#anthropichttpsdocsanthropiccomclaudeprompt-library-15" name="anthropichttpsdocsanthropiccomclaudeprompt-library-15"></a><a href="https://docs.anthropic.com/claude/prompt-library" rel="noopener nofollow ugc">Anthropic</a></h3>
+<p>Anthropic 公司推出的提示词库，里面有 <code>Anthropic</code> 提供的非常多的示例提示词，非常方便：</p>
+<p><img alt="anthropic" height="309" src="https://images-1252557999.file.myqcloud.com/uPic/anthropic.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#waytoagihttpswwwwaytoagicom-16" name="waytoagihttpswwwwaytoagicom-16"></a><a href="https://www.waytoagi.com/" rel="noopener nofollow ugc">waytoagi</a></h3>
+<p><code>AI</code> 知识库和工具站：</p>
+<p><img alt="waytoagi" height="399" src="https://images-1252557999.file.myqcloud.com/uPic/waytoagi.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#haikerhttpsapphaikeiapp-17" name="haikerhttpsapphaikeiapp-17"></a><a href="https://app.haikei.app/" rel="noopener nofollow ugc">Haiker</a></h3>
+<p><code>Haikei</code> 是一款用于生成 <code>SVG</code> 形状、背景和图案的在线工具，无需注册也能使用：</p>
+<p><img alt="haikei" height="361" src="https://images-1252557999.file.myqcloud.com/uPic/haikei.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#whatpwacandohttpswhatpwacandotoday-18" name="whatpwacandohttpswhatpwacandotoday-18"></a><a href="https://whatpwacando.today/" rel="noopener nofollow ugc">whatpwacando</a></h3>
+<p>该网站功能用于介绍 PWA 的技术进展：</p>
+<p><img alt="whatpwacando" height="198" src="https://images-1252557999.file.myqcloud.com/uPic/whatpwacando.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-19" name="h-19"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li>公众号：<a href="https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg" rel="noopener nofollow ugc">老胡的储物柜</a></li>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，对周刊的信息补充，会分享更多的资源，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li><a href="https://weekly.fre123.com/" rel="noopener nofollow ugc">https://weekly.fre123.com/</a>：老胡收集了国内外60+优质技术周刊进行信息聚合<img alt=":fire:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fire.png?v=12" title=":fire:" width="20" /></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">老胡的信息周刊</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54326">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 25 Mar 2024 14:24:44 +0000</pubDate>
+<pubDate>Mon, 25 Mar 2024 14:24:44 +0000</pubDate>
+</item>
+
+<item>
 <title>【开发者自荐】用AI写的chrome插件sidebarTab-支持在chrome侧边栏打开一个固定网页</title>
 <link>https://meta.appinn.net/t/topic/54320</link>
 <guid>https://meta.appinn.net/t/topic/54320</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#placard-1" name="placard-1"></a><img alt=":placard:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/placard.png?v=12" title=":placard:" width="20" /> 插件名称</h2>
 <p>sidebarTab</p>
 <h2><a class="anchor" href="https://meta.appinn.net#question-2" name="question-2"></a><img alt=":question:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/question.png?v=12" title=":question:" width="20" />一句话简介</h2>
@@ -37,9 +118,7 @@
             <p><a href="https://meta.appinn.net/t/topic/54320">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 25 Mar 2024 11:04:04 +0000</pubDate>
-<pubDate>Mon, 25 Mar 2024 11:04:04 +0000</pubDate>
 </item>
-
 <item>
 <title>如果你想要Chrome旧版的收藏书签UI及流程，推荐用这个扩展</title>
 <link>https://meta.appinn.net/t/topic/54227</link>
