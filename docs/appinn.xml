@@ -4,6 +4,41 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】用AI写的chrome插件sidebarTab-支持在chrome侧边栏打开一个固定网页</title>
+<link>https://meta.appinn.net/t/topic/54320</link>
+<guid>https://meta.appinn.net/t/topic/54320</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#placard-1" name="placard-1"></a><img alt=":placard:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/placard.png?v=12" title=":placard:" width="20" /> 插件名称</h2>
+<p>sidebarTab</p>
+<h2><a class="anchor" href="https://meta.appinn.net#question-2" name="question-2"></a><img alt=":question:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/question.png?v=12" title=":question:" width="20" />一句话简介</h2>
+<p>在Chrome浏览器原生侧边栏，固定一个网页。<br />
+（切换Chrome不同标签页tab时，该网页依然固定显示）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#man_technologist-3" name="man_technologist-3"></a><img alt=":man_technologist:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/man_technologist.png?v=12" title=":man_technologist:" width="20" /> 开发背景</h2>
+<p>去年<a href="https://developer.chrome.com/docs/extensions/reference/api/sidePanel?hl=zh-cn" rel="noopener nofollow ugc">chrome推出了side panel的api</a>，我觉得这个特性很有意思，产品和开发同事经常需要盯着开发或接口文档，于是我想到通过能在侧边栏做个小浏览器，允许固定展示一个网页（如开发文档、chatgpt 、stackoverflow 等）。</p>
+<p>我没有编程基础，于是借助gpt4来编写代码，我告诉AI关于side panel的示例，然后再加上我的需求，很快就上线了第一个版本。并且获得获得了chrome商店精选：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/3/63c1190bbd86f9fe95eb5c19e057ea09a38ba692.jpeg" title="image"><img alt="image" height="239" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/3/63c1190bbd86f9fe95eb5c19e057ea09a38ba692_2_690x239.jpeg" width="690" /></a></div><p></p>
+<p>后来不少<a href="https://www.makeuseof.com/chromes-side-panel-best-browser-hack-youre-not-using/" rel="noopener nofollow ugc">海外的媒体</a>在宣传chrome新api时，发现了我的这个插件并跟进报道，于是带来了大概一千多的用户。</p>
+<p>3月初时我发现有不少海外用户希望增加一些特性，例如希望可以隐藏地址栏、希望重启时自动打开上一次的网页、希望能快捷切换不同url，于是我再次给ai提需求，迭代了新的版本，支持了这些用户的诉求：</p>
+<p><a href="https://private-user-images.githubusercontent.com/96530597/315215893-c97ce192-1acf-437a-b6de-2186d48bc7f5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEzNjI2MTksIm5iZiI6MTcxMTM2MjMxOSwicGF0aCI6Ii85NjUzMDU5Ny8zMTUyMTU4OTMtYzk3Y2UxOTItMWFjZi00MzdhLWI2ZGUtMjE4NmQ0OGJjN2Y1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzI1VDEwMjUxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2ZDBmYWNkNmE0YWE2Y2ViZmZiNjRiMDUxOWI2ZmYyZTUwYjNmNGRkZDIzYTJkY2RlN2NlMzc2NTc2YzcxZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.RLYdfPPvztf6LYjiUnx9r6ivURW2i0T2jF8eRcUtBNU" rel="noopener nofollow ugc"><img alt="截屏2024-03-21 16 35 05" height="" src="https://private-user-images.githubusercontent.com/96530597/315215893-c97ce192-1acf-437a-b6de-2186d48bc7f5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEzNjI2MTksIm5iZiI6MTcxMTM2MjMxOSwicGF0aCI6Ii85NjUzMDU5Ny8zMTUyMTU4OTMtYzk3Y2UxOTItMWFjZi00MzdhLWI2ZGUtMjE4NmQ0OGJjN2Y1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzI1VDEwMjUxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2ZDBmYWNkNmE0YWE2Y2ViZmZiNjRiMDUxOWI2ZmYyZTUwYjNmNGRkZDIzYTJkY2RlN2NlMzc2NTc2YzcxZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.RLYdfPPvztf6LYjiUnx9r6ivURW2i0T2jF8eRcUtBNU" width="" /></a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#sparkles-4" name="sparkles-4"></a><img alt=":sparkles:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkles.png?v=12" title=":sparkles:" width="20" />使用场景</h2>
+<ul>
+<li>工程师看开发文档、需求文档，需要固定显示一个网页，切换到别的tab时也可以对照查看文档内容；</li>
+<li>摸鱼时可以打开Reddit刷一刷；</li>
+<li>可以把一些ai固定在侧边栏。</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#rocket-5" name="rocket-5"></a><img alt=":rocket:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/rocket.png?v=12" title=":rocket:" width="20" /> 插件地址</h2>
+<p><a class="onebox" href="https://chromewebstore.google.com/detail/acghhljehhigfeinngmggkpgbacpikfe" rel="noopener nofollow ugc" target="_blank">https://chromewebstore.google.com/detail/acghhljehhigfeinngmggkpgbacpikfe</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#high_brightness-6" name="high_brightness-6"></a><img alt=":high_brightness:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/high_brightness.png?v=12" title=":high_brightness:" width="20" /> 使用效果</h2>
+<p><a href="https://lh3.googleusercontent.com/gk8VsRmAyPKgRGtfD6a19bn31DOu8uk3cUuMd3Tr62N85Zj5D5xZ2FAqxujkYCjbSTjGRspATLsv4zrHt7V3o4eo=s1600-w1600-h1000" rel="noopener nofollow ugc"><img alt="" height="431" src="https://lh3.googleusercontent.com/gk8VsRmAyPKgRGtfD6a19bn31DOu8uk3cUuMd3Tr62N85Zj5D5xZ2FAqxujkYCjbSTjGRspATLsv4zrHt7V3o4eo=s1600-w1600-h1000" width="690" /></a><br />
+<a href="https://lh3.googleusercontent.com/ufuIB_GZ0SdWD4-rRbM_WEiTqHaCEjLUUoPhb72SzAA7NeNxmRsLkKHl57SkvlxiT6UZWjmwCJpBrX0pvKLnu_UY=s1600-w1600-h1000" rel="noopener nofollow ugc"><img alt="" height="431" src="https://lh3.googleusercontent.com/ufuIB_GZ0SdWD4-rRbM_WEiTqHaCEjLUUoPhb72SzAA7NeNxmRsLkKHl57SkvlxiT6UZWjmwCJpBrX0pvKLnu_UY=s1600-w1600-h1000" width="690" /></a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54320">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 25 Mar 2024 11:04:04 +0000</pubDate>
+<pubDate>Mon, 25 Mar 2024 11:04:04 +0000</pubDate>
+</item>
 
 <item>
 <title>如果你想要Chrome旧版的收藏书签UI及流程，推荐用这个扩展</title>

@@ -20124,3 +20124,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-25 12:04:14.009070
+------------------------------------------------------
+Started: 2024-03-25 14:03:06.329291
+Existing_entries: 325
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】用AI写的chrome插件sidebarTab-支持在chrome侧边栏打开一个固定网页](https://meta.appinn.net/t/topic/54320)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-25 14:03:09.663399
