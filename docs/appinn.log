@@ -20142,3 +20142,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [03-18~03-24.老胡的周刊（第134期）](https://meta.appinn.net/t/topic/54326)
 append_entries: 1
 Finish: 2024-03-25 16:03:30.772608
+------------------------------------------------------
+Started: 2024-03-25 18:03:40.275981
+Existing_entries: 327
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-03-25 18:03:43.092905
