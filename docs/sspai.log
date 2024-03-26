@@ -18452,3 +18452,12 @@ Existing_entries: 661
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-26 00:10:45.851288
+------------------------------------------------------
+Started: 2024-03-26 02:08:25.599413
+Existing_entries: 661
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error code: 404 - {'error': {'type': 'invalid_request_error', 'code': 'unknown_url', 'message': 'Unknown request URL: POST /chat/completions. Please check the URL for typos, or see the docs at https://platform.openai.com/docs/api-reference/.', 'param': None}}
+Append: [派早报：欧盟对 Apple 等公司展开新一轮调查，英特尔和 ARM 签署备忘录等](https://sspai.com/post/87554)
+append_entries: 1
+Finish: 2024-03-26 02:08:26.118315
