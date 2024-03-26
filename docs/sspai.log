@@ -18476,3 +18476,9 @@ error: Error code: 404 - {'error': {'type': 'invalid_request_error', 'code': 'un
 Append: [众测 |「先」声夺人：第三期先享体验计划，Bose Ultra 开放式耳机众测开启](https://sspai.com/post/86965)
 append_entries: 1
 Finish: 2024-03-26 06:04:31.915087
+------------------------------------------------------
+Started: 2024-03-26 08:03:41.627708
+Existing_entries: 663
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-03-26 08:03:41.822734
