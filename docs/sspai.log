@@ -18482,3 +18482,12 @@ Existing_entries: 663
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-26 08:03:41.822734
+------------------------------------------------------
+Started: 2024-03-26 10:03:29.840102
+Existing_entries: 663
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error code: 404 - {'error': {'type': 'invalid_request_error', 'code': 'unknown_url', 'message': 'Unknown request URL: POST /chat/completions. Please check the URL for typos, or see the docs at https://platform.openai.com/docs/api-reference/.', 'param': None}}
+Append: [深度体验一年之后，我爱上了 Apple Fitness+](https://sspai.com/post/87413)
+append_entries: 1
+Finish: 2024-03-26 10:03:30.246333
