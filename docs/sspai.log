@@ -18467,3 +18467,12 @@ Existing_entries: 662
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-26 04:03:33.926105
+------------------------------------------------------
+Started: 2024-03-26 06:04:31.411357
+Existing_entries: 662
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error code: 404 - {'error': {'type': 'invalid_request_error', 'code': 'unknown_url', 'message': 'Unknown request URL: POST /chat/completions. Please check the URL for typos, or see the docs at https://platform.openai.com/docs/api-reference/.', 'param': None}}
+Append: [众测 |「先」声夺人：第三期先享体验计划，Bose Ultra 开放式耳机众测开启](https://sspai.com/post/86965)
+append_entries: 1
+Finish: 2024-03-26 06:04:31.915087
