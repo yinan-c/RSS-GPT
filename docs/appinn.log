@@ -20302,3 +20302,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-27 08:03:37.522356
+------------------------------------------------------
+Started: 2024-03-27 10:03:23.347187
+Existing_entries: 327
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【开发工具，送码】Tempest 是一款跨平台、云同步、隐私优先的 SSH 客户端 和 Kubernetes 终端](https://meta.appinn.net/t/topic/54408)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-27 10:03:27.181646

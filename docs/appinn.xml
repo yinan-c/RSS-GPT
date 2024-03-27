@@ -4,6 +4,56 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发工具，送码】Tempest 是一款跨平台、云同步、隐私优先的 SSH 客户端 和 Kubernetes 终端</title>
+<link>https://meta.appinn.net/t/topic/54408</link>
+<guid>https://meta.appinn.net/t/topic/54408</guid>
+<content:encoded><![CDATA[
+
+<p>Tempest（官网：<a href="https://gotempest.app" rel="noopener nofollow ugc">gotempest.app</a>） 是一款跨平台、云同步、隐私优先的 SSH 客户端 和 Kubernetes 终端</p>
+<p>下载链接： <a href="https://gotempest.app/download/?utm_campaign=mar24&amp;utm_source=appinn" rel="noopener nofollow ugc">https://gotempest.app/download/</a><br />
+支持 Windows ，macOS ，Linux ，iOS 和 Android</p>
+<p>软件大部分功能都是免费的，仅跨设备同步、协作等增强功能需要付费。送码在最后</p>
+<h2><a class="anchor" href="https://meta.appinn.net#ssh-1" name="ssh-1"></a>SSH</h2>
+<ol>
+<li>支持 SSH2 、SFTP 和身份管理器</li>
+<li>支持从 1Password 进行服务器私钥验证</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#kubernetes-2" name="kubernetes-2"></a>Kubernetes</h2>
+<ol>
+<li>管理 Kubernetes Config</li>
+<li>在不同标签页中同时管理不同的集群，Kubeconfig 是隔离的</li>
+<li>跨设备端对端加密同步</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#shell-3" name="shell-3"></a>本地 Shell</h2>
+<ol>
+<li>对于 Windows 额外支持 MSYS ，WSL （开发中）等环境</li>
+<li>将支持 Serial 串口</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>数据加密和云同步</h2>
+<ol>
+<li>在用户本地进行加解密，同步的内容始终是已经加密的（端对端加密）。加密的密钥仅保存在用户本机，使用 KeyChain 或 Windows Credential Manager 保护数据</li>
+<li>加解密部分将在 GitHub 开源以供审查</li>
+<li>跨设备无缝同步非常丝滑，欢迎体验~</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>共享和协作</h2>
+<ol>
+<li>支持共享协作，类似石墨文档。发送链接给好友即可共享终端</li>
+<li>支持多窗口广播，即在一个标签中输入的指令可以广播到所有标签页，以同时配置大量服务器</li>
+<li>支持多保险库、分享保险库给团队、撤销用户权限等</li>
+</ol>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/6/560bd8531bfe35d2495ce133c0144e186c29fd64.jpeg" title="feature-external-password-manager"><img alt="feature-external-password-manager" height="418" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/6/560bd8531bfe35d2495ce133c0144e186c29fd64_2_690x418.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/f/df62e18206cebeac6c6582e36353cb5630f82edb.jpeg" title="feature-kubernetes-win"><img alt="feature-kubernetes-win" height="420" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/f/df62e18206cebeac6c6582e36353cb5630f82edb_2_690x420.jpeg" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>送码</h2>
+<p>请前往 <a href="https://gotempest.app/free-ssh-client?utm_campaign=mar24&amp;utm_source=appinn" rel="noopener nofollow ugc">Tempest SSH 官方网站</a> 点击 Claim 6 Months Pro Account Now 即可领取半年免费高级账户，活动截止为 4/25/2024</p>
+<p>Tempest 目前为技术预览版，还请大家多多包涵。欢迎反馈想法和 bug~ 独立开发者作品，欢迎大家体验~</p>
+<p><a class="hashtag-cooked" href="https://meta.appinn.net/tag/windows"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>windows</span></a> <a class="hashtag-cooked" href="https://meta.appinn.net/tag/android"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>android</span></a> <a class="hashtag-cooked" href="https://meta.appinn.net/tag/macos"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>macos</span></a> <a class="hashtag-cooked" href="https://meta.appinn.net/tag/ios"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>ios</span></a> <a class="hashtag-cooked" href="https://meta.appinn.net/tag/linux"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>linux</span></a></p>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54408">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 27 Mar 2024 05:44:42 +0000</pubDate>
+<pubDate>Wed, 27 Mar 2024 05:44:42 +0000</pubDate>
+</item>
 
 <item>
 <title>03-18~03-24.老胡的周刊（第134期）</title>
