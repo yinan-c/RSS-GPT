@@ -5,11 +5,83 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>Just-One-Page-PDF，将网页保存为PDF文件的chrome插件。</title>
+<link>https://meta.appinn.net/t/topic/54447</link>
+<guid>https://meta.appinn.net/t/topic/54447</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h2>
+<p>偶然发现一款chrome插件，Just One Page PDF，可以将网页保存为单页PDF。和打印成PDF比，用这个插件可以保存为不分页的PDF文件（也支持分页）。和GoFullPage那种截图保存PDF的比，这个直接保存原格式，文字还是可以复制的。<br />
+另外还有区域保存、多页签批量保存功能。区域保存功能个人觉得挺好用的，直接框选后选择保存成单页或多页PDF，批量保存我没试过。<br />
+可以免费使用，但保存单页会有固定的页眉和页脚，保存多页会有固定封面、封底，可以VIP付费去掉，貌似限时可以免费使用一段VIP，具体没搞太明白，免费版个人够用了。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>网址</h2>
+<p>官方网址：<a href="https://chrome.google.com/webstore/detail/just-one-page-pdf/fgbhbfdgdlojklkbhdoilkdlomoilbpl" rel="noopener nofollow ugc">https://chrome.google.com/webstore/detail/just-one-page-pdf/fgbhbfdgdlojklkbhdoilkdlomoilbpl</a><br />
+Crx搜搜镜像：<a class="inline-onebox" href="https://www.crxsoso.com/webstore/detail/fgbhbfdgdlojklkbhdoilkdlomoilbpl" rel="noopener nofollow ugc">Just-One-Page-PDF | Chrome扩展 - Crx搜搜</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>作者</h2>
+<p>作者id是suziwen1，看样子是开发了一个叫小书匠的笔记软件，B站上有作者对插件的介绍视频</p>
+<p><a class="onebox" href="https://www.bilibili.com/video/BV15W4y1Z7ye" rel="noopener nofollow ugc" target="_blank">https://www.bilibili.com/video/BV15W4y1Z7ye</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>文字介绍</h2>
+<p>从这往下的文字全部摘自作者的介绍</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>介绍</h2>
+<p>Just One Page PDF(JOPP)，将任何网页、任何区域保存为一页 PDF，就像截图工具一样，但另存为 PDF 格式。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#pdf-6" name="pdf-6"></a>为什么是pdf</h2>
+<ol>
+<li>可打印</li>
+<li>一致性</li>
+<li>可缩放</li>
+<li>更高品质</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>特征</h2>
+<ol>
+<li>整个网页的一页PDF</li>
+<li>整个网页的多页PDF</li>
+<li>支持自定义纸张尺寸，例如。窗口尺寸，A4、A3、Letter 等。</li>
+<li>截图，但是PDF格式。</li>
+<li>一次导出带有多个选项卡的PDF</li>
+<li>支持导出所选地区的PDF</li>
+<li>支持通过电子邮件发送PDF</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>与浏览器内置打印功能比较</h2>
+<ol>
+<li>无打印预览对话框，直接下载</li>
+<li>根据需要自定义任何页面尺寸</li>
+<li>多个选项卡一次导出PDF</li>
+<li>根据需要禁用或启用打印介质</li>
+<li>导出PDF前自定义样式</li>
+</ol>
+<p>在上网的时候，你总会遇到一些漂亮的文章或网页，你会不自觉地想要收藏。要收集这些文章，您需要一些工具。在这里我想分享一下我之前使用过的一些扩展，遇到的问题，为了解决这些问题，我开发了一个新的适合文章收藏的扩展。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>网页剪辑器</h2>
+<p>我曾经通过一些网页剪辑工具（比如evernote/onenote web Clipper）来收集文章，但是这些工具有一个很大的缺点，就是它们会重新排列文章，简单的文章可能无所谓，但是对于一些内容丰富的文章表现力和复杂的排版，尤其是使用不同的网页字体来使文章阅读起来更舒适的文章，使用这些剪辑工具很难保持原始文章的阅读体验。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#html-10" name="html-10"></a>整个 html</h2>
+<p>为了解决这个问题，我尝试了一些工具将文章保存为完整的html，比如单页、保存页面we等，虽然这些工具很强大，但总感觉少了点什么。没有办法注释，与朋友分享不是很方便，打印也不太理想。同时，这些保存为html的文章不利于与一些知识管理工具结合。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-11" name="h-11"></a>截屏</h2>
+<p>更直接的解决办法是使用截图扩展来对你想要采集的文章进行截图。截图方式的优点是易于操作、易于收藏、易于分享。然而，当放大和缩小生成图像的文章时，图像会失真和模糊，并且没有更好的方法来搜索图像中的文本。如果文章特别长，保存的图片文件大小也可能会变得很大。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#pdf-12" name="pdf-12"></a>PDF</h2>
+<p>最后，可以想到的另一个解决方案是将文章保存为PDF格式。保存为PDF的文章可以很好地解决文本编辑和搜索，并且共享变得非常方便。市面上已经有很多PDF阅读软件，浏览器本身也提供PDF阅读功能；同时，一些先进的PDF阅读软件还提供PDF注释、签名、修改等功能。大多数知识管理软件也都或多或少地适应了PDF阅读。</p>
+<p>虽然保存为 PDF 是我目前能想到的最佳解决方案，但提供保存为 PDF 的扩展功能非常初级，并且某些工具需要联网到服务器才能操作，这更难以实现对于一些登录验证页面。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#pdf-13" name="pdf-13"></a>内置PDF打印功能</h3>
+<p>浏览器内置的PDF打印（ctrl+p），这是最直接的生成PDF的方式，但是该功能生成的PDF需要文章作者对PDF风格进行适配，这样打印出来的PDF会更加准确美观。遗憾的是，目前大多数网站都没有提供PDF打印友好的样式适配，生成的PDF的效果可能与浏览网页的效果有很大差异。同时，浏览器内置的PDF打印无法像截图一样保持网页的原始布局。主要原因是内置PDF打印的大小限制。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#pdf-14" name="pdf-14"></a>第三方 PDF 扩展</h3>
+<p>保存 PDF 的另一个选项是使用第三方扩展。<br />
+更简单的PDF扩展直接调用浏览器内置的打印功能直接生成PDF文件，无需后续优化处理，效果与用户直接使用ctrl+p基本相同。<br />
+高级PDF扩展会将访问的网页地址传输到第三方服务器，然后通过网页地址在服务器上进行操作并保存为PDF。但这样一来，就没有办法保存一些需要登录认证的网页或者文章了。同时，由于用户自己电脑上的字体可能与第三方服务器上的字体不同，导致生成的PDF效果还是有些不一致。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#pdf-15" name="pdf-15"></a>我自己的 PDF 扩展</h3>
+<p>为了满足通过PDF收集文章的需求，我开发了这样一个扩展Just One Page PDF（JOPP）。支持类似的截图操作，选择指定区域另存为PDF，最重要的是这个操作是在客户端进行的，不需要任何第三方服务。<br />
+JOPP生成的PDF自带大纲功能，即JOPP支持识别页面的标题（H1、H2、H3等）结构，自动转换为PDF书签。<br />
+JOPP还支持批量保存为PDF，不再需要逐页点击打印。只需单击一下，您就可以将所有选定的页面打印为 PDF。<br />
+对于文章收藏，您还可以使用JOPP的发送邮件功能，将生成的PDF文章发送到您自己的邮箱。对于支持邮件收集文章的知识管理工具，如evernote/onenote等，可以直接将PDF发送到目标邮箱。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54447">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 28 Mar 2024 03:44:42 +0000</pubDate>
+<pubDate>Thu, 28 Mar 2024 03:44:42 +0000</pubDate>
+</item>
+
+<item>
 <title>[自荐] ReHabit - 专为养成每日习惯、实现自我提升的习惯管理App</title>
 <link>https://meta.appinn.net/t/topic/54437</link>
 <guid>https://meta.appinn.net/t/topic/54437</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>ReHabit</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
@@ -37,9 +109,7 @@
             <p><a href="https://meta.appinn.net/t/topic/54437">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 28 Mar 2024 01:22:00 +0000</pubDate>
-<pubDate>Thu, 28 Mar 2024 01:22:00 +0000</pubDate>
 </item>
-
 <item>
 <title>【开发工具，送码】Tempest 是一款跨平台、云同步、隐私优先的 SSH 客户端 和 Kubernetes 终端</title>
 <link>https://meta.appinn.net/t/topic/54408</link>
