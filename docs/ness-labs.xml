@@ -4,6 +4,270 @@
 <title>Ness Labs</title>
 <link>https://nesslabs.com/</link>
 
+<item>
+<title>Supercharge your thinking with the co-founders of Beloga</title>
+<link>https://nesslabs.com/beloga-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=beloga-featured-tool</link>
+<guid>https://nesslabs.com/beloga-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=beloga-featured-tool</guid>
+<content:encoded><![CDATA[
+<div> Beloga, knowledge management, productivity, RAG, integrations
+总结:<br><br>Beloga是一款用于知识管理和提高团队生产力的工具，采用最新的检索增强生成技术。它帮助用户快速查找信息，生成答案，并实现超个性化的知识管理。用户能够从多个信息来源中提取内容，快速解决问题，提高工作效率。Beloga的愿景是建立一个信息无障碍获取的世界，实现思维速度与知识获取速度的匹配。他们计划增加更多集成和开放应用程序市场，以促进更广泛的组织内信息流畅。 <div>
+<p>Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smarter. Jerica Kuah and Wilson Ler are the co-founders of <a href="https://www.beloga.xyz/">Beloga</a>, a knowledge operating system for cross-team knowledge transfer. Beloga offers multi-source knowledge management to offer hyper-contextualized insights, streamline workflows, and make information retrieval easy.</p>
+
+
+
+<p>In this interview, we talked about addressing the challenges of knowledge management and transfer, cultivating an environment conducive to innovation, and their vision of building a world where information is effortlessly accessible and where we can all work at the speed of thought. Enjoy the read!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Beloga – Featured Tool Image 1" class="wp-image-15087" height="597" src="https://nesslabs.com/wp-content/uploads/2024/03/beloga-image-1-1024x597.png" width="1024" /></figure></div>
+
+
+<p><strong>Thanks for agreeing to this interview! First, can you tell us why you decided to tackle information overload and team productivity?</strong></p>
+
+
+
+<p>In today’s digital era, the sheer volume of information we encounter necessitates efficient knowledge transfer within and between teams to sustain productivity and drive innovation. The challenge of excessive time consumption during cross-team knowledge transfer emerges as a critical issue, as inefficiencies and unnecessary delays can impede progress and growth.</p>
+
+
+
+<p>Consider a common scenario: a product manager needs specific insights from the engineering team. Each inquiry requires an engineer to halt their work to extract information, possibly already documented within the company’s resources. This situation is far from unique; it illustrates the broader issue of time spent on redundant inquiries, locating subject matter experts, navigating poorly maintained documentation, and untangling indirect communication.</p>
+
+
+
+<p>These are not rare occurrences; they are part of the daily workflow, cumulatively resulting in significant opportunity costs. Consequently, projects advance more sluggishly, engineers forfeit precious development time, product managers allocate more time to information gathering than to innovation, and sales teams divert time from customer engagement to navigating internal communications.</p>
+
+
+
+<p>This challenge is further compounded by the preference of different teams for various tools, resulting in information being stored across multiple locations. And the complexity of this challenge is magnified by the continuous growth of information. As information proliferates, the hurdles in knowledge transfer we face today are merely the tip of the iceberg.</p>
+
+
+
+<p>Addressing these challenges requires strategic interventions for enhanced knowledge management and transfer. Implementing a culture of knowledge sharing, improving documentation practices, and leveraging technology to facilitate seamless information exchange are pivotal steps toward mitigating the time wasted in cross-team knowledge transfers. Such measures not only boost productivity but also cultivate an environment conducive to innovation.</p>
+
+
+
+<p><strong>And that’s what inspired you to create Beloga.</strong></p>
+
+
+
+<p>In the quest to reshape the landscape of knowledge management and productivity, the inception of Beloga was sparked by a blend of personal challenges and a profound vision for the future.</p>
+
+
+
+<p>At its core, Beloga was born out of a necessity to bridge the gap in information accessibility and streamline the workflow across different roles within a team. Its co-founders, driven by their experiences and insights, embarked on a journey to create a platform that not only addresses these challenges but also fosters a culture of shared knowledge and innovation.</p>
+
+
+
+<p>The origin story of Beloga is deeply rooted in the personal experiences of its co-founders. Wilson Ler, as an engineering manager and full-stack engineer at a search as a service startup, encountered firsthand the inefficiencies and frustrations that arise from disjointed knowledge management tools. He noted the significant time and productivity lost to context switching and the struggle to maintain a cohesive flow of information across various platforms preferred by different teams. This challenge was not unique to him but a widespread issue that affects productivity and collaboration in many organizations.</p>
+
+
+
+<p>Moreover, Jerica brought her passion for productivity and personal development into the mix. Her journey from spreading joy through baking during Covid-19 to raising funds for a noble cause showcased her innate drive to make a difference. This spirit, combined with her obsession with living life efficiently and her experience in building productivity systems, laid the foundational principles that power Beloga.</p>
+
+
+
+<p>Beloga’s vision is anchored in the belief that access to shared knowledge is the cornerstone of innovation and productivity. We aim to revolutionize the way individuals and teams research, collaborate, and innovate. The platform leverages cutting-edge technologies, including retrieval augmented generation (RAG) and semantic search, to offer a seamless and intuitive experience that cuts through the noise and brings relevant information to the forefront.</p>
+
+
+
+<p>In essence, Beloga is not just a response to the challenges faced by its co-founders; it is a testament to their commitment to building a world where information is effortlessly accessible, empowering individuals and teams to achieve their fullest potential. Through Beloga, they envision a future where the speed of thought is matched by the speed of access to knowledge, inspiring a new era of productivity and innovation.</p>
+
+
+
+            
+            
+                                        
+            
+            
+
+
+<div class="wp-block-spacer" style="height: 20px;"></div>
+
+
+
+<p><strong>You use state-of-the-art Retrieval Augmented Generation technology. How does that work?</strong></p>
+
+
+
+<p>Retrieval augmented generation (RAG) is an up and coming technique that addresses the pitfalls of large language models, particularly in the realm of AI hallucinations. It uses a mix of both good information retrieval and generative AI to generate answers which are factually correct. It also has the plus point of surfacing references to sources that were used to generate the answer. That’s huge for AI explainability.</p>
+
+
+
+<p>Beloga is built with RAG at its core, with the ability to pull information from multiple sources of information, be it from the web or internal, of different shapes and context sizes and transform them into something that our AI can understand before generating a response out of it.</p>
+
+
+
+<p>This works really well for a world where search is democratized and information no longer exists from one singular source, i.e. integrations with multiple apps.</p>
+
+
+
+<p><strong>So it’s basically a hyper-personalized knowledge management system!</strong></p>
+
+
+
+<p>Yes, exactly! Beloga is not here to replace all of your existing tools, workflows, etc. We would like to be that first point of contact when you need to ask a quick question or craft content in a pinch instead of navigating through a plethora of tools you might have under your belt.</p>
+
+
+
+<p>With integrations, our users are able to connect to their existing apps and company knowledge bases to draw information from them. With web search, our users are able to search quickly for information on the web and transform them into whatever they wish by prompt before saving them. With notes, our users are able to accumulate their research and information directly on Beloga before repurposing it again in the future through our AI.</p>
+
+
+
+<p>With all of them combined, our users are able to make certain connections between two or more streams of information, such as from the internet and Google Docs for example.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Beloga – Featured Tool Image 2" class="wp-image-15088" height="660" src="https://nesslabs.com/wp-content/uploads/2024/03/beloga-image-2-e1711617028697-1024x660.png" width="1024" /></figure></div>
+
+
+<p><strong>That sounds amazing. Can you describe some typical use cases?</strong></p>
+
+
+
+<p>You can craft an email for a customer to announce new releases in a software product by pulling information from various product management apps and documentation, or create a guide or recommended steps on the spot during a technical production issue by having Beloga pull information from various runbooks and company documentation.</p>
+
+
+
+<p>A user could write a marketing post against a competitor by pulling information about the competitor from the web and information about the product from internal company documentation to do a comparison, or craft a sales pitch for prospective customers from internal company documentation without the need for wading through an overload of technical details.&nbsp;</p>
+
+
+
+<p>Or they could pull answers quickly as a new hire from internal company tools and documentation without having to go through a senior staff member. The possibilities are endless.</p>
+
+
+
+<p><strong>Now, let’s say someone wants to generate new ideas for an article, how would they go about that using Beloga?</strong></p>
+
+
+
+<p>If you already have a company knowledge base, such as Google Drive, Slab or One Drive, start by integrating that into Beloga and granting access to files or folders. If you have any additional notes as you’re researching along the way, you can also create notes on Beloga directly.</p>
+
+
+
+<p>Once you’ve gathered your resources, simply toggle “web”, “notes” and your various integrations and craft a prompt to compare between your company’s features and your target competitor’s. Beloga will then generate a response based on your prompt. You can then share this response with a teammate or save it to your inbox to read it later.</p>
+
+
+
+<p><strong>What about you, how do you use Beloga?</strong></p>
+
+
+
+<p>We use Beloga on a day-to-day basis to streamline information flow between the two co-founders. For instance, Beloga helps us keep tabs on Beloga’s changelogs and quickly ingest details in our shared Google Drive.</p>
+
+
+
+<p><strong>And finally… What’s next for Beloga?</strong></p>
+
+
+
+<p>We want to focus on building more integrations and potentially open an app marketplace. An OS should have a decent number of third party app inputs and outputs. We want to improve Beloga’s user experience and expand to an entire organization.</p>
+
+
+
+<p>Ultimately, our goal is to streamline information flow between all members of an organization irregardless of role. We aim to empower folks with the ability to work at the speed of thought. We’re building a world where shared knowledge empowers people and inspires innovation.</p>
+
+
+
+<p><strong>Thank you so much for your time! Where can people learn more about Beloga?</strong></p>
+
+
+
+<p>Thanks for having us! You can visit our <a href="https://www.beloga.xyz/">website</a>, <a href="https://www.linkedin.com/company/96083099">LinkedIn</a>, and <a href="https://twitter.com/beloga_xyz">Twitter</a>. Feel free to book a demo <a href="https://calendly.com/hello-beloga/demo">here</a>.</p>
+<p>The post <a href="https://nesslabs.com/beloga-featured-tool">Supercharge your thinking with the co-founders of Beloga</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 28 Mar 2024 09:18:11 +0000</pubDate>
+<pubDate>Thu, 28 Mar 2024 09:18:11 +0000</pubDate>
+</item>
+<item>
+<title>Intentional Curiosity: Get your Brain to Focus on What Matters</title>
+<link>https://nesslabs.com/intentional-curiosity?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=intentional-curiosity</link>
+<guid>https://nesslabs.com/intentional-curiosity?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=intentional-curiosity</guid>
+<content:encoded><![CDATA[
+<div> 注意力、好奇心、皮层、干预、关注<br>
+<br>
+总结:<br>
+本文介绍了如何理解有意识的好奇心和注意力的神经科学。注意力领域涵盖了内部和外部所有信息，不同的大脑区域管理注意力，从而影响我们的集中和分心。有意识的好奇心是将注意力有意识地引向重要刺激的能力。通过消除明显的干扰、增加注意力负荷、监控思绪、让思绪漫游和增强好奇心等策略，可以有效管理注意力和加强集中力。 <div>
+<p>Keeping a focused mind is hard. Imagine you’re working on an important report due tomorrow. As you start writing, your phone lights up with a text from a friend. Your natural curiosity makes you wonder what the message says. Do you give in and check your phone, or do you stay focused on the report?</p>
+
+
+
+<p>Every day, thousands of choices like these happen inside your brain. It’s a constant battle between your primal need to know what’s going on around you and your desire to create great work.</p>
+
+
+
+<p>While curiosity and focus may seem like opposing drives, they’re actually deeply intertwined. By understanding the neuroscience of attention you can learn to intentionally direct and sustain your curiosity to achieve your ambitions.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The Science of Intentional Curiosity</strong></h2>
+
+
+
+<p>To understand intentional curiosity, we first need to understand the concept of the attentional field. Your attentional field is the combination of everything inside you—thoughts, emotions, physical sensations—and everything outside you, including what you see and hear. It encompasses all the information competing for your brain’s limited attentional resources.</p>
+
+
+
+<p>When you’re working on something and receive a notification, two parts of the brain are involved in managing your attention within this field. The prefrontal cortex, directly behind the forehead, is activated when you start concentrating. The parietal cortex, behind the ear, is activated by distracting events.</p>
+
+
+
+<p>Research <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4346464/">shows</a> these two regions process information differently. The prefrontal cortex emits slower frequency pulses of electricity, which are associated with focused attention and goal-directed behavior. In contrast, the parietal cortex emits faster frequency pulses, enabling quick responses to unexpected stimuli and automatic processing of information.</p>
+
+
+
+<p>Long ago, you would have used your prefrontal cortex when working on a tool or building a shelter, but your parietal cortex would have been instantly activated if you heard a strange noise or were attacked by a wild animal. Thus, the parietal cortex is originally a survival tool, ensuring that we can switch our attention to more pressing matters if something urgent happens.</p>
+
+
+
+<p>In today’s world, the sources of distractions are constant, and less likely to be critical to our survival. We get interrupted by a never-ending flow of competing cues and information, and it becomes harder to sustain our attention for longer periods of time.</p>
+
+
+
+<p>Intentional curiosity is the ability to direct your attention towards information inside or outside of you in a deliberate way. Researchers <a href="https://www.sciencedirect.com/science/article/pii/S2352154620301376">argue</a> that “curiosity addresses the challenge that deliberating about how to allocate attention relies on, and therefore draws down, the same serial information-processing faculties that one is seeking to allocate.”</p>
+
+
+
+<p>In other words, curiosity helps us direct our limited attentional resources to the most important stimuli within our attentional field.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Adventures in the Attentional Field</strong></h2>
+
+
+
+<p>Navigating your attentional field can be challenging, with countless stimuli competing for your limited cognitive resources. Distractions, both internal and external, can easily pull your focus away from the tasks that matter most. However, by cultivating intentional curiosity, you can effectively manage these distractions and strengthen your ability to focus.</p>
+
+
+
+<p><strong>1. Remove obvious distractions.</strong> Put your phone away. And by away, I mean in another room. If you work in an open space, put your headphones on to dissuade people from talking to you. And if you’re tempted to check social media on your laptop, install an app that will prevent you from accessing them for a set amount of time.</p>
+
+
+
+<p><strong>2. Increase your attentional load.</strong> The Load Theory of Attention <a href="https://www.ncbi.nlm.nih.gov/pubmed/19327760">posits</a> that because attention is a limited resource, filling all the additional “slots” in your mind may leave no room for other distractions. This is why some people work better when having a bit of background noise or listening to music while in focused mode. Experiment with adding deliberate distractors so your curiosity doesn’t get derailed.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img alt="Intentional Curiosity and Attentional Load" class="wp-image-15084" height="1648" src="https://nesslabs.com/wp-content/uploads/2019/09/attentional-load-illustration.png" width="2938" /></figure></div>
+
+
+<p><strong>3. Monitor your mind.</strong> However intentional you are, you will get interrupted by internal or external distractions at one point or another. When faced with a distraction, be curious about why it’s pulling your attention. Is it truly important, or just a fleeting impulse? By evaluating the nature of the distraction, you can more easily redirect your curiosity back to your main task, or identify <a href="https://nesslabs.com/curiosity-attractors">curiosity attractors</a> you might want to explore further at a later point.</p>
+
+
+
+<p><strong>4. Make space for mind wandering.</strong> While studies <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2760023/">suggest</a> that letting your mind wander too often can have a negative impact on overall performance in your daily life, scientists have<a href="https://science.sciencemag.org/content/315/5810/393"> found</a> that closing your laptop and daydreaming for a few minutes has a positive impact on cognition. See where your mind wants to go when you let it follow its curiosity. You can even take some notes afterwards to record any interesting thoughts.</p>
+
+
+
+<p><strong>5. Strengthen your curiosity.</strong> Make it a <a href="https://nesslabs.com/curiosity-matrix">habit to be curious</a> about everything in your life—your inner landscape, external events, new interests, and the people around you. By drawing connections between all these areas of your life, you’ll notice that what may seem like a distraction on the surface can be the seed of a project.</p>
+
+
+
+<p>Intentional curiosity is not about never losing your focus—which would be unrealistic—but about monitoring your attention and using simple strategies to bring it back to the task at hand when you get distracted, while keeping track of recurring sources of curiosity so you can explore them further in a deliberate way.</p>
+<p>The post <a href="https://nesslabs.com/intentional-curiosity">Intentional Curiosity: Get your Brain to Focus on What Matters</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 25 Mar 2024 09:41:00 +0000</pubDate>
+<pubDate>Mon, 25 Mar 2024 09:41:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Ness Labs Best Books of March 2024</title>

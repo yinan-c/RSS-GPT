@@ -18654,3 +18654,12 @@ Existing_entries: 673
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-28 08:03:41.424093
+------------------------------------------------------
+Started: 2024-03-28 10:03:34.611362
+Existing_entries: 673
+Fetching from https://rsshub.app/sspai/index
+Token length: 12975
+Summarized using GPT-3.5-turbo
+Append: [超越工具与概念之争：可持续知识管理的个人实践](https://sspai.com/post/87028)
+append_entries: 1
+Finish: 2024-03-28 10:03:41.081357
