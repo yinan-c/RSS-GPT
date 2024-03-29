@@ -18753,3 +18753,15 @@ Existing_entries: 678
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-29 12:04:11.288034
+------------------------------------------------------
+Started: 2024-03-29 14:03:31.489028
+Existing_entries: 678
+Fetching from https://rsshub.app/sspai/index
+Token length: 9189
+Summarized using GPT-3.5-turbo
+Append: [本周看什么 | 最近值得一看的一大兜作品](https://sspai.com/post/87654)
+Token length: 2735
+Summarized using GPT-3.5-turbo
+Append: [探索从短信转发到通知推送的全平台解决方案](https://sspai.com/post/87544)
+append_entries: 2
+Finish: 2024-03-29 14:03:47.163836
