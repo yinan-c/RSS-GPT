@@ -4,6 +4,45 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for March 29, 2024</title>
+<link>https://brett.trpstra.net/link/535/16635234/web-excursions-for-march-29-2024</link>
+<guid>https://brett.trpstra.net/link/535/16635234/web-excursions-for-march-29-2024</guid>
+<content:encoded><![CDATA[
+<div> mac app; intention setting; Terminal trick; native macOS email client; keycap replacement
+<br><br>总结: 这篇文章介绍了一款简单优雅的Mac应用程序，可以帮助用户设定意图并提醒他们专注工作。还分享了一个适用于Terminal爱好者的技巧，并推荐了一款优秀的原生macOS邮件客户端。最后提到了订购了一个键帽来替换现有的定制键帽。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with <a href="https://macpaw.7eer.net/c/228914/82479/1733">CleanMyMac X</a>, all the tools to speed up your Mac, in one app.</p>
+
+<dl>
+  <dt><a href="https://n10.app/">N₁₀ - Attention Management App for Mac</a></dt>
+  <dd>A simple, elegant Mac app that allows you to set an intention, define how much time you plan to put into it, and then just sit, quietly reminding you of what you want to be working on with subtle but all-encompassing animations. Perfect for those of us who say &ldquo;OK, now I&rsquo;m really going to work on this&rdquo; and then find ourselves doing something entirely different within five minutes H/T <a href="https://pnw.zone/@jason">Jason Rhemus</a> and props to props to developer <a href="https://mastodon.social/@sstephenson">Sam Stephenson</a>.</dd>
+  <dt><a href="https://leancrew.com/all-this/2023/12/again-with-man-pages-and-bbedit/">Again with man pages and BBEdit - All this</a></dt>
+  <dd>Really nice trick for Terminal junkies who use BBEdit. I have a similar trick for sublime, and one that opens man pages in Preview, but this one provides additional navigation that none of mine have.</dd>
+  <dt><a href="https://mimestream.com/">Mimestream</a></dt>
+  <dd>&ldquo;A native macOS email client for Gmail.&rdquo; This looks so good, especially considering MailPlane is dead. If only I didn&rsquo;t have iCloud and Exchange email accounts I need to deal with, too.</dd>
+  <dt><a href="https://www.etsy.com/listing/1005243836/interstellar-resin-keycap-interstellar?click_key=15ef6abb904cd0d4cac8e45387bb5a84a185c5f0%3A1005243836&amp;click_sum=61bef45c&amp;pro=1&amp;variation1=2388176515">Interstellar Resin Keycap</a></dt>
+  <dd>I ordered this keycap to replace my custom rocket keycap that I use for my hyper key. Available in 2.25u (Enter) size. It should arrive today and I&rsquo;m very excited. I&rsquo;ll post pictures once I&rsquo;ve installed it!</dd>
+</dl>
+
+<p><a href="https://brettterpstra.com///macpaw.7eer.net/c/228914/82479/1733"><img alt="CleanMyMac X" border="0" height="90" src="https://brettterpstra.com///a.impactradius-go.com/display-ad/1733-82479" width="728" /></a><img border="0" height="0" src="https://brettterpstra.com///macpaw.7eer.net/i/228914/82479/1733" width="0" /></p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F29%2Fweb-excursions-for-march-29-2024%2F&amp;text=Web+Excursions+for+March+29%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F03%2F29%2Fweb-excursions-for-march-29-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16635234.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-03-29T12:10:00-05:00</pubDate>
+<pubDate>2024-03-29T12:10:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Revisiting TagFiler and Vitag</title>
