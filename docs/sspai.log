@@ -18714,3 +18714,15 @@ Existing_entries: 675
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-29 02:08:35.936934
+------------------------------------------------------
+Started: 2024-03-29 04:04:25.767098
+Existing_entries: 675
+Fetching from https://rsshub.app/sspai/index
+Token length: 4094
+Summarized using GPT-3.5-turbo
+Append: [家用咖啡手册（番外） | 低因咖啡是怎么回事？](https://sspai.com/post/87595)
+Token length: 3845
+Summarized using GPT-3.5-turbo
+Append: [派早报：小米推出 SU7 系列汽车、理光推出 GR III HDF 及特别版](https://sspai.com/post/87642)
+append_entries: 2
+Finish: 2024-03-29 04:04:37.387098
