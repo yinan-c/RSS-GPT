@@ -18894,3 +18894,15 @@ Existing_entries: 681
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-03-31 08:03:33.721728
+------------------------------------------------------
+Started: 2024-03-31 10:03:31.019432
+Existing_entries: 681
+Fetching from https://rsshub.app/sspai/index
+Token length: 8944
+Summarized using GPT-3.5-turbo
+Append: [本月玩什么 | 龙之信条 2、浪人崛起、Open Roads、Llamasoft: The Jeff Minter Story](https://sspai.com/post/87696)
+Token length: 7338
+Summarized using GPT-3.5-turbo
+Append: [空想特摄的浪漫：奥特曼入坑指南](https://sspai.com/post/87652)
+append_entries: 2
+Finish: 2024-03-31 10:03:40.476195
