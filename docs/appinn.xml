@@ -4,6 +4,110 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【Tampermonkey/油猴】V2EX 主题回复增强</title>
+<link>https://meta.appinn.net/t/topic/36431</link>
+<guid>https://meta.appinn.net/t/topic/36431</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
+<p>V2EX 主题回复增强</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h1>
+<p><strong>Tampermonkey/油猴</strong> - Chrome</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h1>
+<p>【开发者自荐】</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>简介</h1>
+<p>因为 V2EX 的主题回复之间没有关联，所以想知道发生了什么还得 Ctrl + F 搜索被艾特的人说了什么。</p>
+<p>点击“<a class="mention" href="https://meta.appinn.net/u/xxx">@xxx</a>”的链接即可打开右侧“xxx 在讨论……”的弹窗。</p>
+<p>首次使用请允许弹出窗口并在 <a href="https://v2ex.com/settings" rel="noopener nofollow ugc">V2EX &gt; 设置 &gt; 脚本设置</a>中配置 Token。</p>
+<p><img alt="" height="" src="https://github.com/duanluan/tampermonkey-scripts/assets/14957667/07748232-4b37-41d7-9afc-a39b4363e270" width="" /></p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>资源</h1>
+<ul>
+<li>V2EX：<a href="https://v2ex.com/t/881909" rel="noopener nofollow ugc">https://v2ex.com/t/881909</a></li>
+<li>Github：<a href="https://github.com/duanluan/tampermonkey-scripts/tree/main/v2ex-replies-pro" rel="noopener nofollow ugc">https://github.com/duanluan/tampermonkey-scripts/tree/main/v2ex-replies-pro</a></li>
+<li>Greasy Fork：<a href="https://greasyfork.org/zh-CN/scripts/451752" rel="noopener nofollow ugc">https://greasyfork.org/zh-CN/scripts/451752</a></li>
+<li>OpenUserJS：<a href="https://openuserjs.org/scripts/duanluan/V2EX_%E4%B8%BB%E9%A2%98%E5%9B%9E%E5%A4%8D%E5%A2%9E%E5%BC%BA" rel="noopener nofollow ugc">https://openuserjs.org/scripts/duanluan/V2EX_主题回复增强</a></li>
+</ul>
+            <p><small>4 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/36431">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 21 Sep 2022 10:04:10 +0000</pubDate>
+<pubDate>Wed, 21 Sep 2022 10:04:10 +0000</pubDate>
+</item>
+<item>
+<title>【开发者自荐】DevHub 免费的开发者集成工具</title>
+<link>https://meta.appinn.net/t/topic/54570</link>
+<guid>https://meta.appinn.net/t/topic/54570</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>DevHub</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<ul>
+<li>MacOS</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>一个功能丰富的离线应用程序，精心打造，旨在支持开发人员的日常任务，并确保其数据的最高安全性</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>我正在积极开发中，并树立了一个大胆的目标：每周发布更新。我努力保持紧凑的足迹，旨在策划一个包含100多个小工具的广泛集合，为开发人员提供多样化的工具。这一举措体现了我对持续提升的承诺，提供丰富的工具，以赋能开发人员。DevHub不仅仅是一个编码伴侣；</p>
+<p>已完成的工具如下：</p>
+<ul>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> API 请求</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 正则表达式测试</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> Chmod 计算器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> Crontab 生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 日期转换器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 设备信息</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 密码生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 生命倒计时</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 温度转换器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 文本转语音</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> PX/REM 转换器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 条形码生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 随机数生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 数据大小转换器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> QRCode 读取/生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> WiFi 二维码生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 事件二维码生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 名片二维码生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 随机端口生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> RSA 密钥生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 颜色转换器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 精密计时器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> ASCII 转字符串</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 字符串转 ASCII</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 哈希生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 基本验证生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> EXIF 查看器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 图片转 Base64</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> ICO 转换器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> HTML 编码/解码</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 字符串浏览器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 文本转 Base64</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 文本转Unicode</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 文本案例</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 摩尔斯电码</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 乱数假文生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> UUID 生成器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> URL解析器</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> URL 编码/解码</li>
+</ul>
+<p>截图预览：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/8/188420a69206b997442bb7cc08c0f13a25a2cc73.jpeg" title="screenshots-1-cn"><img alt="screenshots-1-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/8/188420a69206b997442bb7cc08c0f13a25a2cc73_2_690x431.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/0/10bcfdf2768aa00e623341abfc694379c26c0d7f.jpeg" title="screenshots-2-cn"><img alt="screenshots-2-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/0/10bcfdf2768aa00e623341abfc694379c26c0d7f_2_690x431.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/d/8db42f733897916e614da3e0153f203bc9e3e84b.jpeg" title="screenshots-3-cn"><img alt="screenshots-3-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/d/8db42f733897916e614da3e0153f203bc9e3e84b_2_690x431.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/d/9dd8d8150190719ffe808bb146a6583e3c2bf17c.jpeg" title="screenshots-4-cn"><img alt="screenshots-4-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/d/9dd8d8150190719ffe808bb146a6583e3c2bf17c_2_690x431.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/f/9fc3fbb4faa06dd7be587710bdb044c1f9d02acd.jpeg" title="screenshots-5-cn"><img alt="screenshots-5-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/f/9fc3fbb4faa06dd7be587710bdb044c1f9d02acd_2_690x431.jpeg" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/8/28cc7eb50836b239329ff3f97b26c149a568f95b.jpeg" title="screenshots-6-cn"><img alt="screenshots-6-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/8/28cc7eb50836b239329ff3f97b26c149a568f95b_2_690x431.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/d/cd409e58bb06476af2a0c03ad7d445c4b6b7520e.jpeg" title="screenshots-7-cn"><img alt="screenshots-7-cn" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/d/cd409e58bb06476af2a0c03ad7d445c4b6b7520e_2_690x431.jpeg" width="690" /></a></div><p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54570">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 31 Mar 2024 04:01:15 +0000</pubDate>
+<pubDate>Sun, 31 Mar 2024 04:01:15 +0000</pubDate>
+</item>
 
 <item>
 <title>全平台（网页）保持屏幕常亮 Keep Screen On【用户推荐】</title>
