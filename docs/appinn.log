@@ -20758,3 +20758,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-04-01 00:12:22.004850
+------------------------------------------------------
+Started: 2024-04-01 02:14:36.286417
+Existing_entries: 335
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [可选择可输入的网页控件浏览器密码如何自动填充？](https://meta.appinn.net/t/topic/54600)
+Append: [请问大家使用各种笔记的保存插件最近都无法保存微博里面的图片怎么办?](https://meta.appinn.net/t/topic/54599)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-04-01 02:14:39.861210
