@@ -4,6 +4,141 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Automating the Dimspirations workflow</title>
+<link>https://brett.trpstra.net/link/535/16637190/automating-the-dimspirations-workflow</link>
+<guid>https://brett.trpstra.net/link/535/16637190/automating-the-dimspirations-workflow</guid>
+<content:encoded><![CDATA[
+<div> Affinity Photo, Automation, Dimspirations, Hazel, Rake
+总结:<br><br>本文介绍了作者如何利用Affinity Photo和自动化工具来创建Dimspirations图像，并通过Hazel、RetroBatch、Rake等工具自动处理和发布。作者使用Hazel来监控并处理文件，Rake来生成Markdown文件并自动添加元数据，最后通过Howzit来部署网站。整个流程高度自动化，作者只需手动完成图像的创建和简单的编辑，整个发布过程高效顺畅。文章还涉及到了Affinity被Canva收购的猜测和对未来的担忧。整体来说，文章详细解释了作者的工作流程和自动化程序的运作，展示了高效简便的发布流程。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="dimspiration-automation-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/04/dimspiration-automation-rb.jpg" title="dimspiration-automation-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>First, there seems to be a misconception that <a href="https://dimspire.me/">Dimspirations</a> are generated with AI or some other such trickery. I want to assure you that, while the entire process of posting them is automated, each Dimspiration is lovingly crafted by me in Affinity Photo<sup id="fnref:subscription"><a class="footnote" href="https://brettterpstra.com#fn:subscription" rel="footnote">1</a></sup>.</p>
+
+<p>I wanted to detail the automation though, partially for my own reference, and partially just because I&rsquo;m pretty proud of the system.</p>
+
+<h3 id="the-template">The Template</h3>
+
+<p>First, I have a template I load up in Affinity Photo. It has guides for all of the various formats that will be produced from the single output file. All I have to do is make sure that the text and necessary parts of background images fit into the smallest guide rectangle, and that the rest of the space is filled with a reasonable amount of background image or matching color. The tallest output is the iPhone version, which on occasion just gets filled with a background color, but I can usually make a background pattern or image fit nicely for iPhone and still look good for all of the other formats.</p>
+
+<figure class="aligncenter zoom">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Affinity Photo template" height="571" src="https://cdn3.brettterpstra.com/uploads/2024/04/affinity-template-800.jpg" title="Affinity Photo template" width="800" />
+                </noscript>
+              
+              <figcaption>Affinity Photo template</figcaption>
+            </figure>
+
+<p>I have a Dimspirations <a href="https://bunchapp.co">Bunch</a> that opens the template in Affinity Photo, loads up the Desktop and Dimspirations folder in Finder tabs (for keeping track of the rest of the process below), and opens up Adobe Stock in my browser for grabbing those sweet, sweet background images. So to get started on a bunch, I just hit <code class="language-plaintext highlighter-rouge">Hyper-D, Shift-D</code> (my assigned shortcuts in Bunch).</p>
+
+<p>The new Dimspiration gets saved-as with a slugified version of the title I want it to have on the site, e.g. &ldquo;The end of the world&rdquo; gets saved as <code class="language-plaintext highlighter-rouge">the-end-of-the-world.afphoto</code>. Then I output a JPEG of the whole image with the same slug (populated by default), tag it with <code class="language-plaintext highlighter-rouge">.dim</code> in the save panel, and save it to the Desktop.</p>
+
+<h3 id="hazel-and-retrobatch">Hazel and RetroBatch</h3>
+
+<p>Hazel watches the Desktop for <code class="language-plaintext highlighter-rouge">.dim</code> JPEGS, removes the <code class="language-plaintext highlighter-rouge">.dim</code> tag, and automatically opens the image in a <a href="https://flyingmeat.com/retrobatch/" title="Retrobatch 2, from Flying Meat">RetroBatch</a> applet called &ldquo;Dimspiration.&rdquo;</p>
+
+<figure class="aligncenter zoom">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="RetroBatch applet" height="569" src="https://cdn3.brettterpstra.com/uploads/2024/04/retrobatch-layout-800.jpg" title="RetroBatch applet" width="800" />
+                </noscript>
+              
+              <figcaption>RetroBatch applet</figcaption>
+            </figure>
+
+<p>The RetroBatch applet saves various formats with <code class="language-plaintext highlighter-rouge">-rb</code> suffix (3 desktop wallpapers, 1 iPhone wallpaper, Twitter and Facebook preview images, an Instagram-ready version, and the 1x and 2x versions of the square image for the website). Upon writing the files, they then get sent to  <a href="https://imageoptim.com/mac" title="better Save for Web">ImageOptim</a> for optimization. The optimized files get saved to a new &ldquo;Dimspirations&rdquo; folder.</p>
+
+<p>Hazel watches the &ldquo;Dimspirations&rdquo; folder and copies wallpaper formats to an upload folder, where Hazel (again) uploads those images to Flickr as screenshots in a DimPapers album, then deletes the copied files.</p>
+
+<p>Hazel then moves all of the image files to the Dimspire.me website assets folder.</p>
+
+<h3 id="rake-and-howzit">Rake and Howzit</h3>
+
+<p>I then open up iTerm (visor mode because I&rsquo;m not an animal), switch to the dimspire.me directory, and run <code class="language-plaintext highlighter-rouge">rake</code>. The wallpaper download zips, WEBP and AVIF versions, and Markdown post are created. The Rake task looks for new JPEGs, extracts their base name, and generates Markdown files for any new ones. It automatically adds YAML frontmatter to each post:</p>
+
+<ul>
+  <li>A title extrapolated from the image slug, where <code class="language-plaintext highlighter-rouge">end-of-the-world</code> becomes &ldquo;End of the world&rdquo;</li>
+  <li>the base image slug, which is used to extrapolate the square and @2x versions for display</li>
+  <li>a &ldquo;manifest&rdquo; section with a list of files in the zip download</li>
+  <li>An ALT tag auto-generated with <a href="https://github.com/freedmand/textra">textra</a>, which runs Apple&rsquo;s built-in OCR on the image to extract its text</li>
+  <li>a short url created with a curl call to <a href="https://brettterpstra.com/2024/03/16/build-a-custom-url-shortener/">dim.moi</a></li>
+</ul>
+
+<figure class="aligncenter zoom">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="A dimspiration post" height="340" src="https://cdn3.brettterpstra.com/uploads/2024/04/dimspirations-post-800.jpg" title="A dimspiration post" width="800" />
+                </noscript>
+              
+              <figcaption>A dimspiration post</figcaption>
+            </figure>
+
+<p>The Rake task outputs the Markdown file&rsquo;s filename, which I can just ⌘-Click (iTerm) to open in <a href="https://multimarkdown.com/" title="MultiMarkdown Composer">MultiMarkdown Composer</a>, where I double check the ALT tag and add a snarky caption as the body content.</p>
+
+<p>In my <a href="https://brettterpstra.com/projects/howzit/">Howzit</a> <a href="https://brettterpstra.com/2022/08/09/getting-started-with-howzit/">buildnotes file</a> I have sections for previewing and deploying, so I can just run <code class="language-plaintext highlighter-rouge">howzit -r deploy</code> to deploy the site, which calls the necessary Rake tasks and uses rsync to copy the entire rendered site to the server. CSS and JS (and all images) are served from a CDN which uses versioning like <code class="language-plaintext highlighter-rouge">filename.1234.css</code>, and if I want to upload changes to any of these files, I need to bump the version number before rendering, so the Howzit task will ask me upon deploy if it should bump the version. If I haven&rsquo;t made any changes and have only added a new Dimspiration, I can just hit <code class="language-plaintext highlighter-rouge">n</code> and it will avoid clearing the CDN cache.</p>
+
+<figure class="aligncenter zoom">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="buildnotes.md for dimspire.me" height="230" src="https://cdn3.brettterpstra.com/uploads/2024/04/dimspire-buldnotes-800.jpg" title="buildnotes.md for dimspire.me" width="800" />
+                </noscript>
+              
+              <figcaption>buildnotes.md for dimspire.me</figcaption>
+            </figure>
+
+<p>The site runs on Jekyll, so mass updating the posts can be done just by searching and replacing in Markdown files. The Rakefile has tasks for updating all of the zip downloads with any new versions of the images that have been added (and updating the manifest data in every post with any changes), batch adding any missing ALT tags, and creating all missing WEBP and AVIF versions at once. Whenever I just run <code class="language-plaintext highlighter-rouge">rake</code>, all of these tasks execute in sequence, so every time I publish it&rsquo;s filling in any missing pieces, not just the latest post. It takes about 20 seconds to run all of the tasks on all of the posts at this point, though the zip creation (which rebuilds all zips on every update) will take increasingly longer as the number of posts grows. I&rsquo;ll deal with making it more incremental when that actually becomes a burden.</p>
+
+<p>So my (manual) part of the process is:</p>
+
+<ol>
+  <li>Lovingly craft a Dimspiration in Affinity Photo and save it to the Desktop
+    <ul>
+      <li>Wait a minute for Hazel/RetroBatch/ImageOption to do their things</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">cd</code> to the Dimspire.me website directory and run <code class="language-plaintext highlighter-rouge">rake</code></li>
+  <li>Open the created post and edit two lines</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">howzit -r deploy</code> (which with my aliases and fuzzy completion is just <code class="language-plaintext highlighter-rouge">bld dep</code>, and thanks to Fish&rsquo;s directory-sensitive history, is just a matter of typing <span class="keycombo combined" title="B"><kbd class="key symbol">B</kbd></span><span class="keycombo combined" title="Control-F"><kbd class="mod symbol">&#8963;</kbd><kbd class="key symbol">F</kbd></span>)</li>
+</ol>
+
+<p>As always, if you have any questions about <em>any</em> part of this that you&rsquo;d be interested in implementing on your own, please join us <a href="https://forum.brettterpstra.com">in the forum</a> and ask away! And as always, I&rsquo;d love it if you checked out <a href="https://dimspire.me/">Dimspirations</a> and the <a href="https://dimspire.sellfy.store/">Dimspirations Store</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:subscription">
+      <p>Affinity was recently acquired by Canva. How much are we betting that it switches from the sweet $50/version pricing to unaffordable subscription pricing within a year? They&rsquo;ve promised to always keep it &ldquo;reasonable,&rdquo; but that&rsquo;s a very subjective term.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:subscription">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/112197808003813726" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F01%2Fautomating-the-dimspirations-workflow%2F&amp;text=Automating+the+Dimspirations+workflow&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F01%2Fautomating-the-dimspirations-workflow%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16637190.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-01T14:53:00-05:00</pubDate>
+<pubDate>2024-04-01T14:53:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for March 29, 2024</title>
