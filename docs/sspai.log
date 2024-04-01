@@ -18987,3 +18987,9 @@ Summarized using GPT-3.5-turbo
 Append: [我如何管理自己的「数字资产」](https://sspai.com/post/87694)
 append_entries: 1
 Finish: 2024-04-01 10:03:47.409018
+------------------------------------------------------
+Started: 2024-04-01 12:05:15.099968
+Existing_entries: 686
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-04-01 12:05:15.345784
