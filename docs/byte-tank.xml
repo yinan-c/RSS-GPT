@@ -4,6 +4,116 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>http://lopespm.github.io/</link>
 
+<item>
+<title>Banishing mobile phones from bedroom</title>
+<link>http://lopespm.github.io/notes/2024/04/01/banishing_mobile_phones_from_bedroom.html</link>
+<guid>http://lopespm.github.io/notes/2024/04/01/banishing_mobile_phones_from_bedroom.html</guid>
+<content:encoded><![CDATA[
+<div> 手机、闹钟、笔记、替代品、影响
+
+总结：<br><br>文章讨论了作者如何通过更换闹钟和笔记方式来改善生活习惯，摆脱手机带来的干扰，提高专注力和生产力。作者选择了Braun闹钟和Onyx BOOX Note Air3 B/W作为替代品，取得了显著效果，更加专注于计划和思考，提升了日常工作效率。这种改变让作者更加满意，建议读者尝试。 <div>
+<h2 id="the-problem--why">The Problem / Why</h2>
+
+<p>When <a href="https://youtu.be/K2tGt2XWd9Q?si=h-xh-X90JWxwF1KU&amp;t=2229">asked</a> about which practices supported Chris Williamson into his current position, Chris mentioned that sleeping with his phone outside of the bedroom and getting a plain alarm clock was his number one change.</p>
+
+<p>I found that statement interesting, especially because I had grown a habit of seeing the occasional video before sleep and being engaged with random distractions shortly after waking up.</p>
+
+<p>Overriding these behaviors required a good amount of self discipline and willpower to be overridden, and fundamentally deviated my focus from what I would want to accomplish on a given day, from the book I had been putting off, or to simply wind down.</p>
+
+<h2 id="alternative-alarm-and-note-taking">Alternative Alarm and Note Taking</h2>
+
+<p>Even though my phone sponsored my distractions, it was also my trusty alarm and favorite way to write down notes and reflections that crossed my mind outside my work desk. So to make the leap of keeping my mobile phone at the bedroom door, I would need to replace the alarm clock, and find a new way to write down my notes.</p>
+
+<h3 id="alarm">Alarm</h3>
+
+<p>This seems like an easy step, but it turns out the selection of alarms is immense, and many of them either do too much, or don’t tick all the boxes.</p>
+
+<p>Essentially, I needed a trustworthy, low maintenance, alarm with essential functionalities that would not flood my dark bedroom with blue light when I wanted to check the time during night.</p>
+
+<p>I essentially browsed through:</p>
+
+<ul>
+  <li><a href="https://www.lumie.com/">Lumie alarms</a>: had the enticing proposition of science-backed approach of waking up via warm light or soothing sounds, but didn’t have the basic functionality of having recurrent alarms on the models I was interested in, and required a mains connection, meaning that upon a power outage it could only support itself for a limited amount of time.</li>
+  <li>White brand alarm clocks: the selection is immense on <a href="https://www.amazon.co.uk/s?k=alarm+clock">Amazon</a>, and even though they come in at relatively cheap prices, some require a mains connection, or have short battery life, or need to be recharged every so often, or do too much (like having a bluetooth connection) or use noisy clock dials.</li>
+</ul>
+
+<p>After several searches, I’ve stumbled upon Braun alarm clocks. These have been around for decades, and I recalled that Steve Jobs was inspired more than once by products made by Braun when creating his Apple products, due to Braun’s thoughtful approach on how everyday products were designed.</p>
+
+<p>I’ve settled with the <a href="https://www.amazon.co.uk/Braun-Digital-Compact-Negative-Crescendo/dp/B083KMCHRH">Braun BC08B</a>. No moving parts, a single AAA battery apparently lasts more than half a year, small, simple, easy to operate, and the beeping sound is not brain drilling. The one aspect I am not fully satisfied is its screen light, which when activated is too strong on a dark bedroom (my mobile phone far excels in this aspect, due to its less intrusive always on black and white display).</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="http://lopespm.github.io/files/banish_mobiles_bedroom/alarm_braun.png" />
+           
+         </center>
+<p><br /></p>
+
+<h3 id="note-taking">Note Taking</h3>
+
+<p>These were the alternatives I found for writing down notes, and jotting down diagrams (as a plus):</p>
+
+<ul>
+  <li>Physical Notebook:
+    <ul>
+      <li>Pros: Easy to use, low cost, no distractions, low maintenance (no battery to recharge, software updates, etc)</li>
+      <li>Cons: My handwriting is appalling and my character output is much lower when compared to typing; extra step needed to transfer it a digital means; harder to organize</li>
+    </ul>
+  </li>
+  <li>E-Ink Devices:
+    <ul>
+      <li><a href="https://remarkable.com/">Remarkable 2</a>:
+        <ul>
+          <li>Pros: well thought out, clean and focus driven, great writing experience; allows for handwriting to text conversion</li>
+          <li>Cons: Able to connect to a Google Drive for free, but works storage rather than syncing, so it is cumbersome to iterate on notes and diagrams between it and other devices</li>
+        </ul>
+      </li>
+      <li><a href="https://supernote.com/">Supernote</a>:
+        <ul>
+          <li>Pros: clean and focus driven, great writing experience; allows for handwriting to text conversion; open <a href="https://trello.com/b/l0COP24j/supernote-a5-x-a6-x-nomad-software-roadmap-2024">roadmap</a> and ideology; easy repair and upgrade</li>
+          <li>Cons: As with Remarkable, it does not provide real file syncing, but file copy to Google Drive</li>
+        </ul>
+      </li>
+      <li><a href="https://www.amazon.com/Kindle-Scribe-the-first-Kindle-for-reading-writing-journaling-and-sketching/dp/B09BS26B8B">Kindle Scribe</a>:
+        <ul>
+          <li>Pros: Writing experience seems to be good and on-device handwriting recognition to convert notes into actual text</li>
+          <li>Cons: No Google Play apps, meaning that Google Keep and Google Docs would not be available, and no Google Drive sync; the device caters more to readers, rather than writers in my opinion</li>
+        </ul>
+      </li>
+      <li><a href="https://www.amazon.com/BOOX-Tablet-Note-Air3-ePaper/dp/B0CP3CGG8P">Onyx BOOX Note Air3 B/W</a>:
+        <ul>
+          <li>Pros: it can use Google Keep and Google Docs apps, since can do almost everything a normal Android table can, but since it uses a e-ink screen and has limited processing capabilities, it does not make a good fit for browsing the web or seeing videos (which is actually a good thing); the default experience and drawing app are bloated offer too many distractions (<a href="http://lopespm.github.io/notes/2024/03/25/minimalist_boox.html">see here how to debloat it</a>); allows for handwriting to text conversion within Onyx drawing app</li>
+          <li>Cons: noticeable lag when writing; if not using Onyx’s cloud, it requires extra steps to export and share a diagram / drawing</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://www.apple.com/uk/ipad-pro/">iPad Pro</a>: even though this device is amazing, it made it too easy to access the same distractions I was trying to avoid, and it also sports an invasive backlit screen that provides too much stimulus while in bed. A hard no.</li>
+</ul>
+
+<p>Given the options above, I picked the Onyx BOOX Note Air3 B/W. Note that the <a href="https://www.amazon.co.uk/BOOX-Tablet-Note-Air-ePaper-Dark-grey-green/dp/B0CHF423CP">color screen version of this tablet</a> is available, but I did not pick it because of Air C’s reduced battery life from the always-on BSR (Boox Super Refresh Technology). BSR allows for a smoother and more responsive experience when writing for example, but that is not actually a problem since I mainly use the Boox to write long streams of text / braindumps, rather than text editing; and BSR also takes it a step closer to a general purpose tablet non-eink display, which starts to defeat the initial purpose. Apart from that, I have a personal preference towards the black and white screen feel.</p>
+
+<p>Learn more on how I customized my Boox Air3 <a href="http://lopespm.github.io/notes/2024/03/25/minimalist_boox.html">here</a>.</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="http://lopespm.github.io/files/banish_mobiles_bedroom/keyboard_k480_with_boox.png" />
+           
+         </center>
+<p><br /></p>
+
+<h2 id="the-result">The Result</h2>
+
+<p>I have now transitioned to not having any mobile phones in my bedroom, and only having the Boox Air 3, the Braun alarm clock, physical books and my Kindle. I am pretty satisfied with this change, which I’ve noticed to provide more focus time after waking up, more time to think, plan my day, reflect, write my thoughts, read, and wind down.</p>
+
+<p>The most fundamental aspect was having more time to focus on my plan for the day, which translated into a substantial improvement on how productive and consequential my days have become. I welcome anyone to give it a try!</p>
+]]></content:encoded>
+
+<pubDate>2024-04-01T00:00:00+01:00</pubDate>
+</item>
 
 <item>
 <title>Minimalist Onyx BOOX Note Air3 B/W Setup</title>
