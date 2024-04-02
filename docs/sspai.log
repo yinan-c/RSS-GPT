@@ -19038,3 +19038,12 @@ Existing_entries: 687
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-02 02:11:05.054350
+------------------------------------------------------
+Started: 2024-04-02 04:04:04.576016
+Existing_entries: 687
+Fetching from https://rsshub.app/sspai/index
+Token length: 2509
+Summarized using GPT-3.5-turbo
+Append: [派早报：Google 同意删除隐私模式收集的资料等](https://sspai.com/post/87740)
+append_entries: 1
+Finish: 2024-04-02 04:04:08.227744

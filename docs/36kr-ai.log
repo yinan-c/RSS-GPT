@@ -40327,3 +40327,32 @@ Filter: [AI行业买英伟达GPU，花的钱比赚的多17倍](https://www.36kr.
 Filter: [国产黑马一年肝出万亿参数MoE，霸榜多模态，剑指AGI](https://www.36kr.com/p/2714378547640456)
 append_entries: 0
 Finish: 2024-04-02 02:11:26.950864
+------------------------------------------------------
+Started: 2024-04-02 04:04:20.986455
+Existing_entries: 610
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Filter: [被困在购物车里的BAT们](https://www.36kr.com/p/2715619366664323)
+Filter: [“AI复生”以爱为名还是伪善?一单50元，无需提供证明](https://www.36kr.com/p/2714837663414408)
+Filter: [美国教育科技公司扎堆用GPT做「私人辅导老师」，进度如何了？](https://www.36kr.com/p/2715042561538179)
+Token length: 2675
+Summarized using GPT-3.5-turbo
+Append: [ChatGPT也在评审你的顶会投稿，斯坦福新研究捅了马蜂窝，“这下闭环了”](https://www.36kr.com/p/2715593330751365)
+Filter: [“大海捞针”out，“数星星”成测长文本能力更精准方法，来自鹅厂](https://www.36kr.com/p/2715593542842245)
+Token length: 2245
+Summarized using GPT-3.5-turbo
+Append: [今天起，ChatGPT无需注册就能用了](https://www.36kr.com/p/2715592796174208)
+Filter: [大模型实时打《街霸》捉对PK，GPT-4居然不敌3.5，新型Benchmark火了](https://www.36kr.com/p/2715507316062089)
+Filter: [Deepmind创始人警告“AI币圈化”：巨额资金涌入，带来炒作和欺诈](https://www.36kr.com/p/2715523893753990)
+Filter: [吴伯凡：竞争力来自爱，而不是AI](https://www.36kr.com/p/2714936261949569)
+Filter: [Suno奇袭音乐圈，AI能制造万能青年旅店吗？](https://www.36kr.com/p/2714943947683968)
+Filter: [假如AI圈有世纪大和解](https://www.36kr.com/p/2714885118261379)
+Filter: [谷歌狂喜：JAX性能超越Pytorch、TensorFlow，或成GPU推理训练最快选择](https://www.36kr.com/p/2715499170592900)
+Filter: [DeepMind首发游戏AI智能体SIMA，只用自然语言就能玩转"山羊模拟器"](https://www.36kr.com/p/2715507640744070)
+Filter: [AIGC时代，新闻不存在了？](https://www.36kr.com/p/2714705779341445)
+Filter: [从万元私董会到滥用AI，抖音封杀“割韭菜”内容](https://www.36kr.com/p/2714683197110404)
+Filter: [AI取代周杰伦？人均音乐制作人的时代是否已然来临](https://www.36kr.com/p/2714643986171650)
+Filter: [各方磨刀霍霍，Kimi会成全他们吗？](https://www.36kr.com/p/2714655908378760)
+Filter: [美科技巨头欲降低对中国依赖转向墨西哥生产AI硬件，富士康等响应号召](https://www.36kr.com/p/2714563355736199)
+Filter: [AI程序员Devin独角兽，半年估值20亿美元？业内曝AI泡沫：买卡500亿，收入30亿](https://www.36kr.com/p/2714378977572737)
+append_entries: 2
+Finish: 2024-04-02 04:04:27.549226
