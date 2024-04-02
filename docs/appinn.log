@@ -20882,3 +20882,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-04-02 06:03:36.609820
+------------------------------------------------------
+Started: 2024-04-02 08:03:39.098192
+Existing_entries: 339
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【开源自荐】vfox: 一个工具管理所有运行时版本!](https://meta.appinn.net/t/topic/54675)
+append_entries: 1
+Finish: 2024-04-02 08:03:42.314538

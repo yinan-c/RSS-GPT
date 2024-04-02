@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开源自荐】vfox: 一个工具管理所有运行时版本!</title>
+<link>https://meta.appinn.net/t/topic/54675</link>
+<guid>https://meta.appinn.net/t/topic/54675</guid>
+<content:encoded><![CDATA[
+
+<p>文档: <a class="inline-onebox" href="https://vfox.lhan.me/zh-hans/" rel="noopener nofollow ugc">vfox | 跨平台、可拓展的版本管理器</a></p>
+<p>仓库: <a class="inline-onebox" href="https://github.com/version-fox/vfox" rel="noopener nofollow ugc">GitHub - version-fox/vfox: A cross-platform and extendable version manager with support for Java, Node.js, Flutter, .Net &amp; more</a></p>
+<p>可以在  <strong>Windows(非 WSL)</strong> 下, 体验到和 asdf 一样的效果</p>
+<p>与 asdf 对比: <a class="inline-onebox" href="https://vfox.lhan.me/zh-hans/misc/vs-asdf.html" rel="noopener nofollow ugc">比asdf-vm好在哪里? | vfox</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>实际演示</h2>
+<p><img alt="演示" height="" src="https://i.imgur.com/NGdmfLW.gif" width="" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54675">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 02 Apr 2024 07:19:17 +0000</pubDate>
+<pubDate>Tue, 02 Apr 2024 07:19:17 +0000</pubDate>
+</item>
 
 <item>
 <title>奇妙搜索用不了，有什么好的网盘聚合搜索替代品么？</title>
