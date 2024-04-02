@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Automating the Dimspirations workflow</title>
 <link>https://brett.trpstra.net/link/535/16637190/automating-the-dimspirations-workflow</link>
 <guid>https://brett.trpstra.net/link/535/16637190/automating-the-dimspirations-workflow</guid>
 <content:encoded><![CDATA[
 <div> Affinity Photo, Automation, Dimspirations, Hazel, Rake
-总结:<br><br>本文介绍了作者如何利用Affinity Photo和自动化工具来创建Dimspirations图像，并通过Hazel、RetroBatch、Rake等工具自动处理和发布。作者使用Hazel来监控并处理文件，Rake来生成Markdown文件并自动添加元数据，最后通过Howzit来部署网站。整个流程高度自动化，作者只需手动完成图像的创建和简单的编辑，整个发布过程高效顺畅。文章还涉及到了Affinity被Canva收购的猜测和对未来的担忧。整体来说，文章详细解释了作者的工作流程和自动化程序的运作，展示了高效简便的发布流程。 <div>
+总结:<br /><br />本文介绍了作者如何利用Affinity Photo和自动化工具来创建Dimspirations图像，并通过Hazel、RetroBatch、Rake等工具自动处理和发布。作者使用Hazel来监控并处理文件，Rake来生成Markdown文件并自动添加元数据，最后通过Howzit来部署网站。整个流程高度自动化，作者只需手动完成图像的创建和简单的编辑，整个发布过程高效顺畅。文章还涉及到了Affinity被Canva收购的猜测和对未来的担忧。整体来说，文章详细解释了作者的工作流程和自动化程序的运作，展示了高效简便的发布流程。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -137,9 +138,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16637190.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-04-01T14:53:00-05:00</pubDate>
-<pubDate>2024-04-01T14:53:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for March 29, 2024</title>
 <link>https://brett.trpstra.net/link/535/16635234/web-excursions-for-march-29-2024</link>
