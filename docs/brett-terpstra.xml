@@ -4,6 +4,142 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>On using a CDN</title>
+<link>https://brett.trpstra.net/link/535/16638813/on-using-a-cdn</link>
+<guid>https://brett.trpstra.net/link/535/16638813/on-using-a-cdn</guid>
+<content:encoded><![CDATA[
+<div> CloudFront, CDN, AWS, performance, setup<br>
+总结:<br>
+文章介绍了如何通过使用CDN（如CloudFront）来提高网站性能，特别推荐使用AWS的CloudFront服务。通过将图片、CSS和JS等资源从CDN而不是服务器（如DreamHost）提供，可以显著提高网站加载速度。作者分享了如何设置CloudFront分发，以及如何进行版本控制和CDN预热。总体而言，使用CDN可以同时提高速度和降低成本。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="CloudFront illustration" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/04/cloudfront-header-rb.jpg" title="CloudFront illustration" width="800" />
+              </noscript>
+            
+
+<p>If you run a website and aren&rsquo;t serving your assets from a <abbr title="Content Distribution Network">CDN</abbr>, I want to highly recommend that you do so. I&rsquo;ve seen significant performance improvements simply by redirecting my image, CSS, and JS requests to a <abbr title="Content Distribution Network">CDN</abbr> instead of serving them from a server like DreamHost. I like DreamHost just fine, but the time it takes to serve a file and the download speeds it offers are not&hellip; optimal.</p>
+
+<p>The idea behind a <abbr title="Content Distribution Network">CDN</abbr> is that your assets are served from a speed-tuned network of servers that can deliver the fastest speeds using servers located as close as possible to the end user. I can serve up a 1MB image file in about 1/2 the time using a <abbr title="Content Distribution Network">CDN</abbr> versus serving directly from DreamHost.</p>
+
+<!--more-->
+
+<h3 id="cloudfront">CloudFront</h3>
+
+<p>I&rsquo;ve found <a href="https://aws.amazon.com/cloudfront/getting-started/">CloudFront</a> (Amazon Web Services) to be the easiest to set up <em>and</em> the most affordable option. There are a few good <a href="https://www.techradar.com/news/best-cdn-providers">options to explore</a>, though. I haven&rsquo;t done head-to-head testing of all available options, I just know that CloudFront offers some of the highest speeds and one of the most generous free-tier options.</p>
+
+<p>I can serve <em>all</em> of my sites&rsquo; assets (<a href="https://bunchapp.co">Bunch</a>, <a href="https://marked2app.com">Marked 2</a>, <a href="https://dimspire.me">Dimspire.me</a>, <a href="https://brettterpstra.com">BrettTerpstra.com</a>, and sundry others), including DMGs, zips, images, CSS/JS files, and more, from AWS for about $2/mo. My total AWS bill is $13/mo, and that includes my Glacier backups and S3 storage. Compared to $20/mo for CloudFlare, it&rsquo;s a pretty easy decision for me. Some of the &ldquo;fancier&rdquo; CDNs can do things like serving different image formats and sizes based on path/query strings, but I haven&rsquo;t been willing to shell out the cash for those.</p>
+
+<p>I&rsquo;m not going to do a full tutorial on setting up a CloudFront deployment for a website, but the basic steps are:</p>
+
+<ol>
+  <li>Create an AWS account (if needed)</li>
+  <li>Navigate to CloudFront</li>
+  <li>Create a new distribution</li>
+  <li>Set the origin to the url of your website</li>
+  <li>Add a CNAME for your distribution</li>
+  <li>Generate an SSL certificate (free through Amazon) for the distribution (requires DNS verification of ownership)</li>
+</ol>
+
+<p>Most of the other options can be left to their defaults. <a href="https://medium.com/@AlexanderObregon/creating-a-content-delivery-network-with-amazon-cloudfront-26565c3ceb95">Here&rsquo;s a more in-depth tutorial.</a> Total setup time is about 30 minutes, including waiting for DNS verification and spin-up time. Of course, then you have to modify your site to make use of the <abbr title="Content Distribution Network">CDN</abbr>. I have solutions for Jekyll and other SSG generators, if you care to ask. There are multiple <a href="https://www.wpbeginner.com/showcase/best-wordpress-cdn-services/">WordPress plugins</a> for handling this kind of thing as well.</p>
+
+<h3 id="versioning">Versioning</h3>
+
+<p>Files served from the <abbr title="Content Distribution Network">CDN</abbr> are heavily cached, meaning if you want to serve up a new version of a file, updated CSS for example, you need to &ldquo;bust&rdquo; the cache. This can be done by adding a query string, e.g. <code class="language-plaintext highlighter-rouge">?v=123</code> to the file url, but it&rsquo;s <a href="https://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/">preferable to use filename versioning</a>. If you&rsquo;re using Apache, you can just include this in your <code class="language-plaintext highlighter-rouge">.htaccess</code>:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="gp">&lt;IfModule mod_rewrite.c&gt;</span><span class="w">
+</span><span class="go">  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+</span><span class="gp">  RewriteRule ^(.+)\.(\d+)\.(js|css|png|jpe?g|gif|rb|json|svg|ico|webp|avif|webm|mp4|zip)$</span><span class="w"> </span><span class="nv">$1</span>.<span class="nv">$3</span> <span class="o">[</span>L]
+<span class="gp">&lt;/IfModule&gt;</span><span class="w">
+</span></code></pre></div></div>
+
+<p>That will allow you to request <code class="language-plaintext highlighter-rouge">image.123.jpg</code> and it will serve up <code class="language-plaintext highlighter-rouge">image.jpg</code>, but the <abbr title="Content Distribution Network">CDN</abbr> will see that as a new file request and pull an up-to-date version of the file from the server.</p>
+
+<p>In my Jekyll setup, I have a single version number for the whole site defined in <code class="language-plaintext highlighter-rouge">_config.yml</code> under a <code class="language-plaintext highlighter-rouge">cachebuster</code> key. In my templates I have some logic that determines when the site is rendering in production mode (<code class="language-plaintext highlighter-rouge">JEKYLL_ENV=production</code>), and when it is, it substitutes the <abbr title="Content Distribution Network">CDN</abbr> path and the version number into the URL. For example, if I&rsquo;m in production mode, <code class="language-plaintext highlighter-rouge">https://dimspire.me/assets/css/main.css</code> will be written as <code class="language-plaintext highlighter-rouge">https://cdn.dimspire.me/assets/css/main.123.css</code>. As long as the <code class="language-plaintext highlighter-rouge">123</code> doesn&rsquo;t change, the <abbr title="Content Distribution Network">CDN</abbr> will continue serving the same file, but if I bump it to <code class="language-plaintext highlighter-rouge">124</code>, it will sync the latest version of the file from the server and cache it upon the first request.</p>
+
+<h3 id="priming-the-cdn">Priming the <abbr title="Content Distribution Network">CDN</abbr></h3>
+
+<p>If you want to avoid anybody having to wait for the <abbr title="Content Distribution Network">CDN</abbr> to ingest a file, cache it, and serve it on the first load, you can make a headers-only <code class="language-plaintext highlighter-rouge">curl</code> call to the asset. This is kind of silly, as once any one user in a region has loaded the new asset, it will be served instantly for subsequent loads. But just for fun, I&rsquo;ll share my Rakefile task for syncing the <abbr title="Content Distribution Network">CDN</abbr> after a version bump:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="k">class</span> <span class="nc">String</span>
+  <span class="c1"># Outputs a string in a formatted color.</span>
+  <span class="c1"># @param [&lt;Integer, String&gt;] color_code The code to use</span>
+  <span class="c1"># @return [void]</span>
+  <span class="k">def</span> <span class="nf">colorize</span><span class="p">(</span><span class="n">color_code</span><span class="p">)</span>
+    <span class="s2">"</span><span class="se">\033</span><span class="s2">[</span><span class="si">#{</span><span class="n">color_code</span><span class="si">}</span><span class="s2">m</span><span class="si">#{</span><span class="nb">self</span><span class="si">}</span><span class="se">\033</span><span class="s2">[0m"</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">green</span>
+    <span class="n">colorize</span><span class="p">(</span><span class="mi">32</span><span class="p">)</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">red</span>
+    <span class="n">colorize</span><span class="p">(</span><span class="mi">31</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">chdir_base</span>
+  <span class="no">Dir</span><span class="p">.</span><span class="nf">chdir</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">expand_path</span><span class="p">(</span><span class="kp">__FILE__</span><span class="p">)))</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">ok_failed</span><span class="p">(</span><span class="n">condition</span><span class="p">,</span> <span class="n">sender</span><span class="o">=</span><span class="kp">nil</span><span class="p">)</span>
+  <span class="n">res</span> <span class="o">=</span> <span class="n">condition</span> <span class="p">?</span> <span class="s2">"OK"</span> <span class="p">:</span> <span class="s2">"FAILED"</span>
+  <span class="n">msg</span> <span class="o">=</span> <span class="n">sender</span> <span class="p">?</span> <span class="n">sender</span> <span class="o">+</span> <span class="s2">": "</span> <span class="o">+</span> <span class="n">res</span> <span class="p">:</span> <span class="n">res</span>
+  <span class="nb">warn</span> <span class="n">msg</span>
+<span class="k">end</span>
+
+<span class="n">desc</span> <span class="s1">'Sync CDN images'</span>
+<span class="n">task</span> <span class="ss">:sync_cdn</span> <span class="k">do</span>
+  <span class="c1"># Make sure we're in the base directory</span>
+  <span class="n">chdir_base</span>
+  
+  <span class="c1"># Use rsync to upload files to the server that pushes to CloudFront</span>
+  <span class="n">ok_failed</span> <span class="nb">system</span><span class="p">(</span><span class="s1">'rsync -criz assets/* dh:~/dimspire.me/assets/ &amp;&gt; /dev/null'</span><span class="p">),</span> <span class="s1">'CDN Sync'</span>
+  
+  <span class="c1"># Read the current version (cachebuster) from the config file</span>
+  <span class="n">buster</span> <span class="o">=</span> <span class="no">YAML</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="no">IO</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="s1">'_config.yml'</span><span class="p">))[</span><span class="s1">'cachebuster'</span><span class="p">].</span><span class="nf">sub</span><span class="p">(</span><span class="sr">/^\./</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span>
+  
+  <span class="c1"># Iterate through all files in assets directory and its subdirectories</span>
+  <span class="no">Dir</span><span class="p">.</span><span class="nf">glob</span><span class="p">(</span><span class="s1">'assets/**/*'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span>
+    <span class="c1"># Only prime images and CSS/JS assets</span>
+    <span class="k">next</span> <span class="k">unless</span> <span class="no">File</span><span class="p">.</span><span class="nf">extname</span><span class="p">(</span><span class="n">f</span><span class="p">)</span> <span class="o">=~</span> <span class="sr">/\.(webp|avif|gif|jpe?g|png|css|js|mp4|ogg)$/</span>
+
+    <span class="c1"># Generate the CDN filename with the cachebuster inserted (e.g. image.123.jpg)</span>
+    <span class="n">asset</span> <span class="o">=</span> <span class="sx">%(cdn.dimspire.me/#{f.strip.sub(/\.(\w{2,4})$/, ".#{buster}.</span><span class="se">\\</span><span class="sx">1")})</span>
+  
+    <span class="c1"># Use curl to request headers for the image, and grep out whether it was a hit or miss</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="sb">`curl -Is </span><span class="si">#{</span><span class="n">asset</span><span class="si">}</span><span class="sb">|grep --color=never X-Cache|sed 's/X-Cache: //'|sed 's/from cloudfront//'`</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">upcase</span>
+  
+    <span class="c1"># Provide feedback in Terminal</span>
+    <span class="vg">$stdout</span><span class="p">.</span><span class="nf">print</span> <span class="n">res</span> <span class="o">=~</span> <span class="sr">/HIT/</span> <span class="p">?</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[0KHIT </span><span class="si">#{</span><span class="n">asset</span><span class="si">}</span><span class="se">\r</span><span class="s2">"</span><span class="p">.</span><span class="nf">green</span> <span class="p">:</span> <span class="s2">"Priming </span><span class="si">#{</span><span class="n">asset</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">.</span><span class="nf">red</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div></div>
+
+<figure class="animated_vid_frame" style="padding-bottom: 9.69%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2024/04/priming_cdn.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2024/04/priming_cdn.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2024/04/priming_cdn.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>The only important part of that is <code class="language-plaintext highlighter-rouge">curl -Is [ASSET]</code>, which does a headers-only request for the file, which will cause the <abbr title="Content Distribution Network">CDN</abbr> to ingest it if it isn&rsquo;t already cached, without actually downloading it. Currently Dimspire.me has about 225 &ldquo;Dimspirations,&rdquo; each with 9 image versions (wallpapers, jpeg, webp and avif versions), and running this after a version bump (meaning <em>none</em> of the assets are cached) takes about five minutes for 2000+ assets. If I&rsquo;m only adding new images and not bumping the version, this task takes under two minutes. Doing the simple curl call above on all of the assets that got &ldquo;revved&rdquo; (bumped) will mean that nobody has to wait for files to be initially cached, but again, this is pretty silly.</p>
+
+<h3 id="tldr">TLDR</h3>
+
+<p>If you run a website that serves a lot of images, CSS, or JavaScript, you can see significant performance improvements by using a <abbr title="Content Distribution Network">CDN</abbr>. CloudFront is, in my experience, the best combination of fast and affordable. If you want to see more of my Jekyll setup (Rakefile, templates, etc.), just ask. I&rsquo;m always happy to share.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F02%2Fon-using-a-cdn%2F&amp;text=On+using+a+CDN&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F02%2Fon-using-a-cdn%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16638813.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-02T16:03:00-05:00</pubDate>
+<pubDate>2024-04-02T16:03:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Automating the Dimspirations workflow</title>
