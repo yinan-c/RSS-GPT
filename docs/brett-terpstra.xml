@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>On using a CDN</title>
 <link>https://brett.trpstra.net/link/535/16638813/on-using-a-cdn</link>
 <guid>https://brett.trpstra.net/link/535/16638813/on-using-a-cdn</guid>
 <content:encoded><![CDATA[
-<div> CloudFront, CDN, AWS, performance, setup<br>
-总结:<br>
+<div> CloudFront, CDN, AWS, performance, setup<br />
+总结:<br />
 文章介绍了如何通过使用CDN（如CloudFront）来提高网站性能，特别推荐使用AWS的CloudFront服务。通过将图片、CSS和JS等资源从CDN而不是服务器（如DreamHost）提供，可以显著提高网站加载速度。作者分享了如何设置CloudFront分发，以及如何进行版本控制和CDN预热。总体而言，使用CDN可以同时提高速度和降低成本。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -138,9 +139,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16638813.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-04-02T16:03:00-05:00</pubDate>
-<pubDate>2024-04-02T16:03:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Automating the Dimspirations workflow</title>
 <link>https://brett.trpstra.net/link/535/16637190/automating-the-dimspirations-workflow</link>
