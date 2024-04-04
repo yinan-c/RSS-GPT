@@ -4,6 +4,37 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>CurlyQ and automated JavaScript execution</title>
+<link>https://brett.trpstra.net/link/535/16641718/curlyq-and-automated-javascript-execution</link>
+<guid>https://brett.trpstra.net/link/535/16641718/curlyq-and-automated-javascript-execution</guid>
+<content:encoded><![CDATA[
+<div> gem install curlyq, JavaScript execution, screenshot command, execute subcommand, web automation tool <br>
+<br>
+总结: 作者在文章中介绍了对CurlyQ工具的改进，包括添加JavaScript执行功能、改进截图命令、新增执行子命令等。通过对工具的升级，用户可以更方便地进行网页自动化操作，如保存网页截图、执行特定脚本等。这些改进将极大地提高用户的工作效率，特别适用于自动化文档生成等工作。CurlyQ的最新版本已可通过gem install curlyq进行更新或安装。 <div>
+<p>I&rsquo;ve been wanting to add JavaScript execution to <a href="https://brettterpstra.com/projects/curlyq/" title="CurlyQ">CurlyQ</a> for a while and finally got around to it.</p>
+
+<p>In case you&rsquo;ve missed it, <a href="https://brettterpstra.com/projects/curlyq/" title="CurlyQ">CurlyQ</a> is my command-line web automation tool for fetching, parsing, and responding to web page content, designed to be used as part of a *NIX pipeline. It can grab titles, links, metadata, and more from any web page. As part of its functionality, it can also use Firefox or Chrome to save screenshots, and that&rsquo;s part of what I&rsquo;ve improved.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">screenshot</code> command now accepts a <code class="language-plaintext highlighter-rouge">--script</code> parameter. This can be a JavaScript string, or <code class="language-plaintext highlighter-rouge">-</code> to read from STDIN, or a path to a file which will be read and executed before taking a screenshot. You can also now define an element ID to wait for before taking the screenshot (or executing the script) using <code class="language-plaintext highlighter-rouge">--id ELEMENT_ID</code>. As long as the ID is a valid element on the page, the screenshot will trigger once that element is loaded (via HTML or dynamically), with a timeout of 10 seconds. You can also define a <code class="language-plaintext highlighter-rouge">--wait X</code> flag in the command to wait for a specified number of seconds <em>after</em> executing a script before the screenshot is taken.</p>
+
+<p>Further, I&rsquo;ve added a new subcommand, <code class="language-plaintext highlighter-rouge">execute</code>, that has the same parameters as above and simply allows you to load a page in the browser and execute a script on it. I really wanted this because it&rsquo;s the easiest way to automate <a href="https://brettterpstra.com/projects/niftymenu/">NiftyMenu</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>curlyq execute -b chrome -s "NiftyAPI.find('file/save').arrow().shoot('file-save')" file:///Users/ttscoff/Desktop/Code/niftymenu/dist/MultiMarkdown-Composer.html</code></pre></div></div>
+
+<p>That command will save a screenshot of the File-&gt;Save menu item for me, allowing me to fully automate menu screenshots for any of my apps. I can have NiftyMenu generate an up-to-date view of the app&rsquo;s menu bar, with styling for the current OS, and output detailed screenshots with callouts automatically. This will be a huge timesaver when it comes to documentation.</p>
+
+<p>You can update/install the latest version of CurlyQ with <code class="language-plaintext highlighter-rouge">gem install curlyq</code>. The improvements in this post are available as of version 0.0.12. Enjoy!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F04%2Fcurlyq-and-automated-javascript-execution%2F&amp;text=CurlyQ+and+automated+JavaScript+execution&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F04%2Fcurlyq-and-automated-javascript-execution%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16641718.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-04T13:24:00-05:00</pubDate>
+<pubDate>2024-04-04T13:24:00-05:00</pubDate>
+</item>
 
 <item>
 <title>On using a CDN</title>
