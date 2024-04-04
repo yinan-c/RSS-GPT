@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>CurlyQ and automated JavaScript execution</title>
 <link>https://brett.trpstra.net/link/535/16641718/curlyq-and-automated-javascript-execution</link>
 <guid>https://brett.trpstra.net/link/535/16641718/curlyq-and-automated-javascript-execution</guid>
 <content:encoded><![CDATA[
-<div> gem install curlyq, JavaScript execution, screenshot command, execute subcommand, web automation tool <br>
-<br>
+<div> gem install curlyq, JavaScript execution, screenshot command, execute subcommand, web automation tool <br />
+<br />
 总结: 作者在文章中介绍了对CurlyQ工具的改进，包括添加JavaScript执行功能、改进截图命令、新增执行子命令等。通过对工具的升级，用户可以更方便地进行网页自动化操作，如保存网页截图、执行特定脚本等。这些改进将极大地提高用户的工作效率，特别适用于自动化文档生成等工作。CurlyQ的最新版本已可通过gem install curlyq进行更新或安装。 <div>
 <p>I&rsquo;ve been wanting to add JavaScript execution to <a href="https://brettterpstra.com/projects/curlyq/" title="CurlyQ">CurlyQ</a> for a while and finally got around to it.</p>
 
@@ -33,9 +34,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16641718.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-04-04T13:24:00-05:00</pubDate>
-<pubDate>2024-04-04T13:24:00-05:00</pubDate>
 </item>
-
 <item>
 <title>On using a CDN</title>
 <link>https://brett.trpstra.net/link/535/16638813/on-using-a-cdn</link>
