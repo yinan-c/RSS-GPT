@@ -19311,3 +19311,9 @@ Summarized using GPT-3.5-turbo
 Append: [本周看什么 | 最近值得一看的一大斗作品](https://sspai.com/post/87799)
 append_entries: 1
 Finish: 2024-04-05 10:03:44.964381
+------------------------------------------------------
+Started: 2024-04-05 12:04:26.555208
+Existing_entries: 698
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-04-05 12:04:26.952751
