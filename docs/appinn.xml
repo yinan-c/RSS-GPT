@@ -4,6 +4,60 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】带壳截图神器 NiceShots 迎来重大更新!</title>
+<link>https://meta.appinn.net/t/topic/54862</link>
+<guid>https://meta.appinn.net/t/topic/54862</guid>
+<content:encoded><![CDATA[
+
+<p>去年9月公开发布我的一款带壳截图工具，中间更新了一些小的版本。其实有一些功能我是一只没有增加上去的，但随着一些朋友的呼声越来越多， 这次更新的内容比较多，单独发个帖子。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/5/3589a6927b12caf9ef809c58d388df1f4f84c385.jpeg" title="三设备-无字"><img alt="三设备-无字" height="344" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/5/3589a6927b12caf9ef809c58d388df1f4f84c385_2_690x344.jpeg" width="690" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简单介绍下</h3>
+<p>我之前是用来介绍一些APP样式，或者一些壁纸的时候会用到别的套壳工具，用过网站和APP，但有些不方便，有的会员太贵，有的模型导出不够清晰，也有设计确实不好看等等原因。 后来我选择自己做一个简单易用的工具NiceShots，原则主要是以“简洁、高效”。</p>
+<p>用NiceShots 可以制作精美的带壳截图的图片，下面的所有图片都是使用这个带壳截图工具制作的。<br />
+目前里面支持的套壳设备包括iPhone手机模型、安卓手机模型、iPad、iMac、MacBook、watch。另外也可以选择卡面模型。<br />
+给普通的截图加上套壳，立马就显得精致很多，而且也比较直观。<br />
+你可以调整不同的比例，以便在不同的场景下使用；也可以调整背景颜色，支持自定义图片背景，也可以导出透明背景的图片。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>本次更新的内容有</h2>
+<p><img alt="" height="" src="https://h.appinn.net/file/46f6e490323d53130e225.jpg" width="" /></p>
+<ul>
+<li><strong>增加了 iPhone 15 系列</strong>。现在你可以使用 iPhone 15 的各个系列的颜色<img alt=":heart_eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart_eyes.png?v=12" title=":heart_eyes:" width="20" />（虽迟但到）</li>
+</ul>
+<p>15模型已经发布这么久了，我一直没有更新上去，真的有一部分是因为懒，还因为原来用的iPhone 14的模型，对于大部分情况都适用。苹果的屏幕尺寸比例几乎都是一样的，所以我一直没有更新。</p>
+<hr />
+<p><img alt="" height="" src="https://h.appinn.net/file/34d4d26387edac705a2da.jpg" width="" /></p>
+<ul>
+<li><strong>增加了保存模板功能.</strong></li>
+</ul>
+<p>下次打开 NiceShots 的时候，你就可以直接使用原来配置的模板进行编辑啦(¯▽¯)<img alt=":+1:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/+1.png?v=12" title=":+1:" width="20" />效率咔咔提升<img alt=":smirk:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/smirk.png?v=12" title=":smirk:" width="20" /><br />
+这个其实之前有个朋友提出过，但我一直没重视，后来最近准备更新的时候就想着加上，反正逻辑也不是很难。<br />
+但这真是用了之后就 <strong>后悔没早加上</strong> 了<img alt=":crazy_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crazy_face.png?v=12" title=":crazy_face:" width="20" />。因为在我最近使用新版的过程中，发现这个真的提高效率，因为很多朋友喜欢发一个固定比例的图，或者喜欢某个背景颜色，某个固定的手机型号等等。 以前每次配置的时候都需要挨个点一下，现在只需要打开保存为模板，以后每次打开都会按照保存的模板进行显示，你只需要点击选择图片即可<img alt=":ok_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/ok_hand.png?v=12" title=":ok_hand:" width="20" />。</p>
+<hr />
+<p><img alt="" height="" src="https://h.appinn.net/file/efbc9e1d0166b8095efe2.jpg" width="" /></p>
+<ul>
+<li><strong>丰富了更多好看的背景图案，让你的卡片更加精致<img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></strong></li>
+</ul>
+<p>这次我专门找了一些配色比较舒服好看的颜色，用的是一个工具网站：<a href="https://meshgradient.in/" rel="noopener nofollow ugc">https://meshgradient.in/</a> 做出来的渐变混合背景。</p>
+<p>也增加了一些背景图片，都是一些简约的风格，可以更加方便的进行设置背景。当然了，如果你想使用自己的本地图片，或者自定义背景图片也是可以支持的。并且支持背景模糊效果，可以进行手动控制。</p>
+<ul>
+<li>
+<p>剩下的就是优化了整体的视觉效果，对一些细节缺陷做了优化，也调整了一些交互，让使用过程更加舒服<img alt=":relieved:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/relieved.png?v=12" title=":relieved:" width="20" /></p>
+</li>
+<li>
+<p>另外这次我还更新了 App Store 里的介绍图，之前的图饱和度太高了，确实不好看。<img alt=":man_facepalming:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/man_facepalming.png?v=12" title=":man_facepalming:" width="20" />不过这个可真是一个大工程啊！做了三种语言的截图，还有 ipad 的…好几十张图 •ᴗ•<img alt=":droplet:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/droplet.png?v=12" title=":droplet:" width="20" /></p>
+</li>
+</ul>
+<p>NiceShots: <a href="https://apps.apple.com/app/niceshots/id6450619697" rel="noopener nofollow ugc">https://apps.apple.com/app/niceshots/id6450619697</a></p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a><img alt=":gift:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/gift.png?v=12" title=":gift:" width="20" />免费体验</h3>
+<p>另外送一个免费体验一个月的小小福利入口： <a href="https://apps.apple.com/redeem?ctx=offercodes&amp;id=6450619697&amp;code=NICESHOTMONTHFREE" rel="noopener nofollow ugc">https://apps.apple.com/redeem?ct … e=NICESHOTMONTHFREE</a><br />
+<img alt=":warning:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/warning.png?v=12" title=":warning:" width="20" /><img alt=":warning:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/warning.png?v=12" title=":warning:" width="20" />记得在到期前取消订阅，以免到期自动续费。<br />
+<img alt=":warning:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/warning.png?v=12" title=":warning:" width="20" /><img alt=":warning:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/warning.png?v=12" title=":warning:" width="20" />根据自己需要是否继续订阅或购买。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54862">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 07 Apr 2024 10:54:09 +0000</pubDate>
+<pubDate>Sun, 07 Apr 2024 10:54:09 +0000</pubDate>
+</item>
 
 <item>
 <title>在各种 OS 显示"激活水印"</title>
