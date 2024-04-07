@@ -5,11 +5,100 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>在各种 OS 显示"激活水印"</title>
+<link>https://meta.appinn.net/t/topic/39456</link>
+<guid>https://meta.appinn.net/t/topic/39456</guid>
+<content:encoded><![CDATA[
+
+<p>Windows 没有激活的时候，右下角会显示一个激活水印。Github 上开发者将这个水印功能加到了其他系统中，包括但不限于：</p>
+<p>Linux</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/a/bad3e5f9ad67c1ddf145107ce7032ac1d7b22563.svg" width="32" />
+
+      <a href="https://github.com/MrGlockenspiel/activate-linux" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="387" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/a/8a44ae15dd4b33d23e5e095ecfbc3c6cb62a1dfa_2_690x387.jpeg" width="690" /></div>
+
+<h3><a href="https://github.com/MrGlockenspiel/activate-linux" rel="noopener nofollow ugc" target="_blank">GitHub - MrGlockenspiel/activate-linux: The "Activate Windows" watermark...</a></h3>
+
+  <p>The "Activate Windows" watermark ported to Linux. Contribute to MrGlockenspiel/activate-linux development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/e/eeaa51d8e65b045e6164aab2476b604bfe9a3290.jpeg" title="screenshot (1)"><img alt="screenshot (1)" height="387" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/e/eeaa51d8e65b045e6164aab2476b604bfe9a3290_2_690x387.jpeg" width="690" /></a></div><p></p>
+<p>macOS</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/a/bad3e5f9ad67c1ddf145107ce7032ac1d7b22563.svg" width="32" />
+
+      <a href="https://github.com/Lakr233/ActivateMac" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/146a648caf1df041aaca82a287209b2d73e31534661cd770fe0ea91e6b181ddc/Lakr233/ActivateMac" width="690" /></div>
+
+<h3><a href="https://github.com/Lakr233/ActivateMac" rel="noopener nofollow ugc" target="_blank">GitHub - Lakr233/ActivateMac: Show MS Windows style activation dialog on my...</a></h3>
+
+  <p>Show MS Windows style activation dialog on my screen. - Lakr233/ActivateMac</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/e/4e72318015d30c2d40da17c644d35adf56add8cc.jpeg" title="Preview"><img alt="Preview" height="250" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/4/e/4e72318015d30c2d40da17c644d35adf56add8cc.jpeg" width="690" /></a></div><p></p>
+<p>iOS</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/a/bad3e5f9ad67c1ddf145107ce7032ac1d7b22563.svg" width="32" />
+
+      <a href="https://github.com/Lessica/ActivatePhone" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/15dd3e014ec2dcfb047536f28bf9f2f689558b04e9c5d78b0a7fb17eec38ccaf/Lessica/ActivatePhone" width="690" /></div>
+
+<h3><a href="https://github.com/Lessica/ActivatePhone" rel="noopener nofollow ugc" target="_blank">GitHub - Lessica/ActivatePhone: Show MS Windows style activation dialog on my...</a></h3>
+
+  <p>Show MS Windows style activation dialog on my screen. - Lessica/ActivatePhone</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/f/5f5768af1a3b71a50a1433a2c9e8cd2ca7d93d6e.jpeg" title="170656035-6badabe4-3da8-4a58-8e7b-52fc90fbc07f"><img alt="170656035-6badabe4-3da8-4a58-8e7b-52fc90fbc07f" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/f/5f5768af1a3b71a50a1433a2c9e8cd2ca7d93d6e_2_231x500.jpeg" width="231" /></a></div><p></p>
+            <p><small>5 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39456">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 07 Jan 2023 11:32:10 +0000</pubDate>
+<pubDate>Sat, 07 Jan 2023 11:32:10 +0000</pubDate>
+</item>
+
+<item>
 <title>【重大更新】DSCloud 迎来了黑暗模式和Emby链接方式</title>
 <link>https://meta.appinn.net/t/topic/54836</link>
 <guid>https://meta.appinn.net/t/topic/54836</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>DS Cloud-高清影片、无损音乐轻松播放</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
@@ -33,9 +122,7 @@
             <p><a href="https://meta.appinn.net/t/topic/54836">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 07 Apr 2024 01:53:06 +0000</pubDate>
-<pubDate>Sun, 07 Apr 2024 01:53:06 +0000</pubDate>
 </item>
-
 <item>
 <title>【翻译工具】开源免费的跨平台划词翻译软件</title>
 <link>https://meta.appinn.net/t/topic/42940</link>
