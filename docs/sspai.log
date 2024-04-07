@@ -19455,3 +19455,12 @@ Existing_entries: 700
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-07 08:04:23.749479
+------------------------------------------------------
+Started: 2024-04-07 10:03:07.397569
+Existing_entries: 700
+Fetching from https://rsshub.app/sspai/index
+Token length: 2601
+Summarized using GPT-3.5-turbo
+Append: [少数派为什么要支持创新者：做难而正确的事](https://sspai.com/post/87854)
+append_entries: 1
+Finish: 2024-04-07 10:03:13.177087
