@@ -4,6 +4,184 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>04-01~04-07.老胡的周刊（第136期）</title>
+<link>https://meta.appinn.net/t/topic/54868</link>
+<guid>https://meta.appinn.net/t/topic/54868</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<p>本期周刊有福利了！老胡给周刊读者老爷们争取了一份赠书福利，给大家送三本 <code>GitHub</code> 上持续火爆的项目** 《Hello 算法》** 实体书，在<a href="https://mp.weixin.qq.com/s/9_gq-PGxvxUYqQo431k7nA" rel="noopener nofollow ugc">本期周刊公众号推文</a>的文末留言，点赞前三的朋友加老胡微信(Howie6879)免费领取书籍。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#openuihttpsgithubcomwandbopenui-2" name="openuihttpsgithubcomwandbopenui-2"></a><a href="https://github.com/wandb/openui" rel="noopener nofollow ugc">openui</a></h3>
+<p>将你脑中的页面通过文本描述来自动实时生成，非常方便，但是实用性具体如何还需要探索，期待这个项目持续迭代：</p>
+<p><img alt="openui" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/openui.jpg" width="665" /></p>
+<p>它甚至可以帮助你将HTML转换成 <code>React、Svelte or Web Components</code> 等格式。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#zyronondouyinhttpsgithubcomzyronondouyin-3" name="zyronondouyinhttpsgithubcomzyronondouyin-3"></a><a href="https://github.com/zyronon/douyin" rel="noopener nofollow ugc">zyronon/douyin</a></h3>
+<p>这是一个模仿 抖音|TikTok 的移动端短视频项目，它基于 <code>Vue、Vite</code> 实现，使用了最新的 <code>Vue</code> 全家桶技术栈：</p>
+<p><img alt="zyronon_dy" height="297" src="https://images-1252557999.file.myqcloud.com/uPic/zyronon_dy.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#heyformhttpsgithubcomheyformheyform-4" name="heyformhttpsgithubcomheyformheyform-4"></a><a href="https://github.com/heyform/heyform" rel="noopener nofollow ugc">heyform</a></h3>
+<p><code>HeyForm</code> 是一个开源的表单构建器，允许任何人为调查、问卷、测验和投票创建有吸引力的对话表单并且不需要编程技巧：</p>
+<p><img alt="heyform" height="460" src="https://images-1252557999.file.myqcloud.com/uPic/heyform.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#docker-croniclehttpsgithubcomsoultearydocker-cronicle-5" name="docker-croniclehttpsgithubcomsoultearydocker-cronicle-5"></a><a href="https://github.com/soulteary/docker-cronicle" rel="noopener nofollow ugc">docker-cronicle</a></h3>
+<p><code>Cronjob</code> 定时任务 <code>Docker</code> 解决方案，提供了一个简介漂亮且轻量的 <code>WEB UI</code>：</p>
+<p><img alt="docker-cronicle" height="490" src="https://images-1252557999.file.myqcloud.com/uPic/docker-cronicle.png" width="689" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#icefoxhttpsgithubcomxiaopanglianicefox-6" name="icefoxhttpsgithubcomxiaopanglianicefox-6"></a><a href="https://github.com/xiaopanglian/icefox" rel="noopener nofollow ugc">icefox</a></h3>
+<p><code>Typecho</code> 微信朋友圈主题:</p>
+<p><img alt="icefox" height="" src="https://images-1252557999.file.myqcloud.com/uPic/icefox.jpg" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#cutegifhttpsgithubcomtasy5kgcutegif-8" name="cutegifhttpsgithubcomtasy5kgcutegif-8"></a><a href="https://github.com/tasy5kg/CuteGIF" rel="noopener nofollow ugc">CuteGIF</a></h3>
+<p>小萌 <code>GIF</code> 是一款简洁好用的 <code>Android</code> 端视频转 <code>GIF</code> 工具：</p>
+<p><img alt="CuteGIF" height="257" src="https://images-1252557999.file.myqcloud.com/uPic/CuteGIF.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#kotatsuhttpsgithubcomkotatsuappkotatsu-9" name="kotatsuhttpsgithubcomkotatsuappkotatsu-9"></a><a href="https://github.com/KotatsuApp/Kotatsu" rel="noopener nofollow ugc">Kotatsu</a></h3>
+<p>免费开源的安卓漫画阅读器，支持超过500+的资源来源：</p>
+<p><img alt="Kotatsu" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/Kotatsu.jpg" width="681" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#httpsgithubcomeasychenone-person-businesses-methodology-v20-11" name="httpsgithubcomeasychenone-person-businesses-methodology-v20-11"></a><a href="https://github.com/easychen/one-person-businesses-methodology-v2.0" rel="noopener nofollow ugc">一人企业方法论</a></h3>
+<p>《一人企业方法论》第二版，也适合做其他副业（比如自媒体、电商、数字商品）的非技术人群：</p>
+<p><img alt="opb-quick-start" height="256" src="https://images-1252557999.file.myqcloud.com/uPic/opb-quick-start.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#ahrefs-blog-seo-httpsxuxuyunotionsite1468d1c9ea65473b934917d8ab25979bvdcaec075d4b34a8e8af5be0bc9a259a0-12" name="ahrefs-blog-seo-httpsxuxuyunotionsite1468d1c9ea65473b934917d8ab25979bvdcaec075d4b34a8e8af5be0bc9a259a0-12"></a><a href="https://xuxuyu.notion.site/1468d1c9ea65473b934917d8ab25979b?v=dcaec075d4b34a8e8af5be0bc9a259a0" rel="noopener nofollow ugc">Ahrefs Blog SEO 文章列表</a></h3>
+<p>对 <code>SEO</code> 有兴趣可以看看：</p>
+<p><img alt="Ahrefs" height="360" src="https://images-1252557999.file.myqcloud.com/uPic/Ahrefs.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#learnmoderncpphttpslearnmoderncppcom-13" name="learnmoderncpphttpslearnmoderncppcom-13"></a><a href="https://learnmoderncpp.com/" rel="noopener nofollow ugc">learnmoderncpp</a></h3>
+<p>现代 C++学习教程：</p>
+<p><img alt="learnmoderncpp" height="433" src="https://images-1252557999.file.myqcloud.com/uPic/learnmoderncpp.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-14" name="h-14"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-22dohttps22do-15" name="h-22dohttps22do-15"></a><a href="https://22.do/" rel="noopener nofollow ugc">22.do</a></h3>
+<p>一次性 <code>Gmail</code> 临时邮箱：</p>
+<p><img alt="22do" height="288" src="https://images-1252557999.file.myqcloud.com/uPic/22do.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#z2h-httpspaperz2hcn-16" name="z2h-httpspaperz2hcn-16"></a><a href="https://paper.z2h.cn/" rel="noopener nofollow ugc">z2h 字帖</a></h3>
+<p>用正确的方法刻意练习，每个人都能写出一手漂亮的字，自定义字帖字体和内容，可打印导出练字：</p>
+<p><img alt="z2h" height="214" src="https://images-1252557999.file.myqcloud.com/uPic/z2h.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-17" name="h-17"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li>公众号：<a href="https://images-1252557999.file.myqcloud.com/uPic/ETIbMe.jpg" rel="noopener nofollow ugc">老胡的储物柜</a>，欢迎加我微信进<strong>周刊群聊</strong></li>
+<li><a href="https://t.me/howie_weekly" rel="noopener nofollow ugc">TG 频道订阅</a>：老胡周刊 TG 信息频道，对周刊的信息补充，会分享更多的资源，欢迎关注<img alt=":clap:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></li>
+<li><a href="https://weekly.fre123.com/" rel="noopener nofollow ugc">https://weekly.fre123.com/</a>：老胡收集了国内外60+优质技术周刊进行信息聚合<img alt=":fire:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/fire.png?v=12" title=":fire:" width="20" /></li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">老胡的信息周刊</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54868">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 07 Apr 2024 15:16:07 +0000</pubDate>
+<pubDate>Sun, 07 Apr 2024 15:16:07 +0000</pubDate>
+</item>
+<item>
+<title>老胡的周刊（第100期）</title>
+<link>https://meta.appinn.net/t/topic/45904</link>
+<guid>https://meta.appinn.net/t/topic/45904</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><a href="https://weekly.howie6879.com/" rel="noopener nofollow ugc">老胡的信息周刊</a>，记录这周我看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个<strong>留存</strong>以及<strong>共享</strong>。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a><img alt=":dart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/dart.png?v=12" title=":dart:" width="20" /> 项目</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#ssddanbrownrsshttpsgithubcomssddanbrownrss-2" name="ssddanbrownrsshttpsgithubcomssddanbrownrss-2"></a><a href="https://github.com/ssddanbrown/rss" rel="noopener nofollow ugc">ssddanbrown/rss</a></h3>
+<p>一个简单的 <code>Twitter-feed</code> 风格的 <code>RSS</code> 聚合器，使用 <code>PHP、Laravel、Inertia.js、Tailwind、Vue.js</code> 编写:</p>
+<ul>
+<li>支持RSS和ATOM格式</li>
+<li>定期自动获取RSS订阅源</li>
+<li>自定义订阅名称和颜色</li>
+<li>基于内容的标签进行分类</li>
+<li>3种不同的帖子布局模式（卡片、列表、紧凑）</li>
+<li>获取页面的开放图像</li>
+<li>通过单个纯文本文件管理的订阅源</li>
+<li>基于系统的暗/亮主题</li>
+<li>帖子标题/描述搜索</li>
+<li>开箱即用的Docker镜像</li>
+<li>手机屏幕兼容</li>
+<li>清理旧的帖子数据</li>
+</ul>
+<p><img alt="ssddanbrown_rss" height="500" src="https://images-1252557999.file.myqcloud.com/uPic/ssddanbrown_rss.png" width="683" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#codeinterpreter-apihttpsgithubcomshroominiccodeinterpreter-api-3" name="codeinterpreter-apihttpsgithubcomshroominiccodeinterpreter-api-3"></a><a href="https://github.com/shroominic/codeinterpreter-api" rel="noopener nofollow ugc">codeinterpreter-api</a></h3>
+<p>一个 <code>ChatGPT</code> 代码解释器的开源（<code>LangChain</code>）实现：</p>
+<ul>
+<li>数据集分析、股票图表绘制、图像处理…</li>
+<li>互联网访问和自动安装Python软件包</li>
+<li>除了OpenAI API 外，所有事情在本地运行</li>
+<li>对话记忆：根据先前的输入进行回应</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#onenavhttpsgithubcomhelloxzonenav-4" name="onenavhttpsgithubcomhelloxzonenav-4"></a><a href="https://github.com/helloxz/onenav" rel="noopener nofollow ugc">onenav</a></h3>
+<p>使用PHP + SQLite 3开发的书签管理系统，将浏览器书签集中式管理，做到一处部署，随处访问：</p>
+<p>支持后台管- 理</p>
+<ul>
+<li>支持私有链接</li>
+<li>支持Chrome/Firefox/Edge书签批量导入</li>
+<li>支持多种主题风格</li>
+<li>支持链接信息自动识别</li>
+<li>支持API</li>
+<li>支持Docker部署</li>
+<li>支持uTools插件</li>
+<li>支持二级分类</li>
+<li>支持Chromium内核的浏览器扩展（插件）</li>
+<li>支持在线更新</li>
+<li>手机版后台</li>
+</ul>
+<p><img alt="onenav" height="426" src="https://images-1252557999.file.myqcloud.com/uPic/onenav.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a><img alt=":robot:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/robot.png?v=12" title=":robot:" width="20" /> 软件</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#listen1_desktophttpsgithubcomlisten1listen1_desktop-6" name="listen1_desktophttpsgithubcomlisten1listen1_desktop-6"></a><a href="https://github.com/listen1/listen1_desktop" rel="noopener nofollow ugc">listen1_desktop</a></h3>
+<p>Listen 1 可以搜索和播放来自多个主流音乐网站的歌曲，让你的曲库更全面。并支持收藏功能，方便的创建自己的歌单，支持音乐平台：</p>
+<ul>
+<li>网易云音乐</li>
+<li>QQ 音乐</li>
+<li>酷狗音乐</li>
+<li>酷我音乐</li>
+<li>bilibili</li>
+<li>咪咕音乐</li>
+<li>千千音乐</li>
+</ul>
+<p><img alt="listen1_desktop" height="400" src="https://images-1252557999.file.myqcloud.com/uPic/listen1_desktop.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#shotcuthttpsgithubcommltframeworkshotcut-7" name="shotcuthttpsgithubcommltframeworkshotcut-7"></a><a href="https://github.com/mltframework/shotcut" rel="noopener nofollow ugc">shotcut</a></h3>
+<p><code>Shotcut</code> 是一个开源免费跨平台的视频编辑器，可以对录制的视频进行剪切、添加特效、添加文字、添加滤镜、改变色彩等一系列操作：</p>
+<p><img alt="shotcut" height="388" src="https://images-1252557999.file.myqcloud.com/uPic/shotcut.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#pdfarrangerhttpsgithubcompdfarrangerpdfarranger-8" name="pdfarrangerhttpsgithubcompdfarrangerpdfarranger-8"></a><a href="https://github.com/pdfarranger/pdfarranger" rel="noopener nofollow ugc">pdfarranger</a></h3>
+<p>一个小巧开源免费的 <code>Python-GTK</code> 应用程序，可以帮助用户使用交互和直观的图形界面合并或拆分 <code>PDF</code> 文档，并旋转、裁剪和重新排列页面：</p>
+<p><img alt="pdfarranger" height="388" src="https://images-1252557999.file.myqcloud.com/uPic/pdfarranger.png" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#milky-warphttpsgithubcomhugoattalmilky-warp-9" name="milky-warphttpsgithubcomhugoattalmilky-warp-9"></a><a href="https://github.com/hugoattal/milky-warp" rel="noopener nofollow ugc">milky-warp</a></h3>
+<p><code>Milky Warp</code> 是一个开源工具，技术栈是 <code>Tauri、Vite、Vue、Typescript</code>，核心功能就是按下快捷键时会显示一个放大镜：</p>
+<ul>
+<li>按下可配置的快捷键时显示放大镜</li>
+<li>支持使用鼠标滚轮进行放大和缩小</li>
+<li>跨平台：可在Windows、macOS和Linux上运行</li>
+</ul>
+<p><img alt="milky-warp" height="320" src="https://images-1252557999.file.myqcloud.com/uPic/milky-warp.gif" width="673" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a><img alt=":eyes:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /> 资料</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#hzpt-inet-clubenglish-notehttpsgithubcomhzpt-inet-clubenglish-note-11" name="hzpt-inet-clubenglish-notehttpsgithubcomhzpt-inet-clubenglish-note-11"></a><a href="https://github.com/hzpt-inet-club/english-note" rel="noopener nofollow ugc">hzpt-inet-club/english-note</a></h3>
+<p>从0开始学习英语语法的开源项目：</p>
+<p><img alt="english-note" height="304" src="https://images-1252557999.file.myqcloud.com/uPic/english-note.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-12" name="h-12"></a><img alt=":spider_web:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/spider_web.png?v=12" title=":spider_web:" width="20" /> 网站</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#pixianaihttpspixianai-13" name="pixianaihttpspixianai-13"></a><a href="https://pixian.ai/" rel="noopener nofollow ugc">pixian.ai</a></h3>
+<p>免登录图片背景消除网页，2023-07-21 当前属于测试期间，是免费的：</p>
+<p><img alt="pixian" height="277" src="https://images-1252557999.file.myqcloud.com/uPic/pixian.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#apivaultdevhttpsapivaultdev-14" name="apivaultdevhttpsapivaultdev-14"></a><a href="https://apivault.dev/" rel="noopener nofollow ugc">apivault.dev</a></h3>
+<p>免费开源的公共 <code>API</code> 网站：</p>
+<p><img alt="apivault" height="367" src="https://images-1252557999.file.myqcloud.com/uPic/apivault.jpg" width="690" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#tgscanhttpstgscanxyz-15" name="tgscanhttpstgscanxyz-15"></a><a href="https://tgscan.xyz/" rel="noopener nofollow ugc">tgscan</a></h3>
+<p>免费开源的 <code>Telegram</code> 搜索：让你轻松找到频道、群组和聊天记录：</p>
+<ul>
+<li>github：<a href="https://github.com/tgscan-dev/tgscan" rel="noopener nofollow ugc">tgscan-dev/tgscan</a></li>
+<li>网页：<a href="https://tgscan.xyz/" rel="noopener nofollow ugc">tgscan.xyz</a></li>
+</ul>
+<p><img alt="tgscan" height="226" src="https://images-1252557999.file.myqcloud.com/uPic/tgscan.jpg" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-16" name="h-16"></a><img alt=":writing_hand:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/writing_hand.png?v=12" title=":writing_hand:" width="20" /> 说明</h2>
+<p>周刊相关信息：</p>
+<ul>
+<li><img alt=":partying_face:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" />我基于ChatGPT做了个<a href="https://mp.weixin.qq.com/s/3ohE-rm6kryC07parr29bQ" rel="noopener nofollow ugc">微信端的老胡信息周刊QA</a>，欢迎免费体验</li>
+<li>Github 地址：<a href="https://github.com/howie6879/weekly/" rel="noopener nofollow ugc">howie6879/weekly/</a>，觉得不错麻烦给我一个<strong>Star</strong>，谢谢 <img alt=":heart:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /></li>
+<li>浏览地址：<a href="https://weekly.howie6879.com" rel="noopener nofollow ugc">weekly.howie6879.com</a> | <a href="https://weekly.howie6879.com/recommend/index.html" rel="noopener nofollow ugc">今日推荐</a> | <a href="https://weekly.howie6879.com/soft/mac.html" rel="noopener nofollow ugc">MacOS 软件推荐</a></li>
+</ul>
+<p><img alt=":raised_hands:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" width="20" />如果你阅读到这里，说明我们对信息的认可区域是有一定交集的，可以说我们是<strong>同道中人</strong>，所以如果你有自认为不错的信息获取渠道，欢迎<strong>留言</strong>或者<strong>私聊</strong>我，谢谢。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/45904">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 25 Jul 2023 16:29:23 +0000</pubDate>
+<pubDate>Tue, 25 Jul 2023 16:29:23 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】带壳截图神器 NiceShots 迎来重大更新!</title>
