@@ -41938,3 +41938,28 @@ Filter: [“碧梨”拒绝AI滥用，“音乐裁缝”正在给音乐家制造
 Filter: [最懂AI的诺奖经济学得主去世，大模型关键技术受他研究启发](https://www.36kr.com/p/2722623901563013)
 append_entries: 0
 Finish: 2024-04-07 22:03:49.251035
+------------------------------------------------------
+Started: 2024-04-08 00:11:53.590212
+Existing_entries: 627
+Fetching from https://rsshub.app/36kr/motif/327686782977
+Token length: 4789
+Summarized using GPT-3.5-turbo
+Append: [本周AI界发生了什么 | ChatGPT免注册；苹果进军家用机器人；Anthropic发现长文本漏洞](https://www.36kr.com/p/2723163889727621)
+Filter: [富豪前夫、街头校霸、病娇竹马......我在AI社交App疯狂“翻牌”](https://www.36kr.com/p/2723309844828805)
+Filter: [不用唤醒词就能对话，苹果的AI要先为Siri赋能](https://www.36kr.com/p/2723314807338882)
+Filter: [突发，超级独角兽杀出：估值1300亿](https://www.36kr.com/p/2723314454870145)
+Filter: [阿里刚开源32B大模型，我们立马测试了“弱智吧”](https://www.36kr.com/p/2723289306888322)
+Filter: [“30 岁辞职学 Python 后，程序员朋友跟我说：别学了，早晚都被 AI 取代的”](https://www.36kr.com/p/2723160866699399)
+Filter: [超越GPT-4，斯坦福团队手机可跑的大模型火了，一夜下载量超2k](https://www.36kr.com/p/2723076469110658)
+Filter: [谷歌DeepMind发布Gecko：专攻检索，与大7倍模型相抗衡](https://www.36kr.com/p/2723076384471169)
+Filter: [揭秘AI幻觉：GPT-4V存在视觉编码漏洞，清华联合NUS提出LLaVA-UHD](https://www.36kr.com/p/2723076362762369)
+Filter: [二次元专用超分AI模型APISR：在线可用，入选CVPR](https://www.36kr.com/p/2723076291786630)
+Filter: [邪恶大模型多到离谱，黑客通过后门攻击操纵大模型，BadGPT 时代来了？](https://www.36kr.com/p/2723023103489920)
+Filter: [Llama提速500%，谷歌美女程序员手搓矩阵乘法内核](https://www.36kr.com/p/2723023398647687)
+Filter: [苹果突然裁员614人，10年造车梦碎，改押机器人搞「下一件大事」](https://www.36kr.com/p/2723023302506629)
+Filter: [一家云厂商，怎么向传统行业卖大模型？ | 最前线](https://www.36kr.com/p/2720241415370889)
+Filter: [游戏行业未来的增长，可能真的要靠AI了](https://www.36kr.com/p/2722706102433670)
+Filter: [马斯克最新预测：AI或在2030年超越人类智力，未来还可能“终结”人类](https://www.36kr.com/p/2722081539537027)
+Filter: [“碧梨”拒绝AI滥用，“音乐裁缝”正在给音乐家制造“焦虑”](https://www.36kr.com/p/2722619744810888)
+append_entries: 1
+Finish: 2024-04-08 00:11:57.841358
