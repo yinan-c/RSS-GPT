@@ -4,6 +4,60 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】Pixboard: 只是一个能在桌面上放置模拟LED/CRT/VFD复古屏小摆件的App</title>
+<link>https://meta.appinn.net/t/topic/54971</link>
+<guid>https://meta.appinn.net/t/topic/54971</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Pixboard</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>官网&amp;下载</h2>
+<p>官方网站: <strong><a href="https://github.com/lihaoyun6/Pixboard/" rel="noopener nofollow ugc">Pixboard on GitHub</a></strong><br />
+下载地址: <strong><a href="https://github.com/lihaoyun6/Pixboard/releases/latest" rel="noopener nofollow ugc">点此前往</a></strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句话简介</h2>
+<p>这个 App 可以在你的 Mac 屏幕上放一个模拟LED像素屏 / 老式CRT / VFD显像管的小挂件</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-20240410-4" name="h-20240410-4"></a>更新日志 (2024/04/10)</h2>
+<p><strong>v1.0.1:</strong></p>
+<ul>
+<li>正式开源, 首次推送代码!</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>软件特色</h2>
+<ol>
+<li>
+<p>使用 SwiftUI 编写, 体积小巧轻量化</p>
+</li>
+<li>
+<p>支持多种静态图像格式及 gif 动图, 支持 HDR 显示</p>
+</li>
+<li>
+<p>用心精调的 10 种滤镜效果, 每一种都真的很好看</p>
+</li>
+<li>
+<p>完全免费开源, 代码透明, 不收集上传任何用户隐私</p>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>使用注意</h2>
+<ul>
+<li>
+<p>在支持 HDR 显示的屏幕上开启 HDR 可以极大提升显示效果, 拟真度更上一层楼. 但对于分区背光设备, 长时间局部固定位置显示 HDR 可能会导致此区域灯珠寿命消耗加速.</p>
+</li>
+<li>
+<p>这世界上很多事都是说不出什么具体意义的, 这是个纯自娱自乐的项目, 不接受 <code>这个App有什么意义吗?</code> 之类的质疑.</p>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>软件截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/8/586540729baa78b6ff4e5174438e1e1f6cdc6d10.jpeg" title="preview"><img alt="preview" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/8/586540729baa78b6ff4e5174438e1e1f6cdc6d10_2_665x500.jpeg" width="665" /></a></div><p></p>
+<blockquote>
+<p>本软件完全开源免费使用. 如果用的顺手, 可以在github页面最底部扫码打赏.<br />
+您的支持是我创造更多开源软件的动力0v0</p>
+</blockquote>
+            <p><small>4 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/54971">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 10 Apr 2024 06:30:08 +0000</pubDate>
+<pubDate>Wed, 10 Apr 2024 06:30:08 +0000</pubDate>
+</item>
 
 <item>
 <title>HamHub iOS播放器 轻松管理阿里云盘及EMBY影视资源！</title>
