@@ -19680,3 +19680,12 @@ Existing_entries: 711
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-10 00:10:58.649149
+------------------------------------------------------
+Started: 2024-04-10 02:09:53.224625
+Existing_entries: 711
+Fetching from https://rsshub.app/sspai/index
+Token length: 2046
+Summarized using GPT-3.5-turbo
+Append: [派早报：Fairphone 推出可更换电池的 ANC 耳机等](https://sspai.com/post/87944)
+append_entries: 1
+Finish: 2024-04-10 02:09:57.795827
