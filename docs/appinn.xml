@@ -4,6 +4,42 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>求，精简浏览器右键菜单</title>
+<link>https://meta.appinn.net/t/topic/55011</link>
+<guid>https://meta.appinn.net/t/topic/55011</guid>
+<content:encoded><![CDATA[
+
+<p>精简edge或chrome浏览器右键菜单，<br />
+就像ContextMenuManager管理系统右键菜单那样<br />
+网上搜了，都是说自己写个右键菜单，替换原生的，但我只是想要删掉我用不到的选项，仅此而已，<br />
+论坛有个帖子的评论里稍微涉及到，但并不能解决我的问题</p>
+<aside class="quote quote-modified">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" class="avatar" height="24" src="https://meta-cdn1.appinn.com/letter_avatar_proxy/v4/letter/j/f6c823/48.png" width="24" />
+    <a href="https://meta.appinn.net/t/topic/32420">请问如何将edge浏览器右键菜单里的子菜单选项排序到顶部？</a> <a class="badge-category__wrapper " href="https://meta.appinn.net/c/wen-ti-qiu-zhu/7"><span class="badge-category " title="在这里你可以提出任何问题。"><span class="badge-category__name">问题求助❓</span></span></a>
+  </div>
+  <blockquote>
+    <a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/a/6a767cfdc86596ff4cf81820b4904e223af2ccfe.jpeg" title="ba86cd05cd610a0a6fd884fb65485f9">[ba86cd05cd610a0a6fd884fb65485f9]</a> 
+在浏览器使用中，我会通过Search All这款插件，如图快速通过其他搜索引擎查询我想了解的内容 
+但这样操作起来需要3步，不够效率，同时Search All会显示在右键菜单的最下方，需要大幅度挪动鼠标（图片上是chrome截取的右键菜单，比较少，而我常用的edge浏览器右键菜单有20多项，所以就很麻烦） 
+请问有什么方法： 
+1、将Search All这款软件的所处菜单位置放到最上面，像下图这样（我P的图） 
+ <a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/c/6c459c31293cb2cd89df04626f05d48f8668b113.jpeg" title="微信截图_20220505110707">[微信截图_20220505110707]</a> 
+2、或者是将右键的Search All菜单减少一级，像下图这样（我P的图）直接从第一步到第三步 
+ <a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/9/f91811362cf8410c3728d298c0637f44f624e6a4.jpeg" title="微信图片_20220505110935">[微信图片_20220505110935]</a>
+  </blockquote>
+</aside>
+
+<p>除了浏览器自带的菜单选项，还有安装的扩展也会添加到右键菜单，导致右键菜单冗长不便，<br />
+少有扩展可以设置是否添加到右键菜单，</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55011">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 11 Apr 2024 03:17:06 +0000</pubDate>
+<pubDate>Thu, 11 Apr 2024 03:17:06 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】Pixboard: 只是一个能在桌面上放置模拟LED/CRT/VFD复古屏小摆件的App</title>
