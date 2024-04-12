@@ -5,11 +5,37 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】fork 自 Motrix 的全平台下载软件</title>
+<link>https://meta.appinn.net/t/topic/55081</link>
+<guid>https://meta.appinn.net/t/topic/55081</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>imfile</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Windows / macOS / liunx</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>fork 自 Motrix 的全平台下载软件，长期维护中</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>1.支持全平台</p>
+<p>2.支持哈希直接下载功能</p>
+<p>3.自动保存任务，重启不丢失任务</p>
+<p>4.定期更新维护，更新各种依赖和内核</p>
+<p>GitHub链接：<a class="inline-onebox" href="https://github.com/imfile-io/imfile-desktop/" rel="noopener nofollow ugc">GitHub - imfile-io/imfile-desktop: A full-featured download manager.</a></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55081">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 12 Apr 2024 04:43:12 +0000</pubDate>
+<pubDate>Fri, 12 Apr 2024 04:43:12 +0000</pubDate>
+</item>
+
+<item>
 <title>话说现在chromium系浏览器到底还有没有不用开发者模式在国内装插件的办法？</title>
 <link>https://meta.appinn.net/t/topic/55075</link>
 <guid>https://meta.appinn.net/t/topic/55075</guid>
 <content:encoded><![CDATA[
-
 <p>天天有chromium浏览器选择的帖子，怎么没人提这个呢？</p>
 <p>国内的插件站毫无意外都是下载crx解压拖进去。<br />
 chromium的开发者模式又蛋疼的天天警告你。而且这类操作没法教小白，每次有人问我你的浏览器怎么跟我不一样，我也要你这个。我都为之一顿，怎么办，我总不能教人家翻墙吧？教一个小白用开发者模式也不靠谱啊</p>
@@ -19,14 +45,12 @@ chromium的开发者模式又蛋疼的天天警告你。而且这类操作没法
             <p><a href="https://meta.appinn.net/t/topic/55075">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 12 Apr 2024 03:57:10 +0000</pubDate>
-<pubDate>Fri, 12 Apr 2024 03:57:10 +0000</pubDate>
 </item>
 <item>
 <title>【自荐】通过打卡的方式写日记，一个小于 1MB 的 iOS 日记软件</title>
 <link>https://meta.appinn.net/t/topic/31337</link>
 <guid>https://meta.appinn.net/t/topic/31337</guid>
 <content:encoded><![CDATA[
-
 <h2>
 <a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>TinyDay</p>
@@ -64,9 +88,7 @@ chromium的开发者模式又蛋疼的天天警告你。而且这类操作没法
             <p><a href="https://meta.appinn.net/t/topic/31337">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 02 Apr 2022 06:57:13 +0000</pubDate>
-<pubDate>Sat, 02 Apr 2022 06:57:13 +0000</pubDate>
 </item>
-
 <item>
 <title>求，精简浏览器右键菜单</title>
 <link>https://meta.appinn.net/t/topic/55011</link>
