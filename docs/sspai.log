@@ -19866,3 +19866,12 @@ Existing_entries: 719
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-12 06:03:48.722434
+------------------------------------------------------
+Started: 2024-04-12 08:03:50.430501
+Existing_entries: 719
+Fetching from https://rsshub.app/sspai/index
+Token length: 3693
+Summarized using GPT-3.5-turbo
+Append: [沉浸式语言学习实践](https://sspai.com/post/87977)
+append_entries: 1
+Finish: 2024-04-12 08:03:56.168610
