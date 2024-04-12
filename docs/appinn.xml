@@ -4,6 +4,68 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>话说现在chromium系浏览器到底还有没有不用开发者模式在国内装插件的办法？</title>
+<link>https://meta.appinn.net/t/topic/55075</link>
+<guid>https://meta.appinn.net/t/topic/55075</guid>
+<content:encoded><![CDATA[
+
+<p>天天有chromium浏览器选择的帖子，怎么没人提这个呢？</p>
+<p>国内的插件站毫无意外都是下载crx解压拖进去。<br />
+chromium的开发者模式又蛋疼的天天警告你。而且这类操作没法教小白，每次有人问我你的浏览器怎么跟我不一样，我也要你这个。我都为之一顿，怎么办，我总不能教人家翻墙吧？教一个小白用开发者模式也不靠谱啊</p>
+<p>最早360极速有插件商店，主流插件还都有，但现在全部下架了，挺好个插件站，最近还改了ui，但一共没几个插件。反正也约等于没有吧。</p>
+<p>你们都是咋办的？老婆的浏览器装插件都得每次我来搞呢。</p>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55075">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 12 Apr 2024 03:57:10 +0000</pubDate>
+<pubDate>Fri, 12 Apr 2024 03:57:10 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】通过打卡的方式写日记，一个小于 1MB 的 iOS 日记软件</title>
+<link>https://meta.appinn.net/t/topic/31337</link>
+<guid>https://meta.appinn.net/t/topic/31337</guid>
+<content:encoded><![CDATA[
+
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>TinyDay</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>iOS</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>通过打卡的方式帮你写日记，区别于传统的日记软件，我们鼓励通过随时随地的打卡来记录点滴生活。无论是喝咖啡，吃饭，看展，上班摸鱼，亦或是看见流浪猫，有小情绪，都可以记录下来。可能未来的某天翻阅这些生活剪影就会让你有所感触。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>更多介绍</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/e/0ec967145d9266982ad26259d19f7dd46bb6f218.jpeg" title="STIIITCH_2022_04_02_01_54_27"><img alt="STIIITCH_2022_04_02_01_54_27" height="373" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/e/0ec967145d9266982ad26259d19f7dd46bb6f218_2_690x373.jpeg" width="690" /></a></div><p></p>
+<p>从老牌的 「 Day One 」，到「 Notion 」 再到各种「一句话日记」，写日记的软件我换过很多个，每次都是写几天新鲜劲过了，就放弃了。对我个人而言，坚持不下来的原因主要是懒，临睡前总结一天，着实没有刷抖音有意思。</p>
+<p>最近回忆过去总有恍如隔世的感觉，感觉时间过得太快了，而自己记性又没有那么好，还是希望能够坚持写日记来记录自己的生活点滴。我个人对日记软件的诉求是随时随地写流水账，无论是喝星巴克、做核酸、自言自语，发生了，就记录下来，最终汇总一天的日记。</p>
+<p>App 的核心功能就 1 个 「打卡」，你可以新建任何频道进行打卡。未来可以按时间线或者按频道回顾「打卡记录」（有点类似 ToDo 软件）</p>
+<p>同时打卡的时候可以结构化的记录一些属性，比如早晨喝的咖啡豆的产地，酸度，下午玩的是游戏是塞尔达还是马里奥；以及 App 还提供了简单的记账功能。</p>
+<p>数据方面支持 iCloud 同步 + CSV 导出，保证你的数据始终在你的手上。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>未来计划</h2>
+<ul>
+<li>支持小组件</li>
+<li>支持 Apple Watch</li>
+<li>和健康数据打通</li>
+</ul>
+<p>目前 App 只有 1Mb 的原因是，开发的时候尽可能的在用 iOS 的原生组件，也没加入任何的统计跟踪代码。未来的版本也会维持 App 的轻量级，非必要不添加。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/2/d29a1ba5046c31d7904118f59f7a0725df569f4d.jpeg" title="IMG_9110"><img alt="IMG_9110" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/2/d29a1ba5046c31d7904118f59f7a0725df569f4d_2_652x500.jpeg" width="652" /></a></div><p></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>应用下载</h2>
+<p>网址： <a class="inline-onebox" href="https://apps.apple.com/cn/app/id1615283310" rel="noopener nofollow ugc">‎App&nbsp;Store 上的“TinyDay - 通过打卡的方式写日记”</a></p>
+<p>或 App Store 搜索：TinyDay</p>
+            <p><small>10 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/31337">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 02 Apr 2022 06:57:13 +0000</pubDate>
+<pubDate>Sat, 02 Apr 2022 06:57:13 +0000</pubDate>
+</item>
 
 <item>
 <title>求，精简浏览器右键菜单</title>

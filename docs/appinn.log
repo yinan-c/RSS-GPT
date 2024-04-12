@@ -21837,3 +21837,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-04-12 02:10:56.473899
+------------------------------------------------------
+Started: 2024-04-12 04:03:26.831467
+Existing_entries: 350
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [话说现在chromium系浏览器到底还有没有不用开发者模式在国内装插件的办法？](https://meta.appinn.net/t/topic/55075)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【自荐】通过打卡的方式写日记，一个小于 1MB 的 iOS 日记软件](https://meta.appinn.net/t/topic/31337)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-04-12 04:03:30.380680
