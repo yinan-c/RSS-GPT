@@ -19890,3 +19890,15 @@ Existing_entries: 721
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-12 12:04:21.810926
+------------------------------------------------------
+Started: 2024-04-12 14:03:16.679826
+Existing_entries: 721
+Fetching from https://rsshub.app/sspai/index
+Token length: 9784
+Summarized using GPT-3.5-turbo
+Append: [本周看什么 | 最近值得一看的好一些作品](https://sspai.com/post/88024)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [新兴云端部署服务 Zeabur 创始团队都装了啥？](https://sspai.com/post/87993)
+append_entries: 2
+Finish: 2024-04-12 14:03:32.276597
