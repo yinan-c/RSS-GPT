@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>【自荐】QuickRec，无需第三方驱动即可录制 Mac 系统声音的录屏工具</title>
 <link>https://meta.appinn.net/t/topic/55152</link>
 <guid>https://meta.appinn.net/t/topic/55152</guid>
 <content:encoded><![CDATA[
-
 <p>我开发了一个MacOS App，解决了Mac系统录屏没有声音的痛点。</p>
 <p>MacOS自带的QuickTime是可以录屏的，但是默认输出的视频文件是没有声音的，想要录制内部声音，需要安装和配置第三方驱动或插件，这个过程对小白来说十分复杂，并且配置完还可能有各种问题，比如耳机有时候会没有声音等。</p>
 <p>QuickRec不需要安装任何插件或驱动，一键实现声音内录，同时支持录制麦克风。 而且App很轻量，只有不到1M的大小。</p>
@@ -19,9 +19,7 @@
             <p><a href="https://meta.appinn.net/t/topic/55152">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 13 Apr 2024 09:55:45 +0000</pubDate>
-<pubDate>Sat, 13 Apr 2024 09:55:45 +0000</pubDate>
 </item>
-
 <item>
 <title>【自荐+送码】Pixel3D - 3D像素画艺术</title>
 <link>https://meta.appinn.net/t/topic/55133</link>
