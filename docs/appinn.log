@@ -22066,3 +22066,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-04-14 14:06:52.600518
+------------------------------------------------------
+Started: 2024-04-14 18:17:44.042615
+Existing_entries: 355
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [[自荐-效率工具] Boos直聘自动投递打招呼（ChatGPT+Vue3+Vite）](https://meta.appinn.net/t/topic/55191)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-04-14 18:17:47.448179

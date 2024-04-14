@@ -4,6 +4,28 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[自荐-效率工具] Boos直聘自动投递打招呼（ChatGPT+Vue3+Vite）</title>
+<link>https://meta.appinn.net/t/topic/55191</link>
+<guid>https://meta.appinn.net/t/topic/55191</guid>
+<content:encoded><![CDATA[
+
+<p>虽然是油猴脚本但技术栈够新，使用了VIte + Vue3 + element-plus来构建。<br />
+该脚本的一大亮点就是GPT加持，目前为测试版本，可能会有部分bug,还请谅解。</p>
+<p>目前支持 <code>公司名</code>，<code>薪资</code>，<code>岗位名</code>，<code>工作内容</code>，<code>活跃度</code>等简单筛选，还可以使用强大的<code>GPT筛选</code> ，投递后还能使用<code>GPT招呼语</code>来让Ai总结你对这个岗位的帮助和优势来自动发送招呼语</p>
+<blockquote>
+<p>需要自己写API和提示词，只提供了参考，内部使用模板引擎加岗位数据更自由强大，投递后还能记录上下文，方便本地训练AI</p>
+</blockquote>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/a/6aabb31662a6e8e9ba69570bb4888a4bb4966555.jpeg" title="shot_2024-04-14_23-08-03"><img alt="shot_2024-04-14_23-08-03" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/a/6aabb31662a6e8e9ba69570bb4888a4bb4966555_2_626x500.jpeg" width="626" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/7/f/7fd6a79693eee5c2e981330335cacfc83b405728.jpeg" title="shot_2024-04-14_23-09-05"><img alt="shot_2024-04-14_23-09-05" height="480" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/7/f/7fd6a79693eee5c2e981330335cacfc83b405728_2_690x480.jpeg" width="690" /></a></div><p></p>
+<p>Github开源地址: <a href="https://github.com/ocyss/boos-helper" rel="noopener nofollow ugc">https://github.com/ocyss/boos-helper</a></p>
+<p>greasyfork地址: <a href="https://greasyfork.org/zh-CN/scripts/491340" rel="noopener nofollow ugc">https://greasyfork.org/zh-CN/scripts/491340</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55191">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 14 Apr 2024 15:48:31 +0000</pubDate>
+<pubDate>Sun, 14 Apr 2024 15:48:31 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】QuickRec，无需第三方驱动即可录制 Mac 系统声音的录屏工具</title>
