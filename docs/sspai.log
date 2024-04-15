@@ -20097,3 +20097,12 @@ Existing_entries: 728
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-15 12:05:09.656540
+------------------------------------------------------
+Started: 2024-04-15 14:03:16.289472
+Existing_entries: 728
+Fetching from https://rsshub.app/sspai/index
+Token length: 4535
+Summarized using GPT-3.5-turbo
+Append: [派评 | 近期值得关注的 App](https://sspai.com/post/88086)
+append_entries: 1
+Finish: 2024-04-15 14:03:22.731378
