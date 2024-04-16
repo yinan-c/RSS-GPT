@@ -20151,3 +20151,9 @@ Summarized using GPT-3.5-turbo
 Append: [派早报：第一季度全球智能机出货量上涨 7.8%，OpenAI 开设日本分部等](https://sspai.com/post/88102)
 append_entries: 1
 Finish: 2024-04-16 04:03:58.140262
+------------------------------------------------------
+Started: 2024-04-16 06:03:41.520446
+Existing_entries: 730
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-04-16 06:03:41.778178
