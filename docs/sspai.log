@@ -20157,3 +20157,15 @@ Existing_entries: 730
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-16 06:03:41.778178
+------------------------------------------------------
+Started: 2024-04-16 08:03:53.399390
+Existing_entries: 730
+Fetching from https://rsshub.app/sspai/index
+Token length: 9969
+Summarized using GPT-3.5-turbo
+Append: [Ghidra 逆向工程实战：看看 macOS 恶意软件动了什么手脚](https://sspai.com/post/87870)
+Token length: 9903
+Summarized using GPT-3.5-turbo
+Append: [有瑕疵的旅途伴侣：小米 14 Ultra 旅拍体验](https://sspai.com/post/88067)
+append_entries: 2
+Finish: 2024-04-16 08:04:01.985571
