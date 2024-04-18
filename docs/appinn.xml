@@ -4,6 +4,34 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】新百词斩助手浏览器插件</title>
+<link>https://meta.appinn.net/t/topic/55375</link>
+<guid>https://meta.appinn.net/t/topic/55375</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>功能简介</h2>
+<p>新百词斩网页助手，支持取词翻译、收藏单词等操作（可同步至百词斩APP中）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>创作说明</h2>
+<p>该插件是【百词斩助手】chrome 插件的重写版本，作者已经开源了这个项目。原来是jQuery UI项目，我将其改造成wxt.dev + Vue，代码组织性更强了，而且还很容易编译支持Firefox平台。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>更多说明</h2>
+<p>Learning English begins with mastering vocabulary.</p>
+<p>选词翻译<br />
+<img alt="" height="" src="https://100-words.pages.dev/collect-word-min.gif" width="" /></p>
+<p>管理单词本<br />
+<img alt="" height="" src="https://100-words.pages.dev/manage-wordbook-min.gif" width="" /></p>
+<p>查看单词详情<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/d/dda1abdeeb835bf8c264a9be62773a082dd1e83e.jpeg" title="image"><img alt="image" height="434" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/d/dda1abdeeb835bf8c264a9be62773a082dd1e83e_2_690x434.jpeg" width="690" /></a></div><p></p>
+<p>官网主页：</p>
+<p><a href="https://100-words.pages.dev/" rel="noopener nofollow ugc">Home - Baicizhan Helper Website (100-words.pages.dev)</a></p>
+<p>开源地址：</p>
+<p><a href="https://github.com/honwhy/words-100-helper" rel="noopener nofollow ugc">honwhy/words-100-helper: rewrite of @marmot-z/baicizhan-helper (github.com)</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55375">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 18 Apr 2024 14:02:36 +0000</pubDate>
+<pubDate>Thu, 18 Apr 2024 14:02:36 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】创业零基础自己记账报税软件，自记账app（付费但很实用）</title>
