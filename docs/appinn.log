@@ -22388,3 +22388,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-04-18 04:03:19.712979
+------------------------------------------------------
+Started: 2024-04-18 06:03:47.745744
+Existing_entries: 357
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [求对离线网页进行标注并能保存标注的工具](https://meta.appinn.net/t/topic/44555)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-04-18 06:03:52.307115
