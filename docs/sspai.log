@@ -20424,3 +20424,15 @@ Existing_entries: 745
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-19 08:04:57.077935
+------------------------------------------------------
+Started: 2024-04-19 10:03:28.953827
+Existing_entries: 745
+Fetching from https://rsshub.app/sspai/index
+Token length: 5478
+Summarized using GPT-3.5-turbo
+Append: [赛博时代的复古异类：我们为什么还在用这些「旧玩意」](https://sspai.com/post/88186)
+Token length: 605
+Summarized using GPT-3.5-turbo
+Append: [做一款创意驱动的手机壳，让每个人都能玩开心](https://sspai.com/post/88188)
+append_entries: 2
+Finish: 2024-04-19 10:03:44.674791
