@@ -20394,3 +20394,12 @@ Existing_entries: 743
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-19 00:11:02.528442
+------------------------------------------------------
+Started: 2024-04-19 02:11:59.205323
+Existing_entries: 743
+Fetching from https://rsshub.app/sspai/index
+Token length: 4981
+Summarized using GPT-3.5-turbo
+Append: [派早报：首个第三方应用程序商店 AltStore PAL 上线等](https://sspai.com/post/88182)
+append_entries: 1
+Finish: 2024-04-19 02:12:04.522198
