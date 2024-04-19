@@ -20445,3 +20445,9 @@ Summarized using GPT-3.5-turbo
 Append: [本周看什么 | 最近值得一看的一大煲作品](https://sspai.com/post/88196)
 append_entries: 1
 Finish: 2024-04-19 12:04:41.645434
+------------------------------------------------------
+Started: 2024-04-19 14:03:11.151293
+Existing_entries: 748
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-04-19 14:03:11.376034
