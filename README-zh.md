@@ -1,6 +1,5 @@
 # RSS-GPT
 
-[![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/dev?label=updated)](https://github.com/yinan-c/RSS-GPT/tree/dev)
 [![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=feeds%20refreshed)](https://yinan-c.github.io/RSS-GPT/)
 [![](https://img.shields.io/github/license/yinan-c/RSS-GPT)](https://github.com/yinan-c/RSS-GPT/blob/master/LICENSE)
 
@@ -35,16 +34,14 @@
 
 ## 脚本的更新
 
-- 本项目有一个 [`dev` 分支](https://github.com/yinan-c/RSS-GPT/tree/dev)，用于记录手动更新的内容，GitHub Actions 自动提交将不再出现这个 `dev` 分支，这样做的目的是把对脚本的手动更新和 GitHub Workflow 自动提交的内容分开, 方便检查脚本更新和 pull 到你的仓库中。
-
 - 由于 OpenAI 在 2023-11-06 发布了新版本的 `openai` 包，[新版本包含了更强大的模型](https://openai.com/blog/new-models-and-developer-products-announced-at-devday)，调用 API 的方式也发生了变化。因此，旧版本的脚本将无法使用最新版本的 `openai` 包，需要更新。否则，你可以在 `requirements.txt` 中设置 `openai==0.27.8` 来使用旧版本。
 - 在更新的版本中，**长度超过 16k 个 token 的文章不再被截断，而是使用最新的 `gpt-4-1106-preview` 模型。** 如果你不喜欢这样的改变，可以联系我，我会考虑添加自定义选项来选择是否截断或者使用 `gpt-4-1106-preview` 模型。
 
-- 查看 [CHANGELOG-zh.md](CHANGELOG-zh.md) 获取最新的更新日志。
+- 查看 [CHANGELOG-zh.md](CHANGELOG-zh.md) 获取其他最新的更新日志。
 
 ### 欢迎贡献!
 
-- 欢迎提交 issue 和 pull request。请尽量提交 pull request 到 `dev` 分支。
+- 欢迎提交 issue 和 pull request。
 
 ## 分享几条本项目处理后的 RSS 订阅源
 
