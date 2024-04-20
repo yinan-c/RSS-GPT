@@ -1,4 +1,6 @@
 # CHANGELOG
+- 2024-04-20:
+  - Removed secret, U-EMAIL, bot will commit and push instead.
 - 2023-11-06:
   - Update to the latest version of `openai` package. **Contexts longer than 16k tokens are no longer truncated, instead, will use the `gpt-4-1106-preview` model.** 
 
