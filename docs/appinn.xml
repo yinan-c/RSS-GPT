@@ -4,6 +4,36 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>求一个可自定义的多引擎信息整合搜索工具</title>
+<link>https://meta.appinn.net/t/topic/55458</link>
+<guid>https://meta.appinn.net/t/topic/55458</guid>
+<content:encoded><![CDATA[
+
+<p>需求是把某个关键词相关的搜索信息同时呈现，以全面获取信息，并且尽最大可能去掉繁琐的手动操作</p>
+<p>想要解决的问题：由于人懒而错过很多重要信息，用多引擎搜索相同的内容耗费大量输入和拖动/切换窗口的时间<br />
+适合的人群：创意研究人士，信息收集爱好者，普通大众</p>
+<p>额外功能可以包括：<br />
+提供信息源库供选择<br />
+自定义的搜索引擎库，调用网站内置搜索<br />
+调用chatgpt等AI引擎<br />
+在某个搜索列表中自动打开展示第一个条目，类似google手气不错<br />
+UA切换<br />
+搜索剪切板内容<br />
+调用本机外部程序进行本地搜索，比如everything<br />
+自动用关联程序打开everything结果的第一个条目<br />
+自动排版和手动拖动排版<br />
+可切换的引擎组合配置，并行使用多个配置<br />
+配置和引擎的导出/导入/共享<br />
+触发的方式可以是选中词语之后按快捷键，或者选中词语后自动搜索，鼠标停留超时触发等等</p>
+<p>类似于下面的样子，不知道有没有现成的工具，或者有没有朋友有兴趣实现<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/f/0f06ade48f525d1551768aeb706d57804498ae32.jpeg" title="image"><img alt="image" height="472" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/f/0f06ade48f525d1551768aeb706d57804498ae32_2_690x472.jpeg" width="690" /></a></div><p></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55458">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 20 Apr 2024 14:29:25 +0000</pubDate>
+<pubDate>Sat, 20 Apr 2024 14:29:25 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】新百词斩助手浏览器插件</title>

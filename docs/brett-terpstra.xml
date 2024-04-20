@@ -4,6 +4,47 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>A plea to nvALT users</title>
+<link>https://brett.trpstra.net/link/535/16655625/a-plea-to-nvalt-users</link>
+<guid>https://brett.trpstra.net/link/535/16655625/a-plea-to-nvalt-users</guid>
+<content:encoded><![CDATA[
+<div> nvALT, end of life, modernize, Markdown files, nvUltra
+<br>
+nvALT已经停止更新，目前几乎无法在现代操作系统上正常运行。建议用户将存储方式转为Markdown文件，以便顺利迁移到新的笔记系统。如果笔记存储为富文本文件(RTF)，则需使用其他应用如nvUltra、The Archive或Obsidian。学习Markdown并不难，只需了解一些简单的语法规则。立即将存储方式改为纯文本文件，以免在nvALT无法运行时无法提取笔记。可能会为nvUltra编写导入器，但目前尚未实现。要获取nvUltra测试版，请通过网站联系链接发送邮件。 <div>
+<p>I&rsquo;ve said this before, but I need to keep repeating it based on the number of queries I get. nvALT is at end of life, unless someone picks up the reigns and modernizes the (open source) code base. As it stands now, nvALT <em>barely</em> functions on modern OSs.</p>
+
+<p>Fletcher Penney and I have designed nvALT&rsquo;s successor, <a href="https://nvultra.com">nvUltra</a>, to work <em>only</em> with a folder full of Markdown files, which is the only way I recommend using nvALT. If your nvALT files are stored as individual Markdown files, switching to nvUltra is no problem, nor is switching to any other Notational-Velocity-like system. It will even work in Obsidian. But if you store your notes as a database only, you&rsquo;re screwed when nvALT stops working for you.</p>
+
+<p>So please, if nvALT is still running for you, go into Preferences-&gt;Notes-&gt;Storage and change &ldquo;Store and read notes on disk as&rdquo; to &ldquo;Plain Text Files.&rdquo; If your previous storage method was database, all of your notes will be immediately written out as plain text files, safe and secure and easy to port to a new (working) notes system. The files will now be in the same folder nvALT shows in the folder selector at the top of the Notes preference pane.</p>
+
+<figure class="alignright">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="nvALT is not even working well enough for me to get a full screenshot. But here is my best attempt." height="521" src="https://cdn3.brettterpstra.com/uploads/2024/04/nvalt-prefs.jpg" title="nvALT is not even working well enough for me to get a full screenshot. But here is my best attempt." width="380" />
+                </noscript>
+              
+              <figcaption>nvALT is not even working well enough for me to get a full screenshot. But here is my best attempt.</figcaption>
+            </figure>
+
+<p>If your notes are stored as Rich Text Files (RTF), you&rsquo;ll need to <a href="https://brettterpstra.com/2024/02/08/convert-nvalt-rtf-files-to-markdown/">convert them to Markdown</a> to make use of other apps like nvUltra, The Archive, or Obsidian. If you don&rsquo;t know Markdown, don&rsquo;t sweat it. It&rsquo;s very easy to learn and it&rsquo;s really just plain text, so as long as you know how to write, you&rsquo;re already kind of writing Markdown. It&rsquo;s only necessary to learn any syntax if you need to do things like create bulleted/numbered lists, add bold or italics, or create links.</p>
+
+<p>So, again, please immediately switch your storage method to plain text files. The nvALT database format has no easy out for people ready to switch. I may try to write an importer for nvUltra (or generally to output Markdown), but I have not done so yet.</p>
+
+<p>If you want on the nvUltra beta, email me through the contact link on <a href="https://nvultra.com">nvultra.com</a>.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F20%2Fa-plea-to-nvalt-users%2F&amp;text=A+plea+to+nvALT+users&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F20%2Fa-plea-to-nvalt-users%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16655625.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-20T09:44:00-05:00</pubDate>
+<pubDate>2024-04-20T09:44:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Back in my day... some thoughts on blogging then and now</title>
