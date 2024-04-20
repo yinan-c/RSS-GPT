@@ -52,7 +52,17 @@
 
 如果有任何问题或有关于 RSS feeds 的建议，欢迎邮件联系我。
 
-如果你觉得本项目有帮助，欢迎 star。
+如果你觉得本项目有帮助，欢迎 star。也可以考虑捐赠以支持我继续维护本项目以及 cover OpenAI API 的支出。感谢支持。
 
+<a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-
+- https://brett.trpstra.net/brettterpstra -> https://yinan-c.github.io/RSS-GPT/brett-terpstra.xml
+- https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/appinn.xml
+- https://rsshub.app/sspai/index -> https://yinan-c.github.io/RSS-GPT/sspai.xml
+- https://rknight.me/feed.xml -> https://yinan-c.github.io/RSS-GPT/robb-knight.xml
+- https://stephanango.com/feed.xml -> https://yinan-c.github.io/RSS-GPT/steph-ango.xml
+- https://lopespm.com/atom.xml -> https://yinan-c.github.io/RSS-GPT/byte-tank.xml
+- https://rsshub.app/36kr/motif/327685554177, https://rsshub.app/36kr/motif/327687077889, https://rsshub.app/36kr/motif/1366661828936836, https://rsshub.app/36kr/motif/1366662419875203, https://rsshub.app/36kr/motif/1756302767423108, https://rsshub.app/36kr/motif/327686815745, https://rsshub.app/36kr/motif/327685734401 -> https://yinan-c.github.io/RSS-GPT/36kr.xml
+- https://rsshub.app/36kr/motif/327686782977 -> https://yinan-c.github.io/RSS-GPT/36kr-ai.xml
+- https://rsshub.app/paulgraham/articles -> https://yinan-c.github.io/RSS-GPT/paul-graham.xml
+- https://nesslabs.com/feed -> https://yinan-c.github.io/RSS-GPT/ness-labs.xml

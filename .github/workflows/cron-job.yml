@@ -41,19 +41,16 @@ jobs:
           U_NAME: ${{ secrets.U_NAME }}
              
       - name: PUSH
-        env:
-          U_NAME: ${{ secrets.U_NAME }}
-          U_EMAIL: ${{ secrets.U_EMAIL }}
         run: |
           pwd
-          git config --local user.name "${U_NAME}"  
-          git config --local user.email "${U_EMAIL}" 
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
         
           git status -s
           git add docs/*
           git add README*
           export TZ='Europe/London'
-          git commit -m "Github Auto Build at `date +"%Y-%m-%d %H:%M"`"
+          git commit -m "Auto Build at `date +"%Y-%m-%d %H:%M"`"
         
           echo "======git push===="
           git push
