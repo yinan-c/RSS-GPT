@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>A plea to nvALT users</title>
 <link>https://brett.trpstra.net/link/535/16655625/a-plea-to-nvalt-users</link>
 <guid>https://brett.trpstra.net/link/535/16655625/a-plea-to-nvalt-users</guid>
 <content:encoded><![CDATA[
 <div> nvALT, end of life, modernize, Markdown files, nvUltra
-<br>
+<br />
 nvALT已经停止更新，目前几乎无法在现代操作系统上正常运行。建议用户将存储方式转为Markdown文件，以便顺利迁移到新的笔记系统。如果笔记存储为富文本文件(RTF)，则需使用其他应用如nvUltra、The Archive或Obsidian。学习Markdown并不难，只需了解一些简单的语法规则。立即将存储方式改为纯文本文件，以免在nvALT无法运行时无法提取笔记。可能会为nvUltra编写导入器，但目前尚未实现。要获取nvUltra测试版，请通过网站联系链接发送邮件。 <div>
 <p>I&rsquo;ve said this before, but I need to keep repeating it based on the number of queries I get. nvALT is at end of life, unless someone picks up the reigns and modernizes the (open source) code base. As it stands now, nvALT <em>barely</em> functions on modern OSs.</p>
 
@@ -43,9 +44,7 @@ nvALT已经停止更新，目前几乎无法在现代操作系统上正常运行
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16655625.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-04-20T09:44:00-05:00</pubDate>
-<pubDate>2024-04-20T09:44:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Back in my day... some thoughts on blogging then and now</title>
 <link>https://brett.trpstra.net/link/535/16642792/back-in-my-day-dot-dot-dot-some-thoughts-on-blogging-then-and-now</link>
