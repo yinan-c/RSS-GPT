@@ -20637,3 +20637,12 @@ Existing_entries: 748
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-22 02:12:05.468696
+------------------------------------------------------
+Started: 2024-04-22 04:03:31.349182
+Existing_entries: 748
+Fetching from https://rsshub.app/sspai/index
+Token length: 4194
+Summarized using GPT-3.5-turbo
+Append: [派早报：特斯拉因踏板缺陷召回全部 Cybertruck](https://sspai.com/post/88234)
+append_entries: 1
+Finish: 2024-04-22 04:03:37.056405
