@@ -20682,3 +20682,15 @@ Existing_entries: 751
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-22 14:03:28.829320
+------------------------------------------------------
+Started: 2024-04-22 16:03:39.359932
+Existing_entries: 751
+Fetching from https://rsshub.app/sspai/index
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [如何借用维基百科翻译术语](https://sspai.com/post/88266)
+Token length: 6600
+Summarized using GPT-3.5-turbo
+Append: [派评 | 近期值得关注的 App](https://sspai.com/post/88259)
+append_entries: 2
+Finish: 2024-04-22 16:03:51.527256
