@@ -20730,3 +20730,15 @@ Existing_entries: 753
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-23 04:03:34.029306
+------------------------------------------------------
+Started: 2024-04-23 06:03:51.049543
+Existing_entries: 753
+Fetching from https://rsshub.app/sspai/index
+Token length: 6103
+Summarized using GPT-3.5-turbo
+Append: [我的购房指北：买房之前可以关注什么？](https://sspai.com/post/88238)
+Token length: 2661
+Summarized using GPT-3.5-turbo
+Append: [派早报：Meta 向第三方开放混合现实系统 Horizon OS，微软推出 VASA-1 AI 框架等](https://sspai.com/post/88272)
+append_entries: 2
+Finish: 2024-04-23 06:04:01.189165
