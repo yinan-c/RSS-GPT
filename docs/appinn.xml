@@ -5,11 +5,66 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】QuickRecorder: 开源免费的轻量化多功能 macOS 录屏工具</title>
+<link>https://meta.appinn.net/t/topic/55611</link>
+<guid>https://meta.appinn.net/t/topic/55611</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p><strong>QuickRecorder</strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>系统要求</h2>
+<p>仅支持 <strong>macOS 13</strong> 或以上版本</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>官网&amp;下载</h2>
+<p>官方网站: <strong><a href="https://lihaoyun6.github.io/quickrecorder/" rel="noopener nofollow ugc">QuickRecorder</a></strong><br />
+下载地址: <strong><a href="https://github.com/lihaoyun6/QuickRecorder/releases/latest" rel="noopener nofollow ugc">点此前往</a></strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句话简介</h2>
+<p>基于 ScreenCapture Kit 开发的多功能、轻量化、高性能开源 macOS 屏幕录制工具</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>软件特色</h2>
+<ol>
+<li>
+<p>使用 SwiftUI 编写, 功能专一, 体积小巧 (仅不到5M)</p>
+</li>
+<li>
+<p>支持<code>全屏</code>,<code>区域</code>,<code>单/多窗口</code>,<code>单/多App</code>等录制模式</p>
+</li>
+<li>
+<p>支持免驱动内录系统声音, 独立录制程序/窗口声音</p>
+</li>
+<li>
+<p>完全免费开源, 代码透明, 不收集上传任何用户隐私</p>
+</li>
+</ol>
+<blockquote>
+<p>PS: 这个 App 的开发契机是我看不惯有的混子开发者把 SC API 最基础的录制功能包装一下就上架 App Store 卖 38 块钱, 纯坑小白… 你让我觉得不爽, 那我就砸你饭碗, 我把你敝帚自珍的东西直接开源免费, 而且软件写的比你付费版的更好用, 功能更多. 不服憋着!</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>使用注意</h2>
+<ul>
+<li>同时录制程序声音和麦克风的情况下, QuickRecorder会将麦克风声音录制到新的额外音轨, 而不是和程序声音混缩在同一条音轨上. 部分视频播放软件可能不支持将两条音轨同时播放.</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>软件截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/6/36346d7ca535b7bdd2c40c8c58f4d482b86ad785.jpeg" title="preview"><img alt="preview" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/6/36346d7ca535b7bdd2c40c8c58f4d482b86ad785_2_568x500.jpeg" width="568" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-20240424-8" name="h-20240424-8"></a>更新日志 (2024/04/24)</h2>
+<p><strong>v1.0.5:</strong></p>
+<ul>
+<li>添加了 <code>App 排除列表</code> 功能, 可在全屏录制或区域录制时忽略某些 App</li>
+<li>改进了偏好设置面板的布局</li>
+</ul>
+<blockquote>
+<p>本软件完全开源免费使用. 如果用的顺手, 可以在github页面最底部扫码打赏.<br />
+您的支持是我创造更多开源软件的动力0v0</p>
+</blockquote>
+            <p><small>7 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55611">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 24 Apr 2024 08:32:44 +0000</pubDate>
+<pubDate>Wed, 24 Apr 2024 08:32:44 +0000</pubDate>
+</item>
+
+<item>
 <title>【自建】Neckee：为了缓解自己的肩颈疼痛，我们做了一个小工具</title>
 <link>https://meta.appinn.net/t/topic/55604</link>
 <guid>https://meta.appinn.net/t/topic/55604</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>Neckee</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
@@ -49,9 +104,7 @@ Neckee适用于广泛的用户群体，特别是以下几类人士：<br />
             <p><a href="https://meta.appinn.net/t/topic/55604">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 24 Apr 2024 06:08:44 +0000</pubDate>
-<pubDate>Wed, 24 Apr 2024 06:08:44 +0000</pubDate>
 </item>
-
 <item>
 <title>如何通过快捷键用不同的软件打开某一个文件</title>
 <link>https://meta.appinn.net/t/topic/55583</link>

@@ -22996,3 +22996,12 @@ Append: [【自建】Neckee：为了缓解自己的肩颈疼痛，我们做了�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-04-24 08:04:32.665685
+------------------------------------------------------
+Started: 2024-04-24 10:04:13.123614
+Existing_entries: 365
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【自荐】QuickRecorder: 开源免费的轻量化多功能 macOS 录屏工具](https://meta.appinn.net/t/topic/55611)
+append_entries: 1
+Finish: 2024-04-24 10:04:16.325550
