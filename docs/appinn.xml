@@ -4,6 +4,101 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【健康与睡眠】StaySleep - 熬夜热力图：iOS 熬夜情况记录与睡眠质量分析</title>
+<link>https://meta.appinn.net/t/topic/55621</link>
+<guid>https://meta.appinn.net/t/topic/55621</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>StaySleep 睡着了- 熬夜热力图、睡眠监测与睡眠记录</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>iOS16及以上</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句简介</h2>
+<p>借助iPhone或AppleWatch记录与分析熬夜、睡眠情况的App。</p>
+<p>迄今为止StaySleep依然是国内较为少见的、专注于熬夜情况分析的一款App。</p>
+<p>虽然不及AutoSleep、Pillow等专业睡眠监测专业的专业程度，但是可以为用户提供简洁直观的方式查看并分析自己的睡眠情况。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>应用简介</h2>
+<p>「StaySleep」可以将熬夜与睡眠记录转换为美观、直观的可视化图表。核心功能是鼓励大家改善睡眠质量，并促使睡眠时间更早。</p>
+<ul>
+<li>「熬夜热力图」我们的主打功能，灵感来源于经久不衰的「填方格游戏」，我们会读取手机近期的睡眠数据，并将最终的熬夜方格呈现到App中。方格的颜色会随着入睡时间变化而变化，例如当熬夜程度很大的时候，热力图的方格颜色会逐渐变成红色，提醒注意入睡时间。</li>
+<li>「可视化的熬夜图像与表格」App内众多样式的图表，可以从不同的角度与方式展现过往的熬夜情况，这些组件包括：「熬夜日历」、「熬夜趋势」、「熬夜与睡懒觉圆环」</li>
+<li>「桌面与锁屏小组件」提供众多的桌面和锁屏小组件，帮助大家时刻关注睡眠与熬夜情况。</li>
+<li>「熬夜与睡眠质量通知」，这些熬夜与睡眠通知包括「避免熬夜通知」和「睡眠时长通知」，</li>
+<li>「睡眠分析」可以通过这个版块进一步了解睡眠质量与身体指标。可查看的数据包括深睡的时长、睡眠时段、心率、血氧、呼吸等指标</li>
+<li>「多数据来源」覆盖了市面上大部分的智能手环，即使使用其他品牌的手表或者手环，也可以使用StaySleep读取睡眠。</li>
+<li>「一键记录睡眠」专为iPhone用户准备的睡眠计时器，仅需在睡前与起床后点击一下，就会自动记录熬夜情况</li>
+<li>「自定义工作日与休息日」上班或者上学时需要保持良好作息，但是需要在休息日的时候放纵一下。StaySleep支持自定义设置工作日和休息日，分开设定熬夜目标，激励更好的作息</li>
+<li>「自定义方格颜色」如果无法正常识别红色与绿色，或者不喜欢红绿两种颜色的热力图，我们提供了完全自定义的颜色模式</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>特性介绍</h2>
+<ul>
+<li>提供多种熬夜与睡眠图表，以及分析方式，可以从多方面分析睡眠情况</li>
+<li>提供以月或者年进行统计的熬夜情况汇总，并支持导出为图片</li>
+<li>易于上手的界面设计</li>
+<li>iOS原生开发，支持众多iOS特性，例如桌面小组件、锁屏小组件等功能</li>
+<li>支持iCloud云同步和数据手动导出，可以自行分析睡眠数据</li>
+<li>支持和其他App联动，例如使用其他App监测睡眠，然后使用StaySleep进行睡眠分析</li>
+<li>完全自动读取数据，得益于苹果的特性，可以不需要后台也可以读取每日睡眠数据</li>
+<li>支持第三方手表与手环。无论是小米手环或者是华为手环都可以正常读取其中的睡眠数据展现在App里</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>产品截图</h2>
+<p>App开屏界面<br />
+                    <a class="onebox" href="https://h.appinn.net/file/a23402fe792d9a4bed56b.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/a23402fe792d9a4bed56b.jpg" width="" />
+          </a>
+
+<br />
+用户初始化<br />
+                    <a class="onebox" href="https://h.appinn.net/file/a2d1ab87d5d22444453e4.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/a2d1ab87d5d22444453e4.jpg" width="" />
+          </a>
+
+<br />
+熬夜热力图主页面和功能<br />
+                    <a class="onebox" href="https://h.appinn.net/file/1e066c20faf8f0e03121d.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/1e066c20faf8f0e03121d.jpg" width="" />
+          </a>
+
+<br />
+桌面小组件、锁屏小组件和睡眠通知<br />
+                    <a class="onebox" href="https://h.appinn.net/file/87696687e8700c92e1d4c.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/87696687e8700c92e1d4c.jpg" width="" />
+          </a>
+
+<br />
+睡眠计时器<br />
+                    <a class="onebox" href="https://h.appinn.net/file/a73d3455384fcb6fff86e.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/a73d3455384fcb6fff86e.jpg" width="" />
+          </a>
+
+<br />
+睡眠情况分析<br />
+                    <a class="onebox" href="https://h.appinn.net/file/d10e5db7ce138aaed41f3.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/d10e5db7ce138aaed41f3.jpg" width="" />
+          </a>
+
+<br />
+个性化显示和通知<br />
+                    <a class="onebox" href="https://h.appinn.net/file/753d9da6e86a3de100dfa.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/753d9da6e86a3de100dfa.jpg" width="" />
+          </a>
+
+<br />
+支持设置不同的数据来源<br />
+                    <a class="onebox" href="https://h.appinn.net/file/c92edb37ff096f7ccc614.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/c92edb37ff096f7ccc614.jpg" width="" />
+          </a>
+
+</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>下载地址</h2>
+<p>AppStore：<a class="inline-onebox" href="https://apps.apple.com/cn/app/staysleep-%E7%9D%A1%E7%9D%80%E4%BA%86-%E7%86%AC%E5%A4%9C%E7%83%AD%E5%8A%9B%E5%9B%BE-%E7%9D%A1%E7%9C%A0%E7%9B%91%E6%B5%8B%E4%B8%8E%E7%9D%A1%E7%9C%A0%E8%AE%B0%E5%BD%95/id1640290061" rel="noopener nofollow ugc">‎App&nbsp;Store 上的“StaySleep 睡着了- 熬夜热力图、睡眠监测与睡眠记录”</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55621">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 24 Apr 2024 11:21:08 +0000</pubDate>
+<pubDate>Wed, 24 Apr 2024 11:21:08 +0000</pubDate>
+</item>
 
 <item>
 <title>Chrome 有什么推荐的文字朗读插件/脚本？</title>
