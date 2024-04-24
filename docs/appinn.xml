@@ -5,11 +5,39 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>Chrome 有什么推荐的文字朗读插件/脚本？</title>
+<link>https://meta.appinn.net/t/topic/55617</link>
+<guid>https://meta.appinn.net/t/topic/55617</guid>
+<content:encoded><![CDATA[
+
+<p>我目前还使用着Edge的文字朗读功能，双浏览器切换有些不方便<br />
+Edge有着我刚需的功能：</p>
+<ol>
+<li>多种可选的声音（习惯Microsoft Xiaoxiao）</li>
+<li>语速调整</li>
+<li>高亮正在朗读的功能</li>
+<li>从选中位置开始朗读</li>
+</ol>
+<p><strong>需求：可以满足以上四点的(包括支持"Microsoft Xiaoxiao"声音)、可在Chrome上使用的脚本或者插件</strong></p>
+<p>我试过的插件：</p>
+<ol>
+<li>naturalreaders 问题：高亮文本只能在其阅读模式下使用，其阅读模式会丢失排版和图片（虽然我叫它阅读模式，但它不是给人用的）</li>
+<li>Clearly Reader 问题：本身是阅读插件，不是朗读插件  不支持从选中位置朗读  以及 自定义语音功能收费</li>
+<li>Read Aloud   问题：功能太少+操作不方便</li>
+</ol>
+<p>其实试过的还有别的  加上几个油猴脚本  都不太行  懒得一个个说问题了  只能说 功能上差的有点多。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/55617">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 24 Apr 2024 10:12:22 +0000</pubDate>
+<pubDate>Wed, 24 Apr 2024 10:12:22 +0000</pubDate>
+</item>
+
+<item>
 <title>【自荐】QuickRecorder: 开源免费的轻量化多功能 macOS 录屏工具</title>
 <link>https://meta.appinn.net/t/topic/55611</link>
 <guid>https://meta.appinn.net/t/topic/55611</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p><strong>QuickRecorder</strong></p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>系统要求</h2>
@@ -57,9 +85,7 @@
             <p><a href="https://meta.appinn.net/t/topic/55611">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 24 Apr 2024 08:32:44 +0000</pubDate>
-<pubDate>Wed, 24 Apr 2024 08:32:44 +0000</pubDate>
 </item>
-
 <item>
 <title>【自建】Neckee：为了缓解自己的肩颈疼痛，我们做了一个小工具</title>
 <link>https://meta.appinn.net/t/topic/55604</link>
