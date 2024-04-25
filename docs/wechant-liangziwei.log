@@ -46,3 +46,21 @@ Existing_entries: 10
 Fetching from https://rsshub.app/wechat/ce/599d7c52f2145121d1aa4698
 append_entries: 0
 Finish: 2024-04-25 08:23:15.611296
+------------------------------------------------------
+Started: 2024-04-25 10:19:23.313885
+Existing_entries: 10
+Fetching from https://rsshub.app/wechat/ce/599d7c52f2145121d1aa4698
+Token length: 1143
+Summarized using GPT-3.5-turbo
+Append: [老黄亲自上门送超算！OpenAI奥特曼签收后到斯坦福演讲GPT-5](https://posts.careerengine.us/p/662a1a2193e56b68d73732e4)
+Token length: 3414
+Summarized using GPT-3.5-turbo
+Append: [揭秘腾讯混元大模型：400+场景落地，协作SaaS产品全面接入](https://posts.careerengine.us/p/662a1a1127ae07689b8d7afb)
+Token length: 1339
+Summarized using GPT-3.5-turbo
+Append: [支付宝悄悄上线智能助理，我们也偷偷测了下](https://posts.careerengine.us/p/662a1a1127ae07689b8d7af3)
+Token length: 5519
+Summarized using GPT-3.5-turbo
+Append: [GPT-4现场被端侧小模型“暴打”，商汤日日新5.0：全面对标GPT-4 Turbo](https://posts.careerengine.us/p/662a1a011c0db0684ea2df93)
+append_entries: 4
+Finish: 2024-04-25 10:19:49.143023
