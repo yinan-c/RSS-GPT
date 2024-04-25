@@ -4,6 +4,42 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Introducing the Marked Conductor</title>
+<link>https://brett.trpstra.net/link/535/16664804/introducing-the-marked-conductor</link>
+<guid>https://brett.trpstra.net/link/535/16664804/introducing-the-marked-conductor</guid>
+<content:encoded><![CDATA[
+<div> Marked, Conductor, YAML configuration, custom processors, conditional running <br>
+<br>总结: 该篇文章介绍了最新的副产品——Marked，并详细描述了其背景和功能。Marked提供了使用Markdown（和预处理器）的选项，允许您在配置文件中使用自定义命令将其转换为HTML。借助Conductor，用户可以轻松设置自定义处理器，并根据条件在不同的讨论中执行不同的脚本或命令。Conductor支持各种条件匹配方式，如YAML frontmatter键匹配、内容匹配、文件或目录存在性检测等。该项目将受到使用Marked的Custom Processors的人的极大兴趣，无论您是一个熟练的脚本编写者还是只是想在不同文档中运行不同处理器的人，Conductor都能够轻松实现条件运行。待Obsidian插件被接受进入Community Plugins后，作者还将发布一篇关于如何在Obsidian中使用Marked的文章。 <div>
+<p>I&rsquo;ve completed my latest side project, the Marked <a href="https://brettterpstra.com/projects/conductor">Conductor</a>. Here&rsquo;s the backstory:</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="conductor.png" class="alignright" height="256" src="https://cdn3.brettterpstra.com/uploads/2024/04/conductor.png" title="conductor.png" width="256" />
+              </noscript>
+            
+<p><a href="https://marked2app.com">Marked 2</a> offers the option to use <a href="https://marked2app.com/help/Custom_Processor">Custom Processors</a> (and Preprocessors) which allow you use Markdown (and other) flavors with your own commands to convert them to HTML. This is commonly used for processing with Pandoc. Personally, I use it to process my blog posts (and Bunch and other Jekyll help docs) with Kramdown and a bunch of special handlers for previewing the custom Liquid tags and plugins I&rsquo;ve built, process TaskPaper files with their own functions, and process everything else with Marked&rsquo;s built-in processors. In those scripts, you can use environment variables like <code class="language-plaintext highlighter-rouge">$MARKED_EXT</code> (the file&rsquo;s extension) or <code class="language-plaintext highlighter-rouge">$MARKED_ORIGIN</code> (the file&rsquo;s path) to fork the script and process differently based on things like file type or location. But my custom processor script was getting unwieldy with all of the conditions I was creating, and for people with limited scripting knowledge, it meant having to turn custom processors on and off based on the needs for the current document.</p>
+
+<p>Enter Conductor. It&rsquo;s a command line utility that can be set as the custom processor in Marked. It reads from a YAML configuration file where conditions are written in natural language (e.g. tree contains .obsidian) and trigger either a script or a command. Conditions can be booleans (extension is md AND tree contains .obsidian) or they can be nested infinitely to create forked &ldquo;tracks&rdquo; for handling any type of document. It offers ways of matching YAML frontmatter keys, matching content with strings or regular expressions, detecting whether a file or directory exists anywhere in the parent folders of the file, and more.</p>
+
+<p>I won&rsquo;t go into all of the features in this post, but they&rsquo;re all detailed on the <a href="https://brettterpstra.com/projects/conductor">project page</a>. The entire project is available <a href="https://github.com/ttscoff/marked-conductor">on GitHub</a>, but it&rsquo;s published as a gem, so installation is as easy as running <code class="language-plaintext highlighter-rouge">gem install marked-conductor</code>. Running <code class="language-plaintext highlighter-rouge">conductor</code> once from the command line will build out all of the configuration directories and files. Then it&rsquo;s just a matter of setting up your own tracks and actions.</p>
+
+<p>I think this project will be of great interest to anyone using Custom Processors in Marked. Whether you&rsquo;re an avid scripter who&rsquo;s extended it in interesting ways, or just someone who might want Pandoc for documents in your &ldquo;Work&rdquo; folder, but Kramdown for documents in your &ldquo;Blogging&rdquo; folder, this project makes it very easy to run Custom Processors conditionally.</p>
+
+<p>By the way, I&rsquo;m waiting on my Obsidian plugin for Marked to be accepted into the Community Plugins. Once that happens, I have a post all about using Marked with Obsidian that I think Obsidian users will love. Stay tuned.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/112333308166723283" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F25%2Fintroducing-the-marked-conductor%2F&amp;text=Introducing+the+Marked+Conductor&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F25%2Fintroducing-the-marked-conductor%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16664804.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-25T13:27:00-05:00</pubDate>
+<pubDate>2024-04-25T13:27:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for April 22, 2024</title>
