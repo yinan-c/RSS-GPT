@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Introducing the Marked Conductor</title>
 <link>https://brett.trpstra.net/link/535/16664804/introducing-the-marked-conductor</link>
 <guid>https://brett.trpstra.net/link/535/16664804/introducing-the-marked-conductor</guid>
 <content:encoded><![CDATA[
-<div> Marked, Conductor, YAML configuration, custom processors, conditional running <br>
-<br>总结: 该篇文章介绍了最新的副产品——Marked，并详细描述了其背景和功能。Marked提供了使用Markdown（和预处理器）的选项，允许您在配置文件中使用自定义命令将其转换为HTML。借助Conductor，用户可以轻松设置自定义处理器，并根据条件在不同的讨论中执行不同的脚本或命令。Conductor支持各种条件匹配方式，如YAML frontmatter键匹配、内容匹配、文件或目录存在性检测等。该项目将受到使用Marked的Custom Processors的人的极大兴趣，无论您是一个熟练的脚本编写者还是只是想在不同文档中运行不同处理器的人，Conductor都能够轻松实现条件运行。待Obsidian插件被接受进入Community Plugins后，作者还将发布一篇关于如何在Obsidian中使用Marked的文章。 <div>
+<div> Marked, Conductor, YAML configuration, custom processors, conditional running <br />
+<br />总结: 该篇文章介绍了最新的副产品——Marked，并详细描述了其背景和功能。Marked提供了使用Markdown（和预处理器）的选项，允许您在配置文件中使用自定义命令将其转换为HTML。借助Conductor，用户可以轻松设置自定义处理器，并根据条件在不同的讨论中执行不同的脚本或命令。Conductor支持各种条件匹配方式，如YAML frontmatter键匹配、内容匹配、文件或目录存在性检测等。该项目将受到使用Marked的Custom Processors的人的极大兴趣，无论您是一个熟练的脚本编写者还是只是想在不同文档中运行不同处理器的人，Conductor都能够轻松实现条件运行。待Obsidian插件被接受进入Community Plugins后，作者还将发布一篇关于如何在Obsidian中使用Marked的文章。 <div>
 <p>I&rsquo;ve completed my latest side project, the Marked <a href="https://brettterpstra.com/projects/conductor">Conductor</a>. Here&rsquo;s the backstory:</p>
 
 
@@ -38,9 +39,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16664804.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-04-25T13:27:00-05:00</pubDate>
-<pubDate>2024-04-25T13:27:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for April 22, 2024</title>
 <link>https://brett.trpstra.net/link/535/16657056/web-excursions-for-april-22-2024</link>
