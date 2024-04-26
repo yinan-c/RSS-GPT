@@ -21016,3 +21016,12 @@ Existing_entries: 769
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-04-26 12:04:40.796818
+------------------------------------------------------
+Started: 2024-04-26 14:03:16.397374
+Existing_entries: 769
+Fetching from https://rsshub.app/sspai/index
+Token length: 8611
+Summarized using GPT-3.5-turbo
+Append: [本周看什么 | 最近值得一看的 12 部作品](https://sspai.com/post/88382)
+append_entries: 1
+Finish: 2024-04-26 14:03:23.559959
