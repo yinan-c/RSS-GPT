@@ -9,7 +9,7 @@
 <link>{{ entry.link.replace('&', '&amp;') }}</link>
 <guid>{{ entry.link.replace('&', '&amp;') }}</guid>
 <content:encoded><![CDATA[
-{% if entry.summary %}<div> {{ entry.summary}} <div>{% endif %}
+{% if entry.summary %}<div> {{ entry.summary}} </div>{% endif %}
 {{ entry.article }}
 ]]></content:encoded>
 {% if entry.published %}<pubDate>{{ entry.published }}</pubDate>{% endif %}
