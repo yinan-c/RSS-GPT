@@ -4,6 +4,97 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Conductor fixes and improvements</title>
+<link>https://brett.trpstra.net/link/535/16667786/conductor-fixes-and-improvements</link>
+<guid>https://brett.trpstra.net/link/535/16667786/conductor-fixes-and-improvements</guid>
+<content:encoded><![CDATA[
+<div> config, fixes, enhancements, track, sequence
+
+<br><br>总结：
+文章介绍了对Conductor工具进行的重要修复和便捷改进。修复包括输出更丰富的信息和运行多个脚本的能力。增强部分包括显示标题和在条件满足时继续匹配条件。此外，除了详细介绍改进内容外，还列出了完整的更新日志，涵盖了各种新增、优化和修复。整体而言，Conductor工具得到了很大的功能提升和问题修复。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="conductor.png" class="alignright" height="256" src="https://cdn3.brettterpstra.com/uploads/2024/04/conductor.png" title="conductor.png" width="256" />
+              </noscript>
+            
+<p>I&rsquo;ve made some important fixes and handy improvements to the <a href="https://brettterpstra.com/projects/conductor">Marked Conductor</a> since it was <a href="https://brettterpstra.com/2024/04/25/introducing-the-marked-conductor/">first published</a>.</p>
+
+<p>I&rsquo;ve made my own config available as an example. Not all of the scripts are polished, but it&rsquo;s complete enough to show how I&rsquo;m using it. I still need to finish breaking my Jekyll preprocessor script into more manageable chunks, which is complicated because every little method has conditionals, but that&rsquo;s coming. In the meantime, you can find my <a href="https://github.com/ttscoff/conductor-config/tree/main">work in progress here</a>.</p>
+
+<p>Here&rsquo;s the rundown.</p>
+
+<h3 id="titles-and-stderr-output">Titles and STDERR Output</h3>
+
+<p>Conductor now outputs more helpful information to STDERR, which you can view in Marked using Help-&gt;Show Custom Processor Log. It will display a list of conditions met for the current document, along with any errors. You can also now add a <code class="language-plaintext highlighter-rouge">title</code> key to any track, and it will be used in the STDERR output instead of the full condition, which is handy for long conditions with lots of booleans. So instead of:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>Condition met: tree contains .obsidian AND (extension is md OR extension is markdown)</code></pre></div></div>
+
+<p>You can just get:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>Condition  met: Obsidian Document</code></pre></div></div>
+
+<h3 id="multiple-scripts">Multiple scripts</h3>
+
+<p>Conductor can now run multiple scripts in sequence. There are two ways to do this.</p>
+
+<ol>
+  <li>Instead of a <code class="language-plaintext highlighter-rouge">script</code> or <code class="language-plaintext highlighter-rouge">command</code>, you can use <code class="language-plaintext highlighter-rouge">sequence</code>. Then in an array list, you can define a series of <code class="language-plaintext highlighter-rouge">- script: xxx</code> and <code class="language-plaintext highlighter-rouge">- command: xxx</code> type lines and they&rsquo;ll be run in order, with the output of one being passed to the next, getting the final output from the last script/command in the list.</li>
+  <li>You can add <code class="language-plaintext highlighter-rouge">continue: true</code> to any track or block. Normally, Conductor stops processing when a condition is met. With <code class="language-plaintext highlighter-rouge">continue: true</code>, it will continue matching conditions after processing the one with the key, again passing the output of each one to the next. This allows you to, for example, run a preprocessor on a narrow selection of documents, and then run those through a more generalized processor that catches more documents than the narrow selection does.</li>
+</ol>
+
+<h3 id="changelog">Changelog</h3>
+
+<p>Here&rsquo;s the full changelog since release.</p>
+
+<h4 id="new">NEW</h4>
+
+<ul>
+  <li>Test for pandoc metadata (%%) with <code class="language-plaintext highlighter-rouge">is pandoc</code> or <code class="language-plaintext highlighter-rouge">is not pandoc</code></li>
+  <li>Add <code class="language-plaintext highlighter-rouge">sequence:</code> key to allow running a series of scripts/commands, each piping to the next</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">continue: true</code> for tracks to allow processing to continue after a script/command is successful</li>
+  <li><code class="language-plaintext highlighter-rouge">filename</code> key for comparing to just filename (instead of full path)</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">is a</code> tests for <code class="language-plaintext highlighter-rouge">array</code>, <code class="language-plaintext highlighter-rouge">number</code>, <code class="language-plaintext highlighter-rouge">integer</code>, and <code class="language-plaintext highlighter-rouge">float</code></li>
+  <li>Tracks in YAML config can have a title key that will be shown in STDERR &lsquo;Conditions met:&rsquo; output</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">does not contain</code> handling for string and metadata comparisons</li>
+  <li>Added test for MMD metadata, either for presence of meta or for specific keys or key values</li>
+  <li>Allow <code class="language-plaintext highlighter-rouge">has yaml</code> or <code class="language-plaintext highlighter-rouge">has meta</code> (MultiMarkdown) as conditions</li>
+</ul>
+
+<h4 id="improved">IMPROVED</h4>
+
+<ul>
+  <li>Return NOCUSTOM if changes are not made by scripts/commands, even though condition was matched</li>
+  <li>Use YAML.load instead of .safe_load to allow more flexibility</li>
+  <li>Trap errors reading YAML and fail gracefully</li>
+</ul>
+
+<h4 id="fixed">FIXED</h4>
+
+<ul>
+  <li>Use STDIN instead of reading file for conditionals</li>
+  <li>String tests read STDIN input, not reading the file itself, allowing for piping between multiple scripts</li>
+  <li>Always wait for STDIN or Marked will crash. Still possible to use $file in script/command values</li>
+  <li>More string encoding fixes</li>
+  <li>&ldquo;path contains&rdquo; was returning $PATH instead of the file path</li>
+  <li>First-run config creating directory instead of file</li>
+  <li>Frozen string/encoding issue on string comparisons</li>
+  <li>Encoding errors on string methods</li>
+</ul>
+
+<p>Check out the <a href="https://brettterpstra.com/projects/conductor">Conductor project</a> for more details!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F29%2Fconductor-fixes-and-improvements%2F&amp;text=Conductor+fixes+and+improvements&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F29%2Fconductor-fixes-and-improvements%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16667786.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-29T12:00:00-05:00</pubDate>
+<pubDate>2024-04-29T12:00:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Life after iThoughts</title>
