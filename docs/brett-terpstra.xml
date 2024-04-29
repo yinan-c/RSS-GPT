@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Conductor fixes and improvements</title>
 <link>https://brett.trpstra.net/link/535/16667786/conductor-fixes-and-improvements</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> config, fixes, enhancements, track, sequence
 
-<br><br>总结：
+<br /><br />总结：
 文章介绍了对Conductor工具进行的重要修复和便捷改进。修复包括输出更丰富的信息和运行多个脚本的能力。增强部分包括显示标题和在条件满足时继续匹配条件。此外，除了详细介绍改进内容外，还列出了完整的更新日志，涵盖了各种新增、优化和修复。整体而言，Conductor工具得到了很大的功能提升和问题修复。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -93,9 +94,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16667786.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-04-29T12:00:00-05:00</pubDate>
-<pubDate>2024-04-29T12:00:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Life after iThoughts</title>
 <link>https://brett.trpstra.net/link/535/16666804/life-after-ithoughts</link>
