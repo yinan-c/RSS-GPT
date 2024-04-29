@@ -4,6 +4,75 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Life after iThoughts</title>
+<link>https://brett.trpstra.net/link/535/16666804/life-after-ithoughts</link>
+<guid>https://brett.trpstra.net/link/535/16666804/life-after-ithoughts</guid>
+<content:encoded><![CDATA[
+<div> MindNode, iThoughts, sunsetting, Obsidian, Curio
+<br>
+总结:<br>
+iThoughts宣布即将停用，作者转向使用MindNode。MindNode拥有精美界面、活跃开发、支持Mac和iOS版本，能够打开iThoughts文件，导入Markdown文件，生成任务列表等功能。此外，Obsidian插件也能提供一定的思维导图功能，但相比MindNode功能有限。值得注意的是Curio内置的思维导图也是不错的选择。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="ithoughts-mindnode-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/04/ithoughts-mindnode-rb.jpg" title="ithoughts-mindnode-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>So a lot of us are wondering what to do now that Toketaware has announced the sunsetting of the iThoughts mind mapping app for Mac and iOS. It&rsquo;s very sad to see it go, but I expect the current version to continue working for a few years to come. That said, I tend to favor software that has at least somewhat of a future. So I&rsquo;ve been testing the waters with some other contenders. The short story is I&rsquo;m moving over to <a href="https://www.mindnode.com/" title="MindNode:Mind Map &amp; Brainstorm Ideas">MindNode</a>.</p>
+
+<h3 id="why-mindnode">Why MindNode?</h3>
+
+<p>I&rsquo;ve always appreciated MindNode (and even added support for it to Marked), but there were some things that made me prefer iThoughts over MindNode. After testing the latest version of MindNode, I can no longer remember what those things were. Probably the filtering and advanced searching in iThoughts, but for 90% of my mind map purposes, it looks like MindNode will do just fine. I think the last time I made the comparison, MindNode was lacking some of the features it has these days.</p>
+
+<p>I&rsquo;m not going into nearly the depth that Allison Sheridan did over on Podfeet with her <a href="https://www.podfeet.com/blog/2024/03/ithoughts-replacement/">mind map comparison</a>, but I&rsquo;ll list some of the pros of MindNode for my purposes:</p>
+
+<ul>
+  <li>Looks great</li>
+  <li>Actively developed</li>
+  <li>Mac and iOS versions</li>
+  <li>Opens iThoughts (<code class="language-plaintext highlighter-rouge">.itmz</code>) files, so I don&rsquo;t have to fret about losing old mind maps</li>
+  <li>Imports Markdown files</li>
+  <li>Can create tasks from nodes (can&rsquo;t do much with them other than check them off, but it&rsquo;s handy for packing lists)</li>
+  <li>Exports Markdown and OPML, among other formats</li>
+  <li>Works with Marked (File-&gt;Advanced-&gt;Preview in Marked)</li>
+  <li>Good keyboard navigation with some customization options</li>
+  <li>Quick entry from tool bar</li>
+  <li>It&rsquo;s on Setapp</li>
+</ul>
+
+<h3 id="other-options">Other options</h3>
+
+<p>If you&rsquo;re an Obsidian user, there are some mind mapping plugins available. The <a href="https://github.com/MarkMindCkm/obsidian-enhancing-mindmap">&ldquo;Enhancing Mind Maps&rdquo;</a> plugin is a decent option if you&rsquo;re in Obsidian all the time anyway:</p>
+
+<p>Pros:</p>
+
+<ul>
+  <li>Built into obsidian</li>
+  <li>Basic keyboard navigation</li>
+  <li>Transparent layer over plain Markdown files, easily portable and future-proof</li>
+  <li>Works great with Marked using the <a href="https://github.com/ttscoff/obsidian-md-filter">obsidian-md-filter</a> processor (via <a href="https://brettterpstra.com/projects/conductor">Conductor!</a>), and you can easily connect the two with <a href="https://github.com/ttscoff/Marked2-obsidian">my plugin</a> (which is still waiting for acceptance into the Community Plugins&hellip;)</li>
+</ul>
+
+<p>Cons:</p>
+
+<ul>
+  <li>Lacks a <em>ton</em> of features compared to MindNode</li>
+</ul>
+
+<p>I would also point out that the mind mapping built into <a href="https://www.zengobi.com/curio/">Curio</a> is pretty good, and has the benefit of fitting into the crazy cool integrations that Curio provides, linking to other notes and objects, and fitting into an overall project management system.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F28%2Flife-after-ithoughts%2F&amp;text=Life+after+iThoughts&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F04%2F28%2Flife-after-ithoughts%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16666804.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-04-28T17:35:00-05:00</pubDate>
+<pubDate>2024-04-28T17:35:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Introducing the Marked Conductor</title>
