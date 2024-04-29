@@ -23508,3 +23508,11 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-04-29 14:03:34.006046
+------------------------------------------------------
+Started: 2024-04-29 16:03:27.761288
+Existing_entries: 373
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-04-29 16:03:31.587767
