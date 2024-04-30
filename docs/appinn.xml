@@ -4,6 +4,68 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】简单易用的书签管理器 - Ease Bookmarks</title>
+<link>https://meta.appinn.net/t/topic/29473</link>
+<guid>https://meta.appinn.net/t/topic/29473</guid>
+<content:encoded><![CDATA[
+
+<h1>
+<a class="anchor" href="https://meta.appinn.net#ease-bookmarks-1" name="ease-bookmarks-1"></a>Ease Bookmarks</h1>
+<p>Ease Bookmarks 是一款为了替代浏览器原有书签栏的扩展<br />
+在此基础上，尽可能满足各类 书签使用习惯 用户的需求</p>
+<p>特点：简单易用，支持多列</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>主要功能</h2>
+<ul>
+<li>修改书签的默认打开方式</li>
+<li>对书签的各种基本操作（编辑、删除、移动等）</li>
+<li>书签多列显示</li>
+<li>在未使用本扩展时，不占用后台</li>
+</ul>
+<p>另外，本扩展对 <code>JS 小书签</code> 进行了特别支持~</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>使用快捷键</h2>
+<p><strong>打开/关闭 本扩展</strong></p>
+<p>默认快捷键是 <code>Ctrl + Q</code>，你可以在如下管理页面进行修改：</p>
+<ul>
+<li>Chrome：<code>chrome://extensions/shortcuts</code>
+</li>
+<li>Edge：<code>edge://extensions/shortcuts</code>
+</li>
+</ul>
+<p><strong>功能键</strong></p>
+<ul>
+<li>Ctrl：在 当前标签/新标签 打开页面</li>
+<li>Shift：是否在后台打开页面</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>自定义</h2>
+<ul>
+<li>别名（书签栏和其他书签，其他语言可能会需要）</li>
+<li>自定义样式（popup 页面，DOM 结构可在 header 区域 <code>右键 -&gt; 检查</code> 查看）</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/9/1/91de043224c47a8ec5352abaf5fa52644e5bd6bb.png" title=""><img alt="" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/9/1/91de043224c47a8ec5352abaf5fa52644e5bd6bb_2_690x431.png" width="690" /></a></div><p></p>
+<p><span alt="" class="broken-image" title="此图片已损坏"><svg class="fa d-icon d-icon-unlink svg-icon" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></p>
+<p><span alt="" class="broken-image" title="此图片已损坏"><svg class="fa d-icon d-icon-unlink svg-icon" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/7/f7597b36817969543fe0e5d16482bcfca236c12c.png" title=""><img alt="" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/7/f7597b36817969543fe0e5d16482bcfca236c12c_2_690x431.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/f/6f8c1cccb7cd7ae673dd645030275038b17569e6.png" title=""><img alt="" height="431" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/f/6f8c1cccb7cd7ae673dd645030275038b17569e6_2_690x431.png" width="690" /></a></div><p></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>更新日志</h2>
+<p><a href="https://github.com/qinxs/Ease-Bookmarks/blob/master/ChangeLog.md" rel="noopener nofollow ugc">ChangeLog.md</a></p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>其他</h2>
+<p>源代码：<a href="https://github.com/qinxs/Ease-Bookmarks" rel="noopener nofollow ugc">GitHub</a><br />
+Chrome 商店：<a href="https://chrome.google.com/webstore/detail/ease-bookmarks/poefceffmekhjoadknillcbdifahongk" rel="noopener nofollow ugc">Ease Bookmarks</a><br />
+Edge 商店：<a href="https://microsoftedge.microsoft.com/addons/detail/ease-bookmarks/addbgeibeffkokpabpbpmdpehfbegchl" rel="noopener nofollow ugc">Ease Bookmarks</a></p>
+            <p><small>7 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/29473">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 26 Jan 2022 05:48:17 +0000</pubDate>
+<pubDate>Wed, 26 Jan 2022 05:48:17 +0000</pubDate>
+</item>
 
 <item>
 <title>Mac有自媒体一文多发工具吗？</title>
