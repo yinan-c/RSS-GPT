@@ -21395,3 +21395,12 @@ Summarized using GPT-3.5-turbo
 Append: [这个五一假期，和这些好文、音乐与电影享受轻松时刻](https://sspai.com/post/79515)
 append_entries: 1
 Finish: 2024-05-01 06:04:49.487143
+------------------------------------------------------
+Started: 2024-05-01 08:04:58.982198
+Existing_entries: 782
+Fetching from https://rsshub.app/sspai/index
+Token length: 273
+Summarized using GPT-3.5-turbo
+Append: [如何用 LaTeX 给文档创建美观的目录和索引](https://sspai.com/post/87254)
+append_entries: 1
+Finish: 2024-05-01 08:05:06.160537
