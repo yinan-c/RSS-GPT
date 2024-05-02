@@ -3315,3 +3315,12 @@ Existing_entries: 21
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-05-02 16:03:39.107417
+------------------------------------------------------
+Started: 2024-05-02 18:04:07.727028
+Existing_entries: 21
+Fetching from https://nesslabs.com/feed
+Token length: 5179
+Summarized using GPT-3.5-turbo
+Append: [The Shiny Toy Syndrome: When We Chase Novelty at Work](https://nesslabs.com/shiny-toy-syndrome?utm_source=rss&utm_medium=rss&utm_campaign=shiny-toy-syndrome)
+append_entries: 1
+Finish: 2024-05-02 18:04:13.453979
