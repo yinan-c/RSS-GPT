@@ -4,6 +4,131 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>WriteMapper - writing with mind maps</title>
+<link>https://brett.trpstra.net/link/535/16671800/writemapper-writing-with-mind-maps</link>
+<guid>https://brett.trpstra.net/link/535/16671800/writemapper-writing-with-mind-maps</guid>
+<content:encoded><![CDATA[
+<div> Mind map, WriteMapper, writing, features, summary
+<br><br>总结:
+本文介绍了作者使用思维导图进行长篇写作的方式，提到了他习惯使用的iThoughts和新尝试的WriteMapper应用。WriteMapper针对写作提供了专门设计的功能，包括编辑器、文档视图和键盘快捷键等特点。编辑器提供了标准的文本编辑功能，但缺少Markdown视图。文档视图方便查看整个文档，可以实时更新修改。键盘快捷键丰富，可以在偏好设置中自定义。除此之外，WriteMapper还具有导出和任务管理等功能，对开发者也友好。总的来说，WriteMapper是一款适合写作的工具，虽然价格较高，但功能齐全，易于移植，作者认为物有所值。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="writemapper-header-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/05/writemapper-header-rb.jpg" title="writemapper-header-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>One of the major things I use mind maps for is developing longer-form writing. I do best spitting out all of my ideas for topics and chapters into a mind map, then editing the nodes into chapters and paragraphs. I’ve always done this with iThoughts, which has great keyboard shortcuts for navigating and switching between node and notes panels. Then I would view the piece as it came together using <a href="https://marked2app.com">Marked’s</a> iThoughts integration, and when it was in a mostly gelled state, I would export Markdown and continue editing in <a href="https://multimarkdown.com/" title="MultiMarkdown Software">MultiMarkdown Composer</a>.</p>
+
+<p>I’m going to continue using iThoughts for as long as it survives (in case you missed it, it was announced recently that support and development has been discontinued). As I mentioned in <a href="https://brettterpstra.com/2024/04/28/life-after-ithoughts/">a previous post</a>, I’m going to trust <a href="https://www.mindnode.com/">MindNode</a> to fill in the gap left behind when the time comes. But for writing, I’ve been playing with a new app called WriteMapper (which I mentioned previously in <a href="https://brettterpstra.com/2023/12/11/web-excursions-for-december-11-2023/">a Web Excursions post</a>).</p>
+
+<!--more-->
+
+<h3 id="the-writemapper-way">The WriteMapper way</h3>
+
+<p>WriteMapper is specifically designed for the above use case. It&rsquo;s developed by a solo indie dev (Guan), who&rsquo;s built it out into a very polished app.</p>
+
+<p>Writing in mind map form makes it really easy to organize (and reorganize) content as you write, and to pop between topics as inspiration hits. You can write very specific pieces in each node, and easily arrange them in a way that makes sense, without having to plan far in advance. Sure, you can do the same thing with copy/paste in your editor, but I work best with the map layout.</p>
+
+<blockquote>
+  <p>As a side note, MultiMarkdown Composer has a great feature where you can open the Table of Contents view and drag sections around (based on headers) to reorganize the document. It reminds me of an old iOS app called Paragraphs, which I loved but I don’t think it stood the test of time.</p>
+</blockquote>
+
+<p>I&rsquo;m writing this post in WriteMapper right now, and I&rsquo;m finding it very enjoyable.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="writemapper-map-view.jpg" class="aligncenter" height="641" src="https://cdn3.brettterpstra.com/uploads/2024/05/writemapper-map-view.jpg" title="writemapper-map-view.jpg" width="1262" />
+              </noscript>
+            
+
+<h3 id="writemapper-features">WriteMapper features</h3>
+
+<h4 id="the-editor">The Editor</h4>
+
+<p>WriteMapper has a great editor built in. It&rsquo;s a much more polished editing experience than writing in iThoughts was. It gives you all your standard shortcuts for bold, italics, and <span class="keycombo combined" title="Command-K"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">K</kbd></span> for links, and it’s easy to add headlines, though most of those will be added using the node titles.</p>
+
+<p>The editor is your basic plain text editor with a rich text overlay, a la IA Writer or to some extent Ulysses, but closer to a WYSYWIG editor in a platform like WordPress. It&rsquo;s slick and comfortable to work in, though you can&rsquo;t see a Markdown view, which I miss from some Markdown-based editors. The underlying format for the document is HTML, so you don&rsquo;t have a lot of more &ldquo;word processor&rdquo; type features available, but for my own writing, that&rsquo;s irrelevant. Anything I need to do that I can&rsquo;t in plain text is done with plugins and extensions to my publishing platforms. You don&rsquo;t get to choose your font for editing, which might bug some people.</p>
+
+<p>As far as Markdown compatibility goes, it will convert some Markdown to the rich text view. Double asterisks will become bold, single will become italic, and inline links will work. <em>However,</em> if you try to hit undo after manually entering Markdown syntax, things can get weird. You&rsquo;re best off using the built-in shortcuts for these features. Pasting Markdown doesn&rsquo;t seem to get parsed, either.</p>
+
+<p>If you select multiple lines and hit the bullet list shortcut, it will convert the lines into a bullet list. Hitting the shortcut again (or on any bulleted list) will remove the bullets. Hitting the shortcut for a numbered list behaves the same way, and will convert a bullet list to a numbered list.</p>
+
+<p>You can insert images from file or URL. Most of the time I&rsquo;m writing for a Jekyll system, where I have my own custom plugins for image handling, so I can just paste in my Liquid code for an image and WriteMapper doesn&rsquo;t mess with it.</p>
+
+<p>Autosave seems to be non-standard (to macOS). WriteMapper&rsquo;s implementation can have a frequency set as often as one minute, but if you experience a crash (which I haven&rsquo;t) you would lose everything up to the last auto save.</p>
+
+<p>WriteMapper also implements spellchecking and autocorrect, and both of those seem to use standard macOS implementation. And for anything spell check chokes on, note that there&rsquo;s an Add to Dictionary option in the right click menu, as opposed to the more standard &ldquo;Learn spelling&rdquo; option.</p>
+
+<h4 id="document-view">Document View</h4>
+
+<p>An essential feature of WriteMapper is the Document View. While you can traverse and edit your document as a mind map, you can also open Document View and edit it all as one piece. You can&rsquo;t rearrange anything in Document View, though — for that you have to switch back to a map view.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="writemapper-document-view.jpg" class="aligncenter" height="804" src="https://cdn3.brettterpstra.com/uploads/2024/05/writemapper-document-view.jpg" title="writemapper-document-view.jpg" width="1305" />
+              </noscript>
+            
+
+<p>Document View pretty much alleviates my need for Marked integration, as I can easily see my map formatted as a document, in map order, with a quick press of <span class="keycombo combined" title="Command-4"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">4</kbd></span> (or whatever you customize the shortcut to). You can edit in Document view just like in a node view, and it has an outline view on the side for navigation. You can even open the Document View in another window and see changes you make to nodes appear in the full document on save, just like using it with Marked.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="writemapper-dual-view-800.jpg" class="aligncenter" height="429" src="https://cdn3.brettterpstra.com/uploads/2024/05/writemapper-dual-view-800.jpg" title="writemapper-dual-view-800.jpg" width="800" />
+              </noscript>
+            
+
+<h4 id="keyboard-shortcuts">Keyboard Shortcuts</h4>
+
+<p>WriteMapper has plenty of keyboard shortcuts, but they’re very non-standard for a mind map app. You can, however, easily change the shortcuts in Preferences, and I now have it working more predictably (like Tab to add a child node). <span class="keycombo combined" title="Command-E"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">E</kbd></span> pops you right into the editor for the selected node, and when you’re done editing, Escape will get you back to the map.</p>
+
+<p>As I mentioned, in the document editor you have your standard word processor key combinations available, such as <span class="keycombo combined" title="Command-I"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">I</kbd></span> and <span class="keycombo combined" title="Command-B"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">B</kbd></span>. There are also shortcuts for block quotes, horizontal rules, and lists.</p>
+
+<p>While they don&rsquo;t show up in the Insert menu, there are also keyboard shortcuts for inline code and code blocks, and code blocks can be highlighted if you check the option in Preferences. Inserting Markdown syntax for these also works (three backticks works, indenting doesn&rsquo;t).</p>
+
+<h4 id="other-features">Other Features</h4>
+
+<p>Map views can be linear, nested, or sprawl, which is more of a traditional mind map layout.</p>
+
+<p>WriteMapper can export as Markdown or OPML, but can also export straight to HTML, Word, RTF, and other formats.</p>
+
+<blockquote>
+  <p>For developers, the file format is a basic JSON file with an array of nodes in document order, with the content stored as HTML, so integrating this with Marked will be simple, and recovering old documents if WriteMapper ever stops working will be entirely feasible. Which are important considerations to me.</p>
+</blockquote>
+
+<p>The app can show you your total word count, character count, and reading time as you edit, and each node can be set to display its own word count. You can also set nodes to tasks and check them off as you complete them.</p>
+
+<p>You can also open the same document in multiple windows for side-by-side editing of different chapters. You can&rsquo;t have multiple documents open in tabs, as far as I can tell, but if I need two documents open at once, I need them both visible anyway for copying between the two.</p>
+
+<p>WriteMapper also supposedly has some AI features, but I haven&rsquo;t gotten it to accept my OpenAI key yet and haven&rsquo;t spent much time figuring that out. I&rsquo;ll do my own writing for now.</p>
+
+<h3 id="wrapping-up">Wrapping up</h3>
+
+<p>In summary, WriteMapper is a great tool for writing. A few quirks, but fully capable for my own needs. The export options are robust, and the document format is standard enough to be easily portable. And being able to construct a piece in a mind map is exactly the way I want to write. WriteMapper isn&rsquo;t cheap &mdash; a single license is US $89. I think it might be more comfortable in the $40-50 range, but I consider it money well spent and I&rsquo;m happy to support continued development.</p>
+
+<p><a href="https://writemapper.com/">Check out WriteMapper here.</a></p>
+
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/112373371195015071" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F02%2Fwritemapper-writing-with-mind-maps%2F&amp;text=WriteMapper+-+writing+with+mind+maps&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F02%2Fwritemapper-writing-with-mind-maps%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16671800.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-05-02T15:13:00-05:00</pubDate>
+<pubDate>2024-05-02T15:13:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Conductor fixes and improvements</title>
