@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>WriteMapper - writing with mind maps</title>
 <link>https://brett.trpstra.net/link/535/16671800/writemapper-writing-with-mind-maps</link>
 <guid>https://brett.trpstra.net/link/535/16671800/writemapper-writing-with-mind-maps</guid>
 <content:encoded><![CDATA[
 <div> Mind map, WriteMapper, writing, features, summary
-<br><br>总结:
+<br /><br />总结:
 本文介绍了作者使用思维导图进行长篇写作的方式，提到了他习惯使用的iThoughts和新尝试的WriteMapper应用。WriteMapper针对写作提供了专门设计的功能，包括编辑器、文档视图和键盘快捷键等特点。编辑器提供了标准的文本编辑功能，但缺少Markdown视图。文档视图方便查看整个文档，可以实时更新修改。键盘快捷键丰富，可以在偏好设置中自定义。除此之外，WriteMapper还具有导出和任务管理等功能，对开发者也友好。总的来说，WriteMapper是一款适合写作的工具，虽然价格较高，但功能齐全，易于移植，作者认为物有所值。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -127,9 +128,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16671800.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-05-02T15:13:00-05:00</pubDate>
-<pubDate>2024-05-02T15:13:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Conductor fixes and improvements</title>
 <link>https://brett.trpstra.net/link/535/16667786/conductor-fixes-and-improvements</link>
