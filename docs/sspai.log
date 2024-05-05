@@ -21710,3 +21710,16 @@ Existing_entries: 793
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-05 04:03:32.368250
+------------------------------------------------------
+Started: 2024-05-05 06:03:36.560042
+Existing_entries: 793
+Fetching from https://rsshub.app/sspai/index
+Token length: 9976
+Summarized using GPT-3.5-turbo
+Append: [掌握 Windows 终端命令的基本语法及风格](https://sspai.com/post/78248)
+Token length: 4139
+Summarized using GPT-3.5-turbo
+Append: [旅行拍照虽然开心，但别忘了清洁相机](https://sspai.com/post/68863)
+Append: [抓住冬天的尾巴，去见江南的楼阁](https://sspai.com/post/86171)
+append_entries: 3
+Finish: 2024-05-05 06:03:44.409915
