@@ -21807,3 +21807,15 @@ Existing_entries: 798
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-06 08:04:04.770001
+------------------------------------------------------
+Started: 2024-05-06 10:03:25.748196
+Existing_entries: 798
+Fetching from https://rsshub.app/sspai/index
+Token length: 9368
+Summarized using GPT-3.5-turbo
+Append: [从 1.0 到 95，见证 Windows 界面从青涩到成熟](https://sspai.com/post/87835)
+Token length: 2312
+Summarized using GPT-3.5-turbo
+Append: [理解 Keynote「神奇移动」效果的原理](https://sspai.com/post/77495)
+append_entries: 2
+Finish: 2024-05-06 10:03:35.845407

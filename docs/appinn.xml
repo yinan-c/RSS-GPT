@@ -4,6 +4,52 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chromium 内核浏览器通过链接定位页面文本且高亮的小技巧</title>
+<link>https://meta.appinn.net/t/topic/56058</link>
+<guid>https://meta.appinn.net/t/topic/56058</guid>
+<content:encoded><![CDATA[
+
+<p>Chromium 内核浏览器通过链接定位页面文本且高亮的小技巧</p>
+<p>找资料时偶然发现的</p>
+<p>在链接尾部追加<code>#:~:text=文本</code>，比如：<code>https://www.appinn.com/#:~:text=最近 30 天的热门内容</code></p>
+<p><a href="https://www.appinn.com#:~:text=%E6%9C%80%E8%BF%91%2030%20%E5%A4%A9%E7%9A%84%E7%83%AD%E9%97%A8%E5%86%85%E5%AE%B9">www.appinn.com</a></p>
+<p>                    <a class="onebox" href="https://h.appinn.net/file/437af1c2aa7c986575938.png" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/437af1c2aa7c986575938.png" width="" />
+          </a>
+
+</p>
+<p><strong>当然也可以选中内容后在右键菜单中选择<code>复制指向突出的内容的链接</code></strong></p>
+<p>                    <a class="onebox" href="https://h.appinn.net/file/9fd616d4af2ce9e935f0b.png" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/9fd616d4af2ce9e935f0b.png" width="" />
+          </a>
+
+</p>
+<p>完整语法：<code>#:~:text=[prefix-,]start[,end][,-suffix]</code></p>
+<p>如果有重复文本可以指定范围匹配</p>
+<p>只匹配“热门”：<code>#:~:text=天的,热门,内容</code></p>
+<p>如果页面内容是动态加载的则无法定位</p>
+<p>具体介绍</p>
+<ul>
+<li>
+<p><a class="inline-onebox" href="https://chromestatus.com/feature/4733392803332096" rel="noopener nofollow ugc">Chrome Platform Status</a></p>
+</li>
+<li>
+<p><a href="https://juejin.cn/post/6959025873433559070" rel="noopener nofollow ugc">https://juejin.cn/post/6959025873433559070</a></p>
+</li>
+</ul>
+<p>根据 <a href="https://caniuse.com/?search=URL%20Scroll-To-Text%20Fragment" rel="noopener nofollow ugc">caniuse 兼容性表</a> Safari 也支持<br />
+                    <a class="onebox" href="https://h.appinn.net/file/caf474b9c05cce4bcc236.png" rel="noopener" target="_blank">
+            <img height="" src="https://h.appinn.net/file/caf474b9c05cce4bcc236.png" width="" />
+          </a>
+
+</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56058">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 08:38:16 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 08:38:16 +0000</pubDate>
+</item>
 
 <item>
 <title>求一个支持 GPT3.5 的翻译输入法</title>
