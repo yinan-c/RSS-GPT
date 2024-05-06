@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Chromium 内核浏览器通过链接定位页面文本且高亮的小技巧</title>
 <link>https://meta.appinn.net/t/topic/56058</link>
 <guid>https://meta.appinn.net/t/topic/56058</guid>
 <content:encoded><![CDATA[
-
 <p>Chromium 内核浏览器通过链接定位页面文本且高亮的小技巧</p>
 <p>找资料时偶然发现的</p>
 <p>在链接尾部追加<code>#:~:text=文本</code>，比如：<code>https://www.appinn.com/#:~:text=最近 30 天的热门内容</code></p>
@@ -48,9 +48,7 @@
             <p><a href="https://meta.appinn.net/t/topic/56058">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 06 May 2024 08:38:16 +0000</pubDate>
-<pubDate>Mon, 06 May 2024 08:38:16 +0000</pubDate>
 </item>
-
 <item>
 <title>求一个支持 GPT3.5 的翻译输入法</title>
 <link>https://meta.appinn.net/t/topic/56030</link>
