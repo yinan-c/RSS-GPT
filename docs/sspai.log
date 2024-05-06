@@ -21777,3 +21777,12 @@ Existing_entries: 796
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-06 00:11:46.046118
+------------------------------------------------------
+Started: 2024-05-06 02:13:54.717319
+Existing_entries: 796
+Fetching from https://rsshub.app/sspai/index
+Token length: 3683
+Summarized using GPT-3.5-turbo
+Append: [派早报：首个完全使用 Sora 制作的 MV 发布](https://sspai.com/post/88562)
+append_entries: 1
+Finish: 2024-05-06 02:13:58.717646
