@@ -4,6 +4,45 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】🍃 「休息日」 iOS上的节假日闹钟App，没有内购，限时免费</title>
+<link>https://meta.appinn.net/t/topic/56064</link>
+<guid>https://meta.appinn.net/t/topic/56064</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>应用名称</h2>
+<p>休息日</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>平台</h2>
+<p>iOS</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>开发者自荐</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>功能介绍</h2>
+<p>虽然已经有人使用快捷指令实现了节假日闹钟的功能，但是如果想要增加或减少某一天，就显得没那么灵活。因此我在五一假期期间开发了这款 App。</p>
+<p>特点：</p>
+<ul>
+<li>
+<p>包含多种放假模板，包含中国大陆/港/澳/新加坡/日/美等等</p>
+</li>
+<li>
+<p>支持用户自行标注“工作日”与“休息日”</p>
+</li>
+<li>
+<p>自带快捷指令和教程，让整套系统用起来更顺手</p>
+</li>
+</ul>
+<p>（应用内判断是否是休息日，依据的先后顺序是这样的：“用户标准” &gt; “公共假期安排” &gt; “是否是周末”）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/5/d531bdf54b53258c80ccac939f73fa02f8799b30.jpeg" title="IMG_4123.PNG"><img alt="IMG_4123.PNG" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/5/d531bdf54b53258c80ccac939f73fa02f8799b30_2_230x500.jpeg" width="230" /></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/a/8a26ba95aa678f4f9d4df5adbeca1b5ab9cd87ea.jpeg" title="IMG_4125.PNG"><img alt="IMG_4125.PNG" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/a/8a26ba95aa678f4f9d4df5adbeca1b5ab9cd87ea_2_230x500.jpeg" width="230" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>限免时间</h2>
+<p>2024年05月06日 - 2024年05月08日</p>
+<h2><a class="anchor" href="https://meta.appinn.net#store-7" name="store-7"></a>Store 卡片</h2>
+<p><a class="onebox" href="https://apps.apple.com/app/id6501973975" rel="noopener nofollow ugc" target="_blank">https://apps.apple.com/app/id6501973975</a></p>
+            <p><small>4 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56064">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 14:08:50 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 14:08:50 +0000</pubDate>
+</item>
 
 <item>
 <title>Chromium 内核浏览器通过链接定位页面文本且高亮的小技巧</title>
