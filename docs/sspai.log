@@ -21870,3 +21870,12 @@ Existing_entries: 801
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-07 02:15:08.843390
+------------------------------------------------------
+Started: 2024-05-07 04:03:40.670243
+Existing_entries: 801
+Fetching from https://rsshub.app/sspai/index
+Token length: 2235
+Summarized using GPT-3.5-turbo
+Append: [派早报：Stack Overflow 与 OpenAI 合作，英伟达更新 ChatRTX 等](https://sspai.com/post/88593)
+append_entries: 1
+Finish: 2024-05-07 04:03:44.919376
