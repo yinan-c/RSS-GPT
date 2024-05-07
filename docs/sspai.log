@@ -21906,3 +21906,10 @@ Summarized using GPT-3.5-turbo
 Append: [我的栖息之所：历时半年，把房子装成家](https://sspai.com/post/88391)
 append_entries: 1
 Finish: 2024-05-07 10:04:42.240225
+------------------------------------------------------
+Started: 2024-05-07 12:04:42.562658
+Existing_entries: 805
+Fetching from https://rsshub.app/sspai/index
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/sspai
