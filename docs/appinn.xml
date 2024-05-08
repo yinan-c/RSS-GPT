@@ -4,6 +4,35 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Android图标生成器(PC工具) 开源,免费</title>
+<link>https://meta.appinn.net/t/topic/56163</link>
+<guid>https://meta.appinn.net/t/topic/56163</guid>
+<content:encoded><![CDATA[
+
+<p>原文: <a href="https://stars-one.site/2024/01/20/android-icon-generator" rel="noopener nofollow ugc">【stars-one】Android图标生成器 - Stars-One的杂货小窝</a></p>
+<p>一款Android开发者的PC工具软件,可以快速生成android开发需要使用的xml矢量图标文件</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>起因</h2>
+<p>个人开发Android app过程中,经常会使用到一些矢量图标,经常重复性复制svg文件,然后使用Android Studio转换,但是Android Studio还不支持批量转换,且每次操作总感觉有些繁琐</p>
+<p>恰巧找到了svg转换为xml的代码实例,于是就用上新版本的compose-multiplatform实现了个桌面端软件,也算试手一下</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>软件截图</h2>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/6/66436bfc22e81e74a2d229ec17692c19147c05c0.png" title="image"><img alt="image" height="461" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/6/66436bfc22e81e74a2d229ec17692c19147c05c0.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/6/1616acf4f9afa36da32b09e02c69a5c3a46026c7.png" title="image"><img alt="image" height="461" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/6/1616acf4f9afa36da32b09e02c69a5c3a46026c7_2_690x461.png" width="690" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/2/c/2c3ef0157969e26ae9647dd8d8fb06969cbbb38a.png" title="image"><img alt="image" height="461" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/2/c/2c3ef0157969e26ae9647dd8d8fb06969cbbb38a_2_690x461.png" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>软件获取</h2>
+<p>见<a href="https://github.com/stars-one/IconDrawableGenerator" rel="noopener nofollow ugc">https://github.com/stars-one/IconDrawableGenerator</a>里的release页面,选择自己平台的对应安装包安装</p>
+<blockquote>
+<p><strong>PS:</strong> window系统不要将安装到C盘,否则会出现打开失败问题!!</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件使用</h2>
+<p>目前是使用了RemixIcon作为图标库,支持搜索,选中某个图标后,可以导出png或者xml文件,这里我是直接将导出的文件直接复制到了剪切板,之后只需要到Android Studio,在指定drawable文件夹粘贴即可</p>
+<p>除此之外,如果使用了是其他图标库,还可以直接复制svg代码或者将svg文件转为xml文件</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56163">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 08 May 2024 03:58:35 +0000</pubDate>
+<pubDate>Wed, 08 May 2024 03:58:35 +0000</pubDate>
+</item>
 
 <item>
 <title>今天过生日， 33 了。没啥成就，有几个自己开发的 App，每个送 1000 个年会员吧</title>
