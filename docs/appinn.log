@@ -24666,3 +24666,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-11 12:04:02.169832
+------------------------------------------------------
+Started: 2024-05-11 14:03:12.475962
+Existing_entries: 387
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [怎么打开这个加密网站、下载视频？](https://meta.appinn.net/t/topic/56306)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-05-11 14:03:15.734095
