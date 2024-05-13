@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>俺正在 mac 上打王者：开源项目 Scrcpy Mask 像模拟器一样用鼠标键盘控制 Android 设备，基于 Rust &amp; Tarui 开发的跨平台客户端</title>
 <link>https://meta.appinn.net/t/topic/56349</link>
 <guid>https://meta.appinn.net/t/topic/56349</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>写在前面</h2>
 <p>为了实现电脑控制安卓设备，本人使用 Tarui + Vue 3 + Rust 开发了一款跨平台桌面客户端。该客户端能够提供可视化的鼠标和键盘按键映射配置。通过按键映射实现了实现类似安卓模拟器的多点触控操作，具有毫秒级响应速度。该工具可广泛用于电脑控制安卓设备玩手游等等，提供流畅的触控体验。</p>
 <p>本项目仅实现了 Scrcpy 控制协议，<strong>不提供投屏功能</strong>。因为投屏会存在延迟和模糊问题，本项目另辟蹊径，直接放弃投屏，而使用透明的蒙版显示窗口背后的内容（可以使用 AVD 、手机自带低延迟投屏界面等），从根本上杜绝了投屏延迟的现象。</p>
@@ -83,14 +83,12 @@
             <p><a href="https://meta.appinn.net/t/topic/56349">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 13 May 2024 03:05:35 +0000</pubDate>
-<pubDate>Mon, 13 May 2024 03:05:35 +0000</pubDate>
 </item>
 <item>
 <title>求一款自动循环的时间管理应用</title>
 <link>https://meta.appinn.net/t/topic/56350</link>
 <guid>https://meta.appinn.net/t/topic/56350</guid>
 <content:encoded><![CDATA[
-
 <p>一款 Mac 应用。它可以在侧栏中运行，Outline 的结构，可以添加任务，每个任务都可以均匀分配一个固定的时间，比如15分钟或是25分钟。</p>
 <p>当一个任务的计时器运行后，它便开始倒计时；倒计时结束，开始提醒用户下一个任务。如此这样15分钟的自动下一轮循环。</p>
 <p>这种循环就像歌曲清单的自动循环一样，一首结束，就开始播放下一首。</p>
@@ -100,9 +98,7 @@
             <p><a href="https://meta.appinn.net/t/topic/56350">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 13 May 2024 03:11:18 +0000</pubDate>
-<pubDate>Mon, 13 May 2024 03:11:18 +0000</pubDate>
 </item>
-
 <item>
 <title>Chrome 浏览器有没有能够用chrome sync保留数据的浏览时间统计插件？</title>
 <link>https://meta.appinn.net/t/topic/56336</link>

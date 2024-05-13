@@ -24830,3 +24830,11 @@ Append: [俺正在 mac 上打王者：开源项目 Scrcpy Mask 像模拟器一�
 Append: [求一款自动循环的时间管理应用](https://meta.appinn.net/t/topic/56350)
 append_entries: 2
 Finish: 2024-05-13 04:03:52.320193
+------------------------------------------------------
+Started: 2024-05-13 06:03:58.689996
+Existing_entries: 391
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-05-13 06:04:01.685074
