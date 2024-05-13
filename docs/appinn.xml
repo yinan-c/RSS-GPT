@@ -4,6 +4,104 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>俺正在 mac 上打王者：开源项目 Scrcpy Mask 像模拟器一样用鼠标键盘控制 Android 设备，基于 Rust &amp; Tarui 开发的跨平台客户端</title>
+<link>https://meta.appinn.net/t/topic/56349</link>
+<guid>https://meta.appinn.net/t/topic/56349</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>写在前面</h2>
+<p>为了实现电脑控制安卓设备，本人使用 Tarui + Vue 3 + Rust 开发了一款跨平台桌面客户端。该客户端能够提供可视化的鼠标和键盘按键映射配置。通过按键映射实现了实现类似安卓模拟器的多点触控操作，具有毫秒级响应速度。该工具可广泛用于电脑控制安卓设备玩手游等等，提供流畅的触控体验。</p>
+<p>本项目仅实现了 Scrcpy 控制协议，<strong>不提供投屏功能</strong>。因为投屏会存在延迟和模糊问题，本项目另辟蹊径，直接放弃投屏，而使用透明的蒙版显示窗口背后的内容（可以使用 AVD 、手机自带低延迟投屏界面等），从根本上杜绝了投屏延迟的现象。</p>
+<p>感兴趣的请进主页：<a href="https://github.com/AkiChase/scrcpy-mask" rel="noopener nofollow ugc">项目地址</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#todo-2" name="todo-2"></a>特性&amp;TODO</h2>
+<ul>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  有线、无线连接安卓设备</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  启动并连接 Scrcpy 服务端</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  实现 Scrcpy 控制协议</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  鼠标和键盘按键映射</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  可视化编辑按键映射配置</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  按键映射配置的导入与导出</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  更新检查</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span>  在按键映射和插入文本之间切换</li>
+<li><span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 国际化</li>
+<li><span class="chcklst-box fa fa-square-o fa-fw"></span>  手柄按键映射</li>
+<li><span class="chcklst-box fa fa-square-o fa-fw"></span>  更好的宏</li>
+<li><span class="chcklst-box fa fa-square-o fa-fw"></span>  通过 WebSocket 提供外部接口</li>
+<li><span class="chcklst-box fa fa-square-o fa-fw"></span>  帮助文档</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>相关视频</h2>
+<ul>
+<li><a href="https://b23.tv/q6iDW1w" rel="noopener nofollow ugc">M 系列 Mac 电脑玩王者，暃排位实录，使用 Android Stuido 模拟器和开源 Scrcpy Mask 按键映射工具-哔哩哔哩</a></li>
+<li><a href="https://b23.tv/gqmriXr" rel="noopener nofollow ugc">自制跨平台开源项目 Scrcpy Mask ，像模拟器一样用键鼠控制任意安卓设备！以 M 系列芯片 MacBook 打王者为例-哔哩哔哩</a></li>
+<li><a href="https://b23.tv/dmUOpff" rel="noopener nofollow ugc">如何用 PC 控制安卓手机打王者？只要思想不滑坡，办法总比困难多！-哔哩哔哩</a></li>
+<li><a href="https://b23.tv/ckJgyK5" rel="noopener nofollow ugc">M 芯片 Mac 怎么用 Android Studio 模拟器打王者？这是 Up 耗时数个月给出的答案-哔哩哔哩</a></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>截图</h2>
+<ul>
+<li>设备控制</li>
+</ul>
+<p><img alt="" height="383" src="https://pic.superbed.cc/item/6637190cf989f2fb975b6162.png" width="690" /></p>
+<ul>
+<li>可视化编辑按键映射配置</li>
+</ul>
+<p><img alt="" height="383" src="https://pic.superbed.cc/item/66371911f989f2fb975b62a3.png" width="690" /></p>
+<ul>
+<li>游戏控制</li>
+</ul>
+<p><img alt="" height="383" src="https://pic.superbed.cc/item/66373c8cf989f2fb97679dfd.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>基本使用</h2>
+<ol>
+<li>从 <a href="https://github.com/AkiChase/scrcpy-mask/releases" rel="noopener nofollow ugc">releases</a> 中安装适合你系统平台的软件包</li>
+<li>确认你的安卓设备类型
+<ol>
+<li>对于手机或平板电脑等物理设备
+<ol>
+<li>你需要自己解决投屏的问题。推荐使用设备品牌的官方投屏方式，这样一般延迟最小。</li>
+<li>通过USB或无线方式在设备上启用ADB调试，然后将其连接到电脑。</li>
+</ol>
+</li>
+<li>对于模拟器，不仅不需要投屏，而且模拟器通常默认启用ADB有线调试。所以几乎不用操作就能获得最好的体验。</li>
+</ol>
+</li>
+<li>启动软件并导航到设备页面。
+<ol>
+<li>在可用的设备中查找你的设备(如果未找到，请自行搜索如何为安装设备启用ADB调试)。</li>
+<li>右击你的设备并选择“获取屏幕大小”。根据获得的屏幕尺寸为参考，正确输入设备的宽度和高度。注意：如果宽度或高度不正确 (例如，在纵向和横向模式下这两个参数是颠倒的)，所有触摸操作将被忽略，但是不会有任何错误消息。</li>
+<li>再次右击设备并选择“控制此设备”。</li>
+</ol>
+</li>
+<li>导航到设置页面-&gt;蒙版设置，将蒙版的宽度和高度设置为设备大小的一定倍数，以确保蒙版大小合适。</li>
+<li>导航到蒙版页面，你可以在其中看到一个完全透明的蒙版区域。接下来，调整并移动模拟器窗口或投屏窗口，让其内容区域与透明蒙版区域完全对齐。</li>
+<li>导航到键映射页面，切换或编辑键映射配置。</li>
+<li>返回到蒙版界面，开始使用吧！</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>最后</h2>
+<p>如果对这个项目感兴趣，欢迎收藏。</p>
+<p>此外，本人在掘金上分享项目的实现原理细节，可以来了解一下 <a href="https://juejin.cn/user/2230234011929704" rel="noopener nofollow ugc">AkiChase 的个人主页 - 动态 - 掘金</a></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56349">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 03:05:35 +0000</pubDate>
+<pubDate>Mon, 13 May 2024 03:05:35 +0000</pubDate>
+</item>
+<item>
+<title>求一款自动循环的时间管理应用</title>
+<link>https://meta.appinn.net/t/topic/56350</link>
+<guid>https://meta.appinn.net/t/topic/56350</guid>
+<content:encoded><![CDATA[
+
+<p>一款 Mac 应用。它可以在侧栏中运行，Outline 的结构，可以添加任务，每个任务都可以均匀分配一个固定的时间，比如15分钟或是25分钟。</p>
+<p>当一个任务的计时器运行后，它便开始倒计时；倒计时结束，开始提醒用户下一个任务。如此这样15分钟的自动下一轮循环。</p>
+<p>这种循环就像歌曲清单的自动循环一样，一首结束，就开始播放下一首。</p>
+<p>为什么我会有这样的需求呢？我发现我总是不受控的在 A任务花费了超额的时间，而给 B 任务、C 任务花费的时间更少，因此，我希望我能均匀的在 A、B、C 花费相当的时间，如果 B 任务完成，那么，这种重复循环就是 A 与 C 之间开始。</p>
+<p>我似乎记得有一款这样的应用，但我忘记它的名字了。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56350">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 03:11:18 +0000</pubDate>
+<pubDate>Mon, 13 May 2024 03:11:18 +0000</pubDate>
+</item>
 
 <item>
 <title>Chrome 浏览器有没有能够用chrome sync保留数据的浏览时间统计插件？</title>
