@@ -24974,3 +24974,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-14 16:03:36.704659
+------------------------------------------------------
+Started: 2024-05-14 18:03:43.255500
+Existing_entries: 391
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [第三方的chrome插件库有哪些？](https://meta.appinn.net/t/topic/56427)
+Append: [有没有在zlibrary书籍页面上显示豆瓣评分和豆瓣链接的插件或者脚本？](https://meta.appinn.net/t/topic/56426)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-05-14 18:03:46.809553
