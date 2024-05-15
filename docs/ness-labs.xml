@@ -4,6 +4,249 @@
 <title>Ness Labs</title>
 <link>https://nesslabs.com/</link>
 
+<item>
+<title>Manage your Mood with Oleksandr Zhabin, founder of Moodset</title>
+<link>https://nesslabs.com/moodset-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=moodset-featured-tool</link>
+<guid>https://nesslabs.com/moodset-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=moodset-featured-tool</guid>
+<content:encoded><![CDATA[
+<div> Moodset, Oleksandr Zhabin, mood tracking, music, circumplex model
+
+<br><br>总结:
+Oleksandr Zhabin创建了Moodset应用，基于情感圆形模型，通过音乐跟踪、探索和了解用户的情绪。用户可在情绪地图上标记自己的情绪点。应用使用两个维度，valence和arousal，提供更全面的情绪理解。用户可以记录情绪，设置提醒，创建自定义播放列表管理情绪。频繁追踪情绪有助于发现模式，分析导致不良情绪的因素，提高自我意识。Moodset还提供了关于音乐情绪的数据分析，用户可以根据数据调整心情。未来，计划推出iOS版本，扩展数据源和分析，使Moodset成为帮助用户健康快乐生活的平台。 <div>
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our Tools for Thought series. Oleksandr Zhabin is the founder of  Moodset, an app that allows you to track, explore, and understand your mood through music. It’s based on the circumplex model of affect and lets you place a dot on the mood map to mark where you are on the emotional spectrum based on valence and arousal values.</p>
+
+
+
+<p>In this interview, we talked about the limitations with most mood tracking apps, the relationship between mood and music, implementing a useful in-app model of emotions, the ideal frequency for mood tracking, how to use playlists to manage your mood, and much more. Enjoy the read!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img alt="Moodset Image 1" class="wp-image-15193" height="540" src="https://nesslabs.com/wp-content/uploads/2024/05/moodset-image-4.jpg" width="960" /></figure></div>
+
+
+<p><strong>Hi Oleksandr, thanks for agreeing to this interview! How did you start exploring the intersection of mood and music?</strong></p>
+
+
+
+<p>My journey of exploring the intersection of mood and music began with a challenge I faced in 2022. It was a tough year that completely changed my life. War broke out in my country, and global economic issues were beginning to unfold. Due to these events, I lost my job, and finding a new one didn’t seem promising. It’s hard to convey what was going on in my mind at that time and what emotions I was experiencing.</p>
+
+
+
+<p>However, I was very curious to understand how my state of mind changed from the onset of the war and how different it was from ordinary days before all these events. After all, mental state has a huge impact on the decisions we make and on life in general.</p>
+
+
+
+<p>Although I’ve always been interested in self-exploration, I never thought about mood tracking. That’s why I didn’t have any data to analyze how my mood had changed over the past few years. And then I asked myself, are there any indicators that could reflect our mood? After some googling and reading many studies, I realized that music is a good indicator. Moreover, music not only reflects the listener’s mood, but it also influences their mood.</p>
+
+
+
+<p><strong>So that’s why you started building Moodset.</strong></p>
+
+
+
+<p>Yes, this is how the story of creating Moodset begins. I started searching for websites or apps that would allow me to track the mood of the music I was listening to. But I didn’t find anything. The best thing I came across was the ability to assess the mood of a playlist, which obviously didn’t meet my needs.</p>
+
+
+
+<p>Given the difficulties in finding a new job and the high chance of being laid off again even if I found one, I decided that it was a perfect opportunity to do something I’d long dreamed of &#8211; creating my own product.</p>
+
+
+
+<p>At that time, I was thinking like an engineer and making not the best decisions from a business perspective. For example, I planned three features for the first version of the app instead of focusing on one core feature and getting feedback on it as soon as possible.</p>
+
+
+
+<p>Also, instead of developing the app on Flutter for both iOS and Android from the start, I chose to create a native app only for Android. Considering that I’m a solo maker, creating native apps for each platform is an unaffordable luxury.</p>
+
+
+
+<p>As a result, the first version was released with two features: automatic mood tracking of the music being listened to and creating a playlist with selected moods and genres. Spotify was used as the data source for music, and it remains the only data source to this day. However, I plan to expand the list of platforms that Moodset integrates with in the future.</p>
+
+
+
+<p>Today, the app already has a few more features than the first version. It now includes the ability to manually record your mood, set reminders to record your mood, and synchronize data between your devices. And this is just the beginning.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img alt="Moodset Image 2" class="wp-image-15194" height="540" src="https://nesslabs.com/wp-content/uploads/2024/05/moodset-image-1.jpg" width="960" /></figure></div>
+
+
+<p><strong>Moodset is built around the concept of a “circumplex model of affect” – can you tell us more?</strong></p>
+
+
+
+<p>When I was exploring the Spotify API, I didn’t fully understand all the data they provided about music tracks. I started delving into the topic and realized that this data fits perfectly with the circumplex model of affect. In this <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2367156">research</a>, you can learn more about it in detail and understand how it surpasses the basic theory of emotions.</p>
+
+
+
+<p>In brief, the circumplex model of affect posits that emotions are not discrete but rather points in a two-dimensional space. One of these dimensions is valence, which ranges from negative to positive emotions. The other is arousal, which ranges from low arousal (boredom, calm) to high arousal (anxious, excited).</p>
+
+
+
+<p>In many mood trackers, I often see that the graphs use only one dimension, which can be defined as valence from the circumplex model of affect. But it gives people a limited understanding of their mood. For example, looking at a graph, it becomes impossible to distinguish between sadness and anger—both would just be considered a bad mood. It’s also impossible to get an idea of the intensity of the experiences.</p>
+
+
+
+<p>However, Moodset addresses this problem by using two dimensions, giving users a more comprehensive understanding of their mood when looking at the graph.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img alt="Moodset Image 3" class="wp-image-15195" height="540" src="https://nesslabs.com/wp-content/uploads/2024/05/moodset-image-2.jpg" width="960" /></figure></div>
+
+
+<p><strong>How exactly can users track their mood with Moodset?</strong></p>
+
+
+
+<p>After reading a substantial number of studies on the circumplex model of affect, I developed a graph that I call the mood map. This graph is a square divided into zones, each named after a mood that represents just one of the many moods contained within that zone. These zone names are intended merely to provide a general understanding of the mood map’s layout.</p>
+
+
+
+<p>For example, in the Tense zone, points on opposite borders of the zone represent two entirely different moods, and neither might be accurately described as Tense. Therefore, I encourage users to focus more on the percentage values of valence and arousal. However, if you wish to verbalize your mood, the app allows for that.</p>
+
+
+
+<p>Here’s how a user can record their mood: a person places a point on the mood map according to their feelings. If they wish, they can name this mood. They can also select tags for this entry, representing factors that influenced their emotional state. Tags can be created, edited, and deleted. They help speed up the mood recording process if you’re not in the mood to write but still want context. Additionally, users can write a note describing their experience in detail if they choose.</p>
+
+
+
+<p>The app can also automatically track the music you listen to, providing the mood for each track played. This feature includes data such as top tracks, artists, and genres for a selected day or month.</p>
+
+
+
+<p>All this information can be viewed on graphs with varying levels of detail, selecting appropriate scopes. For example, the Day scope will show the mood for each entry or each track listened to on the selected day. The Year scope will show average mood values for entries and music during each month, along with other aggregated data.</p>
+
+
+
+<p>Moods by days or months can be conveniently viewed on a timeline, displaying valence and arousal values as two separate lines. By clicking on a specific timestamp, a point will appear on the mood map showing where you were on the emotional spectrum.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img alt="Moodset Image 4" class="wp-image-15196" height="540" src="https://nesslabs.com/wp-content/uploads/2024/05/moodset-image-3.jpg" width="960" /></figure></div>
+
+
+<p><strong>The visual mood map sounds amazing. How can it be used to effectively manage your mood?</strong></p>
+
+
+
+<p>Keeping a mood journal can be beneficial even if you never intend to revisit what you’ve written. Numerous studies, including this <a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.1997.tb00403.x">one</a>, suggest that when people write about their emotional experiences, it significantly improves their mental and physical health. If you also analyze your past entries and compare them with changes in your mood, you can understand the long-term effects of various experiences. You can identify recurring experiences that significantly impact your mental state. In fact, analysis can reveal a lot.</p>
+
+
+
+<p>Regarding the mood of the music you listen to, this provides additional context. For instance, you might mark your average mood for the day as relaxed in the evening, not remembering that you were quite energized and dancing to your favorite tracks in the middle of the day. In such cases, the musical data will remind you of that.</p>
+
+
+
+<p>Alternatively, if you didn’t make any entries yesterday but see that you listened to angry death metal, you might conclude that things probably weren’t going well for you. It’s important to note that for some people, listening to angry death metal is a daily norm and doesn’t necessarily mean they were angry. This person will have their own patterns in music listening and its connections to their mood. Observation and identification of patterns relevant to you are required.</p>
+
+
+
+<p>Tracking musical mood can also reveal that sad music dominates your playlist. This might not only reflect your mood but also influence it. Try experimenting by listening to more positive and energetic music for several days. This might improve your mood. The app can help with this, too. Select your desired mood, your favorite genre, and create a playlist.</p>
+
+
+
+<p><strong>How often do you think people should track their mood?</strong></p>
+
+
+
+<p>I track my mood every day. However, the optimal frequency depends on an individual’s needs and preferences. Daily mood tracking offers a detailed and comprehensive picture of a person’s emotional fluctuations. It can help quickly identify patterns and triggers related to specific events, activities, or times of the day.</p>
+
+
+
+<p>However, for some, daily tracking may be too burdensome. In such cases, trying weekly mood tracking might be more suitable. This approach provides a broader perspective, making it easier to identify long-term trends without the need for daily entries.</p>
+
+
+
+<p>In any case, consistency is key. Choose an approach that allows you to record your mood without abandoning the practice.</p>
+
+
+
+<p><strong>What kind of people use Moodset?</strong></p>
+
+
+
+<p>First and foremost, these are people who care about their mental health. Those who want to live a full life enriched with the entire spectrum of emotions, and naturally, who want most of these emotions to be positive.</p>
+
+
+
+<p>Often, people start looking for solutions when they encounter problems, and so, people may come to Moodset when they are experiencing unpleasant feelings. These could be students, knowledge workers, or anyone deeply immersed in their work or business.</p>
+
+
+
+<p>For example, when a person is overloaded or things are not going well and they don’t pay enough attention to their inner world, stress accumulates and burnout occurs. This could have been prevented by reflecting while recording their experiences, or by identifying long-term shifts in mood by analyzing graphs. And if one cannot address these issues on their own, they can seek help from a specialist.</p>
+
+
+
+<p>I believe that many people do not take mental health seriously and do not realize that such an app could be useful for them. It not only helps prevent burnout and similar issues (which is already significant), but it can also help increase productivity, for instance. Productivity is heavily influenced by our mood. Therefore, the potential range of users is quite broad, though not all of them know this yet.</p>
+
+
+
+<p><strong>What about you, how do you use Moodset?</strong></p>
+
+
+
+<p>I use Moodset every day. As I tell you this, I have a streak of 185 consecutive days of logging my mood. I set up three reminders for mood entries: at 11am, 5pm, and 11pm. At each reminder, I summarize that part of the day. I reflect on how I feel at the moment, what emotions I experienced during that part of the day, and mark a point on the mood map that represents the average of all my states.</p>
+
+
+
+<p>Then, I consider all the factors that influenced my mood and mark them with pre-created tags. If there were any extreme experiences or if some thoughts are bothering me, I add a note. On days when I don’t add notes, the whole process takes less than a minute. In total, I spend 3 minutes a day and get three entries about how I felt in the morning, afternoon, and evening.</p>
+
+
+
+<p>This allows me to later analyze these data on graphs with different scopes. Additionally, I gain increased self-awareness every day. When I first started this practice, I was surprised to realize that without logging my mood, I didn’t even know what state I was in throughout the day. And I’m not even talking about reflecting on what influences my state. Usually, I only knew about my state when experiencing extreme emotions. Now, things are different.</p>
+
+
+
+<p>From time to time, I review how my mood changes throughout the month. The Month scope helps me with this. On the graph, I quickly find days when I was more aroused than usual or when my mood was too negative. Then, I select that day and go into the details to find out what caused it. By quickly reviewing the days that stand out from the general trend, I identify negative influences and try to eliminate these factors in the future.</p>
+
+
+
+<p>The Year scope also offers an interesting perspective, allowing me to see how my average mood changes month by month. It’s interesting to observe seasonal deviations or when a particular problem arises and remains unresolved for a long time.</p>
+
+
+
+<p>The same is true for music. I review the mood of the music I listen to across different scopes. Sometimes, there are obvious correlations with my mood entries. Top tracks, artists, and genres add context for analysis.</p>
+
+
+
+<p>Sometimes, I find myself in a mood that I want to enhance with music, and I don’t have a special playlist for that. Then, I use the corresponding function in the app to quickly create a playlist with that mood.</p>
+
+
+
+<p><strong>And finally… What’s next for Moodset?</strong></p>
+
+
+
+<p>The plans for Moodset are ambitious. It’s a lot for one person to handle, so I hope to start expanding the team at some moment.</p>
+
+
+
+<p>Let’s start with what I would like to accomplish in the near future. I definitely want to release Moodset for iOS. I also want to integrate with more streaming platforms. Regarding music, the accuracy of determining the mood of tracks will be improved (as it is not 100% accurate at the moment).</p>
+
+
+
+<p>There is also the idea to add analysis of the lyrics of the music being listened to, as they carry messages that influence our thoughts. I am currently studying the necessity and feasibility of implementing this.</p>
+
+
+
+<p>Looking at it more broadly, I plan to add more sources of mood and factors that influence mood, automating their collection wherever possible. Data analysis will also be enhanced, as it’s difficult to keep track of everything when there’s a lot of data. Moodset should become a platform that helps people live healthy and happy lives.</p>
+
+
+
+<p><strong>Thank you so much for your time, Oleksandr! Where can people learn more about Moodset?</strong></p>
+
+
+
+<p>Thank you, it was a pleasure talking with you. You can visit the website through this <a href="https://moodset.life/">link</a>. Also, follow us on <a href="https://twitter.com/moodset_life">Twitter</a>, <a href="https://www.instagram.com/moodset.life/">Instagram</a>, and <a href="https://t.me/moodset">Telegram</a>. It’s still empty there for now, but content and announcements will appear over time. I would also be glad to see you in the <a href="https://www.reddit.com/r/Moodset/">Reddit community</a>. Share your experience using Moodset. This will help make the app even better.</p>
+<p>The post <a href="https://nesslabs.com/moodset-featured-tool">Manage your Mood with Oleksandr Zhabin, founder of Moodset</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 12:33:23 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 12:33:23 +0000</pubDate>
+</item>
 
 <item>
 <title>The Shiny Toy Syndrome: When We Chase Novelty at Work</title>
