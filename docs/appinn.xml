@@ -4,6 +4,80 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】Subtitle Renamer —— 支持简繁识别的多平台字幕重命名工具</title>
+<link>https://meta.appinn.net/t/topic/56465</link>
+<guid>https://meta.appinn.net/t/topic/56465</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Subtitle Renamer</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<ul>
+<li>Windows</li>
+<li>MacOS</li>
+<li>Linux</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p>跨平台的<s>动画</s>字幕重命名工具，支持简繁识别、自定义后缀、编码转换等功能</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h2>
+<p>基于Python的又一款字幕重命名软件，解决了<s>我自己</s>其他软件的多种痛点：</p>
+<ol>
+<li>多平台支持：Windows，macOS 和 Linux</li>
+<li>自动识别字幕语言为简体还是繁体，并增加语言后缀</li>
+<li>可以选转换字幕至 UTF-8/UTF-8-SIG</li>
+<li>重命名完成后允许删除不需要的字幕</li>
+<li>移动字幕至视频文件夹</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>使用方式</h2>
+<ol>
+<li>拖入待更名的视频与字幕文件，需保持字幕与视频数量相等</li>
+<li>使用左下角的<code>简体</code>或<code>繁体</code>来选择字幕语言</li>
+<li>在设置中配置重命名时的可选项</li>
+<li>点击重命名</li>
+<li>完成！</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>截图预览</h2>
+<ul>
+<li>如需要更多功能支持，请在 Github 的 Issues 中提出，酌情添加</li>
+<li>如遇到程序错误，请在 Issues 中详细描述，并附上视频、字幕的文件名，以及出错的字幕文件，便于本地复现排查问题</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>截图预览</h2>
+<p><img alt="" height="" src="https://github.com/nuthx/subtitle-renamer/raw/main/image/screenshot.png" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>官方网站</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/nuthx/subtitle-renamer" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://repository-images.githubusercontent.com/660013258/e0328559-3536-46b4-8ef4-e31e72259bc1" width="690" /></div>
+
+<h3><a href="https://github.com/nuthx/subtitle-renamer" rel="noopener nofollow ugc" target="_blank">GitHub - nuthx/subtitle-renamer: 跨平台的字幕重命名工具 —— 支持简繁识别、自定义后缀、编码转换等功能</a></h3>
+
+  <p>跨平台的字幕重命名工具 —— 支持简繁识别、自定义后缀、编码转换等功能. Contribute to nuthx/subtitle-renamer development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56465">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 09:39:00 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 09:39:00 +0000</pubDate>
+</item>
 
 <item>
 <title>第三方的chrome插件库有哪些？</title>
