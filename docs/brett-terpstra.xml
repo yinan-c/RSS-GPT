@@ -4,14 +4,15 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Marked 2 and Obsidian</title>
 <link>https://brett.trpstra.net/link/535/16684070/marked-2-and-obsidian</link>
 <guid>https://brett.trpstra.net/link/535/16684070/marked-2-and-obsidian</guid>
 <content:encoded><![CDATA[
 <div> Obsidian, nvUltra, Marked, plugin, tutorial
-<br>
-<br>
+<br />
+<br />
 总结:本文介绍了Obsidian、nvUltra和Marked之间的集成使用。作者分享了如何将Marked与Obsidian结合使用，提供了安装插件的详细步骤。同时，还介绍了处理Obsidian语法的方法，包括使用自定义预处理器。最后，还提及了Obsidian的付费附加功能和即将到来的免费赠品。文章还提到nvUltra仍在测试阶段，但可以通过联系作者获得邀请加入测试。整体而言，本文是关于如何在Obsidian和Marked之间实现集成使用的实用指南。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -111,9 +112,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16684070.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-05-16T12:56:00-05:00</pubDate>
-<pubDate>2024-05-16T12:56:00-05:00</pubDate>
 </item>
-
 <item>
 <title>WriteMapper - writing with mind maps</title>
 <link>https://brett.trpstra.net/link/535/16671800/writemapper-writing-with-mind-maps</link>
