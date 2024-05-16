@@ -4,6 +4,115 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marked 2 and Obsidian</title>
+<link>https://brett.trpstra.net/link/535/16684070/marked-2-and-obsidian</link>
+<guid>https://brett.trpstra.net/link/535/16684070/marked-2-and-obsidian</guid>
+<content:encoded><![CDATA[
+<div> Obsidian, nvUltra, Marked, plugin, tutorial
+<br>
+<br>
+总结:本文介绍了Obsidian、nvUltra和Marked之间的集成使用。作者分享了如何将Marked与Obsidian结合使用，提供了安装插件的详细步骤。同时，还介绍了处理Obsidian语法的方法，包括使用自定义预处理器。最后，还提及了Obsidian的付费附加功能和即将到来的免费赠品。文章还提到nvUltra仍在测试阶段，但可以通过联系作者获得邀请加入测试。整体而言，本文是关于如何在Obsidian和Marked之间实现集成使用的实用指南。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Obsidian and Marked 2 icons" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/04/obsidian-marked-rb.jpg" title="Obsidian and Marked 2 icons" width="800" />
+              </noscript>
+            
+
+<p>I&rsquo;m not going to lie, <a href="https://obsidian.md/" title="Obsidian-Sharpen your thinking">Obsidian</a> is really cool. It&rsquo;s a Markdown-based note system that has a ton of cool features, and even more with its healthy plugin community.</p>
+
+<p>I don&rsquo;t see Obsidian as direct competition for <a href="https://nvultra.com/" title="nvUltra-Searchable, portable, MultiMarkdown notes">nvUltra</a><sup id="fnref:beta"><a class="footnote" href="https://brettterpstra.com#fn:beta" rel="footnote">1</a></sup>, where the main focus is rapid note-taking and full text search, which nvUltra does a superior job of. I actually open my main nvUltra Notebook in Obsidian as a Vault (both of which are just folders on your drive) and love the ease of using both apps together.</p>
+
+<p>Lee Garrett and Mike Schmitz have done some great Obsidian tutorials over at <a href="https://screencastsonline.com/members/aff/go/bterpstra">ScreenCastsOnline</a>. Check out:</p>
+
+<ul>
+  <li><a href="https://www.screencastsonline.com/tutorials/productivity/obsidian-basics?ref=bterpstra">Obsidian Basics</a> from Lee, giving a full tutorial for getting started with Obsidian</li>
+  <li><a href="https://www.screencastsonline.com/tutorials/productivity/obsidian-plugins-starter-kit?ref=bterpstra">Obsidian Plugins Starter Kit</a> from Mike, offering an overview of some great core and community plugins, with tips that will also serve you well for getting used to using plugins in general</li>
+</ul>
+
+<p>(I have an affiliate arrangement with SCO that gives me a little income if you subscribe. They make amazing videos so I&rsquo;m very happy to partner with them!)</p>
+
+<h3 id="integrating-with-marked-2">Integrating with Marked 2</h3>
+
+<p>The point of this post is not to get you to use Obsidian. It&rsquo;s about integrating <a href="https://marked2app.com/" title="Smarter tools for smarter writers">Marked 2</a> with Obsidian for those who already use it. Obsidian plugins offer some great Markdown preview features, but lack all of the writing and customization tools that Marked offers.</p>
+
+<p>Marked works perfectly with Obsidian. You just have to open the current note in Marked and changes show up with about a two-second delay in Marked as you edit (based on the rate that Obsidian autosaves). You can also open your entire Vault folder in Marked and it will always show you the note you&rsquo;re currently editing. It&rsquo;s just a bit of a pain to get these to Marked without revealing in Finder and dragging. So I made <a href="https://github.com/ttscoff/Marked2-obsidian" title="ttscoff/Marked2-obsidian">a plugin</a>.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="marked-sidebar-2.jpg" class="alignright" height="80" src="https://cdn3.brettterpstra.com/uploads/2024/04/marked-sidebar-2.jpg" title="marked-sidebar-2.jpg" width="146" />
+              </noscript>
+            
+<p>Eventually I&rsquo;d like to have this plugin available in Obsidian&rsquo;s Community Plugins, but the process of getting it accepted has been slow. If and when it is eventually merged, I&rsquo;ll update these instructions as the process will become much easier. In the meantime, you&rsquo;ll need to do a manual install:</p>
+
+<ol>
+  <li>
+    <p>Open the <code class="language-plaintext highlighter-rouge">.obsidian/plugins</code> folder in your Vault. The easiest way to get there is to open Obsidian Preferences, navigate to Community Plugins, then click the folder icon next to Installed Plugins.</p>
+
+    
+           <noscript class="loading-lazy">
+             <source media="(max-width: 640px)" />
+             <source type="image/webp" />
+             <source />
+             <img alt="browse-obsidian-plugins-800.jpg" class="aligncenter" height="206" src="https://cdn3.brettterpstra.com/uploads/2024/05/browse-obsidian-plugins-800.jpg" title="browse-obsidian-plugins-800.jpg" width="800" />
+           </noscript>
+         
+  </li>
+  <li>Create a folder called <code class="language-plaintext highlighter-rouge">Marked-obsidian</code> in the plugins folder.</li>
+  <li>Go to <a href="https://github.com/ttscoff/Marked2-obsidian/releases/latest">the latest release</a> of the Marked 2 plugin and download the <code class="language-plaintext highlighter-rouge">main.js</code> and <code class="language-plaintext highlighter-rouge">manifest.json</code> files to the <code class="language-plaintext highlighter-rouge">.obsidian/plugins/Marked-obsidian</code> folder.</li>
+  <li>Return to Obsidian Preferences -&gt; Community Plugins and you should now see the Marked plugin available. Enable it by clicking the slider.</li>
+</ol>
+
+<p>This gives you a sidebar button for opening the current note in Marked (which can be &ldquo;Marked blue&rdquo; or neutral to fit your theme), as well as two commands in the palette: &ldquo;Open note in Marked&rdquo; and &ldquo;Open vault in Marked.&rdquo;</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="obsidian-commands-800.jpg" class="aligncenter" height="268" src="https://cdn3.brettterpstra.com/uploads/2024/04/obsidian-commands-800.jpg" title="obsidian-commands-800.jpg" width="800" />
+              </noscript>
+            
+
+<h3 id="handling-obsidian-syntax">Handling Obsidian Syntax</h3>
+
+<p>If you&rsquo;re regularly opening Obsidian files in Marked, you might want to add a Custom Preprocessor for handling general Obsidian markup:</p>
+
+<ol>
+  <li>There&rsquo;s <a href="https://github.com/voostindie/obsidian-md-filter">this one</a> from voostinidie that does things like stripping YAML, stripping emojis, and converting wiki links to plain text. It has the nice benefit of replacing <code class="language-plaintext highlighter-rouge">![[file include]]</code> syntax with IA block syntax, which Marked will render. I may eventually add the Obsidian formatting as a valid option for file includes in Marked by default, based on interest. I had a PR accepted to this repo that adds some additional config options for replacing <code class="language-plaintext highlighter-rouge">[[wiki links]]</code> and other Obsidian syntax with links back to the note/header in Obsidian. See the README for configuration details. <a href="https://github.com/ttscoff/obsidian-md-filter">My own fork</a> will always have the latest changes.</li>
+  <li>This <a href="https://gist.github.com/radekkozak/9b07af0ff3c90d4dc51d3a4ab41b5b8f?permalink_comment_id=3740329">much simpler one</a> from radekkozak just handles wiki links, and converts them to <code class="language-plaintext highlighter-rouge">obsidian://</code> links for you, so clicking a link in Marked will open the linked note in Obsidian.</li>
+</ol>
+
+<blockquote class="tip">
+  <p>If you want to be able to render Obsidian notes differently from your usual documents in Marked, <a href="https://brettterpstra.com/projects/conductor/" title="Introducing the Marked Conductor">Conductor</a> is the perfect solution. You can see my own rules for handling Obsidian notes in the <a href="https://github.com/ttscoff/conductor-config/">sample config</a> I provide.</p>
+</blockquote>
+
+<p>This is my first Obsidian plugin, and I&rsquo;m not a regular Obsidian user (yet), so I don&rsquo;t know if I&rsquo;m going to really dig into creating more in the future. But this one serves its purpose well and I think a lot of people will find it handy.</p>
+
+<p>By the way, one handy feature of Obsidian is <a href="https://obsidian.md/sync">Obsidian Sync</a>, which is a paid add-on. But never fear, there&rsquo;s a giveaway coming up <a href="https://brettterpstra.com/giveaways/upcoming/">later this year</a> that will get you a free year. <a href="https://brettterpstra.com/subscribe/">Sign up for the newsletter</a> to stay in the loop on all of the sweet giveaways I have lined up.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:beta">
+      <p>Yes, nvUltra is still in beta, and development has been slow recently. However, the beta is working quite well and you can join just by contacting me through the email link on <a href="https://nvultra.com">the nvUltra site</a>.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:beta">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/112452116336496409" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F16%2Fmarked-2-and-obsidian%2F&amp;text=Marked+2+and+Obsidian&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F16%2Fmarked-2-and-obsidian%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16684070.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-05-16T12:56:00-05:00</pubDate>
+<pubDate>2024-05-16T12:56:00-05:00</pubDate>
+</item>
 
 <item>
 <title>WriteMapper - writing with mind maps</title>
