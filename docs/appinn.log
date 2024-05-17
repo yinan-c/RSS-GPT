@@ -25203,3 +25203,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-17 00:11:35.763746
+------------------------------------------------------
+Started: 2024-05-17 02:13:19.596349
+Existing_entries: 396
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chrome 125.0.6422.61 改老UI](https://meta.appinn.net/t/topic/56528)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-05-17 02:13:22.540631

@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chrome 125.0.6422.61 改老UI</title>
+<link>https://meta.appinn.net/t/topic/56528</link>
+<guid>https://meta.appinn.net/t/topic/56528</guid>
+<content:encoded><![CDATA[
+
+<p>chrome  125.0.6422.61 修改为老UI</p>
+<p>chrome快捷方式 &gt;属性<br />
+在目标"C:\Program Files\Google\Chrome\Application\chrome.exe"<br />
+引号后加上：<br />
+空格 --disable-features=CustomizeChromeSidePanel<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/9/59fa3953b7bef2d04dfad11d31d2fb0bd52c8288.png" title="chrome"><img alt="chrome" height="500" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/9/59fa3953b7bef2d04dfad11d31d2fb0bd52c8288.png" width="341" /></a></div><p></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56528">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 17 May 2024 01:08:34 +0000</pubDate>
+<pubDate>Fri, 17 May 2024 01:08:34 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】桌面时钟 &amp; 数字时钟——两款个性化极简时钟</title>
