@@ -4,6 +4,31 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>如果你听播客时需要看字幕，试试这个播客App（应该是首款支持本地AI字幕的播客客户端）</title>
+<link>https://meta.appinn.net/t/topic/56685</link>
+<guid>https://meta.appinn.net/t/topic/56685</guid>
+<content:encoded><![CDATA[
+
+<p><img alt=":arrow_double_down:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/arrow_double_down.png?v=12" title=":arrow_double_down:" width="20" />App Store: <a href="https://apps.apple.com/cn/app/castflow-%E6%AC%A1%E4%B8%96%E4%BB%A3%E6%92%AD%E5%AE%A2app/id1572179241" rel="noopener nofollow ugc">Castflow</a><br />
+Castflow是一个款iOS播客App,也是首款支持本地字幕生成的播客App。<br />
+目前支持中文，英文，日语，西班牙语德语多语言播客节目的转录。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#faq-1" name="faq-1"></a>FAQ</h3>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/d/d/dd11da5c748596c22024ef35956d57b2bbc111c2.jpeg" title="239shots_so"><img alt="239shots_so" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/d/d/dd11da5c748596c22024ef35956d57b2bbc111c2_2_666x500.jpeg" width="666" /></a></div><p></p>
+<p>Q：如何订阅播客节目？<br />
+A:  可选择多种方式： 1.App内搜索订阅 2.其他App导入（OPML）， 趋势页面有少量推荐播客；</p>
+<p>Q: 如何使用AI文字稿功能？<br />
+A: 使用AI文字稿需要先下载AI模型（功能路径：控制/AI模型列表），目前我们有两个模型（基本版字幕更加准确消耗设备性能比较大和微型版速度快但是准确率欠缺）请自主选择使用。下载模型之后选中已经下载的模型。在播放页详情页点击[AI文字稿]按钮可以加载。文字稿是逐渐分段加载的，播放时你可以点击特定的段落音频节目会跳转到特性段落。</p>
+<p>Q: 设备发烫怎么办？<br />
+A: 播放页设备里可以调整模型运行的模式为【节能模式】，此模式会减少设备性能消耗。还有一种方式就是切换使用【微型模型】（由于是本地AI推理，如果您的设备已经是iPhone12之前的型号可能及时这样也无法成功运行。）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>使用教学视频</h2>
+<p></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56685">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 20 May 2024 05:33:28 +0000</pubDate>
+<pubDate>Mon, 20 May 2024 05:33:28 +0000</pubDate>
+</item>
 
 <item>
 <title>求给Chrome上的Youtube用的画质增强滤镜</title>

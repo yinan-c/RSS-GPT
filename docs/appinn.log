@@ -25513,3 +25513,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-20 04:03:46.915030
+------------------------------------------------------
+Started: 2024-05-20 06:04:00.068591
+Existing_entries: 402
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [如果你听播客时需要看字幕，试试这个播客App（应该是首款支持本地AI字幕的播客客户端）](https://meta.appinn.net/t/topic/56685)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-05-20 06:04:04.005664
