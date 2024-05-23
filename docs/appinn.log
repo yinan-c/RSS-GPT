@@ -25820,3 +25820,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-23 08:03:52.924234
+------------------------------------------------------
+Started: 2024-05-23 10:04:13.304545
+Existing_entries: 405
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【自荐】boss直聘AI自动海投工具](https://meta.appinn.net/t/topic/56851)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-05-23 10:04:17.177897
