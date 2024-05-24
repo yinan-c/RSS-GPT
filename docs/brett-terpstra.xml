@@ -4,6 +4,58 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Conductor filters simplify basic operations</title>
+<link>https://brett.trpstra.net/link/535/16693021/conductor-filters-simplify-basic-operations</link>
+<guid>https://brett.trpstra.net/link/535/16693021/conductor-filters-simplify-basic-operations</guid>
+<content:encoded><![CDATA[
+<div> Filters, Marked, Conductor, Commands, Scripts
+<br>
+Filters是Conductor中的新功能，用于简化处理metadata等简单操作，可以通过filter：filterName(parameters)来操作。目前提供的Filters包括addMeta、stripMeta、setStyle、replace等，可以按顺序组合多个Filters。更新到最新版本以获得这些新功能。此外，还添加了test.sh文件用于方便测试配置。如果有需要添加的Filters，请在评论中提出。<br><br>总结: Filters是Conductor中的新功能，用于简化处理metadata等简单操作。可以通过filter来调用各种操作，也可以组合多个操作。更新到最新版本后可以使用test.sh文件进行配置测试。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/webp" />
+                <source />
+                <img alt="conductor.png" class="alignright" height="256" src="https://cdn3.brettterpstra.com/uploads/2024/04/conductor.png" title="conductor.png" width="256" />
+              </noscript>
+            
+<p><a href="https://brettterpstra.com/2024/04/25/introducing-the-marked-conductor/" title="Introducing the Marked Conductor">Last month</a> I released <a href="https://brettterpstra.com/projects/conductor">Conductor</a>, a tool for handling multiple Custom Processors in <a href="https://marked2app.com">Marked</a>. It allows you to use natural language conditions to determine which command or script to run, either as preprocessor or processor for Marked. But I found a lot of <a href="https://github.com/ttscoff/conductor-config/tree/main">my scripts</a> were just injecting metadata or performing other simple actions, so I added a new feature to Conductor called Filters. Filters are just shortcuts to avoid having to write simple (often 3 or 4 line) scripts.</p>
+
+<p>Like <code class="language-plaintext highlighter-rouge">command:</code> or <code class="language-plaintext highlighter-rouge">script:</code> actions, you can now just use <code class="language-plaintext highlighter-rouge">filter: filterName(parameters)</code> to do things like setting a Marked Style, injecting or stripping metadata (YAML/MMD aware), or doing search and replaces on the content. These can be run in a <code class="language-plaintext highlighter-rouge">sequence:</code> to combine multiple filters.</p>
+
+<h3 id="available-filters">Available Filters</h3>
+
+<p>The available filters are:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">addMeta(key, value)</code>/<code class="language-plaintext highlighter-rouge">setMeta(key, value)</code> &ndash; adds or updates a meta key, aware of YAML and MMD</li>
+  <li><code class="language-plaintext highlighter-rouge">stripMeta</code> &ndash; strips all metadata (YAML or MMD) from the content</li>
+  <li><code class="language-plaintext highlighter-rouge">stripMeta(key)</code> &ndash; removes a specific key (YAML or MMD)</li>
+  <li><code class="language-plaintext highlighter-rouge">setStyle(name)</code> &ndash; sets the Marked preview style to a preconfigured Style name</li>
+  <li><code class="language-plaintext highlighter-rouge">replace(search, replace)</code>/<code class="language-plaintext highlighter-rouge">replaceAll(search, replace)</code> &ndash; performs a search and replace (global with <code class="language-plaintext highlighter-rouge">replaceAll</code>).
+    <ul>
+      <li>If <em>search</em> is surrounded with forward slashes followed by optional flags (<em>i</em> for case-insensitive, <em>m</em> to make dot match newlines), e.g. <code class="language-plaintext highlighter-rouge">/contribut(ing)?/i</code>, it will be interpreted as a regular expression. The <em>replace</em> value can include numeric capture groups, e.g. <code class="language-plaintext highlighter-rouge">Follow$2</code>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Update to the latest version using <code class="language-plaintext highlighter-rouge">gem install marked-conductor</code> (may vary depending on how you installed it originally) to get the new features, see the <a href="https://brettterpstra.com/projects/conductor">project page</a> for details, and check out my <a href="https://github.com/ttscoff/conductor-config/tree/main">config</a> to see examples.</p>
+
+<p>If there are any simple procedures you&rsquo;re currently using scripts to handle that aren&rsquo;t covered by these, please let me know in the comments what filters you&rsquo;d like to see added!</p>
+
+<h3 id="also-easier-testing">Also, easier testing</h3>
+
+<p>There&rsquo;s now a file in the repo called <a href="https://github.com/ttscoff/marked-conductor/blob/main/test.sh"><code class="language-plaintext highlighter-rouge">test.sh</code></a> that makes it way easier to test configurations from the command line. Just run <code class="language-plaintext highlighter-rouge">test.sh FILENAME</code> to process a file as if it were being opened in Marked. You can use <code class="language-plaintext highlighter-rouge">-o err</code> to output only the STDERR response, which will show which conditions are being matched, and you can use <code class="language-plaintext highlighter-rouge">-p</code> to define the phase as either <code class="language-plaintext highlighter-rouge">pre</code> or <code class="language-plaintext highlighter-rouge">pro</code> to run as Preprocessor or Processor, respectively.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F24%2Fconductor-filters-simplify-basic-operations%2F&amp;text=Conductor+filters+simplify+basic+operations&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F24%2Fconductor-filters-simplify-basic-operations%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16693021.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-05-24T13:37:00-05:00</pubDate>
+<pubDate>2024-05-24T13:37:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Marked 2 and Obsidian</title>
