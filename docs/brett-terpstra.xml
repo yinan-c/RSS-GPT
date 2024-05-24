@@ -4,14 +4,15 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Conductor filters simplify basic operations</title>
 <link>https://brett.trpstra.net/link/535/16693021/conductor-filters-simplify-basic-operations</link>
 <guid>https://brett.trpstra.net/link/535/16693021/conductor-filters-simplify-basic-operations</guid>
 <content:encoded><![CDATA[
 <div> Filters, Marked, Conductor, Commands, Scripts
-<br>
-Filters是Conductor中的新功能，用于简化处理metadata等简单操作，可以通过filter：filterName(parameters)来操作。目前提供的Filters包括addMeta、stripMeta、setStyle、replace等，可以按顺序组合多个Filters。更新到最新版本以获得这些新功能。此外，还添加了test.sh文件用于方便测试配置。如果有需要添加的Filters，请在评论中提出。<br><br>总结: Filters是Conductor中的新功能，用于简化处理metadata等简单操作。可以通过filter来调用各种操作，也可以组合多个操作。更新到最新版本后可以使用test.sh文件进行配置测试。 <div>
+<br />
+Filters是Conductor中的新功能，用于简化处理metadata等简单操作，可以通过filter：filterName(parameters)来操作。目前提供的Filters包括addMeta、stripMeta、setStyle、replace等，可以按顺序组合多个Filters。更新到最新版本以获得这些新功能。此外，还添加了test.sh文件用于方便测试配置。如果有需要添加的Filters，请在评论中提出。<br /><br />总结: Filters是Conductor中的新功能，用于简化处理metadata等简单操作。可以通过filter来调用各种操作，也可以组合多个操作。更新到最新版本后可以使用test.sh文件进行配置测试。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/webp" />
@@ -54,9 +55,7 @@ Filters是Conductor中的新功能，用于简化处理metadata等简单操作�
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16693021.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-05-24T13:37:00-05:00</pubDate>
-<pubDate>2024-05-24T13:37:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Marked 2 and Obsidian</title>
 <link>https://brett.trpstra.net/link/535/16684070/marked-2-and-obsidian</link>
