@@ -4,6 +4,61 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Man, I should have started Conductor with filters</title>
+<link>https://brett.trpstra.net/link/535/16693490/man-i-should-have-started-conductor-with-filters</link>
+<guid>https://brett.trpstra.net/link/535/16693490/man-i-should-have-started-conductor-with-filters</guid>
+<content:encoded><![CDATA[
+<div> YAML文件, 配置，插入TOC, 文件插入, 代码块插入<br>
+<br>
+总结:<br>
+本文介绍了如何通过在YAML配置文件中添加一些新的过滤器来方便地进行配置，如插入表格目录、在内容开头或结尾插入文件、插入原始HTML或代码块等。通过这些过滤器，可以实现在文档中插入目录、文件、原始HTML或代码块的功能。插入的文件可以是绝对路径，也可以存储在指定路径并以文件名引用。这些过滤器使得通常需要使用脚本来完成的任务变得简单，只需一行配置即可。适用于生成PDF、HTML或Markdown文档。最后介绍了如何使用新的insertScript()过滤器添加Mermaid或自定义的MathJax实现。文章提供了更多详细信息。 <div>
+<p>I added a few more (obvious) <a href="https://brettterpstra.com/2024/05/24/conductor-filters-simplify-basic-operations/">filters</a> to <a href="https://brettterpstra.com/projects/conductor">Conductor</a> this morning. I really should have started here, it makes configuration so convenient and alleviates the need for about 50% of what you would do with scripting. Now you can do it all from one YAML file.</p>
+
+<p>The new filters are:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">insertTOC(max, after)</code></td>
+      <td>insert TOC (max=max levels, after=start, *h1, or h2)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">prepend/appendFile(path)</code></td>
+      <td>insert a file as Markdown at beginning or end of content</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">prepend/appendRaw(path)</code></td>
+      <td>insert a file as raw HTML at beginning or end of content</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">prepend/appendCode(path)</code></td>
+      <td>insert a file as a code block at beginning or end of content</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>These allow you to insert a table of contents and append or prepend files, raw HTML, or code blocks.</p>
+
+<p>Inserted files can be absolute paths or you can store templates in <code class="language-plaintext highlighter-rouge">~/.config/conductor/files</code> and just reference them by filename. Perfect for adding things like bios and disclaimers to your documents before outputing them (as PDF, HTML, or even as a new Markdown document).</p>
+
+<p>The table of contents can be inserted at the top (&ldquo;start&rdquo; or &ldquo;top&rdquo;) or after the first h1 or h2 in the document.</p>
+
+<p>If you use <code class="language-plaintext highlighter-rouge">insertTOC(3, h1)</code> after an <code class="language-plaintext highlighter-rouge">insertTitle</code> in a <code class="language-plaintext highlighter-rouge">sequence</code>, you&rsquo;d get a title inserted from metadata first, then a TOC inserted after it. (Then use the new <code class="language-plaintext highlighter-rouge">insertScript()</code> filter to add Mermaid or a custom MathJax implementation. Sky&rsquo;s the limit, kind of.)</p>
+
+<p>These filters make some of the more basic tasks you&rsquo;d usually perform with a Custom Processor script as easy as one line in a config file.</p>
+
+<p>Full details on the <a href="https://brettterpstra.com/projects/conductor">project page</a>.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F25%2Fman-i-should-have-started-conductor-with-filters%2F&amp;text=Man%2C+I+should+have+started+Conductor+with+filters&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F25%2Fman-i-should-have-started-conductor-with-filters%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16693490.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-05-25T11:42:00-05:00</pubDate>
+<pubDate>2024-05-25T11:42:00-05:00</pubDate>
+</item>
 
 <item>
 <title>I can't believe I forgot this Conductor filter</title>
