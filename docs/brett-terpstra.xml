@@ -4,14 +4,15 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Man, I should have started Conductor with filters</title>
 <link>https://brett.trpstra.net/link/535/16693490/man-i-should-have-started-conductor-with-filters</link>
 <guid>https://brett.trpstra.net/link/535/16693490/man-i-should-have-started-conductor-with-filters</guid>
 <content:encoded><![CDATA[
-<div> YAML文件, 配置，插入TOC, 文件插入, 代码块插入<br>
-<br>
-总结:<br>
+<div> YAML文件, 配置，插入TOC, 文件插入, 代码块插入<br />
+<br />
+总结:<br />
 本文介绍了如何通过在YAML配置文件中添加一些新的过滤器来方便地进行配置，如插入表格目录、在内容开头或结尾插入文件、插入原始HTML或代码块等。通过这些过滤器，可以实现在文档中插入目录、文件、原始HTML或代码块的功能。插入的文件可以是绝对路径，也可以存储在指定路径并以文件名引用。这些过滤器使得通常需要使用脚本来完成的任务变得简单，只需一行配置即可。适用于生成PDF、HTML或Markdown文档。最后介绍了如何使用新的insertScript()过滤器添加Mermaid或自定义的MathJax实现。文章提供了更多详细信息。 <div>
 <p>I added a few more (obvious) <a href="https://brettterpstra.com/2024/05/24/conductor-filters-simplify-basic-operations/">filters</a> to <a href="https://brettterpstra.com/projects/conductor">Conductor</a> this morning. I really should have started here, it makes configuration so convenient and alleviates the need for about 50% of what you would do with scripting. Now you can do it all from one YAML file.</p>
 
@@ -57,9 +58,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16693490.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-05-25T11:42:00-05:00</pubDate>
-<pubDate>2024-05-25T11:42:00-05:00</pubDate>
 </item>
-
 <item>
 <title>I can't believe I forgot this Conductor filter</title>
 <link>https://brett.trpstra.net/link/535/16693412/i-cant-believe-i-forgot-this-conductor-filter</link>
