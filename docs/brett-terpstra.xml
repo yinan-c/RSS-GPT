@@ -4,6 +4,45 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>I can't believe I forgot this Conductor filter</title>
+<link>https://brett.trpstra.net/link/535/16693412/i-cant-believe-i-forgot-this-conductor-filter</link>
+<guid>https://brett.trpstra.net/link/535/16693412/i-cant-believe-i-forgot-this-conductor-filter</guid>
+<content:encoded><![CDATA[
+<div> insertScript, insertTitle, JavaScript, config, BrettTerpstra
+
+JavaScript中新增了insertScript过滤器，可以插入JS脚本；insertTitle过滤器可提取标题并插入内容中。通过配置文件实现自动化操作，支持自定义路径和脚本。提高了使用便捷性和灵活性，增强了功能性。文章介绍了这些新增功能，并希望读者提供更多有用建议。总结:JavaScript功能扩展，配置文件实现自动化操作，提高使用便捷性和灵活性。 <div>
+<p>So yesterday I announced a new feature in <a href="https://brettterpstra.com/projects/conductor/">Conductor</a> called <a href="https://brettterpstra.com/2024/05/24/conductor-filters-simplify-basic-operations/">Filters</a>. Little built-in commands for performing simple tasks without having to write whole scripts for them. In the process of writing the feature, I forgot what might be the most useful function of all: injecting JavaScripts.</p>
+
+<p>So I&rsquo;ve added <code class="language-plaintext highlighter-rouge">insertScript(path)</code> as a filter. You can give it a full path to a JavaScript file, or you can create a directory at <code class="language-plaintext highlighter-rouge">~/.config/conductor/javascript</code>, add the file there, and then just reference it by name like <code class="language-plaintext highlighter-rouge">filter: insertScript(mermaid)</code> (the <code class="language-plaintext highlighter-rouge">.js</code> is added automatically if needed). You can insert multiple scripts at once by separating the paths with commas, e.g. <code class="language-plaintext highlighter-rouge">insertScript(blog,mermaid)</code>.</p>
+
+<p>I also added an <code class="language-plaintext highlighter-rouge">insertTitle</code> filter that will attempt to pull a title out of metadata (YAML or MMD), and failing that use the filename, converting a slug into a titlecased title (e.g. <code class="language-plaintext highlighter-rouge">2024-05-24-my-blog-post.md</code> becomes <code class="language-plaintext highlighter-rouge">My Blog Post</code>), and insert it as an H1 at the beginning of the content (after any front matter/metadata).</p>
+
+<p>An example config for using this (assuming the scripts <code class="language-plaintext highlighter-rouge">blog.js</code> and <code class="language-plaintext highlighter-rouge">mermaid.js</code> exist in the above directory) would look like:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="na">tracks</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">condition</span><span class="pi">:</span> <span class="s">phase is pre</span>
+    <span class="na">tracks</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Blog post preprocess</span>
+      <span class="na">condition</span><span class="pi">:</span> <span class="s">path contains _post AND has yaml</span>
+      <span class="na">sequence</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">filter</span><span class="pi">:</span> <span class="s">setStyle(BrettTerpstra.com)</span>
+        <span class="pi">-</span> <span class="na">filter</span><span class="pi">:</span> <span class="s">addTitle</span>
+        <span class="pi">-</span> <span class="na">filter</span><span class="pi">:</span> <span class="s">insertScript(blog,mermaid)</span></code></pre></div></div>
+
+<p>That config would require no scripting at all. The style would be set, an h1 title would be added, and two scripts would be injected before running through the default Marked processor.</p>
+
+<p>If you think of any more that would be useful, please let me know!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F25%2Fi-cant-believe-i-forgot-this-conductor-filter%2F&amp;text=I+can%27t+believe+I+forgot+this+Conductor+filter&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F05%2F25%2Fi-cant-believe-i-forgot-this-conductor-filter%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16693412.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-05-25T08:18:00-05:00</pubDate>
+<pubDate>2024-05-25T08:18:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Conductor filters simplify basic operations</title>
