@@ -4,6 +4,87 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>ToQQMusic: 优雅地将歌单转移到 QQ 音乐</title>
+<link>https://meta.appinn.net/t/topic/56937</link>
+<guid>https://meta.appinn.net/t/topic/56937</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>名称</h2>
+<p>To QQMusic</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>平台</h2>
+<ul>
+<li>Windows</li>
+<li>Linux</li>
+<li>Mac OS</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>类型</h2>
+<ul>
+<li>开发者自荐</li>
+<li>开源免费</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h2>
+<p><s>优雅地</s>将网易云音乐（或其他音乐平台）的歌单转换到 QQ 音乐。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>简介</h2>
+<p>虽然各大音乐平台都有歌单导入功能，但都有两个我无法接受的地方：</p>
+<ul>
+<li>识别错误：部分歌曲在曲库中存在，但匹配不到或者匹配错误；</li>
+<li>顺序错误：导入歌单后的顺序与原平台歌单的顺序不同。</li>
+</ul>
+<p>刚好因为一些原因，我打算放弃网易云音乐，顺便就做了这个项目。</p>
+<p>工作流程简述如下：</p>
+<ol>
+<li>读取特定格式的歌曲列表（从其他平台自行导出，文档中提供一种导出网易云音乐歌单的方法）</li>
+<li>在 QQ 音乐曲库中搜索对应歌曲</li>
+<li>用户选择正确歌曲添加到 QQ 音乐歌单中</li>
+</ol>
+<h3><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>特点</h3>
+<ul>
+<li>保留原始歌单顺序</li>
+<li>自由选择每首歌的匹配结果</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>缺陷</h3>
+<ul>
+<li>即使有完全匹配的结果，也必须手动选择</li>
+<li>NodeJS 项目，体积小不了</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>使用</h3>
+<p>Release 中提供打包的 Windows 二进制文件，其余平台从源码启动。</p>
+<p>其他内容详见 Github Repo</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>功能预览</h2>
+<p><img alt="preview" height="" src="https://h1.appinn.net/file/d1e706ea8e328ced03f10.gif" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-10" name="h-10"></a>项目地址</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/alex3236/ToQQMusic" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/76dff7ce5eb0876ad7ee7c862662aad8f8dc097ba4cacbe8eb41694619406595/alex3236/ToQQMusic" width="690" /></div>
+
+<h3><a href="https://github.com/alex3236/ToQQMusic" rel="noopener nofollow ugc" target="_blank">GitHub - alex3236/ToQQMusic: 优雅地将网易云音乐（或其他音乐平台）的歌单转换到 QQ 音乐</a></h3>
+
+  <p>优雅地将网易云音乐（或其他音乐平台）的歌单转换到 QQ 音乐. Contribute to alex3236/ToQQMusic development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/56937">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 26 May 2024 08:14:21 +0000</pubDate>
+<pubDate>Sun, 26 May 2024 08:14:21 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】GIF动图助手: 免费无广告的GIF制作和编辑工具</title>

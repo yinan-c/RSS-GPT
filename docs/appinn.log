@@ -26224,3 +26224,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-27 12:04:49.241543
+------------------------------------------------------
+Started: 2024-05-27 14:03:30.448107
+Existing_entries: 409
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [ToQQMusic: 优雅地将歌单转移到 QQ 音乐](https://meta.appinn.net/t/topic/56937)
+append_entries: 1
+Finish: 2024-05-27 14:03:33.834294
