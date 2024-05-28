@@ -19124,3 +19124,12 @@ Existing_entries: 347
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-05-28 08:04:04.692751
+------------------------------------------------------
+Started: 2024-05-28 10:03:48.769231
+Existing_entries: 347
+Fetching from https://rknight.me/feed.xml
+Token length: 7768
+Summarized using GPT-3.5-turbo
+Append: [Adding Covers to Almanac](https://rknight.me/blog/adding-covers-to-almanac/)
+append_entries: 1
+Finish: 2024-05-28 10:03:55.482088
