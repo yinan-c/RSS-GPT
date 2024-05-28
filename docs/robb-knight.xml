@@ -4,13 +4,14 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Adding Covers to Almanac</title>
 <link>https://rknight.me/blog/adding-covers-to-almanac/</link>
 <guid>https://rknight.me/blog/adding-covers-to-almanac/</guid>
 <content:encoded><![CDATA[
 <div> API, 数据处理, 海报, 资源下载, 前端显示
-总结:<br><br>文章介绍了作者如何利用API获取数据并进行处理，下载海报资源，并在前端页面展示的过程。首先，作者通过API获取电影和电视剧信息，提取标题和年份，再通过匹配年份和发布日期找到对应信息并添加到文章中，并下载海报到本地。然后，作者对电视剧的API调用和匹配进行了调整。接着，作者转向游戏数据处理，使用不同的API和匹配规则，添加游戏信息到文章中并设置相关链接。最后，作者手动处理书籍和漫画信息，并搭建前端展示页面，根据不同ID类型返回对应图片URL，为未来CMS的搭建做好准备。 <div>
+总结:<br /><br />文章介绍了作者如何利用API获取数据并进行处理，下载海报资源，并在前端页面展示的过程。首先，作者通过API获取电影和电视剧信息，提取标题和年份，再通过匹配年份和发布日期找到对应信息并添加到文章中，并下载海报到本地。然后，作者对电视剧的API调用和匹配进行了调整。接着，作者转向游戏数据处理，使用不同的API和匹配规则，添加游戏信息到文章中并设置相关链接。最后，作者手动处理书籍和漫画信息，并搭建前端展示页面，根据不同ID类型返回对应图片URL，为未来CMS的搭建做好准备。 <div>
 <p><img alt="Almanac poster grid" src="https://cdn.rknight.me/site/almanac-posters.jpg" /></p>
 <p><a href="/almanac">Almanac</a>, my media logging blog, has been ported across multiple systems in the past few years. Of the ~1300 posts, some were manually entered, some were done via an API, some were imported from Letterboxd. The data was sporadic at best and I had no posters or covers which after seeing <a href="https://patmurray.co/watched/">Pat's watched page</a> and <a href="https://stegrainer.com/media/">Ste's media page</a> I knew I wanted to have.</p>
 <h3>Movies and TV</h3>
@@ -51,10 +52,8 @@
 <p>This was also the perfect opportunity to use <a href="https://www.zachleat.com/web/hypercard/">Zach's <code>hyper-card</code> component</a>. I'm using it on the grid view and <a href="https://rknight.me/almanac/movies/2024-04-23-spider-man-into-the-spider-verse-2018/">the single entry page</a>.</p>
 <p>This was, aside from a nice way to display my entries, a prerequisite for starting my new CMS. Knowing what the file structure was going to look like will make it a lot easier to build the media logging part of the system.</p>
 ]]></content:encoded>
-
 <pubDate>2024-05-28T08:18:19Z</pubDate>
 </item>
-
 <item>
 <title>Orzo Bolognese Recipe</title>
 <link>https://rknight.me/blog/orzo-bolognese-recipe/</link>

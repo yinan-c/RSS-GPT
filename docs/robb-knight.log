@@ -19133,3 +19133,9 @@ Summarized using GPT-3.5-turbo
 Append: [Adding Covers to Almanac](https://rknight.me/blog/adding-covers-to-almanac/)
 append_entries: 1
 Finish: 2024-05-28 10:03:55.482088
+------------------------------------------------------
+Started: 2024-05-28 12:04:58.917016
+Existing_entries: 348
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-05-28 12:05:01.504712

@@ -23690,3 +23690,15 @@ Summarized using GPT-3.5-turbo
 Append: [为了缩短批量处理工作时长，我做了一款 Figma 插件](https://sspai.com/post/89084)
 append_entries: 1
 Finish: 2024-05-28 10:03:47.272695
+------------------------------------------------------
+Started: 2024-05-28 12:04:46.526679
+Existing_entries: 816
+Fetching from https://rsshub.app/sspai/index
+Token length: 8455
+Summarized using GPT-3.5-turbo
+Append: [社区速递 046 | 龙珠大冒险、作者的新玩意以及派友在用的导航](https://sspai.com/post/89150)
+Token length: 5508
+Summarized using GPT-3.5-turbo
+Append: [从零到终点线：我如何跑完人生第一场马拉松](https://sspai.com/post/89067)
+append_entries: 2
+Finish: 2024-05-28 12:04:57.381024
