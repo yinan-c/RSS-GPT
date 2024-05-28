@@ -4,3 +4,5 @@ openai
 jinja2
 beautifulsoup4
 httpx
+requests
+fake_useragent

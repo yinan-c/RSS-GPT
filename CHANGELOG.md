@@ -1,4 +1,6 @@
 # CHANGELOG
+- 2024-05-28:
+  - Added useragent to the requests to avoid 403 error.
 - 2024-04-20:
   - Removed secret, U-EMAIL, bot will commit and push instead.
 - 2023-11-06:

@@ -3,6 +3,7 @@
 [![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=feeds%20refreshed)](https://yinan-c.github.io/RSS-GPT/)
 [![](https://img.shields.io/github/license/yinan-c/RSS-GPT)](https://github.com/yinan-c/RSS-GPT/blob/master/LICENSE)
 
+如果想要一个网页端 GUI 来更好地管理 feeds，请关注我的最新项目：[RSSBrew](https://github.com/yinan-c/RSSBrew)，一个开源自托管的 RSS-GPT 替代方案，在过滤，自定义 prompt 等方面更加强大。
 
 ## 这是什么？
 

@@ -23635,3 +23635,25 @@ Fetching from https://rsshub.app/sspai/index
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2024-05-28 02:42:50.743963
+Existing_entries: 805
+Fetching from https://rsshub.app/sspai/index
+Append: [派早报：荣耀发布 200 系列新机，夏普小米签订专利交叉许可协议等](https://sspai.com/post/89139)
+Append: [派评 | 近期值得关注的 App](https://sspai.com/post/89134)
+Append: [TA 有好物 | 夏天到来快乐吃冰，来试试一拉就出的「懒人冰格」](https://sspai.com/post/67455)
+Append: [自力更生 | 守护一方赛博净土，我的自建服务思路分享](https://sspai.com/post/88959)
+Append: [微小成就感引发的全民连胜语言学习-多邻国APP](https://sspai.com/post/89013)
+Append: [派早报：ICQ 将于 6 月关闭](https://sspai.com/post/89109)
+Append: [找不到好听的新歌？从这些地方扩充你的华语曲库](https://sspai.com/post/89093)
+Append: [用计算机科学的方法优化个人任务管理](https://sspai.com/post/87071)
+Append: [关于代糖，你应该多了解的几个问题](https://sspai.com/post/88928)
+Append: [本周看什么 | 最近值得一看的 11 部作品](https://sspai.com/post/89070)
+append_entries: 10
+Finish: 2024-05-28 02:42:50.989531
+------------------------------------------------------
+Started: 2024-05-28 02:45:17.900278
+Existing_entries: 815
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-05-28 02:45:18.048340

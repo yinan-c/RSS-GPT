@@ -7,7 +7,27 @@ from jinja2 import Template
 from bs4 import BeautifulSoup
 import re
 import datetime
+import requests
+from fake_useragent import UserAgent
 #from dateutil.parser import parse
+
+def fetch_feed(url, log_file):
+    feed = None
+    response = None
+    headers = {}
+    try:
+        ua = UserAgent()
+        headers['User-Agent'] = ua.random.strip()
+        response = requests.get(url, headers=headers, timeout=30)
+        if response.status_code == 200:
+            feed = feedparser.parse(response.text)
+            return {'feed': feed, 'status': 'success'}
+        else:
+            logging.error(f"Fetch error: {response.status_code}")
+            return {'feed': None, 'status': response.status_code}
+    except requests.RequestException as e:
+        logging.error(f"Fetch error: {e}")
+        return {'feed': None, 'status': 'failed'}
 
 def generate_untitled(entry):
     try: return entry.title
@@ -199,14 +219,10 @@ def output(sec, language):
         with open(log_file, 'a') as f:
             f.write(f"Fetching from {rss_url}\n")
             print(f"Fetching from {rss_url}")
-        feed = feedparser.parse(rss_url)
-        if feed.status != 200:
+        feed = fetch_feed(rss_url, log_file)['feed']
+        if not feed:
             with open(log_file, 'a') as f:
-                f.write(f"Feed error: {feed.status}\n")
-            continue
-        if feed.bozo:
-            with open(log_file, 'a') as f:
-                f.write(f"Feed error: {feed.bozo_exception}\n")
+                f.write(f"Fetch failed from {rss_url}\n")
             continue
         for entry in feed.entries:
             if cnt > max_entries:

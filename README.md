@@ -3,6 +3,7 @@
 [![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=feeds%20refreshed)](https://yinan-c.github.io/RSS-GPT/)
 [![](https://img.shields.io/github/license/yinan-c/RSS-GPT)](https://github.com/yinan-c/RSS-GPT/blob/master/LICENSE)
 
+If you need a web GUI to manage feeds better, check out my latest project: [RSSBrew](https://github.com/yinan-c/RSSBrew), a self-hosted RSS-GPT alternative with more features and customizability, built with Django.
 
 ## What is this?
 
@@ -25,7 +26,7 @@ Using GitHub Actions to run a simple Python script repeatedly: Calling OpenAI AP
 - Add Repository Secrets
     - U_NAME: your GitHub username
     - U_EMAIL: your GitHub email
-    - WORK_TOKEN: your GitHub personal accesstoken with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
+    - WORK_TOKEN: your GitHub personal access token with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
     - OPENAI_API_KEY(OPTIONAL, only needed when using AI summarization feature): Get it from [OpenAI website](https://platform.openai.com/account/api-keys)
 - Enable GitHub Pages in repo settings, choose deploy from branch, and set the directory to `/docs`.
 - Configure your RSS feeds in config.ini
