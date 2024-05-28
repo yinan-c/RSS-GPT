@@ -23,10 +23,12 @@ def fetch_feed(url, log_file):
             feed = feedparser.parse(response.text)
             return {'feed': feed, 'status': 'success'}
         else:
-            logging.error(f"Fetch error: {response.status_code}")
+            with open(log_file, 'a') as f:
+                f.write(f"Fetch error: {response.status_code}\n")
             return {'feed': None, 'status': response.status_code}
     except requests.RequestException as e:
-        logging.error(f"Fetch error: {e}")
+        with open(log_file, 'a') as f:
+            f.write(f"Fetch error: {e}\n")
         return {'feed': None, 'status': 'failed'}
 
 def generate_untitled(entry):
