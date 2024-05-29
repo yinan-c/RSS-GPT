@@ -19235,3 +19235,12 @@ Existing_entries: 348
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-05-29 20:03:45.330666
+------------------------------------------------------
+Started: 2024-05-29 22:03:22.029685
+Existing_entries: 348
+Fetching from https://rknight.me/feed.xml
+Token length: 273
+Summarized using GPT-3.5-turbo
+Append: [Link Dump #4](https://rknight.me/blog/link-dump-4/)
+append_entries: 1
+Finish: 2024-05-29 22:03:28.167302
