@@ -23738,3 +23738,12 @@ Existing_entries: 818
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-29 00:12:27.586817
+------------------------------------------------------
+Started: 2024-05-29 02:15:48.550949
+Existing_entries: 818
+Fetching from https://rsshub.app/sspai/index
+Token length: 1848
+Summarized using GPT-3.5-turbo
+Append: [派早报：腾讯应用宝与 Microsoft Store 达成合作等](https://sspai.com/post/89166)
+append_entries: 1
+Finish: 2024-05-29 02:15:51.435476
