@@ -5313,3 +5313,12 @@ Existing_entries: 25
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-05-30 04:04:52.979039
+------------------------------------------------------
+Started: 2024-05-30 06:04:30.183987
+Existing_entries: 25
+Fetching from https://nesslabs.com/feed
+Token length: 7912
+Summarized using GPT-3.5-turbo
+Append: [From FOMO to JOMO: The Joy of Missing out](https://nesslabs.com/jomo?utm_source=rss&utm_medium=rss&utm_campaign=jomo)
+append_entries: 1
+Finish: 2024-05-30 06:04:33.083617

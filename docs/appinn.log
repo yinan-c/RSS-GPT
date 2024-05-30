@@ -26497,3 +26497,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-05-30 04:04:35.439996
+------------------------------------------------------
+Started: 2024-05-30 06:04:06.729779
+Existing_entries: 410
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [怎样才能更方便的开关chrome的实时字幕(live caption)？](https://meta.appinn.net/t/topic/57079)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-05-30 06:04:09.708235
