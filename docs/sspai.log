@@ -23831,3 +23831,9 @@ Summarized using GPT-3.5-turbo
 Append: [派早报：Apple 发布 WWDC 邀请函、《使命召唤 21》将加入 XGP 等](https://sspai.com/post/89208)
 append_entries: 1
 Finish: 2024-05-30 02:15:06.310823
+------------------------------------------------------
+Started: 2024-05-30 04:04:40.402479
+Existing_entries: 823
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-05-30 04:04:40.625973
