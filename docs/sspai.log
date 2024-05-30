@@ -23861,3 +23861,12 @@ Existing_entries: 825
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-30 10:03:45.627512
+------------------------------------------------------
+Started: 2024-05-30 12:04:53.421194
+Existing_entries: 825
+Fetching from https://rsshub.app/sspai/index
+Token length: 4346
+Summarized using GPT-3.5-turbo
+Append: [新玩意 184｜少数派的编辑们最近买了啥？](https://sspai.com/post/89223)
+append_entries: 1
+Finish: 2024-05-30 12:05:00.211286
