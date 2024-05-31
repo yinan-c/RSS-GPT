@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>全平台通用换源工具 chsrc</title>
 <link>https://meta.appinn.net/t/topic/57121</link>
 <guid>https://meta.appinn.net/t/topic/57121</guid>
 <content:encoded><![CDATA[
-
 <p>逛v2ex发现的</p>
 <p>一个二进制文件，<code>chsrc</code>，支持 Windows,Linux,macOS</p>
 <p>可换源 Ubuntu, debian 等等 Linux 发行版，<code>npm</code>,<code>yarn</code>,<code>pnpm</code>,<code>pip</code>,<code>rubygems</code>,<code>CPAN</code>,<code>CTAN</code> <code>crates</code>,<code>go mod</code> 等等</p>
@@ -127,9 +127,7 @@ conda   anaconda
             <p><a href="https://meta.appinn.net/t/topic/57121">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 31 May 2024 02:01:57 +0000</pubDate>
-<pubDate>Fri, 31 May 2024 02:01:57 +0000</pubDate>
 </item>
-
 <item>
 <title>求一款跨平台的任务计划管理应用，可以指定时间提醒</title>
 <link>https://meta.appinn.net/t/topic/57047</link>
