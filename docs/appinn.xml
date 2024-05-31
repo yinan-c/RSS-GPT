@@ -4,6 +4,131 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>全平台通用换源工具 chsrc</title>
+<link>https://meta.appinn.net/t/topic/57121</link>
+<guid>https://meta.appinn.net/t/topic/57121</guid>
+<content:encoded><![CDATA[
+
+<p>逛v2ex发现的</p>
+<p>一个二进制文件，<code>chsrc</code>，支持 Windows,Linux,macOS</p>
+<p>可换源 Ubuntu, debian 等等 Linux 发行版，<code>npm</code>,<code>yarn</code>,<code>pnpm</code>,<code>pip</code>,<code>rubygems</code>,<code>CPAN</code>,<code>CTAN</code> <code>crates</code>,<code>go mod</code> 等等</p>
+<p>自动测速多个站点后，挑选使用最快镜像站。此次新增华为云镜像站 和 刚建立的华中科大镜像站<br />
+<a class="onebox" href="https://gitee.com/RubyMetric/chsrc" rel="noopener nofollow ugc" target="_blank">https://gitee.com/RubyMetric/chsrc</a></p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/RubyMetric/chsrc" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/8e8ceb9c44800fae64aaba98b76700a0949928a3a187e2f3065b25bfa05f89e8/RubyMetric/chsrc" width="690" /></div>
+
+<h3><a href="https://github.com/RubyMetric/chsrc" rel="noopener nofollow ugc" target="_blank">GitHub - RubyMetric/chsrc: chsrc  全平台命令行换源工具</a></h3>
+
+  <p>chsrc  全平台命令行换源工具. Contribute to RubyMetric/chsrc development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p><img alt="" height="" src="https://gitee.com/RubyMetric/chsrc/raw/main/image/example.png" width="" /></p>
+<pre><code class="lang-auto">chsrc l
+chsrc: 支持以下镜像站，荣耀均归属于这些站点，以及它们的开发/维护者们
+chsrc: 下方 code 列，可用于指定使用某镜像站，请使用 chsrc set &lt;target&gt; &lt;code&gt;
+code          服务商缩写               服务商URL                              服务商名称
+-------------------------------------------------------------------------------------------------
+mirrorz       MirrorZ           https://mirrors.cernet.edu.cn/            MirrorZ 校园网镜像站
+tuna          TUNA              https://mirrors.tuna.tsinghua.edu.cn/     清华大学开源软件镜像站
+sjtu          SJTUG-zhiyuan     https://mirrors.sjtug.sjtu.edu.cn/        上海交通大学致远镜像站
+zju           ZJU               https://mirrors.zju.edu.cn/               浙江大学开源软件镜像站
+lzu           LZUOSS            https://mirror.lzu.edu.cn/                兰州大学开源社区镜像站
+jlu           JLU               https://mirrors.jlu.edu.cn/               吉林大学开源镜像站
+bfsu          BFSU              https://mirrors.bfsu.edu.cn/              北京外国语大学开源软件镜像站
+pku           PKU               https://mirrors.pku.edu.cn/               北京大学开源镜像站
+bjtu          BJTU              https://mirror.bjtu.edu.cn/               北京交通大学自由与开源软件镜像站
+sustech       SUSTech           https://mirrors.sustech.edu.cn/           南方科技大学开源软件镜像站
+ustc          USTC              https://mirrors.ustc.edu.cn/              中国科学技术大学开源镜像站
+hust          HUST              https://mirrors.hust.edu.cn/              华中科技大学开源镜像站
+nju           NJU               https://mirrors.nju.edu.cn/               南京大学开源镜像站
+ali           Ali OPSX          https://developer.aliyun.com/mirror/      阿里巴巴开源镜像站
+tencent       Tencent           https://mirrors.tencent.com/              腾讯软件源
+huawei        Huawei Cloud      https://mirrors.huaweicloud.com/          华为开源镜像站
+netease       Netease           https://mirrors.163.com/                  网易开源镜像站
+sohu          SOHU              https://mirrors.sohu.com/                 搜狐开源镜像站
+api7          api7.ai           https://www.apiseven.com/                 深圳支流科技有限公司
+rubychina     RubyChina         https://gems.ruby-china.com/              Ruby China 社区
+emacschina    EmacsChina        https://elpamirror.emacs-china.org/       Emacs China 社区
+npmmirror     npmmirror         https://npmmirror.com/                    npmmirror (阿里云赞助)
+goproxy.cn    Goproxy.cn        https://goproxy.cn/                       Goproxy.cn (七牛云赞助)
+goproxy.io    GOPROXY.IO        https://goproxy.io/                       GOPROXY.IO
+
+chsrc: 支持对以下目标换源 (同一行表示这几个命令兼容)
+编程语言开发
+gem     ruby    rubygem rb      rubygems
+pip     python  pypi    py
+npm     node    nodejs  js      yarn    pnpm
+perl    cpan
+php     composer
+lua     luarocks
+rust    cargo   crate   crates
+go      golang  goproxy
+java    maven   gradle
+clojure clojars cloj    lein    leiningen
+dart    pub     flutter
+haskell cabal   stack   hackage
+ocaml   opam
+cran    r
+julia
+
+操作系统
+ubuntu
+mint
+debian  deb
+fedora
+suse    opensuse
+kali
+arch
+manjaro
+gentoo
+rocky   rockylinux
+alpine
+void    voidlinux
+solus
+ros     ros2
+trisquel
+lite    linuxlite
+raspi   raspberrypi
+deepin
+euler   openeuler
+kylin   openkylin
+msys2   msys
+freebsd
+netbsd
+openbsd
+
+软件
+brew    homebrew
+flathub
+nix
+guix
+emacs   elpa
+latex   ctan    tex     texlive miktex  tlmgr   mpm
+conda   anaconda
+</code></pre>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/57121">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 31 May 2024 02:01:57 +0000</pubDate>
+<pubDate>Fri, 31 May 2024 02:01:57 +0000</pubDate>
+</item>
 
 <item>
 <title>求一款跨平台的任务计划管理应用，可以指定时间提醒</title>
