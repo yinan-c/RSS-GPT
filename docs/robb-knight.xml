@@ -4,6 +4,66 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>A WeblogPoMo Retrospective</title>
+<link>https://rknight.me/blog/weblogpomo-retrospective/</link>
+<guid>https://rknight.me/blog/weblogpomo-retrospective/</guid>
+<content:encoded><![CDATA[
+<div> WeblogPoMo, 博客, 统计, 主题, 个人文章<br>
+<br>
+统计: 本文总结了作者参与WeblogPoMo的经历，包括每天的写作、字数和代码示例数量。作者还分享了个人最喜欢的帖子和最受欢迎的帖子。他提到了一些他认为特别有趣的主题和个人文章。最后，作者总结了他的经历，表示有了草稿储备的帮助，才能坚持每天写作。他还展望了明年的WeblogPoMo2025。<br> <div>
+<p>WeblogPoMo is over. You can <a href="https://rknight.me/blog/tags/weblogpomo/">read all my posts here</a>. I followed <a href="https://social.lol/tags/weblogpomo">the hashtag</a> all month and also followed the <a href="https://beep.town/@pomo">@pomo</a> account. I was flooded with excellent posts daily including people who just started blogging which fills my small web heart with joy.</p>
+<p>There's nothing I love more than reading about things people are <em>really</em> into and WeblogPoMo has delivered on that. Here's some of the stuff I enjoyed. Anne organised all this and you can see <a href="https://weblog.anniegreens.lol/tag/weblogpomo2024">all her excellent posts here</a>.</p>
+<h3>Stats</h3>
+<p>I now have no post drafts or ideas left in Obsidian so don't expect another post for a while but I did it. Every single day in May, including one double posting day.</p>
+<p>I wrote <strong>32 posts</strong> containing <strong>~14000 words</strong> and <strong>21 code samples</strong>. As of this writing, the <a href="https://beep.town/@pomo">@pomo bot</a> has posted <strong>1131 times</strong> so even ignoring some duplicates becuase of a bug in <a href="https://echofeed.app">EchoFeed</a>, that's a hell of lot of posts.</p>
+<h3>My Favourite Posts</h3>
+<p>This wasn't technically part of WeblogPoMo but it's glorious so I'm putting it here anyway: <a href="https://kevquirk.com/the-bum-gun">The Bum Gun by Kev Quirk</a>.</p>
+<h4>Themes</h4>
+<ul>
+<li><a href="https://lewisdale.dev/post/tag/WeblogPoMo2024/">Lewis started learning Go</a></li>
+<li><a href="https://notes.neatnik.net/tag/weblogpomo2024">Adam wrote about the art of one Pokémon card a day</a></li>
+<li><a href="https://gkeenan.co/avgb">Keenan wrote about songs that are important to them</a> these two in particular I love:
+<ul>
+<li><a href="https://gkeenan.co/avgb/there-is-nothing-about-you-i-wont-love">There is nothing about you I won’t love! (or: “Girl!”)</a></li>
+<li><a href="https://gkeenan.co/avgb">Fellas, is it gay to like pop music? (or: “Toxic”)</a></li>
+</ul>
+</li>
+</ul>
+<h4>Individual Posts</h4>
+<ul>
+<li><a href="https://johnnydecimal.com/20-29-communication/22-blog/22.00.0033-i-love-pencils/">Johnny loves pencils</a></li>
+<li><a href="https://niclake.me/one-software-feature">Nic changed my life by revealing to me you can shuffle by album in Apple Music</a></li>
+<li><a href="https://chrisburnell.com/note/slash-interests/">Chris came up with the idea of an /interests page</a></li>
+<li><a href="https://rachsmith.com/djs-that-wear-things/">DJs that wear things over their head</a></li>
+<li><a href="https://javorszky.co.uk/2024/05/05/language-bad/">Language bad!</a></li>
+<li><a href="https://rscottjones.com/why-you-should-have-a-website/">Why you should have a website</a></li>
+<li><a href="https://johnnydecimal.com/20-29-communication/22-blog/22.00.0041-how-i-feel-about-ai/">How I feel about AI - Johnny.Decimal</a></li>
+<li><a href="https://barrysampson.net/be-prolific">Barry Sampson - Be Prolific</a></li>
+<li><a href="https://amerpie.lol/2024/05/13/example-obsidian-vaults.html">15 Example #Obsidian Vaults from Around the Internet | Lou Plummer</a></li>
+<li><a href="https://niclake.me/35">35 · Nic Lake</a></li>
+<li><a href="https://rachsmith.com/ai-is-for-the-idea-guys/">Generative AI is for the idea guys</a></li>
+<li><a href="https://amerpie.lol/2024/05/21/using-obsidian-as.html">Using Obsidian as a Life Record | Lou Plummer</a></li>
+<li><a href="https://birming.com/posts/blogging-is-back">Blogging Is Back - Robert Birming</a></li>
+</ul>
+<h3>My Most Popular Posts</h3>
+<p>Here are my most popular posts for the month based on <a href="https://app.usefathom.com/share/isejuyjy/rknight.me?comparison=none&amp;page=1&amp;range=last_30_days&amp;sort=visitors%3Adesc">my analytics</a>. Keep in mind these will be skewed by length of time up so the earlier posts likely have more views.</p>
+<h4><a href="https://rknight.me/blog/7622/">7622</a></h4>
+<p>This one took off <em>way</em> more than I thought it would. Turns out people were really interested in the extra B.</p>
+<h4><a href="https://rknight.me/blog/my-perfect-cms/">My Perfect CMS</a></h4>
+<p>I still haven't started working on this but I am getting closer now I've sorted all the <a href="https://rknight.me/blog/adding-covers-to-almanac/">images on Almanac</a>.</p>
+<h4><a href="https://rknight.me/blog/trying-raycast-part-one/">Trying Raycast: Part One</a></h4>
+<p>I think I did a good job here, and in <a href="https://rknight.me/blog/trying-raycast-part-two/">part two</a>, covering the differences between Alfred and Raycast.</p>
+<h4><a href="https://rknight.me/blog/slash-pages/">Slash Pages</a></h4>
+<p>This project was done somewhat on a whim and it's been more popular than I could have hoped. Lots of new pages have been added to the site and I love seeing people add their slash pages.</p>
+<h4><a href="https://rknight.me/blog/please-rate-your-experience/">Please Rate Your Experience</a></h4>
+<p>This one was written in five minutes in a rage and clearly I hit a sore spot with other people too.</p>
+<h3>Conclusion</h3>
+<p>If I didn't have the huge backlog of drafts I'm not sure I could have done this every single day. Maybe next year I'll try a theme for the posts. Either way, it's over. We did it. Only 335 days until WeblogPoMo2025.</p>
+]]></content:encoded>
+
+<pubDate>2024-05-31T10:48:03Z</pubDate>
+</item>
 
 <item>
 <title>The Converse Experiment: Report One</title>

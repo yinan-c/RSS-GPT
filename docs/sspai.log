@@ -23945,3 +23945,12 @@ Existing_entries: 829
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-05-31 10:03:33.493048
+------------------------------------------------------
+Started: 2024-05-31 12:04:58.225864
+Existing_entries: 829
+Fetching from https://rsshub.app/sspai/index
+Token length: 2583
+Summarized using GPT-3.5-turbo
+Append: [追赶有道，Intel 效法 AMD；竞争无门，AMD 再诉 Intel](https://sspai.com/post/89258)
+append_entries: 1
+Finish: 2024-05-31 12:05:03.875916
