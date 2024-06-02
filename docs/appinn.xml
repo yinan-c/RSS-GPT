@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Chrome Manifest V3 推迟到 2023 年 6 月强制执行，Manifest V2 仅支持至 2024 年</title>
 <link>https://meta.appinn.net/t/topic/39508</link>
 <guid>https://meta.appinn.net/t/topic/39508</guid>
 <content:encoded><![CDATA[
-
 <p>Manifest V3 最大的噩耗是去广告插件，以及油猴脚本等通过外联丰富功能的扩展。<br />
 变成类似手机安卓、苹果软件安装包差不多（意味者相关扩展会在 V3 体积占用变胖）并且 V3 要收回 V2 大部分权限。<br />
 小小的添加、更改等都需要重新发布新的安装包，各级层层加码关卡，最终才到用户手里。<br />
@@ -20,9 +20,7 @@
             <p><a href="https://meta.appinn.net/t/topic/39508">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 09 Jan 2023 06:05:31 +0000</pubDate>
-<pubDate>Mon, 09 Jan 2023 06:05:31 +0000</pubDate>
 </item>
-
 <item>
 <title>MaxFocus: 链接预览  支持火狐、Chromium</title>
 <link>https://meta.appinn.net/t/topic/57188</link>
