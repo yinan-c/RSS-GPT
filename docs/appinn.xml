@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chrome Manifest V3 推迟到 2023 年 6 月强制执行，Manifest V2 仅支持至 2024 年</title>
+<link>https://meta.appinn.net/t/topic/39508</link>
+<guid>https://meta.appinn.net/t/topic/39508</guid>
+<content:encoded><![CDATA[
+
+<p>Manifest V3 最大的噩耗是去广告插件，以及油猴脚本等通过外联丰富功能的扩展。<br />
+变成类似手机安卓、苹果软件安装包差不多（意味者相关扩展会在 V3 体积占用变胖）并且 V3 要收回 V2 大部分权限。<br />
+小小的添加、更改等都需要重新发布新的安装包，各级层层加码关卡，最终才到用户手里。<br />
+嫌广告还不过分，隐私榨取太少的各大广告公司喜笑颜开，好日子来了，估计恨不得马上、现在、立刻、就地、迅速执行，并展望 Manifest V4 将相关扩展砍到残废。<br />
+简而言之，2023 年 01 月，谷歌商店只接受 Manifest V3 扩展，浏览器 112 在正式版以外关闭 Manifest V2 扩展支持（企业策略可通过扩展 ID 进行逐项放行 Manifest V2）同年 6 月，商店无法搜索到 Manifest V2 扩展，浏览器 115 可能所有版本全量强制取消 v2 扩展支持，仅支持 v3 扩展安装和运行，次年 01 月，商店拒绝提供 Manifest V2 扩展更新，企业策略到期后，全量下架 Manifest V2 扩展，并且使 2023-01 的 Manifest V2 企业策略功能无效化。</p>
+<p>总结：对我们能自己写脚本插件的影响不是最大的，对用油猴插件，也就是Greasemonkey 、Tampermonkey。就没那么爽了，可能油猴都运行不起来了。目前就是等 Chrome 彻底不支持 v2 后会迁移至 Firefox（Firefox 相关人员说会继续支持 V2）。</p>
+            <p><small>9 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39508">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 09 Jan 2023 06:05:31 +0000</pubDate>
+<pubDate>Mon, 09 Jan 2023 06:05:31 +0000</pubDate>
+</item>
 
 <item>
 <title>MaxFocus: 链接预览  支持火狐、Chromium</title>
