@@ -4,6 +4,42 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Adding custom search shortcuts in Firefox</title>
+<link>https://brett.trpstra.net/link/535/16701010/adding-custom-search-shortcuts-in-firefox</link>
+<guid>https://brett.trpstra.net/link/535/16701010/adding-custom-search-shortcuts-in-firefox</guid>
+<content:encoded><![CDATA[
+<div> firefox, custom search, keyword, bookmark, search
+
+总结：<br><br>本文介绍了在Firefox浏览器中如何添加自定义搜索快捷方式，通过设置关键词和书签来实现在浏览器地址栏中快速搜索任意网站。用户只需在地址栏输入设置的关键词加上搜索词即可直接加载搜索结果页面，避免繁琐的进入网站、点击搜索以及输入搜索词的步骤。方法包括在目标网站进行搜索、添加书签、编辑书签URL以及设置关键词等步骤。这种自定义搜索方式适用于多数浏览器，方便用户快速获取所需信息。 <div>
+<p>This might not be news to most people, but I thought I&rsquo;d point it out for any Firefox users that don&rsquo;t know about it: you can add a custom search shortcut for any site, allowing you to use a short keyword followed by search terms and execute the search without going to the site, clicking search, and entering terms.</p>
+
+<p>To add a custom search:</p>
+
+<ol>
+  <li>Go to the site you want to search and use its search field to run any search.</li>
+  <li>On the results page, add a bookmark. You can edit the bookmark title to a generic <code class="language-plaintext highlighter-rouge">&lt;SITE NAME&gt; search</code> in this step or in step 4.</li>
+  <li>Open up the Bookmarks sidebar (<span class="keycombo combined" title="Command-B"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">B</kbd></span>) (or open the Bookmarks manager with <span class="keycombo combined" title="Option-Command-O"><kbd class="mod symbol">&#8997;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">O</kbd></span>) and locate the new bookmark. Right click it and choose <strong>Edit Bookmark</strong>.</li>
+  <li>Change the search term in the URL to <code class="language-plaintext highlighter-rouge">%s</code>. E.g., if you searched for <code class="language-plaintext highlighter-rouge">frog</code>, find <code class="language-plaintext highlighter-rouge">frog</code> in the URL and replace it.</li>
+  <li>Add a short &ldquo;keyword&rdquo; and edit the title to a generic &ldquo;X Search&rdquo; if you didn&rsquo;t already. The keyword is the short text you&rsquo;ll use to access the search. It can be as short as one character.</li>
+  <li>Save the edit.</li>
+</ol>
+
+<p>Now you can just focus the URL bar (<span class="keycombo combined" title="Command-L"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">L</kbd></span>), type the keyword followed by a space and whatever search terms you want to use. The search page will be loaded directly with the results!</p>
+
+<figure class="bt-video-container" style="padding-bottom: 75.00%;"><a class="youtube" href="https://www.youtube.com/watch?v=9hg70kHASEA">YouTube Video</a></figure>
+
+<p>Hope that&rsquo;s useful to some people. The same thing can be done in most browsers, I just happen to be using mostly Firefox these days. Feel free to add tips for your browser of choice in the comments.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F02%2Fadding-custom-search-shortcuts-in-firefox%2F&amp;text=Adding+custom+search+shortcuts+in+Firefox&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F02%2Fadding-custom-search-shortcuts-in-firefox%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16701010.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-06-02T15:01:00-05:00</pubDate>
+<pubDate>2024-06-02T15:01:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Man, I should have started Conductor with filters</title>
