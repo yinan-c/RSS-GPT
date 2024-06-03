@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Adding custom search shortcuts in Firefox</title>
 <link>https://brett.trpstra.net/link/535/16701010/adding-custom-search-shortcuts-in-firefox</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> firefox, custom search, keyword, bookmark, search
 
-总结：<br><br>本文介绍了在Firefox浏览器中如何添加自定义搜索快捷方式，通过设置关键词和书签来实现在浏览器地址栏中快速搜索任意网站。用户只需在地址栏输入设置的关键词加上搜索词即可直接加载搜索结果页面，避免繁琐的进入网站、点击搜索以及输入搜索词的步骤。方法包括在目标网站进行搜索、添加书签、编辑书签URL以及设置关键词等步骤。这种自定义搜索方式适用于多数浏览器，方便用户快速获取所需信息。 <div>
+总结：<br /><br />本文介绍了在Firefox浏览器中如何添加自定义搜索快捷方式，通过设置关键词和书签来实现在浏览器地址栏中快速搜索任意网站。用户只需在地址栏输入设置的关键词加上搜索词即可直接加载搜索结果页面，避免繁琐的进入网站、点击搜索以及输入搜索词的步骤。方法包括在目标网站进行搜索、添加书签、编辑书签URL以及设置关键词等步骤。这种自定义搜索方式适用于多数浏览器，方便用户快速获取所需信息。 <div>
 <p>This might not be news to most people, but I thought I&rsquo;d point it out for any Firefox users that don&rsquo;t know about it: you can add a custom search shortcut for any site, allowing you to use a short keyword followed by search terms and execute the search without going to the site, clicking search, and entering terms.</p>
 
 <p>To add a custom search:</p>
@@ -38,9 +39,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16701010.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-06-02T15:01:00-05:00</pubDate>
-<pubDate>2024-06-02T15:01:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Man, I should have started Conductor with filters</title>
 <link>https://brett.trpstra.net/link/535/16693490/man-i-should-have-started-conductor-with-filters</link>
