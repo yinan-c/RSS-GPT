@@ -24239,3 +24239,9 @@ Summarized using GPT-3.5-turbo
 Append: [派早报：AMD 推出多款新处理器、亚马逊 Kindle 中国电子书店月底停止服务等](https://sspai.com/post/89336)
 append_entries: 1
 Finish: 2024-06-04 04:03:57.302123
+------------------------------------------------------
+Started: 2024-06-04 06:04:21.493229
+Existing_entries: 837
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-06-04 06:04:21.681842
