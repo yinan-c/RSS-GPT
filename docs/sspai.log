@@ -24230,3 +24230,12 @@ Existing_entries: 836
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-04 02:15:17.991346
+------------------------------------------------------
+Started: 2024-06-04 04:03:52.391386
+Existing_entries: 836
+Fetching from https://rsshub.app/sspai/index
+Token length: 2582
+Summarized using GPT-3.5-turbo
+Append: [派早报：AMD 推出多款新处理器、亚马逊 Kindle 中国电子书店月底停止服务等](https://sspai.com/post/89336)
+append_entries: 1
+Finish: 2024-06-04 04:03:57.302123
