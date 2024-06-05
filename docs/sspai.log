@@ -24311,3 +24311,12 @@ Existing_entries: 841
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-05 00:11:50.592301
+------------------------------------------------------
+Started: 2024-06-05 02:15:20.498936
+Existing_entries: 841
+Fetching from https://rsshub.app/sspai/index
+Token length: 1826
+Summarized using GPT-3.5-turbo
+Append: [派早报：英特尔公布 Lunar Lake 芯片、索尼发布适用于 PC 的 PS VR2 适配器等](https://sspai.com/post/89360)
+append_entries: 1
+Finish: 2024-06-05 02:15:24.849616
