@@ -24395,3 +24395,12 @@ Existing_entries: 845
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-06 00:12:09.495330
+------------------------------------------------------
+Started: 2024-06-06 02:15:13.510889
+Existing_entries: 845
+Fetching from https://rsshub.app/sspai/index
+Token length: 1867
+Summarized using GPT-3.5-turbo
+Append: [派早报：Netflix 将停止支持旧款 Apple TV、三星 Z 系列新品通过 FCC 认证等](https://sspai.com/post/89400)
+append_entries: 1
+Finish: 2024-06-06 02:15:18.325150
