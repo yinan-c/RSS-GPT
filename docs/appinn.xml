@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>[Web] 给自己写的小工具 - 工作日进度条 &amp; 位掩码可视化</title>
 <link>https://meta.appinn.net/t/topic/57478</link>
 <guid>https://meta.appinn.net/t/topic/57478</guid>
 <content:encoded><![CDATA[
-
 <p>LLM （大语言模型）铺开之后，极大地降低了随手写点小工具的阻力，有些东西感觉花太多时间写不值，但是没有的话又不太爽，就很适合让 LLM 去写，自己微调下基本就可用了。于是就这样写了两个工具，因为太小众了就不发发现频道了，各位有需要自取。</p>
 <h2><a class="anchor" href="https://meta.appinn.net#day-tracker-1" name="day-tracker-1"></a>工作日进度条 Day Tracker</h2>
 <p>显示社畜的一天还有多久才能结束。支持设置多个时间块并单独展示进度百分比。</p>
@@ -33,9 +33,7 @@
             <p><a href="https://meta.appinn.net/t/topic/57478">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 09 Jun 2024 12:55:08 +0000</pubDate>
-<pubDate>Sun, 09 Jun 2024 12:55:08 +0000</pubDate>
 </item>
-
 <item>
 <title>星念轻小说下载器 ,将可在线阅读小说按卷下载为epub文件</title>
 <link>https://meta.appinn.net/t/topic/57445</link>
