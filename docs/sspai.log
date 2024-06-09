@@ -24659,3 +24659,12 @@ Existing_entries: 855
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-09 06:04:01.244445
+------------------------------------------------------
+Started: 2024-06-09 08:03:45.047319
+Existing_entries: 855
+Fetching from https://rsshub.app/sspai/index
+Token length: 4326
+Summarized using GPT-3.5-turbo
+Append: [WWDC24 前瞻：当家也能「升级」，我们该对 Aqara 如何期待](https://sspai.com/post/89467)
+append_entries: 1
+Finish: 2024-06-09 08:03:49.467829
