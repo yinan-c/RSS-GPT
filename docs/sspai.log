@@ -24668,3 +24668,9 @@ Summarized using GPT-3.5-turbo
 Append: [WWDC24 前瞻：当家也能「升级」，我们该对 Aqara 如何期待](https://sspai.com/post/89467)
 append_entries: 1
 Finish: 2024-06-09 08:03:49.467829
+------------------------------------------------------
+Started: 2024-06-09 10:03:22.662190
+Existing_entries: 856
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-06-09 10:03:22.838304
