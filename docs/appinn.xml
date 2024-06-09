@@ -4,6 +4,37 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[Web] 给自己写的小工具 - 工作日进度条 &amp; 位掩码可视化</title>
+<link>https://meta.appinn.net/t/topic/57478</link>
+<guid>https://meta.appinn.net/t/topic/57478</guid>
+<content:encoded><![CDATA[
+
+<p>LLM （大语言模型）铺开之后，极大地降低了随手写点小工具的阻力，有些东西感觉花太多时间写不值，但是没有的话又不太爽，就很适合让 LLM 去写，自己微调下基本就可用了。于是就这样写了两个工具，因为太小众了就不发发现频道了，各位有需要自取。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#day-tracker-1" name="day-tracker-1"></a>工作日进度条 Day Tracker</h2>
+<p>显示社畜的一天还有多久才能结束。支持设置多个时间块并单独展示进度百分比。</p>
+<p>在线使用：<a class="inline-onebox" href="https://nekonull.me/day-tracker/" rel="noopener nofollow ugc">Day Tracker</a><br />
+代码：<a class="inline-onebox" href="https://github.com/jerrylususu/day-tracker" rel="noopener nofollow ugc">GitHub - jerrylususu/day-tracker</a><br />
+（截图仅作展示用，非本人的实际工作时间）<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/3/c3860d09b01961dea2f887d60e0478cf67edac22.webp" title="Snipaste_2024-06-09_20-48-32"><img alt="Snipaste_2024-06-09_20-48-32" height="481" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/3/c3860d09b01961dea2f887d60e0478cf67edac22_2_690x481.webp" width="690" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#show-big-flag-2" name="show-big-flag-2"></a>位掩码可视化 Show Big Flag</h2>
+<p>导入定义，输入数字，直接能看出到底设置了哪些bit位；再也不用对着手册/文档一个个bit and了</p>
+<p>在线使用：<a class="inline-onebox" href="https://nekonull.me/showbitflag/" rel="noopener nofollow ugc">Bit Mask Visualizer</a><br />
+代码：<a class="inline-onebox" href="https://github.com/jerrylususu/showbitflag" rel="noopener nofollow ugc">GitHub - jerrylususu/showbitflag: A simple bit flag(mask/array) visualizer.</a></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/b/1bc25b0a3dfb7869630c3741785a71ad1f3a3a70.webp" title="Snipaste_2024-06-09_20-49-31"><img alt="Snipaste_2024-06-09_20-49-31" height="481" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/b/1bc25b0a3dfb7869630c3741785a71ad1f3a3a70_2_690x481.webp" width="690" /></a></div><p></p>
+<p>另外一些小的开发感悟：</p>
+<ol>
+<li>能解决自己的问题是最大的动力</li>
+<li>GPT 比较话多，除非指定否则每次都会输出全量文本（即使只请求了一个很小的修改）；Claude 就好一些，会告诉你只有这里需要修改，更节省 token 一些，响应起来也快很多</li>
+<li>简单功能导入前端框架是overkill，单个 index.html 里包含所有的 HTML/CSS/JS 很多情况下就够用了</li>
+<li>界面美观度上，不使用任何额外提示的情况下，Claude 的产物比 GPT 的漂亮</li>
+</ol>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/57478">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 09 Jun 2024 12:55:08 +0000</pubDate>
+<pubDate>Sun, 09 Jun 2024 12:55:08 +0000</pubDate>
+</item>
 
 <item>
 <title>星念轻小说下载器 ,将可在线阅读小说按卷下载为epub文件</title>
