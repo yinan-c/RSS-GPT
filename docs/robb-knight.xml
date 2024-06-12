@@ -4,6 +4,22 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>This is My /Next</title>
+<link>https://rknight.me/blog/this-is-my-next/</link>
+<guid>https://rknight.me/blog/this-is-my-next/</guid>
+<content:encoded><![CDATA[
+<div> /where /someday movie TV show watch API
+管理/watchlist页面内容及API联动，实时更新想看的电影电视剧和游戏，也包含了项目笔记。/next页面展示了KnightCMS的API端点数据，被Eleventy读取并展示出来。解决了忘记推荐影视作品的问题，提供了一个方便的参考清单。总结: 该文章介绍了作者新增了/where和/someday页面，区分了两者的功能。其中/someday页面用于记录未来的期望和目标，而/next页面用于记录想要观看的电影、电视剧以及玩的游戏等娱乐内容。作者通过KnightCMS和Eleventy的API联动实现了数据管理和展示，解决了忘记观看内容的问题。 <div>
+<p>This week I added <code>/where</code> and <code>/someday</code> to <a href="https://slashpages.net">the Slashpages site</a>. I started making my own someday page, which is still in progress, but it got me thinking about a similar but distinct page: <a href="/next">/next</a>.</p>
+<p>I see this page as a toned-down version of someday: rather than my hopes, dreams, and goals, it's movies and TV shows I want to watch, games I want to play, projects I want to start, that kind of thing.</p>
+<p>With the work I've done on <a href="https://rknight.me/blog/knightcms-just-for-me/">KnightCMS</a>, I'm able to manage the content on this page easily from anywhere. Add a new show I want to watch, remove a book I've started (and add it to <a href="/now">my /now page</a>), as well as add some notes about projects. This data is exposed on an API endpoint in KnightCMS which is then pulled into an Eleventy data file to display on the page. Here's what the /next list looks like in the CMS:</p>
+<p><img alt="Next movies and TV shows" src="https://cdn.rknight.me/site/next-movies-and-tv.jpg" /></p>
+<p>I have a real problem with forgetting which movies and TV shows I thought looked interesting so this page will serve as a reference when I'm looking for something to watch.</p>
+]]></content:encoded>
+
+<pubDate>2024-06-12T14:25:34Z</pubDate>
+</item>
 
 <item>
 <title>A WeblogPoMo Retrospective</title>

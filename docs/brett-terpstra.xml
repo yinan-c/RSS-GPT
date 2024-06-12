@@ -4,6 +4,48 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for June 12, 2024</title>
+<link>https://brett.trpstra.net/link/535/16712243/web-excursions-for-june-12-2024</link>
+<guid>https://brett.trpstra.net/link/535/16712243/web-excursions-for-june-12-2024</guid>
+<content:encoded><![CDATA[
+<div> Bartender, acquisition, telemetry, git diffs, Climate anxiety
+
+总结:<br><br>一家公司最近收购了Bartender，可能会影响其未来；有一款免费的项目可以取代Bartender，被认为是一个有潜力的替代品；在终端中有一个项目可以让git diffs看起来更漂亮；针对气候焦虑的人们，有一些带来希望的消息；在Obsidian中有一些很酷的整合，比如可以将选定的文本保存到指定文件或每日笔记页面。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<dl>
+  <dt><a href="https://github.com/jordanbaird/Ice">jordanbaird/Ice: Powerful menu bar manager for macOS</a></dt>
+  <dd>There&rsquo;s some question about the future of Bartender after a recent acquisition (and some concerns about new telemetry). This project looks like a solid up-and-coming replacement (and free).</dd>
+  <dt><a href="https://github.com/darrenburns/dunk">darrenburns/dunk: Prettier git diffs in the terminal 🎨</a></dt>
+  <dd>
+    <blockquote>
+      <p>Prettier git diffs in the terminal</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://pluralistic.net/2024/06/12/s-curve/#anything-that-cant-go-on-forever-eventually-stops">An end to the climate emergency is in our grasp</a></dt>
+  <dd>Climate anxiety keeping you awake? Here&rsquo;s some hopeful news.</dd>
+  <dt><a href="https://www.popclip.app/extensions/x/wfhk0x">Obsidian — PopClip Extensions</a></dt>
+  <dd>In the vein of cool Obsidian integrations, here’s one for PopClip that can save selected text to a specified file or to the Daily Note page. There’s a similar one for nvUltra in my <a href="https://brettterpstra.com/projects/bretts-popclip-extensions/">PopClip Extensions</a>.</dd>
+</dl>
+
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F12%2Fweb-excursions-for-june-12-2024%2F&amp;text=Web+Excursions+for+June+12%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F12%2Fweb-excursions-for-june-12-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16712243.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-06-12T13:12:00-05:00</pubDate>
+<pubDate>2024-06-12T13:12:00-05:00</pubDate>
+</item>
 
 <item>
 <title>The Developer Nation Survey 27th Edition</title>

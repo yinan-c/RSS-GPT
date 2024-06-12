@@ -20246,3 +20246,12 @@ Existing_entries: 351
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-06-12 18:04:16.312232
+------------------------------------------------------
+Started: 2024-06-12 20:03:52.506776
+Existing_entries: 351
+Fetching from https://rknight.me/feed.xml
+Token length: 934
+Summarized using GPT-3.5-turbo
+Append: [This is My /Next](https://rknight.me/blog/this-is-my-next/)
+append_entries: 1
+Finish: 2024-06-12 20:03:59.958236
