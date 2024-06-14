@@ -4,13 +4,14 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Blocking Bots with Nginx</title>
 <link>https://rknight.me/blog/blocking-bots-with-nginx/</link>
 <guid>https://rknight.me/blog/blocking-bots-with-nginx/</guid>
 <content:encoded><![CDATA[
-<div> robots.txt,.htaccess,nginx,AI bots,block<br>
-总结:<br><br>本文介绍了如何使用.htaccess和nginx来阻止AI机器人访问网站。作者首先通过在.htaccess文件中指定特定的机器人名称来阻止它们访问网站，并通过将机器人名称组合在一个块中来更有效地进行阻止操作。随后，作者将nginx.conf文件放置在Eleventy站点的根目录外，并通过将其包含到主nginx.conf文件中来实现配置。作者还介绍了如何使用.njk文件从互联网上获取机器人数据，并将其转换为适用于nginx配置的格式。最后，作者通过自定义用户代理测试了配置是否有效，成功阻止了指定的AI机器人访问网站。 <div>
+<div> robots.txt,.htaccess,nginx,AI bots,block<br />
+总结:<br /><br />本文介绍了如何使用.htaccess和nginx来阻止AI机器人访问网站。作者首先通过在.htaccess文件中指定特定的机器人名称来阻止它们访问网站，并通过将机器人名称组合在一个块中来更有效地进行阻止操作。随后，作者将nginx.conf文件放置在Eleventy站点的根目录外，并通过将其包含到主nginx.conf文件中来实现配置。作者还介绍了如何使用.njk文件从互联网上获取机器人数据，并将其转换为适用于nginx配置的格式。最后，作者通过自定义用户代理测试了配置是否有效，成功阻止了指定的AI机器人访问网站。 <div>
 <p>In April <a href="https://ethanmarcotte.com/wrote/blockin-bots/">Ethan wrote this post</a> about blocking AI bots with Apache and <code>.htaccess</code>. I've already done this for <a href="/robots.txt">my robots.txt file</a> but quite frankly I don't trust any of the AI companies to respect that. <a href="https://jasonsantamaria.com/">Jason Santa Maria</a> (via Ethan):</p>
 <blockquote>
 <p><code>robots.txt</code> is a bit like asking bots to not visit my site; with <code>.htaccess</code>, you’re not asking</p>
@@ -43,10 +44,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-06-14T07:26:37Z</pubDate>
 </item>
-
 <item>
 <title>This is My /Next</title>
 <link>https://rknight.me/blog/this-is-my-next/</link>
