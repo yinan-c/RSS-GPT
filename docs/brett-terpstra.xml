@@ -4,6 +4,54 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>A Markdown Lorem Ipsum API</title>
+<link>https://brett.trpstra.net/link/535/16714717/a-markdown-lorem-ipsum-api</link>
+<guid>https://brett.trpstra.net/link/535/16714717/a-markdown-lorem-ipsum-api</guid>
+<content:encoded><![CDATA[
+<div> Markdown Lorem Ipsum, API, Text Blaze, MD-Lipsum, BrettTerpstra.com
+<br>
+关于构建新的Markdown Lorem Ipsum API用于生成Markdown Lorem Ipsum。作者解释了构建API的原因，提及使用Text Blaze应用以及制作脚本片段的需求。介绍了MD-Lipsum的用途和如何使用API，包括从命令行和Text Blaze使用的示例。提供了对应的curl命令和Text Blaze代码。文中还介绍了网站支持的方式和版权声明。
+<br><br>总结:文章介绍了构建Markdown Lorem Ipsum API的目的，以及如何使用该API生成Markdown Lorem Ipsum。提供了命令行和Text Blaze使用示例，同时提及网站支持方式和版权声明。 <div>
+<p>I built a new little API for you. It generates Markdown Lorem Ipsum. First, a little background.</p>
+
+<h3 id="why">Why?</h3>
+
+<p>As I&rsquo;ve mentioned elsewhere, I&rsquo;ve been playing with <a href="https://blaze.today/">Text Blaze</a>, a cool new app that might eventually replace TextExpander for me. One of the major things missing from Text Blaze, though, is script snippets, which I make use of a lot in TextExpander. What it does offer, though, is a command for fetching a REST API and processing the result. A lot of my script snippets are doing just that, so those are actually more convenient to build in Text Blaze. For the ones that need extra handling, I&rsquo;ve just been creating web endpoints that run my scripts for me.</p>
+
+<blockquote class="tip">
+  <p>When you go to the <a href="https://blaze.today/">Text Blaze home page</a> it looks like it&rsquo;s just a Chrome extension. You have to go all the way to the bottom of the page to find the Mac app (beta).</p>
+</blockquote>
+
+<p>One such snippet I wanted back was my random Markdown generator, which I use frequently to test out styles for things like <a href="https://marked2app.com">Marked</a>, <a href="https://nvultra.com">nvUltra</a>, or <a href="https://multimarkdown.com/composer4/">MultiMarkdown Composer</a>. There&rsquo;s an existing API called <a href="https://jaspervdj.be/lorem-markdownum/">Lorem Markdownum</a>, but it doesn&rsquo;t generate enough of the syntax consistently to be good for testing themes. So I built my own.</p>
+
+<h3 id="md-lipsum">MD-Lipsum</h3>
+
+<p><a href="https://brettterpstra.com/md-lipsum/">&ldquo;MD-Lipsum&rdquo;</a> uses <a href="https://loripsum.net/">Loripsum.net</a> to generate a full set of HTML markup with random text, and then converts that HTML to basic Markdown. No tables, unfortunately, but it outputs a complete set of standard Markdown elements, including bold/italics, ordered and unordered lists, headers, block quotes, code blocks (fenced), and definition lists (MultiMarkdown syntax).</p>
+
+<h4 id="usage">Usage</h4>
+
+<p>To use the API, just point to <code class="language-plaintext highlighter-rouge">https://brettterpstra.com/md-lipsum/api/1</code>. You can add <code class="language-plaintext highlighter-rouge">/long</code> or <code class="language-plaintext highlighter-rouge">/short</code> but it has minimal effect (a shortcoming of the loripsum.net API, I think). It just returns plain text, much like the <a href="https://brettterpstra.com/titlecase/test">TitleCase API</a> I made a while back.</p>
+
+<p>You can use it from the command line like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>curl 'https://brettterpstra.com/md-lipsum/api/1'</code></pre></div></div>
+
+<p>To use it in Text Blaze, you&rsquo;d want a snippet like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>{urlload: https://brettterpstra.com/md-lipsum/api/1; done=(res) -&gt; ["response": res]; headers=; body=; method=GET}{=response}</code></pre></div></div>
+
+<p>There&rsquo;s a little page <a href="https://brettterpstra.com/md-lipsum/">here</a> but it just tells you what&rsquo;s in this post!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/112616289648102885" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F14%2Fa-markdown-lorem-ipsum-api%2F&amp;text=A+Markdown+Lorem+Ipsum+API&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F14%2Fa-markdown-lorem-ipsum-api%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16714717.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-06-14T12:54:00-05:00</pubDate>
+<pubDate>2024-06-14T12:54:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for June 12, 2024</title>
