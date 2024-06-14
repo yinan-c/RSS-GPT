@@ -4,15 +4,16 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>A Markdown Lorem Ipsum API</title>
 <link>https://brett.trpstra.net/link/535/16714717/a-markdown-lorem-ipsum-api</link>
 <guid>https://brett.trpstra.net/link/535/16714717/a-markdown-lorem-ipsum-api</guid>
 <content:encoded><![CDATA[
 <div> Markdown Lorem Ipsum, API, Text Blaze, MD-Lipsum, BrettTerpstra.com
-<br>
+<br />
 关于构建新的Markdown Lorem Ipsum API用于生成Markdown Lorem Ipsum。作者解释了构建API的原因，提及使用Text Blaze应用以及制作脚本片段的需求。介绍了MD-Lipsum的用途和如何使用API，包括从命令行和Text Blaze使用的示例。提供了对应的curl命令和Text Blaze代码。文中还介绍了网站支持的方式和版权声明。
-<br><br>总结:文章介绍了构建Markdown Lorem Ipsum API的目的，以及如何使用该API生成Markdown Lorem Ipsum。提供了命令行和Text Blaze使用示例，同时提及网站支持方式和版权声明。 <div>
+<br /><br />总结:文章介绍了构建Markdown Lorem Ipsum API的目的，以及如何使用该API生成Markdown Lorem Ipsum。提供了命令行和Text Blaze使用示例，同时提及网站支持方式和版权声明。 <div>
 <p>I built a new little API for you. It generates Markdown Lorem Ipsum. First, a little background.</p>
 
 <h3 id="why">Why?</h3>
@@ -50,9 +51,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16714717.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-06-14T12:54:00-05:00</pubDate>
-<pubDate>2024-06-14T12:54:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for June 12, 2024</title>
 <link>https://brett.trpstra.net/link/535/16712243/web-excursions-for-june-12-2024</link>
