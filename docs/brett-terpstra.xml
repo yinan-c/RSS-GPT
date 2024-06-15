@@ -4,6 +4,53 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Text Blaze shareable folders</title>
+<link>https://brett.trpstra.net/link/535/16715638/text-blaze-shareable-folders</link>
+<guid>https://brett.trpstra.net/link/535/16715638/text-blaze-shareable-folders</guid>
+<content:encoded><![CDATA[
+<div> Text Blaze, snippets, Mac app, Lorem Ipsum, placeholder images
+<br>
+Text Blaze更新后可以方便地共享文本片段文件夹。这个包含随机文本生成器的集合使用了{urlload}命令，适用于Text Blaze。其中包含了用于在HTML/Markdown文档中插入占位图像的片段和Bacon Ipsum、Hipster Ipsum的文本生成器。{urlload}命令可能需要高级账户。总结：更新后的Text Blaze允许方便地共享文本片段文件夹，包含了用于插入占位图像的片段和文本生成器。需要注意{urlload}命令可能需要高级账户。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="lipsum-text-blaze-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/06/lipsum-text-blaze-rb.jpg" title="lipsum-text-blaze-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>When I first tried it out, <a href="https://blaze.today/" title="Text Blaze:Snippets and Templates for Chrome">Text Blaze</a> didn&rsquo;t make it easy to publicly share folders of snippets. They&rsquo;ve solved that, apparently, so now you can make folders publicly available from the Mac app. So I present&hellip;</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="lipsum-folder.jpg" class="alignright" height="293" src="https://cdn3.brettterpstra.com/uploads/2024/06/lipsum-folder.jpg" title="lipsum-folder.jpg" width="400" />
+              </noscript>
+            
+<p><a href="https://dashboard.blaze.today/gallery/0dR0aLGYCybtkNeyMwbi">Lipsum</a>, a collection of random text generators for Text Blaze. These almost all make use of the <code class="language-plaintext highlighter-rouge">{urlload}</code> command, which currently doesn&rsquo;t show up in the command palette and I&rsquo;m unclear as to whether they&rsquo;re available to lower-level accounts (I have a Business subscription). If you try them out and run into issues, let me know.</p>
+
+<p>This set includes a couple of snippets for inserting placeholder images into HTML/Markdown documents, which I use pretty frequently when designing. You&rsquo;ll also find snippets for Bacon Ipsum (I&rsquo;m pescatarian, but&hellip;) and Hipster Ipsum, for those who prefer a little change from the typical Lorem Ipsum.</p>
+
+<p>If you&rsquo;re trying out Text Blaze, check out the <a href="https://dashboard.blaze.today/gallery/0dR0aLGYCybtkNeyMwbi">Lipsum</a> folder. If nothing else, it offers some good examples for using <code class="language-plaintext highlighter-rouge">{urlload}</code> in your own snippets.</p>
+
+<blockquote class="tip">
+  <p>Standard (for now) PSA: You have to scroll all the way to the bottom of the Text Blaze page to find the Mac app. I don&rsquo;t know why they don&rsquo;t make their native apps more obvious&hellip;</p>
+</blockquote>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F15%2Ftext-blaze-shareable-folders%2F&amp;text=Text+Blaze+shareable+folders&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F15%2Ftext-blaze-shareable-folders%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16715638.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-06-15T14:35:00-05:00</pubDate>
+<pubDate>2024-06-15T14:35:00-05:00</pubDate>
+</item>
 
 <item>
 <title>A Markdown Lorem Ipsum API</title>
