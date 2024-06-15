@@ -4,14 +4,15 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Perplexity AI Is Lying about Their User Agent</title>
 <link>https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/</link>
 <guid>https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/</guid>
 <content:encoded><![CDATA[
-<div> PerplexityBot, robots.txt, user agent, web scraping, ethical<br>
-<br>
-要点：文章讨论了PerplexityBot不遵守robots.txt协议和发送正确的用户代理信息，使用无头浏览器进行网页抓取，不发送自定义用户代理字符串。作者对此感到愤怒，并尝试阻止PerplexityBot的访问。PerplexityBot在对话中声称没有能力绕过robots.txt限制，但作者发现其实是在使用无头浏览器进行内容抓取。作者已在Discord上联系Perplexity团队并提出bug报告。下一步可能会是提出GDPR请求。作者感到愤怒并表示“干掉你，付我钱”。<br><br>总结:作者发现PerplexityBot不遵守robots.txt规则和发送正确的用户代理信息，使用无头浏览器进行网页抓取，引发愤怒并采取行动。 <div>
+<div> PerplexityBot, robots.txt, user agent, web scraping, ethical<br />
+<br />
+要点：文章讨论了PerplexityBot不遵守robots.txt协议和发送正确的用户代理信息，使用无头浏览器进行网页抓取，不发送自定义用户代理字符串。作者对此感到愤怒，并尝试阻止PerplexityBot的访问。PerplexityBot在对话中声称没有能力绕过robots.txt限制，但作者发现其实是在使用无头浏览器进行内容抓取。作者已在Discord上联系Perplexity团队并提出bug报告。下一步可能会是提出GDPR请求。作者感到愤怒并表示“干掉你，付我钱”。<br /><br />总结:作者发现PerplexityBot不遵守robots.txt规则和发送正确的用户代理信息，使用无头浏览器进行网页抓取，引发愤怒并采取行动。 <div>
 <p>I wrote yesterday about <a href="https://rknight.me/blog/blocking-bots-with-nginx/">blocking AI bots on the server</a> and today I have been <a href="https://mastodon.macstories.net/@viticci/112621000120261399">doing the same for MacStories</a>. Once it was setup Federico noticed that he was still able to get a quote from a specific MacStories post from <a href="https://www.perplexity.ai/">Perplexity</a>. I figured that this might be because they index pages (they are a search engine, of sorts) then I realised I had a perfect blog post I could test this on. Here's the changes I've done related to this on my site:</p>
 <ul>
 <li><strong>March 30th</strong>: Started disallowing <code>PerplexityBot</code>, and others, in <a href="/robots.txt">my robots.txt</a></li>
@@ -59,10 +60,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-06-15T14:16:28Z</pubDate>
 </item>
-
 <item>
 <title>Blocking Bots with Nginx</title>
 <link>https://rknight.me/blog/blocking-bots-with-nginx/</link>
