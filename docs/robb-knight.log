@@ -20456,3 +20456,12 @@ Existing_entries: 353
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-06-15 14:04:23.935865
+------------------------------------------------------
+Started: 2024-06-15 16:03:42.609530
+Existing_entries: 353
+Fetching from https://rknight.me/feed.xml
+Token length: 4415
+Summarized using GPT-3.5-turbo
+Append: [Perplexity AI Is Lying about Their User Agent](https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/)
+append_entries: 1
+Finish: 2024-06-15 16:03:49.711686
