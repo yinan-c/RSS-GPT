@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Text Blaze shareable folders</title>
 <link>https://brett.trpstra.net/link/535/16715638/text-blaze-shareable-folders</link>
 <guid>https://brett.trpstra.net/link/535/16715638/text-blaze-shareable-folders</guid>
 <content:encoded><![CDATA[
 <div> Text Blaze, snippets, Mac app, Lorem Ipsum, placeholder images
-<br>
+<br />
 Text Blaze更新后可以方便地共享文本片段文件夹。这个包含随机文本生成器的集合使用了{urlload}命令，适用于Text Blaze。其中包含了用于在HTML/Markdown文档中插入占位图像的片段和Bacon Ipsum、Hipster Ipsum的文本生成器。{urlload}命令可能需要高级账户。总结：更新后的Text Blaze允许方便地共享文本片段文件夹，包含了用于插入占位图像的片段和文本生成器。需要注意{urlload}命令可能需要高级账户。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -49,9 +50,7 @@ Text Blaze更新后可以方便地共享文本片段文件夹。这个包含随�
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16715638.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-06-15T14:35:00-05:00</pubDate>
-<pubDate>2024-06-15T14:35:00-05:00</pubDate>
 </item>
-
 <item>
 <title>A Markdown Lorem Ipsum API</title>
 <link>https://brett.trpstra.net/link/535/16714717/a-markdown-lorem-ipsum-api</link>
