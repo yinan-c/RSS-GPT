@@ -28279,3 +28279,11 @@ Append: [MassMail - 电子邮件(数字)营销工具 !](https://meta.appinn.net/
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-06-17 12:05:05.412540
+------------------------------------------------------
+Started: 2024-06-17 14:03:34.106299
+Existing_entries: 432
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-06-17 14:03:37.690664
