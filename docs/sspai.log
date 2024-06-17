@@ -25301,3 +25301,9 @@ Summarized using GPT-3.5-turbo
 Append: [派早报：YouTube 测试在服务端向视频植入广告](https://sspai.com/post/89656)
 append_entries: 1
 Finish: 2024-06-17 02:17:06.357737
+------------------------------------------------------
+Started: 2024-06-17 04:04:41.653911
+Existing_entries: 883
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-06-17 04:04:41.852221
