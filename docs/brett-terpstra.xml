@@ -4,6 +4,36 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Markdown Lipsum v2</title>
+<link>https://brett.trpstra.net/link/535/16717305/markdown-lipsum-v2</link>
+<guid>https://brett.trpstra.net/link/535/16717305/markdown-lipsum-v2</guid>
+<content:encoded><![CDATA[
+<div> API options, paragraphs, elements, parameters, control
+API 2版本做出了变动，现在用户可以指定段落数量和包含元素。用户可以使用不同的路径来确定段落长度和数量，还可以控制包含的元素。在路径中添加参数可以实现这些功能。这样用户可以根据自己的需求定制Markdown文档。同时，作者提到如果没有给出参数，默认输出5段中等长度的文本，并提供了详细的路径参数说明。通过API 2，用户可以更自由地生成想要的文档内容。文章中还提到，作者对BrettTerpstra.com的支持来自读者，鼓励点赞或分享。 <div>
+<p>I know it&rsquo;s been <a href="https://brettterpstra.com//2024/06/14/a-markdown-lorem-ipsum-api/">less than a week</a> since v1, but I made some major changes to <a href="https://brettterpstra.com//md-lipsum/">md-lipsum</a> that warrant a version 2.</p>
+
+<p>Basically, I incorporated all of the API options from <a href="https://loripsum.net/">Loripsum.net</a>, meaning you can now specify how many paragraphs and what elements are included. You can still get a full Markdown document with all elements using <a href="https://brettterpstra.com/md-lipsum/api/2/all">https://brettterpstra.com/md-lipsum/api/2/all</a>. You can include <code class="language-plaintext highlighter-rouge">/short</code>, <code class="language-plaintext highlighter-rouge">/medium</code>, <code class="language-plaintext highlighter-rouge">/long</code>, or <code class="language-plaintext highlighter-rouge">/verylong</code> in the path to determine paragraph length (can be shortened to <code class="language-plaintext highlighter-rouge">s</code>, <code class="language-plaintext highlighter-rouge">m</code>, <code class="language-plaintext highlighter-rouge">l</code>, <code class="language-plaintext highlighter-rouge">vl</code>), and/or a number to determine the number of paragraphs. More paragraphs means more header levels, too. Example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>curl 'https://brettterpstra.com/md-lipsum/api/2/all/10/m'</code></pre></div></div>
+
+<blockquote class="tip">
+  <p>If no parameters are given, e.g. the path is just <code class="language-plaintext highlighter-rouge">/api/2</code>, then all elements will be output with 5 paragraphs of medium length.</p>
+</blockquote>
+
+<p>You can also control exactly what elements are included using additional path parameters. These are detailed on the <a href="https://brettterpstra.com//md-lipsum/">project page</a>.</p>
+
+<p>Have fun!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F17%2Fmarkdown-lipsum-v2%2F&amp;text=Markdown+Lipsum+v2&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F17%2Fmarkdown-lipsum-v2%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16717305.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-06-17T12:04:00-05:00</pubDate>
+<pubDate>2024-06-17T12:04:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Text Blaze shareable folders</title>
