@@ -25409,3 +25409,12 @@ Existing_entries: 889
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-18 08:04:02.013743
+------------------------------------------------------
+Started: 2024-06-18 10:03:29.825776
+Existing_entries: 889
+Fetching from https://rsshub.app/sspai/index
+Token length: 5207
+Summarized using GPT-3.5-turbo
+Append: [具透 | macOS Sequoia 首个测试版上线，这些是值得你关注的新功能](https://sspai.com/post/89629)
+append_entries: 1
+Finish: 2024-06-18 10:03:33.192001
