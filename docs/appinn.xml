@@ -5,11 +5,97 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】南舟AI——AI驱动的量化分析诊股app</title>
+<link>https://meta.appinn.net/t/topic/57786</link>
+<guid>https://meta.appinn.net/t/topic/57786</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>背景</h2>
+<p>我是这个APP的研发项目负责人，我利用开源的本地大模型ChatGLM3重新进行微调，加入新的大量的金融语料，针对A股市场开发了这个APP。目的是帮助小投资者进行量化分析、期货量化、汇率分析、市场分析。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>选择方向</h2>
+<p>很多机构很早就引入深度学习进行量化分析和量化交易，特别是在美股，西蒙斯这个量化分析之父将数学模型引入股票交易之后，深度学习就成为量化分析的大刀。我之前一直在研发深度学习，不过随着大模型的发展（其实大模型也是深度学习的一种），我就有了利用AI进行量化分析的想法，我和我的客户们希望可以开发一款app，在大模型的帮助下，让中小投资者在股票市场中应对机构的吊打时，有一点点武器进行抵抗。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>实现</h2>
+<p>我选中ChatGLM3这个开源大模型进行魔改的重要原因是我们取得商用授权，另外我们也取得工信部生成式人工智能的备案，没有这个生成式人工智能是不能上架的。不过这些都不重要，最重要的是语料，其实就是金融数据清洗。如果将金融数据不整理，全部喂给大模型不是不行，但准确率感人，很容易造成问非所答或者无中生有。行业叫这个叫模型幻觉，其实不用太难理解，由于大模型是用线性代数的向量空间进行求解的，当数据不整齐的时候，向量空间的映射会不对称，所以在数据输入这一环节，控制好数据的格式和内容，训练得到的结果更加准确。</p>
+<p>我们没有使用外面开源的金融语料，而是编辑自己的金融语料，这个是最大的工作量。</p>
+<p>APP效果最终截图如下：</p>
+<p><img alt="首页" height="500" src="https://pp.myapp.com/ma_pic2/0/shot_54369332_2_1717657797/0" width="309" /></p>
+<p>当中有一个“AI量分分析诊股”的模块，我们申请了发明专利，注意是发明专利，不是实用新型这些。</p>
+<p><img alt="支持拖拽换位置" height="500" src="https://pp.myapp.com/ma_pic2/0/shot_54369332_4_1717657797/0" width="309" /></p>
+<p>这个模块只需要输入股票代码或股票名称就可以进行量化分析，当AI分析出不要买的时候，你最好不要买，因为今天可能不是买入的好时机。<br />
+以下是一些实操：</p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="48" src="https://xqdoc.imedao.com/17aebcfb84a145d33fc18679.ico" width="48" />
+
+      <a href="https://xueqiu.com/1914196885/294154342" rel="noopener nofollow ugc" target="_blank">xueqiu.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://xueqiu.com/1914196885/294154342" rel="noopener nofollow ugc" target="_blank">南舟AI手机app对赛力斯6月18日量化分析&nbsp;我们可以从以下几个方面进行综合分析：$赛力斯(SH601127)$&nbsp;#赛力斯#1.&nbsp;...</a></h3>
+
+  <p>我们可以从以下几个方面进行综合分析：$赛力斯(SH601127)$ #赛力斯#1. 价格走势： 赛力斯 的5日移动平均价为87.82元，30日移动平均价为86.99元，最近收盘价为92.9000元，前一日收盘价为87.7900元。从这些数据来看，赛力斯的价格在近期呈现出上涨趋势，但涨幅相对较小。2. 估值指标...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="48" src="https://xqdoc.imedao.com/17aebcfb84a145d33fc18679.ico" width="48" />
+
+      <a href="https://xueqiu.com/1914196885/294020470" rel="noopener nofollow ugc" target="_blank">xueqiu.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://xueqiu.com/1914196885/294020470" rel="noopener nofollow ugc" target="_blank">南舟AI对博汇股份6月17日量化分析&nbsp;我们可以从以下几个方面进行综合分析：$博汇股份(SZ300839)$&nbsp;#博汇股份#1.&nbsp;价格...</a></h3>
+
+  <p>我们可以从以下几个方面进行综合分析：$博汇股份(SZ300839)$ #博汇股份#1. 价格走势： 博汇股份 的5日移动平均价为6.56元，30日移动平均价为7.55元，最近收盘价为5.4300元。从这些数据来看，博汇股份的价格在过去一段时间内呈现波动下降的趋势。此外，前一日收盘价为6.7800元，较最近收...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>如何使用</h2>
+<p>直接在手机应用市场上搜索“南舟AI”就可以下载，安卓和苹果都有得下载。<br />
+web端的话，可以进行我们公司的主页进行注册使用：[<a class="inline-onebox" href="https://nzst.net/individuals.html" rel="noopener nofollow ugc">南舟致用</a>]</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>隐私安全</h2>
+<p>对于大部分人来说，隐私安全是一个网的重中之重。现有市面一些类似的工具操作可能是通过后端的程序处理操作的，目前我的这个APP是用户的隐私保护协议的，分别在华为，小米，苹果进行备案。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>开发计划</h2>
+<ul>
+<li>我们正在开发一个实时新闻分析推理模块，用AI进行涨跌板块预测。</li>
+<li>我们同时正在开发一个AI自动交易模型，等完善以上模块之后，再进行测试。简单点来说，就给AI一点钱，如500元，让他自动炒股，自负盈亏，亏本的话，就进行迭代。</li>
+<li>不过由于另一个项目AI知识库的关系，暂时没有人手抽去搞这个。希望多点人注册使用这个APP，给点意见，好让我们进行二次修改。</li>
+</ul>
+            <p><small>6 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/57786">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 18 Jun 2024 04:50:41 +0000</pubDate>
+<pubDate>Tue, 18 Jun 2024 04:50:41 +0000</pubDate>
+</item>
+
+<item>
 <title>瀑布流本地图片浏览器</title>
 <link>https://meta.appinn.net/t/topic/57818</link>
 <guid>https://meta.appinn.net/t/topic/57818</guid>
 <content:encoded><![CDATA[
-
 <div class="d-wrap">
 <blockquote>
 <h1><a href="https://wlm3201.github.io/Masonry_Image_Viewer" rel="noopener nofollow ugc">即点即用</a></h1>
@@ -50,9 +136,7 @@
             <p><a href="https://meta.appinn.net/t/topic/57818">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 19 Jun 2024 01:07:31 +0000</pubDate>
-<pubDate>Wed, 19 Jun 2024 01:07:31 +0000</pubDate>
 </item>
-
 <item>
 <title>[开发者自荐] 开源的聚合多种AI模型的浏览器侧边栏插件，Sider, Monica, Merlin 免费平替</title>
 <link>https://meta.appinn.net/t/topic/57806</link>
