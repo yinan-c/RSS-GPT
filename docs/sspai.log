@@ -25472,3 +25472,12 @@ Existing_entries: 892
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-19 02:16:20.977837
+------------------------------------------------------
+Started: 2024-06-19 04:03:46.017757
+Existing_entries: 892
+Fetching from https://rsshub.app/sspai/index
+Token length: 2521
+Summarized using GPT-3.5-turbo
+Append: [派早报：Meta 发布 Threads API、美国司法部就订阅续费问题起诉 Adobe 等](https://sspai.com/post/89720)
+append_entries: 1
+Finish: 2024-06-19 04:03:49.864530
