@@ -4,6 +4,54 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>瀑布流本地图片浏览器</title>
+<link>https://meta.appinn.net/t/topic/57818</link>
+<guid>https://meta.appinn.net/t/topic/57818</guid>
+<content:encoded><![CDATA[
+
+<div class="d-wrap">
+<blockquote>
+<h1><a href="https://wlm3201.github.io/Masonry_Image_Viewer" rel="noopener nofollow ugc">即点即用</a></h1>
+</blockquote>
+</div>
+<p><img alt="example1.png" height="" src="https://pic.sl.al/gdrive/pic/2024-06-19/6671dc1396dbf.png" width="" /><br />
+<img alt="example2.png" height="" src="https://pic.sl.al/gdrive/pic/2024-06-19/6671dc12aa5ee.png" width="" /></p>
+<blockquote>
+<p><a href="https://github.com/wlm3201/Masonry_Image_Viewer/releases/download/release/index.html" rel="noopener nofollow ugc">应用本体</a></p>
+</blockquote>
+<h3><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>与资源管理器相比：</h3>
+<ul>
+<li>递归遍历文件夹</li>
+<li>全屏无缝浏览</li>
+<li>按图片序号跳转</li>
+<li>按宽高比筛选</li>
+<li>过滤黑白/无背景图片</li>
+<li>广泛的格式支持</li>
+<li>拖动复制小图以便分享</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>与同类应用相比：</h3>
+<p><a href="https://pic.xluty.com" rel="noopener nofollow ugc">pic.xluty.com</a><br />
+<a href="https://github.com/Edge-coordinates/Waterfall_picture_viewer" rel="noopener nofollow ugc">Waterfall_picture_viewer</a></p>
+<ul>
+<li>支持浏览器离线使用</li>
+<li>本体大小仅40kb</li>
+<li>良好的加载和滚动性能</li>
+<li>自定义瀑布流/砌体样式</li>
+<li>简洁的放大/导航操作</li>
+<li>图片信息查看</li>
+<li>按大小/时间排序</li>
+<li>按文件夹跳转</li>
+</ul>
+<blockquote>
+<p><a href="https://github.com/wlm3201/Masonry_Image_Viewer" rel="noopener nofollow ugc">项目主页</a></p>
+</blockquote>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/57818">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 19 Jun 2024 01:07:31 +0000</pubDate>
+<pubDate>Wed, 19 Jun 2024 01:07:31 +0000</pubDate>
+</item>
 
 <item>
 <title>[开发者自荐] 开源的聚合多种AI模型的浏览器侧边栏插件，Sider, Monica, Merlin 免费平替</title>
