@@ -4,6 +4,28 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【油猴脚本】中小学教材电子版 jc.pep.com.cn 本地下载</title>
+<link>https://meta.appinn.net/t/topic/57874</link>
+<guid>https://meta.appinn.net/t/topic/57874</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h1>
+<p><a href="https://jc.pep.com.cn/" rel="noopener nofollow ugc">jc.pep.com.cn</a> 只提供在线预览但无法下载，通过抓包得知是由图片组成，想要自己去一张张下载图片并且组合转化成pdf格式，相当复杂。市面上很多下载方法也相当复杂（这里就不说了）。</p>
+<p>此脚本下载安装（油猴脚本安装见<a href="https://www.tampermonkey.net/" rel="noopener nofollow ugc">tampermonkey.net</a>）与使用方法简单。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>使用方法</h1>
+<p>打开 <a href="https://jc.pep.com.cn/" rel="noopener nofollow ugc">jc.pep.com.cn</a> 网站，选择你想要下载的教科书并 点<strong>在线阅读</strong>，</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/f/9/f97e93cb5ef8f3509bb5aab03d5a7817495f122b.webp" title="jc1"><img alt="jc1" height="249" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/f/9/f97e93cb5ef8f3509bb5aab03d5a7817495f122b_2_343x249.webp" width="343" /></a></div><p></p>
+<p>点击左上角的<strong>下载教科书</strong>按钮即可下载，并且网页中间会显示红色文字进度文本。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/9/19fc07b52dc6d2232eaa5b9ca6c32278f4c15761.webp" title="jc2"><img alt="jc2" height="158" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/9/19fc07b52dc6d2232eaa5b9ca6c32278f4c15761_2_345x158.webp" width="345" /></a></div><p></p>
+<h1><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>安装链接</h1>
+<p><a href="https://greasyfork.org/zh-CN/scripts/498372-%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%95%99%E6%9D%90%E7%94%B5%E5%AD%90%E7%89%88-jc-pep-com-cn-%E4%B8%8B%E8%BD%BD%E5%99%A8" rel="noopener nofollow ugc">https://greasyfork.org/zh-CN/scripts/498372-%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%95%99%E6%9D%90%E7%94%B5%E5%AD%90%E7%89%88-jc-pep-com-cn-%E4%B8%8B%E8%BD%BD%E5%99%A8</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/57874">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 19 Jun 2024 23:26:28 +0000</pubDate>
+<pubDate>Wed, 19 Jun 2024 23:26:28 +0000</pubDate>
+</item>
 
 <item>
 <title>如何平滑的打开一个有1000+条目的chrome收藏夹？</title>
