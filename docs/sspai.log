@@ -25559,3 +25559,12 @@ Existing_entries: 897
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-20 02:15:10.784158
+------------------------------------------------------
+Started: 2024-06-20 04:03:45.807201
+Existing_entries: 897
+Fetching from https://rsshub.app/sspai/index
+Token length: 2434
+Summarized using GPT-3.5-turbo
+Append: [派早报：Apple Vision Pro 国区 App Store 已上线、腾讯成为 2024 巴黎奥运会特许转播商等](https://sspai.com/post/89752)
+append_entries: 1
+Finish: 2024-06-20 04:03:49.832447
