@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>【油猴脚本】中小学教材电子版 jc.pep.com.cn 本地下载</title>
 <link>https://meta.appinn.net/t/topic/57874</link>
 <guid>https://meta.appinn.net/t/topic/57874</guid>
 <content:encoded><![CDATA[
-
 <h1><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>简介</h1>
 <p><a href="https://jc.pep.com.cn/" rel="noopener nofollow ugc">jc.pep.com.cn</a> 只提供在线预览但无法下载，通过抓包得知是由图片组成，想要自己去一张张下载图片并且组合转化成pdf格式，相当复杂。市面上很多下载方法也相当复杂（这里就不说了）。</p>
 <p>此脚本下载安装（油猴脚本安装见<a href="https://www.tampermonkey.net/" rel="noopener nofollow ugc">tampermonkey.net</a>）与使用方法简单。</p>
@@ -24,9 +24,7 @@
             <p><a href="https://meta.appinn.net/t/topic/57874">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 19 Jun 2024 23:26:28 +0000</pubDate>
-<pubDate>Wed, 19 Jun 2024 23:26:28 +0000</pubDate>
 </item>
-
 <item>
 <title>如何平滑的打开一个有1000+条目的chrome收藏夹？</title>
 <link>https://meta.appinn.net/t/topic/57858</link>
