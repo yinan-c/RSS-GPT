@@ -4,12 +4,13 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Adding Github-Style Markdown Alerts to Eleventy</title>
 <link>https://rknight.me/blog/adding-githubstyle-markdown-alerts-to-eleventy/</link>
 <guid>https://rknight.me/blog/adding-githubstyle-markdown-alerts-to-eleventy/</guid>
 <content:encoded><![CDATA[
-<div> 更新模块、Markdown、Eleventy、CSS、插件<br>
+<div> 更新模块、Markdown、Eleventy、CSS、插件<br />
 更新模块和插件让作者的博客更新更有条理，Markdown语法简单易用，配合Eleventy使用更方便；CSS样式调整使插件输出的更新模块颜色搭配网站风格统一。总结: 更新模块插件让作者博客更新更有条理，使用Markdown和Eleventy更便捷，CSS调整让模块颜色与网站风格更加统一。 <div>
 <p>I often have occasion to come back to a blog post and add some kind of update. Maybe I changed my mind or someone offered some new information I hadn't seen at the time of writing. Up until now I would just add updates willy-nilly; sometimes they'd be at the start, sometimes the end, sometimes in bold, sometimes not. What I wanted was something standard I could use and ideally with Markdown.</p>
 <p><a href="https://github.com/orgs/community/discussions/16925">GitHub has alerts</a> (aka callouts) Markdown support where the syntax looks like this:</p>
@@ -22,10 +23,8 @@
 <p><img alt="Callout" src="https://cdn.rknight.me/site/callout.jpg" /></p>
 <p>Finally I went and updated a bunch of old posts that had updates.</p>
 ]]></content:encoded>
-
 <pubDate>2024-06-21T11:26:37Z</pubDate>
 </item>
-
 <item>
 <title>Perplexity AI Is Lying about Their User Agent</title>
 <link>https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/</link>
