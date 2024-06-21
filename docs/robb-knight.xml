@@ -4,6 +4,27 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Adding Github-Style Markdown Alerts to Eleventy</title>
+<link>https://rknight.me/blog/adding-githubstyle-markdown-alerts-to-eleventy/</link>
+<guid>https://rknight.me/blog/adding-githubstyle-markdown-alerts-to-eleventy/</guid>
+<content:encoded><![CDATA[
+<div> 更新模块、Markdown、Eleventy、CSS、插件<br>
+更新模块和插件让作者的博客更新更有条理，Markdown语法简单易用，配合Eleventy使用更方便；CSS样式调整使插件输出的更新模块颜色搭配网站风格统一。总结: 更新模块插件让作者博客更新更有条理，使用Markdown和Eleventy更便捷，CSS调整让模块颜色与网站风格更加统一。 <div>
+<p>I often have occasion to come back to a blog post and add some kind of update. Maybe I changed my mind or someone offered some new information I hadn't seen at the time of writing. Up until now I would just add updates willy-nilly; sometimes they'd be at the start, sometimes the end, sometimes in bold, sometimes not. What I wanted was something standard I could use and ideally with Markdown.</p>
+<p><a href="https://github.com/orgs/community/discussions/16925">GitHub has alerts</a> (aka callouts) Markdown support where the syntax looks like this:</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token blockquote punctuation">></span> [!NOTE]  <br /><span class="token blockquote punctuation">></span> Highlights information that users should take into account, even when skimming.<br /><br /><span class="token blockquote punctuation">></span> [!TIP]<br /><span class="token blockquote punctuation">></span> Optional information to help a user be more successful.<br /><br /><span class="token blockquote punctuation">></span> [!IMPORTANT]  <br /><span class="token blockquote punctuation">></span> Crucial information necessary for users to succeed.<br /><br /><span class="token blockquote punctuation">></span> [!WARNING]  <br /><span class="token blockquote punctuation">></span> Critical content demanding immediate user attention due to potential risks.<br /><br /><span class="token blockquote punctuation">></span> [!CAUTION]<br /><span class="token blockquote punctuation">></span> Negative potential consequences of an action.</code></pre>
+<p>These different types have different colors and icons on GitHub. I figured these would be perfect for my update blocks if I could just do:</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token blockquote punctuation">></span> [!NOTE] Update 2024-06-20<br /><span class="token blockquote punctuation">></span> This is the update that has happened</code></pre>
+<p>Thankfully someone had made a plugin to handle this with <code>markdown-it</code>, the renderer I use for this site: <a href="https://www.npmjs.com/package/markdown-it-github-alerts"><code>markdown-it-github-alerts</code></a>. I installed the package and added it to my Eleventy config:</p>
+<pre class="language-diff"><code class="language-diff">let markdownLib =  markdownIt(options)<br />	.use(require("markdown-it-footnote"))<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	.use(require('markdown-it-github-alerts'))</span></span></code></pre>
+<p>I also pulled in <a href="https://github.com/antfu/markdown-it-github-alerts/tree/main/styles">the CSS</a> from the package into my CSS config and made a few tweaks: I've no intention of using anything other than the <code>NOTE</code> type so I wanted the colors to match my site rather than use GitHub's colors.</p>
+<p><img alt="Callout" src="https://cdn.rknight.me/site/callout.jpg" /></p>
+<p>Finally I went and updated a bunch of old posts that had updates.</p>
+]]></content:encoded>
+
+<pubDate>2024-06-21T11:26:37Z</pubDate>
+</item>
 
 <item>
 <title>Perplexity AI Is Lying about Their User Agent</title>
