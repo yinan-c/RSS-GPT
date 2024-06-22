@@ -25740,3 +25740,12 @@ Existing_entries: 906
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-22 06:04:37.529035
+------------------------------------------------------
+Started: 2024-06-22 08:03:37.952627
+Existing_entries: 906
+Fetching from https://rsshub.app/sspai/index
+Token length: 3641
+Summarized using GPT-3.5-turbo
+Append: [WWDC24 在现场：我们听到了这些开发者的声音](https://sspai.com/post/89816)
+append_entries: 1
+Finish: 2024-06-22 08:03:42.020107
