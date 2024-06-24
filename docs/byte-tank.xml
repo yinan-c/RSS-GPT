@@ -4,6 +4,576 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+<item>
+<title>Personal Local (Llama3 8B) LLM extended with WhatsApp + Obsidian Data</title>
+<link>https://lopespm.com/machine_learning/2024/06/24/personal-llm.html</link>
+<guid>https://lopespm.com/machine_learning/2024/06/24/personal-llm.html</guid>
+<content:encoded><![CDATA[
+<div> Llama3 8B、WhatsApp Messages、Obsidian Notes、Retrieval Augmented Generation、Text embeddings：<br>
+<br>
+总结：<br>
+文章描述了如何建立一个完全离线的Llama3 8B LLM代理，具有访问WhatsApp消息和Obsidian笔记的功能，并能够针对其中任何主题进行对话。通过将所有数据保留在本地，包括WhatsApp和Obsidian的数据，实现了一个个人助手。文章详细介绍了从构建块到实施过程，涵盖了运行离线LLM、增强LLM的知识、文档处理和存储、文本嵌入模型等内容。这个项目展示了潜在的丰富可能性，为个人助手的定制和探索提供了启发。 <div>
+<p>This blog article will describe the implementation of a fully offline Llama3 8B LLM agent with access to WhatsApp Messages and Obsidian notes (or any other data sources), making it able to hold conversations about any of the topics present there. All data stays local, including the data from WhatsApp and Obsidian - it is in fact a <em>personal</em> assistant.</p>
+
+<p>Source code for this project is <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html#source-code">available on GitHub</a>.</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/personal_llm/showcase_interaction3.png" />
+           
+         </center>
+
+<!--more-->
+
+<p><br /></p>
+
+<h1 id="motivation--objective">Motivation &amp; Objective</h1>
+
+<h2 id="why-was-this-project-assembled-in-the-first-place">Why was this project assembled in the first place?</h2>
+
+<ul>
+  <li>I’ve built up a considerable personal database:
+    <ul>
+      <li>For more than 15 years I’ve been journaling and writing several notes, keeping them aggregated in the same place as I changed their hosting platform. From simple text files, passing by Evernote, and more recently into <a href="https://obsidian.md/">Obsidian</a>, into which I migrated all of my written notes <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li>
+      <li>Most of my relevant correspondence for almost 10 years has been made via WhatsApp, which stores all messages locally</li>
+    </ul>
+  </li>
+  <li>I’ve realized how powerful it is to reflect on past events and approach them with the lenses of the new experiences and lessons I’ve been accumulating throughout life, but due to the considerable amount of content present in the above data stores, sometimes it is hard to reach and associate the relevant information I am looking for, even though I try to keep the above relatively organized.</li>
+  <li>And of course, how great would it be to have a personal assistant with access to all of these, in a self-contained offline fashion?
+    <ul>
+      <li>Currently, state of the art Large Language Models (LLMs) such as <a href="https://ai.meta.com/blog/meta-llama-3/">Llama3</a> are feasible to be run locally on a laptop, which is something that still blows my mind.</li>
+      <li>Pre-trained LLMs can have their capabilities augmented (as we will see below) to serve different custom purposes</li>
+    </ul>
+  </li>
+</ul>
+
+<p>All of this combined meant that it would be feasible to host a state of the art LLM in my laptop, with potential access to my personal files, without requiring this sensitive information to be hosted or processed elsewhere, which was something that had quite an appeal for me.</p>
+
+<h2 id="objective">Objective</h2>
+
+<p>Build an offline assistant with access to WhatsApp messages and Obsidian notes (or any other data sources), using components that don’t fully abstract the process (similar to the approach I took when <a href="https://lopespm.com/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html">creating a deep reinforcement learning agent to play a racing game</a>), to learn more about how LLMs and their infrastructures work.</p>
+
+<p><br /></p>
+
+<h1 id="building-blocks">Building Blocks</h1>
+
+<h2 id="running-an-offline-llm">Running an offline LLM</h2>
+
+<p>One of the crucial pieces is actually being able to run an LLM locally. Below we will explore the hardware requirements, and software we can use.</p>
+
+<h3 id="the-more-gpu-cores-and-vram-the-better">The more GPU cores and VRAM, the better</h3>
+
+<p>When running LLMs on a personal computer, there are two main factors that influence its inference performance and overall capability to even being able to run them: number of GPU cores, and available VRAM (video RAM, this is, memory available to the GPU).</p>
+
+<ul>
+  <li>The more GPU cores available, the more operations can be processed, and machine learning algorithms are all about just finding patterns in numbers</li>
+  <li>The more (VRAM) memory available, the bigger the model can be stored in memory and be efficiently processed. For example, if we consider Llama3 with 8 billion parameters (more information in <a href="https://www.youtube.com/watch?v=cpYqED1q6ro">this video</a>) <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>:
+    <ul>
+      <li>One 32 bit float value = 32 bits of memory, this is, 4 bytes (1 byte = 8 bits)</li>
+      <li>8 billion parameters = 8.000.000.000 * 4 bytes = 32.000.000.000 bytes ≈ 32GB VRAM, for a full precision model (32 bit float)</li>
+      <li>If we would use a quantized model, this is, using lower precision floats to represent the parameters:</li>
+      <li>Using half precision 16 bit float parameters: 16 GB VRAM</li>
+      <li>Using quarter precision, 8 bit float parameters: 8 GB VRAM</li>
+      <li>And if we would use Llama 70 billion parameters, it would amount to 280 GB VRAM (float32), 140 GB VRAM (float16), 70 GB VRAM (float8), 35 GB VRAM(float4)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>I personally own a MacBook Pro M3 Max with 40 GPU cores and 128GB of unified RAM (meaning that this memory is available to the CPU and GPU), and it just so happens that Apple Silicon computers (M1, M2, M3 chips) are very capable machines to run inference on LLMs, such as Llama3 8B (full precision), or even 70B models (I’ve personally tested the 70B 4bit model <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> on this machine, and can attest that it runs well and in bounds of memory available, as seen on the calculations above)</p>
+
+<h3 id="running-the-inference">Running the inference</h3>
+
+<p>There are several methods or libraries that can be used for running a LLM in a personal computer. One of the most approachable ones is <a href="https://www.ollama.com/">ollama</a>, which effortlessly allows you (after a quick installation step), to run Llama 3, Phi 3, Mistral, Gemma offline on your computer.</p>
+
+<p>Another possible way is to load the model’s definition from Hugging Face (think of it roughly as a GitHub for machine learning models), and run them via the <a href="https://pypi.org/project/transformers/">transformers</a> library, which vividly encourage you to explore. The amount of freely available pre-trained models to perform tasks on different modalities such as text, vision, and audio is inspiring, to say the least.</p>
+
+<p>For this project, a third option was picked, which was using <a href="https://pypi.org/project/mlx-lm/">mlx_lm</a> library, that essentially still leverages the Hugging Face Hub to provide the models, but optimizes execution by leveraging <a href="https://unfoldai.com/mlx-ml-on-apple-silicon/">MLX</a>, an array framework crafted specifically for harnessing the power of Apple silicon, which was developed by Apple’s machine learning research team.</p>
+
+<h2 id="augmenting-the-llms-knowledge">Augmenting the LLM’s Knowledge</h2>
+
+<p>Now that our LLM is running locally, the question that follows is: how to make it aware of all the contents present in Obsidian notes and WhatsApp messages? We have a few options:</p>
+
+<h3 id="retrain--fine-tune-a-pre-trained-llm">1. Retrain / fine tune a pre-trained LLM</h3>
+
+<p>The idea here is to retrain / fine tune the entire model, or parts of it, to make it knowledgeable about our contents.</p>
+
+<p>A pre-trained LLM comes with the advantage of common probabilistic knowledge about a language or set of languages that can be leveraged upon, which was a result of a long and costly training process. As such, a full retraining of the model that would not retain information about its trained parameters would be out of the question. Instead, there are several ways we can leverage it:</p>
+
+<ul>
+  <li>Freeze the existing LLM layers (all or a selection of them), add also add new trainable layer layers on top of the existing LLM layers, and only train the trainable and unfreezed ones.</li>
+  <li><a href="https://llama.meta.com/docs/how-to-guides/fine-tuning/">Fine tune</a> the existing pre-trained LLM, which essentially modifies all parameters of the model with a low training rate, in order to retain as much existing knowledge and capabilities as much as possible, and avoid <a href="https://arxiv.org/html/2402.18865v1">catastrophic forgetting</a>. Because these models are so massive, they are not particularly sensitive to any given parameters being off by a lot, or a little. Their overall size and complexity make up for it, so we can mostly get away with rough updates. To fine tune a model, there are essentially two ways to go about it:
+    <ul>
+      <li>Load all of the model’s parameters into memory, and modify them directly during the learning process</li>
+      <li>Take advantage of the fact that you can multiply two small matrices to get a larger matrix (which is the main bread and butter of deep learning models), so we can try to find out the two smaller matrices instead, meaning that we only need to maintain those in memory. All the parameters of the model are still modified during training, but we don’t need to hold them all in memory at once. That’s what Low-Rank Adaptation (<a href="https://www.entrypointai.com/blog/lora-fine-tuning/">LoRA</a>) fine-tuning method does, and it is one of the most popular ways to fine tune LLMs, along with its QLoRA counterpart (which uses a data type that reduces by 4x the already lower LoRA memory footprint).</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Some important aspects of these techniques:</p>
+
+<ul>
+  <li>We are compressing our documents into the LLMs internal knowledge, and we have less control of how precisely these models retain the most accurate information. These could lead to hallucinations.</li>
+  <li>If the data we want to augment our LLM with is dynamic in nature (which for our case, I would prefer it to be, so that the assistant can have access to the most relevant information when used), this would mean that the model would need to be fine tuned every time an update should be made.</li>
+  <li>The training data needs to be structured in a way that makes sense for the model to be used. For example, WhatsApp messages and Obsidian notes would need to be transformed into a sensible training set that would fit the tone I would aim to have for the assistant.</li>
+</ul>
+
+<p>Given that I would want to experiment with different types of assistants and different ways to leverage and explore the data in a conversational way, and have access to the most up to date information available, which could be available in several different formats (for example, let’s say I would like to augment the LLMs knowledge with historical CO2 readings of my apartment), retraining / fine tuning the model was not a very inviting approach.</p>
+
+<h3 id="insert-all-documents-into-the-prompt-as-context">2. Insert all documents into the prompt, as context</h3>
+
+<p>The idea here is to provide all the context that LLM needs, in the <a href="https://llama.meta.com/docs/how-to-guides/prompting/">prompt’s context</a>. For example:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>
+&lt;|begin_of_text|&gt;&lt;|start_header_id|&gt;system&lt;|end_header_id|&gt;
+
+You are a AI assistant which answers the user's question based on your prior knowledge
+and a collection of the user's documents.
+
+Each of the documents has the format &lt;&lt;document:||document_name||&gt;&gt;||content||.
+||document_name|| represents the document name. ||content|| represents the
+document's content. Don't show the &lt;&lt;document:||document_name||&gt;&gt; portion to the user.
+
+For example, for: &lt;&lt;document:&lt;obsidian&gt;:hello world&gt;&gt;This is an interesting
+description of hello.
+- ||document_name|| is &lt;obsidian&gt;:hello world
+- ||content|| This is an interesting description of hello.
+
+These are the user's documents:
+----------
+&lt;&lt;document:&lt;obsidian&gt;:lamas running down the street&gt;&gt;The content for lamas
+going down the street
+&lt;&lt;document:&lt;obsidian&gt;:alpacas running down the street&gt;&gt;That time when I saw a
+alpaca running down the street.
+----------
+
+&lt;|start_header_id|&gt;user&lt;|end_header_id|&gt;Tell me about that time I've seen animals
+running down the street&lt;|eot_id|&gt;
+
+</pre></div>
+</div>
+</div>
+
+<p><br />
+This would be the most convenient approach, but the context window available to a LLM, the number of tokens it can use at one time to generate a response, is limited.</p>
+
+<p>Llama3 8B for example, allows for a 8K token context window, and there have been attempts to extend it further to <a href="https://arxiv.org/pdf/2404.19553">80K</a> or <a href="https://huggingface.co/gradientai/Llama-3-8B-Instruct-262k">262K</a>, and Google’s Gemini 1.5 Pro can handle a <a href="https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/#architecture">1 million token context window</a>, for example.</p>
+
+<p>Given that my Obsidian notes total around 8M characters in content, and my WhatsApp messages around 16M, even if we assume that an average of 1 <a href="https://x.com/karpathy/status/1789590397749957117">token</a> per 4 characters, just the Obsidian notes would clock around 2M tokens, which makes this method infeasible</p>
+
+<h3 id="rag-retrieval-augmented-generation">3. RAG (Retrieval Augmented Generation)</h3>
+
+<p>To navigate around the context window limitation, instead of inserting all the documents into the prompt’s context in one go, we can instead be selective on the information we want to provide on the prompt, depending on the user’s request(s).</p>
+
+<p>For example, if the user asks the AI assistant “what do you think about that gaming project I did 4 years ago?”, behind the scenes we can query a database, and ask it the most relevant results about gaming projects that happened about 4 years ago, and then use those documents content into the prompt’s context.</p>
+
+<p>That’s the overall idea of RAG.</p>
+
+<p>Now, many questions come up:</p>
+
+<ol>
+  <li><em>Transforming a conversation into a query:</em> How do we transform the user’s prompt + the context of the conversation, into a query that asks our database exactly what the main LLM needs to provide a contextual reply?</li>
+  <li><em>Fetching contents related to a query:</em> How can the content database know which are the most relevant content related to a given query?</li>
+</ol>
+
+<p>Let’s explore these in the next section.</p>
+
+<h2 id="what-makes-rag-tick">What makes RAG tick?</h2>
+
+<h3 id="transforming-a-conversation-into-a-query">1. Transforming a conversation into a query</h3>
+
+<p>In order to produce a query that transforms an entire conversation into a concise sentence that can be used to get the documents in the database that are most similar to it, we can feed in the conversation into a LLM specialized in creating summarized queries. Here is an example of prompt we can use for it:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>&lt;|begin_of_text|&gt;&lt;|start_header_id|&gt;system&lt;|end_header_id|&gt;   
+You are the user's document keeper that has access to all the documents for the user.
+Based on the entire conversation only, you will only reply with the question you
+will ask to query the appropriate user documents, in order to get all the relevant
+user's documents related to the conversation.
+&lt;|eot_id|&gt;
+
+&lt;&lt; entire conversation &gt;&gt;
+
+&lt;|start_header_id|&gt;document keeper&lt;|end_header_id|&gt;
+</pre></div>
+</div>
+</div>
+
+<p><br />
+This is how it would it would look like with actual information about the conversation:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>&lt;|begin_of_text|&gt;&lt;|start_header_id|&gt;system&lt;|end_header_id|&gt;   
+You are the user's document keeper that has access to all the documents for the user.
+Based on the entire conversation only, you will only reply with the question you
+will ask to query the appropriate user documents, in order to get all the relevant
+user's documents related to the conversation.
+&lt;|eot_id|&gt;
+
+&lt;|start_header_id|&gt;assistant&lt;|end_header_id|&gt;
+Hi there! I\'m a helpful AI assistant with access to your documents. What can I do for you today?
+&lt;|eot_id|&gt;
+&lt;|start_header_id|&gt;user&lt;|end_header_id|&gt;
+What is the name of the first steam game I developed?
+&lt;|eot_id|&gt;
+&lt;|start_header_id|&gt;assistant&lt;|end_header_id|&gt;
+Survival Ball, which you published in 2018
+&lt;|eot_id|&gt;
+&lt;|start_header_id|&gt;user&lt;|end_header_id|&gt;
+which interesting things could you tell me about it?
+&lt;|eot_id|&gt;
+
+&lt;|start_header_id|&gt;document keeper&lt;|end_header_id|&gt;
+</pre></div>
+</div>
+</div>
+
+<p><br />
+This LLM’s reply would be <code>Which are interesting facts about Survival Ball, a game developed in 2008?</code>.</p>
+
+<h3 id="fetching-contents-related-to-a-query">2. Fetching contents related to a query</h3>
+
+<p>Now that we have a query, such as “Which are interesting facts about Survival Ball, a game developed in 2008?”, how can we get the documents (Obsidian notes and/or WhatsApp messages) that are most relevant with that query?</p>
+
+<p>One possible way would be to perform a custom decomposition of the query phrase, and attempt to look for documents that most referenced similar words to the query. This custom search would be brittle, require careful heuristics to match these, and would not completely take into account what that sentence means, and therefore the matching between query and documents would be likely unreliable.</p>
+
+<p>Instead, we have a much more powerful concept at our disposal, which will help us perform this matching: text embeddings.</p>
+
+<h4 id="text-embeddings">Text embeddings</h4>
+
+<p>The idea behind text embeddings is that if we transform a given piece of text into a vector that is in close proximity to other vectors that have a similar meaning, then from a given query text we can get the most conceptually similar pieces of text to it. <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p>
+
+<p>For example, if the vectors representing our text were trained to be closer together when they rhyme, then close to the word “dog”, we might have the word “fog” closer to it, but “cat” further away; and conversely, if we trained these to represent their conceptual meaning, then for the word “dog”, we might see the word “cat” nearer to it, but “floor” further away <sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup></p>
+
+<p>A mind-boggling implication is that we can perform algebraic expressions on these vectors. For example, if our vectors were trained to represent the meaning of the text we could have the following:</p>
+
+<ul>
+  <li>The classical example is that if grab the vectors for king, woman and man, and perform this operation: <code>(king + woman) - man</code>, the closest vector could be <code>queen</code></li>
+  <li><code>(London + Japan) - England -&gt; Tokyo</code></li>
+  <li><code>(boat - fly) - airplane -&gt; sail</code></li>
+  <li><code>(cow - oink) - pig -&gt; moos</code></li>
+</ul>
+
+<p>Likewise, if we probe which are the closest pieces of text related to <code>dog</code>, we could get <code>dogs, puppy, pit_bull, pooch</code></p>
+
+<p>These examples were takes from an actual working <a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a> model that was trained on a google news dataset, which I invite you to explore in this <a href="https://colab.research.google.com/drive/1qxnNUojAzIniOXwFZi4y7NlWk4cTzIMZ?usp=sharing">Google Colab notebook</a>.</p>
+
+<center>
+  <div class="image-mosaic">
+  <div class="image-mosaic-card image-mosaic-card-tall image-mosaic-card-wide"></div>
+  </div>
+  <figcaption class="media-caption"> Exploring the above examples using a <a href="https://colab.research.google.com/drive/1qxnNUojAzIniOXwFZi4y7NlWk4cTzIMZ?usp=sharing">word2vec model in Google Colab</a></figcaption>
+</center>
+
+<p>For our project’s objective, the most relevant property is the latter one. Given query text, we would transform it into a vector, and get the closest vectors in our document (vector) database, which in our project will be supported by a PostgreSQL database using the <a href="https://github.com/pgvector/pgvector">pgvector</a> extension. More about this below.</p>
+
+<h1 id="putting-it-all-together">Putting it all together</h1>
+
+<p>With the prior knowledge for the previous section, we are now in a position to build an system architecture that would best fit our objective:</p>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/architecture.png"><img src="https://lopespm.com/files/personal_llm/architecture.png" /></a></center><figcaption class="media-caption"> Personal LLM Architecture </figcaption></figure>
+
+<p>The overall idea is that we have a Llama3 8B LLM powering the main AI assistant, which has its knowledge augmented via RAG (Retrieval Augmented Generation) by using another Llama3 8B LLM to generate queries used to retrieve documents from a vector database powered by PostgreSQL. These retrieved documents are then added to the main LLM’s context, and the LLM generates a response based on the retrieved documents + user’s prompt + ongoing conversation. Below are further details for these.</p>
+
+<ol>
+  <li>First <em>prepare documents and store them</em> in a vector database.</li>
+  <li>and then, when using the chat interface, <em>evaluate the user’s input and conversation</em>, query the vector database for relevant documents, add them as context into the main LLMs prompt, which will output the response that the user will see.</li>
+</ol>
+
+<h2 id="document-preparation-and-storage">Document preparation and storage</h2>
+
+<p>Before anything else, all Obsidian notes and WhatsApp messages are exported, parsed, transformed into text embeddings, and inserted into the vector database.</p>
+
+<h3 id="exporting-the-data-sources">1. Exporting the data sources</h3>
+
+<p>No export procedure is required for Obsidian, since it stores its text contents inside markdown (<code>.md</code>) files, we just need to point directly to the folder we want to target, which can be a vault’s root folder, for example.</p>
+
+<p>For WhatsApp messages, a <code>result.json</code> holding a structured JSON dump of all messages and their respective metadata, is generated via an open source exporting utility which extracts all messages from the local WhatsApp database present in the mobile device; and a <code>contacts.csv</code> is exported from all Google contacts, in order to enrich the context of the aforementioned messages. A step-by-step process to generate these is described <a href="https://github.com/lopespm/personal_llm?tab=readme-ov-file#setup-of-data-sources">in the repo’s Readme</a></p>
+
+<h3 id="parse-vectorize-and-persist">2. Parse, vectorize and persist</h3>
+
+<p>With our data sources ready, we can now start extracting relevant information, transforming the relevant content into a vector, and then persist into a vector database. The entire process is made by running:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>$ python create_and_persist_embeddings.py
+</pre></div>
+</div>
+</div>
+<p><br /></p>
+
+<p>Each of the separate Obsidian note paragraphs and WhatsApp messages are accumulated into a single entry, so that locally close contextual content can be readily available and provided to the main LLM AI assistant, when retrieved, so that it has better immediately relevant contextual information about a given topic. It was chosen to accumulate a set of note paragraphs / messages that in total would not surpass the maximum content length of the model used to vectorize the content, which in this case has a maximum content length of 514 (see how to get the maximum content length <a href="https://gist.github.com/lopespm/342bd297f0cd6a2819f69a1ea10e7777">here</a>).</p>
+
+<p>All of these are <a href="https://github.com/lopespm/personal_llm/blob/main/create_and_persist_embeddings.py#L7">batch processed</a>, so that vector embedding creation can be done much more efficiently. Given that in total there were 25M characters worth of content across these two data sources, these optimizations make a substantial change in the processing run time. Further optimizations could be made in optimizing <a href="https://github.com/lopespm/personal_llm/blob/main/create_and_persist_embeddings.py#L33-L36">DB insertion commits</a> and streaming each of the data sources contents, instead of storing them entirely into memory.</p>
+
+<h4 id="obsidian">Obsidian</h4>
+
+<p>The python script calls into a <a href="https://github.com/lopespm/personal_llm/blob/main/obsidian_to_embeddings.py">custom module</a> that traverses through all the markdown (<code>.md</code>) files inside Obsidian’s root folder and its respective descendent folders, and accumulate a group of lines in a given file into a distinct entry.</p>
+
+<p>For example, a Obsidian note called <code>Survival Ball TV.md</code> with this content</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>Only had to take OUYA project, change some resources to match Android TV controllers, detect Nexus Remote.
+Test on the Nexus Player
+Delete all OUYA related resources
+Most of the time was spent (...)
+</pre></div>
+</div>
+</div>
+<p><br /></p>
+
+<p>Would be broken down into to two separate database entries <sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup>:</p>
+
+<ul>
+  <li>Entry 1.
+    <ul>
+      <li>DB ID of the entry</li>
+      <li>Content: <code>Only had to take OUYA project, change some resource (...)</code> - these would be first lines of the note</li>
+      <li>Source: <code>&lt;obsidian&gt;:Survival Ball TV</code></li>
+      <li>Embedding: the vector representation the content text (content attribute above)</li>
+    </ul>
+  </li>
+  <li>Entry 2.
+    <ul>
+      <li>DB ID of the entry</li>
+      <li>Content: <code>Unity is pretty great, and has tons of really great stuff (...)</code> - the lines coming after the ones in Entry 1. above</li>
+      <li>Source: <code>&lt;obsidian&gt;:Survival Ball TV</code></li>
+      <li>Embedding: the vector representation of the content text (content attribute above)</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/obsidian_db_entry2.png"><img src="https://lopespm.com/files/personal_llm/obsidian_db_entry2.png" /></a></center><figcaption class="media-caption"> Sample Obsidian entries in the vector database <sup>6</sup> </figcaption></figure>
+
+<h4 id="whatsapp">WhatsApp</h4>
+
+<p>Likewise, the script also calls into a <a href="https://github.com/lopespm/personal_llm/blob/main/whatsapp_to_embeddings.py">custom module</a> that traverses all the messages, and similarly to the approach taken above for Obsidian notes, a set of messages are aggregated into a single entry.</p>
+
+<p>For example, a WhatsApp conversation on the “Deeper Conversations” chat group would be broken down into several different entries, such as [^6]:</p>
+
+<ul>
+  <li>Entry 1.
+    <ul>
+      <li>DB ID of the entry</li>
+      <li>Content: <code>message from "Deeper Conversations 💭" to me, on 2021-06-26 10:15:44: And that’s absolutely normal (...)</code> - several lines of the conversation would be aggregated here</li>
+      <li>Source: <code>&lt;whatsapp&gt;:xxxxxxxx-yyyyyyyy@t.as</code> (the numbers were redacted)</li>
+      <li>Embedding: the vector representation of the content text (content attribute above)</li>
+    </ul>
+  </li>
+  <li>Entry 2.
+    <ul>
+      <li>DB ID of the entry</li>
+      <li>Content: <code>message from "Deeper Conversations 💭" to me, on 2021-07-04 18:37:54: Challenge yourself (...)</code> - another group of several lines of the conversation would be aggregated here</li>
+      <li>Source: <code>&lt;whatsapp&gt;:xxxxxxxx-yyyyyyyy@t.as</code> (the numbers were redacted)</li>
+      <li>Embedding: the vector representation of the content text (content attribute above)</li>
+    </ul>
+  </li>
+  <li>Entry 3., 4., etc would have a similar structure to the ones above</li>
+</ul>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/whatsapp_db_entry.png"><img src="https://lopespm.com/files/personal_llm/whatsapp_db_entry.png" /></a></center><figcaption class="media-caption"> Sample WhatsApp entries in the vector database <sup>6</sup> </figcaption></figure>
+
+<h3 id="storage-vector-database">3. Storage (Vector Database)</h3>
+
+<p>The storage of the above entries is handled by a PostgreSQL database using the <a href="https://github.com/pgvector/pgvector">pgvector</a> extension, which allows PostgreSQL to store and query vector attributes, and notably for our project, it provides tha capability to query for the closest vectors / entries related to a given query vector via <a href="https://en.wikipedia.org/wiki/Cosine_similarity">cosine similarity</a> <sup id="fnref:7"><a href="#fn:7" rel="footnote">7</a></sup>.</p>
+
+<p>The database is hosted via a docker container, which makes it easily encapsulated and quick to set up and run.</p>
+
+<h2 id="embedding-model">Embedding model</h2>
+
+<p>As we <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html#text-embeddings">discussed above</a>, embedding models can be trained have their embedding representation to be optimized and better suit the problem at hand. In general, there are several types of tasks a embedding can be better or worse at, so testing each single model against our problem would certainly inefficient.</p>
+
+<p>Fortunately, a Massive Text Embedding Benchmark was been made and its results are freely available <a href="https://huggingface.co/spaces/mteb/leaderboard">in this dashboard</a>, which compares several models against capabilities such as classification, clustering and reranking.</p>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/text_embedding_model_leaderboard.png"><img src="https://lopespm.com/files/personal_llm/text_embedding_model_leaderboard.png" /></a></center><figcaption class="media-caption"> Massive Text Embedding Benchmark (MTEB) Leaderboard </figcaption></figure>
+
+<p>The model used for this project is <a href="https://huggingface.co/intfloat/multilingual-e5-large"><code>intfloat/multilingual-e5-large</code></a><sup id="fnref:8"><a href="#fn:8" rel="footnote">8</a></sup>, which was chosen for its:</p>
+
+<ul>
+  <li>Reasonable embedding dimensions (1024), which essentially means of many dimensions will the embedding vector have, allowing for a reduced database footprint and faster retrieval when compared to higher dimension models (such as GritLM-8x7B with 4096 dimensions)</li>
+  <li>Good average score across the all tasks (ranking 20th overall)</li>
+  <li>And most notably support 100 different languages, <a href="https://arxiv.org/pdf/1911.02116">one of them being Portuguese</a>, which is quite relevant since my notes and messages are largely a mix of English and Portuguese, with some sprinkles of other languages (which this model also supports)</li>
+</ul>
+
+<p><em>Related (source code <a href="https://github.com/lopespm/personal_llm/blob/main/embedding_generator_multilingual.py">here</a>)</em></p>
+
+<h2 id="evaluation-phase">Evaluation phase</h2>
+
+<p>Having all the documents vectorized and available in a database, we can now jump into the evaluation phase, in which we leverage upon these on chat conversation with an AI assistant.</p>
+
+<p>To start the chat session, we only need to activate the respective conda environment <sup id="fnref:9"><a href="#fn:9" rel="footnote">9</a></sup> and execute:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>$ python main.py
+</pre></div>
+</div>
+</div>
+<p><br /></p>
+
+<h3 id="the-main-ai-assistant-llm">1. The main AI Assistant LLM</h3>
+
+<p>Upon starting the above script, a Llama3 8B model (<a href="https://huggingface.co/mlx-community/Meta-Llama-3-8B-Instruct-4bit">mlx-community/Meta-Llama-3-8B-Instruct-4bit</a>) is loaded into memory and is instructed to behave as AI assistant / philosopher / psychotherapist (or any other role one so wishes, as <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html#results">seen below</a>, and the user is greeted with an initial message, and is able to start inserting a prompt.</p>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/greeting.png"><img src="https://lopespm.com/files/personal_llm/greeting.png" /></a></center><figcaption class="media-caption"> Greeting message from the AI assistant </figcaption></figure>
+
+<p>This will be LLM having the conversation with the user.</p>
+
+<h3 id="transform-conversation-into-db-query">2. Transform conversation into DB query</h3>
+
+<p>Once the user inserts their prompt, the entire conversation is provided to an auxiliary “document keeper” LLM, which has only one job: transform the entire conversation the user is having with the main AI assistant into concise sentence that aims to represent the information we are interested to provide as context on the upcoming reply.</p>
+
+<p>The document keeper LLM produces a query sentence <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html#transforming-a-conversation-into-a-query">using the previously described process</a> (related <a href="https://github.com/lopespm/personal_llm/blob/main/formulate_query_for_retrieving_content.py">source code</a>), and then transforms it into a vector using the <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html#embedding-model">embedding model</a>.</p>
+
+<p>Now we have everything we need. Using this vector representation of the query, we can ask the database which are the top 10 entries which have their respective vectors closest to the query vector.</p>
+
+<p>So for example, if the text query created by the “document keeper” LLM is <code>Which are interesting facts about Survival Ball, a game developed in 2008?</code> (resulting in a vector representation of [1.3, 4.2, 3.3, etc]), then a <a href="https://github.com/lopespm/personal_llm/blob/main/retrieve_related_content_from_db.py">SQL query such as this one would be made against the DB</a>:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre><span class="class">SELECT</span> id, content, source, <span class="integer">1</span> - (embedding &lt;=&gt; [<span class="float">1.3</span>, <span class="float">4.2</span>, <span class="float">3.3</span>, etc]) <span class="keyword">AS</span> cosine_similarity
+<span class="keyword">FROM</span> items
+<span class="keyword">ORDER</span> <span class="keyword">BY</span> cosine_similarity <span class="directive">DESC</span> LIMIT <span class="integer">10</span>,
+</pre></div>
+</div>
+</div>
+<p><br /></p>
+
+<h3 id="retrieved-entries-are-added-as-context-on-the-main-ai-llm-prompt">3. Retrieved entries are added as context on the main AI LLM prompt</h3>
+
+<p>Now that we have the retrieved a set of relevant entries we want the main AI assistant LLM to consider towards its reply, we now can add them as context for the prompt for the main AI assistant LLM, very similarly to what was <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html#insert-all-documents-into-the-prompt-as-context">described above</a>:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>
+&lt;|begin_of_text|&gt;&lt;|start_header_id|&gt;system&lt;|end_header_id|&gt;
+
+You are a AI assistant which answers the user's question based on your prior knowledge
+and a collection of the user's documents.
+
+Each of the documents has the format &lt;&lt;document:||document_name||&gt;&gt;||content||.
+||document_name|| represents the document name. ||content|| represents the
+document's content. Don't show the &lt;&lt;document:||document_name||&gt;&gt; portion to the user.
+
+For example, for: &lt;&lt;document:&lt;obsidian&gt;:hello world&gt;&gt;This is an interesting
+description of hello.
+- ||document_name|| is &lt;obsidian&gt;:hello world
+- ||content|| This is an interesting description of hello.
+
+These are the user's documents:
+----------
+&lt;&lt;document:&lt;obsidian&gt;:lamas running down the street&gt;&gt;The content for lamas
+going down the street
+&lt;&lt;document:&lt;obsidian&gt;:alpacas running down the street&gt;&gt;That time when they saw a
+alpaca running down the street.
+&lt;&lt;document:&lt;whatsapp&gt;:aaaaaaa-bbbbbbbb@t.we&gt;&gt;message from &quot;Thy Table Turner&quot; to me, on 2024-03-26 13:15:44: I've just seen a alpaca shuffling down the street
+&lt;&lt;document:&lt;whatsapp&gt;:aaaaaaa-bbbbbbbb@t.we&gt;&gt;message from me to &quot;Thy Table Turner&quot;, on 2024-03-26 13:16:32: Pretty sure it was lama though
+----------
+
+&lt;|start_header_id|&gt;user&lt;|end_header_id|&gt;Tell me about that time I've seen animals
+running down the street&lt;|eot_id|&gt;
+
+</pre></div>
+</div>
+</div>
+
+<h3 id="output-from-the-ai-assistant-llm-presented-to-the-user">4. Output from the AI assistant LLM presented to the user</h3>
+
+<p>We now have everything we need, and the prompt is ready to be <a href="https://github.com/lopespm/personal_llm/blob/main/main.py">evaluated by the main LLM</a>.</p>
+
+<p>Once the prompt is evaluated by this LLM, we present the output to the user, and then we cycle through the entire evaluation phase again once the user submits their request.</p>
+
+<h1 id="results">Results</h1>
+
+<center>
+ <div class="video-media-caption-wrapper-two"><div class="video-wrapper-two">
+  <div class="youtube-player video-frame-two"></div></div>
+   <p class="media-caption media-caption-two">Example interaction with the AI LLM, having its role as &#8220;AI assistant&#8221;</p>
+ </div>
+  </center>
+
+<p>Overall, I’ve found interactions with this AI to be quite interesting, even though sometimes it can output blobs of information that could be cleaner or have better answers. The former can be addressed by tweaking the prompts (i.e. prompt engineering) having increased efficacy towards the behavior I aim the Ai to have, and the latter by either cleaning Obsidian notes directly, or improving the data processing and extraction. Regardless, I find these results to be quite pleasing, useful and even amusing.</p>
+
+<p>For example, the code allows you to choose the AI’s persona by changing <a href="https://github.com/lopespm/personal_llm/blob/main/main.py#L8-L10">this constant</a></p>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/ai_role.png"><img src="https://lopespm.com/files/personal_llm/ai_role.png" /></a></center><figcaption class="media-caption"> The AI&#8217;s persona is customizable </figcaption></figure>
+
+<p>When choosing the AI’s persona to be of a AI “psychotherapist”, this happens <em>(disclaimer: please consult a professional if you require therapy, this agent is meant for pedagogical / entertainment / utilitarian uses only)</em>:</p>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/ai_psycotherapist.png"><img src="https://lopespm.com/files/personal_llm/ai_psycotherapist.png" /></a></center><figcaption class="media-caption"> Example interaction with the AI LLM, having its role as &#8220;AI assistant&#8221;  </figcaption></figure>
+
+<h1 id="final-notes">Final Notes</h1>
+
+<h2 id="adding-other-data-sources">Adding other data sources</h2>
+
+<p>This project focuses on using Obsidian notes and WhatsApp messages to augment the main LLM, but virtually any piece of content could be used to augment it. CO2 historical readings, tax documents, financial statements, diplomas, official documents, calendar events, etc. Sky is the limit.</p>
+
+<p>Doing so in practice would be as straightforward as adding an <a href="https://github.com/lopespm/personal_llm/blob/main/create_and_persist_embeddings.py">additional module to this script</a>, and have it return the pieces relevant pieces of content, and then re-run:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>$ python create_and_persist_embeddings.py
+</pre></div>
+</div>
+</div>
+<p><br /></p>
+
+<h2 id="inspiring-wealth-of-possibilities">Inspiring wealth of possibilities</h2>
+
+<p>This type of assistant has been something I’ve been daydreaming for a long time, and having the peace of mind that I have full control and customization of it is something that profoundly satisfies me. Not only that, this entire project has an immense learning opportunity for me, and as I researched through it and pieced the puzzle pieces together, I’ve felt humbled and inspired by the explosive amount of possibilities that these models provide.</p>
+
+<p>For example, just browsing through the <a href="https://huggingface.co/models">wealth of freely available models</a>, ready to be used, combined and assembled into different scenarios, leaves me at awe:</p>
+
+<figure class="image"><center><a href="https://lopespm.com/files/personal_llm/hugging_face_models.png"><img src="https://lopespm.com/files/personal_llm/hugging_face_models.png" /></a></center><figcaption class="media-caption"> A sample of different classes of models available in Hugging Face. Each of those having dozens of models, sometimes thousands. All freely available. </figcaption></figure>
+
+<h2 id="further-references">Further references</h2>
+
+<p>I find it fulfilling to learn about a subject by fundamentally understanding its core components, hence the usage of several lower level components, <a href="https://lopespm.com/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html">similar to how I previously built a deep reinforcement learning agent</a>), but there are several readily available tools and libraries that handle a lot of the heavy lifting:</p>
+
+<ul>
+  <li><a href="https://www.langchain.com/">LangChain</a>: framework designed to simplify the creation of applications using large language models (LLMs). As a language model integration framework, LangChain’s use-cases largely overlap with those of language models in general, including document analysis and summarization, chatbots, and code analysis. This could have been used to abstract most, if not all, of the RAG heavy lifting, which is quite useful.</li>
+  <li>Other Vector Databases: although PostgreSQL worked great for this project, there are other possible, such as <a href="https://www.pinecone.io/learn/retrieval-augmented-generation/">Pinecone</a> (this is a externally hosted DB, hence why it was not considered), <a href="https://qdrant.tech/">Qdrant</a>, <a href="https://www.trychroma.com/">chroma</a>, <a href="https://github.com/facebookresearch/faiss">faiss</a> or <a href="https://www.mongodb.com/resources/basics/retrieval-augmented-generation">MongoDB</a></li>
+  <li><a href="https://replicate.com/">Replicate</a>: Similarly to Hugging Face, Replicate is a platform that collects various open-source large language models (LLMs), offering AI models for a variety of purposes, including AI text generation, AI image generation, and AI video generation. Developers can use these models through Replicate’s API.</li>
+</ul>
+
+<h1 id="source-code">Source code</h1>
+
+<p>All source code is available on GitHub at <a href="https://github.com/lopespm/personal_llm">https://github.com/lopespm/personal_llm</a></p>
+
+<p><br /></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Obsidian is an amazing platform / app which I vividly recommend. I’ve recently migrated all of my notes from Evernote into Obsidian, and couldn’t be happier. Obsidian stores all of the notes in plain <code>.md</code> files that are yours to keep, and allows you to completely customize it to your heart’s desire. For example, I created a custom script that packages all of the notes, encrypts it, and stores that vault into my Google Drive. I would be happy to provide more details about this in a posterior note.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Note that these calculations are based on loading + inference for a batch size of 1. Training a model required far more VRAM<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Specifically, I’ve used the model available on hugging face at <a href="https://huggingface.co/mlx-community/Meta-Llama-3-70B-Instruct-4bit">mlx-community/Meta-Llama-3-70B-Instruct-4bit</a><a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>The process of how these embedding models are trained is a fascinating topic by itself. The idea behind it is that you place a given piece of text on the model’s input and on its corresponding contextual word on the output, and then train the model to attempt to correctly predict the output text. For example, if using a word2vec skip-gram architecture, the input is a single word and the output is trained to be the words around it. The model’s number of weights is lower than the number of pieces of text in the dictionary, so that the model is forced to compress these associations into its weights. Once the model is trained, we use its learned weights to generate an embedding for a given piece of text. When a model is trained on large swathes of text, this simple method yields incredible results.<a href="#fnref:4" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>In practice, representing these vectors as being closer together when they rhyme, vs when they are conceptually closer, can be achieved by training the embedding model on poetry books and giving higher emphasis on the last words of each line for the former, and training the embedding model on more generic text datasets, such as wikipedia, and using samples around the seed word uniformly as target words (using a <a href="https://en.wikipedia.org/wiki/Word2vec">skip-gram</a> architecture for example) for the latter.<a href="#fnref:5" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>These screenshots were taken from <a href="https://dbeaver.io/">DBeaver</a>, and open source universal database tool which is incredibly powerful and well designed.<a href="#fnref:6" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>The pgvector extension supports L2 distance, inner product, cosine distance, L1 distance, Hamming distance, and Jaccard distance.<a href="#fnref:7" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p>Related backing “Multilingual E5 Text Embeddings: A Technical Report” paper for this model is available in <a href="https://arxiv.org/pdf/2402.05672">arxiv</a><a href="#fnref:8" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:9">
+      <p>Conda provides for a self-contained and easy way to manage packages and environments. Whereas pip is a package manager and virtualenv is an environment manager, conda is both. Here is an <a href="https://docs.conda.io/projects/conda/en/latest/commands/index.html#conda-vs-pip-vs-virtualenv-commands">illustrative comparison table</a><a href="#fnref:9" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content:encoded>
+
+<pubDate>2024-06-24T00:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Aloof</title>
