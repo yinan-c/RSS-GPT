@@ -4,6 +4,53 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【Pot 3.0】跨平台划词翻译和OCR，支持自定义OpenAI以及js插件系统</title>
+<link>https://meta.appinn.net/t/topic/58060</link>
+<guid>https://meta.appinn.net/t/topic/58060</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Pot 跨平台划词翻译和OCR软件 3.0</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<ul>
+<li>Windows</li>
+<li>MacOS</li>
+<li>Linux</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>应用简介</h2>
+<p>核心功能：</p>
+<ul>
+<li>划词翻译</li>
+<li>输入翻译</li>
+<li>截图翻译</li>
+<li>文字识别</li>
+<li>生词本添加</li>
+<li>文本朗读</li>
+<li>插件系统</li>
+</ul>
+<p>3.0 版本重大更新：</p>
+<ul>
+<li>支持服务多实例配置，比如OpenAI接口可以分别设置不同的配置多次添加，实现更多功能。</li>
+<li>重写插件系统，现在支持js插件，插件编写更加方便容易，四种服务模块均有相应的插件模板仓库。</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用截图</h2>
+<p><img alt="" height="" src="https://h1.appinn.net/file/41fb1b7db8833835ac59a.png" width="" /><br />
+<img alt="" height="" src="https://h1.appinn.net/file/d72cb8957b036ac99edd4.png" width="" /><br />
+<img alt="" height="" src="https://h1.appinn.net/file/831461eae2e77965a3ddf.png" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>下载渠道</h2>
+<ul>
+<li>软件官网：<a href="https://pot-app.com" rel="noopener nofollow ugc">pot-app.com</a></li>
+<li>Github仓库：<a href="https://github.com/pot-app/pot-desktop" rel="noopener nofollow ugc">pot-app/pot-desktop</a></li>
+</ul>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58060">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 25 Jun 2024 08:59:41 +0000</pubDate>
+<pubDate>Tue, 25 Jun 2024 08:59:41 +0000</pubDate>
+</item>
 
 <item>
 <title>[求助]如何设置无图浏览某个特定网页，但是同域名下其他网页正常有图？</title>
