@@ -29048,3 +29048,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【Pot 3.0】跨平台划词翻译和OCR，支持自定义OpenAI以及js插件系统](https://meta.appinn.net/t/topic/58060)
 append_entries: 1
 Finish: 2024-06-25 10:03:33.550314
+------------------------------------------------------
+Started: 2024-06-25 12:04:40.093832
+Existing_entries: 441
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-06-25 12:04:43.066515
