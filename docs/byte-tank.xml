@@ -4,14 +4,15 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+
 <item>
 <title>Personal Local (Llama3 8B) LLM extended with WhatsApp + Obsidian Data</title>
 <link>https://lopespm.com/machine_learning/2024/06/24/personal-llm.html</link>
 <guid>https://lopespm.com/machine_learning/2024/06/24/personal-llm.html</guid>
 <content:encoded><![CDATA[
-<div> Llama3 8B、WhatsApp Messages、Obsidian Notes、Retrieval Augmented Generation、Text embeddings：<br>
-<br>
-总结：<br>
+<div> Llama3 8B、WhatsApp Messages、Obsidian Notes、Retrieval Augmented Generation、Text embeddings：<br />
+<br />
+总结：<br />
 文章描述了如何建立一个完全离线的Llama3 8B LLM代理，具有访问WhatsApp消息和Obsidian笔记的功能，并能够针对其中任何主题进行对话。通过将所有数据保留在本地，包括WhatsApp和Obsidian的数据，实现了一个个人助手。文章详细介绍了从构建块到实施过程，涵盖了运行离线LLM、增强LLM的知识、文档处理和存储、文本嵌入模型等内容。这个项目展示了潜在的丰富可能性，为个人助手的定制和探索提供了启发。 <div>
 <p>This blog article will describe the implementation of a fully offline Llama3 8B LLM agent with access to WhatsApp Messages and Obsidian notes (or any other data sources), making it able to hold conversations about any of the topics present there. All data stays local, including the data from WhatsApp and Obsidian - it is in fact a <em>personal</em> assistant.</p>
 
@@ -571,10 +572,8 @@ running down the street&lt;|eot_id|&gt;
   </ol>
 </div>
 ]]></content:encoded>
-
 <pubDate>2024-06-24T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Aloof</title>
 <link>https://lopespm.com/notes/2024/06/09/aloof.html</link>
