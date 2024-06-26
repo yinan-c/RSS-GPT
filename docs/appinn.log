@@ -29112,3 +29112,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-06-26 02:15:36.221384
+------------------------------------------------------
+Started: 2024-06-26 04:03:45.261441
+Existing_entries: 441
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【开发者自荐】一款音频格式转换工具，支持WAV  MP3  CAF FLAC ACC 格式相互转换](https://meta.appinn.net/t/topic/58080)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-06-26 04:03:48.285583
