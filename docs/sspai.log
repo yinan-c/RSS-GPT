@@ -26083,3 +26083,15 @@ Existing_entries: 919
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-26 12:05:24.510406
+------------------------------------------------------
+Started: 2024-06-26 14:03:19.254408
+Existing_entries: 919
+Fetching from https://rsshub.app/sspai/index
+Token length: 5333
+Summarized using GPT-3.5-turbo
+Append: [明讽强敌，暗渡陈仓：世纪之交的苹果如何悄悄转向英特尔](https://sspai.com/post/87641)
+Token length: 8656
+Summarized using GPT-3.5-turbo
+Append: [做好优化、选好软件，改善 Android 类原生 ROM 的使用体验](https://sspai.com/post/89282)
+append_entries: 2
+Finish: 2024-06-26 14:03:29.516767
