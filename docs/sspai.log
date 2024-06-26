@@ -26038,3 +26038,12 @@ Existing_entries: 916
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-26 00:11:50.985817
+------------------------------------------------------
+Started: 2024-06-26 02:15:41.763708
+Existing_entries: 916
+Fetching from https://rsshub.app/sspai/index
+Token length: 1523
+Summarized using GPT-3.5-turbo
+Append: [派早报：新款 Beats Pill 发布、欧盟对 Apple 展开进一步 DMA 违规调查等](https://sspai.com/post/89935)
+append_entries: 1
+Finish: 2024-06-26 02:15:45.051415
