@@ -5,11 +5,29 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>怎么无损迁移浏览器的数据？</title>
+<link>https://meta.appinn.net/t/topic/58131</link>
+<guid>https://meta.appinn.net/t/topic/58131</guid>
+<content:encoded><![CDATA[
+
+<p>我系统重装完了，便携的软件拿过去简单设置一下就行了，但浏览器为什么我直接搬数据文件夹之后就会出错？Chrome是能进去有书签，但是Cookie密码插件都没了，FireFox是压根进不去，要我重新创建一个用户。</p>
+<p>Chrome：“AppData\Local\Google\Chrome\User Data”</p>
+<p>FireFox：“AppData\Roaming\Mozilla”</p>
+<p>我搬的就是这里两个文件夹，是我搬错了，还是哪里需要设置？有其他的进行备份然后导入的方法嘛？尽量不想要用帐号同步，之前有过奇怪的Bug，同步把我全同步没了。多谢。</p>
+<hr />
+<p>更新，帐号同步不带Cookie，我的感觉，不如重开。现在打算想办法做便携，不知道拿别人做好的，放自己的数据进去行不行。</p>
+            <p><small>18 个帖子 - 8 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58131">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 27 Jun 2024 10:28:13 +0000</pubDate>
+<pubDate>Thu, 27 Jun 2024 10:28:13 +0000</pubDate>
+</item>
+
+<item>
 <title>盲盒APP怎么推广啊，好汉们有方法吗？</title>
 <link>https://meta.appinn.net/t/topic/58128</link>
 <guid>https://meta.appinn.net/t/topic/58128</guid>
 <content:encoded><![CDATA[
-
 <p>手搓产品：顽客密盒<br />
 苹果商店：顽客密盒<br />
 安卓商店：顽客密盒</p>
@@ -24,9 +42,7 @@
             <p><a href="https://meta.appinn.net/t/topic/58128">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 27 Jun 2024 08:40:34 +0000</pubDate>
-<pubDate>Thu, 27 Jun 2024 08:40:34 +0000</pubDate>
 </item>
-
 <item>
 <title>还有没有类似于 二管家 的扩展呢？</title>
 <link>https://meta.appinn.net/t/topic/58114</link>
