@@ -26137,3 +26137,12 @@ Existing_entries: 921
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-27 04:04:00.526692
+------------------------------------------------------
+Started: 2024-06-27 06:04:27.446889
+Existing_entries: 921
+Fetching from https://rsshub.app/sspai/index
+Token length: 2078
+Summarized using GPT-3.5-turbo
+Append: [派早报：Mac 版 ChatGPT 桌面应用正式开放、Firefox 将接入 AI 聊天机器人等](https://sspai.com/post/89975)
+append_entries: 1
+Finish: 2024-06-27 06:04:32.144007
