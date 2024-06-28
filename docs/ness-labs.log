@@ -7428,3 +7428,12 @@ Existing_entries: 30
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-06-28 08:05:14.375712
+------------------------------------------------------
+Started: 2024-06-28 10:03:49.118464
+Existing_entries: 30
+Fetching from https://nesslabs.com/feed
+Token length: 5574
+Summarized using GPT-3.5-turbo
+Append: [Ness Labs Best Books of May 2024](https://nesslabs.com/best-books-june-2024?utm_source=rss&utm_medium=rss&utm_campaign=best-books-june-2024)
+append_entries: 1
+Finish: 2024-06-28 10:03:52.930622
