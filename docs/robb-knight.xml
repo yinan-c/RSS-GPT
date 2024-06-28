@@ -4,13 +4,14 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Perplexity AI, Robots.txt, and Other Questions</title>
 <link>https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/</link>
 <guid>https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/</guid>
 <content:encoded><![CDATA[
 <div> Perplexity AI, AWS, robots.txt, scraping, investigation
-总结:<br><br>
+总结:<br /><br />
 Perplexity AI被报道正在涉及违反AWS规则的调查，公司CEO声称不是他们的错。他们曾经非法获取数据进行抓取。作者对AI公司无视规则和未经许可获取他人作品的行为感到愤怒。作者坚持尝试阻止他们，认为必须尊重robots.txt文件。作者强调希望规范网页抓取行为，保护内容所有者的权益。这篇文章总结了问题的核心，以及作者对此事的观点和立场。 <div>
 <p>Since <a href="https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/">I wrote about Perplexity</a> it has been reported on by <a href="https://www.wired.com/story/perplexity-is-a-bullshit-machine/">Wired</a>, <a href="https://www.wired.com/story/perplexity-plagiarized-our-story-about-how-perplexity-is-a-bullshit-machine/">Wired again</a>, <a href="https://www.fastcompany.com/91144894/perplexity-ai-ceo-aravind-srinivas-on-plagiarism-accusations?partner=rss&amp;utm_source=feedly&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss">Fast Company</a>, <a href="https://www.theverge.com/2024/6/27/24187405/perplexity-ai-twitter-lie-plagiarism">the Verge</a>, and others. And there's more coming so keep your eyes peeled. I even ended up on <a href="https://en.wikipedia.org/wiki/Perplexity.ai#Use_of_content_from_media_outlets">Perplexity's Wikipedia page</a>. I also spoke at length about all this on <a href="https://ruminatepodcast.com/187/">episode 187 of Ruminate</a>.</p>
 <p>The latest article is <a href="https://www.wired.com/story/aws-perplexity-bot-scraping-investigation/">this Wired article</a> that reports that Perplexity are being investigated by AWS:</p>
@@ -43,10 +44,8 @@ Perplexity AI被报道正在涉及违反AWS规则的调查，公司CEO声称不�
 </blockquote>
 <p>Ideally I'd like this to be my final post on the topic for a while, but we'll have to see how that investigation goes.</p>
 ]]></content:encoded>
-
 <pubDate>2024-06-28T11:12:11Z</pubDate>
 </item>
-
 <item>
 <title>Adding Github-Style Markdown Alerts to Eleventy</title>
 <link>https://rknight.me/blog/adding-githubstyle-markdown-alerts-to-eleventy/</link>

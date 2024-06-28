@@ -21395,3 +21395,9 @@ Summarized using GPT-3.5-turbo
 Append: [Perplexity AI, Robots.txt, and Other Questions](https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/)
 append_entries: 1
 Finish: 2024-06-28 12:04:55.101289
+------------------------------------------------------
+Started: 2024-06-28 14:03:28.769671
+Existing_entries: 356
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-06-28 14:03:31.959709
