@@ -26221,3 +26221,15 @@ Existing_entries: 925
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-28 04:03:47.784852
+------------------------------------------------------
+Started: 2024-06-28 06:04:10.475546
+Existing_entries: 925
+Fetching from https://rsshub.app/sspai/index
+Token length: 2524
+Summarized using GPT-3.5-turbo
+Append: [你可以在 Mac 上使用 iPhone 了：iOS/iPadOS 18 Beta 2 具透](https://sspai.com/post/89981)
+Token length: 1797
+Summarized using GPT-3.5-turbo
+Append: [派早报：Apple Vision Pro 国行版开售、《魔兽世界》国服将于 8 月 1 日开服](https://sspai.com/post/90016)
+append_entries: 2
+Finish: 2024-06-28 06:04:16.312326
