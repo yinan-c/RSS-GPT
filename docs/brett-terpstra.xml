@@ -4,6 +4,104 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Obsidian Callouts in Marked</title>
+<link>https://brett.trpstra.net/link/535/16727652/obsidian-callouts-in-marked</link>
+<guid>https://brett.trpstra.net/link/535/16727652/obsidian-callouts-in-marked</guid>
+<content:encoded><![CDATA[
+<div> Obsidian, Marked, Script, Callouts, Styling
+<br><br>总结: 本文介绍了如何在Marked中支持Obsidian的Callouts功能，通过使用特定的脚本和样式表实现。作者提供了详细的操作步骤，包括脚本和样式表的设置以及在Conductor中配置的方法。通过将特定的脚本添加到配置文件中，可以实现在Marked中呈现类似Obsidian的Callouts效果。这种方法可以使Marked用户在不影响正常使用的情况下使用Obsidian的功能。整篇文章重点介绍了如何实现这一功能，并提供了相应的脚本和样式表供读者下载使用。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Obsidian Callouts Header" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/06/obsidian-callouts-header-2-rb.jpg" title="Obsidian Callouts Header" width="800" />
+              </noscript>
+            
+
+<p>I received a request a while back, shortly after my post about <a href="https://brettterpstra.com/2024/05/16/marked-2-and-obsidian/">Marked 2 and Obsidian</a>, asking me to support <a href="https://help.obsidian.md/Editing+and+formatting/Callouts">Obsidian callouts</a>. I don&rsquo;t remember who made the request, but it got lodged in the back of my head. I had an hour today to knock out a solution.</p>
+
+<p>Rather than trying to incorporate this directly into Marked, I made it a script that can be included in a <a href="https://brettterpstra.com/projects/conductor/">Conductor</a> configuration. Easier, and less intrusive to Marked users who don&rsquo;t care about Obsidian.</p>
+
+<p><a href="https://help.obsidian.md/Editing+and+formatting/Callouts">Obsidian callouts</a> are a block quote-style syntax that looks like:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="gt">&gt; [!note] A note with Markdown content</span>
+<span class="gt">&gt; Just *checking*</span>
+<span class="gt">&gt; how this **works**... </span>
+<span class="gt">&gt; [a link](https://brettterpstra.com)</span></code></pre></div></div>
+
+<p>They can be made to fold, nested in each other, have a title only, or a title with content processed as Markdown. Here&rsquo;s how they look in Obsidian:</p>
+
+<figure class="aligncenter">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/avif" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Callouts in Obsidian" height="530" src="https://cdn3.brettterpstra.com/uploads/2024/06/callouts-obsidian-800.jpg" title="Callouts in Obsidian" width="800" />
+                </noscript>
+              
+              <figcaption>Callouts in Obsidian</figcaption>
+            </figure>
+
+<p>And with the script, here&rsquo;s how they look in Marked:</p>
+
+<figure class="aligncenter">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/avif" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Callouts in Marked" height="502" src="https://cdn3.brettterpstra.com/uploads/2024/06/callouts-marked-2.jpg" title="callouts-marked-2.jpg" width="838" />
+                </noscript>
+              
+              <figcaption>callouts-marked-2.jpg</figcaption>
+            </figure>
+
+<p>The output is just nested divs with classes, so a separate stylesheet is required to make them look correct. This stylesheet is injected by Conductor as well, and adapts pretty well to any Style in Marked. For example, here it is with the Manuscript style:</p>
+
+<figure class="aligncenter">
+              
+                <noscript class="loading-lazy">
+                  <source media="(max-width: 640px)" />
+                  <source type="image/avif" />
+                  <source type="image/webp" />
+                  <source />
+                  <img alt="Callouts in Manuscript" height="500" src="https://cdn3.brettterpstra.com/uploads/2024/06/callouts-manuscript.jpg" title="Callouts in Manuscript" width="860" />
+                </noscript>
+              
+              <figcaption>Callouts in Manuscript</figcaption>
+            </figure>
+
+<p>I separated the script from the main Obsidian script so that, should you want to, you can run it on any content and make use of the Obsidian callout syntax irrespective of other syntax.</p>
+
+<p>The script is in my <a href="https://github.com/ttscoff/conductor-config/tree/main">Conductor example config</a>, along with the stylesheet document. You can see in the <a href="https://github.com/ttscoff/conductor-config/blob/main/tracks.yaml#L17">tracks.yaml</a> file that the script and injection are defined as a <code class="language-plaintext highlighter-rouge">sequence</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="na">tracks</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Preprocessing</span>
+    <span class="na">condition</span><span class="pi">:</span> <span class="s">phase is pre</span>
+    <span class="na">tracks</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Obsidian Markdown document</span>
+      <span class="na">condition</span><span class="pi">:</span> <span class="s">tree contains .obsidian AND (extension is md OR extension is markdown)</span>
+      <span class="na">sequence</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">script</span><span class="pi">:</span> <span class="s">obsidian-md-filter</span>
+        <span class="pi">-</span> <span class="na">script</span><span class="pi">:</span> <span class="s">obsidian-callouts</span>
+        <span class="pi">-</span> <span class="na">filter</span><span class="pi">:</span> <span class="s">prependRaw(callouts.html)</span></code></pre></div></div>
+
+<p>The files you need are <a href="https://github.com/ttscoff/conductor-config/blob/main/scripts/obsidian-callouts">the script</a> (placed in <code class="language-plaintext highlighter-rouge">~/.config/conductor/scripts/</code>) and <a href="https://github.com/ttscoff/conductor-config/blob/main/files/callouts.html">the style</a> (placed in <code class="language-plaintext highlighter-rouge">~/.config/conductor/files/</code>). Both of these are included if you just clone the <a href="https://github.com/ttscoff/conductor-config/tree/main">example config repo</a>. Then include a sequence like above for any given condition to start handling Obsidian callout syntax. This works best as a Preprocessor, but should still function fine as part of a Processor if you&rsquo;re also handling the Markdown conversion in a script.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F27%2Fobsidian-callouts-in-marked%2F&amp;text=Obsidian+Callouts+in+Marked&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F06%2F27%2Fobsidian-callouts-in-marked%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16727652.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-06-27T19:17:00-05:00</pubDate>
+<pubDate>2024-06-27T19:17:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Markdown Lipsum v2</title>
