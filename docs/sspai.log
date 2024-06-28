@@ -26260,3 +26260,15 @@ Existing_entries: 928
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-06-28 14:03:27.212603
+------------------------------------------------------
+Started: 2024-06-28 16:03:44.297990
+Existing_entries: 928
+Fetching from https://rsshub.app/sspai/index
+Token length: 3315
+Summarized using GPT-3.5-turbo
+Append: [Apple Intelligence 面面观：「果味」模型是怎样炼成的？](https://sspai.com/post/90042)
+Token length: 6935
+Summarized using GPT-3.5-turbo
+Append: [本周看什么 | 最近值得一看的 8 部作品](https://sspai.com/post/90039)
+append_entries: 2
+Finish: 2024-06-28 16:03:58.802400
