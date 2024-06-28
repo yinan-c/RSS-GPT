@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Obsidian Callouts in Marked</title>
 <link>https://brett.trpstra.net/link/535/16727652/obsidian-callouts-in-marked</link>
 <guid>https://brett.trpstra.net/link/535/16727652/obsidian-callouts-in-marked</guid>
 <content:encoded><![CDATA[
 <div> Obsidian, Marked, Script, Callouts, Styling
-<br><br>总结: 本文介绍了如何在Marked中支持Obsidian的Callouts功能，通过使用特定的脚本和样式表实现。作者提供了详细的操作步骤，包括脚本和样式表的设置以及在Conductor中配置的方法。通过将特定的脚本添加到配置文件中，可以实现在Marked中呈现类似Obsidian的Callouts效果。这种方法可以使Marked用户在不影响正常使用的情况下使用Obsidian的功能。整篇文章重点介绍了如何实现这一功能，并提供了相应的脚本和样式表供读者下载使用。 <div>
+<br /><br />总结: 本文介绍了如何在Marked中支持Obsidian的Callouts功能，通过使用特定的脚本和样式表实现。作者提供了详细的操作步骤，包括脚本和样式表的设置以及在Conductor中配置的方法。通过将特定的脚本添加到配置文件中，可以实现在Marked中呈现类似Obsidian的Callouts效果。这种方法可以使Marked用户在不影响正常使用的情况下使用Obsidian的功能。整篇文章重点介绍了如何实现这一功能，并提供了相应的脚本和样式表供读者下载使用。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/avif" />
@@ -100,9 +101,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16727652.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-06-27T19:17:00-05:00</pubDate>
-<pubDate>2024-06-27T19:17:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Markdown Lipsum v2</title>
 <link>https://brett.trpstra.net/link/535/16717305/markdown-lipsum-v2</link>
