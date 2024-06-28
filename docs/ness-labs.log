@@ -7437,3 +7437,9 @@ Summarized using GPT-3.5-turbo
 Append: [Ness Labs Best Books of May 2024](https://nesslabs.com/best-books-june-2024?utm_source=rss&utm_medium=rss&utm_campaign=best-books-june-2024)
 append_entries: 1
 Finish: 2024-06-28 10:03:52.930622
+------------------------------------------------------
+Started: 2024-06-28 12:05:32.858655
+Existing_entries: 31
+Fetching from https://nesslabs.com/feed
+append_entries: 0
+Finish: 2024-06-28 12:05:33.450647

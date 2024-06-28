@@ -4,6 +4,48 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Perplexity AI, Robots.txt, and Other Questions</title>
+<link>https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/</link>
+<guid>https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/</guid>
+<content:encoded><![CDATA[
+<div> Perplexity AI, AWS, robots.txt, scraping, investigation
+总结:<br><br>
+Perplexity AI被报道正在涉及违反AWS规则的调查，公司CEO声称不是他们的错。他们曾经非法获取数据进行抓取。作者对AI公司无视规则和未经许可获取他人作品的行为感到愤怒。作者坚持尝试阻止他们，认为必须尊重robots.txt文件。作者强调希望规范网页抓取行为，保护内容所有者的权益。这篇文章总结了问题的核心，以及作者对此事的观点和立场。 <div>
+<p>Since <a href="https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/">I wrote about Perplexity</a> it has been reported on by <a href="https://www.wired.com/story/perplexity-is-a-bullshit-machine/">Wired</a>, <a href="https://www.wired.com/story/perplexity-plagiarized-our-story-about-how-perplexity-is-a-bullshit-machine/">Wired again</a>, <a href="https://www.fastcompany.com/91144894/perplexity-ai-ceo-aravind-srinivas-on-plagiarism-accusations?partner=rss&amp;utm_source=feedly&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss">Fast Company</a>, <a href="https://www.theverge.com/2024/6/27/24187405/perplexity-ai-twitter-lie-plagiarism">the Verge</a>, and others. And there's more coming so keep your eyes peeled. I even ended up on <a href="https://en.wikipedia.org/wiki/Perplexity.ai#Use_of_content_from_media_outlets">Perplexity's Wikipedia page</a>. I also spoke at length about all this on <a href="https://ruminatepodcast.com/187/">episode 187 of Ruminate</a>.</p>
+<p>The latest article is <a href="https://www.wired.com/story/aws-perplexity-bot-scraping-investigation/">this Wired article</a> that reports that Perplexity are being investigated by AWS:</p>
+<blockquote>
+<p>Amazon’s cloud division has launched an investigation into Perplexity AI. At issue is whether the AI search startup is violating Amazon Web Services rules by scraping websites that attempted to prevent it from doing so, WIRED has learned.</p>
+</blockquote>
+<p>Perplexity's CEO has said the bots ignoring robots.txt were third-parties so totally not their fault. The Verge:</p>
+<blockquote>
+<p>“Someone else did it” is a fine argument for a five-year-old</p>
+</blockquote>
+<p>It also turns out Perplexity were previously <a href="https://www.404media.co/perplexitys-origin-story-scraping-twitter-with-fake-academic-accounts/">faking academic accounts on Twitter</a> in order to scrape the service and provide that data as a search corpus. Perplexity's CEO is pretty proud of it:</p>
+<blockquote>
+<p>“So we built all this into a good search experience over Twitter, which we scraped with academic accounts just before Elon took over Twitter,” Srinivas said on the podcast. “Back then Twitter would allow you to create academic API accounts and we would create like, lots of them with like generating phone numbers, writing research proposals with GPT.”</p>
+</blockquote>
+<p>So basically Perplexity don't give a shit about the rules or consent. Cool.</p>
+<p>I've also had a lot of comments and emails since my post went up that I want to address here because the same things keep coming up quite a lot.</p>
+<p><strong><em>Why do you hate AI?</em></strong></p>
+<p>I don't, although it is a bit shit right now. What I hate is billion-dollar companies ignoring the rules and profiting of others people's work without compensating them.</p>
+<p><strong><em>This is a pointless exercise, why not just give up trying to block them?</em></strong></p>
+<p>Maybe it is futile but I'm not going to stop trying just because it's hard. I have every right to try and block them or <a href="https://social.lol/@robb/112687421287583132">send them to a 10GB <code>bin</code> file</a>.</p>
+<p><strong><em>If you don't want your stuff to be taken then don't post it on the web!!!1</em></strong></p>
+<p>If you don't wanna get hit round the head with a cricket bat don't go outside without a helmet.</p>
+<p><strong><em>Of course they're going to ignore robots.txt, you're an idiot for thinking they would follow it.</em></strong></p>
+<p>Not a question, more of a comment but okay. Robots.txt, despite never being a law, has worked pretty well up until now. Now the silicon valley tech bros are here doing whatever the fuck they want.</p>
+<p>Finally, I recently gave a comment to a reporter from <a href="https://nikkei.com">Nikkei</a> which I think sums up my thoughts well now I've had a couple of weeks of thinking about this:</p>
+<blockquote>
+<p>I find the behavior of Perplexity and others in this space problematic because we have, until very recently, had a web where search engines and other bots have respected robots.txt. It's the de facto standard for saying who can and cannot access your content. Although it's not a legal standard it has, for the most part, worked well since its invention in the 90s. But now AI companies funded by huge amounts of money think that because it would be hard to ask for permission they just take whatever they want with complete disregard for the content owners wishes and legal rights.</p>
+<p>Even Apple decided to scrape the open web and only <em>after</em> they'd done that did they reveal the user agent they were using so we can opt out, but it's too late because they've already scraped everything.</p>
+<p>At a minimum I expect any company scraping the web to respect the robots.txt and document which user agents and IP addresses they use, so that content owners can make a choice.</p>
+</blockquote>
+<p>Ideally I'd like this to be my final post on the topic for a while, but we'll have to see how that investigation goes.</p>
+]]></content:encoded>
+
+<pubDate>2024-06-28T11:12:11Z</pubDate>
+</item>
 
 <item>
 <title>Adding Github-Style Markdown Alerts to Eleventy</title>

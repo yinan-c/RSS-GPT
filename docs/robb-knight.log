@@ -21386,3 +21386,12 @@ Existing_entries: 355
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-06-28 10:03:41.715528
+------------------------------------------------------
+Started: 2024-06-28 12:04:49.198315
+Existing_entries: 355
+Fetching from https://rknight.me/feed.xml
+Token length: 3484
+Summarized using GPT-3.5-turbo
+Append: [Perplexity AI, Robots.txt, and Other Questions](https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/)
+append_entries: 1
+Finish: 2024-06-28 12:04:55.101289
