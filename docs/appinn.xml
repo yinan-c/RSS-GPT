@@ -4,6 +4,43 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】一款利用 Markdown 编辑微信公众号文章的浏览器插件</title>
+<link>https://meta.appinn.net/t/topic/58224</link>
+<guid>https://meta.appinn.net/t/topic/58224</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#markdown-1" name="markdown-1"></a>* 【开发者自荐】一款利用 Markdown 编辑微信公众号文章的浏览器插件</h2>
+<blockquote>
+<p>首先我是站在巨人的肩膀上，改造优化而来的。将原来的开源项目改造成插件形式，且打通了公众号素材库。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>插件主页</h2>
+<p><img alt="" height="" src="https://mpmd.pages.dev/images/logo.png" width="" /></p>
+<p><a href="https://mpmd.pages.dev/" rel="noopener nofollow ugc">微信公众号文章Markdown 编辑器</a></p>
+<p><img alt="" height="" src="https://mpmd.pages.dev/images/service-slide-1.png" width="" /></p>
+<p><img alt="" height="" src="https://mpmd.pages.dev/images/service-slide-2.png" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#markdown-3" name="markdown-3"></a>Markdown编辑器</h2>
+<p>公众号自带的富文本编辑器排版并不如意，最近在使用的一款产品可以通过Markdown形式编写文章，实时预览，排版精美的，通过复制就可以到官方的编辑器中进行发布。 <a href="https://doocs.github.io/md" rel="noopener nofollow ugc">微信 Markdown 编辑器 | Doocs 开源社区</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>关于图床的使用</h2>
+<p>原来的web项目提供了多种图床的接入，唯独没有接入公众号自带的素材库。一番调研之下，关于如何对接公众号素材库，以及一些常见的问题如下</p>
+<ul>
+<li>可以使用openapi对接公众号素材库</li>
+<li>使用openapi需要后台服务，如果没有可能会遇到跨域问题</li>
+<li>公众号返回的链接做了防盗链处理</li>
+</ul>
+<p>在不引入后台服务的情况下，是可以通过浏览器插件形式解决这些问题的，利用浏览器插件的Headless形式，可以解决跨域及防盗链的问题。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>改造情况</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#openapi-httpsdevelopersweixinqqcomdocoffiaccountasset_managementadding_permanent_assetshtml-6" name="openapi-httpsdevelopersweixinqqcomdocoffiaccountasset_managementadding_permanent_assetshtml-6"></a>openapi接口， <a href="https://developers.weixin.qq.com/doc/offiaccount/Asset_Management/Adding_Permanent_Assets.html" rel="noopener nofollow ugc">素材管理 / 新增永久素材 </a></h3>
+<h3><a class="anchor" href="https://meta.appinn.net#wxtdev-7" name="wxtdev-7"></a>使用wxt.dev开发框架</h3>
+<p>具体的改造过程，在我的公众号文章中有提及， <a href="https://mp.weixin.qq.com/s?__biz=MzI2MTAyOTk3NQ==&amp;mid=2247484289&amp;idx=1&amp;sn=6c8e60a84fc278b7a9b32c95c79c63a9&amp;chksm=ea61eab9dd1663afa387df8003b794ef2dce9b12fd6d69bc00dae2c1260ae09fda730fa045be&amp;token=439122232&amp;lang=zh_CN#rd" rel="noopener nofollow ugc">在线Markdown编辑器使用微信公众号素材库</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>使用过程</h2>
+<p>参考教程， <a href="https://mpmd.pages.dev/tutorial" rel="noopener nofollow ugc">使用教程</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58224">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 30 Jun 2024 13:36:07 +0000</pubDate>
+<pubDate>Sun, 30 Jun 2024 13:36:07 +0000</pubDate>
+</item>
 
 <item>
 <title>怎么无损迁移浏览器的数据？</title>

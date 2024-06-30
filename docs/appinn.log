@@ -29540,3 +29540,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-06-30 12:05:08.387058
+------------------------------------------------------
+Started: 2024-06-30 14:04:04.833812
+Existing_entries: 445
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】一款利用 Markdown 编辑微信公众号文章的浏览器插件](https://meta.appinn.net/t/topic/58224)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-06-30 14:04:08.023550
