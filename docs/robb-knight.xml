@@ -4,6 +4,33 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>As If Perplexity Didn’t Suck Enough They’re Also Hotlinking Images</title>
+<link>https://rknight.me/blog/as-if-perplexity-didnt-suck-enough-theyre-also-hotlinking-images/</link>
+<guid>https://rknight.me/blog/as-if-perplexity-didnt-suck-enough-theyre-also-hotlinking-images/</guid>
+<content:encoded><![CDATA[
+<div> Perplexity, robots.txt, prompt injection, hotlinking, nginx<br>
+<br>
+要点1: Perplexity忽视了robots.txt规则，不仅爬取网站内容，还在他们的服务器上请求图像，浪费带宽，并造成额外成本。<br>
+要点2: Perplexity的做法让作者感到愤怒，认为他们不尊重规则，还在盗用别人的带宽。<br>
+要点3: 作者提供了Nginx的解决方案，在请求Perplexity AI的图像时重定向到特定图片，表达愤怒情绪。<br>
+要点4: 作者并不直接在自己的域上托管许多图片，因此Nginx的解决方案对他并不适用，但Bunny可能有一种能解决这个问题的方法。<br>
+要点5: 总结：作者对Perplexity的行为感到愤怒，并表达了对其的不满。希望他们能尊重他人的劳动成果和资源，并不要再侵犯他人的利益。 <div>
+<p><a href="https://www.bentasker.co.uk/posts/blog/security/perplexity-ai-gives-answers-that-cannot-be-trusted.html">Ben has an excellent post</a> expanding on <a href="https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/">my findings</a> about Perplexity ignoring robots.txt. He also digs into the various ways prompt injection does and doesn't work. The entire post is well worth your time but this part really jumped out at me:</p>
+<blockquote>
+<p>When I searched about creating an end for our sofa, Perplexity <a href="https://en.wikipedia.org/wiki/Inline_linking">hotlinked</a> some photos from that post which resulting in <em>my</em> browser requesting them from my server.</p>
+<p>They're wasting <strong>my</strong> bandwidth to serve content to <em>their</em> users. For many sites, there's a tangible cost associated with every byte served - they are <em>literally</em> costing me money (albeit a small amount)</p>
+</blockquote>
+<p>So not only can't they be trusted to follow the de facto rules about scraping websites, they're also hotlinking? Can they not spare any of the millions of dollars they've raised to actually cache the images they're serving up. &quot;<em>Might as well just use someone else's bandwidth</em>&quot;. Dickheads.</p>
+<p>Ben offers a solution to this for nginx, replacing any request for an image from them with an image stating &quot;perplexity just tried to steal my image and my bandwidth&quot;:</p>
+<pre class="language-bash"><code class="language-bash">location ~*  <span class="token punctuation">\</span>.<span class="token punctuation">(</span>jpg<span class="token operator">|</span>jpeg<span class="token operator">|</span>png<span class="token operator">|</span>gif<span class="token operator">|</span>ico<span class="token operator">|</span>bmp<span class="token punctuation">)</span>$ <span class="token punctuation">{</span><br />    <span class="token comment"># Redirect image fetches from Perplexity AI</span><br />    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$http_referer</span> <span class="token operator">=</span> <span class="token string">"https://www.perplexity.ai/"</span><span class="token punctuation">)</span><span class="token punctuation">{</span><br />        rewrite <span class="token punctuation">(</span>.*<span class="token punctuation">)</span> path/to/image/perplexity_ai.jpg redirect<span class="token punctuation">;</span><br />    <span class="token punctuation">}</span><br /><span class="token punctuation">}</span></code></pre>
+<p>I don't host many images directly on this domain but rather put them on <a href="https://bunny.net/?ref=b2i4y24apu">Bunny CDN</a> so nginx won't help me here. Thankfully, Bunny has a way to <a href="https://support.bunny.net/hc/en-us/articles/360000236671-How-to-set-up-hotlinking-protection">block specific referrers</a>. I don't get to do a funny image but this is close enough.</p>
+<p><img alt="Blocking Perplixity in Bunny CDN" src="https://cdn.rknight.me/site/bunny-referrer-block.jpg" /></p>
+<p>I know I said my <a href="https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/">last post</a> would be my final word but this really pissed me off. So once again, fuck you Perplexity.</p>
+]]></content:encoded>
+
+<pubDate>2024-07-02T11:31:09Z</pubDate>
+</item>
 
 <item>
 <title>Perplexity AI, Robots.txt, and Other Questions</title>
