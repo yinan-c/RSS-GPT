@@ -4,17 +4,18 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>As If Perplexity Didn’t Suck Enough They’re Also Hotlinking Images</title>
 <link>https://rknight.me/blog/as-if-perplexity-didnt-suck-enough-theyre-also-hotlinking-images/</link>
 <guid>https://rknight.me/blog/as-if-perplexity-didnt-suck-enough-theyre-also-hotlinking-images/</guid>
 <content:encoded><![CDATA[
-<div> Perplexity, robots.txt, prompt injection, hotlinking, nginx<br>
-<br>
-要点1: Perplexity忽视了robots.txt规则，不仅爬取网站内容，还在他们的服务器上请求图像，浪费带宽，并造成额外成本。<br>
-要点2: Perplexity的做法让作者感到愤怒，认为他们不尊重规则，还在盗用别人的带宽。<br>
-要点3: 作者提供了Nginx的解决方案，在请求Perplexity AI的图像时重定向到特定图片，表达愤怒情绪。<br>
-要点4: 作者并不直接在自己的域上托管许多图片，因此Nginx的解决方案对他并不适用，但Bunny可能有一种能解决这个问题的方法。<br>
+<div> Perplexity, robots.txt, prompt injection, hotlinking, nginx<br />
+<br />
+要点1: Perplexity忽视了robots.txt规则，不仅爬取网站内容，还在他们的服务器上请求图像，浪费带宽，并造成额外成本。<br />
+要点2: Perplexity的做法让作者感到愤怒，认为他们不尊重规则，还在盗用别人的带宽。<br />
+要点3: 作者提供了Nginx的解决方案，在请求Perplexity AI的图像时重定向到特定图片，表达愤怒情绪。<br />
+要点4: 作者并不直接在自己的域上托管许多图片，因此Nginx的解决方案对他并不适用，但Bunny可能有一种能解决这个问题的方法。<br />
 要点5: 总结：作者对Perplexity的行为感到愤怒，并表达了对其的不满。希望他们能尊重他人的劳动成果和资源，并不要再侵犯他人的利益。 <div>
 <p><a href="https://www.bentasker.co.uk/posts/blog/security/perplexity-ai-gives-answers-that-cannot-be-trusted.html">Ben has an excellent post</a> expanding on <a href="https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/">my findings</a> about Perplexity ignoring robots.txt. He also digs into the various ways prompt injection does and doesn't work. The entire post is well worth your time but this part really jumped out at me:</p>
 <blockquote>
@@ -28,10 +29,8 @@
 <p><img alt="Blocking Perplixity in Bunny CDN" src="https://cdn.rknight.me/site/bunny-referrer-block.jpg" /></p>
 <p>I know I said my <a href="https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/">last post</a> would be my final word but this really pissed me off. So once again, fuck you Perplexity.</p>
 ]]></content:encoded>
-
 <pubDate>2024-07-02T11:31:09Z</pubDate>
 </item>
-
 <item>
 <title>Perplexity AI, Robots.txt, and Other Questions</title>
 <link>https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/</link>
