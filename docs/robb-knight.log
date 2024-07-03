@@ -21752,3 +21752,12 @@ Existing_entries: 357
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-07-03 10:03:48.294340
+------------------------------------------------------
+Started: 2024-07-03 12:04:53.178184
+Existing_entries: 357
+Fetching from https://rknight.me/feed.xml
+Token length: 1444
+Summarized using GPT-3.5-turbo
+Append: [Highlighting Journalism with the Fediverse Creator Tag](https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/)
+append_entries: 1
+Finish: 2024-07-03 12:04:58.559736
