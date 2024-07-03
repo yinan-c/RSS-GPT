@@ -26641,3 +26641,12 @@ Existing_entries: 943
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-03 06:05:06.167456
+------------------------------------------------------
+Started: 2024-07-03 08:04:16.879957
+Existing_entries: 943
+Fetching from https://rsshub.app/sspai/index
+Token length: 15846
+Summarized using GPT-3.5-turbo
+Append: [万字解读 Heptabase，如何用白板+卡片记笔记？](https://sspai.com/post/90069)
+append_entries: 1
+Finish: 2024-07-03 08:04:22.927868
