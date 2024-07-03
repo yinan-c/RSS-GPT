@@ -4,14 +4,15 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Highlighting Journalism with the Fediverse Creator Tag</title>
 <link>https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/</link>
 <guid>https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/</guid>
 <content:encoded><![CDATA[
-<div> Mastodon, support, author, link, addition<br>
-<br>
-要点: Mastodon 4.3 添加了支持链接作者的功能；这个功能可以通过<meta property="fediverse:creator" content="@robb@social.lol" />标签显示作者的资料；第三方客户端可以使用这个数据显示作者信息；该功能目前只适用于经过审核的网站；未来计划将这个功能扩展到所有网站。<br><br>
+<div> Mastodon, support, author, link, addition<br />
+<br />
+要点: Mastodon 4.3 添加了支持链接作者的功能；这个功能可以通过标签显示作者的资料；第三方客户端可以使用这个数据显示作者信息；该功能目前只适用于经过审核的网站；未来计划将这个功能扩展到所有网站。<br /><br />
 总结: Mastodon 4.3添加了支持识别链接作者的功能，这将使用户能够直接跳转到共享链接的作者，非常实用。 <div>
 <p>Mastodon 4.3 adds support for <a href="https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/">a newly proposed OpenGraph tag</a> to identify the creator of the link, which looks like this:</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fediverse:creator<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@robb@social.lol<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code></pre>
@@ -25,10 +26,8 @@
 </blockquote>
 <p>I <em>really</em> like this addition though; being able to jump directly to the author of a shared link is going to be really handy.</p>
 ]]></content:encoded>
-
 <pubDate>2024-07-03T12:56:44Z</pubDate>
 </item>
-
 <item>
 <title>As If Perplexity Didn’t Suck Enough They’re Also Hotlinking Images</title>
 <link>https://rknight.me/blog/as-if-perplexity-didnt-suck-enough-theyre-also-hotlinking-images/</link>
