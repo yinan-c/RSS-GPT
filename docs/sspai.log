@@ -26626,3 +26626,12 @@ Existing_entries: 942
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-03 02:15:41.590726
+------------------------------------------------------
+Started: 2024-07-03 04:04:09.260407
+Existing_entries: 942
+Fetching from https://rsshub.app/sspai/index
+Token length: 1540
+Summarized using GPT-3.5-turbo
+Append: [派早报：Meta 更新平台内 AI 信息标注、搜狗输入法上线多项 AI 功能等](https://sspai.com/post/90168)
+append_entries: 1
+Finish: 2024-07-03 04:04:12.054114
