@@ -26818,3 +26818,12 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/sspai/index
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2024-07-05 10:03:34.198150
+Existing_entries: 952
+Fetching from https://rsshub.app/sspai/index
+Token length: 24607
+Summarized using GPT-3.5-turbo
+Append: [让 Vim 配置更简单，Kickstart 介绍与配置笔记](https://sspai.com/post/90115)
+append_entries: 1
+Finish: 2024-07-05 10:03:38.226095
