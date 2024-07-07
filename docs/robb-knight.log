@@ -22067,3 +22067,12 @@ Existing_entries: 358
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-07-07 18:03:59.286082
+------------------------------------------------------
+Started: 2024-07-07 20:03:20.957740
+Existing_entries: 358
+Fetching from https://rknight.me/feed.xml
+Token length: 4492
+Summarized using GPT-3.5-turbo
+Append: [Fetching Achievements and Trophies for my Game Collection Page](https://rknight.me/blog/fetching-achievements-and-trophies-for-my-game-collection-page/)
+append_entries: 1
+Finish: 2024-07-07 20:03:25.511017
