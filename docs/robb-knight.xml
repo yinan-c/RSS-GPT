@@ -4,13 +4,14 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Fetching Achievements and Trophies for my Game Collection Page</title>
 <link>https://rknight.me/blog/fetching-achievements-and-trophies-for-my-game-collection-page/</link>
 <guid>https://rknight.me/blog/fetching-achievements-and-trophies-for-my-game-collection-page/</guid>
 <content:encoded><![CDATA[
-<div> PSN trophies, Xbox achievements, scraping, PSN API, achievements<br>
-<br>
+<div> PSN trophies, Xbox achievements, scraping, PSN API, achievements<br />
+<br />
 总结: 作者通过使用PSN API和手动获取Xbox成就的方式，获取了自己的PSN奖杯和Xbox成就数据。他介绍了如何获取和格式化这些数据，并展示了如何在网站上显示这些奖杯和成就信息。未来计划包括完善集合游戏信息的匹配问题。 <div>
 <p><a href="https://chriskirknielsen.com/colophon/#gaming-library">Chris was inpired</a> to make his <a href="https://chriskirknielsen.com/games/library/">game library page</a> by me. Then he went and added PSN trophy details so I became inspired to do the same - and also do Xbox achievements. I don't tend to chase getting trophies or achievements but it's nice to be able to see them all in one place anyway.</p>
 <p><img alt="Some games showing trophies" src="https://cdn.rknight.me/site/games-with-trophies.jpg" /></p>
@@ -35,10 +36,8 @@
 <p>I need to do some more work so that collections like Uncharted or Jak and Daxter list their individual games as they won't match up right now.</p>
 <p><a href="/collections/games">View my game collection page</a> to see the trophies and achievements.</p>
 ]]></content:encoded>
-
 <pubDate>2024-07-07T18:21:00Z</pubDate>
 </item>
-
 <item>
 <title>Highlighting Journalism with the Fediverse Creator Tag</title>
 <link>https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/</link>
