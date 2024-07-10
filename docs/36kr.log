@@ -44315,3 +44315,20 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/36kr/motif/327685734401
 append_entries: 1
 error when rendering xml, skip docs/36kr
+------------------------------------------------------
+Started: 2024-07-10 08:05:25.809181
+Existing_entries: 542
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Append: [字节离职博主，走不出大厂光环](https://www.36kr.com/p/2855907388148360)
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 1
+Finish: 2024-07-10 08:06:29.325694

@@ -4,6 +4,1166 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>ChatGPT 正式发布 macOS 客户端，仅针对 M1 以上芯片机型。Windows 版本将在年内发布</title>
+<link>https://meta.appinn.net/t/topic/58086</link>
+<guid>https://meta.appinn.net/t/topic/58086</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/chatgpt-on-your-mac/">ChatGPT 正式发布 macOS 客户端，仅针对 M1 以上芯片机型。Windows 版本将在年内发布 - 小众软件</a><br />
+</small><br /></p><p>ChatGPT 的 macOS 客户端在不久前就泄漏了出来，通过一些各种方式可以使用。现在终于向所有用户开放下载，Plus 用户也可以登录使用。注意目前需要 macOS 14+ 以上系统，以及 Apple Silicon (M1 以上芯片）才可以运行。@<a href="https://www.appinn.com/chatgpt-on-your-mac/">Appinn</a></p><br />
+<img height="" src="https://www.appinn.com/wp-content/uploads/2024/06/Appinn-feature-images-2024-06-26T141053.057.jpg" width="" /><h2>ChatGPT for macOS 主要功能</h2><p></p>
+<ul>
+<li>快捷键 <kbd>Option</kbd> + <kbd>空格</kbd> 呼出</li>
+<li>拖拽上传文件</li>
+<li>内置截屏（整个应用程序）</li>
+<li>内置拍照</li>
+<li>语音对话（四种语音风格）</li>
+</ul>
+<div>
+
+</div>
+<h2>获取</h2>
+<ul>
+<li><a href="https://openai.com/chatgpt/mac/" rel="noopener" target="_blank">官网</a></li>
+<li><a href="https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg" rel="noopener" target="_blank">直接下载</a>（OpenAI 提供）</li>
+</ul>
+<p>另外，Windows 版本将在今年内发布。</p>
+<hr />
+<p>原文：https://www.appinn.com/chatgpt-on-your-mac/</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58086">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 26 Jun 2024 06:44:28 +0000</pubDate>
+<pubDate>Wed, 26 Jun 2024 06:44:28 +0000</pubDate>
+</item>
+<item>
+<title>free - macOS下查询内存状态的软件(类似Linux平台下的free）</title>
+<link>https://meta.appinn.net/t/topic/51119</link>
+<guid>https://meta.appinn.net/t/topic/51119</guid>
+<content:encoded><![CDATA[
+
+<p>在linux下，如果需要查看一下内存的状态，大家的首先肯定是free这个命令行小工具。</p>
+<p>但是macOS下，在命令行里查看内存的状态，却没有一个方便的工具。肯定有人会说，你可以使用vm_stat, ps, 或者top，甚至是Activity Monitor，但是这些用起来都有点不尽人意。</p>
+<p>所以我就写了一个小软件，free-for-macOS, 实现了一个macOS下面的free命令。</p>
+<p>项目地址：</p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/zfdang/free-for-macOS" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/1387f4242b54ec24d5b1df4fa0b1f61b61ac8187cbbd9cafba07b2ed4cd9348d/zfdang/free-for-macOS" width="690" /></div>
+
+<h3><a href="https://github.com/zfdang/free-for-macOS" rel="noopener nofollow ugc" target="_blank">GitHub - zfdang/free-for-macOS: A memory usage tool for macOS (similar with...</a></h3>
+
+  <p>A memory usage tool for macOS (similar with 'free' in Linux) - GitHub - zfdang/free-for-macOS: A memory usage tool for macOS (similar with 'free' in Linux)</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>一个输出的例子：</p>
+<pre><code class="lang-auto">❯ free -h
+               total           used           free         cached            app          wired
+Mem:        32.00 GB       22.31 GB      615.83 MB        9.09 GB       17.80 GB        2.31 GB
+Swap:         0.00 B         0.00 B         0.00 B
+</code></pre>
+<p>希望对大家能有帮助，呵呵</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/51119">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 05 Jan 2024 06:47:39 +0000</pubDate>
+<pubDate>Fri, 05 Jan 2024 06:47:39 +0000</pubDate>
+</item>
+<item>
+<title>Bundlehunt 2023年 macOS 软件黑五捆绑包【慢讯】</title>
+<link>https://meta.appinn.net/t/topic/49775</link>
+<guid>https://meta.appinn.net/t/topic/49775</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/bundlehunt-2023-black-friday/">Bundlehunt 2023年 macOS 软件黑五捆绑包【慢讯】 - 小众软件</a><br />
+</small><br /></p><p><strong>Bundlehunt</strong> 在前几天发布了 2023 年的 macOS 软件黑五捆绑包，青小蛙一直忘记发布，今天早上他们又发来邮件说：这是打折买 Downie 最后几天的机会啦，快去买 <img alt=":joy:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/joy.png?v=12" title=":joy:" width="20" /></p><br />
+<img height="" src="https://www.appinn.com/wp-content/uploads/2023/11/Appinn-feature-images-2023-11-29T151640.231.jpg" width="" /><p>基本上 Bundlehunt 每年都会有一两次的捆绑包销售。这次是 42 款软件，自选，明星软件包括 <a href="https://www.appinn.com/lizhi-231111/">Downie</a>、Mountain Duck、CloudMounter 等。</p><p></p>
+<ul>
+<li><strong>优惠</strong>: 所有 30+ 美元订单均可获得 3 美元折扣。</li>
+<li><strong>合法</strong>：所有应用程序均为正版，并通过合同直接从创作者处获得原始许可证。</li>
+<li><strong>即时访问</strong>： 完全激活的 macOS 软件，购买后可立即下载并获取许可证密钥。</li>
+<li>每笔订单会有一笔手续费用。</li>
+</ul>
+<p>购买链接：<a href="https://bundlehunt.com/bundle/2023-blackfriday-macos-bundle?ap_id=appinn" rel="noopener" target="_blank">https://bundlehunt.com/bundle/2023-blackfriday-macos-bundle?ap_id=appinn</a></p>
+<p>👆 有返利，感谢支持</p>
+<h2>具体列表如下</h2>
+<ul>
+<li><strong>MOUNTAIN DUCK</strong></li>
+</ul>
+<p>Cyberduck用于在文件资源管理器中安装卷。</p>
+<p>原价：：39.00 / 售价：7.50</p>
+<ul>
+<li><strong>EBOOK CONVERTER ULTIMATE</strong></li>
+</ul>
+<p>#1电子书转换器和电子书DRM去除软件。</p>
+<p>原价：：47.00 / 售价：3.50</p>
+<ul>
+<li><strong>CLOUDMOUNTER</strong></li>
+</ul>
+<p>云驱动器安装在您的macOS桌面上。</p>
+<p>原价：：29.99 / 售价：5.00</p>
+<ul>
+<li><strong>MASS RENAME</strong></li>
+</ul>
+<p>批量重命名多个文件的简单方法。</p>
+<p>原价：：5.99 / 售价：1.00</p>
+<ul>
+<li><strong>DOWNIE</strong></li>
+</ul>
+<p>轻松下载数千个不同网站的视频。</p>
+<p>原价：：19.99 / 售价：7.99</p>
+<ul>
+<li><strong>GARAGESALE</strong></li>
+</ul>
+<p>舒适地创建，启动和跟踪您的列表。管理您的销售和库存。</p>
+<p>原价：：39.99 / 售价：3.50</p>
+<ul>
+<li><strong>EASEUS NTFS – LIFETIME</strong></li>
+</ul>
+<p>允许Mac用户在Microsoft NTFS卷上写入、编辑、复制、移动和删除文件。</p>
+<p>原价：：49.95 / 售价：6.00</p>
+<ul>
+<li><strong>ISHOWU STUDIO 2</strong></li>
+</ul>
+<p>简单的视频编辑，优雅的呈现！</p>
+<p>原价：：79.00 / 售价：7.00</p>
+<ul>
+<li><strong>AI IMAGE ENLARGER – PHOTO UPSCALER</strong></li>
+</ul>
+<p>一站式AI工具包帮助您增强和升级图片。</p>
+<p>原价：：26.99 / 售价：3.00</p>
+<ul>
+<li><strong>OCRWIZARD- LIFETIME</strong></li>
+</ul>
+<p>将图像和扫描文档转换为可编辑和检索的文本的光学字符识别软件。</p>
+<p>原价：：59.99 / 售价：3.50</p>
+<ul>
+<li><strong>PERMUTE</strong></li>
+</ul>
+<p>轻松将您的媒体文件转换为各种不同的格式。</p>
+<p>原价：：14.99 / 售价：4.50</p>
+<ul>
+<li><strong>SURFLEX SCREEN RECORDER</strong></li>
+</ul>
+<p>必备的Mac屏幕录像机。</p>
+<p>原价：：69.95 / 售价：5.00</p>
+<ul>
+<li><strong>IMAGET</strong></li>
+</ul>
+<p>一键下载任何图片。</p>
+<p>原价：：69.95 / 售价：2.00</p>
+<ul>
+<li><strong>VIDEOPROC</strong></li>
+</ul>
+<p>VideoProc是您的全能工具。</p>
+<p>原价：：78.90 / 售价：5.00</p>
+<ul>
+<li><strong>COPYPASTE PRO</strong></li>
+</ul>
+<p>剪贴板的时间机器。</p>
+<p>原价：：30.00 / 售价：3.00</p>
+<ul>
+<li><strong>MUSIFY MUSIC DOWNLOADER</strong></li>
+</ul>
+<p>体验无尽的音乐并现在下载无限的歌曲。</p>
+<p>原价：：79.95 / 售价：3.50</p>
+<ul>
+<li><strong>PDFKEY PRO</strong></li>
+</ul>
+<p>解锁密码保护的PDF的Mac和Windows工具。</p>
+<p>原价：：24.99 / 售价：5.00</p>
+<ul>
+<li><strong>ISHOWU INSTANT</strong></li>
+</ul>
+<p>令人敬畏的实时屏幕录制macOS。</p>
+<p>原价：：24.00 / 售价：4.00</p>
+<ul>
+<li><strong>GRAB2TEXT</strong></li>
+</ul>
+<p>格式化，转换，清洁。</p>
+<p>原价：：1.99 / 售价：1.00</p>
+<ul>
+<li><strong>FILE LIST EXPORT</strong></li>
+</ul>
+<p>您文件所需的所有信息。</p>
+<p>原价：：4.99 / 售价：1.00</p>
+<ul>
+<li><strong>JSON WIZARD</strong></li>
+</ul>
+<p>简单的Mac上的JSON。</p>
+<p>原价：：14.99 / 售价：1.50</p>
+<ul>
+<li><strong>APPLICATION WIZARD</strong></li>
+</ul>
+<p>快速启动器，退出器和切换器。在您的Mac上快速访问任何内容。</p>
+<p>原价：：19.00 / 售价：3.00</p>
+<ul>
+<li><strong>CLEANBOARD</strong></li>
+</ul>
+<p>轻量级的MacOS应用，通过两次按复制快捷方式删除你复制的文本中的任何格式或特殊字符。</p>
+<p>原价：：2.99 / 售价：1.00</p>
+<ul>
+<li><strong>TRIMMA</strong></li>
+</ul>
+<p>简单的视频剪切。</p>
+<p>原价：：9.99 / 售价：2.50</p>
+<ul>
+<li><strong>YKEY</strong></li>
+</ul>
+<p>yKey自动化更少完成更多。</p>
+<p>原价：：30.00 / 售价：2.00</p>
+<ul>
+<li><strong>WEBP CONVERTER – ANYWEBP</strong></li>
+</ul>
+<p>一键将数百张WebP图片转换为JPG/JPEG/PNG/ICO，或者将任何其他图像格式转换为WebP。</p>
+<p>原价：：7.99 / 售价：1.50</p>
+<ul>
+<li><strong>UNLOCKIT IPHONE</strong></li>
+</ul>
+<p>立即删除iPhone和iPad上的各种屏幕锁定！</p>
+<p>原价：：49.95 / 售价：3.50</p>
+<ul>
+<li><strong>COLORIZE: COLOR TO B AND W PHOTO</strong></li>
+</ul>
+<p>Picture Colorizer – Mac软件</p>
+<p>原价：：29.95 / 售价：3.00</p>
+<ul>
+<li><strong>TINYFIX</strong></li>
+</ul>
+<p>自己修复iPhone和iPad的系统问题。</p>
+<p>原价：：44.95 / 售价：2.50</p>
+<ul>
+<li><strong>ICONIZE</strong></li>
+</ul>
+<p>所有你的应用图标。只需一键。</p>
+<p>原价：：9.99 / 售价：2.00</p>
+<ul>
+<li><strong>PHOTOFOUNDRY</strong></li>
+</ul>
+<p>专业的批量照片编辑。</p>
+<p>原价：：19.99 / 售价：3.50</p>
+<ul>
+<li><strong>UNLOCKIT ICLOUD REMOVER</strong></li>
+</ul>
+<p>有效地绕过激活锁和锁定到所有者。</p>
+<p>原价：：49.95 / 售价：3.50</p>
+<ul>
+<li><strong>DVD BURNER – LIFETIME</strong></li>
+</ul>
+<p>将视频转换为专业看起来的DVD，有针对各种场合和活动的可定制菜单。</p>
+<p>原价：：59.99 / 售价：3.50</p>
+<ul>
+<li><strong>PDF PASSWORD REMOVER – LIFETIME</strong></li>
+</ul>
+<p>无论你是否知道或忘记密码，都可以删除PDF密码。</p>
+<p>原价：：49.99 / 售价：2.50</p>
+<ul>
+<li><strong>PIXELSTICK</strong></li>
+</ul>
+<p>Mac屏幕测量工具。</p>
+<p>原价：：10.00 / 售价：3.00</p>
+<ul>
+<li><strong>EASEUS RECEXPERTS “1 YEAR PLAN”</strong></li>
+</ul>
+<p>最好的Mac屏幕录制器–免费稳定。</p>
+<p>原价：：49.95 / 售价：3.50</p>
+<ul>
+<li><strong>VOLUME MANAGER</strong></li>
+</ul>
+<p>#1 Mac应用程序，自动安装Apple和Windows卷、共享、驱动器。</p>
+<p>原价：：18.00 / 售价：3.00</p>
+<ul>
+<li><strong>ANYCOMPRESSOR</strong></li>
+</ul>
+<p>压缩jpg，png，动态GIF图片。</p>
+<p>原价：：19.99 / 售价：2.00</p>
+<ul>
+<li><strong>PDFEXTRACTOR</strong></li>
+</ul>
+<p>从PDF中提取图片，文本和字体的Mac和Windows工具。</p>
+<p>原价：：7.99 / 售价：2.50</p>
+<ul>
+<li><strong>ICLOCK</strong></li>
+</ul>
+<p>iClock时间工具，效果钟、闹钟、鸣谢、倒计时、日历、小憩、浮动钟头。</p>
+<p>原价：：18.00 / 售价：3.00</p>
+<ul>
+<li><strong>1000 OPENTYPE FONTS</strong></li>
+</ul>
+<p>1000种Mac商业用途字体。</p>
+<p>原价：：29.99 / 售价：1.50</p>
+<hr />
+<p>购买链接：<a href="https://bundlehunt.com/bundle/2023-blackfriday-macos-bundle?ap_id=appinn" rel="noopener" target="_blank">https://bundlehunt.com/bundle/2023-blackfriday-macos-bundle?ap_id=appinn</a></p>
+<p>👆 有返利，感谢支持</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49775">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 29 Nov 2023 08:18:33 +0000</pubDate>
+<pubDate>Wed, 29 Nov 2023 08:18:33 +0000</pubDate>
+</item>
+<item>
+<title>Macify - 在 Chrome 新标签页显示 macOS 原生自带 4K 航拍屏保视频</title>
+<link>https://meta.appinn.net/t/topic/49737</link>
+<guid>https://meta.appinn.net/t/topic/49737</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/macify-for-chrome/">Macify - 在 Chrome 新标签页显示 macOS 原生自带 4K 航拍屏保视频 - 小众软件</a><br />
+</small><br /></p><p><strong>Macify</strong> 是一款 Chrome、Edge <a href="https://www.appinn.com/tag/新标签页/">新标签页</a>扩展，它能够直接显示苹果 macOS 系统里原生自带的 4K 航拍屏保视频（支持 Windows、Linux 等非 macOS 系统），并且可全屏播放，附带音乐，就像真屏保那样。并且还能（可选）显示天气、时间、问问 ChatGPT、显示高频网站、格言等内容。@<a href="https://www.appinn.com/macify-for-chrome/">Appinn</a></p><br />
+<img height="" src="https://www.appinn.com/wp-content/uploads/2023/11/Appinn-feature-images-2023-11-28T114053.029.jpg" width="" /><p>来自 <span class="mention">@jason5ng32</span>、<a class="mention" href="https://meta.appinn.net/u/dofy">@dofy</a> 和 <span class="mention">@howie-serious</span> 的作品，在 <a href="https://github.com/jason5ng32/macOS-Screen-Saver-as-Chrome-New-Tab" rel="noopener" target="_blank">GitHub</a> 开源。</p><p></p>
+<h2>Macify – macOS 屏保视频标签页</h2>
+<p>macOS 系统的原生桌面壁纸、屏保一直以来都保持着业界最高质量。这次是把原生自带的 4K 航拍屏保视频当 Chrome 新标签页，效果还是非常赞的。</p>
+<p>对于非 macOS 用户，也能体验到完全相同的屏保。</p>
+<h3>小视频</h3>
+<p></p>
+<p><a href="https://www.youtube.com/watch?v=qqn2dTrodzQ">Macify：Chrome 新标签页扩展，显示 macOS 原生自带 4K 航拍屏保视频</a></p>
+
+<h2>安装建议</h2>
+<p>Macify 内置了反向代理让用户可以直接使用 ，不过会留下一个绿条提示用户自建。对于 macOS 用户，可以托管一个本地服务器，但…Mac用户为啥要用这个扩展？</p>
+<p>对于包括 Mac 用户在内的所有用户，只需要忽略证书安全性（请谨慎），即可直接使用苹果服务器显示视频。</p>
+<p>具体步骤：</p>
+<p>在浏览器里打开这个网址：<a href="https://sylvan.apple.com/" rel="noopener" target="_blank">https://sylvan.apple.com/</a></p>
+<ol>
+<li>点击高级</li>
+<li>点击继续访问…(不安全)</li>
+<li>就好了</li>
+</ol>
+<img height="" src="https://www.appinn.com/wp-content/uploads/2023/11/Appinn-2023-11-28-14.13.26@2x.jpg" width="" /><p>注意，这里忽略了该域名的证书，青小蛙觉得问题不大，这个域名属于苹果自己，但如果你对安全有较高要求，请谨慎，并最好自己设置反向代理。</p>
+<h2>获取</h2>
+<ul>
+<li><a href="https://chromewebstore.google.com/detail/lgdipcalomggcjkohjhkhkbcpgladnoe?hl=zh-CN" rel="noopener" target="_blank">Chrome 商店</a></li>
+</ul>
+<p>屏幕上的其他内容，包括天气、问 ChatGPT、格言等内容都是可以关闭的。</p>
+<hr />
+<p>原文：https://www.appinn.com/macify-for-chrome/</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/49737">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 28 Nov 2023 06:20:55 +0000</pubDate>
+<pubDate>Tue, 28 Nov 2023 06:20:55 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】OptiClean：专为 macOS 定制的物体擦除软件，完全离线</title>
+<link>https://meta.appinn.net/t/topic/48933</link>
+<guid>https://meta.appinn.net/t/topic/48933</guid>
+<content:encoded><![CDATA[
+
+<p>OptiClean 是一款专为 macOS 开发的图片清理应用，能够快速、方便地清理图片上的瑕疵，移除不需要的物体或者人物。OptiClean 的 AI 模型使用 Apple CoreML 框架完全本地执行，能够充分发挥 M1/M2 芯片的性能，你的图片不会上传到任何服务器。App 提供七天免费的试用期，终身买断制。</p>
+<p>最近正在进行双十一打折活动，购买有 5 折优惠，以下是一个简短的演示视频，官网里也有更多的演示示例：</p>
+<ul>
+<li>官网： <a href="https://opticlean.io/" rel="noopener nofollow ugc">https://opticlean.io/</a></li>
+<li>App Store 链接：<a class="inline-onebox" href="https://apps.apple.com/ca/app/opticlean/id6452387177?mt=12" rel="noopener nofollow ugc">‎OptiClean on the Mac App Store</a></li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=csj-ktZePVw">OptiClean: Native macOS Inpainting app, cleanup your picture in seconds.</a></p>
+
+            <p><small>6 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48933">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 07 Nov 2023 13:58:13 +0000</pubDate>
+<pubDate>Tue, 07 Nov 2023 13:58:13 +0000</pubDate>
+</item>
+<item>
+<title>便签Pro - MacOS 原生便签终极替代品</title>
+<link>https://meta.appinn.net/t/topic/48487</link>
+<guid>https://meta.appinn.net/t/topic/48487</guid>
+<content:encoded><![CDATA[
+
+<p>iCloud 同步：<br />
+使用StickerPro体验无比便捷的同步体验。无需配置，无需点击，就能从你的Mac无缝同步到你的iPhone。无论何时何地，都能随时与生活和工作保持同步。</p>
+<p>智能边框：<br />
+StickerPro能够智能调整便签，完美贴合您的需求。根据您输入字符的行数，自动调整便签的大小，让记录更加便捷。</p>
+<p>极简界面：<br />
+便签Pro的界面设计简洁明了，操作便利。无需复杂步骤，一目了然，让您的记录体验更加流畅。</p>
+<p>历史记录：<br />
+我们的macOS便签App，让您无忧记录，轻松找回。通过便签历史页面，即使关闭后也能轻松找回之前的便签，再也不用担心丢失重要信息。</p>
+<p>标签化：<br />
+我们的macOS便签App，标签化设计，视图更加简洁。缩小便签，减少视图占用面积，使您的工作区更加清晰，管理更加高效。</p>
+<p>置顶：<br />
+我们的macOS便签App，您的工作优先。置顶显示功能让重要信息时刻在视线之内，让您的工作更加高效。</p>
+<p><a href="https://stickiespro.000ooo.ooo/" rel="noopener nofollow ugc">官网<img alt=":computer:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/computer.png?v=12" title=":computer:" width="20" /></a></p>
+<p><img alt="image1" height="391" src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b8/ef/ca/b8efca07-2edd-88c3-7830-482078bcd262/18e6454b-103d-402d-86e4-e8359680620e__U7f16_U7ec4_5.png/626x0w.webp" width="626" /><br />
+<img alt="image1" height="391" src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/89/16/0d/89160d28-2f1e-e6d4-d866-d735ce3b6af3/81049644-eb2b-4634-a82f-ff1959dd698d_Frame_3.png/626x0w.webp" width="626" /><br />
+<img alt="image1" height="391" src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/67/0a/58/670a5897-ac07-e4c6-4f9f-a65f54676c11/57857634-97fd-4586-946b-ea6b0fd8bfe5_Frame_2.png/626x0w.webp" width="626" /></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48487">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 24 Oct 2023 07:24:33 +0000</pubDate>
+<pubDate>Tue, 24 Oct 2023 07:24:33 +0000</pubDate>
+</item>
+<item>
+<title>全新 Bartender 5 上线 8 折，最好的 macOS 菜单栏图标隐藏工具（2022年6月后购买可免费升级）</title>
+<link>https://meta.appinn.net/t/topic/48411</link>
+<guid>https://meta.appinn.net/t/topic/48411</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a href="https://www.appinn.com/bartender-5-lizhi/">https://www.appinn.com/bartender-5-lizhi/</a><br />
+</small><br /></p><p>Bartender 大概算是 macOS 上最知名，也是普及率最高的菜单栏整理工具了，它能自动折叠并隐藏菜单栏上多余的图标，还能额外添加一行显示图标。另外 Bartender 5 新增了 Presets（预设图标分组） 功能，可以通过指定条件自动切换不同的图标分组。目前已上架数码荔枝，限时 <strong>8</strong> 折升级价格 45 元，新买 71.20 元。2022 年 6 月 8 日之后购买 4 的用户可免费升级。@<a href="https://www.appinn.com/bartender-5-lizhi/">Appinn</a></p><br />
+<img height="" src="https://www.appinn.com/wp-content/uploads/2023/10/Appinn-feature-images-2023-10-20T202828.551.jpg" width="" /><p>Bartender 是青小蛙购买的第一款 Mac 工具，基本上是拿来电脑就买了，现如今和别人开车 <a href="https://setapp.sjv.io/DagDd" rel="noopener" target="_blank">Setapp</a>，用起来也挺舒服。</p><p></p>
+<p>购买地址：<a href="https://store.lizhi.io/site/products/id/51?cid=jxlwguir" rel="noopener" target="_blank">https://store.lizhi.io/site/products/id/51?cid=jxlwguir</a></p>
+<p>以下为数码荔枝供稿：</p>
+<h2>全新 Bartender 5 上线 8 折，Mac 菜单栏整洁又方便的秘诀！</h2>
+<p>Windows 若有太多软件在运行，系统会把右下角图标自动折叠。macOS 的菜单栏不会，它就直接全部显示。</p>
+<p>当图标太多时，既不美观又经常会相互遮盖，非常影响操作。苹果现在还把「刘海屏」发扬光大，MacBook 的菜单栏是越来越不方便了！</p>
+<p>如果你希望 Mac 的菜单栏干净清爽、又方便易用，那全新的「Bartender 5」软件你一定要试试。​</p>
+<p>2022 年 6 月 8 日之后，购买过 Bartender 4 的顾客，可免费升级至 5。此前购买过的老用户升级，仅需 <strong>49 元</strong>，比官网更加优惠！</p>
+<h3>多方式隐藏图标</h3>
+<p>Bartender 5 有多种方式收纳菜单栏图标，直接隐藏、Bartender Bar 换行隐藏、分组隐藏。</p>
+<p>软件默认直接隐藏不常用的图标，只需鼠标点击、滑动、滚动、或悬停于菜单栏，被隐藏的图标就会出现。</p>
+<video loop=""></video>
+<p>Bartender Bar 则是在菜单栏下方单独成行，收纳隐藏的图标。对于刘海屏 MacBook，就有更多空间来放置需要的项目。</p>
+<video loop=""></video>
+<p>新版本还带来了非常好用的<strong>分组功能</strong>，系统开关可以放在一组，音乐相关的可以组合起来，要用的工具单独一队。分组清晰有条有理，不用在隐藏项里找来找去！</p>
+<video loop=""></video>
+<p>开启 Bartender 5，还你一个干净的 Mac 菜单栏，从此告别图标拥挤与遮挡。</p>
+<h2>不只隐藏更能美化</h2>
+<p>菜单栏一成不变？Bartender 5 为你来了<strong>自定义风格</strong>的可能，现在你可以为菜单栏添加渐变、阴影、边框，或是将它改为圆角形、添加黑色区域……</p>
+<p>各种风格混搭，创造出充满个人特色的桌面样式。</p>
+<img height="289" src="https://static1.appinn.com/images/202310/lizhi-bartender55.jpg!o" width="690" /><p>不想美化别担心，还有个功能非常有用。可调整<strong>图标间距</strong>，自己习惯紧凑或松散，不用忍受系统默认布局。</p>
+<img height="353" src="https://static1.appinn.com/images/202310/lizhi-bartender56.jpg!o" width="690" /><h2>预设触发更好用</h2>
+<p>现在你可以使用 Bartender 5 创建多种<strong>预设场景</strong>，在不同场景下显示特定的某些项目。</p>
+<p>比如在录屏或屏幕共享时，只显示系统开关，让聊天、系统占用等图标不再出现；又或是在工作场景下，只显示要用的工具项目；在家只显示娱乐相关图标……</p>
+<img height="349" src="https://static1.appinn.com/images/202310/lizhi-bartender57.jpg!o" width="689" /><p>旧版本的 Bartender，就可以在软件有通知等变化时，自动显示图标进行提醒。现在新的<strong>触发功能</strong>更加好用，可以设定在充电、连接特定 WiFi、特定时间 / 位置时，显示 / 隐藏项目，或开启某个预设场景。</p>
+<img height="474" src="https://static1.appinn.com/images/202310/lizhi-bartender58.jpg!o" width="690" /><p>当然好用的<strong>快捷功能</strong>依旧保留，你可以通过快捷键显示图标，通过搜索快速定位图标打开菜单。</p>
+<img height="499" src="https://static1.appinn.com/images/202310/lizhi-bartender59.jpg!o" width="690" /><h2>适配 macOS 14</h2>
+<p>Bartender 5 支持 M 系芯片，但只能在 macOS Sonoma 上使用，之前的系统只能使用旧版本。不过购买 5 的授权码同样也能激活 4，还在旧系统的用户也不用担心。</p>
+<hr />
+<p>看了这么久不如上手试一试？</p>
+<p>现在点击<a href="https://store.lizhi.io/site/products/id/51?cid=jxlwguir" rel="noopener" target="_blank">小众软件的专属优惠链接</a>购买 Mac 菜单栏图标整理神器 Bartender 5，现在 <strong>49</strong> 元起就可以入手终生版，向杂乱的菜单栏说再见！</p>
+<ul>
+<li><a href="https://store.lizhi.io/site/products/id/51?cid=jxlwguir" rel="noopener" target="_blank">https://store.lizhi.io/site/products/id/51?cid=jxlwguir</a>
+<ul>
+<li>新购价格：71.20 元</li>
+<li>升级价格：45 元</li>
+<li>2022 年 6 月 8 日之后购买 4 的用户可免费升级</li>
+</ul>
+</li>
+</ul>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/48411">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 20 Oct 2023 13:07:39 +0000</pubDate>
+<pubDate>Fri, 20 Oct 2023 13:07:39 +0000</pubDate>
+</item>
+<item>
+<title>DaisyDisk - 磁盘空间扫描工具：找出了 macOS 系统数据中的 269.4GB 垃圾文件，来自 APFS 快照文件</title>
+<link>https://meta.appinn.net/t/topic/41461</link>
+<guid>https://meta.appinn.net/t/topic/41461</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/daisydisk-for-macos/">DaisyDisk - 磁盘空间扫描工具：找出了 macOS 系统数据中的 269.4GB 垃圾文件，来自 APFS 快照文件 - 小众软件</a><br />
+</small><br /></p><p><strong>DaisyDisk</strong> 是一款 Mac 下的磁盘空间扫描工具，它能帮你找出是什么占据了磁盘，支持隐藏空间，包括莫名其妙的<strong>系统数据</strong>，总之能够真正的找到磁盘占用文件。<a href="https://www.appinn.com/daisydisk-for-macos/">@Appinn</a></p><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/6/562da2a3e8462ef30576984396191e97cd78c530.jpeg" title="daisydiskapp.jpg"><img height="300" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/5/6/562da2a3e8462ef30576984396191e97cd78c530_2_690x300.jpeg" width="690" /></a></div><p>事情是这样的，青小蛙已经<a href="https://twitter.com/scavin/status/1631847862345641984" rel="noopener" target="_blank">有一段时间</a>磁盘空间紧张了，只剩下不到20GB，导致桌面刷新、打开文件等一些常规操作都变得卡顿，简直不能忍。</p><p></p>
+<p>但，又不知道怎么回事，系统数据这个东西，到底是个啥啊？</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/c/0cc78e8303bdd70f6ca7a9a943790d6166e8f406.jpeg" title="screen-appinn2023-03-10-15-24-03.jpg"><img height="205" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/c/0cc78e8303bdd70f6ca7a9a943790d6166e8f406_2_690x205.jpeg" width="690" /></a></div><p>常见的工具，都…找不到。测试了几个工具，都不行啊，比如：</p>
+<ul>
+<li><a href="https://www.appinn.com/diskwave-for-osx/">DiskWave – 磁盘空间占用工具[OS X]</a></li>
+<li><a href="https://www.appinn.com/omnidisksweeper/">Omnidisksweeper – 高效磁盘空间占用扫描[Mac]</a></li>
+</ul>
+<p>然后又翻了一大堆资料，也问了 <a href="https://www.appinn.com/tag/%E9%97%AEChatgpt">ChatGPT</a>，就在胡说八道。重启、扫描磁盘，怎么整都不行…</p>
+<p>要知道我把虚拟机都删了，节省到还有 70G 空间…但这事，不对呀</p>
+<h2>DaisyDisk</h2>
+<p>这个时候，DaisyDisk 由于天神一般降临，也就用了几秒钟：</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/0/d/0d0229b8c6c17066a72192a7b5a8ad9d314d4f1a.jpeg" title="screen-appinn2023-03-10_15_20_55.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/0/d/0d0229b8c6c17066a72192a7b5a8ad9d314d4f1a_2_640x500.jpeg" width="640" /></a></div><p>这里居然可以点进去，一看…真是不知道说啥好呢。</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/3/8343e70bcc718eac68c28a6b311830599ab13e89.jpeg" title="screen-appinn2023-03-10_15_21_05.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/3/8343e70bcc718eac68c28a6b311830599ab13e89_2_640x500.jpeg" width="640" /></a></div><p>想不到，居然是群晖的 <strong>Active Backup for Business</strong> 套件，在一月份的时候，青小蛙测试了：</p>
+<ul>
+<li><a href="https://www.appinn.com/active-backup-for-business-2-5-0-12631/">群晖 Active Backup for Business 套件新增 macOS 整机备份功能，目前已支持个人电脑、物理服务器、文件服务器、虚拟机、NAS 备份</a></li>
+</ul>
+<p>测试之后，因为有 Time Machine，并未继续使用，但这个情况就…</p>
+<h2>本地 APFS 快照</h2>
+<p>跟就 DaisyDisk 关于<a href="https://daisydiskapp.com/guide/4/en/Snapshots/" rel="noopener" target="_blank">本地 APFS 快照</a>的介绍说法：</p>
+<p>时间机器的本地快照是 macOS 的一项功能，可用作临时备份解决方案，直到您的 Mac 有机会连接到其永久时间机器磁盘，例如时间胶囊。快照可能会占用<strong>大量</strong>磁盘空间（最多占磁盘的 80%）。这种特殊性通常会给Mac用户带来<strong>困惑</strong>，因为在“关于本机”窗口中，“系统”类别在macOS High Sierra及更高版本上似乎占用了太多空间。</p>
+<p>大多数用户只会遇到由时间机器（即macOS）创建的快照。但是，有<strong>第三方应用程序</strong>，特别是流行的Bombich的碳复制克隆器，能够<strong>创建自己的快照</strong>。此类第三方快照<strong>不计入</strong>“可清除空间”，<strong>也不由 macOS 管理</strong>。此类快照只能由创建它们的应用程序删除。这是 DaisyDisk 中的快照项有用的另一个原因：它可以让您了解第三方快照，否则这些<strong>快照</strong>可能会静默地占用您的磁盘空间而不会被自动删除——对于 Mac 用户来说，这是一个经常遇到的问题。</p>
+<hr />
+<h2>解决方案：卸载 <strong>Active Backup for Business</strong> 即可</h2>
+<p>既然找到了问题所在，就好解决了。</p>
+<p>重新安装一次 <strong>Active Backup for Business</strong>，然后对着它的图标右键，选择「显示包内容」，进入 Contents 文件夹，运行里面的 <strong>Uninstall Synology Active Backup for Business</strong>  文件：</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/0/e0529ee9cbad055332843c31c29c21f9428d46e6.jpeg" title="screen-appinn2023-03-10-15-53-19.jpg"><img height="346" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/0/e0529ee9cbad055332843c31c29c21f9428d46e6_2_690x346.jpeg" width="690" /></a></div><p>然后，世界就清爽了，我的硬盘回来啦</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/f/6f657a2babef076c1308f2a82e847c0b9eaa040b.jpeg" title="screen-appinn2023-03-10_15_56_06.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/f/6f657a2babef076c1308f2a82e847c0b9eaa040b_2_640x500.jpeg" width="640" /></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/e/8ec0801c29870994e0f86107d2e258d3c8c8746b.jpeg" title="screen-appinn2023-03-10-15-59-00.jpg"><img height="202" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/8/e/8ec0801c29870994e0f86107d2e258d3c8c8746b_2_690x202.jpeg" width="690" /></a></div><p>不用重装系统了。</p>
+<p>所以，DaisyDisk 值得保留在硬盘中。</p>
+<p>目前 DaisyDisk 可以免费试用，以及在数码荔枝购买：</p>
+<ul>
+<li><a href="https://store.lizhi.io/site/products/id/130?cid=jxlwguir" rel="noopener" target="_blank">https://store.lizhi.io/site/products/id/130?cid=jxlwguir</a></li>
+</ul>
+<p>永久授权，并且不限制安装台数…你们看着办，我冲了</p>
+<hr />
+<p>原文：https://www.appinn.com/daisydisk-for-macos/</p>
+            <p><small>8 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41461">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 10 Mar 2023 08:01:15 +0000</pubDate>
+<pubDate>Fri, 10 Mar 2023 08:01:15 +0000</pubDate>
+</item>
+<item>
+<title>Command X - 为 macOS 添加「剪切」快捷键</title>
+<link>https://meta.appinn.net/t/topic/43788</link>
+<guid>https://meta.appinn.net/t/topic/43788</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/command-x/">Command X - 为 macOS 添加「剪切」快捷键 - 小众软件</a><br />
+</small><br /></p><p><strong>Command X</strong> 是一款为 macOS 添加<strong>剪切快捷键</strong>的小工具。安装之后，就可以对文件、文件夹使用快捷键 Command X 进行剪切，并使用 Command V 粘贴。@<a href="https://www.appinn.com/command-x/">Appinn</a> </p><br />
+<img height="300" src="https://static1.appinn.com/images/202305/command-x.jpg!o" width="690" /><p>感谢 <span class="mention">@Reynard</span> 的推荐。</p><p></p>
+<h2>macOS 原生剪切功能</h2>
+<p>在 macOS 里，针对文件与文件夹，原生不支持直接使用<strong>剪切</strong>这个功能的，但有将<strong>项目移动到这里</strong>这个相同的功能：</p>
+          <div class="onebox video-onebox">
+            <video controls="" height="100%" width="100%">
+              <source src="https://img.appinn.com/wp-content/uploads/2023/05/ezgif.com-resize-4.mp4" />
+              <a href="https://img.appinn.com/wp-content/uploads/2023/05/ezgif.com-resize-4.mp4" rel="noopener">https://img.appinn.com/wp-content/uploads/2023/05/ezgif.com-resize-4.mp4</a>
+            </video>
+          </div>
+
+<p>所以使用上与 Windows 不同：</p>
+<p>你必须先复制（<kbd>Command+C</kbd>），然后移动（<kbd>Option+Command+V</kbd>）</p>
+<p>对于经常在双系统间切换的用户来说，会稍有不便。</p>
+<h2>Command X – 为 macOS 添加「剪切」快捷键</h2>
+<p>Command X 把 Windows 的操作「移植」了过来，让你可以在 Finder 中使用 <kbd>Command+X</kbd> 剪切，然后 <kbd>Command+V</kbd> 粘贴文件和文件夹。</p>
+<p>只需让程序在后台运行即可。文件和文件夹的移动是由 Finder 处理的，Command X 只是在 Finder 前拦截剪切和粘贴命令，然后模拟复制和移动命令。</p>
+<p>如果你在剪切（ <kbd>Command+X</kbd> ）后没有粘贴，就不会发生任何事情，文件会留在原地。</p>
+<h2>获取</h2>
+<ul>
+<li><a href="https://apps.apple.com/cn/app/command-x/id6448461551?mt=12" rel="noopener" target="_blank">Mac App Store</a></li>
+</ul>
+<p>当然，如果你习惯了使用 <kbd>Option+Command+V</kbd> 来移动文件，完全不需要这货。</p>
+<hr />
+<p>原文：https://www.appinn.com/command-x/</p>
+            <p><small>4 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/43788">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 18 May 2023 13:14:46 +0000</pubDate>
+<pubDate>Thu, 18 May 2023 13:14:46 +0000</pubDate>
+</item>
+<item>
+<title>macOS Containers：在 macOS 中运行 macOS，以 Docker 的方式</title>
+<link>https://meta.appinn.net/t/topic/47790</link>
+<guid>https://meta.appinn.net/t/topic/47790</guid>
+<content:encoded><![CDATA[
+
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="115" src="https://macoscontainers.org/assets/images/favicon.svg" width="115" />
+
+      <a href="https://macoscontainers.org/" rel="noopener" target="_blank">macoscontainers.org</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="362" src="https://macoscontainers.org/assets/images/opengraph.png" width="690" /></div>
+
+<h3><a href="https://macoscontainers.org/" rel="noopener" target="_blank">macOS Containers Initiative</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>macOS Containers 是一个可以在 macOS 中运行 macOS 的 Docker 容器。</p>
+<p>                    <a class="onebox" href="https://macoscontainers.org/assets/images/showcase.png" rel="noopener" target="_blank">
+            <img height="431" src="https://macoscontainers.org/assets/images/showcase.png" width="690" />
+          </a>
+
+</p>
+<p>这个镜像很大…很大，安装方式略有不同：</p>
+<p>GitHub：<a class="inline-onebox" href="https://github.com/macOScontainers/homebrew-formula">GitHub - macOScontainers/homebrew-formula</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>必须</h2>
+<ul>
+<li>macOS Catalina or newer</li>
+<li>关闭 <a href="https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection">System Integrity Protection</a>. SIP <a href="https://github.com/containerd/containerd/discussions/5525#discussioncomment-2685649">不允许</a> <code>chroot</code>.</li>
+<li>安装 <a href="https://brew.sh/">Homebrew</a></li>
+</ul>
+<pre><code class="lang-auto"># Install packages
+brew install --cask macfuse
+brew install docker docker-buildx macOScontainers/formula/bindfs macOScontainers/formula/containerd macOScontainers/formula/dockerd macOScontainers/formula/rund 
+
+# Start services 
+sudo brew services start containerd 
+sudo brew services start dockerd 
+
+# Set up BuildKit 
+mkdir -p ~/.docker/cli-plugins 
+ln -sfn /opt/homebrew/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugins/docker-buildx
+</code></pre>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>使用</h2>
+<p>授权 GitHub Container Registry <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry">教程</a>.</p>
+<pre><code class="lang-auto">echo &lt;YOUR_ACCESS_TOKEN&gt; | docker login ghcr.io -u &lt;GITHUB_USERNAME&gt; --password-stdin
+</code></pre>
+<p>运行你的第一个 macOS 容器</p>
+<pre><code class="lang-auto">docker run --rm -it ghcr.io/macoscontainers/macos-jail/ventura:latest echo "Hello from macOS container ^_^"
+</code></pre>
+<h2><a class="anchor" href="https://meta.appinn.net#how-does-it-workhttpsgithubcommacoscontainershomebrew-formulahow-does-it-work-3" name="how-does-it-workhttpsgithubcommacoscontainershomebrew-formulahow-does-it-work-3"></a><a href="https://github.com/macOScontainers/homebrew-formula#how-does-it-work">How does it work?</a></h2>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/47790">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 27 Sep 2023 07:51:59 +0000</pubDate>
+<pubDate>Wed, 27 Sep 2023 07:51:59 +0000</pubDate>
+</item>
+<item>
+<title>用 DockX 在 macOS 程序坞与菜单栏显示「任何内容」，内购限免</title>
+<link>https://meta.appinn.net/t/topic/46691</link>
+<guid>https://meta.appinn.net/t/topic/46691</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/dockx-for-macos/">用 DockX 在 macOS 程序坞与菜单栏显示「任何内容」，内购限免 - 小众软件</a><br />
+</small><br /></p><p><strong>DockX</strong> 是一款能够在 macOS 程序坞与菜单栏显示「任何内容」的小工具，内置了不少有趣的 GIF 动画，还有网速（下载/上传）、CPU/内存使用情况等，支持 API 自定义显示文字。目前内购限免中。@<a href="https://www.appinn.com/dockx-for-macos/">Appinn</a></p><br />
+<img height="300" src="https://static1.appinn.com/images/202308/appinn-feature-images-2023-08-21t201210-813.jpg!o" width="690" /><p>还记得之前的那个魔性小工具吗：<a href="https://www.appinn.com/runcat-for-macos/">RunCat – 在 macOS 顶部菜单栏随 CPU 越跑越快的猫</a>，这次更复杂的工具来了，除了放猫、还能放下任意的 GIF 动图。甚至，你能通过 API 显示文字 <img alt=":joy:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/joy.png?v=12" title=":joy:" width="20" /></p><p></p>
+<p>昨天开发者 @<strong>hzlzh自力</strong> 发来了这个有趣的工具，先来看官方版本的视频介绍：</p>
+<p></p>
+<p><strong>状态1</strong>对应菜单栏，<strong>状态2</strong>对应程序坞。然后就可以设置你想要的内容了。</p>
+<p>@<strong>hzlzh自力</strong> 还发来了一个…用户视频：</p>
+<p></p>
+<p>你们好过分啊，我也想玩 😂</p>
+<hr />
+<p>下面是开发者提供的文字介绍：</p>
+<h2>💻 DockX：在程序坞和菜单栏显示任何内容</h2>
+<p>一款神奇的 macOS “效率工具”，可以在 Dock 程序坞和菜单栏上显示任何内容，方便高效，无需打开。</p>
+<p>🔗 链接：<a href="https://apps.apple.com/app/cn/id6452276577" rel="noopener" target="_blank">App Store</a> | <a href="https://www.producthunt.com/posts/dockx" rel="noopener" target="_blank">ProductHunt</a> | <a href="https://dockx.app/" rel="noopener" target="_blank">官网</a></p>
+<h3>🎁 首发福利</h3>
+<p>限免活动送给大家(Pro内购 0 元)，请在 PH 和 App Store 投出宝贵的一票吧🔝❤️</p>
+<h2>📺 主要功能</h2>
+<ul>
+<li>实时网速（下载/上传）</li>
+<li>CPU / 内存使用实时状态</li>
+<li>日期和时钟(含秒针)</li>
+<li>简易备忘录</li>
+<li>自定义 GIF 动画</li>
+<li>自定义程序坞主题外观</li>
+<li>API 玩法联动</li>
+<li>快捷键切换，快捷启动等</li>
+</ul>
+<h3>API 模式?</h3>
+<p>你可以向 DockX 发送任何内容在程序坞或菜单栏显示，使用 URL Scheme 格式: <kbd>dockx://show?text=<strong>xxx</strong>&amp;<strong>seconds</strong>=3</kbd></p>
+<p><strong>text</strong>: 你想显示的内容 <strong>seconds</strong>: 显示内容持续的时间</p>
+<h3><strong>如何自定义 Dock 程序坞的主题？</strong></h3>
+<p>拖动图片文件(PNG,JPG,GIF) 到主题中，最佳尺寸是 200×200 像素</p>
+<h2>👨🏻‍💻 开发小故事</h2>
+<p>上次 <a href="https://menubarx.app/" rel="noopener" target="_blank">MenubarX</a> 定位是效率工具，结果大家用成了摸鱼神器🐟。这次 DockX 依然定位效率工具，特意增加了魔性的 GIF 贴纸玩法，期待大家的脑洞（漏出鸡脚🐔）</p>
+<h3>记得去解锁内购：</h3>
+<img height="500" src="https://static1.appinn.com/images/202308/appinn-2023-08-21-16_29_48_2x.jpg!o" width="637" /><hr />
+<p>原文：https://www.appinn.com/dockx-for-macos/</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/46691">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 21 Aug 2023 12:45:16 +0000</pubDate>
+<pubDate>Mon, 21 Aug 2023 12:45:16 +0000</pubDate>
+</item>
+<item>
+<title>推荐一个拟物设计的录音、剪辑App「剪播台」，支持iOS、iPadOS和macOS，如果嫌库乐队太复杂，可以下一个替代。</title>
+<link>https://meta.appinn.net/t/topic/45030</link>
+<guid>https://meta.appinn.net/t/topic/45030</guid>
+<content:encoded><![CDATA[
+
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h1>
+<p>剪播台（海外叫Creadio）</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h1>
+<p>iOS、iPadOS、macOS（还在做）</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h1>
+<p>开发者自荐</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简介</h1>
+<p>一个轻拟物设计的录音、剪辑App「剪播台」，支持iOS、iPadOS和macOS，如果嫌库乐队太复杂，可以下载一个替代玩玩。</p>
+<h1>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用简介</h1>
+<p>整体式是拟物设计，icon比较亮眼，很耐看。</p>
+<p>主要功能就是<strong>录音</strong>和<strong>音频剪辑</strong>，录音录完以后可以进行快速的分割删除，而专业剪辑模式则可以进行多轨道剪辑，这里就和传统的多轨道音频编辑软件界面很像了，但简单很多，该有的基础功能都有。</p>
+<p>目前付费功能有字幕识别和静音删除，都是针对播客剪辑的，普通用户可能用不到。</p>
+<p>整体不弹窗，不推送，非需要用不到会员，还是挺清爽的。</p>
+<p>有录音和音频剪辑需求的同学可以玩玩看。</p>
+<div class="d-wrap">
+<p><img alt="creadio export" class="animated" height="298" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/0/e0b51cfeaf2ddb5267b88e6dfd93339b1e11ea34.gif" width="444" /></p>
+</div>
+<div class="d-wrap">
+<p>一点点小情怀，写在磁带上的项目名，以及磁带旋转播完的进度展示，充满了90年代的回忆</p>
+</div>
+<div class="d-wrap">
+<p><strong>iOS界面：</strong></p>
+</div>
+<div class="d-wrap">
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/4/349957b78bff72cc0ae41e461541c6be67e64be8.jpeg" title="image"><img alt="image" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/4/349957b78bff72cc0ae41e461541c6be67e64be8_2_230x500.jpeg" width="230" /></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/a/1/a146438c3ec4456253ab51b396f5d87f23e97ba5.jpeg" title="image"><img alt="image" height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/a/1/a146438c3ec4456253ab51b396f5d87f23e97ba5_2_230x500.jpeg" width="230" /></a></div><p></p>
+</div>
+<div class="d-wrap">
+<p>录音时点亮ON AIR的灯</p>
+</div>
+<div class="d-wrap">
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/c/0/c095b458a8c157bd166a4243299d23524e210208.jpeg" title="image"><img alt="image" height="318" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/c/0/c095b458a8c157bd166a4243299d23524e210208_2_690x318.jpeg" width="690" /></a></div><p></p>
+</div>
+<div class="d-wrap">
+<p>横屏的多轨道剪辑模式</p>
+</div>
+<div class="d-wrap">
+<p><strong>iPad上的适配：</strong></p>
+<div class="d-wrap">
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/c/bcb3e7e595faac1f4cde39fda45c9bd2d862284d.jpeg" title="image"><img alt="image" height="481" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/c/bcb3e7e595faac1f4cde39fda45c9bd2d862284d_2_690x481.jpeg" width="690" /></a></div><p></p>
+</div>
+</div>
+<div class="d-wrap">
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/0/b07b305ab04de327a178a22515126046fd8d4a19.jpeg" title="image"><img alt="image" height="481" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/b/0/b07b305ab04de327a178a22515126046fd8d4a19_2_690x481.jpeg" width="690" /></a></div><p></p>
+</div>
+<div class="d-wrap">
+<p>键盘快捷键</p>
+</div>
+<p>未来还会支持iCloud同步、macOS，以及更多的音频算法，比如歌曲人声删除等。</p>
+<p>官网：<a href="https://jianbotai.com/" rel="noopener nofollow ugc">https://jianbotai.com/</a><br />
+AppStore：<a class="inline-onebox" href="https://apps.apple.com/app/id1659320114" rel="noopener nofollow ugc">‎Creadio: Recorder&amp;Audio Editor on the App&nbsp;Store</a></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/45030">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 28 Jun 2023 03:45:05 +0000</pubDate>
+<pubDate>Wed, 28 Jun 2023 03:45:05 +0000</pubDate>
+</item>
+<item>
+<title>MessAuto - 在 macOS 上自动提取「短信验证码」并自动输入的工具</title>
+<link>https://meta.appinn.net/t/topic/44105</link>
+<guid>https://meta.appinn.net/t/topic/44105</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/messauto-for-macos/">MessAuto - 在 macOS 上自动提取「短信验证码」并自动输入的工具 - 小众软件</a><br />
+</small><br /></p><p><strong>MessAuto</strong> 是一款适合苹果全家桶用户的小工具，它能够在 macOS 上<strong>自动提取</strong>短线验证码，并<strong>自动输入</strong>至验证框，以及<strong>自动发送</strong>回车键确定的三自动小工具。可以非常方便的在 Mac 上登录那些需要验证码的服务。@<a href="https://www.appinn.com/messauto-for-macos/">Appinn</a></p><br />
+<img height="300" src="https://static1.appinn.com/images/202305/messauto-for-macos.jpg!o" width="690" /><p>自动提取短信验证码并复制这件事，已经属于手机标配功能了，不过在电脑端，还差的远。毕竟现在的各种服务，想尽办法不让用户在电脑上用，网页越做越烂，好多干脆不做了，必须掏出你的手机。</p><p></p>
+<p>请珍惜那些还让你在电脑上登录正常使用的服务吧。</p>
+<h2>MessAuto</h2>
+<p>感谢 @<a href="https://weibo.com/2194035935/4905272562160032" rel="noopener" target="_blank">蚁工厂</a> 的推荐。</p>
+<p>先来看效果：</p>
+<video controls="" loop=""></video>
+<p>对于全家桶用户来说，在 Mac 上阅读短信十分方便，屏幕右上角扫一眼就好了。而使用 MessAuto 的话，输入验证码就太舒服了。</p>
+<p>但注意，需要把 MessAuto 程序<strong>移动到应用程序文件夹</strong>中，然后再运行，并提供<strong>完全磁盘访问权限</strong>，自动粘贴需要<strong>辅助功能</strong>权限。之后就简单了，在菜单栏打开自动粘贴与自动回车，就可以坐等短信了：</p>
+<img height="500" src="https://static1.appinn.com/images/202305/appinn-2023-05-30-16-41-092x.jpg!o" width="561" /><p>如果等不来短信，就试试用短信验证登录购物网站呀、旅游网站，挺好用的 😂</p>
+<h2>获取</h2>
+<ul>
+<li><a href="https://kutt.appinn.com/9vxKHy" rel="noopener" target="_blank">GitHub</a></li>
+</ul>
+<p>原文：https://www.appinn.com/messauto-for-macos/</p>
+<hr />
+<p>附：以下为开发者 GitHub 页面介绍：</p>
+<h3>特点：</h3>
+<ul>
+<li>多语言支持：目前支持汉语，英语，韩语；根据系统语言自动切换</li>
+<li>轻量：程序占用存储 4 M，占用内存 14 M</li>
+<li>简洁：没有GUI，只有一个安静的任务栏托盘图标，但功能够用</li>
+<li>适用性广：Safari方案只能在Safari浏览器中使用，此软件适用于任何 APP</li>
+<li>开源免费：收费方案<a href="https://2fhey.com/" rel="noopener" target="_blank">2FHey</a>至少需要5美元</li>
+</ul>
+<h3>
+<a href="https://github.com/LeeeSe/MessAuto#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95" rel="noopener" target="_blank"></a>使用方法</h3>
+<p>MessAuto 是一个没有 GUI 的菜单栏软件，第一次启动时 MessAuto 会弹窗引导用户授权完全磁盘访问权限；授予权限后重新打开软件可在菜单栏看到 MessAuto 的图标，点击图标列出菜单：</p>
+<ul>
+<li>自动粘贴：MessAuto 将检测到的验证码存储到你的剪贴板中，如果你不想手动粘贴，可以启用此选项，启用选项时 MessAuto 会主动提醒您进行辅助功能授权</li>
+<li>自动回车：自动粘贴的更进一步，只有自动粘贴功能启用，自动回车功能才可以被选中</li>
+<li>暂时隐藏：暂时隐藏图标，应用重启时图标重现，适合不经常重启 Mac 的用户</li>
+<li>永久隐藏：永久隐藏图标，应用重启也不会再显示图标，适合经常重启 Mac 的用户，若需重新显示图标，需要删除&nbsp;<code>~/.config/messauto/messauto.json</code>&nbsp;文件，并重启应用</li>
+<li>登录时启动：不会有控制狂不打开吧</li>
+</ul>
+<p>⚠️注意，ARM64 版本打开时会提示文件损坏，因其需要 Apple 开发者签名才可以正常启动，作者没有 Apple 开发者证书，不过你仍然可以通过一条命令解决问题：</p>
+<ul>
+<li>移动 MessAuto.app 到&nbsp;<code>/Applications</code>&nbsp;文件夹下</li>
+<li>终端执行 <code>xattr -cr /Applications/MessAuto.app</code>
+</li>
+</ul>
+<h3>
+<a href="https://github.com/LeeeSe/MessAuto#%E5%BC%80%E5%8F%91%E5%88%9D%E8%A1%B7" rel="noopener" target="_blank"></a>开发初衷</h3>
+<p>macOS 平台可以方便地接收来自 iPhone 的短信，无需每次打开手机查看验证码。Safari 浏览器更是可以直接自动获取到验证码并显示在输入框内，然而这个好用的功能却仅仅停留在了 Safari 浏览器上，但并不是每个人都喜欢使用它。为了把这个功能带到所有APP上，我开发了这款软件。</p>
+<h3>
+<a href="https://github.com/LeeeSe/MessAuto#%E8%A6%81%E6%B1%82" rel="noopener" target="_blank"></a>要求</h3>
+<ul>
+<li>使用&nbsp;<strong>macOS系统</strong>&nbsp;（作者是 macOS 13，其他自行测试），并可以接收&nbsp;<strong>iPhone</strong>&nbsp;的短信</li>
+<li>完全磁盘访问权限（为了访问位于&nbsp;<code>～/Library</code>&nbsp;下的&nbsp;<code>Message.app</code>&nbsp;的&nbsp;<code>chat.db</code>&nbsp;文件，以获取最新的短信）</li>
+<li>辅助功能权限（模拟键盘操作，自动粘贴并回车）</li>
+</ul>
+            <p><small>4 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/44105">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 30 May 2023 08:49:34 +0000</pubDate>
+<pubDate>Tue, 30 May 2023 08:49:34 +0000</pubDate>
+</item>
+<item>
+<title>远离macOS venture 保平安</title>
+<link>https://meta.appinn.net/t/topic/42631</link>
+<guid>https://meta.appinn.net/t/topic/42631</guid>
+<content:encoded><![CDATA[
+
+<p>电脑到手系统就是13.2, 用了不到一个月升级到了13.3,自认为是Mac老用户了,啥疑难杂症都见过,也是一直把Mac做主力机,这个13的系统差点让我完全对m1失去好感.</p>
+<p>先说macOS的老bug,连接Wi-Fi无法获取ip地址,这个重启configd进程可以解决,不行就重启,或者创建网络位置或设置固定IP,13的系统居然到13.2.1才把网络位置功能给加回来,这个网络位置功能也是鸡肋,主要就是用来解决网络错误的,还不如可以让每个不同名字的Wi-Fi可以单独设置IP地址,这样就一劳永逸的解决Mac上面的万年bug.</p>
+<p>其次就是扬声器杂音的问题,这个问题好像对m1的电脑情有独钟,纯系统bug,重启电脑或者coreaudiod进程可以临时修复,但是过段时间还是会有,跟Safari有关但不全是他的问题,只开apple music和其他软件也会出现,退出ios转制软件一般会出现很短的尖锐杂音,怀疑可能是混音的bug,就是系统处理多个软件发音时出现的问题.</p>
+<p>再有就是休眠续航,合上盖子一般会一晚掉电20%,这还是不如五年前intel的本子,我知道肯定是bug,如果只有几个软件续航还是正常的,那这样我为什么不关机.</p>
+<p>我从Yosemite一路用过来,big sur之后只把Catalina作为主用系统, 12的系统也用过但是没出现这么多问题(intel),看13这个UI大改我想这是iOS开发团队彻底接手macOS的一次大手术,重装12的系统扬声器杂音和续航问题都正常了,现在用个Mac还得观望看那个版本比较稳,我想得等个两三年才会考虑用新版的系统,这样bug应该修的差不多了,还好我是手提电脑用户,没有这个触控板加成的话,PC还是Windows更加好一点,反正也不用担心续航.</p>
+<p>我很好奇那些自媒体怎么没一个人提这些问题,扬声器杂音这个问题至少存在了三年,m1这个又是一种新的症状,网络那个问题我想应该是无望了,十年就有的问题了,iOS甚至也会出现一样的问题,几个月没关机的话.</p>
+<p>用个mac还得具备一身技能,希望intel的移动端cpu和windows给力点,MacBook这个样子还真不敢随便推荐人用,已经是老用户了这些问题也有办法避免.以我多年的使用经验macOS无非部分功能更加优雅一点,Windows没有哪样做不了,搞跨平台开发的话WSL更加是秒杀虚拟机,直到现在macOS才有一个类似的产品orbstack,过了内测收费还不便宜,Xcode更加不用说了,狗屎中的狗屎ide,问题一张嘴都说不完.</p>
+            <p><small>8 个帖子 - 7 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/42631">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 11 Apr 2023 03:58:49 +0000</pubDate>
+<pubDate>Tue, 11 Apr 2023 03:58:49 +0000</pubDate>
+</item>
+<item>
+<title>macOS 13系统如何在finder底部一直显示路经</title>
+<link>https://meta.appinn.net/t/topic/41810</link>
+<guid>https://meta.appinn.net/t/topic/41810</guid>
+<content:encoded><![CDATA[
+
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/8/182fa0cf107ab526d5a62329a7b671e390c0015e.jpeg" title="Screen Shot 2023-03-19 at 11.39.34 AM"><img alt="Screen Shot 2023-03-19 at 11.39.34 AM" height="107" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/8/182fa0cf107ab526d5a62329a7b671e390c0015e_2_690x107.jpeg" width="690" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/5/e558c471a169289efef886183fcead3d9cbd037a.jpeg" title="Screen Shot 2023-03-19 at 11.43.50 AM"><img alt="Screen Shot 2023-03-19 at 11.43.50 AM" height="96" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/5/e558c471a169289efef886183fcead3d9cbd037a_2_690x96.jpeg" width="690" /></a></div><p></p>
+<p>如图,顶部的路经显示没乱用,无法切换文件夹路经,只有底部的可以,以前的系统可以通过onyx这种软件开启,目前没有找到相应的办法,只能安装option键显示这个路经,我想说苹果的产品经理是不是吃了翔跟小而美学的这些乱七八遭的东西.</p>
+            <p><small>7 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41810">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 19 Mar 2023 03:44:05 +0000</pubDate>
+<pubDate>Sun, 19 Mar 2023 03:44:05 +0000</pubDate>
+</item>
+<item>
+<title>macOS有没有监控某一进程长时间cpu占用超标的?</title>
+<link>https://meta.appinn.net/t/topic/41447</link>
+<guid>https://meta.appinn.net/t/topic/41447</guid>
+<content:encoded><![CDATA[
+
+<p>想找一款软件,可以实现监控macOS上面某个进程cpu占用40%以上持续时间超十分钟的功能,是系统和部分可疑进程,而不是pd这类软件的名字,根据我的经营主要是macOS自生的进程因软件bug触发导致cpu占用过高,我遇到过的就不下十个.</p>
+<p>主要是我的手提电脑经常不关机,用久了就会出现某些进程cpu占用异常的问题,以前用x86,占用高风扇马上表现出来了,用了m1之后即便占用单核100%风扇还是不超过三千转,整体cpu占用不超过四十,所以不细心根本无法察觉.我测试了istatsmenus 的cpu 和温度监控功能, 还是无法达到我的要求.</p>
+<p>其实这个要求实现起来也简单,每隔几分钟top查询cpu占用前二十的进程并保存,如果三个循环下来占用还是很高再接合macOS系统进程黑名单进行报警处理,不知道大家有一样的需求吗?</p>
+<p>如果是自己实现的话,我就去把stackoverflow上面关于macOS cpu占用高的进程都给趴下来做个黑名单,再用脚本去检测就行了.</p>
+            <p><small>4 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41447">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 10 Mar 2023 02:55:09 +0000</pubDate>
+<pubDate>Fri, 10 Mar 2023 02:55:09 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】window-switcher: 类似 MacOS 的窗口切换器</title>
+<link>https://meta.appinn.net/t/topic/41153</link>
+<guid>https://meta.appinn.net/t/topic/41153</guid>
+<content:encoded><![CDATA[
+
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Window Switcher</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>应用平台</h2>
+<p>Windows</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>一句简洁</h2>
+<p>类似 MacOS 的窗口切换器。使用 alt+` 在同一应用程序的不同窗口之间切换。使用 alt+tab 切换打开的应用程序。</p>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>应用特性</h2>
+<ul>
+<li>350k单文件应用，无需安装即可运行。</li>
+<li>支持自定义快捷键。</li>
+<li>支持黑名单应用以避免热键覆盖。</li>
+<li>使用托盘菜单轻松设置启动时运行。</li>
+</ul>
+<h2>
+<a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>官方网站</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/b/a/bad3e5f9ad67c1ddf145107ce7032ac1d7b22563.svg" width="32" />
+
+      <a href="https://github.com/sigoden/window-switcher" rel="noopener nofollow ugc" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/1/7/1787554634ba863055ba755840a07a7726925b20_2_690x345.png" width="690" /></div>
+
+<h3><a href="https://github.com/sigoden/window-switcher" rel="noopener nofollow ugc" target="_blank">GitHub - sigoden/window-switcher: MacOS-like window switcher. Switch between...</a></h3>
+
+  <p>MacOS-like window switcher. Switch between windows of the same app with alt+`. Switch open apps with alt+tab. - GitHub - sigoden/window-switcher: MacOS-like window switcher. Switch between windows ...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/41153">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 01 Mar 2023 03:20:05 +0000</pubDate>
+<pubDate>Wed, 01 Mar 2023 03:20:05 +0000</pubDate>
+</item>
+<item>
+<title>群晖 Active Backup for Business 套件新增 macOS 整机备份功能，目前已支持个人电脑、物理服务器、文件服务器、虚拟机、NAS 备份</title>
+<link>https://meta.appinn.net/t/topic/39432</link>
+<guid>https://meta.appinn.net/t/topic/39432</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/active-backup-for-business-2-5-0-12631/">群晖 Active Backup for Business 套件新增 macOS 整机备份功能，目前已支持个人电脑、物理服务器、文件服务器、虚拟机、NAS 备份 - 小众软件</a><br />
+</small><br /></p><p><strong>Active Backup for Business</strong> 是著名的 NAS 提供商<a href="https://www.appinn.com/tag/%E7%BE%A4%E6%99%96/">群晖</a>自带的免费系统套件，它可以针对个人电脑（Windows、Linux、macOS）进行整机备份，还可以对<strong>物理服务器</strong>、<strong>文件服务器</strong>、<strong>虚拟机</strong>、<strong>NAS</strong> 进行备份，支持多版本、计划任务、增量备份、数据压缩、数据加密等功能。@<a href="https://www.appinn.com/active-backup-for-business-2-5-0-12631/">Appinn</a></p><p></p>
+<p>前几日更新 2.5.0-12631 后，增加了对 macOS 的支持（macOS Catalina 10.15.7 以后），以及对 Windows Server 2022 Hyper-V 的支持，DSM 6/7 均适用。</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/3/d/3db5b2e456bda53a9ad5a10040e42b68fccc236c.jpeg" title="active-backup-for-business.jpg"><img height="300" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/3/d/3db5b2e456bda53a9ad5a10040e42b68fccc236c_2_690x300.jpeg" width="690" /></a></div><p>这并不是一个独占性的解决方案，用户依旧可以通过 macOS 自带的备份工具<strong>时间机器</strong>（TimeMachine）将系统备份至群晖 NAS 之中。</p>
+<h2>Active Backup for Business 2.5.0-12631更新日志</h2>
+<p>在<a href="https://www.synology.cn/zh-cn/releaseNote/ActiveBackup" rel="noopener" target="_blank">更新日志</a>中，Active Backup for Business 新增了以下功能：</p>
+<ol>
+<li>新增支持下列 macOS 版本：
+<ul>
+<li>macOS Catalina 10.15.7</li>
+<li>macOS Big Sur 11</li>
+<li>macOS Monterey 12</li>
+<li>macOS Ventura 13</li>
+</ul>
+</li>
+<li>新增支持 Windows Server 2022 Hyper-V。</li>
+<li>新增支持自动发现新虚拟机，并将其加入备份任务。</li>
+<li>新增支持 Linux 核心 5.15 与以下版本：
+<ul>
+<li>Ubuntu: 22.04</li>
+</ul>
+</li>
+</ol>
+<p>所有功能针对 DSM 7 与 DSM 6，老版本的 DSM 也可以使用，还是非常不错的。</p>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/e/7/e77d54f3277b4d83d3cc3c10cbfa063985ecabc2.jpeg" title="screen-appinn2023-01-06-13-31-08.jpg"><img height="500" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/e/7/e77d54f3277b4d83d3cc3c10cbfa063985ecabc2_2_622x500.jpeg" width="622" /></a></div><p>Active Backup for Business 针对不同设备有着不同的要求，比如个人计算机，需要在电脑中安装一个代理程序，就可以随时开启备份任务了：</p>
+
+<table>
+<tbody>
+<tr>
+<th></th>
+<th>个人计算机</th>
+<th>物理服务器</th>
+<th>文件服务器</th>
+<th>虚拟机</th>
+</tr>
+<tr>
+<th>支持的备份来源</th>
+<td>整台设备系统存储空间自定义存储空间</td>
+<td>整台设备系统存储空间自定义存储空间</td>
+<td>文件和/或文件夹</td>
+<td>整台设备</td>
+</tr>
+<tr>
+<th>支持的平台/协议</th>
+<td>Windows、Linux、macOS</td>
+<td>Windows Linux</td>
+<td>rsyncSMB</td>
+<td>VMware vSphereMicrosoft Hyper-V</td>
+</tr>
+<tr>
+<th>备份来源安装代理程序</th>
+<td>必需</td>
+<td>必需</td>
+<td>不需要</td>
+<td>不需要</td>
+</tr>
+</tbody>
+</table>
+
+<p>具体功能（<a href="https://kb.synology.cn/zh-cn/DSM/tutorial/What_are_the_differences_of_each_device_type_in_Active_Backup_for_Business#xcDKgdvl44" rel="noopener" target="_blank">表格来源</a>）：</p>
+<h3>备份</h3>
+
+<table>
+<tbody>
+<tr>
+<th></th>
+<th>个人计算机</th>
+<th>物理服务器</th>
+<th>文件服务器</th>
+<th>虚拟机</th>
+</tr>
+<tr>
+<th>备份版本</th>
+<td>多版本</td>
+<td>多版本</td>
+<td>多版本镜像增量</td>
+<td>多版本</td>
+</tr>
+<tr>
+<th>备份计划</th>
+<td>手动以时间为单位事件触发</td>
+<td>手动以时间为单位</td>
+<td>手动以时间为单位</td>
+<td>手动以时间为单位</td>
+</tr>
+<tr>
+<th>备份窗口</th>
+<td>是</td>
+<td>是</td>
+<td>否</td>
+<td>是</td>
+</tr>
+<tr>
+<th>应用程序感知备份</th>
+<td>否</td>
+<td>是</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<th>重复数据删除</th>
+<td>全局重复数据删除</td>
+<td>全局重复数据删除</td>
+<td>SMB：块级重复数据删除rsync：不支持</td>
+<td>全局重复数据删除</td>
+</tr>
+<tr>
+<th>增量备份</th>
+<td>是</td>
+<td>是</td>
+<td>SMB：不支持rsync：块级增量备份</td>
+<td>是</td>
+</tr>
+<tr>
+<th>数据传输压缩</th>
+<td>是</td>
+<td>是</td>
+<td>SMB：否rsync：是</td>
+<td>是</td>
+</tr>
+<tr>
+<th>数据传输加密</th>
+<td>是</td>
+<td>是</td>
+<td>SMB：否rsync：是</td>
+<td>是</td>
+</tr>
+<tr>
+<th>备份目的地加密</th>
+<td>是</td>
+<td>是</td>
+<td>备份到加密共享文件夹</td>
+<td>是</td>
+</tr>
+<tr>
+<th>备份验证</th>
+<td>否</td>
+<td>是</td>
+<td>否</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
+
+<h3>还原</h3>
+
+<table>
+<tbody>
+<tr>
+<th></th>
+<th>个人计算机</th>
+<th>物理服务器</th>
+<th>文件服务器</th>
+<th>虚拟机</th>
+</tr>
+<tr>
+<th>整台设备</th>
+<td>是</td>
+<td>是</td>
+<td>否</td>
+<td>是</td>
+</tr>
+<tr>
+<th>存储空间</th>
+<td>是</td>
+<td>是</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<th>文件/文件夹</th>
+<td>是</td>
+<td>是</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<th>即时还原到 Microsoft Hyper-V/VMware vSphere</th>
+<td>否</td>
+<td>是</td>
+<td>否</td>
+<td>是</td>
+</tr>
+<tr>
+<th>即时还原到 Synology Virtual Machine Manager</th>
+<td>否</td>
+<td>是</td>
+<td>否</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
+
+<p>相对于系统备份，使用 Active Backup for Business 的最大优势在于「管理员可以通过集中化管理控制台单独部署所需保护」。</p>
+<p>即远程控制一切，比如家里有好多台电脑，你的、父母的、孩子的，甚至办公室的，只需要通过 Active Backup for Business 就能在一处管理所有备份与恢复了，非常方便。</p>
+<h2>获取</h2>
+<p>目前已经可以在 DSM 的<strong>套件中心</strong>自动更新 Active Backup for Business 套件，而不同操作系统所需的代理程序 Active Backup Business Agent 也会在添加个人计算机设备的时候出现下载链接，当然也有一个群晖官网提供的<a href="https://archive.synology.cn/download/Utility/ActiveBackupBusinessAgent/2.5.0-2631" rel="noopener" target="_blank">下载页面链接</a>。</p>
+<hr />
+<p>原文：https://www.appinn.com/active-backup-for-business-2-5-0-12631/</p>
+<h3>另外，暂不支持排除文件</h3>
+<p>Active Backup for Business 不支持排除指定文件、文件夹功能，计算机，物理服务器和虚拟机备份任务当前仅支持备份整个设备。</p>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39432">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 06 Jan 2023 06:23:32 +0000</pubDate>
+<pubDate>Fri, 06 Jan 2023 06:23:32 +0000</pubDate>
+</item>
+<item>
+<title>【实用工具】用快捷键搜索“剪切板内容”（支持win和macos）</title>
+<link>https://meta.appinn.net/t/topic/38852</link>
+<guid>https://meta.appinn.net/t/topic/38852</guid>
+<content:encoded><![CDATA[
+
+<p>ahk(windows):</p>
+<pre><code class="lang-auto">#1::
+  clipboard = %clipboard%
+  Run, https://www.baidu.com/s?wd=%clipboard%
+  return
+#2::
+  clipboard = %clipboard%
+  Run, https://www.google.com/search?q=%clipboard%
+  return
+</code></pre>
+<p>hammerspoon（macos）</p>
+<pre><code class="lang-auto">local function urlEncode(s)
+    s = string.gsub(s, "([^%w%.%- ])", function(c) return string.format("%%%02X", string.byte(c)) end)
+    return string.gsub(s, " ", "+")
+  end
+   
+   
+local function urlDecode(s)
+s = string.gsub(s, '%%(%x%x)', function(h) return string.char(tonumber(h, 16)) end)
+return s
+end
+
+
+hs.hotkey.bind({"cmd"}, "1", function() 
+    local clipboardText = tostring(hs.pasteboard.getContents())
+    -- print("what is in the clipboard?:a"..clipboardText)
+    hs.urlevent.openURL("https://www.baidu.com/s?wd="..urlEncode(clipboardText)) 
+end)
+
+hs.hotkey.bind({"cmd"}, "2", function() 
+    local clipboardText = tostring(hs.pasteboard.getContents())
+    hs.urlevent.openURL("https://www.google.com/search?q="..urlEncode(clipboardText)) 
+end)
+</code></pre>
+            <p><small>2 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/38852">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 12 Dec 2022 01:43:15 +0000</pubDate>
+<pubDate>Mon, 12 Dec 2022 01:43:15 +0000</pubDate>
+</item>
 
 <item>
 <title>Macos 的 tag 怎么没了</title>
