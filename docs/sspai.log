@@ -27236,3 +27236,16 @@ Existing_entries: 970
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-10 10:03:47.802717
+------------------------------------------------------
+Started: 2024-07-10 12:05:14.370461
+Existing_entries: 970
+Fetching from https://rsshub.app/sspai/index
+Token length: 3515
+Summarized using GPT-3.5-turbo
+Append: [「自力更生」征文收官，来听听少数派们的自托管经验谈](https://sspai.com/post/90350)
+Token length: 3060
+Summarized using GPT-3.5-turbo
+Append: [周末去哪玩：我们收集了这些不同城市的「度假」方式](https://sspai.com/post/90103)
+Append: [「动真格」无需大动作，小处着手保护 iPhone 隐私](https://sspai.com/post/79967)
+append_entries: 3
+Finish: 2024-07-10 12:05:23.102961
