@@ -27321,3 +27321,15 @@ Existing_entries: 975
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-11 10:03:30.667099
+------------------------------------------------------
+Started: 2024-07-11 12:05:01.605547
+Existing_entries: 975
+Fetching from https://rsshub.app/sspai/index
+Token length: 4831
+Summarized using GPT-3.5-turbo
+Append: [新玩意 187｜少数派的编辑们最近买了啥？](https://sspai.com/post/90396)
+Token length: 3855
+Summarized using GPT-3.5-turbo
+Append: [Halide 团队全新力作，专业视频更轻松拍：Kino](https://sspai.com/post/90314)
+append_entries: 2
+Finish: 2024-07-11 12:05:12.325819
