@@ -27420,3 +27420,15 @@ Existing_entries: 980
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-12 14:03:48.104182
+------------------------------------------------------
+Started: 2024-07-12 16:04:05.474749
+Existing_entries: 980
+Fetching from https://rsshub.app/sspai/index
+Token length: 7901
+Summarized using GPT-3.5-turbo
+Append: [本周看什么 | 最近值得一看的 10 部作品](https://sspai.com/post/90439)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [善用 watchOS 新功能，让 Apple Watch 离专业跑步手表更近一步](https://sspai.com/post/90334)
+append_entries: 2
+Finish: 2024-07-12 16:04:16.776837
