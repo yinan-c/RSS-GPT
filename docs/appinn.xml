@@ -4,6 +4,34 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>探索一种长期可靠的笔记方案</title>
+<link>https://meta.appinn.net/t/topic/58684</link>
+<guid>https://meta.appinn.net/t/topic/58684</guid>
+<content:encoded><![CDATA[
+
+<p>作为笔记的重度使用者，最多的时候同时在用7、8个笔记软件：oneNote、语雀、幕布、notebility、flomo、mWeb、印象…</p>
+<p>久而久之，自己都找不到哪篇笔记在哪个软件里了，于是有了“all in one”的想法。</p>
+<p>尝试了多种方案后，决定在PC端用typora+git最简单直接。</p>
+<p>笔记直接用typora写，markdown能满足排版需求，笔记文件直接放到本地git仓库里，定期同步到远程仓库，其他电脑下个git直接clone远程仓库，就能在PC间同步笔记文件了。</p>
+<p>手机同步笔记文件用<a href="https://meta.appinn.net/t/topic/54123">note commander</a>直接把远程仓库clone下来，然后就能编辑笔记了。</p>
+<p>由于note commander目前只有安卓端，如果是向ios环境同步笔记的话，可以考虑用Mgit克隆远程仓库，然后用obsidian编辑笔记。</p>
+<p>typora+git+note commander方案的好处就是笔记是离线的，不需要编辑笔记前不需要再登录各种账号。</p>
+<p>不方便的地方在于同步笔记，需要定期把本地笔记推到远程仓库，但是各种git仓库托管服务（coding、gitee、github…）都是免费的并且流量不受限，而且推送文件也就两行指令（commit和push），所以还能接受。</p>
+<p>新的笔记用typora+git+note commander的方案，旧笔记也都导出为md文件并同步到远程仓库里，这样所有笔记都可以在一个仓库里进行管理，方便查找和编辑，“all in one”完成。</p>
+<p>总结一下这个方案的特点：</p>
+<ol>
+<li>整个方案算是基于git管理笔记，所以可以把笔记当作项目一样管理，可操作性非常高。</li>
+<li>笔记文件是离线存储的，所以不用担心服务器、网络等原因对编写笔记造成影响。</li>
+<li>分布存储笔记文件，多端备份，保证笔记文件的完整性。</li>
+<li>markdown语法提供了良好的的兼容性，既能保证排版样式又能降低笔记文件的迁移成本。</li>
+</ol>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58684">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 13 Jul 2024 06:39:26 +0000</pubDate>
+<pubDate>Sat, 13 Jul 2024 06:39:26 +0000</pubDate>
+</item>
 
 <item>
 <title>PixelPic - 像素化/像素风格/像素画/像素艺术</title>
