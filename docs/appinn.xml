@@ -5,11 +5,41 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>uBlock Origin的临时移除元素模式有没连续操作的快捷键？</title>
+<link>https://meta.appinn.net/t/topic/58689</link>
+<guid>https://meta.appinn.net/t/topic/58689</guid>
+<content:encoded><![CDATA[
+
+<p>起因是这个问题：</p><aside class="quote">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" class="avatar" height="24" src="https://meta-cdn1.appinn.com/letter_avatar_proxy/v4/letter/a/22d042/48.png" width="24" />
+    <a href="https://meta.appinn.net/t/topic/58673">如何编辑知乎的帖子以收藏</a> <a class="badge-category__wrapper " href="https://meta.appinn.net/c/wen-ti-qiu-zhu/7"><span class="badge-category " title="在这里你可以提出任何问题，并标记你认为正确的答案。"><span class="badge-category__name">问题求助❓</span></span></a>
+  </div>
+  <blockquote>
+    想要收藏知乎的帖子，准备用F12删除多于的元素后用SingleFile保存。 
+但是总是编辑了一半知乎就自动跳转页面，显示： 
+
+出了一点问题 
+我们正在解决 
+
+请问有什么办法禁止其跳转吗？要去分析起作用的脚本？
+  </blockquote>
+</aside>
+<p>
+后来想起了uBlock Origin扩展有临时移除元素模式，如果能够连续点击，那就可以当作移除元素的扩展使用了，请问这个扩展支持吗？</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58689">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 13 Jul 2024 08:57:09 +0000</pubDate>
+<pubDate>Sat, 13 Jul 2024 08:57:09 +0000</pubDate>
+</item>
+
+<item>
 <title>探索一种长期可靠的笔记方案</title>
 <link>https://meta.appinn.net/t/topic/58684</link>
 <guid>https://meta.appinn.net/t/topic/58684</guid>
 <content:encoded><![CDATA[
-
 <p>作为笔记的重度使用者，最多的时候同时在用7、8个笔记软件：oneNote、语雀、幕布、notebility、flomo、mWeb、印象…</p>
 <p>久而久之，自己都找不到哪篇笔记在哪个软件里了，于是有了“all in one”的想法。</p>
 <p>尝试了多种方案后，决定在PC端用typora+git最简单直接。</p>
@@ -30,9 +60,7 @@
             <p><a href="https://meta.appinn.net/t/topic/58684">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 13 Jul 2024 06:39:26 +0000</pubDate>
-<pubDate>Sat, 13 Jul 2024 06:39:26 +0000</pubDate>
 </item>
-
 <item>
 <title>PixelPic - 像素化/像素风格/像素画/像素艺术</title>
 <link>https://meta.appinn.net/t/topic/58666</link>
