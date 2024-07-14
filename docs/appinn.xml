@@ -4,6 +4,57 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>2024 年了，依然没有一个好用的跨平台虚拟组网方案</title>
+<link>https://meta.appinn.net/t/topic/58709</link>
+<guid>https://meta.appinn.net/t/topic/58709</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p>注：由于「V.P.N.」为敏感词汇，本文中用「虚拟局域网」代称，和 VLAN 技术无关。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1-1" name="h-1-1"></a>1. 背景</h2>
+<p>和朋友联机玩《博德之门 3》。因为不在同一城市，大家又不都是在 Steam 上购买的，决定用虚拟局域网联机。</p>
+<p>我是 Linux，一个朋友是 macOS（ARM 版），另一个朋友是 Windows。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2-2" name="h-2-2"></a>2. 问题</h2>
+<p>之前我和用 Windows 的朋友组网的方案是 <a href="https://github.com/ntop/n2n">n2n</a>，完全靠国内服务器中转，非常稳定。</p>
+<p>但是用 macOS 的朋友来了之后，研究了一番表示：</p>
+<blockquote>
+<p>n2n 官方没有打包 macOS 版，必须自己编译，而且<a href="https://github.com/ntop/n2n/blob/dev/doc/Building.md">文档</a>里也说「请注意，在最新的 Apple Silicon 上，操作系统中的安全限制可能会越来越多，导致难以安装 TUN/TAP 内核扩展。」<sup class="footnote-ref"><a href="https://meta.appinn.net#footnote-214569-1" id="footnote-ref-214569-1">[1]</a></sup> <strong>这种调用 UNIX 接口创建路由、而不使用苹果的 API 的虚拟局域网工具，都会把网络弄乱。</strong></p>
+</blockquote>
+<p>同理，ZeroTier、OpenVPN、Tinc、TetherVPN 等一众软件也都是绕过苹果限制创建的虚拟网络，会把这个朋友现有的网络配置弄乱，所以没办法用。</p>
+<p>那么 macOS 具体支持哪些虚拟网络协议呢？<a href="https://support.apple.com/zh-cn/guide/mac-help/-mchlp2963/mac">官方文档</a>提到三种：</p>
+<ol>
+<li>L2TP over IPSec</li>
+<li>IPSec</li>
+<li>IKEv2</li>
+<li>另外，App Store 里的 Tailscale 也使用 macOS 接口</li>
+<li>也可以用 ARM macOS 的功能运行 iOS 版的各虚拟网络 App</li>
+</ol>
+<p>然而众所周知，《博德之门 3》之类的游戏<strong>只支持用局域网广播搜索局域网房间，而不能输入同伴 IP。然而广播是 Layer 2（链路层）虚拟网络才支持的</strong>。</p>
+<ul>
+<li>(4) Tailscale 基于 WireGuard，因此<a href="https://www.reddit.com/r/WireGuard/comments/fpypgp/using_wireguard_for_lan_games/">是 Layer 3（网络层）虚拟网络</a>，直接 Pass。(2) <a href="https://www.cloudflare.com/zh-cn/learning/network-layer/ipsec-vs-ssl-vpn/">IPSec 同理</a> Pass；</li>
+<li>(5) OpenVPN 和 n2n 的 iOS App 运行起来后创建的也是 Layer 3 虚拟网络，Pass；</li>
+</ul>
+<p>这样可行的选项只剩下 L2TP over IPSec 和 IKEv2（又名 IKEv2 over IPSec）了。</p>
+<p><strong>但是还没完。</strong> Linux 上唯一的 L2TP 客户端兼服务端 <a href="https://github.com/xelerance/xl2tpd">xl2tpd</a> 问题非常非常多，我折腾了三天都落在不同的 issues 上：<strong>不仅连接不上，还看不到任何有用的报错，非常让人恼火</strong>，另外原仓库作者也失踪两年多了。所以，L2TP over IPSec 也 Pass 了。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3-3" name="h-3-3"></a>3. 目前情况</h2>
+<p>所以唯一剩下的方案就是 IKEv2 over IPSec 了，恰好这也是 Android 目前唯一原生支持的虚拟局域网协议。</p>
+<p>但是因为比较新、由商业公司（微软等）开发，网上有用的文档也很少。</p>
+<p>另外 <a href="https://wiki.strongswan.org/issues/831">IKEv2 over IPSec 本身也不支持广播/组播</a>，还要依靠 <a href="https://docs.strongswan.org/docs/5.9/plugins/forecast.html">StrongSwan 的插件</a>，目前在研究如何搭建服务器中……</p>
+<p>折腾了几天，不禁感叹标题的内容：<strong>2024 年了，居然还拿不出一个简单易行的跨平台虚拟组网方案啊……</strong></p>
+<hr class="footnotes-sep" />
+
+<ol class="footnotes-list">
+<li class="footnote-item" id="footnote-214569-1"><p>Note that on the newest MacOS versions and on Apple Silicon, there may be increasing security restrictions in the OS that make installing the TUN/TAP kernel extension difficult. <a class="footnote-backref" href="https://meta.appinn.net#footnote-ref-214569-1">↩︎</a></p>
+</li>
+</ol>
+            <p><small>4 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/58709">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 14 Jul 2024 03:43:26 +0000</pubDate>
+<pubDate>Sun, 14 Jul 2024 03:43:26 +0000</pubDate>
+</item>
 
 <item>
 <title>uBlock Origin的临时移除元素模式有没连续操作的快捷键？</title>
