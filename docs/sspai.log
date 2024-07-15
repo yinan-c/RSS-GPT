@@ -27603,3 +27603,12 @@ Existing_entries: 983
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-15 00:13:00.129375
+------------------------------------------------------
+Started: 2024-07-15 02:19:03.039930
+Existing_entries: 983
+Fetching from https://rsshub.app/sspai/index
+Token length: 3168
+Summarized using GPT-3.5-turbo
+Append: [派早报：欧盟 AI 法案发布最终文本，八月生效](https://sspai.com/post/90474)
+append_entries: 1
+Finish: 2024-07-15 02:19:06.850713
