@@ -27627,3 +27627,12 @@ Summarized using GPT-3.5-turbo
 Append: [读了等于没读？可能是读书笔记的方法错了](https://sspai.com/post/89269)
 append_entries: 1
 Finish: 2024-07-15 06:04:29.827725
+------------------------------------------------------
+Started: 2024-07-15 08:04:27.531692
+Existing_entries: 985
+Fetching from https://rsshub.app/sspai/index
+Token length: 12930
+Summarized using GPT-3.5-turbo
+Append: [终于可以在 Linux 下愉快打印了：Linux 发行版配置打印机攻略](https://sspai.com/post/90194)
+append_entries: 1
+Finish: 2024-07-15 08:04:32.986709
