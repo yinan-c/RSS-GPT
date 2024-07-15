@@ -27618,3 +27618,12 @@ Existing_entries: 984
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-15 04:03:52.330543
+------------------------------------------------------
+Started: 2024-07-15 06:04:23.339403
+Existing_entries: 984
+Fetching from https://rsshub.app/sspai/index
+Token length: 4182
+Summarized using GPT-3.5-turbo
+Append: [读了等于没读？可能是读书笔记的方法错了](https://sspai.com/post/89269)
+append_entries: 1
+Finish: 2024-07-15 06:04:29.827725
