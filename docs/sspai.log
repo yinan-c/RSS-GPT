@@ -27693,3 +27693,12 @@ Existing_entries: 987
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-16 02:17:24.520556
+------------------------------------------------------
+Started: 2024-07-16 04:04:57.589866
+Existing_entries: 987
+Fetching from https://rsshub.app/sspai/index
+Token length: 1663
+Summarized using GPT-3.5-turbo
+Append: [派早报：Google 终止 Android 5.X 的 Google Play 服务支持等](https://sspai.com/post/90502)
+append_entries: 1
+Finish: 2024-07-16 04:05:00.898441
