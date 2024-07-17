@@ -27780,3 +27780,12 @@ Existing_entries: 992
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-17 02:17:07.352602
+------------------------------------------------------
+Started: 2024-07-17 04:03:50.131149
+Existing_entries: 992
+Fetching from https://rsshub.app/sspai/index
+Token length: 1232
+Summarized using GPT-3.5-turbo
+Append: [派早报：魅族发布魅蓝 20 AI 手机、Claude 推出 Android 版应用等](https://sspai.com/post/90536)
+append_entries: 1
+Finish: 2024-07-17 04:03:55.581633
