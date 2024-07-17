@@ -27822,3 +27822,12 @@ Existing_entries: 996
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-17 12:05:18.480563
+------------------------------------------------------
+Started: 2024-07-17 14:03:42.438819
+Existing_entries: 996
+Fetching from https://rsshub.app/sspai/index
+Token length: 4408
+Summarized using GPT-3.5-turbo
+Append: [App+1 | PhotoGIMP：让开源的 GIMP「变身」Photoshop](https://sspai.com/post/90413)
+append_entries: 1
+Finish: 2024-07-17 14:03:46.339405
