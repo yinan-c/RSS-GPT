@@ -4,6 +4,68 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marked 2.6.39 with Streaming Preview fixes</title>
+<link>https://brett.trpstra.net/link/535/16747444/marked-2-dot-6-39-with-streaming-preview-fixes</link>
+<guid>https://brett.trpstra.net/link/535/16747444/marked-2-dot-6-39-with-streaming-preview-fixes</guid>
+<content:encoded><![CDATA[
+<div> processor, custom, update, Conductor, bugfixes
+<br>
+自动升级功能已更新，解决了Streaming Preview的问题，同时优化了Preferences窗口。新增了关于Custom Processor的功能，现在可以选择使用MultiMarkdown或Discount处理器。同时，还可以通过metadata设置每个文档的处理器。更新现已发布，Conductor用户务必更新至最新版本以获得重要的bug修复。支持Brett Terpstra的开发工作，可以通过捐赠或购买书籍来支持。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Marked 2 Icon" class="alignright" height="350" src="https://cdn3.brettterpstra.com/uploads/2021/04/marked2icon.png" title="Marked 2 Icon" width="350" />
+              </noscript>
+            
+<p>There&rsquo;s a new version of <a href="https://marked2app.com/" title="Smarter tools for smarter writers">Marked 2</a> out (available on all channels) that adds some important fixes and a couple of new features.</p>
+
+<h3 id="streaming-preview">Streaming Preview</h3>
+
+<p>First off, I fixed the Streaming Preview for everybody. Every time I fixed it to work with The Archive, I broke it for Drafts, and so on. I&rsquo;m certain I&rsquo;ve solve the problem for both use cases now. I could be proven wrong, but extensive testing and confirmation from bug testers has me pretty sure. So now you can use the streaming feature of apps like The Archive and Drafts without issue.</p>
+
+<p>I also did some cleanup of the Preferences window while I was in there, but that&rsquo;s purely aesthetic. Someday (probably sooner than later) I&rsquo;ll revamp the whole preference system to use a sidebar for the pane selection like System Settings does on macOS these days.</p>
+
+<h3 id="custom-internal-processors">Custom (Internal) Processors</h3>
+
+<p>The new features I added are around custom processors, kind of. Previously, you could have any processor return just the string &ldquo;NOCUSTOM&rdquo; to skip using the custom processor and resort to using the default internal processor, either MultiMarkdown v5 or Discount (GFM). Now you can also return &ldquo;MULTIMARKDOWN&rdquo; (or MMD) or &ldquo;DISCOUNT&rdquo; (or GFM) to specify exactly which internal processor to use.</p>
+
+<p>The change makes it easy to develop custom processors that can still have different rendering without having to do any of the rendering using command line tools. It also makes it to handle processing using <a href="https://brettterpstra.com/2024/04/25/introducing-the-marked-conductor/" title="Introducing the Marked Conductor">Conductor</a> by simply using <code class="language-plaintext highlighter-rouge">command: echo MMD</code> in a track.</p>
+
+<p>In addition to the Custom Processor return strings, you can also use metadata:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>Custom Processor: MultiMarkdown</code></pre></div></div>
+
+<p>Or just:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>processor: gfm</code></pre></div></div>
+
+<p>This allows per-document settings. In Conductor, you can create a preprocessor track that uses the <code class="language-plaintext highlighter-rouge">addMeta</code> filter:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>- condition: phase is pre
+  tracks:
+    - condition: file name is README.md
+      filter: addMeta(processor, gfm)</code></pre></div></div>
+
+<p>Or implement it in any way that works for you, even manually or as part of a TextExpander/Blaze snippet.</p>
+
+<p>The update is available now, so go get it! &ldquo;Check for Updates&rdquo; in the direct version, and Setapp and the Mac App Store should update you automatically. Look for version 2.6.39 or newer.</p>
+
+<p>If you&rsquo;ve been using <a href="https://marked2app.com/" title="Smarter tools for smarter writers">Marked 2</a> for years, you may have noticed you&rsquo;ve never had to pay an upgrade fee for new features. Someday I&rsquo;ll put out a v3 and bill for it, or (heaven forbid) switch to subscriptions, but for now if you want to support development, feel free to <a href="https://brettterpstra.com//donate">donate</a> or, better yet, <a href="https://brettterpstra.com//support">become a supporter</a>!</p>
+
+<p>By the way, if you&rsquo;re using Conductor make sure you have the latest version (1.0.24 as of this writing), there have been some important bugfixes in the last few days.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F07%2F18%2Fmarked-2-dot-6-39-with-streaming-preview-fixes%2F&amp;text=Marked+2.6.39+with+Streaming+Preview+fixes&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F07%2F18%2Fmarked-2-dot-6-39-with-streaming-preview-fixes%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16747444.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-07-18T11:45:00-05:00</pubDate>
+<pubDate>2024-07-18T11:45:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Obsidian Callouts in Marked</title>
