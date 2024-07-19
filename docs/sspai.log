@@ -27954,3 +27954,15 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-19 04:03:53.211814
+------------------------------------------------------
+Started: 2024-07-19 06:04:25.770361
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 3142
+Summarized using GPT-3.5-turbo
+Append: [四条线路，带你成为上海书店游民](https://sspai.com/post/90123)
+Token length: 3017
+Summarized using GPT-3.5-turbo
+Append: [派早报：美光推出英睿达 P310 固态硬盘、英伟达宣布全面转向开源……](https://sspai.com/post/90603)
+append_entries: 2
+Finish: 2024-07-19 06:04:34.590916
