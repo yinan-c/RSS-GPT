@@ -4,13 +4,14 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Marked 2.6.39 with Streaming Preview fixes</title>
 <link>https://brett.trpstra.net/link/535/16747444/marked-2-dot-6-39-with-streaming-preview-fixes</link>
 <guid>https://brett.trpstra.net/link/535/16747444/marked-2-dot-6-39-with-streaming-preview-fixes</guid>
 <content:encoded><![CDATA[
 <div> processor, custom, update, Conductor, bugfixes
-<br>
+<br />
 自动升级功能已更新，解决了Streaming Preview的问题，同时优化了Preferences窗口。新增了关于Custom Processor的功能，现在可以选择使用MultiMarkdown或Discount处理器。同时，还可以通过metadata设置每个文档的处理器。更新现已发布，Conductor用户务必更新至最新版本以获得重要的bug修复。支持Brett Terpstra的开发工作，可以通过捐赠或购买书籍来支持。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
@@ -64,9 +65,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16747444.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-07-18T11:45:00-05:00</pubDate>
-<pubDate>2024-07-18T11:45:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Obsidian Callouts in Marked</title>
 <link>https://brett.trpstra.net/link/535/16727652/obsidian-callouts-in-marked</link>
