@@ -269,10 +269,10 @@ def output(sec, language):
             elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
                 try:
-                    entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo", language=language)
+                    entry.summary = gpt_summary(cleaned_article,model="gpt-4o-mini", language=language)
                     with open(log_file, 'a') as f:
                         f.write(f"Token length: {token_length}\n")
-                        f.write(f"Summarized using GPT-3.5-turbo\n")
+                        f.write(f"Summarized using gpt-4o-mini\n")
                 except:
                     try:
                         entry.summary = gpt_summary(cleaned_article,model="gpt-4-turbo-preview", language=language)
