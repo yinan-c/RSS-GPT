@@ -4,6 +4,55 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】Logoer: 无痛替换macOS左上角默认苹果Logo, 个性化你的Mac</title>
+<link>https://meta.appinn.net/t/topic/59098</link>
+<guid>https://meta.appinn.net/t/topic/59098</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
+<p>Logoer</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>官网&amp;下载</h2>
+<p>官方网站: <strong><a href="https://github.com/lihaoyun6/Logoer/blob/main/README_zh.md" rel="noopener nofollow ugc">Logoer</a></strong><br />
+下载地址: <strong><a href="https://github.com/lihaoyun6/Logoer/releases/latest" rel="noopener nofollow ugc">点此前往</a></strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>一句话简介</h2>
+<p>无痛替换 macOS 左上角默认的苹果 Logo, 让你的 Mac 与众不同</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>软件特色</h2>
+<ol>
+<li>
+<p>使用 SwiftUI 编写, 体积小巧, App 完全处于沙盒模式</p>
+</li>
+<li>
+<p>无需特殊权限, 无需关闭 SIP 保护, 无需修改系统文件</p>
+</li>
+<li>
+<p>内置多种预设 Logo 样式, 还可以导入自定义图标</p>
+</li>
+<li>
+<p>完全免费开源, 代码透明, 不收集上传任何用户隐私</p>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>使用注意</h2>
+<ul>
+<li>Logoer 启动后不会显示任何窗口, 只会替换掉屏幕左上角的苹果 logo. 如需打开设置窗口, 请在 Logoer 正在运行的情况下再次从访达中启动它.</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#v016-20240722-6" name="v016-20240722-6"></a>v0.1.6 更新日志 (2024/07/22)</h2>
+<ul>
+<li>修复了与 macOS 15 的兼容性</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>软件截图</h2>
+<p><img alt="Preview" height="349" src="https://h1.appinn.net/file/e5536c18ec56bec03268d.png" width="690" /><br />
+<img alt="Preview" height="500" src="https://h1.appinn.net/file/dd1b3da358ac9d872bd23.png" width="679" /></p>
+<blockquote>
+<p>本软件完全开源免费使用. 如果用的顺手, 可以在github页面最底部扫码打赏.<br />
+您的支持是我创造更多开源软件的动力0v0</p>
+</blockquote>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59098">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 22 Jul 2024 10:27:53 +0000</pubDate>
+<pubDate>Mon, 22 Jul 2024 10:27:53 +0000</pubDate>
+</item>
 
 <item>
 <title>展示一下搜索酱的 AI 功能【Chrome/Firefox】</title>
