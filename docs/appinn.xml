@@ -4,6 +4,96 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>展示一下搜索酱的 AI 功能【Chrome/Firefox】</title>
+<link>https://meta.appinn.net/t/topic/59080</link>
+<guid>https://meta.appinn.net/t/topic/59080</guid>
+<content:encoded><![CDATA[
+
+<ul>
+<li>
+<p>基于 openai api 的网页总结<br />
+<img alt="" height="310" src="https://h1.appinn.net/file/4eb3da358cb71757f9589.gif" width="690" /></p>
+</li>
+<li>
+<p>基于 gemini api 的划词翻译<br />
+<img alt="" height="291" src="https://h1.appinn.net/file/94d97e78ba82ef00904f2.gif" width="690" /></p>
+</li>
+</ul>
+<p>gemini api 目前免费额度大约是每分钟 3.2W TPM，每天 1500 次请求，自用是足够了。<br />
+openai api 我是白嫖了 linuxdo 上一个大善人分享的免费资源，这是我的<a href="https://api.7xnn.cn/register?aff=6yq5" rel="noopener nofollow ugc">邀请链接</a>，注册有5刀余额，需要的可以自取</p>
+<p>因为是基于 showTips 自定义规则的，所以 api 接口，prompt，返回样式等都可以自己修改。</p>
+<p>看到 ico 兄感叹 firefox ai 扩展少，故发此贴 <img alt=":joy:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/joy.png?v=12" title=":joy:" width="20" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59080">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 22 Jul 2024 04:53:43 +0000</pubDate>
+<pubDate>Mon, 22 Jul 2024 04:53:43 +0000</pubDate>
+</item>
+<item>
+<title>【iOS】提醒英雄，把重要事项牢牢钉在你的锁屏界面，彻底解决你的遗忘问题!</title>
+<link>https://meta.appinn.net/t/topic/59083</link>
+<guid>https://meta.appinn.net/t/topic/59083</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="img" height="388" src="https://h1.appinn.net/file/2f8cf387cbb38d4f4897c.png" width="690" /></p>
+<p>提醒英雄是一个高颜值，交互简洁的提醒和待办 App</p>
+<p>开发这个应用是为了解决自己经常忘记取快递，忘记洗衣服这类问题。之前也用过滴答清单这类提醒 App，感觉效果都不是很好。</p>
+<p>这类生活琐事一般不确定什么时候去做，很难设置一个精确的任务提醒时间，然后持续提醒之类的功能基本都是付费的，滴答清单的话是 168 元/年 的订阅费用，为了这种小事去开会员我觉得完全不值得。</p>
+<p>我想到了一个办法就是把任务以即时消息的形式始终保持在锁屏上面，这样不管什么时候打开手机就一定会注意到。但是这个方案有几个问题</p>
+<ul>
+<li>即时消息有<strong>一小时时间限制</strong>，一小时后会被系统收起到通知中心，锁屏上就看不到了(需要手动拉起通知中心)</li>
+<li>通知消息在点击之后会消失，如果此时没有处理，需要重新设置提醒</li>
+</ul>
+<p>提醒英雄利用系统的定位权限持续运行一个后台任务，不断刷新时间到期的通知消息回到锁屏上面，<strong>不管什么时候打开手机就可以看到当前设置的提醒项</strong>。</p>
+<p>理论上定位权限不能用来做和位置无关的功能，在和审核人员反复说明这个功能的必要性之后，产品最终成功上线了。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>下载地址</h2>
+<p><a href="https://apps.apple.com/cn/app/id6502558762" rel="noopener nofollow ugc">App Store</a></p>
+<p>或在 App Store 中直接搜索"提醒英雄"，海外用户请搜索"Notifyman"</p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>功能清单</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#h-3" name="h-3"></a>即时提醒</h3>
+<p><img alt="img" height="388" src="https://h1.appinn.net/file/f73894c1de406e1eae638.png" width="690" /></p>
+<p>创建后直接推送到通知中心，无需设置任何提醒时间</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-4" name="h-4"></a>重复提醒</h3>
+<p><img alt="img" height="388" src="https://h1.appinn.net/file/f997c81f202cb31faa1cd.png" width="690" /></p>
+<ul>
+<li>支持按分钟或小时为单位的短间隔提醒</li>
+<li>支持以天为单位的长间隔提醒</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#h-5" name="h-5"></a>定期提醒</h3>
+<p>支持设置每天，每周，每月的定期提醒，每周和每月支持选择多个日期</p>
+<h3><a class="anchor" href="https://meta.appinn.net#h-6" name="h-6"></a>会员功能</h3>
+<ul>
+<li>iCloud 数据同步</li>
+<li>任务同步到系统日历</li>
+<li>为任务添加检查清单(开发中)</li>
+<li>持续响铃提醒(开发中)</li>
+<li>任务完成情况统计(开发中)</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-7" name="h-7"></a>收费方式</h2>
+<p>国内</p>
+<ul>
+<li>年度会员 18¥ 每年(连续订阅)</li>
+<li>终身会员 68¥</li>
+</ul>
+<p>国外</p>
+<ul>
+<li>年度会员 9.99$ 每年(连续订阅)</li>
+<li>终身会员 29.99$</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#h-8" name="h-8"></a>技术支持</h2>
+<p><img alt=":postbox:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/postbox.png?v=12" title=":postbox:" width="20" />邮箱</p>
+<p><a href="mailto:superwhitecosmos@gmail.com">superwhitecosmos@gmail.com</a></p>
+<p>产品交流群</p>
+<p><img alt="img" height="500" src="https://h1.appinn.net/file/07f99670e2be440b876bb.jpg" width="313" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#h-9" name="h-9"></a>赠送兑换码</h2>
+<p>目前还剩余80个左右的年度会员兑换码，评论留下邮箱赠送，送完为止</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59083">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 22 Jul 2024 05:14:54 +0000</pubDate>
+<pubDate>Mon, 22 Jul 2024 05:14:54 +0000</pubDate>
+</item>
 
 <item>
 <title>有什么插件能让鼠标滑过或者悬停在浏览器书签栏就自动展开子书签吗</title>
