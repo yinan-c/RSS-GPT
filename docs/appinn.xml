@@ -5,11 +5,77 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>Balance Lock解决macOS左右声道平衡偏移bug</title>
+<link>https://meta.appinn.net/t/topic/29316</link>
+<guid>https://meta.appinn.net/t/topic/29316</guid>
+<content:encoded><![CDATA[
+
+<p>macOS电脑在插入耳机或者USB声卡后，在CPU占用较高时调整音量，将有可能导致左右声道的平衡发生偏移</p>
+<p>一般人第一反应会是去检查耳机接口是否出现了接触不良，但这其实并不是硬件的问题，而是伴随了macOS十几年未修复的软件bug</p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="16" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/1/4/149bc6e1d9bb0721e5a545e946409fdbf2295ed5.png" width="16" />
+
+      <a href="http://www.mac52ipod.cn/post/apple-mac-macos-bug-audio-balance.php" rel="noopener" target="_blank">mac52ipod.cn</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="http://www.mac52ipod.cn/post/apple-mac-macos-bug-audio-balance.php" rel="noopener" target="_blank">一个存在了 16 年没修复的苹果电脑 bug：CPU 负荷很高时左右声道平衡可能会改变 - 苹果fans博客</a></h3>
+
+  <p>前几天看到 @Ratoo 的一条吐槽：[code]今天终于知道，macOS 声道平衡突然在没有修改的情况下自己偏左或偏右是一个 Mac OS X 10.2 时期就存在，至今超过 16 年的 bug …… 在处理器高负荷的情况下反复按音量键就会导致声道平衡被改变。当年差点以为 MacBook 耳机接口出问题。[/code]网上的讨论可以溯源到这篇 2006 年......苹果fans博客</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/5/b/5b64368473083bdad49ae51b99e7f94f03c2f1fa.png" width="32" />
+
+      <a href="https://www.zhihu.com/question/20419887" rel="noopener" target="_blank">zhihu.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://www.zhihu.com/question/20419887" rel="noopener" target="_blank">Mac OS X 的左右声道平衡经常变动，可能是什么原因导致的？ - 知乎</a></h3>
+
+  <p>所谓的左右声道平衡，就是左右耳听到声音的轻重。默认是居中（可在“系统偏好设置-声音-输出”查看），但…</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>Balance Lock可以在该bug被触发时，在后台自动将macOS的声像恢复至预设的位置</p>
+<p><a class="onebox" href="https://apps.apple.com/cn/app/balance-lock/id1019371109" rel="noopener" target="_blank">https://apps.apple.com/cn/app/balance-lock/id1019371109</a></p>
+            <p><small>5 个帖子 - 5 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/29316">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 20 Jan 2022 05:14:06 +0000</pubDate>
+<pubDate>Thu, 20 Jan 2022 05:14:06 +0000</pubDate>
+</item>
+
+<item>
 <title>【自荐】Logoer: 无痛替换macOS左上角默认苹果Logo, 个性化你的Mac</title>
 <link>https://meta.appinn.net/t/topic/59098</link>
 <guid>https://meta.appinn.net/t/topic/59098</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#h-1" name="h-1"></a>软件名称</h2>
 <p>Logoer</p>
 <h2><a class="anchor" href="https://meta.appinn.net#h-2" name="h-2"></a>官网&amp;下载</h2>
@@ -51,9 +117,7 @@
             <p><a href="https://meta.appinn.net/t/topic/59098">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 22 Jul 2024 10:27:53 +0000</pubDate>
-<pubDate>Mon, 22 Jul 2024 10:27:53 +0000</pubDate>
 </item>
-
 <item>
 <title>展示一下搜索酱的 AI 功能【Chrome/Firefox】</title>
 <link>https://meta.appinn.net/t/topic/59080</link>
