@@ -28202,3 +28202,15 @@ Fetch error: 502
 Fetch failed from https://rsshub.app/sspai/index
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2024-07-22 08:04:57.823644
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 3807
+Summarized using gpt-4o-mini
+Append: [派早报：安全软件缺陷导致全球 Windows 设备故障](https://sspai.com/post/90680)
+Token length: 6097
+Summarized using gpt-4o-mini
+Append: [GraphRAG + GPT-4o mini 低成本构建 AI 图谱知识库](https://sspai.com/post/90665)
+append_entries: 2
+Finish: 2024-07-22 08:05:06.140801
