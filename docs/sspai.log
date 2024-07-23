@@ -28283,3 +28283,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-23 04:03:54.803511
+------------------------------------------------------
+Started: 2024-07-23 06:04:29.500504
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 1793
+Summarized using gpt-4o-mini
+Append: [一日一技 | 使用 Docker 为 iCloud 照片生成本地备份](https://sspai.com/post/90641)
+append_entries: 1
+Finish: 2024-07-23 06:04:33.260068
