@@ -28307,3 +28307,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-23 10:03:36.391938
+------------------------------------------------------
+Started: 2024-07-23 12:05:23.865786
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 6202
+Summarized using gpt-4o-mini
+Append: [社区速递 054 | 你没见过的社区文章、一周最热评、派友用的翻译服务](https://sspai.com/post/90736)
+append_entries: 1
+Finish: 2024-07-23 12:05:26.844462
