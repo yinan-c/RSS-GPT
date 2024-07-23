@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Aria2只能下载http[s]链接？</title>
 <link>https://meta.appinn.net/t/topic/59123</link>
 <guid>https://meta.appinn.net/t/topic/59123</guid>
 <content:encoded><![CDATA[
-
 <p>官方介绍：aria2 是一款轻量级的多协议、多源、跨平台下载工具，采用命令行方式运行。它支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink。</p>
 <p>我当前的使用组合：windows懒人包启动服务端+<a href="https://aria2c.com/usage.html" rel="noopener nofollow ugc">aria2.conf</a>+chrome插件aria2 explorer可视化面板</p>
 <p>遇到的问题：目前使用它来下载http类的链接没有问题，速度很快，但是下载磁力链接和种子基本下不动，甚至ftp 匿名登录的链接也无法下载，一直在尝试下载。</p>
@@ -18,14 +18,12 @@
             <p><a href="https://meta.appinn.net/t/topic/59123">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 23 Jul 2024 02:00:30 +0000</pubDate>
-<pubDate>Tue, 23 Jul 2024 02:00:30 +0000</pubDate>
 </item>
 <item>
 <title>寻找一款独特的Mac任务循环管理工具 - 类似音乐播放器的Todo清单</title>
 <link>https://meta.appinn.net/t/topic/59124</link>
 <guid>https://meta.appinn.net/t/topic/59124</guid>
 <content:encoded><![CDATA[
-
 <p>我的需求可能比较特殊,我想要一个类似音乐播放器的Todo任务循环工具。以下是我所需要的具体功能:</p>
 <ol>
 <li>多清单管理:</li>
@@ -108,9 +106,7 @@
             <p><a href="https://meta.appinn.net/t/topic/59124">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 23 Jul 2024 02:08:10 +0000</pubDate>
-<pubDate>Tue, 23 Jul 2024 02:08:10 +0000</pubDate>
 </item>
-
 <item>
 <title>Balance Lock解决macOS左右声道平衡偏移bug</title>
 <link>https://meta.appinn.net/t/topic/29316</link>
