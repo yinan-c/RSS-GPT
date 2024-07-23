@@ -31737,3 +31737,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-07-23 00:12:31.557394
+------------------------------------------------------
+Started: 2024-07-23 02:16:52.826226
+Existing_entries: 490
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Aria2只能下载http[s]链接？](https://meta.appinn.net/t/topic/59123)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [寻找一款独特的Mac任务循环管理工具 - 类似音乐播放器的Todo清单](https://meta.appinn.net/t/topic/59124)
+append_entries: 2
+Finish: 2024-07-23 02:16:55.826001
