@@ -28352,3 +28352,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-24 00:13:17.309834
+------------------------------------------------------
+Started: 2024-07-24 02:17:06.544081
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 1602
+Summarized using gpt-4o-mini
+Append: [派早报：英特尔将修复部分酷睿台式机处理器的稳定性问题等](https://sspai.com/post/90755)
+append_entries: 1
+Finish: 2024-07-24 02:17:10.719654
