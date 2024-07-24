@@ -28382,3 +28382,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-24 08:04:15.118728
+------------------------------------------------------
+Started: 2024-07-24 10:03:46.746809
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 5579
+Summarized using gpt-4o-mini
+Append: [在家做一个魔法师，智能家居也可以动「手」不动口](https://sspai.com/post/90675)
+append_entries: 1
+Finish: 2024-07-24 10:03:49.983949
