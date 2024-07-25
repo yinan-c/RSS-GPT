@@ -46768,3 +46768,18 @@ Fetch failed from https://rsshub.app/36kr/motif/327686815745
 Fetching from https://rsshub.app/36kr/motif/327685734401
 append_entries: 0
 Finish: 2024-07-25 06:06:19.453725
+------------------------------------------------------
+Started: 2024-07-25 08:04:44.549719
+Existing_entries: 557
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Append: [贝莱德CEO、特朗普立场反转，竟成比特币信徒？](https://www.36kr.com/p/2874440390758787)
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/327687077889
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 1
+Finish: 2024-07-25 08:05:36.070171
