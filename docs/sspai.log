@@ -28466,3 +28466,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-25 08:04:36.523085
+------------------------------------------------------
+Started: 2024-07-25 10:03:43.744767
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 3483
+Summarized using gpt-4o-mini
+Append: [随时看热闹、轻松看门道：2024 巴黎奥运观赛指南](https://sspai.com/post/90797)
+append_entries: 1
+Finish: 2024-07-25 10:03:47.597344
