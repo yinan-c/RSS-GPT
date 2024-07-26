@@ -28526,3 +28526,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-26 02:17:02.150476
+------------------------------------------------------
+Started: 2024-07-26 04:03:53.566262
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2043
+Summarized using gpt-4o-mini
+Append: [派早报：Apple 宣布推出 Apple Maps 网页版、Gemini 1.5 Flash 开放等](https://sspai.com/post/90837)
+append_entries: 1
+Finish: 2024-07-26 04:04:05.842643
