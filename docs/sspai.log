@@ -28619,3 +28619,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-27 04:03:38.334023
+------------------------------------------------------
+Started: 2024-07-27 06:04:05.443920
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 10739
+Summarized using gpt-4o-mini
+Append: [用上大模型翻译之后，机器更像人类了吗？](https://sspai.com/post/90874)
+append_entries: 1
+Finish: 2024-07-27 06:04:08.517135
