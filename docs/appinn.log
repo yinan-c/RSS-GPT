@@ -32182,3 +32182,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-07-27 14:03:13.624817
+------------------------------------------------------
+Started: 2024-07-27 16:03:26.521251
+Existing_entries: 495
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [这个论坛不是很好用，我是说Discourse！](https://meta.appinn.net/t/topic/34638)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-07-27 16:03:29.985024
