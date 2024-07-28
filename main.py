@@ -11,6 +11,28 @@ import requests
 from fake_useragent import UserAgent
 #from dateutil.parser import parse
 
+def get_cfg(sec, name, default=None):
+    value=config.get(sec, name, fallback=default)
+    if value:
+        return value.strip('"')
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+secs = config.sections()
+# Maxnumber of entries to in a feed.xml file
+max_entries = 1000
+
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+U_NAME = os.environ.get('U_NAME')
+OPENAI_PROXY = os.environ.get('OPENAI_PROXY')
+OPENAI_BASE_URL = os.environ.get('OPENAI_BASE_URL', 'https://api.openai.com/v1')
+custom_model = os.environ.get('custom_model')
+deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
+BASE =get_cfg('cfg', 'BASE')
+keyword_length = int(get_cfg('cfg', 'keyword_length'))
+summary_length = int(get_cfg('cfg', 'summary_length'))
+language = get_cfg('cfg', 'language')
+
 def fetch_feed(url, log_file):
     feed = None
     response = None
@@ -37,10 +59,6 @@ def generate_untitled(entry):
         try: return entry.article[:50]
         except: return entry.link
 
-def get_cfg(sec, name, default=None):
-    value=config.get(sec, name, fallback=default)
-    if value:
-        return value.strip('"')
 
 def clean_html(html_content):
     """
@@ -268,22 +286,34 @@ def output(sec, language):
                 entry.summary = None
             elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
-                try:
-                    entry.summary = gpt_summary(cleaned_article,model="gpt-4o-mini", language=language)
-                    with open(log_file, 'a') as f:
-                        f.write(f"Token length: {token_length}\n")
-                        f.write(f"Summarized using gpt-4o-mini\n")
-                except:
+                if custom_model:
                     try:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-4-turbo-preview", language=language)
+                        entry.summary = gpt_summary(cleaned_article,model=custom_model, language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
-                            f.write(f"Summarized using GPT-4-turbo-preview\n")
+                            f.write(f"Summarized using {custom_model}\n")
                     except Exception as e:
                         entry.summary = None
                         with open(log_file, 'a') as f:
                             f.write(f"Summarization failed, append the original article\n")
                             f.write(f"error: {e}\n")
+                else:
+                    try:
+                        entry.summary = gpt_summary(cleaned_article,model="gpt-4o-mini", language=language)
+                        with open(log_file, 'a') as f:
+                            f.write(f"Token length: {token_length}\n")
+                            f.write(f"Summarized using gpt-4o-mini\n")
+                    except:
+                        try:
+                            entry.summary = gpt_summary(cleaned_article,model="gpt-4-turbo-preview", language=language)
+                            with open(log_file, 'a') as f:
+                                f.write(f"Token length: {token_length}\n")
+                                f.write(f"Summarized using GPT-4-turbo-preview\n")
+                        except Exception as e:
+                            entry.summary = None
+                            with open(log_file, 'a') as f:
+                                f.write(f"Summarization failed, append the original article\n")
+                                f.write(f"error: {e}\n")
 
             append_entries.append(entry)
             with open(log_file, 'a') as f:
@@ -304,22 +334,6 @@ def output(sec, language):
         with open (log_file, 'a') as f:
             f.write(f"error when rendering xml, skip {out_dir}\n")
             print(f"error when rendering xml, skip {out_dir}\n")
-
-config = configparser.ConfigParser()
-config.read('config.ini')
-secs = config.sections()
-# Maxnumber of entries to in a feed.xml file
-max_entries = 1000
-
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
-U_NAME = os.environ.get('U_NAME')
-OPENAI_PROXY = os.environ.get('OPENAI_PROXY')
-OPENAI_BASE_URL = os.environ.get('OPENAI_BASE_URL', 'https://api.openai.com/v1')
-deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
-BASE =get_cfg('cfg', 'BASE')
-keyword_length = int(get_cfg('cfg', 'keyword_length'))
-summary_length = int(get_cfg('cfg', 'summary_length'))
-language = get_cfg('cfg', 'language')
 
 try:
     os.mkdir(BASE)
