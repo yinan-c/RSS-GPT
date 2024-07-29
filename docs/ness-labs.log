@@ -9696,3 +9696,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [Ness Labs Best Books of July 2024](https://nesslabs.com/best-books-july-2024?utm_source=rss&utm_medium=rss&utm_campaign=best-books-july-2024)
 append_entries: 1
 Finish: 2024-07-29 16:04:07.725985
+------------------------------------------------------
+Started: 2024-07-29 18:04:46.760167
+Existing_entries: 34
+Fetching from https://nesslabs.com/feed
+append_entries: 0
+Finish: 2024-07-29 18:04:47.260448
