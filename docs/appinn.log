@@ -32345,3 +32345,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-07-29 04:03:56.230082
+------------------------------------------------------
+Started: 2024-07-29 06:04:21.332571
+Existing_entries: 498
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [一键提取youtube中文transcript为文本的方法](https://meta.appinn.net/t/topic/59317)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [EcoPaste：适用于 MacOS 和 Windows 平台的开源的剪切板管理工具](https://meta.appinn.net/t/topic/59314)
+append_entries: 2
+Finish: 2024-07-29 06:04:25.068009

@@ -4,6 +4,80 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>一键提取youtube中文transcript为文本的方法</title>
+<link>https://meta.appinn.net/t/topic/59317</link>
+<guid>https://meta.appinn.net/t/topic/59317</guid>
+<content:encoded><![CDATA[
+
+<p>大概是提取成txt，或者复制到剪切板<br />
+如果能直接提取翻译的中文翻译稿就更好了</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59317">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 29 Jul 2024 05:12:23 +0000</pubDate>
+<pubDate>Mon, 29 Jul 2024 05:12:23 +0000</pubDate>
+</item>
+<item>
+<title>EcoPaste：适用于 MacOS 和 Windows 平台的开源的剪切板管理工具</title>
+<link>https://meta.appinn.net/t/topic/59314</link>
+<guid>https://meta.appinn.net/t/topic/59314</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-217072-h-1" name="p-217072-h-1"></a>开源地址</h2>
+<p>仓库地址：<a href="https://github.com/ayangweb/EcoPaste" rel="noopener nofollow ugc">EcoPaste</a></p>
+<p><img alt="app.png" height="500" src="https://h1.appinn.net/file/38e30541ac6da8c4ffa9a.png" width="658" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-217072-h-2" name="p-217072-h-2"></a>开发背景</h2>
+<p>由于市面上大多数剪切板应用要么收费，要么功能有限，无法满足我的需求，我决定自己开发一款新的剪切板应用，以解决这些问题。我的目标是打造一款功能全面、操作便捷、免费且支持多平台（linux 有大佬正在努力适配）的剪切板工具，满足用户多样化的需求。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-217072-h-3" name="p-217072-h-3"></a>项目介绍</h2>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-4" name="p-217072-h-4"></a>轻量小巧，多平台用</h4>
+<p>使用 Tauri 构建，应用更加小巧精致，资源占用极少，同时完美适配 Windows 和 MacOS 平台，保证多平台一致的用户体验。</p>
+<p><img height="340" src="https://h1.appinn.net/file/a9885aba427e560087347.png" width="690" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-5" name="p-217072-h-5"></a>常驻后台，快捷唤醒</h4>
+<p>应用常驻后台运行，通过自定义快捷键一键唤醒，帮助用户快速调用剪切板内容，极大地提高工作效率。</p>
+<p><img height="358" src="https://h1.appinn.net/file/7d348e8335855d98e4d65.gif" width="690" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-6" name="p-217072-h-6"></a>本地存储，安全可靠</h4>
+<p>所有剪切板内容均在本地存储，确保数据隐私和安全，不会有任何数据泄漏风险。</p>
+<p><img height="500" src="https://h1.appinn.net/file/b37b5658f4cb31a3798d0.gif" width="666" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-7" name="p-217072-h-7"></a>自动粘贴，提升效率</h4>
+<p>内置自动粘贴功能，当用户复制内容时，可以自动将内容粘贴到目标位置，减少手动操作，提升工作效率。</p>
+<p><img height="432" src="https://h1.appinn.net/file/6e6dc34e3734cc916f02d.gif" width="690" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-8" name="p-217072-h-8"></a>智能管理，类型分组</h4>
+<p>支持纯文本、富文本、HTML、图片和文件类型，并自动根据剪切板内容类型进行分组管理，方便用户高效查找和使用。</p>
+<p><img height="434" src="https://h1.appinn.net/file/eb34f151c1ceb134c2df1.gif" width="690" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-9" name="p-217072-h-9"></a>收藏功能，快速访问</h4>
+<p>支持收藏剪切板内容，方便快速访问和管理重要信息。无论是工作中的关键数据还是日常生活中的常用信息，都可以轻松收藏和查看。</p>
+<p><img height="499" src="https://h1.appinn.net/file/c59789bce8793d7b70590.gif" width="304" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-10" name="p-217072-h-10"></a>内置搜索，轻松查找</h4>
+<p>内置搜索功能，帮助用户快速找到任何剪切板上的内容，无论是文本、图片（OCR文本搜索）还是文件，所有内容都可以一目了然。</p>
+<p><img height="499" src="https://h1.appinn.net/file/dbd552471666e77e2636e.gif" width="302" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-ocr-11" name="p-217072-ocr-11"></a>图片OCR，离线识别</h4>
+<p>内置系统 OCR 功能，支持文本和二维码识别，通过右键菜单快速复制识别到的 OCR 内容，实现离线识别，使用更便捷。</p>
+<p><img height="499" src="https://h1.appinn.net/file/48a9e5e1f6731c925fc9c.gif" width="304" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-12" name="p-217072-h-12"></a>右键菜单，操作便捷</h4>
+<p>提供丰富的右键菜单选项，用户可以快速进行各种操作，极大地提高了使用便捷性。</p>
+<p><img height="500" src="https://h1.appinn.net/file/ab079f0d8943e041ea684.gif" width="303" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-13" name="p-217072-h-13"></a>数据备份，轻松迁移</h4>
+<p>支持导出和导入配置项以及剪切板内容，便于数据备份与迁移到不同平台，保证数据的持续可用性。</p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-14" name="p-217072-h-14"></a>自动更新，保持最新</h4>
+<p>软件支持自动更新和手动检查更新功能，确保用户始终使用最新版本，享受最优质的使用体验。</p>
+<p><img height="500" src="https://h1.appinn.net/file/2ec62e5e61d9140cb8fca.gif" width="666" /></p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-15" name="p-217072-h-15"></a>自由定制，个性体验</h4>
+<p>提供详细的配置选项，用户可以自由设置和调整应用效果，打造个性化的使用体验，满足不同场景和需求。</p>
+<h4><a class="anchor" href="https://meta.appinn.net#p-217072-h-16" name="p-217072-h-16"></a>更多功能，等你探索</h4>
+<p>EcoPaste还在不断开发和添加更多有趣实用的功能，期待与你一起探索和发现这款 app 的更多可能性。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-217072-h-17" name="p-217072-h-17"></a>阮一峰老师周刊推荐</h2>
+<p>每个开源作者都希望自己的努力被别人看见，被别人认可。抱着试一试的心态，我去阮一峰老师的技术周刊<a href="https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fruanyf%2Fweekly" rel="noopener nofollow ugc" title="https://github.com/ruanyf/weekly">仓库</a>下面提交了 <code>issue</code>。幸运的是，我们的 app 被选入了阮一峰老师的<a href="https://www.ruanyifeng.com/blog/2024/07/weekly-issue-308.html" rel="noopener nofollow ugc">第 308 期技术周刊</a>，阮一峰老师是我们前端圈有名的大牛，得到了阮一峰老师的认可让我们感到十分荣幸和激动。</p>
+<p><img height="500" src="https://h1.appinn.net/file/c480b81949638cea51be8.png" width="579" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-217072-h-18" name="p-217072-h-18"></a>感谢贡献</h2>
+<p>感谢以下小伙伴们的贡献！让我们继续努力，快乐地编写代码。也希望看到这篇文章的朋友们，乐于参与开源项目，积极分享自己的知识和经验。希望EcoPaste能为您带来效率的提升，欢迎反馈您的使用体验！</p>
+<p><img height="346" src="https://h1.appinn.net/file/17ac5f5cd68eacc5e3479.png" width="690" /></p>
+            <p><small>14 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59314">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 29 Jul 2024 03:43:11 +0000</pubDate>
+<pubDate>Mon, 29 Jul 2024 03:43:11 +0000</pubDate>
+</item>
 
 <item>
 <title>求一个 手机短信强提醒软件</title>
