@@ -28781,3 +28781,15 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-29 06:04:31.413676
+------------------------------------------------------
+Started: 2024-07-29 08:04:23.800101
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-Edk6Z***************************************3b03. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [派早报：淘宝天猫收取软件服务费，放松仅退款规则](https://sspai.com/post/90898)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-Edk6Z***************************************3b03. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [铝型材 DIY 实录：做一个和桌面更搭的电脑支架](https://sspai.com/post/90884)
+append_entries: 2
+Finish: 2024-07-29 08:04:24.461771
