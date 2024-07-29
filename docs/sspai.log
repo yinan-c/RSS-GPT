@@ -28811,3 +28811,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [派评 | 近期值得关注的 App](https://sspai.com/post/90930)
 append_entries: 2
 Finish: 2024-07-29 12:05:23.169727
+------------------------------------------------------
+Started: 2024-07-29 14:03:33.222121
+Existing_entries: 1002
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-07-29 14:03:33.478037
