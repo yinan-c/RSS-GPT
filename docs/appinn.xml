@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>【开源自荐】WR.DO - 基于 cloudflare 的多租户 DNS 解析系统</title>
 <link>https://meta.appinn.net/t/topic/59376</link>
 <guid>https://meta.appinn.net/t/topic/59376</guid>
 <content:encoded><![CDATA[
-
 <p>基于 cloudflare 的多租户 DNS 分发系统。开源且免费提供 DNS 解析、短链接生成。<br />
 官网地址：<a href="https://wr.do" rel="noopener nofollow ugc">https://wr.do</a><br />
 开源仓库：<a class="inline-onebox" href="https://github.com/oiov/wr.do" rel="noopener nofollow ugc">GitHub - oiov/wr.do: Set up your DNS and shorten URLs with a few clicks. Build with cloudflare.</a></p>
@@ -17,9 +17,7 @@
             <p><a href="https://meta.appinn.net/t/topic/59376">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 30 Jul 2024 12:07:53 +0000</pubDate>
-<pubDate>Tue, 30 Jul 2024 12:07:53 +0000</pubDate>
 </item>
-
 <item>
 <title>零web基础想学写浏览器拓展插件，有没有比较系统的课程指南呢？</title>
 <link>https://meta.appinn.net/t/topic/32183</link>
