@@ -28868,3 +28868,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-30 06:04:32.076381
+------------------------------------------------------
+Started: 2024-07-30 08:04:21.554108
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2705
+Summarized using claude-3-5-sonnet@20240620
+Append: [跟着 Apple Watch 初识产品工业设计](https://sspai.com/post/90882)
+append_entries: 1
+Finish: 2024-07-30 08:04:23.759451
