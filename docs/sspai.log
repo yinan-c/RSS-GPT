@@ -28847,3 +28847,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-07-30 00:12:29.316924
+------------------------------------------------------
+Started: 2024-07-30 02:17:02.663626
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 1919
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：闲鱼网页版回归、微软 Xbox 360 游戏商店正式关闭等](https://sspai.com/post/90967)
+append_entries: 1
+Finish: 2024-07-30 02:17:09.065974
