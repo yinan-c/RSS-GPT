@@ -32476,3 +32476,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-07-30 12:05:04.476302
+------------------------------------------------------
+Started: 2024-07-30 14:03:16.026302
+Existing_entries: 501
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开源自荐】WR.DO - 基于 cloudflare 的多租户 DNS 解析系统](https://meta.appinn.net/t/topic/59376)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-07-30 14:03:19.972844
