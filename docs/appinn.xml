@@ -5,11 +5,29 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>求教能否利用AI创建一个私人化的搜索引擎呢？</title>
+<link>https://meta.appinn.net/t/topic/59385</link>
+<guid>https://meta.appinn.net/t/topic/59385</guid>
+<content:encoded><![CDATA[
+
+<p>最近在论坛看到SearchGPT和“<a href="https://meta.appinn.net/t/topic/57132/23">知乎已经完全禁止谷歌和必应搜索抓取其内容</a>”，我就突然想到，既然AI这么发达，能否利用它创建一个私人化的搜索引擎。<br />
+要求如下：<br />
+1、正常爬虫搜索网络上的资料，可以让其直接调用必应、谷歌、百度的结果，并根据算法进行优化（我想着，自己创建一个引擎是不是太复杂了）。<br />
+2、对于屏蔽爬虫的网站，如微信、知乎等等，可以自定义添加到搜索选项中去，并且可以 把私人的账号密码交给AI方便其搜索。<br />
+3、就是根据1和2优化搜索结果，过滤垃圾信息。<br />
+4、写到这里感觉上面三点就是利用AI做一个结果筛选的东西，搜索引擎都算不上了。 <img alt=":joy:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/joy.png?v=12" title=":joy:" width="20" />但是这样可以避免在乱七八糟的消息中去自己筛选。</p>
+            <p><small>6 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59385">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 31 Jul 2024 01:16:31 +0000</pubDate>
+<pubDate>Wed, 31 Jul 2024 01:16:31 +0000</pubDate>
+</item>
+
+<item>
 <title>PicInsight - 制作精美的明信片! ｜ 限时免费</title>
 <link>https://meta.appinn.net/t/topic/59384</link>
 <guid>https://meta.appinn.net/t/topic/59384</guid>
 <content:encoded><![CDATA[
-
 <blockquote>
 <p>PicInsight： 为照片添加自定义文字、图标和图像。用 iPhone, iPad, Mac或VisionPro 制作独一无二的明信片，将记忆变成个性化的纪念品!</p>
 </blockquote>
@@ -158,9 +176,7 @@
             <p><a href="https://meta.appinn.net/t/topic/59384">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 30 Jul 2024 23:31:54 +0000</pubDate>
-<pubDate>Tue, 30 Jul 2024 23:31:54 +0000</pubDate>
 </item>
-
 <item>
 <title>【开源自荐】WR.DO - 基于 cloudflare 的多租户 DNS 解析系统</title>
 <link>https://meta.appinn.net/t/topic/59376</link>
