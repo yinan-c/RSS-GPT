@@ -29018,3 +29018,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-01 02:21:07.429646
+------------------------------------------------------
+Started: 2024-08-01 04:03:58.280660
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2096
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：Noting Phone (2a) Plus 发布、高通推出第二代骁龙 4s 平台等](https://sspai.com/post/91061)
+append_entries: 1
+Finish: 2024-08-01 04:04:00.542922
