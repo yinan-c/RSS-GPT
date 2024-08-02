@@ -4,6 +4,29 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Binbundle: A gem for saving and restoring gem binaries</title>
+<link>https://brett.trpstra.net/link/535/16760430/binbundle-a-gem-for-restoring-gem-binaries</link>
+<guid>https://brett.trpstra.net/link/535/16760430/binbundle-a-gem-for-restoring-gem-binaries</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<p>I published a script yesterday for creating a &ldquo;bundle file&rdquo; of all binaries (executables) on your system that rely on Rubygems to install. These aren&rsquo;t covered by Homebrew&rsquo;s bundle command and I wanted easy system restore via my dotfiles setup.</p>
+
+<p>But&hellip; because it deals specifically with gems, I figured why not make it a gem and make it easy to install?</p>
+
+<p>So I present <a href="https://brettterpstra.com//projects/binbundle/">Binbundle</a>, the same script as yesterday, but elaborated on and in gem form.</p>
+
+<p>See the <a href="https://brettterpstra.com//projects/binbundle">project page</a> for details on installation and usage. This project combined with <a href="https://github.com/anishathalye/dotbot">Dotbot</a> makes for a very easy way to restore all of those binaries that Homebrew misses.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F02%2Fbinbundle-a-gem-for-restoring-gem-binaries%2F&amp;text=Binbundle%3A+A+gem+for+saving+and+restoring+gem+binaries&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F02%2Fbinbundle-a-gem-for-restoring-gem-binaries%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16760430.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-08-02T11:06:00-05:00</pubDate>
+<pubDate>2024-08-02T11:06:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Easily save and restore all of your gem executables</title>
