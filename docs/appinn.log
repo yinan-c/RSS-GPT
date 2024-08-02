@@ -32736,3 +32736,11 @@ Append: [【重大更新+送码】送给那些爱读书和爱漫画的人儿 -- 
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-08-02 04:03:46.966641
+------------------------------------------------------
+Started: 2024-08-02 06:04:11.588873
+Existing_entries: 505
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-08-02 06:04:15.927804

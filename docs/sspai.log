@@ -29108,3 +29108,15 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-02 04:03:53.153459
+------------------------------------------------------
+Started: 2024-08-02 06:04:21.961787
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2656
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：Google 发布三款开放式 AI 模型、Ampere 推出 AmpereOne Aurora 处理器](https://sspai.com/post/91093)
+Token length: 6627
+Summarized using claude-3-5-sonnet@20240620
+Append: [2024年，如何优雅的使用 Windows PC](https://sspai.com/post/90272)
+append_entries: 2
+Finish: 2024-08-02 06:04:25.938085
