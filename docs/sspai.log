@@ -29300,3 +29300,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-04 14:03:23.544812
+------------------------------------------------------
+Started: 2024-08-04 16:03:21.587379
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 162
+Summarized using claude-3-5-sonnet@20240620
+Append: [功能追踪 09：Notion 中文版即将上线？AI 功能迎来更新](https://sspai.com/post/90997)
+append_entries: 1
+Finish: 2024-08-04 16:03:23.606846
