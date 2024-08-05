@@ -29354,3 +29354,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-05 06:04:31.219684
+------------------------------------------------------
+Started: 2024-08-05 08:04:36.168436
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 6775
+Summarized using claude-3-5-sonnet@20240620
+Append: [城市漫步指南：海风、海景，神户人的霓虹生活](https://sspai.com/post/90074)
+append_entries: 1
+Finish: 2024-08-05 08:04:38.883759
