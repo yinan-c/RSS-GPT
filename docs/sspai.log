@@ -29339,3 +29339,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-05 02:18:09.221524
+------------------------------------------------------
+Started: 2024-08-05 04:04:14.685421
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 3742
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：苹果就内购分成问题向腾讯和字节跳动施压](https://sspai.com/post/91149)
+append_entries: 1
+Finish: 2024-08-05 04:04:17.088960
