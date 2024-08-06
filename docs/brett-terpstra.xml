@@ -4,12 +4,13 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Speed up development with Howzit templates</title>
 <link>https://brett.trpstra.net/link/535/16762490/speed-up-development-with-howzit-templates</link>
 <guid>https://brett.trpstra.net/link/535/16762490/speed-up-development-with-howzit-templates</guid>
 <content:encoded><![CDATA[
-<div> 。再在200字总结后另起一行，按照以下格式输出'<br><br>关键要点:'，然后在新的一行列出3-5个主要要点，每个要点需要以'-'开头。 <div>
+<div> 。再在200字总结后另起一行，按照以下格式输出'<br /><br />关键要点:'，然后在新的一行列出3-5个主要要点，每个要点需要以'-'开头。 <div>
 <noscript class="loading-lazy">
                 <source media="(max-width: 640px)" />
                 <source type="image/avif" />
@@ -106,9 +107,7 @@ end
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16762490.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-08-05T14:35:00-05:00</pubDate>
-<pubDate>2024-08-05T14:35:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Binbundle: A gem for saving and restoring gem binaries</title>
 <link>https://brett.trpstra.net/link/535/16760430/binbundle-a-gem-for-restoring-gem-binaries</link>
