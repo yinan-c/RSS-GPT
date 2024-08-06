@@ -4,6 +4,82 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[开发者自荐] FlowVision: 瀑布流式 macOS 看图软件</title>
+<link>https://meta.appinn.net/t/topic/59251</link>
+<guid>https://meta.appinn.net/t/topic/59251</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-1" name="p-216809-h-1"></a>软件名称</h2>
+<p>FlowVision</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-2" name="p-216809-h-2"></a>应用平台</h2>
+<p>MacOS 11.0+</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-3" name="p-216809-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-4" name="p-216809-h-4"></a>一句简介</h2>
+<p>FlowVision是一款为MacOS日常看图、图库浏览设计的全功能、高性能看图软件，操作逻辑类似XnView，提供文件管理功能，并且有瀑布流模式，能通过右键手势一键切换一下一个有图片的文件夹，非常适合批量浏览图片。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-5" name="p-216809-h-5"></a>应用简介</h2>
+<ul>
+<li>自适应布局模式、浅色/深色模式</li>
+<li>方便的文件管理（操作类似 Finder）</li>
+<li>右键手势、快速查找上一个/下一个有图片/视频的文件夹</li>
+<li>针对目录下大量图片情况的性能优化</li>
+<li>高质量的缩放（减轻摩尔纹等问题）</li>
+<li>支持视频缩略图</li>
+</ul>
+<p>                    <a class="onebox" href="https://h1.appinn.net/file/ea34389b4f15df062d710.jpg" rel="noopener" target="_blank">
+            <img height="" src="https://h1.appinn.net/file/ea34389b4f15df062d710.jpg" width="" />
+          </a>
+
+</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-6" name="p-216809-h-6"></a>操作说明</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#p-216809-h-7" name="p-216809-h-7"></a>图片视图时：</h3>
+<p>按住右键/左键滚动滚轮可以缩放<br />
+按住中键拖动可以移动窗口<br />
+长按左键切换 100%缩放<br />
+长按右键切换缩放到视图</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-216809-h-8" name="p-216809-h-8"></a>右键手势：</h3>
+<p>向右/左：切换到下一个/上一个有图片/视频的文件夹(逻辑上等同于将整个磁盘中的文件夹排序后的下一个)<br />
+向上：切换到上级目录<br />
+向下：返回到上一次的目录<br />
+向下右/下左：切换到与当前文件夹平级的下一个/上一个有图片的文件夹<br />
+向上右/上左：切换到上级目录后，再执行向下右/下左的操作</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-216809-h-9" name="p-216809-h-9"></a>键盘按键：</h3>
+<p>W：同右键手势 向上<br />
+A/D：同右键手势 向左/右<br />
+S：同右键手势 向下</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-216809-h-10" name="p-216809-h-10"></a>下载地址</h2>
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/netdcy/FlowVision" rel="noopener nofollow ugc" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/0d16afc3cfc5a5b7f101122d01283c4e/netdcy/FlowVision" width="690" />
+
+  <h3><a href="https://github.com/netdcy/FlowVision" rel="noopener nofollow ugc" target="_blank">GitHub - netdcy/FlowVision: Waterfall-style image viewer for macOS, offering a...</a></h3>
+
+    <p><span class="github-repo-description">Waterfall-style image viewer for macOS, offering a smooth and immersive browsing experience.</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59251">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 26 Jul 2024 09:41:18 +0000</pubDate>
+<pubDate>Fri, 26 Jul 2024 09:41:18 +0000</pubDate>
+</item>
 
 <item>
 <title>有木有支持直接跳转到pdf文件指定页的软件或小技巧？</title>
