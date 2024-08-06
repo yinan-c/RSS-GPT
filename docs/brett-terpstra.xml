@@ -4,6 +4,110 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Speed up development with Howzit templates</title>
+<link>https://brett.trpstra.net/link/535/16762490/speed-up-development-with-howzit-templates</link>
+<guid>https://brett.trpstra.net/link/535/16762490/speed-up-development-with-howzit-templates</guid>
+<content:encoded><![CDATA[
+<div> 。再在200字总结后另起一行，按照以下格式输出'<br><br>关键要点:'，然后在新的一行列出3-5个主要要点，每个要点需要以'-'开头。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Howzit Banner" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2023/03/howzitdeploy2-rb.jpg" title="Howzit Banner" width="800" />
+              </noscript>
+            
+
+<p>Ok, so you may or may not have heard of my <a href="https://brettterpstra.com/projects/howzit/">Howzit</a> project, so I&rsquo;ll begin by recapping. &ldquo;Howzit&rdquo; is a contraction of &ldquo;how does it&rdquo; that allows you to query any project with commands like <code class="language-plaintext highlighter-rouge">howzit build</code> or <code class="language-plaintext highlighter-rouge">howzit deploy</code> and get documentation, as well as automatically execute the necessary steps for a task. I use it almost every day and it has saved me a crazy amount of time over the years, especially in picking up on projects I haven&rsquo;t touched for a while.</p>
+
+<p>The heart of the system is a &ldquo;buildnotes.md&rdquo; file located in the root of your project. This is a Markdown file where you describe each topic, e.g. <code class="language-plaintext highlighter-rouge">Deploy</code>, listing out any pertinent info. Just stop and think &ldquo;if I come back to this a year from now, what would I need to know?&rdquo; You can include &ldquo;directives&rdquo; that can do things like copy strings to your clipboard or execute code or commands. If you just run <code class="language-plaintext highlighter-rouge">howzit TOPIC</code> it will show you your documentation, and if you run <code class="language-plaintext highlighter-rouge">howzit -r TOPIC</code>, it will execute any directives in the topic.</p>
+
+<p>Ok, so on to templates. I&rsquo;ve added a lot of functionality to Howzit over the years, but templates have turned out to be my favorite extension. Templates allow you to store reusable tasks in a single file, and then include all of those tasks with a single line at the top of a build notes file.</p>
+
+<p>Everything discussed in this post can be found in <a href="https://github.com/ttscoff/howzit/wiki">the Howzit wiki</a>, specifically the <a href="https://github.com/ttscoff/howzit/wiki/Templates-and-metadata">Templates and Metadata</a> page.</p>
+
+<!--more-->
+
+<p>Templates are stored in <code class="language-plaintext highlighter-rouge">~/.config/howzit/templates</code> and are just Markdown files formatted like any <code class="language-plaintext highlighter-rouge">buildnotes.md</code> file. Markdown headers for topics, and they can contain text, lists, tables, and, most importantly for my purposes, directives. They&rsquo;re given a short filename like <code class="language-plaintext highlighter-rouge">git.md</code> or <code class="language-plaintext highlighter-rouge">swift.md</code> and saved to the aforementioned directory. Then, in any build notes file, you can add a line at the top like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>template: swift, git</code></pre></div></div>
+
+<p>All of the tasks in those templates are now automatically included in your build notes without any additional documentation. If you frequently use the same tools and structures for projects of the same kind, this greatly reduces the time it takes to document while minimizing errors.</p>
+
+<p>For example, in many of my templates there&rsquo;s a topic called &ldquo;Deploy.&rdquo; This topic contains the steps necessary to publish a project, specific to the type of project it is. I have one for Swift command line tools, one for Ruby gems, one for Sparkle-based Mac apps, etc. The benefit of always naming the topic &ldquo;Deploy&rdquo; is that in <em>any</em> project I can just run <code class="language-plaintext highlighter-rouge">howzit -r deploy</code> and deploy that project without looking anything up or remembering multiple steps<sup id="fnref:steps"><a class="footnote" href="https://brettterpstra.com#fn:steps" rel="footnote">1</a></sup>.</p>
+
+<p>You can also specify variables in templates, which are then defined in the individual build notes, allowing for reusable code that&rsquo;s still tailored per-project. For example, for projects that get published to both GitHub and my blog, I have a system that allows me to create a <code class="language-plaintext highlighter-rouge">src/_README.md</code> file containing special syntax that creates different output for my Jekyll-based project page and my GitHub README. In the template for such a project, I have variables for the project name, README source, and changelog location. The README source and changelog variables have default values (<code class="language-plaintext highlighter-rouge">src/_README.md</code> and <code class="language-plaintext highlighter-rouge">CHANGELOG.md</code>), but the blog project name (which is used to locate the file that generates a project page) varies with each project. So the <code class="language-plaintext highlighter-rouge">project</code> variable is required and Howzit will let me know if I&rsquo;ve included that template and not defined that variable.</p>
+
+<p>As an example, here&rsquo;s my <code class="language-plaintext highlighter-rouge">markdown.md</code> template, which has actions for spellchecking using <code class="language-plaintext highlighter-rouge">aspell</code>. It allows an optional variable for specifying subdirectories of Markdown files that should be spellchecked, defaulting to just the current folder.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>optional: dirs
+
+# Markdown
+
+### Spellcheck
+
+Check spelling of all Markdown files in git repo.
+
+```run Spellcheck all files
+#!/bin/bash
+for dir in [%dirs:.]; do
+    cd "$dir"
+    /Users/ttscoff/scripts/spellcheck.bash
+    cd -
+done
+```
+
+### Spellcheck Modified
+
+Check spelling of Markdown files marked as dirty in git.
+
+```run Spellcheck modified files only
+#!/usr/bin/env ruby
+# Spell check changed Markdown files
+
+staged = `git diff-index --name-status --cached HEAD`.strip.split(/\n/).map {|f| f.sub(/^\s*(A|M)\s*/, '')}
+partial = `git status --porcelain --untracked-files=no`.strip.split(/\n/).map {|f| f.sub(/^\s*(A|M)\s*/, '')}
+changed = staged.concat(partial).sort.uniq
+changed.select! {|f| f =~ /(md|markdown)$/ }
+
+home = ENV['HOME']
+
+changed.each do |file|
+  system %(aspell -M --lang=en --dont-backup --home-dir=#{home} --personal=#{home}/aspell.txt check "#{file}")
+end
+```</code></pre></div></div>
+
+<p>Or a simpler one: if the project has a Sublime Text project associated with it, I can just add <code class="language-plaintext highlighter-rouge">template: sublime</code> and it will offer me this action:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>required: project_file
+
+## Edit Project
+
+@run(subl -p [%project_file].sublime-project)</code></pre></div></div>
+
+<p>I just define <code class="language-plaintext highlighter-rouge">project_file: binbundle</code> in my build notes, and then running <code class="language-plaintext highlighter-rouge">howzit -r edit</code> will open the project in Sublime. I can create one of these for every possible editor/project type, always using &ldquo;Edit Project&rdquo; as the topic title, and include the appropriate template in each project. Then <code class="language-plaintext highlighter-rouge">howzit -r edit</code> will always open the correct project file in the correct editor.</p>
+
+<p>You can get a list of all of your templates by running <code class="language-plaintext highlighter-rouge">howzit --templates</code>. This will show you all templates, what actions they define, and what variables can be (or must be) set for them. You can open any template in your editor by running <code class="language-plaintext highlighter-rouge">howzit --edit-template NAME</code>.</p>
+
+<p>Like I said up top, the longer I use Howzit the more times it saves my butt. It&rsquo;s among the most useful things I&rsquo;ve built and I think every developer should <a href="https://brettterpstra.com/projects/howzit/">give it a shot</a>. If you love it, <a href="https://brettterpstra.com/donate/">buy me some coffee</a> or <a href="https://brettterpstra.com/support/">become a supporter</a> to ensure future development of this and all of my other projects.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:steps">
+      <p>These Deploy topics handle updating changelogs, tagging git releases, pushing changes, compiling distributable versions, updating blog projects and READMEs&hellip; way more steps than I&rsquo;d want to remember when moving between projects.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:steps">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F05%2Fspeed-up-development-with-howzit-templates%2F&amp;text=Speed+up+development+with+Howzit+templates&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F05%2Fspeed-up-development-with-howzit-templates%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16762490.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-08-05T14:35:00-05:00</pubDate>
+<pubDate>2024-08-05T14:35:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Binbundle: A gem for saving and restoring gem binaries</title>
