@@ -29597,3 +29597,15 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-08 04:05:01.634478
+------------------------------------------------------
+Started: 2024-08-08 06:04:51.002680
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 541
+Summarized using claude-3-5-sonnet@20240620
+Append: [寻源大圣之旅：就像是一场梦，醒来以后还是很感动](https://sspai.com/post/91218)
+Token length: 2672
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：英特尔公布第 13、14 代桌面处理器延保细节、NVMe 2.1 规范发布等](https://sspai.com/post/91271)
+append_entries: 2
+Finish: 2024-08-08 06:04:54.255372
