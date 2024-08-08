@@ -29621,3 +29621,15 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-08 10:03:37.265490
+------------------------------------------------------
+Started: 2024-08-08 12:05:04.677136
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error code: 529 - {'error': {'message': 'Overloaded (request id: 2024080813051193794070781821582)', 'type': 'overloaded_error', 'param': '', 'code': None}}
+Append: [心中无工作天天放假，手边有鱼摸劳逸结合](https://sspai.com/post/91280)
+Token length: 5560
+Summarized using claude-3-5-sonnet@20240620
+Append: [4 年 223 场演出，为你总结这份 Livehouse 观演指南](https://sspai.com/post/91212)
+append_entries: 2
+Finish: 2024-08-08 12:05:27.053560
