@@ -29723,3 +29723,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [本周看什么 | 最近值得一看的 8 部作品](https://sspai.com/post/91324)
 append_entries: 2
 Finish: 2024-08-09 12:05:08.310617
+------------------------------------------------------
+Started: 2024-08-09 14:03:24.800779
+Existing_entries: 1002
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-08-09 14:03:24.974737
