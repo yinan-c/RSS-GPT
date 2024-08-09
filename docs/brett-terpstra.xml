@@ -4,6 +4,50 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>SearchLink with improved bookmark and history searching</title>
+<link>https://brett.trpstra.net/link/535/16767225/searchlink-with-improved-bookmark-and-history-searching</link>
+<guid>https://brett.trpstra.net/link/535/16767225/searchlink-with-improved-bookmark-and-history-searching</guid>
+<content:encoded><![CDATA[
+<div> 。
+
+Here's the summary in Chinese as requested:
+
+SearchLink、浏览器、书签、历史记录、Bug修复
+
+<br><br>总结:
+1. 作者修复了SearchLink的一些Bug。
+2. 改进了浏览器搜索工具,现可扫描Arc、Chrome、Firefox、Edge和Safari的书签和浏览历史。
+3. 新增了对浏览器多个配置文件的支持,可在所有配置文件中搜索匹配项。
+4. 更新了对Arc浏览器的支持,适应其书签文件格式的变化。
+5. 推荐Markdown写作者试用SearchLink工具。
+6. 发布了SearchLink v2.3.69版本,可生成网络搜索的Markdown链接。 <div>
+<p>[SearchLink]: <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">searchlink</a>
+[wiki]: https://github.com/ttscoff/searchlink/wiki/Searching-Browser-History-And-Bookmarks</p>
+
+<p>As many of these updates seem to, this one started with a bug report from my friend Jay Miller, which caused me to run the test suite on [SearchLink] and discover a few things had broken since I last looked at it. So you get an update.</p>
+
+<p>Aside from fixing bugs that had cropped up, I spent some time on the various browser searching tools. SearchLink can [scan your browser bookmarks and browsing history][wiki] to find the most relevant link for a search term. It works with Arc, Chrome, Firefox, Edge, and Safari. And it&rsquo;s pretty cool for grabbing links to things you&rsquo;ve already visited or bookmarked.</p>
+
+<p>Now these tools also work with profiles in most browsers, scanning all available profiles for matches. You can&rsquo;t currently specify a single profile, but if a bookmark or history item exists in <em>any</em> of your profiles, it will be found.</p>
+
+<p>I also overhauled the Arc support, as the bookmark file format has changed since I first implemented it, diverging from standard Chromium fare. Should work fine now.</p>
+
+<p>Not a major update, but it&rsquo;s worth mentioning. If you write Markdown and haven&rsquo;t tried SearchLink, I highly recommend [taking a look][SearchLink]!</p>
+
+<p>Download the latest version below:</p>
+
+<div class="download" id="dlbox"><h4>SearchLink v2.3.69</h4><p class="dl-icon"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.69"><img height="100" src="https://cdn3.brettterpstra.com/uploads/2023/01/searchlink-thumbnail.jpg" width="100" /></a></p><div class="dl-body"><p class="dl-link"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.69">Download SearchLink v2.3.69</a></p><p class="dl-description">Generate Markdown links from web searches without leaving your editor. Unzip and double click the Services to install.</p><p class="dl-published">Published 11/10/14.</p><p class="dl-updated">Updated 08/09/24. <a class="changelog" href="https://brettterpstra.com/projects/searchlink/#changelog">Changelog</a></p><p class="dl-info"><a href="https://brettterpstra.com//donate/">Donate</a> &bull; <a href="https://brettterpstra.com//projects/searchlink/" title="More information on SearchLink">More info&hellip;</a></p></div></div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F09%2Fsearchlink-with-improved-bookmark-and-history-searching%2F&amp;text=SearchLink+with+improved+bookmark+and+history+searching&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F09%2Fsearchlink-with-improved-bookmark-and-history-searching%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16767225.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-08-09T12:47:00-05:00</pubDate>
+<pubDate>2024-08-09T12:47:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Speed up development with Howzit templates</title>
