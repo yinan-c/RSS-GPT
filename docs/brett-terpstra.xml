@@ -4,6 +4,47 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Add SearchLink plugins using any programming language</title>
+<link>https://brett.trpstra.net/link/535/16767700/add-searchlink-plugins-using-any-programming-language</link>
+<guid>https://brett.trpstra.net/link/535/16767700/add-searchlink-plugins-using-any-programming-language</guid>
+<content:encoded><![CDATA[
+<div> 。:
+
+关键词: SearchLink插件 Python脚本 YAML/JSON配置 URL处理 多语言支持
+
+<br><br>总结:
+1. 作者梦到有人询问是否可以用Python编写SearchLink插件,尽管答案是否定的,但启发了作者。
+2. 现在可以用任何编程语言编写脚本,只要返回带有适当键的YAML或JSON,就可以作为SearchLink插件使用。
+3. 每个插件需要一个YAML或JSON格式的配置文件,详细信息在文档中。
+4. 新增了处理文档或选择中裸URL的功能。如果设置complete_bare: true,未自链接或未作为Markdown链接的URL将转换为完整的Markdown链接,链接文本为页面标题。
+5. 这个功能特别适合收集播客节目笔记或博客链接文章,只需一个URL列表即可。
+6. 作者鼓励读者分享或支持这篇文章。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="searchlink-text-short-400.jpg" class="alignright" height="142" src="https://cdn3.brettterpstra.com/uploads/2023/01/searchlink-text-short-400.jpg" title="searchlink-text-short-400.jpg" width="400" />
+              </noscript>
+            
+<p>Last night I had a dream that someone had asked if they could write <a href="https://brettterpstra.com/projects/searchlink/">SearchLink</a> plugins in Python. The answer was no, but it got me thinking. To be clear, no one has asked for this, but I did some Saturday morning coding anyway.</p>
+
+<p>You can now write a script in any language, and as long as it returns YAML or JSON with appropriate keys, it will work as a SearchLink plugin. So anything you can get results from in your favorite language, you can add to SearchLink.</p>
+
+<p>Each plugin requires a config file, which can be YAML or JSON. Details are now all in the <a href="https://github.com/ttscoff/searchlink/wiki/Plugins#script-plugins">Plugins wiki page</a>.</p>
+
+<p>I also added a new feature for processing bare URLs in a document or selection. If <code class="language-plaintext highlighter-rouge">complete_bare: true</code> is <a href="https://github.com/ttscoff/searchlink/wiki/Configuration">set in config</a> or at the top of a file/selection, any URLs that are not self-linked (wrapped in angle brackets) or part of a Markdown link (in parenthesis or after &ldquo;: &ldquo;) will be turned into full Markdown links with page titles as link text. It&rsquo;s perfect for gathering Podcast show notes or blog link posts when you just have a list of URLs.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F10%2Fadd-searchlink-plugins-using-any-programming-language%2F&amp;text=Add+SearchLink+plugins+using+any+programming+language&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F10%2Fadd-searchlink-plugins-using-any-programming-language%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16767700.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-08-10T13:38:00-05:00</pubDate>
+<pubDate>2024-08-10T13:38:00-05:00</pubDate>
+</item>
 
 <item>
 <title>SearchLink with improved bookmark and history searching</title>
