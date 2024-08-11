@@ -4,6 +4,7 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Add SearchLink plugins using any programming language</title>
 <link>https://brett.trpstra.net/link/535/16767700/add-searchlink-plugins-using-any-programming-language</link>
@@ -13,7 +14,7 @@
 
 关键词: SearchLink插件 Python脚本 YAML/JSON配置 URL处理 多语言支持
 
-<br><br>总结:
+<br /><br />总结:
 1. 作者梦到有人询问是否可以用Python编写SearchLink插件,尽管答案是否定的,但启发了作者。
 2. 现在可以用任何编程语言编写脚本,只要返回带有适当键的YAML或JSON,就可以作为SearchLink插件使用。
 3. 每个插件需要一个YAML或JSON格式的配置文件,详细信息在文档中。
@@ -43,9 +44,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16767700.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-08-10T13:38:00-05:00</pubDate>
-<pubDate>2024-08-10T13:38:00-05:00</pubDate>
 </item>
-
 <item>
 <title>SearchLink with improved bookmark and history searching</title>
 <link>https://brett.trpstra.net/link/535/16767225/searchlink-with-improved-bookmark-and-history-searching</link>
