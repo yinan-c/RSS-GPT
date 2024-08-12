@@ -29921,3 +29921,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-12 04:04:01.198138
+------------------------------------------------------
+Started: 2024-08-12 06:04:39.275236
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 4251
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：北京发布直播带货合规指引](https://sspai.com/post/91376)
+append_entries: 1
+Finish: 2024-08-12 06:04:41.466185
