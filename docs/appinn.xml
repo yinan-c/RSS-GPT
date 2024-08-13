@@ -4,6 +4,26 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[旧闻] Zotero 7.0 正式发布：支持 EPUB&amp;HTML 批注功能</title>
+<link>https://meta.appinn.net/t/topic/59857</link>
+<guid>https://meta.appinn.net/t/topic/59857</guid>
+<content:encoded><![CDATA[
+
+<p>我是发现 Zotero 在跟 <a href="https://meta.appinn.net/t/topic/42383">InfiniCLOUD</a> 同步附件时显示证书错误然后去 Zotero 论坛发现的</p>
+
+Zotero for Android 也开始内测了 <a href="https://meta.appinn.net/t/topic/59857/1">（点击了解更多详细信息）</a>
+<blockquote>
+<p><a href="https://www.zotero.org/blog/zotero-7/" rel="noopener nofollow ugc">Zotero 7: Zotero, redesigned </a></p>
+</blockquote>
+<p>坏处大约是 Zotero 7 更改了插件 API，所有插件均需重写。大家熟悉的 Zotfile 插件作者确认将不再更新，不过考虑到 Zotero 7 beta 了这么长时间，应该早就有替代品了</p>
+<p>P.S. Scoop 用户还在等上游更新</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/59857">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 13 Aug 2024 05:38:00 +0000</pubDate>
+<pubDate>Tue, 13 Aug 2024 05:38:00 +0000</pubDate>
+</item>
 
 <item>
 <title>iPad如何长截图？</title>
