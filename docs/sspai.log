@@ -30032,3 +30032,15 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [App+1 | 16 年前「没人玩」的游戏，续作也不按套路走：粘粘世界 2](https://sspai.com/post/91358)
 append_entries: 1
 Finish: 2024-08-13 10:03:48.351274
+------------------------------------------------------
+Started: 2024-08-13 12:05:10.667146
+Existing_entries: 1001
+Fetching from https://rsshub.app/sspai/index
+Token length: 3466
+Summarized using claude-3-5-sonnet@20240620
+Append: [家庭居酒屋备货指南：基酒篇](https://sspai.com/post/91311)
+Token length: 9244
+Summarized using claude-3-5-sonnet@20240620
+Append: [蝴蝶终飞去：蝶式键盘的前世今生](https://sspai.com/post/91242)
+append_entries: 2
+Finish: 2024-08-13 12:05:14.857565
