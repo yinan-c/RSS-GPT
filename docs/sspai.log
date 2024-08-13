@@ -30023,3 +30023,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-13 08:04:34.873261
+------------------------------------------------------
+Started: 2024-08-13 10:03:46.172488
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 3581
+Summarized using claude-3-5-sonnet@20240620
+Append: [App+1 | 16 年前「没人玩」的游戏，续作也不按套路走：粘粘世界 2](https://sspai.com/post/91358)
+append_entries: 1
+Finish: 2024-08-13 10:03:48.351274
