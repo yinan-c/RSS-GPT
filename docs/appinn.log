@@ -33808,3 +33808,11 @@ Append: [[旧闻] Zotero 7.0 正式发布：支持 EPUB&HTML 批注功能](https
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-08-13 06:04:20.864373
+------------------------------------------------------
+Started: 2024-08-13 08:04:25.306515
+Existing_entries: 513
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-08-13 08:04:28.636754
