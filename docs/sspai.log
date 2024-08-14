@@ -30101,3 +30101,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-14 06:04:25.128130
+------------------------------------------------------
+Started: 2024-08-14 08:04:20.560710
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 5793
+Summarized using claude-3-5-sonnet@20240620
+Append: [Google 硬件发布会回顾：Gemini 分量管饱，AI 体验保真](https://sspai.com/post/91450)
+append_entries: 1
+Finish: 2024-08-14 08:04:23.123269
