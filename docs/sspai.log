@@ -30110,3 +30110,12 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [Google 硬件发布会回顾：Gemini 分量管饱，AI 体验保真](https://sspai.com/post/91450)
 append_entries: 1
 Finish: 2024-08-14 08:04:23.123269
+------------------------------------------------------
+Started: 2024-08-14 10:03:47.054076
+Existing_entries: 1001
+Fetching from https://rsshub.app/sspai/index
+Token length: 10999
+Summarized using claude-3-5-sonnet@20240620
+Append: [社区速递 057 | 你没见过的社区文章、一周最热评、派友七月买了啥](https://sspai.com/post/91435)
+append_entries: 1
+Finish: 2024-08-14 10:03:49.994676
