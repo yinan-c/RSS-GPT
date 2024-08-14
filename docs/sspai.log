@@ -30125,3 +30125,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-14 12:05:36.511622
+------------------------------------------------------
+Started: 2024-08-14 14:04:03.641206
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 4600
+Summarized using claude-3-5-sonnet@20240620
+Append: [一台更实用的「iPhone」：小米 14 半年体验](https://sspai.com/post/89643)
+append_entries: 1
+Finish: 2024-08-14 14:04:06.009121
