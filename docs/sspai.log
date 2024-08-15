@@ -30185,3 +30185,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-15 06:04:24.362271
+------------------------------------------------------
+Started: 2024-08-15 08:04:25.997742
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2762
+Summarized using claude-3-5-sonnet@20240620
+Append: [长辈们的健康也能被量化：聊聊《中国健康老年人标准》](https://sspai.com/post/91412)
+append_entries: 1
+Finish: 2024-08-15 08:04:28.208398
