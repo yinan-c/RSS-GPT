@@ -30272,3 +30272,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-16 06:04:14.444994
+------------------------------------------------------
+Started: 2024-08-16 08:04:24.042015
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 11758
+Summarized using claude-3-5-sonnet@20240620
+Append: [关于猴痘病毒，你现在需要了解这些](https://sspai.com/post/74231)
+append_entries: 1
+Finish: 2024-08-16 08:04:26.825306
