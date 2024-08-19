@@ -30518,3 +30518,15 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-19 08:04:51.718755
+------------------------------------------------------
+Started: 2024-08-19 10:03:55.531184
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 5119
+Summarized using claude-3-5-sonnet@20240620
+Append: [八个月里数台数码新品，我们用「众测」发现了骁龙芯片的更多惊喜](https://sspai.com/post/91496)
+Token length: 1757
+Summarized using claude-3-5-sonnet@20240620
+Append: [寻源大圣：黑神话悟空背后的民俗及文化起源](https://sspai.com/post/91582)
+append_entries: 2
+Finish: 2024-08-19 10:03:58.991394
