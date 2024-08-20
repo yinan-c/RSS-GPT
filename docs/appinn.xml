@@ -4,6 +4,106 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>告别手动记账和Excel，用“FIREWay记账”踏上财务自由旅程(MacOS)</title>
+<link>https://meta.appinn.net/t/topic/60145</link>
+<guid>https://meta.appinn.net/t/topic/60145</guid>
+<content:encoded><![CDATA[
+
+<p>FIREWay是MacOS平台的记账/财务管理软件。<br />
+主打账单导入、账单AI分类、并将FIRE理念融入到产品中。</p>
+<hr />
+<p><strong>记账工具很多，为什么我用了几年Excel记账后，还要做一款记账工具呢？</strong></p>
+<hr />
+<p><strong>手动记账容易上手，但打断生活</strong></p>
+<p>我从12年左右开始用挖财记账，持续用了几年时间。挖财能很好的帮助我算每个月的开支情况。<br />
+但是随着工作越来越忙，慢慢的我发现我没办法手动记录每一笔开支。<br />
+特别是很多消费场景是匆忙的，我渐渐的放弃了挖财。</p>
+<hr />
+<p><strong>Excel账单记账不打断，但重复</strong></p>
+<p>后来我发现了更方便的记账方式，在电脑上从支付宝等渠道导出csv格式的账单，然后用Excel分析。<br />
+相比手动记账，不影响生活消费。只需要每个月的月初，花1-2小时就可以完成记账。这个习惯我坚持了很多年。</p>
+<hr />
+<p><strong>为什么想做个AI记账工具</strong></p>
+<p>Excel记账有大量手动操作。</p>
+<p>1、需要过滤数据。从支付宝等导出的账单包含所有状态的记录，退款、转入余额宝等账单都会导出，需要手动去过滤。收和支要拆开处理</p>
+<p>2、需要整合数据。我自己的消费账单主要在微信和支付宝，两者账单格式不太一样，需要处理2遍。</p>
+<p>3、手动分类。除了知道开支多少，肯定想知道花在哪里了，需要手动去分类几百条消费记录，要花不少时间。</p>
+<p>所以希望做一个App来解决重复劳动。第一个版本的的FIREWay很简单，只有导入账单，整理账单和看分类支出的功能。</p>
+<hr />
+<p><strong>关于FIRE理念，普通人如何财务自由</strong></p>
+<p>大家可能会好奇，为什么软件名字叫FIREWay。FIRE是财务自由的缩写。</p>
+<p>在十几年前，我在豆瓣上关注了“FIRE小组”，对我的消费观有了很大的影响。</p>
+<p>FIRE的核心理念是：<strong>普通人也可以财务自由</strong>。控制开支，储蓄积累资产，让资产带来睡后收入，当睡后收入可以覆盖开支的时候，你就“自由”了</p>
+<p>虽然过程可能需要5年，10年，甚至更长时间。</p>
+<hr />
+<p><strong>FIREWay与传统记账的理念、功能差异</strong></p>
+<p>Fire理念除了关注支出情况，还关注<strong>常态性开支</strong>和<strong>被动收入</strong>的关系。</p>
+<p>在FIREWay你可以将一些收入标记为“被动收入”，例如利息、股息、房租收入、软件收入也可以算是被动收入。</p>
+<p>常态性开支：将一些消费账单不纳入统计，或者标记为非常态的开支，从而知道正常情况下，每个月要花多少钱。</p>
+<p>当被动收入大于常态性开支的时候，你就FIRE了。</p>
+<p>软件现在还比较早期，欢迎大家给反馈和建议。评论里面送年会员兑换码。</p>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<p>最后按照标准格式介绍一下产品</p>
+<p>软件名：FIREWay</p>
+<p>应用平台：MacOS</p>
+<p>一句简介：以FIRE理念设计的记账/财务管理软件</p>
+<p><strong>主要价值和功能：</strong></p>
+<p>1、FIRE理念设计。收入会区分工薪收入与被动收入。支出会区分是不是常态性发生的。了解和FIRE的差距。</p>
+<p>2、全面记账。汇聚导入多渠道账单（目前支持支付宝和微信）</p>
+<p>2、账单自动分类，知道钱都花在哪里了。通过AI将导入的账单分类</p>
+<p>3、支持自定义类目。可以自定义支出和收入的类目。</p>
+<p><strong>下载地址</strong></p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+
+      <a href="https://apps.apple.com/cn/app/fireway%E8%AE%B0%E8%B4%A6-%E5%A4%9A%E6%B8%A0%E9%81%93%E8%B4%A6%E5%8D%95%E5%AF%BC%E5%85%A5-%E7%BB%9F%E8%AE%A1%E5%AE%9E%E9%99%85%E6%94%B6%E6%94%AF%E4%B8%8E%E8%A2%AB%E5%8A%A8%E6%94%B6%E5%85%A5/id6504605077?mt=12" rel="noopener nofollow ugc" target="_blank">Mac&nbsp;App&nbsp;Store</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="500" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/6b/bc/f86bbcc7-7cf3-40a2-dcd6-5353a4337a7f/AppIcon-0-0-85-220-0-5-0-2x.png/1200x630bb.png" width="500" /></div>
+
+<h3><a href="https://apps.apple.com/cn/app/fireway%E8%AE%B0%E8%B4%A6-%E5%A4%9A%E6%B8%A0%E9%81%93%E8%B4%A6%E5%8D%95%E5%AF%BC%E5%85%A5-%E7%BB%9F%E8%AE%A1%E5%AE%9E%E9%99%85%E6%94%B6%E6%94%AF%E4%B8%8E%E8%A2%AB%E5%8A%A8%E6%94%B6%E5%85%A5/id6504605077?mt=12" rel="noopener nofollow ugc" target="_blank">‎FIREWay记账 -多渠道账单导入,统计实际收支与被动收入</a></h3>
+
+  <p>‎FIREWay是一款Mac端的记账/财务软件App
+以FIRE理念设计研发，希望可以帮助你财务自由、早日退休
+
+1、快速开支分析
+只需要按照步骤导入支付宝/微信账单，AI自动分类，知道钱花到哪里了。
+从此不需要一笔笔记账，几分钟搞定
+
+2、以FIRE理念研发
+更准确的主动(薪酬)收入、被动(睡后)收入、开支情况
+快整整理收支，更准确真实的记录收支
+自动计算储蓄率与财务自由度
+
+3、数据本地存储，保护你的隐私
+
+————————————————————————
+
+产品分为普通会员和Pro会员
+普...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/60145">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 20 Aug 2024 03:19:38 +0000</pubDate>
+<pubDate>Tue, 20 Aug 2024 03:19:38 +0000</pubDate>
+</item>
 
 <item>
 <title>[有] 有没有对网页输入框中内容进行替换的浏览器插件？</title>
