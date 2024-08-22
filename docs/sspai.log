@@ -30764,3 +30764,15 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [派早报：PICO 4 Ultra 发布、《纪念碑谷 3》首发 Netflix 等](https://sspai.com/post/91697)
 append_entries: 1
 Finish: 2024-08-22 06:04:26.739062
+------------------------------------------------------
+Started: 2024-08-22 08:04:15.137236
+Existing_entries: 1001
+Fetching from https://rsshub.app/sspai/index
+Token length: 1225
+Summarized using claude-3-5-sonnet@20240620
+Append: [线下活动：不止于玩 |《黑神话：悟空》探索工坊及 3A 游戏差异视角研讨会](https://sspai.com/post/91700)
+Token length: 2640
+Summarized using claude-3-5-sonnet@20240620
+Append: [移动应用创新赛开赛，今年都有哪些新看点](https://sspai.com/post/91683)
+append_entries: 2
+Finish: 2024-08-22 08:04:18.935551
