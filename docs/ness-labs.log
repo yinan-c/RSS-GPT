@@ -11424,3 +11424,15 @@ Existing_entries: 36
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-08-22 14:04:32.769085
+------------------------------------------------------
+Started: 2024-08-22 16:04:35.955440
+Existing_entries: 36
+Fetching from https://nesslabs.com/feed
+Token length: 5101
+Summarized using claude-3-5-sonnet@20240620
+Append: [The Science-Based Benefits of Writing](https://nesslabs.com/science-based-benefits-writing?utm_source=rss&utm_medium=rss&utm_campaign=science-based-benefits-writing)
+Token length: 6884
+Summarized using claude-3-5-sonnet@20240620
+Append: [Operate with Confidence with Dawson Whitfield, founder of Venturekit](https://nesslabs.com/venturekit-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=venturekit-featured-tool)
+append_entries: 2
+Finish: 2024-08-22 16:04:39.654016
