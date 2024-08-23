@@ -34773,3 +34773,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-08-23 06:04:14.295933
+------------------------------------------------------
+Started: 2024-08-23 08:05:01.187308
+Existing_entries: 518
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [给女儿写的自动听写工具网页](https://meta.appinn.net/t/topic/29959)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-08-23 08:05:04.508967
