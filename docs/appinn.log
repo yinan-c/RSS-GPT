@@ -35080,3 +35080,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-08-26 10:03:39.117860
+------------------------------------------------------
+Started: 2024-08-26 12:05:16.191215
+Existing_entries: 521
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [是否有原样保存 Edge 的标签分组的插件](https://meta.appinn.net/t/topic/42357)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-08-26 12:05:20.133856
