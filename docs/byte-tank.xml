@@ -4,6 +4,7 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+
 <item>
 <title>UK Investment Guide</title>
 <link>https://lopespm.com/notes/2024/08/26/uk-investment-guide.html</link>
@@ -242,10 +243,8 @@
   </ol>
 </div>
 ]]></content:encoded>
-
 <pubDate>2024-08-26T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Personal Local (Llama3 8B) LLM extended with WhatsApp + Obsidian Data</title>
 <link>https://lopespm.com/machine_learning/2024/06/24/personal-llm.html</link>
