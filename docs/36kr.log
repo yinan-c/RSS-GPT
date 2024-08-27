@@ -51862,3 +51862,20 @@ Fetching from https://rsshub.app/36kr/motif/327686815745
 Fetching from https://rsshub.app/36kr/motif/327685734401
 append_entries: 0
 Finish: 2024-08-27 02:19:09.370170
+------------------------------------------------------
+Started: 2024-08-27 04:04:24.817941
+Existing_entries: 579
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/327687077889
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Append: [2024秋季搜狐视频播主大会定档9月22日 启动以视频会友关注流新场面](https://www.36kr.com/p/2923779234831236)
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 1
+Finish: 2024-08-27 04:06:01.602373
