@@ -35161,3 +35161,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-08-27 06:04:38.845618
+------------------------------------------------------
+Started: 2024-08-27 08:04:13.500858
+Existing_entries: 522
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [离线保存网页完整功能](https://meta.appinn.net/t/topic/60368)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-08-27 08:04:16.144206
