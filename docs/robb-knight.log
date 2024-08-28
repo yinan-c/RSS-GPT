@@ -25808,3 +25808,12 @@ Existing_entries: 361
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-08-28 14:03:50.568379
+------------------------------------------------------
+Started: 2024-08-28 16:03:59.611932
+Existing_entries: 361
+Fetching from https://rknight.me/feed.xml
+Token length: 672
+Summarized using claude-3-5-sonnet@20240620
+Append: [St Jude 2024](https://rknight.me/blog/st-jude-2024/)
+append_entries: 1
+Finish: 2024-08-28 16:04:07.914043
