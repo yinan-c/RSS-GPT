@@ -4,6 +4,59 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>文件类似浏览器网页切换</title>
+<link>https://meta.appinn.net/t/topic/60406</link>
+<guid>https://meta.appinn.net/t/topic/60406</guid>
+<content:encoded><![CDATA[
+
+<p>请问大家，有没有什么工具或者软件，能够实现下面的功能：打开的多个excel或者word文件，可以直接在一个窗口里面切换，就像浏览器切换页面一样。<br />
+现在的切换方式真的太费手了，感谢大家的回答。</p>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/60406">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 28 Aug 2024 09:24:53 +0000</pubDate>
+<pubDate>Wed, 28 Aug 2024 09:24:53 +0000</pubDate>
+</item>
+<item>
+<title>Veusz——开源、免费、轻量级的科研作图软件</title>
+<link>https://meta.appinn.net/t/topic/60405</link>
+<guid>https://meta.appinn.net/t/topic/60405</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-221495-h-1" name="p-221495-h-1"></a>软件名称</h2>
+<p>Veusz</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-221495-h-2" name="p-221495-h-2"></a>软件官网</h2>
+<ul>
+<li>主页：<a href="https://veusz.github.io/">https://veusz.github.io/</a>
+<ul>
+<li>演示：<a href="https://veusz.github.io/examples/">https://veusz.github.io/examples/</a></li>
+<li>截图：<a href="https://veusz.github.io/screenshots/">https://veusz.github.io/screenshots/</a></li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-221495-h-3" name="p-221495-h-3"></a>推荐类型</h2>
+<p>【用户推荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-221495-h-4" name="p-221495-h-4"></a>一句话简介</h2>
+<p>开源、免费、轻量级的科研作图软件，可绘制散点图、柱状图（包括面积堆积图）、函数曲线等多种图表，支持 Linux、BSD 等平台。</p>
+<p>这里有一位 UP 主制作的入门指南：<a href="https://www.bilibili.com/video/BV15T4y1u7tu/">https://www.bilibili.com/video/BV15T4y1u7tu/</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-221495-h-5" name="p-221495-h-5"></a>软件平台</h2>
+<ul>
+<li>Windows</li>
+<li>Linux</li>
+<li>FreeBSD、OpenBSD、NetBSD</li>
+<li>MacOS</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-221495-h-6" name="p-221495-h-6"></a>其他想说的话</h2>
+<p>之前要画各种图表的时候，其他人推荐的软件基本上清一色是 Origin，当然也有老师建议我用 SigmaPlot。但要命的是，我是 Linux 用户。另外，Origin 和 SigmaPlot 也不便宜。好在遇到了 Veusz 这个好东西。</p>
+<p>其实我上述三种绘图软件都用过，没法说谁更好，只能说各有千秋。<a href="https://www.originlab.com/">Origin</a> 和 <a href="https://systat-sigmaplot.com/">SigmaPlot</a>，虽然昂贵而且体积庞大，但其功能也是非常强的。Veusz 呢，免费而且体积小巧，我们自然不能指望它完全代替前两个家伙。但实际使用下来，Veusz 的表现也是很不错的。至少对付本科学位论文是完全没问题的。</p>
+<p>Veusz 的操作逻辑和 Origin 以及 SigmaPlot 有点不一样，如果你能和它对上电波，相信这个小家伙会成为你科研路上的好朋友。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/60405">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 28 Aug 2024 09:11:45 +0000</pubDate>
+<pubDate>Wed, 28 Aug 2024 09:11:45 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】Chrome拓展：可以将将Notion Page转成长图或卡片</title>
