@@ -31241,3 +31241,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-28 00:13:02.848592
+------------------------------------------------------
+Started: 2024-08-28 02:19:38.007093
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2072
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：日版 PS5 价格上调、Claude AI 系统提示词公开等](https://sspai.com/post/91840)
+append_entries: 1
+Finish: 2024-08-28 02:19:40.133011
