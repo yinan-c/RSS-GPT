@@ -31331,3 +31331,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-08-29 02:20:44.275200
+------------------------------------------------------
+Started: 2024-08-29 04:04:22.585202
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 2365
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：佳明发布新品、索尼推出 PC 端 PlayStation 配件应用等](https://sspai.com/post/91864)
+append_entries: 1
+Finish: 2024-08-29 04:04:24.836736
