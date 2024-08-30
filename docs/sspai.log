@@ -31448,3 +31448,12 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [App+1 | 捏个朋友一起专注，主打陪伴的番茄钟：gogh](https://sspai.com/post/91696)
 append_entries: 1
 Finish: 2024-08-30 10:03:42.559859
+------------------------------------------------------
+Started: 2024-08-30 12:05:09.895030
+Existing_entries: 1001
+Fetching from https://rsshub.app/sspai/index
+Token length: 6179
+Summarized using claude-3-5-sonnet@20240620
+Append: [本周看什么 | 最近值得一看的 8 部作品](https://sspai.com/post/91920)
+append_entries: 1
+Finish: 2024-08-30 12:05:12.613430
