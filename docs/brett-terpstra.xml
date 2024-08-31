@@ -4,6 +4,64 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Updated: generate slick changelogs from Git commits</title>
+<link>https://brett.trpstra.net/link/535/16789692/updated-generate-slick-changelogs-from-git-commits</link>
+<guid>https://brett.trpstra.net/link/535/16789692/updated-generate-slick-changelogs-from-git-commits</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<p>7 years ago I <a href="https://brettterpstra.com/2017/08/14/automatic-release-notes-from-git-commit-messages/">wrote about a script</a> I was using to generate changelogs for Marked. Since then I&rsquo;ve continued updating the script to work with just about all of my projects, from Xcode projects to Ruby gems to scripts that just have a VERSION file in the same directory. It can output a few different formats of changelog to accommodate all of my different documentation formats. So I&rsquo;m posting it again.</p>
+
+<p>Since it&rsquo;s unlikely anyone remembers, this script uses Git tags to determine what commits have been made since the last release. This works well with git-flow, but any setup that creates tagged releases will work. It parses commit messages for lines like <code class="language-plaintext highlighter-rouge">- FIXED: description of fix</code>, and it now works with a more &ldquo;tag-like&rdquo; syntax: <code class="language-plaintext highlighter-rouge">@fix description of fix</code>. It gathers all of these lines from the commit messages and outputs a Markdown-formatted changelog, ready for release notes or website posting.</p>
+
+<p>It&rsquo;s simple yet highly effective. Any time I make a change I want to include in the release notes, I just make sure to include a tagged line in the commit message. It works with commit subjects as well as commit notes. Then, when it&rsquo;s time to release, I just run <code class="language-plaintext highlighter-rouge">changelog</code> and get my output for sharing. It can also update a CHANGELOG.md file by running <code class="language-plaintext highlighter-rouge">changelog -u</code>. It detects the format of the file and adds appropriately-formatted notes to the file, recognizing if there&rsquo;s already an entry for the current version number and replacing it.</p>
+
+<p>Some of the customizations are specific to the formatting I use for Bunch notes, which include syntax for custom Jekyll plugins for icons and availability. These won&rsquo;t be of use to anyone else, but unless your directory structure happens to exactly match the one I use for Bunch, or you use the <code class="language-plaintext highlighter-rouge">--format bunch</code> flag, you&rsquo;ll never see those. But if you want to edit the script to fit <em>your</em> specific needs, you can see how it&rsquo;s done.</p>
+
+<p>Eventually I&rsquo;ll probably generalize this and make it work with templates and a config file with regexes for matching types and formats, but for now it&rsquo;s just open to your hacking. This script has been a <em>huge</em> timesaver for me and has resulted in very complete release notes and changelogs I can be proud of. I hope it does the same for you.</p>
+
+<p><a href="https://gist.github.com/ttscoff/17fbce4f229609082b45681bba7a9967">Grab the script here.</a></p>
+
+<p>The available tags are:</p>
+
+<ul>
+  <li>@change, @changed</li>
+  <li>@breaking, @deprecated</li>
+  <li>@rem, @removed</li>
+  <li>@fix, @fixed</li>
+  <li>@imp, @improved, @improvement</li>
+  <li>@add, @added, @new</li>
+</ul>
+
+<p>All of these can be in the format <code class="language-plaintext highlighter-rouge">- TAGNAME: description</code> or <code class="language-plaintext highlighter-rouge">@tagname description</code>. The first letter of the description will be capitalized when the release notes are rendered.</p>
+
+<p>You can also use <code class="language-plaintext highlighter-rouge">changelog --select</code> to pop up an <code class="language-plaintext highlighter-rouge">fzf</code> selection of all tags, allowing you to generate release notes added since any previous version. Use <code class="language-plaintext highlighter-rouge">changelog --only TYPE</code> to output only changes of a type (changed, new, improved, deprecated).</p>
+
+<p>You can also use this script in combination with a tool like <code class="language-plaintext highlighter-rouge">gh</code> to output a changelog when creating a GitHub release. Just pass output of the  <code class="language-plaintext highlighter-rouge">changelog</code> command to any command that accept input on STDIN.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>Usage: changelog [options] [CHANGELOG_FILE] [APP_NAME]
+      Gets git log entries since last tag containing CHANGED, NEW, IMPROVED, FIXED, REMOVED
+    -c, --copy                       Copy results to clipboard
+    -f, --format FORMAT              Output format (def_list|bunch|markdown)
+    -o, --only TYPES                 Only output changes of type (changed, new, improved, fixed, deprecated)
+        --file PATH                  File to read additional commit messages from (for commit-msg hooks)
+    -s, --select                     Choose "since" tag
+    -u, --update [FILE]              Update changelog file
+    -v, --version=VER                Force version (skips version detection)
+    -n, --no_version                 Skip version check (prevents header output)
+    -h, --help                       Display this screen</code></pre></div></div>
+
+<p>Have fun, and may your changelogs be informative and complete. Again, <a href="https://gist.github.com/ttscoff/17fbce4f229609082b45681bba7a9967">here&rsquo;s the script</a>. That Gist will be updated as I make changes to the script over time, so check the Gist comments for additional notes as this post ages. If I get around to making a package out of this (with templates and config and such), there will be a new post about it, of course. Based on a quick search there are a ton of changelog generators already out there, so this will probably remain a script that fits my personal needs perfectly, and is easily hacked around with by others.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F31%2Fupdated-generate-slick-changelogs-from-git-commits%2F&amp;text=Updated%3A+generate+slick+changelogs+from+Git+commits&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F08%2F31%2Fupdated-generate-slick-changelogs-from-git-commits%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16789692.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-08-31T14:02:00-05:00</pubDate>
+<pubDate>2024-08-31T14:02:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Relaunched T-shirts for The Lab and Rock Scissors</title>
