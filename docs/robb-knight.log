@@ -26045,3 +26045,12 @@ Existing_entries: 362
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-08-31 20:03:45.664553
+------------------------------------------------------
+Started: 2024-08-31 22:04:18.712751
+Existing_entries: 362
+Fetching from https://rknight.me/feed.xml
+Token length: 1387
+Summarized using claude-3-5-sonnet@20240620
+Append: [My First Car Lasted Less Time Than Liz Truss Did as Prime Minister](https://rknight.me/blog/my-first-car-lasted-less-time-than-liz-truss-did-as-prime-minister/)
+append_entries: 1
+Finish: 2024-08-31 22:04:23.174572
