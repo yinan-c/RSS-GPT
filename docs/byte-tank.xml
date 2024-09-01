@@ -4,6 +4,170 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+<item>
+<title>Investment Tracker - Free Spreadsheet Template</title>
+<link>https://lopespm.com/notes/2024/09/01/investment-tracker.html</link>
+<guid>https://lopespm.com/notes/2024/09/01/investment-tracker.html</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<p>Do you know:</p>
+
+<ul>
+  <li>Your current net worth?</li>
+  <li>How much money do you have in the bank?</li>
+  <li>Which are your most profitable investments?</li>
+  <li>Which investments do you currently have?</li>
+  <li>How much of your revenue (e.g. salary) contributes to your wealth?</li>
+  <li>How did the above evolve over time?</li>
+</ul>
+
+<p>If coming up with the above answers is hard, or their values are fuzzy, then it might be time to revamp your <a href="https://lopespm.com/notes/2024/08/26/uk-investment-guide.html">investment</a> tracking.</p>
+
+<p>This article will:</p>
+
+<ul>
+  <li>share a Google Spreadsheet template to track your investments, and explain it</li>
+  <li>provide a guide on how to use it</li>
+  <li>suggest a simple process to make sure the above questions will not be a problem anymore</li>
+</ul>
+
+<!--more-->
+
+<h1 id="the-template">The Template</h1>
+
+<h2 id="get-it">Get it</h2>
+
+<ul>
+  <li><strong>Download / copy the <a href="https://docs.google.com/spreadsheets/d/1cR0oOcvwQIXsdOEbtFBoneOfdzrVYB_QkADc1h0BTBk/edit?usp=sharing">Google Sheet Template here</a></strong></li>
+  <li><a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#how-to-use-it">How to use it</a></li>
+</ul>
+
+<h2 id="how-it-is-structured">How it is structured</h2>
+
+<p>The template has several sheets, which are built to have the essential tracking elements that can be immediately used, while also allowing for extensibility for your own custom case.</p>
+
+<h3 id="dates-sheet">Dates sheet</h3>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/investment-tracker/pdates.png" />
+           
+         </center>
+
+<p>The entire sheeet revolves around these dates. Each of these represents the temporal <em>snapshot</em> of all your assets. All the other sheets use these dates as the starting point for their values, and this would be first thing you would add whenever entering a new series of entries</p>
+
+<h3 id="revenue-sheet">Revenue sheet</h3>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/investment-tracker/prevenue.png" />
+           
+         </center>
+
+<p>Represents all the resources <em>coming in</em>, which are not a result of your investments. This could be the income from your salary, side-hustle, the app you are selling on the app store, etc.</p>
+
+<h3 id="account-sheet">Account sheet</h3>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/investment-tracker/paccount.png" />
+           
+         </center>
+
+<p>There are two example account sheets provided with the template, each representing a different account on your portfolio, but you can add how many you would need. These could be your bank account, transaction broker, private pension, etc. To create a new one, grab one of the example account sheets, and copy it into a new spreadsheet.</p>
+
+<p>On the template, the <em>Example Account1</em> shows how a bank account could roughly look like, and <em>Example Account2</em> how an investment platform (such as Vanguard) could look like.</p>
+
+<p>Each of the account sheets is structured in the following way:</p>
+
+<ul>
+  <li>Current status: a look at the present, and comparison with the last update
+    <ul>
+      <li><strong>Date Column</strong>: referenced from the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#dates-sheet">dates sheet</a>, representing the date of this current <em>snapshot</em></li>
+      <li><strong>Top up movement</strong>: any money that you deposited in this account since the last date, would be accounted for here. For example, salary that is deposited, on deposits made in an investment broker. The objective here is to keep track of the money coming into a specific account, so that its performance doesnt look better than it really is.</li>
+      <li><strong>Not Invested</strong>: all uninvested money sitting in the account. For example, money in a bank account which does not yield interest.</li>
+      <li><strong>Invested</strong>: all money invested in this account. For example, the amount of money invested in a transaction broker, which is currently invested in stocks or ETFs.</li>
+      <li><strong>Investment Delta</strong>: the investment difference between the current date and the last date.</li>
+      <li><strong>Investment Delta, minus topup</strong>: the investment difference between the current date and the last date, minus the top up. This value attempts to represent how much money was actually generated by the investment since the last date.</li>
+      <li><strong>Total</strong>: the total invested and not invested amount in the account.</li>
+      <li><strong>Total Delta</strong>: total difference between current date and last date.</li>
+    </ul>
+  </li>
+  <li>Expected gains: predictions of investment gains
+    <ul>
+      <li><strong>Expected Yearly Growth % (Gross)</strong>: for example, if overall the invested money is in a Fixed Term Deposit, this value would represent the gross yearly interest accrued from it, pre-taxes.</li>
+      <li><strong>Expected Yearly Growth % (Net)</strong>: this value represents the actual expected gains from this investment. For example, taking the Fixed Term Deposit example above, this would be the expected yearly interest, after taxes.</li>
+      <li><strong>Expected gains 6 months / 1 year / etc</strong>: taking into consideration the <em>Expected Yearly Growth % (Net)</em>, which would accrue gains from the investment over these time spans.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="summary-sheet">Summary sheet</h3>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/investment-tracker/psummary.png" />
+           
+         </center>
+
+<p>This is where it all comes together. All the accounts are summed up, resulting in these new relevant columns:</p>
+
+<ul>
+  <li><strong>Total</strong>: the total across all investments, for a given date</li>
+  <li><strong>Total Delta</strong>: total difference between current date and last date.</li>
+  <li><strong>Total Delta minus Revenue (i.e. profit / loss)</strong>: the aim of this column is to roughly represent how much of your net worth is being eaten up by your expenses:
+    <ul>
+      <li>If this value is negative, it means that either your costs are too high, your investments are not yielding yet high values, or both.</li>
+      <li>If this value is neutral, it means that your overall investments are completely covering your costs.</li>
+      <li>If this value is positive, it means that your overall investments are not only covering your costs, but are also increasing your net worth on top.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="how-to-use-it">How to use it</h2>
+
+<h3 id="set-up">Set up</h3>
+
+<ol>
+  <li><a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#get-it">Copy the template</a>, by opening it and clicking on <em>File -&gt; Make a Copy</em></li>
+  <li>Go to the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#dates-sheet">dates sheet</a>, and leave only the top two dates. The first date would be the previous month, and the second would be the current month. Delete the rest.</li>
+  <li>Go to the other sheets, and delete all the rows which don’t have a date now</li>
+  <li>Zero out the first line on each of the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#account-sheet">account sheets</a> for <em>Top up Investment</em>, <em>Not Invested</em> and <em>Invested</em>.</li>
+  <li>Zero out the first line of the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#revenue-sheet">revenue sheet</a>; or add your revenue from that month.</li>
+  <li>Use the existing example accounts to host your own accounts. If a new account is needed:
+    <ul>
+      <li>Copy one of the account sheets, by right clicking on the sheet’s tab, and selecting <em>Duplicate</em></li>
+      <li>Add a new column to the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#summary-sheet">summary sheets</a>, representing the new account. Change its formula’s value to get the information from your new sheet. You can do this by selecting the cell and changing the name of the referenced sheet, to the name of your new sheet. For example, from <code>'Example Account 2'!G2</code> to <code>'Monzo Bank Account'!G2</code>.</li>
+      <li>Still in the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#summary-sheet">summary sheets</a>, double click the chart, select the <em>Setup</em> tab, and add the range of the new column to the list. For example, if the new column was on the <em>D</em> column, then the data range would change from <em>H7,A2:A1000,B1:B1000,C1:C1000,G1:G1000</em> to <em>H7,A2:1000,B1:B1000,C1:C1000,<strong>D1:D1000</strong>,G1:G1000</em>. Then, on the <em>Series</em> section of the <em>Setup</em> tab, click on <em>Add Series</em> and add the one from your new account.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="recurrent-workflow">Recurrent workflow</h3>
+
+<p>Once you have the above set up, I suggest that on the first days of every month, right after your main source of income is deposited (e.g. salary), that the sheet with the current values of each of the accounts. This is key. If this update is not made periodically, eventually there will be gaps in the tracking, and its data will lose relevance. The process would look something like this:</p>
+
+<ol>
+  <li>Add the current date to the <a href="https://lopespm.com/notes/2024/09/01/investment-tracker.html#dates-sheet">dates sheet</a></li>
+  <li>On each the the accounts, expand the date to the new one, and fill in the current <em>Top up Investment</em>, <em>Not Invested</em> and <em>Invested</em> values</li>
+  <li>All done!</li>
+</ol>
+
+<h1 id="final-thoughts">Final thoughts</h1>
+
+<p>Feel free to expand and customize the above tracker to your needs, and let me know how it could be improved and which was its impact on your investment tracking. Would love to hear your thoughts about it.</p>
+]]></content:encoded>
+
+<pubDate>2024-09-01T00:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>UK Investment Guide</title>
