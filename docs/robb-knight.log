@@ -26054,3 +26054,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [My First Car Lasted Less Time Than Liz Truss Did as Prime Minister](https://rknight.me/blog/my-first-car-lasted-less-time-than-liz-truss-did-as-prime-minister/)
 append_entries: 1
 Finish: 2024-08-31 22:04:23.174572
+------------------------------------------------------
+Started: 2024-09-01 00:16:01.916767
+Existing_entries: 363
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-09-01 00:16:04.535990
