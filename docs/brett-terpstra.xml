@@ -4,6 +4,63 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Planter 3.0</title>
+<link>https://brett.trpstra.net/link/535/16790895/planter-3-dot-0</link>
+<guid>https://brett.trpstra.net/link/535/16790895/planter-3-dot-0</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img class="aligncenter" height="209" src="https://cdn3.brettterpstra.com/uploads/2012/09/planterheader.jpg" width="650" />
+              </noscript>
+            
+
+<p><a href="https://brettterpstra.com/2012/09/22/planter-tree-planting-for-your-filesystem/">Years ago</a> (12!) I made a script called Planter that would generate directory
+and file structures based on an indented template. I decided to
+reimagine the whole thing and am happy to release <a href="https://brettterpstra.com//projects/planter">Planter 3</a> today.</p>
+
+<p>Instead of relying on a single template file, Planter now expects a
+template directory with all of the subdirectories and files you want to
+include already existing. To make this work, the template variable
+system has been completely reworked. It now supports named keys, prompts
+for values on the command line, and can even handle if/then logic and
+multiple choice variables.</p>
+
+<p>Template variables can be applied to filenames (including if/then logic)
+and within any type of text-based file (including XML, RTF, JSON, etc.,
+and Apple Binary PLIST will be converted automatically). This means you
+can template your source code, your notes, even your Mindnode mind maps,
+rich text notes, and Scrivener documents.</p>
+
+<p>I&rsquo;m not going to document the whole thing here, as I&rsquo;ve written a pretty
+good README for the project. If this is of interest to you, let me know
+about anything that&rsquo;s confusing in the documentation.</p>
+
+<p>I will note that because of its interactive nature on the command line,
+it&rsquo;s a bit more difficult to incorporate into something like a LaunchBar
+or Alfred workflow. But not impossible, as values can be passed as
+arguments, so if your automation handles the interaction for filling in
+the variables, you can easily call the script. It&rsquo;s also now a Ruby gem,
+which means you can&rsquo;t easily embed the whole script and would have to
+rely on it being installed on the user&rsquo;s system.</p>
+
+<p>If you regularly create projects that follow a similar directory/file structure, Planter will save you a ton of time. <a href="https://brettterpstra.com//projects/planter">Check it out.</a></p>
+
+<p>If you have ideas or need support, please use the <a href="https://forum.brettterpstra.com">Forum</a>. I look forward to hearing from you!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F02%2Fplanter-3-dot-0%2F&amp;text=Planter+3.0&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F02%2Fplanter-3-dot-0%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16790895.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-09-02T08:37:00-05:00</pubDate>
+<pubDate>2024-09-02T08:37:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Updated: generate slick changelogs from Git commits</title>
