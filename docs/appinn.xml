@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Chrome 主导浏览器市场，哪些网站对 Firefox 不友好？</title>
 <link>https://meta.appinn.net/t/topic/60536</link>
 <guid>https://meta.appinn.net/t/topic/60536</guid>
 <content:encoded><![CDATA[
-
 <p>我主要使用火狐浏览器，偶尔会遇见一些网页强行显示“移动版”网页。其中的原理应该是：判断 User-Agent, 如果不带 Chrome 就认为是手机端的“杂牌”浏览器。这种情况下只需将火狐的 User-Agent 临时改成 Chrome 即可正常显示电脑版的传统网页。</p>
 <p>上述情况好办，担心的就是有些网页在火狐下缺失了一部分重要内容，却不显示任何占位符，只是静默地忽略掉了部分内容。如果不用 Chrome 打开同一个网页来对比，根本意识不到没有完整显示。是否存在这类网页？</p>
 <p>另外之前在某个地方看到一个帖子，某网站在 Chrome 下正常，而在火狐下返回“404 Not Found”的错误信息。当时我还测试了一下，发现果然如此。只是时间长了，忘记具体是哪个网站了。这种情况应该是网站对火狐有恶意吧？否则为何要这么做？返回 HTTP 404 错误或者 403 Forbidden 错误都容易让人认为网页被删除了或者暂时禁止访问，而不会联想到专门为难特定的浏览器。</p>
@@ -18,9 +18,7 @@
             <p><a href="https://meta.appinn.net/t/topic/60536">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 02 Sep 2024 02:04:30 +0000</pubDate>
-<pubDate>Mon, 02 Sep 2024 02:04:30 +0000</pubDate>
 </item>
-
 <item>
 <title>📸拍立得 - 把拍立得贴在Mac的桌面上</title>
 <link>https://meta.appinn.net/t/topic/60480</link>
