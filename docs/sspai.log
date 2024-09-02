@@ -31664,3 +31664,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-02 06:04:54.428568
+------------------------------------------------------
+Started: 2024-09-02 08:04:37.642528
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Summarization failed, append the original article
+error: Error code: 529 - {'error': {'message': 'Overloaded (request id: 2024090209044218402131482538887)', 'type': 'overloaded_error', 'param': '', 'code': None}}
+Append: [少数派线下 | Apple「高光时刻」即将到来，欢迎你来和我们一起看](https://sspai.com/post/91958)
+append_entries: 1
+Finish: 2024-09-02 08:04:42.564180
