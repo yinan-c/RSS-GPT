@@ -26249,3 +26249,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [MagSafe Miscellania](https://rknight.me/blog/magsafe-miscellania/)
 append_entries: 1
 Finish: 2024-09-03 14:03:43.197710
+------------------------------------------------------
+Started: 2024-09-03 16:04:09.264876
+Existing_entries: 364
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-09-03 16:04:11.860478
