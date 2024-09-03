@@ -31754,3 +31754,16 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-03 08:04:26.528942
+------------------------------------------------------
+Started: 2024-09-03 10:03:41.769603
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 4386
+Summarized using claude-3-5-sonnet@20240620
+Append: [Apple 发布会前瞻：屏幕更大、AI 更强，除了 iPhone 还有哪些看点？](https://sspai.com/post/91989)
+Token length: 910
+Summarized using claude-3-5-sonnet@20240620
+Append: [线下活动：漫谈人工智能 | 在情绪潮水消退后，回顾 AI 的本质](https://sspai.com/post/91983)
+Append: [城市漫步指南：和中日作家们一起，来一趟日本推理圣地巡礼](https://sspai.com/post/89572)
+append_entries: 3
+Finish: 2024-09-03 10:03:50.228685
