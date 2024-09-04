@@ -53157,3 +53157,16 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/36kr/motif/327685734401
 append_entries: 0
 error when rendering xml, skip docs/36kr
+------------------------------------------------------
+Started: 2024-09-04 14:03:53.983816
+Existing_entries: 589
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Append: [硅谷创业教父保罗·格雷厄姆：创业者需坚持“创始人模式”](https://www.36kr.com/p/2935643865668488)
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 1
+Finish: 2024-09-04 14:03:55.053100
