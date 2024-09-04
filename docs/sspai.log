@@ -31845,3 +31845,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-04 08:04:21.887826
+------------------------------------------------------
+Started: 2024-09-04 10:03:43.813091
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 6449
+Summarized using claude-3-5-sonnet@20240620
+Append: [仅靠软装，我打造了一个「轻度极繁主义」的家](https://sspai.com/post/91979)
+append_entries: 1
+Finish: 2024-09-04 10:03:46.692485
