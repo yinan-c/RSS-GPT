@@ -31935,3 +31935,15 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [开学季 | 付费栏目、正版软件上新 + 多重优惠](https://sspai.com/post/92009)
 append_entries: 1
 Finish: 2024-09-05 10:03:53.809678
+------------------------------------------------------
+Started: 2024-09-05 12:05:27.919753
+Existing_entries: 1001
+Fetching from https://rsshub.app/sspai/index
+Token length: 4927
+Summarized using claude-3-5-sonnet@20240620
+Append: [出行好物召集计划：轻装出行，但也万无一失](https://sspai.com/post/91964)
+Token length: 4327
+Summarized using claude-3-5-sonnet@20240620
+Append: [看懂配料表、营养成分表，我是这样通过包装选购食品的](https://sspai.com/post/91911)
+append_entries: 2
+Finish: 2024-09-05 12:05:32.438741
