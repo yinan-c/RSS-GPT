@@ -31926,3 +31926,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-05 08:04:33.700965
+------------------------------------------------------
+Started: 2024-09-05 10:03:51.212796
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 7169
+Summarized using claude-3-5-sonnet@20240620
+Append: [开学季 | 付费栏目、正版软件上新 + 多重优惠](https://sspai.com/post/92009)
+append_entries: 1
+Finish: 2024-09-05 10:03:53.809678
