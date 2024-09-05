@@ -4,6 +4,70 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Keyviz 汉化版 - 开源免费的按键可视化工具</title>
+<link>https://meta.appinn.net/t/topic/60657</link>
+<guid>https://meta.appinn.net/t/topic/60657</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-222366-keyviz-1" name="p-222366-keyviz-1"></a>Keyviz 汉化版</h1>
+<p>Keyviz 是一款免费开源的按键可视化软件，可以实时显示您的按键和鼠标操作！<br />
+无论是在录屏、演讲还是团队协作中，您都能让观众一目了然地看到操作过程。</p>
+<p>原软件，蛙应该已经推荐过了，在 <a class="inline-onebox" href="https://www.appinn.com/keyviz/">Keyviz - 开源按键可视化工具：实时显示键盘按键[Windows] - 小众软件</a> 。<br />
+不过，汉化版我刚刚鼓捣出来啦，见 <a class="inline-onebox" href="https://github.com/zetaloop/keyviz" rel="noopener nofollow ugc">GitHub - zetaloop/keyviz: Keyviz 是一个免费开源的按键可视化工具，汉化版。Keyviz Chinese l10n fork.</a> 。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-222366-h-2" name="p-222366-h-2"></a>平台</h2>
+<p>Windows / macOS / Linux</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-222366-h-3" name="p-222366-h-3"></a>特点</h2>
+<ul>
+<li>开源免费</li>
+<li>支持键盘和鼠标</li>
+<li>自定义样式，有漂亮的动画</li>
+<li>可以忽略打字，只显示快捷键操作</li>
+<li>可以用快捷键来开启和关闭</li>
+<li>可以指定显示器</li>
+<li><strong>有汉化了</strong></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-222366-h-4" name="p-222366-h-4"></a>界面</h2>
+<p>                    <a class="onebox" href="https://h1.appinn.net/file/f0538075febf13ad4a602.png" rel="noopener" target="_blank">
+            <img height="148" src="https://h1.appinn.net/file/f0538075febf13ad4a602.png" width="352" />
+          </a>
+
+<br />
+                    <a class="onebox" href="https://h1.appinn.net/file/7f76f1131f0ce289d8083.png" rel="noopener" target="_blank">
+            <img height="499" src="https://h1.appinn.net/file/7f76f1131f0ce289d8083.png" width="532" />
+          </a>
+
+<br />
+                    <a class="onebox" href="https://h1.appinn.net/file/dfd77c9d2e9fe7a4f3272.png" rel="noopener" target="_blank">
+            <img height="499" src="https://h1.appinn.net/file/dfd77c9d2e9fe7a4f3272.png" width="535" />
+          </a>
+
+<br />
+                    <a class="onebox" href="https://h1.appinn.net/file/03f6ce0d2a9cfe3433f6f.png" rel="noopener" target="_blank">
+            <img height="499" src="https://h1.appinn.net/file/03f6ce0d2a9cfe3433f6f.png" width="532" />
+          </a>
+
+<br />
+                    <a class="onebox" href="https://h1.appinn.net/file/98164573ea8968bc8a702.png" rel="noopener" target="_blank">
+            <img height="499" src="https://h1.appinn.net/file/98164573ea8968bc8a702.png" width="537" />
+          </a>
+
+<br />
+                    <a class="onebox" href="https://h1.appinn.net/file/d9d4954f7dbaeb67c9767.png" rel="noopener" target="_blank">
+            <img height="500" src="https://h1.appinn.net/file/d9d4954f7dbaeb67c9767.png" width="533" />
+          </a>
+
+</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-222366-h-5" name="p-222366-h-5"></a>注释</h2>
+<p>汉化版是拿刚写的 GitHub Workflow 编译出来的，主要测试了 Windows 端功能正常。<br />
+如果 macOS 和 Linux 的小伙伴发现没法用，或者发现汉化漏了/工作不正常，可在仓库里提 issue 告诉我！<br />
+<small>（或者有兴趣的话看看我别的汉化啦，比如 OFGB、GitHub Desktop 之类的）</small></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/60657">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 04 Sep 2024 23:10:50 +0000</pubDate>
+<pubDate>Wed, 04 Sep 2024 23:10:50 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】FliTik翻页时钟-美到极致&amp;跨平台&amp;App免费无广告的翻页时钟</title>
