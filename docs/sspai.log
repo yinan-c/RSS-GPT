@@ -31947,3 +31947,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [看懂配料表、营养成分表，我是这样通过包装选购食品的](https://sspai.com/post/91911)
 append_entries: 2
 Finish: 2024-09-05 12:05:32.438741
+------------------------------------------------------
+Started: 2024-09-05 14:03:33.690105
+Existing_entries: 1002
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-09-05 14:03:33.936310
