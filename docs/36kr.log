@@ -53319,3 +53319,18 @@ Fetching from https://rsshub.app/36kr/motif/327686815745
 Fetching from https://rsshub.app/36kr/motif/327685734401
 append_entries: 0
 Finish: 2024-09-05 14:03:42.825587
+------------------------------------------------------
+Started: 2024-09-05 16:04:06.351097
+Existing_entries: 591
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Append: [太突然，1600亿独角兽创始人再创业：影响10亿人](https://www.36kr.com/p/2937082447321733)
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/1756302767423108
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+append_entries: 1
+Finish: 2024-09-05 16:05:07.560741
