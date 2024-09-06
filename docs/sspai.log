@@ -32013,3 +32013,17 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-06 08:04:15.516033
+------------------------------------------------------
+Started: 2024-09-06 12:05:11.152200
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 6401
+Summarized using claude-3-5-sonnet@20240620
+Append: [本周看什么 | 最近值得一看的 7 部作品](https://sspai.com/post/92082)
+Token length: 7306
+Summarized using claude-3-5-sonnet@20240620
+Append: [「空气炸锅真是伟大的发明」](https://sspai.com/post/91850)
+Append: [开学季 | MarginNote 4 工具升值包限时上架优惠](https://sspai.com/post/92069)
+Append: [让家的智能符合期待，他们选择了 Apple Home](https://sspai.com/post/91922)
+append_entries: 4
+Finish: 2024-09-06 12:05:15.999256
