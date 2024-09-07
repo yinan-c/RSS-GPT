@@ -36249,3 +36249,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [OneDrive会自动在桌面创建OneDrive文件夹的快捷方式](https://meta.appinn.net/t/topic/60766)
 append_entries: 1
 Finish: 2024-09-07 12:04:35.119556
+------------------------------------------------------
+Started: 2024-09-07 14:03:35.583596
+Existing_entries: 538
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-09-07 14:03:39.393799
