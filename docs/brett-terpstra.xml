@@ -2,7 +2,48 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
-<link>http://0.0.0.0:4000/</link>
+<link>https://brettterpstra.com/</link>
+
+<item>
+<title>Welcome to the lab 4.0</title>
+<link>https://brett.trpstra.net/link/535/16796719/welcome-to-the-lab-4-dot-0</link>
+<guid>https://brett.trpstra.net/link/535/16796719/welcome-to-the-lab-4-dot-0</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="welcome-to-the-lab-rb.jpg" class="aligncenter" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/09/welcome-to-the-lab-rb.jpg" title="welcome-to-the-lab-rb.jpg" width="800" />
+              </noscript>
+            
+
+<p>I did a redesign of this site last night. I hope you like it. It&rsquo;s heavily inspired by the <a href="https://ia.net/topics/boom-boom-boom">iA blog</a>. Shamelessly inspired, I guess. But it was a fun exercise to revamp the Jekyll setup, which took a ton of work. I do not love templating in Liquid, but I do like writing filters in Ruby. I think it came out pretty good.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="lab-4.0-screenshot.jpg" class="aligncenter" height="1013" src="https://cdn3.brettterpstra.com/uploads/2024/09/lab-4.0-screenshot.jpg" title="lab-4.0-screenshot.jpg" width="1406" />
+              </noscript>
+            
+
+<p>I do this every few years when I get bored. This site has been running since 2010, and the Circle Six Blog before that. Gosh I&rsquo;ve been doing this a long time&hellip;</p>
+
+<p>Unfortunately the embedded comments are broken at the moment, so if you want to offer feedback, please <a href="https://forum.brettterpstra.com">join me in the forum</a>!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113103037765670232" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F08%2Fwelcome-to-the-lab-4-dot-0%2F&amp;text=Welcome+to+the+lab+4.0&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F08%2Fwelcome-to-the-lab-4-dot-0%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16796719.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-09-08T08:42:00-05:00</pubDate>
+<pubDate>2024-09-08T08:42:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Planter 3.0</title>
@@ -49,7 +90,6 @@ rely on it being installed on the user&rsquo;s system.</p>
 <p class="copyright">All materials &copy;2024 Brett Terpstra</p>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="http://0.0.0.0:4000/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16796639.gif" width="1" />
 ]]></content:encoded>
-<pubDate>2024-09-02T08:37:00-05:00</pubDate>
 <pubDate>2024-09-02T08:37:00-05:00</pubDate>
 </item>
 <item>
@@ -110,14 +150,12 @@ rely on it being installed on the user&rsquo;s system.</p>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="http://0.0.0.0:4000/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16796641.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-08-31T14:02:00-05:00</pubDate>
-<pubDate>2024-08-31T14:02:00-05:00</pubDate>
 </item>
 <item>
 <title>Relaunched T-shirts for The Lab and Rock Scissors</title>
 <link>https://brett.trpstra.net/link/535/16796647/relaunched-t-shirts-for-the-lab-and-rock-scissors</link>
 <guid>https://brett.trpstra.net/link/535/16796647/relaunched-t-shirts-for-the-lab-and-rock-scissors</guid>
 <content:encoded><![CDATA[
-
 <p>I had let the original TeeSpring stores I had set up languish, and TeeSpring changed a bunch of stuff that made all of my listings invalid. So I&rsquo;ve relaunched the storefronts with the original designs, plus some new ones.</p>
 
 <p><a href="https://lab.creator-spring.com/listing/markdown-strong?product=1565&amp;variation=104920">
@@ -153,9 +191,7 @@ rely on it being installed on the user&rsquo;s system.</p>
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="http://0.0.0.0:4000/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16796647.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-08-14T11:38:00-05:00</pubDate>
-<pubDate>2024-08-14T11:38:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Planter 3.0</title>
 <link>https://brett.trpstra.net/link/535/16790895/planter-3-dot-0</link>
