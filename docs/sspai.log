@@ -32231,3 +32231,12 @@ Existing_entries: 1001
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-09 08:05:12.064275
+------------------------------------------------------
+Started: 2024-09-09 10:03:54.092110
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 4432
+Summarized using claude-3-5-sonnet@20240620
+Append: [又逢开学季，又到读书时：这些文章帮你找好书、好读书](https://sspai.com/post/92045)
+append_entries: 1
+Finish: 2024-09-09 10:03:56.367998
