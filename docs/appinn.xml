@@ -4,6 +4,46 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】一款支持数据私有化的书签管理器</title>
+<link>https://meta.appinn.net/t/topic/60796</link>
+<guid>https://meta.appinn.net/t/topic/60796</guid>
+<content:encoded><![CDATA[
+
+<h3><a class="anchor" href="https://meta.appinn.net#p-222958-h-1" name="p-222958-h-1"></a>软件名称</h3>
+<p>潮汐收藏</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-222958-h-2" name="p-222958-h-2"></a>一句话介绍</h3>
+<p>一个支持云同步的收藏夹，通过 WebDAV 、Git 等第三方存储方案，让大家可以在保证数据安全性的情况下，同时享受云同步的便利。</p>
+<p>经过自己大半年的使用，已经屯了很多好用的东西了。<br />
+<img alt="截图" height="" src="https://pic.imgdb.cn/item/66ddbb58d9c307b7e9742dc9.png" width="" /><br />
+可以戳<a href="https://www.tidemark.cc/" rel="noopener nofollow ugc">官网</a>了解更多。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-222958-h-3" name="p-222958-h-3"></a>详细介绍</h2>
+<p>潮汐收藏是独立开发的一款产品，目前还处于早期阶段，希望得到大家的建议与谅解（因为时间不够，很多功能还不完善）。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-222958-h-4" name="p-222958-h-4"></a>起因</h3>
+<p>当初做潮汐收藏的原因，也是在使用了市面上很多收藏夹 app 后，发现没有一款既支持数据私有化、又同时不用部署的产品解决方案。成熟的产品有：pinbox 、cubox 等等；开源的产品有<a href="https://linkwarden.app/" rel="noopener nofollow ugc">linkwarden</a>、<a href="https://floccus.org/" rel="noopener nofollow ugc">floccus</a>。体验下来，都不是很满意，所以就只能自己开发了。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-222958-h-5" name="p-222958-h-5"></a>经过</h3>
+<p>历经很久的开发（实际算上工时没有多少 pd ，都是抽空下班开发），目前潮汐收藏也是初具产品雏形了，支持以下的功能：</p>
+<ul>
+<li>云同步：这个是最重要的，支持 WebDAV （坚果云）、Git （ Github ）协议同步。</li>
+<li>自动抓取信息：给一个 url ，还你一个标题、小图标、描述，哈哈哈哈。</li>
+<li>收藏夹：用于给收藏的内容分类的，支持<strong>无限级</strong>嵌套。</li>
+<li>标签：一个收藏可以打多个标签，用于从不同维度描述收藏。</li>
+<li>小工具：比如重复链接检测啥的，这些好像在某友商 app 中是收费功能。</li>
+<li>听劝：主打一个听劝，如果有任何用着不爽的地方，欢迎在社区中吐槽，看到了一定会回复的！</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-222958-h-6" name="p-222958-h-6"></a>结果</h3>
+<p>用了小半年，每天在公司屯收藏，看收藏的内容，亲测有效，敏感肌也可以用。</p>
+<p>产品还在雏形阶段，未来的路还很长，希望大家友善讨论，有兴趣的小伙伴可以下载试试，更有兴趣的也可以提点小意见，毕竟“人人都是产品经理”~</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-222958-h-7" name="p-222958-h-7"></a>广告</h3>
+<p>都看到这里了，不直接下载试试嘛？</p>
+<p><a href="https://chromewebstore.google.com/detail/%E6%BD%AE%E6%B1%90%E6%94%B6%E8%97%8F-tidemark/mcgjchpgdakdmhjjopghjopjklielial" rel="noopener nofollow ugc">Chrome 应用商店</a></p>
+<p>使用过程中，有任何问题，欢迎社区反馈~ <a href="https://txc.qq.com/products/656734" rel="noopener nofollow ugc">社区</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/60796">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 08 Sep 2024 23:47:47 +0000</pubDate>
+<pubDate>Sun, 08 Sep 2024 23:47:47 +0000</pubDate>
+</item>
 
 <item>
 <title>OneDrive会自动在桌面创建OneDrive文件夹的快捷方式</title>
