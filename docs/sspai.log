@@ -32297,3 +32297,15 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [新按钮、新配色，还有这些意外惊喜……Apple 发布会看点回顾](https://sspai.com/post/92163)
 append_entries: 2
 Finish: 2024-09-10 02:22:46.304080
+------------------------------------------------------
+Started: 2024-09-10 04:04:25.124015
+Existing_entries: 1002
+Fetching from https://rsshub.app/sspai/index
+Token length: 2669
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：Apple 发布多款新品，Thread 更新 1.4 版规范等](https://sspai.com/post/92166)
+Token length: 2825
+Summarized using claude-3-5-sonnet@20240620
+Append: [新配色，新亮点：iPhone 16 Pro 快速上手体验](https://sspai.com/post/92168)
+append_entries: 2
+Finish: 2024-09-10 04:04:28.549779

@@ -4,6 +4,62 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>有什么扩展可以批量给网页生成缩略图或者预览图的么</title>
+<link>https://meta.appinn.net/t/topic/31232</link>
+<guid>https://meta.appinn.net/t/topic/31232</guid>
+<content:encoded><![CDATA[
+
+<p>是这样的 onetab  是一键保存所有打开的标签<br />
+但是 时间长了 会发现一个问题 打开ONETAB 一堆网址 根本不指定网址是什么 还得一个一个打开链接菜能知道<br />
+然后呢<br />
+看到这个扩展</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://meta-cdn1.appinn.com/uploads/default/original/2X/5/51502f93396c6b3d0a2909a8df00076c1a17b901.png" width="32" />
+
+      <a href="https://chrome.google.com/webstore/detail/note-board-sticky-notes-a/goficmpcgcnombioohjcgdhbaloknabb" rel="noopener nofollow ugc" target="_blank">chrome.google.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <img class="thumbnail onebox-avatar" height="128" src="https://meta-cdn1.appinn.com/uploads/default/original/3X/8/f/8fde3a60120b18c92c68c35453220d659b73183b.jpeg" width="128" />
+
+<h3><a href="https://chrome.google.com/webstore/detail/note-board-sticky-notes-a/goficmpcgcnombioohjcgdhbaloknabb" rel="noopener nofollow ugc" target="_blank">Note Board - Sticky Notes App</a></h3>
+
+  <p>Note Board - Sticky Notes App</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>它有个功能 是 创建带网址的 网页缩略图<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta-cdn1.appinn.com/uploads/default/original/3X/6/f/6f10354a8e174eafd8d7eb359e4d8dadb35fcd85.png" title="image"><img alt="image" height="207" src="https://meta-cdn1.appinn.com/uploads/default/optimized/3X/6/f/6f10354a8e174eafd8d7eb359e4d8dadb35fcd85_2_690x207.png" width="690" /></a></div><p></p>
+<p>可这个功能扩展给的空间非常少才5M<br />
+而登录 之后也才300M 网络空间少的可怜<br />
+我想用本地保存 然后我找到了<br />
+<a href="https://chrome.google.com/webstore/detail/tab-grab-paste/dhohiopgmjndniekbklpflonniaegocn" rel="noopener nofollow ugc">Tab Grab Paste - Chrome 線上應用程式商店 (google.com)</a><br />
+这个复制网址的时候会自动生成一张缩略图<br />
+用 然后用 PasteEx 来保存 会是一个带网址的缩略图的HTML文件<br />
+DO 可以直接预览</p>
+<p>但是 这些都有个问题 就是只能一个 一个保存<br />
+我的问题是 有没有批量 的实现这种功能的 扩展？<br />
+有时候打开几十个没看完的网页 onetab 一下倒是方便<br />
+但是没有网页当前页面缩略图预览<br />
+然后其他两种方法 有缩略图+网址 但是只能一个一个的<br />
+就很苦恼<br />
+小众大佬见多识广 有没有 批量的方法 或者扩展？</p>
+            <p><small>30 个帖子 - 9 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/31232">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 29 Mar 2022 05:06:06 +0000</pubDate>
+<pubDate>Tue, 29 Mar 2022 05:06:06 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】Luma AI 视频生成器 Vidful.ai，支持文本和图像生成视频，欢迎免费试用</title>
