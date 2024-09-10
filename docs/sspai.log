@@ -32285,3 +32285,15 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-10 00:13:16.406469
+------------------------------------------------------
+Started: 2024-09-10 02:22:42.722532
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 290
+Summarized using claude-3-5-sonnet@20240620
+Append: [一图流 | 一张图带你看完 iPhone 16 发布会](https://sspai.com/post/92164)
+Token length: 5779
+Summarized using claude-3-5-sonnet@20240620
+Append: [新按钮、新配色，还有这些意外惊喜……Apple 发布会看点回顾](https://sspai.com/post/92163)
+append_entries: 2
+Finish: 2024-09-10 02:22:46.304080
