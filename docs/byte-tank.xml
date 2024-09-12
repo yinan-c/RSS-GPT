@@ -4,6 +4,156 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+<item>
+<title>Obsidian Encrypted Backup - Google Drive, Dropbox, OneDrive</title>
+<link>https://lopespm.com/notes/2024/09/11/obsidian-backup.html</link>
+<guid>https://lopespm.com/notes/2024/09/11/obsidian-backup.html</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<p>After several years using Evernote, I’ve eventually migrated all my notes into Obsidian, which allowed me to have full control of my notes, in a format that I could use, move, or <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html">leverage upon</a>. As a consequence, my notes would no longer live in the cloud and my personal device, so any redundancy and backups would need to be guaranteed by me, via my personal periodic backups.</p>
+
+<p>Having more than a decade’s worth of notes relying on a single redundancy made me somewhat uneasy, so the options I could think of were either:</p>
+
+<ol>
+  <li>Subscribe to <a href="https://obsidian.md/sync">Obsidian’s Sync service</a>, which would recurrently cost $4 every month, <em>every month</em>. My encrypted notes would be tethered to Obsidian’s cloud service</li>
+  <li>Have a custom solution that leverage’s Obsidian’s outstanding customizability, compress and encrypt all my notes, and use a cloud service to host this archive. I would have the flexibility to choose any cloud provider I would desire.</li>
+</ol>
+
+<p>I’ve chosen option 2., using the Google Drive cloud service, and in this note will share how you can too.</p>
+
+<!--more-->
+
+<h1 id="how-to-do-it">How to do it</h1>
+
+<p>The idea is simple: use the <a href="https://obsidian.md/plugins?search=obsidian-shellcommands">obsidian-shellcommands</a> shell plugin to run a custom script, whenever Obsidian quits (this event is configurable, but I find the application).</p>
+
+<h2 id="step-1-custom-script-that-encrypts-and-backs-up-all-notes">Step 1. Custom script that encrypts and backs up all notes</h2>
+
+<p>First, save the below script into a folder in your computer (for example, at <code>/Users/yourunixname/backups/my_backup_script.sh</code>), and update it with your own Obsidian, backup destination folders and your own archive password:</p>
+
+<div><div class="CodeRay">
+  <div class="code"><pre>#!/bin/zsh
+
+obsidian_notes_folder=&quot;&lt;your_obsidian_folder&gt;&quot; ; # For example, /Users/yourusername/Library/Application Support/obsidian
+obsidian_notes_tar_archive=&quot;${obsidian_notes_folder}/obsidian_backup.tar.gz&quot; ;
+backup_folder=&quot;&lt;folder_where_the_final_encrypted_backup_will_be_placed&gt;&quot;; # For example, /Users/yourusername/Library/CloudStorage/GoogleDrive/MyDrive/backup_folder
+
+echo &quot;Starting to compress obsidian notes...&quot; ;
+
+# Create a .tar archive that contains all the contents inside the obsidian folder
+tar -czf ${obsidian_notes_tar_archive} ${obsidian_notes_folder}/obsidian_backup
+
+# Compress the .tar archive into an encrypted .7z with password &quot;PasswordOfYourChoosing&quot;
+# In this example, 7za installed from the nix package manager is used
+/Users/yourusername/.nix-profile/bin/7za a -tzip -mem=AES256 -mx=0 -mmt=12 -pPasswordOfYourChoosing ${obsidian_notes_folder}/obsidian_backup.7z ${obsidian_notes_tar_archive} ;
+
+# Move the .7z file into the the backup folder (e.g. your Google Drive / Dropbox / OneDrive folder)
+mv ${obsidian_notes_folder}/obsidian_pedrolopes_nodes_backup.7z ${backup_folder}/obsidian_backup.7z ;
+
+echo &quot;Finished compressing and moving to backup folder&quot;
+</pre></div>
+</div>
+</div>
+
+<p>The comments are mostly self-explanatory, but essentially this is what the script does:</p>
+
+<ol>
+  <li>First create a .tar archive that contains all the contents inside the obsidian folder</li>
+  <li>Compresses the .tar archive into a password encrypted <code>.7z</code> file. Remember to update the password with your own private password</li>
+  <li>Moves the <code>.7z</code> file into the destination folder, which could be the folder used by your cloud storage sync folder of choice (e.g. your Google Drive / Dropbox / OneDrive folder).</li>
+</ol>
+
+<p>Since the final file name on <code>3.</code> is always the same, it will be re-written, but likely your cloud storage sync will keep track of the different versions, as they change, which could progressively inflate your quota usage. If that is a problem, just purge them periodically using your cloud storage interface.</p>
+
+<p>You can test drive your script by granting execution privileges to your script (<code>chmod +x &lt;script_file_name&gt;</code>), and running <code>./&lt;your_script_name&gt;</code>. Your final encrypted archive should appear on the final <code>backup_folder</code></p>
+
+<h2 id="step-2-run-the-script-when-obsidian-quits">Step 2. Run the script when Obsidian quits</h2>
+
+<p>Now that we have the script ready, it makes our life easier if it is run automatically, upon a given Obsidian event, such as when Obsidian quits. Running a shell script upon a given Obsidian event is made easy by using the <a href="https://obsidian.md/plugins?search=obsidian-shellcommands">obsidian-shellcommands</a>. These are the steps to set it up:</p>
+
+<p><strong>1.</strong> Go to Obsidian -&gt; Settings. Then select the “Community Plugins” option.</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p0.png" />
+           
+         </center>
+
+<p><br /></p>
+
+<p><strong>1.1.</strong> On the “Community Plugins” option, click “Browse”. There, search for “Shell”. The one you want to install is <a href="(https://obsidian.md/plugins?search=obsidian-shellcommands)">Shell Commands by Jarkko Linnanvirta</a></p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p2.png" />
+           
+         </center>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p3.png" />
+           
+         </center>
+
+<p><br /></p>
+
+<p><strong>2.</strong> Now that the plugin is installed, go again to Obsidian -&gt; Settings. You should see in the bottom left, under the “Community plugins” pane, an option named “Shell commands”. Click it.</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p4.png" />
+           
+         </center>
+
+<p><br /></p>
+
+<p><strong>3.1.</strong> On the “Shell commands” plugin, select the “Shell commands” tab, and inside it, click “New shell command”, and the created row, click its respective cog icon. This will show you a new modal with several tabs.</p>
+
+<p><strong>3.2.</strong> On this command modal, select the “Environments” tab and insert on the “Default shell command” something like this: <code>zsh /Users/yourunixname/backups/my_backup_script.sh</code>. This assumes that your script is located at <code>/Users/yourunixname/backups/my_backup_script.sh</code></p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p5.png" />
+           
+         </center>
+
+<p><br /></p>
+
+<p><strong>3.3.</strong> Still on this command modal, select the “Events” tab. There you can choose when should the script execution be done. For example, search for “Obsidian quits”, and enable it (there is a toggle in the right)</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p6.png" />
+           
+         </center>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/obsidian_backup/p7.png" />
+           
+         </center>
+
+<p><br /></p>
+
+<p>All done! After performing these steps, your backup script will run whenever you chose to, and the encrypted backup will be created and placed in the location that you chose on <a href="https://lopespm.com/notes/2024/09/11/obsidian-backup.html#step-1-custom-script-that-encrypts-and-backs-up-all-notes">Step 1.</a> above 🎉</p>
+]]></content:encoded>
+
+<pubDate>2024-09-11T00:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Investment Tracker - Free Spreadsheet Template</title>
