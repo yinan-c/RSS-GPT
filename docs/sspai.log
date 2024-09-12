@@ -32504,3 +32504,12 @@ Existing_entries: 1002
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-12 12:05:21.401112
+------------------------------------------------------
+Started: 2024-09-12 14:04:13.797096
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 4449
+Summarized using claude-3-5-sonnet@20240620
+Append: [新玩意 192｜少数派的编辑们最近买了啥？](https://sspai.com/post/92251)
+append_entries: 1
+Finish: 2024-09-12 14:04:16.780231
