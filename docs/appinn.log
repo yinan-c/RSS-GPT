@@ -36701,3 +36701,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-09-12 08:04:28.873921
+------------------------------------------------------
+Started: 2024-09-12 10:03:56.519007
+Existing_entries: 542
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [如何在chrome中网页内容改变时发出明显的提示？](https://meta.appinn.net/t/topic/60932)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-09-12 10:03:59.956296
