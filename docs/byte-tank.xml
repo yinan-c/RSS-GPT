@@ -4,6 +4,7 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+
 <item>
 <title>Obsidian Encrypted Backup - Google Drive, Dropbox, OneDrive</title>
 <link>https://lopespm.com/notes/2024/09/11/obsidian-backup.html</link>
@@ -151,10 +152,8 @@ echo &quot;Finished compressing and moving to backup folder&quot;
 
 <p>All done! After performing these steps, your backup script will run whenever you chose to, and the encrypted backup will be created and placed in the location that you chose on <a href="https://lopespm.com/notes/2024/09/11/obsidian-backup.html#step-1-custom-script-that-encrypts-and-backs-up-all-notes">Step 1.</a> above 🎉</p>
 ]]></content:encoded>
-
 <pubDate>2024-09-11T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Investment Tracker - Free Spreadsheet Template</title>
 <link>https://lopespm.com/notes/2024/09/01/investment-tracker.html</link>
