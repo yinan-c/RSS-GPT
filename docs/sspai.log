@@ -32462,3 +32462,12 @@ Existing_entries: 1000
 Fetching from https://rsshub.app/sspai/index
 append_entries: 0
 Finish: 2024-09-12 02:22:35.814967
+------------------------------------------------------
+Started: 2024-09-12 04:04:17.001313
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 1642
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：部分旧版 Windows 11 即将结束支持、Xbox Game Pass Standard 上架等](https://sspai.com/post/92236)
+append_entries: 1
+Finish: 2024-09-12 04:04:19.090971
