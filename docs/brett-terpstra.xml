@@ -4,6 +4,37 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marky is back</title>
+<link>https://brett.trpstra.net/link/535/16809038/marky-is-back</link>
+<guid>https://brett.trpstra.net/link/535/16809038/marky-is-back</guid>
+<content:encoded><![CDATA[
+<div> ，输出总结前请再换一行。 <div>
+<p>I finally fixed <a href="https://markdownrules.com/">Marky the Markdownifier</a>. I didn&rsquo;t do any updates to the interface as it is, in my opinion, not too bad.</p>
+
+<p>Marky is a tool for turning web pages into Markdown. It now uses Pandoc with GFM formatting. There&rsquo;s an API available for outputting to various formats (including JSON with title, source, rendered content, and Markdown content). See the API section of the Marky page for more info.</p>
+
+<p>Hope you find this useful! I&rsquo;ll actually be able to add back my &ldquo;add to nvALT&rdquo; links now, updated for <a href="https://nvultra.com">nvUltra</a><sup id="fnref:nv"><a class="footnote" href="https://brettterpstra.com#fn:nv" rel="footnote">1</a></sup>&hellip;</p>
+
+<p>Check Marky out at <a href="https://markdownrules.com/">markdownrules.com</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:nv">
+      <p>Beta is almost finished, if you still want on board, just email me through the <a href="https://nvultra.com">nvUltra site</a>.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:nv">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113142009204600751" target="_blank" title="This post on Mastodon">on Mastodon</a> or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F15%2Fmarky-is-back%2F&amp;text=Marky+is+back&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F15%2Fmarky-is-back%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16809038.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-09-15T09:08:00-05:00</pubDate>
+<pubDate>2024-09-15T09:08:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Cookiecutter: a Planter alternative</title>
