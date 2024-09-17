@@ -37209,3 +37209,11 @@ Append: [iOS 18 的桌面有了一些更新但是意犹未尽](https://meta.appi
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-09-17 14:03:18.000949
+------------------------------------------------------
+Started: 2024-09-17 16:03:43.167137
+Existing_entries: 546
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-09-17 16:03:45.916062
