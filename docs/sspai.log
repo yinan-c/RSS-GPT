@@ -33034,3 +33034,21 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/sspai/index
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2024-09-18 04:05:09.653496
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+Token length: 5109
+Summarized using claude-3-5-sonnet@20240620
+Append: [具透 | iPadOS 18：除了新设计、新交互，还有这些值得一试的亮点功能](https://sspai.com/post/92015)
+Token length: 3044
+Summarized using claude-3-5-sonnet@20240620
+Append: [派早报：2024 年国庆假期火车票开售、Edge 放弃标签圆角矩形设计等](https://sspai.com/post/92350)
+Append: [具透 | iOS 18 正式版来了，升级后记得试试这些新功能](https://sspai.com/post/91789)
+Append: [设计小调整，功能大进步：AirPods 4 首发体验](https://sspai.com/post/92323)
+Append: [城市漫步指南：关西的夏日重现](https://sspai.com/post/91511)
+Append: [抚慰身心的深夜食堂：5 位少数派的夜宵美食与故事](https://sspai.com/post/92242)
+Append: [顺风车司机初体验：劝退油车通勤人士](https://sspai.com/post/92087)
+Append: [功能变革、订阅终行：老牌阅读器 Reeder 重焕新生](https://sspai.com/post/92205)
+append_entries: 8
+Finish: 2024-09-18 04:05:13.125939

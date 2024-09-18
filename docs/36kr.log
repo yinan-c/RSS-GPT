@@ -55719,3 +55719,28 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/36kr/motif/327685734401
 append_entries: 0
 error when rendering xml, skip docs/36kr
+------------------------------------------------------
+Started: 2024-09-18 04:05:20.548647
+Existing_entries: 595
+Fetching from https://rsshub.app/36kr/motif/327685554177
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/327685554177
+Fetching from https://rsshub.app/36kr/motif/327687077889
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/327687077889
+Fetching from https://rsshub.app/36kr/motif/1366661828936836
+Fetching from https://rsshub.app/36kr/motif/1366662419875203
+Fetching from https://rsshub.app/36kr/motif/1756302767423108
+Append: [极度内耗的人，都在这里排队挨扎](https://www.36kr.com/p/2949759763210632)
+Append: [小狗被毒死，她自学刑法「死磕」投毒者700天](https://www.36kr.com/p/2949757723206024)
+Append: [未来10年，学什么不会失业？｜专访《人类简史》作者尤瓦尔·赫拉利](https://www.36kr.com/p/2949755394859144)
+Append: [一个95后，花20万救一匹摔断腿的马，值吗？](https://www.36kr.com/p/2949753388851328)
+Append: [反复入沪、一年能看130场，被上海套牢的音乐剧女孩](https://www.36kr.com/p/2949751263568258)
+Fetching from https://rsshub.app/36kr/motif/327686815745
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/327686815745
+Fetching from https://rsshub.app/36kr/motif/327685734401
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/36kr/motif/327685734401
+append_entries: 5
+error when rendering xml, skip docs/36kr
