@@ -5,11 +5,31 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【开发者自荐】悟空AI搜索，同时与多个AI平台聊天查询</title>
+<link>https://meta.appinn.net/t/topic/61119</link>
+<guid>https://meta.appinn.net/t/topic/61119</guid>
+<content:encoded><![CDATA[
+
+<p>AI大模型平台已经火了快2年，期间，AI技术大幅度发展，尤其是国产平台不断涌，可用性也在不断提高。甚至大有替代传统搜索的趋势。小弟试用了各家AI平台，有一些感悟。尤其是发现，其实底层技术的差异并不大，而训练数据对模型结果的影响占比较大。</p>
+<p>为了充分利用AI大模型的数据资源，特意开发了【悟空AI搜索】这个浏览器插件，其主要功能是能同时查询多个AI平台，便于用户对比答案，选择自己需要的结果，最大可能地避免部分情况下的AI幻觉。</p>
+<p>当前个人主要用在辅助编程上，对于自己遗忘记不全的方法可以让多个AI平台给出一些示例，写代码的效率也大幅提升了。</p>
+<p>当然，用于常规信息的查询也很方便，相比单纯地搜索引擎。AI搜索没有广告，同时部分引擎对信息源进行过筛选，答案的可靠性更强</p>
+<p>附上插件截图</p>
+<p>应用商店下载地址</p>
+<p><a href="https://microsoftedge.microsoft.com/addons/detail/%E6%82%9F%E7%A9%BAai%E6%90%9C%E7%B4%A2/djadinbbpkeiidkbkdiogogmfhgdgkce" rel="noopener nofollow ugc">EDGE应用商店</a></p>
+<p><a href="https://chromewebstore.google.com/detail/%E6%82%9F%E7%A9%BAai%E6%90%9C%E7%B4%A2/nafcmkcfleikhnibnbenjilfnehbhehc" rel="noopener nofollow ugc">Chrome应用商店</a></p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61119">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 18 Sep 2024 08:21:19 +0000</pubDate>
+<pubDate>Wed, 18 Sep 2024 08:21:19 +0000</pubDate>
+</item>
+
+<item>
 <title>请教使用MacBook Air和Flutter的经验者：黑苹果环境下的开发与设备兼容问题</title>
 <link>https://meta.appinn.net/t/topic/61111</link>
 <guid>https://meta.appinn.net/t/topic/61111</guid>
 <content:encoded><![CDATA[
-
 <p>问题是这样的，我最近在学习Flutter，因为有iOS端，我搜了下就算是Flutter也需要在Xcode上才能打包和测试之类的。我就去搜了下价格还算合适的Macbook，二手的2020款8+256G的Macbook Air M1，价格在三千多，感觉还能接受，然后又去找了些帖子问了下，8G内存貌似不太够，因为我也只是拿来学习下Flutter做iOS的APP，不懂Xcode会不会吃太多内存。不过毕竟成本在那，我就先尝试一下MacOS怎么样。</p>
 <p>于是我在VM17上安装了一个macOS 13的黑苹果，但是要AppStore里下载Xcode又提示版本不够下不了，我就去找历史版本，去开发者官网下得要开发者账号，我就去注册了，但是我没很新的iPhone，我只有一个第1代的iPhone SE，iOS版本是14的。手机上得下载App Developer，我下好登录账号进去之后，又提示设备版本不支持，得iOS16以上才能完成开发者账号注册验证的后续步骤。但是1代的iPhone SE最高只能升级到iOS15,不能升到16了。</p>
 <p>这种情况的话，是该怎么继续下去。我预想是用这个SE做真机测试，但是目前的情况是都没办法开始。回到最开始的话题，是要整个二手的mac吗，然后再整个支持iOS16的手机 <img alt=":face_holding_back_tears:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/face_holding_back_tears.png?v=12" title=":face_holding_back_tears:" width="20" />或者有哪些玩过黑苹果的大佬能给我些建议。</p>
@@ -17,9 +37,7 @@
             <p><a href="https://meta.appinn.net/t/topic/61111">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 18 Sep 2024 06:38:16 +0000</pubDate>
-<pubDate>Wed, 18 Sep 2024 06:38:16 +0000</pubDate>
 </item>
-
 <item>
 <title>奇妙色彩-有趣的色彩搭配APP，让色彩搭配落地成精美的壁纸，练习色彩搭配，同时很解压</title>
 <link>https://meta.appinn.net/t/topic/61101</link>
