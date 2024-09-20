@@ -4,6 +4,57 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for September 20, 2024</title>
+<link>https://brett.trpstra.net/link/535/16815563/web-excursions-for-september-20-2024</link>
+<guid>https://brett.trpstra.net/link/535/16815563/web-excursions-for-september-20-2024</guid>
+<content:encoded><![CDATA[
+<div> 。
+
+Here's my response in Chinese:
+
+CLI工具 文档生成 错误代码 命令行AI 文本编辑器插件
+
+<br><br>总结:
+1. 介绍了一个可用于生成man pages、Markdown和shell补全脚本的CLI工具架构。
+2. 提到了一个查找Apple OS错误代码的工具。
+3. 描述了Warp集成的AI命令帮助功能,可以直接在命令行中识别自然语言并提供帮助。
+4. 介绍了一个可以为macOS文本字段添加Vim模式的插件,有免费试用版。
+5. 文章最后提到了Setapp服务,可以访问众多Mac和iOS应用。
+6. 文章来自BrettTerpstra.com,由读者支持运营。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with Setapp. <a href="https://go.setapp.com/stp44">Get access to hundreds of Mac and iOS apps for one low monthly subscription fee.</a></p>
+
+<dl>
+  <dt><a href="https://usage.jdx.dev/">Usage</a></dt>
+  <dd>A schema for CLIs that can be used to generate man pages, Markdown, and shell completion scripts. I might have to start implementing this&hellip;</dd>
+  <dt><a href="https://osstatus.com/search/results">OSStatus — Apple API Errors</a></dt>
+  <dd>Look up those inscrutable Apple OS Error codes easily.</dd>
+  <dt><a href="https://www.warp.dev/ai">Agent Mode in Warp AI</a></dt>
+  <dd>There are a bunch of caveats to the service, but I love that Warp integrated AI command help in the command line just by recognizing natural language. You no longer have to load a panel or anything, just ask for help at the prompt. Pretty cool.</dd>
+  <dt><a href="https://kindavim.app/">kindaVim</a></dt>
+  <dd>Add Vim mode to any macOS text field. Works pretty well! Free trial only allows usage during a certain period of the day, kind of a clever limited trial.</dd>
+</dl>
+
+<p><a href="https://go.setapp.com/stp44">Check out Setapp</a> today and get access to the best Mac and iOS apps out there.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F20%2Fweb-excursions-for-september-20-2024%2F&amp;text=Web+Excursions+for+September+20%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F20%2Fweb-excursions-for-september-20-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16815563.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-09-20T14:32:00-05:00</pubDate>
+<pubDate>2024-09-20T14:32:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Marky is back</title>
