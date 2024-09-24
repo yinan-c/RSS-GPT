@@ -27731,3 +27731,12 @@ Existing_entries: 364
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-09-24 10:04:47.026849
+------------------------------------------------------
+Started: 2024-09-24 12:05:34.294770
+Existing_entries: 364
+Fetching from https://rknight.me/feed.xml
+Token length: 1089
+Summarized using claude-3-5-sonnet@20240620
+Append: [The Robb Jobb](https://rknight.me/blog/the-robb-jobb/)
+append_entries: 1
+Finish: 2024-09-24 12:05:38.997028
