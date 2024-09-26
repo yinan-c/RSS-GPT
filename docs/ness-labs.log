@@ -13944,3 +13944,12 @@ Existing_entries: 40
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-09-26 16:09:11.872915
+------------------------------------------------------
+Started: 2024-09-26 18:09:19.434629
+Existing_entries: 40
+Fetching from https://nesslabs.com/feed
+Token length: 4912
+Summarized using claude-3-5-sonnet@20240620
+Append: [Workplace Anxiety: How to Deal with Anxiety at Work](https://nesslabs.com/workplace-anxiety?utm_source=rss&utm_medium=rss&utm_campaign=workplace-anxiety)
+append_entries: 1
+Finish: 2024-09-26 18:09:26.074850
