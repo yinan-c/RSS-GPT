@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>chrome扩展程序如何备份</title>
 <link>https://meta.appinn.net/t/topic/61436</link>
 <guid>https://meta.appinn.net/t/topic/61436</guid>
 <content:encoded><![CDATA[
-
 <p>众所周知，对于chrome内核的浏览器在登录账号开启自动同步的情况下，在新设备登录时会自动安装原有扩展程序，但是<strong>原有扩展程序设置会丢失，需要重新配置</strong>（只有少数扩展程序会有导入导出配置的选项）。所以有没有办法直接本地备份所有扩展程序，后面启用通过开发者模式进行安装（加载已解压的程序），一键恢复？<br />
 问题背景：本人目前使用的是brave，手机与电脑的同步似乎不会自动帮你安装扩展到新电脑端。这个问题不大。只是有些扩展程序需要登录账号，重新配置使用偏好比较麻烦。下面是论坛的类似帖子：<br />
 <a href="https://meta.appinn.net/t/topic/6397">Chrome的已安装扩展转移问题</a></p>
@@ -17,14 +17,12 @@
             <p><a href="https://meta.appinn.net/t/topic/61436">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 27 Sep 2024 07:34:51 +0000</pubDate>
-<pubDate>Fri, 27 Sep 2024 07:34:51 +0000</pubDate>
 </item>
 <item>
 <title>无聊小技巧：利用 Chrome/Chromium 去除文本中的换行符</title>
 <link>https://meta.appinn.net/t/topic/61434</link>
 <guid>https://meta.appinn.net/t/topic/61434</guid>
 <content:encoded><![CDATA[
-
 <p>注意：本方法只在 Linux Mint 22 Wilma 上测试过，其他系统没有测试。</p>
 <ol>
 <li>复制要去除换行符的文本。</li>
@@ -36,9 +34,7 @@
             <p><a href="https://meta.appinn.net/t/topic/61434">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 27 Sep 2024 06:27:19 +0000</pubDate>
-<pubDate>Fri, 27 Sep 2024 06:27:19 +0000</pubDate>
 </item>
-
 <item>
 <title>YouTube的字幕有办法选中复制吗</title>
 <link>https://meta.appinn.net/t/topic/24935</link>
