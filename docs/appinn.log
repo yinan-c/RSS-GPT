@@ -38151,3 +38151,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-09-27 06:04:41.501430
+------------------------------------------------------
+Started: 2024-09-27 08:04:47.597794
+Existing_entries: 560
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [chrome扩展程序如何备份](https://meta.appinn.net/t/topic/61436)
+Append: [无聊小技巧：利用 Chrome/Chromium 去除文本中的换行符](https://meta.appinn.net/t/topic/61434)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-09-27 08:04:50.619094
