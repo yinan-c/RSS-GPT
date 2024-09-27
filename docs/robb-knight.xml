@@ -4,6 +4,30 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Alternatives to Wordpress</title>
+<link>https://rknight.me/blog/alternatives-to-wordpress/</link>
+<guid>https://rknight.me/blog/alternatives-to-wordpress/</guid>
+<content:encoded><![CDATA[
+<div> 。 <div>
+<p>After all the <a href="https://birchtree.me/blog/the-core-thing-that-makes-wordpress-wordpress-isnt-what-you-think/">Wordpress drama this week</a> I <a href="https://social.lol/@robb/113203986371157848">tooted the following</a>:</p>
+<blockquote>
+<p>We really need a new, easy to use, CMS written in PHP to compete with Wordpress.</p>
+</blockquote>
+<blockquote>
+<p>Why PHP? Because you dump files on a server, any server, and it just works.</p>
+</blockquote>
+<p>Loads of people jumped into my mentions to point me to alternatives that exist and here they are.</p>
+<ul>
+<li><a href="https://www.classicpress.net/">ClassicPress</a> - This one is interesting because it's a fork of Wordpress without the Gutenberg block editor.</li>
+<li><a href="https://getkirby.com/">Kirby CMS</a> - I know people who swear by Kirby and it's <em>really</em> flexible.</li>
+<li><a href="https://craftcms.com/">Craft CMS</a></li>
+<li><a href="https://cecil.app/">Cecil</a> - This is a static site generator so not <em>quite</em> what I was asking for but it looks like a solid product</li>
+</ul>
+]]></content:encoded>
+
+<pubDate>2024-09-27T12:42:48Z</pubDate>
+</item>
 
 <item>
 <title>The Robb Jobb</title>
