@@ -27965,3 +27965,9 @@ Summarized using claude-3-5-sonnet@20240620
 Append: [Alternatives to Wordpress](https://rknight.me/blog/alternatives-to-wordpress/)
 append_entries: 1
 Finish: 2024-09-27 14:04:28.778412
+------------------------------------------------------
+Started: 2024-09-27 16:04:24.681022
+Existing_entries: 366
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-09-27 16:04:28.030817

@@ -4,6 +4,42 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>haystack editor - 在无限大的画布上写代码</title>
+<link>https://meta.appinn.net/t/topic/61459</link>
+<guid>https://meta.appinn.net/t/topic/61459</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-225830-h-1" name="p-225830-h-1"></a>软件名称</h2>
+<p>haystack editor</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-225830-h-2" name="p-225830-h-2"></a>平台</h2>
+<ul>
+<li>Windows</li>
+<li>MacOS</li>
+<li>Linux</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-225830-h-3" name="p-225830-h-3"></a>一句话简介</h2>
+<p>在无限大的画布上探索或者编写代码，可以打开多个编辑器，相互链接并排布</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-225830-h-4" name="p-225830-h-4"></a>特性</h2>
+<ul>
+<li>在画布中拖拽编辑器</li>
+<li>通过调用关系自动建立关联</li>
+<li>保存布局以便切换</li>
+<li>兼容 VS Code 插件&amp;设置，可以从已有的 VS Code 安装一键导入（实际上是 VS Code 的 Fork）</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-225830-h-5" name="p-225830-h-5"></a>截图</h2>
+<p>（图床一直上传失败，去官网看吧）</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-225830-h-6" name="p-225830-h-6"></a>链接</h2>
+<ul>
+<li>官网：<a href="https://haystackeditor.com/" rel="noopener nofollow ugc">https://haystackeditor.com/</a></li>
+<li>Github：<a class="inline-onebox" href="https://github.com/haystackeditor/haystack-editor" rel="noopener nofollow ugc">GitHub - haystackeditor/haystack-editor</a></li>
+</ul>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61459">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 27 Sep 2024 14:24:15 +0000</pubDate>
+<pubDate>Fri, 27 Sep 2024 14:24:15 +0000</pubDate>
+</item>
 
 <item>
 <title>chrome扩展程序如何备份</title>
