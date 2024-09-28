@@ -38218,3 +38218,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-09-27 22:03:24.717721
+------------------------------------------------------
+Started: 2024-09-28 00:13:35.067118
+Existing_entries: 563
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [安卓chrome类浏览器，去掉“请验证是您本人在操作”](https://meta.appinn.net/t/topic/61463)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-09-28 00:13:37.451070
