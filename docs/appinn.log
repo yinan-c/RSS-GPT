@@ -38324,3 +38324,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [Mac 是否有遇到字幕就0.5慢速播放的播放器？用于学英语](https://meta.appinn.net/t/topic/61484)
 append_entries: 1
 Finish: 2024-09-29 00:15:33.725174
+------------------------------------------------------
+Started: 2024-09-29 02:28:27.340390
+Existing_entries: 565
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-09-29 02:28:30.552882
