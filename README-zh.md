@@ -36,8 +36,6 @@
 ## 脚本的更新
 
 - 由于 OpenAI 在 2023-11-06 发布了新版本的 `openai` 包，[新版本包含了更强大的模型](https://openai.com/blog/new-models-and-developer-products-announced-at-devday)，调用 API 的方式也发生了变化。因此，旧版本的脚本将无法使用最新版本的 `openai` 包，需要更新。否则，你可以在 `requirements.txt` 中设置 `openai==0.27.8` 来使用旧版本。
-- 在更新的版本中，**长度超过 16k 个 token 的文章不再被截断，而是使用最新的 `gpt-4-1106-preview` 模型。** 如果你不喜欢这样的改变，可以联系我，我会考虑添加自定义选项来选择是否截断或者使用 `gpt-4-1106-preview` 模型。
-
 - 查看 [CHANGELOG-zh.md](CHANGELOG-zh.md) 获取其他最新的更新日志。
 
 ### 欢迎贡献!

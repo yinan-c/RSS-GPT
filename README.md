@@ -36,7 +36,6 @@ You can check out [here](https://yinan-c.github.io/rss-gpt-manual-en.html) for a
 ## ChangeLog and updates
 
 - As OpenAI released a new version of `openai` package on Nov 06, 2023.  [More powerful models are coming](https://openai.com/blog/new-models-and-developer-products-announced-at-devday), the way to call API also changed. As a result, the old script will no longer work with the latest version installed, and needs to be updated. Otherwise, you will have to set `openai==0.27.8` in `requirements.txt` to use the old version.
--  In the latest updates, **contexts longer than 16k tokens are no longer truncated, instead, will use the `gpt-4-1106-preview` model.** If you don't like this, let me know and I'll think about adding customizability to choose whether truncate or use `gpt-4-1106-preview` model.
 - Check out the [CHANGELOG.md](CHANGELOG.md).
 
 ### Contributions are welcome!
