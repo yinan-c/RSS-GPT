@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Marky 2.0</title>
 <link>https://brett.trpstra.net/link/535/16825237/marky-2-dot-0</link>
 <guid>https://brett.trpstra.net/link/535/16825237/marky-2-dot-0</guid>
 <content:encoded><![CDATA[
-
 <p>I recently <a href="https://brettterpstra.com/2024/09/15/marky-is-back/">revived Marky the Markdownfier</a>. In case you missed it, Marky turns any web page into clippable Markdown for storage in notes/organization apps. And I could have left well enough alone, but there were a couple of quirks I wanted to fix. That led to&hellip; well, a complete ground-up rewrite of Marky. The old version and the old bookmarklets should continue to function, but the API at <code class="language-plaintext highlighter-rouge">/api/2</code> is completely overhauled to be more accurate and more versatile. The main UI at <a href="https://markdownrules.com">your choice of versions</a> now points to the v2 API, and the bookmarklets it generates make use of the new improvements.</p>
 
 <p>The API is similar but expanded for v2. See the <a href="https://heckyesmarkdown.com/api/">API docs</a> for full info. This is still somewhat a work in progress, but I promise not to break any existing functionality if you start using the API or the bookmarklets today.</p>
@@ -54,9 +54,7 @@ I also added support for almost every text output style that <a href="https://pa
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16825237.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-09-29T13:55:00-05:00</pubDate>
-<pubDate>2024-09-29T13:55:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for September 20, 2024</title>
 <link>https://brett.trpstra.net/link/535/16815563/web-excursions-for-september-20-2024</link>
