@@ -4,6 +4,58 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marky 2.0</title>
+<link>https://brett.trpstra.net/link/535/16825237/marky-2-dot-0</link>
+<guid>https://brett.trpstra.net/link/535/16825237/marky-2-dot-0</guid>
+<content:encoded><![CDATA[
+
+<p>I recently <a href="https://brettterpstra.com/2024/09/15/marky-is-back/">revived Marky the Markdownfier</a>. In case you missed it, Marky turns any web page into clippable Markdown for storage in notes/organization apps. And I could have left well enough alone, but there were a couple of quirks I wanted to fix. That led to&hellip; well, a complete ground-up rewrite of Marky. The old version and the old bookmarklets should continue to function, but the API at <code class="language-plaintext highlighter-rouge">/api/2</code> is completely overhauled to be more accurate and more versatile. The main UI at <a href="https://markdownrules.com">your choice of versions</a> now points to the v2 API, and the bookmarklets it generates make use of the new improvements.</p>
+
+<p>The API is similar but expanded for v2. See the <a href="https://heckyesmarkdown.com/api/">API docs</a> for full info. This is still somewhat a work in progress, but I promise not to break any existing functionality if you start using the API or the bookmarklets today.</p>
+
+<p><span class="pullquote left">
+Among the new features is the ability to output links for nvUltra and Obsidian, as well as links to open a preview in Marked 2. From any preview page you can click on &ldquo;Clip to&hellip;&rdquo; to immediately access these links. They can also be returned via the API as raw links, redirect pages, or as part of a JSON blob for incorporation in other workflows.
+</span></p>
+
+<p>The Readability engine (the part of Marky that removes ads, sidebars, menus, etc.) is completely custom now. It&rsquo;s a little more lax than the previous version, meaning it occasionally includes things like comment blocks (sans comments) and other small periphery, but is <em>way</em> better at getting <em>all</em> relevant content on a page regardless of markup. Nothing will ever be 100% perfect across every possible markup style on the web, but this does a really good job in testing. You can enable or disable readability from any preview page or via the <code class="language-plaintext highlighter-rouge">readability=[0|1]</code> parameter in any Marky URL or when calling the API outside of a browser.</p>
+
+<p><span class="pullquote left">
+There&rsquo;s improved handling for StackExchange pages, including StackOverflow. The question will be at the top, any accepted answer will be at the top of the answers, and then additional answers and their comments will be ranked by upvotes and included in descending order. Comments are added as block quotes and should be easily parseable in both Markdown format and rendered HTML output. There&rsquo;s also handling for GitHub repos (READMEs), raw GitHub files, and Gists. If there&rsquo;s a site you frequently clip from that you think could benefit from custom parsing, let me know. I love using Marky for saving StackOverflow answers for easy searching later (in nvUltra, of course).
+</span></p>
+
+<p>In addition to bookmarklets, this API should work well with Shortcuts on Mac, or with any tool that can query a REST API and handle JSON returns. I haven&rsquo;t dug into all of the integrations possible yet, but will post anything I discover when I have a chance to look at it further.</p>
+
+<p><span class="pullquote left">
+Speaking of bookmarklets, the main page now has a &ldquo;Bookmarklet&rdquo; link underneath the submission form, allowing you to generate a bookmarklet for any combination of settings. This link reflects the current settings of the form, minus the URL, and you can drag it to your toolbar to repeat the settings on any web page. The link updates every time you change a setting on the form. The bookmarklets always opens a popup window now, as the vast majority of sites no longer allow remote scripts to be called from within the page, which is the way all the old bookmarklets worked. And bookmarklets are getting increasingly harder to use, especially in Chromium browsers, so I&rsquo;ll be adding a Chrome extension generator eventually. I already have one written for this site that generates an extension for every bookmarklet &mdash; I just need to port it to Marky.
+</span></p>
+
+<p><span class="pullquote left">
+I also added support for almost every text output style that <a href="https://pandoc.org/">Pandoc</a> supports. This includes LaTeX and Textile formats, and the setting for these is also included in any bookmarklet. If you&rsquo;re going to the main UI and pasting, you can select an output format from the dropdown, and your current selection will be remembered for future visits. On the results page there&rsquo;s a menu on the left (click the arrow) that will allow you to change settings and resubmit the same URL with different parameters.
+</span></p>
+
+<p>Like the old version of Marky, the Markdown output on the web is syntax highlighted, and reference format links can be clicked to display their destination. Clicking the copy button will copy the Markdown (or whatever markup you selected) text without any of the highlighting or scripts. If the HTML preview is showing when the Copy button is clicked, a Rich Text version of the contents will be copied to the clipboard, which is great for adding web pages to non-Markdown notes apps.</p>
+
+<p>Marky&rsquo;s most common failures are on pages that are generated by Javascript. Marky currently only works on pages that have actual content in the source of the page. I may at some point try to add something like PhantomJS support to render pages completely before grabbing the source, but that&rsquo;s a distant future idea. Other future ideas include DOCX and PDF conversion to Markdown, and the ability to output RTF, DOCX, and PDF versions of the results. You can currently send raw HTML directly to Marky, bypassing the Readability functionality, and get Markdownified results, so if you have your own version of Readability or want to use it with something like <a href="https://brettterpstra.com/2013/07/30/precise-web-clipping-to-markdown-with-bullseye/">Bullseye</a>, it&rsquo;s still capable of doing so.<sup id="fnref:bullseyeupdate"><a class="footnote" href="https://brettterpstra.com#fn:bullseyeupdate" rel="footnote">1</a></sup></p>
+
+<p><a href="https://markdownrules.com">Check it out</a>, put it through its paces, and please <a href="https://brettterpstra.com//contact">report non-working pages to me</a>. I&rsquo;ll do my best to keep evolving the Readability and conversion processes to handle as wide a range of pages as possible. Obvious failures (like no content returned) are logged (without any user-identifying information) for my own review, but a quick email will still be helpful.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:bullseyeupdate">
+      <p>I do intend to try to re-create Bullseye within newer browser restrictions. It will probably have to be an extension, which means multiple extensions for multiple browsers, and ugh&hellip;&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:bullseyeupdate">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F29%2Fmarky-2-dot-0%2F&amp;text=Marky+2.0&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F09%2F29%2Fmarky-2-dot-0%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16825237.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-09-29T13:55:00-05:00</pubDate>
+<pubDate>2024-09-29T13:55:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for September 20, 2024</title>
