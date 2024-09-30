@@ -38412,3 +38412,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-09-29 22:03:16.154431
+------------------------------------------------------
+Started: 2024-09-30 00:14:37.076263
+Existing_entries: 565
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】分享一个支持原生书签隐藏的浏览器扩展](https://meta.appinn.net/t/topic/61521)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-09-30 00:14:39.891086
