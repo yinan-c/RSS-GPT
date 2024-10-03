@@ -28412,3 +28412,12 @@ Existing_entries: 367
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-03 18:04:50.833916
+------------------------------------------------------
+Started: 2024-10-03 20:04:25.201537
+Existing_entries: 367
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [The Sticker Book](https://rknight.me/blog/the-sticker-book/)
+append_entries: 1
+Finish: 2024-10-03 20:04:31.289546
