@@ -4,6 +4,310 @@
 <title>Ness Labs</title>
 <link>https://nesslabs.com/</link>
 
+<item>
+<title>Put your Meetings to Work with Chris Pedregal, founder of Granola</title>
+<link>https://nesslabs.com/granola-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=granola-featured-tool</link>
+<guid>https://nesslabs.com/granola-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=granola-featured-tool</guid>
+<content:encoded><![CDATA[
+
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help people work smarter. Chris Pedregal is the founder of <a href="https://www.granola.ai/">Granola</a>, an AI notepad designed for people in back-to-back meetings. Granola transcribes your meeting, takes your raw notes, and enhances them so you can turn your meetings to work.</p>
+
+
+
+<p>In this interview, we talked about the added friction of traditionally-managed meetings, the benefits of AI note-taking during meetings, why bots are awkward in video calls, how we might work alongside AI in the future, and much more. Enjoy the read!</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://nesslabs.com/wp-content/uploads/2024/10/granola-image-1-scaled.jpg"><img alt="" class="wp-image-15919" src="https://nesslabs.com/wp-content/uploads/2024/10/granola-image-1-1024x457.jpg" /></a></figure>
+
+
+
+<p><strong>Hi Chris, thanks for agreeing to this interview! When did you become interested in helping people have ​​calmer, more productive meetings?</strong></p>
+
+
+
+<p>Thanks for having me! You know, it’s funny – the interest didn’t actually start with meetings specifically. My cofounder Sam and I are both nerds for productivity tools. We believe that the tools you use have a huge impact on how effective you can be, how fulfilling your work feels.</p>
+
+
+
+<p>When we started thinking about this, it was before ChatGPT came out. GPT-3 was already available, and from that it was obvious to us that it and models like it would fundamentally transform the tools we use to get work done. There’s a window for toolmakers like us to invent the ways we’ll do work alongside AI in the future. And that’s an incredibly exciting thing to be working on.</p>
+
+
+
+<p><strong>So that’s what inspired you to build Granola.&nbsp;</strong></p>
+
+
+
+<p>Yes, exactly. Sam and I are both very product-minded people, and we knew it would be helpful to have a focused use case to design an experience around. We explicitly didn’t want to just design a generic AI productivity tool from the start. We wanted a unique point of view that would let us be more focused with the initial thing we built.</p>
+
+
+
+<p>Before building, we talked to a bunch of friends about their work lives. We explored their challenges, what frustrates them, where they waste time – that kind of stuff. The meeting problem came up again and again.</p>
+
+
+
+<p>For people whose jobs revolve around meetings, your work life can often feel out of control. Your day is full of back-to-back meetings, each creating follow-up work that you don’t have time to deal with in the moment. That work just stacks up.&nbsp;</p>
+
+
+
+<p>The folks we spoke to felt like they were suffering under all the little things that come out of meetings – scheduling the next one, writing a summary, coordinating action items, filing support tickets, writing memos. It’s all menial stuff, but if each meeting spawns 15-30 minutes of work, and you have a day full of meetings, that ends up being a significant amount of time at the end of each day.&nbsp;</p>
+
+
+
+<p>Meetings also have some great properties as a category to build a new product around. They have a clear start and end, so you can design a coherent experience around them. It’s one of the few product categories where you can notify people multiple times a day and they actually welcome it, which helps hugely in forming a habit around the product.</p>
+
+
+
+<p>They also have a built in growth mechanic – it’s a natural moment for the app to spread from one person to another. All this made meetings feel like a great starting point, from which we could prove out an initially useful tool before expanding into being a more generally useful AI-native workspace.</p>
+
+
+
+<p><strong>What do you think are the benefits of using an AI notetaker during meetings?</strong></p>
+
+
+
+<p>By far the biggest benefit we hear is that it helps people be more present in the meeting. It frees you up to focus on the person in front of you, and only note down the stuff that really matters to you.</p>
+
+
+
+<p>Ever spent a whole meeting jotting chicken scratch notes on a sheet of paper, only to realize after that you can’t even remember what you meant to write? With note-takers like Granola you instead get a beautifully formatted set of notes that will be much more useful and shareable.</p>
+
+
+
+<p>People who use Granola value their thinking and judgment. They’re really not well-served by a meeting bot that just joins the meeting and sends a generic summary. As we like to say, <em>writing is thinking</em>, and with Granola you’re able to get the best of both worlds. You still write the things that matter to you, but you can relax about having to note all the details. Granola’s got that.</p>
+
+
+
+<p><strong>But that assumes you’ll actually put those notes to use.</strong></p>
+
+
+
+<p>You’re right, it does. What we actually see is people use notes for some specific things: sharing with others and reminding their future self what was talked about. But for everything else they tend to prefer just ‘chatting’ with the transcript. It’s a very precise way to answer the question on your mind.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://nesslabs.com/wp-content/uploads/2024/10/granola-image-2.jpg"><img alt="" class="wp-image-15920" src="https://nesslabs.com/wp-content/uploads/2024/10/granola-image-2-1024x600.jpg" /></a></figure>
+
+
+
+<p>Zooming out, notes for us have always felt like the beginning of the journey, but not the be-all and end-all. In the future tools like Granola won’t just help with the notes, they’ll be queuing up and completing the action items too (more on that later).</p>
+
+
+
+<p><strong>That sounds great. So, how does Granola work exactly?</strong></p>
+
+
+
+<p>When you use Granola, it feels a lot like a regular note-taking app, like Apple Notes or Google Docs. We designed it on purpose to feel familiar. But when you’re using Granola, you no longer need to worry about noting down every single thing that’s being talked about in the meeting. You can focus on just writing down the things that really matter to you.</p>
+
+
+
+<p>In the background, Granola transcribes the whole meeting. It takes whatever notes you’ve written as a starting point, tidies them up, makes them nice to read, and fleshes out the bits you missed. What you end up with is a set of notes that is a true reflection of what you care about (not just a generic Zoom summary), but also has the meat of the meeting and the things you would have missed.</p>
+
+
+
+<p>And it does all this without being a bot in the video call, which is important. People hate these bots – they’re awkward, they take up space in your Zoom call, they’re overly invasive: recording audio and video. Granola does none of that, and people really love that about it.</p>
+
+
+
+<p><strong>When you say it works on all platforms, what do you mean?</strong></p>
+
+
+
+<p>We do all the transcription through the system audio in your laptop, so we don’t need to be a bot in your Zoom, Teams, or Meet call. You can use Granola with anything – FaceTime, WhatsApp, Zoom, Google Meet, Slack huddles, you name it. People even use it to take notes on YouTube videos or podcasts!</p>
+
+
+
+<p><strong>What kind of people use Granola?</strong></p>
+
+
+
+<p>Our classic archetype is someone whose day is filled with externally facing, back-to-back meetings. So that could mean founders, investors, sales, customer support, recruiting, user research, or many other roles.</p>
+
+
+
+<p>One thing I found that’s really interesting is that Granola’s user base skews very senior. We have a disproportionate volume of founders and leaders using Granola. Last time we counted, we had like 11 or 12 founders of unicorn companies. We have partners from almost all the top VC firms using Granola. We even have a couple of C-suite people in Fortune 500 level companies.</p>
+
+
+
+<p>The through-line here is that it’s incredibly busy people, who really value their own judgment and insight on the conversation. It’s not enough to get a generic AI summary &#8211; it needs to be led by the key things that matter to them.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://nesslabs.com/wp-content/uploads/2024/10/granola-image-4.jpg"><img alt="" class="wp-image-15923" src="https://nesslabs.com/wp-content/uploads/2024/10/granola-image-4-1024x575.jpg" /></a></figure>
+
+
+
+<p><strong>What about you, how do you use Granola?</strong></p>
+
+
+
+<p>First and foremost I use it for every meeting. Usually, I still take quite a lot of notes, but those notes are scrappy – mostly keywords and ideas with no grammar or structure. I trust that when the meeting ends Granola will make them useful. I use it to take down user stories when I’m talking to users. I use it to pull out the highlights when interviewing engineering candidates.</p>
+
+
+
+<p>Some more left-field ways I use it: I often use it in initial kickoff meetings for a product or feature or even a blog post. We’ll put on Granola in the office, and we’ll talk about what we want to do. Then afterwards, I use Granola to help me write the spec or even draft a blog post.</p>
+
+
+
+<p><strong>And finally… What’s next for Granola?</strong></p>
+
+
+
+<p>There are three high-level things that have me really excited. The first is unlocking the value from many meetings at a time, not just a single meeting.</p>
+
+
+
+<p>Currently you can only interact with Granola one meeting at a time, but imagine in future being able to ask questions of a whole history of meetings, or pull out insights, like product feedback or interesting quotes, from a whole cluster of meetings.</p>
+
+
+
+<p>The second is doing the above, but for a whole company. When a whole team starts using Granola, the value should compound. There’s so much useful insight that could be pulled from a year’s worth of customer calls, for example – with Granola and the rapid progression in AI models I think we’ll be there very soon.</p>
+
+
+
+<p>The third and final one is helping people with the <em>actual</em> work around meetings. Beyond taking notes, can Granola be&nbsp; scheduling follow-ups, creating tickets from bug reports, sending feedback to a different team in the company, or writing up a follow-up email.</p>
+
+
+
+<p>I think there’s huge potential here to start winning back meaningful chunks of time from peoples’ days here – it’s also an incredibly fun problem to be sinking our teeth into!</p>
+
+
+
+<p><strong>Thank you so much for your time, Chris! Where can people learn more about Granola?</strong></p>
+
+
+
+<p>Download Granola and read more <a href="https://granola.ai">on our website</a>. Use it for a few meetings, and if you do, let us know what you think. <a href="http://x.com/meetgranola">Follow us on X</a> for updates. We’re also looking for software engineers and a marketing generalist to come join us in London. If that’s you, <a href="http://granola.ai/jobs">get in touch</a>!</p>
+<p>The post <a href="https://nesslabs.com/granola-featured-tool">Put your Meetings to Work with Chris Pedregal, founder of Granola</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 03 Oct 2024 14:39:14 +0000</pubDate>
+<pubDate>Thu, 03 Oct 2024 14:39:14 +0000</pubDate>
+</item>
+<item>
+<title>The Doing Deficit: How Deliberate Action Outperforms Passive Learning</title>
+<link>https://nesslabs.com/doing-deficit?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=doing-deficit</link>
+<guid>https://nesslabs.com/doing-deficit?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=doing-deficit</guid>
+<content:encoded><![CDATA[
+
+<p>Stephen King didn’t become a bestselling author by reading about writing—he became one by writing every single day. The same applies to many successful people across various fields.</p>
+
+
+
+<p>They didn’t just gather information—they took deliberate action, committing to daily practice that helped them refine their skills. Yet, so many of us continue to endlessly collect information while avoiding actual practice. Why?</p>
+
+
+
+<p>In truth, most of us don’t suffer from a knowledge deficit—we suffer from a <em>doing deficit</em>. We take online courses and read books but rarely apply what we learn. The hard part isn’t learning what to do; it’s doing what we already know. So how can we shift from passive thinking to active doing?</p>
+
+
+
+<h2 class="wp-block-heading">Why We Resist Deliberate Practice</h2>
+
+
+
+<p>“Deliberate practice occurs when an individual intentionally repeats an activity in order to improve performance,” <a href="https://journals.sagepub.com/doi/10.1177/0963721411421922">explains</a> psychologist Guillermo Campitelli. Research <a href="https://journals.sagepub.com/doi/abs/10.1177/0963721411421922">shows</a> that deliberate practice is necessary to master new skills, and that it takes about 3,000 hours of deliberate practice to reach an intermediate level of proficiency in a skill.</p>
+
+
+
+<p>Deliberate practice isn’t just about putting in time; it’s about challenging yourself at the edge of your abilities. In addition, many skills are cumulative—you need to master the basics before moving onto more advanced topics.</p>
+
+
+
+<figure class="wp-block-image"><img alt="Accumulated hours of deliberate practice illustrating the doing deficit" class="wp-image-2091" height="543" src="https://nesslabs.com/wp-content/uploads/2019/10/focus-on-the-process-graph.png" width="792" /><figcaption class="wp-element-caption"><em>Hambrick, D. Z., Oswald, F. L., Altmann, E. M., Meinz, E. J., Gobet, F., &amp; Campitelli, G. (2014).</em></figcaption></figure>
+
+
+
+<p>However, understanding deliberate practice is one thing; actually doing it is another. Why is it so difficult to move from thinking to doing?</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Lack of immediate results.</strong> Deliberate practice can be slow and repetitive because you need to drill the same content over and over again in order to solidify the new connections in your brain. Although the fact that you’re struggling is actually a good sign, it can feel frustrating and make you want to quit.</li>
+
+
+
+<li><strong>Discomfort with uncertainty.</strong> Deliberate practice involves venturing into the unknown. Unlike consuming content, which is relatively comfortable, practicing forces you to confront potential setbacks which you cannot predict.</li>
+
+
+
+<li><strong>Fear of failure.</strong> When you start deliberately practicing, you will inevitably struggle and make mistakes. This can be demoralizing, leading you to retreat back into the safer territory of passive learning and thinking.</li>
+</ul>
+
+
+
+<p>These challenges aren’t just theoretical—they’re deeply emotional in nature, and that’s why they often prevent us from committing to real, tangible practice even though we know at a rational level that we need to actually practice what we study.</p>
+
+
+
+<h2 class="wp-block-heading">Practice over Perfection</h2>
+
+
+
+<p>It’s easy to consume more information and convince ourselves that we’re making progress. But knowledge alone isn’t enough to build new skills. You need to take action.&nbsp; As Thomas Sterner, author of <em>The Practicing Mind</em>, puts it: “Progress is a natural result of staying focused on the process of doing anything.”</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Writing a book.</strong> In addition to reading about the best strategies from published authors to write a book, commit to writing one page every day.</li>
+
+
+
+<li><strong>Learning a new language.</strong> Don’t just explore blog posts from polyglots; also sign up to a service that allows you to practice with a native speaker.</li>
+
+
+
+<li><strong>Getting in shape.</strong> Once you’re done watching a few videos from fitness coaches to study the most effective routines, block time in your calendar to actually put these into practice.</li>
+
+
+
+<li><strong>Learning how to code.</strong> Instead of just reading tutorials, commit to code something new every day.</li>
+</ul>
+
+
+
+<p>So how do you actually move from passive learning to active doing? Here are five practical strategies:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://nesslabs.com/wp-content/uploads/2019/10/doing-deficit-banner.png"><img alt="5 ways to solve the Doing Deficit" class="wp-image-15913" src="https://nesslabs.com/wp-content/uploads/2019/10/doing-deficit-banner-1024x576.png" /></a></figure>
+
+
+
+<p><strong>1. Start small.</strong> Choose one small action you can commit to. Rather than focusing on a huge task (like “write a novel”), narrow the scope of the action to something manageable, like “write 200 words a day.” The key is to make the commitment small enough that you won’t be tempted to skip it, but meaningful enough to build momentum.</p>
+
+
+
+<p><strong>2. Focus on the process.</strong> Don’t choose goals that are outcome-based like “become fluent in a language” or “get in shape.” Instead, direct your energy towards the process itself. The only goal is to show up consistently and to enjoy the journey. The reward is in the daily act of showing up, not in reaching a specific destination.</p>
+
+
+
+<p><strong>3. Track your progress.</strong> Just like a scientist, keep a journal of your practice sessions. Document what you did, how it felt, and what you learned. This will help you notice patterns and incremental improvements over time.</p>
+
+
+
+<p><strong>4. Embrace discomfort.</strong> Accept that mistakes are part of the process. When you feel resistance, lean into it—it&#8217;s a sign you&#8217;re pushing your limits. It’s often in those moments of discomfort that you’ll experience creative flow.</p>
+
+
+
+<p><strong>5. Find accountability.</strong> Tag team with someone who can help hold you accountable. Whether it’s a friend, a mentor, or an online community, having someone check in on your progress can help keep you on track even when things get hard.</p>
+
+
+
+<p>Ultimately, solving the doing deficit is about answering this question: Are you willing to practice deliberately even when it’s uncomfortable? And, one step further: can you find satisfaction in the discomfort?</p>
+
+
+
+<p>It requires welcoming failure and trusting that, over time, those small efforts will compound into meaningful progress. It means showing up every day, even when progress feels slow, and enjoying the slow process of mastering something new—finding joy is in the act of doing, not in reaching a specific destination.</p>
+<p>The post <a href="https://nesslabs.com/doing-deficit">The Doing Deficit: How Deliberate Action Outperforms Passive Learning</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 02 Oct 2024 08:28:00 +0000</pubDate>
+<pubDate>Wed, 02 Oct 2024 08:28:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Workplace Anxiety: How to Deal with Anxiety at Work</title>

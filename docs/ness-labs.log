@@ -14445,3 +14445,15 @@ Existing_entries: 41
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-10-03 14:06:36.106394
+------------------------------------------------------
+Started: 2024-10-03 16:09:19.271502
+Existing_entries: 41
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Connection error.
+Append: [Put your Meetings to Work with Chris Pedregal, founder of Granola](https://nesslabs.com/granola-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=granola-featured-tool)
+Summarization failed, append the original article
+error: Connection error.
+Append: [The Doing Deficit: How Deliberate Action Outperforms Passive Learning](https://nesslabs.com/doing-deficit?utm_source=rss&utm_medium=rss&utm_campaign=doing-deficit)
+append_entries: 2
+Finish: 2024-10-03 16:09:25.101170
