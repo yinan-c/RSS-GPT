@@ -28421,3 +28421,9 @@ error: Connection error.
 Append: [The Sticker Book](https://rknight.me/blog/the-sticker-book/)
 append_entries: 1
 Finish: 2024-10-03 20:04:31.289546
+------------------------------------------------------
+Started: 2024-10-03 22:04:24.044702
+Existing_entries: 368
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-10-03 22:04:26.908180
