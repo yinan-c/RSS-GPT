@@ -28373,3 +28373,12 @@ Existing_entries: 366
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-03 06:05:19.574775
+------------------------------------------------------
+Started: 2024-10-03 08:05:13.352605
+Existing_entries: 366
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [St Jude 2024 Recap](https://rknight.me/blog/st-jude-2024-recap/)
+append_entries: 1
+Finish: 2024-10-03 08:05:19.194685
