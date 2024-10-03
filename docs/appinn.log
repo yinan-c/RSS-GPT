@@ -38727,3 +38727,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-10-03 04:04:29.348790
+------------------------------------------------------
+Started: 2024-10-03 06:04:36.847581
+Existing_entries: 568
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [[开发者自荐] Orderly Favorites 一款有序的网页收藏夹，告别杂乱无章的书签，让收藏变得简单、有序。](https://meta.appinn.net/t/topic/61616)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-10-03 06:04:39.423763
