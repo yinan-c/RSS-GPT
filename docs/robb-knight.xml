@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Never Send me a TikTok Video</title>
 <link>https://rknight.me/blog/never-send-me-a-tiktok-video/</link>
 <guid>https://rknight.me/blog/never-send-me-a-tiktok-video/</guid>
 <content:encoded><![CDATA[
-
 <p>Today a friend shared a video on TikTok with me that I promptly sent to my wife because I knew she would find it funny. <a href="https://www.tiktok.com/@wonderbaby.co/video/7390445129993096478">It is funny</a> (this is a non-tracked link). A few hours later that friend said &quot;Oh your wife has watched it&quot; because TikTok notified him, with her username, that she had watched it. What the actual fuck.</p>
 <p>Every time you share a link to a TikTok from the app, it generates a new link. There is no way that I can find to get a canonical share link to a video. <code>https://vm.tiktok.com/ZGdJQnqXX/</code> and <code>https://vm.tiktok.com/ZGdJ41RXX/</code> are links to the exact same video (redacted for obvious reasons) but one is linked to my friend and one is linked to me.</p>
 <p>Look at this fucking notification:</p>
@@ -18,10 +18,8 @@
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Update</p><p>You can turn off some of this tracking in Settings &gt; Privacy &gt; Suggest your account to others. Apparently this will stop the notification as above but I haven't confirmed this. <a href="https://snailedit.social/@zmk/113266357360267152">via zmknox</a></p>
 </div>
 ]]></content:encoded>
-
 <pubDate>2024-10-07T13:11:55Z</pubDate>
 </item>
-
 <item>
 <title>I Finally Saw, and Used, an App Clip</title>
 <link>https://rknight.me/blog/i-finally-saw-and-used-an-app-clip/</link>
