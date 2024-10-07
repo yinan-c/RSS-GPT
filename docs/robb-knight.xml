@@ -4,6 +4,32 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>I Finally Saw, and Used, an App Clip</title>
+<link>https://rknight.me/blog/i-finally-saw-and-used-an-app-clip/</link>
+<guid>https://rknight.me/blog/i-finally-saw-and-used-an-app-clip/</guid>
+<content:encoded><![CDATA[
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Update</p><p>A previous version of this post said app clips were introduced seven years ago because AI summaries are dumb and Google is all the more stupid for using it.</p>
+</div>
+<p>I was at a wedding on Friday and when we sat down for the wedding breakfast there was a QR code on the table to prompt us to take photos. I scanned it and to my surprise it was an <a href="https://apple.fandom.com/wiki/App_Clips">App Clip</a> for <a href="https://pov.camera">POV camera</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. This is the first time the four years since they were introduced that I've seen one - I assumed they didn't exist any more.</p>
+<p>POV camera is basically a &quot;disposable&quot; camera. You get 28 photos and you can't see or edit them after you take them. They get sent to the event organiser (in this case the bride and groom) and they can &quot;develop&quot; them at a time they choose for everyone to browse. You can browse all the photos, just yours, or choose a specific person's. As an aside, the metaphor to physical film development and disposable cameras is surely lost on anyone under 25.</p>
+<p>The app has a live activity for the duration of the event as well, which makes it easy to jump in and take a photo. It also helps because otherwise I would have forgotten about it for the rest of the day.</p>
+<p><img alt="POV camera live activity" src="https://cdn.rknight.me/site/pov-live-activity.jpg" /></p>
+<p>I did need to download the full version of the app once the photos were available so I could save the photos but this is apparently a limitation of the App Clips API. Outside of parking meters<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> I'd not really heard of a good use case for App Clips so it was interesting to see one being used.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>On Android, it uses the <a href="https://developer.android.com/topic/google-play-instant">Instant Apps system</a> which is basically the same <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+<li class="footnote-item" id="fn2"><p>Not that any of the ones I've ever used had an App Clip <a class="footnote-backref" href="#fnref2">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-10-07T11:09:15Z</pubDate>
+</item>
 
 <item>
 <title>The Sticker Book</title>
