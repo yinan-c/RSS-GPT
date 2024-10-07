@@ -28688,3 +28688,12 @@ error: Connection error.
 Append: [I Finally Saw, and Used, an App Clip](https://rknight.me/blog/i-finally-saw-and-used-an-app-clip/)
 append_entries: 1
 Finish: 2024-10-07 12:06:19.335469
+------------------------------------------------------
+Started: 2024-10-07 14:04:20.207875
+Existing_entries: 369
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Never Send me a TikTok Video](https://rknight.me/blog/never-send-me-a-tiktok-video/)
+append_entries: 1
+Finish: 2024-10-07 14:04:26.241281

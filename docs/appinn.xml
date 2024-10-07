@@ -4,6 +4,35 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】新一代启动器 —— 如快</title>
+<link>https://meta.appinn.net/t/topic/61726</link>
+<guid>https://meta.appinn.net/t/topic/61726</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-226976-h-1" name="p-226976-h-1"></a>介绍</h1>
+<p>之前一直在 mac 端使用 Raycast 这款启动器，觉得挺好用也挺好看的，特别是里面的快捷链接功能，非常的好用。</p>
+<p>后面每次用自己的 Windows 的时候，总是感觉少了点什么，于是开始在网上搜寻 Windows 端的启动器软件方案，大概都看了个遍，被 Raycast 的 UI 惯坏的我基本都觉得 UI 太丑了，utools 算是其中看得过去的一款，不过采用 Electron 开发的，感觉这种轻量化的软件用 Electron 太重了，而且界面也只是看得过去，并不是非常好看。</p>
+<p>于是我就干脆自己用 Tauri 开发了一款 UI 酷似 Raycast 的启动器软件，取名也长得很像 Raycast —— Sofast。</p>
+<p><img alt="hello.png" height="427" src="https://h1.appinn.me/file/1728295476284_hello.png" width="690" /></p>
+<p>想起个中文名，直译过来那就是如此快，干脆省略成「如快」，这也是如快名字的由来。</p>
+<p>于是，Slogan联想到了之前一个很火的梗：“它来了吗，如来”，于是，如快的Slogan就成了现在的：“它快了吗，如快”。</p>
+<p>目前还在内测中，目前主要功能已经实现。感兴趣可以添加内测QQ群下载安装体验：<a href="https://qm.qq.com/q/xpWSDaNZQY" rel="noopener nofollow ugc">683415578</a></p>
+<p><img alt="QQ20241007-180539.png" height="418" src="https://h1.appinn.me/file/1728295555129_QQ20241007-180539.png" width="690" /></p>
+<p>简要功能介绍可参考：</p>
+<p></p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-226976-h-2" name="p-226976-h-2"></a>目前已有功能</h1>
+<ol>
+<li>快速启动应用程序（按住 alt + 空格 即可快速呼出启动器）</li>
+<li>支持快捷链接（利用各种规则拼接 url 并跳转，或者直接跳转 url）‘</li>
+<li>支持自定义扩展，插件开发采用 Vue 组件的方式进行开发，非常的简单，模板参考：<a href="https://github.com/Blushyes/sofast-extension-template" rel="noopener nofollow ugc">sofast-extension-template</a>，文档参考（完善中）：<a href="https://developer.sofast.fun" rel="noopener nofollow ugc">如快开发者文档</a></li>
+</ol>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61726">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 07 Oct 2024 12:06:44 +0000</pubDate>
+<pubDate>Mon, 07 Oct 2024 12:06:44 +0000</pubDate>
+</item>
 
 <item>
 <title>Ios语音聊天app来电不响铃，是苹果的限制吗</title>
