@@ -4,6 +4,22 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Setting Up Mastodon Author Tags</title>
+<link>https://rknight.me/blog/setting-up-mastodon-author-tags/</link>
+<guid>https://rknight.me/blog/setting-up-mastodon-author-tags/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="The new author tags on Mastodon 4.3" src="https://cdn.rknight.me/site/author-tag-preview.jpg" /></p>
+<p><a href="https://blog.joinmastodon.org/2024/10/mastodon-4.3/">Mastodon 4.3 released today</a> with a bunch of features but the one most people, including me, are excited about is author tags - this isn't the name of them but they also don't seem to have a proper name as far as I can tell. Anyway, you need to do two things to get the &quot;More from X&quot; section you can see in the screenshot above. The first is to add the <code>fediverse:creator</code> tag to your site in your <code>head</code>, which I <a href="https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/">previously wrote about here</a>.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fediverse:creator<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@robb@social.lol<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code></pre>
+<p>Then you need to jump into your settings on Mastodon and go to the Author Attribution section under Public Profile &gt; Verification. Add the domain(s) that you want to allow to be linked to your profile.</p>
+<p><img alt="The author attribution section of Mastodon" src="https://cdn.rknight.me/site/author-tags-settings.jpg" /></p>
+<p>And that's it. Keep in mind if you share a post to test this that has been posted recently your instance probably has it cached so the new author stuff won't show up.</p>
+]]></content:encoded>
+
+<pubDate>2024-10-08T19:45:42Z</pubDate>
+</item>
 
 <item>
 <title>Never Send me a TikTok Video</title>

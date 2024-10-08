@@ -28781,3 +28781,12 @@ Existing_entries: 370
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-08 18:04:50.558997
+------------------------------------------------------
+Started: 2024-10-08 20:03:57.710940
+Existing_entries: 370
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Setting Up Mastodon Author Tags](https://rknight.me/blog/setting-up-mastodon-author-tags/)
+append_entries: 1
+Finish: 2024-10-08 20:04:03.715172
