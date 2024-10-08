@@ -4,6 +4,41 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】记录和提醒车辆保养状态的App</title>
+<link>https://meta.appinn.net/t/topic/61743</link>
+<guid>https://meta.appinn.net/t/topic/61743</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-1" name="p-227040-h-1"></a>软件名称</h2>
+<p>车保养记录</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-2" name="p-227040-h-2"></a>应用平台</h2>
+<p>iOS</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-3" name="p-227040-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-4" name="p-227040-h-4"></a>一句简介</h2>
+<p>「iCar·车保养记录」是一个记录与追踪车辆保养的App。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-5" name="p-227040-h-5"></a>应用简介</h2>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-6" name="p-227040-h-6"></a>开发灵感</h5>
+<p>由于4S店保养太贵，所以我一般在途虎、京东做保养，为了清楚保养店有没有过度保养，也为了自己能知道车辆的维保状态，于是，出于自己的需求，我开发了这个App。</p>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-7" name="p-227040-h-7"></a>功能</h5>
+<p>App可以录入车辆要执行的保养项目，每次做了保养可以记录下来，由此可以计算出下一次保养的时间/里程，App显示出每项保养剩余的时间/里程。也能查看和导出历史保养记录。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-8" name="p-227040-h-8"></a>使用方式</h2>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-1-9" name="p-227040-h-1-9"></a>1. 添加车辆</h5>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-2-10" name="p-227040-h-2-10"></a>2. 根据自己的保养手册把需要保养的项目添加到车辆的保养项</h5>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-3-0-11" name="p-227040-h-3-0-11"></a>3. 把以前的保养记录录入，因为计算保养项目的下一次保养时机是根据此保养项最近一次保养时的日期和里程计算，所以做过多次保养的，只需要录最近的一次，没有做过的保养项则不需要录入，没有录入则用里程0以及车辆初始（购置）日期计算</h5>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-4-12" name="p-227040-h-4-12"></a>4. 偶尔更新一次车辆的里程</h5>
+<h5><a class="anchor" href="https://meta.appinn.net#p-227040-h-5-app-13" name="p-227040-h-5-app-13"></a>5. 做了保养记录到App</h5>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227040-h-14" name="p-227040-h-14"></a>使用预览图</h2>
+<p><img height="56" src="https://h1.appinn.me/file/1728307103210_509shots_so.png" width="100" /></p>
+<p><a href="https://apps.apple.com/cn/app/icar-%E8%BD%A6%E4%BF%9D%E5%85%BB%E8%AE%B0%E5%BD%95-%E8%AE%B0%E5%BD%95%E8%BD%A6%E8%BE%86%E4%BF%9D%E5%85%BB-%E6%8F%90%E9%86%92%E4%B8%8B%E4%B8%80%E6%AC%A1%E4%BF%9D%E5%85%BB%E6%97%B6%E6%9C%BA/id6532600650" rel="noopener nofollow ugc">App Store 链接</a></p>
+<p>这是我的第一个独立开发应用，目前在规划下一版功能，欢迎各位使用与建议。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61743">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 08 Oct 2024 02:07:17 +0000</pubDate>
+<pubDate>Tue, 08 Oct 2024 02:07:17 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】新一代启动器 —— 如快</title>
