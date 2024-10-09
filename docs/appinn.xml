@@ -4,6 +4,58 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】个人维护的网站黑名单，过滤搜索引擎结果的垃圾网站</title>
+<link>https://meta.appinn.net/t/topic/61796</link>
+<guid>https://meta.appinn.net/t/topic/61796</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-227231-h-1" name="p-227231-h-1"></a>名称</h2>
+<p>chinese-internet-is-dead</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227231-h-2" name="p-227231-h-2"></a>推荐类型</h2>
+<p>应 <a class="mention" href="https://meta.appinn.net/u/qingwa">@Qingwa</a> 邀请，由维护者自荐。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227231-h-3" name="p-227231-h-3"></a>简介</h2>
+<p>一个网站黑名单列表，能有效过滤搜索引擎结果的垃圾网站。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227231-h-4" name="p-227231-h-4"></a>优势</h2>
+<p>黑名单的网站都是我亲手点击进去，发现是垃圾网址后加上去的，已经维护好几年了，保证 100% 都是垃圾网站。</p>
+<blockquote>
+<p>刚刚看了一下 Github Insights，每天有两三百访问，感觉还是满受欢迎的。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227231-h-5" name="p-227231-h-5"></a>使用方法</h2>
+<p>需要搭配浏览器插件，我目前使用的是开源的 <a href="https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe" rel="noopener nofollow ugc">ublacklist</a>。</p>
+<p>只要在插件里订阅下面的 github 链接，就可以无感自动更新。一劳永逸。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227231-h-6" name="p-227231-h-6"></a>开源地址</h2>
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/obgnail/chinese-internet-is-dead" rel="noopener nofollow ugc" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/0ad1d656888ecbbd47af99f20f494355/obgnail/chinese-internet-is-dead" width="690" />
+
+  <h3><a href="https://github.com/obgnail/chinese-internet-is-dead" rel="noopener nofollow ugc" target="_blank">GitHub - obgnail/chinese-internet-is-dead: the website blocklist I am maintaining</a></h3>
+
+    <p><span class="github-repo-description">the website blocklist I am maintaining</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61796">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 09 Oct 2024 12:13:32 +0000</pubDate>
+<pubDate>Wed, 09 Oct 2024 12:13:32 +0000</pubDate>
+</item>
 
 <item>
 <title>请问有没有什么 Chrome 付费插件独立开发的交流群？</title>
