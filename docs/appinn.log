@@ -39487,3 +39487,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-10-11 00:13:57.501078
+------------------------------------------------------
+Started: 2024-10-11 02:25:45.228361
+Existing_entries: 576
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开发者自荐】搜题助手：选中题目自动搜题，快速获取答案](https://meta.appinn.net/t/topic/61846)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-10-11 02:25:48.458551
