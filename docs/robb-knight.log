@@ -28976,3 +28976,12 @@ Existing_entries: 371
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-11 10:04:24.863082
+------------------------------------------------------
+Started: 2024-10-11 12:06:05.115009
+Existing_entries: 371
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Our Wedding Photographer Was Terrible](https://rknight.me/blog/our-wedding-photographer-was-terrible/)
+append_entries: 1
+Finish: 2024-10-11 12:06:09.363078
