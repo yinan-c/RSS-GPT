@@ -4,6 +4,288 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>自部署免费的文档在线管理工具，在线编辑预览，私有存储，永久直链等</title>
+<link>https://meta.appinn.net/t/topic/61908</link>
+<guid>https://meta.appinn.net/t/topic/61908</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-227602-webos-1" name="p-227602-webos-1"></a>Webos</h1>
+<p>个人私有云</p>
+<p>完全免费，私有部署，仿Win11资源管理器。集文件管理、分享、协作、在线编辑预览等</p>
+<ul>
+<li>客户端：支持 Windows Linux MAC 。</li>
+<li>移动端：H5 小程序 安卓 IOS 鸿蒙（待开发）。</li>
+<li>服务端：服务端支持在 Docker Windows Linux MAC 宝塔 群辉和 ARM 架构的设备，以及其它移动设备部署</li>
+<li>支持飞牛os 部署，增强文件管理</li>
+</ul>
+<p>内置 飞书office 腾飞office 无需在自行部署文档预览编辑项目。</p>
+<blockquote>
+<h2><img alt=":loudspeaker:" class="emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/loudspeaker.png?v=12" title=":loudspeaker:" width="20" />:福利： 免费赠送兑换码，自部署体验的小伙伴可以用。接受私信索要</h2>
+</blockquote>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>兑换码</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>A72A36D869B102465DCDAADDC4BEF50B</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>D37A54E50420E22A4980B057143FC89C</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>8B9B5FE2C95CB386D83214CCC3081B71</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>3BBA9523145763B5747B725407CEB798</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>798F11E2CFF644C5E45E964FA2BE3562</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>6AE687226089F14ED6B2935DDE3563A3</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>BD85E32CD244B0EDCBCAB76D282957A8</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>936A89903B1B3B57CB10FA2853A4C016</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>278C25A90627C6BDAD6FB3D29646E985</td>
+<td></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>29999A33E4645C0C3AD967E09DDB8756</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div><hr />
+<h1><a class="anchor" href="https://meta.appinn.net#p-227602-demo-httpsp1tenfellcntoguesttrue-httpsostenfellcndocguidearrangebthtml-2" name="p-227602-demo-httpsp1tenfellcntoguesttrue-httpsostenfellcndocguidearrangebthtml-2"></a><strong><a href="https://p1.tenfell.cn/?toGuest=true" rel="noopener nofollow ugc">Demo地址 </a></strong> | <a href="https://os.tenfell.cn/doc/guide/arrange/bt.html" rel="noopener nofollow ugc">自部署文档 </a></h1>
+<hr />
+<p>Webos是免费的，这意味着用户可以在不增加额外成本的情况下，将其应用于生产环境中。这为个人用户提供了一个经济高效的选择，可以节省软件采购费用。腾飞Webos的免费性为用户提供了更多的选择和自由，是一个值得考虑的<code>Web操作系统</code>。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227602-weboshttpsostenfellcndocguidewhy-is-weboshtmlwhy-is-blossom-3" name="p-227602-weboshttpsostenfellcndocguidewhy-is-weboshtmlwhy-is-blossom-3"></a>为什么选择 Webos？<a href="https://os.tenfell.cn/doc/guide/why-is-webos.html#why-is-blossom" rel="noopener nofollow ugc">​</a></h2>
+<p>一体化办公平台，在线编辑各类文档、实时协作分享、流程图、绘图、音频、视频、文档、看板、表格、资源库等多种创意工作和内容；支持每一个参与者自由挥洒自己的创意</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-227602-httpsostenfellcndocguidewhy-is-weboshtmlspecial-page-4" name="p-227602-httpsostenfellcndocguidewhy-is-weboshtmlspecial-page-4"></a>不一样的私有云<a href="https://os.tenfell.cn/doc/guide/why-is-webos.html#special-page" rel="noopener nofollow ugc">​</a></h3>
+<p>Webos-私有云是一款极致美观强大的私有云web系统，TA能满足您所有在线办公，文件分享，私有存储等需求！</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-227602-httpsostenfellcndocguidewhy-is-weboshtmlreferences-5" name="p-227602-httpsostenfellcndocguidewhy-is-weboshtmlreferences-5"></a>完善的强大功能<a href="https://os.tenfell.cn/doc/guide/why-is-webos.html#references" rel="noopener nofollow ugc">​</a></h3>
+<p>TA所拥有的一切，也是您的业务所需的一切！</p>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>功能</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>个性化</td>
+<td>壁纸，动态壁纸</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>第三方登录</td>
+<td>支持微信、QQ等三方登录</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>离线下载</td>
+<td>无需前端 实现离线下载</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>文件管理器</td>
+<td>删除、mkdir、重命名、移动/复制/剪切/粘贴/共享</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>全盘断点续传</td>
+<td>意外断网,刷新,重新在同一个目录选同一个文件能接着传</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>跨盘秒传</td>
+<td>任意盘之间复制粘贴会检测是否支持,不支持采用先下载再上传</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>文件编辑预览</td>
+<td>文本,代码,文档,图片等在线编辑和预览,后面会支持更多</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>直连上传/下载</td>
+<td>盘支持从浏览器直接上传/下载到服务器,不经过中转</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>独立的应用商店</td>
+<td>可下载应用插件、后期可注册开发者发布自己制作的插件</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>永久直链</td>
+<td>文件永久链接复制和直接文件下载，一键复制html代码地址 文件名+地址等</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>直链管理</td>
+<td>提供直链管理页面，支持不换Url地址更换文件。</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>全盘文件分享</td>
+<td>权限管控,可控制是否允许下载</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>用户权限管控</td>
+<td>更细粒的权限分配</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>日志</td>
+<td>各类操作日志</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>注册</td>
+<td>允许用户自行注册，默认分配空间</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>云协作</td>
+<td>各类文档，协作</td>
+</tr>
+<tr>
+<td><img alt=":crown:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crown.png?v=12" title=":crown:" width="20" /></td>
+<td><strong>音视频</strong></td>
+<td><strong>在线打开各类音视频文件</strong></td>
+</tr>
+<tr>
+<td><img alt=":crown:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crown.png?v=12" title=":crown:" width="20" /></td>
+<td><strong>网盘挂载</strong></td>
+<td><strong>提供大量的三方网盘挂载</strong></td>
+</tr>
+<tr>
+<td><img alt=":crown:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crown.png?v=12" title=":crown:" width="20" /></td>
+<td><strong>本地挂载</strong></td>
+<td><strong>将不支持挂载到本地的三方网盘等挂载到本</strong></td>
+</tr>
+<tr>
+<td><img alt=":crown:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crown.png?v=12" title=":crown:" width="20" /></td>
+<td><strong>更多挂载支持</strong></td>
+<td><strong>支持:阿里云OSS Amazon S3 腾讯COS SMB FTP Webdav等</strong></td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>通知管理</td>
+<td>允许发送用户信息</td>
+</tr>
+<tr>
+<td><img alt=":crown:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crown.png?v=12" title=":crown:" width="20" /></td>
+<td>企业模式</td>
+<td>企业模式框架，更好的管理部门及用户</td>
+</tr>
+<tr>
+<td><img alt=":crown:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/crown.png?v=12" title=":crown:" width="20" /></td>
+<td>自营模式</td>
+<td>支持自定义会员等级，自动分配，空间扩容。付费下载 打赏功能 限速等。</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>屏蔽版权信息</td>
+<td>屏蔽所有版权信息，让Webos为个人所有</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>全局JS，ccs</td>
+<td>全局代码功能</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>共享上传</td>
+<td>允许用户无需登录上传文件,多用于收集文件</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>自定义广告管理</td>
+<td>允许用户自行设置系统内的广告</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>内网穿透</td>
+<td>无需外网在任意环境下访问您的webos</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>内网映射</td>
+<td>内网设备通过webos访问</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>VIP专属群</td>
+<td>优先响应反馈的信息及建议</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>本地同步</td>
+<td>本地文件自动同步到webos或挂载的网盘内</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>跨盘同步</td>
+<td>任意网盘之间相互同步，支持秒传协议</td>
+</tr>
+<tr>
+<td><img alt=":sparkling_heart:" class="emoji only-emoji" height="20" src="https://meta-cdn1.appinn.com/images/emoji/twitter/sparkling_heart.png?v=12" title=":sparkling_heart:" width="20" /></td>
+<td>动态登录壁纸</td>
+<td>登录注册页面允许设置视频为壁纸</td>
+</tr>
+</tbody>
+</table>
+</div><p><img alt="PixPin_2024-10-10_12-51-11.jpg" height="369" src="https://h1.appinn.me/file/1728716781750_PixPin_2024-10-10_12-51-11.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-51-37.jpg" height="370" src="https://h1.appinn.me/file/1728716775961_PixPin_2024-10-10_12-51-37.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-53-22.jpg" height="369" src="https://h1.appinn.me/file/1728716778104_PixPin_2024-10-10_12-53-22.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-54-07.jpg" height="370" src="https://h1.appinn.me/file/1728716780804_PixPin_2024-10-10_12-54-07.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-55-23.jpg" height="369" src="https://h1.appinn.me/file/1728716785433_PixPin_2024-10-10_12-55-23.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-57-20.jpg" height="370" src="https://h1.appinn.me/file/1728716785153_PixPin_2024-10-10_12-57-20.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-57-56.jpg" height="371" src="https://h1.appinn.me/file/1728716779347_PixPin_2024-10-10_12-57-56.jpg" width="690" /><br />
+<img alt="PixPin_2024-10-10_12-58-32.jpg" height="370" src="https://h1.appinn.me/file/1728716777810_PixPin_2024-10-10_12-58-32.jpg" width="690" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61908">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 12 Oct 2024 07:09:31 +0000</pubDate>
+<pubDate>Sat, 12 Oct 2024 07:09:31 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】搜题助手：选中题目自动搜题，快速获取答案</title>

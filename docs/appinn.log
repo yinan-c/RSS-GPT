@@ -39608,3 +39608,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-10-12 06:04:20.486936
+------------------------------------------------------
+Started: 2024-10-12 08:04:20.588421
+Existing_entries: 577
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [自部署免费的文档在线管理工具，在线编辑预览，私有存储，永久直链等](https://meta.appinn.net/t/topic/61908)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-10-12 08:04:23.287911
