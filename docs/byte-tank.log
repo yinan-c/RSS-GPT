@@ -26389,3 +26389,12 @@ Existing_entries: 56
 Fetching from https://lopespm.com/atom.xml
 append_entries: 0
 Finish: 2024-10-13 16:04:17.674651
+------------------------------------------------------
+Started: 2024-10-13 18:04:32.151020
+Existing_entries: 56
+Fetching from https://lopespm.com/atom.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Lessons from Roman History](https://lopespm.com/notes/2024/10/13/lessons_roman_history.html)
+append_entries: 1
+Finish: 2024-10-13 18:04:34.992269
