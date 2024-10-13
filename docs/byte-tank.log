@@ -26398,3 +26398,9 @@ error: Connection error.
 Append: [Lessons from Roman History](https://lopespm.com/notes/2024/10/13/lessons_roman_history.html)
 append_entries: 1
 Finish: 2024-10-13 18:04:34.992269
+------------------------------------------------------
+Started: 2024-10-13 20:04:19.178297
+Existing_entries: 57
+Fetching from https://lopespm.com/atom.xml
+append_entries: 0
+Finish: 2024-10-13 20:04:19.422766
