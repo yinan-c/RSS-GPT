@@ -4,6 +4,63 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[开源自荐] 快速预览链接插件</title>
+<link>https://meta.appinn.net/t/topic/61960</link>
+<guid>https://meta.appinn.net/t/topic/61960</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-227817-smart-preview-1" name="p-227817-smart-preview-1"></a>Smart Preview</h1>
+<blockquote>
+<p>在 mac 上体使用了 Arc 浏览器，最让我难忘的就是 Arc 的 peek 功能。可以直接预览链接而不需要打开过多的标签，也不需要手动关闭。后因为一些原因换回了 window，但对这个功能还是念念不忘，所以在思索着开发一个这个功能的平替插件。希望能帮到你们。Enjoy～</p>
+</blockquote>
+<p>Smart Preview 是一个强大的浏览器扩展，旨在提升您的网页浏览体验。它允许用户快速预览链接内容，而无需打开新的标签页。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227817-h-2" name="p-227817-h-2"></a>主要特性</h2>
+<ul>
+<li><strong>快速预览</strong>：通过Shift+点击链接，在弹出窗口中预览内容。</li>
+<li><strong>智能窗口管理</strong>：
+<ul>
+<li>居中模式：将预览窗口居中显示。</li>
+<li>智能模式：记忆并恢复上次的窗口位置和大小。</li>
+</ul>
+</li>
+<li><strong>自定义设置</strong>：
+<ul>
+<li>调整预览窗口的宽度和高度。</li>
+<li>支持多语言设置。</li>
+</ul>
+</li>
+<li><strong>便捷操作</strong>：
+<ul>
+<li>复制链接</li>
+<li>在新标签页中打开</li>
+<li>在当前标签页中打开</li>
+<li>使用Esc键快速关闭预览窗口</li>
+</ul>
+</li>
+<li><strong>跨浏览器兼容</strong>：使用WXT框架开发，支持多种主流浏览器。</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227817-h-3" name="p-227817-h-3"></a>安装</h2>
+<ol>
+<li>从<a href="https://github.com/XiCheng148/SmartPreview/releases" rel="noopener nofollow ugc">发布页面</a>下载最新版本的扩展文件（.zip），或者在<a href="https://wwmc.lanzoue.com/i7oae2chxwna" rel="noopener nofollow ugc">蓝奏云</a>下载。</li>
+<li>解压下载的文件。</li>
+<li>在浏览器中打开扩展管理页面。</li>
+<li>启用"开发者模式"。</li>
+<li>点击"加载已解压的扩展程序"，然后选择解压后的文件夹。</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#p-227817-h-4" name="p-227817-h-4"></a>使用方法</h2>
+<ol>
+<li>安装扩展后，在任何网页上按住Shift键并点击链接。</li>
+<li>预览窗口将会打开，显示链接内容。</li>
+<li>使用窗口顶部的按钮进行复制链接、新标签页打开等操作。</li>
+<li>按Esc键或点击窗口外部区域关闭预览。</li>
+</ol>
+            <p><small>5 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/61960">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 14 Oct 2024 04:12:05 +0000</pubDate>
+<pubDate>Mon, 14 Oct 2024 04:12:05 +0000</pubDate>
+</item>
 
 <item>
 <title>自部署免费的文档在线管理工具，在线编辑预览，私有存储，永久直链等</title>

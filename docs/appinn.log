@@ -39793,3 +39793,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-10-14 04:04:20.514502
+------------------------------------------------------
+Started: 2024-10-14 06:04:54.516272
+Existing_entries: 578
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [[开源自荐] 快速预览链接插件](https://meta.appinn.net/t/topic/61960)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-10-14 06:04:58.298940
