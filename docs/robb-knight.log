@@ -29435,3 +29435,12 @@ Existing_entries: 372
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-17 18:05:05.781006
+------------------------------------------------------
+Started: 2024-10-17 20:04:28.031032
+Existing_entries: 372
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Things I Like: 8BitDo Keycaps](https://rknight.me/blog/things-i-like-8bitdo-keycaps/)
+append_entries: 1
+Finish: 2024-10-17 20:04:31.999507
