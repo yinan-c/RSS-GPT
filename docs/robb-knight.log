@@ -29498,3 +29498,9 @@ error: Connection error.
 Append: [Fix Crackly Audio When Using Bluetooth Headphones on MacOS](https://rknight.me/blog/fix-crackly-audio-when-using-bluetooth-headphones-on-macos/)
 append_entries: 1
 Finish: 2024-10-18 12:06:07.781190
+------------------------------------------------------
+Started: 2024-10-18 14:04:07.885561
+Existing_entries: 375
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-10-18 14:04:09.149025
