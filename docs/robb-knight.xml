@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Setting Up DNSControl</title>
 <link>https://rknight.me/blog/setting-up-dnscontrol/</link>
 <guid>https://rknight.me/blog/setting-up-dnscontrol/</guid>
 <content:encoded><![CDATA[
-
 <p>When I linked to <a href="https://alexwlchan.net/2024/documenting-my-dns/">this post about DNS</a>, <a href="https://social.lol/@rail/113322023046758075">Dave replied</a> and mentioned he uses <a href="https://dnscontrol.org">DNSControl</a> for managing this kind of stuff. I'd heard of it before but never actually looked into what it did so I jumped into the <a href="https://docs.dnscontrol.org/getting-started/getting-started">getting started guide</a>. I'd recommend reading that if you want a more in-depth guide, this post is just an overview of what I did to get what I wanted accomplished.</p>
 <p>No detailed install steps here, check out the official docs, but the short version is this: install DNSControl (<code>brew install dnscontrol</code>), make a directory with a <code>zones</code> directory inside it, then make two files: <code>dnsconfig.js</code> and <code>creds.json</code> (don't forget to put <code>creds.json</code> in your <code>.gitignore</code> if you plan on using git for this).</p>
 <pre class="language-bash"><code class="language-bash">mydnsconfig<br />├── zones<br />├── dnsconfig.js<br />├── creds.json<br />└── .gitignore</code></pre>
@@ -23,10 +23,8 @@
 <pre class="language-bash"><code class="language-bash">$ dnscontrol preview<br /><br />******************** Domain: rknight.me<br /><span class="token number">1</span> correction <span class="token punctuation">(</span>digitalocean<span class="token punctuation">)</span><br /><span class="token comment">#1: ± MODIFY A api.rknight.me: (123.45.67.99 ttl=1800) -> (123.45.67.89 ttl=1800), DO ID: 359463019</span><br />******************** Domain: echofeed.app<br />******************** Domain: bugle.lol<br />******************** Domain: coinme.dad<br />******************** Domain: deskmat.help<br />******************** Domain: knightshift.dev<br />******************** Domain: ruminatepodcast.com<br />******************** Domain: slashpages.net<br />******************** Domain: wegot.family<br />Done. <span class="token number">1</span> corrections.</code></pre>
 <p>Running <code>dnscontrol push</code> will the sync these changes to the DNS provider. For this domain, I have 45 records so the idea of moving off of DigitalOcean was daunting but now I've got this setup it should be a lot easier to switch to one of the 35 providers that DNSControl supports.</p>
 ]]></content:encoded>
-
 <pubDate>2024-10-17T20:36:45Z</pubDate>
 </item>
-
 <item>
 <title>Things I Like: 8BitDo Keycaps</title>
 <link>https://rknight.me/blog/things-i-like-8bitdo-keycaps/</link>
