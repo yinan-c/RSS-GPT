@@ -4,6 +4,26 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Fix Crackly Audio When Using Bluetooth Headphones on MacOS</title>
+<link>https://rknight.me/blog/fix-crackly-audio-when-using-bluetooth-headphones-on-macos/</link>
+<guid>https://rknight.me/blog/fix-crackly-audio-when-using-bluetooth-headphones-on-macos/</guid>
+<content:encoded><![CDATA[
+
+<p>Every now and again I start listening to music on MacOS through my headphones and the audio is tinny and crackly. After some dicking around with quitting Apple Music, reconnecting the headphones, even rebooting the Mac nothing fixed it. I finally worked out the fix<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> - changing the input settings of the Mac to <em>not</em> be the headphones. No more crackling.</p>
+<p><img alt="Input settings showing the Mac is selected for the input source and not Magneto" src="https://cdn.rknight.me/site/input-settings.jpg" /></p>
+<p>Yet another <a href="https://rknight.me/blog/fix-for-bluetooth-audio-cutting-out-on-the-mac/">very stupid fix for stupid audio issues</a>.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>I probably found this solution on Reddit or the Apple forums but I can't find the source now <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-10-18T11:59:23Z</pubDate>
+</item>
 
 <item>
 <title>Setting Up DNSControl</title>

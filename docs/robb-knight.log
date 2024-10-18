@@ -29489,3 +29489,12 @@ Existing_entries: 374
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-18 10:05:33.708970
+------------------------------------------------------
+Started: 2024-10-18 12:06:03.733105
+Existing_entries: 374
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Fix Crackly Audio When Using Bluetooth Headphones on MacOS](https://rknight.me/blog/fix-crackly-audio-when-using-bluetooth-headphones-on-macos/)
+append_entries: 1
+Finish: 2024-10-18 12:06:07.781190
