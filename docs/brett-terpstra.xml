@@ -4,6 +4,45 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for October 19, 2024</title>
+<link>https://brett.trpstra.net/link/535/16859872/web-excursions-for-october-19-2024</link>
+<guid>https://brett.trpstra.net/link/535/16859872/web-excursions-for-october-19-2024</guid>
+<content:encoded><![CDATA[
+
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with NordVPN. <a href="https://nordvpn.sjv.io/4Pgnm0">Secure your internet browsing effectively and affordably.</a></p>
+
+<dl>
+  <dt><a href="https://indigostack.app/">IndigoStack</a></dt>
+  <dd>This is really cool. Bare metal performance for local web development stacks. Run multiple stacks with https, reverse proxies, whatever tech you need &mdash; no Docker, no VMs, full terminal integration. Really well done.</dd>
+  <dt><a href="https://www.thoughtasylum.com/2024/10/05/a-quick-tip-for-using-moom-in-bunch/">A Quick Tip For Using Moom in Bunch</a></dt>
+  <dd>Great post from Stephen Millard on using Moom 4 with Bunch. Lots of tips!</dd>
+  <dt><a href="https://copy-repo.vercel.app/">Copy Repo</a></dt>
+  <dd>Copy/Paste the content of any Github repository for use in your LLM of choice. Filterable by file type.</dd>
+  <dt><a href="https://github.com/ttscoff/confluence2md">ttscoff/confluence2md</a></dt>
+  <dd>I made this specifically for the internal docs team at Oracle, but figured other people may find a use for it. It takes an HTML export dump from Confluence and converts it to Markdown (specifically Python markdown, but could easily be modified for other formats). Great for converting Confluence documentation wikis into GitHub/GitLab pages.</dd>
+</dl>
+
+<p>NordVPN secures your internet browsing, plus it can make it look to services like you&rsquo;re coming from any country. <a href="https://nordvpn.sjv.io/4Pgnm0">Check it out today.</a></p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F10%2F19%2Fweb-excursions-for-october-19-2024%2F&amp;text=Web+Excursions+for+October+19%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F10%2F19%2Fweb-excursions-for-october-19-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16859872.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-10-19T10:58:00-05:00</pubDate>
+<pubDate>2024-10-19T10:58:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for October 04, 2024</title>
