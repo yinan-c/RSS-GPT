@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>【自荐】为了在BOSS上开挂找工作，我写了个chrome插件</title>
 <link>https://meta.appinn.net/t/topic/62210</link>
 <guid>https://meta.appinn.net/t/topic/62210</guid>
 <content:encoded><![CDATA[
-
 <p>最近准备找工作，每条猛猛刷BOSS，感觉自己陷入了一个循环，每天检索新的岗位，看JD详情，匹配需求，不感兴趣 or 沟通一下。</p>
 <p>某一天一拍大腿，这么重复的活，为啥不让AI帮我干呢，于是我喊来了  ChatGPT、Calude、Cursor、V0这几位好朋友，开干！</p>
 <p>于是就有了这个插件，“百分投简历”(100resume)，一键爬取BOSS上的信息，并且让AI帮你分析这个岗位适不适合你，咱直接从匹配度100分的岗位开始沟通，效率嘎嘎高。</p>
@@ -26,9 +26,7 @@
             <p><a href="https://meta.appinn.net/t/topic/62210">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 21 Oct 2024 14:18:40 +0000</pubDate>
-<pubDate>Mon, 21 Oct 2024 14:18:40 +0000</pubDate>
 </item>
-
 <item>
 <title>「Floweb」超轻量浮动桌面挂件</title>
 <link>https://meta.appinn.net/t/topic/62205</link>
