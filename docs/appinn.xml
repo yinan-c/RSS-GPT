@@ -5,11 +5,59 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>「Floweb」超轻量浮动桌面挂件</title>
+<link>https://meta.appinn.net/t/topic/62205</link>
+<guid>https://meta.appinn.net/t/topic/62205</guid>
+<content:encoded><![CDATA[
+
+<p>国庆期间开发一个桌面挂件工作，可以把网站转为桌面一个个挂件。</p>
+<p><img alt="https://oss.floweb.cn/floweb-home.jpg" height="463" src="https://oss.floweb.cn/floweb-home.jpg" width="690" /></p>
+<p>为啥写这个软件捏，原本意愿是想使用番茄记录的一个网站，并且要把这个网站置顶，但是发现在MACOS上面的最新版本，没找到什么配置能够把一个浏览器网页置顶的，有些可能兼容老的系统，但是最新的版本都不支持了。期间也调研了一些工具，但是仅支持MACOS或者仅WINDOWS的，对我而言是双系统同时使用的场景确实比较少。程序员嘛，就喜欢自己搞一个属于自己的东西。额外地，八年前有写过一个叫「如眸网站」的导航网站，索性把两者结合在一起，所以就做了这个小工具。</p>
+<p>官方网站：<a href="https://floweb.cn/" rel="noopener nofollow ugc">https://floweb.cn/</a></p>
+<p>目前开发支持 MACOS 和 WINDOWS：</p>
+<ul>
+<li>窗口置顶</li>
+<li>窗口透明</li>
+<li>WebApps
+<ul>
+<li>一个url就是一个webapp</li>
+</ul>
+</li>
+<li>自动刷新
+<ul>
+<li>方便查看最新数据</li>
+</ul>
+</li>
+<li>调整大小</li>
+<li>多开账号
+<ul>
+<li>每个 webapp 单独存储数据，可以单独登录账号，可适用多账号测试场景</li>
+</ul>
+</li>
+<li>多模拟器
+<ul>
+<li>多个尺寸</li>
+</ul>
+</li>
+<li>用户代理
+<ul>
+<li>可以模拟各各设备的user-agent</li>
+</ul>
+</li>
+</ul>
+<p>正在努力开发更多功能，如侧边吸附效果，窗口自动缩放等功能，不用期待太多，喜欢地可以给点更多建议，免费用户暂时只能同时打开一个webapp哈，附上一个小众软件的优惠码：2024XZRJ</p>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62205">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 21 Oct 2024 10:04:17 +0000</pubDate>
+<pubDate>Mon, 21 Oct 2024 10:04:17 +0000</pubDate>
+</item>
+
+<item>
 <title>Vmware fusion 13的win11使用问题</title>
 <link>https://meta.appinn.net/t/topic/62200</link>
 <guid>https://meta.appinn.net/t/topic/62200</guid>
 <content:encoded><![CDATA[
-
 <p>在用vm fusion13装win11后,然后再安装vm tools后鼠标操作滚动方向会替代原win方案,强制用mac的系统方案,但这样会导致win系统内某些地方滚动操作后会有冲突.<br />
 比如向下滚动操作是它应该会界面往上滚的,但跟原win方案冲突,它就同时往下滚,导致滚动会卡在一个范围内,不能正确到想去的地方.<br />
 所以能不能不要强制替换成Mac系统的操作方案.</p>
@@ -17,9 +65,7 @@
             <p><a href="https://meta.appinn.net/t/topic/62200">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 21 Oct 2024 09:06:27 +0000</pubDate>
-<pubDate>Mon, 21 Oct 2024 09:06:27 +0000</pubDate>
 </item>
-
 <item>
 <title>IPAD有可以连续点击的软件或者办法吗？</title>
 <link>https://meta.appinn.net/t/topic/62185</link>
