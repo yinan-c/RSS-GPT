@@ -40508,3 +40508,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [「Floweb」超轻量浮动桌面挂件](https://meta.appinn.net/t/topic/62205)
 append_entries: 1
 Finish: 2024-10-21 12:05:51.201104
+------------------------------------------------------
+Started: 2024-10-21 14:03:39.509762
+Existing_entries: 589
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-10-21 14:03:43.397263

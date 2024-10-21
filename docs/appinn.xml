@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>「Floweb」超轻量浮动桌面挂件</title>
 <link>https://meta.appinn.net/t/topic/62205</link>
 <guid>https://meta.appinn.net/t/topic/62205</guid>
 <content:encoded><![CDATA[
-
 <p>国庆期间开发一个桌面挂件工作，可以把网站转为桌面一个个挂件。</p>
 <p><img alt="https://oss.floweb.cn/floweb-home.jpg" height="463" src="https://oss.floweb.cn/floweb-home.jpg" width="690" /></p>
 <p>为啥写这个软件捏，原本意愿是想使用番茄记录的一个网站，并且要把这个网站置顶，但是发现在MACOS上面的最新版本，没找到什么配置能够把一个浏览器网页置顶的，有些可能兼容老的系统，但是最新的版本都不支持了。期间也调研了一些工具，但是仅支持MACOS或者仅WINDOWS的，对我而言是双系统同时使用的场景确实比较少。程序员嘛，就喜欢自己搞一个属于自己的东西。额外地，八年前有写过一个叫「如眸网站」的导航网站，索性把两者结合在一起，所以就做了这个小工具。</p>
@@ -50,9 +50,7 @@
             <p><a href="https://meta.appinn.net/t/topic/62205">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 21 Oct 2024 10:04:17 +0000</pubDate>
-<pubDate>Mon, 21 Oct 2024 10:04:17 +0000</pubDate>
 </item>
-
 <item>
 <title>Vmware fusion 13的win11使用问题</title>
 <link>https://meta.appinn.net/t/topic/62200</link>
