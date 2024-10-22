@@ -29795,3 +29795,9 @@ error: Connection error.
 Append: [Moving my DNS Records with DNSControl](https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/)
 append_entries: 1
 Finish: 2024-10-22 14:04:33.391878
+------------------------------------------------------
+Started: 2024-10-22 16:04:39.516628
+Existing_entries: 376
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-10-22 16:04:41.248231

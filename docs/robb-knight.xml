@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Moving my DNS Records with DNSControl</title>
 <link>https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/</link>
 <guid>https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/</guid>
 <content:encoded><![CDATA[
-
 <p>After <a href="https://rknight.me/blog/setting-up-dnscontrol">setting up DNSControl</a> I wanted to use it to move away from DigitalOcean<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> to <a href="https://bunny.net/?ref=b2i4y24apu">Bunny DNS</a>. I'd already moved my servers to <a href="https://hetzner.cloud/?ref=Lt9D9KzKP6UQ">Hetzner</a> but the DNS was more complicated. This domain, for example, has 45 records for subdomains, CNAMES for Netlify, plus verification stuff so I didn't want to risk moving it manually.</p>
 <p>I added my Bunny API keys to <code>creds.json</code>, updated my <code>dnsconfig.js</code>, adding Bunny as a new provider, and switched the provider in the config for the domain:</p>
 <pre class="language-diff"><code class="language-diff">var DSP_DIGITALOCEAN = NewDnsProvider("digitalocean");<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> var DSP_BUNNY = NewDnsProvider("bunny");<br /></span></span><br />D("rknight.me", REG_NONE<br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   , DnsProvider(DSP_DIGITALOCEAN)<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   , DnsProvider(DSP_BUNNY)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   , DefaultTTL(1800)<br /></span><span class="token prefix unchanged"> </span><span class="token line">   , A("@", HETZNER_MAIN)<br /></span><span class="token prefix unchanged"> </span><span class="token line">   , A("www", HETZNER_MAIN)<br /></span></span>)</code></pre>
@@ -28,10 +28,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-10-22T14:00:05Z</pubDate>
 </item>
-
 <item>
 <title>Fix Crackly Audio When Using Bluetooth Headphones on MacOS</title>
 <link>https://rknight.me/blog/fix-crackly-audio-when-using-bluetooth-headphones-on-macos/</link>
