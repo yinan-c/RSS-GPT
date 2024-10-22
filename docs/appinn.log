@@ -40605,3 +40605,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-10-22 12:05:56.637556
+------------------------------------------------------
+Started: 2024-10-22 14:03:48.045725
+Existing_entries: 590
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [「图片翻译助手」浏览器插件，一键翻译网页上的图片内容](https://meta.appinn.net/t/topic/62244)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-10-22 14:03:51.157877

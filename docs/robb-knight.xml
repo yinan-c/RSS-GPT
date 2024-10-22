@@ -4,6 +4,33 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Moving my DNS Records with DNSControl</title>
+<link>https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/</link>
+<guid>https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/</guid>
+<content:encoded><![CDATA[
+
+<p>After <a href="https://rknight.me/blog/setting-up-dnscontrol">setting up DNSControl</a> I wanted to use it to move away from DigitalOcean<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> to <a href="https://bunny.net/?ref=b2i4y24apu">Bunny DNS</a>. I'd already moved my servers to <a href="https://hetzner.cloud/?ref=Lt9D9KzKP6UQ">Hetzner</a> but the DNS was more complicated. This domain, for example, has 45 records for subdomains, CNAMES for Netlify, plus verification stuff so I didn't want to risk moving it manually.</p>
+<p>I added my Bunny API keys to <code>creds.json</code>, updated my <code>dnsconfig.js</code>, adding Bunny as a new provider, and switched the provider in the config for the domain:</p>
+<pre class="language-diff"><code class="language-diff">var DSP_DIGITALOCEAN = NewDnsProvider("digitalocean");<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> var DSP_BUNNY = NewDnsProvider("bunny");<br /></span></span><br />D("rknight.me", REG_NONE<br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   , DnsProvider(DSP_DIGITALOCEAN)<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   , DnsProvider(DSP_BUNNY)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">   , DefaultTTL(1800)<br /></span><span class="token prefix unchanged"> </span><span class="token line">   , A("@", HETZNER_MAIN)<br /></span><span class="token prefix unchanged"> </span><span class="token line">   , A("www", HETZNER_MAIN)<br /></span></span>)</code></pre>
+<p>I ran <code>dnscontrol push</code> to push those records to Bunny<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> and then updated the nameservers in <a href="https://hover.com/scHIv4WR">Hover</a> so the domain was pointing to Bunny. Hover isn't supported by DNSControl so the nameservers had to be done by me but for registrars that are supported, I was able to have that automated as well. The nameservers for Bunny (<code>kiki.bunny.net</code> and <code>coco.bunny.net</code>) are automatically set from the registrar, so you don't need to define them yourself as <a href="https://github.com/StackExchange/dnscontrol/issues/3163#issuecomment-2426650514">I found out</a>.</p>
+<pre class="language-diff"><code class="language-diff"><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> var REG_PORKBUN = NewRegistrar("porkbun"); <br /></span></span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> D("knightshift.dev", REG_NONE<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> D("knightshift.dev", REG_PORKBUN<br /></span></span>	, DnsProvider(DSP_BUNNY)<br />	, DefaultTTL(1800)<br />	, A("@", HETZNER_MAIN)<br />	, A("www", HETZNER_MAIN)<br />	, A("msorc", HETZNER_MAIN)<br />)</code></pre>
+<p>Once I'd done that for the other domains I use, I wanted my DNSControl to at least be aware of two other domains that just redirect to my main site (this is handled in Hover). If you set a domain with no registrar and no provider, you'll get an error about having no nameservers. To fix this, I added <code>{ no_ns:'true' }</code>. This doesn't actually <em>do</em> anything, but it's handy to have a record of every domain I have in one place.</p>
+<pre class="language-js"><code class="language-js"><span class="token constant">D</span><span class="token punctuation">(</span><span class="token string">"therobb.com"</span><span class="token punctuation">,</span> <span class="token constant">REG_NONE</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">no_ns</span><span class="token operator">:</span><span class="token string">'true'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// => rknight.me</span></code></pre>
+<p>This setup already came in handy yesterday when I needed to prove ownership of one of my domains: add one line, run <code>dnscontrol push</code>, done.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>after <a href="https://rknight.me/blog/netcraft-facebook-and-digital-ocean/">what they did</a> <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+<li class="footnote-item" id="fn2"><p>There was some shenanigans where someone else had added my domain to their Bunny account which I had to sort out with support, but they were very quick to fix it <a class="footnote-backref" href="#fnref2">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-10-22T14:00:05Z</pubDate>
+</item>
 
 <item>
 <title>Fix Crackly Audio When Using Bluetooth Headphones on MacOS</title>

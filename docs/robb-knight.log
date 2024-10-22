@@ -29786,3 +29786,12 @@ Existing_entries: 375
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-22 12:06:35.566970
+------------------------------------------------------
+Started: 2024-10-22 14:04:28.958019
+Existing_entries: 375
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Moving my DNS Records with DNSControl](https://rknight.me/blog/moving-my-dns-records-with-dnscontrol/)
+append_entries: 1
+Finish: 2024-10-22 14:04:33.391878
