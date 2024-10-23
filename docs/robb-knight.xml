@@ -4,6 +4,27 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Obsidian Tasks and Godspeed</title>
+<link>https://rknight.me/blog/obsidian-tasks-and-godspeed/</link>
+<guid>https://rknight.me/blog/obsidian-tasks-and-godspeed/</guid>
+<content:encoded><![CDATA[
+
+<p>Two weeks ago <a href="https://social.lol/@robb/113288632240605303">I tooted</a>:</p>
+<blockquote>
+<p>Lord help me I'm back on Obsidian Tasks again</p>
+</blockquote>
+<p>I came up with a nice solution for what I wanted. Show the first todo item in each of my project files using Obsidian Tasks query language:</p>
+<pre class="language-js"><code class="language-js">path includes projects<br />group by <span class="token keyword">function</span> task<span class="token punctuation">.</span>file<span class="token punctuation">.</span>path<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token string">'.md'</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span><br />limit groups <span class="token number">1</span><br />not done</code></pre>
+<p><img alt="My todo list as rendered by Obsidian Tasks" src="https://cdn.rknight.me/site/project-tasks.jpg" /></p>
+<p>I had to add some rules to the css to hide the note titles which are shown when you use grouping:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.tasks-group-heading</span> <span class="token punctuation">{</span><br />    <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span><br /><span class="token punctuation">}</span><br /><br /><span class="token selector">ul.plugin-tasks-query-result</span> <span class="token punctuation">{</span><br />    <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span><br />    <span class="token property">margin-top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span><br /><span class="token punctuation">}</span><br /><br /><span class="token selector">div.task-count</span> <span class="token punctuation">{</span><br />    <span class="token property">margin-top</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span><br /><span class="token punctuation">}</span></code></pre>
+<p>Turns out, this <em>works</em> but just it doesn't work <em>for me</em>. So I deleted it all (after noting the config down because Obsidian Tasks can be complicated).</p>
+<p><a href="https://godspeedapp.com">Godspeed</a> is my best friend now. I won't attempt to go into everything Godspeed does but the UI is simple and works for my brain. Their big selling point is everything can be done with the keyboard which I like. It's also one of the reasons I signed up to <a href="https://go.setapp.com/invite/0jsvfx75">Setapp</a> (expect a post about this soon). If you want to know more <a href="https://www.youtube.com/watch?v=p8Ak_OB-oco">Matt has a great video</a> about Godspeed which is how I found out about it in the first place.</p>
+]]></content:encoded>
+
+<pubDate>2024-10-23T20:16:52Z</pubDate>
+</item>
 
 <item>
 <title>Moving my DNS Records with DNSControl</title>
