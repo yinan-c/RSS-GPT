@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】Whisper 语音转文本工具</title>
+<link>https://meta.appinn.net/t/topic/62294</link>
+<guid>https://meta.appinn.net/t/topic/62294</guid>
+<content:encoded><![CDATA[
+
+<p>这个工具其实是 <a class="inline-onebox" href="https://github.com/argmaxinc/WhisperKit" rel="noopener nofollow ugc">GitHub - argmaxinc/WhisperKit: On-device Speech Recognition for Apple Silicon</a> fork 之后修改的。</p>
+<p>原项目不便于普通人直接使用，所以我加上了一点点小功能。</p>
+<ol>
+<li>增加中文翻译</li>
+<li>转换成功后自动上传到指定接口，接口地址可自定义，便于后续使用 n8n、dify 等自动化流程工具进行更进一步的优化、提炼。</li>
+</ol>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62294">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 24 Oct 2024 03:09:44 +0000</pubDate>
+<pubDate>Thu, 24 Oct 2024 03:09:44 +0000</pubDate>
+</item>
 
 <item>
 <title>「图片翻译助手」浏览器插件，一键翻译网页上的图片内容</title>
