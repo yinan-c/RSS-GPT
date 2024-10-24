@@ -29930,3 +29930,12 @@ Existing_entries: 377
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-24 10:04:25.395905
+------------------------------------------------------
+Started: 2024-10-24 12:06:28.264366
+Existing_entries: 377
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Mark One Enigma Edition Pen Review](https://rknight.me/blog/mark-one-enigma-edition-pen-review/)
+append_entries: 1
+Finish: 2024-10-24 12:06:32.778602
