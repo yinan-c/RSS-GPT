@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>人类史上最大素数纪录再创新高：梅森素数M136279841问世</title>
 <link>https://meta.appinn.net/t/topic/62330</link>
 <guid>https://meta.appinn.net/t/topic/62330</guid>
 <content:encoded><![CDATA[
-
 <p>人类史上最大素数纪录再创新高。自1996年启动的「互联网梅森质数大搜索」（GIMPS）项目借助数千台GPU服务器，总计超过4100万位数字，近日宣布发现了目前人类已知的最大素数 <span class="math">2^{136,279,841}-1</span>，这是一个天文数字，完整数字为41,024,320位，比6年前发现的旧纪录多了1600多万位数字。</p>
 <p>这个新的素数也称为 M136279841，是通过将 136,279,841 个 2 相乘，然后减去 1 计算得出的。它比之前的记录素数多 1600 多万位，属于一类极其罕见的素数，称为梅森素数。它是迄今为止发现的第 52 个已知的梅森素数，而且每个素数的寻找难度都越来越大。梅森素数以法国僧侣 马林·梅森 (Marin Mersenne)的名字命名，他在 350 多年前研究过这些数字。</p>
 <p>对于任何发现新素数的人，项目方面也承诺奖励3000美元。志愿者可以在官方网站 <a class="inline-onebox" href="http://www.mersenne.org/download/" rel="noopener nofollow ugc">GIMPS - Free Prime95 software downloads - PrimeNet</a> 下载免费的GIMPS软件，加入到这场数学探索中。</p>
@@ -19,9 +19,7 @@
             <p><a href="https://meta.appinn.net/t/topic/62330">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 24 Oct 2024 14:12:07 +0000</pubDate>
-<pubDate>Thu, 24 Oct 2024 14:12:07 +0000</pubDate>
 </item>
-
 <item>
 <title>【自荐】Whisper 语音转文本工具</title>
 <link>https://meta.appinn.net/t/topic/62294</link>
