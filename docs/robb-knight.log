@@ -30005,3 +30005,12 @@ Existing_entries: 378
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-25 10:04:56.018953
+------------------------------------------------------
+Started: 2024-10-25 12:06:18.869202
+Existing_entries: 378
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Using Miniflux with Reeder and NetNewsWire](https://rknight.me/blog/using-miniflux-with-reeder-and-netnewswire/)
+append_entries: 1
+Finish: 2024-10-25 12:06:23.017652

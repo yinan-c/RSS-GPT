@@ -4,6 +4,22 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Using Miniflux with Reeder and NetNewsWire</title>
+<link>https://rknight.me/blog/using-miniflux-with-reeder-and-netnewswire/</link>
+<guid>https://rknight.me/blog/using-miniflux-with-reeder-and-netnewswire/</guid>
+<content:encoded><![CDATA[
+
+<p>Trying to find the answer to how to use <a href="https://miniflux.app">Miniflux</a> with <a href="https://reederapp.com">Reeder (app)</a> and the Google Reader API proved to be a bit difficult due to the similarly of the app name and the API name. Or maybe I was sleep deprived. Either way, I finally worked it out but I never found a definitive &quot;this is how you do it&quot; just lots of vague Reddit threads so here we are.</p>
+<p>In Miniflux go to <code>Settings</code> &gt; <code>Integrations</code> &gt; <code>Google Reader</code> and set a username and password.</p>
+<p><img alt="Google Reader settings in Miniflux" src="https://cdn.rknight.me/site/miniflux-google-reader-settings.jpg" /></p>
+<p>Once that's set, in Reeder choose &quot;Reader&quot; in the add account screen, set the domain you've got Miniflux hosted at and away you go.</p>
+<p><img alt="Reeder settings for Miniflux" src="https://cdn.rknight.me/site/reeder-reader-settings.png" /></p>
+<p>To use Miniflux in NetNewsWire follow step one then choose FreshRSS in the add account screen. Make sure to <em>not</em> have a trailing slash after your domain in NetNewsWire otherwise it will error.</p>
+]]></content:encoded>
+
+<pubDate>2024-10-25T11:14:36Z</pubDate>
+</item>
 
 <item>
 <title>Mark One Enigma Edition Pen Review</title>
