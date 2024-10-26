@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Copy SSH Keys to a Server</title>
 <link>https://rknight.me/blog/copy-ssh-keys-to-a-server/</link>
 <guid>https://rknight.me/blog/copy-ssh-keys-to-a-server/</guid>
 <content:encoded><![CDATA[
-
 <p>Every time I've setup a server in the past decade the SSH keys have been set for me, most hosts I've used do this (DigitalOcean, Hetzner, etc). This week I signed up for a server with Contabo and I had to do it myself, like a caveman. <a href="https://lewisdale.dev">Lewis</a> was kind enough to help because he'd done the same thing mere days before me.</p>
 <p>Step one is to copy my key to the server using <code>ssh-copy-id</code>:</p>
 <pre class="language-bash"><code class="language-bash">ssh-copy-id user@example.com</code></pre>
@@ -21,10 +21,8 @@
 <pre class="language-diff"><code class="language-diff"><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"> PasswordAuthentication yes<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"> PasswordAuthentication no</span></span></code></pre>
 <p>Then refresh the ssh service with <code>sudo service ssh restart</code>.</p>
 ]]></content:encoded>
-
 <pubDate>2024-10-26T13:44:37Z</pubDate>
 </item>
-
 <item>
 <title>Using Miniflux with Reeder and NetNewsWire</title>
 <link>https://rknight.me/blog/using-miniflux-with-reeder-and-netnewswire/</link>
