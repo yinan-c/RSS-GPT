@@ -4,6 +4,49 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for October 24, 2024</title>
+<link>https://brett.trpstra.net/link/535/16867321/web-excursions-for-october-24-2024</link>
+<guid>https://brett.trpstra.net/link/535/16867321/web-excursions-for-october-24-2024</guid>
+<content:encoded><![CDATA[
+
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<dl>
+  <dt><a href="https://docs.linkwarden.app/">Linkwarden</a></dt>
+  <dd>Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and archive webpages. The objective is to organize useful webpages and articles you find across the web in one place, and since useful webpages can go away (see the inevitability of Link Rot), Linkwarden also saves a copy of each webpage as a Screenshot and PDF, ensuring accessibility even if the original content is no longer available. H/T Eric Beavers.</dd>
+  <dt><a href="https://github.com/sissbruecker/linkding/">sissbruecker/linkding</a></dt>
+  <dd>Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker. Great 1:1 replacememt for Pinboard, if you&rsquo;re looking to switch (allows custom CSS!)</dd>
+  <dt><a href="https://www.pikapods.com/">PikaPods - Instant Open Source App Hosting</a></dt>
+  <dd>Run the finest Open Source web apps from $1/month, fully managed, no tracking, no ads, full privacy. Self-hosting was never this convenient.</dd>
+  <dd>
+    <p>This is a great way to run your own LinkDing server.</p>
+  </dd>
+  <dt><a href="https://sindresorhus.com/supercharge">Supercharge</a></dt>
+  <dd>Cool little Mac app that just adds some tweaks to the OS. I already have shortcuts to most of what it does, but re-creating the TotalFinder visor idea is pretty cool. Shareware.</dd>
+  <dt><a href="https://www.usebruno.com/">bruno</a></dt>
+  <dd>An API client that uses plain text language to create API request collections, syncable with Git, and a great replacement for Postman, Insomnia, and other tools. Open source.</dd>
+  <dt><a href="https://apps.apple.com/us/app/beorg-to-do-list-agenda/id1238649962">beorg: To-Do List &amp; Agenda</a></dt>
+  <dd>Similar in concept to Noteplan (todos mixed with notes, plain text storage), but using Org mode files, syncable with any cloud service. iOS/WatchOS only, but the files are accessible with Emacs or other editor anywhere. From the creator of TrunkNotes, which was one of my favorite personal wikis back in the day.</dd>
+</dl>
+
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F10%2F28%2Fweb-excursions-for-october-24-2024%2F&amp;text=Web+Excursions+for+October+24%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F10%2F28%2Fweb-excursions-for-october-24-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16867321.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-10-28T12:00:00-05:00</pubDate>
+<pubDate>2024-10-28T12:00:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for October 22, 2024</title>
