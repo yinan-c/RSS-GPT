@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>求助如何取消chrome浏览器右键菜单bing图片搜索和google图片说明问题</title>
+<link>https://meta.appinn.net/t/topic/62480</link>
+<guid>https://meta.appinn.net/t/topic/62480</guid>
+<content:encoded><![CDATA[
+
+<p>win11中文家庭版，chrome浏览器版本129.0.6668.71，我没太注意什么时候右键菜单出现的这两处选项，如下图<br />
+<img alt="{2D53F7B2-470C-4908-867A-45423EDE960D}.png" height="500" src="https://img.picui.cn/free/2024/10/28/671fa3b3a079a.png" width="279" /><br />
+问题1：今天试了试上面这个用bing搜图片，不知道为什么在任何图片上（比如小众论坛上面的logo）用都是会跳到下面这个网址，而且我刚装了search by image插件，默认没做任何设置的情况下，从search by image里选bing，也是跳到一样的网址，莫名奇妙的搜世界旅游胜地图片。求助是出了什么问题？</p>
+<pre><code class="lang-auto">https://cn.bing.com/images/search?q=世界旅游胜地&amp;form=HDRSC2&amp;first=1
+</code></pre>
+<p>问题2：下面那个google获取图片说明，感觉没啥用，搜了搜好像和无障碍设置有关，但我在chrome设置-无障碍里关了”从google获取图片说明“也还是显示这个菜单，有什么办法能去掉吗？</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62480">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 28 Oct 2024 15:10:26 +0000</pubDate>
+<pubDate>Mon, 28 Oct 2024 15:10:26 +0000</pubDate>
+</item>
 
 <item>
 <title>开源文件压缩加密归档实用工具集 Peazip 版本号更新到10</title>
