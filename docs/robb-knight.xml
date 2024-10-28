@@ -4,6 +4,58 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Using Setapp</title>
+<link>https://rknight.me/blog/using-setapp/</link>
+<guid>https://rknight.me/blog/using-setapp/</guid>
+<content:encoded><![CDATA[
+
+<p>I've had my eye on <a href="https://go.setapp.com/invite/0jsvfx75">Setapp</a> since it launched in 2017 but it's never been the right time for me to jump in...until this week. I <em>really</em> wanted to use <a href="https://godspeedapp.com/">Godspeed</a> which is on Setapp (as well as having a standalone subscription) so I did some calculations to see if it was worth it.</p>
+<p>I started with things I knew I would definitely use:</p>
+<ul>
+<li><a href="https://godspeedapp.com/pricing">Godspeed</a> - $48 a year</li>
+<li><a href="https://dropshare.app">Dropshare</a> - $39 one-off for the life of version 5. For the sake of this, I'm assuming a new version every couple of years so $20 a year</li>
+<li><a href="https://cleanshot.com">Cleanshot X</a> - $29 for a year of updates</li>
+<li><a href="https://tableplus.com">TablePlus</a> - $89 for a year of updates</li>
+</ul>
+<p>If I add those up and divide by 12, that works out at $15.50 a month. I wanted the iOS option for Godspeed, Awesome Habits, and Soulver (see below) so that put Setapp at $15 a month (including taxes). So as it is it's basically break-even - I could make Setapp cheaper by paying annually but for right now I'm sticking with monthly. That price also doesn't account for the additional apps I would use because they're available. Some of the apps I've wanted to use in the past but couldn't justify the price for my usage:</p>
+<ul>
+<li><a href="https://c-command.com/toothfairy/">ToothFairy</a>. This was recommended by <a href="https://social.lol/@bw/113329305437289362">Blake</a> because of a stupid issue I've been having.</li>
+<li><a href="https://soulver.app">Soulver</a>. I've been using Numi but Soulver has way more features, plus the iOS version</li>
+<li><a href="https://software.charliemonroe.net/downie/">Downie</a>. <code>yt-dl</code> is great but I prefer a GUI for this kind of thing.</li>
+<li><a href="https://appmakes.io/paletro">Paletro</a>. Just handy.</li>
+<li><a href="https://cleanmymac.macpaw.com">Clean My Mac</a>. This saved me 50gb of space somehow. Totally worth it.</li>
+<li><a href="https://www.awesome-habits.com">Awesome Habits</a>. I was eyeballing <a href="https://streaksapp.com">Streaks</a> but Awesome Habits was recommended by some of the MacStoried crew</li>
+</ul>
+<p>Then there are some others that would be nice to use but I definitely wouldn't use enough to pay directly for:</p>
+<ul>
+<li><a href="https://setapp.com/apps/mockuuups-studio">Mockuuups Studio</a></li>
+<li><a href="https://typefaceapp.com">Typeface</a></li>
+<li><a href="https://handmirror.app">HandMirror</a></li>
+<li><a href="https://clearvpn.com">ClearVPN</a></li>
+<li><a href="https://structured.app">Structured</a></li>
+<li><a href="https://www.realmacsoftware.com/squash/">Squash</a></li>
+</ul>
+<p>So if I use even a handful of these additional apps then I'm saving money. It's not a can't-afford-not-to-subscribe situation but it's a pretty good deal for me.</p>
+<p>The Setapp...app itself is just an app store. You can view top downloads, new apps, collections, mark an app as a favourite and it has guides on specific apps. By default it puts an icon in the menubar but you can turn that off because it doesn't do anything except open the app.</p>
+<p>The iOS side involves downloading whatever app from the App Store, then scanning a QR code to verify you have a Setapp subscription. It's an interesting way to handle this and I have no idea how this is allowed by Apple's <s>stupid</s> rules but I'm not going to pull on that thread.</p>
+<p>Obviously based on the above I save money but I was curious what kind of deal the app developers get from this. Turns out Setapp are very transparent about <a href="https://docs.setapp.com/docs/distributing-revenue">how it works on their help docs</a>:</p>
+<blockquote>
+<p>We share 70% of each user fee among developers of the apps used by a particular user</p>
+</blockquote>
+<p>There's also something about an additional 20% &quot;<em>to the Partner who has brought this particular user</em>&quot;. I don't know what that means but this seems like a decent deal for developers. My money isn't going into a pot only to be paid to the most popular apps, it's based on <em>my real usage</em>. I feel pretty good about this setup.</p>
+<p>Finally, they also have a very generous referral scheme<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> that gives me and the person who signs up a free month. So if you want to sign up, use <a href="https://go.setapp.com/invite/0jsvfx75">my referral link</a> to get a free month.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>I love a <a href="/save">good referral scheme</a> <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-10-28T20:09:57Z</pubDate>
+</item>
 
 <item>
 <title>Copy SSH Keys to a Server</title>

@@ -30257,3 +30257,12 @@ Existing_entries: 380
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-10-28 20:04:25.592886
+------------------------------------------------------
+Started: 2024-10-28 22:04:15.522693
+Existing_entries: 380
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Using Setapp](https://rknight.me/blog/using-setapp/)
+append_entries: 1
+Finish: 2024-10-28 22:04:19.962038
