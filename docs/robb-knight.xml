@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Using Setapp</title>
 <link>https://rknight.me/blog/using-setapp/</link>
 <guid>https://rknight.me/blog/using-setapp/</guid>
 <content:encoded><![CDATA[
-
 <p>I've had my eye on <a href="https://go.setapp.com/invite/0jsvfx75">Setapp</a> since it launched in 2017 but it's never been the right time for me to jump in...until this week. I <em>really</em> wanted to use <a href="https://godspeedapp.com/">Godspeed</a> which is on Setapp (as well as having a standalone subscription) so I did some calculations to see if it was worth it.</p>
 <p>I started with things I knew I would definitely use:</p>
 <ul>
@@ -53,10 +53,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-10-28T20:09:57Z</pubDate>
 </item>
-
 <item>
 <title>Copy SSH Keys to a Server</title>
 <link>https://rknight.me/blog/copy-ssh-keys-to-a-server/</link>
