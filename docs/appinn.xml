@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>如何同时使用Tailscale和其他VPN？</title>
 <link>https://meta.appinn.net/t/topic/62556</link>
 <guid>https://meta.appinn.net/t/topic/62556</guid>
 <content:encoded><![CDATA[
-
 <h1><a class="anchor" href="https://meta.appinn.net#p-230254-tailscalevpn-1" name="p-230254-tailscalevpn-1"></a>如何同时使用Tailscale和其他VPN？</h1>
 <p>主要是在手机上用，平台不限。</p>
 <h2><a class="anchor" href="https://meta.appinn.net#p-230254-h-1exit-node-2" name="p-230254-h-1exit-node-2"></a>1.使用Exit Node</h2>
@@ -58,9 +58,7 @@ tailscale up --accept-routes
             <p><a href="https://meta.appinn.net/t/topic/62556">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 30 Oct 2024 13:35:48 +0000</pubDate>
-<pubDate>Wed, 30 Oct 2024 13:35:48 +0000</pubDate>
 </item>
-
 <item>
 <title>求一款方便老人记录血压测量结果及用药记录的APP</title>
 <link>https://meta.appinn.net/t/topic/62553</link>
