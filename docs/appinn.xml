@@ -5,11 +5,67 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>如何同时使用Tailscale和其他VPN？</title>
+<link>https://meta.appinn.net/t/topic/62556</link>
+<guid>https://meta.appinn.net/t/topic/62556</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-230254-tailscalevpn-1" name="p-230254-tailscalevpn-1"></a>如何同时使用Tailscale和其他VPN？</h1>
+<p>主要是在手机上用，平台不限。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-230254-h-1exit-node-2" name="p-230254-h-1exit-node-2"></a>1.使用Exit Node</h2>
+<p>大致是找一台设备，开着clash，然后安装Tailscale并设为exit node，然后在其他设备上连接到同个Tailnet。<br />
+这个方案的问题是：<strong>所有流量受限于exit node的网速，一般的家宽基本不够。</strong> 所以我不想用。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-230254-h-2userspace-networking-3" name="p-230254-h-2userspace-networking-3"></a>2.使用Userspace Networking</h2>
+<p>文档如下</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="500" src="https://tailscale.com/favicon.png" width="500" />
+
+      <a href="https://tailscale.com/kb/1112/userspace-networking" rel="noopener nofollow ugc" target="_blank">Tailscale</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="361" src="https://tailscale.com/files/images/og-image.png" width="690" /></div>
+
+<h3><a href="https://tailscale.com/kb/1112/userspace-networking" rel="noopener nofollow ugc" target="_blank">Userspace networking mode (for containers) · Tailscale Docs</a></h3>
+
+  <p>Find out about userspace networking mode and when it is useful.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+<p>
+大致是使用Tailscaled开一个socks5和http代理，然后在Shadowrocket中将这个代理作为一个节点，让所有100.64.0.0/10的流量走这个代理。</p>
+<p>Windows 11 PowerShell 执行的下面的命令</p>
+<pre><code class="lang-auto">tailscaled --tun=userspace-networking --socks5-server=localhost:1055 --outbound-http-proxy-listen=localhost:1055 &amp;
+tailscale up --accept-routes
+</code></pre>
+<p>返回如下结果</p>
+<pre><code class="lang-auto">Id     Name            PSJobTypeName   State         HasMoreData     Location             Command
+--     ----            -------------   -----         -----------     --------             -------
+1      Job1            BackgroundJob   Running       True            localhost            tailscaled --tun=userspa…
+</code></pre>
+<p>看起来很美好，但是我遇到的问题是这个代理节点一直连不上，我看了下文档，好像是只能在同一个容器里用（不确定）。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-230254-h-4" name="p-230254-h-4"></a>是我的方法有什么问题吗？</h3>
+<h3><a class="anchor" href="https://meta.appinn.net#p-230254-h-5" name="p-230254-h-5"></a>各位大佬有没有什么好用的办法，给支个招呗</h3>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62556">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 30 Oct 2024 13:35:48 +0000</pubDate>
+<pubDate>Wed, 30 Oct 2024 13:35:48 +0000</pubDate>
+</item>
+
+<item>
 <title>求一款方便老人记录血压测量结果及用药记录的APP</title>
 <link>https://meta.appinn.net/t/topic/62553</link>
 <guid>https://meta.appinn.net/t/topic/62553</guid>
 <content:encoded><![CDATA[
-
 <p>家里有高血压的老人，每天都会测量血压，求一款操作简单的APP，可以方便老人每次记录测量数值。<br />
 需求就是，方便记录高压、低压、脉搏，时间日期几个数值。并形成数据表格、曲线图等。记录方式可以是手动输入，如果能拍照识别自动录入则更好。<br />
 同时记录降压药的用药情况，到时间通过铃声、消息提醒用药等。</p>
@@ -19,9 +75,7 @@
             <p><a href="https://meta.appinn.net/t/topic/62553">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 30 Oct 2024 11:44:45 +0000</pubDate>
-<pubDate>Wed, 30 Oct 2024 11:44:45 +0000</pubDate>
 </item>
-
 <item>
 <title>需求是能在地图上展示详细的客户信息</title>
 <link>https://meta.appinn.net/t/topic/62522</link>
