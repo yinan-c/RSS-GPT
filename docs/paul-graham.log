@@ -26998,3 +26998,11 @@ Existing_entries: 35
 Fetching from https://rsshub.app/paulgraham/articles
 append_entries: 0
 Finish: 2024-10-30 00:17:52.527766
+------------------------------------------------------
+Started: 2024-10-30 02:31:39.746005
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (read timeout=30)
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
