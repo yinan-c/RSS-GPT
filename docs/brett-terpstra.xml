@@ -4,6 +4,41 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Archive linkding bookmarks to local Markdown</title>
+<link>https://brett.trpstra.net/link/535/16871753/archive-linkding-bookmarks-to-local-markdown</link>
+<guid>https://brett.trpstra.net/link/535/16871753/archive-linkding-bookmarks-to-local-markdown</guid>
+<content:encoded><![CDATA[
+
+<p>I&rsquo;ve completely switched from Pinboard to <a href="https://linkding.link/">linkding</a> for bookmarking. Mostly because Pinboard hasn&rsquo;t seen development in years, and the creator is getting a little&hellip; weird, which makes me wonder about its future. Pinboard still works fine, but linkding is actively developed, has mostly the same features, and can be hosted locally.</p>
+
+<p>I have my Web Excursions working perfectly with linkding, as well as some other integrations using the API. It&rsquo;s a little different from Pinboard, but not so much that porting scripts takes a lot of time. I even have inside information that Pins for Pinboard might have a linkding version soon. It would be excellent to have a UI for my bookmarks again.</p>
+
+<p>You can run linkding on any server that allows Docker images, or just do what I did and spin up a dedicated machine on <a href="https://www.pikapods.com/">PikaPods</a> for a couple bucks a month. The only thing that running your own bookmarking service lacks is the trending topics kind of stuff that Pinboard can do. (As an aside, I mentioned <a href="https://github.com/linkwarden/linkwarden" title="linkwarden/linkwarden:⚡️⚡️⚡️Self-hosted ...">LinkWarden</a> in my Web Excursions, and if you&rsquo;re looking for a self-hosted service that does archiving and has a prettier interface, it&rsquo;s a good choice. It just didn&rsquo;t quite fit my needs.)</p>
+
+<p>I do have a <a href="https://bookmarks.trpstr.me/bookmarks/shared">public page</a> for (and <a href="https://bookmarks.trpstr.me/feeds/shared">RSS feed</a>) for shared bookmarks, if you care to follow it.</p>
+
+<p><span class="pullquote left">
+One thing linkding doesn&rsquo;t have is archiving. That feature is available on Pinboard for an additional fee, but I&rsquo;m not sure how well it&rsquo;s working there these days. What linkding does offer is the ability to submit any page you bookmark to the Internet Archive, so it will be permanently accessible via the <a href="http://wayback.archive.org/" title="Wayback Machine">Wayback Machine</a>. That&rsquo;s a pretty reasonable option, really. Personally, I&rsquo;d rather have local Markdown files of any articles I want to reference in the future.
+</span></p>
+
+<p>I have <a href="https://gist.github.com/ttscoff/4974164772623e95e8a1ef46a3eec68a">this script</a> running in the background on my Mac mini server in my basement. Any bookmark I tag with <code class="language-plaintext highlighter-rouge">.archive</code> gets Markdownfied using <a href="https://brettterpstra.com/projects/gather-cli/" title="Gather CLI">Gather</a> (it can also use <a href="https://markdownrules.com">Marky</a> for web-based conversion) and saved as Markdown into a folder I use in <a href="https://nvultra.com/" title="nvUltra-Searchable, portable, MultiMarkdown notes">nvUltra</a>. The archives are just text files that will work with any app that can import them (Obsidian, DEVONthink, etc.). It&rsquo;s working great so far.</p>
+
+<p>You can change the tag it searches for, or leave that blank to just archive every bookmark. I don&rsquo;t want to do that with my 8,000 existing bookmarks, as a lot of them are just links to tools and apps that I don&rsquo;t need saved as notes. Linkding is perfectly searchable as a reference, and I have all of those links backed up anyway. I just want a searchable, portable archive of things like how-tos, programming solutions and articles that have text I&rsquo;d want to reference.</p>
+
+<p>With Markdown notes I can search the full text of the articles instead of just title and description, and the script includes all of the metadata from the bookmark (title, date added, tags, description, and notes) as YAML headers. For me, this is a better solution than archiving on the server. It&rsquo;s local and highly usable with any notes app, easy to back up and port between solutions.</p>
+
+<p>You can <a href="https://gist.github.com/ttscoff/4974164772623e95e8a1ef46a3eec68a">find the script here</a>. See the comments at the top for configuration and usage information.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F10%2F31%2Farchive-linkding-bookmarks-to-local-markdown%2F&amp;text=Archive+linkding+bookmarks+to+local+Markdown&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F10%2F31%2Farchive-linkding-bookmarks-to-local-markdown%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16871753.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-10-31T11:11:00-05:00</pubDate>
+<pubDate>2024-10-31T11:11:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for October 24, 2024</title>
