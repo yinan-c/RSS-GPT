@@ -4,6 +4,25 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>linkding for SearchLink</title>
+<link>https://brett.trpstra.net/link/535/16872695/linkding-for-searchlink</link>
+<guid>https://brett.trpstra.net/link/535/16872695/linkding-for-searchlink</guid>
+<content:encoded><![CDATA[
+
+<p>I added <a href="https://linkding.link/">linkding</a> searching to <a href="https://brettterpstra.com//projects/searchlink">SearchLink</a> this morning. It works the same as <a href="https://github.com/ttscoff/searchlink/wiki/Searching-Pinboard">Pinboard searching</a>, just with <code class="language-plaintext highlighter-rouge">!ld</code> (or <code class="language-plaintext highlighter-rouge">!ding</code>) as the search shortcut. See the bottom of the Pinboard search page for configuration setup.</p>
+
+<p>No big deal, just updating to work with the tools I&rsquo;m using. Get the latest version of SearchLink on the <a href="https://brettterpstra.com//projects/searchlink">project page</a>.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F11%2F01%2Flinkding-for-searchlink%2F&amp;text=linkding+for+SearchLink&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F11%2F01%2Flinkding-for-searchlink%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16872695.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-11-01T09:19:00-05:00</pubDate>
+<pubDate>2024-11-01T09:19:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Archive linkding bookmarks to local Markdown</title>
