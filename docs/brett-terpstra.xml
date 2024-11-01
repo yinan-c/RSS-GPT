@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Archive linkding bookmarks to local Markdown</title>
 <link>https://brett.trpstra.net/link/535/16871753/archive-linkding-bookmarks-to-local-markdown</link>
 <guid>https://brett.trpstra.net/link/535/16871753/archive-linkding-bookmarks-to-local-markdown</guid>
 <content:encoded><![CDATA[
-
 <p>I&rsquo;ve completely switched from Pinboard to <a href="https://linkding.link/">linkding</a> for bookmarking. Mostly because Pinboard hasn&rsquo;t seen development in years, and the creator is getting a little&hellip; weird, which makes me wonder about its future. Pinboard still works fine, but linkding is actively developed, has mostly the same features, and can be hosted locally.</p>
 
 <p>I have my Web Excursions working perfectly with linkding, as well as some other integrations using the API. It&rsquo;s a little different from Pinboard, but not so much that porting scripts takes a lot of time. I even have inside information that Pins for Pinboard might have a linkding version soon. It would be excellent to have a UI for my bookmarks again.</p>
@@ -37,9 +37,7 @@ One thing linkding doesn&rsquo;t have is archiving. That feature is available on
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16871753.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-10-31T11:11:00-05:00</pubDate>
-<pubDate>2024-10-31T11:11:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for October 24, 2024</title>
 <link>https://brett.trpstra.net/link/535/16867321/web-excursions-for-october-24-2024</link>
