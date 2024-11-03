@@ -4,6 +4,71 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Chrome更新后怎么显示效果变差了？</title>
+<link>https://meta.appinn.net/t/topic/62701</link>
+<guid>https://meta.appinn.net/t/topic/62701</guid>
+<content:encoded><![CDATA[
+
+<p>最近Chrome浏览器的显示效果变得很差，比如本论坛：<br />
+<img alt="PixPin_2024-11-03_13-11-01.png" height="223" src="https://h1.appinn.me/file/1730610726110_PixPin_2024-11-03_13-11-01.png" width="690" /><br />
+ChatGPT官网：<br />
+<img alt="PixPin_2024-11-03_13-15-15.png" height="500" src="https://h1.appinn.me/file/1730611005967_PixPin_2024-11-03_13-15-15.png" width="372" /><br />
+我的Chrome版本：<br />
+版本 130.0.6723.92（正式版本） （64 位）<br />
+操作系统：Win11<br />
+求救</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62701">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 03 Nov 2024 05:17:46 +0000</pubDate>
+<pubDate>Sun, 03 Nov 2024 05:17:46 +0000</pubDate>
+</item>
+<item>
+<title>【新闻】LocalSend更新了1.16.0版本</title>
+<link>https://meta.appinn.net/t/topic/62699</link>
+<guid>https://meta.appinn.net/t/topic/62699</guid>
+<content:encoded><![CDATA[
+
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="32" src="https://github.githubassets.com/favicons/favicon.svg" width="32" />
+
+      <a href="https://github.com/localsend/localsend/releases/tag/v1.16.0" rel="noopener" target="_blank">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image"><img class="thumbnail" height="345" src="https://opengraph.githubassets.com/6d5f54971790f9bd2361a68ae3e08c1647bc25c69606d0a3c472184c6d6f669d/localsend/localsend/releases/tag/v1.16.0" width="690" /></div>
+
+<h3><a href="https://github.com/localsend/localsend/releases/tag/v1.16.0" rel="noopener" target="_blank">Release v1.16.0 · localsend/localsend</a></h3>
+
+  <p>Windows 7 is no longer supported to keep up with the latest updates from Flutter.
+LocalSend now uses Rust as HTTP client (rhttp). This improves performance when the sending device is the bottleneck...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p><strong>重要更新内容：</strong></p>
+<ol>
+<li>允许仅从标记的设备中自动接收文件</li>
+<li>允许仅在文件接收成功或跳过时自动完成，失败时提示</li>
+<li>语言本地化与docs改进</li>
+<li>改善传输速度</li>
+</ol>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62699">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 03 Nov 2024 04:36:46 +0000</pubDate>
+<pubDate>Sun, 03 Nov 2024 04:36:46 +0000</pubDate>
+</item>
 
 <item>
 <title>求ios中能自定义令牌的聊天app</title>

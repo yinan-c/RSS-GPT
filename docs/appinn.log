@@ -41741,3 +41741,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-11-03 04:04:22.198508
+------------------------------------------------------
+Started: 2024-11-03 06:04:24.785338
+Existing_entries: 606
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Chrome更新后怎么显示效果变差了？](https://meta.appinn.net/t/topic/62701)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【新闻】LocalSend更新了1.16.0版本](https://meta.appinn.net/t/topic/62699)
+append_entries: 2
+Finish: 2024-11-03 06:04:27.476490
