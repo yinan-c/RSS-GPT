@@ -30737,3 +30737,12 @@ Existing_entries: 382
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-11-04 10:04:46.110749
+------------------------------------------------------
+Started: 2024-11-04 12:06:28.273628
+Existing_entries: 382
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [We Got Family Season Two](https://rknight.me/blog/we-got-family-season-two/)
+append_entries: 1
+Finish: 2024-11-04 12:06:32.785688
