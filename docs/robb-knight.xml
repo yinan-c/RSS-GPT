@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Thinking About Recipe Formats More Than Anyone Should</title>
 <link>https://rknight.me/blog/thinking-about-recipe-formats-more-than-anyone-should/</link>
 <guid>https://rknight.me/blog/thinking-about-recipe-formats-more-than-anyone-should/</guid>
 <content:encoded><![CDATA[
-
 <p>I've had a note in my todo list for quite a while to get my (admittedly small) collection of recipes on my website. The note mentioned to look into <a href="https://cooklang.org">Cooklang</a> which is a &quot;<em>recipe markup language</em>&quot; but I also wanted to see if anyone knew of any other standards I should be looking at before I went ahead. I got a few responses:</p>
 <ul>
 <li><a href="https://pub.calebhearth.com/@caleb/113419235283396365">Caleb pointed me</a> to the <a href="https://pub.calebhearth.com/@caleb/113419235283396365">recipe microformat</a> which he's using on <a href="https://calebhearth.com/spiced-mead-cake">his recipes</a>.</li>
@@ -54,10 +54,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-11-04T20:23:58Z</pubDate>
 </item>
-
 <item>
 <title>We Got Family Season Two</title>
 <link>https://rknight.me/blog/we-got-family-season-two/</link>

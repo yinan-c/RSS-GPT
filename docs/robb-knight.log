@@ -30779,3 +30779,9 @@ error: Connection error.
 Append: [Thinking About Recipe Formats More Than Anyone Should](https://rknight.me/blog/thinking-about-recipe-formats-more-than-anyone-should/)
 append_entries: 1
 Finish: 2024-11-04 22:04:00.570274
+------------------------------------------------------
+Started: 2024-11-05 00:14:33.827053
+Existing_entries: 384
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-11-05 00:14:35.534313
