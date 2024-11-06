@@ -30890,3 +30890,9 @@ error: Connection error.
 Append: [Why Is No One Using the Recipe Schema?](https://rknight.me/blog/why-is-no-one-using-the-recipe-schema/)
 append_entries: 1
 Finish: 2024-11-06 10:04:44.744389
+------------------------------------------------------
+Started: 2024-11-06 12:05:47.695365
+Existing_entries: 385
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-11-06 12:05:49.720869
