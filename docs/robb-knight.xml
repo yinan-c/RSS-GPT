@@ -4,12 +4,13 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Adding Cooklang Support to Eleventy Three Ways</title>
 <link>https://rknight.me/blog/adding-cooklang-support-to-eleventy-two-ways/</link>
 <guid>https://rknight.me/blog/adding-cooklang-support-to-eleventy-two-ways/</guid>
 <content:encoded><![CDATA[
-<div> 关键词: Eleventy, recipes, blog, cooklang, JSON-LD<br><br>总结:<br>本文主要讲述了作者如何在Eleventy平台上添加对.cook文件的支持，以便在个人网站上分享食谱。作者尝试了多种方法，最终选择将食谱以博客文章的形式发布。文章中详细介绍了三种尝试方法：首先是直接编译模板；其次是添加数据到数据级联中；最后是将食谱整合到博客文章中。此外，作者还实现了将食谱数据用cooklang格式化，并通过JSON-LD增加了搜索引擎优化。整个过程中，作者展示了代码实现，并分享了对应的思路和技术选择。 <div>
+<div> 关键词: Eleventy, recipes, blog, cooklang, JSON-LD<br /><br />总结:<br />本文主要讲述了作者如何在Eleventy平台上添加对.cook文件的支持，以便在个人网站上分享食谱。作者尝试了多种方法，最终选择将食谱以博客文章的形式发布。文章中详细介绍了三种尝试方法：首先是直接编译模板；其次是添加数据到数据级联中；最后是将食谱整合到博客文章中。此外，作者还实现了将食谱数据用cooklang格式化，并通过JSON-LD增加了搜索引擎优化。整个过程中，作者展示了代码实现，并分享了对应的思路和技术选择。 <div>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>I had already built most of this before I saw <a href="https://www.mathew-paul.nz/posts/adding-cooklang-to-my-blog/">Mat had already done this</a> including making <a href="https://www.mathew-paul.nz/posts/adding-cooklang-to-my-blog/">a plugin</a> available. Lesson learned, maybe Google it first.</p>
 </div>
 <p><a href="https://cooklang.org">Cooklang</a>, as I wrote about in <a href="https://rknight.me/blog/thinking-about-recipe-formats-more-than-anyone-should/">my previous post</a>, is a markup language for recipes. I wanted to put all my recipes on my site under the <code>/recipes</code> directory which meant I needed to add support for the <code>.cook</code> files to Eleventy. I tried two methods for this then ended up with a third version where I scrapped a lot of what I did and decided to just do it in blog posts.</p>
@@ -87,10 +88,8 @@ The recipe template (<code>recipe.njk</code>)
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-11-07T08:37:23Z</pubDate>
 </item>
-
 <item>
 <title>Why Is No One Using the Recipe Schema?</title>
 <link>https://rknight.me/blog/why-is-no-one-using-the-recipe-schema/</link>
