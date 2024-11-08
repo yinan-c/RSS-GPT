@@ -42209,3 +42209,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-11-08 00:13:51.728408
+------------------------------------------------------
+Started: 2024-11-08 02:25:05.823296
+Existing_entries: 610
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有没有好用的浏览器邮箱管理插件？](https://meta.appinn.net/t/topic/62913)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-11-08 02:25:08.547557
