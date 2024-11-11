@@ -896,3 +896,9 @@ Summarized using gpt-4-turbo
 Append: [A moment of natural therapy](https://manuelmoreale.com/@/page/BOd4mlkzrcks7ywE)
 append_entries: 1
 Finish: 2024-11-11 12:10:52.839997
+------------------------------------------------------
+Started: 2024-11-11 14:07:47.082453
+Existing_entries: 542
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2024-11-11 14:07:49.364898
