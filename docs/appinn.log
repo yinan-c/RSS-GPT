@@ -42535,3 +42535,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【自荐】xHistory: 开源免费的 macOS 命令行历史记录管理工具](https://meta.appinn.net/t/topic/63011)
 append_entries: 1
 Finish: 2024-11-11 08:04:44.644143
+------------------------------------------------------
+Started: 2024-11-11 10:03:58.389282
+Existing_entries: 616
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-11-11 10:04:01.100701

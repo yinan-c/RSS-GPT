@@ -31247,3 +31247,12 @@ Existing_entries: 386
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-11-11 08:05:24.381694
+------------------------------------------------------
+Started: 2024-11-11 10:04:38.915659
+Existing_entries: 386
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 500 - {'error': {'message': 'Cannot choose from an empty sequence', 'type': 'None', 'param': 'None', 'code': '500'}}
+Append: [Mango Chicken Curry Recipe](https://rknight.me/blog/mango-chicken-curry-recipe/)
+append_entries: 1
+Finish: 2024-11-11 10:06:25.722651
