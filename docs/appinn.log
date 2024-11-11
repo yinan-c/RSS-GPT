@@ -42500,3 +42500,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-11-11 00:14:44.806032
+------------------------------------------------------
+Started: 2024-11-11 02:26:05.282180
+Existing_entries: 613
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有哪些有趣实用的不需要服务器在vercel github或者cf pages就能部署实用的开源项目呢？](https://meta.appinn.net/t/topic/62994)
+Append: [【自荐】Certimate-开源的 SSL证书管理工具，可以帮助你自动申请、部署、续期 SSL 证书](https://meta.appinn.net/t/topic/62992)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-11-11 02:26:07.959017

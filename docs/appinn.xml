@@ -4,6 +4,192 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>有哪些有趣实用的不需要服务器在vercel github或者cf pages就能部署实用的开源项目呢？</title>
+<link>https://meta.appinn.net/t/topic/62994</link>
+<guid>https://meta.appinn.net/t/topic/62994</guid>
+<content:encoded><![CDATA[
+
+<p>有哪些有趣实用的不需要服务器在vercel github或者cf pages就能部署使用的开源项目呢？</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62994">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 11 Nov 2024 02:20:25 +0000</pubDate>
+<pubDate>Mon, 11 Nov 2024 02:20:25 +0000</pubDate>
+</item>
+<item>
+<title>【自荐】Certimate-开源的 SSL证书管理工具，可以帮助你自动申请、部署、续期 SSL 证书</title>
+<link>https://meta.appinn.net/t/topic/62992</link>
+<guid>https://meta.appinn.net/t/topic/62992</guid>
+<content:encoded><![CDATA[
+
+<p>做个人产品或在小企业负责运维的同学，需要管理多个域名，要给域名申请证书。但手动申请证书有以下缺点：</p>
+<ol>
+<li><img alt=":scream:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/scream.png?v=12" title=":scream:" width="20" /> 麻烦：申请、部署证书虽不困难，但也挺麻烦的，尤其是维护多个域名的时候。</li>
+<li><img alt=":sob:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/sob.png?v=12" title=":sob:" width="20" /> 易忘：当前免费证书有效期仅 90 天，这就要求定期操作，增加工作量的同时，也很容易忘掉，导致网站无法访问。</li>
+</ol>
+<p>Certimate 就是为了解决上述问题而产生的，它具有以下特点：</p>
+<ol>
+<li>操作简单：自动申请、部署、续期 SSL 证书，全程无需人工干预。</li>
+<li>支持私有部署：部署方法简单，只需下载二进制文件执行即可。二进制文件、Docker 镜像全部用 Github Actions 生成，过程透明，可自行审计。</li>
+<li>数据安全：由于是私有部署，所有数据均存储在本地，不会保存在服务商的服务器，确保数据的安全性。</li>
+</ol>
+<p>Certimate 旨在为用户提供一个安全、简便的 SSL 证书管理解决方案。</p>
+<p>源码地址：</p>
+<p><a href="https://github.com/usual2970/certimate" rel="noopener nofollow ugc">https://github.com/usual2970/certimate</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-232318-h-1" name="p-232318-h-1"></a>一、安装</h2>
+<p>安装 Certimate 非常简单，你可以选择以下方式之一进行安装：</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-232318-h-1-2" name="p-232318-h-1-2"></a>1. 二进制文件</h3>
+<p>你可以直接从<a href="https://github.com/usual2970/certimate/releases" rel="noopener nofollow ugc">Releases 页</a>下载预先编译好的二进制文件，解压后执行:</p>
+<pre><code class="lang-bash">./certimate serve
+</code></pre>
+<p>或运行以下命令自动给 Certimate 自身添加证书</p>
+<pre><code class="lang-bash">./certimate serve 你的域名
+</code></pre>
+<blockquote>
+<p>[!NOTE]<br />
+MacOS 在执行二进制文件时会提示：无法打开“Certimate”，因为 Apple 无法检查其是否包含恶意软件。可在“系统设置 &gt; 隐私与安全性 &gt; 安全性”中点击“仍然允许”，然后再次尝试执行二进制文件。</p>
+</blockquote>
+<h3><a class="anchor" href="https://meta.appinn.net#p-232318-h-2-docker-3" name="p-232318-h-2-docker-3"></a>2. Docker 安装</h3>
+<pre><code class="lang-bash">
+mkdir -p ~/.certimate &amp;&amp; cd ~/.certimate &amp;&amp; curl -O https://raw.githubusercontent.com/usual2970/certimate/refs/heads/main/docker/docker-compose.yml &amp;&amp; docker compose up -d
+
+</code></pre>
+<h3><a class="anchor" href="https://meta.appinn.net#p-232318-h-3-4" name="p-232318-h-3-4"></a>3. 源代码安装</h3>
+<pre><code class="lang-bash">git clone EMAIL:usual2970/certimate.git
+cd certimate
+make local.run
+</code></pre>
+<h2><a class="anchor" href="https://meta.appinn.net#p-232318-h-5" name="p-232318-h-5"></a>二、使用</h2>
+<p>执行完上述安装操作后，在浏览器中访问 <code>http://127.0.0.1:8090</code> 即可访问 Certimate 管理页面。</p>
+<pre><code class="lang-bash">用户名：admin@certimate.fun
+密码：1234567890
+</code></pre>
+<p><img alt="usage.gif" height="" src="https://i.imgur.com/zpCoLVM.gif" width="" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-232318-h-6" name="p-232318-h-6"></a>三、支持的服务商列表</h2>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">服务商</th>
+<th style="text-align: center;">支持申请证书</th>
+<th style="text-align: center;">支持部署证书</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">阿里云</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;">√</td>
+<td>可签发在阿里云注册的域名；可部署到阿里云 OSS、CDN、SLB</td>
+</tr>
+<tr>
+<td style="text-align: center;">腾讯云</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;">√</td>
+<td>可签发在腾讯云注册的域名；可部署到腾讯云 COS、CDN、ECDN、CLB、TEO</td>
+</tr>
+<tr>
+<td style="text-align: center;">百度智能云</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署到百度智能云 CDN</td>
+</tr>
+<tr>
+<td style="text-align: center;">华为云</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;">√</td>
+<td>可签发在华为云注册的域名；可部署到华为云 CDN、ELB</td>
+</tr>
+<tr>
+<td style="text-align: center;">七牛云</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署到七牛云 CDN</td>
+</tr>
+<tr>
+<td style="text-align: center;">多吉云</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署到多吉云 CDN</td>
+</tr>
+<tr>
+<td style="text-align: center;">AWS</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;"></td>
+<td>可签发在 AWS Route53 托管的域名</td>
+</tr>
+<tr>
+<td style="text-align: center;">CloudFlare</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;"></td>
+<td>可签发在 CloudFlare 注册的域名；CloudFlare 服务自带 SSL 证书</td>
+</tr>
+<tr>
+<td style="text-align: center;">GoDaddy</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;"></td>
+<td>可签发在 GoDaddy 注册的域名</td>
+</tr>
+<tr>
+<td style="text-align: center;">Namesilo</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;"></td>
+<td>可签发在 Namesilo 注册的域名</td>
+</tr>
+<tr>
+<td style="text-align: center;">PowerDNS</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;"></td>
+<td>可签发在 PowerDNS 托管的域名</td>
+</tr>
+<tr>
+<td style="text-align: center;">HTTP 请求</td>
+<td style="text-align: center;">√</td>
+<td style="text-align: center;"></td>
+<td>可签发允许通过 HTTP 请求修改 DNS 的域名</td>
+</tr>
+<tr>
+<td style="text-align: center;">本地部署</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署到本地服务器</td>
+</tr>
+<tr>
+<td style="text-align: center;">SSH</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署到 SSH 服务器</td>
+</tr>
+<tr>
+<td style="text-align: center;">Webhook</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署时回调到 Webhook</td>
+</tr>
+<tr>
+<td style="text-align: center;">Kubernetes</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">√</td>
+<td>可部署到 Kubernetes Secret</td>
+</tr>
+</tbody>
+</table>
+</div><h2><a class="anchor" href="https://meta.appinn.net#p-232318-h-7" name="p-232318-h-7"></a>四、系统截图</h2>
+<div align="center">
+<img height="" src="https://i.imgur.com/SYjjbql.jpeg" title="Login page" width="" />
+<img height="" src="https://i.imgur.com/WMVbBId.jpeg" title="Dashboard page" width="" />
+<img height="" src="https://i.imgur.com/8wit3ZA.jpeg" title="Domains page" width="" />
+<img height="" src="https://i.imgur.com/EWtOoJ0.jpeg" title="Accesses page" width="" />
+<img height="" src="https://i.imgur.com/aaPtSW7.jpeg" title="History page" width="" />
+</div>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/62992">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 11 Nov 2024 01:14:24 +0000</pubDate>
+<pubDate>Mon, 11 Nov 2024 01:14:24 +0000</pubDate>
+</item>
 
 <item>
 <title>请问有没有不需要反代的可自建稍后阅读工具（可保存网页文章）？</title>
