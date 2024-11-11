@@ -887,3 +887,12 @@ Existing_entries: 541
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2024-11-11 10:10:40.527825
+------------------------------------------------------
+Started: 2024-11-11 12:10:26.501504
+Existing_entries: 541
+Fetching from https://manuelmoreale.com/feed/rss
+Token length: 454
+Summarized using gpt-4-turbo
+Append: [A moment of natural therapy](https://manuelmoreale.com/@/page/BOd4mlkzrcks7ywE)
+append_entries: 1
+Finish: 2024-11-11 12:10:52.839997
