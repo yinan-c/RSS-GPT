@@ -42649,3 +42649,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [5ire | 开源大模型跨平台桌面客户端](https://meta.appinn.net/t/topic/63060)
 append_entries: 1
 Finish: 2024-11-12 14:03:36.923475
+------------------------------------------------------
+Started: 2024-11-12 16:04:15.764924
+Existing_entries: 618
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-11-12 16:04:18.703361
