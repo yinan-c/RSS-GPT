@@ -31508,3 +31508,12 @@ Existing_entries: 391
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-11-14 20:04:32.892031
+------------------------------------------------------
+Started: 2024-11-14 22:04:05.159262
+Existing_entries: 391
+Fetching from https://rknight.me/feed.xml
+Token length: 3073
+Summarized using gpt-4-turbo
+Append: [More Unorganised Thoughts about Bluesky](https://rknight.me/blog/more-unorganised-thoughts-about-bluesky/)
+append_entries: 1
+Finish: 2024-11-14 22:04:17.006278
