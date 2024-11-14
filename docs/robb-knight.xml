@@ -4,6 +4,31 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Unorganised Thoughts about Bluesky</title>
+<link>https://rknight.me/blog/unorganised-thoughts-about-bluesky/</link>
+<guid>https://rknight.me/blog/unorganised-thoughts-about-bluesky/</guid>
+<content:encoded><![CDATA[
+<div> Bluesky, API, Starter Packs, Mastodon, 交叉发布<br><br>总结:<br>这篇文章主要记录了作者对社交网络Bluesky的一些初步感受和思考。首先，作者觉得Bluesky的API设计相对其他社交网络来说比较奇异，开发者需要手动标记话题、提及和链接，并且需要自己处理链接预览。作者也提到了Bluesky的Starter Packs功能虽然受到了一部分人的喜爱，但他本人更倾向于用户能够通过浏览内容后再做关注决定。此外，作者对比了Bluesky和Mastodon，不太理解为什么有人会从Mastodon转到Bluesky。最后，作者还提到了自己如何通过交叉发布保持与粉丝的互动，并且他对社交平台的交互持开放态度。 <div>
+<p>These thoughts about Bluesky are unorganised and mostly off-the-cuff so make of that what you will.</p>
+<p>The API, even just for posting, strikes me as very strange. I, as the developer, have to mark which things are hashtags, mentions, and links unlike Twitter, Mastodon, and basically every other network. If I want link previews I have to do that too.</p>
+<p>The <a href="https://github.com/bluesky-social/pds">Personal Data Store</a> is interesting. I haven't set one up but <a href="https://krrd.ing/posts/setting-up-a-bluesky-pds/">Brandon</a> and <a href="https://rafaeleyng.github.io/self-hosting-a-bluesky-pds-and-using-your-domain-as-your-handle">Rafael</a> did and it seems easy enough but this is just one part of the AT Protocol. Is it possible to host the entire stack yourself without relying on <code>bsky.social</code>? Can you be part of the AT Protocol with <a href="https://gitlab.com/edent/activitypub-single-php-file/">a single PHP file</a>? That might sound stupid but I don't think that's an unreasonable bar to interact with a network even if it's in a limited way.</p>
+<p>Starter Packs are a good idea that people seem to like but I would rather people followed me because they've had a gander at what I post and decided to follow. Choosing to follow people en masse without looking at those profiles seems weird to me. The other thing is it feels like they pigeon-hole people into being a specific version of themselves and perhaps give unrealistic expectations to people following<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. I feel the same about mastodon instances focused around a specific topic.</p>
+<p>I've seen a few people drop Mastodon for Bluesky but I don't really understand why, nothing about it jumps out at me as all that different to Mastodon. You have to go where your people are though so it could just be that. I'm pretty sure Bluesky will get <a href="https://en.wikipedia.org/wiki/Enshittification">enshittified</a> before too long and everyone will be onto the next thing.</p>
+<p>I am cross-posting my <a href="/posts">posts</a> and <a href="/links">links</a> to <a href="https://bsky.app/profile/rknight.me">my Bluesky account</a> with <a href="https://echofeed.app">EchoFeed</a>. People are there, they presumably followed me to see my things, and I don't lose anything if the service blows up overnight. <a href="https://indieweb.org/POSSE">POSSE</a>, baby.</p>
+<p>I setup my own install of <a href="https://skybridge.fly.dev/">SkyBridge</a> so I can use <a href="https://tapbots.com/ivory/">Ivory</a> to read my Bluesky timeline because none of the apps are as good as Ivory and probably never will be.</p>
+<p>I've updated my <a href="/verify">verify page</a> to reflect the fact that I am using Bluesky.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>&quot;Stop posting about politics, stay in your lane&quot; <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-11-14T17:05:08Z</pubDate>
+</item>
 
 <item>
 <title>Flatiron Mac and Cheese Recipe</title>
