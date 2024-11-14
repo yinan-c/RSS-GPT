@@ -31475,3 +31475,9 @@ Summarized using gpt-4-turbo
 Append: [Flatiron Mac and Cheese Recipe](https://rknight.me/blog/flatiron-mac-and-cheese-recipe/)
 append_entries: 1
 Finish: 2024-11-14 10:05:00.369516
+------------------------------------------------------
+Started: 2024-11-14 12:06:29.068359
+Existing_entries: 390
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-11-14 12:06:31.093592
