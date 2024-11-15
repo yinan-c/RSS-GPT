@@ -4,12 +4,13 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>More Unorganised Thoughts about Bluesky</title>
 <link>https://rknight.me/blog/more-unorganised-thoughts-about-bluesky/</link>
 <guid>https://rknight.me/blog/more-unorganised-thoughts-about-bluesky/</guid>
 <content:encoded><![CDATA[
-<div> Bluesky, 自托管, 储存空间, ActivityPub, 骚扰<br><br>总结:<br>文章讨论了Bluesky平台及其与其他社交媒体的对比，尤其是技术实现和使用Bluesky的理由。自托管Bluesky较复杂，需要4.5TB的存储空间，远超单一PHP文件的可能性。同时提到Bluesky可能是Twitter的简化替代品，而Fediverse作为去中心化的跨平台连接器。在Mastodon平台上，边缘化群体面临骚扰的情况被提及，这也是一些人选择Bluesky的原因之一。作者最后考虑自己托管PDS，以便在需要时更容易地管理数据。 <div>
+<div> Bluesky, 自托管, 储存空间, ActivityPub, 骚扰<br /><br />总结:<br />文章讨论了Bluesky平台及其与其他社交媒体的对比，尤其是技术实现和使用Bluesky的理由。自托管Bluesky较复杂，需要4.5TB的存储空间，远超单一PHP文件的可能性。同时提到Bluesky可能是Twitter的简化替代品，而Fediverse作为去中心化的跨平台连接器。在Mastodon平台上，边缘化群体面临骚扰的情况被提及，这也是一些人选择Bluesky的原因之一。作者最后考虑自己托管PDS，以便在需要时更容易地管理数据。 <div>
 <p>I got a lot of feedback from <a href="https://rknight.me/blog/unorganised-thoughts-about-bluesky/">my last post</a> which fell into two categories: either about the technical implementations or why someone is using Bluesky over other options. As soon as my sent my previous post Bluesky started having outages which has made looking into the feedback interesting to say the least but they've been adding obscene amounts of users every second today.</p>
 <h3>Technical</h3>
 <p><a href="https://social.lol/@mcg">MCG</a> and <a href="https://social.lol/@matt">Matt</a> linked me to <a href="https://alice.bsky.sh/post/3laega7icmi2q">this post</a> which is titled &quot;<em>How to self-host all of Bluesky except the AppView (for now)</em>&quot;. There are more components to self-hosting Bluesky than say, Mastodon, but it is doable. Sort of. You can't do the <code>AppView</code> which &quot;aggregates data from across the Atmosphere to produce their UIs&quot;. It's late and I don't have the energy to translate what that actually means but it sounds important.</p>
@@ -36,10 +37,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-11-14T21:50:32Z</pubDate>
 </item>
-
 <item>
 <title>Unorganised Thoughts about Bluesky</title>
 <link>https://rknight.me/blog/unorganised-thoughts-about-bluesky/</link>
