@@ -31547,3 +31547,12 @@ Existing_entries: 392
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-11-15 08:05:35.984034
+------------------------------------------------------
+Started: 2024-11-15 10:04:42.010937
+Existing_entries: 392
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'litellm.AuthenticationError: AuthenticationError: OpenAIException - Invalid Token (request id: 20241115180444717386912b5TFKf4H) (request id: 2024111505044353862241464476152)\nReceived Model Group=gpt-4-turbo\nAvailable Model Group Fallbacks=None', 'type': None, 'param': None, 'code': '401'}}
+Append: [Toad in the Hole Recipe](https://rknight.me/blog/toad-in-the-hole-recipe/)
+append_entries: 1
+Finish: 2024-11-15 10:04:44.830694
