@@ -31640,3 +31640,9 @@ Summarized using gpt-4-turbo
 Append: [Leek and Bacon Jacket Potatoes Recipe](https://rknight.me/blog/leek-and-bacon-jacket-potatoes-recipe/)
 append_entries: 1
 Finish: 2024-11-16 12:05:53.486947
+------------------------------------------------------
+Started: 2024-11-16 14:04:04.602227
+Existing_entries: 395
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-11-16 14:04:06.227330
