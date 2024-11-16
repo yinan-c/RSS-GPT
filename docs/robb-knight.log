@@ -31631,3 +31631,12 @@ Existing_entries: 394
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-11-16 10:04:02.554360
+------------------------------------------------------
+Started: 2024-11-16 12:05:43.087488
+Existing_entries: 394
+Fetching from https://rknight.me/feed.xml
+Token length: 870
+Summarized using gpt-4-turbo
+Append: [Leek and Bacon Jacket Potatoes Recipe](https://rknight.me/blog/leek-and-bacon-jacket-potatoes-recipe/)
+append_entries: 1
+Finish: 2024-11-16 12:05:53.486947
