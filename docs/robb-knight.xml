@@ -5,18 +5,37 @@
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
 <item>
+<title>Useful Bluesky Tools</title>
+<link>https://rknight.me/blog/useful-bluesky-tools/</link>
+<guid>https://rknight.me/blog/useful-bluesky-tools/</guid>
+<content:encoded><![CDATA[
+
+<p>I've been helping getting <a href="https://www.macstories.net/news/macstories-is-on-bluesky/">MacStories setup on Bluesky</a> this weekend and I came across a few handy sites. There are loads of interesting Bluesky-related links in this <a href="https://github.com/fishttp/awesome-bluesky?tab=readme-ov-file">awesome-bluesky</a> list on GitHub, below is just the ones I happened upon and found useful.</p>
+<p><a href="https://clearsky.app/rknight.me/lists">ClearSky</a> allows you to see which lists (starter packs) you're in, who you've blocked and who's blocked you. As an aside, the blocking data being public <em>and</em> having no way to opt out of a starter pack shows a complete lack of consideration for how this could be abused but that's not the point of this post. Less important but why is seven the minimum for a starter pack <a href="/notes/202411181234/">this makes me very sad</a>.</p>
+<p>I found two tools for resolving DIDs which you need for various API-related things. A DID is a &quot;<em>persistent, long-term identifier for every account.</em>&quot; and they look something like this: <code>did:plc:b3i7xuqiybecdpm3lkywmlwv</code>.</p>
+<ul>
+<li><a href="https://rmdes.github.io/">Bluesky DID Resolver</a></li>
+<li><a href="https://bsky-did.neocities.org/">Bluesky DID Generator</a> - confusingly named as a &quot;generator&quot;</li>
+</ul>
+<p>To use Bluesky in Mastodon clients like Ivory, you can use <a href="https://skybridge.fly.dev">Skybridge</a>. I doubt I would ever check Bluesky if I couldn't use Ivory. I setup my own install of this with <a href="https://coolify.io">Coolify</a>. <a href="https://deck.blue">Deck Blue</a> is a nice web client though.</p>
+<p>Finally <a href="https://chromewebstore.google.com/detail/skylink-bluesky-did-detec/aflpfginfpjhanhkmdpohpggpolfopmb?hl=en">SkyLink</a> is a Chrome extension similar (although not as advanced) to <a href="https://streetpass.social/">Streetpass</a>.</p>
+<p>You can see all the MacStories team and podcast accounts in <a href="https://bsky.app/starter-pack/macstories.net/3lb4aiut25l26">the MacStories starter pack</a> and I'm there as <a href="https://bsky.app/profile/rknight.me">@rknight.me</a>.</p>
+]]></content:encoded>
+
+<pubDate>2024-11-18T15:15:19Z</pubDate>
+</item>
+
+<item>
 <title>I Was a Guest On AppStories This Week</title>
 <link>https://rknight.me/blog/i-was-a-guest-on-appstories-this-week/</link>
 <guid>https://rknight.me/blog/i-was-a-guest-on-appstories-this-week/</guid>
 <content:encoded><![CDATA[
-<div> MacStories, AppStories+, fediverse, ActivityPub, development setup<br><br>总结:最近几周MacStories每周都邀请不同的主持人，这周轮到作者亲自参与。在AppStories+的预展中，他们讨论了节目的起源；在正式节目中，他们探讨了fediverse和ActivityPub，分享了作者的一些开发设置。节目最后，还有一段关于主持人Federico对作者人格的看法，这让作者感到震惊。你可以选择用你喜欢的播客软件收听这一集，或者观看视频版本。 <div>
+<div> MacStories, AppStories+, fediverse, ActivityPub, development setup<br /><br />总结:最近几周MacStories每周都邀请不同的主持人，这周轮到作者亲自参与。在AppStories+的预展中，他们讨论了节目的起源；在正式节目中，他们探讨了fediverse和ActivityPub，分享了作者的一些开发设置。节目最后，还有一段关于主持人Federico对作者人格的看法，这让作者感到震惊。你可以选择用你喜欢的播客软件收听这一集，或者观看视频版本。 <div>
 <p>The past few weeks <a href="https://appstories.net">AppStories</a> has had a different MacStories host as a guest and this week was my turn. In the AppStories+ pre-show we talk about the origins of <a href="https://ruminatepodcast.com">Ruminate</a> and in the main show we discuss the fediverse and ActivityPub, some of my <a href="/projects">projects</a>, as well as my development setup. Stick around to find out what kind of person Federico thinks I am because I'm still reeling.</p>
 <p>Listen to episode <a href="https://appstories.net/episodes/412">412: What Kind of Person Are You?</a> in your podcatcher of choice or you can watch the <a href="https://www.youtube.com/watch?v=vyoH2ndxTLk">episode on YouTube</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2024-11-18T12:52:40Z</pubDate>
 </item>
-
 <item>
 <title>Buffalo Sauce Recipe</title>
 <link>https://rknight.me/blog/buffalo-sauce-recipe/</link>
