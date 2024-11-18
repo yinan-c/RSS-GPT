@@ -4,6 +4,99 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>A card-based layout for linkding</title>
+<link>https://brett.trpstra.net/link/535/16889966/a-card-based-layout-for-linkding</link>
+<guid>https://brett.trpstra.net/link/535/16889966/a-card-based-layout-for-linkding</guid>
+<content:encoded><![CDATA[
+
+<p>I took a whack at making linkding look more like LinkWarden. I didn&rsquo;t want to modify the source, so I did the whole thing using CSS only. It was an adventure.</p>
+
+<p>I&rsquo;ve mentioned <a href="https://linkding.link/">linkding</a> a few times, and am now hosting <a href="https://bookmarks.scoffb.in/bookmarks/shared">all of my bookmarks</a> with it. I switched from a hosted solution to running it on my Synology via a Docker container (super easy to set up with Container Manager and Web Portal, if you&rsquo;re a Synology user).</p>
+
+<p>linkding allows for custom CSS, and I wanted to play with it a bit. By default it looks a lot like Pinboard, which is a bit plain. I kind of liked the way <a href="https://github.com/linkwarden/linkwarden">LinkWarden</a> looks, so I gave that a shot.</p>
+
+<p>Links are displayed as &ldquo;cards&rdquo; instead of lines, with the snapshot image large at the top. The full image is clickable. In bulk edit mode, the entire card becomes clickable. On mobile it switches to one or two columns (based on resolution and orientation), which isn&rsquo;t great for browsing a large collection, but that&rsquo;s just how cards are going to work and still be readable. On a wider desktop monitor you can get four columns and browsing is really nice. Given I mostly search by title or tag and don&rsquo;t spend a lot of time just scrolling through, it works great for my personal needs. You can <a href="https://bookmarks.scoffb.in/bookmarks/shared">see it in action here</a>.</p>
+
+<p><a href="https://bookmarks.scoffb.in/bookmarks/shared">
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="linkding-cards.jpg" class="aligncenter" height="840" src="https://cdn3.brettterpstra.com/uploads/2024/11/linkding-cards.jpg" title="linkding-cards.jpg" width="1246" />
+              </noscript>
+            </a></p>
+
+<p>Tags are moved into a sliding panel on the right, just hover over the &ldquo;TAGS&rdquo; tab to expose them. This all has to be done with CSS, so it&rsquo;s not a perfect implementation, which would require a little bit of javascript. But it&rsquo;s totally working.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="linkding-tags.jpg" class="aligncenter" height="688" src="https://cdn3.brettterpstra.com/uploads/2024/11/linkding-tags.jpg" title="linkding-tags.jpg" width="1036" />
+              </noscript>
+            
+
+<p>If you want to play with it, <a href="https://gist.github.com/ttscoff/041eccfbdd70c72698ffb570586dbea5">here&rsquo;s the code</a>. If you do, here are. the settings I recommend with it:</p>
+
+<ul>
+  <li>dark mode</li>
+  <li>separate description</li>
+  <li>use snapshot images</li>
+  <li>use favicons (optional)</li>
+</ul>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="linkding-settings1.jpg" class="aligncenter" height="502" src="https://cdn3.brettterpstra.com/uploads/2024/11/linkding-settings1.jpg" title="linkding-settings1.jpg" width="594" />
+              </noscript>
+            
+
+<p>To add the CSS, just copy and paste it into the Custom CSS box in settings. When you hit save, the new style will be applied. You can remove it at any time just by clearing that box and hitting save.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="linkding-customcss.jpg" class="aligncenter" height="334" src="https://cdn3.brettterpstra.com/uploads/2024/11/linkding-customcss.jpg" title="linkding-customcss.jpg" width="575" />
+              </noscript>
+            
+
+<p>The process of moving everything around and restyling it led to a lot of z-index and positioning considerations when opening confirmation dialogs and what not. I think I found all the issues and solved them, but let me know if you try it and run into any issues.</p>
+
+<p>I made use of CSS variables as much as possible, so modifying the color scheme should be relatively painless. Note that the variables use raw rgb numeric values, not actual <code class="language-plaintext highlighter-rouge">rgb(xxx,xxx,xxx)</code> rules. This is so that I can insert the raw values into <code class="language-plaintext highlighter-rouge">rgba()</code> rules and apply transparency. So if you&rsquo;re changing them, remove the <code class="language-plaintext highlighter-rouge">rgb()</code> from your rule and just include the <code class="language-plaintext highlighter-rouge">xxx, xxx, xxx</code> part.</p>
+
+
+              <noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="linkding-guest-user.jpg" class="alignright" height="125" src="https://cdn3.brettterpstra.com/uploads/2024/11/linkding-guest-user.jpg" title="linkding-guest-user.jpg" width="385" />
+              </noscript>
+            
+<p>By the way, if you&rsquo;re making your bookmarks public and want visitors to see the new layout, be sure to set the guest user to your profile.</p>
+
+<p>Have fun! Again, <a href="https://gist.github.com/ttscoff/041eccfbdd70c72698ffb570586dbea5">here&rsquo;s the code</a>.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F11%2F18%2Fa-card-based-layout-for-linkding%2F&amp;text=A+card-based+layout+for+linkding&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F11%2F18%2Fa-card-based-layout-for-linkding%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16889966.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-11-18T11:42:00-06:00</pubDate>
+<pubDate>2024-11-18T11:42:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for November 12th, 2024</title>
