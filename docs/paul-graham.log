@@ -28878,3 +28878,11 @@ Fetch error: 524
 Fetch failed from https://rsshub.app/paulgraham/articles
 append_entries: 0
 error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-11-18 22:05:59.270353
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch error: 429
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham

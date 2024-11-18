@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>A card-based layout for linkding</title>
 <link>https://brett.trpstra.net/link/535/16889966/a-card-based-layout-for-linkding</link>
 <guid>https://brett.trpstra.net/link/535/16889966/a-card-based-layout-for-linkding</guid>
 <content:encoded><![CDATA[
-
 <p>I took a whack at making linkding look more like LinkWarden. I didn&rsquo;t want to modify the source, so I did the whole thing using CSS only. It was an adventure.</p>
 
 <p>I&rsquo;ve mentioned <a href="https://linkding.link/">linkding</a> a few times, and am now hosting <a href="https://bookmarks.scoffb.in/bookmarks/shared">all of my bookmarks</a> with it. I switched from a hosted solution to running it on my Synology via a Docker container (super easy to set up with Container Manager and Web Portal, if you&rsquo;re a Synology user).</p>
@@ -95,9 +95,7 @@
 <p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16889966.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-11-18T11:42:00-06:00</pubDate>
-<pubDate>2024-11-18T11:42:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for November 12th, 2024</title>
 <link>https://brett.trpstra.net/link/535/16884022/web-excursions-for-november-10th-2024</link>
