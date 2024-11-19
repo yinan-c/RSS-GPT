@@ -43268,3 +43268,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-11-19 00:14:50.812804
+------------------------------------------------------
+Started: 2024-11-19 02:28:58.074096
+Existing_entries: 621
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [将任意窗口贴边隐藏](https://meta.appinn.net/t/topic/63251)
+append_entries: 1
+Finish: 2024-11-19 02:29:00.818136
