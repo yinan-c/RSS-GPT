@@ -4,6 +4,72 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Stopping Mastodon From Fetching Metadata for My Notes</title>
+<link>https://rknight.me/blog/stopping-mastodon-from-fetching-metadata-for-my-notes/</link>
+<guid>https://rknight.me/blog/stopping-mastodon-from-fetching-metadata-for-my-notes/</guid>
+<content:encoded><![CDATA[
+
+<p>I'm trying to move towards <a href="https://indieweb.org/POSSE">POSSE</a> for my short/micro posts and one thing I wasn't sure about was if those short posts should link back to the source or not. I <a href="https://social.lol/@robb/113464032762475185">tooted a poll about this</a>:</p>
+<blockquote>
+<p>People who POSSE short posts do you link back to the source or not? Seems a bit redundant but also it is nice to get to the canonical source.</p>
+</blockquote>
+<p>And the results were:</p>
+<table>
+<thead>
+<tr>
+<th> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes I link back</td>
+<td>29%</td>
+</tr>
+<tr>
+<td>No I don't link back</td>
+<td>21%</td>
+</tr>
+<tr>
+<td>I link back if it's truncated</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>wtf is posse you weirdo</td>
+<td>35%</td>
+</tr>
+</tbody>
+</table>
+<p>This was hardly a landslide victory for one specific way but I came to the conclusion I did want to link back. However, the real reason for my poll was exactly what <a href="https://xoxo.zone/@KevinMarks/113464550398427072">Kevin replied with</a>:</p>
+<blockquote>
+<p>Where it gets weird is if there's a preview of the post as well, so then you get the POSSE copy of the post, then underneath a preview showing the same text, then if you click through there's just the same text again. In that case a link back is creating a bad experience for your readers on the POSSE platform.</p>
+</blockquote>
+<p>As an example, here is a short post with a link back to <a href="https://rknight.me/notes/202411181234/">the source</a>:</p>
+<p><img alt="A post on Mastodon showing the note, plus the image preview" src="https://cdn.rknight.me/site/posse-note-with-og-image.jpg" /></p>
+<p>As proud as I am of my open graph image, in this context it's superfluous<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. We have the content of the post &quot;Boo! I wanted...&quot;, then a big image that tells you it's a note, then the date it was sent (which you'd know from the toot as well), then the same text as the OG image &quot;A note from the desk...&quot;. Then if you click through you get the same text as the toot. This is no good.</p>
+<p>I could just remove the open graph images and data all together but what if someone else links the page elsewhere? I <em>would</em> want them in that case. So the solution is to block the Mastodon user agent from getting them when a link to one of my notes is tooted. Into the nginx config.</p>
+<p>I only want this to apply to pages that start with <code>/notes</code> so I started with a new <code>location</code> block and thankfully Mastodon uses the aptly-named <code>Mastodon</code> user agent.</p>
+<pre class="language-bash"><code class="language-bash">location /notes <span class="token punctuation">{</span><br />	<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$http_user_agent</span> ~* <span class="token string">"Mastodon"</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span><br />	<span class="token punctuation">}</span><br /><span class="token punctuation">}</span></code></pre>
+<p>I don't want to flat-out block Mastodon so instead I return an empty web page:</p>
+<pre class="language-diff"><code class="language-diff">location /notes {<br />	if ($http_user_agent ~* "Mastodon" ) {<br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">		add_header Content-Type text/html;<br /></span><span class="token prefix inserted">+</span><span class="token line">		return 200 '&lt;html>&lt;body>&lt;/body>&lt;/html>';<br /></span></span>	}<br />}</code></pre>
+<p>I added this to my nginx config and tested it in Chrome by changing the user agent (<code>Inspector &gt; More Tools &gt; Network Conditions</code>) and it worked - I got a blank page back. Great success. Except now no one could access <em>any</em> notes page. I needed to update the config to have fallback logic for anything that <em>wasn't</em> Mastodon:</p>
+<pre class="language-diff"><code class="language-diff">location /notes {<br />	if ($http_user_agent ~* "Mastodon" ) {<br />		add_header Content-Type text/html;<br />		return 200 '&lt;html>&lt;body>&lt;/body>&lt;/html>';<br />	}<br /><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	try_files $uri $uri/ /404.html?$query_string;<br /></span></span>}</code></pre>
+<p>With this all deployed to my server<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>, a syndicated note like <a href="https://rknight.me/notes/202411191206/">this one</a> now only shows the link on Mastodon with no title, description, or image.</p>
+<p><img alt="A toot with a link to my site with no image or card" src="https://cdn.rknight.me/site/posse-note-with-no-image.jpg" /></p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p><a href="https://neatnik.net/">Adam</a> would argue they're always superfluous <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+<li class="footnote-item" id="fn2"><p>You can see how I'm keeping nginx changes in version control in <a href="https://rknight.me/blog/blocking-bots-with-nginx/">this post</a> <a class="footnote-backref" href="#fnref2">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-11-19T13:34:28Z</pubDate>
+</item>
 
 <item>
 <title>Useful Bluesky Tools</title>
