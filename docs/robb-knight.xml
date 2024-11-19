@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Stopping Mastodon From Fetching Metadata for My Notes</title>
 <link>https://rknight.me/blog/stopping-mastodon-from-fetching-metadata-for-my-notes/</link>
 <guid>https://rknight.me/blog/stopping-mastodon-from-fetching-metadata-for-my-notes/</guid>
 <content:encoded><![CDATA[
-
 <p>I'm trying to move towards <a href="https://indieweb.org/POSSE">POSSE</a> for my short/micro posts and one thing I wasn't sure about was if those short posts should link back to the source or not. I <a href="https://social.lol/@robb/113464032762475185">tooted a poll about this</a>:</p>
 <blockquote>
 <p>People who POSSE short posts do you link back to the source or not? Seems a bit redundant but also it is nice to get to the canonical source.</p>
@@ -67,10 +67,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-11-19T13:34:28Z</pubDate>
 </item>
-
 <item>
 <title>Useful Bluesky Tools</title>
 <link>https://rknight.me/blog/useful-bluesky-tools/</link>
