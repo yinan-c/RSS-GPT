@@ -4,6 +4,32 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Installing GoToSocial on Coolify</title>
+<link>https://rknight.me/blog/installing-gotosocial-on-coolify/</link>
+<guid>https://rknight.me/blog/installing-gotosocial-on-coolify/</guid>
+<content:encoded><![CDATA[
+
+<p>For various reasons I had occasion this evening to give <a href="https://gotosocial.org">GoToSocial</a> a try so I installed it on my server that's running <a href="https://coolify.io">Coolify</a> but hit a couple of issues which I was able to work around with the help of <a href="https://lewisdale.dev">Lewis</a> and <a href="https://wand3r.net">Brandon</a>.</p>
+<p>First up because it's running a reverse proxy, I needed the third option in the Docker compose file.</p>
+<pre class="language-bash"><code class="language-bash">ports:<br />  <span class="token comment"># - "443:8080"</span><br />  <span class="token comment">## For letsencrypt:</span><br />  <span class="token comment">#- "80:80"</span><br />  <span class="token comment">## For reverse proxy setups:</span><br />  - <span class="token string">"127.0.0.1:8082:8080"</span></code></pre>
+<p>The second issue was GoToSocial couldn't access the database, giving this error in the logs:</p>
+<pre class="language-bash"><code class="language-bash">sqlite ping: sqlite3: unable to <span class="token function">open</span> database <span class="token function">file</span></code></pre>
+<p><a href="https://github.com/superseriousbusiness/gotosocial/issues/476">This GitHub issue</a> showed it was a permissions issue where the <code>user</code> specified in the docker compose isn't the one that has permissions for the <code>gotosocial/data</code> file. I could have tried to work out what the user and group was <em>or</em> I could <code>chmod</code> my way out this problem. Guess which one I picked. In Coolify go to <code>Terminal</code> in the sidebar, choose the project GoToSocial is installed on then connect and <code>cd</code> to the directory. Then set permissions on the data directory.</p>
+<pre class="language-bash"><code class="language-bash">$ <span class="token builtin class-name">cd</span> /data/coolify/services/isjdbvfihsavfids/<br />$ <span class="token function">chmod</span> <span class="token number">777</span> gotosocial/data</code></pre>
+<p>I got the directory it's installed at (<code>/isjdbvfihsavfids</code>) by checking the <code>storage</code> tab on the GoToSocial service in Coolify.</p>
+<p>Other notes:</p>
+<ul>
+<li><code>/settings</code> gets you to the settings page of your account.</li>
+<li>Default visibility of posts is &quot;unlisted&quot;, a difference from Mastodon where it's public by default. You can change this in settings.</li>
+<li>Other instance-level settings (like custom CSS on profiles) can be changed in the <code>config.yaml</code> file, see <a href="https://docs.gotosocial.org/en/latest/configuration/">the docs on configuration here</a>.</li>
+<li>Making a user an admin requires restarting the server.</li>
+</ul>
+<p>I'm still playing around with GoToSocial but it's looking like a good solution for what I want - something easier to maintain than Mastodon and less resource-intensive.</p>
+]]></content:encoded>
+
+<pubDate>2024-11-20T21:00:33Z</pubDate>
+</item>
 
 <item>
 <title>Stopping Mastodon From Fetching Metadata for My Notes</title>
