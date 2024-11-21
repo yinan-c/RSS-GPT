@@ -17991,3 +17991,12 @@ Existing_entries: 49
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-11-21 14:08:37.289774
+------------------------------------------------------
+Started: 2024-11-21 16:06:31.960575
+Existing_entries: 49
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.061094999999987, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Checklists: The Key to Smarter and Safer Work](https://nesslabs.com/checklists?utm_source=rss&utm_medium=rss&utm_campaign=checklists)
+append_entries: 1
+Finish: 2024-11-21 16:06:32.537044
