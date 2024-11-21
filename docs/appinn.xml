@@ -4,6 +4,118 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】Weblink - 开源免费的Web P2P聊天文件传输、文件同步工具</title>
+<link>https://meta.appinn.net/t/topic/63332</link>
+<guid>https://meta.appinn.net/t/topic/63332</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-1" name="p-234023-h-1"></a>软件名称</h2>
+<p>Weblink</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-2" name="p-234023-h-2"></a>应用平台</h2>
+<p>Chrome / Firefox / Web</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-3" name="p-234023-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-4" name="p-234023-h-4"></a>一句简介</h2>
+<p>使用 WebRTC 的 P2P 网络聊天和文件传输、文件同步Web应用程序</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-5" name="p-234023-h-5"></a>应用简介</h2>
+<p>Weblink 是一款基于 WebRTC 的纯网页的聊天、文件传输、文件同步Web应用，无需注册下载或安装，直接在浏览器中即可使用。目前支持以下功能和特性：</p>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文件同步</td>
+<td>获取对方缓存的文件，并获取文件</td>
+</tr>
+<tr>
+<td>断点续传</td>
+<td>文件传输过程中，如果连接中断，可以续传</td>
+</tr>
+<tr>
+<td>文件缓存</td>
+<td>传输的文件会被缓存到 IndexedDB 中</td>
+</tr>
+<tr>
+<td>文件搜索</td>
+<td>可以搜索自己和对方在缓存中的文件</td>
+</tr>
+<tr>
+<td>视频通话</td>
+<td>可进行视频通话</td>
+</tr>
+<tr>
+<td>剪贴板传输</td>
+<td>对聊天窗口按 <code>Ctrl + V</code>，或在移动端输入框粘贴，可发送剪贴板内容</td>
+</tr>
+<tr>
+<td>文件夹传输</td>
+<td>可发送文件夹，并自动压缩为.zip格式</td>
+</tr>
+<tr>
+<td>压缩传输</td>
+<td>传输文件时，可选择压缩，文件将以区块为单位进行压缩并发送</td>
+</tr>
+<tr>
+<td>多通道传输</td>
+<td>通过多个 DataChannel 实现并行数据传输，提升传输性能</td>
+</tr>
+<tr>
+<td>分享转发</td>
+<td>PWA 安装后，可通过系统分享发送文字或文件</td>
+</tr>
+<tr>
+<td>文字聊天</td>
+<td>可发送文字进行聊天</td>
+</tr>
+</tbody>
+</table>
+</div><h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-6" name="p-234023-h-6"></a>官方网站</h2>
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/99percentpeople/weblink" rel="noopener nofollow ugc" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/275036cbd7afc7ab605162bb062be917/99percentpeople/weblink" width="690" />
+
+  <h3><a href="https://github.com/99percentpeople/weblink" rel="noopener nofollow ugc" target="_blank">GitHub - 99percentpeople/weblink: P2P web chat and file transfer, file...</a></h3>
+
+    <p><span class="github-repo-description">P2P web chat and file transfer, file synchronization applications using WebRTC</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>工具链接</p>
+<p><a class="onebox" href="https://webl.ink" rel="noopener nofollow ugc" target="_blank">https://webl.ink</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-7" name="p-234023-h-7"></a>软件截图</h2>
+<div class="d-wrap">
+<p><img height="" src="https://h1.appinn.me/file/1732110155203_图片1.png" width="" /></p>
+<p><img height="490" src="https://h1.appinn.me/file/1732110163041_Screenshot_2024-11-20-21-23-24-635_com.android.chrome1.jpg" width="250" /></p>
+</div>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234023-h-8" name="p-234023-h-8"></a>视频介绍</h2>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/63332">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 2024 23:15:43 +0000</pubDate>
+<pubDate>Wed, 20 Nov 2024 23:15:43 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】流年记：一个可以把日记图片，生成日历图集和延迟摄影视频的日记APP</title>

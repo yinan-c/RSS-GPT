@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Installing GoToSocial on Coolify</title>
 <link>https://rknight.me/blog/installing-gotosocial-on-coolify/</link>
 <guid>https://rknight.me/blog/installing-gotosocial-on-coolify/</guid>
 <content:encoded><![CDATA[
-
 <p>For various reasons I had occasion this evening to give <a href="https://gotosocial.org">GoToSocial</a> a try so I installed it on my server that's running <a href="https://coolify.io">Coolify</a> but hit a couple of issues which I was able to work around with the help of <a href="https://lewisdale.dev">Lewis</a> and <a href="https://wand3r.net">Brandon</a>.</p>
 <p>First up because it's running a reverse proxy, I needed the third option in the Docker compose file.</p>
 <pre class="language-bash"><code class="language-bash">ports:<br />  <span class="token comment"># - "443:8080"</span><br />  <span class="token comment">## For letsencrypt:</span><br />  <span class="token comment">#- "80:80"</span><br />  <span class="token comment">## For reverse proxy setups:</span><br />  - <span class="token string">"127.0.0.1:8082:8080"</span></code></pre>
@@ -27,10 +27,8 @@
 </ul>
 <p>I'm still playing around with GoToSocial but it's looking like a good solution for what I want - something easier to maintain than Mastodon and less resource-intensive.</p>
 ]]></content:encoded>
-
 <pubDate>2024-11-20T21:00:33Z</pubDate>
 </item>
-
 <item>
 <title>Stopping Mastodon From Fetching Metadata for My Notes</title>
 <link>https://rknight.me/blog/stopping-mastodon-from-fetching-metadata-for-my-notes/</link>
