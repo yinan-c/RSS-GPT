@@ -1640,3 +1640,12 @@ Existing_entries: 546
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2024-11-21 18:08:50.139918
+------------------------------------------------------
+Started: 2024-11-21 20:08:04.895076
+Existing_entries: 546
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.061094999999987, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Media diet](https://manuelmoreale.com/@/page/YvkN15fGylPHngY9)
+append_entries: 1
+Finish: 2024-11-21 20:08:07.255115
