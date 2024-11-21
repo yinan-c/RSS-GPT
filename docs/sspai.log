@@ -39066,3 +39066,9 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/sspai/index
 append_entries: 0
 error when rendering xml, skip docs/sspai
+------------------------------------------------------
+Started: 2024-11-21 02:28:27.821709
+Existing_entries: 1000
+Fetching from https://rsshub.app/sspai/index
+append_entries: 0
+Finish: 2024-11-21 02:28:42.141818
