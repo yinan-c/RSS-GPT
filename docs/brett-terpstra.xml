@@ -4,6 +4,67 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Web Excursions for November 25th, 2024</title>
+<link>https://brett.trpstra.net/link/535/16898151/web-excursions-for-november-25th-2024</link>
+<guid>https://brett.trpstra.net/link/535/16898151/web-excursions-for-november-25th-2024</guid>
+<content:encoded><![CDATA[
+<div> WebAssembly, App Store, Mints, QuickLook, Bluesky<br><br>总结:<br><br>WebAssembly是一种用于构建和运行无服务器应用程序的开源开发工具Spin；App Store盛行的时代应该结束，已有替代方案出现；Mints是一系列工具集，帮助用户提取日志、调研问题、探索macOS并对Spotlight进行测试；QuickLook插件调查因qlmanage在Sequoia上基本无用，而Mints提供了有用的专业工具；Bluesky的快捷方式在其网站和应用上都有用，有助于用户更有效地使用Bluesky，尤其是对于那些正在从转移到Bluesky的用户。 <div>
+<noscript class="loading-lazy">
+                <source media="(max-width: 640px)" />
+                <source type="image/avif" />
+                <source type="image/webp" />
+                <source />
+                <img alt="Brett holding map" class="aligncenter" height="349" src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" title="Brett holding map" width="800" />
+              </noscript>
+            
+
+<p>Web excursions brought to you in partnership with CleanShot X, the absolute, hands-down best app for Mac screenshots. <a href="https://cleanshot.sjv.io/DKRzyd">Get one of my all-time favorite apps here.</a></p>
+
+<dl>
+  <dt><a href="https://github.com/fermyon/spin">fermyon/spin</a></dt>
+  <dd>
+    <blockquote>
+      <p>Spin is the open source developer tool for building and running serverless applications powered by WebAssembly</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://www.macworld.com/article/2525708/the-app-store-era-must-end-apples-already-got-the-solution.html">Once again, the only way forward is the Mac</a></dt>
+  <dd>
+    <blockquote>
+      <p>The App Store era must end and the solution is already here.</p>
+    </blockquote>
+  </dd>
+  <dt><a href="https://eclecticlight.co/mints-a-multifunction-utility/">Mints: a multifunction utility</a></dt>
+  <dd>
+    <blockquote>
+      <p>Mints is a growing collection of tools which provide tailor-made log extracts for investigating problems and exploring macOS, collate various information about a Mac which can be difficult to find elsewhere, perform a set of tests on Spotlight, and provide specialist tools for certain types of data.</p>
+    </blockquote>
+  </dd>
+  <dd>
+    <p>Useful for investigating QuickLook plugins now that qlmanage is basically useless on Sequoia.</p>
+  </dd>
+  <dt><a href="https://matthewcassinelli.com/new-in-the-shortcuts-library-bluesky-shortcuts/">New in the Shortcuts Library: Bluesky shortcuts – Matthew Cassinelli</a></dt>
+  <dd>
+    <blockquote>
+      <p>These shortcuts for Bluesky work on the web and the app – jump directly into any section. Plus, build out your List dictionary.</p>
+    </blockquote>
+  </dd>
+  <dd>
+    <p>If you, like many others, are getting into Bluesky, these might be helpful. I&rsquo;m still mostly on <a href="https://nojack.easydns.ca/@ttscoff">Mastodon</a> (and plan to continue to be), but Bluesky (<a href="https://bsky.app/profile/ttscoff.bsky.social">find me here</a>) is more attractive to me than Threads (<a href="https://www.threads.net/@ttscoff">here</a>) as an alternative.</p>
+  </dd>
+</dl>
+
+<p>I do all of my screenshots and screen recordings with CleanShot X. I love it to pieces. <a href="https://cleanshot.sjv.io/DKRzyd">You should get it.</a></p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F11%2F25%2Fweb-excursions-for-november-25th-2024%2F&amp;text=Web+Excursions+for+November+25th%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F11%2F25%2Fweb-excursions-for-november-25th-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+    <hr style="margin: 40px 0;" />
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd like to help out.</a></p>
+<p class="copyright">All materials &copy;2024 Brett Terpstra</p>
+<p><a href="https://twitter.com/ttscoff" rel="me">Twitter</a> | <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a> | <a href="https://github.com/ttscoff">GitHub</a> | <a href="https://brettterpstra.com/legal/privacy.html">Privacy Policy</a></p><img height="1" src="https://brett.trpstra.net/link/535/16898151.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-11-25T12:00:00-06:00</pubDate>
+<pubDate>2024-11-25T12:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for November 21st, 2024</title>
