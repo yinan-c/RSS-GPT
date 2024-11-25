@@ -4,6 +4,22 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>App Defaults 2024</title>
+<link>https://rknight.me/blog/app-defaults-2024/</link>
+<guid>https://rknight.me/blog/app-defaults-2024/</guid>
+<content:encoded><![CDATA[
+<div> RSS, Raindrop, Mastodon, BBC新闻, 提醒<br><br>总结:<br>一年来我的生活发生了很多变化。我目前完全使用来处理待办事项，尽管觉得提醒功能有些烦人。我自己托管RSS，并在iOS上使用，在Mac上使用。关于书签，我选择了自托管的解决方案。至于稍后阅读，我使用Raindrop，以前用的Omnivore已经停用了。在新闻方面，我仍在使用Mastodon，但应建议已将BBC新闻从我的主屏幕上移除。 <div>
+<p>It's been just over a year since <a href="https://listen.hemisphericviews.com/097">Dual of the Defaults</a> burst into our lives and my time was consumed by <a href="https://defaults.rknight.me">tracking nearly 400 blog posts</a>. Rather than write out <a href="https://rknight.me/blog/app-defaults/">last years list again</a>, here's what has changed since then:</p>
+<p><strong>To-Do</strong>: I'm all in on <a href="https://godspeedapp.com/a/RKNIGHT25">Godspeed</a>. Reminders is just a bit...annoying?</p>
+<p><strong>RSS</strong>: Self-hosted <a href="https://rknight.me/blog/using-miniflux-with-reeder-and-netnewswire/">Miniflux</a> with <a href="https://reederapp.com/classic/">Reeder Classic</a> on iOS and <a href="https://netnewswire.com">NetNewsWire</a> on the Mac. Reeder is new because it has a dark icon, NetNewsWire doesn't right now.</p>
+<p><strong>Bookmarks</strong>: Self-hosted <a href="https://links.rknight.me/dashboard">LinkAce</a>.</p>
+<p><strong>Read-it-Later</strong>: Raindrop. Ominvore as it happens is now gone but I switched a while ago.</p>
+<p><strong>News</strong>: I'm still using Mastodon but on the advice of <a href="https://johnnydecimal.com">Johnny</a>, BBC news is gone from my home screen.</p>
+]]></content:encoded>
+
+<pubDate>2024-11-25T20:18:38Z</pubDate>
+</item>
 
 <item>
 <title>Installing GoToSocial on Coolify</title>
