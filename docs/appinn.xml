@@ -4,6 +4,57 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】给媳妇做的音频转换器，分享给大家。🎁免费、无会员</title>
+<link>https://meta.appinn.net/t/topic/63492</link>
+<guid>https://meta.appinn.net/t/topic/63492</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-234750-h-1" name="p-234750-h-1"></a>软件名称</h2>
+<p>【音频转换器】mp3格式转换，从视频提取音频保存mp3等格式</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234750-h-2" name="p-234750-h-2"></a>应用平台</h2>
+<p>iOS、iPad</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234750-h-3" name="p-234750-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234750-h-4" name="p-234750-h-4"></a>一句简介</h2>
+<p>小而美且实用的音频转换器，支持音频格式转换、音频剪辑、提取音频、批量操作。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-234750-h-5" name="p-234750-h-5"></a>应用简介</h2>
+<ul>
+<li><strong>源起</strong></li>
+</ul>
+<p>前段时间早就听媳妇说她需要做课件，经常需要剪辑单词、短句的音频，并且需要把音频转格式，比如mp3之类的。</p>
+<p>她下载一堆相关的工具软件，要么收费太贵，要么广告一堆，一言难尽…</p>
+<p>正好我也是比较喜欢捣鼓有趣好玩的工具的人，但所谓的“有趣好玩”其实只是我自己的感觉。实际做出来后，发现用的人并不多。而且音频相关的操作对于略懂技术的人来说并不复杂，</p>
+<p>最近平时周末正好不知道做什么好，不如就把媳妇这个日常的音频转换的需求给满足。顺便送给有同样需要用音频剪辑、格式转换的朋友们。</p>
+<p><img alt="audioedit_jimmy2.jpg" height="500" src="https://h1.appinn.me/file/1732597347613_audioedit_jimmy2.jpg" width="375" /></p>
+<ul>
+<li><strong>说干就干</strong></li>
+</ul>
+<p><img alt=":muscle:t2:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/muscle/2.png?v=12" title=":muscle:t2:" width="20" />从调研、<img alt=":arrow_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_right.png?v=12" title=":arrow_right:" width="20" /> 到设计、<img alt=":arrow_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_right.png?v=12" title=":arrow_right:" width="20" /> 最后编程、<img alt=":arrow_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_right.png?v=12" title=":arrow_right:" width="20" /> 调试、<img alt=":arrow_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_right.png?v=12" title=":arrow_right:" width="20" /> 发布到App Store。总共时间并不长，但也让我熬了好几个夜才搞完。终于肝出来了！！<img alt=":face_holding_back_tears:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/face_holding_back_tears.png?v=12" title=":face_holding_back_tears:" width="20" /></p>
+<p>从最开始做就是以简单操作为原则，所以界面设计和操作流程都尽量的好看简单一些。整体操作大概就是三步：</p>
+<blockquote>
+<p>1：导入 <img alt=":arrow_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_right.png?v=12" title=":arrow_right:" width="20" /> 2：转换 <img alt=":arrow_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_right.png?v=12" title=":arrow_right:" width="20" /> 3：结束,去分享/保存<br />
+（可以从相册里选择视频，从本地文件、从音乐导入）</p>
+</blockquote>
+<p><img alt=":sunny:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/sunny.png?v=12" title=":sunny:" width="20" />第一版本其实比较简陋。媳妇作为<img alt=":earth_asia:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/earth_asia.png?v=12" title=":earth_asia:" width="20" />全球第一个用户，现在她一直在用，我也观察她的使用习惯和她自己的亲身感受，增加了一些能提高效率的功能。后面又进行迭代优化。</p>
+<p><img alt=":star:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/star.png?v=12" title=":star:" width="20" />比如最近增加了批量处理的功能，现在能够长按进行多选，然后就能够批量的导出某种指定的格式了（或者批量提取视频中的音频）。</p>
+<p><img alt=":star:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/star.png?v=12" title=":star:" width="20" />还有音频剪辑的一些细节，现在这一块还有一些需要优化的地方，我会在后面版本优化的。</p>
+<p>对了，<img alt=":star:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/star.png?v=12" title=":star:" width="20" />还有个导出之后能够快速进行重命名的功能，我也在最近的版本加上了。</p>
+<p>一个好用的工具需要进化的，如果你已经在用了，那么请尽快升级到最近版本，也许会有很多小功能能大大提高你的效率。</p>
+<p>当然还有很多不完善的地方，大家在使用过程中有建议的话记得跟我说哦，说不定就在下个版本增加了呢。</p>
+<p><strong>最后强调下<img alt=":warning:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/warning.png?v=12" title=":warning:" width="20" />这个工具是一个完全免费的工具，大家可以放心使用里面的任何功能。目前还只有iOS版本。记得看清图标和名字，别下载错了哦。</strong></p>
+<ul>
+<li><strong>App Store 传送门</strong></li>
+</ul>
+<p><a href="https://apps.apple.com/app/audio-converter-mp3-extractor/id6670760890" rel="noopener nofollow ugc">音频转换器：点这里跳转App Store</a></p>
+<p><a class="onebox" href="https://apps.apple.com/app/audio-converter-mp3-extractor/id6670760890" rel="noopener nofollow ugc" target="_blank">https://apps.apple.com/app/audio-converter-mp3-extractor/id6670760890</a></p>
+<p><img alt="audioedit_jimmy1.jpg" height="500" src="https://h1.appinn.me/file/1732597352651_audioedit_jimmy1.jpg" width="375" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/63492">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 26 Nov 2024 05:53:37 +0000</pubDate>
+<pubDate>Tue, 26 Nov 2024 05:53:37 +0000</pubDate>
+</item>
 
 <item>
 <title>有没有能强行让网页宽屏的chrome插件？</title>
