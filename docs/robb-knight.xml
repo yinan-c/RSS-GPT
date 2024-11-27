@@ -4,6 +4,49 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Link Dump #5</title>
+<link>https://rknight.me/blog/link-dump-5/</link>
+<guid>https://rknight.me/blog/link-dump-5/</guid>
+<content:encoded><![CDATA[
+<div> React, CMS, Bluesky, Eleventy, Kagi<br><br>总结:<br>文章中介绍了多个技术工具和资源。首先有对React及其不尽如人意的表现的批评。接下来提到了几位作者尝试使用Bluesky PDS的体验，以及Eleventy的一篇入门教程推荐。此外，讨论了Kagi搜索引擎在处理订阅内容时显示出的高效性。最后，作者表达了对某些视频游戏和网页视频资源的兴趣，并提到了一种理想的静态站点CMS的想法。 <div>
+<p>Time for a heaving link dump becuase I'm well into triple figures in my Raindrop inbox.</p>
+<p>First up are a pair of intorductions: one to <a href="https://blakewatson.com/journal/alpinejs-for-home-cooked-apps/">Alpine.js</a> by Blake of <a href="https://htmlforpeople.com">HTML for People</a> fame and one for <a href="https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/">htmx</a>. I'm always on the lookout for something a bit less complicated than a full-on framework.</p>
+<p><a href="https://joshcollinsworth.com/blog/antiquated-react#epilogue">Things you forgot (or never knew) because of React</a> is a scathing look at the state<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> of React in comparison to other, similar frameworks and it's not great.</p>
+<p><a href="https://alextheward.com/posts/ergonomic-static-site-blogging/">Ergonomic Static Site Blogging</a>. Someone else on a quest to have a nice CMS for a static site with no success.</p>
+<p><a href="https://lmika.org/2024/11/23/to-deploy-from.html">Leon</a> and <a href="https://melkat.blog/p/hosting-bsky">Melanie</a> both wrote up their experience with <a href="https://coolify.io">Coolify</a> with the latter setting up a Bluesky PDS for shits and giggles<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</p>
+<blockquote>
+<p>The hardest part of all of this was Bluesky’s instability. Bluesky likes to pretend that it is “decentralized” or “federated.” It sure as shit isn’t either of those things.</p>
+</blockquote>
+<p><a href="https://hamatti.org/posts/how-i-teach-eleventy-from-scratch/">How I teach Eleventy from scratch</a> is an excellent intro to Eleventy by Juha-Matti; this will be my go-to next time someone asks about how to get started.</p>
+<p>One more tutorial, this time for <a href="https://leanrada.com/notes/css-sprite-sheets/">CSS sprite sheet animations</a>.</p>
+<p><a href="https://www.codingfont.com/">Coding Font</a> sets up a bracket like the sports do to choose the best coding font for you. It lacks a few popular ones but it's a fun distraction for a couple of minutes.</p>
+<p>Kagi, the search engine, <a href="https://github.com/kagisearch/fastfeedparser">open-sourced their feed parser</a>. &quot;It's 10x-100x faster than a traditional feedparser&quot;.</p>
+<p><a href="https://caniphp.com/">Can I PHP?</a> It's like <em>Can I Use</em> but for PHP features. Fun.</p>
+<p>I was <a href="https://rknight.me/notes/202411160731/">wronged by Safari</a> and was sent this <a href="https://tylersticka.com/journal/browsers-again/">great post on browsers by Tyler</a>. Also, it's <a href="https://forums.macrumors.com/threads/safari-pages-intermittently-stop-loading-until-i-restart-mac.2344669/">not just me</a>.</p>
+<p>Gamery released <a href="https://scandex.gamery.app/">ScanDex</a>, a &quot;<em>curated barcode database for video games</em>&quot; and <a href="https://simonwillison.net/2024/Nov/20/foursquare-open-source-places/">Foursquare released a huge places dataset</a>.</p>
+<p>I don't have much call for doing web videos but <a href="https://player.style/">player.style</a> look likes a great resource for different styles.</p>
+<p>Johnny mentioned he used <a href="https://www.migadu.com/pricing/#are-the-prices-and-limits-per-mailbox-or-account">Migadu Email</a> for his email. Pricing looks great, unlimited domains and mailboxes. If I ever need to move off of iCloud, this might be the way to go.</p>
+<p><a href="https://spoiledbluemilk.com/2020/10/23/back-to-the-future-and-the-goonies-take-place-on-the-same-day/">“Back to the Future” and “The Goonies” take place on the same day</a>. Can't argue with this logic, it's canon now.</p>
+<p>I am obsessed with <a href="https://www.youtube.com/watch?v=q5wvurTU5DI">Wes Tank Rapping Fox in Socks</a> on the Dr Suess channel.</p>
+<p><a href="http://damnette97.com">An Akaline Trio font</a>.</p>
+<p>And finally, I want this <a href="https://retro.social/@ifixcoinops/110823507738743826">clothes shop for dads</a> idea to be a reality.</p>
+<blockquote>
+<p>you're sure as hell not gonna advertise some bugger else's T-shirt business on your body, so you give him twelve quid and he hands you Bin Bag 2</p>
+</blockquote>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>Not an intentional pun <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+<li class="footnote-item" id="fn2"><p>or more likely, through genuine curiousity <a class="footnote-backref" href="#fnref2">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-11-27T12:06:04Z</pubDate>
+</item>
 
 <item>
 <title>App Defaults 2024</title>
