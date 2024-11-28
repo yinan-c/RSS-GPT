@@ -44181,3 +44181,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-11-28 10:04:19.144660
+------------------------------------------------------
+Started: 2024-11-28 12:05:58.604564
+Existing_entries: 630
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [浏览器在线预览html文件或代码效果方案](https://meta.appinn.net/t/topic/63597)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-11-28 12:06:01.439666
