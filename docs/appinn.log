@@ -44157,3 +44157,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [梦回1998，用C#重现经典的 Visual Basic 6 IDE，开源跨平台](https://meta.appinn.net/t/topic/63568)
 append_entries: 1
 Finish: 2024-11-28 04:04:17.147381
+------------------------------------------------------
+Started: 2024-11-28 06:05:06.301474
+Existing_entries: 630
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-11-28 06:05:09.816332
