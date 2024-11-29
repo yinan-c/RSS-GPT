@@ -2219,3 +2219,12 @@ Fetch error: 500
 Fetch failed from https://manuelmoreale.com/feed/rss
 append_entries: 0
 error when rendering xml, skip docs/manuel-moreale
+------------------------------------------------------
+Started: 2024-11-29 12:06:23.259859
+Existing_entries: 549
+Fetching from https://manuelmoreale.com/feed/rss
+Token length: 11585
+Summarized using gpt-4-turbo
+Append: [P&B: Lucy Bellwood](https://manuelmoreale.com/@/page/TDuc5e8Z3mvsf1dV)
+append_entries: 1
+Finish: 2024-11-29 12:06:35.417668
