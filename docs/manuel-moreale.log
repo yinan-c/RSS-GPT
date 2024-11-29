@@ -2211,3 +2211,11 @@ Fetch error: 500
 Fetch failed from https://manuelmoreale.com/feed/rss
 append_entries: 0
 error when rendering xml, skip docs/manuel-moreale
+------------------------------------------------------
+Started: 2024-11-29 10:04:37.923455
+Existing_entries: 549
+Fetching from https://manuelmoreale.com/feed/rss
+Fetch error: 500
+Fetch failed from https://manuelmoreale.com/feed/rss
+append_entries: 0
+error when rendering xml, skip docs/manuel-moreale
