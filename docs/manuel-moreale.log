@@ -2228,3 +2228,9 @@ Summarized using gpt-4-turbo
 Append: [P&B: Lucy Bellwood](https://manuelmoreale.com/@/page/TDuc5e8Z3mvsf1dV)
 append_entries: 1
 Finish: 2024-11-29 12:06:35.417668
+------------------------------------------------------
+Started: 2024-11-29 14:04:13.376251
+Existing_entries: 550
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2024-11-29 14:04:15.775686
