@@ -4,6 +4,39 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【油猴脚本】【开发者自荐】让浏览器也有安卓的拉伸回弹效果</title>
+<link>https://meta.appinn.net/t/topic/63740</link>
+<guid>https://meta.appinn.net/t/topic/63740</guid>
+<content:encoded><![CDATA[
+
+<p><a class="hashtag-cooked" href="https://meta.appinn.net/c/faxian/10"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>发现频道 <img alt=":mag_right:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/mag_right.png?v=12" title=":mag_right:" width="20" /></span></a> <a class="hashtag-cooked" href="https://meta.appinn.net/tag/chrome"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>chrome</span></a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-235730-h-1" name="p-235730-h-1"></a>【油猴脚本】【开发者自荐】让浏览器也有安卓的拉伸回弹效果</h2>
+<p>下载地址：<a class="inline-onebox" href="https://greasyfork.org/zh-CN/scripts/518771-%E4%BB%BF%E5%AE%89%E5%8D%93%E6%8B%89%E4%BC%B8%E5%9B%9E%E5%BC%B9-%E9%A1%B5%E9%9D%A2%E6%8A%97%E9%94%AF%E9%BD%BF" rel="noopener nofollow ugc">仿安卓拉伸回弹 + 页面抗锯齿</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-235730-h-2" name="p-235730-h-2"></a>简介</h2>
+<p>在滚动到页面边缘时对页面执行拉伸，以模拟安卓的拉伸回弹效果<br />
+<s>主要就是图个乐子</s></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-235730-h-3" name="p-235730-h-3"></a>特色</h2>
+<ul>
+<li>油猴脚本同时兼容chrome和firefox</li>
+<li>拉伸和回弹参数可自定义（在代码最上方）</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-235730-h-4" name="p-235730-h-4"></a>已知问题</h2>
+<ul>
+<li>因为是检查浏览器滚动条，所以在某些网站上无法使用</li>
+<li>部分网站会造成布局错误和弹出内容错位</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-235730-h-5" name="p-235730-h-5"></a>已解决问题</h2>
+<ul>
+<li>在过短的网站上会造成页面显示不全，所以在过短页面上默认禁用</li>
+<li>拉伸过程中会造成页面字体抖动，加入抗锯齿后有所缓解</li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/63740">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 02 Dec 2024 15:11:43 +0000</pubDate>
+<pubDate>Mon, 02 Dec 2024 15:11:43 +0000</pubDate>
+</item>
 
 <item>
 <title>🎉 Wins 2.5 发布！新增调度中心 Pro</title>
