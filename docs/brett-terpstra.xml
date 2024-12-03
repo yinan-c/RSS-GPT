@@ -4,6 +4,34 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Key repeat in Sequoia</title>
+<link>https://brett.trpstra.net/link/535/16909674/key-repeat-in-sequoia</link>
+<guid>https://brett.trpstra.net/link/535/16909674/key-repeat-in-sequoia</guid>
+<content:encoded><![CDATA[
+
+<p>I got a new MacBook Pro on a Black Friday sale, and have been setting it up for the last few days. A combination of <code class="language-plaintext highlighter-rouge">brew bundle</code>, DotBot, and Mackup have made that a mostly painless process, but I still had to do a lot of tweaking. Setapp will even offer to automatically install your favorites the first time it runs. Nice.</p>
+
+<p>But one thing I found frustrating was that setting key repeat delay and key repeat speed in System Settings was having no effect. Keys that had diacritics still just popped up the special character popover, and keys without didn&rsquo;t do anything at all when held. Finally figured out the solution, which I&rsquo;m posting here mostly so I can easily find it next time this happens.</p>
+
+<p>Run the following in Terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>defaults write -g ApplePressAndHoldEnabled -bool false</code></pre></div></div>
+
+<p>Then reboot your machine (simply logging out might do it). Now the key repeat settings in System Settings will actually have an effect.</p>
+
+<p>Random side note: if your Nerd Font in iTerm isn&rsquo;t showing icons, be sure to uncheck &ldquo;Use built-in Powerline glyphs&rdquo; in the profile-&gt;Text settings.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F03%2Fkey-repeat-in-sequoia%2F&amp;text=Key+repeat+in+Sequoia&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F03%2Fkey-repeat-in-sequoia%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16909674.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-03T08:00:00-06:00</pubDate>
+<pubDate>2024-12-03T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>A health update</title>
