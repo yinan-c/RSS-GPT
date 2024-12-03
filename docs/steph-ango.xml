@@ -4,12 +4,12 @@
 <title>Steph Ango</title>
 <link>https://stephango.com/</link>
 
+
 <item>
 <title>Self-guaranteeing promises</title>
 <link>https://stephango.com/self-guarantee</link>
 <guid>https://stephango.com/self-guarantee</guid>
 <content:encoded><![CDATA[
-
 <p>Companies break promises all the time. A self-guaranteeing promise does not require you to trust anyone. You can verify a self-guaranteeing promise yourself.</p>
 
 <p><a class="internal-link" href="/file-over-app">File over app</a> is a self-guaranteeing promise. If files are in your control, in an open format, you can use those files in another app at any time. Not an export. The exact same files. It’s good practice to test this with any self-proclaimed file-over-app app you use.</p>
@@ -28,10 +28,8 @@
 
 <p>It is possible to accept the ambiguousness of a tool’s future if you choose tools that make self-guaranteeing promises.</p>
 ]]></content:encoded>
-
 <pubDate>2024-12-03T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>What can we remove?</title>
 <link>https://stephango.com/remove</link>
