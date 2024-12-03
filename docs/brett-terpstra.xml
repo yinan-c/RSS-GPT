@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Key repeat in Sequoia</title>
 <link>https://brett.trpstra.net/link/535/16909674/key-repeat-in-sequoia</link>
 <guid>https://brett.trpstra.net/link/535/16909674/key-repeat-in-sequoia</guid>
 <content:encoded><![CDATA[
-
 <p>I got a new MacBook Pro on a Black Friday sale, and have been setting it up for the last few days. A combination of <code class="language-plaintext highlighter-rouge">brew bundle</code>, DotBot, and Mackup have made that a mostly painless process, but I still had to do a lot of tweaking. Setapp will even offer to automatically install your favorites the first time it runs. Nice.</p>
 
 <p>But one thing I found frustrating was that setting key repeat delay and key repeat speed in System Settings was having no effect. Keys that had diacritics still just popped up the special character popover, and keys without didn&rsquo;t do anything at all when held. Finally figured out the solution, which I&rsquo;m posting here mostly so I can easily find it next time this happens.</p>
@@ -30,9 +30,7 @@
 <p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16909674.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-12-03T08:00:00-06:00</pubDate>
-<pubDate>2024-12-03T08:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>A health update</title>
 <link>https://brett.trpstra.net/link/535/16901133/a-health-update</link>
