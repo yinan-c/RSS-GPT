@@ -44649,3 +44649,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-12-03 06:05:01.973766
+------------------------------------------------------
+Started: 2024-12-03 08:05:00.093157
+Existing_entries: 634
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [预告一下，近期流光卡片会上线免费在线 api 功能，服务器由 302.ai 提供支持](https://meta.appinn.net/t/topic/63769)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-12-03 08:05:02.611087
