@@ -5,11 +5,49 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>MarkEdit - 只有 2.36 MB 的开源 Markdown 编辑器，为 macOS 预览增加预览 .md 格式</title>
+<link>https://meta.appinn.net/t/topic/63821</link>
+<guid>https://meta.appinn.net/t/topic/63821</guid>
+<content:encoded><![CDATA[
+
+<p><small>原始链接在：			<a class="inline-onebox" href="https://www.appinn.com/markedit/">MarkEdit - 只有 2.36 MB 的开源 Markdown 编辑器，为 macOS 预览增加预览 .md 格式 - 小众软件</a><br />
+</small><br /></p><p><strong>MarkEdit</strong> 是一款免费开源的 Markdown 编辑器，只有 2.36 MB 大小，功能简单不复杂，遵循 macOS 界面规范，可以快速打开 10MB+ 以上文件，GitHub 风格，无多余按钮。@<a href="https://www.appinn.com/markedit/">Appinn</a></p><br />
+<img height="300" src="https://static3.appinn.com/images/2024/12/appinn-homework-21.jpg" width="690" /><p>对于用惯了 macOS 中空格预览文件的同学来说，不能直接按空格预览 .md 文件，还是有点不舒服的。</p><p></p>
+<p>安装 MarkEdit 之后，就能直接对着 .md 文件空格，然后预览了，非常方便：</p>
+<img height="351" src="https://static3.appinn.com/images/2024/12/Screen-20241204163018@2x.avif" width="690" /><h2>Why MarkEdit</h2>
+<p>而 MarkEdit 本身的功能，非常基础，在开发者写的 <a href="https://github.com/MarkEdit-app/MarkEdit/wiki/Why-MarkEdit" rel="noopener" target="_blank">为什么是 MarkEdit（Why MarkEdit）</a>中，是这样描述的：</p>
+<h3>原生</h3>
+<p>MarkEdit 是为那些仍然喜欢美观的 macOS 应用程序的人而构建的。…</p>
+<p>我们完全尊重 macOS 惯例，包括 UI 控件、按键绑定等。支持 macOS Sonoma 中的自动补全/错别字（不支持中文）和 macOS Sequoia 中的 AI 写作工具。</p>
+<h3>快速</h3>
+<p>在 MarkEdit 中，打开一个 10 MB 的文件令人眼花缭乱（在 8 岁的 MacBook Pro 上测试），编辑几兆字节与编辑几千字节是一样的。我们让每一次击键都像黄油一样顺畅。</p>
+<h3>小巧</h3>
+<p>30MB 怎么样？更好，但 MarkEdit 只有 3 MB（压缩安装程序大小），这已经足够了。</p>
+<h3>功能较差</h3>
+<p>你没听错。大多数应用程序都以“功能丰富”为卖点，MarkEdit 则相反。</p>
+<h2>功能：没有所见即所得</h2>
+<p>MarkEdit 只显示 markdown 语法本身，不显示 HTML 预览，有一个字数统计功能：</p>
+<img height="431" src="https://static3.appinn.com/images/2024/12/02.avif" width="690" /><p>如上图，不能直接显示 LaTeX 数学公式、表格、Mermaid 流程图，但是有一个弹出窗口可以预览：</p>
+<img height="329" src="https://static3.appinn.com/images/2024/12/Screen-20241204165013@2x.avif" width="690" /><p>总之就是一个非常基础的、免费开源的 Markdown 编辑器。</p>
+<h2>获取</h2>
+<ul>
+<li><a href="https://github.com/MarkEdit-app/MarkEdit" rel="noopener" target="_blank">GitHub</a></li>
+<li>扫码关注<strong>小众软件微信公众号</strong>，回复 <strong>24124</strong> 获取下载地址（包括源码）</li>
+</ul>
+<img height="344" src="https://static3.appinn.com/images/2024/10/qrcode_for_gh_cae83b625e1e_344.jpg" width="344" /><hr />
+<p>原文：https://www.appinn.com/markedit/</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/63821">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 04 Dec 2024 08:58:47 +0000</pubDate>
+<pubDate>Wed, 04 Dec 2024 08:58:47 +0000</pubDate>
+</item>
+
+<item>
 <title>大佬们，用chrome插件批量网站的图片，下载下来都是类似于一个htm的文件，应该怎么办？</title>
 <link>https://meta.appinn.net/t/topic/63812</link>
 <guid>https://meta.appinn.net/t/topic/63812</guid>
 <content:encoded><![CDATA[
-
 <p>如题，已经试过Downthemall!，ImageAssistant， Image Downloader等插件，结果无一例外都是提示下载htm文件<br />
 目标网址如下：</p><aside class="onebox allowlistedgeneric">
   <header class="source">
@@ -40,14 +78,12 @@
             <p><a href="https://meta.appinn.net/t/topic/63812">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 04 Dec 2024 07:02:33 +0000</pubDate>
-<pubDate>Wed, 04 Dec 2024 07:02:33 +0000</pubDate>
 </item>
 <item>
 <title>苹果生态的系统升级也太霸道了……</title>
 <link>https://meta.appinn.net/t/topic/63813</link>
 <guid>https://meta.appinn.net/t/topic/63813</guid>
 <content:encoded><![CDATA[
-
 <p>今儿上班有个需要一口气干个把小时的活儿，期间反正也不会看手机，脑子一抽就把手里的iPhone升级到了iOS 18<br />
 一个多小时后再看手机，升级倒是挺顺利，就是所有通知Apple Watch都不震了，全在手机上响<br />
 打开Watch app一看，直接啥都没有就显示你的表 require update……<br />
@@ -62,9 +98,7 @@
             <p><a href="https://meta.appinn.net/t/topic/63813">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 04 Dec 2024 07:16:49 +0000</pubDate>
-<pubDate>Wed, 04 Dec 2024 07:16:49 +0000</pubDate>
 </item>
-
 <item>
 <title>Chipmunk - 大文件日志查看器</title>
 <link>https://meta.appinn.net/t/topic/63790</link>
