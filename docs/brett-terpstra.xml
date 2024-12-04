@@ -4,6 +4,49 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Suspicious Package keeps on tickin'</title>
+<link>https://brett.trpstra.net/link/535/16910822/suspicious-package-keeps-on-tickin</link>
+<guid>https://brett.trpstra.net/link/535/16910822/suspicious-package-keeps-on-tickin</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/12/suspicious-package-header-rb.7380.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>Suspicious Package is an indispensable tool for macOS with a long history, and surprisingly, it&rsquo;s free. I&rsquo;ve rarely mentioned it, so I thought I&rsquo;d give it a quick review.</p>
+
+<p><a href="https://www.mothersruin.com/software/SuspiciousPackage/">Suspicious Package</a> has been around for as long as I can remember. It&rsquo;s been steadily updated over the years, and runs perfectly on the latest macOS (Sequoia). It makes inscrutable Package Installers scrutable.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/package-icon.jpg" /></p>
+<p>Package Installers on Mac (<code class="language-plaintext highlighter-rouge">.pkg</code>) are those downloads that look like a cardboard box with a yellow cube coming out of it. Unlike Disk Images (<code class="language-plaintext highlighter-rouge">.dmg</code>) and Zip Archives (<code class="language-plaintext highlighter-rouge">.zip</code>), they run scripts and can install to locations you might not expect or be able to locate after install. This can be disconcerting, or at least inconvenient for people who want to know what&rsquo;s going on on their machine. That&rsquo;s where Suspicious Package comes in.</p>
+
+<p>This tool will give you a Quick Look extension, so you can just select a <code class="language-plaintext highlighter-rouge">.pkg</code> file and hit Space to see what the Package Installer will do &mdash; how many files it will install, how many scripts it will run, etc.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/suspicious-package-quick-look-800.jpg" /></p>
+
+<p>This is not the same thing as Show Package Contents in Finder, which will give you little information about what&rsquo;s going to be installed. It&rsquo;s also much more informative than Show Files in the macOS Installer app.</p>
+
+<p>Clicking on any info line in the Quick Look preview will open the Suspicious Package app to show you the exact details.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/suspicious-package-app-window-800.jpg" /></p>
+
+<p>You can click through the app window to preview files and where they&rsquo;ll be installed, scripts that will run, as well as package info and receipts. In the file viewer, you can see all the metadata for each file, including kind, permissions, and version and Bundle IDs on bundle files (e.g. Mac apps). Scripts can be previewed or opened in an external app. It provides a <a href="https://www.mothersruin.com/software/SuspiciousPackage/use.html">sweeping overview</a> of your packages, and is also <a href="https://www.mothersruin.com/software/SuspiciousPackage/scripting.html">extensively scriptable</a>.</p>
+
+<p>Suspicious Package is free. It&rsquo;s developed by Randy Saldinger (<a href="https://www.mothersruin.com/software/about.html">Mother&rsquo;s Ruin Software</a>), who doesn&rsquo;t even accept donations. He says his apps are labors of love, created just because he wanted them to exist. If you want to know what&rsquo;s going on with your <code class="language-plaintext highlighter-rouge">.pkg</code> files (even those you trust), it&rsquo;s a killer app.</p>
+
+<p>You can follow the development <a href="https://indieapps.space/@SuspiciousPackage">on Mastodon</a> (where the <a href="https://tech.lgbt/@thebittergreen">developer is as well</a>).</p>
+
+<p>There&rsquo;s no reason not to go <a href="https://www.mothersruin.com/software/SuspiciousPackage/">get Suspicious Package today</a>.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113595543737312793" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Suspicious+Package+keeps+on+tickin%27%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F04%2Fsuspicious-package-keeps-on-tickin%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F04%2Fsuspicious-package-keeps-on-tickin%2F&amp;text=Suspicious+Package+keeps+on+tickin%27&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F04%2Fsuspicious-package-keeps-on-tickin%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16910822.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-04T10:19:00-06:00</pubDate>
+<pubDate>2024-12-04T10:19:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Key repeat in Sequoia</title>
