@@ -44747,3 +44747,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-12-04 06:05:06.750601
+------------------------------------------------------
+Started: 2024-12-04 08:05:03.009919
+Existing_entries: 636
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [大佬们，用chrome插件批量网站的图片，下载下来都是类似于一个htm的文件，应该怎么办？](https://meta.appinn.net/t/topic/63812)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [苹果生态的系统升级也太霸道了……](https://meta.appinn.net/t/topic/63813)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-12-04 08:05:06.378293
