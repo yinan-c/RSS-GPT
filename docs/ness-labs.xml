@@ -4,6 +4,339 @@
 <title>Ness Labs</title>
 <link>https://nesslabs.com/</link>
 
+<item>
+<title>Capture and craft your big ideas with Bálint Orosz, founder of Craft</title>
+<link>https://nesslabs.com/craft-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=craft-featured-tool</link>
+<guid>https://nesslabs.com/craft-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=craft-featured-tool</guid>
+<content:encoded><![CDATA[
+
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our tools for thought series, where we interview founders on a mission to help us think better and work smarter. Bálint Orosz is the founder of <a href="https://craft.do/">Craft</a>, a rich text editor designed to be frictionless, whether you want to take notes, write papers, plan your day, or just get things done.</p>
+
+
+
+<p>In this interview, we discussed frictionless creativity, the value of well-crafted tools, the power of the Apple ecosystem, integrating AI with note-taking, bridging our personal and professional lives, and much more. Enjoy the read!</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="Craft – Screenshot 1" class="wp-image-16252" height="575" src="https://nesslabs.com/wp-content/uploads/2024/12/craft-image-4-1024x575.png" width="1024" /></figure>
+
+
+
+<p><strong>Hi Bálint, thanks for agreeing to this interview! First, let’s address the most obvious question: in such a crowded space, what inspired you to create another tool for thought?</strong></p>
+
+
+
+<p>Since the early 2010s, technology has evolved so much, but the tools we use to write, think about, and organize information have essentially been pretty much the same since the 1980s. Personally, I have always been “fighting” tools because I never had the fluidity of being able to express myself easily. I love the famous quote of Steve Jobs that “computers are like a bicycle for the mind”, but I felt this was untrue for many tools I used.&nbsp;</p>
+
+
+
+<p>This was amplified in a previous job for which I had to travel a lot; most of the time I spent travelling was wasted because I couldn’t truly effectively work on mobile devices.</p>
+
+
+
+<p>This pain point recurred year after year, until I reached the point where I decided to try to solve the problem&nbsp; by creating an app which allows me to capture, organize, think, and plan; whether for buying groceries, or writing an executive summary.</p>
+
+
+
+<p>Generally, I’m very picky with my tools when it comes to aesthetics and UX, so I knew this app needed to be a joy to use. That meant it must be beautifully designed, offering a native experience, and fully functional offline so that I could use it during flights, without compromise.&nbsp;</p>
+
+
+
+<p><strong>So you got to work.</strong></p>
+
+
+
+<p>I&#8217;ve been doing design and engineering for 15 years, and after my early days of building Flash websites, I moved on to building native apps for iOS. There’s something in being able to have an idea and make it tangible on a touch device, that just deeply satisfies me.</p>
+
+
+
+<p>I knew the space I was entering was extremely crowded, so I started out with the goal of building something truly useful <em>for me; </em>then maybe others would like it, too. In the first two years, I worked on the early versions and prototypes of Craft on my own, and read lots of books and research notes about productivity and human cognition. This was an insightful period, which allowed me to formalize some of my intuition.</p>
+
+
+
+<p>I continuously shared prototypes with close friends for early feedback, and after many iterations, I eventually achieved a version I felt confident could be the foundation of Craft, as we know it today. This was in 2019, when the project’s code name was “Luki.” Interestingly, many aspects of that early prototype are present in Craft 3.</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="Craft – Screenshot 2" class="wp-image-16253" height="574" src="https://nesslabs.com/wp-content/uploads/2024/12/craft-image-2-1024x574.png" width="1024" /></figure>
+
+
+
+<p>At that point, I was ready to go all-in, so I hired the first three team members, and together we developed the first beta version, which was released in February 2020 for iPhone, iPad, and Mac.</p>
+
+
+
+<p>We took a long time to build and release the first beta version! This was because I wanted to ensure the core experience of writing and syncing across devices was perfect. I knew this was core to everything that followed; without a strong foundation, the entire concept would fall apart. The solid groundwork means we’ve been able to iterate very quickly ever since, releasing major new versions every 2-3 weeks.</p>
+
+
+
+<p><strong>And you made the opinionated decision to focus on the Apple ecosystem. Why is that?</strong></p>
+
+
+
+<p>One insight from my previous projects is that it’s extremely hard to take a well-developed desktop application, and scale it down to touchscreen devices because the core mental models and UX just fall apart. However, it is absolutely possible to go too far the other way, and focusing on mobile alone places very strong constraints on how complex a product can become.&nbsp;</p>
+
+
+
+<p>Also, native and mobile are my core expertise, so it made sense to start as an iPhone/iPad app to ensure we could create a simple, powerful product.</p>
+
+
+
+<p>Later, Apple introduced MacCatalyst, a technology which enabled us to use one code base to ship Craft across iOS, iPadOS, MacOS. Our vision has always been to deliver an exceptional experience by leveraging the unique power and capabilities that only native apps can provide: great performance, full offline support, ability to use your Apple Pencil, and features powered by Apple Intelligence, to name just a few. So, it was logical to continue on this path.</p>
+
+
+
+<p>That said, it’s important to note that Craft also works on the web, Windows, and mobile web, and these versions are continuously improving. And yes, an Android app is coming, eventually!</p>
+
+
+
+<p><strong>The way you engage with your community is also quite unique.</strong></p>
+
+
+
+<p>Community has always been a big part of our approach, and we’ve developed a very strong connection with users. Since the first day of the beta in February 2020, we’ve been interacting with our community, daily. Hearing our users’ stories about how they use Craft, discussing ideas, and working together to identify and fix bugs, has been an incredibly rewarding experience unlike anything I’ve encountered with other products I’ve built.</p>
+
+
+
+<p>Our team uses Craft every day, both collaboratively and individually, which creates a unique bond with our community: we can genuinely relate to people’s pain points and joyful experiences. Their feedback plays a crucial role in shaping how we prioritize upcoming features and improvements, ensuring we’re always building Craft with users in mind.</p>
+
+
+
+<p>We just released<a href="https://www.craft.do/v3"> Craft 3</a>, our biggest update ever. This was a six-month process in which we worked closely with over 1,000 beta testers to refine every aspect of new and existing features. Our community has been with us every step of the way, supporting us since the very first beta.</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="Craft – Screenshot 3" class="wp-image-16254" height="575" src="https://nesslabs.com/wp-content/uploads/2024/12/craft-image-3-1024x575.png" width="1024" /></figure>
+
+
+
+<p><strong>So, how does Craft work, exactly?</strong></p>
+
+
+
+<p>Craft adapts to your needs, whether you want to capture a thought, style beautiful docs, share with others, build collections, or manage tasks. Documents are still the core of Craft, but with version 3, there are many more ways to use Craft.</p>
+
+
+
+<p>First, tasks. We’ve introduced three major features to task management: a dedicated tasks inbox for quick capture, the ability to schedule tasks and view them in the calendar, and a global view showing all your tasks in Craft. We believe tasks are an integral part of docs, as we often think of them while making notes. The latest improvements are aligned with that idea. This way information is not duplicated, and the entire context from where this task is emerged from, is always present.</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="Craft – Screenshot 4" class="wp-image-16255" height="575" src="https://nesslabs.com/wp-content/uploads/2024/12/craft-image-1-1024x575.png" width="1024" /></figure>
+
+
+
+<p>Collections in Craft helps you organize related information in one place. Instead of scattered notes, you can gather and arrange items like books to read, project resources, research notes, and also customize how you view and sort them, based on what matters to you.</p>
+
+
+
+<p>It delivers the power of databases in a streamlined, easy-to-use interface. Building on Craft’s ability to nest content inside blocks, every item in a Collection can contain its own content.</p>
+
+
+
+<p>We also want everyone to be able to create their own digital home in Craft, where they feel comfortable and in control, which is only possible if you can customize the look and feel of docs to your preference. Styling brings an extensive set of capabilities which offer precisely this level of control. Just like other Craft features, it’s simple and surprisingly powerful. You can create different worlds across docs. With Styling, it’s simple to create and share all kinds of things; from children&#8217;s party invitations, to professional documents for the workplace.</p>
+
+
+
+<p><strong>Please tell us more about the AI features.</strong></p>
+
+
+
+<p>Craft Assistant leverages the OpenAI models of GPT-4o and GPT-4o-mini. You can access it easily by using the slash command, or tapping on the “Assistant” button. Our users use it for various tasks, such as making their writing more professional, fixing typos, and translating work into other languages.</p>
+
+
+
+<p>AI models are becoming increasingly powerful, but there remains a significant UI/UX challenge. This is something we aim to tackle in the coming year.</p>
+
+
+
+<p>Another recent enhancement is the integration of Apple Intelligence. As a native app, we’ve been able to utilize features like Writing Tools which are already available, and in just a few weeks, we’re planning to introduce Image Playgrounds, as well.</p>
+
+
+
+<p>We’re particularly excited about Apple Intelligence because it enables us to provide AI tools that function on-device and even in offline mode!</p>
+
+
+
+<p><strong>You also put a lot of effort into the small details.</strong></p>
+
+
+
+<p>Well, once you choose the name “Craft,” you need to ensure your product is well crafted! We believe it is incredibly important to build an emotional connection with users, as well as a functional one. After all, most Craft users spend more than 2 hours a day using it.&nbsp;</p>
+
+
+
+<p>Aside from making people more productive, it’s also an opportunity for us to provide some tiny bits of “magic.” We love adding small finishing touches like subtle animations and sound effects, that enhance your daily use of Craft and make it a delight to use.</p>
+
+
+
+<p>As we continue to expand Craft’s capabilities, we’re careful not to lose this. Our goal is to keep Craft as simple and easy to use as possible. Balancing new features while maintaining simplicity is one of the most exciting product challenges we face.</p>
+
+
+
+<p>A great example of this balance is Focus Mode, which allows you to hide all sidebars and controls, enabling you to fully concentrate on your document. This helps you get into the flow and pour deep thoughts into Craft without distractions.</p>
+
+
+
+<p>Another example is Presentation Mode, which transforms a document into slides, making it easy to present at school, work, or even to friends and family, without ever leaving Craft.</p>
+
+
+
+<p><strong>What kind of people use Craft?</strong></p>
+
+
+
+<p>Our most passionate users are individuals who value bringing their personal and professional life in a single space, and are always looking for the best product to support their busy lives. But we see Craft resonate across many groups.</p>
+
+
+
+<p>Knowledge workers integrate Craft seamlessly with their existing workflows, often alongside company systems. Real estate agents create sophisticated property presentations on their iPads in between showings. Students transform complex lecture notes into clear, structured knowledge. Even pastors have embraced Craft for sermon preparation; drawn to its clean, distraction-free environment. Creators and journalists love to write scripts and do research for future articles and posts in Craft too.</p>
+
+
+
+<p>What makes Craft stand out is its thoughtful simplicity. If you appreciate well-crafted tools that just work, you’ll feel right at home. You don’t need to be a “technical” person to use it.</p>
+
+
+
+<p><strong>What about you, how do you use Craft?</strong></p>
+
+
+
+<p>There are a number of layers and dimensions to my Craft usage, spanning my personal life and work. From a personal perspective, I store lots of reference-type information like important documents, invoices, manuals, etc; basically, anything that I might need later, I put into Craft. Personally, I really enjoy travel planning in Craft.</p>
+
+
+
+<p>I&#8217;m also the type of person who thinks best by writing. When I have a thought, I sit down and start writing it out. These initial notes often start out as raw and unstructured, but they evolve as I revisit and refine them over time. What makes Craft super helpful is how naturally it supports this flow: I can quickly jot down thoughts, then easily reorganize them with drag-and-drop, and grouping. This fluid interaction between capturing and organizing thoughts mirrors how my mind works. It makes Craft feel less like a tool and more like an extension of my thought process.</p>
+
+
+
+<p>Craft as a company uses Craft as a product as our main form of communication and collaboration. We use daily notes heavily, where each team member writes up their day, and uses it as the basis for daily meetings and standups. We also share Craft documents instead of sending emails, so a big chunk of my day is spent consuming and creating information in Craft.</p>
+
+
+
+<p>This depth of usage is so amazing to have while building a product; you’re extremely connected to all aspects of it.</p>
+
+
+
+<p><strong>And finally… What’s next for Craft?</strong></p>
+
+
+
+<p>With Craft 3, we’ve created the tool we dreamed of when we began building Craft 1.0, but this is just the beginning. We already have a long list of improvements and next steps planned for Task Management, Collections, and the app overall. We’ll roll them out continuously, starting as soon as the next few weeks. Also, we’ll address one of the longest-standing and most requested features: tags are coming in 2025!</p>
+
+
+
+<p><strong>Thank you so much for your time, Bálint! Where can people learn more about Craft?</strong></p>
+
+
+
+<p>Actually, there are quite a few places! We are very active on social media (<a href="https://x.com/craftdocsapp">Twitter</a>,<a href="https://www.threads.net/@craftdocs"> Threads</a>,<a href="https://bsky.app/profile/craft.do"> Bluesky</a>,<a href="https://www.instagram.com/craftdocs/"> Instagram</a>,<a href="https://www.linkedin.com/company/craftdocs"> Linkedin</a>), and with our Community (<a href="https://www.reddit.com/r/CraftDocs/">Reddit</a>,<a href="https://www.craft.do/community/"> Slack</a>) with whom we have daily discussions. We are also updating our<a href="https://support.craft.do/"> Help site</a> continuously, writing<a href="https://www.craft.do/blog"> blog posts,</a> and creating video content on<a href="https://www.youtube.com/@craftdocs"> Youtube</a>.&nbsp;</p>
+
+
+
+<p>One last thing: to celebrate Craft 3, we are running our biggest sale. It’s a 50% discount for life for all new Plus, Family, Team, and Business subscriptions or upgrades from any existing subscriptions (even from old Pro and Business ones) until December 15! It’s available through our web app and people can use the code CRAFTV3 during <a href="https://www.craft.do/pricing">checkout</a>.</p>
+<p>The post <a href="https://nesslabs.com/craft-featured-tool">Capture and craft your big ideas with Bálint Orosz, founder of Craft</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 05 Dec 2024 16:35:48 +0000</pubDate>
+<pubDate>Thu, 05 Dec 2024 16:35:48 +0000</pubDate>
+</item>
+<item>
+<title>The Art of Wintering: How to Find Strength in Slowing Down</title>
+<link>https://nesslabs.com/wintering?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=wintering</link>
+<guid>https://nesslabs.com/wintering?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=wintering</guid>
+<content:encoded><![CDATA[
+
+<p>As the end of the year settles in, you might notice a distinct downshift in energy, both in yourself and the world around you. Messages flood in about “finishing strong”, yet everything feels like it’s naturally winding down.</p>
+
+
+
+<p>It’s not just your imagination: large-scale industry <a href="https://www.theladders.com/career-advice/this-is-the-day-people-are-the-least-productive-over-the-holidays">surveys</a> suggest that by mid-December, over half of workers report a significant decline in productivity, and that more than 20% of employees completely lose focus around that time of the year.</p>
+
+
+
+<p>But rather than fighting this seasonal ebb, you can embrace it as a necessary part of our human rhythm — and even learn the art of “wintering” during other challenging times, regardless of the season.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img alt="Wintering Illustration – Ness Labs" class="wp-image-16244" height="540" src="https://nesslabs.com/wp-content/uploads/2024/12/ness-labs-wintering-banner.png" width="960" /></figure></div>
+
+
+<h2 class="wp-block-heading">From Birds to Humans</h2>
+
+
+
+<p>Wintering was initially a term used in biology to describe how certain animals and birds survive cold seasons. While some species migrate to warmer climates, others stay in place and adapt their behaviors and physiology to survive harsh conditions. Wintering can involve reducing activity, conserving energy, and drawing on stored resources.</p>
+
+
+
+<p>This biological concept was translated to our human experience by Katherine May in her 2020 book <em>Wintering</em>, where she showed how humans, just like wintering animals, need periods of retreat to survive life’s difficult seasons. In essence, just as nature moves through cycles of activity and rest, humans too need periods of pulling back and recharging.</p>
+
+
+
+<p>Research in chronobiology <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6120700/">supports</a> this idea that our bodies respond to seasonal changes with shifts in hormones, sleep patterns, and energy levels. Fighting these natural rhythms <a href="https://ohiostate.elsevierpure.com/en/publications/seasonal-changes-in-stress-responses">can lead</a> to increased stress, decreased immunity, and emotional exhaustion.</p>
+
+
+
+<p>You might be wondering about the usefulness of this concept if you live in the southern hemisphere or a warmer climate. Although darkness and cold naturally invite it, for us humans wintering isn’t strictly about the calendar season.</p>
+
+
+
+<p>It’s about actively accepting and working with our own dark seasons, whether triggered by burnout, loss, or illness. It’s a useful metaphor when we need to process challenging experiences and restore a sense of balance in our lives, with self-kindness and without rushing.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p><strong>Definition of wintering:</strong> The act of withdrawing from the world to focus on one’s inner world; active acceptance of dark and cold times; a form of calm resilience.</p>
+</blockquote>
+
+
+
+<p>Psychologists have <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2014859117">found</a> that these periods of retreat, when approached mindfully, can lead to significant personal growth and enhanced resilience, and research in neuroscience <a href="https://journals.sagepub.com/doi/abs/10.1177/1745691612447308">shows</a> that periods of relative quiet and withdrawal are crucial for brain health.</p>
+
+
+
+<p>During these times, our brains engage in vital maintenance processes, consolidating memories, processing emotions, and rebuilding neural pathways. This mirrors what happens in nature during winter months. It’s not a time of death, but of vital restoration.</p>
+
+
+
+<h2 class="wp-block-heading">How to Practice the Art of Wintering</h2>
+
+
+
+<p>Wintering is not about completely withdrawing or giving up. It’s about finding the right balance between rest and movement, solitude and connection. Like a tree pulling energy into its roots, it’s about gathering strength for your next season of growth.</p>
+
+
+
+<p><strong>• Build a winter nest.</strong> Choose a quiet corner of your home to optimize for coziness and to transform into a sanctuary. Designate it as a screen-free zone. Add soft lighting and comfortable seating. Stock up on herbal teas, healthy snacks, and <a href="https://nesslabs.com/dear-diary">journaling</a> supplies.</p>
+
+
+
+<p><strong>• Adjust your rhythm.</strong> Review your calendar and cut back on non-essential obligations during your wintering period. Be mindful of your energy levels and schedule demanding tasks during your peak hours. Leave buffer space between activities instead of scheduling back-to-back commitments. Allow yourself to sleep an extra hour if your body asks for it.</p>
+
+
+
+<p><strong>• Nurture inner growth.</strong> Start a creative project purely for enjoyment, without pressure to achieve or produce. Set aside 15 minutes daily for reflective writing. Such a simple <a href="https://nesslabs.com/metacognition">metacognitive practice</a> can help process emotions and track patterns in your inner life. Choose books that invite contemplation and slow reading.</p>
+
+
+
+<p><strong>• Deepen your relationships.</strong> In social situations, focus on quality over quantity. Really listen and engage rather than multitasking. Cook nice meals for loved ones. Consider hosting intimate gatherings, for example by inviting 2-3 friends for tea or dinner.&nbsp;</p>
+
+
+
+<p>As you move through December and beyond, consider how you might intentionally embrace wintering. What would it feel like to release the pressure to maintain peak productivity year-round? How might you create space for restoration amidst life’s inherent messiness?</p>
+
+
+
+<p>The answers will be different for everyone, but the invitation remains the same: instead of enduring moments of darkness, we can welcome and honor them, so they lead to deep transformation and self-renewal.</p>
+<p>The post <a href="https://nesslabs.com/wintering">The Art of Wintering: How to Find Strength in Slowing Down</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 04 Dec 2024 09:35:00 +0000</pubDate>
+<pubDate>Wed, 04 Dec 2024 09:35:00 +0000</pubDate>
+</item>
 
 <item>
 <title>25 Reasons to Write Online and How to Start a Newsletter in 2025</title>
