@@ -5,11 +5,56 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>Web Excursions for December 5th, 2024</title>
+<link>https://brett.trpstra.net/link/535/16911897/web-excursions-for-december-5th-2024</link>
+<guid>https://brett.trpstra.net/link/535/16911897/web-excursions-for-december-5th-2024</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" /></p>
+
+<p>Web excursions brought to you in partnership with Setapp. <a href="https://go.setapp.com/stp44">Get access to hundreds of Mac and iOS apps for one low monthly subscription fee.</a></p>
+
+<dl>
+  <dt><a href="https://www.nerdfonts.com/#home">Nerd Fonts</a></dt>
+  <dd>
+    <blockquote>
+      <p>Iconic font aggregator, collection, &amp; patcher: 9,000+ glyph/icons, 60+ patched fonts.</p>
+    </blockquote>
+  </dd>
+  <dd>
+    <p>Get fonts with all the developer icons built in.</p>
+  </dd>
+  <dt><a href="https://www.programmingfonts.org/">Programming Fonts - Test Drive</a></dt>
+  <dd>Try out the best and newest monospace fonts for code. 150 fonts with a nice preview.</dd>
+  <dt><a href="https://github.com/jdx/mise">jdx/mise</a></dt>
+  <dd>I&rsquo;m replacing asdf with this. Dev tools, env vars, and task runner to handle multiple versions of Python, Ruby, NodeJS, etc., plus run scripts and set environment variables per-project.</dd>
+  <dt><a href="https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/">Why pipes sometimes get &ldquo;stuck&rdquo;: buffering</a></dt>
+  <dd>Very useful info for command line scripters and *nix users. Ever have a piped command unexpectedly show nothing when you&rsquo;re sure there&rsquo;s data in the pipe? Here&rsquo;s your answer. Hat tip to <a href="https://techhangout.social/@patrice">Patrice</a>.</dd>
+  <dt><a href="https://macitbetter.com/">BetterZip 5</a></dt>
+  <dd>An awesome tool for creating and managing archives (zip, dmg, tgz and more). My favorite part about it is that it offers a navigable Quick Look preview of zip archives. That alone isn&rsquo;t worth the $25 price, of course, but it&rsquo;s <a href="https://setapp.sjv.io/YRRR0r">on Setapp</a>, too.</dd>
+  <dt><a href="https://omni-automation.com/vids/">Omni Automation Vids</a></dt>
+  <dd>Sal Soghoian, of macOS automation fame, has produced a series of 1-3
+minute videos on automating Omni products. Learn from a legend.</dd>
+</dl>
+
+<p><a href="https://go.setapp.com/stp44">Check out Setapp</a> today and get access to the best Mac and iOS apps out there.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113600655935609221" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Web+Excursions+for+December+5th%2C+2024%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F05%2Fweb-excursions-for-december-5th-2024%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F05%2Fweb-excursions-for-december-5th-2024%2F&amp;text=Web+Excursions+for+December+5th%2C+2024&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F05%2Fweb-excursions-for-december-5th-2024%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16911897.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-05T08:00:00-06:00</pubDate>
+<pubDate>2024-12-05T08:00:00-06:00</pubDate>
+</item>
+
+<item>
 <title>Suspicious Package keeps on tickin'</title>
 <link>https://brett.trpstra.net/link/535/16910822/suspicious-package-keeps-on-tickin</link>
 <guid>https://brett.trpstra.net/link/535/16910822/suspicious-package-keeps-on-tickin</guid>
 <content:encoded><![CDATA[
-
 <p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/12/suspicious-package-header-rb.7380.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
 
 <p>Suspicious Package is an indispensable tool for macOS with a long history, and surprisingly, it&rsquo;s free. I&rsquo;ve rarely mentioned it, so I thought I&rsquo;d give it a quick review.</p>
@@ -45,9 +90,7 @@
 <p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16910822.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-12-04T10:19:00-06:00</pubDate>
-<pubDate>2024-12-04T10:19:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Key repeat in Sequoia</title>
 <link>https://brett.trpstra.net/link/535/16909674/key-repeat-in-sequoia</link>
