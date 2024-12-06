@@ -2666,3 +2666,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Life on pause](https://manuelmoreale.com/@/page/NV4YSo5sZLbJbsRz)
 append_entries: 1
 Finish: 2024-12-06 06:05:35.324793
+------------------------------------------------------
+Started: 2024-12-06 08:05:20.862365
+Existing_entries: 554
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2024-12-06 08:05:23.292509

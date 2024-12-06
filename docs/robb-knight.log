@@ -33031,3 +33031,9 @@ Fetch error: HTTPSConnectionPool(host='rknight.me', port=443): Max retries excee
 Fetch failed from https://rknight.me/feed.xml
 append_entries: 0
 error when rendering xml, skip docs/robb-knight
+------------------------------------------------------
+Started: 2024-12-06 08:04:46.756930
+Existing_entries: 402
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+error when rendering xml, skip docs/robb-knight
