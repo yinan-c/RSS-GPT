@@ -33023,3 +33023,11 @@ Fetch error: HTTPSConnectionPool(host='rknight.me', port=443): Max retries excee
 Fetch failed from https://rknight.me/feed.xml
 append_entries: 0
 error when rendering xml, skip docs/robb-knight
+------------------------------------------------------
+Started: 2024-12-06 06:04:58.404661
+Existing_entries: 402
+Fetching from https://rknight.me/feed.xml
+Fetch error: HTTPSConnectionPool(host='rknight.me', port=443): Max retries exceeded with url: /feed.xml (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f1572472160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Fetch failed from https://rknight.me/feed.xml
+append_entries: 0
+error when rendering xml, skip docs/robb-knight
