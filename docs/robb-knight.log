@@ -32999,3 +32999,11 @@ Existing_entries: 402
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-12-05 22:03:34.693176
+------------------------------------------------------
+Started: 2024-12-06 00:15:29.988965
+Existing_entries: 402
+Fetching from https://rknight.me/feed.xml
+Fetch error: HTTPSConnectionPool(host='rknight.me', port=443): Max retries exceeded with url: /feed.xml (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fbd09667e20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Fetch failed from https://rknight.me/feed.xml
+append_entries: 0
+error when rendering xml, skip docs/robb-knight
