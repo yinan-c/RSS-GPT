@@ -33139,3 +33139,9 @@ Existing_entries: 402
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 error when rendering xml, skip docs/robb-knight
+------------------------------------------------------
+Started: 2024-12-07 20:03:57.918749
+Existing_entries: 402
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2024-12-07 20:03:59.369139
