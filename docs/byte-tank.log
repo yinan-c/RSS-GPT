@@ -30364,3 +30364,12 @@ Existing_entries: 57
 Fetching from https://lopespm.com/atom.xml
 append_entries: 0
 Finish: 2024-12-08 18:04:10.557932
+------------------------------------------------------
+Started: 2024-12-08 20:04:03.855378
+Existing_entries: 57
+Fetching from https://lopespm.com/atom.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [48 Laws of Power: Lessons](https://lopespm.com/notes/2024/12/08/48-laws-of-power-lessons.html)
+append_entries: 1
+Finish: 2024-12-08 20:04:04.554291
