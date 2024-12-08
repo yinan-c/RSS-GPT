@@ -30373,3 +30373,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [48 Laws of Power: Lessons](https://lopespm.com/notes/2024/12/08/48-laws-of-power-lessons.html)
 append_entries: 1
 Finish: 2024-12-08 20:04:04.554291
+------------------------------------------------------
+Started: 2024-12-08 22:03:20.097800
+Existing_entries: 58
+Fetching from https://lopespm.com/atom.xml
+append_entries: 0
+Finish: 2024-12-08 22:03:20.348724
