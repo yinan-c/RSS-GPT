@@ -4,6 +4,104 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>「拖拽预览」改名 Peek Pop 啦 🎉</title>
+<link>https://meta.appinn.net/t/topic/63996</link>
+<guid>https://meta.appinn.net/t/topic/63996</guid>
+<content:encoded><![CDATA[
+
+<p>上次分享的 <a class="inline-onebox" href="https://meta.appinn.net/t/topic/57595/92">【自荐】拖拽预览：因个人需求而生的预览插件 【 现已上架 Firefox/Chrome/Edge 】 - #92，来自 L_hiil</a> ，现在改名 Peek Pop ，同步更新了 logo 啦。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-1" name="p-236715-h-1"></a>获取</h2>
+<ul>
+<li>火狐：<a class="inline-onebox" href="https://addons.mozilla.org/zh-CN/firefox/addon/peek_pop/" rel="noopener nofollow ugc">Peek Pop – 下载 🦊 Firefox 扩展（zh-CN）</a></li>
+<li>Chrome：<a href="https://chromewebstore.google.com/detail/peek-pop/fjllepdpgikphekgbinhpdkalliiejdh?authuser=0&amp;hl=zh-CN" rel="noopener nofollow ugc">https://chromewebstore.google.com/detail/peek-pop/fjllepdpgikphekgbinhpdkalliiejdh?authuser=0&amp;hl=zh-CN</a></li>
+<li>Edge：已上传待审核通过，<a class="inline-onebox" href="https://microsoftedge.microsoft.com/addons/detail/ecpgdeolbpelhdjcplojlpdmfppjljop?hl=zh-CN" rel="noopener nofollow ugc">拖拽预览 - Microsoft Edge Addons</a></li>
+<li>Github：<a class="inline-onebox" href="https://github.com/u-Sir/peek-pop/releases/tag/0.0.36" rel="noopener nofollow ugc">Release 0.0.36 · u-Sir/peek-pop · GitHub</a></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-2" name="p-236715-h-2"></a>这次更新了啥？</h2>
+<ul>
+<li>改名 <strong>Peek Pop</strong> ，同步更新了 logo <img alt=":tada:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/tada.png?v=12" title=":tada:" width="20" /></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-3" name="p-236715-h-3"></a>新增触发方式 <img alt=":computer_mouse:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/computer_mouse.png?v=12" title=":computer_mouse:" width="20" /></h2>
+<ul>
+<li>点击 + 修饰键（可选）</li>
+<li>长按</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-4" name="p-236715-h-4"></a>体验增强 <img alt=":rocket:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/rocket.png?v=12" title=":rocket:" width="20" /></h2>
+<ul>
+<li><strong>支持更多链接</strong>，比大部分预览插件覆盖多，但仍不及 Arc 的 Peek</li>
+<li>可选<strong>记住每个域名的窗口大小、位置</strong></li>
+<li><strong>拖拽预览：</strong>
+<ul>
+<li><strong>打断预览</strong>：在拖拽释放时<strong>按住未选中的修饰键</strong>或<strong>松开设置的修饰键</strong>来打断</li>
+<li>新增选项“<strong>仅拖拽到空白地方才响应</strong>”，减少对原页面拖拽功能的影响</li>
+<li>拖拽到页面外不再触发</li>
+</ul>
+</li>
+<li><strong>可为 “Popup” 类型窗口设置显示以下按钮：</strong>
+<ul>
+<li><strong>复制</strong>当前页面<strong>链接</strong></li>
+<li><strong>返回当前页面</strong>到原窗口</li>
+</ul>
+</li>
+<li>增加对<strong>链接</strong>的<strong>黑名单</strong>，这样就不用屏蔽一整个页面了</li>
+<li>自动关闭预览：现在会把<strong>下级弹窗也同步关闭</strong>，不会再出现断层要手动关闭了</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-5" name="p-236715-h-5"></a>新功能，都可选 <img alt=":star2:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/star2.png?v=12" title=":star2:" width="20" /></h2>
+<ul>
+<li><strong>收藏</strong>：<strong>Ctrl + 右击</strong>收藏链接，收藏列表通过<strong>点击工具栏图标或 Alt/MacCtrl + U</strong> 显示，方便稍后再看</li>
+<li><strong>划词搜索</strong>：选中文本时显示搜索条，<strong>搜索引擎可自定义</strong></li>
+<li><strong>以图搜图</strong>：拖拽、悬停下的 Google 、百度、Bing 、Yandex 搜索新增以图搜图选项</li>
+<li><strong>链接提示</strong>：悬停在支持的链接上时，显示提示条</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-6" name="p-236715-h-6"></a>一些修复</h2>
+<ul>
+<li>修复部分情况下预览的是上一次的链接。</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-7" name="p-236715-h-7"></a>效果图</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#p-236715-h-8" name="p-236715-h-8"></a>收藏列表</h3>
+<p>                    <a class="onebox" href="https://h1.appinn.me/file/1733745870914_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="375" src="https://h1.appinn.me/file/1733745870914_image.png" width="690" />
+          </a>
+
+</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-236715-h-9" name="p-236715-h-9"></a>划词搜索</h3>
+<p>                    <a class="onebox" href="https://h1.appinn.me/file/1733745810326_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="133" src="https://h1.appinn.me/file/1733745810326_image.png" width="690" />
+          </a>
+
+</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-236715-h-10" name="p-236715-h-10"></a>返回、复制链接按钮（位置可拖拽移动）</h3>
+<p>                    <a class="onebox" href="https://h1.appinn.me/file/1733746188429_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="500" src="https://h1.appinn.me/file/1733746188429_image.png" width="622" />
+          </a>
+
+</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-236715-h-11" name="p-236715-h-11"></a>给自己的截图留念</h2>
+<p>趁着 Edge 插件商店用户数还没从 1000 掉回去，在周二刷新前截个图留念 <img alt=":smile:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/smile.png?v=12" title=":smile:" width="20" /><br />
+                    <a class="onebox" href="https://h1.appinn.me/file/1733746604098_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="159" src="https://h1.appinn.me/file/1733746604098_image.png" width="690" />
+          </a>
+
+</p>
+<p>飘忽不定的火狐用户数<br />
+                    <a class="onebox" href="https://h1.appinn.me/file/1733746911400_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="375" src="https://h1.appinn.me/file/1733746911400_image.png" width="690" />
+          </a>
+
+</p>
+<p>在 900+ 徘徊的 Chrome 用户数<br />
+                    <a class="onebox" href="https://h1.appinn.me/file/1733747230330_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="132" src="https://h1.appinn.me/file/1733747230330_image.png" width="690" />
+          </a>
+
+</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/63996">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 09 Dec 2024 12:51:18 +0000</pubDate>
+<pubDate>Mon, 09 Dec 2024 12:51:18 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐-效率工具】Vimo Rebinder 2.0 全新发布 - 让键盘操作更加丝滑！</title>
