@@ -4,6 +4,27 @@
 <title>Manuel Moreale RSS Feed</title>
 <link>https://manuelmoreale.com</link>
 
+<item>
+<title>Digital responsibilities</title>
+<link>https://manuelmoreale.com/@/page/gx3HR3JnrOLxMYg9</link>
+<guid>https://manuelmoreale.com/@/page/gx3HR3JnrOLxMYg9</guid>
+<content:encoded><![CDATA[
+
+<p>A few days ago, someone shared something I wrote on Hacker News and for reasons unknown it got traction and the post spent quite some time at the top of the front page. If it wasn’t for a few kind people who got in touch with me via email where they mentioned that they found my site thanks to HN I’d have never noticed it. My server logs did notice it though and it looks like this:</p>
+<figure class="m-o"><div class="m-m"><img class="img" src="https://manuelmoreale.com/media/pages/thoughts/digital-responsibilities/50a44dbb17-1733997791/spike.jpg" /></div><figcaption>That is, indeed, quite the spike in traffic</figcaption></figure>
+<p>My site runs on a very basic <a href="https://hetzner.cloud/?ref=4jIK2QUTas4Z">Hetzner VPS</a> that comes with some 20TB of bandwidth so the sudden spike in traffic didn’t bother me one bit. This site is also powered by a <a href="https://getkirby.com">file-based CMS</a> with a cache in front of it so serving content is not very demanding. The end result is that my server worked just fine, it didn’t cost me anything to get all that random extra traffic and things went back to normal. And that’s how things should be.</p>
+<p>But this got me thinking about the concept of personal responsibilities when it comes to sharing content online. My site’s nowhere near big enough and I’m nowhere near famous enough to cause any issues to other sites when I link to them. But that’s not always the case. Some people are famous enough to potentially cause problems if they link to other sites. And those other sites might be hosted using services that offer a free limited plan but become incredibly expensive once you go over that threshold.</p>
+<p>And so I’m wondering, if my site was big enough to cause problems, would then be my responsibility to be careful what I link to? Or should I just assume that other people out there know what they’re doing and I can keep linking without a second thought? My gut reaction tells me that it’s not really my responsibility to worry about the way other people run their sites but maybe I’m wrong and I should worry about that. I’d love to know what you think because this is one of those situations where I can see good arguments on both sides.</p>                <hr />
+                <p>Thank you for keeping RSS alive. You're awesome.</p>
+                <p><a href="mailto:hello@manuelmoreale.com">Email me</a> ::
+                <a href="https://manuelmoreale.com/guestbook">Sign my guestbook</a> :: 
+                <a href="https://ko-fi.com/manuelmoreale">Support for 1$/month</a> :: 
+                <a href="https://manuelmoreale.com/supporters">See my awesome supporters</a> :: 
+                <a href="https://buttondown.email/peopleandblogs">Subscribe to People and Blogs</a></p>
+]]></content:encoded>
+<pubDate>Thu, 12 Dec 2024 11:05:00 +0100</pubDate>
+<pubDate>Thu, 12 Dec 2024 11:05:00 +0100</pubDate>
+</item>
 
 <item>
 <title>Topic blockers</title>
