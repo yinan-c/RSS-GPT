@@ -3191,3 +3191,12 @@ Existing_entries: 557
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2024-12-13 10:04:52.343843
+------------------------------------------------------
+Started: 2024-12-13 12:06:14.167808
+Existing_entries: 557
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [P&B: Chris DeLuca](https://manuelmoreale.com/@/page/0jInDf0ARXI2mI8e)
+append_entries: 1
+Finish: 2024-12-13 12:06:17.426477
