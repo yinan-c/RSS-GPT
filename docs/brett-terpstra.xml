@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Shell Tricks: Check what's listening on a port</title>
 <link>https://brett.trpstra.net/link/535/16922449/shell-tricks-check-whats-listening-on-a-port</link>
 <guid>https://brett.trpstra.net/link/535/16922449/shell-tricks-check-whats-listening-on-a-port</guid>
 <content:encoded><![CDATA[
-
 <p>It&rsquo;s been a while since I offered a shell trick, so here&rsquo;s one I&rsquo;ve
 found useful lately. It&rsquo;s a way to quickly check what&rsquo;s listening on a specific port.</p>
 
@@ -48,9 +48,7 @@ end
 <p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16922449.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2024-12-16T12:00:00-06:00</pubDate>
-<pubDate>2024-12-16T12:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>The MacPaw 2024 Developer Survey</title>
 <link>https://brett.trpstra.net/link/535/16915677/the-macpaw-2024-developer-survey</link>
