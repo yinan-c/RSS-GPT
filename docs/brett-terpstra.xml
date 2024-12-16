@@ -4,6 +4,52 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Shell Tricks: Check what's listening on a port</title>
+<link>https://brett.trpstra.net/link/535/16922449/shell-tricks-check-whats-listening-on-a-port</link>
+<guid>https://brett.trpstra.net/link/535/16922449/shell-tricks-check-whats-listening-on-a-port</guid>
+<content:encoded><![CDATA[
+
+<p>It&rsquo;s been a while since I offered a shell trick, so here&rsquo;s one I&rsquo;ve
+found useful lately. It&rsquo;s a way to quickly check what&rsquo;s listening on a specific port.</p>
+
+<p>There are times when I run into a conflict running local services,
+saying the port is already in use, but I don&rsquo;t know by what. So I use the following.</p>
+
+<p>This snippet relies on having your root password stored in your login keychain. See <a href="https://brettterpstra.com/2021/04/06/scripting-with-sudo-on-mac/">this post</a> for instructions on setting this up.  Once it&rsquo;s in place, you&rsquo;ll have a secure way to run sudo commands from scripts which only ask for a password when your keychain is locked.</p>
+
+<p>Here&rsquo;s the snippet, ready to use in a function or alias:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="c">#!/bin/bash</span>
+
+<span class="nv">PASS</span><span class="o">=</span><span class="si">$(</span>security find-generic-password <span class="nt">-l</span> <span class="s2">"root password"</span> <span class="nt">-a</span> root <span class="nt">-w</span>|tr <span class="nt">-d</span> <span class="s1">'\n'</span><span class="si">)</span>
+<span class="nb">echo</span> <span class="nv">$PASS</span> | <span class="nb">sudo</span> <span class="nt">-S</span> lsof <span class="nt">-nP</span> <span class="nt">-iTCP</span>:<span class="nv">$1</span> <span class="nt">-sTCP</span>:LISTEN</code></pre></div></div>
+
+<p>The snippet uses <a href="https://manpages.org/lsof/8" title="lsof (8): list open files">lsof</a> to show the process listening on whichever port you provide as the argument to the script.</p>
+
+<p>Store this in a function or script called <code class="language-plaintext highlighter-rouge">whatsonport</code> (or whatever
+you like). Replace <code class="language-plaintext highlighter-rouge">"root password"</code> with whatever you named your password entry in Keychain Access. Now you can call it like <code class="language-plaintext highlighter-rouge">whatsonport 2020</code>.</p>
+
+<p>I use this in Fish as a function in <code class="language-plaintext highlighter-rouge">~/.config/fish/functions/whatsonport.fish</code>:</p>
+
+<pre><code class="language-fish">function whatsonport --description 'find out what PID is running on a port (requires password)'
+    set -l pass (security find-generic-password -l "root password" -a root -w|tr -d '\n')
+    echo $pass | sudo -S lsof -nP -iTCP:$argv -sTCP:LISTEN
+end
+</code></pre>
+
+<p>Hope that&rsquo;s useful!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F16%2Fshell-tricks-check-whats-listening-on-a-port%2F&amp;text=Shell+Tricks%3A+Check+what%27s+listening+on+a+port&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F16%2Fshell-tricks-check-whats-listening-on-a-port%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16922449.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-16T12:00:00-06:00</pubDate>
+<pubDate>2024-12-16T12:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>The MacPaw 2024 Developer Survey</title>
