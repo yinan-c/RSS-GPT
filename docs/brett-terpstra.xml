@@ -4,6 +4,39 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>The Manifesto for Ubiquitous Linking and a Marked Sale!</title>
+<link>https://brett.trpstra.net/link/535/16923018/the-manifesto-for-ubiquitous-linking-and-a-marked-sale</link>
+<guid>https://brett.trpstra.net/link/535/16923018/the-manifesto-for-ubiquitous-linking-and-a-marked-sale</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/12/link-friendly-header-rb.7403.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>Three years ago this month, Luc Beaudoin, the creator of <a href="https://hookproductivity.com/" title="Links beat searching">Hookmark</a>, published the <a href="https://linkingmanifesto.org/">Manifesto for Ubiquitous Linking</a>. The idea was to bring together developers in all categories and promote &ldquo;Ubiquitous Linking&rdquo; in Mac software, a concept that improves cognitive flow and productivity. I was one of the <a href="https://linkingmanifesto.org/about-the-originators/">original signatories</a>, but since then <a href="https://linkingmanifesto.org/signatories/">plenty have joined in</a>.</p>
+
+<p>The manifesto is simple, and calls on developers to do their part by:</p>
+
+<blockquote>
+  <ol>
+    <li>ensuring their users can conveniently obtain a link to the currently open or selected resource via a user interface; and</li>
+    <li>providing an application programming interface (API) to obtain or construct a link to that resource (i.e., to get its address and name).</li>
+  </ol>
+</blockquote>
+
+<p>If you&rsquo;ve used <a href="https://hookproductivity.com/" title="Links beat searching">Hookmark</a>, you&rsquo;re familiar with (and hopefully love) this concept of linking anything to anything on your Mac. <a href="https://marked2app.com">Marked</a> and <a href="https://nvultra.com">nvUltra</a> both work with Ubiquitous Linking, along with a <a href="https://hookproductivity.com/what-mac-apps-are-compatible-with-hook-app">ton of other apps</a> like Obsidian, DEVONthink, Calibre, Curio, MindNode, MailMate, Arc Browser, and many more.</p>
+
+<p>As part of the promotion of this anniversary, I&rsquo;m offering Marked 2 at a 30% discount using the coupon code <code class="language-plaintext highlighter-rouge">ULMANIFESTO</code> (good until January 1st). <a href="http://pay.paddle.com/checkout/489454?coupon=ULMANIFESTO">Click here to redeem!</a></p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113668575882135685" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=The+Manifesto+for+Ubiquitous+Linking+and+a+Marked+Sale%21%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F17%2Fthe-manifesto-for-ubiquitous-linking-and-a-marked-sale%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F17%2Fthe-manifesto-for-ubiquitous-linking-and-a-marked-sale%2F&amp;text=The+Manifesto+for+Ubiquitous+Linking+and+a+Marked+Sale%21&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F17%2Fthe-manifesto-for-ubiquitous-linking-and-a-marked-sale%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16923018.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-17T08:00:00-06:00</pubDate>
+<pubDate>2024-12-17T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Shell Tricks: Check what's listening on a port</title>
