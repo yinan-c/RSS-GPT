@@ -4,6 +4,51 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Auto-generate Setapp Affiliate Links</title>
+<link>https://brett.trpstra.net/link/535/16923814/auto-generate-setapp-affiliate-links</link>
+<guid>https://brett.trpstra.net/link/535/16923814/auto-generate-setapp-affiliate-links</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/12/setapp-affiliate-header-rb.7410.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>If you often recommend apps that are on <a href="https://setapp.com/" title="Setapp-Powerful apps for Mac &amp; iOS">Setapp</a>, you either have an affiliate marketing account, or you really should get one. If you have one (or get one) this Shortcut is for you.</p>
+
+<p>A Setapp affiliate account gives you a little kickback every time someone purchases a Setapp subscription after following one of your links. It doesn&rsquo;t cost the customer anything, it comes out of MacPaw&rsquo;s pockets. Just a little thank you for talking about the product.</p>
+
+<h3 id="if-you-dont-have-a-setapp-affiliate-account">If You Don&rsquo;t Have a Setapp Affiliate Account</h3>
+
+<p>Setapp runs their Affiliate program through <a href="https://impact.com">Impact</a>. If you go to Setapp&rsquo;s <a href="https://setapp.com/affiliate-program">Affiliate Program page</a> and click &ldquo;Become a partner,&rdquo; it will walk you through both signing up for Impact and joining the MacPaw/Setapp affiliate program.</p>
+
+<p>Once you&rsquo;ve been accepted to the program, you can start generating special links through the Impact interface. Go ahead and generate one for any Setapp landing page and you&rsquo;re ready for the next step.</p>
+
+<h3 id="auto-generating-affiliate-urls">Auto-Generating Affiliate URLs</h3>
+
+<p>It&rsquo;s a pain to load up Impact and navigate their interface every time you just want to point someone to an app. That&rsquo;s where this shortcut comes in. It takes either an app name or a Setapp URL (without an affiliate query string) and generates an affiliate URL shortened with is.gd. Is.gd isn&rsquo;t as cool as the vanity URL that Setapp provides through Impact, but it has the same effect.</p>
+
+<p>To use this Shortcut, you&rsquo;re going to need an existing affiliate query string. Generate one through Impact, then paste it into your browser and follow it. When you get to the page it points to, your URL bar will show the expanded URL. Copy everything after the question mark (<code class="language-plaintext highlighter-rouge">?</code>) in the URL. That&rsquo;s your affiliate string, and it should look like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>irgwc=1&amp;clickid=Sx90RgTR0xyKU3Ixy3wLtQ%3AeUkCVBpy1p19D2s0&amp;iradid=343321&amp;irpid=228914&amp;sharedid=&amp;mpaid=3</code></pre></div></div>
+
+<p>Now, <a href="https://www.icloud.com/shortcuts/c8173ca6905f4c83a09ffdf3dc08b88c">install the Shortcut</a>. On install it will ask you for the above string. Once set up, you can select an app name or Setapp URL in your blog post or social media post, right click on the selection, and select &ldquo;Setapp Affiliate (is.gd)&rdquo; from the Services submenu. The Shortcut will run and you&rsquo;ll get a shortened URL that will point to your affiliate link for the app or page.</p>
+
+<p>Run it on the name of an app you know is on Setapp, e.g. &ldquo;Marked 2&rdquo;. The Shortcut searches for apps by trying a URL made from the input name and seeing if it works. If it doesn&rsquo;t, it tries a couple of modifications to the name, and checks those pages. If no match is found, it will output &lsquo;App not found&rsquo;. If it works, though, you&rsquo;ll get a Markdown link to an is.gd URL. I guess the Markdown formatting isn&rsquo;t great for social posting, but the URL is there, along with the original input for your editing. If you just pass an existing Setapp url (without query string), it will output the bare is.gd result (with affiliate tracking info).</p>
+
+<p>If you love Setapp and are often mentioning it online, <a href="https://setapp.com/affiliate-program">get an affiliate account</a> and grab the <a href="https://www.icloud.com/shortcuts/c8173ca6905f4c83a09ffdf3dc08b88c">Setapp Affiliate (is.gd) shortcut</a>. Hopefully you&rsquo;ll get a little cash as a thank you from Setapp 💰😊.</p>
+
+<p>By the way, I also wrote a plugin for SearchLink for doing this,
+either <a href="https://github.com/ttscoff/searchlink-plugins/blob/main/bitly_setapp.rb">with Bit.ly</a> (with which you can use a custom domain) or <a href="https://github.com/ttscoff/searchlink-plugins/blob/main/isgd_setapp.rb">with is.gd</a>. If you&rsquo;re a SearchLink user (and I imagine the crossover here would be non-trivial), check it out.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113674248612273092" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Auto-generate+Setapp+Affiliate+Links%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F18%2Fauto-generate-setapp-affiliate-links%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F18%2Fauto-generate-setapp-affiliate-links%2F&amp;text=Auto-generate+Setapp+Affiliate+Links&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F18%2Fauto-generate-setapp-affiliate-links%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16923814.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-18T08:00:00-06:00</pubDate>
+<pubDate>2024-12-18T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>The Manifesto for Ubiquitous Linking and a Marked Sale!</title>
