@@ -46036,3 +46036,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-12-18 10:03:49.623345
+------------------------------------------------------
+Started: 2024-12-18 12:05:35.542612
+Existing_entries: 645
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [这谁想得到啊？](https://meta.appinn.net/t/topic/64285)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-12-18 12:05:38.338811
