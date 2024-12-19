@@ -4,6 +4,20 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>EmojiStorm</title>
+<link>https://rknight.me/blog/emojistorm/</link>
+<guid>https://rknight.me/blog/emojistorm/</guid>
+<content:encoded><![CDATA[
+
+<p>You know how sometimes you do one thing then you think &quot;oh I'll do this other thing&quot; then another thing related to that and the next thing you know you're making a weird website from a web component someone made because you can? No? Anyway.</p>
+<p><a href="https://emojistorm.rknight.me/">EmojiStorm</a> is such a project. It starts with one instance of <a href="https://www.zachleat.com/web/snow-fall/">Zach's <code>snow-fall</code> component</a> then you can just keep adding more but it's a random emoji.</p>
+<p>It gets a bit slow after ten or so depending on your computer so you've been warned.</p>
+<p><a href="https://emojistorm.rknight.me/">Check out EmojiStorm here</a>.</p>
+]]></content:encoded>
+
+<pubDate>2024-12-19T21:22:24Z</pubDate>
+</item>
 
 <item>
 <title>Chicken Tinga Recipe</title>
