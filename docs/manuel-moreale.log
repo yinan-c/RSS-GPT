@@ -3716,3 +3716,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Zinzy](https://manuelmoreale.com/@/page/VcpkK0iGhTVaao6C)
 append_entries: 1
 Finish: 2024-12-20 12:06:14.215394
+------------------------------------------------------
+Started: 2024-12-20 14:03:39.759941
+Existing_entries: 562
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2024-12-20 14:03:44.357171
