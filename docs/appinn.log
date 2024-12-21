@@ -46329,3 +46329,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-12-21 10:03:24.326952
+------------------------------------------------------
+Started: 2024-12-21 12:04:50.789873
+Existing_entries: 650
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [搞了个摸鱼小插件 Demo，一页看完常逛的网站](https://meta.appinn.net/t/topic/64374)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [【自荐】一款电子手帐【喵语时光-热门手帐·装扮·安静书】](https://meta.appinn.net/t/topic/64376)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2024-12-21 12:04:53.278109
