@@ -31285,3 +31285,12 @@ Existing_entries: 58
 Fetching from https://lopespm.com/atom.xml
 append_entries: 0
 Finish: 2024-12-21 12:04:57.575545
+------------------------------------------------------
+Started: 2024-12-21 14:03:08.799590
+Existing_entries: 58
+Fetching from https://lopespm.com/atom.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Feeling seen](https://lopespm.com/notes/2024/12/21/feeling-seen.html)
+append_entries: 1
+Finish: 2024-12-21 14:03:09.369118
