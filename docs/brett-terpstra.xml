@@ -4,6 +4,37 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Introducing StretchLink.cc</title>
+<link>https://brett.trpstra.net/link/535/16925839/introducing-stretchlink-dot-cc</link>
+<guid>https://brett.trpstra.net/link/535/16925839/introducing-stretchlink-dot-cc</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/12/stretchlink-header-rb.7411.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>I made something in the process of making something else. I didn&rsquo;t finish the something else, but figured I&rsquo;d share the thing&hellip;</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/stretchlinkicon.jpg" /></p>
+<p>I got an itch to revive StretchLink, my little menu bar app that expanded shortened links as you copied them, so you had a full URL when you pasted. It was great for seeing where a link would take you before following it. Given the state of the internet, that seemed useful.</p>
+
+<p>I have the code to resolve links internally, but I like the flexibility of an API. The original StretchLink relied on an API that has since died, so I decided to just write my own. It&rsquo;s not complicated.</p>
+
+<p>So here&rsquo;s <a href="https://stretchlink.cc">stretchlink.cc</a>. A simple little API that takes a shortened URL and outputs the long version. It can remove tracking info if you like, as well as reduce Amazon product links down to the bare minimum the URL needs to function. It can output plain text (just the resolved URL), Markdown (with optional title), or JSON (including original url, expanded url, and optional title).</p>
+
+<p>I added caching and concurrency, for what it&rsquo;s worth. If this gets used, it would scale well. I doubt it will, but I like to cover my bases. I&rsquo;ve written a couple of Shortcuts that leverage it for double checking URLs you&rsquo;ve been sent before clicking them. I&rsquo;ll share those separately. If you make anything useful with the API, please do share in the comments (which are connected to the <a href="https://forum.brettterpstra.com">Forum</a>).</p>
+
+<p>Check out <a href="https://stretchlink.cc">the landing page</a> for detailed instructions.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F21%2Fintroducing-stretchlink-dot-cc%2F&amp;text=Introducing+StretchLink.cc&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F21%2Fintroducing-stretchlink-dot-cc%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16925839.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-21T13:54:00-06:00</pubDate>
+<pubDate>2024-12-21T13:54:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for December 20th, 2024</title>
