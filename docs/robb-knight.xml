@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Lens: Meta Tag Checker (Robb's Version)</title>
 <link>https://rknight.me/blog/lens-meta-tag-checker-robbs-version/</link>
 <guid>https://rknight.me/blog/lens-meta-tag-checker-robbs-version/</guid>
 <content:encoded><![CDATA[
-
 <p>There are a few ways people like to check the meta tags on their sites. I previously used <a href="https://metatags.io/">Metatags.io</a> but there's also <a href="https://www.heymeta.com/">Hey Meta</a> and probably a lot more of them around I don't know about. But, as the old developer saying goes, none of them did exactly what I wanted so I built my own.</p>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>TL;DR</p><p><a href="https://lens.rknight.me/">See Lens here</a>.</p>
 </div>
@@ -22,10 +22,8 @@
 <p>It checks <em>exactly</em> the things I care about and nothing more. I don't check Twitter's meta stuff because I've never used it and I suspect it's less relevant than ever now. It does check for the <code>fediverse:creator</code> tag but it doesn't verify if you've set it correctly in the Mastodon backend. It uses <a href="https://simplebits.shop/products/grandsans">Grandsans</a> for the headings because it's a lovely font.</p>
 <p><a href="https://lens.rknight.me/">See Lens here</a> and you can <a href="https://github.com/rknightuk/lens">View the source on GitHub</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2024-12-23T15:53:34Z</pubDate>
 </item>
-
 <item>
 <title>EmojiStorm</title>
 <link>https://rknight.me/blog/emojistorm/</link>
