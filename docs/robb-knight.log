@@ -34285,3 +34285,12 @@ Existing_entries: 404
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-12-23 14:03:29.661568
+------------------------------------------------------
+Started: 2024-12-23 16:03:56.217746
+Existing_entries: 404
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Lens: Meta Tag Checker (Robb's Version)](https://rknight.me/blog/lens-meta-tag-checker-robbs-version/)
+append_entries: 1
+Finish: 2024-12-23 16:03:58.440469
