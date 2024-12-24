@@ -4,12 +4,12 @@
 <title>Manuel Moreale RSS Feed</title>
 <link>https://manuelmoreale.com</link>
 
+
 <item>
 <title>Meta blog post</title>
 <link>https://manuelmoreale.com/@/page/4BUa5w0Gjpu7EkKr</link>
 <guid>https://manuelmoreale.com/@/page/4BUa5w0Gjpu7EkKr</guid>
 <content:encoded><![CDATA[
-
 <p>I am not the biggest fan of meta blog posts, also called blogging about blogging. I do think they’re sometimes useful but they’re also quite uninspiring for me to read. And that’s why I try to stay away from the topic for the most part. But a bunch of people over the past few weeks have reached out via email, asking me questions about my blog, how I run it, where is hosted etc, and so I thought it was a good idea to answer a bunch of questions here all in one go.</p>
 <h2>Hosting, domain, and mail</h2>
 <p>All my domain names are currently managed by <a href="https://www.hover.com">Hover</a>. They’re not the cheapest but I like that they don’t try to upsell crap at every possibility and the UI of the admin interface is nice. At first, my site was hosted on a <a href="http://digitalocean.com">DigitalOcean</a> VPS but after a few years I moved over to <a href="https://www.hetzner.com/cloud/">Hetzner</a>. Up until a few weeks ago it was hosted in a US datacenter but I moved it back to Europe and it’s now sitting in a datacenter in Germany. It’s also the first time I’m using an ARM-based VPS and so far everything is working perfectly. If you care about specs the VPS has 2 VCPU, 4GB of RAM, 40GB of SSD space, and 20TB of bandwidth. Costs me around 4€/month.</p>
@@ -41,9 +41,7 @@
                 <a href="https://buttondown.email/peopleandblogs">Subscribe to People and Blogs</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 24 Dec 2024 10:30:00 +0100</pubDate>
-<pubDate>Tue, 24 Dec 2024 10:30:00 +0100</pubDate>
 </item>
-
 <item>
 <title>P&amp;B: Zinzy</title>
 <link>https://manuelmoreale.com/@/page/VcpkK0iGhTVaao6C</link>
