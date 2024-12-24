@@ -4,6 +4,45 @@
 <title>Manuel Moreale RSS Feed</title>
 <link>https://manuelmoreale.com</link>
 
+<item>
+<title>Meta blog post</title>
+<link>https://manuelmoreale.com/@/page/4BUa5w0Gjpu7EkKr</link>
+<guid>https://manuelmoreale.com/@/page/4BUa5w0Gjpu7EkKr</guid>
+<content:encoded><![CDATA[
+
+<p>I am not the biggest fan of meta blog posts, also called blogging about blogging. I do think they’re sometimes useful but they’re also quite uninspiring for me to read. And that’s why I try to stay away from the topic for the most part. But a bunch of people over the past few weeks have reached out via email, asking me questions about my blog, how I run it, where is hosted etc, and so I thought it was a good idea to answer a bunch of questions here all in one go.</p>
+<h2>Hosting, domain, and mail</h2>
+<p>All my domain names are currently managed by <a href="https://www.hover.com">Hover</a>. They’re not the cheapest but I like that they don’t try to upsell crap at every possibility and the UI of the admin interface is nice. At first, my site was hosted on a <a href="http://digitalocean.com">DigitalOcean</a> VPS but after a few years I moved over to <a href="https://www.hetzner.com/cloud/">Hetzner</a>. Up until a few weeks ago it was hosted in a US datacenter but I moved it back to Europe and it’s now sitting in a datacenter in Germany. It’s also the first time I’m using an ARM-based VPS and so far everything is working perfectly. If you care about specs the VPS has 2 VCPU, 4GB of RAM, 40GB of SSD space, and 20TB of bandwidth. Costs me around 4€/month.</p>
+<p>I am not a sysadmin, I don’t enjoy spending time configuring servers so all my VPS are managed using <a href="https://runcloud.io">Runcloud</a>. I currently have 15 servers in my admin interface and I run them for myself, for friends, and for clients. Runcloud costs me 190$/year.</p>
+<p>My email is hosted using what’s now <a href="https://workspace.google.com">Google Workspace</a>, but I started using it when it was called GSuite. I have one email account there with a bunch of aliases set up. I pay 11.50€/month and the reason why I upgraded to the Business Standard plan is because of the 2TB of Google Drive space since I can use it to backup my site automatically thanks to the backup feature that’s built into Runcloud.</p>
+<h2>The CMS</h2>
+<p>As I wrote many, many times before, this site runs on the <a href="http://getkirby.com">Kirby file-based cms</a>. Currently running on v4.5.0 (on an NGINX server running PHP 8.3) I think I started I believe on v2 but I could be wrong. I started my career on WordPress but at some point I switched over to Kirby because it’s a much better tool for the type of work I do and never looked back.</p>
+<p>I designed and coded the site myself and the current version is honestly not much different from the one that was online in 2018. Over the years I made small changes here and there to accommodate a growing archive and subsequently to have a place for the People and Blogs series but other than that things have remained stable and I don’t plan to make changes anytime soon.</p>
+<p>I still love the structure, still love the design. I do want to rewrite my entire CSS though because the current version was written using SASS and I plan to go back to native CSS but that’s a task for 2025 me.</p>
+<h2>How I write my content</h2>
+<p>I still write all my posts using <a href="https://ia.net/writer">iA Writer</a> both on Mac and on iPhone. I never considered looking for a different tool in all these years. Still does everything I need and I still love the minimal interface. I don’t do revisions, I don’t do drafts or any of that stuff. I am not a serious writer, I don’t really care about creating good pieces of literature. My blog is for myself, I’m fine pushing out posts with typos and broken English because that’s who I am.</p>
+<h2>How about AI?</h2>
+<p>Generative AI tools can go to hell.</p>
+<h2>How I decide what to write about</h2>
+<p>My blog doesn’t have a theme and it’s by design. I write about the things I find interesting and that’s usually the intersection between web, tech, and people. But I also sometimes post a random haiku or a photo of my dog. Sometimes I also use the blog to do quick therapy sessions when I’m not in a healthy mental space—happens a lot lately—and it’s been great for that.</p>
+<p>I do have a list of blog post ideas that I almost never use. Every now and again I add something in there and then I forget about it because that’s how I roll. Usually, a blog post is born because I’m either talking with someone about something or I read something online and I think I have something to say on that particular subject and in that case I open iA Writer, I write it down and then I publish it.</p>
+<p>There’s not much planning around my writing, I write when I feel like doing it and I want it to stay like that.</p>
+<h2>Connections with the fediverse and social</h2>
+<p>This blog is designed to do the absolute bare minimum when it comes to integrating with the social web. If you look at the source you’ll see that I have almost no meta tags. I have a title and a meta description and that’s about it. I also blocked all incoming Mastodon requests to my server because their implementation of link previews is so stupid that deserves to be blocked. And there’s nothing to be fetched here anyway since my posts don’t have a social media sharing image or other meta information.</p>
+<p>I have multiple RSS feeds available and I usually send out my posts via email to the people who enjoy consuming content that way. That’s more than enough I’d say. I don’t automatically post links to my content anywhere and the more I follow the social media landscape the more I’m convinced I’m blessed to be someone who doesn’t give a shit about all that crap.</p>
+<h2>Closing thoughts</h2>
+<p>That should cover basically all there is to say about my site and the way I run it. If for some reason you still have questions feel free to ping me via email at hello@manuelmoreale.com and I’ll be more than happy to answer whatever question you have.</p>
+<p>Happy holidays 🎄</p>                <hr />
+                <p>Thank you for keeping RSS alive. You're awesome.</p>
+                <p><a href="mailto:hello@manuelmoreale.com">Email me</a> ::
+                <a href="https://manuelmoreale.com/guestbook">Sign my guestbook</a> :: 
+                <a href="https://ko-fi.com/manuelmoreale">Support for 1$/month</a> :: 
+                <a href="https://manuelmoreale.com/supporters">See my generous supporters</a> :: 
+                <a href="https://buttondown.email/peopleandblogs">Subscribe to People and Blogs</a></p>
+]]></content:encoded>
+<pubDate>Tue, 24 Dec 2024 10:30:00 +0100</pubDate>
+<pubDate>Tue, 24 Dec 2024 10:30:00 +0100</pubDate>
+</item>
 
 <item>
 <title>P&amp;B: Zinzy</title>
