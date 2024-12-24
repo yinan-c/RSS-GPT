@@ -4,6 +4,58 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Scripting when you're away: beengone 2.0</title>
+<link>https://brett.trpstra.net/link/535/16927338/scripting-when-youre-away-beengone-2-dot-0</link>
+<guid>https://brett.trpstra.net/link/535/16927338/scripting-when-youre-away-beengone-2-dot-0</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/12/beengone-header-rb.7412.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>I took a few hours to revive an old project. It had stopped working on modern machines, and despite its limited usefulness, it fit a need for me and I want to get an updated version out there.</p>
+
+<p>Sure, it took way longer to fix and deploy than it was worth, and I
+ended up going another direction in the script I was writing at the
+time, but it was fun and just enough challenge to keep my mind busy on my holiday break.</p>
+
+<p>This is a revival of <a href="https://brettterpstra.com/2013/02/10/beengone-a-script-friendly-way-to-check-computer-idle-time/">beengone 1.0</a>, a simple little tool that just tells you how long your computer has been idle (no input from
+keyboard or mouse). Version 2.0 not only gets that working again, it
+adds some command line flags that are designed to make scripting
+easier.</p>
+
+<p>For example, it has a <code class="language-plaintext highlighter-rouge">--minimum XXX</code> flag that can take an integer or interval string like <code class="language-plaintext highlighter-rouge">3h30m</code> and will provide an exit code based on whether that threshold has been met. That&rsquo;s perfect for looping in a background script and only moving on when it returns a 0 exit code. But wait, there&rsquo;s more.</p>
+
+<p>There&rsquo;s also a <code class="language-plaintext highlighter-rouge">--wait XXX</code> flag that takes the same input, but
+blocks the script until the threshold is met, bypassing the need for <code class="language-plaintext highlighter-rouge">while true</code> loops when you don&rsquo;t actually need them (when nothing else needs to happen on each iteration).</p>
+
+<p>It can even simulate a mouse click with <code class="language-plaintext highlighter-rouge">--input</code>, which will reset the timer, and possibly wake up your machine. I haven&rsquo;t tested that much.</p>
+
+<p>There are a few simple example scripts on the <a href="https://brettterpstra.com/projects/beengone">beengone project page</a>. If you do anything cool with this, please let me know. My assumption is that nobody will have an immediate need for it, so surprise me. Maybe someday the need will arise and you&rsquo;ll stumble back upon it in a web search.</p>
+
+<p><code class="language-plaintext highlighter-rouge">beengone</code> works while your screensaver is on if it&rsquo;s running in the
+background, either in a background shell script or as a launchd
+process. It should also work when your machine is sleeping, or upon wake with launchd, but almost definitely not in hibernate mode. But if you want a script that, say, stops a timer when you&rsquo;re not using your Mac for five minutes, this is your tool.</p>
+
+<p>Side note, the hardest part of these binary command line utilities is distribution. You can&rsquo;t sign a lone binary outside of an app bundle, so you have to put it in a PKG file. And you have to sign the binary with a development ID within the PKG, but you also have to sign the PKG with an installer ID. Two different certificates to install a 94k binary, and without it the tool just won&rsquo;t run. It&rsquo;s a pain, but I also get exactly how risky downloading unknown binary files from the internet is, so I appreciate the level of security. Hopefully I got it right.</p>
+
+<p>I&rsquo;ve automated the process at this point, so I can just run <code class="language-plaintext highlighter-rouge">howzit -r deploy</code> and the tool will be tested, built, packaged, signed, notarized, and uploaded to a tagged release on GitHub, which is what the download link then points to. The project page and GitHub README get updated as part of the build process, too.</p>
+
+<p>Anyway, please use it if you need it, and tip your server if you think they deserve it.</p>
+
+<p>Here&rsquo;s the link to the <a href="https://brettterpstra.com/projects/beengone">project page</a> again, and you can see all the source code <a href="https://github.com/ttscoff/beengone">on GitHub</a>.</p>
+
+<p>Happy holidays, happy Solstice, happy Hanukah, merry Christmas, happy Kwanza, and you know, whatever you&rsquo;re into. Enjoy the cozy evenings in the darkest time of year. (In the norther hemisphere, anyway. I don&rsquo;t know what Australians get up to this time of year.)</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113709300998704522" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Scripting+when+you%27re+away%3A+beengone+2.0%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F24%2Fscripting-when-youre-away-beengone-2-dot-0%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F24%2Fscripting-when-youre-away-beengone-2-dot-0%2F&amp;text=Scripting+when+you%27re+away%3A+beengone+2.0&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F24%2Fscripting-when-youre-away-beengone-2-dot-0%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16927338.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-24T12:35:00-06:00</pubDate>
+<pubDate>2024-12-24T12:35:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Introducing StretchLink.cc</title>
