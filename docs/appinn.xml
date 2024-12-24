@@ -4,6 +4,67 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【奇怪软件】imewlconverter深蓝词库转换，转换不同软件导出的词库</title>
+<link>https://meta.appinn.net/t/topic/64459</link>
+<guid>https://meta.appinn.net/t/topic/64459</guid>
+<content:encoded><![CDATA[
+
+<p>如题，深蓝词库转换是一款词库转换软件，论坛里面提了好几次了却没有一个专门的帖子说它。</p>
+<p><a class="onebox" href="https://github.com/studyzy/imewlconverter/releases/latest" rel="noopener" target="_blank">https://github.com/studyzy/imewlconverter/releases/latest</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-238783-copyreadme-1" name="p-238783-copyreadme-1"></a>支持列表（直接copy了readme）</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#p-238783-pc-2" name="p-238783-pc-2"></a>PC 端：</h3>
+<ul>
+<li>Chinese-pyim(Linux)</li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/FIT">FIT 输入法(Mac)</a></li>
+<li>libpinyin(Linux)</li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/MacPlist">MacOS 自带简体拼音</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/QQ_Pinyin_Win">QQ 拼音（文本词库和 qpyd 格式分类词库）</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/QQ_Wubi">QQ 五笔</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Rime">Rime 输入法(Linux 中州韻、Windows 小狼毫、Mac OS 鼠鬚管)</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Win10Ms_Pinyin">Win10 微软拼音</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Win10Ms_Wubi">Win10 微软五笔</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Baidu_PC">百度拼音 PC（文本词库、bdict 格式）</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Engkoo">必应输入法</a></li>
+<li>仓颉平台</li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Google_Pinyin">谷歌拼音</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Jidian">极点五笔</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Jidian">极点郑码</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Lingoes_Ld2">灵格斯词库 ld2</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Pinyin_Jiajia">拼音加加</a></li>
+<li>手心输入法</li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Sougou_Pinyin">搜狗拼音（文本词库、Bin 格式备份词库和 scel 格式细胞词库）</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Sougou_Wubi">搜狗五笔</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Ms_Pinyin">微软拼音 2010</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Xiaoxiao">小小输入法（拼音、五笔、郑码、二笔）</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Xiaoya_Wubi">小鸭五笔</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Sina_Pinyin">新浪拼音</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Yahoo">雅虎奇摩输入法（注音）</a></li>
+<li><a href="https://github.com/studyzy/imewlconverter/wiki/Ziguang_Pinyin">紫光拼音（文本词库和 uwl 格式分类词库）</a></li>
+<li>自定义格式</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-238783-h-3" name="p-238783-h-3"></a>手机端：</h3>
+<ul>
+<li>QQ 手机拼音</li>
+<li>百度手机拼音（文本词库和 bcd 格式）</li>
+<li>谷歌拼音输入法</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-238783-h-4" name="p-238783-h-4"></a>输入法编码方法：</h3>
+<ul>
+<li>仓颉</li>
+<li>二笔（超强二笔，青松二笔等）</li>
+<li>拼音（全拼、双拼）</li>
+<li>五笔（五笔 86、五笔 98、新世纪五笔）</li>
+<li>郑码</li>
+<li>注音</li>
+<li>自定义</li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64459">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 24 Dec 2024 01:44:19 +0000</pubDate>
+<pubDate>Tue, 24 Dec 2024 01:44:19 +0000</pubDate>
+</item>
 
 <item>
 <title>Automa 被收购了？</title>
