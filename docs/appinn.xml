@@ -4,6 +4,74 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【开发者自荐】Readest - 极简、现代和面向未来的电子书阅读器</title>
+<link>https://meta.appinn.net/t/topic/64506</link>
+<guid>https://meta.appinn.net/t/topic/64506</guid>
+<content:encoded><![CDATA[
+
+<div align="center">
+  <a href="https://readest.com?utm_source=appinn&amp;utm_medium=referral&amp;utm_campaign=appinn" rel="noopener nofollow ugc" target="_blank">
+    <img alt="Readest Logo" height="160" src="https://cdn.readest.com/images/readest-icon.png" width="160" />
+  </a>
+  <h1>Readest</h1>
+  <br />
+</div>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239019-h-1" name="p-239019-h-1"></a>项目地址</h3>
+<p>项目 GitHub 主页：<a href="https://github.com/readest/readest" rel="noopener nofollow ugc">https://github.com/readest/readest</a><br />
+访问官网下载 Readest： <a href="https://readest.com" rel="noopener nofollow ugc">https://readest.com</a><br />
+或立即体验 Readest Web 版： <a href="https://web.readest.com" rel="noopener nofollow ugc">https://web.readest.com</a></p>
+<div align="center">
+  <a href="https://readest.com?utm_source=appinn&amp;utm_medium=referral&amp;utm_campaign=appinn" rel="noopener nofollow ugc" target="_blank">
+    <img alt="Readest Banner" height="281" src="https://cdn.readest.com/images/readest_landing_preview.png" width="690" />
+  </a>
+</div>
+<br />
+<div align="center">
+全新的开源电子书阅读器 —— Readest，专为追求沉浸式深度阅读体验的用户打造！ 支持 macOS 、Windows 、Linux 和 Web 平台，未来还将支持 iOS 和 Android 。
+</div>
+<br />
+<h3><a class="anchor" href="https://meta.appinn.net#p-239019-h-2" name="p-239019-h-2"></a>预览</h3>
+<div align="center">
+<p><img alt="Readest Annotator Anim" height="339" src="https://cdn.readest.com/images/Annotations-anim-gif.webp" width="560" /></p>
+<p><img alt="Readest Footnote" height="382" src="https://cdn.readest.com/images/Readest_footnote_popover.png" width="600" /></p>
+<p><img alt="Readest Vertical" height="382" src="https://cdn.readest.com/images/Readest_wikipedia_vertical.png" width="600" /></p>
+<p><img alt="Readest Annotator" height="382" src="https://cdn.readest.com/images/Readest_annotations.png" width="600" /></p>
+<p><img alt="Readest Dark Mode" height="382" src="https://cdn.readest.com/images/Readest_dark_mode.png" width="600" /></p>
+</div>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239019-h-3" name="p-239019-h-3"></a>已支持的功能：</h3>
+<ul>
+<li>支持多种电子书格式：支持 EPUB 、MOBI 、AZW3 、PDF 等多种格式；</li>
+<li>分页/滚动阅读模式：自由切换，适应不同阅读习惯；</li>
+<li>高效注释与标记：支持高亮、书签和笔记，轻松整理知识点；</li>
+<li>全文搜索与翻译：支持全文搜索，内置 DeepL 翻译工具；</li>
+<li>双屏平行阅读：支持同时阅读两本书籍，满足学术研究和文本对比需求；</li>
+<li>个性化排版设置：字体、主题、颜色随心定制，专属阅读体验；</li>
+<li>内置同步服务器：支持多端同步阅读进度、划线和笔记。</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239019-h-4" name="p-239019-h-4"></a>未来计划支持的功能：</h3>
+<ul>
+<li>支持 iOS 和 Android 平台；</li>
+<li>与 Koreader 设备同步进度、划线和笔记；</li>
+<li>与 OPDS / Calibre 集成；</li>
+<li>支持手写注释与语音朗读；</li>
+<li>支持高级阅读统计；</li>
+<li>支持 AI 自动生成大纲摘要和问答。</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239019-readest-5" name="p-239019-readest-5"></a>立即体验 Readest ！</h3>
+<ul>
+<li><img alt=":link:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/link.png?v=12" title=":link:" width="20" /> 访问官网下载 Readest： <a href="https://readest.com" rel="noopener nofollow ugc">https://readest.com</a></li>
+<li><img alt=":link:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/link.png?v=12" title=":link:" width="20" /> 或访问 GitHub 下载 Readest： <a class="inline-onebox" href="https://github.com/readest/readest/releases" rel="noopener nofollow ugc">Releases · readest/readest · GitHub</a></li>
+<li><img alt=":link:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/link.png?v=12" title=":link:" width="20" /> 也可直接访问 Readest Web 版体验： <a href="https://web.readest.com" rel="noopener nofollow ugc">https://web.readest.com</a></li>
+<li><img alt=":wrench:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/wrench.png?v=12" title=":wrench:" width="20" /> 欢迎开发者加<img alt=":star2:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/star2.png?v=12" title=":star2:" width="20" />和 fork 代码，参与贡献： <a href="https://github.com/readest/readest" rel="noopener nofollow ugc">https://github.com/readest/readest</a></li>
+</ul>
+<p>欢迎大家尝试并与我分享反馈，一起打造极致的阅读体验！<img alt=":heart:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" /> 让阅读回归纯粹的乐趣！</p>
+            <p><small>11 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64506">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 25 Dec 2024 00:16:50 +0000</pubDate>
+<pubDate>Wed, 25 Dec 2024 00:16:50 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】海拔：一款查询当前位置海拔高度的应用</title>
