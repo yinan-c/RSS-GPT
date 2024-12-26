@@ -34510,3 +34510,13 @@ Existing_entries: 405
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2024-12-26 16:03:51.325678
+------------------------------------------------------
+Started: 2024-12-26 18:04:15.019536
+Existing_entries: 405
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [I Was a Guest on Conduit](https://rknight.me/blog/i-was-a-guest-on-conduit/)
+Append: [How Long Since I Watched Mean Girls?](https://rknight.me/blog/how-long-since-i-watched-mean-girls-/)
+append_entries: 2
+Finish: 2024-12-26 18:04:17.204113

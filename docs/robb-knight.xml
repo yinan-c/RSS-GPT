@@ -4,6 +4,53 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>I Was a Guest on Conduit</title>
+<link>https://rknight.me/blog/i-was-a-guest-on-conduit/</link>
+<guid>https://rknight.me/blog/i-was-a-guest-on-conduit/</guid>
+<content:encoded><![CDATA[
+
+<p>A couple of weeks ago, <a href="https://kjaymiller.com/">Jay</a> reached out to see if I’d be like to be a guest on <a href="https://www.relay.fm/conduit">Conduit</a> and of course I immediately said yes.</p>
+<p>We spoke about some of my projects including what I’m doing with <a href="https://echofeed.app">EchoFeed</a> and then I was challenged<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> to make a site, <a href="https://rknight.me/blog/how-long-since-i-watched-mean-girls-/">which I did</a>. In the <a href="http://imasuperconductor.com">super conductors</a> post-show Jay asked me about British cars and I had to channel all of my knowledge from Top Gear and Grand Tour.</p>
+<p><a href="https://www.relay.fm/conduit/91">Listen to Conduit 91: Robb Knight made this for himself, and maybe you too</a></p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>It wasn’t a challenge but I took it as such <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2024-12-26T17:34:00Z</pubDate>
+</item>
+<item>
+<title>How Long Since I Watched Mean Girls?</title>
+<link>https://rknight.me/blog/how-long-since-i-watched-mean-girls-/</link>
+<guid>https://rknight.me/blog/how-long-since-i-watched-mean-girls-/</guid>
+<content:encoded><![CDATA[
+
+<p>&quot;When did Robb last watch Mean Girls?&quot; A question that no one except me cares about but here we are, writing about a website I made to answer that one question.</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>TL;DR</p><p><a href="https://meangirls.rknight.me/">See the site here</a>.</p>
+</div>
+<h3>Why</h3>
+<p>I built this because during the recording of <a href="https://www.relay.fm/conduit/91">episode 91 of Conduit</a> I had to come up with a new connection. I <em>did</em> have one prepared, but Jay and I had joked about a website which would check how long it had been since I'd watched Mean Girls. So I made that instead.</p>
+<h3>How</h3>
+<p>I already have this data in <a href="https://rknight.me/almanac/">Almanac</a> because I obsessively log every movie and TV show I watch. I knew I'd need some kind of endpoint to get this data into the new website and since I already had the infrastructure to easily make new JSON feeds for collections so that's what I did. I added a new collection for any post with a matching Movie DB ID:</p>
+<pre class="language-js"><code class="language-js"><span class="token function-variable function">almanacMeanGirls</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">collectionApi</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br />        <span class="token keyword">return</span> collectionApi<span class="token punctuation">.</span><span class="token function">getFilteredByGlob</span><span class="token punctuation">(</span><span class="token function">makePath</span><span class="token punctuation">(</span><span class="token string">'almanac/movies'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token parameter">p</span> <span class="token operator">=></span> <span class="token punctuation">{</span>          <br />            <span class="token keyword">return</span> p<span class="token punctuation">.</span>data<span class="token punctuation">.</span>tmdbid <span class="token operator">===</span> <span class="token number">10625</span><br />        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br />    <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<p>Then added the new JSON feed to <code>/api/meangirls.json</code>.</p>
+<pre class="language-js"><code class="language-js"><span class="token operator">--</span><span class="token operator">-</span><br /><span class="token literal-property property">name</span><span class="token operator">:</span> Mean Girls<br /><span class="token literal-property property">permalink</span><span class="token operator">:</span> api<span class="token operator">/</span>meangirls<span class="token punctuation">.</span>json<br /><span class="token literal-property property">layout</span><span class="token operator">:</span> feed<span class="token operator">-</span>json<br /><span class="token literal-property property">collectionName</span><span class="token operator">:</span> almanacMeanGirls<br /><span class="token literal-property property">eleventyExcludeFromCollections</span><span class="token operator">:</span> <span class="token boolean">true</span><br /><span class="token operator">--</span><span class="token operator">-</span></code></pre>
+<p>Initially I had intended for the new site to be a straight HTML site with a custom build script to insert the data but as with most projects, I ended up adding <a href="https://11ty.dev">Eleventy</a> to save time.</p>
+<p>Ignoring the usual boilerplate (<code>package.json</code>, <code>package-lock.json</code>, <code>.gitignore</code>) the entire source of the site is an index file, a single data file that fetches the RSS feed, and an assets folder with icons, a js file, and fonts in it.</p>
+<p>For fonts, I wanted to match the logo from the movie which was easy enough to do - it's <a href="https://en.wikipedia.org/wiki/Futura_(typeface)">Futura and Futura Extra Bold</a>. For the burn book font, I found a handful of &quot;ransom&quot; type fonts but I one I liked the most was <a href="https://www.dafont.com/magazine-letter.font">Magazine Letter</a>. It's missing a lot of symbols but I didn’t need those for this purpose.</p>
+<p>For the &quot;burn book&quot; section I borrowed the border styling from <a href="https://chr15m.github.io/DoodleCSS/">DoodleCSS</a> which uses an SVG and <code>border-image</code> which I don't think I've ever used before.</p>
+<p>For the falling lips I used <a href="https://www.zachleat.com/web/snow-fall/"><code>snow-fall</code></a>. This is also how the idea for <a href="https://rknight.me/blog/emojistorm/">EmojiStorm</a> came about.</p>
+<p>Because this data is coming from a JSON feed I <em>could</em> use <a href="https://echofeed.app/">EchoFeed</a> to trigger a build but given I only watch this movie every few years, that seemed like overkill. The site does rebuild every day because I didn’t want to use client side JS to show the relative time (e.g. “two days ago”). I’m also considering how to incorporate <a href="https://www.themoviedb.org/movie/673593-mean-girls">the musical version</a> when I get around to watching that.</p>
+<p><a href="https://meangirls.rknight.me/">See when I last watched Mean Girls here</a>.</p>
+]]></content:encoded>
+
+<pubDate>2024-12-26T16:39:00Z</pubDate>
+</item>
 
 <item>
 <title>Lens: Meta Tag Checker (Robb's Version)</title>
