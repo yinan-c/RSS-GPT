@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>I Was a Guest on Conduit</title>
 <link>https://rknight.me/blog/i-was-a-guest-on-conduit/</link>
 <guid>https://rknight.me/blog/i-was-a-guest-on-conduit/</guid>
 <content:encoded><![CDATA[
-
 <p>A couple of weeks ago, <a href="https://kjaymiller.com/">Jay</a> reached out to see if I’d be like to be a guest on <a href="https://www.relay.fm/conduit">Conduit</a> and of course I immediately said yes.</p>
 <p>We spoke about some of my projects including what I’m doing with <a href="https://echofeed.app">EchoFeed</a> and then I was challenged<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> to make a site, <a href="https://rknight.me/blog/how-long-since-i-watched-mean-girls-/">which I did</a>. In the <a href="http://imasuperconductor.com">super conductors</a> post-show Jay asked me about British cars and I had to channel all of my knowledge from Top Gear and Grand Tour.</p>
 <p><a href="https://www.relay.fm/conduit/91">Listen to Conduit 91: Robb Knight made this for himself, and maybe you too</a></p>
@@ -21,7 +21,6 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2024-12-26T17:34:00Z</pubDate>
 </item>
 <item>
@@ -29,7 +28,6 @@
 <link>https://rknight.me/blog/how-long-since-i-watched-mean-girls-/</link>
 <guid>https://rknight.me/blog/how-long-since-i-watched-mean-girls-/</guid>
 <content:encoded><![CDATA[
-
 <p>&quot;When did Robb last watch Mean Girls?&quot; A question that no one except me cares about but here we are, writing about a website I made to answer that one question.</p>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>TL;DR</p><p><a href="https://meangirls.rknight.me/">See the site here</a>.</p>
 </div>
@@ -48,10 +46,8 @@
 <p>Because this data is coming from a JSON feed I <em>could</em> use <a href="https://echofeed.app/">EchoFeed</a> to trigger a build but given I only watch this movie every few years, that seemed like overkill. The site does rebuild every day because I didn’t want to use client side JS to show the relative time (e.g. “two days ago”). I’m also considering how to incorporate <a href="https://www.themoviedb.org/movie/673593-mean-girls">the musical version</a> when I get around to watching that.</p>
 <p><a href="https://meangirls.rknight.me/">See when I last watched Mean Girls here</a>.</p>
 ]]></content:encoded>
-
 <pubDate>2024-12-26T16:39:00Z</pubDate>
 </item>
-
 <item>
 <title>Lens: Meta Tag Checker (Robb's Version)</title>
 <link>https://rknight.me/blog/lens-meta-tag-checker-robbs-version/</link>
