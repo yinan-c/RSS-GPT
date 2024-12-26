@@ -4,6 +4,126 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Brett's Favorites 2024: macOS</title>
+<link>https://brett.trpstra.net/link/535/16928096/bretts-favorites-2024-macos</link>
+<guid>https://brett.trpstra.net/link/535/16928096/bretts-favorites-2024-macos</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/bretts-favorites-2024-rb.jpg" /></p>
+
+<p>Here we go again with my <a href="https://brettterpstra.com/series/bretts-yearly-top-apps-lists/">yearly roundup</a> of my favorite stuff. I&rsquo;m going to do this year in a few parts. This one will be all Mac apps, and it will the longest because Mac apps are my favorite.</p>
+
+<h3 id="best-new-and-updated-macos-apps">Best new and updated macOS apps</h3>
+
+<p>In no particular order, here are some of my favorite new apps, as well as some that received notable updates. As always, this list is not exhaustive, and I welcome you to add your own top picks in the comments. I may even publish an addendum if I made any glaring omissions.</p>
+
+<p>Many (most?) of these apps are available on Setapp, which now has over 230 apps. It&rsquo;s definitely worth the monthly price, and I highly recommend <a href="https://go.setapp.com/stp44?utm_medium=vendor_program&amp;utm_source=Brett+Terpstra&amp;utm_content=link">checking it out</a> if you&rsquo;re not already a subscriber. It also gives your favorite developers a source of recurring income without forcing them into their own subscription model, which leads to requiring users to have a hundred subscriptions just to use the apps they love.</p>
+
+<dl>
+  <dt><a href="https://www.hejki.org/ssheditor/">SSH Config Editor</a> <a class="setapplink" href="https://bit.ly/3DIS6HG">SSH Config Editor</a></dt>
+  <dd>This is a really cool way to interface with your <code class="language-plaintext highlighter-rouge">~/.ssh/config</code> file. It makes it easy to add advanced options, set up tunnels/forwarding, and quickly open connections.</dd>
+  <dt><a href="https://apphousekitchen.com/">AlDente Pro</a> <a class="setapplink" href="https://bit.ly/3PdcXp8">AlDente Pro</a></dt>
+  <dd>I&rsquo;m loving this one. It&rsquo;s a battery manager for Mac laptops that allows you to set a max charge level and keep your Mac there. It&rsquo;s supposed to be hard on a battery to be at 100% all the time, so if your laptop is plugged in more often than not, this will keep that from happening. It also offers a lot of info on your battery, can get actual hardware charge levels, and even controls the light on your magsafe cord to show you when you&rsquo;ve reached <em>your</em> fully charged level, when it&rsquo;s charging, and when it&rsquo;s discharging.</dd>
+  <dt><a href="https://www.inyourface.app/" title="In Your Face-The meeting reminder app">In Your Face</a> <a class="setapplink" href="https://bit.ly/3Dtz0Fr">In Your Facee</a></dt>
+  <dd>I miss meetings. A lot. I look at the calendar and think, &ldquo;oh I have 15 minutes, I could finish up this code before the meeting,&rdquo; then get so absorbed that I miss the little notification from Calendar and show up 20 minutes late, if at all. This app takes over your whole screen with customizable alerts that make it absolutely impossible to miss a meeting. A life (and job) saver.</dd>
+  <dt><a href="https://soulver.app/" title="Soulver 3-Notepad Calculator App for Mac, iPad &amp; iPhone">Soulver</a> <a class="setapplink" href="https://bit.ly/4fBLWX8">Soulver</a></dt>
+  <dd>Not a new app by any means, but I&rsquo;ve really gotten into using it this year. I&rsquo;m not great at math. I have to break down complex problems to solve them, and with Soulver I can kind of write out my thoughts in sentence form and get the answers I need from them. Perfect.</dd>
+  <dt><a href="https://boltai.com/" title="BoltAI • Native, high-performance AI app for Mac">BoltAI</a> <a class="setapplink" href="https://bit.ly/3Dyr7ig">BoltAI</a></dt>
+  <dd>A friend asked me about which AI app they should get, given the over saturation of the market at this point. This one stands out above the herd, allowing for easy chats with any available LLM, hotkey access with Quick Action style input, temporary and permanent chats, and more. It does it all in an easy to grok way.</dd>
+  <dt><a href="https://binarynights.com/" title="Forklift 4">Forklift</a> <a class="setapplink" href="https://bit.ly/4gwNnHG">Forklift</a></dt>
+  <dd>I use Finder a lot, but when I&rsquo;m deep into organizing or want to work with a cloud/FTP server, Forklift is where I turn. Frequently updated and rock solid.</dd>
+  <dt><a href="https://bjango.com/mac/istatmenus/" title="iStat Menus">iStat Menus</a> <a class="setapplink" href="https://bit.ly/4gtJfZf">iStat Menus</a></dt>
+  <dd>iStat Menus saw a major update this year, and it&rsquo;s awesome. There&rsquo;s a &ldquo;unified&rdquo; menu bar item that can combine whatever information you like into one menu bar item. I have that and the weather icon in my menu bar, with system/network stats tucked away in my Bartender secondary menu bar. It&rsquo;s elegant and useful.</dd>
+  <dt><a href="https://signal.org/" title="Signal &gt;&gt; Home">Signal</a></dt>
+  <dd>However you feel about the state of the world, it&rsquo;s becoming increasingly important to protect privacy where you can. Apple Messages is great for end-to-end encrypted chat with other Apple users, but for universal  encrypted chat, Signal is the way to go. Also available on iOS, obviously.</dd>
+  <dt><a href="https://typefaceapp.com/" title="Typeface App-Font Manager for Mac">Typeface</a> <a class="setapplink" href="https://bit.ly/4gtdmQh">Typeface</a></dt>
+  <dd>I have a ton of fonts, mostly from my days as a graphic designer, and partly because I just like hoarding them. But finding the right font out of 5GB of fonts is rough, and the big players have not only become unaffordable, they&rsquo;ve also become unreliable. Typeface simplifies the process elegantly, and offers all the typographical niceties you need.</dd>
+  <dt><a href="https://cleanshot.com/" title="CleanShot X for Mac">CleanShot X</a> <a class="setapplink" href="https://bit.ly/4gtdxep">CleanShot X</a></dt>
+  <dd>CleanShot X gets my vote for overall best app of the year. It does its job (screenshots) so perfectly that you might not even realize how powerful it is. The floating windows at the edge of your screen, ready to drag, annotate, save, send to the cloud, or discard are perfect, plus you get screen recording, OCR, and beautiful screenshot editing all in one package.</dd>
+  <dt><a href="https://www.bzgapps.com/unite">Unite</a> <a class="setapplink" href="https://bit.ly/3ZSJLIV">Unite</a></dt>
+  <dd>I miss Fluid, but Unite fills most of that gap for me. I can make SSBs (Single Site Browsers) for all the web apps and services that don&rsquo;t have a native Mac app. I use it for Bluesky and Threads, and have apps for my Linkding and Marky, just to name a few.</dd>
+  <dt><a href="https://www.arqbackup.com/" title="Cloud backup software for Mac and Windows">Arq</a></dt>
+  <dd>I can never have too many backups. I use Time Machine, <a href="https://secure.backblaze.com/r/00dszk">Backblaze</a>, Synology Drive, and Arq. Arq is versatile, with backups to B2, S3, SFTP, and more, and its restore functionality and version history is top notch.</dd>
+  <dt><a href="https://choosy.app/" title="Choosy:A smarter default browser for macOS">Choosy</a></dt>
+  <dd>Choosy has been around forever, and there are a few apps trying to contend for its spot. It makes it easy to use multiple browsers, set up rules for when to use which browser, and pops up a handy menu when there&rsquo;s not a rule and you have multiple browsers open (or no browsers open, it&rsquo;s totally configurable). It&rsquo;s still my top choice for this functionality.</dd>
+  <dt><a href="https://flyingmeat.com/retrobatch/" title="Retrobatch 2, from Flying Meat">Retrobatch</a></dt>
+  <dd>If you do batch image processing, or repeat the same steps on images regularly, Retrobatch offers a node-based interface for building workflows to automate image processing. I use it to turn templated images into things like Dimspirations (and all of the social and wallpaper sizes from one image) and all of the header images on my blog posts. And it can make droplets (which I call from LaunchBar), so it&rsquo;s perfect for long-term automation tasks.</dd>
+  <dt><a href="https://kaleidoscope.app/" title="Kaleidoscope App">Kaleidoscope</a></dt>
+  <dd>I swear by Kaleidoscope for all of my &ldquo;diffing&rdquo; needs. Whether I&rsquo;m comparing versions of a file, multiple directories, Git merge conflicts, Git history, or anything I need to see the changes in (even images), Kaleidoscope offers a very Mac-assed experience with smooth edges. It&rsquo;s not cheap, and you&rsquo;ll know if you need it. And if you do, you&rsquo;ll love it.</dd>
+  <dt><a href="https://www.git-tower.com/" title="The most powerful Git client for Mac and Windows">Tower</a></dt>
+  <dd>Tower is in the same category as Kaleidoscope. Not cheap, but if you need it, it&rsquo;s the best there is. Working with Git has never been easier, including deep GitHub integration and support for everything from Git-flow to stacked brach workflows. It even has a Cmd-Z undo feature that does things that would normally require digging into reflogs and history fiddling that could take a normal user 20 minutes (or an hour&hellip;).</dd>
+  <dt><a href="https://kindavim.app/" title="kindaVim">kindaVim</a></dt>
+  <dd>This is so cool. If you use Vim, and you&rsquo;d like your keyboard-fu to extend elsewhere, kindaVim brings it to your whole Mac. Want to go to the top of a file list in Finder? Just hit the shortcut to enable kindaVim, hit <code class="language-plaintext highlighter-rouge">gg</code>, then hit <code class="language-plaintext highlighter-rouge">i</code> to return to &ldquo;insert mode.&rdquo; And bring your Vim shortcuts to everything from text editors to form fields. Works in browsers, in Terminals, in Finder, almost everywhere.</dd>
+  <dt><a href="https://superkey.app/" title="Superkey">SuperKey</a></dt>
+  <dd>This utility does a few things, and it does them well. You can use it to create a Hyper key from your Caps Lock, but it can create a Meh key (<span class="keycombo combined" title="Control-Option-Shift"><kbd class="mod symbol">&#8963;</kbd><kbd class="mod symbol">&#8997;</kbd><kbd class="mod symbol">&#8679;</kbd></span>) for you as well. And its killer feature is screen search. You just pop up its search window, type some text that appears anywhere on your screen, hit Enter, and it focuses and clicks that button, checkbox, text, etc. Very handy.</dd>
+  <dt><a href="https://tapbots.com/ivory/" title="Ivory for iOS">Ivory</a></dt>
+  <dd>I&rsquo;ve completely moved away from Twitter. I didn&rsquo;t delete my account because I still do some customer support there, but I use Mastodon for all of my social media-ing. And Ivory stepped in to fill the Tweetbot-sized hold in the Mastodon experience (it&rsquo;s also from Tapbots). Multi-column layout, multi-account, beautiful interface, and seamless features for dealing with the Fediverse.</dd>
+  <dt><a href="https://manytricks.com/blog/?p=6385" title="Announcing Moom 4, the next-generation window manager">Moom 4</a></dt>
+  <dd>I&rsquo;ve used Moom for years for window management. Version 4 was almost shocking in its breadth of new features. I can&rsquo;t imagine the competition catching up any time soon.</dd>
+  <dt><a href="https://www.corecode.io/macupdater/" title="keep all your apps up-to-date effortlessly">MacUpdater</a></dt>
+  <dd>It&rsquo;s important to keep your apps up-to-date, and it&rsquo;s easy to let apps you don&rsquo;t use every day slip through the cracks. MacUpdater fixes that for you, constantly scanning for new updates and making it a one-click process to update everything at once.</dd>
+  <dt><a href="https://www.mindnode.com/" title="MindNode">MindNode</a> <a class="setapplink" href="https://bit.ly/3VTSvNO">MindNode</a></dt>
+  <dd>I&rsquo;m still using iThoughts X for as long as I can, but I&rsquo;m really impressed with how far MindNode has come. I have to admit, it&rsquo;s the best looking mind map software out there. I&rsquo;m working my way over to it.</dd>
+  <dt><a href="https://macitbetter.com/" title="BetterZip 5-MacItBetter">BetterZip</a> <a class="setapplink" href="https://bit.ly/41KSYWs">BetterZip</a></dt>
+  <dd>I probably wouldn&rsquo;t drop the money on this if it weren&rsquo;t on Setapp, but it is and I love it. For archiving, unarchiving, previewing zip contents, and pretty much anything having to do with compressed archives, it&rsquo;s perfect. And it has a Quick Look plugin that makes previewing the contents of an archive as easy as hitting your space bar.</dd>
+  <dt><a href="https://appmakes.io/paletro" title="Command Palette in any applications">Paletro</a> <a class="setapplink" href="https://bit.ly/3VT0CdD">Paletro</a></dt>
+  <dd>This is so cool, and I use it daily. You just hit a customizable shortcut in any app, and all of that app&rsquo;s menu items are a typeahead search away, including Services and hidden menu items. I have it set to <span class="keycombo combined" title="Shift-Command-P"><kbd class="mod symbol">&#8679;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">P</kbd></span>, which is also what I use for quick open and action palettes in every app that supports them, so the keyboard shortcut is second nature to me.</dd>
+  <dt><a href="https://timingapp.com/?lang=en" title="Timing Automatic Mac Time Tracker">Timing</a> <a class="setapplink" href="https://bit.ly/49TplnM">Timing</a></dt>
+  <dd>I continue to use Timing constantly. I don&rsquo;t do a great job of tracking what I&rsquo;m working on, starting timers (or adding Doing entries), or remembering where I spent my time. If I had billable hours, I&rsquo;d probably love it even more. But the developer has added a bunch of new features in 2024, including a vertical timeline and AI-assisted classification of your time blocks. It&rsquo;s perfect for a scatterbrain like me.</dd>
+  <dt><a href="https://www.zengobi.com/" title="Zengobi Curio-Note Taking, Mind Mapping, Brainstorming">Curio</a></dt>
+  <dd>Curio might be the Mac app that gets the most frequent major version updates I&rsquo;ve ever seen. And every time the new features are exciting. It&rsquo;s a brainstorming, researching, project managing powerhouse. And the developer has continued adding great Markdown features that make my plain-text-loving side very, very happy.</dd>
+  <dt><a href="https://tailscale.com/" title="Tailscale·Best VPN Service for Secure Networks">Tailscale</a> <a class="setapplink" href="https://go.setapp.com/stp44?utm_medium=vendor_program&amp;utm_source=Brett+Terpstra&amp;utm_content=link">Setapp</a></dt>
+  <dd>A personal VPN that makes accessing all of your machines from anywhere easy. Your Macs, your iOS devices, your Synology/NAS, Windows machines, everything. No need to deal with updating dynamic DNS, just run Tailscale on everything and have instant access whether you&rsquo;re at the coffee shop or halfway around the world. And you can run it all off a GitHub login, so setup can take just minutes.</dd>
+  <dt><a href="https://apps.apple.com/us/app/sleeve-for-spotify-music/id1606145041?mt=12&amp;uo=4&amp;at=10l4tL&amp;ct=searchlink" title="Sleeve for Spotify, Music">Sleeve</a></dt>
+  <dd>Sleeve is my current pick for a &ldquo;now playing&rdquo; interface. With customizable desktop artwork and  playback controls, it&rsquo;s simple but pretty. It works with Spotify and Apple Music, with Last.fm integration.</dd>
+  <dt><a href="https://code.visualstudio.com/" title="Visual Studio Code-Code Editing. Redefined">Visual Studio Code</a></dt>
+  <dd>It took me a long time to come around to VS Code. But now that I&rsquo;m into it, I&rsquo;m really into it. And using it with Copilot or Llama is an out-of-body cool coding experience.</dd>
+</dl>
+
+<p><a href="https://flyingmeat.com/acorn/" title="Full Featured Photo Editor for the Mac">Acorn</a>
+I should also mention that Acorn saw some <a href="https://sixcolors.com/post/2024/12/acorn-8-brings-subject-selection-live-text-data-merge-more/">awesome updates</a> this year. I mostly use Affinity Photo, but I keep an eye on Acorn because it&rsquo;s pretty brilliant.</p>
+
+<h3 id="web-apps">Web apps</h3>
+
+<p>I&rsquo;m going to go ahead and tack a few web apps onto this post, as there&rsquo;s only a couple of them and I run these in <a href="https://bit.ly/3ZSJLIV">Unite</a> SSBs anyway, so they&rsquo;re kind of Mac apps for me.</p>
+
+<dl>
+  <dt><a href="https://deck.blue">deck.blue</a></dt>
+  <dd>If you liked Tweetdeck and want something similar for Bluesky, here you go.</dd>
+  <dt><a href="https://github.com/sissbruecker/linkding" title="sissbruecker/linkding:Self-hosted bookmark manager that ...">Linkding</a></dt>
+  <dd>I&rsquo;ve completely replace Pinboard with linkding now. All of my scripts that used to interface with Pinboard now use my self-hosted <a href="https://linkding.link/api/" title="API - linkding">linkding API</a>, and I have Shortcuts and extensions for every browser to make bookmarking as easy, if not easier, than it was with Pinboard. I&rsquo;m even on a secret beta of a dedicated iOS app with a share sheet for bookmarking from anywhere. Hopefully that sees the light of day and I can share it with you.</dd>
+  <dd>
+    <p>A couple of related links</p>
+  </dd>
+  <dd>
+    <ul>
+      <li><a href="https://rebootcyber.xyz/posts/effortlessly-setting-up-linkding-in-a-docker-container-a-step-by-step-guide/">Run linkding with Docker</a> with <code class="language-plaintext highlighter-rouge">latest-plus</code> branch for archiving</li>
+    </ul>
+  </dd>
+  <dd>
+    <ul>
+      <li><a href="https://bookmarks.scoffb.in">My own public linkding</a> running on my Synology with my custom <a href="https://brettterpstra.com/2024/11/18/a-card-based-layout-for-linkding/" title="A card-based layout for linkding">card based layout</a></li>
+    </ul>
+  </dd>
+  <dd>
+    <ul>
+      <li>My script to <a href="https://brettterpstra.com/2024/10/31/archive-linkding-bookmarks-to-local-markdown/" title="Archive linkding bookmarks to local Markdown">Archive linkding bookmarks to local Markdown</a></li>
+    </ul>
+  </dd>
+</dl>
+
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113719533479921430" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Brett%27s+Favorites+2024%3A+macOS%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F26%2Fbretts-favorites-2024-macos%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F26%2Fbretts-favorites-2024-macos%2F&amp;text=Brett%27s+Favorites+2024%3A+macOS&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F26%2Fbretts-favorites-2024-macos%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16928096.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-26T08:00:00-06:00</pubDate>
+<pubDate>2024-12-26T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Scripting when you're away: beengone 2.0</title>
