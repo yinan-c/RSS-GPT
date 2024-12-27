@@ -4256,3 +4256,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Jatan Mehta](https://manuelmoreale.com/@/page/q7o2iGVckKYQGr9V)
 append_entries: 1
 Finish: 2024-12-27 20:04:25.691371
+------------------------------------------------------
+Started: 2024-12-27 22:03:27.538466
+Existing_entries: 566
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2024-12-27 22:03:28.273675
