@@ -4184,3 +4184,12 @@ Existing_entries: 564
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2024-12-26 22:03:35.747233
+------------------------------------------------------
+Started: 2024-12-27 00:14:46.817074
+Existing_entries: 564
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A moment on my favorite bench](https://manuelmoreale.com/@/page/QUZUetru7I3sgBWF)
+append_entries: 1
+Finish: 2024-12-27 00:14:47.771438
