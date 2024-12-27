@@ -4,6 +4,49 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>HomTodo - 多人协作处理家务，轻松规划家中大小事务 (自荐)</title>
+<link>https://meta.appinn.net/t/topic/64604</link>
+<guid>https://meta.appinn.net/t/topic/64604</guid>
+<content:encoded><![CDATA[
+
+<blockquote>
+<p><em>很高兴在新年到来之际可以向大家宣布一个一款新（<img alt=":heart:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/heart.png?v=12" title=":heart:" width="20" />）产品！ <img alt=":partying_face:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" /> <img alt=":partying_face:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" /> <img alt=":partying_face:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/partying_face.png?v=12" title=":partying_face:" width="20" /></em></p>
+</blockquote>
+<p><a href="https://apps.apple.com/us/app/homtodo-%E8%BD%BB%E6%9D%BE%E8%A7%84%E5%88%92%E5%AE%B6%E4%B8%AD%E5%A4%A7%E5%B0%8F%E4%BA%8B%E5%8A%A1/id6739244386?l=zh-Hans-CN" rel="noopener nofollow ugc"><img alt=":arrow_double_down:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/arrow_double_down.png?v=12" title=":arrow_double_down:" width="20" />App Store下载</a></p>
+<p><a href="https://apps.apple.com/us/app/homtodo-%E8%BD%BB%E6%9D%BE%E8%A7%84%E5%88%92%E5%AE%B6%E4%B8%AD%E5%A4%A7%E5%B0%8F%E4%BA%8B%E5%8A%A1/id6739244386?l=zh-Hans-CN" rel="noopener nofollow ugc">HomTodo</a> 是一款支持多人协作的家务处理iOS App。 让您定制一个个性化且切实可行的清洁和计划。有了HomTodo，您不再需要在忙碌的生活和净的家之间做出选择。我们的应用帮助您找到最佳平衡，提供一个轻松无忧解决方案，让您的居住空间始终保持整洁有序。</p>
+<p><img alt="hometodo preivew.jpg" height="364" src="https://h1.appinn.me/file/1735278475892_hometodo%20preivew.jpg" width="690" /><br />
+我们的生活基本上可以分为两个部分：一半是忙碌的上班生活，另一半是在家中度过的时间。上班是为了赚钱谋生，而在家中我们可以休息和丰富内心的精神世界。尽管如此，我们的居住环境依然有很多琐事需要处理，如何合理地规划这些事务也是一个不容易的问题，需要花费很多心思。此外，当您和室友或家人一起生活时，家务的协作也尤为重要。家务不应该由某些人默默承担，共同分担这些任务可以更好地维持生活的和谐。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239568-h-1" name="p-239568-h-1"></a>产品思路</h3>
+<p>在开始准备开发这款产品的时候，我分析了平时做家务的一些场景，有些事情是每天都要做的比如洗餐具，丢垃圾，这些事情规律性比较强，很容易培养成习惯。有些事情需要每隔一段时间做一次，例如：清洁厕所，换床单，家具清灰，拖地，换洗碗布，清理冰箱，擦窗户，晾晒衣物，吸尘，打扫房间，清理家具等等。很多时间不对等的项目需要做，有的项目需要几天一次，有的项目需要几周一次，有的项目则需要几个月一次。就算用备忘录或者todo软件记录下来，维护的时候复杂度也是很高的。另外我还发现了一个重要的需求，那就是任务的分配。例如在我们家清理厕，清理厨房等主要由我负责，洗床单，换床单等则是我爱人来处理。我们需要协作，并且能时时同步这些任务的进度，让互相了解哪些事情还没有做，哪些事情已经完成。为了避免重复造轮子我选择使用iCloud作为数据同步和多人协作脚手架，这样也尽可能的保护了用户的隐私数据。我们没有在App中收集任何用户数据，用户的数据只会同步到个人iCloud账户（如果痛殴icloud分享则会分享到协作者一份数据）。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239568-h-2" name="p-239568-h-2"></a>功能列表：</h3>
+<ul>
+<li><img alt=":house:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/house.png?v=12" title=":house:" width="20" />居所列表，你可以创建一个多多个居所所有的规划和任务都在居所内发生；</li>
+<li><img alt=":compass:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/compass.png?v=12" title=":compass:" width="20" />创建规划，循环任务或单次任务，可分为日规划，周规划，月规划；</li>
+<li><img alt=":chart_with_upwards_trend:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/chart_with_upwards_trend.png?v=12" title=":chart_with_upwards_trend:" width="20" />任务面板，任务分为：今日任务，即将到来的任务，归档记录；</li>
+<li><img alt=":bell:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/bell.png?v=12" title=":bell:" width="20" />提醒功能，任务规划时可设置提醒的时间点，防止漏掉；</li>
+<li><img alt=":e-mail:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/e-mail.png?v=12" title=":e-mail:" width="20" />分享居所，通过居所分享功能实现多人协作模式；</li>
+<li><img alt=":closed_lock_with_key:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/closed_lock_with_key.png?v=12" title=":closed_lock_with_key:" width="20" />数据备份&amp;同步，我们会把用户数据同步到iCould,方便设备的迁移；</li>
+<li><img alt=":face_with_monocle:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/face_with_monocle.png?v=12" title=":face_with_monocle:" width="20" />规划概览和任务面板，你可以整体查看到居所的规划分布和任务进度情况，在协作模式下你还可以不同用户的任务完成统计；</li>
+<li><img alt=":adult:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/adult.png?v=12" title=":adult:" width="20" />‍<img alt=":adult:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/adult.png?v=12" title=":adult:" width="20" />‍<img alt=":child:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/child.png?v=12" title=":child:" width="20" />支持家庭共享，一个家庭只许购买一份即可；</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239568-h-3" name="p-239568-h-3"></a>重要提示：</h3>
+<ul>
+<li>多人协作依赖iCloud支持，一定要保证用户的iCloud空间可用，如果您无法分享或者无法参与协作请先检查iCloud空间是否仍有剩余；</li>
+<li>在分享居所时你可以通过iMessage, 邮件，备忘录，事项提醒等多个Apple自带的应用分享iCloud链接，但是如果分享到了第三方App（X信，某书等）可能无法正常打开</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-239568-h-4" name="p-239568-h-4"></a>后续功能计划：</h3>
+<ul>
+<li>您的反馈！<img alt=":saluting_face:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/saluting_face.png?v=12" title=":saluting_face:" width="20" /></li>
+<li>规划模版， 内置一些常用任务模版，方便用户创建规划</li>
+<li>更加详细数据分析</li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64604">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 27 Dec 2024 06:41:09 +0000</pubDate>
+<pubDate>Fri, 27 Dec 2024 06:41:09 +0000</pubDate>
+</item>
 
 <item>
 <title>求推荐一款 Chrome 浏览器插件，能够同步历史纪录、标签页（手机与pc之间不同浏览器！！）</title>
