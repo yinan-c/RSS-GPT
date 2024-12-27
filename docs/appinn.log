@@ -46911,3 +46911,11 @@ Append: [HomTodo - 多人协作处理家务，轻松规划家中大小事务 (�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-12-27 08:04:27.190061
+------------------------------------------------------
+Started: 2024-12-27 10:03:29.000353
+Existing_entries: 664
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-12-27 10:03:32.034405
