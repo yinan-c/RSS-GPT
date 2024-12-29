@@ -47137,3 +47137,11 @@ Append: [求助：有没有一款拍照 app 是自带相册的？](https://meta.
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-12-29 16:03:36.745610
+------------------------------------------------------
+Started: 2024-12-29 18:03:56.105762
+Existing_entries: 666
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2024-12-29 18:03:58.759743
