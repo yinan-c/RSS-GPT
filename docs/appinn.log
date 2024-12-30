@@ -47194,3 +47194,12 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [OSX-PROXMOX - 在任何电脑安装 macOS，基于 Proxmox VE，Intel & AMD](https://meta.appinn.net/t/topic/63159)
 append_entries: 1
 Finish: 2024-12-30 06:04:59.050831
+------------------------------------------------------
+Started: 2024-12-30 08:04:50.803849
+Existing_entries: 667
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【开源自荐】懒猫书签清理 -一款支持浏览器书签清理和统计的拓展程序](https://meta.appinn.net/t/topic/64700)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-12-30 08:04:53.803320
