@@ -4472,3 +4472,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [The Bluesky conundrum](https://manuelmoreale.com/@/page/sxvwafTqRzrq7cYD)
 append_entries: 1
 Finish: 2024-12-30 18:04:51.734620
+------------------------------------------------------
+Started: 2024-12-30 20:04:09.664545
+Existing_entries: 568
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2024-12-30 20:04:10.402153
