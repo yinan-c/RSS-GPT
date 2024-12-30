@@ -4463,3 +4463,12 @@ Existing_entries: 567
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2024-12-30 16:04:37.900600
+------------------------------------------------------
+Started: 2024-12-30 18:04:50.560345
+Existing_entries: 567
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [The Bluesky conundrum](https://manuelmoreale.com/@/page/sxvwafTqRzrq7cYD)
+append_entries: 1
+Finish: 2024-12-30 18:04:51.734620
