@@ -4,6 +4,68 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Brett's Favorites 2024: Personal Projects</title>
+<link>https://brett.trpstra.net/link/535/16930966/bretts-favorites-2024-personal-projects</link>
+<guid>https://brett.trpstra.net/link/535/16930966/bretts-favorites-2024-personal-projects</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/bretts-favorites-2024-rb.jpg" /></p>
+
+<h3 id="personal-projects">Personal Projects:</h3>
+
+<p>Not my busiest year on record, but I did a lot.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/github-contributions-2024.jpg" /></p>
+
+<dl>
+  <dt><a href="https://brettterpstra.com/2024/08/31/updated-generate-slick-changelogs-from-git-commits/" title="Updated:generate slick changelogs from Git commits">Updated: Generate slick changelogs from Git commits</a></dt>
+  <dd>I do all of my release notes using careful git commit messages. It makes life so easy.</dd>
+  <dt><a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a></dt>
+  <dd>I still consider SearchLink &ndash; out of a hundred projects &ndash; the most useful thing I&rsquo;ve made, for my own purposes at least. Sure, it&rsquo;s only helpful to bloggers and podcasters, really, but I use it almost daily.</dd>
+  <dd>I built a few new plugins this year, some for personal use, <a href="https://github.com/ttscoff/searchlink-plugins/">some for sharing</a>. And you can <a href="https://brettterpstra.com/2024/08/10/add-searchlink-plugins-using-any-programming-language/" title="Add SearchLink plugins using any programming language">add SearchLink plugins using any programming language</a> now, too.</dd>
+  <dt><a href="https://brettterpstra.com/2024/04/25/introducing-the-marked-conductor/" title="Introducing the Marked Conductor">Marked Conductor</a> (new version of Marked coming with custom JS embedding)</dt>
+  <dd>Rather than add complex predicate handling to <a href="https://marked2app.com">Marked</a> for handling multiple custom processors, I built a tool that allows you to configure your custom processors using YAML, allowing easy creation of &ldquo;tracks&rdquo; to apply different tools to different types of projects. In addition to running custom processors and scripts, it also has a bunch of built in filters for doing common tasks without any scripting.</dd>
+  <dd>I have a new release of Marked almost ready that adds the ability to inject your own JavaScript into the preview. Local scripts, CDN-hosted scripts, and embedded scripts are all possible, making things like adding Mermaid or updating the DOM a simple process requiring no Custom Preprocessors or anything.</dd>
+  <dt><a href="https://brettterpstra.com/projects/curlyq/" title="CurlyQ">CurlyQ</a></dt>
+  <dd>I made this one to scratch my own itch, but it&rsquo;s a pretty complete tool for web scraping. I added the screenshot capability last, but now it&rsquo;s the feature I use most often.</dd>
+  <dt><a href="https://bunchapp.co">Bunch</a></dt>
+  <dd>Bunch, my Mac app for automating with plain text, didn&rsquo;t actually get a lot of development this year, aside from bug fixes. But it&rsquo;s still an app near and dear to my heart and I plan to keep it going as long as I can.</dd>
+  <dt><a href="https://brettterpstra.com/projects/na/" title="na - BrettTerpstra.com">NA</a></dt>
+  <dd>NA (next action, not Narcotics Anonymous) is my tool for working with TaskPaper formatted todo lists on a per-project basis. This year I added a lot of functionality based on <em>other</em> people&rsquo;s use cases, and came to adopt some of the creative ideas for my own use. It&rsquo;s really nice when you put something out that sparks other people&rsquo;s interest enough to request changes 😊.</dd>
+  <dt><a href="https://brettterpstra.com/2022/11/30/bretts-favorites-2022-personal-projects/" title="Brett's Favorites 2022-Personal Projects">Howzit</a></dt>
+  <dd>I did a lot with Howzit, my task-running, note-taking, project-saving tool. I use a Howzit file in every single one of my projects, allowing me to keep track of all of the steps for things like building, testing, and deploying, and be able to run them in any project with predictable commands. This year saw improvements to templating, named variables, and more.</dd>
+  <dt><a href="https://brettterpstra.com/projects/snibbets/">Snibbets</a></dt>
+  <dd>I built this one because I&rsquo;ve tried so many code snippet managers and none of them fit all of my needs. Storing my snippets in plain text and being able to tag them, search them, output syntax highlighted code, and copy straight to clipboard, all from the command line, makes this a frequently-used project for me, too.</dd>
+  <dt><a href="https://brettterpstra.com/projects/journal-cli/">Journal</a></dt>
+  <dd>Another one I built just for me, but it got some traction among like-minded people. I needed to track a bunch of data for my therapist and my doctor, and being able to generate prompts and output structured data meant I could do all of my journaling from the command line and output final results in any format I could need. I send spreadsheets to my therapist, PDFs to my doctor, and all of it is backed up in Day One automatically.</dd>
+  <dt><a href="https://brettterpstra.com/projects/shortly/" title="Shortly, custom url shortener">Shortly</a></dt>
+  <dd>I <a href="https://brettterpstra.com/2024/03/16/build-a-custom-url-shortener/">built this one</a> for the <a href="https://dimspire.me/" title="Home-Dimspire.me-Dimspirations for Daily Life">Dimspirations</a> site so I could create fun <code class="language-plaintext highlighter-rouge">dim.moi</code> urls for individual Dimspirations. It&rsquo;s just a simple URL shortener, but it&rsquo;s customizable and you can add it to any domain. Custom short urls for free (well, for the cost of a domain and basic hosting, but you already have that, right?).</dd>
+  <dt><a href="https://markdownrules.com">Marky</a></dt>
+  <dd>I completely <a href="https://brettterpstra.com/2024/09/29/marky-2-dot-0/">rewrote Marky the Markdownifier</a> this year. If you need to convert web pages to Markdown in any flavor, Marky has you covered. And most importantly it has a decent API, so it&rsquo;s easy to incorporate &ldquo;markdownification&rdquo; into a workflow. I use it with my Linkding scripts to create Markdown archives of my bookmarks that show up in nvUltra.</dd>
+  <dt><a href="https://brettterpstra.com/projects/binbundle">Binbundle</a></dt>
+  <dd>I got a new MacBook Pro this year and had to rebuild my system. <code class="language-plaintext highlighter-rouge">brew bundle</code> makes a lot of it easy, but I use a <em>lot</em> of Ruby gems and their associated tools, so I made Binbundle to replicate Brew functionality, but for Ruby gems. I don&rsquo;t know if anyone else has needed this one, but it was super handy in setting up my new machine.</dd>
+  <dt><a href="https://brettterpstra.com/projects/doing">Doing</a></dt>
+  <dd>I love Doing, my plain text tracker for &ldquo;what was I doing?&rdquo; entries. It&rsquo;s gotten way out of control, with more features than I can possibly remember. I have to consult <a href="https://github.com/ttscoff/doing/wiki">the wiki</a> (and extensive built-in help, and command-line completion) pretty frequently. But it does its job really well. I even added it to my current Fish prompt (starship), so it displays the currently-timed task, reminding me what I was focusing on (and also to stop timers before I forget about them). If you want any help adding something similar to your prompt, I&rsquo;m happy to help.</dd>
+  <dt><a href="https://brettterpstra.com/soundtrack/">Soundtrack</a></dt>
+  <dd>I&rsquo;m always tweaking my Soundtrack project, which makes a public display of my somewhat embarrassing music-listening habits. It&rsquo;s really an HTML, JavaScript, and CSS playground for me, and I&rsquo;m pretty proud of all of it&rsquo;s little features. A few people have expressed interest in setting up their own versions, but nobody has ever followed through. If you have any interest, contact me, I&rsquo;m happy to share the code!</dd>
+  <dt><a href="https://nvultra.com">nvUltra</a></dt>
+  <dd>I know, I say this every year. For what, like 5 years now? But nvUltra development has continued this year, mostly thanks to Fletcher, and we&rsquo;re just a couple steps away from a Mac App Store launch, and hopefully a direct version and Setapp release as well. The beta is very complete and essentially public at this point, but you still need to <a href="https://nvultra.com">email me through the website link</a> to get added.</dd>
+  <dd>I&rsquo;ve said this before, but a lot of the release schedule depends on Fletcher, who is a parent and an ER doctor with limited time. And I have a full-time job with Oracle. nvUltra is awesome and I use it <em>all day, every day,</em> but the release schedule has been <em>extremely</em> slow due in no small part to the fact that it&rsquo;s not a full-time job for either of us.</dd>
+</dl>
+
+<p>I&rsquo;m sure I worked on other projects, but this is what the combination of Timing and Doing is telling me. I wrote some cool stuff for my day job, but I&rsquo;m already in trouble for putting some of it in my own GitHub as public repos, so I won&rsquo;t poke the bear by sharing more. Hopefully you&rsquo;re finding at least some of my projects useful. If you are, drop by <a href="https://forum.brettterpstra.com">the forum</a> and <a href="https://forum.brettterpstra.com/t/do-you-actually-use-any-of-my-tools-which-one-s/1932">let me know what you&rsquo;re using</a> and what you&rsquo;d like to see me put development time into.</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113747845907171711" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Brett%27s+Favorites+2024%3A+Personal+Projects%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F31%2Fbretts-favorites-2024-personal-projects%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F31%2Fbretts-favorites-2024-personal-projects%2F&amp;text=Brett%27s+Favorites+2024%3A+Personal+Projects&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2024%2F12%2F31%2Fbretts-favorites-2024-personal-projects%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16930966.gif" width="1" />
+]]></content:encoded>
+<pubDate>2024-12-31T08:00:00-06:00</pubDate>
+<pubDate>2024-12-31T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Brett's Favorites 2024: Hardware</title>
