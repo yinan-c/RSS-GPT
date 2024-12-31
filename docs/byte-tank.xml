@@ -5,11 +5,64 @@
 <link>https://lopespm.com/</link>
 
 <item>
+<title>2024 Lookback</title>
+<link>https://lopespm.com/notes/2024/12/31/2024-lookback.html</link>
+<guid>https://lopespm.com/notes/2024/12/31/2024-lookback.html</guid>
+<content:encoded><![CDATA[
+
+<p>It’s time to wrap up and celebrate 2024, an eventful year that fueled my yearning for internal growth and curiosity, with challenges and lessons I am grateful for.</p>
+
+<!--more-->
+
+<p>I’ve recently built a set of <a href="https://grafana.com/">Grafana</a> dashboards to track my personal goals, which I’ve been finding incredibly interesting to explore and visualise (something that might be interesting to share in a later post).</p>
+
+<h2 id="final-tally">Final Tally</h2>
+
+<p>There are other metrics I track, but specifically to 2024 content creation, these are the final statistics<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>:</p>
+
+<center>
+          
+             <source type="image/webp" />
+             <source type="image/png" />
+             <img src="https://lopespm.com/files/2024_lookback/stats.png" />
+           
+         </center>
+
+<p><br /></p>
+
+<ul>
+  <li>17 posts on this blog, 16 of them being <a href="https://lopespm.com/notes/">notes</a> (not counting this one), and one of them being a full blog article sharing how to build a <a href="https://lopespm.com/machine_learning/2024/06/24/personal-llm.html">personal local (Llama3 8B) LLM, extended with WhatsApp and Obsidian data</a></li>
+  <li>10 YouTube videos on my <a href="https://www.youtube.com/@lopespm">main channel</a>. 8 of them being long form, the other 2 being shorts.</li>
+  <li>5 YouTube videos on <a href="https://www.youtube.com/@out-and-about-channel">Out and About</a>, a recently created channel where I share random experiences on activities such as walking / hiking around or driving.</li>
+</ul>
+
+<p>Notice that the tracked metrics are on the volume of content produced, not their number of views, subscribers, likes. Although keeping track of topline metrics makes sense for a full fledged business, I chose instead to track what I <em>can</em> control, which is my output. At the end of the day, this is a hobby, a labor of love.</p>
+
+<p>If I can influence someone’s life for the better, that will already fill my heart to the brim. This, added to how important posting these contents has become to consolidate and structure my thoughts, and serendipitous opportunities they randomly opened, make this an incredibly satisfying endeavor.</p>
+
+<p>I’ve experienced time and time again that consistency eventually bears wonderful fruits. Who knows which doors might open one day later? I don’t, but I’m curious to find out.</p>
+
+<h2 id="one-day-away">2025, one day away</h2>
+
+<p>With 2024 wrapped up, let’s welcome 2025. <a href="https://lopespm.com/notes/2023/08/05/real_question_behind_what_you_want.html#an-example">I’ve pinned down next year’s goals</a> and will be looking forward to sharing what I learn along the way. Happy new year, and see you on the other side! 🫡</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><em>This dashboard was produced using a custom Grafana dashboard, where the RSS feeds for this blog and YouTube channels were tracked, transformed and presented in simple gauge widgets</em><a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content:encoded>
+
+<pubDate>2024-12-31T00:00:00+00:00</pubDate>
+</item>
+
+<item>
 <title>Note Taking</title>
 <link>https://lopespm.com/notes/2024/12/30/note-taking.html</link>
 <guid>https://lopespm.com/notes/2024/12/30/note-taking.html</guid>
 <content:encoded><![CDATA[
-
 <center>
           
              <source type="image/webp" />
@@ -63,10 +116,8 @@
 
 <p>Just like other processes, their value only becomes apparent after they have been used several times. Build a habit. It will then become immediately apparent whenever a notebook is not at hand, or when structured notes are not written down.</p>
 ]]></content:encoded>
-
 <pubDate>2024-12-30T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Diary of a CEO Book: Lessons</title>
 <link>https://lopespm.com/notes/2024/12/28/diary-of-ceo-book-lessons.html</link>

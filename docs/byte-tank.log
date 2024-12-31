@@ -31978,3 +31978,12 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Note Taking](https://lopespm.com/notes/2024/12/30/note-taking.html)
 append_entries: 1
 Finish: 2024-12-31 00:14:05.076529
+------------------------------------------------------
+Started: 2024-12-31 02:24:57.156130
+Existing_entries: 61
+Fetching from https://lopespm.com/atom.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [2024 Lookback](https://lopespm.com/notes/2024/12/31/2024-lookback.html)
+append_entries: 1
+Finish: 2024-12-31 02:24:57.918173
