@@ -5,19 +5,131 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】直棋 (三棋): 唤起儿时回忆的反直觉“短游戏”</title>
+<link>https://meta.appinn.net/t/topic/39826</link>
+<guid>https://meta.appinn.net/t/topic/39826</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-138419-h-1" name="p-138419-h-1"></a>软件名称</h2>
+<p>直棋</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-138419-h-2" name="p-138419-h-2"></a>应用平台</h2>
+<p>iOS / Android / Windows / Linux</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-138419-h-3" name="p-138419-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-138419-h-4" name="p-138419-h-4"></a>一句简介</h2>
+<p>直棋是一种古老经典，规则简单，“反直觉” 的棋类游戏。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-138419-h-5" name="p-138419-h-5"></a>应用简介</h2>
+<p>直棋是一种古老经典的棋类游戏，国内流传甚广，有“三棋”、“成三棋”、“打三棋”、“连三”、“走城”、“龙棋”、“九子棋”等别称。在我们的童年时代曾经非常流行。</p>
+<p>直棋规则简单，老少皆宜。通过棋盘上的三圈二十四点等元素，展现出和谐、庄重和对称美，有九宫八卦之玄机。</p>
+<p>直棋是一种“短游戏”应用，一局棋的时间短，回合数少，但又不乏深度，不仅符合当下人们碎片化游戏的需求，同时也能满足人们对策略游戏的兴趣。</p>
+<p>同时，直棋是一种典型的“反直觉”游戏，如：后手其实比先手明显更容易获胜，试图首先“成三”的一方反而更容易输棋，“飞子”阶段劣势一方也有力挽狂澜扭转乾坤之机等，趣味无穷。</p>
+<p>直棋的取胜策略和《孙子兵法》的思想是相通的。它们都强调“先为不可胜，以待敌之可胜。”</p>
+<p>主要功能：</p>
+<ul>
+<li>支持全国各地多种棋规变种 （还在进一步完善中，也欢迎各位网友介绍熟悉的规则变体）；</li>
+<li>支持和 AI 对战，或双人对战，或 AI 之间对战；</li>
+<li>游戏难度可配；</li>
+<li>界面颜色主题可配。</li>
+</ul>
+<p>截图预览：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/2/5/25de5ae4beced27981de9eb2c3c27124815f8317.png" title="1"><img alt="1" height="500" src="https://meta.appinn.net/uploads/default/optimized/3X/2/5/25de5ae4beced27981de9eb2c3c27124815f8317_2_281x500.png" width="281" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/7/9/79f1fc01affac63e2f7ad1bd654af9b38cc39084.png" title="2"><img alt="2" height="500" src="https://meta.appinn.net/uploads/default/optimized/3X/7/9/79f1fc01affac63e2f7ad1bd654af9b38cc39084_2_281x500.png" width="281" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/0/1/01865103cca105ed5f128c9cd839d207f2f7cf3d.png" title="3"><img alt="3" height="500" src="https://meta.appinn.net/uploads/default/optimized/3X/0/1/01865103cca105ed5f128c9cd839d207f2f7cf3d_2_281x500.png" width="281" /></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/3/9/39e563f468d4f03bd7d4ceb49bdd473c3f1cd511.png" title="6"><img alt="6" height="500" src="https://meta.appinn.net/uploads/default/optimized/3X/3/9/39e563f468d4f03bd7d4ceb49bdd473c3f1cd511_2_281x500.png" width="281" /></a></div><p></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-138419-h-6" name="p-138419-h-6"></a>官方网站</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="64" src="https://meta.appinn.net/uploads/default/original/3X/9/d/9dc3b674f0123be6e1137645ee517c5922379d70.png" width="64" />
+
+      <a href="https://gitee.com/calcitem/Sanmill/blob/master/README-zh_CN.md" rel="noopener nofollow ugc" target="_blank">Gitee</a>
+  </header>
+
+  <article class="onebox-body">
+    <img class="thumbnail onebox-avatar" height="248" src="https://foruda.gitee.com/avatar/1677035294089560790/5086647_calcitem_1618623768.png" width="248" />
+
+<h3><a href="https://gitee.com/calcitem/Sanmill/blob/master/README-zh_CN.md" rel="noopener nofollow ugc" target="_blank">calcitem/直棋</a></h3>
+
+  <p>Sanmill 是一个使用 Flutter、Qt 和 C++ 创作的支持多种棋规变种的直棋游戏。直棋流传于中国各地，有许多规则变体，名称亦不相同。譬如三棋/成三棋/打三棋/连三/走城/龙棋/风车棋/九人毛利/九子棋等。</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p><a class="onebox" href="https://apps.apple.com/cn/app/mill-n-mens-morris/id1662297339" rel="noopener nofollow ugc" target="_blank">https://apps.apple.com/cn/app/mill-n-mens-morris/id1662297339</a></p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="48" src="https://meta.appinn.net/uploads/default/original/2X/0/0e10738b234ef2aba98b151d4ccf6ceddf9cc2e2.png" width="48" />
+
+      <a href="https://f-droid.org/zh_Hans/packages/com.calcitem.sanmill/" rel="noopener nofollow ugc" target="_blank">f-droid.org</a>
+  </header>
+
+  <article class="onebox-body">
+    <img class="thumbnail onebox-avatar" height="500" src="https://f-droid.org/repo/com.calcitem.sanmill/en-US/icon_pLxsR3w1KB0A_H3Nv9gDiPAwTVrVmmQiYY2dOnHPk3A=.png" width="500" />
+
+<h3><a href="https://f-droid.org/zh_Hans/packages/com.calcitem.sanmill/" rel="noopener nofollow ugc" target="_blank">Mill | F-Droid - Free and Open Source Android App Repository</a></h3>
+
+  <p>A Mill Game which supports many rule variants, written in Flutter</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<aside class="onebox googleplayapp">
+  <header class="source">
+
+      <a href="https://play.google.com/store/apps/details?id=com.calcitem.sanmill&amp;hl=zh" rel="noopener nofollow ugc" target="_blank">play.google.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h3>直棋 | 三棋 | 九子棋 | 十二子棋 - Google Play 上的应用</h3>
+
+<div class="aspect-image"><img class="thumbnail" height="500" src="https://meta.appinn.net/uploads/default/optimized/3X/a/3/a3c949a62e354e83e2727dd0e2d3923e9adeba3a_2_500x500.png" width="500" /></div>
+<p>直棋（又名成三棋、打三棋等），游戏支持设置民间多种规则变体...</p>
+<em>Free</em>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>直棋 App 将永久免费开源。过去两年来，在开源社区的加持下，取得了长足的进步，并支持了Android、iOS、Windows 和 Linux 等四大平台。我们也期待直棋爱好者加入开发者团队，一起来完善和壮大这款 App，弘扬直棋文化。欢迎访问我们的官网了解更多信息。</p>
+            <p><small>22 个帖子 - 4 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/39826">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 20 Jan 2023 11:39:37 +0000</pubDate>
+<pubDate>Fri, 20 Jan 2023 11:39:37 +0000</pubDate>
+</item>
+
+<item>
 <title>大家手机的储存空间情况是怎么样的？你们是怎么解决手机储存空间不足的问题的？</title>
 <link>https://meta.appinn.net/t/topic/41082</link>
 <guid>https://meta.appinn.net/t/topic/41082</guid>
 <content:encoded><![CDATA[
-
 <p>最近老同学找我玩游戏，下完发现128g的储存空间只剩15g，除了“小而美”和“虚幻Q”都不知道存储叫谁吃去了，大家都是怎么管理手机存储问题的。</p>
             <p><small>18 个帖子 - 17 位参与者</small></p>
             <p><a href="https://meta.appinn.net/t/topic/41082">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 27 Feb 2023 01:48:35 +0000</pubDate>
-<pubDate>Mon, 27 Feb 2023 01:48:35 +0000</pubDate>
 </item>
-
 <item>
 <title>有好用的视频逐帧截图工具吗？</title>
 <link>https://meta.appinn.net/t/topic/64777</link>
