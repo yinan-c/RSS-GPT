@@ -4587,3 +4587,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Twenty Twenty-Five, codename “Output”](https://manuelmoreale.com/@/page/2NeJ2uK33gUbCco5)
 append_entries: 1
 Finish: 2025-01-01 06:05:13.232419
+------------------------------------------------------
+Started: 2025-01-01 08:05:15.465283
+Existing_entries: 571
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-01 08:05:16.483324
