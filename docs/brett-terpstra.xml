@@ -4,6 +4,64 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Brett's Favorites 2024: Behind The Scenes</title>
+<link>https://brett.trpstra.net/link/535/16931942/bretts-favorites-2024-behind-the-scenes</link>
+<guid>https://brett.trpstra.net/link/535/16931942/bretts-favorites-2024-behind-the-scenes</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/bretts-favorites-2024-rb.jpg" /></p>
+
+<p>So I used a lot of tools and automations to put this year&rsquo;s lists together. Here&rsquo;s a behind-the-scenes look at them.</p>
+
+<p>Putting lists like these together is so much easier with <a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a> and my new <a href="https://brettterpstra.com/2024/12/18/auto-generate-setapp-affiliate-links/" title="Auto-generate Setapp Affiliate Links">Setapp Affiliate link Shortcut</a>. I can just make a list of my favorite apps with the app name surrounded by <code class="language-plaintext highlighter-rouge">[app name](!s)</code>, adding <code class="language-plaintext highlighter-rouge">(!s +additional search terms)</code> if the name is vague. When the list is complete, just run SearchLink on the whole file and have all the links added.</p>
+
+<p>I included a <code class="language-plaintext highlighter-rouge">(Setapp)</code> marker after the ones that were on Setapp, then wrote a little script that found those markers, grabbed the app name proceeding them, and ran it through the Setapp Affiliate shortcut<sup id="fnref:bitly"><a class="footnote" href="https://brettterpstra.com#fn:bitly" rel="footnote">1</a></sup>. Usually all of the little Setapp icons just link to the Setapp main page, but with the new tools this year, each one links to the Setapp landing page for that specific app.</p>
+
+<p>For the hardware list, SearchLink was able to help by grabbing links from my Firefox history, which had the landing pages stored. I also leveraged my Linkding plugin to grab pages I knew I&rsquo;d bookmarked. It takes a little memory to know what to look for where, but it&rsquo;s easy to adjust the search and try again.</p>
+
+<p>I got about 90% accuracy on all of the links, and cleaning them up was easy. The report that SearchLink provides, which includes app titles where possible, made it easy to verify, and any mysteries were easily solved using my <a href="https://brettterpstra.com/projects/bretts-popclip-extensions/#checkurls" title="Brett's PopClip Extensions">URL Preview PopClip extension</a> (also available <a href="https://brettterpstra.com/projects/url-preview/">as an Action/Service</a>), which lets you pop up a quick preview without switching to your browser.</p>
+
+<p>I could easily have added app icons to the Mac and iOS posts with a little scripting and my various icon grabber scripts that can pull icons from local apps or use the iTunes API to get icons from the App Stores. That looked to busy, though.</p>
+
+<p>I&rsquo;ve been doing all of the editing in <a href="https://nvultra.com">nvUltra</a>, but that uses the same editing engine as <a href="https://multimarkdown.com/" title="MultiMarkdown Composer">MultiMarkdown Composer</a>, so even if you&rsquo;re not on the beta<sup id="fnref:beta"><a class="footnote" href="https://brettterpstra.com#fn:beta" rel="footnote">2</a></sup>, you can still have all that power. Moving sections around, selecting sentences with a keystroke, full autocompletion of all Markdown syntax (including reference links), file transclusion, all of the things.</p>
+
+<p>Add to that list <a href="https://brettterpstra.com/projects/keybindings/">all of my custom keybindings</a>, which make things like adding SearchLink syntax easy. And selecting paragraphs and sentences with quick keystrokes means running SearchLink on a per-paragraph basis is all a few keystrokes away. I can even bookmark a spot in the text with <span class="keycombo combined" title="Option-1"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">1</kbd></span>, scroll to another part and copy or cut text, then jump back to the original location with <span class="keycombo combined" title="Option-2"><kbd class="mod symbol">&#8997;</kbd><kbd class="key symbol">2</kbd></span>. Even if you never use the vast majority of the key bindings I have in the example file, there are bound to be a few that you find useful.</p>
+
+<p>And then I have my Jekyll plugins, such as my <a href="https://brettterpstra.com/2021/06/22/a-jekyll-plugin-for-documenting-mac-keyboard-shortcuts/">keyboard shortcuts</a>, and my Keyboard Maestro <a href="https://brettterpstra.com/2021/09/01/keyboard-maestro-markdown-linking/">plugin for cross-linking</a>, and blogging is so easy with my current setup.</p>
+
+<p>I shudder to think about doing lists like these without these tools. If you blog, you should check them out.</p>
+
+<ul>
+  <li><a href="https://brettterpstra.com/projects/searchlink/" title="SearchLink">SearchLink</a></li>
+  <li><a href="https://brettterpstra.com/projects/bretts-popclip-extensions/" title="Brett's PopClip Extensions">My PopClip Extensions</a></li>
+  <li><a href="https://brettterpstra.com/projects/url-preview/" title="URL Preview">Preview URL</a></li>
+  <li><a href="https://brettterpstra.com/projects/keybindings/" title="KeyBindings">KeyBindings</a></li>
+  <li><a href="https://nvultra.com">nvUltra</a> (Coming&hellip; soon?)</li>
+  <li><a href="https://brettterpstra.com/2021/09/01/keyboard-maestro-markdown-linking/">Cross-linking documentation</a></li>
+  <li><a href="https://github.com/ttscoff/JekyllPlugins/tree/master">My Jekyll Plugins</a></li>
+</ul>
+<div class="footnotes">
+  <ol>
+    <li id="fn:bitly">
+      <p>Well, a special version of the Setapp Affiliate shortcut that uses the Bit.ly API, but I didn&rsquo;t publish that one as it required setup that is.gd doesn&rsquo;t&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:bitly">&#8617;</a></p>
+    </li>
+    <li id="fn:beta">
+      <p>Yes, we&rsquo;re stuck getting across the finish line, but if you want to try the very nearly complete beta, just <a href="https://brettterpstra.com/contact/">contact me</a>.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:beta">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F02%2Fbretts-favorites-2024-behind-the-scenes%2F&amp;text=Brett%27s+Favorites+2024%3A+Behind+The+Scenes&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F02%2Fbretts-favorites-2024-behind-the-scenes%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16931942.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-02T08:00:00-06:00</pubDate>
+<pubDate>2025-01-02T08:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Use iTerm to handle x-man-page URLs</title>
