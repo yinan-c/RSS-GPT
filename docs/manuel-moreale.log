@@ -4698,3 +4698,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Just because you can doesn’t mean you should](https://manuelmoreale.com/@/page/SCR4xHK5KIZSou9d)
 append_entries: 1
 Finish: 2025-01-02 18:04:38.089279
+------------------------------------------------------
+Started: 2025-01-02 20:04:33.473254
+Existing_entries: 572
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-02 20:04:34.502001
