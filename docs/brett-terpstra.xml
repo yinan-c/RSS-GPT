@@ -5,11 +5,56 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>Use iTerm to handle x-man-page URLs</title>
+<link>https://brett.trpstra.net/link/535/16931584/use-iterm-to-handle-x-man-page-urls</link>
+<guid>https://brett.trpstra.net/link/535/16931584/use-iterm-to-handle-x-man-page-urls</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/01/iterm-man-page-rb.7420.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>It started when I was playing with LaunchBar search templates. I tried the man page search and it opened a nice window in Terminal. But I didn&rsquo;t want to open Terminal when iTerm was already running.</p>
+
+<p>My initial search said it wasn&rsquo;t possible, but in fact it&rsquo;s really easy. I found <a href="https://gist.github.com/jspiewak/77f2fb3c321b396efe72">this gist</a>, which solved the problem.</p>
+
+<p>iTerm profiles can be set to handle URL handlers, including <code class="language-plaintext highlighter-rouge">x-man-page</code>, which is what the search template uses. If you create a new profile (call it &ldquo;Man Page&rdquo;) and under General, change &ldquo;Login Shell&rdquo; to &ldquo;Command&rdquo; and paste this in:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>bash -c "echo $$HOST$$ | sed -E 's/(.*)\/(.*)/\1 \2/' | xargs man"</code></pre></div></div>
+
+<p>Then at the bottom of the General pane, locate &ldquo;URL Schemes,&rdquo; and choose <code class="language-plaintext highlighter-rouge">x-man-page</code> from the dropdown. It will ask you if you want to make iTerm the default handler &mdash; click Yes (that&rsquo;s the point of this).</p>
+
+<p>That&rsquo;s the minimum you have to do. I went ahead and customized the color scheme, set the window to 80 columns, and added a little transparency and blur under Window settings. Under Session settings, I made sure that it was set to close when the command terminated, and disabled the warning about early termination, which was just annoying when I mistyped command and needed to try again.</p>
+
+
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/iterm-man-page-themes.jpg" /></p>
+              <figcaption>iTerm man page themes</figcaption>
+            
+
+<p><a href="https://brettterpstra.com//downloads/iterm-man-page-themes.zip">Here are the color schemes I made</a>, both light and dark. I&rsquo;m generally a &ldquo;dark&rdquo; guy in Terminal, but I kind of liked the light theme that Terminal used for man pages. I made it less yellow, and added contrasting colors for bold and underline text, which looks great when viewing man pages. Customize to your heart&rsquo;s content.</p>
+
+<p>It&rsquo;s a pretty cool trick, hopefully it helps those who didn&rsquo;t already know about it. Once you have it set up, you can use <code class="language-plaintext highlighter-rouge">x-man-page://[COMMAND]</code> anywhere you like, including aliasing it in your shell or creating a function. In Fish it would be:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>function nman --description 'Open man pages in a new terminal window'
+    open "x-man-page://"$argv
+end</code></pre></div></div>
+
+<p>Have fun!</p>
+
+<p>Like or share this post <a href="https://nojack.easydns.ca/users/ttscoff/statuses/113754454216289009" target="_blank" title="This post on Mastodon">on Mastodon</a>, <a href="https://bsky.app/intent/compose?text=Use+iTerm+to+handle+x-man-page+URLs%0A%0Ahttps%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F01%2Fuse-iterm-to-handle-x-man-page-urls%2F" target="_blank" title="Share on Bluesky">Bluesky</a>, or <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F01%2Fuse-iterm-to-handle-x-man-page-urls%2F&amp;text=Use+iTerm+to+handle+x-man-page+URLs&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F01%2Fuse-iterm-to-handle-x-man-page-urls%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16931584.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-01T12:00:00-06:00</pubDate>
+<pubDate>2025-01-01T12:00:00-06:00</pubDate>
+</item>
+
+<item>
 <title>Brett's Favorites 2024: Late Additions</title>
 <link>https://brett.trpstra.net/link/535/16931468/bretts-favorites-2024-late-additions</link>
 <guid>https://brett.trpstra.net/link/535/16931468/bretts-favorites-2024-late-additions</guid>
 <content:encoded><![CDATA[
-
 <p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/bretts-favorites-2024-rb.jpg" /></p>
 
 <p>Happy New Year! I managed to get the bulk of the <a href="https://brettterpstra.com/series/bretts-yearly-top-apps-lists/">Best of 2024 series</a> out before the midnight deadline. Nice job, Brett. But here are a few late additions that I missed, and ones I&rsquo;m looking forward to using more of in 2025.</p>
@@ -66,9 +111,7 @@
 <p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16931468.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-01-01T08:00:00-06:00</pubDate>
-<pubDate>2025-01-01T08:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Brett's Favorites 2024: Personal Projects</title>
 <link>https://brett.trpstra.net/link/535/16930966/bretts-favorites-2024-personal-projects</link>
