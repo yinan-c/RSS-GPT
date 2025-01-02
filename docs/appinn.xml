@@ -4,6 +4,44 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>Curl-impersonate：curl 的特殊版本，可以模拟 Chrome 和 Firefox</title>
+<link>https://meta.appinn.net/t/topic/64796</link>
+<guid>https://meta.appinn.net/t/topic/64796</guid>
+<content:encoded><![CDATA[
+
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/lwthiker/curl-impersonate" rel="noopener" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/da2a5183b6140f5f42123413e12e51d3/lwthiker/curl-impersonate" width="690" />
+
+  <h3><a href="https://github.com/lwthiker/curl-impersonate" rel="noopener" target="_blank">GitHub - lwthiker/curl-impersonate: curl-impersonate: A special build of curl that can...</a></h3>
+
+    <p><span class="github-repo-description">curl-impersonate: A special build of curl that can impersonate Chrome &amp; Firefox</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>一种特殊的<a href="https://github.com/curl/curl">curl</a>构建，可以模拟四种主要浏览器：Chrome、Edge、Safari和Firefox。 curl-impersonate 能够执行与真实浏览器相同的 TLS 和 HTTP 握手。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64796">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 02 Jan 2025 01:06:34 +0000</pubDate>
+<pubDate>Thu, 02 Jan 2025 01:06:34 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】直棋 (三棋): 唤起儿时回忆的反直觉“短游戏”</title>
