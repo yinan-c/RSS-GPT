@@ -5,11 +5,54 @@
 <link>https://brettterpstra.com/</link>
 
 <item>
+<title>Web Excursions for January 2nd, 2025</title>
+<link>https://brett.trpstra.net/link/535/16932574/web-excursions-for-january-2nd-2025</link>
+<guid>https://brett.trpstra.net/link/535/16932574/web-excursions-for-january-2nd-2025</guid>
+<content:encoded><![CDATA[
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2017/03/web-exc-map.jpg" /></p>
+
+<p>Web excursions brought to you in partnership with Setapp. <a href="https://go.setapp.com/stp44">Get access to hundreds of Mac and iOS apps for one low monthly subscription fee.</a></p>
+
+<dl>
+  <dt><a href="https://github.com/alexwlchan/safari-webarchiver">alexwlchan/safari-webarchiver</a></dt>
+  <dd>Save web pages as Safari webarchive files from the command line. H/T to <a href="https://www.thoughtasylum.com/2024/12/27/web-links-and-archives-for-mac-file-managers/">Stephen Millard</a></dd>
+  <dd>
+    <p>I&rsquo;ve incorporated this into my linkding archiving script so that a webarchive file is saved alongside the Markdown version of archived bookmarks. Note that if you have SIP enabled, you won&rsquo;t be able to use the downloadable version of the tool, you&rsquo;ll need to download the source and compile with <code class="language-plaintext highlighter-rouge">swiftc</code> (see the README).</p>
+  </dd>
+  <dt><a href="https://wakamaifondue.com/">Wakamai Fondue</a></dt>
+  <dd>
+    <blockquote>
+      <p>The tool that answers the question “what can my font do?”</p>
+    </blockquote>
+  </dd>
+  <dd>
+    <p>Upload a font and see all of its features (kerning, ligatures, variants) and download CSS for enabling the features.</p>
+  </dd>
+  <dt><a href="https://github.com/mickael-menu/ShadowVim">mickael-menu/ShadowVim:</a></dt>
+  <dd>&ldquo;Neovim <em>inside</em> Xcode, for real.&rdquo; This uses the Accessibility API to put a &ldquo;shadow&rdquo; Neovim instance into the Xcode editor. Xcode&rsquo;s Vim mode is pretty good, but this gives you almost everything, including macros and plugins.</dd>
+  <dt><a href="https://www.youtube.com/watch?v=Z8BL8mdzWHI&amp;list=WL&amp;index=8">Nix is my favorite package manager to use on macOS</a></dt>
+  <dd>I&rsquo;m not totally sold on revamping my setup, but if you&rsquo;re ambitious (or not already embedded in Homebrew), here&rsquo;s a full description and tutorial video for the Nix package manager (which can work on top of Homebrew).</dd>
+</dl>
+
+<p><a href="https://go.setapp.com/stp44">Check out Setapp</a> today and get access to the best Mac and iOS apps out there.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F02%2Fweb-excursions-for-january-2nd-2025%2F&amp;text=Web+Excursions+for+January+2nd%2C+2025&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F02%2Fweb-excursions-for-january-2nd-2025%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16932574.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-02T11:21:00-06:00</pubDate>
+<pubDate>2025-01-02T11:21:00-06:00</pubDate>
+</item>
+
+<item>
 <title>Brett's Favorites 2024: Behind The Scenes</title>
 <link>https://brett.trpstra.net/link/535/16931942/bretts-favorites-2024-behind-the-scenes</link>
 <guid>https://brett.trpstra.net/link/535/16931942/bretts-favorites-2024-behind-the-scenes</guid>
 <content:encoded><![CDATA[
-
 <p><img src="https://cdn3.brettterpstra.com/uploads/2024/12/bretts-favorites-2024-rb.jpg" /></p>
 
 <p>So I used a lot of tools and automations to put this year&rsquo;s lists together. Here&rsquo;s a behind-the-scenes look at them.</p>
@@ -60,9 +103,7 @@
 <p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16931942.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-01-02T08:00:00-06:00</pubDate>
-<pubDate>2025-01-02T08:00:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Use iTerm to handle x-man-page URLs</title>
 <link>https://brett.trpstra.net/link/535/16931584/use-iterm-to-handle-x-man-page-urls</link>

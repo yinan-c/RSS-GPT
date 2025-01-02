@@ -4689,3 +4689,12 @@ Existing_entries: 571
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-02 16:04:57.211448
+------------------------------------------------------
+Started: 2025-01-02 18:04:37.411313
+Existing_entries: 571
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Just because you can doesn’t mean you should](https://manuelmoreale.com/@/page/SCR4xHK5KIZSou9d)
+append_entries: 1
+Finish: 2025-01-02 18:04:38.089279

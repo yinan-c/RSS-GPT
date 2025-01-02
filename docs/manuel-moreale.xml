@@ -4,6 +4,29 @@
 <title>Manuel Moreale RSS Feed</title>
 <link>https://manuelmoreale.com</link>
 
+<item>
+<title>Just because you can doesn’t mean you should</title>
+<link>https://manuelmoreale.com/@/page/SCR4xHK5KIZSou9d</link>
+<guid>https://manuelmoreale.com/@/page/SCR4xHK5KIZSou9d</guid>
+<content:encoded><![CDATA[
+
+<p>The other day I was reading a fun short post written by the always great Cassidy Williams. <a href="https://cassidoo.co/post/web-dev-sentence/">It’s a post about JavaScript</a>. Loved the metaphor but I have something to say about the ending, or rather, that part that was just briefly mentioned in the ending:</p>
+<blockquote>
+<p>We could really go deep on this metaphor talking about how you can add too much to a sentence or poorly construct it and lose the meaning, but you get the idea.</p>
+</blockquote>
+<p>This is my issue with the use of JS on the web today, an issue that can be summarised with the good old <em>“Just because you can doesn’t mean you should”</em>. So many websites out there are goddamn impossible to use these days. Every item on the page has to be animated, things have to slide or fade in as you scroll, and things can’t stay still apparently for more than 5 seconds. So much scrolljacking and cursor hijacking for literally no reason other than showing that you can.</p>
+<p>I’m part of that small group that hates JS a bit. Actually, I don’t really hate JS. I hate the fact that JS is enabling people to do shitty things. But I’m also aware that it’s enabling a ton of incredible stuff as well. For example, <a href="https://banjosoundscapes.com/">this homepage</a> is amazing and without JS you’d not be able to make it. But sites like this one are not the norm sadly.</p>
+<p>But I get it, flashy designs sell well and you can probably charge more for them so I don’t see things improving anytime soon.</p>                <hr />
+                <p>Thank you for keeping RSS alive. You're awesome.</p>
+                <p><a href="mailto:hello@manuelmoreale.com">Email me</a> ::
+                <a href="https://manuelmoreale.com/guestbook">Sign my guestbook</a> :: 
+                <a href="https://ko-fi.com/manuelmoreale">Support for 1$/month</a> :: 
+                <a href="https://manuelmoreale.com/supporters">See my generous supporters</a> :: 
+                <a href="https://buttondown.email/peopleandblogs">Subscribe to People and Blogs</a></p>
+]]></content:encoded>
+<pubDate>Thu, 02 Jan 2025 17:15:00 +0100</pubDate>
+<pubDate>Thu, 02 Jan 2025 17:15:00 +0100</pubDate>
+</item>
 
 <item>
 <title>Twenty Twenty-Five, codename “Output”</title>
