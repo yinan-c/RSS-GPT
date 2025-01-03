@@ -4761,3 +4761,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Pauline P. Narvas](https://manuelmoreale.com/@/page/3akmLh9QiJ7GwbtS)
 append_entries: 1
 Finish: 2025-01-03 14:03:56.420169
+------------------------------------------------------
+Started: 2025-01-03 16:04:54.175752
+Existing_entries: 573
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-03 16:04:54.910776

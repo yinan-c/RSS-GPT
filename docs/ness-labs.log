@@ -21054,3 +21054,12 @@ Existing_entries: 58
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-01-03 14:03:53.987245
+------------------------------------------------------
+Started: 2025-01-03 16:04:52.061912
+Existing_entries: 58
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A Year of Curiosity](https://nesslabs.com/a-year-of-curiosity?utm_source=rss&utm_medium=rss&utm_campaign=a-year-of-curiosity)
+append_entries: 1
+Finish: 2025-01-03 16:04:52.698126
