@@ -4,6 +4,70 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>一年一更，抓取统计2024年公众号小众软件阅读数前10文章，导出所有文章内容合成一个pdf文件</title>
+<link>https://meta.appinn.net/t/topic/64877</link>
+<guid>https://meta.appinn.net/t/topic/64877</guid>
+<content:encoded><![CDATA[
+
+<p>距离去年发布的帖子过去一年了 <a class="inline-onebox" href="https://meta.appinn.net/t/topic/51085">抓取2023年公众号小众软件阅读数前10文章列表，以及所有历史文章pdf合集</a></p>
+<p>今年继续抓取统计2024年公众号小众软件阅读数前10文章，导出所有文章内容合成一个pdf文件。</p>
+<p>2024年共发布文章697篇（原创646篇），比去年多了200多篇。<br />
+<img alt="1" height="340" src="https://h1.appinn.me/file/1735957408946_image.png" width="690" /></p>
+<p>导出的文章数据excel包含文章日期，文章标题，文章链接，文章简介，文章作者，文章封面图，是否原创，IP归属地，阅读数，在看数，点赞数，留言数，赞赏次数等，从数据可以看出头条352篇，次条335篇，几乎是日更，看文章作者几乎都是青小蛙， 作者主要在四川，新疆，贵州，有几次在香港。</p>
+<p><img alt="2" height="275" src="https://h1.appinn.me/file/1735957538481_image.png" width="690" /><br />
+根据阅读数排序，排名前10的文章如下，很遗憾2024年没有10万+，可能是被删除关于zlibrary的文章导致，去年5月公众号全网删除相关的文章：<br />
+<img alt="3" height="275" src="https://h1.appinn.me/file/1735957947895_image.png" width="690" /></p>
+<p>前10列表：</p>
+<p>2024/11/11  从800元二手群晖到自研 App，一个程序员的 NAS 进化之路  <a href="https://mp.weixin.qq.com/s/Jvmqo2Fmqg7qRtNL2ZPAJA" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/Jvmqo2Fmqg7qRtNL2ZPAJA</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Me8WkRV8LVVYImwOSYm3xc8ia3dvicrJrvTuGibrHrM7OPcmoEsMNdT3NSZgwnJAPcS8PDfCZkyt718Q/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Me8WkRV8LVVYImwOSYm3xc8ia3dvicrJrvTuGibrHrM7OPcmoEsMNdT3NSZgwnJAPcS8PDfCZkyt718Q/0?wx_fmt=jpeg</a> 是 1 否 中国  四川  35181 50  186 655 214 0<br />
+2024/11/28  29 年后，正版 WinRAR 终于来了  <a href="https://mp.weixin.qq.com/s/U3ftKr9eh4iDCudduaVZTQ" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/U3ftKr9eh4iDCudduaVZTQ</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MfLKqiahny1qSOqvT18LMvZJ5pWRrtenvo5oABzSiauzmNT4L8R0MHa7NW8R8uxWk59fZYXnV08uThQ/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MfLKqiahny1qSOqvT18LMvZJ5pWRrtenvo5oABzSiauzmNT4L8R0MHa7NW8R8uxWk59fZYXnV08uThQ/0?wx_fmt=jpeg</a>  是 1 否 中国  四川  27550 17  68  116 231 0<br />
+2024/10/13  2024年了，居然还有开发者为 53 年前的东西开发软件  <a href="https://mp.weixin.qq.com/s/ifAeDctDLWxrPlIm-IFogQ" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/ifAeDctDLWxrPlIm-IFogQ</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MeaL0kmy4TLyCo7rrm2gI0Ko6oWSmF6T7fbp7rWYHxlkL512FLYW1fHSpATjSO5XmzibT0MeEibjCXw/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MeaL0kmy4TLyCo7rrm2gI0Ko6oWSmF6T7fbp7rWYHxlkL512FLYW1fHSpATjSO5XmzibT0MeEibjCXw/0?wx_fmt=jpeg</a>  是 1 否 中国  四川  25909 16  67  215 64  0<br />
+2024/10/4 又又又又改名了，Windows 11 2024（又叫 24H2）都更新了什么？ <a href="https://mp.weixin.qq.com/s/sWiaxOyWXnw1wNk8oILHaA" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/sWiaxOyWXnw1wNk8oILHaA</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MfCNfMpDhcFVxIHYTmiagXD8wC3H5thQfleMQWDbDoZt955HXxT737vzVGLAicRFBy5j1NghZ8icEbkA/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MfCNfMpDhcFVxIHYTmiagXD8wC3H5thQfleMQWDbDoZt955HXxT737vzVGLAicRFBy5j1NghZ8icEbkA/0?wx_fmt=jpeg</a> 是 1 否 中国  四川  25588 6 53  88  180 0<br />
+2024/4/30 开发者看不惯收费应用纯坑小白，说要砸他饭碗，直接开源免费，而且写的比他好  <a href="https://mp.weixin.qq.com/s/qdOtpBJKnCI1qhvbatem8w" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/qdOtpBJKnCI1qhvbatem8w</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MdDR0bZIQW9R5OGlR6E5Jh3miaTaMRAR2NacGqcKhSr3kks0bYnBEHXIbpAK3PXicy3tSVd6J14IXqw/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3MdDR0bZIQW9R5OGlR6E5Jh3miaTaMRAR2NacGqcKhSr3kks0bYnBEHXIbpAK3PXicy3tSVd6J14IXqw/0?wx_fmt=jpeg</a>  是 1 否 中国  四川  24996 35  141 780 56  1<br />
+2024/9/17 堪比张三李四，这大概是软件界最常用的名字了 <a href="https://mp.weixin.qq.com/s/5nZUBzHPrwcEkDdqB_UOGA" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/5nZUBzHPrwcEkDdqB_UOGA</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Meia4KhCckKZ0nr3ocgNzTuUyEXMjyISN2k6w79PDLjaOTkQRiaPDSKiaYBblE76HGITYh6vFGyO5Q2w/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Meia4KhCckKZ0nr3ocgNzTuUyEXMjyISN2k6w79PDLjaOTkQRiaPDSKiaYBblE76HGITYh6vFGyO5Q2w/0?wx_fmt=jpeg</a> 是 1 否 中国  四川  24394 29  113 481 239 0<br />
+2024/9/25 你们要的纯单机软件来了。  <a href="https://mp.weixin.qq.com/s/8Gx0mRmeIpg7gfh_PuGfEg" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/8Gx0mRmeIpg7gfh_PuGfEg</a>   青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Mea87HqOpYWZzyJg5JI5vzRiap44I8qSS6ssiaUGPo9083kibReNiavzvrgm92tu3aib5iaHibtGPtmjXwMw/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Mea87HqOpYWZzyJg5JI5vzRiap44I8qSS6ssiaUGPo9083kibReNiavzvrgm92tu3aib5iaHibtGPtmjXwMw/0?wx_fmt=jpeg</a> 是 1 否 中国  四川  23585 44  140 836 62  1<br />
+2024/2/22 苹果官方居然发布了一款三无应用：Apple Sports  <a href="https://mp.weixin.qq.com/s/JPNH_Wd3Tq0R20tjte04NQ" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/JPNH_Wd3Tq0R20tjte04NQ</a> 真三无：无中文界面、无中区上架、无中国联赛，看看就好。 青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Mc7AjVswlQ46y13walXxXrbjzOffgEyCgniaIno1DIFGJqPNMtrv4TXJC8aSGz2cTYZjN423IVb8kA/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Mc7AjVswlQ46y13walXxXrbjzOffgEyCgniaIno1DIFGJqPNMtrv4TXJC8aSGz2cTYZjN423IVb8kA/0?wx_fmt=jpeg</a> 是 1 否 中国  四川  23422 0 8 131 32  0<br />
+2024/4/6  微软亲儿子、小工具之王 PowerToys 更新｜但，它凭什么 641MB 啊…  <a href="https://mp.weixin.qq.com/s/HCRxITSjUNWNokya0tWjtQ" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/HCRxITSjUNWNokya0tWjtQ</a> PowerToys 在两日前进入了 v0.80.0 发布周期，将着重解决稳定性、改进和新功能。 青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Mc9DeY1UfMM2iaHwBPl8aLOkpIHZrzVT79Ria0819ickID1ru8lfwgXBQBW9uiaicTsDAGmX6icSVibyTINw/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3Mc9DeY1UfMM2iaHwBPl8aLOkpIHZrzVT79Ria0819ickID1ru8lfwgXBQBW9uiaicTsDAGmX6icSVibyTINw/0?wx_fmt=jpeg</a> 是 1 否 中国  四川  23051 13  62  280 95  0<br />
+2024/7/13 还记得 9 年前的《迷你地铁》吗？ <a href="https://mp.weixin.qq.com/s/ZazQCLjldvwjuZndJFVrfw" rel="noopener nofollow ugc">https://mp.weixin.qq.com/s/ZazQCLjldvwjuZndJFVrfw</a> Mini Metro Web 是一个网页工具，它能创建《迷你地铁》游戏风格的地铁线路图，无限大画布、无限数量站 青小蛙 <a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3McByVyzXSkCSt3cicOG6agr6QtshyDbHHrRjatluuw3FzkZ8xw5QGDVicjqgDyfFYnSETndeOABaydw/0?wx_fmt=jpeg" rel="noopener nofollow ugc">https://mmbiz.qpic.cn/sz_mmbiz_jpg/4icbjwFqP3McByVyzXSkCSt3cicOG6agr6QtshyDbHHrRjatluuw3FzkZ8xw5QGDVicjqgDyfFYnSETndeOABaydw/0?wx_fmt=jpeg</a>  是 1 否 中国  贵州  22932 79  207 466 18  0</p>
+<p>留言最多的文章是 <a href="https://mp.weixin.qq.com/s/5nZUBzHPrwcEkDdqB_UOGA" rel="noopener nofollow ugc">堪比张三李四，这大概是软件界最常用的名字了</a></p>
+<p>所有文章同步到博客，可以很方便的搜到某天的文章，从2013年持续更新到2025年了。<br />
+<a class="inline-onebox" href="https://sushengbuhuo.github.io/blog/#/wechat/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F%E4%BC%97%E8%BD%AF%E4%BB%B6%E5%8E%86%E5%8F%B2%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8" rel="noopener nofollow ugc">苏生不惑的博客</a></p>
+<p><img alt="4" height="464" src="https://h1.appinn.me/file/1735958135085_image.png" width="690" /></p>
+<p>所有文章合成的pdf（包含留言），分2个pdf，上半年350MB，下半年360MB，同步到百度网盘和夸克网盘，分享需要的朋友。</p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="128" src="https://pan.quark.cn/favicon.ico" width="128" />
+
+      <a href="https://pan.quark.cn/s/d9a9ee2db555" rel="noopener nofollow ugc" target="_blank">pan.quark.cn</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://pan.quark.cn/s/d9a9ee2db555" rel="noopener nofollow ugc" target="_blank">夸克网盘分享</a></h3>
+
+  <p>夸克网盘是夸克推出的一款云服务产品，功能包括云存储、高清看剧、文件在线解压、PDF一键转换等。通过夸克网盘可随时随地管理和使用照片、文档、手机资料，目前支持Android、iOS、PC、iPad。 </p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p><a class="onebox" href="https://pan.baidu.com/s/1kSyk_AIPFWmd9nk8-27OCw?pwd=dghv" rel="noopener nofollow ugc" target="_blank">https://pan.baidu.com/s/1kSyk_AIPFWmd9nk8-27OCw?pwd=dghv</a></p>
+<p><img alt="5" height="428" src="https://h1.appinn.me/file/1735958188892_image.png" width="690" /></p>
+<p><img alt="6" height="477" src="https://h1.appinn.me/file/1735958223184_image.png" width="690" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64877">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 04 Jan 2025 02:41:21 +0000</pubDate>
+<pubDate>Sat, 04 Jan 2025 02:41:21 +0000</pubDate>
+</item>
 
 <item>
 <title>Listary 团队新作： Gety 加入过等待列表的现可以体验了</title>
