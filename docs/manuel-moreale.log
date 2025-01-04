@@ -4851,3 +4851,12 @@ Existing_entries: 573
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-04 20:03:49.562895
+------------------------------------------------------
+Started: 2025-01-04 22:03:35.339328
+Existing_entries: 573
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [On Spotify](https://manuelmoreale.com/@/page/gfTKS60O5fbAzkrd)
+append_entries: 1
+Finish: 2025-01-04 22:03:36.098104
