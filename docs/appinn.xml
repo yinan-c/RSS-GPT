@@ -4,6 +4,120 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>SQLean——多功能SQLite扩展程序集</title>
+<link>https://meta.appinn.net/t/topic/64892</link>
+<guid>https://meta.appinn.net/t/topic/64892</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-1" name="p-241059-h-1"></a>软件名称</h2>
+<p>sqlean</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-2" name="p-241059-h-2"></a>推荐类型</h2>
+<p>【用户推荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-3" name="p-241059-h-3"></a>软件平台</h2>
+<p>Windows，Linux，macOS</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-4" name="p-241059-h-4"></a>一句话简介</h2>
+<p>一组 SQLite 扩展程序，可以为 SQLite 增加更多功能，比如计算样品标准偏差、中位数、百分位数等。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-5" name="p-241059-h-5"></a>项目首页</h2>
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/nalgeon/sqlean" rel="noopener" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/864c3bbee0a718351145c486a7650219/nalgeon/sqlean" width="690" />
+
+  <h3><a href="https://github.com/nalgeon/sqlean" rel="noopener" target="_blank">GitHub - nalgeon/sqlean: The ultimate set of SQLite extensions</a></h3>
+
+    <p><span class="github-repo-description">The ultimate set of SQLite extensions</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>许可证为 MIT</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-6" name="p-241059-h-6"></a>作者自述</h2>
+<blockquote>
+<p><em>原文见项目首页，以下内容由 DeepL 翻译</em></p>
+<p>与其他数据库管理系统相比，SQLite 的功能很少。SQLite 的作者认为这是一个特点而不是问题，因为 SQLite 有一个扩展机制。</p>
+<p>现在有很多 SQLite 扩展，但都不完整、不一致，而且散落在互联网上。Sqlean 将它们整合在一起，整齐地打包成域模块，并为 Linux、Windows 和 macOS 提供了文档记录和测试。</p>
+<p>我们并不试图将所有现有扩展集结成一大堆–那样做的用处不大。我们的目标是创建一套经过深思熟虑的域模块，并提供方便的应用程序接口。这是一种 SQLite 标准库。</p>
+<p>为了实现这一目标，我们会拆分过于宽泛的扩展，合并过于狭窄的扩展，重构，添加缺失的功能，测试，记录，并做大量其他的小事情。</p>
+</blockquote>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241059-h-7" name="p-241059-h-7"></a>使用案例</h2>
+<p>——在 DB Browser for SQLite 中，借助 sqlean 进行统计分析</p>
+<p>我有很多实验数据是存储在 SQLite 数据库中的，有时候要对这些结果进行分析。如果只是算极值、平均值还好说，SQLite 提供了 <code>max()</code>、<code>min()</code>、<code>average()</code> 函数。但要计算样品标准偏差就比较麻烦了，SQLite 本身没有这个功能。</p>
+<p>而 SQLean 提供了一个统计工具包扩展，这个扩展中包含了能计算标准偏差的函数。以下是操作方法：</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241059-h-1-8" name="p-241059-h-1-8"></a>1 下载扩展包</h3>
+<p>到 releases 页面，下载与您的操作系统相符的扩展包。以 Linux 系统为例，下载 <code>sqlean-linux-x86.zip</code>。然后，解压这个压缩包，找到其中的统计分析工具包 <code>stats.so</code>。</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241059-h-2-9" name="p-241059-h-2-9"></a>2 加载扩展包</h3>
+<p>打开 DB Browser for SQLite，然后打开数据库。接下来，点击 工具 → 加载扩展，找到刚刚解压出的 <code>stats.so</code>。加载完毕后，会弹出对话框 “扩展成功加载。”</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241059-h-3-10" name="p-241059-h-3-10"></a>3 调用统计函数</h3>
+<p>以样品标准偏差函数的函数为例，执行如下查询命令即可：</p>
+<pre><code class="lang-auto">SELECT stats_stddev(列名称) FROM 表名称 GROUP BY 分组依据
+</code></pre>
+<p>每一个函数的具体用法可参考作者的文档。以下是统计工具包的文档：</p>
+<aside class="onebox githubblob">
+  <header class="source">
+
+      <a href="https://github.com/nalgeon/sqlean/blob/main/docs/stats.md" rel="noopener" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/nalgeon/sqlean/blob/main/docs/stats.md" rel="noopener" target="_blank">nalgeon/sqlean/blob/main/docs/stats.md</a></h4>
+
+
+      <pre><code class="lang-md"># stats: Mathematical statistics in SQLite
+
+The `sqlean-stats` extension provides common statistical functions.
+
+[Reference](#reference) •
+[Acknowledgements](#acknowledgements) •
+[Installation and usage](#installation-and-usage)
+
+## Reference
+
+There are aggregate functions such as median and percentile, and a table-valued sequence function for generating sequences.
+
+### Aggregate functions
+
+-   `stats_median(x)` — median (50th percentile),
+-   `stats_p25(x)` — 25th percentile,
+-   `stats_p75(x)` — 75th percentile,
+-   `stats_p90(x)` — 90th percentile,
+-   `stats_p95(x)` — 95th percentile,
+-   `stats_p99(x)` — 99th percentile,
+</code></pre>
+
+
+
+  This file has been truncated. <a href="https://github.com/nalgeon/sqlean/blob/main/docs/stats.md" rel="noopener" target="_blank">show original</a>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64892">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 04 Jan 2025 08:58:18 +0000</pubDate>
+<pubDate>Sat, 04 Jan 2025 08:58:18 +0000</pubDate>
+</item>
 
 <item>
 <title>一年一更，抓取统计2024年公众号小众软件阅读数前10文章，导出所有文章内容合成一个pdf文件</title>
