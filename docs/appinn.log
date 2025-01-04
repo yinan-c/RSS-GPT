@@ -47711,3 +47711,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-04 12:05:05.698249
+------------------------------------------------------
+Started: 2025-01-04 14:03:11.800478
+Existing_entries: 680
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有没有edge上能快速把多个页面的视频整合在同一个页面同时播放的方案？](https://meta.appinn.net/t/topic/64898)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-01-04 14:03:14.844163
