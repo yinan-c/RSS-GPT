@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Stripping Emoji from a string</title>
 <link>https://brett.trpstra.net/link/535/16933504/stripping-emoji-from-a-string</link>
 <guid>https://brett.trpstra.net/link/535/16933504/stripping-emoji-from-a-string</guid>
 <content:encoded><![CDATA[
-
 <p>I often need to strip emoji from strings to prevent them from messing up other handling. I&rsquo;ve been compiling regular expressions and I think I finally have all the bases covered.</p>
 
 <p>This example is in Ruby, but the regular expressions are easy to adapt to any language:</p>
@@ -105,9 +105,7 @@ this to any other language, please add a routine to <a href="https://github.com/
 <p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16933504.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-01-04T11:06:00-06:00</pubDate>
-<pubDate>2025-01-04T11:06:00-06:00</pubDate>
 </item>
-
 <item>
 <title>Web Excursions for January 2nd, 2025</title>
 <link>https://brett.trpstra.net/link/535/16932574/web-excursions-for-january-2nd-2025</link>
