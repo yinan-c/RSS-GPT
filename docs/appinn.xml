@@ -4,6 +4,68 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>｛Table Habit｝：适用于 Android 的开源习惯追踪统计工具，拥有较为丰富的自定义选项</title>
+<link>https://meta.appinn.net/t/topic/64913</link>
+<guid>https://meta.appinn.net/t/topic/64913</guid>
+<content:encoded><![CDATA[
+
+<p><span class="hashtag-raw">#川陀大学图书馆</span></p>
+<p><code> </code><br />
+<strong>｛Table Habit｝：适用于 Android 的开源习惯追踪统计工具，拥有较为丰富的自定义选项</strong></p>
+<p>＞ 源码：<a href="https://github.com/FriesI23/mhabit" rel="noopener nofollow ugc">GitHub</a><br />
+＞ 许可：<a href="https://github.com/FriesI23/mhabit/blob/main/LICENSE" rel="noopener nofollow ugc">Apache-2.0</a></p>
+<p><code> </code><br />
+Table Habit（桌上习惯）是一个适用于 Android 的开源习惯追踪统计工具。该工具包括一套完整的成长曲线和图表，帮助你更有效地养成习惯。特性如下：</p>
+<ul>
+<li>一个评分系统，帮助你发展个人微习惯</li>
+<li>简单易用的界面，用于打卡签到习惯</li>
+<li>使用不同的颜色来区分不同的习惯</li>
+<li>可以使用人类可读的格式（JSON）导出和导入习惯</li>
+<li>适配 Material3 和 Android 12 及更高版本的动态颜色</li>
+<li>适配横屏和大屏设备</li>
+</ul>
+<p>每个习惯可以使用以下选项自定义：</p>
+<ul>
+<li>名称、描述</li>
+<li>类型（正/负）</li>
+<li>颜色</li>
+<li>每日目标、每日目标单位</li>
+<li>每天预计完成的最大目标</li>
+<li>频率</li>
+<li>开始日期、预计完成时间</li>
+<li>提醒事项</li>
+</ul>
+<p><img alt="1.png" height="500" src="https://h1.appinn.me/file/1736065602159_1.png" width="230" /><br />
+<img alt="2.png" height="500" src="https://h1.appinn.me/file/1736065605052_2.png" width="230" /><br />
+<img alt="3.png" height="500" src="https://h1.appinn.me/file/1736065605035_3.png" width="230" /><br />
+<img alt="4.png" height="500" src="https://h1.appinn.me/file/1736065599797_4.png" width="230" /><br />
+<img alt="6.png" height="500" src="https://h1.appinn.me/file/1736065602327_6.png" width="230" /></p>
+<blockquote>
+<p><em>笔者：这个项目相比之前推荐过的同类项目 <a href="https://t.me/trantor_library/490?single" rel="noopener nofollow ugc">Loop Habit Tracker</a>，主要优势是自定义选项较为丰富。另外开发者还计划适配 windows 和 linux，只不过都还处于早期阶段。</em></p>
+</blockquote>
+<p>版本：1.14.4 (57)<br />
+关注：GitHub 400+ stars<br />
+状态：正常维护，积极开发<br />
+语言：支持中文<br />
+网络：目前完全离线<br />
+资费：免费<br />
+平台：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/android"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>android</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/ios"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>ios</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/macos"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>macos</span></a></p>
+<p>＞ 安装：<a href="https://github.com/FriesI23/mhabit/releases" rel="noopener nofollow ugc">GitHub Releases</a>；<a href="https://f-droid.org/packages/io.github.friesi23.mhabit" rel="noopener nofollow ugc">F-Droid</a><br />
+＞ 捐助：<a href="https://github.com/FriesI23/mhabit#donate" rel="noopener nofollow ugc">～Donate</a>；<a href="https://www.buymeacoffee.com/d49cb87qgww" rel="noopener nofollow ugc">Buy Me A Coffee</a></p>
+<p><code> </code><br />
+＞ 副本：<a href="https://infosec.exchange/@trantor_library" rel="noopener nofollow ugc">川陀大学图书馆 FU102</a><br />
+＞ 副本：<a href="https://t.me/trantor_library" rel="noopener nofollow ugc">川陀大学图书馆 TG101</a><br />
+＞ 档案：<a href="https://t.me/trantor_archive/531" rel="noopener nofollow ugc">20240320_001</a></p>
+<p>＃：<span class="hashtag-raw">#1_开源项目</span> <span class="hashtag-raw">#2_开源工具收集</span><br />
+＃：<span class="hashtag-raw">#A_收集</span> <span class="hashtag-raw">#B_整理</span> <span class="hashtag-raw">#C_引述</span> <span class="hashtag-raw">#D_开源</span> <span class="hashtag-raw">#D_工具</span> <span class="hashtag-raw">#E_中文</span><br />
+％：2024年1月5日（UTC+8）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/64913">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 05 Jan 2025 08:35:01 +0000</pubDate>
+<pubDate>Sun, 05 Jan 2025 08:35:01 +0000</pubDate>
+</item>
 
 <item>
 <title>有没有edge上能快速把多个页面的视频整合在同一个页面同时播放的方案？</title>
