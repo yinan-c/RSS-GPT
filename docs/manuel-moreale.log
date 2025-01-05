@@ -4860,3 +4860,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [On Spotify](https://manuelmoreale.com/@/page/gfTKS60O5fbAzkrd)
 append_entries: 1
 Finish: 2025-01-04 22:03:36.098104
+------------------------------------------------------
+Started: 2025-01-05 00:15:55.076262
+Existing_entries: 574
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-05 00:15:56.102382
