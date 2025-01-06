@@ -47922,3 +47922,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [一个可以(一定程度上)缓解在线面试紧张的 app](https://meta.appinn.net/t/topic/64962)
 append_entries: 1
 Finish: 2025-01-06 16:04:09.039040
+------------------------------------------------------
+Started: 2025-01-06 18:04:21.814613
+Existing_entries: 683
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2025-01-06 18:04:25.575169
