@@ -5043,3 +5043,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment with some leftover Christmas spirit](https://manuelmoreale.com/@/page/8Zx2PABOYEMFcEFT)
 append_entries: 1
 Finish: 2025-01-07 08:05:06.951336
+------------------------------------------------------
+Started: 2025-01-07 10:04:11.330001
+Existing_entries: 577
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-07 10:04:11.957986
