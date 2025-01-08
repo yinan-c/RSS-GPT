@@ -4,6 +4,36 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【工具自荐】一款基于 AI 的智能书签管理插件</title>
+<link>https://meta.appinn.net/t/topic/65034</link>
+<guid>https://meta.appinn.net/t/topic/65034</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-241749-h-1" name="p-241749-h-1"></a>工具名称</h2>
+<p>Smart Bookmark</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241749-h-2" name="p-241749-h-2"></a>应用平台</h2>
+<p>Chrome浏览器插件</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241749-h-3" name="p-241749-h-3"></a><strong>工具简介</strong></h2>
+<p>Smart Bookmark 是一款基于 AI 的智能书签管理插件，专注于解决书签收藏和搜索的痛点。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241749-chrome-4" name="p-241749-chrome-4"></a><strong>Chrome 商店链接</strong></h2>
+<p><a href="https://chromewebstore.google.com/detail/smart-bookmark/nlboajobccgidfcdoedphgfaklelifoa" rel="noopener nofollow ugc"><img alt=":link:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/link.png?v=12" title=":link:" width="20" /> Smart Bookmark - 点击体验</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241749-h-5" name="p-241749-h-5"></a><strong>功能亮点</strong></h2>
+<ul>
+<li><strong>AI 自动生成标签</strong>：收藏网页时，智能生成相关标签，无需手动归类，彻底告别繁琐的文件夹！</li>
+<li><strong>语义化搜索</strong>：用自然语言描述内容即可快速找到目标书签。</li>
+<li><strong>自定义筛选规则</strong>：支持按标题、标签、网址等筛选规则，轻松实现书签自动归类，管理更加高效。</li>
+</ul>
+<p><img alt="view-4.png" height="431" src="https://h1.appinn.me/file/1736324198822_view-4.png" width="690" /><br />
+<img alt="view-3.png" height="431" src="https://h1.appinn.me/file/1736324214972_view-3.png" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-241749-h-6" name="p-241749-h-6"></a><strong>使用成本</strong></h2>
+<p>插件使用免费，用户需提供自己的AI模型 API Key（目前支持 OpenAI、通义千问、智谱 GLM）来使用AI功能。经过实际测试，<strong>1 元的 Token 足够使用一个多月</strong>。</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65034">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 08 Jan 2025 10:36:06 +0000</pubDate>
+<pubDate>Wed, 08 Jan 2025 10:36:06 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】字体秀 FontShow - 一个本地字体预览工具，批量对比自定义内容的字体效果</title>

@@ -48101,3 +48101,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-08 12:05:31.773366
+------------------------------------------------------
+Started: 2025-01-08 14:03:20.801529
+Existing_entries: 686
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【工具自荐】一款基于 AI 的智能书签管理插件](https://meta.appinn.net/t/topic/65034)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-01-08 14:03:23.261394
