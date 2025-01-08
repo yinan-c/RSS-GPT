@@ -5118,3 +5118,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment with the two towers](https://manuelmoreale.com/@/page/QBk5Gf3WKiOIqtIJ)
 append_entries: 1
 Finish: 2025-01-08 08:05:06.179496
+------------------------------------------------------
+Started: 2025-01-08 10:04:15.026469
+Existing_entries: 578
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-08 10:04:15.656060

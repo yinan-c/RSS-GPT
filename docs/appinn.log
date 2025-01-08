@@ -48083,3 +48083,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-08 08:04:27.805326
+------------------------------------------------------
+Started: 2025-01-08 10:03:41.122443
+Existing_entries: 684
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [【自荐】字体秀 FontShow - 一个本地字体预览工具，批量对比自定义内容的字体效果](https://meta.appinn.net/t/topic/65028)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [微信机器人怎么搞，想监控群消息](https://meta.appinn.net/t/topic/65026)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2025-01-08 10:03:44.075553
