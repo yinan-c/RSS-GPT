@@ -21423,3 +21423,12 @@ Existing_entries: 59
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-01-08 16:04:43.435527
+------------------------------------------------------
+Started: 2025-01-08 18:04:29.043778
+Existing_entries: 59
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Where Are You on the Woo Spectrum?](https://nesslabs.com/woo-spectrum?utm_source=rss&utm_medium=rss&utm_campaign=woo-spectrum)
+append_entries: 1
+Finish: 2025-01-08 18:04:29.699184

@@ -4,6 +4,90 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Habit Traffic: A Unique Approach to Habit Tracking</title>
+<link>https://brett.trpstra.net/link/535/16936381/habit-traffic-a-unique-approach</link>
+<guid>https://brett.trpstra.net/link/535/16936381/habit-traffic-a-unique-approach</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-header-rb.7426.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>Eric Linder, whom I affectionately call my Rabbi<sup id="fnref:1"><a class="footnote" href="https://brettterpstra.com#fn:1" rel="footnote">1</a></sup>, has created a habit tracking app with a twist, and it&rsquo;s ready for wider testing.</p>
+
+<p><a class="zoom" href="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600@2x.7426.webp"></a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>&lt;source type="image/webp" srcset="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600.7426.webp 1x, https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600@2x.7426.webp 2x" /&gt;
+&lt;source srcset="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600.7426.jpeg 1x, https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600@2x.7426.jpeg 2x" /&gt;
+&lt;img class="alignright zoom" data-original="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600.7426.jpeg" data-at2x="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600@2x.7426.jpeg" width="138" height="300" src="https://cdn3.brettterpstra.com/uploads/2025/01/habit-traffic-screenshot-600.jpeg" alt="Habit Traffic screenshot" title="Habit Traffic screenshot" /&gt;
+          &lt;/noscript&gt;
+        &lt;/picture&gt;&lt;/a&gt;</code></pre></div></div>
+
+<p>He had a need for something that didn&rsquo;t exist, so he built it. He did it in maybe three weeks, using AI to learn how to code it. I&rsquo;m really impressed how fast someone who previously had zero coding experience pulled together an app and got it all the way to a polished beta.</p>
+
+<p>I&rsquo;ll let him explain the app below. If you find it intriguing, get on the TestFlight and help him get across the finish line with an app that the world might need.</p>
+
+<p>From Eric (Rabbi) Linder:</p>
+
+<blockquote>
+  <p><strong>TLDR:</strong> I’d love if you would help to beta test my new app, &ldquo;Habit Traffic.&rdquo;</p>
+
+  <p><a class="btn--big btn--last btn--alt" href="https://testflight.apple.com/join/vnGwD7wh">Join the TestFlight</a></p>
+
+  <p>Hi! I’m Eric, and I’ve bought, downloaded and used dozens of habit tracking apps on my iPhone in the last year.</p>
+
+  <p>Many of them are beautiful and have great design, but none of them have the one feature that I most need:  Which of my habits actually need my attention today. Which ones can wait?</p>
+
+  <p>I wanted an app that would cut through the clutter and show me ONLY the habits that need my focus right now, based on the goals that I set. </p>
+
+  <p>Depending on the goals that you set per habit, each habit is given a status:</p>
+
+  <ul>
+    <li>🟢 Green: You&rsquo;re on track (relax!)</li>
+    <li>🟡 Yellow: Heads up for tomorrow</li>
+    <li>🔴 Red: Action required today</li>
+    <li>⚫ Black: Goal missed, reset incoming</li>
+  </ul>
+
+  <p>I have tried to incorporate many power user features into this app including:</p>
+
+  <ul>
+    <li>Flexible sorting options</li>
+    <li>User-created color-coded categories</li>
+    <li>Automatically resets and recalculates habit progress based on user-defined goals</li>
+    <li>Statistics (streaks, total durations, etc)</li>
+    <li>Implementation for &ldquo;negative&rdquo; habits (example, you want to eat sugary snacks at MOST three times a week)</li>
+    <li>One I&rsquo;m particularly proud of: what I call the &ldquo;interactive traffic light&rdquo; in the top left of the app, where at a glance you can look at all your habits that are green, yellow, or red</li>
+    <li>Export/import data</li>
+    <li>Notifications</li>
+    <li>Advanced category categorization, with ability to collapse/expand categories and reorder</li>
+    <li>&hellip; and more!</li>
+  </ul>
+
+  <p>During the past few weeks, this app has been in a very closed beta, but I think that it&rsquo;s ready to be released more widely. Huge thanks to my friend Brett Terpstra for cheerleading this app, and for being such a wonderful friend in the Apple/Mac community!</p>
+
+  <p>You are of course more than welcome to <a href="https://testflight.apple.com/join/vnGwD7wh">join the TestFlight</a> send feedback through the TestFlight app, but I would really love if you <a href="https://discord.gg/UMyVU4ZVkx">joined the app&rsquo;s Discord</a> and left feedback/ideas/criticisms there.</p>
+</blockquote>
+
+<p>So please help with testing. If you&rsquo;re not already on TestFlight, it&rsquo;s free and the links above will take you the install page. You&rsquo;ll get first access to this useful app, and can start easily tracking your habits right away!</p>
+
+<p><a class="btn--big btn--last btn--alt" href="https://testflight.apple.com/join/vnGwD7wh">Join the TestFlight</a></p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>He <em>is</em> a Rabbi, and despite being an atheist gentile, I&rsquo;ve been to temple with him, so&hellip;&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:1">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F08%2Fhabit-traffic-a-unique-approach%2F&amp;text=Habit+Traffic%3A+A+Unique+Approach+to+Habit+Tracking&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F08%2Fhabit-traffic-a-unique-approach%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16936381.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-08T09:53:00-06:00</pubDate>
+<pubDate>2025-01-08T09:53:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Stripping Emoji from a string</title>

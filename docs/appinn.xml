@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>[开源分享｜抛砖引玉] Tabless - 一款可以让你在新标签中摸鱼划水的浏览器插件</title>
 <link>https://meta.appinn.net/t/topic/65045</link>
 <guid>https://meta.appinn.net/t/topic/65045</guid>
 <content:encoded><![CDATA[
-
 <p>之前在搞 <a href="https://github.com/u-Sir/peek-pop" rel="noopener nofollow ugc">Peek Pop</a> 摸鱼时见到大佬们分享的 <a href="https://iframegenerator.top/" rel="noopener nofollow ugc">iframegenerator</a> 、优雅的 <a href="https://newsnow.busiyi.world/" rel="noopener nofollow ugc">NewsNow</a>， 这两个项目让我想起 <a href="https://maxfoc.us/" rel="noopener nofollow ugc">MaxFocus</a> ，并萌生了一个想法：既然 iframe 可以预览大部分网页，那用它来把网页打包到一起那应该也可以的，这应该也是部分分屏插件的做法？</p>
 <p>于是在 Peek Pop 折腾得差不多时，开始来搞。目前个人感觉基本算是能用了，外观是抄 <a href="https://newsnow.busiyi.world/" rel="noopener nofollow ugc">NewsNow</a> 的皮，动画、细节啥的基本没有，过来分享下，算是抛砖引玉。 <img alt=":eyes:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/eyes.png?v=12" title=":eyes:" width="20" /></p>
 <h1><a class="anchor" href="https://meta.appinn.net#p-241782-h-1" name="p-241782-h-1"></a>上手效果</h1>
@@ -113,9 +113,7 @@
             <p><a href="https://meta.appinn.net/t/topic/65045">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 08 Jan 2025 15:46:09 +0000</pubDate>
-<pubDate>Wed, 08 Jan 2025 15:46:09 +0000</pubDate>
 </item>
-
 <item>
 <title>【工具自荐】一款基于 AI 的智能书签管理插件</title>
 <link>https://meta.appinn.net/t/topic/65034</link>
