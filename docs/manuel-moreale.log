@@ -5193,3 +5193,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment in a back alley](https://manuelmoreale.com/@/page/CLTZ0FvLFdwCojd8)
 append_entries: 1
 Finish: 2025-01-09 08:04:46.166803
+------------------------------------------------------
+Started: 2025-01-09 10:03:49.756438
+Existing_entries: 579
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-09 10:03:50.396567

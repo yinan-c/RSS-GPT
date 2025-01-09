@@ -4,6 +4,32 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>iPhone手机上Safari浏览器页面缩放无法设置</title>
+<link>https://meta.appinn.net/t/topic/65082</link>
+<guid>https://meta.appinn.net/t/topic/65082</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-241898-iphonesafari-1" name="p-241898-iphonesafari-1"></a>iPhone手机上Safari浏览器页面缩放无法设置</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241898-h-2" name="p-241898-h-2"></a>一、当前现象</h3>
+<h5><a class="anchor" href="https://meta.appinn.net#p-241898-safair-100-3" name="p-241898-safair-100-3"></a>点击系统-&gt;设置-&gt;Safair浏览器-&gt;网站设置-&gt;页面缩放，在选项中选择其他的百分比比例都无法选中，锁死100%比例了。</h5>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241898-h-4" name="p-241898-h-4"></a>二、系统版本</h3>
+<h5><a class="anchor" href="https://meta.appinn.net#p-241898-ios1571-5" name="p-241898-ios1571-5"></a>当前系统版本是iOS15.7.1</h5>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241898-h-6" name="p-241898-h-6"></a>三、出现问题的猜想</h3>
+<h5><a class="anchor" href="https://meta.appinn.net#p-241898-infoplist-keyproduct-versionkey-7" name="p-241898-infoplist-keyproduct-versionkey-7"></a>手机以前从高版本备份数据，通过修改备份文件的info.plist-&gt;Product Version强制进行过系统数据的还原。</h5>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241898-h-8" name="p-241898-h-8"></a>四、网上的处理方式</h3>
+<h5><a class="anchor" href="https://meta.appinn.net#p-241898-h-1-9" name="p-241898-h-1-9"></a>1、通过还原系统设置来处理</h5>
+<h5><a class="anchor" href="https://meta.appinn.net#p-241898-h-2-10" name="p-241898-h-2-10"></a>2、升级系统到最新版本</h5>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241898-h-11" name="p-241898-h-11"></a>五、求助的诉求</h3>
+<h5><a class="anchor" href="https://meta.appinn.net#p-241898-safari-12" name="p-241898-safari-12"></a>如何在不还原系统设置以及升级系统的前提下让Safari浏览器页面缩放支持配置。</h5>
+<h3><a class="anchor" href="https://meta.appinn.net#p-241898-h-13" name="p-241898-h-13"></a>六、配图</h3>
+<p><img alt="e8e491d5-5180-4a61-850b-87d4fe8ebd20.jpg" height="499" src="https://h1.appinn.me/file/1736410084822_e8e491d5-5180-4a61-850b-87d4fe8ebd20.jpg" width="339" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65082">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 09 Jan 2025 08:08:38 +0000</pubDate>
+<pubDate>Thu, 09 Jan 2025 08:08:38 +0000</pubDate>
+</item>
 
 <item>
 <title>iPhone想把把收到的短信验证码转发到微信群</title>
