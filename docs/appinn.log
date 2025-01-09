@@ -48193,3 +48193,11 @@ Append: [iPhone手机上Safari浏览器页面缩放无法设置](https://meta.ap
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2025-01-09 10:03:40.670561
+------------------------------------------------------
+Started: 2025-01-09 12:05:17.243798
+Existing_entries: 690
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2025-01-09 12:05:20.490582
