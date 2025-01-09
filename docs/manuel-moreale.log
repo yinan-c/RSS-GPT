@@ -5184,3 +5184,12 @@ Existing_entries: 578
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-09 06:05:21.643139
+------------------------------------------------------
+Started: 2025-01-09 08:04:45.502697
+Existing_entries: 578
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A moment in a back alley](https://manuelmoreale.com/@/page/CLTZ0FvLFdwCojd8)
+append_entries: 1
+Finish: 2025-01-09 08:04:46.166803
