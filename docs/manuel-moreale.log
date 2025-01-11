@@ -5346,3 +5346,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment of relaxation](https://manuelmoreale.com/@/page/95pydvG9vlsJetGK)
 append_entries: 1
 Finish: 2025-01-11 08:04:39.088657
+------------------------------------------------------
+Started: 2025-01-11 10:03:54.988351
+Existing_entries: 582
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-11 10:03:55.822609
