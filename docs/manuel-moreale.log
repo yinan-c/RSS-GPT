@@ -5337,3 +5337,12 @@ Existing_entries: 581
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-11 06:04:16.591472
+------------------------------------------------------
+Started: 2025-01-11 08:04:38.082758
+Existing_entries: 581
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A moment of relaxation](https://manuelmoreale.com/@/page/95pydvG9vlsJetGK)
+append_entries: 1
+Finish: 2025-01-11 08:04:39.088657
