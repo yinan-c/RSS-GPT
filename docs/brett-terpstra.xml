@@ -4,6 +4,205 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>My "remote" web development setup</title>
+<link>https://brett.trpstra.net/link/535/16938543/my-remote-web-development-setup</link>
+<guid>https://brett.trpstra.net/link/535/16938543/my-remote-web-development-setup</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/01/local-web-dev-header-rb.7430.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>Recent <a href="https://brettterpstra.com//2024/11/28/a-health-update/">changes in my health</a> have made it such that some days I&rsquo;m couch-bound upstairs, while my office (and primary work computer) is in the basement. This has led to some interesting solutions for my daily work.</p>
+
+<p>My day job at Oracle I can mostly do from my couch and my work laptop. The only thing I have to get to my downstairs office for is recording voiceovers for the videos we&rsquo;ve been creating lately. My mornings are typically better for me health-wise, so I write scripts upstairs in the afternoon, and then record in the mornings with my expensive podcasting setup. So that&rsquo;s covered. But <em>especially</em> early in the morning I work on my personal stuff, which involves a lot of web development.</p>
+
+<blockquote class="info">
+  <p>For the purposes of this post, &ldquo;remote&rdquo; generally refers to a Mac Studio (Agony) in my basement office, and &ldquo;local&rdquo; refers to whatever laptop I&rsquo;m working on at the time. Most of these solutions work with <em>actual</em> remote machines, but some of them are specific to working on machines on the same network. This should become clear as I go.</p>
+</blockquote>
+
+<p>Websites for projects like <a href="https://nvultra.com">nvUltra</a>, <a href="https://bunchapp.co">Bunch</a>, <a href="https://dimspire.me/">Dimspirations</a>, and my personal blog (this one) are all Jekyll-based and set up on my Studio in my office. Rather than duplicate my setup and cause disparities between copies of my site, I&rsquo;ve set up a &ldquo;remote&rdquo; development setup that I think is worth writing up, if for no other reason than a reference point next time I set up a new machine.</p>
+
+<blockquote class="error">
+  <p>None of this is specific to Jekyll, so don&rsquo;t give up reading at this point.</p>
+</blockquote>
+
+<p>On my couch I have three laptops available. My work laptop, my older Intel MacBook Pro<sup id="fnref:intel"><a class="footnote" href="https://brettterpstra.com#fn:intel" rel="footnote">1</a></sup>, and my M4 MBP. My setup allows me to do web development on any of them without breaking the sites hosted on my Mac Studio. Here&rsquo;s how I keep them all in sync and develop these websites smoothly from the couch.</p>
+
+<ul id="markdown-toc">
+  <li><a href="https://brettterpstra.com#dropbox" id="markdown-toc-dropbox">Dropbox</a></li>
+  <li><a href="https://brettterpstra.com#local-git-server" id="markdown-toc-local-git-server">Local Git server</a></li>
+  <li><a href="https://brettterpstra.com#creating-and-syncing-assets" id="markdown-toc-creating-and-syncing-assets">Creating and syncing assets</a></li>
+  <li><a href="https://brettterpstra.com#iterm-and-tmux" id="markdown-toc-iterm-and-tmux">iTerm and tmux</a></li>
+  <li><a href="https://brettterpstra.com#port-forwarding" id="markdown-toc-port-forwarding">Port forwarding</a></li>
+  <li><a href="https://brettterpstra.com#vs-code-remote-explorer" id="markdown-toc-vs-code-remote-explorer">VS Code Remote Explorer</a></li>
+  <li><a href="https://brettterpstra.com#vim-setups" id="markdown-toc-vim-setups">Vim setups</a></li>
+  <li><a href="https://brettterpstra.com#mamp-stacks-and-local-dns" id="markdown-toc-mamp-stacks-and-local-dns">MAMP stacks and local DNS</a></li>
+  <li><a href="https://brettterpstra.com#screen-sharing" id="markdown-toc-screen-sharing">Screen sharing</a></li>
+  <li><a href="https://brettterpstra.com#actual-remote-work" id="markdown-toc-actual-remote-work">Actual remote work</a></li>
+  <li><a href="https://brettterpstra.com#in-closing" id="markdown-toc-in-closing">In closing&hellip;</a></li>
+  <li><a href="https://brettterpstra.com#show-links" id="markdown-toc-show-links">Show Links</a></li>
+  <li><a href="https://brettterpstra.com#one-more-thing" id="markdown-toc-one-more-thing">One more thing&hellip;</a></li>
+</ul>
+
+<h3 id="dropbox">Dropbox</h3>
+
+<p>First, I have a &ldquo;drafts&rdquo; folders for each site stored in Dropbox. Those folders are symlinked in the Jekyll directory of each site, so I can created drafts for posts locally in each directory (using a Rake task) and they&rsquo;re automatically available on all machines. That works great for a folder full of text files, but is a mess when dealing with Git repositories.</p>
+
+<h3 id="local-git-server">Local Git server</h3>
+
+<p>I run a Git server on my Synology for private repos. All local copies of the websites are clones of Git repositories on that server. This means that if I create things like images, archives, or other non-text assets on my local machine, I can commit and push them to the git server and pull them on remote machines.</p>
+
+<p>I sometimes use an SSH session to go into remote directories and <code class="language-plaintext highlighter-rouge">git pull</code>, but I also have a <a href="https://gist.github.com/ttscoff/ebd0a8b53534177996085830a9681611">script called <code class="language-plaintext highlighter-rouge">pullremote</code></a> that takes an SSH alias as an argument. Each machine has an identical directory structure for the websites, so the function just takes the current directory on my local machine and runs an SSH command that runs a <code class="language-plaintext highlighter-rouge">git pull</code> in the same directory on the remote machine. So once I&rsquo;ve created an asset and want it available on the host, I just run <code class="language-plaintext highlighter-rouge">pullremote a</code> from my development machine to pull the repository on Agony (my Studio)<sup id="fnref:names"><a class="footnote" href="https://brettterpstra.com#fn:names" rel="footnote">2</a></sup>.</p>
+
+<h3 id="creating-and-syncing-assets">Creating and syncing assets</h3>
+
+<p>When I&rsquo;m creating images like screenshots, I use <a href="https://cleanshot.com/" title="CleanShot X for Mac">Cleanshot X</a> to save the screenshot, then I rename it in Finder or Terminal. I have a <a href="https://www.noodlesoft.com/" title="Simply Useful Software">Hazel</a> task that watches my desktop for images with <code class="language-plaintext highlighter-rouge">%%</code> in their name and a script that responds to naming conventions like <code class="language-plaintext highlighter-rouge">screenshot-name@2x%%r1600hco.png</code>. That processes the image with &ldquo;resize to 1600px&rdquo; (<code class="language-plaintext highlighter-rouge">r1600</code>), &ldquo;create a 1x version&rdquo; (<code class="language-plaintext highlighter-rouge">h</code> for &ldquo;halve&rdquo;), &ldquo;convert to JPEG&rdquo; (<code class="language-plaintext highlighter-rouge">c</code>), and &ldquo;optimize all results&rdquo; (<code class="language-plaintext highlighter-rouge">o</code>). The optimize command runs whatever optimization tool works best for that image type (pngcrush, imageoptim, etc.).</p>
+
+<p>I have all of these tools and their preferences synced between
+machines using Dropbox and symlinks.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/filename-screenshot.jpg" /></p>
+              
+              <figcaption>File naming in CleanShot</figcaption>
+            
+
+<p>Once the assets are created, I drag the resulting images (created by the aforementioned setup, or with a <a href="https://flyingmeat.com/retrobatch/" title="Retrobatch 2, from Flying Meat">Retrobatch</a> droplet which Hazel runs &mdash; based on a Finder tag &mdash; that creates a bunch of image sizes and additional formats like webp) to a <a href="https://aptonic.com/" title="Dropzone 4:Aptonic">Dropzone</a> target for whichever site to which they belong, and that copies the assets to the appropriate local folder and puts an appropriate Liquid tag for that image set or download in my clipboard for use in draft posts/pages. Then I use git and <code class="language-plaintext highlighter-rouge">pullremote a</code> to sync to the main setup.</p>
+
+<h3 id="iterm-and-tmux">iTerm and tmux</h3>
+
+<p><a href="https://iterm2.com/" title="macOS Terminal Replacement">iTerm</a> has a <a href="https://iterm2.com/documentation-tmux-integration.html" title="iTerm tmux integration">tmux mode</a> that makes working on Agony easy. It&rsquo;s not a fully-functional tmux setup, but it means that I can have a shared tmux configuration that functions with native windows and panes. I can run an alias like <code class="language-plaintext highlighter-rouge">jeka</code> on any machine to open up a tab with multiple panes that are actually shared remote sessions. I use that to do things like spin up a <code class="language-plaintext highlighter-rouge">jekyll serve</code> command on the main machine and have all of its output and Rake tasks available on whatever machine I&rsquo;m working on, and I can close one machine and open another and the remote session is seamlessly available in native windows with the same session.</p>
+
+<p>Using tmux also means that closing a machine (thus disconnecting the SSH session) doesn&rsquo;t interrupt the remote tasks. Native windows mean I can navigate them just like local windows, switching panes and managing windows with the same keyboard shortcuts as local windows, instead of having to use tmux leader-based commands in one tab and <span class="keycombo combined" title="Command-]/["><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">]/[</kbd></span> commands in another, and scrolling, copying and shell integration work much more smoothly than in tmux. (My Fish prompt has a bright yellow tag in it that alerts me when the current window is an SSH session and which machine it&rsquo;s connected to so I don&rsquo;t lose track.)</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/iterm-screenshot-800.jpg" /></p>
+              
+              <figcaption>tmux mode in iTerm 2</figcaption>
+            
+
+<h3 id="port-forwarding">Port forwarding</h3>
+
+<p>OK, so a <code class="language-plaintext highlighter-rouge">jekyll serve</code> command runs a Webrick server on <code class="language-plaintext highlighter-rouge">localhost</code>, so now I&rsquo;ve set up a port 4000 server on Agony that&rsquo;s only available on that machine. So I run reverse forward SSH tunnels on my laptops that tunnel port 4000 and other ports (like the livereload server) from Agony to the local machine. These forwards are easy to set up with <a href="https://www.hejki.org/ssheditor/">SSH Config Editor</a>, and all of my laptops are set up this way. I set them up one time in my SSH config and I don&rsquo;t have to think about it again &mdash; I can point my browser on any machine to <code class="language-plaintext highlighter-rouge">localhost:4000</code> and get the site being served from Agony.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/ssh-config-editor-800.jpg" /></p>
+              
+              <figcaption>Port forwarding in SSH Config Editor</figcaption>
+            
+
+<h3 id="vs-code-remote-explorer">VS Code Remote Explorer</h3>
+
+<p>In <a href="https://code.visualstudio.com/" title="Visual Studio Code-Code Editing. Redefined">Visual Studio Code</a>, my current editor of choice, there&rsquo;s a <a href="https://code.visualstudio.com/docs/remote/ssh" title="Developing on Remote Machines using SSH and Visual Studio Code">Remote Explorer</a> extension that allows me to tunnel to a remote machine and then edit files as if they were local. So I&rsquo;m tunneled in to Agony, but editing its files as if they were on my local machine. It&rsquo;s brilliant. I&rsquo;m working on Agony&rsquo;s files, previewing my work in my browser, all as if it were local to the machine I&rsquo;m working on. I can load all of VS Code&rsquo;s extensions in the remote session, too, and run commands from the built-in terminal. I love it. (And working with <a href="https://github.com/features/copilot" title="Your AI pair programmer">GitHub Copilot</a> in VS Code is a next-level coding experience.)</p>
+
+<p>My Rake deploy task automatically does a git commit with all changes and a message summarizing them, pushing it to the main git server. Then when I pick up development on any other machine, I just have to do a <code class="language-plaintext highlighter-rouge">git pull</code> to get any files I edited remotely.</p>
+
+<h3 id="vim-setups">Vim setups</h3>
+
+<p>Of course there are times I just need to load up Vim on Agony to fix a little spelling error in a page or quickly edit a config file. I use <a href="https://github.com/anishathalye/dotbot">DotBot</a> to sync all of my config files, including shortcuts and Vim plugins such as Markdown editing tools.</p>
+
+<p>DotBot makes it easy to do the initial symlinking of config directories, then updating setups is just a couple of Git commands away. And vim works great over SSH, so while it&rsquo;s not my main editor, it&rsquo;s a great tool for quick fixes. I mean, if you know a whole bunch of keyboard sequences&hellip;</p>
+
+<h3 id="mamp-stacks-and-local-dns">MAMP stacks and local DNS</h3>
+
+<p>Lastly, there&rsquo;s a remote Apache/Nginx setup. Some functionality on my sites is CGI/Ajax-based, and I have special image handling that relies on Apache .htaccess files, and none of that works with Jekyll&rsquo;s built-in server. I need a full Apache or Nginx server to see those. So I run <a href="https://www.mamp.info/en/downloads/" title="Downloads">MAMP Pro</a> or the new <a href="https://indigostack.app/">IndigoStack</a> on Agony.</p>
+
+<p>MAMP has a product called <a href="https://www.mamp.info/namo/en/" title="Your local DNS server for macOS">NAMO</a> that runs a local DNS server for you. That could be done with some config file editing, but NAMO makes serving up the hosts configured on Agony to any machine on my network an easy task. I set up a development/staging host like <code class="language-plaintext highlighter-rouge">dev.bunch</code> in MAMP, add Agony&rsquo;s local IP as the first DNS server in my System Settings-&gt;Network setup on my laptops, and suddenly <code class="language-plaintext highlighter-rouge">dev.bunch</code> works on any machine on my network (including my iPhone/iPad) for testing.</p>
+
+<p>NAMO passes any non-local addresses through whatever fallback DNS servers you configure in it. I use network &ldquo;locations&rdquo; to easily switch between the NAMO setup and my regular DNS settings (which forward through my Synology DNS cache and router VPN setup).</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/namo-screenshot-800.jpg" /></p>
+              
+              <figcaption>Hosts in NAMO</figcaption>
+            
+
+<h3 id="screen-sharing">Screen sharing</h3>
+
+<p>I should mention that Sequoia&rsquo;s High Performance mode for Screen Sharing is the coolest VNC setup I&rsquo;ve ever seen. If you have a remote machine and haven&rsquo;t tried it (and your bandwidth allows), check it out. When I need to do something on Agony that I haven&rsquo;t automated with any of the above, it makes working with the remote machine so, so nice.</p>
+
+<p>It&rsquo;s especially handy when I want to reboot my basement machine, but more smoothly than <code class="language-plaintext highlighter-rouge">shutdown -r now</code>. I can load it up, quit apps gracefully, and then run a macOS reboot instead, storing all my open apps and windows and generally doing things more nicely.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/sreen-sharing-screenshot-800.jpg" /></p>
+              
+              <figcaption>Sequoia Screen Sharing</figcaption>
+            
+
+<h3 id="actual-remote-work">Actual remote work</h3>
+
+<p>When I want to access all of this while I&rsquo;m on the road (hopefully
+I&rsquo;ll eventually be able to do that again), I love <a href="https://tailscale.com/">TailScale</a> for
+creating a personal VPN that makes all of my home machines accessible
+via IP address. If you haven&rsquo;t tried it, you really should. It&rsquo;s free
+and can function using your GitHub account as login.</p>
+
+<h3 id="in-closing">In closing&hellip;</h3>
+
+<p>With this (admittedly somewhat complex) setup, I can edit sites on three different laptops without missing a beat. It&rsquo;s really not that hard to set up once, and from then on all of the changes I make are instantly available on my main desktop machine, and everything is synced between development machines with very little effort while I&rsquo;m working on the couch.</p>
+
+<p>If any of this is of interest to you and I haven&rsquo;t explained it well enough, <a href="https://forum.brettterpstra.com">drop by the forum</a> and I&rsquo;m happy to elaborate!</p>
+
+<h3 id="show-links">Show Links</h3>
+
+<p>Here are all the things I&rsquo;ve mentioned in this post:</p>
+
+<ul>
+  <li><a href="https://www.hejki.org/ssheditor/">SSH Config Editor</a> for easy ssh configuration</li>
+  <li><a href="https://cleanshot.com/" title="CleanShot X for Mac">CleanShot X</a>, the best (Mac) screenshot app you&rsquo;ll find</li>
+  <li><a href="https://flyingmeat.com/retrobatch/" title="Retrobatch 2, from Flying Meat">Retrobatch</a> for node-based batch image processing and automation</li>
+  <li><a href="https://www.noodlesoft.com/" title="Simply Useful Software">Hazel</a> to run any tool whenever a file/directory changes</li>
+  <li><a href="https://aptonic.com/" title="Dropzone 4:Aptonic">Dropzone</a> for drag and drop operations for any file</li>
+  <li><a href="https://github.com/anishathalye/dotbot">DotBot</a> for syncing dotfiles and config setups</li>
+  <li><a href="https://code.visualstudio.com/" title="Visual Studio Code-Code Editing. Redefined">Visual Studio Code</a> (it might have its shortcomings, but it&rsquo;s so good)</li>
+  <li><a href="https://code.visualstudio.com/docs/remote/ssh" title="Developing on Remote Machines using SSH and Visual Studio Code">Remote Explorer</a> for &ldquo;Developing on Remote Machines using SSH and Visual Studio Code&rdquo;</li>
+  <li><a href="https://github.com/features/copilot" title="Your AI pair programmer">GitHub Copilot</a>, &ldquo;Your AI pair programmer&rdquo;</li>
+  <li><a href="https://iterm2.com/" title="macOS Terminal Replacement">iTerm</a> is still my favorite Terminal app (with <a href="https://iterm2.com/documentation-tmux-integration.html" title="iTerm tmux integration">tmux integration</a>)</li>
+  <li><a href="https://www.mamp.info/en/downloads/" title="Downloads">MAMP Pro</a>, tried and true local MAMP stacks</li>
+  <li><a href="https://indigostack.app/">IndigoStack</a> for bare metal local development stacks</li>
+  <li><a href="https://www.mamp.info/namo/en/" title="Your local DNS server for macOS">NAMO</a>, &ldquo;Your local DNS server for macOS&rdquo;</li>
+  <li><a href="https://tailscale.com/">TailScale</a> for making all of this accessible when you&rsquo;re truly remote.</li>
+</ul>
+
+<p>And of course:</p>
+
+<ul>
+  <li><a href="https://nvultra.com">nvUltra</a>, searchable, portable, MultiMarkdown notes</li>
+  <li><a href="https://bunchapp.co">Bunch</a>, plain Text Automation</li>
+  <li><a href="https://dimspire.me/">Dimspirations</a>, nihilist inspirations for daily life</li>
+</ul>
+
+<h3 id="one-more-thing">One more thing&hellip;</h3>
+
+<p>As a final and mostly unrelated aside, I have a cool setup for my work VPN. Cisco&rsquo;s AnyConnect VPN client makes accessing anything <em>not</em> on the VPN a pain, and it doesn&rsquo;t store passwords, so you have to constantly log in and out of the VPN and paste your password every time.</p>
+
+<p>Instead I run a Docker container on my Mac mini server in the basement that&rsquo;s constantly logged into the VPN &mdash; but only for Oracle sites using an automatic proxy configuration it hosts &mdash; and tunnel a port from my various machines through that container&rsquo;s ports. So I&rsquo;m always on VPN, but also not. It&rsquo;s pretty cool.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:intel">
+      <p>I need this machine mostly for app development. There&rsquo;s a weird bug in the old version of WebKit that crashes on print operations in Marked unless it&rsquo;s compiled on an Intel machine. It&rsquo;s so weird that even legends like Rich Siegel and Daniel Jalkut couldn&rsquo;t help me figure it out.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:intel">&#8617;</a></p>
+    </li>
+    <li id="fn:names">
+      <p>I don&rsquo;t know why, but my machines are all named for horrible emotions. Agony, Misery, Despair, Doom&hellip; but my Mac mini is named &ldquo;Micro,&rdquo; the exception to the rule. I guess my Oracle laptop is another exception &ndash; it&rsquo;s obviously named &ldquo;Seer.&rdquo;&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:names">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F12%2Fmy-remote-web-development-setup%2F&amp;text=My+%22remote%22+web+development+setup&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F12%2Fmy-remote-web-development-setup%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16938543.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-12T09:53:00-06:00</pubDate>
+<pubDate>2025-01-12T09:53:00-06:00</pubDate>
+</item>
 
 <item>
 <title>A StretchLink Shortcut</title>
