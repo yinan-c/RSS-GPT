@@ -5439,3 +5439,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Toscana](https://manuelmoreale.com/@/page/pojZMEgLWXNyttbK)
 append_entries: 1
 Finish: 2025-01-12 14:03:23.132673
+------------------------------------------------------
+Started: 2025-01-12 16:04:18.846753
+Existing_entries: 583
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-12 16:04:19.727400
