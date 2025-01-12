@@ -5430,3 +5430,12 @@ Existing_entries: 582
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-12 12:05:39.932269
+------------------------------------------------------
+Started: 2025-01-12 14:03:22.191954
+Existing_entries: 582
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Toscana](https://manuelmoreale.com/@/page/pojZMEgLWXNyttbK)
+append_entries: 1
+Finish: 2025-01-12 14:03:23.132673
