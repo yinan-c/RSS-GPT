@@ -4,6 +4,33 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Strikethrough and emojis for mdless</title>
+<link>https://brett.trpstra.net/link/535/16939367/strikethrough-and-emojis-for-mdless</link>
+<guid>https://brett.trpstra.net/link/535/16939367/strikethrough-and-emojis-for-mdless</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/01/emoji-mdless-rb.7432.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>I just published a couple of new features to <a href="https://brettterpstra.com/projects/mdless/" title="mdless">mdless</a> this morning: strikethrough and GitHub emoji support.</p>
+
+<p>You can now use <code class="language-plaintext highlighter-rouge">~~text~~</code> formatting, and if your terminal supports strikethrough text, it will be displayed as such. You can control formatting and colors by adding <code class="language-plaintext highlighter-rouge">deletion</code> to your theme file, which by default is <code class="language-plaintext highlighter-rouge">~/.config/mdless/default.theme</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="na">deletion</span><span class="pi">:</span> <span class="s">strikethrough red</span></code></pre></div></div>
+
+<p>I also added support for GitHub emojis, e.g. <code class="language-plaintext highlighter-rouge">:smile:</code> for 😁 and <code class="language-plaintext highlighter-rouge">:umbrella:</code> for ☂️. I can&rsquo;t guarantee full compatibility, but a vast number of emoji are covered. Enough that VS Code choked on the list and I had to open the trusty <a href="https://www.barebones.com/products/bbedit/index.html" title="BBEdit 15">BBEdit</a>, which is an absolute champ at handling large files. Emoji support in mdless is enabled by default and requires no configuration changes.</p>
+
+<p>That&rsquo;s it, but if you use mdless, especially for reading GitHub files, I think you&rsquo;ll appreciate the additions. Just use <code class="language-plaintext highlighter-rouge">gem install mdless</code> to update!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F13%2Fstrikethrough-and-emojis-for-mdless%2F&amp;text=Strikethrough+and+emojis+for+mdless&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F13%2Fstrikethrough-and-emojis-for-mdless%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16939367.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-13T12:00:00-06:00</pubDate>
+<pubDate>2025-01-13T12:00:00-06:00</pubDate>
+</item>
 
 <item>
 <title>My "remote" web development setup</title>
