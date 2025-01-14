@@ -5565,3 +5565,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [IndieWeb Carnival: On the importance of friction](https://manuelmoreale.com/@/page/qGXomkMWAww0tyPf)
 append_entries: 1
 Finish: 2025-01-14 08:05:30.625841
+------------------------------------------------------
+Started: 2025-01-14 10:03:59.872590
+Existing_entries: 585
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-14 10:04:00.550939
