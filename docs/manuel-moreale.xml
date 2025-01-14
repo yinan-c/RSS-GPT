@@ -4,6 +4,29 @@
 <title>Manuel Moreale RSS Feed</title>
 <link>https://manuelmoreale.com</link>
 
+<item>
+<title>IndieWeb Carnival: On the importance of friction</title>
+<link>https://manuelmoreale.com/@/page/qGXomkMWAww0tyPf</link>
+<guid>https://manuelmoreale.com/@/page/qGXomkMWAww0tyPf</guid>
+<content:encoded><![CDATA[
+
+<p>This is my entry for <a href="https://vhbelvadi.com/indieweb-carnival-friction">January’s IndieWeb Carnival</a>, hosted by the always great <a href="https://vhbelvadi.com">V.H. Belvadi</a>. If you have a blog, consider writing an entry yourself.</p>
+<hr />
+<p>The modern web—and society to a certain extent—is built on this idea that we should remove friction as much as possible. Everything has to be optimised, smoothed out, and made as easy and convenient as possible. The embodiment of this idea to me was the <a href="https://en.wikipedia.org/wiki/Amazon_Dash">Amazon Dash</a>. This idea of being able to simply push a button and have something show up at your door is the perfect representation of the capitalistic goal applied to the web. The only improvement from there is to read your mind and skip the button step altogether. Imagine how much value for the shareholders we can create if something shows up at your door every time you simply <em>think</em> about wanting—or needing—something.</p>
+<p>I, on the other hand, enjoy friction. I also enjoy limitations. When I set up my site, years ago, I made it insanely simple on purpose. As a developer, the only limit to what my site can do is basically my imagination and yet I decided to stick with just one layout, in a single column, with no navigation. There is no automation going on, in order to publish something I have to log in and manually copy-paste my content. I could improve that, I could set up a custom API and do all sorts of stuff but I decided not to because I enjoy the added friction.</p>
+<p>The same thing happens with the email version of my content. I could <a href="https://blog.jim-nielsen.com/2025/subscribe-via-email-now/">set it up so that everything is automated</a> but I decided against it because doing everything by hand gives me the time to reflect on what I’m doing rather than letting everything go on autopilot.</p>
+<p>Friction, in the digital world, is important. Everything is already <a href="https://firesky.tv/">moving at a pace that’s not really compatible with the way humans work</a>. We need a way to slow down, we need digital speed bumps to remind us that going slow sometimes is preferable.</p>
+<p>If I can offer you my advice—and this is my blog, you can’t stop me from doing it—it would be to insert some friction here and there. Doesn’t have to be anything massive or terribly disruptive. It just needs to make things slightly less immediate. I think you’ll find this experiment quite revealing.</p>                <hr />
+                <p>Thank you for keeping RSS alive. You're awesome.</p>
+                <p><a href="mailto:hello@manuelmoreale.com">Email me</a> ::
+                <a href="https://manuelmoreale.com/guestbook">Sign my guestbook</a> :: 
+                <a href="https://ko-fi.com/manuelmoreale">Support for 1$/month</a> :: 
+                <a href="https://manuelmoreale.com/supporters">See my generous supporters</a> :: 
+                <a href="https://buttondown.email/peopleandblogs">Subscribe to People and Blogs</a></p>
+]]></content:encoded>
+<pubDate>Tue, 14 Jan 2025 08:15:00 +0100</pubDate>
+<pubDate>Tue, 14 Jan 2025 08:15:00 +0100</pubDate>
+</item>
 
 <item>
 <title>Bloggers at the right time</title>
