@@ -4,6 +4,27 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>On Transient Slash Pages</title>
+<link>https://rknight.me/blog/on-transient-slash-pages/</link>
+<guid>https://rknight.me/blog/on-transient-slash-pages/</guid>
+<content:encoded><![CDATA[
+
+<p>A couple of weeks ago <a href="https://chriscoyier.net/2025/01/04/slash-pages/">Chris said this about slash pages</a>:</p>
+<blockquote>
+<p>I think it makes more sense to me to write about what I carry around <em>right now</em> and if I did it again later, it doesn’t have to replace what I’ve written before</p>
+</blockquote>
+<p><a href="https://slashpages.net">Slash Pages</a> is a site I maintain that is a &quot;<em>guide to common pages you can add to your website</em>&quot;. So <code>/uses</code>, <code>/now</code>, and so on. Chris' quote above was about <code>/edc</code> but it applies to all of them. It was also discussed on <a href="https://shoptalkshow.com/647/">episode 647 of ShopTalk</a>.</p>
+<p>My post on <a href="https://rknight.me/blog/automating-my-now-page/">automating my /now page</a> was very popular and I am proud of what I managed to do but I've been thinking for a while it's very impersonal. It's <em>data</em>. It's not a page written by me in any meaningful way.</p>
+<p><a href="https://lmika.org/2025/01/14/on-slash-pages-verses-blog.html">Leon had</a> some similar thoughts on this with an idea for each blog post being a section of a page but rendered as one. The end goal for him, and me, is that the new additions get syndicated via RSS, POSSE, and so forth. I like the idea of redirecting <code>/now</code> to the latest post tagged as <code>now</code> so one could see the latest version of what I'm doing now.</p>
+<p>For a <code>/now</code> page, this makes a lot of sense - on a regular schedule I can add a new post about what I'm up to and update things as required but when thinking about <a href="/uses">my /uses page</a>, what does an update to that look like? Assuming a short <code>/uses</code> page like this:</p>
+<pre class="language-txt"><code class="language-txt">- MacBook Pro<br />- AirPods Max<br />- iPhone 14 Pro</code></pre>
+<p>The <em>first</em> blog post is easy, it would include all of that but if I change my phone to a 16 Pro do I duplicate the whole thing but update just that one line? If I just post a diff of what's changed then there isn't a single place to see everything I've used.</p>
+<p>I'm going to start with my <code>/now</code> page while I mull over how to handle some others.</p>
+]]></content:encoded>
+
+<pubDate>2025-01-13T22:11:53Z</pubDate>
+</item>
 
 <item>
 <title>Biting the Bullet</title>
