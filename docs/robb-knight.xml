@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>On Transient Slash Pages</title>
 <link>https://rknight.me/blog/on-transient-slash-pages/</link>
 <guid>https://rknight.me/blog/on-transient-slash-pages/</guid>
 <content:encoded><![CDATA[
-
 <p>A couple of weeks ago <a href="https://chriscoyier.net/2025/01/04/slash-pages/">Chris said this about slash pages</a>:</p>
 <blockquote>
 <p>I think it makes more sense to me to write about what I carry around <em>right now</em> and if I did it again later, it doesn’t have to replace what I’ve written before</p>
@@ -22,10 +22,8 @@
 <p>The <em>first</em> blog post is easy, it would include all of that but if I change my phone to a 16 Pro do I duplicate the whole thing but update just that one line? If I just post a diff of what's changed then there isn't a single place to see everything I've used.</p>
 <p>I'm going to start with my <code>/now</code> page while I mull over how to handle some others.</p>
 ]]></content:encoded>
-
 <pubDate>2025-01-13T22:11:53Z</pubDate>
 </item>
-
 <item>
 <title>Biting the Bullet</title>
 <link>https://rknight.me/blog/biting-the-bullet/</link>
