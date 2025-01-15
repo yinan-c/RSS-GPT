@@ -4,12 +4,12 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+
 <item>
 <title>Now (January 2025)</title>
 <link>https://rknight.me/blog/now-january-2025/</link>
 <guid>https://rknight.me/blog/now-january-2025/</guid>
 <content:encoded><![CDATA[
-
 <p>This is the first in a new series of posts to populate my /now page with a blog post. A moment in time. What I'm doing <em>now</em>. A record of what I <em>was</em> doing.</p>
 <p>Thanks to <a href="https://niclake.me">Nic</a> this was really easy to do because I could copy what he does:</p>
 <ol>
@@ -31,10 +31,8 @@
 </ol>
 </section>
 ]]></content:encoded>
-
 <pubDate>2025-01-14T23:00:00Z</pubDate>
 </item>
-
 <item>
 <title>On Transient Slash Pages</title>
 <link>https://rknight.me/blog/on-transient-slash-pages/</link>
