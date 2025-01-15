@@ -4,6 +4,40 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Blog Question Challenge</title>
+<link>https://rknight.me/blog/blog-question-challenge/</link>
+<guid>https://rknight.me/blog/blog-question-challenge/</guid>
+<content:encoded><![CDATA[
+
+<p>I was tagged by <a href="https://weblog.kylereddoch.me/2025/01/blog-question-challenge-2025">Kyle</a> and <a href="https://blog.binarydigit.city/posts/blog-question-challenge-2025">B</a> to do this so here it is.</p>
+<p><strong><em>Why Did You Start Blogging In The First Place?</em></strong></p>
+<p>Initially I thought I'd be some hot take blogger getting posts retweeted by loads of people and be popular or something. We all wanted to be Gruber back then.</p>
+<p>More recently I'm blogging for me. It's <a href="/blog/tags/recipes">recipes</a>, technical posts, things I've solved, ideas I've had. Basically instructions for anything I, or someone else, might want to do.</p>
+<p><strong><em>What Platform Are You Using The Manage Your Blog, And Why Do You Use It?</em></strong></p>
+<p>My site is built with <a href="https://11ty.dev">Eleventy</a>. In theory, that means it's just a bunch of markdown files. In practice, it's markdown files, JSON files, javascript files, plus my <a href="http://github.com/rknightuk/knightcms">custom CMS</a>. I use it because it gives me the flexibility to make my site do exactly what I want.</p>
+<p><strong><em>Have You Blogged On Other Platforms Before?</em></strong></p>
+<p>I started on hosted Wordpress many years ago, then self-hosted Wordpress, then Jekyll, then Hugo, then Hexo, and now Eleventy.</p>
+<p><strong><em>How Do You Write Your Posts?</em></strong></p>
+<p>Usually I write a draft in Obsidian then copy it over into VSCode and publish. For shorter posts, or <a href="/notes">my notes</a>, I write those directly into the CMS which pushes them to the GitHub repository. I wrote <a href="https://rknight.me/blog/my-blogging-workflow/">more in depth about this here</a>.</p>
+<p><strong><em>When Do You Feel Most Inspired To Write?</em></strong></p>
+<p>There are two main times I feel inspired:</p>
+<ul>
+<li>When I've solved a problem and I want to document the solution</li>
+<li>When I feel myself thinking about writing a thread of toots</li>
+</ul>
+<p><strong><em>Do You Normally Publish Immediately After Writing, Or Do You Let It Simmer?</em></strong></p>
+<p>I rarely let them simmer, I just send them out into the world so the typos can reveal themselves.</p>
+<p><strong><em>What’s Your Favorite Post On Your Blog?</em></strong></p>
+<p>The sensible answer is <a href="https://rknight.me/blog/7622/">7622 - why I spell my name with two Bs</a> but this <a href="https://rknight.me/blog/biology-of-hey-bear-fruits/">sleep-deprived ramble about the fruits of Hey Bear</a> is definitely up there.</p>
+<p><strong><em>Any Future Plans For the Blog?</em></strong></p>
+<p>I have a list longer than you can imagine but next up is some more work on <a href="https://rknight.me/blog/on-transient-slash-pages/">transient slash pages</a>.</p>
+<p><strong><em>Who Will Participate Next?</em></strong></p>
+<p><a href="https://gkeenan.co">Keenan, please</a>.</p>
+]]></content:encoded>
+
+<pubDate>2025-01-15T14:18:04Z</pubDate>
+</item>
 
 <item>
 <title>Now (January 2025)</title>
