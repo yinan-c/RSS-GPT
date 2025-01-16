@@ -5757,3 +5757,9 @@ Append: [A moment in a back alley](https://manuelmoreale.com/a-moment-in-a-back-
 Append: [A moment with the two towers](https://manuelmoreale.com/a-moment-with-the-two-towers)
 append_entries: 10
 Finish: 2025-01-16 18:04:22.135609
+------------------------------------------------------
+Started: 2025-01-16 20:04:22.694401
+Existing_entries: 597
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-16 20:04:23.430877
