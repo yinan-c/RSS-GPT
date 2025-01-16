@@ -5700,3 +5700,12 @@ Existing_entries: 586
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-16 04:04:38.901192
+------------------------------------------------------
+Started: 2025-01-16 06:05:20.719408
+Existing_entries: 586
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [The internet is now five websites](https://manuelmoreale.com/@/page/D8pRV1AhehJmzhFH)
+append_entries: 1
+Finish: 2025-01-16 06:05:22.061103
