@@ -48865,3 +48865,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-16 10:03:39.263194
+------------------------------------------------------
+Started: 2025-01-16 12:05:14.903482
+Existing_entries: 698
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [谷歌安排Linux基金会接手Chromium项目以避反垄断措施](https://meta.appinn.net/t/topic/65385)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-01-16 12:05:17.967454
