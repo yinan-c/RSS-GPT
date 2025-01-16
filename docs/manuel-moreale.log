@@ -5739,3 +5739,21 @@ Existing_entries: 587
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-16 16:04:35.094466
+------------------------------------------------------
+Started: 2025-01-16 18:04:21.372357
+Existing_entries: 587
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [The internet is now five websites](https://manuelmoreale.com/the-internet-is-now-five-websites)
+Append: [On Meta’s moderation changes](https://manuelmoreale.com/on-meta-s-moderation-changes)
+Append: [IndieWeb Carnival: On the importance of friction](https://manuelmoreale.com/indieweb-carnival-on-the-importance-of-friction)
+Append: [Bloggers at the right time](https://manuelmoreale.com/bloggers-at-the-right-time)
+Append: [Toscana](https://manuelmoreale.com/toscana)
+Append: [A moment of relaxation](https://manuelmoreale.com/a-moment-of-relaxation)
+Append: [P&B: Steven Garrity](https://manuelmoreale.com/pb-steven-garrity)
+Append: [A moment amongst the trees](https://manuelmoreale.com/a-moment-amongst-the-trees)
+Append: [A moment in a back alley](https://manuelmoreale.com/a-moment-in-a-back-alley)
+Append: [A moment with the two towers](https://manuelmoreale.com/a-moment-with-the-two-towers)
+append_entries: 10
+Finish: 2025-01-16 18:04:22.135609
