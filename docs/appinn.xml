@@ -4,6 +4,81 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>CSS 代码过滤器：设计工具代码提取利器</title>
+<link>https://meta.appinn.net/t/topic/65393</link>
+<guid>https://meta.appinn.net/t/topic/65393</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-1" name="p-243164-h-1"></a><img alt=":star2:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/star2.png?v=12" title=":star2:" width="20" /> 诞生背景</h2>
+<p>在前端开发工作中，我们经常遇到这样的场景：</p>
+<ol>
+<li>从 Figma、摹客、蓝湖 等设计工具中复制样式代码</li>
+<li>需要从冗长的 CSS 中提取特定属性（如布局、字体、背景 等）</li>
+<li>手动筛选过程繁琐且容易遗漏</li>
+</ol>
+<p>为了解决这个效率问题，我用 Cursor 开发了『CSS代码过滤器』浏览器插件，让代码提取变得简单高效。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-2" name="p-243164-h-2"></a>插件信息</h2>
+<p>插件名字：CSS 代码过滤器</p>
+<p>插件地址：<a href="https://chromewebstore.google.com/detail/css-%E4%BB%A3%E7%A0%81%E8%BF%87%E6%BB%A4%E5%99%A8/lagekjeidhfjnofmoegfifcckdnilelj?hl=zh-CN" rel="noopener nofollow ugc">https://chromewebstore.google.com/detail/css-代码过滤器/lagekjeidhfjnofmoegfifcckdnilelj?hl=zh-CN</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-3" name="p-243164-h-3"></a>效果演示动图</h2>
+<p><img alt="功能演示.gif" height="350" src="https://h1.appinn.me/file/1737077656422_%E5%8A%9F%E8%83%BD%E6%BC%94%E7%A4%BA.gif" width="690" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-4" name="p-243164-h-4"></a><img alt=":rocket:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/rocket.png?v=12" title=":rocket:" width="20" /> 核心功能</h2>
+<h3><a class="anchor" href="https://meta.appinn.net#p-243164-h-1-5" name="p-243164-h-1-5"></a>1. 智能属性搜索</h3>
+<ul>
+<li>支持模糊搜索和缩写匹配（如 <code>w</code> → <code>width</code>，<code>bg</code> → <code>background</code>）</li>
+<li>实时过滤显示匹配的 CSS 属性</li>
+<li>支持多属性同时选择</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-243164-h-2-6" name="p-243164-h-2-6"></a>2. 方案管理</h3>
+<ul>
+<li>支持创建、保存、更新和删除常用的属性组合方案</li>
+<li>方案数据本地持久化存储</li>
+<li>快速切换不同的属性组合</li>
+</ul>
+<h3><a class="anchor" href="https://meta.appinn.net#p-243164-h-3-7" name="p-243164-h-3-7"></a>3. 便捷操作</h3>
+<ul>
+<li>一键复制过滤后的代码</li>
+<li>智能的属性选择界面</li>
+<li>清晰的已选属性展示</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-8" name="p-243164-h-8"></a><img alt=":memo:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/memo.png?v=12" title=":memo:" width="20" /> 使用方法</h2>
+<ol>
+<li>
+<p>创建属性方案</p>
+<ul>
+<li>点击"新增方案"（例如：创建"布局方案"包含 width、height、margin 等属性）</li>
+<li>输入方案名称</li>
+<li>选择需要的 CSS 属性</li>
+<li>保存方案</li>
+</ul>
+</li>
+<li>
+<p>提取 CSS 代码</p>
+<ul>
+<li>从设计工具复制 CSS 代码</li>
+<li>选择已有方案或直接选择需要的属性</li>
+<li>点击"过滤 CSS 代码"</li>
+<li>获取过滤后的结果并使用</li>
+</ul>
+</li>
+</ol>
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-9" name="p-243164-h-9"></a><img alt=":handshake:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/handshake.png?v=12" title=":handshake:" width="20" /> 支持作者</h2>
+<p>如果你觉得这个工具对你有帮助，欢迎：</p>
+<ul>
+<li>在 B 站关注作者：<a href="https://space.bilibili.com/521041866" rel="noopener nofollow ugc">作者主页</a></li>
+<li>赞助支持：<a href="https://afdian.com/a/wangchao02" rel="noopener nofollow ugc">赞助链接</a></li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-243164-h-10" name="p-243164-h-10"></a><img alt=":tada:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/tada.png?v=12" title=":tada:" width="20" /> 结语</h2>
+<p>『CSS 代码过滤器』源于实际开发中与设计工具协作的需求，致力于提升前端开发效率。它能让你的样式代码处理工作变得更加轻松。无论你是刚开始接触前端还是经验丰富的开发者，相信这个工具都能为你的工作带来便利。</p>
+<p>欢迎下载使用，也期待你的反馈和建议！</p>
+<hr />
+            <p><small>4 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65393">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 17 Jan 2025 01:20:42 +0000</pubDate>
+<pubDate>Fri, 17 Jan 2025 01:20:42 +0000</pubDate>
+</item>
 
 <item>
 <title>谷歌安排Linux基金会接手Chromium项目以避反垄断措施</title>
