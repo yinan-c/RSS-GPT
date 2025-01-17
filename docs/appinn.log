@@ -48980,3 +48980,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-17 14:03:20.399471
+------------------------------------------------------
+Started: 2025-01-17 16:04:11.884390
+Existing_entries: 701
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [｛Varia｝：跨平台的开源文件下载管理器，Adwaita 风格的 Aria2 图形前端](https://meta.appinn.net/t/topic/65215)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-01-17 16:04:14.880172

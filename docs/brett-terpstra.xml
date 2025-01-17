@@ -4,6 +4,76 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marky gets DEVONthink integration</title>
+<link>https://brett.trpstra.net/link/535/16941987/marky-gets-devonthink-integration</link>
+<guid>https://brett.trpstra.net/link/535/16941987/marky-gets-devonthink-integration</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/01/marky-devonthink-rb.7433.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>I&rsquo;ve been obsessively into DEVONthink lately. Once I&rsquo;ve truly explored it, I&rsquo;ll write more about that, but in the meantime I wanted to share a handy integration for those already using it.</p>
+
+<p>I&rsquo;m very aware that DEVONthink has a great clipper. Whether you&rsquo;re using bookmarklets, browser plugins, or the Sorter directly, it can grab a web page and convert it to Markdown, Web Archive, Formatted Note&hellip; whatever you want to do with it. The only problem I&rsquo;ve run into is that the built-in Markdownifier lacks some of the things I built into <a href="https://markdownrules.com">Marky the Markdownifier</a><sup id="fnref:previous"><a class="footnote" href="https://brettterpstra.com#fn:previous" rel="footnote">1</a></sup>. So I added my own clipper.</p>
+
+<p>DEVONthink has a very useful URL handler, which you can explore by looking at the source code for <a href="https://www.devontechnologies.com/support/download/extras">their bookmarklets</a> (or by dissecting a browser plugin, but why bother?). It has options for clipping, creating Markdown and formatted notes, generating web archives, and more. For my purposes, I just wanted to create Markdown notes, but use Marky instead of the built in Markdown conversion tool. It took me about 10 minutes to build DEVONthink clipping into Marky itself.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/cliptodevonthink-800.jpg" /></p>
+              
+              <figcaption>Clip to DEVONthink in Marky</figcaption>
+            
+
+<p>After Markdownifying a page with Marky, either from the main page or a custom bookmarklet (which Marky can generate for you), you&rsquo;ll get a preview window with a &ldquo;Clip to&hellip;&rdquo; option. Clicking that will give you a list of options, now including DEVONthink.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/permissions.jpg" /></p>
+              
+              <figcaption>Permissions in Firefox</figcaption>
+            
+
+<p>The first time you use it, you&rsquo;ll probably have to grant permission for Marky to open <code class="language-plaintext highlighter-rouge">x-devonthink</code> urls. I know there&rsquo;s some magic in Chrome to grant permissions to all url handlers, but I&rsquo;ve never found the same setting in Firefox, my browser of choice. But once you grant permission once, you should be good to go in the future.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/inbox-800.jpg" /></p>
+              
+              <figcaption>DEVONthink inbox</figcaption>
+            
+
+<p>Once you&rsquo;ve Markdownified a page and clipped to DEVONthink, it will show up in your Global Inbox, ready to be classified. If you Markdownify to MultiMarkdown or GFM, tags in the original web page will be automatically applied to the new document (if you enable that in tag settings). I move most of these into my main nvUltra folder, which is an indexed folder accessible to both DEVONthink and nvUltra. Super handy that way.</p>
+
+
+              
+              <p><img src="https://cdn3.brettterpstra.com/uploads/2025/01/edit-preview-800.jpg" /></p>
+              
+              <figcaption>Markdown Preview in DEVONthink</figcaption>
+            
+
+<p>The page imports as a regular Markdown document, ready to edit and preview.</p>
+
+<p>I hope this is useful to DEVONthink users. I&rsquo;d like to figure out how to clip the Markdown as a Formatted Note next, but my experiments thus far haven&rsquo;t worked. I&rsquo;m sure I&rsquo;ll figure it out.</p>
+
+<p>Of course the generated DEVONthink url is available in the API as well. Just set the <code class="language-plaintext highlighter-rouge">link</code> format to <code class="language-plaintext highlighter-rouge">devonthink</code>. See <a href="https://heckyesmarkdown.com/api/#link-formats">the docs</a> for details.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:previous">
+      <p>At some point the developers asked me if they could use the source code for Marky v1, which I of course granted. I don&rsquo;t think they&rsquo;re using that anymore, though, as their clipping is much better than the original Marky.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:previous">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F17%2Fmarky-gets-devonthink-integration%2F&amp;text=Marky+gets+DEVONthink+integration&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F17%2Fmarky-gets-devonthink-integration%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16941987.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-17T09:05:00-06:00</pubDate>
+<pubDate>2025-01-17T09:05:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Strikethrough and emojis for mdless</title>
