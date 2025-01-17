@@ -5826,3 +5826,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Annie Mueller](https://manuelmoreale.com/pb-annie-mueller)
 append_entries: 1
 Finish: 2025-01-17 16:04:38.592497
+------------------------------------------------------
+Started: 2025-01-17 18:04:38.047831
+Existing_entries: 598
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-17 18:04:39.031282
