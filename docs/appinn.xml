@@ -4,6 +4,65 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>DigitalZen：电脑端的免费定时休息和自控工具，支持自定义软件黑白名单</title>
+<link>https://meta.appinn.net/t/topic/65449</link>
+<guid>https://meta.appinn.net/t/topic/65449</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-1" name="p-243440-h-1"></a>软件名称</h1>
+<p>DigitalZen</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-2" name="p-243440-h-2"></a>官网</h1>
+<p><a class="onebox" href="https://digitalzen.app" rel="noopener nofollow ugc" target="_blank">https://digitalzen.app</a></p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-3" name="p-243440-h-3"></a>应用平台</h1>
+<ul>
+<li>浏览器插件</li>
+<li>Windows</li>
+<li>Linux</li>
+<li>macOS</li>
+</ul>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-4" name="p-243440-h-4"></a>推荐类型</h1>
+<p>非自荐</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-5" name="p-243440-h-5"></a>一句话简介</h1>
+<p>一个电脑端的软件/网页浏览自控工具，通过设置规则来控制使用时间和休息间隔，也支持「禅模式」来定时屏蔽所有无关软件，辅助防止拖延症。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-6" name="p-243440-h-6"></a>截图预览</h1>
+<p>                    <a class="onebox" href="https://h1.appinn.me/file/1737174947783_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="500" src="https://h1.appinn.me/file/1737174947783_image.png" width="620" />
+          </a>
+
+</p>
+<p>          <a class="onebox" href="https://h1.appinn.me/file/1737174923856_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="500" src="https://h1.appinn.me/file/1737174923856_image.png" width="620" />
+          </a>
+</p>
+<p>                    <a class="onebox" href="https://h1.appinn.me/file/1737174959526_image.png" rel="noopener nofollow ugc" target="_blank">
+            <img height="500" src="https://h1.appinn.me/file/1737174959526_image.png" width="620" />
+          </a>
+
+</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243440-h-7" name="p-243440-h-7"></a>优缺点</h1>
+<p><strong>优点</strong>：</p>
+<ul>
+<li>目前在早期筹备阶段，<strong>所有功能免费</strong></li>
+<li>绝大多数所谓「自控插件」基本只能管理浏览器网页浏览，这是唯一一款能<strong>管理桌面程序使用</strong>的免费工具</li>
+<li>市面上唯一<strong>支持 Linux</strong> 的同类工具</li>
+<li><strong>规则设置非常丰富</strong>，支持定间隔/定时段，并为每个规则设置不同黑白名单</li>
+<li>有<strong>浏览器插件</strong>，可以同步管理浏览网站限制</li>
+<li>有 Web 端，如果不想监控桌面程序/下载客户端，也<strong>可以只安装插件并管理网站限制</strong></li>
+</ul>
+<p><strong>缺点</strong>：</p>
+<ul>
+<li>客户端比较简陋，没有很好的防关闭机制，<strong>很容易被用户退出</strong></li>
+<li><strong>休息开始和结束时没有强提醒</strong>，只能在首页看到休息剩余几分钟</li>
+<li>客户端是用 Electron 写的</li>
+<li>目前没有成熟的手机 App（如「远离手机」「不做手机控」等）那样的使用时间监控和奖惩机制</li>
+</ul>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65449">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 18 Jan 2025 05:09:10 +0000</pubDate>
+<pubDate>Sat, 18 Jan 2025 05:09:10 +0000</pubDate>
+</item>
 
 <item>
 <title>｛Varia｝：跨平台的开源文件下载管理器，Adwaita 风格的 Aria2 图形前端</title>
