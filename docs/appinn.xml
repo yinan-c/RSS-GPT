@@ -4,6 +4,56 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>虎虎瞎折腾 | Beancount 复式记账软件（安装、试用与卸载）</title>
+<link>https://meta.appinn.net/t/topic/65486</link>
+<guid>https://meta.appinn.net/t/topic/65486</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-243624-h-1" name="p-243624-h-1"></a>背景</h1>
+<p>本虎之前试用过一些记账软件，但是 app 类的可能存在后期停止运营，数据无法导出或延续的弊端，所以就用 excel 表格简单的做了一个满月记账，按月记录差不多够用了。<br />
+最近本虎在刷小红书的时候，看到有人提到了开源记账软件 gnucash 这个软件本虎之前有试用过啦，就是它的软件体积大，小文件多，不够优雅，虽然它是复式记账，足够复杂显得特别专业，但是界面不好看呀，所以虎虎就没有再燃起重新试用的念头。正巧，在 L 站看到了一篇使用 serv00 搭建 Firefly-iii 记账工具的帖子，然后下面的回帖里有人提到了 beancount 这个基于 python 的复式记账工具，正好今天没有事情（其实是要去理发的，但是楼下的理发店回东北过年了，今天正式放假，所以就无法理发了），于是虎虎就开始了 beancount 的冒险之旅。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243624-h-2" name="p-243624-h-2"></a>基本环境</h1>
+<p>因为 beancount 是基于 python 的，所以第一步肯定是要确认你的电脑上已经安装好 python 并且版本要大于 3.9<br />
+打开终端或命令行，输入</p>
+<pre><code class="lang-auto">python3 --version
+</code></pre>
+<p>就可以看到你当前安装的版本啦，因为虎虎不喜欢硬盘里有很多小文件，感觉就像是小虫子爬在屋子里一样，所以在确认 MacOS 内置了 Python3 以后，就决定用它了！<br />
+再确认一下有没有安装 pip</p>
+<pre><code class="lang-auto">pip3 --version
+pip3 list
+pip3 install --upgrade pip
+</code></pre>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243624-beancount-3" name="p-243624-beancount-3"></a>安装 beancount</h1>
+<p><a href="https://beancount.github.io/docs/" rel="noopener nofollow ugc">官方文档</a> 页面有一个用户安装手册（在 Google 文档），里面介绍了很详细的安装方法，官方不推荐使用 pip3 来安装了，而是推荐 pipx 替代。（整只虎傻掉了，但是没有办法，还是按照推荐的做吧）<br />
+所以要先按照 pipx 的推荐，安装好 pipx 再用它安装 beancount<br />
+打开终端，输入</p>
+<pre><code class="lang-auto">brew install pipx
+</code></pre>
+<p>Homebrew 就会自动安装 pipx 啦，以及好多个依赖的软件包，其中就包含了一个 python@3.13 ！<br />
+然后要开始安装啦，就是很简单的两行代码</p>
+<pre><code class="lang-auto">pipx install beancount
+pipx install fava
+pipx list
+</code></pre>
+<p>这里的 fava 是一个让 beancount 记账数据可视化的工具。</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243624-h-4" name="p-243624-h-4"></a>试用</h1>
+<p>接下来就是正式的试用啦，随便从网上找一个 <a href="https://github.com/maonx/Beancount-Chinese-User-Manual/blob/master/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/Beancount%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.org" rel="noopener nofollow ugc">中文教程</a> 吧。<br />
+呃，编辑器， vs code 的体积太大了，并且容易产生各种缓存，有数码产品洁癖的本虎自然接受不了，就用 CotEditor 替代吧，没有语法高亮方案也没关系，手动添加一个，把常用的关键词加上就好啦。</p>
+<p>啊！！！这个记账记录，一条条的手动录入，也太麻烦了吧。虎虎躺平.gif</p>
+<h1><a class="anchor" href="https://meta.appinn.net#p-243624-h-5" name="p-243624-h-5"></a>卸载</h1>
+<p>打开终端</p>
+<pre><code class="lang-auto">pipx uninstall fava
+pipx uninstall beancount
+</code></pre>
+<p>完</p>
+<p>pipx 先不卸载了，万一过两天又发现了新的软件呢，还可以试用下~不过现在系统里有两个 python 唉</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65486">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 19 Jan 2025 11:28:44 +0000</pubDate>
+<pubDate>Sun, 19 Jan 2025 11:28:44 +0000</pubDate>
+</item>
 
 <item>
 <title>[自荐] 免费 AI 春联生成器</title>
