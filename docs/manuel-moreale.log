@@ -5982,3 +5982,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Shenanigans](https://manuelmoreale.com/shenanigans)
 append_entries: 1
 Finish: 2025-01-19 18:04:28.681818
+------------------------------------------------------
+Started: 2025-01-19 20:03:54.329070
+Existing_entries: 600
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-19 20:03:55.056611
