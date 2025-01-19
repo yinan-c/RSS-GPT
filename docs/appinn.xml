@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>虎虎瞎折腾 | Beancount 复式记账软件（安装、试用与卸载）</title>
 <link>https://meta.appinn.net/t/topic/65486</link>
 <guid>https://meta.appinn.net/t/topic/65486</guid>
 <content:encoded><![CDATA[
-
 <h1><a class="anchor" href="https://meta.appinn.net#p-243624-h-1" name="p-243624-h-1"></a>背景</h1>
 <p>本虎之前试用过一些记账软件，但是 app 类的可能存在后期停止运营，数据无法导出或延续的弊端，所以就用 excel 表格简单的做了一个满月记账，按月记录差不多够用了。<br />
 最近本虎在刷小红书的时候，看到有人提到了开源记账软件 gnucash 这个软件本虎之前有试用过啦，就是它的软件体积大，小文件多，不够优雅，虽然它是复式记账，足够复杂显得特别专业，但是界面不好看呀，所以虎虎就没有再燃起重新试用的念头。正巧，在 L 站看到了一篇使用 serv00 搭建 Firefly-iii 记账工具的帖子，然后下面的回帖里有人提到了 beancount 这个基于 python 的复式记账工具，正好今天没有事情（其实是要去理发的，但是楼下的理发店回东北过年了，今天正式放假，所以就无法理发了），于是虎虎就开始了 beancount 的冒险之旅。</p>
@@ -52,9 +52,7 @@ pipx uninstall beancount
             <p><a href="https://meta.appinn.net/t/topic/65486">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 19 Jan 2025 11:28:44 +0000</pubDate>
-<pubDate>Sun, 19 Jan 2025 11:28:44 +0000</pubDate>
 </item>
-
 <item>
 <title>[自荐] 免费 AI 春联生成器</title>
 <link>https://meta.appinn.net/t/topic/65456</link>
