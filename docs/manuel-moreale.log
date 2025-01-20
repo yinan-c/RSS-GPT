@@ -6051,3 +6051,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Photography](https://manuelmoreale.com/photography)
 append_entries: 1
 Finish: 2025-01-20 16:04:10.149750
+------------------------------------------------------
+Started: 2025-01-20 18:04:48.359652
+Existing_entries: 601
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-20 18:04:49.007228
