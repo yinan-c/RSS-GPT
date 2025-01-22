@@ -49444,3 +49444,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [【开源自荐】桌面春联 - 把春节氛围带到你的电脑桌面！](https://meta.appinn.net/t/topic/65644)
 append_entries: 2
 Finish: 2025-01-22 08:04:35.196772
+------------------------------------------------------
+Started: 2025-01-22 10:03:15.258356
+Existing_entries: 709
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2025-01-22 10:03:18.241337

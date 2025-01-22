@@ -6174,3 +6174,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Ugh, I’ll have to make myself a portfolio again](https://manuelmoreale.com/ugh-i-ll-have-to-make-myself-a-portfolio-again)
 append_entries: 1
 Finish: 2025-01-22 08:05:13.304967
+------------------------------------------------------
+Started: 2025-01-22 10:03:45.900903
+Existing_entries: 602
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-22 10:03:46.600695
