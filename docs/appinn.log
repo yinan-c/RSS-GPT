@@ -49460,3 +49460,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-22 12:05:17.075310
+------------------------------------------------------
+Started: 2025-01-22 14:03:25.849720
+Existing_entries: 709
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [Bitwarden移动端彻底放弃MAUI，各平台独立原生开发，性能大进步](https://meta.appinn.net/t/topic/65663)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-01-22 14:03:28.506253
