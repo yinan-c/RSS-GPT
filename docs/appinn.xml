@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>Bitwarden移动端彻底放弃MAUI，各平台独立原生开发，性能大进步</title>
 <link>https://meta.appinn.net/t/topic/65663</link>
 <guid>https://meta.appinn.net/t/topic/65663</guid>
 <content:encoded><![CDATA[
-
 <p>最早的Bitwarden移动端使用Xamarin框架来跨Android和iOS，后来升级到了MAUI。</p>
 <p>2024年3月，Bitwarden表示移动平台客户端核心已经过时，消耗的资源较多，他们计划使用Android和iOS的现代开发语言完全重写移动平台客户端。</p>
 <p>2024年6月，Bitwarden发布了Beta版的使用Kotlin开发的Bitwarden for Android以及使用Swift开发的Bitwarden for iOS。</p>
@@ -18,9 +18,7 @@
             <p><a href="https://meta.appinn.net/t/topic/65663">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 22 Jan 2025 12:37:54 +0000</pubDate>
-<pubDate>Wed, 22 Jan 2025 12:37:54 +0000</pubDate>
 </item>
-
 <item>
 <title>【AI工具】嘌查查：拍照就能查嘌呤</title>
 <link>https://meta.appinn.net/t/topic/65639</link>
