@@ -6207,3 +6207,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Awful people are everywhere](https://manuelmoreale.com/awful-people-are-everywhere)
 append_entries: 1
 Finish: 2025-01-22 18:04:31.767346
+------------------------------------------------------
+Started: 2025-01-22 20:04:31.142622
+Existing_entries: 603
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-22 20:04:31.815672
