@@ -22512,3 +22512,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Your Brain on Uncertainty](https://nesslabs.com/your-brain-on-uncertainty-neuroscience?utm_source=rss&utm_medium=rss&utm_campaign=your-brain-on-uncertainty-neuroscience)
 append_entries: 1
 Finish: 2025-01-23 18:04:59.431792
+------------------------------------------------------
+Started: 2025-01-23 20:04:26.123876
+Existing_entries: 62
+Fetching from https://nesslabs.com/feed
+append_entries: 0
+Finish: 2025-01-23 20:04:26.656141
