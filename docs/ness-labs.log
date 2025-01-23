@@ -22503,3 +22503,12 @@ Existing_entries: 61
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-01-23 16:04:42.210909
+------------------------------------------------------
+Started: 2025-01-23 18:04:58.550621
+Existing_entries: 61
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Your Brain on Uncertainty](https://nesslabs.com/your-brain-on-uncertainty-neuroscience?utm_source=rss&utm_medium=rss&utm_campaign=your-brain-on-uncertainty-neuroscience)
+append_entries: 1
+Finish: 2025-01-23 18:04:59.431792
