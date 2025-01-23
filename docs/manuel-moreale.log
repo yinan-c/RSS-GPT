@@ -6252,3 +6252,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Modern discourse](https://manuelmoreale.com/modern-discourse)
 append_entries: 1
 Finish: 2025-01-23 08:05:11.622973
+------------------------------------------------------
+Started: 2025-01-23 10:05:03.708666
+Existing_entries: 604
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-23 10:05:04.653217
