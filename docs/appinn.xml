@@ -4,6 +4,41 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>从 Windows 转到 macOS 的各位是怎么适应 macOS 的操作习惯的？</title>
+<link>https://meta.appinn.net/t/topic/65734</link>
+<guid>https://meta.appinn.net/t/topic/65734</guid>
+<content:encoded><![CDATA[
+
+<p>如题。这个月初公司要求，换到了 Macbook 开发。用了半个月都不习惯 macOS 的操作逻辑，尤其是：</p>
+<ul>
+<li><code>Control</code> 和 <code>Command</code> 分离。原来 Windows 下的 <code>Ctrl + A/C/V</code> 现在变成 <code>Command + A/C/V</code>，但 <code>Ctrl + S</code> 这种又是 <code>Control + S</code>，每次都记不清，一个操作要按两遍（而且我根本找不到舒适的手势来按 <code>Command</code>…）；</li>
+<li><code>Delete</code> 键直接没了，目前还不清楚如何替代；</li>
+<li>Windows 上可以 <code>Ctrl + Backspace/Delete/左右</code> 删除整个单词或跳过整个单词移动光标，目前还不清楚如何替代；</li>
+<li>Windows 上浏览器里可以「选中文字+拖动」，比如拖动到标签页栏就是「用默认搜索引擎搜索文字」，拖到编辑框就是「复制粘贴文字」，但 macOS 上好像也没这操作；</li>
+<li>触摸板真的用不习惯，选中和移动光标时食指肌肉一直高度紧张，用了小半天感觉腱鞘炎要犯了；</li>
+<li>外接鼠标依然会光标加速，没法准确定位；</li>
+<li>方向键好小，大手按不着；</li>
+<li>不知道 <code>Fn</code> 键有啥用，好像没用过几次；</li>
+<li>应用打开速度总比 Windows 慢一拍；</li>
+<li>自带截图工具是直接保存而不是复制到剪贴板。动作稍微慢一两秒，右下角的临时预览悬浮窗就消失了，只能去截图目录拖出来；</li>
+<li>……</li>
+</ul>
+<p>还有一些疑似 bug：</p>
+<ul>
+<li>尽管把默认浏览器设成 Chrome，重按选中文字并选择「在 Google 中搜索」，依然会打开 Safari 来搜索；</li>
+<li>设置里的「鼠标」页经常无故消失；</li>
+<li>合盖后依然会尝试连接蓝牙耳机，手动断联也没用，一合盖又连上了。</li>
+</ul>
+<hr />
+<p>以上纯属个人吐槽。我知道不少都能搜索解决，也不劳烦大家花时间来给我解答。我想说的是，macOS 的上手体验确实让我这个 Linux、Windows 老用户感觉异常水土不服。</p>
+<p>大家是怎么克服 macOS 前期使用的不适应的？</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65734">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 24 Jan 2025 07:40:05 +0000</pubDate>
+<pubDate>Fri, 24 Jan 2025 07:40:05 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】推荐一款开源在线白板工具</title>
