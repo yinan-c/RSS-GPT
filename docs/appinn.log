@@ -49640,3 +49640,11 @@ Fetching from https://meta.appinn.net/tag/macos.rss
 Append: [从 Windows 转到 macOS 的各位是怎么适应 macOS 的操作习惯的？](https://meta.appinn.net/t/topic/65734)
 append_entries: 1
 Finish: 2025-01-24 08:04:58.521101
+------------------------------------------------------
+Started: 2025-01-24 10:03:59.366414
+Existing_entries: 713
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2025-01-24 10:04:02.119529
