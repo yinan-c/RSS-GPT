@@ -35030,3 +35030,9 @@ Fetch error: HTTPSConnectionPool(host='rsshub.app', port=443): Read timed out. (
 Fetch failed from https://rsshub.app/paulgraham/articles
 append_entries: 0
 error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2025-01-25 02:19:35.098395
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+append_entries: 0
+Finish: 2025-01-25 02:19:38.730369
