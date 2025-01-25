@@ -6414,3 +6414,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Tiny corners](https://manuelmoreale.com/tiny-corners)
 append_entries: 1
 Finish: 2025-01-25 12:05:20.783469
+------------------------------------------------------
+Started: 2025-01-25 14:03:28.136124
+Existing_entries: 606
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-25 14:03:29.161204

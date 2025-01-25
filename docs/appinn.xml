@@ -4,6 +4,55 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>｛Filelight｝：适用于多平台的图形化开源磁盘占用查看器，通过易于理解的多层同心圆示意图来显示文件夹结构及占用情况</title>
+<link>https://meta.appinn.net/t/topic/65783</link>
+<guid>https://meta.appinn.net/t/topic/65783</guid>
+<content:encoded><![CDATA[
+
+<p><strong>｛Filelight｝：适用于多平台的图形化开源磁盘占用查看器，通过易于理解的多层同心圆示意图来显示文件夹结构及占用情况</strong></p>
+<p>＞ 源码：<a href="https://invent.kde.org/utilities/filelight">KDE Invent</a><br />
+＞ 许可：<a href="https://invent.kde.org/utilities/filelight/-/tree/master/LICENSES">GPL-2.0 等</a></p>
+<p><code> </code></p>
+<blockquote>
+<p><em>馆长注：</em><br />
+<em>1. 该软件最初是为 Linux 平台开发，后续移植到 Windows 和 macOS 平台，相比之下开发进度可能较为迟滞，可能存在不可用和不稳定情况。</em><br />
+<em>2. 因为该软件除了扫描功能外还有文件删除功能，故请做好备份谨慎操作，防止不必要的文件损失。</em></p>
+</blockquote>
+<p>Filelight 是一个适用于多平台的图形化开源磁盘占用查看器，通过易于理解的多层同心圆示意图来显示文件夹结构及占用情况。</p>
+<p>功能特性：</p>
+<ul>
+<li>扫描本地、远程或可移动磁盘</li>
+<li>查看文件和文件夹的详细信息</li>
+<li>删除占用过多存储空间的文件和文件夹</li>
+<li>与 Dolphin、Konqueror 和 Krusader 等文件管理器集成使用</li>
+<li>可自定义的配色方案</li>
+</ul>
+<p><img alt="filelight.png" height="499" src="https://h1.appinn.me/file/1737811844975_filelight.png" width="597" /></p>
+<p>版本：24.12.1<br />
+关注：Flathub 237k+ Installs<br />
+状态：正常维护<br />
+语言：支持中文<br />
+网络：无联网功能<br />
+资费：免费<br />
+平台：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/linux"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>linux</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/windows"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>windows</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/macos"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>macos</span></a></p>
+<p>＞ 主页：<a href="https://apps.kde.org/filelight/">KDE 应用程序</a><br />
+＞ 安装：<a href="https://flathub.org/apps/details/org.kde.filelight">Flathub</a>；<a href="https://snapcraft.io/filelight">Snap Store</a>；<a href="https://www.microsoft.com/store/apps/9pfxcd722m2c">Microsoft Store</a><br />
+＞ 指南：<a href="https://userbase.kde.org/Filelight">KDE 用户百科</a><br />
+＞ 交流：<a href="https://discuss.kde.org/c/help/6">KDE 论坛</a><br />
+＞ 捐助：<a href="https://kde.org/community/donations">捐款给 KDE</a></p>
+<p><code> </code><br />
+＞ 副本：<a href="https://infosec.exchange/@trantor_library">FU102</a>；<a href="https://t.me/trantor_library">TG101</a>；<a href="https://meta.appinn.net/trantor_library">Appinn</a><br />
+＞ 档案：<a href="https://t.me/trantor_archive/591">20240620_003</a></p>
+<p>＃：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/1_%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>1_开源项目</span></a> <span class="hashtag-raw">#2_开源工具收集</span><br />
+＃：<span class="hashtag-raw">#A_收集</span> <span class="hashtag-raw">#B_整理</span> <span class="hashtag-raw">#C_引述</span> <span class="hashtag-raw">#D_开源</span> <span class="hashtag-raw">#D_工具</span> <span class="hashtag-raw">#E_中文</span><br />
+％：2025年1月25日（UTC+8）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65783">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 25 Jan 2025 13:32:20 +0000</pubDate>
+<pubDate>Sat, 25 Jan 2025 13:32:20 +0000</pubDate>
+</item>
 
 <item>
 <title>从 Windows 转到 macOS 的各位是怎么适应 macOS 的操作习惯的？</title>
