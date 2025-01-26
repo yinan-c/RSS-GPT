@@ -6513,3 +6513,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A better list of blog platforms](https://manuelmoreale.com/a-better-list-of-blog-platforms)
 append_entries: 1
 Finish: 2025-01-26 20:04:10.245356
+------------------------------------------------------
+Started: 2025-01-26 22:03:36.613562
+Existing_entries: 607
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-26 22:03:37.209963
