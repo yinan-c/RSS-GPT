@@ -5,11 +5,69 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【无用之物】grex：一个根据给定的文本输出可用正则的命令行工具</title>
+<link>https://meta.appinn.net/t/topic/65830</link>
+<guid>https://meta.appinn.net/t/topic/65830</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-245122-h-1" name="p-245122-h-1"></a>作用</h2>
+<p>grex是一个可以将给定的文件内容（按行拆分）或者输入的语句猜测并给出正则匹配的小工具（<s>感觉不如ai</s>）</p>
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/pemistahl/grex" rel="noopener" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/725b03e61b92d4711e4f23e7b3cecf56/pemistahl/grex" width="690" />
+
+  <h3><a href="https://github.com/pemistahl/grex" rel="noopener" target="_blank">GitHub - pemistahl/grex: A command-line tool and Rust library with Python...</a></h3>
+
+    <p><span class="github-repo-description">A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-245122-h-2" name="p-245122-h-2"></a>测试</h2>
+<p>中文一包糟，似乎是没有优化过……</p>
+<pre><code class="lang-plaintext">（沿岸第11周周五下午）机电学院教风学风督察记录表
+（椒盐第13周周四上午）计算机学院教风学风督察记录表
+（其他第10周周日下午）临床医学学院教风学风督察记录表
+（椒盐第3周周五上午）教培学院教风学风督察记录表
+（珠江第3周周日下午）临床医学院教风学风督察记录表
+（椒盐第2周周一上午）材料科学与工程学院教风学风督察记录表
+</code></pre>
+<p><code>./grex.exe -f C:\Users\Home\Downloads\新建文本文档.txt</code></p>
+<p>结果它给出的答案是</p>
+<pre><code class="lang-regex">^（(?:(?:椒盐第(?:2周周一上午）材料科学与工程|13周周四上午）计算机|3周周五上午）教培)|沿岸第11周周五下午）机电|珠江第3周周日下午）临床医)|其他第10周周日下午）临床医学)学院教风学风督察记录表$
+</code></pre>
+<p>你要问我匹配不匹配，那自然是可以用的，问题是和我自己写的（以及靠ai写的没法比……）</p>
+<p>我的答案：</p>
+<pre><code class="lang-regex">^（(.*)?第(\d+)周周(.)(..)）(.*)?学院教风学风督察记录表$
+</code></pre>
+<p>emm，<s>确实不如ai</s>……但是在ai大行其道的当下似乎意义不是太大了……</p>
+<p>（不过我试着英文还能看◐▽◑）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65830">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 27 Jan 2025 08:42:50 +0000</pubDate>
+<pubDate>Mon, 27 Jan 2025 08:42:50 +0000</pubDate>
+</item>
+
+<item>
 <title>[痛点] 稀缺的托盘空间</title>
 <link>https://meta.appinn.net/t/topic/65824</link>
 <guid>https://meta.appinn.net/t/topic/65824</guid>
 <content:encoded><![CDATA[
-
 <p>Windows 右下角的系统托盘<br />
 macOS 右上角的菜单栏<br />
 Chrome、Edge 的地址栏旁边的插件行<br />
@@ -34,9 +92,7 @@ iPhone 的 Dock</p>
             <p><a href="https://meta.appinn.net/t/topic/65824">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 27 Jan 2025 06:37:53 +0000</pubDate>
-<pubDate>Mon, 27 Jan 2025 06:37:53 +0000</pubDate>
 </item>
-
 <item>
 <title>Edge浏览器怎么设置关闭最后一个标签时不关闭浏览器？</title>
 <link>https://meta.appinn.net/t/topic/31593</link>
