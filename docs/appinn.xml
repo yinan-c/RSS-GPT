@@ -4,6 +4,61 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>｛NFSee｝：适用于 Android 和 iOS 的开源 NFC 工具，支持从多种类型的 NFC 标签或卡片中读取和转储数据</title>
+<link>https://meta.appinn.net/t/topic/65840</link>
+<guid>https://meta.appinn.net/t/topic/65840</guid>
+<content:encoded><![CDATA[
+
+<p><strong>｛NFSee｝：适用于 Android 和 iOS 的开源 NFC 工具，支持从多种类型的 NFC 标签或卡片中读取和转储数据</strong></p>
+<p>＞ 源码：<a href="https://github.com/nfcim/nfsee">GitHub</a><br />
+＞ 许可：<a href="https://github.com/nfcim/nfsee/blob/master/LICENSE">MIT</a></p>
+<p><code> </code></p>
+<blockquote>
+<p><em>馆长注：</em><br />
+<em>1. 由于馆长对 NFC 技术没有什么深入了解，只能确定该软件的的读取和转储功能正常，不能确定是否支持 NFC 卡模拟。</em><br />
+<em>2. 该软件提供了“<a href="https://nfsee.nfc.im/js-extension/">执行脚本</a>”功能，可以运行自定义的 JavaScript 脚本，目前没有预设脚本，不清楚能否用于 NFC 卡模拟。</em></p>
+</blockquote>
+<p>NFSee 是一个适用于 Android 和 iOS 的开源 NFC 工具，支持从多种类型的 NFC 标签或卡片中读取和转储数据。</p>
+<p>目前支持：</p>
+<ul>
+<li>全国城市一卡通（发行信息、余额和交易记录）</li>
+<li>北京市政公交一卡通（发行信息、余额和交易记录，不支持 iOS）</li>
+<li>深圳通（发行信息、余额和交易记录）</li>
+<li>岭南通（发行信息、余额和交易记录）</li>
+<li>八达通（余额）</li>
+<li>清华校园卡（发行信息、余额和交易记录）</li>
+<li>中华人民共和国居民身份证（仅 GUID，不支持 iOS）</li>
+<li>支持 PPSE 的银行卡（发行信息、余额和交易记录，不支持 iOS）</li>
+<li>T-Union （发行信息、余额和交易记录）</li>
+<li>MIFARE Ultralight（基本信息、NDEF 数据和原始数据）</li>
+<li>MIFARE DESFire（基本信息、NDEF 数据和原始数据）</li>
+<li>MIFARE Classic4（基本信息、NDEF 数据和原始数据，不支持 iOS）</li>
+</ul>
+<p><img alt="ResizedImage_2025-01-25_00-38-24_1873.png" height="500" src="https://h1.appinn.me/file/1737980054016_ResizedImage_2025-01-25_00-38-24_1873.png" width="569" /></p>
+<p>版本：2.4.0+20400<br />
+关注：GitHub 150+ stars<br />
+状态：缓慢开发<br />
+语言：支持中文<br />
+网络：完全离线<br />
+资费：免费<br />
+技术：Flutter<br />
+平台：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/android"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>android</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/ios"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>ios</span></a></p>
+<p>＞ 主页：<a href="https://nfsee.nfc.im/">NFSee</a><br />
+＞ 安装：<a href="https://github.com/nfcim/nfsee/releases">GitHub Releases</a>；<a href="https://f-droid.org/packages/im.nfc.nfsee/">F-Droid</a>；<a href="https://play.google.com/store/apps/details?id=im.nfc.nfsee">Google Play</a>；<a href="https://apps.apple.com/us/app/nfsee/id1496080962">App Store</a><br />
+＞ 捐助：<a href="https://nfsee.nfc.im/donate/">～Donate</a></p>
+<p><code> </code><br />
+＞ 副本：<a href="https://infosec.exchange/@trantor_library">FU102</a>；<a href="https://t.me/trantor_library">TG101</a>；<a href="https://meta.appinn.net/trantor_library">Appinn</a><br />
+＞ 档案：<a href="https://t.me/trantor_archive/748">A_20250121_002</a></p>
+<p>＃：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/1_%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>1_开源项目</span></a> <span class="hashtag-raw">#2_开源工具收集</span><br />
+＃：<span class="hashtag-raw">#A_收集</span> <span class="hashtag-raw">#B_整理</span> <span class="hashtag-raw">#C_引述</span> <span class="hashtag-raw">#D_开源</span> <span class="hashtag-raw">#D_工具</span> <span class="hashtag-raw">#E_中文</span><br />
+％：2025年1月27日（UTC+8）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65840">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 27 Jan 2025 12:21:47 +0000</pubDate>
+<pubDate>Mon, 27 Jan 2025 12:21:47 +0000</pubDate>
+</item>
 
 <item>
 <title>【无用之物】grex：一个根据给定的文本输出可用正则的命令行工具</title>
