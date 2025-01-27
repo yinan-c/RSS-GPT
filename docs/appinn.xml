@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>【无用之物】grex：一个根据给定的文本输出可用正则的命令行工具</title>
 <link>https://meta.appinn.net/t/topic/65830</link>
 <guid>https://meta.appinn.net/t/topic/65830</guid>
 <content:encoded><![CDATA[
-
 <h2><a class="anchor" href="https://meta.appinn.net#p-245122-h-1" name="p-245122-h-1"></a>作用</h2>
 <p>grex是一个可以将给定的文件内容（按行拆分）或者输入的语句猜测并给出正则匹配的小工具（<s>感觉不如ai</s>）</p>
 <aside class="onebox githubrepo">
@@ -60,9 +60,7 @@
             <p><a href="https://meta.appinn.net/t/topic/65830">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 27 Jan 2025 08:42:50 +0000</pubDate>
-<pubDate>Mon, 27 Jan 2025 08:42:50 +0000</pubDate>
 </item>
-
 <item>
 <title>[痛点] 稀缺的托盘空间</title>
 <link>https://meta.appinn.net/t/topic/65824</link>
