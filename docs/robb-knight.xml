@@ -4,6 +4,23 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Doubts about Pixelfed</title>
+<link>https://rknight.me/blog/doubts-about-pixelfed/</link>
+<guid>https://rknight.me/blog/doubts-about-pixelfed/</guid>
+<content:encoded><![CDATA[
+
+<p>I have a Pixelfed account. I don't post much, but it's there. I like having a dedicated place to post photos. I like seeing other people's photos.  Let me start by saying that Dan, the maintainer of Pixelfed, has always been very helpful when I've asked him about various ActivityPub-related things. He knows his shit when it comes to the AP spec. This post is a collection of concerns I've had over the past few months about Pixelfed and the way it's longevity.</p>
+<p>Dan, to <a href="https://melkat.blog/p/pixelfed-disappointment/">quote Mel</a>, &quot;<em>posting like a Founder</em> (derogatory)&quot;, was not a fun thing to witness.</p>
+<p>The <a href="https://www.kickstarter.com/projects/pixelfed/pixelfed-foundation-2024-real-ethical-social-networks">Pixelfed Kickstarter</a> says they want to be &quot;<em>the first Fediverse app with a billion people</em>&quot;. Dream big by all means but this is chaotic. We've seen what happens with billion-people social networks - federation isn't going to solve this.</p>
+<p>In Mel's post she noticed that the project account posted about a new data export feature available that day. It wasn't, and still isn't, available. The export that <em>is</em> available doesn't actually include your images, it's just JSON with the URLs to the files. Not an ideal export for anyone without technical knowledge.</p>
+<p>As it turns out Pixelfed.social runs the latest commit from the repo, which means the format is different to the release version so the <a href="https://gist.melkat.dev/melanie/pixelfed-to-md">code Mel put together</a> only works for <em>other</em> Pixelfed servers. Handily, <a href="https://posty.1sland.social/pixelfed">Posty</a> supports both formats. It's worth noting the version on Pixelfed.social <em>isn't</em> the full HTML version that was posted about, just a new format.</p>
+<p>Finally <a href="https://dansup-open-letter.github.io/appendix/">this overview</a> of Dan's &quot;<em>hostility towards FOSS maintainers and the ecosystem at large</em>&quot; is a really uncomfortable read and doesn't bode well for the future of the project.</p>
+<p>All of this combined makes me not want to use Pixelfed so I'm going to be converting my export to note posts for here instead and deleting my Pixelfed account.</p>
+]]></content:encoded>
+
+<pubDate>2025-01-27T19:49:31Z</pubDate>
+</item>
 
 <item>
 <title>Mechanical Pencils</title>

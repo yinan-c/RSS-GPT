@@ -6579,3 +6579,12 @@ Existing_entries: 607
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-27 18:04:40.580119
+------------------------------------------------------
+Started: 2025-01-27 20:04:37.972921
+Existing_entries: 607
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Sharing “Unplatform”](https://manuelmoreale.com/sharing-unplatform)
+append_entries: 1
+Finish: 2025-01-27 20:04:39.319390
