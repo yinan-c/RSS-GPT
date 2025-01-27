@@ -4,6 +4,38 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>[痛点] 稀缺的托盘空间</title>
+<link>https://meta.appinn.net/t/topic/65824</link>
+<guid>https://meta.appinn.net/t/topic/65824</guid>
+<content:encoded><![CDATA[
+
+<p>Windows 右下角的系统托盘<br />
+macOS 右上角的菜单栏<br />
+Chrome、Edge 的地址栏旁边的插件行<br />
+Root 后安卓的状态栏<br />
+iPhone 的 Dock</p>
+<p>这些地方的空间，对于喜欢安装软件的人，一直是稀缺资源。当然，也可能是“差生文具多”的体现。</p>
+<p>痛点：</p>
+<ul>
+<li>macOS 的 App 都喜欢上菜单栏，而且有的 App 入口只有菜单栏，导致 macOS 安装几个第三方 App 就会把菜单栏占满。再加上刘海屏遮挡一部分空间。 <a href="https://meta.appinn.net/t/topic/62742">Ice</a>、Bartender 这类管理软件虽然功能给得够多，但是操作体验受限。</li>
+<li>Windows 的系统托盘，可以选择收纳起来、隐藏掉或者平铺，好在可以手动拖动排序。
+<ul>
+<li>相关：<a href="https://meta.appinn.net/t/topic/47874">目前有没有办法让 windows 11 系统托盘双行显示？</a></li>
+</ul>
+</li>
+<li>Chrome 这个插件系统，安装的插件要么收纳在一个图标之下，要么横着排成一行，最难受的是连基础的<a href="https://meta.appinn.net/t/topic/48443">手动排序</a>都没有。（我现在的 Chrome 插件排和地址栏差不多一般长了，我又不想收纳到那个小图标里，收纳进去就是吃灰）</li>
+<li>Obsidian 的 Ribbon 等介面得益于一些插件，能够高度自定义解决，而且多数插件更依赖命令而非小图标，所以不存在这个痛点。</li>
+<li>iPhone 的 dock 只有四个坑，需要一种良好的平衡，找四个最高频的 App？往往不够四个或者超过四个，放个文件夹上来？又感觉怪怪的，需要点两下。</li>
+<li>Root 后的 Android 菜单栏，小功能一大堆，第一次玩机难免会想去把它填满。（好在刘海屏手机逐渐主导后，这种折腾变少了，Root 本身也变少了）</li>
+</ul>
+<p>怎么应对？如果能直接解决问题是最简单的，但是有些显然不行，只能更换交互思路甚至删掉多余的软件。</p>
+            <p><small>3 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/65824">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 27 Jan 2025 06:37:53 +0000</pubDate>
+<pubDate>Mon, 27 Jan 2025 06:37:53 +0000</pubDate>
+</item>
 
 <item>
 <title>Edge浏览器怎么设置关闭最后一个标签时不关闭浏览器？</title>

@@ -49924,3 +49924,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-01-27 06:04:47.841339
+------------------------------------------------------
+Started: 2025-01-27 08:04:48.893595
+Existing_entries: 717
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [[痛点] 稀缺的托盘空间](https://meta.appinn.net/t/topic/65824)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-01-27 08:04:52.692083
