@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>｛NFSee｝：适用于 Android 和 iOS 的开源 NFC 工具，支持从多种类型的 NFC 标签或卡片中读取和转储数据</title>
 <link>https://meta.appinn.net/t/topic/65840</link>
 <guid>https://meta.appinn.net/t/topic/65840</guid>
 <content:encoded><![CDATA[
-
 <p><strong>｛NFSee｝：适用于 Android 和 iOS 的开源 NFC 工具，支持从多种类型的 NFC 标签或卡片中读取和转储数据</strong></p>
 <p>＞ 源码：<a href="https://github.com/nfcim/nfsee">GitHub</a><br />
 ＞ 许可：<a href="https://github.com/nfcim/nfsee/blob/master/LICENSE">MIT</a></p>
@@ -57,9 +57,7 @@
             <p><a href="https://meta.appinn.net/t/topic/65840">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 27 Jan 2025 12:21:47 +0000</pubDate>
-<pubDate>Mon, 27 Jan 2025 12:21:47 +0000</pubDate>
 </item>
-
 <item>
 <title>【无用之物】grex：一个根据给定的文本输出可用正则的命令行工具</title>
 <link>https://meta.appinn.net/t/topic/65830</link>
