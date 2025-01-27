@@ -6588,3 +6588,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Sharing “Unplatform”](https://manuelmoreale.com/sharing-unplatform)
 append_entries: 1
 Finish: 2025-01-27 20:04:39.319390
+------------------------------------------------------
+Started: 2025-01-27 22:03:32.177039
+Existing_entries: 608
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-27 22:03:32.878727
