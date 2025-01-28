@@ -4,6 +4,20 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>My Pebble Steel is (Mostly) Dead</title>
+<link>https://rknight.me/blog/my-pebble-steel-is-mostly-dead/</link>
+<guid>https://rknight.me/blog/my-pebble-steel-is-mostly-dead/</guid>
+<content:encoded><![CDATA[
+
+<p>With the news that <a href="https://ericmigi.com/blog/why-were-bringing-pebble-back">Pebble is coming back</a> I dug out my Pebble Steel to see if it still worked.</p>
+<p>After fiddling around with the <em>terrible</em> charging cable, getting stuck in a loop for a while, it finally booted and I was able to set the watch face to the <a href="https://relay.fm">Relay</a> one I made a decade ago.</p>
+<p><img alt="A Pebble Steel" src="https://cdn.rknight.me/site/2025/pebble-steel.jpg" /></p>
+<p>Sadly when I disconnect the charger, it turns off. I guess it needs a new battery but I don't have the energy or the time to do that so back into storage it goes.</p>
+]]></content:encoded>
+
+<pubDate>2025-01-28T13:44:41Z</pubDate>
+</item>
 
 <item>
 <title>Doubts about Pixelfed</title>

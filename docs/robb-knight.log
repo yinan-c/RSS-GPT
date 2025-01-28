@@ -36896,3 +36896,12 @@ Existing_entries: 415
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-01-28 12:05:38.971945
+------------------------------------------------------
+Started: 2025-01-28 14:03:35.328878
+Existing_entries: 415
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [My Pebble Steel is (Mostly) Dead](https://rknight.me/blog/my-pebble-steel-is-mostly-dead/)
+append_entries: 1
+Finish: 2025-01-28 14:03:37.170010
