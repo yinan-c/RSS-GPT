@@ -6648,3 +6648,12 @@ Existing_entries: 608
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-28 16:04:39.797397
+------------------------------------------------------
+Started: 2025-01-28 18:04:32.380079
+Existing_entries: 608
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A moment after the rain](https://manuelmoreale.com/a-moment-after-the-rain)
+append_entries: 1
+Finish: 2025-01-28 18:04:33.624095
