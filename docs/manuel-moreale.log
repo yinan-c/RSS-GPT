@@ -6657,3 +6657,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment after the rain](https://manuelmoreale.com/a-moment-after-the-rain)
 append_entries: 1
 Finish: 2025-01-28 18:04:33.624095
+------------------------------------------------------
+Started: 2025-01-28 20:04:08.345212
+Existing_entries: 609
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-01-28 20:04:08.978514
