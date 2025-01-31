@@ -6849,3 +6849,12 @@ Existing_entries: 609
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-01-31 10:04:03.941776
+------------------------------------------------------
+Started: 2025-01-31 12:06:09.612815
+Existing_entries: 609
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [P&B: Donny Truong](https://manuelmoreale.com/pb-donny-truong)
+append_entries: 1
+Finish: 2025-01-31 12:06:10.380420
