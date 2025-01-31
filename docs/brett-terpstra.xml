@@ -4,6 +4,46 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Archive linkding bookmarks to DEVONthink</title>
+<link>https://brett.trpstra.net/link/535/16952450/archive-linkding-bookmarks-to-devonthink</link>
+<guid>https://brett.trpstra.net/link/535/16952450/archive-linkding-bookmarks-to-devonthink</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2024/10/bookmark-header-rb.7446.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>I recently <a href="https://brettterpstra.com/2024/10/31/archive-linkding-bookmarks-to-local-markdown/">posted a script</a> I was using to archive my <a href="https://linkding.link/">linkding</a> bookmarks to Markdown files in <a href="https://nvultra.com/" title="nvUltra-Searchable, portable, MultiMarkdown notes">nvUltra</a>. I&rsquo;ve since started digging into <a href="https://www.devontechnologies.com/apps/devonthink" title="DEVONthink, professional document and ...">DEVONthink</a> and have <a href="https://gist.github.com/ttscoff/9743ce02964a7e39c34c42054c11cfa5" title="linkding to DEVONthink script">updated the script</a> to archive my bookmarks there.</p>
+
+<p>I still use <a href="https://bookmarks.scoffb.in" title="Brett's Bookmarks">my bookmarks</a> with nvUltra by indexing a notebook in DEVONthink and saving the bookmarks there. Most of my bookmarks are still archived as Markdown, so that allows me to view and edit content in either place. (The same could be done with Obsidian.) Web archives and PDFs also display in nvUltra, so I have both options available for viewing. But in DEVONthink I can link the archived bookmarks to other documents, tag and classify them, and annotate all types with highlights and notes.</p>
+
+<p>The script I&rsquo;m running allows me to tag bookmarks to be archived, just like the original script. The script runs at regular intervals using launchd on my always-on Mac Studio. It&rsquo;s a self-contained script that requires just Ruby and one gem (HTTParty) to run. It&rsquo;s best run as a user agent, but it should work if run as a global agent (as root) as well. Installation and configuration are documented in the <a href="https://gist.github.com/ttscoff/9743ce02964a7e39c34c42054c11cfa5#file-readme-md" title="README for the script">README</a> (and in the script comments).</p>
+
+<p>Aside from having my bookmarks readily available in DEVONthink, this also allows me to make use of DEVONthink&rsquo;s clipper, making conversion to webloc bookmarks, PDF files, or web archives easy, in addition to Markdown notes.</p>
+
+<p>I set the script up to use Marky 2.0 as the Markdownifier, but have been getting sketchy results for some reason, so I currently have it configured to use the version of Marky 1.0 that DEVONthink has built in. I hope to fix this soon. Switching is just a configuration option, so watch here for an update when I get it smoothed out.</p>
+
+<p>The script allows configuring a single tag that will cause a bookmark to be ingested, and there are other tags to specify what type of bookmark is saved: PDF, web archive, webloc (bookmark), or Markdown. The way I run it, any bookmark tagged with the main <code class="language-plaintext highlighter-rouge">.archive</code> tag gets saved as Markdown unless I also specify one of the other types. If you don&rsquo;t set a default type, you can save as both Markdown <em>and</em> another type.</p>
+
+<p>See the Gist link below to download the script. The configuration options are all in the <code class="language-plaintext highlighter-rouge">options</code> variable at the top, and are well-commented. Define your server information, the DEVONthink database and group to use, and the tags you want to use for the various types.</p>
+
+<p>I recommend <a href="https://www.soma-zone.com/LaunchControl/" title="The launchd GUI">LaunchControl from soma-zone</a> for editing launchd jobs. It makes setting all of the options easy, and loading/unloading a job is just a button click away.</p>
+
+<ul>
+  <li><a href="https://gist.github.com/ttscoff/9743ce02964a7e39c34c42054c11cfa5" title="linkding to DEVONthink script">linkding bookmarks to DEVONthink script</a></li>
+</ul>
+
+<p>Please let me know if you use it and have any issues. I know this is a very specific use case and maybe one or two people will ever need it. No matter, I needed it for my own use, but if it helps anyone else, I&rsquo;m always happy to share.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F31%2Farchive-linkding-bookmarks-to-devonthink%2F&amp;text=Archive+linkding+bookmarks+to+DEVONthink&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F01%2F31%2Farchive-linkding-bookmarks-to-devonthink%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+                like to help out.</a></p>
+<p>Find Brett on <a href="https://nojack.easydns.ca/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16952450.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-01-31T05:47:00-06:00</pubDate>
+<pubDate>2025-01-31T05:47:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Health Update: Diagnoses</title>
