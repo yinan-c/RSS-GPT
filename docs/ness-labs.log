@@ -23100,3 +23100,12 @@ Existing_entries: 62
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-01-31 22:03:51.128711
+------------------------------------------------------
+Started: 2025-02-01 00:15:19.905006
+Existing_entries: 62
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Personal Science: Self-Experimentation from Quantified Self to Qualified Self](https://nesslabs.com/personal-science?utm_source=rss&utm_medium=rss&utm_campaign=personal-science)
+append_entries: 1
+Finish: 2025-02-01 00:15:20.448947
