@@ -37364,3 +37364,12 @@ Existing_entries: 417
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-02-03 22:03:29.570858
+------------------------------------------------------
+Started: 2025-02-04 00:14:01.734000
+Existing_entries: 417
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Loading Pixelfed Photos with Eleventy](https://rknight.me/blog/loading-pixelfed-photos-with-eleventy/)
+append_entries: 1
+Finish: 2025-02-04 00:14:03.449440
