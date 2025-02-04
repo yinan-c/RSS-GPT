@@ -37427,3 +37427,12 @@ Existing_entries: 418
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-02-04 18:04:30.483034
+------------------------------------------------------
+Started: 2025-02-04 20:04:03.220844
+Existing_entries: 418
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Zebra Big 30 Pack of Pens](https://rknight.me/blog/zebra-big-30-pack-of-pens/)
+append_entries: 1
+Finish: 2025-02-04 20:04:05.063178
