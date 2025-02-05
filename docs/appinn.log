@@ -50800,3 +50800,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-02-05 08:04:39.027464
+------------------------------------------------------
+Started: 2025-02-05 10:03:43.285115
+Existing_entries: 721
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有哪些本地运行的 web 端工具？](https://meta.appinn.net/t/topic/66150)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-02-05 10:03:46.202010
