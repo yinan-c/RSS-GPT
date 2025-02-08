@@ -4,6 +4,59 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Readwise highlights to DEVONthink</title>
+<link>https://brett.trpstra.net/link/535/16958687/readwise-highlights-to-devonthink</link>
+<guid>https://brett.trpstra.net/link/535/16958687/readwise-highlights-to-devonthink</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/02/readwise_devonthink-rb.7447.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p><a href="https://readwise.io/" title="Readwise">Readwise</a> is an awesome power-user tool for reading web articles, newsletters, and even e-books. <a href="https://www.devontechnologies.com/apps/devonthink" title="DEVONthink, professional document and ...">DEVONthink</a> is an amazing tool for building connected knowledge bases. Today I&rsquo;m releasing a script that saves Readwise highlights to DEVONthink as annotated Markdown files, bringing the two together. It&rsquo;s pretty handy.</p>
+
+<p>I started trying out Readwise shortly after I started really getting into DEVONthink. DEVONthink <em>can</em> function as a Read Later type of tool, but I found Readwise Reader and associated browser extensions to be a lot more pleasurable for the actual act of reading. I weighed the options for a while, and then decided to go ahead and start paying for Readwise. But I was doing all of this highlighting as I was reading, which is really great for comprehension and retention, but those articles and highlights weren&rsquo;t accessible from my larger knowledge base in DEVONthink.</p>
+
+<h3 id="what-it-does">What it does</h3>
+
+<p><a href="https://gist.github.com/ttscoff/c27bb8cc0f717bcd34ec708d0bf68c7b">This script</a> bridges the gap. It&rsquo;s designed to run at intervals, finding new highlights as you create them, and imports highlighted documents as Markdown files if the document is a web page. If it&rsquo;s something else, like a forwarded email or a PDF/E-book, it will just create a bookmark linking to the Reader URL. The Markdown file/bookmark is then annotated with a list of the highlights and all of their associated notes and tags, as well as the Readwise document summary and any document notes/tags. The annotations are stored as both Finder comments and as separate annotation files.</p>
+
+<p>If the document is saved as Markdown, the script also highlights paragraphs containing Readwise highlights. It does this using CriticMarkup (<code class="language-plaintext highlighter-rouge">{==.*==}</code>), which shows up as highlighted in both the Markdown editor and in the preview. It can only highlight by paragraph (not by sentence), which is fine for me because I typically just highlight by hitting <code class="language-plaintext highlighter-rouge">h</code> in Reader to highlight the current paragraph. The attached annotations show just the highlighted text, so more intricate highlights aren&rsquo;t lost in this process. This highlighting makes it really easy to jump to pertinent portions of the text from the Document-&gt;Annotations inspector.</p>
+
+<p>The Readwise API can return new highlights added to a document that already had highlights in it. This script handles this by merging new highlights into the annotations and updating the existing highlights in the Markdown. It can&rsquo;t handle deletions of existing highlights via the API (yet), but will merge new and changed highlights.</p>
+
+<p>The other minor caveat is that Readwise allows highlighting of images, but the script doesn&rsquo;t highlight images in the text. However, the annotations will contain the image in Markdown, which will display in the annotations viewer.</p>
+
+<h3 id="how-to-use-it">How to use it</h3>
+
+<p>This script is written in Ruby, so you&rsquo;ll need Ruby installed to run it. If your system doesn&rsquo;t have Ruby (I believe it&rsquo;s still installed by default, for now), you&rsquo;ll need to install a copy using the Xcode Command Line tools, or with Homebrew, asdf, mise, rvm, rbenv&hellip; there are lots of options. I recommend running at least version 3.0.</p>
+
+<p>To use the script you&rsquo;ll need your Readwise API token. To get the token, log into your Readwise account and then go to <a href="https://readwise.io/access_token">https://readwise.io/access_token</a>. Copy the token from that page and hang on to it for a second.</p>
+
+<p>Next, <a href="https://gist.github.com/ttscoff/c27bb8cc0f717bcd34ec708d0bf68c7b">download the gist</a> and save it to your drive as <code class="language-plaintext highlighter-rouge">readwise_to_devonthink.rb</code>. It can be saved anywhere, as long as you know the path to it. Open it in your favorite text editor and paste the API key from above into the <code class="language-plaintext highlighter-rouge">options</code> hash near the top of the script. In that hash you can also configure the database and group to save to, if you don&rsquo;t want to use the global inbox.</p>
+
+<p>Next, make the script executable with <code class="language-plaintext highlighter-rouge">chmod a+x /path/to/readwise_to_devonthink.rb</code>. You can now run it once to get all existing highlights. Run <code class="language-plaintext highlighter-rouge">/path/to/readwise_to_devonthink.rb</code> and it will ping the API and get all highlights from the beginning of your history. The date of the most recent run is stored in  <code class="language-plaintext highlighter-rouge">~/.local/share/devonthink/readwise_last_update</code>. Future runs will only get new highlights since the date stored there. If you want to rerun it from the beginning for any reason, just delete that file.</p>
+
+<p>Lastly, you&rsquo;ll want this to run at intervals. macOS provides a perfect tool for this: <code class="language-plaintext highlighter-rouge">launchd</code>. Setting up a job with launchd is a little complex, and I&rsquo;ll probably write a how-to eventually, but for now trust me when I say that using <a href="https://www.soma-zone.com/LaunchControl/" title="The launchd GUI">LaunchControl</a> makes it so much easier than editing PLIST files. If you really want to do this by hand, <a href="https://www.maketecheasier.com/use-launchd-run-scripts-on-schedule-macos/">here&rsquo;s a good article</a>. If this is the only launchd job you ever plan to set up, LaunchControl is probably not worth the price, but if you foresee ever needing to run custom jobs in the background or want a detailed look at what apps are doing so, it&rsquo;s worth every penny.</p>
+
+<h3 id="have-fun">Have fun</h3>
+
+<p>I know there&rsquo;s probably a pretty small sliver of my readers who use both Readwise and DEVONthink, but hopefully this helps someone out. I built it for my own needs, obviously, but I made it as portable as possible so others might benefit. Enjoy!</p>
+
+<ul>
+  <li><a href="https://gist.github.com/ttscoff/c27bb8cc0f717bcd34ec708d0bf68c7b">readwise_to_devontink.rb on GitHub</a></li>
+</ul>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F02%2F08%2Freadwise-highlights-to-devonthink%2F&amp;text=Readwise+highlights+to+DEVONthink&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F02%2F08%2Freadwise-highlights-to-devonthink%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16958687.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-02-08T09:48:00-06:00</pubDate>
+<pubDate>2025-02-08T09:48:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Archive linkding bookmarks to DEVONthink</title>
