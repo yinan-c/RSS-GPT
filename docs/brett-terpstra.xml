@@ -4,6 +4,44 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Readwise to DEVONthink update</title>
+<link>https://brett.trpstra.net/link/535/16959046/readwise-devonthink-update</link>
+<guid>https://brett.trpstra.net/link/535/16959046/readwise-devonthink-update</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/02/readwise_devonthink_update-rb.7447.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>This morning I pushed a pretty large update to the <a href="https://gist.github.com/ttscoff/0a14fcd621526f1ab2ac6fa027df0dea">Readwise to DEVONthink script</a> I <a href="https://brettterpstra.com/2025/02/08/readwise-highlights-to-devonthink/">published yesterday</a>. It adds some important features, so if you&rsquo;ve already downloaded the script, you might want to update.</p>
+
+<p>The previous version worked fine, but there were a couple of things it needed to do better.</p>
+
+<p>First, it was failing to find existing notes if the note title contained punctuation. This is fixed, so adding highlights and notes to existing documents won&rsquo;t create duplicates. It&rsquo;s still creating duplicate annotations and I haven&rsquo;t figured out why yet, but that may be fixed in a future release.</p>
+
+<p>Second, I didn&rsquo;t like that it was highlighting entire paragraphs when the Readwise highlight was only a portion. I originally set it up that way because it was tricky to match the text when it contained Markdown markup like emphasis and links, as the Readwise highlight wouldn&rsquo;t have that in it, so matching it was difficult and it ran the risk of overwriting or breaking existing syntax. I think I have this solved, and it should always be able to highlight specific text in a paragraph without breaking anything. (If you reset the date file and run the script again, it will update all of your highlights with the more specific versions automatically.)</p>
+
+<p>Highlights are also now sorted by their position in the document when adding them to annotations. Previously it was sorted by date added, so the document order of highlights in the annotations was out of whack.</p>
+
+<p>Lastly, I added some output options. You can use <code class="language-plaintext highlighter-rouge">--quiet</code> to silence all output. You can also use <code class="language-plaintext highlighter-rouge">--debug</code> or <code class="language-plaintext highlighter-rouge">--verbose</code> to output a little more information about each bookmark saved. If you use <code class="language-plaintext highlighter-rouge">--verbose</code> and an AppleScript command fails, it will actually show you the code it tried to run, which is tremendously helpful for debugging.</p>
+
+<p>I think I&rsquo;ve got it at a point where I can stop fiddling now. Check out the <a href="https://gist.github.com/ttscoff/0a14fcd621526f1ab2ac6fa027df0dea">updated script</a> and let me know if you have any issues.</p>
+
+<ul>
+  <li><a href="https://gist.github.com/ttscoff/0a14fcd621526f1ab2ac6fa027df0dea">Readwise highlights to DEVONthink</a></li>
+</ul>
+
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F02%2F09%2Freadwise-devonthink-update%2F&amp;text=Readwise+to+DEVONthink+update&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F02%2F09%2Freadwise-devonthink-update%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16959046.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-02-09T08:44:00-06:00</pubDate>
+<pubDate>2025-02-09T08:44:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Readwise highlights to DEVONthink</title>
