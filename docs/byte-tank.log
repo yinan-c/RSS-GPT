@@ -34993,3 +34993,12 @@ Existing_entries: 62
 Fetching from https://lopespm.com/atom.xml
 append_entries: 0
 Finish: 2025-02-10 22:03:28.600050
+------------------------------------------------------
+Started: 2025-02-11 00:14:09.244373
+Existing_entries: 62
+Fetching from https://lopespm.com/atom.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [The Story of the Human Body Book: Lessons](https://lopespm.com/notes/2025/02/10/story-human-body-lessons.html)
+append_entries: 1
+Finish: 2025-02-11 00:14:09.635296
