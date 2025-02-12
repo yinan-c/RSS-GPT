@@ -37994,3 +37994,12 @@ Existing_entries: 421
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-02-12 12:05:49.104615
+------------------------------------------------------
+Started: 2025-02-12 14:03:37.020144
+Existing_entries: 421
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Lihit Labs Compact Pen Case Review](https://rknight.me/blog/lihit-labs-compact-pen-case-review/)
+append_entries: 1
+Finish: 2025-02-12 14:03:38.690431
