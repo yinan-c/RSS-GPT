@@ -4,6 +4,440 @@
 <title>Ness Labs</title>
 <link>https://nesslabs.com/</link>
 
+<item>
+<title>Master Your Time and Productivity with David Tedaldi, CEO of Morgen</title>
+<link>https://nesslabs.com/morgen-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=morgen-featured-tool</link>
+<guid>https://nesslabs.com/morgen-featured-tool?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=morgen-featured-tool</guid>
+<content:encoded><![CDATA[
+
+<a class="featured-tool-label" href="https://nesslabs.com/featured-tools">FEATURED TOOL</a>
+
+
+
+<p>Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help be more productive and more creative without sacrificing our mental health. This week, we talked to David Tedaldi, CEO of Morgen, the founder of <a href="https://www.morgen.so/">Morgen</a>, an AI-powered app for daily planning.</p>
+
+
+
+<p>In this interview, we talked about smart prioritization based on a complete picture of how you spend your time, how to fight task overload and interruptions, how to mindfully manage competing tasks, how to balance focus and flexibility, and much more. Enjoy the read!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img alt="Morgen – Image 1" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXedRUtKZq6gQJ7aXoD-t1xLunPvC4sVxG8YmJeXWIHeym3d5Sc-oKPrNfFUzA280VkMGy6mvmXOISJEDhA0HS16NKzPjEomJ65vHnGH3JAHOdp7WhbUnIl7eMaGuYVDCBlC49-X?key=N5icW4HbYjvr1yfe6YAxO0Bm" /></figure></div>
+
+
+<p><strong>Hi David, thanks for agreeing to this interview! Let’s start with the big question: there are countless planners out there. What inspired you to create another one?</strong></p>
+
+
+
+<p>You’re right, there are more tools than ever designed to help us make sense of our time. I think there’s a growing realization that our most valuable resource is time and yet, most people I speak with are dissatisfied with how their time is spent.</p>
+
+
+
+<p>I see a real opportunity to help people feel more intentional. This isn’t about optimizing every minute or always needing to feel productive. Rather, it’s helping people move from passively going through their days to deliberately choosing how they’ll devote their hours.&nbsp;</p>
+
+
+
+<p>We approach this in two ways &#8211; the first is making it easier to align their time with their priorities and the second is to design a schedule that reflects how they work best.&nbsp;&nbsp;</p>
+
+
+
+<p>Part of the prioritization problem lies in just how dreadfully complicated time management has become. Most professionals I speak with manage their time across 5+ apps. They have personal and work calendars, shared family to-do lists, a project management tool, a habit tracker, and a scattering of task lists across their PKMs.&nbsp;</p>
+
+
+
+<p>How can anyone make sense of how to spend their time when they’re forever jumping between so many tools? How do you adjust your work plans when personal and work collide, like unexpectedly bringing Fido to the vet in the middle of the day? How do you create space for passion projects or the things that give you energy?&nbsp;</p>
+
+
+
+<p>We see a massive opportunity to break away from siloed time management. Instead of treating our professional and personal lives as discrete areas, Morgen provides a holistic view of your time. It brings all those scattered tools and calendars together so you have visibility into everything on your plate.</p>
+
+
+
+<p>Once you have this picture, it truly unlocks prioritization. It’s easy to spot where your time is over-indexing on things that don’t move the needle and to start protecting time for the things that matter.&nbsp;&nbsp;</p>
+
+
+
+<p>When planning in this unified view, it’s also far easier to start being deliberate about when to work on different types of tasks. We help people create the template for their time, designing days that align their tasks with their energy levels.</p>
+
+
+
+<p>It’s truly amazing how transformative this approach to planning can be, and that is how we stand out from the other planners on the market.</p>
+
+
+
+<p><strong>How did Morgen come to be, and you made the decision to fully commit and bring Morgen to market? What was that moment like?</strong></p>
+
+
+
+<p>Well before we started working on Morgen, Marco, my eventual co-founder, and I first became friends while trying our hand at a software venture right after high school. That venture didn’t go anywhere, but it revealed our shared passion for creating and experimenting… and we never really stopped.</p>
+
+
+
+<p>Years later, we found ourselves living in the same apartment, still building projects alongside our 9-to-5 jobs. I was working in R&amp;D for a major US tech company, and Marco was pursuing his PhD, focused on applying AI to scheduling. As part of his research, he developed a calendar app called MineTime to test his models with real users. In many ways, MineTime became the precursor to Morgen.</p>
+
+
+
+<p>At the time, though, we didn’t throw ourselves into it completely. We were also exploring some health-tech ideas on the side. Then one day, while on vacation with friends in Sicily, we realized we were still obsessing over how to improve MineTime. We wanted a tool that would give us—and others—the confidence to manage complex workloads without missing a beat. We looked for existing solutions, but when nothing fit the bill, it became clear we had a unique chance to build what people truly needed.</p>
+
+
+
+<p>So we did. We shut down the other project, quit our jobs, rebranded MineTime to Morgen, and evolved it far beyond what was once “just” a smart calendar.</p>
+
+
+
+<p><strong>How did you find your first users, and how did their feedback help shape and refine Morgen?</strong></p>
+
+
+
+<p>We attracted our first few thousand users from desperately under-served niches. We put Morgen on Linux (we were, and still are, the only planner on Linux), integrated with small CalDAVs, and went cross-platform to serve Windows and Android users.&nbsp;</p>
+
+
+
+<p>While most competitors were layering their solutions over Google Calendar or were all in on the Mac ecosystem only, we connected with a base of people hungry for a solution compatible with their setup.</p>
+
+
+
+<p>This obviously posed development challenges by introducing the complexity of being multi-platform and integrating with many calendar providers. But the upside was a user base who felt invested in our future and motivated to provide feedback on how they wanted to see the product evolve.</p>
+
+
+
+<p>That early culture is still part of our community’s DNA. On our Discord, users are keen to share workflows and tips with others, Morgen Insiders actively test experimental features and early releases, and the level of activity on our public feature requests is continuous.&nbsp;</p>
+
+
+
+<p><strong>How do users typically interact with Morgen and what key features make it a valuable tool for managing their time and productivity?</strong></p>
+
+
+
+<figure class="wp-block-image"><img alt="Morgen – Image 2" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMju9ZT1tTdu5ZObNzQLBdIq4IO3KOXo-VvM76ZRvIl2JnmK7kfTKlispUI-D2q9DPPpwsHXLOsY7DBrjXr5CTvEd2Al2TaQo7Vhmm0Kipu5Bx9D5ZSsxVf7i5SiYA8BBkHn1vdQ?key=N5icW4HbYjvr1yfe6YAxO0Bm" /></figure>
+
+
+
+<p>Most people visually plan their time in Morgen, using their combined calendars as their canvas. Those who find the most value integrate other to-do and project tools with Morgen to schedule time for their tasks directly in their calendars.</p>
+
+
+
+<p>Unlike time blocking in one’s Google Calendar, we’ve designed an experience that makes it easy to ensure those tasks taking space in your calendar are indeed the most important ones at that time. The top features that make this so seamless are:</p>
+
+
+
+<p><strong>Frames.</strong> We recently introduced Frames, a deep layer in the calendar. You can think of this as the template for how you want to spend your time. Each Frame can be devoted to the specific type of work you want to happen in that block–be it deep work, creative pursuits, learning objectives, or even, the inevitable admin work that creeps up. This added dimension guides users to plan their time, but they also direct the AI Planner for when to recommend which types of tasks.&nbsp;</p>
+
+
+
+<p><strong>Powerful task filters. </strong>One of the biggest challenges we hear is deciding what to prioritize when everything feels important. Even if you have tasks from multiple Notion databases, Todoist lists, and ClickUp projects, you can filter across sources to find the most important task now.&nbsp;</p>
+
+
+
+<p><strong>AI Planner.</strong> We’ve taken a different approach to AI planning. Users told us they want assistance scheduling their day while staying in control of their calendars. Morgen will recommend which tasks to schedule and alert you when the plan needs to be adjusted, but ultimately, you decide which recommendations to take.<strong>&nbsp;</strong></p>
+
+
+
+<p><strong>Distinct </strong><strong><em>due</em></strong><strong> vs </strong><strong><em>do</em></strong><strong> dates.</strong> Due dates are visually distinctive from scheduled tasks in Morgen. Morgen will alert you when due dates are at risk, making it easy to schedule time in your calendar to <em>do</em> the work in advance.&nbsp;</p>
+
+
+
+<p><strong>Calendar management.</strong> What makes this all work, is that you can manage all your calendars from Morgen. Create events, send scheduling links, RSVP, etc. so you don’t need to keep jumping between apps.</p>
+
+
+
+<p>We’ve also built micro-services that enrich planning, such as auto-scheduling travel and buffer time, syncing events across calendars, and booking pages that update in real-time. But it all starts with you and the things you have and want to do.</p>
+
+
+
+<p><strong>You’ve also introduced some smart automation and AI features. Can you share more about that?</strong></p>
+
+
+
+<figure class="wp-block-image"><img alt="Morgen – Image 3" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhvNuBPzNkxBgTxgv59bbQujeBoAutoR82wCuwNtniJyL67zBc6pebe8wZWG_cDqIYgwqYF5TXO1qrPrOh-c8K_WANRw9ff67Wln8j4gmJ7Ei9-NP50u_Xfx_haMF3r2HvGh4L?key=N5icW4HbYjvr1yfe6YAxO0Bm" /></figure>
+
+
+
+<p>Yes, this has been an exciting part of Morgen’s evolution. We’ve long wanted to offer an AI Planner, but we wanted it to enhance rather than derail that earlier mission I mentioned: helping people be intentional about how they spend their time. Talking with Morgen users, we heard a lot of excitement about having help planning their days, while also a fear of leaving their plans entirely in the hands of AI.</p>
+
+
+
+<p>We committed to three key principles when we designed the AI Planner: Users retain control of their schedule; recommendations are highly personalized; it creates achievable plans. This combination helped us shape an entirely different AI planning experience.&nbsp;</p>
+
+
+
+<p>First, we acknowledge no algorithm that knows how you should spend your time better than you do. That’s why we approached the AI Planner to be an assistant, not an autopilot.&nbsp; It does all the “auto-magic” exactly as you’d expect, but instead of presumptuously scheduling tasks in your calendar it provides recommendations.</p>
+
+
+
+<p>You preview the recommended daily plans, adjust as needed, and then confirm when you’re ready for it to be scheduled. Second, the planner goes beyond simply assessing your capacity and then recommending tasks that fit. It takes guidance from Frames, prioritizing the right types of tasks during each Frame.&nbsp;</p>
+
+
+
+<p>For example, I have a simple structure Framed for my workdays: my mornings are devoted to deep work when I want to tackle energy-intensive tasks, whereas my afternoons are devoted to thematically grouped tasks. Monday and Wednesday afternoons are for product and onboarding tasks, Tuesdays for partners, and Thursdays and Fridays are for support and admin. This is templated in Frames so the planner schedules those categories of tasks at the appropriate time, working around my meetings.</p>
+
+
+
+<p>The cool part is you can specify what you want to do using all the data you import into Morgen. For instance, I assign energy levels to tasks in my Notion projects so Frames can filter between a hard task that requires focused energy versus an easy task that can be squeezed between meetings. I also reserve Monday afternoons for product onboarding because I get a lot of energy talking to new Morgen users. It helps me start the week strong with something I love.</p>
+
+
+
+<p>You can also create Frames in your personal calendars for your life to-dos, creative projects, and more, making this a personal solution that goes beyond 9-5.</p>
+
+
+
+<p>Finally, we want to help people create achievable plans. This isn’t about squeezing tasks in wherever they fit. Each person can set the frequency of breaks, choose to have the AI Planner round up time estimates to combat the common tendency to underestimate how long a task with take, and define when a task should be broken into multiple work sessions. We believe achievable plans are far more important than cramming everything in.&nbsp;&nbsp;</p>
+
+
+
+<p><strong>One thing that stands out about Morgen is the attention to detail you’ve put into its features. What are some examples of small but powerful features that you’re particularly proud of?</strong></p>
+
+
+
+<p>Thanks for noticing. Our team is deeply committed to creating a great experience. We want to provide an intuitive and fast experience. That’s why we built a keyboard-first experience on desktop, where virtually any operation has a shortcut. It’s as easy to create a scheduling link as it is to create a meeting. There are also little touches like a button to quickly join the next meeting, or the ability to set recurrence rules using plain English.</p>
+
+
+
+<p>On the other hand, we’re also committed to giving users tools to efficiently navigate and manage the massive volume of information they can import into Morgen. Things like merging events from multiple calendars to make it less cluttered, having customizable shortcuts to jump between calendars, and custom task filtering are the unsung heroes that make holistic planning in Morgen seamless. Oh, and the confetti. But I’ll leave you to discover that for yourself.</p>
+
+
+
+<p><strong>What kind of people use Morgen, and how do they typically use it?</strong></p>
+
+
+
+<p>I was recently on a call with Mike, a CEO and long-time Morgen user, and I’ll borrow his words for this one. He said, “Morgen is for anyone fighting task overload and unexpected interruptions.”&nbsp;</p>
+
+
+
+<p>I love this articulation. It perfectly captures a reality that so many people feel, whether they’re software developers, consultants, founders, marketers, freelancers, academics, etc. We see this reflected in the diversity of roles in the Morgen community.</p>
+
+
+
+<p>The common thread is people who operate daily with the tension between devoting time to important meetings and time with their clients or team, alongside the need for uninterrupted focused time to work on big challenging tasks.</p>
+
+
+
+<p>We also hear from a high proportion of our users who tell us they have ADHD and rely on planning in Morgen to make sense of the task overload. We understand that Morgen’s minimalistic experience, free of unnecessary frills, is important to maintain.</p>
+
+
+
+<p>Finally, since launching the AI Planner, we have also seen an increase in the CEOs, VCs, and team leads, who are juggling a large task list with frequent changes to their schedule and last-minute meetings. The AI Planner helps on both fronts: it prioritizes tasks around meetings and adapts plans swiftly whenever disruptions occur.</p>
+
+
+
+<p><strong>What about you? How do you use Morgen?</strong></p>
+
+
+
+<p>I depend on the AI Planner daily for my planning (and re-planning, when things come up). Most of my work is mapped in Linear where we manage our projects as a team. I use the AI Planner to schedule and prioritize these tasks. I have my Frames set up to ensure I balance my energy and time across product work, partnerships, investors, and supporting the team.</p>
+
+
+
+<p>But then there’s a whole range of tasks that I refer to as my “forbidden tasks.” These aren’t part of shared projects. These are the most dangerous tasks because the list sits entirely with me, and in the past, they tended to creep out of control.</p>
+
+
+
+<p>I was once in a bar after a long day of work lamenting about these forbidden tasks to a friend, Sarah, who is also a successful founder and investor in the Bay Area. She responded directly with, “Get used to it, if the business goes well, at the end of every day your task list will be longer than it was in the morning.”</p>
+
+
+
+<p>My fix is to ditch the list of forbidden tasks and instead schedule them directly in my calendar. This puts a hard limit on these tasks &#8211; my time. If it doesn’t fit, either something else needs to be reprioritized or it’s not that important.</p>
+
+
+
+<p>I’m also a heavy user of Morgen’s open invites for external meetings. An open invite is essentially a scheduling link dedicated to a specific event, with a specific person, offering only a few alternative time slots. I find it far more professional (and caring) than a generic Calendly link. I think these details matter when you want to build a relationship.</p>
+
+
+
+<p><strong>And finally… What’s next for Morgen?</strong></p>
+
+
+
+<p>We want everyone to work, plan, and spend their time as if they had an executive assistant adapting and reacting to each person’s style and shifting priorities. There’s so much more to unlock.</p>
+
+
+
+<p>We’re already working on the next generation of our AI Assistance. I can’t share much just yet, but imagine the perfect blend of an executive assistant and a productivity coach. We’re onboarding the first alpha testers, so if you’re interested, please reach out.</p>
+
+
+
+<p><strong>Thank you so much for your time, David! Where can people learn more about Morgen?</strong></p>
+
+
+
+<p>You can learn more at our <a href="https://www.morgen.so/">website</a>, follow on <a href="https://www.youtube.com/@morgen2728">Youtube</a>, <a href="https://www.linkedin.com/company/morgen-calendar">LinkedIn</a> and <a href="https://x.com/morgencalendar">X</a>, and join our community on <a href="https://discord.gg/Nrsn5Bd2Z9">Discord</a>.</p>
+<p>The post <a href="https://nesslabs.com/morgen-featured-tool">Master Your Time and Productivity with David Tedaldi, CEO of Morgen</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 13 Feb 2025 00:32:06 +0000</pubDate>
+<pubDate>Thu, 13 Feb 2025 00:32:06 +0000</pubDate>
+</item>
+<item>
+<title>Turning Big Fears into Tiny Experiments</title>
+<link>https://nesslabs.com/big-fears?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=big-fears</link>
+<guid>https://nesslabs.com/big-fears?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=big-fears</guid>
+<content:encoded><![CDATA[
+
+<p>When I was younger, I badly wanted to live in Japan. Japan is a country with very strict immigration laws, but my university had an exchange program where you could go spend a semester and study in another country.</p>
+
+
+
+<p>There was only one problem: the Japanese university they had a partnership with was one of the most selective in the country. I remember thinking: “There’s no way I’ll get accepted.”</p>
+
+
+
+<p>I told my mom about my doubts.</p>
+
+
+
+<p>“It’s not your decision to make,” she said.</p>
+
+
+
+<p>And, as often, she was right. We constantly limit our options by deciding for others. All I had to do was apply, and it then became the university’s job to accept my application or not.</p>
+
+
+
+<p>You’ve probably seen this pattern in yourself and others. It’s far easier not to fail when you haven’t tried. It’s far easier to not be wrong when you’re not putting yourself out there. But when we avoid trying because of fear, we also avoid growth.</p>
+
+
+
+<h2 class="wp-block-heading">We all want to be loved</h2>
+
+
+
+<p>Fear of failure starts in early childhood. We are social animals and feel the need to be accepted by others, which begins with the acceptance and love of our parents.</p>
+
+
+
+<p>In a <a href="https://www.sciencedirect.com/science/article/pii/S1469029210000063">study</a> looking at the relationship between young athletes and their parents, researchers found a correlation between the parents’ high expectations for achievement and the children’s fear of failure. The more the parents showed a negative reaction to what they perceived as a failure from their kid, the more the kid would fear the consequences of “failing.”</p>
+
+
+
+<p>In some people, this can turn into <em>atychiphobia</em>, an irrational and paralyzing fear of failure, often accompanied by an intense feeling of panic or anxiety, and physical symptoms such as difficulty breathing, an unusually fast heart rate, and sweating.</p>
+
+
+
+<p>For most people, though, fear of failure manifests itself in a much more subtle way, mainly self-doubt that prevents us from exploring uncertain paths:</p>
+
+
+
+<ul class="wp-block-list">
+<li>We put off doing things because we’re unsure how they will turn out.</li>
+
+
+
+<li>We avoid situations where we may have to try something new in front of other people.</li>
+
+
+
+<li>We avoid doing things we know will improve our lives because we don’t have all the necessary skills.</li>
+
+
+
+<li>We give ourselves the illusion of growth by reading, researching, watching videos… Anything but doing the thing and risking being judged by others.</li>
+</ul>
+
+
+
+<p>But the good news is that nobody is hoping for you to fail. Most people you know would be happy to see you succeed, and the ones who don’t know you don’t care. So how do we shift our perception and turn our fears into  experiments?</p>
+
+
+
+<h2 class="wp-block-heading">Increments of curiosity</h2>
+
+
+
+<p>When you start reading a novel, you rarely expect to finish it in one go. Instead, you will probably read a few chapters, then a few more, until you&#8217;re done with the book.</p>
+
+
+
+<p>Yet when it comes to personal growth, we often abandon this incremental approach. We design big, hairy, audacious goals then freeze because they feel unreachable.</p>
+
+
+
+<p>But just like in science, we can reshape our perception of what’s possible by breaking our journey down into smaller experiments.</p>
+
+
+
+<p>“Smaller” doesn’t mean something where you’re certain of succeeding, but rather something small enough that there’s no excuse not to try.</p>
+
+
+
+<p>Let’s say you have a fear of public speaking and tell yourself that, in any case, nobody has ever invited you to speak at a conference. Instead of seeing this as an immovable obstacle, turn this big fear into a tiny experiment. A low-stakes pact could be applying to five local meetups to give a talk over the next five days. While speaking in public may sound terrifying, filling out an online form is manageable.</p>
+
+
+
+<p>Similarly, if you fear being judged for the quality of your writing, writing a book is a daunting task that is easy to hide behind (“I’d love to write a book, but I don’t have the time”). But writing a series of blog posts? That’s just a tiny experiment.</p>
+
+
+
+<h2 class="wp-block-heading">Fail like a scientist</h2>
+
+
+
+<p>If you see life as a series of experiments – where the only purpose is to explore, learn, and grow – failure stops being something to fear and instead becomes a necessary part of discovery. In the words of Seth Godin: “The cost of being wrong is less than the cost of doing nothing.”</p>
+
+
+
+<p>Scientists often repeat experiments thousands of times to get a conclusive answer. And more often than not, the answer they get is that their initial hypothesis was wrong. Not performing the experiment would have allowed them to stay in a cozy limbo of being <em>not wrong</em> and they’d never learn anything.</p>
+
+
+
+<p>Approaching failure like a scientist is powerful because it reframes the outcome: no matter what happens, you gain new information. The real failure isn’t making mistakes – it’s refusing to run the experiment in the first place.</p>
+
+
+
+<p>By making decisions that will let you <a href="https://nesslabs.com/learning-how-to-learn">learn something new</a>, you are guaranteed to be successful – where success is learning, evolving, and growing as a human being. Failing becomes a way to cultivate aliveness.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img alt="Managing Big Fears with Tiny Experiments" class="wp-image-14234" height="574" src="https://nesslabs.com/wp-content/uploads/2023/07/fear-of-failure-illustration-1024x574.png" width="1024" /></figure></div>
+
+
+<p>Another way to approach your fears is to think like a child. Children tend to experiment just for the sake of it: What will happen if I press this button? How does it feel to touch this thing?</p>
+
+
+
+<p>Similarly, reconnecting with your inner child is a great way to overcome your fears as an adult. For example: What will happen if I publish this post? How does it feel to speak my mind?</p>
+
+
+
+<p>Instead of imagining all the ways you may fail, turn your doubts into questions. Maybe nothing good will happen&#8230; but a child would certaintly not take the answer for granted.</p>
+
+
+
+<p>Start with something small, then move on to another iteration—a bigger <a href="https://nesslabs.com/growth-loops">growth loop</a>. With time, your mind will become increasingly comfortable with trying new things and constantly expanding your horizons.</p>
+
+
+
+<p>Practically, here is how you can start applying this approach of deliberate experimentation right now:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Pick something you’ve been putting off because of fear.</strong> Is it public speaking? Starting a blog? Producing a podcast? Launching your first product? Write it down.</li>
+
+
+
+<li><strong>Define one tiny experiment you can design to explore this fear.</strong> It should be actionable – something simple enough that you can just do it in a few days at most.</li>
+
+
+
+<li><strong>Do it!</strong> Don’t plan anything. Don’t research the best way to go about it. Don’t announce it on Twitter. Just do it.</li>
+
+
+
+<li><strong>Reflect on what happened.</strong> Any negative reactions? What about your emotions? What did you learn? Write all of these thoughts down. It’s a great way to practice <a href="https://nesslabs.com/metacognition">metacognition</a> (<a href="https://nesslabs.com/plus-minus-next">Plus Minus Next</a> works great for this). </li>
+
+
+
+<li><strong>Rinse and repeat.</strong> Keep defining incremental steps in the form of tiny experiments that fall out of your comfort zone but are not scary to the point of being paralyzing. Again, avoid overthinking it beforehand. Just do it, and reflect only after you have performed the experiment.</li>
+</ol>
+
+
+
+<p>You may feel some anxiety or discomfort along the way, but addressing your fears and trying new things you care about is the best way to avoid another feeling that’s much harder to manage: regret.<br /></p>
+<p>The post <a href="https://nesslabs.com/big-fears">Turning Big Fears into Tiny Experiments</a> appeared first on <a href="https://nesslabs.com">Ness Labs</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 10 Feb 2025 10:07:00 +0000</pubDate>
+<pubDate>Mon, 10 Feb 2025 10:07:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Curiosity Snacks: How to Redirect Your Impulse to Know</title>

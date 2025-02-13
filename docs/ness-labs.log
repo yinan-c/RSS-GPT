@@ -23976,3 +23976,15 @@ Existing_entries: 64
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-02-13 00:14:59.535152
+------------------------------------------------------
+Started: 2025-02-13 02:25:04.023340
+Existing_entries: 64
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Master Your Time and Productivity with David Tedaldi, CEO of Morgen](https://nesslabs.com/morgen-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=morgen-featured-tool)
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Turning Big Fears into Tiny Experiments](https://nesslabs.com/big-fears?utm_source=rss&utm_medium=rss&utm_campaign=big-fears)
+append_entries: 2
+Finish: 2025-02-13 02:25:05.028496
