@@ -38066,3 +38066,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [We Need to Talk About Zoe Being Wrong About Islands](https://rknight.me/blog/we-need-to-talk-about-zoe-being-wrong-about-islands/)
 append_entries: 1
 Finish: 2025-02-13 10:04:16.416500
+------------------------------------------------------
+Started: 2025-02-13 12:05:48.557367
+Existing_entries: 423
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2025-02-13 12:05:50.081224
