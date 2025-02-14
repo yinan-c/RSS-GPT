@@ -7890,3 +7890,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Max Kapur](https://manuelmoreale.com/pb-max-kapur)
 append_entries: 1
 Finish: 2025-02-14 16:04:24.554568
+------------------------------------------------------
+Started: 2025-02-14 18:04:32.911671
+Existing_entries: 614
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-02-14 18:04:34.031027
