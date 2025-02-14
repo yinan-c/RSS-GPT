@@ -51663,3 +51663,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-02-14 06:04:34.048532
+------------------------------------------------------
+Started: 2025-02-14 08:04:43.583455
+Existing_entries: 728
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [有没有什么脚本能后台打开链接](https://meta.appinn.net/t/topic/38280)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-02-14 08:04:46.462201

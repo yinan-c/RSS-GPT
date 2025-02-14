@@ -4,6 +4,58 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>有没有什么脚本能后台打开链接</title>
+<link>https://meta.appinn.net/t/topic/38280</link>
+<guid>https://meta.appinn.net/t/topic/38280</guid>
+<content:encoded><![CDATA[
+
+<p>找了狠多脚本 都是 新标签打开<br />
+新标签打开的逻辑是 在新的标签打开并且马上跳转过去</p>
+<p>而后台打开的逻辑是 同样是在新标签打开链接 但是你还在当前页面 继续浏览<br />
+而不会被强制跳转过去</p>
+<p>用扩展只能控住域名不能控住网址<br />
+想找个脚本 脚本是可以控制 网址而不是域名的<br />
+有没有这类的脚本呢<br />
+因为鼠标硬件问题 中键太硬不想按<br />
+还想单手操作不想去按ctrl<br />
+因为驱动的问题 鼠标经常不把浏览器当做焦点宏也用不了<br />
+想用宏还得点一下任务栏再点击浏览器才会识别焦点 太麻烦了<br />
+鼠标手势就算了 不习惯<br />
+所以需要这类脚本</p>
+<p>确实这个脚本可以</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="16" src="https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png" width="16" />
+
+      <a href="https://greasyfork.org/zh-CN/scripts/427337-all-links-in-new-tab" rel="noopener nofollow ugc" target="_blank">greasyfork.org</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://greasyfork.org/zh-CN/scripts/427337-all-links-in-new-tab" rel="noopener nofollow ugc" target="_blank">all links in new tab</a></h3>
+
+  <p>open all links in new tab</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>感谢 8楼<br />
+这样就可以随心所欲的 设置网址而不是 整个域名来后台打开新标签了</p>
+            <p><small>10 个帖子 - 8 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/38280">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 22 Nov 2022 10:49:27 +0000</pubDate>
+<pubDate>Tue, 22 Nov 2022 10:49:27 +0000</pubDate>
+</item>
 
 <item>
 <title>【自荐】极简桌面｜小组件主屏幕启动器｜送码</title>
