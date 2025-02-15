@@ -51753,3 +51753,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-02-15 04:03:55.538601
+------------------------------------------------------
+Started: 2025-02-15 06:03:58.653824
+Existing_entries: 730
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Opera出了个新浏览器：Opera Air](https://meta.appinn.net/t/topic/66559)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [如何把iOS“文件”里的某个指定文件夹定时同步到远程webdav（或ftp、sftp）服务器？](https://meta.appinn.net/t/topic/66560)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2025-02-15 06:04:02.252024
