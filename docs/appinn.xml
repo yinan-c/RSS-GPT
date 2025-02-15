@@ -4,6 +4,100 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐-网页小游戏】增强版掐秒表，解压玩具</title>
+<link>https://meta.appinn.net/t/topic/66547</link>
+<guid>https://meta.appinn.net/t/topic/66547</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-248051-h-1" name="p-248051-h-1"></a>软件名称</h2>
+<p>掐秒表 / Stopwatch Game</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248051-h-2" name="p-248051-h-2"></a>应用平台</h2>
+<ul>
+<li>所有支持ES6的浏览器（移动端、PC端）</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248051-h-3" name="p-248051-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248051-h-4" name="p-248051-h-4"></a>一句话简介</h2>
+<p><s>注意力训练器</s> 无聊时有没有尝试把手机/平板上的秒表按到整数秒？升级版来了：尽可能准确地在秒表达到5.0000s时按下停止吧。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248051-h-5" name="p-248051-h-5"></a>应用简介</h2>
+<p>由于不满自带应用的精度，顺便要为编程社团提供一点材料，返璞归真用HTML+CSS+JS写了一个掐秒表小游戏。</p>
+<ul>
+<li>名义精度0.1ms，以鼠标抬起时间判定，当然实际上浏览器达不到这个精度，但是更好玩。</li>
+<li>保留最近15次的历史记录，适合截图。</li>
+<li>加上等第评定，更加刺激。</li>
+</ul>
+<p><img alt="Stopwatch Game Screenshot" height="500" src="https://vanilla.cup11.top/stopwatch-game/screenshot.png" width="438" /></p>
+<p>按照误差秒数评级，当前等级参考：</p>
+<ul>
+<li>1s内，D级</li>
+<li>0.3s内，C级</li>
+<li>0.13s内，B级</li>
+<li>0.08s内，A级</li>
+<li>0.05s内，S级</li>
+<li>0.02s内，SS级</li>
+<li>0.01s内，SSS级</li>
+<li>0.005s内，U级</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248051-h-6" name="p-248051-h-6"></a>网站</h2>
+<p>部署于Netlify：</p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="64" src="https://vanilla.cup11.top/stopwatch-game/favicon.svg" width="64" />
+
+      <a href="https://vanilla.cup11.top/stopwatch-game/index.html" rel="noopener nofollow ugc" target="_blank">vanilla.cup11.top</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://vanilla.cup11.top/stopwatch-game/index.html" rel="noopener nofollow ugc" target="_blank">Stopwatch Game</a></h3>
+
+  <p>增强版掐秒表小游戏，0.1ms，含评级，有历史记录</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>快速查看源代码：</p>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="256" src="https://s.bi.cool/logo.svg?t=1" width="256" />
+
+      <a href="https://bi.cool/project/yu9r4r7" rel="noopener nofollow ugc" target="_blank">bi.cool</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://bi.cool/project/yu9r4r7" rel="noopener nofollow ugc" target="_blank">Stopwatch Game，HTML代码在线实时编辑、预览 - 笔.COOL</a></h3>
+
+  <p>「Stopwatch Game」作品详情，查看完整的代码实现，还能在线运行、编辑和实时预览此代码。适合前端开发学习和参考。</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/66547">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sat, 15 Feb 2025 01:48:06 +0000</pubDate>
+<pubDate>Sat, 15 Feb 2025 01:48:06 +0000</pubDate>
+</item>
 
 <item>
 <title>有没有什么脚本能后台打开链接</title>
