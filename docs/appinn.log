@@ -51835,3 +51835,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-02-16 00:15:39.938755
+------------------------------------------------------
+Started: 2025-02-16 02:27:33.944929
+Existing_entries: 732
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [请问Chrome浏览器有没有能记录当前视频进度条的插件](https://meta.appinn.net/t/topic/66575)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-02-16 02:27:36.851835
