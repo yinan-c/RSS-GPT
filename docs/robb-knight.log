@@ -38246,3 +38246,12 @@ Existing_entries: 423
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-02-15 22:03:23.547186
+------------------------------------------------------
+Started: 2025-02-16 00:15:41.857163
+Existing_entries: 423
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [How Many Mildliner Colours Are There?](https://rknight.me/blog/how-many-mildliner-colours-are-there/)
+append_entries: 1
+Finish: 2025-02-16 00:15:43.381659
