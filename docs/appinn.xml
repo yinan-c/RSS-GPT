@@ -4,6 +4,53 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>分享一个听歌识曲后自动添加到苹果音乐的快捷指令</title>
+<link>https://meta.appinn.net/t/topic/66621</link>
+<guid>https://meta.appinn.net/t/topic/66621</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-248420-h-1" name="p-248420-h-1"></a>和大家分享一个我自己在用的音乐识别快捷指令</h2>
+<p>首先先上链接：<a class="inline-onebox" href="https://www.icloud.com/shortcuts/793428d28b7a477ea060c594d5de2f85" rel="noopener nofollow ugc">快捷指令</a></p>
+<p>它的工作流程是这样的：</p>
+<ol>
+<li>
+<p>通过敲击 iPhone 背板或者其他方式触发</p>
+</li>
+<li>
+<p>识别音频</p>
+</li>
+<li>
+<p>识别成功后添加到备忘录并添加到苹果音乐资料库</p>
+</li>
+</ol>
+<p>识别部分使用的是 iPhone 自带的 Shazam，因此这个快捷指令在触发后可以识别 iPhone 正在播放的以及麦克风录到的音频。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248420-h-2" name="p-248420-h-2"></a>我的使用场景</h2>
+<p>有些时候突然需要识曲时打开 Shazam 识别再添加到资料库太繁琐，所以在自动化了以后遇到下面这些情况就很好应对：</p>
+<ul>
+<li>
+<p>看视频时想收藏一下 BGM</p>
+</li>
+<li>
+<p>在别的音乐 app 上听到喜欢的歌</p>
+</li>
+<li>
+<p>在外面听到好听的歌</p>
+</li>
+</ul>
+<hr />
+<p>第一次使用会请求一些权限，比如备忘录的权限。</p>
+<p>另外我使用的是日区服务，所以针对不同区可能会需要在快捷指令中对「在 iTunes Store 上查找」中的地区进行修改。</p>
+<p><img alt="950D2F6C-D10D-4DED-A48B-FB204C899E7E_1_201_a.jpeg" height="500" src="https://h1.appinn.me/file/1739792757563_950D2F6C-D10D-4DED-A48B-FB204C899E7E_1_201_a.jpeg" width="633" /></p>
+<p>安装好快捷指令后需要手动设置触发方式，我设置的是 <strong>辅助功能-触控-轻点背面-轻点三下</strong>。</p>
+<p>如果大家遇到问题欢迎留言，我尽量尝试解决。</p>
+<p>如果有人愿意直接进行修改、完善，那么请大方分享一下吧 <img alt=":clap:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /> <img alt=":clap:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/clap.png?v=12" title=":clap:" width="20" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/66621">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 17 Feb 2025 11:57:38 +0000</pubDate>
+<pubDate>Mon, 17 Feb 2025 11:57:38 +0000</pubDate>
+</item>
 
 <item>
 <title>有没有什么很消磨时间又上头的单机手游？</title>
