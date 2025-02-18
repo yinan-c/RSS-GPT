@@ -8157,3 +8157,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Confidently incorrect](https://manuelmoreale.com/confidently-incorrect)
 append_entries: 1
 Finish: 2025-02-18 08:05:16.943872
+------------------------------------------------------
+Started: 2025-02-18 10:03:58.682182
+Existing_entries: 615
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-02-18 10:03:59.351321

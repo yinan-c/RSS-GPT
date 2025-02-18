@@ -4,6 +4,50 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>stretchly - 跨平台开源休息提醒</title>
+<link>https://meta.appinn.net/t/topic/66659</link>
+<guid>https://meta.appinn.net/t/topic/66659</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-248585-app-1" name="p-248585-app-1"></a>一个提醒你定时休息的app</h1>
+<aside class="onebox githubrepo">
+  <header class="source">
+
+      <a href="https://github.com/hovancik/stretchly" rel="noopener nofollow ugc" target="_blank">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="github-row">
+  <img class="thumbnail" height="344" src="https://opengraph.githubassets.com/3c4ba1543b5980ffab85caf35f09b604/hovancik/stretchly" width="690" />
+
+  <h3><a href="https://github.com/hovancik/stretchly" rel="noopener nofollow ugc" target="_blank">GitHub - hovancik/stretchly: The break time reminder app</a></h3>
+
+    <p><span class="github-repo-description">The break time reminder app</span></p>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<p>关联帖子：<a class="inline-onebox" href="https://meta.appinn.net/t/topic/66329">【开源自荐】久坐提醒(AHK) 更新V2</a></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-248585-h-2" name="p-248585-h-2"></a>用法</h2>
+<p>软件支持“长休”与“短休”两种休息间隔，设定好你需要的休息间隔和提醒方式。</p>
+<p><img alt="drawing" height="312" src="https://raw.githubusercontent.com/hovancik/stretchly/refs/heads/trunk/preferences.png" width="350" /> <img alt="drawing" height="307" src="https://raw.githubusercontent.com/hovancik/stretchly/refs/heads/trunk/contributors.png" width="350" /></p>
+<p>在连续使用电脑一定时间后，会使用窗口或全屏提醒你休息。</p>
+<p><img alt="" height="500" src="https://github.com/hovancik/stretchly/raw/trunk/minibreak.png" width="667" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/66659">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 18 Feb 2025 08:39:45 +0000</pubDate>
+<pubDate>Tue, 18 Feb 2025 08:39:45 +0000</pubDate>
+</item>
 
 <item>
 <title>分享一个听歌识曲后自动添加到苹果音乐的快捷指令</title>
