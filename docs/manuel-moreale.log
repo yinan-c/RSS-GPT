@@ -8328,3 +8328,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Ephemeral content](https://manuelmoreale.com/ephemeral-content)
 append_entries: 1
 Finish: 2025-02-20 16:04:24.474093
+------------------------------------------------------
+Started: 2025-02-20 18:04:37.353939
+Existing_entries: 616
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-02-20 18:04:38.014165
