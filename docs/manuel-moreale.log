@@ -8397,3 +8397,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Ben Werdmuller](https://manuelmoreale.com/pb-ben-werdmuller)
 append_entries: 1
 Finish: 2025-02-21 14:03:56.678731
+------------------------------------------------------
+Started: 2025-02-21 16:04:45.549628
+Existing_entries: 617
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-02-21 16:04:46.597697
