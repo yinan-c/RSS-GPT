@@ -5,11 +5,34 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>如何批量下载这网站图片? 文件名带随机字符 但我觉得可以搞定</title>
+<link>https://meta.appinn.net/t/topic/66766</link>
+<guid>https://meta.appinn.net/t/topic/66766</guid>
+<content:encoded><![CDATA[
+
+<p>但我代码小白，完全不会<img alt=":sweat_smile:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/sweat_smile.png?v=12" title=":sweat_smile:" width="20" /></p>
+<p>网址：<a href="https://www.fashionsnap.com/collection/undercover/mens/2025ss" rel="noopener nofollow ugc">https://www.fashionsnap.com/collection/undercover/mens/2025ss</a></p>
+<p>====</p>
+<p>我们可以看到文件名是很有规律的：<br />
+*00004-<strong>aab99df6-a3cf-4368-8fb6-74487152edf7</strong>.jpg<br />
+*00008-<strong>27fad377-7bfe-4159-870f-087b857c00ce</strong>.jpg</p>
+<p>但为了防止批量下载，在最后加了一串随机字符，这可把我难倒了…</p>
+<p>试了 Chrome 的图片批量插件似乎都没办法。通配符不知道怎么写，或者思路不对？</p>
+<p>例如：<br />
+备注：我是苹果系统 Mac Mini / Chrome 浏览器</p>
+<p>如果有办法，请赐教。不胜感激～会发红包<img alt=":red_gift_envelope:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/red_gift_envelope.png?v=12" title=":red_gift_envelope:" width="20" /><img alt=":pray:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twitter/pray.png?v=12" title=":pray:" width="20" /></p>
+            <p><small>7 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/66766">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 21 Feb 2025 05:17:32 +0000</pubDate>
+<pubDate>Fri, 21 Feb 2025 05:17:32 +0000</pubDate>
+</item>
+
+<item>
 <title>开始学着用 vim 了，但是是浏览器</title>
 <link>https://meta.appinn.net/t/topic/66761</link>
 <guid>https://meta.appinn.net/t/topic/66761</guid>
 <content:encoded><![CDATA[
-
 <p>看了那么多吹 vim 的文章，博客，手痒痒了，想学学 vim<br />
 之前被那个张快捷键的键位图吓到了，所以没敢学。现在用了几个码表输入法之后，再回过头来看那张 vim 键位图感觉也不过如此（</p>
 <p>但是本身并不是程序员，也没有那么大量的文本输入工作，所以 vim 对我使用电脑过程中的效率提升并不明显。想起了之前看到的在浏览器中实现 vim 操作习惯的扩展，试了试，意外的香。</p>
@@ -28,9 +51,7 @@
             <p><a href="https://meta.appinn.net/t/topic/66761">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Fri, 21 Feb 2025 03:25:49 +0000</pubDate>
-<pubDate>Fri, 21 Feb 2025 03:25:49 +0000</pubDate>
 </item>
-
 <item>
 <title>｛SiriKali｝：适用于桌面端的开源文件加密 GUI 工具，支持多种文件加密后端</title>
 <link>https://meta.appinn.net/t/topic/66729</link>
