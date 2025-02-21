@@ -8388,3 +8388,12 @@ Existing_entries: 616
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-02-21 12:05:59.282120
+------------------------------------------------------
+Started: 2025-02-21 14:03:55.668643
+Existing_entries: 616
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [P&B: Ben Werdmuller](https://manuelmoreale.com/pb-ben-werdmuller)
+append_entries: 1
+Finish: 2025-02-21 14:03:56.678731
