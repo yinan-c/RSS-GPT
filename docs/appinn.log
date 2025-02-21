@@ -52329,3 +52329,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-02-21 02:25:56.685484
+------------------------------------------------------
+Started: 2025-02-21 04:04:28.751361
+Existing_entries: 738
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [开始学着用 vim 了，但是是浏览器](https://meta.appinn.net/t/topic/66761)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-02-21 04:04:31.174293
