@@ -35800,3 +35800,12 @@ Existing_entries: 63
 Fetching from https://lopespm.com/atom.xml
 append_entries: 0
 Finish: 2025-02-22 02:23:09.147983
+------------------------------------------------------
+Started: 2025-02-22 04:03:59.428391
+Existing_entries: 63
+Fetching from https://lopespm.com/atom.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Bluetooth Headphones Safety](https://lopespm.com/notes/2025/02/22/wireless-headphones.html)
+append_entries: 1
+Finish: 2025-02-22 04:03:59.927452

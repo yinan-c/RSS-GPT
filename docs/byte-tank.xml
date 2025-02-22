@@ -4,6 +4,59 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>https://lopespm.com/</link>
 
+<item>
+<title>Bluetooth Headphones Safety</title>
+<link>https://lopespm.com/notes/2025/02/22/wireless-headphones.html</link>
+<guid>https://lopespm.com/notes/2025/02/22/wireless-headphones.html</guid>
+<content:encoded><![CDATA[
+
+<p>After nearly 4 years of continuous usage at work, taking calls and listening to audiobooks during long walks, my wired in-ear <a href="https://www.bose.co.uk/en_gb/support/products/bose_headphones_support/bose_in_ear_headphones_support/qc20.html">Bose QuietComfort 20 MK2 Active Noise Cancelling Earphones</a> are finally starting to become faulty<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, so I went on a search for a replacement.</p>
+
+<!--more-->
+
+<h2 id="searching-for-replacement-wired-anc-earbuds">Searching for replacement wired ANC earbuds</h2>
+
+<p>To my surprise, not only have these types of earphones been discontinued by Bose, but the selection of wired in-ear active noise cancelling headphones is incredibly slim. After an extensive search, I’ve found <a href="https://rog.asus.com/uk/headsets-audio/in-ear-headphone/rog-cetra-ii-model/">Asus ROG Cetra II</a> and <a href="https://www.bang-olufsen.com/en/us/earphones/beoplay-e4">Bang Olufsen B4</a>, which appear to offer inferior quality in terms of Active Noise Cancelling (ANC), when compared to recent highly rated <a href="https://www.bose.co.uk/en_gb/products/headphones/earbuds/bose-quietcomfort-earbuds-ultra.html#v=QCUE-HEADPHONEIN-WHTSM-WW">Bose</a>, <a href="https://www.sony.co.uk/headphones/gallery?filters=trulyWirelessHeadphoneFeatures%3AID_020_noise-cancelling">Sony</a> or <a href="https://www.apple.com/uk/airpods-max/">Apple</a> headphones, which are either wireless or are <a href="https://www.bose.co.uk/en_gb/products/headphones/noise_cancelling_headphones/bose-quietcomfort-headphones.html#v=QC-HEADPHONEARN-BLUDK-WW">over-ear</a> / on-ear. Quality in-ear<sup id="fnref:5"><a href="#fn:5" rel="footnote">2</a></sup> ANC earbuds are almost exclusively wireless.</p>
+
+<h2 id="health">Health</h2>
+
+<p>I understand the popularity of wireless earbuds. They are extremely practical and neat. It is not surprising that <a href="https://www.kantarmedia.com/news-and-resources/rise-of-bluetooth-headphones">penetration of bluetooth headphones has jumped considerably in recent years</a>, but given that I use my headphones for several hours each day, it is not an enticing proposition to have two wireless devices extremely close to my brain, even if they output a low amount of EMF radiation. The (cumulative) dose makes the poison.</p>
+
+<p>Several experts <sup id="fnref:2"><a href="#fn:2" rel="footnote">3</a></sup> <sup id="fnref:3"><a href="#fn:3" rel="footnote">4</a></sup> <sup id="fnref:4"><a href="#fn:4" rel="footnote">5</a></sup> claim there is no danger in prolonged usage of these devices, because they don’t emit ionizing radiation, but it has been reported both in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6025786/">studies</a> and <a href="https://en.wikipedia.org/wiki/Wireless_device_radiation_and_health#Electromagnetic_hypersensitivity">anecdotally</a> that exposure to high levels of EMF radiation <em>might</em> have detrimental effects long term.</p>
+
+<p>I’ve found it challenging to uncover quality studies that correlate the usage of bluetooth headphones and health effects. I assume this correlation is hard to experiment upon with statistically significant results, due to how long this exposure needs to happen, and other confounding environmental and behavioural factors. Regardless, one of these <a href="https://www.nature.com/articles/s41598-024-63653-0">studies draws a significant link between the usage of bluetooth headset and thyroid nodules</a>.</p>
+
+<h2 id="unknowns-risks">Unknowns Risks</h2>
+
+<p>Widespread adoption of these devices is still relatively recent, and we should be humble enough to acknowledge that we don’t have the full picture clearly laid out of the all repercussions related to their long term usage, especially when in close proximity to one of the most valuable organs of our body, our brain.</p>
+
+<p>It’s not what is known that concerns me, but rather what is not known. Until proven the contrary, I will continue to play it safe, and avoid using wireless earbuds.</p>
+
+<p>Hopefully a larger swath of the population will increasingly exercise caution and awareness on this issue, signalling manufacturers to drive the supply of competitive good quality wired in-ear ANC headphones that empower the consumer to make the best choice for their use case, and their health.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>The battery is still pristine, but the left earbud started to give out a random noise when active noise cancelling is enabled.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>I’m exclusively looking for in-ear headphones because of how <a href="https://www.youtube.com/watch?v=1HJs34y1u_w">challenging</a> it is to find over-ear or on-ear headphones that doesn’t cause discomfort after several hours, when using glasses. I also appreciate the style of in-ears, although that is secondary.<a href="#fnref:5" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="https://pubmed.ncbi.nlm.nih.gov/23619813/">Effect of Bluetooth headset and mobile phone electromagnetic fields on the human auditory nerve</a> - Marco Mandalà, Vittorio Colletti, Luca Sacchetto, Paolo Manganotti, Stefano Ramat, Alessandro Marcocci, Liliana Colletti<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p><a href="https://www.youtube.com/watch?v=BBqMqLyy9HQ">Are Bluetooth Headphones Safe?</a> - Dr. Matt MacDougall &amp; Dr. Andrew Huberman<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p><a href="https://www.youtube.com/watch?v=_xOpkyt5eMY">How Unhealthy Are Your AirPods?</a> - Doctor Mike<a href="#fnref:4" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content:encoded>
+
+<pubDate>2025-02-22T00:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Story of the Human Body Book: Lessons</title>
