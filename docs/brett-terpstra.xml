@@ -4,6 +4,75 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Soundtrack fun</title>
+<link>https://brett.trpstra.net/link/535/16969703/soundtrack-fun</link>
+<guid>https://brett.trpstra.net/link/535/16969703/soundtrack-fun</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/02/soundtrack-header-rb.7455.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>My weekend project was to integrate Songlink info with my <a href="https://brettterpstra.com/soundtrack">Soundtrack</a> project. I think it went smashingly.</p>
+
+<p>My Soundtrack page does not get a lot of traffic. That&rsquo;s fine, it&rsquo;s really just a playground for me. I think some of the features of it are really cool, personally, but more than anything, it&rsquo;s a place to play with music service APIs and front end web design.</p>
+
+<p>When I found <a href="https://song.link">Songlink</a>, I was thrilled to have a way to share music without worrying about what services the intended audience preferred. It made links for everything for everybody. When I was informed they also had an <a href="https://linktree.notion.site/API-d0ebe08a5e304a55928405eb682f6741">API</a>, I immediately decided I should find a way to integrate it into Soundtrack.</p>
+
+<h3 id="faved-tracks">Faved Tracks</h3>
+
+<p>The first thing I did was replace the <a href="https://brettterpstra.com/soundtrack/#lovedtracks">Faved Tracks</a> page with Song.link embeds.</p>
+
+<figure class="animated_vid_frame shadow" style="padding-bottom: 57.69%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/02/favedtracks-demo.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/02/favedtracks-demo.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/02/favedtracks-demo.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>Previously that page had used Apple Music embeds to offer track previews and purchase links. With song.link embeds, I get a YouTube video of the full track, as well as streaming and purchase links for every available service. Perfect. The page loads slowly, as it&rsquo;s booting up 30+ iframes all at once, but it works.</p>
+
+<h3 id="recent-plays">Recent Plays</h3>
+
+<p>For the <a href="https://brettterpstra.com/soundtrack/#recenttracks">Recent Plays</a> page, I wanted to do something a little more elegant. I added a small reveal icon to each card on that page, so that when you click a track title in the card (or anywhere other than the meter on the side or the preview/play button at the top), it opens up a side panel with the video and streaming links.</p>
+
+<figure class="animated_vid_frame shadow" style="padding-bottom: 54.00%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/02/recentplays.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/02/recentplays.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/02/recentplays.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>I initially just used the medium size embed from Song.link, but I didn&rsquo;t love embedding iframes that embedded iframes (YouTube) and wanted to take it a step further. So I made my own popup that contains the YouTube video embed, plus streaming links for what I consider the most common services. This meant I had complete control over styling, and didn&rsquo;t have to deal with rate limits on Songlink by rapidly loading multiple iframes.</p>
+
+<p>The YouTube videos are lazy loaded, only initiated when the panel is open and removed from the DOM when it&rsquo;s closed. The cursor changes while loading, and ovrerall it&rsquo;s a pretty pleasing interface (to me).</p>
+
+<h3 id="lyrics">Lyrics</h3>
+
+<p>Next, I wanted to push my luck and integrate genius.com lyrics. If you click the genius (yellow) icon in one of these popouts, it will overlay the YouTube video with the song lyrics.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/02/lyrics.jpg" /></p>
+
+<p>Genius has an API, but it doesn&rsquo;t actually give you the lyrics. You have to use an embed for that. So what I&rsquo;m doing is using the API to get the page link for the lyrics, then scraping that page for the actual lyric content and serving that up from my data file.</p>
+
+<h3 id="how-it-works">How it Works</h3>
+
+<p>Speaking of the data file, if you&rsquo;re curious how all of this works, it&rsquo;s all running off of a launchd job that parses the various inputs and gathers data every 15 minutes. It uses Spotify and Last.fm APIs to get lists of my top artists, top tracks, recent plays, and favorited tracks, then uses a combination of Last.fm, Spotify, Apple Music/iTunes, and now Songlink and Genius to gather information for each track/artist. It stores all of this in a JSON file which is then used by <a href="https://mustache.github.io/">mustache</a> templates rendered when the page loads. No API calls are made from the Soundtrack page, it&rsquo;s all done in the background.</p>
+
+<p>From a production standpoint, Soundtrack is pretty fragile. Depending on so many external APIs is bound to cause issues, as any change in the API or service outage will break the page. I&rsquo;ve made it as resilient as I can, but it operates at the whim of the service providers. But it works for now!</p>
+
+<p>Check out the <a href="https://brettterpstra.com/soundtrack">Soundtrack</a> page to play. If, perchance, you have any use for the code, just let me know, I&rsquo;m happy to share.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F02%2F24%2Fsoundtrack-fun%2F&amp;text=Soundtrack+fun&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F02%2F24%2Fsoundtrack-fun%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16969703.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-02-24T05:24:00-06:00</pubDate>
+<pubDate>2025-02-24T05:24:00-06:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for February 19th, 2025</title>
