@@ -25035,3 +25035,12 @@ Existing_entries: 67
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-02-27 14:03:52.456720
+------------------------------------------------------
+Started: 2025-02-27 16:04:29.922901
+Existing_entries: 67
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [The Liberating Effect of Uncertainty](https://nesslabs.com/liberating-uncertainty?utm_source=rss&utm_medium=rss&utm_campaign=liberating-uncertainty)
+append_entries: 1
+Finish: 2025-02-27 16:04:30.641929
