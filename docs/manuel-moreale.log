@@ -8856,3 +8856,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [The cost of doing the right thing](https://manuelmoreale.com/the-cost-of-doing-the-right-thing)
 append_entries: 1
 Finish: 2025-02-27 22:03:41.373884
+------------------------------------------------------
+Started: 2025-02-28 00:14:37.287024
+Existing_entries: 618
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-02-28 00:14:38.395556
