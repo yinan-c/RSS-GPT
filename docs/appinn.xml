@@ -4,6 +4,53 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>｛LibreWolf｝：基于 Firefox 的开源桌面端浏览器，注重隐私、安全和自由</title>
+<link>https://meta.appinn.net/t/topic/67027</link>
+<guid>https://meta.appinn.net/t/topic/67027</guid>
+<content:encoded><![CDATA[
+
+<p><strong>｛LibreWolf｝：基于 Firefox 的开源桌面端浏览器，注重隐私、安全和自由</strong></p>
+<p>＞ 源码：<a href="https://codeberg.org/librewolf/source">CodeBerg</a>；<a href="https://gitlab.com/librewolf-community/browser/source">GitLab</a><br />
+＞ 许可：<a href="https://codeberg.org/librewolf/source/src/branch/main/LICENSE">MPL-2.0</a></p>
+<p>︹<br />
+<em>馆长注：</em><br />
+<em>1. LibreWolf 是一个社区项目，源码和其他设施较多且类型丰富。本文只列出了部分源码仓库，有需要的读者可尝试自行寻找。</em><br />
+<em>2. LibreWolf 采用了极为严格的隐私策略，可能影响正常的网页浏览。如无法自行解决或忍受，请停止使用 LibreWolf 并尝试更换浏览器。</em><br />
+<em>3. LibreWolf 在最新版本中添加了部分隐私策略的开关按钮，如 RFP。其他无直接开关的，也可尝试在 about:config 或启动参数中自行调整。</em><br />
+︺</p>
+<p>LibreWolf 是一个基于 Firefox 的开源桌面端浏览器，注重隐私、安全和自由。</p>
+<p>功能特性：</p>
+<ul>
+<li>隐私保护：本机或通过 uBO 从 URL 中删除跟踪元素；启用 RFP；禁用 WebGL；禁用磁盘缓存并在关闭时清除临时文件……</li>
+<li>安全性：及时跟进上游版本与安全补丁；启用更严格的 TLS/SSL 协商规则；禁用内置 pdf 阅读器中的脚本；实施可手动启用的扩展防火墙……</li>
+<li>干扰：防止通过脚本调整窗口大小；禁用媒体自动播放；删除所有干扰、赞助和广告内容；移除 Pocket 扩展；默认禁用 Firefox 同步……</li>
+<li>其他：完全禁用遥测功能（崩溃报告、标准、研究和个性化建议）；禁用 Google Safe Browsing、DRM、内置密码管理器……</li>
+</ul>
+<p><img alt="apps.9517.14390997908833564.5d3b63fe-0161-49a3-9310-00ac06602fcd.png" height="387" src="https://h1.appinn.me/file/1740731847057_apps.9517.14390997908833564.5d3b63fe-0161-49a3-9310-00ac06602fcd.png" width="690" /></p>
+<p>版本：135.0.1-1（Flathub）<br />
+关注：Codeberg 290+ stars<br />
+状态：积极维护<br />
+语言：支持中文<br />
+网络：主要为联网功能<br />
+资费：免费<br />
+平台：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/linux"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>linux</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/windows"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>windows</span></a>；<a class="hashtag-cooked" href="https://meta.appinn.net/tag/macos"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>macos</span></a></p>
+<p>＞ 主页：<a href="https://librewolf.net/">LibreWolf</a><br />
+＞ 安装：<a href="https://librewolf.net/installation/">～Installation</a>；<a href="https://flathub.org/apps/details/io.gitlab.librewolf-community">Flathub</a>；<a href="https://apps.microsoft.com/store/detail/librewolf/9NVN9SZ8KFD7">Microsoft Store</a><br />
+＞ 指南：<a href="https://librewolf.net/docs/faq/">～Documentation</a><br />
+＞ 交流：<a href="https://matrix.to/#/#librewolf:matrix.org" rel="noopener nofollow ugc">Matrix</a>；<a href="https://lemmy.ml/c/librewolf">Lemmy</a></p>
+<p><code> </code><br />
+＞ 副本：<a href="https://infosec.exchange/@trantor_library">FU102</a>；<a href="https://t.me/trantor_library">TG101</a>；<a href="https://meta.appinn.net/trantor_library">Appinn</a><br />
+＞ 档案：<a href="https://t.me/trantor_archive/583">A_20240613_002</a></p>
+<p>＃：<a class="hashtag-cooked" href="https://meta.appinn.net/tag/1_%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE"><span class="hashtag-icon-placeholder"><svg class="fa d-icon d-icon-square-full svg-icon svg-node" xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span>1_开源项目</span></a> <span class="hashtag-raw">#2_开源工具收集</span><br />
+＃：<span class="hashtag-raw">#A_收集</span> <span class="hashtag-raw">#B_整理</span> <span class="hashtag-raw">#C_引述</span> <span class="hashtag-raw">#D_开源</span> <span class="hashtag-raw">#D_工具</span> <span class="hashtag-raw">#E_中文</span><br />
+％：2025年2月28日（UTC+8）</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/67027">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 28 Feb 2025 08:39:20 +0000</pubDate>
+<pubDate>Fri, 28 Feb 2025 08:39:20 +0000</pubDate>
+</item>
 
 <item>
 <title>请推荐一个多平台剪切板同步的软件</title>
