@@ -39398,3 +39398,12 @@ Existing_entries: 425
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-03-03 20:03:56.218135
+------------------------------------------------------
+Started: 2025-03-03 22:03:31.358962
+Existing_entries: 425
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Link Dump #6](https://rknight.me/blog/link-dump-6/)
+append_entries: 1
+Finish: 2025-03-03 22:03:33.400960
