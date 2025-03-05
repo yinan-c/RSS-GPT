@@ -4,6 +4,36 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>IDM替代品</title>
+<link>https://meta.appinn.net/t/topic/67182</link>
+<guid>https://meta.appinn.net/t/topic/67182</guid>
+<content:encoded><![CDATA[
+
+<p>IDM有<a href="https://www.zhihu.com/question/27346828">不少缺点</a>，例如</p>
+<ul>
+<li>只支持Windows</li>
+<li>界面难看</li>
+<li>卡顿</li>
+<li>下载完还要合并，磨损SSD</li>
+<li>下载记录保存在注册表里</li>
+<li>加驱</li>
+<li><strong>具有以上缺点的同时，还是个收费软件</strong></li>
+</ul>
+<p>这里推荐几个替代品</p>
+<ul>
+<li><a href="https://gopeed.com/zh-CN">Gopeed</a>（近期出现的所谓“吸血”客户端是假冒Gopeed的恶意软件）</li>
+<li><a href="https://abdownloadmanager.com/">AB Download Manager</a>（这东西感觉比IDM还卡）</li>
+<li><a href="https://xtremedownloadmanager.com/">Xtreme Download Manager</a>（嗅探能力和IDM不相上下）</li>
+<li>[Neat Download Manager)（界面像精简版的IDM，官方版无中文）</li>
+<li><a href="https://www.freedownloadmanager.org/zh/">Free Download Manager - 從網路下載任何東西</a>（这个现在不推荐了）</li>
+</ul>
+            <p><small>6 个帖子 - 6 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/67182">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Wed, 05 Mar 2025 06:06:20 +0000</pubDate>
+<pubDate>Wed, 05 Mar 2025 06:06:20 +0000</pubDate>
+</item>
 
 <item>
 <title>MacOS上有没有支持谷歌数据同步的Chromium系浏览器？</title>
