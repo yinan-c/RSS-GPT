@@ -53461,3 +53461,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-03-05 00:14:46.393280
+------------------------------------------------------
+Started: 2025-03-05 02:27:38.809892
+Existing_entries: 744
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [MacOS上有没有支持谷歌数据同步的Chromium系浏览器？](https://meta.appinn.net/t/topic/67163)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-03-05 02:27:41.459017
