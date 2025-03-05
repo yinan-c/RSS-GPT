@@ -9273,3 +9273,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment with someone flying to the moon](https://manuelmoreale.com/a-moment-with-someone-flying-to-the-moon)
 append_entries: 1
 Finish: 2025-03-05 20:04:15.717640
+------------------------------------------------------
+Started: 2025-03-05 22:03:48.068385
+Existing_entries: 621
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-03-05 22:03:48.789979
