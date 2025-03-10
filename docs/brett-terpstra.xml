@@ -4,6 +4,42 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Marked 2.6.46 -- Mermaid, Highlighting, and More</title>
+<link>https://brett.trpstra.net/link/535/16980488/marked-2-dot-6-46</link>
+<guid>https://brett.trpstra.net/link/535/16980488/marked-2-dot-6-46</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/m2646-header-rb.7462.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>I finally got a significant <a href="https://marked2app.com">Marked</a> update out. <code class="language-plaintext highlighter-rouge">==highlight==</code> rendering, and a BYO JavaScript setup I think (some) users will like.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2021/04/marked2icon.png" /></p>
+<p>First, I don&rsquo;t know why it&rsquo;s become so popular, but I&rsquo;ve received a lot of requests for <code class="language-plaintext highlighter-rouge">==highlight==</code> rendering. So I&rsquo;ve added it as an option. I also added <code class="language-plaintext highlighter-rouge">~~deletion~~</code> rendering, and <code class="language-plaintext highlighter-rouge">~underline~</code> as an additional option. I had to make <code class="language-plaintext highlighter-rouge">~underline~</code> function separately as it conflicts with MultiMarkdown&rsquo;s subscript syntax. But you can find all of these options under Settings-&gt;Processor. There&rsquo;s even an option to convert <code class="language-plaintext highlighter-rouge">==highlights==</code> and <code class="language-plaintext highlighter-rouge">~~deletions~~</code> to CriticMarkup, which allows for a nicer display in Marked.</p>
+
+<p>Next, I&rsquo;ve had requests for <a href="https://mermaid.js.org/">Mermaid diagramming</a> for a long time. I&rsquo;ve had fewer requests for including arbitrary JavaScript in the preview, but I figured if I was going to start adding JS libraries, I might as well make it as flexible as possible.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/03/additionalscripts.jpg" /></p>
+
+<p>If you look under Settings-&gt;Style, you&rsquo;ll find an <strong>Additional Scripts</strong> button. This will open a panel where you can control what JS is loaded in every preview (<a href="https://marked2app.com/help/Embedding_Scripts.html">docs</a>). Mermaid has its own checkbox, and if I add additional library support, checkboxes will be added here. Below that is a 3-pane field where you can add JavaScript from local files, CDN urls, or embed raw text.</p>
+
+<p>Note that when adding libraries, you&rsquo;re responsible for making them update. The <code class="language-plaintext highlighter-rouge">Marked.hooks</code> API allows you to hook a render function into the update call, so every time the preview updates (which is not a full refresh), you can trigger whatever rendering needs to happen. See <a href="https://marked2app.com/help/Embedding_Scripts.html#hooks">the docs</a> for details on that.</p>
+
+<p>There are a <a href="https://marked2app.com/help/changelog.html#version2.6.451068">few other fixes</a>. I published a second update this morning (<a href="https://marked2app.com/help/changelog.html#version2.6.461071">v2.6.46</a>) that improves multi-line <code class="language-plaintext highlighter-rouge">==highlight==</code> rendering, and finally allows you to customize the reading speed for Reading Time calculations. That&rsquo;s available right now for direct (Paddle) customers and in review for Setapp and MAS customers.</p>
+
+<p>If you&rsquo;ve never checked Marked out, head over to
+<a href="https://marked2app.com">marked2app.com</a> to learn more!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F10%2Fmarked-2-dot-6-46%2F&amp;text=Marked+2.6.46+--+Mermaid%2C+Highlighting%2C+and+More&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F10%2Fmarked-2-dot-6-46%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16980488.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-03-10T10:00:00-05:00</pubDate>
+<pubDate>2025-03-10T10:00:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Web Excursions for March 6th, 2025</title>
