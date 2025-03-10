@@ -4,6 +4,63 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>TinyTeX</title>
+<link>https://meta.appinn.net/t/topic/67341</link>
+<guid>https://meta.appinn.net/t/topic/67341</guid>
+<content:encoded><![CDATA[
+
+<p>同志们, 我想跟您分享 TinyTeX.</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-251814-h-1" name="p-251814-h-1"></a>介绍</h2>
+<p><a href="https://yihui.org/tinytex/" rel="noopener nofollow ugc">TinyTex</a> 是一个基于 TeX Live 的轻量的, 跨平台的, 便携的, 且易维护的 TeX 版本; <a href="https://tug.org/texlive/" rel="noopener nofollow ugc">TeX Live</a> 是一个我们可安装于硬盘的综合的 TeX 系统; <a href="https://texfaq.org/FAQ-whatTeX" rel="noopener nofollow ugc">TeX</a> 是一个排版系统.</p>
+<p>TeX Live 或许是最流行的 TeX 系统. 它含若干千个包, 其或可适合普通的用户的需要. 完整的 TeX Live 是大的: TeX Live 2025 的完整的官方的安装镜像的大小为约 6.44 GB (或约 6.00 GiB), 且 TeX Live 2025 的完整的安装需约 8.97 GB (或约 8.36 GiB). 每个包通常带文档与源码. 普通的用户少地读它们. 以我的经验, 只有开发人或高级的用户读包的源码, 且多的用户不知道文档在哪儿. 当遇到问题时, 一个普通的用户会作什么? 或许会打开浏览器, 在搜索栏输入关键词, 并看搜索结果. 进一步地, 即使他们真地要文档或源码, 他们可能也只要少的包的资料, 其可在 <a href="https://ctan.org/" rel="noopener nofollow ugc">CTAN</a> (综合 TeX 资料网) 被找到.</p>
+<p>TinyTeX 是较小的: 最新的 TinyTeX 的安装包 (含 TeX Live 的完整的官方的安装镜像的所有的包) 的大小小于 2 GB (或约 1.86 GiB), 且最新的 TinyTeX 的完整的安装需约 4.17 GB (或约 3.88 GiB). 磁盘空间现在是便宜的, 但不浪费它仍是好的.</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-251814-tinytex-2" name="p-251814-tinytex-2"></a>安装 TinyTeX 的方式</h2>
+<p>访问 <a class="inline-onebox" href="https://github.com/rstudio/tinytex-releases/" rel="noopener nofollow ugc">GitHub - rstudio/tinytex-releases: Windows/macOS/Linux binaries and installation methods of TinyTeX</a> 以了解如何安装 TinyTeX.</p>
+<p>以下是适用于 Windows, Linux, 与 macOS 的安装包:</p>
+<ul>
+<li>TinyTeX for Windows: <a href="https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.exe" rel="noopener nofollow ugc">https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.exe</a></li>
+<li>TinyTeX for Linux: <a href="https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tar.gz" rel="noopener nofollow ugc">https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tar.gz</a></li>
+<li>TinyTeX for macOS: <a href="https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tgz" rel="noopener nofollow ugc">https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tgz</a></li>
+</ul>
+<p>我是 Linux 用户与 Windows 用户, 故我分享安装 Windows 版与 Linux 版 TinyTeX 的经验. 我不能用 macOS, 故对不起, macOS 用户们, 我不能教您怎么安装 TinyTeX 了.</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-251814-linux-3" name="p-251814-linux-3"></a>Linux</h3>
+<p>在<a href="https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tar.gz" rel="noopener nofollow ugc">此</a>下载文件 <code>TinyTeX-2.tar.gz</code> (Linux 版 TinyTeX). 打开终端 (命令窗口), 进入 <code>TinyTeX-2.tar.gz</code> 所在的文件夹, 并执行:</p>
+<pre><code class="lang-bash">tar xf TinyTeX-2.tar.gz -C "$HOME"
+cd "$HOME/.TinyTeX/bin/x86_64-linux/"
+./tlmgr option repository ctan
+./tlmgr option sys_bin /usr/local/bin
+./tlmgr postaction install script xetex
+</code></pre>
+<p>最后, 添加 <code>$HOME/.TinyTeX/bin/x86_64-linux</code> 到您的 PATH.</p>
+<p>比如, 若您用 Bash, 您可在文件 <code>$HOME/.bashrc</code> 添加:</p>
+<pre><code class="lang-bash">export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
+</code></pre>
+<p>打开新的终端, 或执行 <code>source $HOME/.bashrc</code>, 以应用更改.</p>
+<p>若您不用 Bash, 您自己找如何永久地修改 PATH 吧.</p>
+<p>为验证安装, 在终端执行 <code>tex -version</code>. 若安装是成功的, 您会看到 TeX 的版本信息.</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-251814-windows-4" name="p-251814-windows-4"></a>Windows</h3>
+<p>在<a href="https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.exe" rel="noopener nofollow ugc">此</a>下载文件 <code>TinyTeX-2.exe</code> (Windows 版 TinyTeX). 它是一个自解压文件. 解压它至一个路径不含空格或非 ASCII 字符的文件夹. 您会得到文件夹 <code>TinyTeX</code>. 打开终端 (命令窗口), 进入文件夹 <code>TinyTeX</code>, 并执行:</p>
+<pre><code class="lang-batch">cd bin\windows
+tlmgr option repository ctan
+tlmgr postaction install script xetex
+tlmgr path add
+</code></pre>
+<p>重启动 Windows 以应用更改.</p>
+<p>为验证安装, 在终端执行 <code>tex -version</code>. 若安装是成功的, 您会看到 TeX 的版本信息.</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-251814-h-5" name="p-251814-h-5"></a>感谢</h2>
+<p>我感谢<a href="https://yihui.org/" rel="noopener nofollow ugc">谢益辉</a>作 TinyTeX.</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-251814-h-6" name="p-251814-h-6"></a>参考</h2>
+<ul>
+<li><a class="inline-onebox" href="https://yihui.org/tinytex/" rel="noopener nofollow ugc">TinyTeX - A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live - Yihui Xie | 谢益辉</a></li>
+<li><a class="inline-onebox" href="https://yihui.org/tinytex/faq/" rel="noopener nofollow ugc">Frequently (?) Asked Questions - Yihui Xie | 谢益辉</a></li>
+</ul>
+            <p><small>12 个帖子 - 7 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/67341">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Mon, 10 Mar 2025 02:14:13 +0000</pubDate>
+<pubDate>Mon, 10 Mar 2025 02:14:13 +0000</pubDate>
+</item>
 
 <item>
 <title>有没有可以支持在 PC Chrome 中同时播放多个视频的画中画插件？</title>
