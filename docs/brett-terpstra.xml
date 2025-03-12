@@ -4,6 +4,46 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Some useful Git commands</title>
+<link>https://brett.trpstra.net/link/535/16981895/some-useful-git-commands</link>
+<guid>https://brett.trpstra.net/link/535/16981895/some-useful-git-commands</guid>
+<content:encoded><![CDATA[
+
+<p>I&rsquo;ve published a repo of <a href="https://github.com/ttscoff/git-commands">my own Git commands and aliases</a>. Most of these
+commands started as aliases and then got more complex.</p>
+
+<p>All of the commands are described in the README. They&rsquo;re nothing
+terribly complex, but I find them all useful almost every time I use
+Git.</p>
+
+<p>I&rsquo;ve also included my collection of aliases. You can include the whole
+file and get all of my aliases, or just cherry pick the ones you want to
+use into your own <code class="language-plaintext highlighter-rouge">.gitconfig</code>. Hint: if you include a file at the top
+of your <code class="language-plaintext highlighter-rouge">.gitconfig</code>, any aliases you define after it will override the
+ones in the file.</p>
+
+<p>Anyway, just thought I&rsquo;d share. Writing Git commands is really easy, so
+if there are any tasks you repeat often that are more complex than an
+alias, I recommend making a stylish Git command. All you have to do is
+write a script and name it <code class="language-plaintext highlighter-rouge">git-COMMAND</code>. Make it executable and put it
+in your PATH, and then you can run <code class="language-plaintext highlighter-rouge">git COMMAND ARGS</code> with it, extending
+Git&rsquo;s command set with your own creations (and keeping your scripts
+namespaced to Git).</p>
+
+<p>If you&rsquo;re interested, <a href="https://github.com/ttscoff/git-commands">check out the repo.</a></p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F12%2Fsome-useful-git-commands%2F&amp;text=Some+useful+Git+commands&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F12%2Fsome-useful-git-commands%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16981895.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-03-12T07:14:00-05:00</pubDate>
+<pubDate>2025-03-12T07:14:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Marked 2.6.46 -- Mermaid, Highlighting, and More</title>
