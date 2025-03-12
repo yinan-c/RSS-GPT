@@ -54219,3 +54219,11 @@ Fetch error: 523
 Fetch failed from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 error when rendering xml, skip docs/appinn
+------------------------------------------------------
+Started: 2025-03-12 22:03:39.302590
+Existing_entries: 752
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2025-03-12 22:03:42.273666
