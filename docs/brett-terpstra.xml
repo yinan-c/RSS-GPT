@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Some useful Git commands</title>
 <link>https://brett.trpstra.net/link/535/16981895/some-useful-git-commands</link>
 <guid>https://brett.trpstra.net/link/535/16981895/some-useful-git-commands</guid>
 <content:encoded><![CDATA[
-
 <p>I&rsquo;ve published a repo of <a href="https://github.com/ttscoff/git-commands">my own Git commands and aliases</a>. Most of these
 commands started as aliases and then got more complex.</p>
 
@@ -42,9 +42,7 @@ namespaced to Git).</p>
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16981895.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-03-12T07:14:00-05:00</pubDate>
-<pubDate>2025-03-12T07:14:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Marked 2.6.46 -- Mermaid, Highlighting, and More</title>
 <link>https://brett.trpstra.net/link/535/16980488/marked-2-dot-6-46</link>
