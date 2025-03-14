@@ -9891,3 +9891,12 @@ Existing_entries: 623
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-03-14 10:04:48.304650
+------------------------------------------------------
+Started: 2025-03-14 12:05:52.550002
+Existing_entries: 623
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [P&B: Keenan](https://manuelmoreale.com/pb-keenan)
+append_entries: 1
+Finish: 2025-03-14 12:05:54.114518
