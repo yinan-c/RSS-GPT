@@ -54390,3 +54390,13 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-03-14 14:03:47.903657
+------------------------------------------------------
+Started: 2025-03-14 16:04:06.572608
+Existing_entries: 755
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [如何设置同一时间只能打开一个 Chrome 浏览器？](https://meta.appinn.net/t/topic/67577)
+Append: [寻找一款可以自己搭建在VPS上的导航页](https://meta.appinn.net/t/topic/32731)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2025-03-14 16:04:09.679184
