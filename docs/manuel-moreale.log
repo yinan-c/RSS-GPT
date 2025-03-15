@@ -9990,3 +9990,12 @@ Existing_entries: 624
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-03-15 18:04:05.711464
+------------------------------------------------------
+Started: 2025-03-15 20:04:06.509508
+Existing_entries: 624
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A moment with snow and trees](https://manuelmoreale.com/a-moment-with-snow-and-trees)
+append_entries: 1
+Finish: 2025-03-15 20:04:07.373178
