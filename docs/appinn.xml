@@ -4,6 +4,52 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>The Unarchiver：macOS 上能创建文件夹的解压缩软件</title>
+<link>https://meta.appinn.net/t/topic/67647</link>
+<guid>https://meta.appinn.net/t/topic/67647</guid>
+<content:encoded><![CDATA[
+
+<h3><a class="anchor" href="https://meta.appinn.net#p-253142-h-1" name="p-253142-h-1"></a>软件基本信息</h3>
+<p>软件名：The Unarchiver<br />
+网址：<a href="https://theunarchiver.com">https://theunarchiver.com</a><br />
+运行平台：macOS<br />
+发行平台：官网、App Store<br />
+发现类型：用户推荐</p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-253142-h-2" name="p-253142-h-2"></a>发现过程</h3>
+<p>压缩包，把多个文件压缩成单个文件，方便文件传输、文件存档、节省空间。</p>
+<p>人们使用压缩习惯不同：</p>
+<ul>
+<li>有的直接压缩</li>
+<li>有的创建文件夹存放文件，然后压缩</li>
+<li>有的创建文件夹并命名好，顺带写一份 readme 文件，压缩完后再给压缩文件命名好。</li>
+<li>……</li>
+</ul>
+<p>压缩者越是认真细致，解压缩时的重新整理越是方便顺心。</p>
+<p>macOS 上解压缩文件的问题：双击压缩包，里面的文件就会全部跑出来。</p>
+<p>如果我批量解压多个，如果压缩包里没有整理好，文件就会窜的到处都是，增加整理难度。</p>
+<p><strong>这时候需要解压缩软件为每个压缩包创建文件夹。</strong></p>
+<p>我在 Windows 平台一直用的是 Bandizip，有一个特别方便的功能，右键解压到“压缩文件名的文件夹”。<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/d/6/d681558fbab9703d95e549dc4ff97a1a40e8637c.webp" title="屏幕截图 2025-03-16 182848.png"><img alt="屏幕截图 2025-03-16 182848.png" height="130" src="https://meta.appinn.net/uploads/default/original/3X/d/6/d681558fbab9703d95e549dc4ff97a1a40e8637c.webp" width="202" /></a></div><p></p>
+<p>而 macOS 上自带的和很多压缩工具都不提供这个功能。（macOS 上的 Bandizip 需要<br />
+付费，我没有优先考虑它）</p>
+<p>我尝试新的搜索方式：问 AI，ChatGPT 直接告诉我使用这个软件（前两个是命令行方法）<br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/8/6/86a3738a72b497ca8f94f0f18581301d27d16fd2.webp" title="20250316_181212_Pixpin.png"><img alt="20250316_181212_Pixpin.png" height="133" src="https://meta.appinn.net/uploads/default/original/3X/8/6/86a3738a72b497ca8f94f0f18581301d27d16fd2.webp" width="517" /></a></div><p></p>
+<p>我试了一下真的实现了。只要把这个设置改成 Always 即可。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/9/6/9603317e3bf5e0a01141163bf33cfa46802a43c8.webp" title="20250316_181029_Pixpin.png"><img alt="20250316_181029_Pixpin.png" height="250" src="https://meta.appinn.net/uploads/default/original/3X/9/6/9603317e3bf5e0a01141163bf33cfa46802a43c8.webp" width="341" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/2/1/2169d358528b406485401ae86d52adbf23e5737e.webp" title="20250316_182730_Pixpin.png"><img alt="20250316_182730_Pixpin.png" height="204" src="https://meta.appinn.net/uploads/default/original/3X/2/1/2169d358528b406485401ae86d52adbf23e5737e.webp" width="345" /></a></div><br />
+<div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/c/4/c45743334dd1c45a5238aca63467bd69c2b52b08.webp" title="20250316_182658_Pixpin.png"><img alt="20250316_182658_Pixpin.png" height="210" src="https://meta.appinn.net/uploads/default/original/3X/c/4/c45743334dd1c45a5238aca63467bd69c2b52b08.webp" width="345" /></a></div><p></p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-253142-h-3" name="p-253142-h-3"></a>站内相关话题</h3>
+<ul>
+<li><a href="https://meta.appinn.net/t/topic/66538">最新版Bandizip已经出现弹窗广告</a> Bandzip 把创建文件夹集成到了右键菜单</li>
+<li><a href="https://meta.appinn.net/t/topic/7942">【macOS】简洁、全能、可预览的免费压缩软件。</a>提到了这款软件</li>
+</ul>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/67647">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 16 Mar 2025 12:08:01 +0000</pubDate>
+<pubDate>Sun, 16 Mar 2025 12:08:01 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】钢琴小组件，无需启动，随时弹奏</title>
