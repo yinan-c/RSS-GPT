@@ -54606,3 +54606,11 @@ Append: [免费手机扫描应用大盘点](https://meta.appinn.net/t/topic/6765
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2025-03-16 18:04:02.278325
+------------------------------------------------------
+Started: 2025-03-16 20:03:39.985972
+Existing_entries: 763
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 0
+Finish: 2025-03-16 20:03:42.854634
