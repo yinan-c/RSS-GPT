@@ -40364,3 +40364,12 @@ Existing_entries: 427
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-03-17 12:06:03.255446
+------------------------------------------------------
+Started: 2025-03-17 14:03:51.938233
+Existing_entries: 427
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Things I Like: The Severance Podcast](https://rknight.me/blog/things-i-like-the-severance-podcast/)
+append_entries: 1
+Finish: 2025-03-17 14:03:53.624473
