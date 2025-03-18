@@ -40439,3 +40439,12 @@ Existing_entries: 428
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-03-18 12:06:04.000420
+------------------------------------------------------
+Started: 2025-03-18 14:03:59.425298
+Existing_entries: 428
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [A Lucky Lamy Listing](https://rknight.me/blog/a-lucky-lamy-listing/)
+append_entries: 1
+Finish: 2025-03-18 14:04:00.931961
