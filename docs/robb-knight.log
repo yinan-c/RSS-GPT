@@ -40514,3 +40514,12 @@ Existing_entries: 429
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-03-19 12:06:02.298482
+------------------------------------------------------
+Started: 2025-03-19 14:04:05.649096
+Existing_entries: 429
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [I Was a Guest on The Pen Addict](https://rknight.me/blog/i-was-a-guest-on-the-pen-addict/)
+append_entries: 1
+Finish: 2025-03-19 14:04:07.414555
