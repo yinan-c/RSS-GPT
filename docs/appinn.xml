@@ -4,12 +4,12 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+
 <item>
 <title>无聊小技巧：提取 Chrome 浏览器内置的用户配置文件头像</title>
 <link>https://meta.appinn.net/t/topic/67797</link>
 <guid>https://meta.appinn.net/t/topic/67797</guid>
 <content:encoded><![CDATA[
-
 <p>Chrome 浏览器允许用户自定义每一个用户配置文件的头像，并提供了一组扁平化风格的图片以供选择。</p>
 <p><img alt="2025-03-19 22-26-51 创建的截图.png" height="499" src="https://h1.appinn.me/file/1742394471480_2025-03-19%2022-26-51%20%E5%88%9B%E5%BB%BA%E7%9A%84%E6%88%AA%E5%9B%BE.png" width="579" /></p>
 <p>要将这些图片提取出来，可在地址栏中输入</p>
@@ -22,9 +22,7 @@
             <p><a href="https://meta.appinn.net/t/topic/67797">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 19 Mar 2025 14:28:45 +0000</pubDate>
-<pubDate>Wed, 19 Mar 2025 14:28:45 +0000</pubDate>
 </item>
-
 <item>
 <title>macOS环境中，如何添加一个 点击后可复制选中文字 的悬浮按钮？</title>
 <link>https://meta.appinn.net/t/topic/67747</link>
