@@ -10410,3 +10410,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Ben Borgers](https://manuelmoreale.com/pb-ben-borgers)
 append_entries: 1
 Finish: 2025-03-21 12:06:16.718888
+------------------------------------------------------
+Started: 2025-03-21 14:04:21.596257
+Existing_entries: 626
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-03-21 14:04:22.451608
