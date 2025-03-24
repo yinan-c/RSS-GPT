@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>KeyBindings: convenient tab switching</title>
 <link>https://brett.trpstra.net/link/535/16989972/keybindings-convenient-tab-switching</link>
 <guid>https://brett.trpstra.net/link/535/16989972/keybindings-convenient-tab-switching</guid>
 <content:encoded><![CDATA[
-
 <p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/keyboard-header-rb.7462.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
 <p>I&rsquo;ve been playing with some <a href="https://karabiner-elements.pqrs.org/" title="Karabiner-Elements">Karabiner Elements</a> setups and thought I&rsquo;d start sharing some that I find useful. I&rsquo;m publishing these as part of the KeyBinding series, as I think they make sense there.</p>
 
@@ -110,9 +110,7 @@
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16989972.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-03-23T11:14:00-05:00</pubDate>
-<pubDate>2025-03-23T11:14:00-05:00</pubDate>
 </item>
-
 <item>
 <title>Some useful Git commands</title>
 <link>https://brett.trpstra.net/link/535/16981895/some-useful-git-commands</link>
