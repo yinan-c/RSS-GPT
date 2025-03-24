@@ -4,6 +4,114 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>KeyBindings: convenient tab switching</title>
+<link>https://brett.trpstra.net/link/535/16989972/keybindings-convenient-tab-switching</link>
+<guid>https://brett.trpstra.net/link/535/16989972/keybindings-convenient-tab-switching</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/keyboard-header-rb.7462.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>I&rsquo;ve been playing with some <a href="https://karabiner-elements.pqrs.org/" title="Karabiner-Elements">Karabiner Elements</a> setups and thought I&rsquo;d start sharing some that I find useful. I&rsquo;m publishing these as part of the KeyBinding series, as I think they make sense there.</p>
+
+<p>This first one is a way to make tab switching (<span class="keycombo combined" title="Command-[,]"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">[,]</kbd></span>) <em>slightly</em> more convenient. I say slightly, as the modifier key combination for this is really pretty second nature to me, I just wanted to see what it would be like as a simple, single-row key combination.</p>
+
+<p>The configuration makes the backslash key function as right command when held with other keys, meaning the little cluster of <code class="language-plaintext highlighter-rouge">[]\</code> can be used without moving your thumb, holding the backslash with your pinky and using the <code class="language-plaintext highlighter-rouge">[</code> and <code class="language-plaintext highlighter-rouge">]</code> to navigate left and right. If you double tap the backslash and hold it, it becomes <span class="keycombo combined" title="Shift-Command"><kbd class="mod symbol">&#8679;</kbd><kbd class="mod symbol">&#8984;</kbd></span>, so you can <span class="keycombo combined" title="Shift-Command-[,]"><kbd class="mod symbol">&#8679;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">[,]</kbd></span> instead. In most web browsers, <span class="keycombo combined" title="Command-["><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">[</kbd></span> is back, and <span class="keycombo combined" title="Shift-Command-{"><kbd class="mod symbol">&#8679;</kbd><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">{</kbd></span> switches to the previous tab. So this configuration makes tab switching in any app convenient.</p>
+
+<h3 id="caveats">Caveats</h3>
+
+<p>Because we have to watch for double taps, there&rsquo;s now a 250ms delay when just typing a backslash alone. You could shorten this delay if you wanted to experiment with exactly how fast you&rsquo;d have to double tap to make that work. The slight delay on a lesser used character seems reasonable to me. Maybe after using it for a while I change my mind about that. We&rsquo;ll see.</p>
+
+<p>You also lose key repeat, so you can&rsquo;t hold backslash down to type <code class="language-plaintext highlighter-rouge">\\\\\\\\</code>. That&rsquo;s not something I&rsquo;ll ever need to do, I don&rsquo;t think.</p>
+
+<p>The other issue I&rsquo;m running into that I haven&rsquo;t solved yet, is that if I just hold the backslash key on its own for too long, it sends <span class="keycombo combined" title="Command-\"><kbd class="mod symbol">&#8984;</kbd><kbd class="key symbol">\</kbd></span>, which for me triggers 1Password Autofill<sup id="fnref:agent"><a class="footnote" href="https://brettterpstra.com#fn:agent" rel="footnote">1</a></sup>. I&rsquo;d rather not have that happen as it means if I simply take too long to hit one of the brackets, I get interrupted by the popup. Maybe that would be a cool trick if it were intentional, but &lsquo;tis not. If anyone knows the secret ingredient I&rsquo;m missing for that, please share and I&rsquo;ll update the config.</p>
+
+<p>Here&rsquo;s the recipe. You can add it to Karabiner by going into Complex Modifications, clicking &ldquo;Add your own rule,&rdquo; and pasting the code below. If you play with modifications, please share! Despite using Karabiner for years now, I&rsquo;m still learning my way around the rules.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/03/add-your-own-rule.jpg" /></p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash down to right_command, double backslash to right_shift + right_command"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"manipulators"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"conditions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash_pressed"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"variable_if"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+            </span><span class="p">],</span><span class="w">
+            </span><span class="nl">"from"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"modifiers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"optional"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"any"</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"to"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"right_shift"</span><span class="p">,</span><span class="w">
+                    </span><span class="nl">"modifiers"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"right_command"</span><span class="p">]</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+            </span><span class="p">],</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"basic"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"from"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"modifiers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"optional"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"any"</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"parameters"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"basic.to_delayed_action_delay_milliseconds"</span><span class="p">:</span><span class="w"> </span><span class="mi">250</span><span class="w"> </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"to"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"set_variable"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash_pressed"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+                    </span><span class="p">}</span><span class="w">
+                </span><span class="p">},</span><span class="w">
+                </span><span class="p">{</span><span class="w"> </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"right_command"</span><span class="w"> </span><span class="p">}</span><span class="w">
+            </span><span class="p">],</span><span class="w">
+            </span><span class="nl">"to_delayed_action"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"to_if_canceled"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                    </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"set_variable"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash_pressed"</span><span class="p">,</span><span class="w">
+                            </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+                        </span><span class="p">}</span><span class="w">
+                    </span><span class="p">}</span><span class="w">
+                </span><span class="p">],</span><span class="w">
+                </span><span class="nl">"to_if_invoked"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                    </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"set_variable"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash_pressed"</span><span class="p">,</span><span class="w">
+                            </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+                        </span><span class="p">}</span><span class="w">
+                    </span><span class="p">},</span><span class="w">
+                    </span><span class="p">{</span><span class="w"> </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"backslash"</span><span class="w"> </span><span class="p">}</span><span class="w">
+                </span><span class="p">]</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"basic"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Got any tricks you want to share? I&rsquo;ve started <a href="https://forum.brettterpstra.com/t/karabiner-and-friends-tips-and-tricks/2547">a thread the forum</a> and I&rsquo;d love to see you there! I have a few more I&rsquo;ll publish in the near future.</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:agent">
+      <p>I tried changing the Autofill shortcut, but now holding the backslash launches DEVONthink Agent and I can&rsquo;t figure out where I have that configured. Ugh.&nbsp;<a class="reversefootnote" href="https://brettterpstra.com#fnref:agent">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F23%2Fkeybindings-convenient-tab-switching%2F&amp;text=KeyBindings%3A+convenient+tab+switching&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F23%2Fkeybindings-convenient-tab-switching%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16989972.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-03-23T11:14:00-05:00</pubDate>
+<pubDate>2025-03-23T11:14:00-05:00</pubDate>
+</item>
 
 <item>
 <title>Some useful Git commands</title>
