@@ -4,6 +4,70 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>KeyBindings: home row arrow cluster</title>
+<link>https://brett.trpstra.net/link/535/16990575/keybindings-home-row-arrow-cluster</link>
+<guid>https://brett.trpstra.net/link/535/16990575/keybindings-home-row-arrow-cluster</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/keyboard-header-pink-rb.7466.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+<p>I&rsquo;ve been working away from my office a lot, so I&rsquo;ve been using my MacBook Pro keyboard as often as my Ultimate Hacking Keyboard. I missed the <code class="language-plaintext highlighter-rouge">Mod-J/K/I/L</code> arrow key navigation, so I hacked a little modification in using Karabiner that fills the gap.</p>
+
+<p>My own reasoning: I have <abbr title="Thorasic Outlet Syndrome">TOS</abbr>, and as a result I&rsquo;m lacking feeling in some of my fingers. This makes using the little arrow keys on the MacBook Pro difficult, as I can&rsquo;t differentiate which key I&rsquo;m pressing and constantly mistype. Staying on the home row is much easier for me.</p>
+
+<section class="series instapaper_ignore"><p>More from "KeyBinding"</p><ul class="posts"><li><span class="current">KeyBindings: home row arrow cluster <time datetime="2025-03-24T10:00">2025/03/24</time></span></li><li><a href="https://brettterpstra.com//2025/03/23/keybindings-convenient-tab-switching/">KeyBindings: convenient tab switching <time datetime="2025-03-23T11:14">2025/03/23</time></a></li><li><a href="https://brettterpstra.com//2023/12/22/multi-keystroke-keybindings/">Multi-keystroke keybindings <time datetime="2023-12-22T10:54">2023/12/22</time></a></li><li><a href="https://brettterpstra.com//2023/12/21/more-keybindings-text-editing-shortcuts/">More keybindings: Text editing shortcuts <time datetime="2023-12-21T15:57">2023/12/21</time></a></li><li><a href="https://brettterpstra.com//2023/12/19/macos-keybinding-tricks-the-repeat-count-binding/">macOS keybinding tricks: the repeat count binding <time datetime="2023-12-19T15:12">2023/12/19</time></a></li><li><a href="https://brettterpstra.com//2023/12/18/macos-keybinding-tricks-the-kill-ring/">macOS keybinding tricks: The kill ring <time datetime="2023-12-18T13:57">2023/12/18</time></a></li><li><a href="https://brettterpstra.com//2022/02/18/keybindings-cheat-sheet-for-dash/">Keybindings cheat sheet for Dash <time datetime="2022-02-18T06:58">2022/02/18</time></a></li><li><a href="https://brettterpstra.com//2018/08/13/yet-more-new-keybindings-for-macos/">Yet more new keybindings for macOS <time datetime="2018-08-13T12:24">2018/08/13</time></a></li><li><a href="https://brettterpstra.com//2017/11/08/macos-keybindings-for-searchlink/">macOS KeyBindings for SearchLink <time datetime="2017-11-08T13:31">2017/11/08</time></a></li><li><a href="https://brettterpstra.com//2014/08/20/keybindings-that-everyone-should-have/">Keybindings that everyone should have <time datetime="2014-08-20T08:30">2014/08/20</time></a></li><li><a href="https://brettterpstra.com//2013/01/16/restore-save-as-everywhere/">Restore Save as... everywhere <time datetime="2013-01-16T16:00">2013/01/16</time></a></li><li><a href="https://brettterpstra.com//2012/12/08/a-useful-caps-lock-key/">A useful Caps Lock key <time datetime="2012-12-08T13:49">2012/12/08</time></a></li><li><a href="https://brettterpstra.com//2012/04/22/new-text-navigation-keybindings/">New text navigation KeyBindings <time datetime="2012-04-22T12:59">2012/04/22</time></a></li><li><a href="https://brettterpstra.com//2011/12/21/a-little-keybinding-sanity/">A little KeyBinding sanity <time datetime="2011-12-21T20:03">2011/12/21</time></a></li><li><a href="https://brettterpstra.com//2011/12/04/quick-tip-repeat-cocoa-text-actions-emacsvim-style/">Quick Tip: repeat Cocoa text actions, Emacs/Vim style <time datetime="2011-12-04T08:00">2011/12/04</time></a></li><li><a href="https://brettterpstra.com//2011/11/15/keybindings-new-improved-surround-commands/">KeyBindings: new, improved "surround" commands <time datetime="2011-11-15T08:30">2011/11/15</time></a></li><li><a href="https://brettterpstra.com//2011/11/10/the-keys-that-bind-keybinding-madness-part-2/">The keys that bind: KeyBinding Madness part 2 <time datetime="2011-11-10T07:30">2011/11/10</time></a></li><li><a href="https://brettterpstra.com//2011/08/13/keybinding-madness/">KeyBinding madness <time datetime="2011-08-13T11:23">2011/08/13</time></a></li></ul></section>
+
+<p>This modification works in tandem with a set of BetterTouchTool triggers, as it&rsquo;s just a lot easier to assign a bunch of shortcuts in BetterTouchTool, where you can just press the combinations to register them. All I do with Karabiner is change the semicolon to the Function key when it&rsquo;s held down with other keys. Then, in BetterTouchTool, I assign <span class="keycombo separated" title="Function-J"><kbd class="mod symbol">Fn</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="I"><kbd class="key symbol">I</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> to be arrow keys, with accommodations for <span class="keycombo separated" title="Option"><kbd class="mod symbol">&#8997;</kbd></span>, <span class="keycombo separated" title="Shift"><kbd class="mod symbol">&#8679;</kbd></span>, and <span class="keycombo separated" title="Command"><kbd class="mod symbol">&#8984;</kbd></span> modifiers. You can, of course, opt for <span class="keycombo separated" title="Function-H"><kbd class="mod symbol">Fn</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">H</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> if you prefer Vim navigation.</p>
+
+<p>To set up the semicolon as a Function key, just add the following in Complex Modifications:</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/03/add-your-own-rule.jpg" /></p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"manipulators"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Semicolon as fn"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"from"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"semicolon"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"modifiers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"optional"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"any"</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"to"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"fn"</span><span class="w"> </span><span class="p">}],</span><span class="w">
+            </span><span class="nl">"to_if_alone"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"key_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"semicolon"</span><span class="w"> </span><span class="p">}],</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"basic"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Then, in BetterTouchTool, set up the Fn-JKIL to perform arrow functions, adding bindings like <span class="keycombo separated" title="Option-Left Arrow Key"><kbd class="mod symbol">&#8997;</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">&#8592;</kbd></span> and <span class="keycombo separated" title="Option-Shift-Right Arrow Key"><kbd class="mod symbol">&#8997;</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8679;</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">&#8594;</kbd></span>.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/03/arrow-cluster-bettertouchtool.jpg" /></p>
+
+<p>I&rsquo;ve exported BetterTouchTool settings for <code class="language-plaintext highlighter-rouge">JKIL</code> and <code class="language-plaintext highlighter-rouge">HJKL</code> mappings, if you just want to load them as a BetterTouchTool preset. Just unzip that and use <strong>Preset &gt; Import Preset</strong> in BetterTouchTool.</p>
+
+<p class="buttons"><a class="btn--big" href="https://brettterpstra.com//downloads/arrow-cluster-jikl.bttpreset.zip">J/K/I/L Preset Zip</a> <a class="btn--big btn--last" href="https://brettterpstra.com//downloads/arrow-cluster-hjkl.bttpreset.zip">H/J/K/L Preset Zip</a></p>
+
+<h3 id="caveats">Caveats</h3>
+
+<p>Like my other key combination bindings, this Karabiner setup means you no longer have key repeat on the semicolon key. I don&rsquo;t ever type <code class="language-plaintext highlighter-rouge">;;;;;</code>, and if I ever needed to, I don&rsquo;t mind repeatedly tapping <code class="language-plaintext highlighter-rouge">;</code> to get it.</p>
+
+<p>The only thing missing from this setup is the usual behavior of Fn-arrow key, which is to trigger Home, End, Page Up, and Page Down. I don&rsquo;t use these much, as I use <span class="keycombo separated" title="Control-A"><kbd class="mod symbol">&#8963;</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">A</kbd></span> and <span class="keycombo separated" title="Control-E"><kbd class="mod symbol">&#8963;</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">E</kbd></span> for Home and End, and I just don&rsquo;t use Page Up and Page Down much at all. To get full arrow key functionality, you kind of have to use <span class="keycombo separated" title="Function"><kbd class="mod symbol">Fn</kbd></span> with the semicolon, otherwise you&rsquo;ve lost a modifier. The alternative would be to do all the mappings in Karabiner and use a non-modifier key combination, like actually mapping <span class="keycombo separated" title=";j"><kbd class="key symbol">;j</kbd></span> to <code class="language-plaintext highlighter-rouge">left_arrow</code>. Then you&rsquo;d have <span class="keycombo separated" title="Function"><kbd class="mod symbol">Fn</kbd></span> available. It would just be a lot more work, as you&rsquo;d have to do <em>all</em> the modifier mappings in Karabiner.</p>
+
+<p>As a side note, I also currently have the Tab key set up to function the same as the semicolon key, sending Function if held with other keys. This is an experiment. On my Ultimate Hacking Keyboard, the Tab key actually functions as the Mouse key, giving me keyboard-based mouse movements with the same key cluster. But I don&rsquo;t use that much; it&rsquo;s slower than just moving my hand to the trackpad.</p>
+
+<p>Got questions or want to share your own tips? <a href="https://forum.brettterpstra.com/t/karabiner-and-friends-tips-and-tricks/2547">Join us on the forum!</a></p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F24%2Fkeybindings-home-row-arrow-cluster%2F&amp;text=KeyBindings%3A+home+row+arrow+cluster&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F24%2Fkeybindings-home-row-arrow-cluster%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16990575.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-03-24T10:00:00-05:00</pubDate>
+<pubDate>2025-03-24T10:00:00-05:00</pubDate>
+</item>
 
 <item>
 <title>KeyBindings: convenient tab switching</title>

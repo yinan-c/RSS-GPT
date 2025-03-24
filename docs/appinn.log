@@ -55438,3 +55438,13 @@ Fetch error: 403
 Fetch failed from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 error when rendering xml, skip docs/appinn
+------------------------------------------------------
+Started: 2025-03-24 16:04:25.764187
+Existing_entries: 771
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [Mac版的最新chrome浏览器不能最小化](https://meta.appinn.net/t/topic/67976)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Append: [免费的无线鼠标软件](https://meta.appinn.net/t/topic/67954)
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 2
+Finish: 2025-03-24 16:04:28.524904
