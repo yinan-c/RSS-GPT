@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>KeyBindings: home row arrow cluster</title>
 <link>https://brett.trpstra.net/link/535/16990575/keybindings-home-row-arrow-cluster</link>
 <guid>https://brett.trpstra.net/link/535/16990575/keybindings-home-row-arrow-cluster</guid>
 <content:encoded><![CDATA[
-
 <p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/keyboard-header-pink-rb.7466.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
 <p>I&rsquo;ve been working away from my office a lot, so I&rsquo;ve been using my MacBook Pro keyboard as often as my Ultimate Hacking Keyboard. I missed the <code class="language-plaintext highlighter-rouge">Mod-J/K/I/L</code> arrow key navigation, so I hacked a little modification in using Karabiner that fills the gap.</p>
 
@@ -66,9 +66,7 @@
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16990575.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-03-24T10:00:00-05:00</pubDate>
-<pubDate>2025-03-24T10:00:00-05:00</pubDate>
 </item>
-
 <item>
 <title>KeyBindings: convenient tab switching</title>
 <link>https://brett.trpstra.net/link/535/16989972/keybindings-convenient-tab-switching</link>
