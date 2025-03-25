@@ -4,6 +4,50 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】Qbin 快捷存储</title>
+<link>https://meta.appinn.net/t/topic/68064</link>
+<guid>https://meta.appinn.net/t/topic/68064</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-254838-h-1" name="p-254838-h-1"></a><img alt=":memo:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/memo.png?v=14" title=":memo:" width="20" /> 项目简介</h2>
+<p><img alt=":sparkles:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/sparkles.png?v=14" title=":sparkles:" width="20" /> 轻盈优雅的全能数据存储服务，以编辑器为核心，一键存储文字、代码、图片、视频等任何数据。<br />
+分布式架构+多级缓存让存取速度飞快，像记事本般简单，比云盘更便捷，随手记录，即存即用，开启您的云上数据自由时代！</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-254838-h-2" name="p-254838-h-2"></a><img alt=":sparkles:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/sparkles.png?v=14" title=":sparkles:" width="20" /> 核心特性</h2>
+<ul>
+<li><img alt=":rocket:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/rocket.png?v=14" title=":rocket:" width="20" /> <strong>便捷存储</strong>：快速保存文字、代码、图片、视频等多种数据</li>
+<li><img alt=":locked:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/locked.png?v=14" title=":locked:" width="20" /> <strong>安全可控</strong>：支持自定义访问路径和密码保护</li>
+<li><img alt=":stopwatch:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/stopwatch.png?v=14" title=":stopwatch:" width="20" /> <strong>灵活期限</strong>：可设置内容过期时间</li>
+<li><img alt=":first_quarter_moon:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/first_quarter_moon.png?v=14" title=":first_quarter_moon:" width="20" /> <strong>深色模式</strong>：完美适配明暗两种主题</li>
+<li><img alt=":mobile_phone:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/mobile_phone.png?v=14" title=":mobile_phone:" width="20" /> <strong>全面适配</strong>：支持桌面端和移动端</li>
+<li><img alt=":counterclockwise_arrows_button:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/counterclockwise_arrows_button.png?v=14" title=":counterclockwise_arrows_button:" width="20" /> <strong>自动保存</strong>：定时本地备份，防止数据丢失</li>
+<li><img alt=":key:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/key.png?v=14" title=":key:" width="20" /> <strong>第三方登录</strong>：支持 Google、GitHub、LinuxDO 授权</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-254838-h-3" name="p-254838-h-3"></a><img alt=":framed_picture:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/framed_picture.png?v=14" title=":framed_picture:" width="20" /> 功能预览</h2>
+<div class="md-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">桌面端界面</th>
+<th style="text-align: center;">移动端界面</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img alt="桌面端预览" height="70" src="https://s3.tebi.io/lite/windows.png" title="桌面端预览" width="70" /></td>
+<td style="text-align: center;"><img alt="移动端界面" height="59" src="https://s3.tebi.io/lite/mobile.png" title="移动端界面" width="30" /></td>
+</tr>
+</tbody>
+</table>
+</div><p>开源地址：<a class="inline-onebox" href="https://github.com/Quick-Bin/Qbin" rel="noopener nofollow ugc">GitHub - Quick-Bin/Qbin: ✨ 轻盈优雅的全能数据存储服务 | 以编辑器为核心，一键存储文字、代码、图片、视频等任何数据 | 分布式架构+多级缓存让存取速度飞快 | 像记事本般简单，比云盘更便捷，随手记录，即存即用，开启您的云上数据自由时代！</a></p>
+<p>官网：<a href="https://qbin.me" rel="noopener nofollow ugc">https://qbin.me</a></p>
+<p>项目支持一键Docker部署，路过的朋友欢迎 Star​<img alt=":star:" class="emoji" height="20" src="https://meta.appinn.net/images/emoji/twemoji/star.png?v=14" title=":star:" width="20" /></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/68064">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 25 Mar 2025 18:55:40 +0000</pubDate>
+<pubDate>Tue, 25 Mar 2025 18:55:40 +0000</pubDate>
+</item>
 
 <item>
 <title>关于tampermonkey油猴的更新弹窗</title>
