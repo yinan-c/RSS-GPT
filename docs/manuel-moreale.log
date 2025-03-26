@@ -10758,3 +10758,12 @@ Existing_entries: 626
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-03-26 08:04:58.234158
+------------------------------------------------------
+Started: 2025-03-26 10:04:43.529564
+Existing_entries: 626
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [The cost of getting too big](https://manuelmoreale.com/the-cost-of-getting-too-big)
+append_entries: 1
+Finish: 2025-03-26 10:04:44.562868
