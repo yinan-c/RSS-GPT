@@ -5,11 +5,38 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>Chrome/Vivaldi 浏览器如何关掉剪贴板权限弹窗？clipboard popup</title>
+<link>https://meta.appinn.net/t/topic/43746</link>
+<guid>https://meta.appinn.net/t/topic/43746</guid>
+<content:encoded><![CDATA[
+
+<h1><a class="anchor" href="https://meta.appinn.net#p-153267-chromevivaldi-1" name="p-153267-chromevivaldi-1"></a>Chrome/Vivaldi 浏览器如何关掉剪贴板权限弹窗？</h1>
+<p>How to disable Chrome clipboard popup</p>
+<p>不知道什么时候开始，每次我在网页上复制东西都会弹出这个框「某网站 想要查看复制到剪贴板的文字和图片」</p>
+<p>英文应该是「See text and images copied to the clipboard」。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/d/8/d8e37a4886e5bd75d443a47f4dfd2cb0bbc66bd4.png" title="image"><img alt="image" height="135" src="https://meta.appinn.net/uploads/default/original/3X/d/8/d8e37a4886e5bd75d443a47f4dfd2cb0bbc66bd4.png" width="336" /></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/d/3/d31c178887cfb54eb7195602641092d24356ab53.png" title="image"><img alt="image" height="122" src="https://meta.appinn.net/uploads/default/original/3X/d/3/d31c178887cfb54eb7195602641092d24356ab53.png" width="313" /></a></div><p></p>
+<p>查了一下在这里有一定的相关设置，但是只有请求和禁止两个选项<br />
+<code>chrome://settings/content/clipboard</code><br />
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://meta.appinn.net/uploads/default/original/3X/a/9/a9c42a1a4bf9963dba3189ea20195c1a76724db0.png" title="image"><img alt="image" height="168" src="https://meta.appinn.net/uploads/default/optimized/3X/a/9/a9c42a1a4bf9963dba3189ea20195c1a76724db0_2_345x168.png" width="345" /></a></div><p></p>
+<hr />
+<p>这个东西感觉挺烦的，绝大部分网站只要复制就会弹出</p>
+<ul>
+<li>对陌生网站允许这个权限有多大的安全隐患？</li>
+<li>这个权限直接全网页禁用掉，会不会影响网页的功能？</li>
+<li>有没有办法禁止浏览器弹这个窗？实在是太烦了</li>
+</ul>
+            <p><small>3 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/43746">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 18 May 2023 01:29:33 +0000</pubDate>
+<pubDate>Thu, 18 May 2023 01:29:33 +0000</pubDate>
+</item>
+
+<item>
 <title>【网站自荐】超级小白新手用Trae编译上线人生的第一个工具站</title>
 <link>https://meta.appinn.net/t/topic/68079</link>
 <guid>https://meta.appinn.net/t/topic/68079</guid>
 <content:encoded><![CDATA[
-
 <p>新手小白不懂代码，用Trae辅助编程、CF&amp;Vercel部署上线；<br />
 人生的第一次，第一个工具站站上线，希望大家能提提意见和支持！</p><aside class="onebox allowlistedgeneric">
   <header class="source">
@@ -40,9 +67,7 @@
             <p><a href="https://meta.appinn.net/t/topic/68079">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 26 Mar 2025 04:13:24 +0000</pubDate>
-<pubDate>Wed, 26 Mar 2025 04:13:24 +0000</pubDate>
 </item>
-
 <item>
 <title>【自荐】Qbin 快捷存储</title>
 <link>https://meta.appinn.net/t/topic/68064</link>
