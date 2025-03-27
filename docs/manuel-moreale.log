@@ -10848,3 +10848,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Ko-Fi Wishlist](https://manuelmoreale.com/ko-fi-wishlist)
 append_entries: 1
 Finish: 2025-03-27 12:06:16.746467
+------------------------------------------------------
+Started: 2025-03-27 14:04:33.108285
+Existing_entries: 628
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-03-27 14:04:34.194171
