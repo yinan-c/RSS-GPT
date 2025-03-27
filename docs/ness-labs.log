@@ -27018,3 +27018,15 @@ Existing_entries: 68
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2025-03-27 10:04:43.441299
+------------------------------------------------------
+Started: 2025-03-27 12:06:13.311115
+Existing_entries: 68
+Fetching from https://nesslabs.com/feed
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Taking Note of Nature: City-Friendly Tiny Experiments to Connect with the Natural World](https://nesslabs.com/taking-note-of-nature?utm_source=rss&utm_medium=rss&utm_campaign=taking-note-of-nature)
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Productive at Work, Paralyzed at Home: What to Do When You’re in a Functional Freeze](https://nesslabs.com/functional-freeze?utm_source=rss&utm_medium=rss&utm_campaign=functional-freeze)
+append_entries: 2
+Finish: 2025-03-27 12:06:14.056795

@@ -10839,3 +10839,12 @@ Existing_entries: 627
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-03-27 10:04:46.230411
+------------------------------------------------------
+Started: 2025-03-27 12:06:15.770565
+Existing_entries: 627
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Ko-Fi Wishlist](https://manuelmoreale.com/ko-fi-wishlist)
+append_entries: 1
+Finish: 2025-03-27 12:06:16.746467

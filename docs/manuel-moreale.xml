@@ -4,6 +4,37 @@
 <title>Manuel Moreale</title>
 <link>https://manuelmoreale.com</link>
 
+<item>
+<title>Ko-Fi Wishlist</title>
+<link>https://manuelmoreale.com/ko-fi-wishlist</link>
+<guid>https://manuelmoreale.com/ko-fi-wishlist</guid>
+<content:encoded><![CDATA[
+
+<p>I’ve been using <a href="https://ko-fi.com/manuelmoreale">Ko-Fi</a> for almost 2 years at this point to run my <a href="https://oneamonth.club/">One a Month</a> experiment and so far it has worked I’d say ok. I like that there is—or at least there was—an option to pay a yearly fixed fee to get access to all the features rather than being tied to a % of what all you kind people out there are donating. I always prefer to pay for the tools I use upfront if I have that option.</p>
+<p>That said, there are three minor annoyances that I’d love to see fixed at some point (even though I don’t have high hopes) and so here’s my Ko-Fi Wishlist.</p>
+<h2>Recurring Goals</h2>
+<p>It’s possible to set up goals on Ko-Fi and display them publicly. Unfortunately, there’s no way to have goals based on recurring donations which is kinda annoying. It’s especially annoying since the value of the recurring donations is displayed in the private dashboard so this is a feature that shouldn’t be too hard to implement.</p>
+<h2>Yearly Memberships</h2>
+<p>Another thing that’s very annoying is the fact that membership can only be monthly. This sucks for me since I run a membership with such a low barrier of entry and on a 1$ donation a huge % gets eaten away by Stripe/Paypal. As an example, Stripe charges a fixed 0.25c plus a % and this is how the math looks like:</p>
+<pre><code>(1$ minus 1.5% minus a fixed 0.25c) times 12 = 7.20$</code></pre>
+<p>So if you donate 1$ every month for a full year, I get 7.20$ while Stripe keeps 4.80$. This is how the same math looks like if you make a single 12$ donation once a year:</p>
+<pre><code>12$ minus 1.5% minus a fixed 0.25c = 9,95$</code></pre>
+<p>You donated the same 12$, but this time I get 9,95$, and Stripe keeps 2.05$. It’s not a huge difference in the grand scheme of things but it adds up quickly. Plus, some people prefer to pay yearly and so it sucks that there’s no option for me to let them do so.</p>
+<h2>Better Notifications</h2>
+<p>From my experience, Ko-Fi kinda sucks at letting people know what’s going on on the platform. I know a bunch of people didn’t even realise their 1$ month membership got cancelled—usually because the card expired or some other glitch—because they didn’t get any notification from Ko-Fi. Now, I don’t know if they landed in the spam folder, if they didn’t arrive at all or if something else happened but still, that’s a bit annoying.</p>
+<p>I track expired/cancelled membership <a href="https://manuelmoreale.com/supporters">on my supporters page</a> and so if you want to make sure you’re still on it that’s one way to do it without relying on Ko-Fi. I might have to set up a better system though because this is currently all done manually.</p>
+<hr />
+<p>And that was it, those were the three items on my Ko-Fi wishlist. Overall I’m happy with the platform and I’m grateful something like this exists. I know alternatives are out there (I used both Donorbox and BuyMeACoffee in the past) but those all have their set of problems as well.</p>                <hr />
+                <p>Thank you for keeping RSS alive. You're awesome.</p>
+                <p><a href="mailto:hello@manuelmoreale.com">Email me</a> ::
+                <a href="https://manuelmoreale.com/guestbook">Sign my guestbook</a> :: 
+                <a href="https://ko-fi.com/manuelmoreale">Support for 1$/month</a> :: 
+                <a href="https://manuelmoreale.com/supporters">See my generous supporters</a> :: 
+                <a href="https://buttondown.email/peopleandblogs">Subscribe to People and Blogs</a></p>
+]]></content:encoded>
+<pubDate>Thu, 27 Mar 2025 11:45:00 +0100</pubDate>
+<pubDate>Thu, 27 Mar 2025 11:45:00 +0100</pubDate>
+</item>
 
 <item>
 <title>The cost of getting too big</title>
