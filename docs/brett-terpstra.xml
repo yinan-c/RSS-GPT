@@ -4,6 +4,112 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>TaskPaper to (GitHub Flavored) Markdown</title>
+<link>https://brett.trpstra.net/link/535/16992848/taskpaper-to-github-flavored-markdown</link>
+<guid>https://brett.trpstra.net/link/535/16992848/taskpaper-to-github-flavored-markdown</guid>
+<content:encoded><![CDATA[
+
+<p>I wrote a pretty basic <a href="https://gist.github.com/ttscoff/511174">script</a> a long time ago that converts TaskPaper files to Markdown for nice previewing/publishing. I recently updated it with a bunch of modernizations.</p>
+
+<p>I originally wrote this script (*goes to check*) &mdash; jebus, <strong><em>fifteen years ago</em></strong>. I guess I&rsquo;ve been doing this stuff for a while now. Anyway, the original gist had <code class="language-plaintext highlighter-rouge">require</code> statements and processor flags that weren&rsquo;t valid anymore, so I decided to fix that.</p>
+
+<p>While I was in there, I added a few tweaks:</p>
+
+<ul>
+  <li>Use GFM-style <code class="language-plaintext highlighter-rouge">- [ ]</code> markers</li>
+  <li>Fix block quote indentation</li>
+  <li>convert @tags to #tags</li>
+  <li>
+     bare URLs 
+
+  </li>
+  <li>Accept input piped on STDIN</li>
+</ul>
+
+<p>The <code class="language-plaintext highlighter-rouge">- [ ]</code> markers mean that when rendered on GitHub (or in Marked with the right settings), the tasks will show up with checkboxes (checked if the line contains <code class="language-plaintext highlighter-rouge">@done</code>).</p>
+
+<p>The ability to accept input on STDIN means you can include the script in a pipeline without having to read/write files. Not something I need to do often, but seemed like an obvious improvement.</p>
+
+<p>The script is a bit kludgy &mdash; I added to it but didn&rsquo;t bother rewriting it, so it
+reflects my Ruby skills 15 years ago. Maybe if I get bored on some
+downtime, I&rsquo;ll take another stab at it, but it works, so I&rsquo;m not
+inclined to put time into that right now. If you feel like rewriting it more
+elegantly, I&rsquo;ll gladly publish your changes 😊.</p>
+
+<p>The other updates are just niceties. Let me know if you have suggestions/questions, either in the Gist comments or <a href="https://forum.brettterpstra.com">on the forum</a>!</p>
+
+<figure class="code">
+<figcaption><span><a class="gist-link" href="https://gist.github.com/511174">tp2md.rb</a></span> <a class="raw-link" href="https://gist.githubusercontent.com/ttscoff/511174/raw/60a76505c44a9f868dbab02d4e40eb055f7ceea8/tp2md.rb">raw</a></figcaption>
+<div class="highlight"><pre><code class="ruby"><span class="line"><span></span><span class="ch">#!/usr/bin/env ruby</span>
+</span><span class="line"><span class="c1"># Usage: tp2md.rb filename.taskpaper &gt; output.md</span>
+</span><span class="line"><span class="c1"># Updated 2025-03-19</span>
+</span><span class="line"><span class="c1"># - Fix block quote indentation</span>
+</span><span class="line"><span class="c1"># - use GFM-style - [ ] markers</span>
+</span><span class="line"><span class="c1"># - convert @tags to #tags</span>
+</span><span class="line"><span class="c1"># - &lt;self-link&gt; bare urls</span>
+</span><span class="line"><span class="c1"># - Accept input piped on STDIN</span>
+</span><span class="line">
+</span><span class="line"><span class="k">if</span><span class="w"> </span><span class="vg">$stdin</span><span class="o">.</span><span class="n">stat</span><span class="o">.</span><span class="n">size</span><span class="o">.</span><span class="n">positive?</span>
+</span><span class="line"><span class="w">  </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">$stdin</span><span class="o">.</span><span class="n">read</span>
+</span><span class="line"><span class="w">  </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;TODO&quot;</span>
+</span><span class="line"><span class="k">else</span>
+</span><span class="line"><span class="w">  </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="no">File</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="no">ARGV</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">)</span>
+</span><span class="line"><span class="w">  </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="no">ARGV</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">,</span><span class="s1">'.taskpaper'</span><span class="p">)</span><span class="o">.</span><span class="n">capitalize</span>
+</span><span class="line"><span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="n">output</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;# </span><span class="si">#{</span><span class="n">title</span><span class="si">}</span><span class="s2"> #</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="n">prevlevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span class="line"><span class="k">begin</span>
+</span><span class="line"><span class="w">    </span><span class="n">input</span><span class="o">.</span><span class="n">each_line</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="o">|</span><span class="n">line</span><span class="o">|</span>
+</span><span class="line"><span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="n">line</span><span class="w"> </span><span class="o">=~</span> <span class="sr">/^(\t*)(.*?):(?:\s*)$/</span>
+</span><span class="line"><span class="w">        </span><span class="n">tabs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">$1</span>
+</span><span class="line"><span class="w">        </span><span class="n">project</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">$2</span>
+</span><span class="line"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="n">tabs</span><span class="o">.</span><span class="n">nil?</span>
+</span><span class="line"><span class="w">          </span><span class="n">output</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">## </span><span class="si">#{</span><span class="n">project</span><span class="si">}</span><span class="s2"> ##</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="w">          </span><span class="n">prevlevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span class="line"><span class="w">        </span><span class="k">else</span>
+</span><span class="line"><span class="w">          </span><span class="n">output</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">#{</span><span class="n">tabs</span><span class="o">.</span><span class="n">gsub</span><span class="p">(</span><span class="sr">/^\t/</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span><span class="si">}</span><span class="s2">* **</span><span class="si">#{</span><span class="n">project</span><span class="si">}</span><span class="s2">**</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="w">          </span><span class="n">prevlevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tabs</span><span class="o">.</span><span class="n">length</span>
+</span><span class="line"><span class="w">        </span><span class="k">end</span>
+</span><span class="line"><span class="w">      </span><span class="k">elsif</span><span class="w"> </span><span class="n">line</span><span class="w"> </span><span class="o">=~</span> <span class="sr">/^(\t+)?\- (.*)$/</span>
+</span><span class="line"><span class="w">        </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">$2</span>
+</span><span class="line"><span class="w">        </span><span class="n">tabs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">$1</span><span class="o">.</span><span class="n">nil?</span><span class="w"> </span><span class="p">?</span><span class="w"> </span><span class="s1">''</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="vg">$1</span>
+</span><span class="line"><span class="w">        </span><span class="n">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=~</span> <span class="sr">/@done/</span><span class="w"> </span><span class="p">?</span><span class="w"> </span><span class="s1">'- [x]'</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s1">'- [ ]'</span>
+</span><span class="line"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="n">tabs</span><span class="o">.</span><span class="n">length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">prevlevel</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span>
+</span><span class="line"><span class="w">          </span><span class="n">tabs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="w">          </span><span class="n">prevlevel</span><span class="o">.</span><span class="n">times</span><span class="w"> </span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span><span class="w"> </span><span class="n">tabs</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">}</span>
+</span><span class="line"><span class="w">        </span><span class="k">end</span>
+</span><span class="line"><span class="w">        </span><span class="n">tabs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">''</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">prevlevel</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">tabs</span><span class="o">.</span><span class="n">length</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span>
+</span><span class="line"><span class="w">        </span><span class="n">output</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">#{</span><span class="n">tabs</span><span class="o">.</span><span class="n">gsub</span><span class="p">(</span><span class="sr">/^\t/</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span><span class="si">}#{</span><span class="n">marker</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">task</span><span class="o">.</span><span class="n">strip</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="n">prevlevel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tabs</span><span class="o">.</span><span class="n">length</span>
+</span><span class="line"><span class="w">      </span><span class="k">else</span>
+</span><span class="line"><span class="w">        </span><span class="k">next</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">line</span><span class="w"> </span><span class="o">=~</span> <span class="sr">/^\s*$/</span>
+</span><span class="line"><span class="w">        </span><span class="n">tabs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="n">prevlevel</span><span class="o">.</span><span class="n">times</span><span class="w"> </span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span><span class="w"> </span><span class="n">tabs</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">}</span>
+</span><span class="line"><span class="w">        </span><span class="n">output</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">#{</span><span class="n">tabs</span><span class="si">}</span><span class="s2">&gt; </span><span class="si">#{</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="w">      </span><span class="k">end</span>
+</span><span class="line"><span class="w">    </span><span class="k">end</span>
+</span><span class="line"><span class="k">rescue</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">err</span>
+</span><span class="line"><span class="w">    </span><span class="nb">puts</span><span class="w"> </span><span class="s2">&quot;Exception: </span><span class="si">#{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class="line"><span class="w">    </span><span class="n">err</span>
+</span><span class="line"><span class="k">end</span>
+</span><span class="line"><span class="n">output</span><span class="o">.</span><span class="n">gsub!</span><span class="p">(</span><span class="sr">/(?mi)(?&lt;!\]\(|\]: )\b((?:[\w-]+?:\/\/)(?:\S+?))(?=[\s\n)]|$)/</span><span class="p">,</span><span class="w"> </span><span class="s1">'&lt;</span><span class="se">\1</span><span class="s1">&gt;'</span><span class="p">)</span>
+</span><span class="line"><span class="nb">puts</span><span class="w"> </span><span class="n">output</span><span class="o">.</span><span class="n">gsub</span><span class="p">(</span><span class="sr">/@(?=\S)/</span><span class="p">,</span><span class="w"> </span><span class="s1">'#'</span><span class="p">)</span>
+</span></code></pre></div>
+</figure>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F27%2Ftaskpaper-to-github-flavored-markdown%2F&amp;text=TaskPaper+to+%28GitHub+Flavored%29+Markdown&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F27%2Ftaskpaper-to-github-flavored-markdown%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16992848.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-03-27T09:20:00-05:00</pubDate>
+<pubDate>2025-03-27T09:20:00-05:00</pubDate>
+</item>
 
 <item>
 <title>KeyBindings: home row arrow cluster</title>
