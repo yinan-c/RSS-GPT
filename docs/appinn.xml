@@ -5,11 +5,50 @@
 <link>https://meta.appinn.net/tag/macos</link>
 
 <item>
+<title>【自荐】Any World Clock，不仅仅为远程工作者定制的世界时钟App</title>
+<link>https://meta.appinn.net/t/topic/68112</link>
+<guid>https://meta.appinn.net/t/topic/68112</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-1" name="p-255037-h-1"></a>软件名称</h2>
+<p>Any World Clock</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-2" name="p-255037-h-2"></a>软件平台</h2>
+<p>macOS</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-3" name="p-255037-h-3"></a>推荐类型</h2>
+<p>开发者自荐</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-4" name="p-255037-h-4"></a>一句话简介</h2>
+<p>Any World Clock是一款macOS的世界时钟App，通过搜索和添加城市，用户可查看任意城市的时间。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-5" name="p-255037-h-5"></a>应用介绍</h2>
+<p>Any World Clock有很多功能，除了可显示当地天气和日出日落时间、调整日期和时间外，还支持为不同地区的人设置工作时间，方便安排远程会议。</p>
+<p><img alt="Any World Clock" height="500" src="https://h1.appinn.me/file/1743044140115_Any%20World%20Clock%202025-03-27%202%402x.png" width="498" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-6" name="p-255037-h-6"></a>完整功能</h2>
+<ul>
+<li>添加城市，并为城市设置昵称、工作时间、图标及颜色</li>
+<li>时间旅行，把当前时间设置到任意时区的任意时间</li>
+<li>显示时钟当地的天气、日出和日落时间等</li>
+<li>根据日出日落时间自动切换时钟到深色模式</li>
+<li>显示当前时间的菜单栏应用</li>
+<li>iCloud同步已添加时钟</li>
+</ul>
+<p>Any World Clock可在<a href="https://apps.apple.com/app/any-world-clock/id6742869474?mt=12" rel="noopener nofollow ugc">Mac App Store</a>免费下载并添加1个时钟，用户可一次性付费¥38，添加不限数量的时钟。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-7" name="p-255037-h-7"></a>截图</h2>
+<p><img alt="CleanShot 2025-03-27 2@2x.png" height="500" src="https://h1.appinn.me/file/1743044328906_CleanShot%202025-03-27%202%402x.png" width="498" /></p>
+<p><img alt="CleanShot 2025-03-27 3@2x.png" height="500" src="https://h1.appinn.me/file/1743044340711_CleanShot%202025-03-27%203%402x.png" width="495" /></p>
+<p><img alt="Any World Clock 2025-03-27 3@2x.png" height="500" src="https://h1.appinn.me/file/1743044391490_Any%20World%20Clock%202025-03-27%203%402x.png" width="559" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-255037-h-8" name="p-255037-h-8"></a>链接</h2>
+<p>Mac App Store: <a class="inline-onebox" href="https://apps.apple.com/us/app/any-world-clock/id6742869474?mt=12" rel="noopener nofollow ugc">‎Any World Clock on the Mac&nbsp;App&nbsp;Store</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/68112">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Thu, 27 Mar 2025 03:16:15 +0000</pubDate>
+<pubDate>Thu, 27 Mar 2025 03:16:15 +0000</pubDate>
+</item>
+
+<item>
 <title>pyme：基于tk的可视化python工具，一键打包成apk</title>
 <link>https://meta.appinn.net/t/topic/68108</link>
 <guid>https://meta.appinn.net/t/topic/68108</guid>
 <content:encoded><![CDATA[
-
 <p>官网：<a href="https://py-me.com" rel="noopener nofollow ugc">https://py-me.com</a><br />
 最开始我想找一款把用python写好已经打包成exe文件转换成apk的工具，后来发现这个，它是一款流程式可视化工具，只需要拖拽框就能完成开发，感觉很不错，大家感兴趣的可以去试试，里面有很多课程上手之后还有一些兼职接单任务。</p>
 <p>                    <a class="onebox" href="https://h1.appinn.me/file/1743040089294_image.png" rel="noopener nofollow ugc" target="_blank">
@@ -41,9 +80,7 @@
             <p><a href="https://meta.appinn.net/t/topic/68108">阅读完整话题</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 27 Mar 2025 02:05:23 +0000</pubDate>
-<pubDate>Thu, 27 Mar 2025 02:05:23 +0000</pubDate>
 </item>
-
 <item>
 <title>Chrome/Vivaldi 浏览器如何关掉剪贴板权限弹窗？clipboard popup</title>
 <link>https://meta.appinn.net/t/topic/43746</link>
