@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>TaskPaper to (GitHub Flavored) Markdown</title>
 <link>https://brett.trpstra.net/link/535/16992848/taskpaper-to-github-flavored-markdown</link>
 <guid>https://brett.trpstra.net/link/535/16992848/taskpaper-to-github-flavored-markdown</guid>
 <content:encoded><![CDATA[
-
 <p>I wrote a pretty basic <a href="https://gist.github.com/ttscoff/511174">script</a> a long time ago that converts TaskPaper files to Markdown for nice previewing/publishing. I recently updated it with a bunch of modernizations.</p>
 
 <p>I originally wrote this script (*goes to check*) &mdash; jebus, <strong><em>fifteen years ago</em></strong>. I guess I&rsquo;ve been doing this stuff for a while now. Anyway, the original gist had <code class="language-plaintext highlighter-rouge">require</code> statements and processor flags that weren&rsquo;t valid anymore, so I decided to fix that.</p>
@@ -108,9 +108,7 @@ elegantly, I&rsquo;ll gladly publish your changes 😊.</p>
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16992848.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-03-27T09:20:00-05:00</pubDate>
-<pubDate>2025-03-27T09:20:00-05:00</pubDate>
 </item>
-
 <item>
 <title>KeyBindings: home row arrow cluster</title>
 <link>https://brett.trpstra.net/link/535/16990575/keybindings-home-row-arrow-cluster</link>
