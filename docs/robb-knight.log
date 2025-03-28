@@ -41168,3 +41168,12 @@ Existing_entries: 431
 Fetching from https://rknight.me/feed.xml
 append_entries: 0
 Finish: 2025-03-28 12:05:50.402189
+------------------------------------------------------
+Started: 2025-03-28 14:03:58.461993
+Existing_entries: 431
+Fetching from https://rknight.me/feed.xml
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [One Line Pen Reviews](https://rknight.me/blog/one-line-pen-reviews/)
+append_entries: 1
+Finish: 2025-03-28 14:04:00.839204
