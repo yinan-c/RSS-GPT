@@ -4,6 +4,247 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>KeyBindings - home row arrow cluster revisited</title>
+<link>https://brett.trpstra.net/link/535/16995067/keybindings-home-row-redux</link>
+<guid>https://brett.trpstra.net/link/535/16995067/keybindings-home-row-redux</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/keyboard-header-pink-rb.7472.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>I recently <a href="https://brettterpstra.com/2025/03/24/keybindings-home-row-arrow-cluster/">published a Karabiner trick</a> that turned
+<span class="keycombo separated" title="Semicolon"><kbd class="key symbol">;</kbd></span> plus <span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="I"><kbd class="key symbol">I</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> into arrow keys. I&rsquo;ve
+determined that my implementation could use some work.
+Here&rsquo;s the redux.</p>
+
+<section class="series instapaper_ignore"><p>More from "KeyBinding"</p><ul class="posts"><li><span class="current">KeyBindings - home row arrow cluster revisited <time datetime="2025-03-30T06:50">2025/03/30</time></span></li><li><a href="https://brettterpstra.com//2025/03/24/keybindings-home-row-arrow-cluster/">KeyBindings: home row arrow cluster <time datetime="2025-03-24T10:00">2025/03/24</time></a></li><li><a href="https://brettterpstra.com//2025/03/23/keybindings-convenient-tab-switching/">KeyBindings: convenient tab switching <time datetime="2025-03-23T11:14">2025/03/23</time></a></li><li><a href="https://brettterpstra.com//2023/12/22/multi-keystroke-keybindings/">Multi-keystroke keybindings <time datetime="2023-12-22T10:54">2023/12/22</time></a></li><li><a href="https://brettterpstra.com//2023/12/21/more-keybindings-text-editing-shortcuts/">More keybindings: Text editing shortcuts <time datetime="2023-12-21T15:57">2023/12/21</time></a></li><li><a href="https://brettterpstra.com//2023/12/19/macos-keybinding-tricks-the-repeat-count-binding/">macOS keybinding tricks: the repeat count binding <time datetime="2023-12-19T15:12">2023/12/19</time></a></li><li><a href="https://brettterpstra.com//2023/12/18/macos-keybinding-tricks-the-kill-ring/">macOS keybinding tricks: The kill ring <time datetime="2023-12-18T13:57">2023/12/18</time></a></li><li><a href="https://brettterpstra.com//2022/02/18/keybindings-cheat-sheet-for-dash/">Keybindings cheat sheet for Dash <time datetime="2022-02-18T06:58">2022/02/18</time></a></li><li><a href="https://brettterpstra.com//2018/08/13/yet-more-new-keybindings-for-macos/">Yet more new keybindings for macOS <time datetime="2018-08-13T12:24">2018/08/13</time></a></li><li><a href="https://brettterpstra.com//2017/11/08/macos-keybindings-for-searchlink/">macOS KeyBindings for SearchLink <time datetime="2017-11-08T13:31">2017/11/08</time></a></li><li><a href="https://brettterpstra.com//2014/08/20/keybindings-that-everyone-should-have/">Keybindings that everyone should have <time datetime="2014-08-20T08:30">2014/08/20</time></a></li><li><a href="https://brettterpstra.com//2013/01/16/restore-save-as-everywhere/">Restore Save as... everywhere <time datetime="2013-01-16T16:00">2013/01/16</time></a></li><li><a href="https://brettterpstra.com//2012/12/08/a-useful-caps-lock-key/">A useful Caps Lock key <time datetime="2012-12-08T13:49">2012/12/08</time></a></li><li><a href="https://brettterpstra.com//2012/04/22/new-text-navigation-keybindings/">New text navigation KeyBindings <time datetime="2012-04-22T12:59">2012/04/22</time></a></li><li><a href="https://brettterpstra.com//2011/12/21/a-little-keybinding-sanity/">A little KeyBinding sanity <time datetime="2011-12-21T20:03">2011/12/21</time></a></li><li><a href="https://brettterpstra.com//2011/12/04/quick-tip-repeat-cocoa-text-actions-emacsvim-style/">Quick Tip: repeat Cocoa text actions, Emacs/Vim style <time datetime="2011-12-04T08:00">2011/12/04</time></a></li><li><a href="https://brettterpstra.com//2011/11/15/keybindings-new-improved-surround-commands/">KeyBindings: new, improved "surround" commands <time datetime="2011-11-15T08:30">2011/11/15</time></a></li><li><a href="https://brettterpstra.com//2011/11/10/the-keys-that-bind-keybinding-madness-part-2/">The keys that bind: KeyBinding Madness part 2 <time datetime="2011-11-10T07:30">2011/11/10</time></a></li><li><a href="https://brettterpstra.com//2011/08/13/keybinding-madness/">KeyBinding madness <time datetime="2011-08-13T11:23">2011/08/13</time></a></li></ul></section>
+
+<p>The original tip used <a href="https://karabiner-elements.pqrs.org/">Karabiner</a> to turn <span class="keycombo separated" title="Semicolon"><kbd class="key symbol">;</kbd></span> into a
+<span class="keycombo separated" title="Function"><kbd class="mod symbol">Fn</kbd></span> key when pressed with other keys, and allowed a
+double tap to add additional functionality. Then the arrow keys were
+assigned with BetterTouchTool. This implementation ended up being a bit
+flaky when it came to switching directions, key repeats, and
+the normal functionality of the semicolon key.</p>
+
+<p>I completely re-implemented this using just Karabiner, which
+is much smoother and solves all of the above issues. The
+only difference in actual usage is that instead of a double
+tap to get <span class="keycombo separated" title="Function-Arrow"><kbd class="mod symbol">Fn</kbd><span class="keycombo combiner">+</span><kbd class="key symbol">arrow</kbd></span> functionality, it uses the
+quote key (to the right of semicolon). The result functions
+perfectly with other modifier keys like <span class="keycombo separated" title="Command"><kbd class="mod symbol">&#8984;</kbd></span>
+<span class="keycombo separated" title="Shift"><kbd class="mod symbol">&#8679;</kbd></span> and <span class="keycombo separated" title="Option"><kbd class="mod symbol">&#8997;</kbd></span> for selections.</p>
+
+<blockquote class="info">
+  <p>All of the snippets in this post are gathered into <a href="https://gist.github.com/ttscoff/e230c0799334eb9b333398741f60d2c1">this gist</a>.</p>
+</blockquote>
+
+<p>To use this setup, you need four new rules in Karabiner. For
+each of the following snippets, go to <strong>Complex
+Modifications</strong>, select <em>Add your own rule</em>, and paste each
+snippet into its own rule.</p>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2025/03/add-your-own-rule.jpg" /></p>
+
+<blockquote class="tip">
+  <p>Obviously with a tiny bit of editing you can make any of these
+function with Vim-style <span class="keycombo separated" title="H"><kbd class="key symbol">H</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> keys.</p>
+</blockquote>
+
+<p>First, we make the <span class="keycombo separated" title="Semicolon"><kbd class="key symbol">;</kbd></span> function as
+Left-<span class="keycombo separated" title="Function-Command"><kbd class="mod symbol">Fn</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8984;</kbd></span> when pressed with other keys,
+posting <span class="keycombo separated" title="Semicolon"><kbd class="key symbol">;</kbd></span> as usual when pressed and released alone.</p>
+
+<figure class="code">
+<figcaption><span><a class="gist-link" href="https://gist.github.com/e230c0799334eb9b333398741f60d2c1">semicolon-to-left-cmd-fn.json</a></span> <a class="raw-link" href="https://gist.githubusercontent.com/ttscoff/e230c0799334eb9b333398741f60d2c1/raw/58a111b5069d0c1a464e17d42b5807059cc64bff/semicolon-to-left-cmd-fn.json">raw</a></figcaption>
+<div class="highlight"><pre><code class="json"><span class="line"><span></span><span class="p">{</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Change ; to Left_command + Fn if pressed with other keys (Post ; when pressed alone)&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;manipulators&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;semicolon&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="line"><span class="w">                </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;left_command&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to_if_alone&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;semicolon&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">}</span>
+</span><span class="line"><span class="w">    </span><span class="p">]</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></div>
+</figure>
+
+<p>Next, we make the <span class="keycombo separated" title="Single Quote"><kbd class="key symbol">'</kbd></span> key function as
+Right-<span class="keycombo separated" title="Function-Command"><kbd class="mod symbol">Fn</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8984;</kbd></span> when held with other keys,
+posting <span class="keycombo separated" title="Single Quote"><kbd class="key symbol">'</kbd></span> when pressed alone.</p>
+
+<figure class="code">
+<figcaption><span><a class="gist-link" href="https://gist.github.com/e230c0799334eb9b333398741f60d2c1">quote-to-right-cmd-fn.json</a></span> <a class="raw-link" href="https://gist.githubusercontent.com/ttscoff/e230c0799334eb9b333398741f60d2c1/raw/86670e4c6d0405189915810aac45460891ed9db2/quote-to-right-cmd-fn.json">raw</a></figcaption>
+<div class="highlight"><pre><code class="json"><span class="line"><span></span><span class="p">{</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Change ' to Right_command + Fn if pressed with other keys (Post ' when pressed alone)&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;manipulators&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quote&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="line"><span class="w">                </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;right_command&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to_if_alone&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quote&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">}</span>
+</span><span class="line"><span class="w">    </span><span class="p">]</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></div>
+</figure>
+
+<p>Now we assign our <span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="I"><kbd class="key symbol">I</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> keys to
+<span class="keycombo separated" title="Left Arrow Key"><kbd class="key symbol">&#8592;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Up Arrow Key"><kbd class="key symbol">&#8593;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Down Arrow Key"><kbd class="key symbol">&#8595;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Right Arrow Key"><kbd class="key symbol">&#8594;</kbd></span> when pressed along
+with the <span class="keycombo separated" title="Semicolon"><kbd class="key symbol">;</kbd></span> key (which is now Left-<span class="keycombo separated" title="Function-Command"><kbd class="mod symbol">Fn</kbd><span class="keycombo combiner">+</span><kbd class="mod symbol">&#8984;</kbd></span>).</p>
+
+<blockquote class="tip">
+  <p>To make this into <span class="keycombo separated" title="H"><kbd class="key symbol">H</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> navigation, change the
+<code class="language-plaintext highlighter-rouge">"key_code": "k"</code> lines to h, j, k, and l, in that order.</p>
+</blockquote>
+
+<figure class="code">
+<figcaption><span><a class="gist-link" href="https://gist.github.com/e230c0799334eb9b333398741f60d2c1">left-cmd-fn-jkil-to-arrow.json</a></span> <a class="raw-link" href="https://gist.githubusercontent.com/ttscoff/e230c0799334eb9b333398741f60d2c1/raw/8be1ef01f39d1db568b33c817223bdb150351fd0/left-cmd-fn-jkil-to-arrow.json">raw</a></figcaption>
+<div class="highlight"><pre><code class="json"><span class="line"><span></span><span class="p">{</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Change Left_command + Fn + J/K/I/L to Arrow Keys&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;manipulators&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;j&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;left_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;left_arrow&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">},</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;k&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;left_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;down_arrow&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">},</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;i&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;left_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;up_arrow&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">},</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;l&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;left_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;right_arrow&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">}</span>
+</span><span class="line"><span class="w">    </span><span class="p">]</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></div>
+</figure>
+
+<p>And lastly, we assign <span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="I"><kbd class="key symbol">I</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> keys to
+<span class="keycombo separated" title="Home Key"><kbd class="key symbol">&#8598;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Page Up Key"><kbd class="key symbol">&#8670;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Page Down Key"><kbd class="key symbol">&#8671;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="End Key"><kbd class="key symbol">&#8600;</kbd></span> when pressed along
+with the <span class="keycombo separated" title="Single Quote"><kbd class="key symbol">'</kbd></span> key.</p>
+
+<figure class="code">
+<figcaption><span><a class="gist-link" href="https://gist.github.com/e230c0799334eb9b333398741f60d2c1">right-cmd-fn-jkil-to-fn-arrow.json</a></span> <a class="raw-link" href="https://gist.githubusercontent.com/ttscoff/e230c0799334eb9b333398741f60d2c1/raw/a2c36224a3ccc65fad4b87c084a0847565d586cd/right-cmd-fn-jkil-to-fn-arrow.json">raw</a></figcaption>
+<div class="highlight"><pre><code class="json"><span class="line"><span></span><span class="p">{</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Change Right_command + Fn + J/K/I/L to Home / Page Down / Page Up / End&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">    </span><span class="nt">&quot;manipulators&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;j&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;right_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;home&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">},</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;k&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;right_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;page_down&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">},</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;i&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;right_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;page_up&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">},</span>
+</span><span class="line"><span class="w">        </span><span class="p">{</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;l&quot;</span><span class="p">,</span>
+</span><span class="line"><span class="w">                </span><span class="nt">&quot;modifiers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;mandatory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;right_command&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fn&quot;</span><span class="p">],</span>
+</span><span class="line"><span class="w">                    </span><span class="nt">&quot;optional&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;any&quot;</span><span class="p">]</span>
+</span><span class="line"><span class="w">                </span><span class="p">}</span>
+</span><span class="line"><span class="w">            </span><span class="p">},</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">&quot;key_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;end&quot;</span><span class="w"> </span><span class="p">}],</span>
+</span><span class="line"><span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;basic&quot;</span>
+</span><span class="line"><span class="w">        </span><span class="p">}</span>
+</span><span class="line"><span class="w">    </span><span class="p">]</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></div>
+</figure>
+
+<p>Now you can hold down <span class="keycombo separated" title="Semicolon"><kbd class="key symbol">;</kbd></span> and use
+<span class="keycombo separated" title="J"><kbd class="key symbol">J</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="I"><kbd class="key symbol">I</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="K"><kbd class="key symbol">K</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="L"><kbd class="key symbol">L</kbd></span> as arrow keys, and key repeat,
+switching between directions, and modifier-based selections
+will all work smoothly. Hold down <span class="keycombo separated" title="Single Quote"><kbd class="key symbol">'</kbd></span> and use the
+same keys to navigate with <span class="keycombo separated" title="Home Key"><kbd class="key symbol">&#8598;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Page Up Key"><kbd class="key symbol">&#8670;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="Page Down Key"><kbd class="key symbol">&#8671;</kbd></span><span class="keycombo separator">/</span><span class="keycombo separated" title="End Key"><kbd class="key symbol">&#8600;</kbd></span>.
+Enjoy!</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F30%2Fkeybindings-home-row-redux%2F&amp;text=KeyBindings+-+home+row+arrow+cluster+revisited&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F03%2F30%2Fkeybindings-home-row-redux%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16995067.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-03-30T06:50:00-05:00</pubDate>
+<pubDate>2025-03-30T06:50:00-05:00</pubDate>
+</item>
 
 <item>
 <title>TaskPaper to (GitHub Flavored) Markdown</title>
