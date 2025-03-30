@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>KeyBindings - home row arrow cluster revisited</title>
 <link>https://brett.trpstra.net/link/535/16995067/keybindings-home-row-redux</link>
 <guid>https://brett.trpstra.net/link/535/16995067/keybindings-home-row-redux</guid>
 <content:encoded><![CDATA[
-
 <p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/03/keyboard-header-pink-rb.7472.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
 
 <p>I recently <a href="https://brettterpstra.com/2025/03/24/keybindings-home-row-arrow-cluster/">published a Karabiner trick</a> that turned
@@ -243,9 +243,7 @@ Enjoy!</p>
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16995067.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-03-30T06:50:00-05:00</pubDate>
-<pubDate>2025-03-30T06:50:00-05:00</pubDate>
 </item>
-
 <item>
 <title>TaskPaper to (GitHub Flavored) Markdown</title>
 <link>https://brett.trpstra.net/link/535/16992848/taskpaper-to-github-flavored-markdown</link>
