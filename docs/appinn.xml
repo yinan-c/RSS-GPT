@@ -4,6 +4,78 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>【自荐】图床图片上传工具-图传</title>
+<link>https://meta.appinn.net/t/topic/69024</link>
+<guid>https://meta.appinn.net/t/topic/69024</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-1" name="p-256433-h-1"></a>软件名称</h2>
+<p>图床图片上传工具-<strong>图传</strong></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-2" name="p-256433-h-2"></a>应用平台</h2>
+<ul>
+<li>MacOS</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-3" name="p-256433-h-3"></a>推荐类型</h2>
+<p>【开发者自荐】</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-4" name="p-256433-h-4"></a>一句简介</h2>
+<p><a href="https://file.ichochy.com/iUploader.zip" rel="noopener nofollow ugc"><code>图传</code></a>可以将本地的图片上传到云空间，通过<code>图传</code> 软件可以方便的管理上传的资源，进行查看、分享和管理。同时支持多图库的展示管理。</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-5" name="p-256433-h-5"></a>应用简介</h2>
+<p>在 <code>AI</code> 的加持下，再次开发这个图床图片上传工具。爆肝数日，基本完成这个软件现有功能。实现了图片资源的上传、分享、和管理等功能。</p>
+<p>是一款为 <code>macOS</code> 打造的原生软件，使用swiftUI开发，支持系统版本为 <code>14+</code>，现已经支持多个图床上传，后续会慢慢完善软件，追加更多所需的图床上传。</p>
+<p>现已支持 <a href="https://cloudflare.com/" rel="noopener nofollow ugc">Cloudflare R2</a>、<a href="https://github.com/" rel="noopener nofollow ugc">GitHub</a>、还用<a href="https://www.upyun.com/league" rel="noopener nofollow ugc">又拍云</a></p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-256433-h-6" name="p-256433-h-6"></a>功能介绍</h3>
+<ul>
+<li>多图拖拽上传</li>
+<li>菜单栏导入上传</li>
+<li>上传进度查看</li>
+<li>图片本地压缩</li>
+<li>多格式地址分享</li>
+<li>多种图片模式展示</li>
+<li>添加了多语言支持</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-7" name="p-256433-h-7"></a>截图预览：</h2>
+<p><img alt="IMG_3047.jpeg" height="500" src="https://h1.appinn.me/file/1743328039636_IMG_3047.jpeg" width="597" /></p>
+<p><img alt="IMG_3046.jpeg" height="500" src="https://h1.appinn.me/file/1743328038558_IMG_3046.jpeg" width="597" /></p>
+<p><img alt="IMG_3048.jpeg" height="500" src="https://h1.appinn.me/file/1743328031355_IMG_3048.jpeg" width="662" /></p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-256433-h-8" name="p-256433-h-8"></a>官方博客</h2>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img class="site-icon" height="311" src="https://ichochy.com/favicon.png" width="311" />
+
+      <a href="https://ichochy.com/posts/app/20250325.html" rel="noopener nofollow ugc" target="_blank">ichochy.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://ichochy.com/posts/app/20250325.html" rel="noopener nofollow ugc" target="_blank">图床图片上传工具-图传 · 回忆中的明天</a></h3>
+
+  <p>时隔多年，又重新出发，从零开始，在 AI 的加持下，再次开发这个图床图片上传工具。爆肝数日，基本完成这个软件现有功能。实现了图片资源的上传、分享、和管理等功能。</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both;"></div>
+</aside>
+
+<h3><a class="anchor" href="https://meta.appinn.net#p-256433-h-9" name="p-256433-h-9"></a>安装</h3>
+<p>由于没有<code>开发者账号</code>，安装第一次打开时，系统会<strong>提示警告</strong>，可在<strong>隐私与安全性</strong>中<code>任要打开</code> <strong>图传</strong>软件</p>
+<p><img alt="IMG_3053.jpeg" height="500" src="https://h1.appinn.me/file/1743328359145_IMG_3053.jpeg" width="578" /></p>
+<h3><a class="anchor" href="https://meta.appinn.net#p-256433-h-10" name="p-256433-h-10"></a>下载</h3>
+<p>图传（iUploader）下载：<br />
+<a href="https://file.ichochy.com/iUploader.zip" rel="noopener nofollow ugc">https://file.ichochy.com/iUploader.zip</a></p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/69024">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 30 Mar 2025 11:51:20 +0000</pubDate>
+<pubDate>Sun, 30 Mar 2025 11:51:20 +0000</pubDate>
+</item>
 
 <item>
 <title>自用浏览器优点痛点特点备忘录</title>
