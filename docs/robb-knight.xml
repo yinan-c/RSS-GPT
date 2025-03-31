@@ -4,6 +4,42 @@
 <title>Robb Knight • Posts • Atom Feed</title>
 <link>https://rknight.me/subscribe/posts/atom.xml</link>
 
+<item>
+<title>Hack Pompey: Portal Kombat</title>
+<link>https://rknight.me/blog/hack-pompey-portal-kombat/</link>
+<guid>https://rknight.me/blog/hack-pompey-portal-kombat/</guid>
+<content:encoded><![CDATA[
+
+<p>On Saturday I attended <a href="https://hackpompey.co.uk">Hack Pompey</a> which was in collaboration with <a href="https://portsmouth-port.co.uk/about-us/sustainability/sea-change/">Sea Change</a> this year:</p>
+<blockquote>
+<p>The Sea Change project will design, build and operate a ‘shore power’ system across the three busiest berths at Portsmouth International Port.</p>
+</blockquote>
+<p>Sea Change provided some data about port movements, carbon levels, and related things for attendees to use for their projects. They released it a few days beforehand and I was able to have a poke around and work out an idea. <a href="https://portkom.rknight.me">Portal Kombat</a>, which is legally distinct from Top Trumps.</p>
+<p>Each card has data about the ship like size, length, weight, as well as number of visits and time spent in the port. It works just like Top Trumps: pick the stat you think will beat the other card and if you win, you get a point. In the case of Portal Kombat, you can see the name of the ship and the country of origin before guessing.</p>
+<p><img alt="The Portal Kombat website showing two ships on different cards as well as a scoreboard" src="https://cdn.rknight.me/site/2025/portal-kombat.jpg" /></p>
+<p>I was able to get images for all the ships from <a href="https://www.vesselfinder.com/vessels/details/9201750">Vessel Finder</a> thanks to their excellent URL design: <code>/vessels/details/ID</code> where <code>ID</code> is the reference number of the vessel.</p>
+<p>While coming up with the name for the project I also came up with the phrase &quot;Yacht or Not&quot;<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> and I wanted to make use of it. So after every three points earned, you can play a round of Yacht or Not: based only on the name, guess if it's a yacht or not. The list came from <a href="https://www.vesselfinder.com/ports/GBGOS001">Vessel Finder's port lookup</a> where I looked at Gosport marina and grabbed the vessel names.</p>
+<p><img alt="Yacht or Not asking if Vulcan Spirit is a yacht or not" src="https://cdn.rknight.me/site/2025/yacht-or-not.jpg" /></p>
+<p>One update I have made since saturday is that &quot;time in port&quot; requires you to get a <em>lower</em> score to win, not a higher one because the boats are usually on diesel to keep everything running even when docked - something Sea Change are trying to fix.</p>
+<p>As with most hackathon projects, there's more I could do but I probably won't but if I change my mind:</p>
+<ul>
+<li>Highlight which stat someone picked</li>
+<li>Sound effects</li>
+<li>Store previous games in local storage</li>
+<li>Focus on carbon emissions when that is selected</li>
+</ul>
+<p>The day ran smoothly as usual and I'm looking forward to the next one.</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li class="footnote-item" id="fn1"><p>For the youths, &quot;hot or not&quot; was a website once <a class="footnote-backref" href="#fnref1">&#10558;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+
+<pubDate>2025-03-31T11:21:32Z</pubDate>
+</item>
 
 <item>
 <title>One Line Pen Reviews</title>
