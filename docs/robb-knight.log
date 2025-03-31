@@ -41390,3 +41390,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Hack Pompey: Portal Kombat](https://rknight.me/blog/hack-pompey-portal-kombat/)
 append_entries: 1
 Finish: 2025-03-31 12:05:55.393004
+------------------------------------------------------
+Started: 2025-03-31 14:04:04.575267
+Existing_entries: 433
+Fetching from https://rknight.me/feed.xml
+append_entries: 0
+Finish: 2025-03-31 14:04:05.809155
