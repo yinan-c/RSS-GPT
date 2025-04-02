@@ -4,6 +4,210 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>SearchLink with URL Previews!</title>
+<link>https://brett.trpstra.net/link/535/16997221/searchlink-with-url-previews</link>
+<guid>https://brett.trpstra.net/link/535/16997221/searchlink-with-url-previews</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/popup-search-rb.7472.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>I&rsquo;ve published a few updates to SearchLink since we last talked, some bigger than others. Here&rsquo;s a rundown of what&rsquo;s new.</p>
+
+<h3 id="url-shortening">URL Shortening</h3>
+
+<p><img src="https://cdn3.brettterpstra.com/uploads/2023/01/searchlink-text-short-400.jpg" /></p>
+<p>First, I added more built-in URL shortening. In addition to Bit.ly shortening, you can now use is.gd or TinyUrl. Bit.ly and TinyURL require an API key, so see the configuration for details on that. The is.gd shortener doesn&rsquo;t require any configuration and might be the obvious choice if you don&rsquo;t need analytics or other features.</p>
+
+<p>The new searches include <code class="language-plaintext highlighter-rouge">!tiny</code> and <code class="language-plaintext highlighter-rouge">!isgd</code>, to which you can pass a long url, or you can pass search terms and just have the result shortened. It sure would be nice if you could verify the URL before it was shortened and unrecognizable, though, right? Keep reading.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>bang keyword</th>
+      <th>shortener</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>!bl / !bitly</td>
+      <td>Bit.ly</td>
+    </tr>
+    <tr>
+      <td>!isgd</td>
+      <td>is.gd</td>
+    </tr>
+    <tr>
+      <td>!tiny</td>
+      <td>TinyURL</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In addition to the url shortener bang searches, you can also shorten <em>any</em> result by appending an underscore and a letter (<code class="language-plaintext highlighter-rouge">b</code>, <code class="language-plaintext highlighter-rouge">i</code>, or <code class="language-plaintext highlighter-rouge">t</code>), for example, <code class="language-plaintext highlighter-rouge">!a_i otherworld m4</code> would search Amazon and then shorten the resulting URL with is.gd. It&rsquo;s probably more useful to intentionally shorten results, but as you&rsquo;ll see below, you can confirm a search result and shorten it all in one step now.</p>
+
+<blockquote class="info">
+  <p>By the way, if you use Bit.ly shortening with an Amazon search, it will create an <code class="language-plaintext highlighter-rouge">amzn.to</code> URL for you instead of a Bit.ly URL. This is apparently just a thing Bit.ly does. I&rsquo;ve tried to figure out how to create those for a long time, and then <em>boom</em>, it just happened for me.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>bang modifier</th>
+      <th>shortener</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>!a_b</td>
+      <td>Amazon → Bit.ly (amzn.to/3FLCC78)</td>
+    </tr>
+    <tr>
+      <td>!g_i</td>
+      <td>Google → is.gd (bit.ly/3uEzRKE)</td>
+    </tr>
+    <tr>
+      <td>!popw_t</td>
+      <td>Popup Wikipedia → TinyURL (tinyurl.ph/jkRkV)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="setapp-searches">Setapp Searches</h3>
+
+<p><a href="https://go.setapp.com/stp44?utm_medium=vendor_program&amp;utm_source=Brett+Terpstra&amp;utm_content=link">Setapp</a> searching originally started as a [plugin], but I decided to build it into the default search set. Using <code class="language-plaintext highlighter-rouge">!set</code> with an app name will give you the Setapp URL for that app. You can <a href="https://github.com/ttscoff/searchlink/wiki/Configuration">configure</a> an affiliate string that will be appended to any Setapp URL automatically.</p>
+
+<p>If the app name passed doesn&rsquo;t match a valid Setapp URL, a few permutations of the search term are attempted, e.g. removing version numbers (&ldquo;Marked 2&rdquo; =&gt; &ldquo;Marked&rdquo;, &ldquo;CleanShot X&rdquo; =&gt; &ldquo;CleanShot&rdquo;) and adjusting spacing.</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">!set_b</code> or <code class="language-plaintext highlighter-rouge">!set_i</code> to shorten the resulting URLs.</p>
+
+<h3 id="query-parameters">Query Parameters</h3>
+
+<p>With a lot of <a href="https://github.com/ttscoff/searchlink/wiki/Custom-Searches">custom searches</a>, you might want to apply query parameters such as Google Analytics tracking information or <code class="language-plaintext highlighter-rouge">ref=</code>. This would be most useful on custom searches that link to your own sites, for gathering tracking and other information. Now you can add <code class="language-plaintext highlighter-rouge">?key=value</code> arguments to a custom search (or any search, really).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight fixed"><code>bt: brettterpstra.com ++v ?ref=searchlink</code></pre></div></div>
+
+<p>You can use multiple <code class="language-plaintext highlighter-rouge">?key=value</code> arguments on a search &mdash; as many as you need. When running a search, you can add additional queries, or you can override the default settings by just offering a different value, e.g. <code class="language-plaintext highlighter-rouge">!bt searchlink ?ref=mastodon</code>.</p>
+
+<h3 id="popup-searches">Popup Searches</h3>
+
+<p>The whole point of SearchLink is to avoid switching to your browser when adding links to a post, show notes, etc. But sometimes you need a browser to refine a search or verify that the link is going where you want it to go. So I added Popup Searches.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 64.58%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/04/popup-search.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/popup-search.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/popup-search.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>Popup Searches load an Automator web preview with a search engine. You can enter search terms and follow links. Once the link you desire is loaded in the popup browser, hitting &ldquo;Ok&rdquo; will insert that link into your text.</p>
+
+<p>The built in engines include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>bang keyword</th>
+      <th>search engine</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>!pop</td>
+      <td>DuckDuckGo</td>
+    </tr>
+    <tr>
+      <td>!popa</td>
+      <td>Amazon</td>
+    </tr>
+    <tr>
+      <td>!popg</td>
+      <td>Google</td>
+    </tr>
+    <tr>
+      <td>!popw</td>
+      <td>WikiPedia</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you include a search term with any of these keywords, the search engine will be pre-populated with the search and you can just select the result you want. You can always alter the search from within the popup browser.</p>
+
+<p>The Popup Searches require the <strong>Preview URL</strong> Service, which is now included in the distribution. If you&rsquo;re running from the command line, it will be automatically included in the Gem library, but if you are, like most people, using SearchLink as a Service, you&rsquo;ll need to install the Preview URL Service found inside the downloaded SearchLink archive.</p>
+
+<p>Popup Searches work with the <code class="language-plaintext highlighter-rouge">_b</code> type shorteners as well.</p>
+
+<h3 id="confirming-and-previewing-results">Confirming and Previewing Results</h3>
+
+<p>Especially in cases where you&rsquo;re running a URL shortener, it&rsquo;s really nice to be able to view and confirm the search result before the link is shortened, as once it&rsquo;s shortened the only way to verify it goes to the right place is to open it, defeating the purpose of SearchLink. So I added confirmation dialogs.</p>
+
+<p>If you&rsquo;re running a shortener, either from a <code class="language-plaintext highlighter-rouge">!isgd</code> type bang search, or with the <code class="language-plaintext highlighter-rouge">_i</code> type modifier, a confirmation will be required before the link is shortened. If you have the Preview URL Service installed, the confirmation dialog will have an additional &ldquo;Preview&rdquo; button, which will load the search result in the popup browser. If you select &ldquo;OK&rdquo; from the popup browser, the URL will be used unchanged. If you follow a link in the popup browser, when you hit &ldquo;OK,&rdquo; the new URL you navigated to will be used instead.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 64.58%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/04/shorten-preview.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/shorten-preview.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/shorten-preview.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>If the Preview URL Service isn&rsquo;t installed, you&rsquo;ll just get a dialog with &ldquo;OK&rdquo; and &ldquo;Cancel&rdquo; buttons.</p>
+
+<p>What this means for the URL shorteners is that you can actually see the URL, preview it, and even modify it before the shortening happens. Any search run with a URL shortener will automatically go through this confirmation process.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 64.58%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/04/shorten-confirm.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/shorten-confirm.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/shorten-confirm.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>You can force this type of confirmation on all search results by adding <code class="language-plaintext highlighter-rouge">confirm: true</code> to your <a href="https://github.com/ttscoff/searchlink/wiki/Configuration">configuration</a>. But if you just want to confirm certain searches, you can use the <code class="language-plaintext highlighter-rouge">--confirm</code> flag on the search (or custom search configuration). This can be shortened to just <code class="language-plaintext highlighter-rouge">++c</code>, or if you have confirmation enabled for all links, you can avoid it on a specific link or custom search by using <code class="language-plaintext highlighter-rouge">--c</code> or <code class="language-plaintext highlighter-rouge">--no-confirm</code>.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 64.58%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/04/confirm.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/confirm.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/confirm.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<h3 id="image-searching">Image Searching</h3>
+
+<p>SearchLink already had some image search plugins, but most of them were broken and I hadn&rsquo;t realized it. You can once again use <code class="language-plaintext highlighter-rouge">!img search term</code> to get the first result for an image search, inserting a Markdown <code class="language-plaintext highlighter-rouge">![alt](image.jpg)</code> link.</p>
+
+<figure class="animated_vid_frame" style="padding-bottom: 64.58%;" tabindex="0" title="">
+              <video class="lazy" loop="" poster="https://cdn3.brettterpstra.com/uploads/2025/04/img-search.jpg">
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/img-search.webm" type="video/webm" />
+                <source src="https://cdn3.brettterpstra.com/uploads/2025/04/img-search.mp4" type="video/mp4" />
+              </video>
+            </figure>
+
+<p>If the end result from a Popup Search happens to be a recognizable image format, then the link output will automatically be formatted as an image instead of a regular link.</p>
+
+<h3 id="goodbye-jump-to-error">Goodbye, Jump to Error</h3>
+
+<p>The <strong>Jump to SearchLink Error</strong> Service has been removed for now. It wasn&rsquo;t functioning properly and in the process of fixing it I found that sending keystrokes from a Service had grown significantly more difficult. I&rsquo;m still working on a means to implement this. In reality I hardly ever use it anyway, so it&rsquo;s not top on my priority list.</p>
+
+<h3 id="new-plugins">New Plugins</h3>
+
+<p>Also be sure to check out the newest <a href="https://github.com/ttscoff/searchlink-plugins">plugins</a>, including some for shortening Amazon URLs and expanding shortened URLs using <a href="https://stretchlink.cc">StretchLink</a>. I&rsquo;ve only received a couple contributions of user plugins, so if you do make one, please share!</p>
+
+<p>That&rsquo;s the latest and greatest. As I say all the time, of all my creations, I consider SearchLink one  of the most useful in my day-to-day life. From whipping up podcast show notes to writing a post like this one, the ability to include links and attributions without switching to my browser is a real boon.</p>
+
+<p>Download below (includes the Preview URL Service), and check out the <a href="https://brettterpstra.com/projects/searchlink">SearchLink project</a> and <a href="https://github.com/ttscoff/searchlink/wiki">wiki</a> for details and documentation!</p>
+
+<div class="download" id="dlbox"><h4>SearchLink v2.3.88</h4><p class="dl-icon"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.88"></a></p><div class="dl-body"><p class="dl-link"><a href="https://github.com/ttscoff/searchlink/releases/latest/download/SearchLink.zip" title="Download SearchLink v2.3.88">Download SearchLink v2.3.88</a></p><p class="dl-description">Generate Markdown links from web searches without leaving your editor.</p><p class="dl-published">Published 11/10/14.</p><p class="dl-updated">Updated 04/02/25. <a class="changelog" href="https://brettterpstra.com/projects/searchlink/#changelog">Changelog</a></p><p class="dl-info"><a href="https://brettterpstra.com//donate/">Donate</a> &bull; <a href="https://brettterpstra.com//projects/searchlink/" title="More information on SearchLink">More info&hellip;</a></p></div></div>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F02%2Fsearchlink-with-url-previews%2F&amp;text=SearchLink+with+URL+Previews%21&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F02%2Fsearchlink-with-url-previews%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16997221.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-04-02T08:52:00-05:00</pubDate>
+<pubDate>2025-04-02T08:52:00-05:00</pubDate>
+</item>
 
 <item>
 <title>KeyBindings - home row arrow cluster revisited</title>
