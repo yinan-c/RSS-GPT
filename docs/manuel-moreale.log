@@ -11352,3 +11352,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [Online counterculture](https://manuelmoreale.com/online-counterculture)
 append_entries: 1
 Finish: 2025-04-03 18:05:46.969955
+------------------------------------------------------
+Started: 2025-04-03 20:04:33.412694
+Existing_entries: 630
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-04-03 20:04:34.274519
