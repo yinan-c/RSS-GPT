@@ -11343,3 +11343,12 @@ Existing_entries: 629
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-04-03 16:04:55.178723
+------------------------------------------------------
+Started: 2025-04-03 18:05:41.053536
+Existing_entries: 629
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [Online counterculture](https://manuelmoreale.com/online-counterculture)
+append_entries: 1
+Finish: 2025-04-03 18:05:46.969955
