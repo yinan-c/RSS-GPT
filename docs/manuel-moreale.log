@@ -11409,3 +11409,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [P&B: Matt Webb](https://manuelmoreale.com/pb-matt-webb)
 append_entries: 1
 Finish: 2025-04-04 12:06:34.360532
+------------------------------------------------------
+Started: 2025-04-04 14:04:29.887397
+Existing_entries: 631
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-04-04 14:04:31.013736
