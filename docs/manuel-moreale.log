@@ -11400,3 +11400,12 @@ Existing_entries: 630
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-04-04 10:04:48.052668
+------------------------------------------------------
+Started: 2025-04-04 12:06:32.845466
+Existing_entries: 630
+Fetching from https://manuelmoreale.com/feed/rss
+Summarization failed, append the original article
+error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Current cost: 25.40871999999999, Max budget: 25.0', 'type': 'budget_exceeded', 'param': None, 'code': '400'}}
+Append: [P&B: Matt Webb](https://manuelmoreale.com/pb-matt-webb)
+append_entries: 1
+Finish: 2025-04-04 12:06:34.360532
