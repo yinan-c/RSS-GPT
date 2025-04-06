@@ -4,12 +4,12 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+
 <item>
 <title>Markdown Lipsum API v3</title>
 <link>https://brett.trpstra.net/link/535/16999720/markdown-lipsum-api-v3</link>
 <guid>https://brett.trpstra.net/link/535/16999720/markdown-lipsum-api-v3</guid>
 <content:encoded><![CDATA[
-
 <p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/md-lipsum-rb.7473.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
 
 <p>I&rsquo;ve published an entirely reworked version of my <a href="https://brettterpstra.com/md-lipsum/">Markdown Lorem Ipsum API</a>. It&rsquo;s a fix, but also a major improvement.</p>
@@ -39,9 +39,7 @@
         else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16999720.gif" width="1" />
 ]]></content:encoded>
 <pubDate>2025-04-05T14:38:00-05:00</pubDate>
-<pubDate>2025-04-05T14:38:00-05:00</pubDate>
 </item>
-
 <item>
 <title>SearchLink with URL Previews!</title>
 <link>https://brett.trpstra.net/link/535/16997221/searchlink-with-url-previews</link>
