@@ -11562,3 +11562,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [A moment with long shadows](https://manuelmoreale.com/a-moment-with-long-shadows)
 append_entries: 1
 Finish: 2025-04-06 14:03:24.150116
+------------------------------------------------------
+Started: 2025-04-06 16:04:24.162609
+Existing_entries: 632
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-04-06 16:04:25.026611
