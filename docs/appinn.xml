@@ -4,6 +4,35 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>有什么web端的用于专门在图片上P上文字的软件</title>
+<link>https://meta.appinn.net/t/topic/69788</link>
+<guid>https://meta.appinn.net/t/topic/69788</guid>
+<content:encoded><![CDATA[
+
+<h2><a class="anchor" href="https://meta.appinn.net#p-257836-h-1" name="p-257836-h-1"></a>功能需求</h2>
+<p>求软件。我有时需要<span class="bbcode-u"><strong>给照片加上一些文字注解</strong></span><br />
+需求也很简单，就是方便地给图片P上如下图这些样子的文字<br />
+<img alt="p图加字2.png" height="385" src="https://h1.appinn.me/file/1743913347657_p%E5%9B%BE%E5%8A%A0%E5%AD%972.png" width="632" /></p>
+<p>具体描述P字的功能需求如下：</p>
+<ul>
+<li>文字阴影、文字描边</li>
+<li>文字区域背景颜色（背景区域大小可控）</li>
+<li>当然，还有位置、字形、粗细、大小、旋转角度这些最基本的需求</li>
+</ul>
+<h2><a class="anchor" href="https://meta.appinn.net#p-257836-p-2" name="p-257836-p-2"></a>为什么不用现有P图软件</h2>
+<p>专业P图软件有太多图画相关的功能，反而不方便。我的需求是<span class="bbcode-u"><strong>方便</strong></span>地<span class="bbcode-u"><strong>添加</strong></span>和<em><strong>修改</strong></em>文字，并且修改文字内容后不需要重新设置阴影、描边、旋转角度等。</p>
+<p>比如我现在一直都用的GIMP,它需要把文本转换成图形才能加阴影（描边），所以你一旦要修改文本内容，就要丢弃图形转换回文本，改完文本后就要重新设置一次阴影、旋转角度等，太麻烦</p>
+<p>所以，最好是专用于搞<span class="bbcode-u"><strong>文字</strong></span>的</p>
+<h2><a class="anchor" href="https://meta.appinn.net#p-257836-h-3" name="p-257836-h-3"></a>平台要求</h2>
+<p>想求个web端的。<br />
+其实我是需要在Linux使用，干脆求个web端的软件</p>
+            <p><small>2 个帖子 - 2 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/69788">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Sun, 06 Apr 2025 04:24:04 +0000</pubDate>
+<pubDate>Sun, 06 Apr 2025 04:24:04 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】 大赚一笔记账App（iOS/安卓） - 功能齐全&amp;免费&amp;无广告&amp;自定义功能</title>
