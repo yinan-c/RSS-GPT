@@ -4,6 +4,43 @@
 <title>BrettTerpstra.com - The Mad Science of Brett Terpstra</title>
 <link>https://brettterpstra.com/</link>
 
+<item>
+<title>Markdown Lipsum API v3</title>
+<link>https://brett.trpstra.net/link/535/16999720/markdown-lipsum-api-v3</link>
+<guid>https://brett.trpstra.net/link/535/16999720/markdown-lipsum-api-v3</guid>
+<content:encoded><![CDATA[
+
+<p><img class="header" height="226" src="https://cdn3.brettterpstra.com/uploads/2025/04/md-lipsum-rb.7473.jpg" style="margin: 0 auto; clear: both;" width="800" /></p>
+
+<p>I&rsquo;ve published an entirely reworked version of my <a href="https://brettterpstra.com/md-lipsum/">Markdown Lorem Ipsum API</a>. It&rsquo;s a fix, but also a major improvement.</p>
+
+<p>The md-lipsum API gives you Lorem Ipsum in Markdown format, ready for use in testing and tools. The original version of it used an external API to generate the Lipsum, but that API has disappeared (as APIs are wont to do). I decided to just build my own. The API I built generates valid HTML markup, and then md-lipsum converts it into nicely-formatted Markdown. Given I was building it myself, I added additional markup and more capabilities.</p>
+
+<h3 id="api-v3">API v3</h3>
+
+<p>The v2 API still works — but redirects to v3 — if you had implemented that anywhere. The v3 API is at <code class="language-plaintext highlighter-rouge">https://brettterpstra.com/md-lipsum/api/3/</code>. It takes most of the same path parameters, but adds a new one for <code class="language-plaintext highlighter-rouge">mark</code> (to add <code class="language-plaintext highlighter-rouge">==highlights==</code>, separate from emphasis) and removes the <code class="language-plaintext highlighter-rouge">prude</code> option. Much like most of my other APIs, the <a href="https://brettterpstra.com/md-lipsum/">landing page for md-lipsum</a> now has an interactive query builder &mdash; just check the boxes you want and you&rsquo;ll get a URL you can copy. Every time that URL loads, it will be different random content, but with the same elements included. The builder even has a cool but stupid feature where editing the url in the field causes the checkboxes to update based on your changes.</p>
+
+<p>Check out the landing page, set some options, and hit <strong>Try</strong> to see how it works.</p>
+
+<h3 id="want-html-lipsum">Want HTML Lipsum?</h3>
+
+<p>Since I was also building an HTML backend for this, I went ahead and exposed that functionality as well. Rather than using path elements, these options use query parameters, so adding <code class="language-plaintext highlighter-rouge">?html=true</code> to any md-lipsum URL will output raw HTML, adding <code class="language-plaintext highlighter-rouge">?complete=true</code> will output the HTML as a complete document (with <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>), and adding <code class="language-plaintext highlighter-rouge">?preview=true</code> will display the result as a web page. The latter is handy when you want to quickly test basic DOM operations in your browser&rsquo;s web inspector, but not much else. But I already had it built, so why not make it available?</p>
+
+<h3 id="roadmap">Roadmap</h3>
+
+<p>This API functions on a relatively small amount of source Lorem Ipsum text. I&rsquo;d like to increase that a little bit, but I may also make it work with other sources of text. I have an outdated script that makes Lorem Ipsum out of books like <em>Alice in Wonderland</em> and <em>1984</em>, based on something read about Raingrams many years ago. I <em>think</em> it was <a href="https://leancrew.com/all-this/" title="Dr. Drang">Dr. Drang</a> who wrote about that. And there was a great Bacon lipsum generator, among other novelty APIs. I&rsquo;d like to carry on this tradition with some more interesting sources of text. The issue is that the current version uses large sentence fragments, rather than intelligently restructuring the text to create actual random sentences. That may change as I play more with other text sources.</p>
+
+<p>Like or share this post <a class="twitter" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F05%2Fmarkdown-lipsum-api-v3%2F&amp;text=Markdown+Lipsum+API+v3&amp;url=https%3A%2F%2Fbrettterpstra.com%2F2025%2F04%2F05%2Fmarkdown-lipsum-api-v3%2F&amp;via=ttscoff" rel="nofollow" target="_blank" title="Tweet this post">Twitter</a>.</p>
+<hr style="margin: 40px 0;" />
+
+<p>BrettTerpstra.com is supported by readers like you. <a href="https://brettterpstra.com/support/">Click here if you'd
+        like to help out.</a></p>
+<p>Find Brett on <a href="https://hachyderm.io/@ttscoff" rel="me">Mastodon</a>, <a href="https://bsky.app/profile/ttscoff.bsky.social">Bluesky</a>, <a href="https://github.com/ttscoff">GitHub</a>, and <a href="https://brettterpstra.com/elsewhere">everywhere
+        else</a>.</p><img height="1" src="https://brett.trpstra.net/link/535/16999720.gif" width="1" />
+]]></content:encoded>
+<pubDate>2025-04-05T14:38:00-05:00</pubDate>
+<pubDate>2025-04-05T14:38:00-05:00</pubDate>
+</item>
 
 <item>
 <title>SearchLink with URL Previews!</title>
