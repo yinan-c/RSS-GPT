@@ -4,6 +4,24 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>请问 U盘每次在mac系统使用后win7在进行复制就报错 如何解决？</title>
+<link>https://meta.appinn.net/t/topic/69947</link>
+<guid>https://meta.appinn.net/t/topic/69947</guid>
+<content:encoded><![CDATA[
+
+<p>闪迪的U盘，60GB，文件系统为：exFAT，</p>
+<p>两个系统分别是win7和mac</p>
+<p>win7报错信息为：<br />
+一个意外错误使您无法复制该文件夹。如果您继续收到此错误，可以使用错误代码来搜索有关此问题的帮助。<br />
+错误 0x80071AC3: 无法完成操作，因为卷有问题。请运行 chkdsk 并重试。</p>
+<p>每次格式化后就好了，能在两个系统之间传递，但是在mac系统使用一次后必然报错，导致win7系统无法向内复制文件，请问如何解决？</p>
+            <p><small>4 个帖子 - 3 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/69947">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Fri, 11 Apr 2025 03:09:26 +0000</pubDate>
+<pubDate>Fri, 11 Apr 2025 03:09:26 +0000</pubDate>
+</item>
 
 <item>
 <title>【开发者自荐】精准截图-AI时代的首款智能截图工具(开源免费)</title>
