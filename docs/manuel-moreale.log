@@ -11964,3 +11964,9 @@ error: Error code: 400 - {'error': {'message': 'Budget has been exceeded! Curren
 Append: [When a side project finds you](https://manuelmoreale.com/when-a-side-project-finds-you)
 append_entries: 1
 Finish: 2025-04-12 10:03:42.733760
+------------------------------------------------------
+Started: 2025-04-12 12:05:38.090469
+Existing_entries: 634
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2025-04-12 12:05:39.315786
