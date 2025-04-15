@@ -57460,3 +57460,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-04-15 02:31:45.890711
+------------------------------------------------------
+Started: 2025-04-15 04:04:39.791517
+Existing_entries: 793
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [求一个能完整下载网页文字和图片的chrome插件](https://meta.appinn.net/t/topic/70085)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2025-04-15 04:04:43.173444

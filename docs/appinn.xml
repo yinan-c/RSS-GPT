@@ -4,6 +4,25 @@
 <title>小众软件官方论坛 - 使用macos标记的话题</title>
 <link>https://meta.appinn.net/tag/macos</link>
 
+<item>
+<title>求一个能完整下载网页文字和图片的chrome插件</title>
+<link>https://meta.appinn.net/t/topic/70085</link>
+<guid>https://meta.appinn.net/t/topic/70085</guid>
+<content:encoded><![CDATA[
+
+<p>如题。有些特殊网址，需要后台挂着登录器，网址使用<a href="http://127.0.0.1:2000/" rel="noopener nofollow ugc">http://127.0.0.1:2000/</a>才可以访问。</p>
+<p>想保存一些这个网站的帖子，用了以下几种方法，各有优缺点：</p>
+<p>singlefile插件：保存为mhtml以后，mhtml文件里没有图片，只有纯文字。<br />
+浏览器自带的另存为：图片和文字都完整保存下来了，但是ublock插件屏蔽的广告也保存并显示出来了。<br />
+打印为PDF：可以把图片和文字完整保存下来，并且精简掉了ublock屏蔽的广告。但PDF阅读不太方便。<br />
+长图：日后浏览不太方便。</p>
+<p>求大佬们帮忙推荐一个插件，要求如下：浏览器对这个网页显示的是什么效果，就保存为什么样的效果（样式略有不对也能接受，但ublock屏蔽掉的区域不要保存），该有的图片不能缺失，格式为mhtml。</p>
+            <p><small>1 个帖子 - 1 位参与者</small></p>
+            <p><a href="https://meta.appinn.net/t/topic/70085">阅读完整话题</a></p>
+]]></content:encoded>
+<pubDate>Tue, 15 Apr 2025 03:28:42 +0000</pubDate>
+<pubDate>Tue, 15 Apr 2025 03:28:42 +0000</pubDate>
+</item>
 
 <item>
 <title>如何伪装mac界面为windows？</title>
