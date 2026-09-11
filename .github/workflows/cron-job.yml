@@ -1,56 +1,101 @@
-name: cron_job
+name: RSS-GPT Auto Update
 
-# Controls when the workflow will run
+
 on:
-  # cron job every 2 hours
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  schedule:
+    - cron: "0 */2 * * *"
+
+
+permissions:
+  contents: write
+
+
 jobs:
-  # This workflow contains a single job called "build"
+
   build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-20.04
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-latest
+
+
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.WORK_TOKEN }}
-    
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.8'
 
-      - name: Install dependencies
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+
+      - name: Install
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: ls_show
-        run: |
-          python main.py
-          ls -al docs/
+
+
+      - name: Check env
         env:
-          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
-          CUSTOM_MODEL: ${{ secrets.CUSTOM_MODEL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          U_NAME: ${{ secrets.U_NAME }}
-             
-      - name: PUSH
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          CUSTOM_MODEL: ${{ vars.CUSTOM_MODEL }}
+
         run: |
-          pwd
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        
-          git status -s
-          git add docs/*
-          git add README*
-          export TZ='Europe/London'
-          git commit -m "Auto Build at `date +"%Y-%m-%d %H:%M"`"
-        
-          echo "======git push===="
+          echo "BASE_URL=$OPENAI_BASE_URL"
+          echo "MODEL=$CUSTOM_MODEL"
+
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "API KEY missing"
+            exit 1
+          else
+            echo "API KEY exists"
+          fi
+
+
+      - name: Run RSS
+        env:
+
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          CUSTOM_MODEL: ${{ vars.CUSTOM_MODEL }}
+
+          U_NAME: ${{ secrets.U_NAME }}
+
+        run: |
+
+          python main.py
+
+          echo "docs:"
+          ls -al docs/
+
+
+      - name: Commit
+
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+
+          git add docs/
+
+
+          if git diff --cached --quiet;
+
+          then
+
+            echo "Nothing changed"
+
+            exit 0
+
+          fi
+
+
+          git commit -m "RSS update"
+
           git push
